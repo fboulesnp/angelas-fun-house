@@ -46,6 +46,13 @@ export class Renderer3D implements TableRenderer {
   private t = 0;
   private lastLevel = -1;
   private wasCelebrating = false;
+  /** One shared flasher light that pops where the action is. */
+  private flasher: THREE.PointLight;
+  private flash = 0;
+  /** Live reflections for the Wonderball (high/ultra). */
+  private cubeRT?: THREE.WebGLCubeRenderTarget;
+  private cubeCam?: THREE.CubeCamera;
+  private frameNo = 0;
 
   constructor(canvas: HTMLCanvasElement, session: GameSession, settings: Render3DSettings) {
     this.canvas = canvas;
@@ -99,10 +106,20 @@ export class Renderer3D implements TableRenderer {
     this.set = (this.def.set ?? defaultSet)(this.kit);
     scene.add(this.kit.root);
 
+    this.flasher = new THREE.PointLight(theme.lampOn, 0, 3.2, 2);
+    this.flasher.position.set(0, 0.6, 0);
+    scene.add(this.flasher);
+    if (settings.quality === 'ultra') {
+      this.cubeRT = new THREE.WebGLCubeRenderTarget(256, { type: THREE.HalfFloatType, generateMipmaps: true, minFilter: THREE.LinearMipmapLinearFilter });
+      this.cubeCam = new THREE.CubeCamera(0.05, 40, this.cubeRT);
+      scene.add(this.cubeCam);
+      this.balls.setReflection(this.cubeRT.texture);
+    }
     this.rig = new CameraRig(this.stage.camera);
     this.rig.preset = settings.camera;
     this.rig.reducedMotion = settings.reducedMotion;
     this.resize();
+    this.rig.introFly(2.2);
   }
 
   setCamera(p: CameraPreset) {
@@ -125,10 +142,17 @@ export class Renderer3D implements TableRenderer {
     } else if (kind === 'burst') {
       this.effects.burst(x, y, 10, 40, 2.4);
       this.rig.kick(0.4);
+      this.pop(x, y, 1);
     } else if (kind === 'hit') {
       this.effects.burst(x, y, 10, 5, 1.1);
       this.rig.kick(0.08);
+      this.pop(x, y, 0.6);
     }
+  }
+
+  private pop(x: number, y: number, strength: number) {
+    this.flasher.position.set(wx(x), 0.55, wz(y));
+    this.flash = Math.max(this.flash, strength);
   }
 
   render(dt: number) {
@@ -143,6 +167,17 @@ export class Renderer3D implements TableRenderer {
     }
     this.table.update(t, dt);
     this.balls.update(s.rt.world.balls, (b) => this.table.ballHeight(b.rampId, b.x, b.y), t);
+    this.flash = Math.max(0, this.flash - dt * 5);
+    this.flasher.intensity = this.flash * 9;
+    // Refresh the ball's reflection cube every third frame from the lead ball's position.
+    this.frameNo++;
+    const focus = this.balls.focus();
+    if (this.cubeCam && focus && this.frameNo % 3 === 0) {
+      this.cubeCam.position.copy(focus);
+      this.balls.setVisible(false);
+      this.cubeCam.update(this.stage.renderer, this.stage.scene);
+      this.balls.setVisible(true);
+    }
     this.effects.update(frozen ? 0 : dt);
     this.kit.tick(t, frozen ? 0 : dt);
     this.set.update(t, dt, level, s.energy);
@@ -158,6 +193,7 @@ export class Renderer3D implements TableRenderer {
   }
 
   dispose() {
+    this.cubeRT?.dispose();
     this.set.dispose?.();
     this.kit.dispose();
     this.table.dispose();

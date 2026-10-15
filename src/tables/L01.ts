@@ -181,7 +181,7 @@ const midwayRoom: RoomBuilder = ({ kit }) => {
 export const L01: TableDef = {
   lessonId: 'L01',
   signature: 'Element-sign bumpers that power a neon periodic marquee',
-  ballRole: 'Here the Wonderball is a game token, not an atom: real atoms are far too small to see.',
+  ballRole: 'The Wonderball is a game token, not an atom: real atoms are far too small to see with your eyes, and they do not bounce around like pinballs.',
   theme: {
     bg: ['#2a1650', '#151032'],
     rail: '#c9b8e8',

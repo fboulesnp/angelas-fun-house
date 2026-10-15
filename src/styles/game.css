@@ -68,6 +68,22 @@
   font-variant-numeric: tabular-nums;
   color: var(--ivory);
 }
+/* Dot-matrix style score panel, a nod to classic pinball displays */
+.hud-score {
+  min-width: 160px;
+  background:
+    radial-gradient(circle, rgba(255, 140, 40, 0.09) 0 1px, transparent 1.6px) 0 0 / 4px 4px,
+    linear-gradient(180deg, #1a0d06, #0d0603);
+  box-shadow: inset 0 0 0 2px rgba(255, 140, 40, 0.25), inset 0 0 18px rgba(0, 0, 0, 0.8);
+}
+.hud-score .hud-value {
+  color: #ffb347;
+  letter-spacing: 0.06em;
+  text-shadow: 0 0 6px rgba(255, 150, 50, 0.85), 0 0 14px rgba(255, 120, 30, 0.45);
+}
+.hud-score .hud-label {
+  color: rgba(255, 179, 71, 0.7);
+}
 
 .mission-card {
   grid-area: mission;
@@ -223,17 +239,17 @@
   border-radius: 999px;
 }
 
-/* Callouts sit along the top edge of the stage, never over the flippers. */
+/* Desktop: callouts live in the side column under the mission card, never over the table.
+   Portrait/small: they float at the top of the stage and fade whenever a ball passes under. */
 .callouts {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(560px, 92%);
+  grid-area: mission;
+  align-self: end;
   display: flex;
   flex-direction: column;
   gap: 6px;
   pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 5;
 }
 .callout {
   display: flex;
@@ -658,6 +674,16 @@
 /* ---------------------------------------------------------------- portrait / small */
 
 @media (max-width: 860px), (orientation: portrait) {
+  .callouts {
+    grid-area: stage;
+    align-self: start;
+    justify-self: center;
+    width: min(520px, 94%);
+    margin-top: 8px;
+  }
+  .callouts.faded {
+    opacity: 0.18;
+  }
   .game-screen {
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto auto minmax(0, 1fr) auto;
@@ -737,4 +763,7 @@
   .mission-steps {
     display: none;
   }
+}
+.callout svg {
+  flex: none;
 }

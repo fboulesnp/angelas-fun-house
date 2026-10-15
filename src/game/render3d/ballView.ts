@@ -24,6 +24,20 @@ export class BallView {
   readonly root = new THREE.Group();
   private meshes = new Map<number, BallMesh>();
   private shellMat: THREE.MeshPhysicalMaterial;
+
+  /** Use a live cube map (the real table) for the glass ball's reflections. */
+  setReflection(tex: THREE.Texture | null) {
+    this.shellMat.envMap = tex;
+    this.shellMat.needsUpdate = true;
+  }
+
+  /** Hide/show every ball mesh (for capturing reflections without the ball itself). */
+  setVisible(v: boolean) {
+    for (const m of this.meshes.values()) {
+      m.group.visible = v && m.group.userData.inPlay !== false;
+      m.trail.visible = v && m.trail.userData.wanted !== false;
+    }
+  }
   private coreMat: THREE.MeshStandardMaterial;
   private shadowMat: THREE.MeshBasicMaterial;
   private trailMat: THREE.ShaderMaterial;
@@ -110,8 +124,10 @@ export class BallView {
       const h = heightOf(b);
       const visible = b.state !== 'transit';
       m.group.visible = visible;
+      m.group.userData.inPlay = visible;
       m.shadow.visible = visible;
       m.trail.visible = visible && !this.reducedMotion && this.trailLength > 0;
+      m.trail.userData.wanted = m.trail.visible;
       const x = wx(b.x);
       const z = wz(b.y);
       const y = h + 12 * K;

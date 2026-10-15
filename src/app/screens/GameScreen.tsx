@@ -45,6 +45,8 @@ interface HudState {
   tilt: number;
   ballInLane: boolean;
   multiball: boolean;
+  /** A live ball is in the top of the table (callouts fade so they never hide it). */
+  ballNearTop: boolean;
   run: number;
   continued: boolean;
 }
@@ -286,7 +288,7 @@ export function GameScreen(p: Props) {
     if (q.has('autostart') && phase === 'intro' && content !== undefined && def) start();
   }, [content, def]);
   useEffect(() => {
-    if (new URLSearchParams(location.search).has('test')) (window as unknown as { __afh: unknown }).__afh = { session: () => sessionRef.current, renderer: () => rendererRef.current, loop: () => loopRef.current };
+    if (new URLSearchParams(location.search).has('test')) (window as unknown as { __afh: unknown }).__afh = { session: () => sessionRef.current, renderer: () => rendererRef.current, loop: () => loopRef.current, audio };
   });
 
   // Resize + teardown
@@ -398,6 +400,17 @@ export function GameScreen(p: Props) {
           </>
         )}
       </aside>
+      <div class={`callouts ${h?.ballNearTop ? 'faded' : ''}`} aria-live="polite">
+          {callouts.map((c) => (
+            <div class={`callout ${c.tone}`} key={c.id}>
+              {c.speaker && <Speaker who={c.speaker} size={44} />}
+              <div>
+                <div class="callout-text">{c.text}</div>
+                {c.sub && <div class="callout-sub">{c.sub}</div>}
+              </div>
+            </div>
+          ))}
+        </div>
 
       <div class="stage" ref={stageRef} tabIndex={0} role="application" aria-roledescription="pinball table" aria-label={`${lesson.attractionTitle} pinball table. Use ${keyLabel(settings.bindings.left[0])} and ${keyLabel(settings.bindings.right[0])} for flippers, hold ${keyLabel(settings.bindings.plunger[0])} to launch.`}>
         <canvas ref={canvasRef} class="table-canvas" />
@@ -409,17 +422,6 @@ export function GameScreen(p: Props) {
             <small>Press any control to skip</small>
           </div>
         )}
-        <div class="callouts" aria-live="polite">
-          {callouts.map((c) => (
-            <div class={`callout ${c.tone}`} key={c.id}>
-              {c.speaker && <Speaker who={c.speaker} size={44} />}
-              <div>
-                <div class="callout-text">{c.text}</div>
-                {c.sub && <div class="callout-sub">{c.sub}</div>}
-              </div>
-            </div>
-          ))}
-        </div>
         {caption && <div class="sound-caption" aria-hidden="true">[{caption}]</div>}
       </div>
 
@@ -565,6 +567,7 @@ function snapshot(s: GameSession): HudState {
     tilt: s.tiltMeter,
     ballInLane: s.rt.world.balls.some((b) => b.state === 'shooter'),
     multiball: s.multiball,
+    ballNearTop: s.rt.world.balls.some((b) => b.state === 'live' && b.y < 330),
     run: s.run,
     continued: s.continued,
   };

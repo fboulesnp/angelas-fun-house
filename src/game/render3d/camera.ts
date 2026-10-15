@@ -82,6 +82,15 @@ export class CameraRig {
     cam.lookAt(this.look);
   }
 
+  /** Opening fly-in: start high above the set and settle onto the cabinet framing. */
+  private intro = 0;
+  private introDur = 0;
+  introFly(seconds = 2.2) {
+    if (this.reducedMotion) return;
+    this.intro = seconds;
+    this.introDur = seconds;
+  }
+
   kick(amount: number) {
     if (!this.reducedMotion) this.shake = Math.min(1, this.shake + amount);
   }
@@ -97,6 +106,14 @@ export class CameraRig {
     this.cine += (this.cineTarget - this.cine) * Math.min(1, dt * 1.6);
     cam.position.copy(this.base);
     const look = this.look.clone();
+    if (this.intro > 0) {
+      this.intro = Math.max(0, this.intro - dt);
+      const k = 1 - this.intro / this.introDur;
+      const e = 1 - Math.pow(1 - k, 3);
+      const from = this.base.clone().add(new THREE.Vector3(Math.sin(t * 0.2) * 2, 9, -2));
+      cam.position.lerpVectors(from, this.base, e);
+      look.lerpVectors(new THREE.Vector3(0, 0, -7), this.look, e);
+    }
     if (this.cine > 0.001) {
       const k = this.cine * this.cine * (3 - 2 * this.cine);
       cam.position.lerp(this.cineFocus.clone().add(new THREE.Vector3(Math.sin(t * 0.3) * 0.8, 3.2, 4.2)), k * 0.55);
