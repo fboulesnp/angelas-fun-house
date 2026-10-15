@@ -18,6 +18,7 @@ export default defineConfig({
       },
     },
   },
-  server: { port: 5199, strictPort: true },
+  // AFH_NO_HMR=1 keeps pages from reloading while tools capture screenshots during parallel edits.
+  server: { port: 5199, strictPort: true, hmr: process.env.AFH_NO_HMR ? false : undefined },
   preview: { port: 5198, strictPort: true },
 });

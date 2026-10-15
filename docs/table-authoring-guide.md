@@ -71,6 +71,32 @@ Geometry tips that the bot exposed on L01: orbit channels ≥ 44 wide with an ex
 ramp mouths flared (≈ 70 wide narrowing to the ramp width); don't put targets in front of a
 ramp mouth or orbit entrance; drop banks need a backstop with < 12-unit gap behind them.
 
+Lessons from the first twelve builds (engine behaviour to design around):
+
+- **Kickbacks:** an exit deflector directly above an outlane blocks the kickback, which then
+  fires into the deflector and drains. If you use a kickback, keep its column clear (one-way
+  gates make good loop exits) and confirm in a soak that kickback saves happen.
+- **Pockets:** `Saucer` captures below `captureMaxSpeed` (default 1700). Mid-table pockets hit
+  by direct flipper shots usually need ≈ 2400. The sensor radius is 11, so funnel the ball.
+- **Sensors** (rollovers, switches) fire only when the ball centre enters the sensor radius.
+- **Drop banks:** a bank only re-raises targets the ball isn't touching, but in-line banks can
+  still close behind a ball; guard with a small Mechanism subclass if your layout needs it.
+  Shot-map trials are single shots, so a multi-target bank shows as "not reachable from a
+  cradle or inlane feed" — that is expected. Match single `drop` events (`distinct`) for
+  collect stages so the aiming bot can target them.
+- **Aiming bot limits:** it aims only the lower flippers and learns inlane timings from a slow
+  feed, so fast ramp/orbit returns straight into an inlane drain more often in soaks. Make
+  every mission-critical shot reachable from the lower flippers; serpentine or gated returns
+  help.
+- **3D labels:** the 3D view draws rollover, target and saucer floor labels, but not ramp,
+  portal or spinner labels, nor saucer/rollover icons; paint those names and icons into
+  `scenery.backdrop`. Saucer floor labels sit 45 units below the saucer; keep them short.
+- `set.update` keeps running while paused: route motion through `kit.animate`.
+- `kit.mats.wood()` (clearcoat) under a spot can bloom; prefer a matte material there.
+- `kit.stringLights` uses one mesh per bulb; count them against the mesh budget.
+- **Scratch files:** the scratchpad is shared by parallel agents. Keep yours in a
+  sub-folder named after your lesson (e.g. `scratchpad/L19/`).
+
 ## Shots, missions, finale
 
 - `shots`: named shots (`{ id, label, on: Match[], insert }`). Matches use event `type`
@@ -123,9 +149,11 @@ ship a recolor of L01. The playfield should read as the lesson's world at a glan
 `src/game/render3d/setKit.ts` and L01's `midwaySet`). World space: playfield X −3…3,
 Z −5.75…5.75 at Y = 0; cabinet rails to ±3.35; ground at Y = −0.42.
 
-- **Where it shows:** the side regions X ±3.8…±8.5, Z −6…5 (largest on desktop), the top
-  corners near (±6, ·, −6), and a thin strip behind the head (Z < −6.4). Signs should tilt back
-  (rotation.x ≈ −0.6) to face the elevated camera. Nothing may hang over the playfield.
+- **Where it shows:** the side regions X ±3.8…±8.5, Z −6…5 (largest on desktop) and the top
+  corners near (±5…7, y ≤ 2.5, z ≈ −5). The strip behind the head (Z < −6.4) is only seen
+  during the intro fly-in, so put hero pieces and the level-4 spectacle in the side regions
+  and corners. Signs should tilt back (rotation.x ≈ −0.6) to face the elevated camera.
+  Nothing may hang over the playfield.
 - **Kit pieces:** `sky`, `ground`, `boardwalk`, `backdrop`, `spot`, `point` (≤ 3 lights total),
   `neonTube`, `neonSign`, `panel`, `stringLights`, `pole`, `lantern`, `crystal`, `rock`,
   `tree`, `cloud`, `gear`, `water`, `motes`, `tent`, `orb`, `cloudOfPoints`, `booth`,

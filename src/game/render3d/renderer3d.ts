@@ -180,7 +180,7 @@ export class Renderer3D implements TableRenderer {
     }
     this.effects.update(frozen ? 0 : dt);
     this.kit.tick(t, frozen ? 0 : dt);
-    this.set.update(t, dt, level, s.energy);
+    this.set.update(t, frozen ? 0 : dt, level, s.energy);
     const celebrating = s.state === 'celebrate';
     if (celebrating) this.set.celebrate?.(s.celebrateProgress, t);
     if (celebrating !== this.wasCelebrating) {

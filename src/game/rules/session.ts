@@ -486,11 +486,18 @@ export class GameSession {
 
   // ------------------------------------------------------------------ missions + lamps
 
+  /** Lamps the previous mission lamp plan lit, so a finished stage doesn't leave them on. */
+  private plannedLamps = new Set<string>();
+
   refreshLamps() {
     const r = this.runner;
     // reset all lamps the mission system controls
     for (const m of this.rt.order) {
       if (m.kind === 'insert') m.lamp = 'off';
+    }
+    for (const id of this.plannedLamps) {
+      const m = this.rt.find(id);
+      if (m && m.kind !== 'kickback' && (m.lamp === 'on' || m.lamp === 'flash')) m.lamp = 'off';
     }
     const useful = new Set(r.usefulShots());
     for (const s of this.def.shots) {
@@ -504,6 +511,7 @@ export class GameSession {
       if (ins) ins.lamp = 'pulse';
     }
     const plan = r.lampPlan();
+    this.plannedLamps = new Set([...plan.on, ...plan.flash]);
     for (const id of plan.on) {
       const m = this.rt.find(id);
       if (m) m.lamp = 'on';

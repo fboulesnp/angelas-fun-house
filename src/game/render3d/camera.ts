@@ -101,23 +101,34 @@ export class CameraRig {
     if (focus) this.cineFocus.copy(focus);
   }
 
+  // Scratch vectors so the per-frame update never allocates.
+  private tmpLook = new THREE.Vector3();
+  private tmpFrom = new THREE.Vector3();
+  private tmpV = new THREE.Vector3();
+  private static readonly INTRO_LOOK = new THREE.Vector3(0, 0, -7);
+
   update(dt: number, t: number) {
     const cam = this.camera;
     this.cine += (this.cineTarget - this.cine) * Math.min(1, dt * 1.6);
     cam.position.copy(this.base);
-    const look = this.look.clone();
+    const look = this.tmpLook.copy(this.look);
     if (this.intro > 0) {
       this.intro = Math.max(0, this.intro - dt);
       const k = 1 - this.intro / this.introDur;
       const e = 1 - Math.pow(1 - k, 3);
-      const from = this.base.clone().add(new THREE.Vector3(Math.sin(t * 0.2) * 2, 9, -2));
+      const from = this.tmpFrom.copy(this.base).add(this.tmpV.set(Math.sin(t * 0.2) * 2, 9, -2));
       cam.position.lerpVectors(from, this.base, e);
-      look.lerpVectors(new THREE.Vector3(0, 0, -7), this.look, e);
+      look.lerpVectors(CameraRig.INTRO_LOOK, this.look, e);
     }
     if (this.cine > 0.001) {
+      // Celebration reveal: rise, pull back and drift sideways so the awakened set on both
+      // sides of the cabinet comes into view, while still facing the table.
       const k = this.cine * this.cine * (3 - 2 * this.cine);
-      cam.position.lerp(this.cineFocus.clone().add(new THREE.Vector3(Math.sin(t * 0.3) * 0.8, 3.2, 4.2)), k * 0.55);
-      look.lerp(this.cineFocus, k * 0.6);
+      const away = this.tmpV.copy(this.base).sub(this.look).multiplyScalar(0.32 * k);
+      cam.position.add(away);
+      cam.position.x += Math.sin(t * 0.35) * 2.2 * k;
+      cam.position.y += 0.8 * k;
+      look.lerp(this.cineFocus, 0.12 * k);
     }
     if (this.shake > 0.001) {
       cam.position.x += (Math.random() - 0.5) * this.shake * 0.04;

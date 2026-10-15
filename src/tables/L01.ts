@@ -37,7 +37,9 @@ function build(b: TableBuilder) {
   b.wall([[74, 640], [74, 372]], { id: 'left_orbit_inner', r: 3 });
   b.post(74, 368, 5);
   b.shotSwitch('left_orbit_sw', 49, 470, -90);
-  b.wall([[FRAME.left, 646], [54, 694]], { id: 'left_orbit_deflect', r: 3 });
+  // A one-way gate rather than a wall: orbit exits are still deflected into play, but the
+  // kickback below the left outlane can fire up through it and drop back onto it.
+  b.gate('left_orbit_deflect', [FRAME.left, 646], [54, 694], -90);
 
   // --- Right orbit channel + exit deflector ---
   b.wall([[498, 640], [498, 372]], { id: 'right_orbit_inner', r: 3 });

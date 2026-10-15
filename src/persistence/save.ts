@@ -131,7 +131,7 @@ export function newSave(now = new Date().toISOString()): SaveData {
     wingIntrosSeen: Object.fromEntries(WINGS.map((w) => [w.id, false])) as Record<WingId, boolean>,
     finaleSeen: false,
     learning: { seq: 0, responses: {} },
-    cosmetics: { trail: 'mint', trim: 'gold', stickers: [] },
+    cosmetics: { trail: 'mint', trim: 'walnut', stickers: [] },
     bests: {},
   };
 }
@@ -229,7 +229,7 @@ export function normalize(raw: unknown): SaveData {
     const c = d.cosmetics as Record<string, unknown>;
     out.cosmetics = {
       trail: typeof c.trail === 'string' ? c.trail : 'mint',
-      trim: typeof c.trim === 'string' ? c.trim : 'gold',
+      trim: typeof c.trim === 'string' ? c.trim : 'walnut',
       stickers: Array.isArray(c.stickers) ? c.stickers.filter((x): x is string => typeof x === 'string') : [],
     };
   }

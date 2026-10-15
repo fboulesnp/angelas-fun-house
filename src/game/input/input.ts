@@ -67,11 +67,10 @@ export class InputController {
     const kd = (e: KeyboardEvent) => this.onKey(e, true);
     const ku = (e: KeyboardEvent) => this.onKey(e, false);
     const blur = () => this.releaseAll();
+    // Only release inputs here: the game screen owns pausing on hide (a second toggle here
+    // would immediately un-pause it).
     const vis = () => {
-      if (document.hidden) {
-        this.releaseAll();
-        if (this.active) this.sink.pause();
-      }
+      if (document.hidden) this.releaseAll();
     };
     window.addEventListener('keydown', kd);
     window.addEventListener('keyup', ku);

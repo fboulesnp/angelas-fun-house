@@ -144,6 +144,23 @@ describe('pause and question parking', () => {
     expect(s.rt.world.balls.every((b) => b.saveUntil > s.rt.time - 0.5 || b.state !== 'live')).toBe(true);
   });
 
+  it('lamps lit by a finished collect stage go dark when the next stage starts', () => {
+    const { s } = session();
+    launch(s);
+    for (let i = 0; i < 8; i++) s.rt.emit({ type: 'bumper', id: 'bumper_he', group: 'elements', x: 0, y: 0 });
+    step(s, 1);
+    expect(s.rt.find('matter_target')!.lamp).toBe('flash');
+    s.rt.emit({ type: 'target', id: 'matter_target', group: 'sort', x: 0, y: 0 });
+    step(s, 1);
+    expect(s.rt.find('matter_target')!.lamp).toBe('on');
+    s.rt.emit({ type: 'target', id: 'nonmatter_target', group: 'sort', x: 0, y: 0 });
+    step(s, 1);
+    expect(s.runner.stage?.kind).toBe('discover');
+    expect(s.rt.find('matter_target')!.lamp).toBe('off');
+    expect(s.rt.find('nonmatter_target')!.lamp).toBe('off');
+    expect(s.rt.find('microscope')!.lamp).toBe('flash');
+  });
+
   it('wrong answers still complete the mission and never cost balls', async () => {
     const { s } = session({}, false);
     launch(s);

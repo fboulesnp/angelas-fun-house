@@ -81,6 +81,47 @@ const rightPressed = await page.evaluate(() => (window as unknown as { __afh: { 
 await page.keyboard.up('ArrowRight');
 check('window blur releases held flippers', rightPressed === false);
 
+// 3b. Resizing mid-game re-fits the view without disturbing the simulation
+type W = { __afh: { session(): { state: string; rt: { world: { balls: { x: number; y: number }[] } } } } };
+const canvasW = () => page.evaluate(() => document.querySelector('.stage canvas')?.clientWidth ?? 0);
+const w0 = await canvasW();
+await page.setViewportSize({ width: 820, height: 1100 });
+await page.waitForTimeout(600);
+const w1 = await canvasW();
+const sane = await page.evaluate(() => {
+  const ss = (window as unknown as W).__afh.session();
+  return ss.state !== 'gameover' && ss.rt.world.balls.every((b) => Number.isFinite(b.x) && Number.isFinite(b.y));
+});
+await page.setViewportSize({ width: 1400, height: 900 });
+await page.waitForTimeout(400);
+check('resizing mid-game re-fits the view and keeps the simulation sane', w1 !== w0 && w1 > 0 && sane, `${w0} -> ${w1}`);
+
+// 3c. Hiding the tab pauses the game (and the pause card offers settings)
+await page.evaluate(() => {
+  Object.defineProperty(document, 'hidden', { configurable: true, get: () => true });
+  document.dispatchEvent(new Event('visibilitychange'));
+});
+await page.waitForTimeout(250);
+s = await session();
+await page.evaluate(() => {
+  Object.defineProperty(document, 'hidden', { configurable: true, get: () => false });
+  document.dispatchEvent(new Event('visibilitychange'));
+});
+check('hiding the tab pauses the game', s?.state === 'paused', JSON.stringify(s));
+
+// 3d. Changing the camera from Pause keeps the game paused and intact, then resumes
+const balls0 = JSON.stringify((await session())?.balls);
+await page.locator('.pause-card select').selectOption('overhead');
+await page.waitForTimeout(300);
+s = await session();
+check('changing the camera from Pause keeps the paused game', s?.state === 'paused' && JSON.stringify(s.balls) === balls0);
+await page.locator('.pause-card select').selectOption('cabinet');
+await page.getByRole('button', { name: 'Resume' }).click();
+await page.waitForTimeout(400);
+s = await session();
+check('Resume returns to play', s?.state === 'play' || s?.state === 'ready', JSON.stringify(s));
+await page.locator('.stage').focus();
+
 // 4. Escape opens pause; exit to mansion by keyboard
 const before = await session();
 await page.keyboard.press('Escape');
@@ -106,27 +147,76 @@ await page.waitForTimeout(800);
 const dialogOpen = (await page.getByRole('dialog').count()) === 1;
 check('question dialog opens with focus on the prompt', dialogOpen && (await page.evaluate(() => document.activeElement?.id)) === 'q-title');
 // Answer whatever control type appears using only the keyboard.
-let answered = false;
-for (let i = 0; i < 25 && !answered; i++) {
-  await page.keyboard.press('Tab');
-  const info = await page.evaluate(() => {
-    const el = document.activeElement as HTMLInputElement | null;
-    return { tag: el?.tagName, type: el?.type, text: el?.innerText ?? '', role: el?.getAttribute('role'), disabled: (el as HTMLButtonElement | null)?.disabled };
-  });
-  if (info.tag === 'INPUT' && (info.type === 'radio' || info.type === 'checkbox')) await page.keyboard.press('Space');
-  if (info.role === 'radio') await page.keyboard.press('Enter');
-  if (info.tag === 'SELECT') {
-    await page.keyboard.press('ArrowDown');
+async function answerByKeyboard(p: Page) {
+  for (let i = 0; i < 25; i++) {
+    await p.keyboard.press('Tab');
+    const info = await p.evaluate(() => {
+      const el = document.activeElement as HTMLInputElement | null;
+      return { tag: el?.tagName, type: el?.type, text: el?.innerText ?? '', role: el?.getAttribute('role'), disabled: (el as HTMLButtonElement | null)?.disabled };
+    });
+    if (info.tag === 'INPUT' && (info.type === 'radio' || info.type === 'checkbox')) await p.keyboard.press('Space');
+    if (info.role === 'radio') await p.keyboard.press('Enter');
+    if (info.tag === 'SELECT') await p.keyboard.press('ArrowDown');
+    if (info.tag === 'INPUT' && info.type === 'text') await p.keyboard.type('1');
+    if (info.text.includes('Check answer') && !info.disabled) {
+      await p.keyboard.press('Enter');
+      return true;
+    }
   }
-  if (info.tag === 'INPUT' && info.type === 'text') await page.keyboard.type('1');
-  if (info.text.includes('Check answer') && !info.disabled) {
-    await page.keyboard.press('Enter');
-    answered = true;
-  }
+  return false;
 }
+const answered = await answerByKeyboard(page);
 await page.waitForTimeout(400);
 const fb = await page.locator('.feedback').count();
 check('a question can be answered with the keyboard and shows feedback', answered && fb === 1);
+
+// 6. A Wonder Pocket discovery during play: the ball parks, the question is answered by
+// keyboard, the mission completes, and the save survives a reload.
+await page.goto(base + '/?table=L01&autostart&test', { waitUntil: 'networkidle' });
+await page.waitForFunction(() => !!(window as unknown as { __afh?: { session(): unknown } }).__afh?.session(), null, { timeout: 30000 });
+await page.waitForTimeout(2600);
+await page.locator('.stage').focus();
+await page.keyboard.down('Space');
+await page.waitForTimeout(500);
+await page.keyboard.up('Space');
+await page.waitForTimeout(800);
+await page.evaluate(() => {
+  type S = { rt: { emit(e: object): void; world: { balls: { state: string }[] }; get(id: string): { capture(b: unknown): void } } };
+  const ss = (window as unknown as { __afh: { session(): S } }).__afh.session();
+  for (let i = 0; i < 8; i++) ss.rt.emit({ type: 'bumper', id: 'bumper_he', group: 'elements', x: 0, y: 0 });
+  ss.rt.emit({ type: 'target', id: 'matter_target', group: 'sort', x: 0, y: 0 });
+  ss.rt.emit({ type: 'target', id: 'nonmatter_target', group: 'sort', x: 0, y: 0 });
+});
+await page.waitForTimeout(300);
+await page.evaluate(() => {
+  type S = { rt: { world: { balls: { state: string }[] }; get(id: string): { capture(b: unknown): void } } };
+  const ss = (window as unknown as { __afh: { session(): S } }).__afh.session();
+  const ball = ss.rt.world.balls.find((b) => b.state === 'live');
+  if (ball) ss.rt.get('microscope').capture(ball);
+});
+await page.waitForTimeout(1200);
+s = await session();
+const qOpen = (await page.getByRole('dialog').count()) === 1;
+check('Wonder Pocket parks the ball and opens a discovery question', s?.state === 'parked' && qOpen, JSON.stringify(s));
+const answeredInGame = await answerByKeyboard(page);
+await page.waitForTimeout(400);
+let continued = false;
+for (let i = 0; i < 12 && !continued; i++) {
+  await page.keyboard.press('Tab');
+  const t = await page.evaluate(() => (document.activeElement as HTMLElement)?.innerText ?? '');
+  if (/^(Continue|Next question)/.test(t.trim())) {
+    await page.keyboard.press('Enter');
+    continued = true;
+  }
+}
+await page.waitForTimeout(800);
+s = await session();
+check('answering by keyboard resumes the game', answeredInGame && continued && (s?.state === 'celebrate' || s?.state === 'play'), JSON.stringify(s));
+const saved = () => page.evaluate(() => JSON.parse(localStorage.getItem('angelas-fun-house.save') ?? '{}').progress?.L01?.missions?.[0] === true);
+check('the completed mission is saved', await saved());
+await page.reload({ waitUntil: 'networkidle' });
+await page.waitForTimeout(1500);
+check('the save survives a reload', await saved());
 
 check('no page errors', errors.length === 0, errors.slice(0, 3).join(' | '));
 console.log(`\n${failures ? failures + ' FAILED' : 'ALL PASSED'}`);
