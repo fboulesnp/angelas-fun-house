@@ -135,7 +135,7 @@ export function SettingsScreen({ back }: { back(): void }) {
           </label>
           <label class="field">3D quality
             <select value={s.quality} onChange={(e) => setSetting('quality', (e.target as HTMLSelectElement).value as 'auto')}>
-              <option value="auto">Automatic (adapts to your device)</option>
+              <option value="auto">Automatic (adapts)</option>
               <option value="ultra">Ultra (ambient occlusion, 4K shadows)</option>
               <option value="high">High</option>
               <option value="medium">Medium</option>

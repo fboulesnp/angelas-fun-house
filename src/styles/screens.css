@@ -346,8 +346,32 @@
 }
 .explorer .panel,
 .journal .panel {
-  margin-bottom: 14px;
-  max-width: 900px;
+  margin: 0 auto 14px;
+  width: min(900px, 100%);
+}
+.explorer > .lead,
+.journal > .lead,
+.explorer > .screen-header,
+.journal > .screen-header {
+  width: min(900px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+.explorer .room-list,
+.journal .room-list {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+.explorer-hero {
+  width: min(900px, 100%);
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.explorer-hero .chip {
+  font-size: 0.85rem;
 }
 .explorer-card .obj-head {
   display: flex;
@@ -368,7 +392,8 @@
 .explorer-nav {
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
+  width: min(900px, 100%);
+  margin: 0 auto;
 }
 .glossary dt {
   font-weight: 800;
@@ -566,4 +591,29 @@
     justify-content: center;
     text-align: center;
   }
+}
+.settings-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+}
+.settings-grid .panel {
+  min-width: 0;
+}
+.settings-grid h2 {
+  font-size: 1.45rem;
+}
+.settings-grid select,
+.settings-grid input[type='text'],
+.settings-grid input[type='range'] {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+label.field {
+  min-width: 0;
+}
+.toggle input {
+  flex: none;
+}
+.toggle > span {
+  min-width: 0;
 }

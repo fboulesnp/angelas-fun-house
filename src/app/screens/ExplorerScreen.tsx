@@ -2,7 +2,8 @@
 // same reviewed questions, diagrams and explanations as the attractions.
 
 import { useEffect, useState } from 'preact/hooks';
-import { LESSONS, LESSON_BY_ID, WINGS, type LessonId } from '../../content/curriculum.ts';
+import { LESSONS, LESSON_BY_ID, WINGS, wingOf, type LessonId } from '../../content/curriculum.ts';
+import { hasTable } from '../../tables/index.ts';
 import { hasLessonContent, loadLesson, type LoadedLesson } from '../../content/loader.ts';
 import { lessonBadgeEarned, objectiveMastery, recordResponse, selectQuestions } from '../../learning/engine.ts';
 import type { Question } from '../../content/schema.ts';
@@ -74,6 +75,11 @@ export function ExplorerScreen({ lessonId, go }: { lessonId?: LessonId; go(r: Ro
         <h1>Lesson {l.number}: {l.lessonTitle}</h1>
         {badge && <span class="chip star">Science Star</span>}
       </header>
+      <div class="explorer-hero">
+        <span class="chip">{wingOf(lessonId).name}</span>
+        <span class="chip">Attraction: {l.attractionTitle}</span>
+        {hasTable(lessonId) && <button class="btn small secondary" onClick={() => go({ name: 'play', lessonId, mode: 'chapter', practice: false })}>Play the attraction</button>}
+      </div>
       <p class="lead"><em>{content.lesson.guidingQuestion}</em></p>
       <section class="panel">
         <h2>Big ideas</h2>
