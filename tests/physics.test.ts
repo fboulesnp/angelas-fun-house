@@ -134,3 +134,88 @@ describe('scoring contacts are debounced', () => {
     expect(n).toBeLessThanOrEqual(4);
   });
 });
+
+describe('layers, ramps and portals', () => {
+  it('a ramp shot climbs onto the ramp layer and returns to the playfield at its exit', async () => {
+    const { L01 } = await import('../src/tables/L01.ts');
+    let made = 0;
+    for (const vx of [-40, 0, 40]) {
+      const rt = new TableRuntime();
+      L01.build(new TableBuilder(rt));
+      rt.world.finalize();
+      const ball = rt.world.addBall(150, 690);
+      ball.state = 'live';
+      ball.vx = vx;
+      ball.vy = -2500;
+      let sawRamp = false;
+      let completed = false;
+      for (let i = 0; i < 120 * 4 && !completed; i++) {
+        rt.step(1 / 120);
+        if (ball.layer === 1) sawRamp = true;
+        for (const e of rt.drainEvents()) if (e.type === 'ramp' && e.id === 'property_ramp') completed = true;
+      }
+      if (!completed) continue;
+      made++;
+      expect(sawRamp).toBe(true);
+      // Let it roll off the end: it must land back on the playfield layer, inside the table.
+      for (let i = 0; i < 60; i++) rt.step(1 / 120);
+      expect(ball.layer).toBe(0);
+      expect(ball.rampId).toBeNull();
+      expect(ball.x).toBeGreaterThan(24);
+      expect(ball.y).toBeLessThan(1150);
+    }
+    expect(made).toBeGreaterThanOrEqual(2);
+  });
+
+  it('a portal holds the ball in transit, then releases it at the exit with a ball save', () => {
+    const { rt, b } = frame();
+    const portal = b.portal('test_portal', [300, 500], { x: 300, y: 300, deg: -90, speed: 600 });
+    rt.world.finalize();
+    const ball = rt.world.addBall(300, 460);
+    ball.state = 'live';
+    ball.vy = 300;
+    let events = 0;
+    let transitSeen = false;
+    for (let i = 0; i < 120 && ball.state !== 'transit'; i++) {
+      rt.step(1 / 120);
+      events += rt.drainEvents().filter((e) => e.type === 'portal').length;
+    }
+    expect(ball.state).toBe('transit');
+    for (let i = 0; i < 120 * 2; i++) {
+      rt.step(1 / 120);
+      if (ball.state === 'transit') transitSeen = true;
+      events += rt.drainEvents().filter((e) => e.type === 'portal').length;
+      if (ball.state === 'live') break;
+    }
+    expect(transitSeen).toBe(true);
+    expect(events).toBe(1);
+    expect(ball.state).toBe('live');
+    expect(ball.layer).toBe(0);
+    expect(Math.abs(ball.x - 300)).toBeLessThan(20);
+    expect(ball.vy).toBeLessThan(0);
+    expect(ball.saveUntil).toBeGreaterThan(rt.time + 1.5);
+    expect(portal.transit.length).toBe(0);
+  });
+
+  it('a portal waits while another ball sits on its exit', () => {
+    const { rt, b } = frame();
+    b.portal('test_portal', [300, 500], { x: 300, y: 300, deg: -90, speed: 600 });
+    rt.world.finalize();
+    rt.world.gravity = 0;
+    const blocker = rt.world.addBall(300, 300);
+    blocker.state = 'live';
+    const ball = rt.world.addBall(300, 470);
+    ball.state = 'live';
+    ball.vy = 300;
+    for (let i = 0; i < 120 * 2; i++) {
+      blocker.x = 300;
+      blocker.y = 300;
+      blocker.vx = blocker.vy = 0;
+      rt.step(1 / 120);
+    }
+    expect(ball.state).toBe('transit');
+    rt.world.removeBall(blocker);
+    for (let i = 0; i < 10; i++) rt.step(1 / 120);
+    expect(ball.state).toBe('live');
+  });
+});
