@@ -1,0 +1,31 @@
+{
+  "name": "angelas-fun-house",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Angela's Fun House — a science pinball adventure for seventh grade.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check:content": "node scripts/validate-content.ts",
+    "check": "npm run typecheck && npm run check:content && npm run test"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource/atkinson-hyperlegible-next": "5.3.0",
+    "preact": "10.29.8",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.10.6",
+    "@types/node": "24.19.2",
+    "@types/three": "0.186.0",
+    "playwright-core": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "4.1.11"
+  }
+}

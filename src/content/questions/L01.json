@@ -1,0 +1,3544 @@
+{
+  "lessonId": "L01",
+  "questions": [
+    {
+      "id": "L01-Q01",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "matter",
+        "air",
+        "mass"
+      ],
+      "familyId": "L01-F01",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A balloon is blown up with air and tied. Compared with the same balloon when it was empty and flat, why does the air-filled balloon have more mass?",
+      "accessiblePrompt": "A balloon is blown up with air and tied. Compare it with the same balloon when it was empty and flat. Why does the air-filled balloon have more mass?",
+      "explanation": "Air is matter: it takes up space, which is why the balloon swells, and it is made of particles, mostly nitrogen and oxygen, that each have mass. Blowing up the balloon packs in more of those particles, so the total mass goes up even though you cannot see what was added.",
+      "misconception": "Air is weightless “nothing” because it is invisible.",
+      "hint": "Is the air in the balloon something or nothing? What made the balloon swell?",
+      "followUpId": "L01-Q07",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            10
+          ],
+          "pdf": [
+            46
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Air is a mixture of mostly nitrogen and oxygen particles; all matter is made of particles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Every atom has an atomic mass; oxygen's is 16 Da."
+        },
+        {
+          "type": "external",
+          "title": "Ask an Explainer: What is the mass of air?",
+          "publisher": "Smithsonian National Air and Space Museum (How Things Fly)",
+          "url": "https://howthingsfly.si.edu/ask-an-explainer/what-mass-air",
+          "accessed": "2026-10-14",
+          "supports": "Air is made of molecules that give it mass."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Matter occupies space and has mass; gases take up space, which is why a balloon inflates."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "The air inside is matter, and its particles have mass.",
+          "rationale": "Correct. Air is a mix of particles, mostly nitrogen and oxygen, and every particle of matter has mass, so adding air adds mass."
+        },
+        {
+          "id": "b",
+          "text": "Stretching the rubber makes the rubber heavier.",
+          "rationale": "Stretching changes the balloon's shape, not how many rubber particles it has, so the rubber's own mass stays the same."
+        },
+        {
+          "id": "e",
+          "text": "The air pushes outward on the rubber, and that push adds mass.",
+          "rationale": "A push is a force, not added matter. The extra mass comes from the air particles themselves."
+        },
+        {
+          "id": "d",
+          "text": "Air has mass only when it moves, like wind.",
+          "rationale": "Air particles have mass whether they are still or moving; the still air sealed in the balloon still adds mass."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Compare mass, the amount of matter, of the balloon plus everything inside it.",
+      "limitations": "A scale reading taken in air is also affected by the surrounding air pushing up on the balloon (buoyancy); this question is only about mass.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Seed question from brief section 7, entry 1 (balloon mass). Asks about mass, not a scale reading, to avoid buoyancy. Round 1 (2026-10-14): Replaced choice c (it contradicted the stem) with a new choice e (push-adds-mass misconception); new hint no longer echoes the key. The key is no longer the longest choice. Verify (2026-10-14): checked against rendered printed pp. 10, 14; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Smithsonian How Things Fly and OpenStax 1.2 re-opened; both support the records. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: replaced choice c with a push-adds-mass distractor (new id e); hint no longer echoes the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q02",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "matter",
+        "non-matter",
+        "light",
+        "sound"
+      ],
+      "familyId": "L01-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "A carnival night is full of things to notice. Sort each one: is it matter (has mass and takes up space) or not matter?",
+      "accessiblePrompt": "A carnival night is full of things to notice. Sort each one into matter, meaning it has mass and takes up space, or not matter.",
+      "explanation": "Matter is anything with mass that takes up space, so gases count even when they are invisible. Light, sound, and the warmth from a heat lamp are energy or vibrations moving through or between matter; they are not made of atoms themselves.",
+      "misconception": "Anything you can see, hear, or feel must be matter, and anything invisible must not be.",
+      "hint": "For each one, ask: is it made of particles that have mass, or is it energy moving through or between things?",
+      "followUpId": "L01-Q05",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            10
+          ],
+          "pdf": [
+            46
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Neon gas, air, and the carbon in diamonds are made of particles (atoms) of matter."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Matter is defined as anything that occupies space and has mass."
+        },
+        {
+          "type": "external",
+          "title": "Anatomy of an Electromagnetic Wave",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/ems/02_anatomy/",
+          "accessed": "2026-10-14",
+          "supports": "Light is an electromagnetic wave that needs no matter to travel; sound is a vibration passing through matter."
+        }
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "text": "The neon gas sealed inside a sign's glass tube",
+          "rationale": "Matter: neon gas is made of neon atoms, which have mass and fill the tube even when it looks empty."
+        },
+        {
+          "id": "i2",
+          "text": "The red light glowing from the sign",
+          "rationale": "Not matter: light is a form of energy that can even cross empty space; it is not a substance made of atoms."
+        },
+        {
+          "id": "i3",
+          "text": "The air filling a bouncy castle",
+          "rationale": "Matter: air is a mix of mostly nitrogen and oxygen particles, and it takes up space, which is why the castle puffs up."
+        },
+        {
+          "id": "i4",
+          "text": "The music you hear from the band",
+          "rationale": "Not matter: sound is a vibration passing through the air. The air is matter, but the sound itself is a traveling disturbance."
+        },
+        {
+          "id": "i5",
+          "text": "The carbon in a diamond ring",
+          "rationale": "Matter: a diamond is made of carbon atoms."
+        },
+        {
+          "id": "i6",
+          "text": "The warmth you feel from a heat lamp",
+          "rationale": "Not matter: the lamp sends out energy, mostly as invisible infrared light, not a substance with mass."
+        }
+      ],
+      "bins": [
+        {
+          "id": "matter",
+          "label": "Matter"
+        },
+        {
+          "id": "not",
+          "label": "Not matter"
+        }
+      ],
+      "answer": {
+        "i1": "matter",
+        "i2": "not",
+        "i3": "matter",
+        "i4": "not",
+        "i5": "matter",
+        "i6": "not"
+      },
+      "limitations": "Uses the school definition of matter: anything that has mass and takes up space.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Covers the brief's mission to distinguish matter from a non-matter example. See L01-RF11. Verify (2026-10-14): checked against rendered printed pp. 10; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. OpenStax 1.2 and NASA EMS re-opened; light needs no medium, sound is a vibration in matter. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q03",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "matter",
+        "evidence",
+        "gas"
+      ],
+      "familyId": "L01-F01",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "When a neon sign is switched off, its glass tube looks completely empty. Which observations are evidence that the tube still holds matter? Select all that apply.",
+      "accessiblePrompt": "When a neon sign is switched off, its glass tube looks completely empty. Which observations are evidence that the tube still holds matter? Select all that apply.",
+      "explanation": "Evidence is something you can observe or measure that points to a conclusion. A red neon glow whenever current flows, and extra mass compared with a pumped-out tube, both show particles are present. Not being able to see anything is not evidence of emptiness, because neon, like air, is an invisible gas. The red light itself is energy, not matter, but it takes matter inside the tube to give it off.",
+      "misconception": "If a container looks empty, there is nothing in it.",
+      "hint": "Pick the observations that show something is there, not ones that only describe what you can't see.",
+      "followUpId": "L01-Q10",
+      "scope": {
+        "lessonId": "L01",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            9
+          ],
+          "pdf": [
+            45
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            9
+          ],
+          "pdfPages": [
+            45
+          ],
+          "locator": "Introduction",
+          "supports": "A switched-off neon tube looks empty, but its particles glow when electricity runs through it."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms (caption)",
+          "supports": "Neon signs are filled with neon atoms that glow red with an electric current."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            17
+          ],
+          "pdfPages": [
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Neon's tile lists an atomic mass of 20.2."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Matter is anything that occupies space and has mass."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "When electricity flows, the tube glows red.",
+          "rationale": "Evidence. The red glow is the light neon atoms give off when current passes through them; a tube with all its gas pumped out would not give this red glow."
+        },
+        {
+          "id": "b",
+          "text": "The sealed tube has more mass than the same tube with all the gas pumped out.",
+          "rationale": "Evidence. Extra mass means extra matter, so the gas inside must be made of particles that have mass."
+        },
+        {
+          "id": "c",
+          "text": "You cannot see anything inside the tube.",
+          "rationale": "Not evidence. Neon and air are both invisible gases, so not seeing anything tells you nothing about whether the tube is empty."
+        },
+        {
+          "id": "f",
+          "text": "The tube's mass is the same whether the sign is on or off.",
+          "rationale": "Not evidence. A pumped-empty tube's mass would also stay the same when switched on, so this can't show gas is inside."
+        },
+        {
+          "id": "g",
+          "text": "The glass tube is sealed tight at both ends.",
+          "rationale": "Not evidence. A tube can be sealed whether it is full of gas or pumped empty."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Choice a rationale now rests on the red colour (a near-vacuum tube can still make glass glow). Weak distractors d and e replaced by f (mass same on or off) and g (sealed tube); difficulty 3 to 2; explanation links this item to Q02 (light is energy, not matter). Verify (2026-10-14): checked against rendered printed pp. 9, 10, 17; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale rests on the red glow of neon, not on an empty tube giving no light"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: replaced distractors d and e with plausible ones (new ids f, g); difficulty 3 to 2; explanation adds that light is energy given off by matter"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q04",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "element",
+        "atom",
+        "carbon"
+      ],
+      "familyId": "L01-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A diamond is clear and extremely hard. The graphite in a pencil is gray and soft. Chemists call both the element carbon. What decides which element a pure substance is?",
+      "accessiblePrompt": "A diamond is clear and extremely hard. The graphite in a pencil is gray and soft. Chemists call both the element carbon. What decides which element a pure substance is?",
+      "explanation": "An element is set by the kind of atom it is built from, not by its color, hardness, or state. Diamond and graphite differ in almost every way you can see or feel, yet both are built only of carbon atoms, so both are the element carbon. Later lessons explore how the same atoms can be arranged into such different materials.",
+      "misconception": "Materials that look or feel different must be made of different elements.",
+      "hint": "Diamond and graphite differ in almost every way you can see or feel. What do they still have in common?",
+      "followUpId": "L01-Q06",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            10
+          ],
+          "pdf": [
+            46
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Diamonds and pencil graphite are both made of atoms of carbon; iron and gold are different elements."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16
+          ],
+          "pdfPages": [
+            52
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "A substance made entirely of one kind of atom is an element."
+        }
+      ],
+      "choices": [
+        {
+          "id": "e",
+          "text": "The kind of atom it is built from",
+          "rationale": "Correct. An element contains only one kind of atom, and that kind of atom names the element: diamond and graphite are both built of carbon atoms."
+        },
+        {
+          "id": "f",
+          "text": "Its color and shine",
+          "rationale": "Color cannot decide it: diamond is clear and graphite is gray, yet both are carbon."
+        },
+        {
+          "id": "g",
+          "text": "How hard or soft it is",
+          "rationale": "Hardness cannot decide it: diamond is extremely hard and graphite is soft, yet both are carbon."
+        },
+        {
+          "id": "h",
+          "text": "Whether it is a solid, liquid, or gas",
+          "rationale": "State cannot decide it: diamond, iron, and gold are all solids, yet they are three different elements."
+        }
+      ],
+      "answer": "e",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Rewritten so the stem no longer states the answer; new property-based choices e-h (fresh ids, since every claim changed). Limitation added for pencil lead (graphite plus clay) and trace elements in diamond. The pedagogy reviewer asked to keep the hint, but with the new choices the old hint (\"how it looks, or what kind of atom it is built from?\") would restate the key, so it now asks what the two samples share. Verify (2026-10-14): checked against rendered printed pp. 10, 16; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: added limitation that pencil lead is graphite plus clay and diamonds can hold traces"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt no longer states the answer; four property-based choices (new ids e-h); hint reworded so it does not restate the new key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Treats both samples as pure carbon. Real pencil lead is graphite mixed with clay, and natural diamonds can hold tiny traces of other elements."
+    },
+    {
+      "id": "L01-Q05",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "atom",
+        "particle model"
+      ],
+      "familyId": "L01-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Imagine snipping a piece of copper wire in half, then snipping one half in half again, over and over with a perfect tool. What is the smallest piece you could end up with that is still copper?",
+      "accessiblePrompt": "Imagine snipping a piece of copper wire in half, then snipping one half in half again, over and over with a perfect tool. What is the smallest piece you could end up with that is still copper?",
+      "explanation": "Matter is made of particles. Keep halving copper and you eventually reach one particle of copper: a single copper atom. An atom is the smallest piece that still counts as that element. Cells are something else entirely: the building units of living things, each made of huge numbers of atoms.",
+      "misconception": "Matter is smooth all the way down, so it can be split into ever-smaller pieces of the same substance forever.",
+      "hint": "Think about what the lesson says all matter is built from.",
+      "followUpId": "L01-Q08",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            10
+          ],
+          "pdf": [
+            46
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Repeatedly halving a piece of metal (the lesson uses an iron nail) ends with a single particle of that element; one particle of an element is an atom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            17
+          ],
+          "pdfPages": [
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Copper (Cu) is one of the elements listed on the periodic table."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "An atom is the smallest particle of an element that has the properties of that element."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "A single copper atom",
+          "rationale": "Correct. One atom is the smallest particle that is still copper."
+        },
+        {
+          "id": "b",
+          "text": "A tiny copper speck you can barely see",
+          "rationale": "Even the smallest visible speck contains an enormous number of atoms, so it could still be divided."
+        },
+        {
+          "id": "e",
+          "text": "A single copper cell",
+          "rationale": "Cells are the units of living things, and each holds a huge number of atoms. A wire is not alive and has no cells."
+        },
+        {
+          "id": "d",
+          "text": "No smallest piece; copper can be split forever",
+          "rationale": "The particle model says halving eventually reaches one particle of copper; no piece smaller than an atom is still copper."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Object changed from the textbook's own iron nail (p. 10) to copper wire, which is also nearly pure metal (a nail is mostly-iron steel). The melted-drop distractor (state, not size) replaced by e, the atom-versus-cell mix-up. Hint no longer supplies the term \"atom\". Verify (2026-10-14): checked against rendered printed pp. 10, 17; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: copper wire replaces the textbook iron-nail scenario; atom-vs-cell distractor (new id e) replaces melted drop; hint no longer gives the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "A thought experiment: no real cutting tool can split a wire down to single atoms."
+    },
+    {
+      "id": "L01-Q06",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "element",
+        "substance",
+        "combining"
+      ],
+      "familyId": "L01-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Fewer than a hundred kinds of atoms occur in nature, yet there are millions of different substances around you. How is that possible?",
+      "accessiblePrompt": "Fewer than a hundred kinds of atoms occur in nature, yet there are millions of different substances around you. How is that possible?",
+      "explanation": "Think of the elements as a small set of building pieces. Just as a few kinds of blocks can build countless different models, atoms of different elements join in different combinations to make millions of substances.",
+      "misconception": "Each different substance needs its own different kind of atom.",
+      "hint": "Think about how 26 letters can spell an enormous number of words.",
+      "followUpId": "L01-Q04",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            10
+          ],
+          "pdf": [
+            46
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Different elements combine in different ways to form millions of substances."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "The periodic table lists all known elements, a little over a hundred."
+        },
+        {
+          "type": "external",
+          "title": "Do transuranic elements such as plutonium ever occur naturally?",
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/do-transuranic-elements-s/",
+          "accessed": "2026-10-14",
+          "supports": "Glenn Seaborg argued the count of naturally occurring elements should be 94 rather than the usual 92, because plutonium occurs in trace amounts in uranium ore (pitchblende)."
+        },
+        {
+          "type": "external",
+          "title": "Technetium: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/43/technetium",
+          "accessed": "2026-10-14",
+          "supports": "Technetium survives on Earth only as tiny traces made when uranium undergoes fission (about 1 mg per tonne of uranium); any present when Earth formed has long since decayed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Atoms of different elements combine in many different ways.",
+          "rationale": "Correct. A limited set of elements can be combined in a huge number of ways, giving millions of substances."
+        },
+        {
+          "id": "b",
+          "text": "Every substance is its own element, so there are millions of elements.",
+          "rationale": "The periodic table lists every known element, a little over a hundred, not millions."
+        },
+        {
+          "id": "c",
+          "text": "Atoms change into brand-new kinds of atoms for each new substance.",
+          "rationale": "Building everyday substances joins existing atoms together; it does not create new kinds of atoms."
+        },
+        {
+          "id": "d",
+          "text": "Most substances are made of something other than atoms.",
+          "rationale": "All matter is made of atoms, so every substance is built from the same small set of elements."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Avoids testing an exact natural-element count (brief requirement; see L01-RF1). Round 1 (2026-10-14): Scientific American supports text now matches the article (Seaborg: 94 rather than 92). RSC technetium record added. \"Fewer than a hundred\" holds under every count, including the 98 some sources give. Verify (2026-10-14): checked against rendered printed pp. 10, 16, 17; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Scientific American (Seaborg, 94 rather than 92) and RSC technetium re-opened; records match. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Scientific American record now states only what the article says; RSC technetium record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q07",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O1"
+      ],
+      "conceptTags": [
+        "element",
+        "mixture",
+        "air"
+      ],
+      "familyId": "L01-F03",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Air is mostly nitrogen particles and oxygen particles mixed together. A classmate says, “Air is an element because it looks like one gas.” Which reply is best?",
+      "accessiblePrompt": "Air is mostly nitrogen particles and oxygen particles mixed together. A classmate says that air is an element because it looks like one gas. Which reply is best?",
+      "explanation": "An element contains only one kind of atom. Air mixes particles of at least two elements, nitrogen and oxygen, so it is a mixture, not an element. The neon in a sign, by contrast, is a single element.",
+      "misconception": "Anything that looks like one smooth substance must be a single element.",
+      "hint": "Count the kinds of atoms in air. How many kinds can an element contain?",
+      "followUpId": "L01-Q04",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            10
+          ],
+          "pdf": [
+            46
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Air is a mixture of mostly nitrogen and oxygen particles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16
+          ],
+          "pdfPages": [
+            52
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "An element is a substance made entirely of one kind of atom."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Air is listed as a homogeneous mixture."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Air is not an element; it contains more than one kind of atom.",
+          "rationale": "Correct. Air contains at least nitrogen and oxygen, and an element has only one kind of atom."
+        },
+        {
+          "id": "b",
+          "text": "Air is an element because you cannot see its separate parts.",
+          "rationale": "Looking uniform or invisible does not decide it; the kinds of atoms inside do."
+        },
+        {
+          "id": "c",
+          "text": "Air is an element because it is a gas, and all gases are elements.",
+          "rationale": "Being a gas does not decide it: neon gas is an element, while air is a mixture."
+        },
+        {
+          "id": "d",
+          "text": "Air is not matter, so it cannot be an element or a mixture.",
+          "rationale": "Air is matter; it has mass and takes up space."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Follow-up now L01-Q04 (what decides an element), which matches this item's element-versus-mixture misconception. Verify (2026-10-14): checked against rendered printed pp. 10, 16; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. OpenStax 1.2 re-opened: air is listed as a homogeneous mixture. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId L01-Q02 to L01-Q04"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q08",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "scale",
+        "size"
+      ],
+      "familyId": "L01-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these in order from smallest to largest.",
+      "accessiblePrompt": "Put these five things in order from smallest to largest: a person, a grain of sand, a continent, an atom, and a bacterium.",
+      "explanation": "Each step up this list jumps to a new scale. Microscopes that could show bacteria still could not show atoms, while a single sand grain you can hold contains about 5 × 10¹⁹ atoms. Scientists switch units, from picometers to kilometers, to fit each scale.",
+      "misconception": "Atoms are about the size of the tiniest things we can see, like specks of dust or bacteria.",
+      "hint": "Which needs no help to see, which needs a microscope, and which could ordinary microscopes never show?",
+      "followUpId": "L01-Q05",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            11,
+            12
+          ],
+          "pdf": [
+            47,
+            48
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            11
+          ],
+          "pdfPages": [
+            47
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "A sand grain holds about 5 × 10¹⁹ atoms; people and continents are on different scales; atoms are on the atomic scale."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            12
+          ],
+          "pdfPages": [
+            48
+          ],
+          "locator": "Section 2. Engineering Tools to Observe Atoms",
+          "supports": "Microscopes could show bacteria but not individual atoms."
+        }
+      ],
+      "items": [
+        {
+          "id": "grain",
+          "text": "A grain of sand",
+          "rationale": "Small but visible in your hand, and it holds tens of quintillions of atoms."
+        },
+        {
+          "id": "continent",
+          "text": "A continent",
+          "rationale": "Measured in thousands of kilometers, far larger than a person."
+        },
+        {
+          "id": "atom",
+          "text": "An atom",
+          "rationale": "Far too small to see even with a magnifying glass; measured in picometers."
+        },
+        {
+          "id": "person",
+          "text": "A person",
+          "rationale": "On the everyday human scale."
+        },
+        {
+          "id": "bacterium",
+          "text": "A bacterium",
+          "rationale": "Too small to see with your eyes, but microscopes could show it, so it is far bigger than an atom."
+        }
+      ],
+      "answer": [
+        "atom",
+        "bacterium",
+        "grain",
+        "person",
+        "continent"
+      ],
+      "ends": [
+        "Smallest",
+        "Largest"
+      ],
+      "conditions": "Compare typical examples of each.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Read-aloud prompt no longer lists the items in the answer order. Verify (2026-10-14): checked against rendered printed pp. 11, 12; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessiblePrompt lists the items out of answer order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q09",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "scale",
+        "units",
+        "picometer"
+      ],
+      "familyId": "L01-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "You'd measure hair growth in centimeters and a cross-country trip in kilometers. Why do scientists usually describe atom sizes in picometers (trillionths of a meter)?",
+      "accessiblePrompt": "You would measure hair growth in centimeters and a cross-country trip in kilometers. Why do scientists usually describe atom sizes in picometers, which are trillionths of a meter?",
+      "explanation": "A scale is a size range, and each scale has units that fit it. One meter holds a trillion picometers, so an atom's width, which needs many zeros after the decimal point in meters, becomes a number in the hundreds of picometers. Same atom, easier number.",
+      "misconception": "A smaller unit is always more accurate, or switching units changes the size of the object.",
+      "hint": "Why don't road signs list distances in centimeters?",
+      "followUpId": "L01-Q14",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            11
+          ],
+          "pdf": [
+            47
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            11
+          ],
+          "pdfPages": [
+            47
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Scales are described by fitting units; atoms are on the atomic scale and are described in picometers, 10⁻¹² m."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table: element property data (atomic number, atomic mass, standard state, atomic radius)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Listed atomic radii run from about 120 to 350 picometers."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "The unit fits the atomic scale, so sizes become manageable numbers.",
+          "rationale": "Correct. Picometers turn tiny atom sizes into numbers in the hundreds instead of long decimals."
+        },
+        {
+          "id": "b",
+          "text": "Picometers are more accurate than meters for every measurement.",
+          "rationale": "No unit is more accurate in general; you choose a unit to fit the scale, which is why roads are not measured in picometers."
+        },
+        {
+          "id": "c",
+          "text": "Atoms are too small to have a size in meters at all.",
+          "rationale": "Atoms do have a size in meters, just a tiny one; picometers simply make it easier to write."
+        },
+        {
+          "id": "d",
+          "text": "Measuring in picometers makes atoms appear larger than they are.",
+          "rationale": "Changing units changes the number you write, not the size of the atom."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Optional pedagogy suggestion applied: follow-up now L01-Q14, whose graph is in picometers. Verify (2026-10-14): checked against rendered printed pp. 11; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. PubChem JSON re-fetched: atomic radii 120 (H) to 348 (Fr) pm, so 'numbers in the hundreds' holds. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q10",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "scale",
+        "estimate",
+        "atom size"
+      ],
+      "familyId": "L01-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A single grain of sand holds roughly 5 × 10¹⁹ atoms (about 50 quintillion). Which conclusion does this estimate best support?",
+      "accessiblePrompt": "A single grain of sand holds roughly 5 times 10 to the 19th power atoms, about 50 quintillion. Which conclusion does this estimate best support?",
+      "explanation": "A gigantic count packed into one small grain means each atom must be extraordinarily small. The exact number depends on how big the grain is, so treat it as an estimate of scale, not a precise count.",
+      "misconception": "A small visible object holds only a handful of atoms, so atoms aren't much smaller than specks we can see.",
+      "hint": "If a very small box holds a gigantic number of things, what must be true about each thing?",
+      "followUpId": "L01-Q03",
+      "scope": {
+        "lessonId": "L01",
+        "section": "1. Atoms",
+        "pages": {
+          "printed": [
+            11
+          ],
+          "pdf": [
+            47
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            11
+          ],
+          "pdfPages": [
+            47
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "A grain of sand contains about 5 × 10¹⁹ atoms; atoms are too small to see even with a magnifying glass."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each atom must be incredibly tiny.",
+          "rationale": "Correct. A huge number of atoms in a small object means each atom is extremely small."
+        },
+        {
+          "id": "e",
+          "text": "Atoms are about as small as dust specks, just packed tightly.",
+          "rationale": "A dust speck is itself made of trillions of atoms. If atoms were speck-sized, a sand grain could hold only a handful."
+        },
+        {
+          "id": "c",
+          "text": "Sand is a special material that packs in extra atoms.",
+          "rationale": "Every everyday object holds enormous numbers of atoms; sand is not special."
+        },
+        {
+          "id": "d",
+          "text": "With a strong magnifying glass, you could count them.",
+          "rationale": "Atoms are too small to see with a magnifying glass, and no one could count 50 quintillion of anything one by one."
+        }
+      ],
+      "answer": "a",
+      "limitations": "The atom count is a rough estimate; real sand grains vary in size.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the sand-grain estimate only; the textbook's Grand Canyon comparison is excluded (L01-RF7). Round 1 (2026-10-14): Distractor b replaced by e, which tests the named misconception (atoms about the size of specks); key shortened so it is not the longest choice. Verify (2026-10-14): checked against rendered printed pp. 11; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Rationale e's 'only a handful' is loose (a medium grain could hold thousands of speck-sized atoms), but the contrast with 5 × 10¹⁹ stands; optional wording polish for a teacher. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor b replaced by the dust-speck misconception (new id e); key shortened"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q11",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "engineering design",
+        "criteria",
+        "constraints"
+      ],
+      "familyId": "L01-F05",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Rohrer and Binnig set out to build a tool for seeing atoms. Sort each statement about their project: is it a criterion (what success required) or a constraint (a limit they had to work within)?",
+      "accessiblePrompt": "Rohrer and Binnig set out to build a tool for seeing atoms. Sort each statement about their project into criteria, meaning what success required, or constraints, meaning limits they had to work within.",
+      "explanation": "Criteria describe what a successful solution must accomplish. Constraints are limits on which solutions are possible, such as money, time, the technology available, or a building that shakes. Defining both precisely helped the team aim at a design that could actually work.",
+      "misconception": "Criteria and constraints are the same thing: both are just rules for a project.",
+      "hint": "Ask: is this something the finished tool must do, or something that limits how they could build it?",
+      "followUpId": "L01-Q13",
+      "scope": {
+        "lessonId": "L01",
+        "section": "2. Engineering Tools to Observe Atoms",
+        "pages": {
+          "printed": [
+            12
+          ],
+          "pdf": [
+            48
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            12
+          ],
+          "pdfPages": [
+            48
+          ],
+          "locator": "Section 2, Defining the Engineering Problem",
+          "supports": "Criteria: see, measure and move atoms with about 100 pm resolution. Constraints: available technology and building vibrations, which forced night work."
+        },
+        {
+          "type": "external",
+          "title": "'Atoms, ja, atoms!' Physics pioneer was key to microscopy revolution in resolution",
+          "publisher": "Penn State Eberly College of Science",
+          "url": "https://www.psu.edu/news/eberly-college-science/story/atoms-ja-atoms-physics-pioneer-key-microscopy-revolution-resolution",
+          "accessed": "2026-10-14",
+          "supports": "Müller's field ion microscope imaged individual tungsten atoms in 1955, but only on a sharp metal tip; it was the only atomic-resolution microscope for about 25 years."
+        }
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "text": "The tool had to let them see, measure, and move single atoms.",
+          "rationale": "Criterion: it states what the finished tool had to do to count as a success."
+        },
+        {
+          "id": "i2",
+          "text": "It had to show details as small as about 100 picometers.",
+          "rationale": "Criterion: it is a measurable target the design had to reach."
+        },
+        {
+          "id": "i3",
+          "text": "They had to work with existing technology, and none of it could map the atoms of an ordinary flat surface.",
+          "rationale": "Constraint: the technology already available limited which approaches could work, so they needed a completely new kind of tool."
+        },
+        {
+          "id": "i4",
+          "text": "Vibrations from people in the building could ruin measurements, so they worked at night.",
+          "rationale": "Constraint: the shaky building limited when and how they could measure."
+        }
+      ],
+      "bins": [
+        {
+          "id": "criteria",
+          "label": "Criteria"
+        },
+        {
+          "id": "constraints",
+          "label": "Constraints"
+        }
+      ],
+      "answer": {
+        "i1": "criteria",
+        "i2": "criteria",
+        "i3": "constraints",
+        "i4": "constraints"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Item i3 no longer claims no microscope could show atoms (false: the 1955 field ion microscope imaged atoms on a sharp metal tip; see L01-RF5). It is worded as a limit the team worked within, combining both reviewers' wording; \"ordinary flat surface\" keeps it accurate, since the field ion microscope works only on needle tips. Verify (2026-10-14): checked against rendered printed pp. 12; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Penn State FIM page re-opened: 1955 tungsten tip, sole atomic-resolution microscope for about 25 years; i3 is accurate. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: i3 no longer says no microscope could show atoms; now limited to mapping an ordinary flat surface"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: i3 reworded as a limit the team had to work within"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q12",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "engineering design",
+        "constraints",
+        "criteria"
+      ],
+      "familyId": "L01-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A class is designing a clip that turns a phone camera into a simple microscope for looking at onion-skin cells. Which statements are constraints? Select all that apply.",
+      "accessiblePrompt": "A class is designing a clip that turns a phone camera into a simple microscope for looking at onion-skin cells. Which statements are constraints? Select all that apply.",
+      "explanation": "A budget and a limited set of parts are constraints: they narrow the range of possible designs. Statements about what the clip must accomplish, like showing cells clearly or holding the lens steady, are criteria for success.",
+      "misconception": "Any requirement attached to a project counts as a constraint.",
+      "hint": "Constraints limit your choices; criteria describe what success looks like.",
+      "followUpId": "L01-Q14",
+      "scope": {
+        "lessonId": "L01",
+        "section": "2. Engineering Tools to Observe Atoms",
+        "pages": {
+          "printed": [
+            12
+          ],
+          "pdf": [
+            48
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            12
+          ],
+          "pdfPages": [
+            48
+          ],
+          "locator": "Section 2, Defining the Engineering Problem",
+          "supports": "Criteria are requirements for success; constraints, such as strict budgets or being limited to the technology already available, narrow the possible solutions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            9
+          ],
+          "pdfPages": [
+            45
+          ],
+          "locator": "Vocabulary",
+          "supports": "Defines criteria and constraint for a design problem."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "The team can spend no more than $10 per clip.",
+          "rationale": "Constraint: a budget limit narrows which materials and designs are possible."
+        },
+        {
+          "id": "e",
+          "text": "The clip may use only the lenses in the classroom kit.",
+          "rationale": "Constraint: limiting the parts to what is already on hand narrows which designs are possible, much as Rohrer and Binnig were limited by the technology of their day."
+        },
+        {
+          "id": "c",
+          "text": "The clip must make individual onion cells clearly visible.",
+          "rationale": "Criterion: it describes what a successful clip must do."
+        },
+        {
+          "id": "d",
+          "text": "The clip must hold the lens steady over the camera.",
+          "rationale": "Criterion: it is a performance requirement the working clip must meet."
+        }
+      ],
+      "answer": [
+        "a",
+        "e"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Optional pedagogy suggestion applied: the deadline choice b replaced by e (only the kit lenses), a constraint that is neither time nor money, so the item goes beyond the textbook's two examples. Verify (2026-10-14): checked against rendered printed pp. 9, 12; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q13",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "STM",
+        "model",
+        "electric current"
+      ],
+      "familyId": "L01-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An STM's needle-thin probe sweeps across a surface without touching it. When the probe passes right over the top of an atom, how does the electric current compare with when it is over a gap between atoms?",
+      "accessiblePrompt": "A Scanning Tunneling Microscope, or STM, has a needle-thin probe that sweeps across a surface without touching it. When the probe passes right over the top of an atom, how does the electric current compare with when it is over a gap between atoms?",
+      "explanation": "The STM works a bit like reading braille with a fingertip. The current between probe and surface rises sharply as the distance shrinks, so bumps (atoms) and dips (gaps) show up as changes in current. A computer turns those changes into a map of the surface.",
+      "misconception": "Microscopes always work by bouncing light off an object.",
+      "hint": "What does the size of the STM's current depend on?",
+      "followUpId": "L01-Q11",
+      "scope": {
+        "lessonId": "L01",
+        "section": "2. Engineering Tools to Observe Atoms",
+        "pages": {
+          "printed": [
+            13
+          ],
+          "pdf": [
+            49
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            13
+          ],
+          "pdfPages": [
+            49
+          ],
+          "locator": "Section 2, “Seeing” Atoms",
+          "supports": "Near an atom there is an electric current; farther away there is less, so current changes reveal atoms."
+        },
+        {
+          "type": "external",
+          "title": "Press release: The 1986 Nobel Prize in Physics",
+          "publisher": "The Royal Swedish Academy of Sciences / NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/physics/1986/press-release/",
+          "accessed": "2026-10-14",
+          "supports": "The STM's current depends strongly on the distance between the tip and the surface."
+        },
+        {
+          "type": "external",
+          "title": "8.3: Scanning Tunneling Microscopy (Physical Methods in Chemistry and Nano Science, A. R. Barron)",
+          "publisher": "Chemistry LibreTexts (Rice University course text)",
+          "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/08:_Structure_at_the_Nano_Scale/8.03:_Scanning_Tunneling_Microscopy",
+          "accessed": "2026-10-14",
+          "supports": "The tunneling current changes about tenfold for each 1 Å change in tip-to-sample distance. In constant-height mode the tip stays at a fixed height; in the common constant-current mode the tip moves to hold the current at a set point and that height change is recorded."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is higher, because the probe is closer to the surface there.",
+          "rationale": "Correct. Less distance means more current, so each atom shows up as a rise in current."
+        },
+        {
+          "id": "b",
+          "text": "It is lower, because atoms block electric current.",
+          "rationale": "The lesson describes more current near an atom and less farther away, the opposite of this."
+        },
+        {
+          "id": "c",
+          "text": "It is the same, because the STM measures reflected light.",
+          "rationale": "The STM uses no lenses or light; changes in current are its whole signal."
+        },
+        {
+          "id": "d",
+          "text": "It stops completely whenever the probe is near an atom.",
+          "rationale": "Being near an atom increases the current rather than cutting it off."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Fixed-height condition and constant-current limitation added, matching Q14 and the O2 card; hint no longer echoes the key. LibreTexts STM record added because the Nobel press release returned HTTP 403 on re-check. Verify (2026-10-14): checked against rendered printed pp. 13; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. NobelPrize.org press release re-opened by direct HTTP fetch (the WebFetch tool gets 403): current strongly depends on distance; LibreTexts 8.3 re-opened for constant-height vs constant-current. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: added fixed-height condition and constant-current limitation"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: steady-height condition added; hint no longer echoes the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Assume the probe sweeps across at one fixed height above the surface.",
+      "limitations": "Simplified model. Many STMs instead raise and lower the probe to keep the current steady and record the height."
+    },
+    {
+      "id": "L01-Q14",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "STM",
+        "data interpretation",
+        "graph"
+      ],
+      "familyId": "L01-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The graph shows the current an STM probe measured as it moved in a straight line across a surface. How many atoms did the probe pass over?",
+      "accessiblePrompt": "A graph shows the current an STM probe measured as it moved in a straight line across a surface. Probe position runs from 0 to 950 picometers. The current stays low, near 1 or 2, except for four sharp peaks reaching 8, at 100, 350, 600, and 850 picometers. How many atoms did the probe pass over?",
+      "explanation": "High current means the probe is close to the surface, which happens over the top of each atom. Four evenly spaced peaks, about 250 picometers apart, mean the probe crossed four atoms. Real STM maps are built from many scan lines like this one.",
+      "misconception": "The peak height or the number of gaps tells you how many atoms there are.",
+      "hint": "Where is the probe closest to the surface, and what does the current do there?",
+      "followUpId": "L01-Q09",
+      "scope": {
+        "lessonId": "L01",
+        "section": "2. Engineering Tools to Observe Atoms",
+        "pages": {
+          "printed": [
+            13
+          ],
+          "pdf": [
+            49
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            13
+          ],
+          "pdfPages": [
+            49
+          ],
+          "locator": "Section 2, “Seeing” Atoms",
+          "supports": "Scientists find atoms by watching how the current changes as the probe moves over the tops of atoms."
+        },
+        {
+          "type": "external",
+          "title": "Press release: The 1986 Nobel Prize in Physics",
+          "publisher": "The Royal Swedish Academy of Sciences / NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/physics/1986/press-release/",
+          "accessed": "2026-10-14",
+          "supports": "The current depends strongly on tip-to-surface distance; in practice the instrument often adjusts the tip height to keep the distance constant and records that movement."
+        },
+        {
+          "type": "external",
+          "title": "8.3: Scanning Tunneling Microscopy (Physical Methods in Chemistry and Nano Science, A. R. Barron)",
+          "publisher": "Chemistry LibreTexts (Rice University course text)",
+          "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/08:_Structure_at_the_Nano_Scale/8.03:_Scanning_Tunneling_Microscopy",
+          "accessed": "2026-10-14",
+          "supports": "The tunneling current changes about tenfold for each 1 Å change in tip-to-sample distance. In constant-height mode the tip stays at a fixed height; in the common constant-current mode the tip moves to hold the current at a set point and that height change is recorded."
+        }
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "Current measured along one STM scan line",
+        "alt": "Line graph of current in relative units, from 0 to 10, against probe position in picometers, from 0 to 950. The current stays low, near 1 or 2, except for four sharp peaks that each reach 8, located at 100, 350, 600, and 850 picometers. Between peaks the current falls back to about 1.",
+        "xLabel": "Probe position (pm)",
+        "yLabel": "Current (relative units)",
+        "series": [
+          {
+            "label": "Current",
+            "points": [
+              [
+                0,
+                1
+              ],
+              [
+                50,
+                2
+              ],
+              [
+                100,
+                8
+              ],
+              [
+                150,
+                2
+              ],
+              [
+                225,
+                1
+              ],
+              [
+                300,
+                2
+              ],
+              [
+                350,
+                8
+              ],
+              [
+                400,
+                2
+              ],
+              [
+                475,
+                1
+              ],
+              [
+                550,
+                2
+              ],
+              [
+                600,
+                8
+              ],
+              [
+                650,
+                2
+              ],
+              [
+                725,
+                1
+              ],
+              [
+                800,
+                2
+              ],
+              [
+                850,
+                8
+              ],
+              [
+                900,
+                2
+              ],
+              [
+                950,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "4",
+          "rationale": "Correct. Each of the four peaks marks a spot where the probe was closest to the surface: the top of an atom."
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "rationale": "Three is the number of low gaps between the peaks; gaps are spaces between atoms, not atoms."
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "rationale": "Eight is the height of each peak (the current value), not a count of atoms."
+        },
+        {
+          "id": "e",
+          "text": "5",
+          "rationale": "Five is the number of low-current stretches, counting both ends of the scan. Low current marks gaps or the edges, not atoms."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Assume the probe moves at one steady height and each peak comes from one atom.",
+      "limitations": "Simplified, made-up data for one scan line. Real STMs often adjust the probe height to keep the current steady and record the height instead.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Distractor d (photographs) replaced by e, \"5\", the count of low-current stretches; difficulty 3 to 2. LibreTexts STM record added for the constant-height versus constant-current modes (Nobel press release returned HTTP 403 on re-check). Verify (2026-10-14): checked against rendered printed pp. 13; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Counted the diagram: four peaks of 8 at 100/350/600/850 pm, three inner gaps, five low stretches; alt text carries everything needed. Nobel press release and LibreTexts re-opened. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced by a numeric \"5\" (new id e); difficulty 3 to 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q15",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3"
+      ],
+      "conceptTags": [
+        "Döbereiner",
+        "triads",
+        "properties",
+        "atomic mass"
+      ],
+      "familyId": "L01-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Lithium (7 Da), sodium (23 Da), and potassium (39 Da) are similar soft metals that all react with water. Sodium's atomic mass sits almost exactly halfway between the other two. What pattern did Döbereiner propose for the middle element of a trio like this?",
+      "accessiblePrompt": "Lithium, 7 daltons, sodium, 23 daltons, and potassium, 39 daltons, are similar soft metals that all react with water. Sodium's atomic mass sits almost exactly halfway between the other two. What pattern did Döbereiner propose for the middle element of a trio like this?",
+      "explanation": "In this trio, middle mass comes with middle behavior: lithium fizzes gently, sodium reacts more strongly, and potassium reacts most violently. Döbereiner proposed that the middle member of such a trio behaves as a go-between of the other two, a pattern that let chemists make predictions long before anyone could see an atom.",
+      "misconception": "Elements grouped together must behave identically.",
+      "hint": "If one end of the trio is gentle and the other is wild, what would you expect in the middle?",
+      "followUpId": "L01-Q24",
+      "scope": {
+        "lessonId": "L01",
+        "section": "3. Classifying Elements",
+        "pages": {
+          "printed": [
+            14
+          ],
+          "pdf": [
+            50
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Sodium's mass (23 Da) is about the average of lithium (7 Da) and potassium (39 Da); Döbereiner proposed that the middle element of this type of group behaves as an intermediate of the other two."
+        },
+        {
+          "type": "external",
+          "title": "Reactivity trends of the alkali metals",
+          "publisher": "Royal Society of Chemistry (Education)",
+          "url": "https://edu.rsc.org/experiments/reactivity-trends-of-the-alkali-metals/731.article",
+          "accessed": "2026-10-14",
+          "supports": "Reactivity with water increases lithium < sodium < potassium."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its behavior falls between that of the other two members.",
+          "rationale": "Correct. A middle mass goes with middle behavior: sodium reacts more strongly than lithium but less than potassium."
+        },
+        {
+          "id": "b",
+          "text": "It behaves exactly like the lightest member of the trio.",
+          "rationale": "The three react with different strengths; the pattern puts the middle member between the other two, not level with the lightest."
+        },
+        {
+          "id": "c",
+          "text": "It is the most reactive member, even more than the heaviest.",
+          "rationale": "A middle mass goes with middle behavior; in this trio potassium, the heaviest, is the most reactive."
+        },
+        {
+          "id": "d",
+          "text": "It does not react with water, unlike the other two members.",
+          "rationale": "All three metals in this trio react with water; the pattern is about how strongly, not whether."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Asks what pattern Döbereiner proposed for the middle element of a trio (as p. 14 frames it), not what he \"predicted about sodium\", whose behavior was already known. Choices reworded to fit and balanced to similar lengths (same claims, so ids kept). Verify (2026-10-14): checked against rendered printed pp. 14; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. RSC Education alkali-metal page re-opened: Li < Na < K. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: asks what pattern Döbereiner proposed for the middle element, not a prediction about sodium"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices rebalanced to similar length so the key is not cued"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q16",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3",
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "Döbereiner",
+        "triads",
+        "atomic mass",
+        "prediction"
+      ],
+      "familyId": "L01-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "Calcium (40.1 Da), strontium, and barium (137.3 Da) are similar metals in the same column of the periodic table. Use Döbereiner's halfway pattern to predict strontium's atomic mass in daltons, to one decimal place.",
+      "accessiblePrompt": "Calcium has an atomic mass of 40.1 daltons and barium has 137.3 daltons. Strontium sits between them in the same column of the periodic table. Use Döbereiner's halfway pattern to predict strontium's atomic mass in daltons, to one decimal place.",
+      "explanation": "The halfway pattern says the middle element's mass is about the average of the outer two. The prediction, 88.7 Da, lands close to strontium's listed 87.6 Da: near, but not exact, because this is a pattern rather than a law.",
+      "misconception": "You add the two masses, or just pick one of them, instead of averaging the outer pair.",
+      "hint": "Find the number exactly halfway between 40.1 and 137.3.",
+      "followUpId": "L01-Q28",
+      "scope": {
+        "lessonId": "L01",
+        "section": "3. Classifying Elements",
+        "pages": {
+          "printed": [
+            14
+          ],
+          "pdf": [
+            50
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "In such trios the middle element's atomic mass is about the average of the other two."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16
+          ],
+          "pdfPages": [
+            52
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Calcium 40.1, strontium 87.6 and barium 137.3 sit in the same column."
+        }
+      ],
+      "answer": 88.7,
+      "tolerance": 0.5,
+      "unit": "Da",
+      "units": "daltons (Da)",
+      "workedSolution": "Average the two outer masses: (40.1 Da + 137.3 Da) ÷ 2 = 177.4 Da ÷ 2 = 88.7 Da. The periodic table lists strontium at 87.6 Da, so the prediction is within about 1 Da.",
+      "limitations": "The halfway pattern is approximate and works only for some trios.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Read-aloud prompt rewritten so each value clearly belongs to its element; prompt asks for one decimal place. Tolerance kept at 0.5. Verify (2026-10-14): checked against rendered printed pp. 14, 16; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Ca 40.1, Sr 87.6, Ba 137.3 confirmed on the rendered p. 16; (40.1 + 137.3) ÷ 2 = 88.7. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessiblePrompt rewritten; prompt asks for one decimal place"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q17",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3",
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "reactivity",
+        "alkali metals",
+        "pattern",
+        "prediction"
+      ],
+      "familyId": "L01-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Rubidium (Rb, 85.5 Da) sits just below potassium in the same column as lithium, sodium, and potassium. Using the pattern in that column, order all four from the gentlest reaction with water to the most violent.",
+      "accessiblePrompt": "Rubidium, symbol capital R, small b, 85.5 daltons, sits just below potassium in the same column of the periodic table as lithium, sodium, and potassium. Using the pattern in that column, order all four metals, lithium, sodium, potassium, and rubidium, from the gentlest reaction with water to the most violent.",
+      "explanation": "Going down this column from lithium to sodium to potassium, the reaction with water grows stronger as the atomic mass climbs. Extending the pattern one more step predicts that rubidium reacts even more violently than potassium, and chemists confirm that it does. These reactions are dangerous and are only done by trained chemists.",
+      "misconception": "A pattern in the known members of a group says nothing about the next member down.",
+      "hint": "What happened to the reaction as you went from lithium to sodium to potassium?",
+      "followUpId": "L01-Q23",
+      "scope": {
+        "lessonId": "L01",
+        "section": "3. Classifying Elements; Key Science Concept: The Periodic Table of Elements",
+        "pages": {
+          "printed": [
+            14,
+            16
+          ],
+          "pdf": [
+            50,
+            52
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements (Figure 3)",
+          "supports": "Lithium only fizzes, sodium can start a fire, and potassium practically explodes when wet; their masses are 7, 23 and 39 Da."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16
+          ],
+          "pdfPages": [
+            52
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Rubidium (85.5) sits directly below potassium (39.1) in the column with lithium and sodium."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            18
+          ],
+          "pdfPages": [
+            54
+          ],
+          "locator": "Section 5, Location of Elements",
+          "supports": "Elements within a group tend to have similar properties; the left-most group is mostly metals that react with water."
+        },
+        {
+          "type": "external",
+          "title": "Reactivity trends of the alkali metals",
+          "publisher": "Royal Society of Chemistry (Education)",
+          "url": "https://edu.rsc.org/experiments/reactivity-trends-of-the-alkali-metals/731.article",
+          "accessed": "2026-10-14",
+          "supports": "Lithium fizzes but does not catch fire; sodium may catch fire only if it sticks in place; potassium catches fire; reactivity order lithium < sodium < potassium."
+        },
+        {
+          "type": "external",
+          "title": "Rubidium: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/37/rubidium",
+          "accessed": "2026-10-14",
+          "supports": "Rubidium reacts violently with water, so violently that the hydrogen released can ignite; reactivity increases going down Group 1."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 18.1 Periodicity",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+          "accessed": "2026-10-14",
+          "supports": "The alkali metals all react vigorously with water, and their reactivity increases with increasing atomic number (going down the group)."
+        }
+      ],
+      "items": [
+        {
+          "id": "k",
+          "text": "Potassium",
+          "rationale": "Reacts almost explosively, more violently than sodium."
+        },
+        {
+          "id": "li",
+          "text": "Lithium",
+          "rationale": "Only fizzes, the gentlest of the four."
+        },
+        {
+          "id": "rb",
+          "text": "Rubidium",
+          "rationale": "The next member down the column, so the pattern predicts the most violent reaction of the four, and outside sources confirm it."
+        },
+        {
+          "id": "na",
+          "text": "Sodium",
+          "rationale": "Can react strongly enough to start a fire: stronger than lithium, weaker than potassium."
+        }
+      ],
+      "answer": [
+        "li",
+        "na",
+        "k",
+        "rb"
+      ],
+      "ends": [
+        "Gentlest reaction",
+        "Most violent reaction"
+      ],
+      "conditions": "Small pieces of each pure metal touching water.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Rewritten from recall of the p. 14 order (which repeated Q15) into a prediction that extends the column trend to rubidium (application, difficulty 2, objectives O3 and O4). Rubidium's reactivity is supported by RSC and OpenStax, which were opened; the sodium rationale says \"can start a fire\" (p. 14; RSC says sodium usually does not ignite on open water). Safety sentence kept. Verify (2026-10-14): checked against rendered printed pp. 14, 16, 18; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. RSC rubidium page and OpenStax 18.1 re-opened: reactivity increases down Group 1; Rb tile 85.5 directly below K on p. 16. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: sodium rationale now says it can start a fire, not that it does"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a prediction extending the Li-Na-K trend to rubidium (application, difficulty 2) with RSC and OpenStax evidence"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "The lesson describes lithium, sodium, and potassium; rubidium's place comes from extending the group pattern and is confirmed by outside sources."
+    },
+    {
+      "id": "L01-Q18",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3"
+      ],
+      "conceptTags": [
+        "Mendeleev",
+        "periodic table",
+        "prediction"
+      ],
+      "familyId": "L01-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "While building his table, Mendeleev sometimes reached a spot where the next known element, by atomic mass, didn't share the properties of that column. What did he do?",
+      "accessiblePrompt": "While building his table, Mendeleev sometimes reached a spot where the next known element, by atomic mass, did not share the properties of that column. What did he do?",
+      "explanation": "Mendeleev trusted the column patterns. A mismatch suggested an element was missing, so he left a gap and even predicted that element's properties and approximate mass from its neighbors. A blank space became a testable prediction.",
+      "misconception": "Mendeleev just listed elements strictly in mass order, with no room for unknown elements.",
+      "hint": "He believed each column had to share properties. What would protect that pattern?",
+      "followUpId": "L01-Q27",
+      "scope": {
+        "lessonId": "L01",
+        "section": "4. The Periodic Table",
+        "pages": {
+          "printed": [
+            15
+          ],
+          "pdf": [
+            51
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4. The Periodic Table",
+          "supports": "When an element fit the mass order but not a column's properties, Mendeleev left a blank for an undiscovered element and predicted its properties and mass."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "He left the spot blank for an element not yet discovered.",
+          "rationale": "Correct. He reasoned that an unknown element with the right properties belonged there."
+        },
+        {
+          "id": "b",
+          "text": "He put the element there anyway, since mass order mattered most.",
+          "rationale": "He treated shared column properties as important; forcing a mismatch would break the pattern."
+        },
+        {
+          "id": "c",
+          "text": "He removed that element from the table completely.",
+          "rationale": "He did not throw out known elements; he left a gap and placed the known element where its properties fit."
+        },
+        {
+          "id": "d",
+          "text": "He started a new column just for that one element.",
+          "rationale": "He kept his eight-column layout and left blank spaces instead."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Verify (2026-10-14): checked against rendered printed pp. 15; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q19",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3"
+      ],
+      "conceptTags": [
+        "Mendeleev",
+        "evidence",
+        "prediction"
+      ],
+      "familyId": "L01-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Mendeleev's 1871 table had blanks marked with predicted masses of 44, 68, and 72. Later, scandium (45.0 Da), gallium (69.7 Da), and germanium (72.6 Da) were discovered. Why was this such strong evidence for his table?",
+      "accessiblePrompt": "Mendeleev's 1871 table had blank spaces marked with predicted masses of 44, 68, and 72. Later, scandium, 45.0 daltons, gallium, 69.7 daltons, and germanium, 72.6 daltons, were discovered. Why was this such strong evidence for his table?",
+      "explanation": "A prediction that comes true is stronger evidence than an explanation made after the fact. Mendeleev described elements nobody had found yet, and the later discoveries fit his gaps closely in both mass and properties.",
+      "misconception": "Any agreement found after the fact proves a model just as well as a successful prediction.",
+      "hint": "What is more convincing: explaining something already known, or predicting something before it is found?",
+      "followUpId": "L01-Q22",
+      "scope": {
+        "lessonId": "L01",
+        "section": "4. The Periodic Table",
+        "pages": {
+          "printed": [
+            15
+          ],
+          "pdf": [
+            51
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4. The Periodic Table (1871 table and text)",
+          "supports": "Blanks marked 44, 68 and 72; gallium, scandium and germanium were later found with the predicted properties."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Scandium 45.0, gallium 69.7 and germanium 72.6."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.5 The Periodic Table",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "accessed": "2026-10-14",
+          "supports": "The discoveries of gallium (1875) and germanium (1886) strongly supported Mendeleev's work."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "The elements matched predictions made before anyone had found them.",
+          "rationale": "Correct. Predictions made in advance that later come true are powerful evidence for a model."
+        },
+        {
+          "id": "b",
+          "text": "It proved that atomic masses in the table never have exceptions.",
+          "rationale": "The match supports his table, but the table still has a few exceptions to strict mass order."
+        },
+        {
+          "id": "c",
+          "text": "Mendeleev discovered all three elements in his own lab.",
+          "rationale": "Other scientists discovered them later in the 1800s; that is part of what makes the match convincing."
+        },
+        {
+          "id": "d",
+          "text": "Finding any new element would have supported his table equally.",
+          "rationale": "An element with the wrong mass or properties would have counted against his predictions; the close match is what mattered."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Verify (2026-10-14): checked against rendered printed pp. 15, 16, 17; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Blanks —=44, —=68 (Gruppe III) and —=72 (Gruppe IV) read on the rendered p. 15; Sc 45.0 (p. 16), Ga 69.7, Ge 72.6 (p. 17); OpenStax 2.5 re-opened (Ga 1875, Ge 1886). No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q20",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3"
+      ],
+      "conceptTags": [
+        "Mendeleev",
+        "periodic table",
+        "organization"
+      ],
+      "familyId": "L01-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which of these were features of Mendeleev's periodic table? Select all that apply.",
+      "accessiblePrompt": "Which of these were features of Mendeleev's periodic table? Select all that apply.",
+      "explanation": "Mendeleev combined two ideas: increasing atomic mass along the rows and shared properties down the columns. Scientists have since added the elements discovered after his time, but that core design survives.",
+      "misconception": "The periodic table was complete from the start, or it was organized by appearance or by history.",
+      "hint": "Think about the two patterns he combined: one along the rows and one down the columns.",
+      "followUpId": "L01-Q21",
+      "scope": {
+        "lessonId": "L01",
+        "section": "4. The Periodic Table",
+        "pages": {
+          "printed": [
+            15
+          ],
+          "pdf": [
+            51
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4. The Periodic Table",
+          "supports": "Mendeleev ordered elements by increasing atomic mass across rows and grouped similar elements into columns."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4, Mendeleev's 1871 table",
+          "supports": "The table lists tellurium (Te=125) just before iodine (J=127), placed by column properties."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            18
+          ],
+          "pdfPages": [
+            54
+          ],
+          "locator": "Section 5. Using the Periodic Table",
+          "supports": "The modern table includes elements discovered since Mendeleev's time."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elements with similar properties shared a column.",
+          "rationale": "Correct. He grouped elements into columns by their shared characteristics."
+        },
+        {
+          "id": "b",
+          "text": "Atomic mass generally increased along each row.",
+          "rationale": "Correct. He listed elements left to right in order of increasing atomic mass, with a few spots, such as tellurium and iodine, where he let properties decide."
+        },
+        {
+          "id": "c",
+          "text": "Elements were arranged by the year they were discovered.",
+          "rationale": "Discovery date played no part in his arrangement."
+        },
+        {
+          "id": "d",
+          "text": "Every element known today was already included.",
+          "rationale": "Many elements were discovered after his table; the modern version adds them."
+        },
+        {
+          "id": "e",
+          "text": "Columns were sorted by each element's color.",
+          "rationale": "He used properties such as how elements react, along with atomic mass, not color."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "review": {
+        "status": "needs-review",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Choice b says atomic mass \"generally\" increased: Mendeleev deliberately broke strict mass order in places (his table on p. 15 puts Te before iodine, J). Rationale names that exception; the claim and id are unchanged. Verify (2026-10-14): NOT passed. Keys a and b are correct (p. 15: mass increases left to right; similar elements share a column), but the item is not accurately cited: rationale b's Te/I clause and the second p. 15 evidence record claim Mendeleev placed tellurium before iodine by properties, while the rendered 1871 table shows Te=125 before J=127 (mass order by his own values). Suggested repair: drop the Te/I clause from rationale b (e.g. 'with a few exceptions on today's table') and make that record say only that the table lists Te=125 just before J=127; or keep the clause and add an opened history-of-chemistry source explaining that Mendeleev placed tellurium by properties and revised its mass to 125.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b says atomic mass generally increased along each row"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "fail: rationale b says Mendeleev 'let properties decide' at tellurium and iodine, but the p. 15 table lists Te=125 before J=127, which is in mass order by his own numbers. The second textbook evidence record says the page shows them 'placed by column properties', which the page does not state, and no external source in the item supports the historical claim (OpenStax 2.5, re-opened, does not mention it). Keyed answers a and b are correct."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q21",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3",
+        "L01-O2"
+      ],
+      "conceptTags": [
+        "history of science",
+        "periodic table",
+        "STM"
+      ],
+      "familyId": "L01-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each scientist or team with their contribution.",
+      "accessiblePrompt": "Match each scientist or team with their contribution: Johann Döbereiner; John Newlands; Dmitry Mendeleev; and Heinrich Rohrer with Gerd Binnig.",
+      "explanation": "Each step built on the last: Döbereiner's trios hinted that mass and properties were linked, Newlands saw a repeating pattern, and Mendeleev turned it into a table that could predict. About a century later, Rohrer and Binnig built a tool that could map individual atoms.",
+      "misconception": "Our picture of elements and atoms came from one scientist in one moment.",
+      "hint": "Think in time order: which idea came first and was simplest, and which needed a brand-new machine?",
+      "followUpId": "L01-Q18",
+      "scope": {
+        "lessonId": "L01",
+        "section": "2. Engineering Tools to Observe Atoms; 3. Classifying Elements; 4. The Periodic Table",
+        "pages": {
+          "printed": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "pdf": [
+            48,
+            49,
+            50,
+            51
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Döbereiner's trios and their atomic-mass pattern."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4. The Periodic Table",
+          "supports": "Newlands' repeat every eighth element; Mendeleev's table with blank spaces."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            12,
+            13
+          ],
+          "pdfPages": [
+            48,
+            49
+          ],
+          "locator": "Section 2. Engineering Tools to Observe Atoms",
+          "supports": "Rohrer and Binnig built the STM."
+        }
+      ],
+      "left": [
+        {
+          "id": "l1",
+          "text": "Johann Döbereiner",
+          "rationale": "Grouped similar elements in threes and noticed the middle mass was close to the average of the other two."
+        },
+        {
+          "id": "l2",
+          "text": "John Newlands",
+          "rationale": "Lined up elements by mass and saw similar properties repeat every eighth element."
+        },
+        {
+          "id": "l3",
+          "text": "Dmitry Mendeleev",
+          "rationale": "Built a table with columns of similar elements and left blank spaces for elements not yet found."
+        },
+        {
+          "id": "l4",
+          "text": "Heinrich Rohrer and Gerd Binnig",
+          "rationale": "Built the Scanning Tunneling Microscope, which maps atoms using a probe and an electric current."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Trios where the middle element's mass is about the average"
+        },
+        {
+          "id": "r2",
+          "text": "Properties repeating every eighth element"
+        },
+        {
+          "id": "r3",
+          "text": "A table with gaps for undiscovered elements"
+        },
+        {
+          "id": "r4",
+          "text": "A microscope that maps atoms with a probe and current"
+        },
+        {
+          "id": "r5",
+          "text": "Proof that every atom of an element has exactly the same mass"
+        }
+      ],
+      "answer": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Right-side r5 is an unmatched distractor targeting the isotope misconception (see L01-RF3). Round 1 (2026-10-14): scope.section now names sections 2, 3 and 4 (pages unchanged). Optional pedagogy suggestion applied in spirit: the hint no longer restates the right-hand items. Verify (2026-10-14): checked against rendered printed pp. 12, 13, 14, 15; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope.section names sections 2, 3 and 4"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q22",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O3"
+      ],
+      "conceptTags": [
+        "history of science",
+        "periodic table",
+        "sequence"
+      ],
+      "familyId": "L01-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these milestones in the order they happened, from earliest to latest.",
+      "accessiblePrompt": "Put these five milestones in the order they happened, from earliest to latest: Döbereiner groups elements in trios; Newlands sees a repeat every eighth element; Mendeleev publishes a table with blank spaces; gallium, scandium, and germanium are discovered; Rohrer and Binnig build the STM.",
+      "explanation": "Each milestone depended on the one before: patterns in trios led to a repeating pattern, which led to a predictive table, whose gaps were later filled by discoveries. The STM came about a century after that, giving a new way to map atoms that chemists had long been classifying without seeing.",
+      "misconception": "The periodic table was created all at once, or the ability to see atoms came before elements were classified.",
+      "hint": "Which ideas had to exist before the next ones could be built on them?",
+      "followUpId": "L01-Q19",
+      "scope": {
+        "lessonId": "L01",
+        "section": "2. Engineering Tools to Observe Atoms; 3. Classifying Elements; 4. The Periodic Table",
+        "pages": {
+          "printed": [
+            13,
+            14,
+            15
+          ],
+          "pdf": [
+            49,
+            50,
+            51
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Döbereiner's trios in the early 1800s."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4. The Periodic Table",
+          "supports": "Newlands in the mid-1800s, then Mendeleev's 1871 table, then the late-1800s discoveries of gallium, scandium and germanium."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            13
+          ],
+          "pdfPages": [
+            49
+          ],
+          "locator": "Section 2, “Seeing” Atoms",
+          "supports": "The STM was built in 1981."
+        }
+      ],
+      "items": [
+        {
+          "id": "mend",
+          "text": "Mendeleev publishes a table with blank spaces",
+          "rationale": "1871 table (shown in the lesson), after Newlands' work."
+        },
+        {
+          "id": "stm",
+          "text": "Rohrer and Binnig build the STM",
+          "rationale": "1981, about a century after the periodic table took shape."
+        },
+        {
+          "id": "dob",
+          "text": "Döbereiner groups similar elements in trios",
+          "rationale": "Early 1800s, the first of these milestones."
+        },
+        {
+          "id": "disc",
+          "text": "Gallium, scandium, and germanium are discovered",
+          "rationale": "Late 1800s, filling gaps Mendeleev had already predicted."
+        },
+        {
+          "id": "new",
+          "text": "Newlands sees properties repeat every eighth element",
+          "rationale": "Mid-1800s, building on Döbereiner and shortly before Mendeleev."
+        }
+      ],
+      "answer": [
+        "dob",
+        "new",
+        "mend",
+        "disc",
+        "stm"
+      ],
+      "ends": [
+        "Earliest",
+        "Latest"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): scope.section now names sections 2, 3 and 4 (pages unchanged). Verify (2026-10-14): checked against rendered printed pp. 13, 14, 15; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope.section names sections 2, 3 and 4"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q23",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "groups",
+        "prediction",
+        "properties"
+      ],
+      "familyId": "L01-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Rubidium and cesium sit in the same column as lithium, sodium, and potassium. Krypton and xenon sit in the same column as neon and argon. Use the group pattern to sort each element by its predicted behavior.",
+      "accessiblePrompt": "Rubidium and cesium sit in the same column as lithium, sodium, and potassium. Krypton and xenon sit in the same column as neon and argon. Use the group pattern to sort each element by its predicted behavior.",
+      "explanation": "Elements in a group tend to share properties, so position is a powerful clue. Rubidium and cesium are indeed metals that react strongly with water, and krypton and xenon are gases at room temperature. Group trends are tendencies, though: hydrogen sits at the top of lithium's column but is a gas.",
+      "misconception": "You can't predict anything about an element until you have studied it directly.",
+      "hint": "Find each element's family, then borrow what you know about that family.",
+      "followUpId": "L01-Q15",
+      "scope": {
+        "lessonId": "L01",
+        "section": "5. Using the Periodic Table",
+        "pages": {
+          "printed": [
+            18
+          ],
+          "pdf": [
+            54
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            18
+          ],
+          "pdfPages": [
+            54
+          ],
+          "locator": "Section 5, Location of Elements (Figure 5)",
+          "supports": "Elements in a group share properties: the right-most group holds gases at room temperature; the left-most group is mostly metals that react with water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Rubidium and cesium sit below potassium; krypton and xenon sit below argon."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table: element property data (atomic number, atomic mass, standard state, atomic radius)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Rubidium and cesium are alkali metals; krypton and xenon are noble gases with a gaseous standard state."
+        }
+      ],
+      "items": [
+        {
+          "id": "rb",
+          "text": "Rubidium (Rb)",
+          "rationale": "Same column as sodium and potassium, so expect a soft metal that reacts strongly with water."
+        },
+        {
+          "id": "kr",
+          "text": "Krypton (Kr)",
+          "rationale": "Same column as neon and argon, so expect a gas at room temperature."
+        },
+        {
+          "id": "cs",
+          "text": "Cesium (Cs)",
+          "rationale": "Same column as lithium, sodium, and potassium, so expect strong reactions with water."
+        },
+        {
+          "id": "xe",
+          "text": "Xenon (Xe)",
+          "rationale": "Same column as neon and argon, so expect a gas at room temperature."
+        }
+      ],
+      "bins": [
+        {
+          "id": "metal",
+          "label": "Soft metal that reacts strongly with water"
+        },
+        {
+          "id": "gas",
+          "label": "Gas at room temperature, like neon"
+        }
+      ],
+      "answer": {
+        "rb": "metal",
+        "kr": "gas",
+        "cs": "metal",
+        "xe": "gas"
+      },
+      "conditions": "Room temperature, about 20–25 °C.",
+      "limitations": "Group patterns are tendencies with a few exceptions, such as hydrogen.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Verify (2026-10-14): checked against rendered printed pp. 16, 17, 18; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Rb and Cs sit below K (p. 16); Kr and Xe below Ar (p. 17); PubChem re-fetched: Kr, Xe gases; Rb, Cs solid alkali metals. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q24",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "identification",
+        "properties",
+        "atomic mass",
+        "groups"
+      ],
+      "familyId": "L01-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A mystery element is a soft, shiny metal that reacts with water even more violently than sodium does. Its atomic mass is about 39 Da. Which element fits both clues?",
+      "accessiblePrompt": "A mystery element is a soft, shiny metal that reacts with water even more violently than sodium does. Its atomic mass is about 39 daltons. Which element fits both clues?",
+      "explanation": "Identifying an element takes every clue, not just one. A soft metal that reacts with water more violently than sodium belongs below sodium in lithium's column, and a mass of about 39 Da then picks out potassium. Argon has a similar mass but is a gas, and rubidium reacts violently but is more than twice as heavy.",
+      "misconception": "One matching clue, such as a similar atomic mass, is enough to identify an element.",
+      "hint": "Use the behavior clue to find the right column first, then use the mass to choose within it.",
+      "followUpId": "L01-Q17",
+      "scope": {
+        "lessonId": "L01",
+        "section": "3. Classifying Elements; Key Science Concept: The Periodic Table of Elements; 5. Using the Periodic Table",
+        "pages": {
+          "printed": [
+            14,
+            16,
+            17,
+            18
+          ],
+          "pdf": [
+            50,
+            52,
+            53,
+            54
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Lithium, sodium and potassium are soft gray metals that react with water: lithium only fizzes, sodium can start a fire, potassium practically explodes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Tiles list lithium 6.9, sodium 23.0, potassium 39.1, rubidium 85.5 and argon 39.9; argon sits in the column with helium and neon."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            18
+          ],
+          "pdfPages": [
+            54
+          ],
+          "locator": "Section 5, Location of Elements (Figure 5)",
+          "supports": "Helium, neon and argon share a group and are gases at room temperature; the left-most group is mostly metals that react with water."
+        },
+        {
+          "type": "external",
+          "title": "Rubidium: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/37/rubidium",
+          "accessed": "2026-10-14",
+          "supports": "Rubidium reacts violently with water, so violently that the hydrogen released can ignite; reactivity increases going down Group 1."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 18.1 Periodicity",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+          "accessed": "2026-10-14",
+          "supports": "The alkali metals all react vigorously with water, and their reactivity increases with increasing atomic number (going down the group)."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table: element property data (atomic number, atomic mass, standard state, atomic radius)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Potassium 39.0983 (solid), argon 39.9 (gas), lithium 7.0 (solid), rubidium 85.468 (solid)."
+        }
+      ],
+      "choices": [
+        {
+          "id": "e",
+          "text": "Potassium (K), 39.1 Da",
+          "rationale": "Correct. Potassium sits just below sodium in lithium's column, reacts more violently than sodium, and its mass, 39.1 Da, matches."
+        },
+        {
+          "id": "f",
+          "text": "Argon (Ar), 39.9 Da",
+          "rationale": "The mass fits, but argon is a gas in neon's group, not a metal that reacts with water."
+        },
+        {
+          "id": "g",
+          "text": "Lithium (Li), 6.9 Da",
+          "rationale": "Lithium is in the right column, but it reacts more gently than sodium, and its mass is far from 39 Da."
+        },
+        {
+          "id": "h",
+          "text": "Rubidium (Rb), 85.5 Da",
+          "rationale": "Rubidium does react more violently than sodium, but its mass is more than twice 39 Da."
+        }
+      ],
+      "answer": "e",
+      "conditions": "Room temperature, about 20–25 °C.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Rewritten (both reviewers) because it repeated Q23's group-to-gas inference; it now covers the brief's mission \"identify an element using supplied properties\". Two versions were proposed; the potassium version (soft metal, more reactive than sodium, about 39 Da) was chosen over the neon version because it gives only properties, while the neon version names the column (a position, not a property) and keeps the gas-in-neon's-column step that made Q24 a near-copy of Q23. Every choice is new, so ids are e-h. Verify (2026-10-14): checked against rendered printed pp. 14, 16, 17, 18; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. K 39.1, Ar 39.9, Li 6.9, Rb 85.5 confirmed on the rendered spread; only potassium fits both clues. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a properties-to-identity item (potassium version used instead of the proposed neon version; see notes)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a properties-to-identity item: soft metal, more reactive than sodium, about 39 Da (new ids e-h)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Uses the rounded atomic masses on the lesson's periodic table."
+    },
+    {
+      "id": "L01-Q25",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "chemical symbols"
+      ],
+      "familyId": "L01-F11",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each chemical symbol with its element.",
+      "accessiblePrompt": "Match each chemical symbol with its element. The symbols are: capital P, small b; capital K; capital N, small a; capital N, small e; and capital F, small e.",
+      "explanation": "Symbols have one or two letters, with only the first letter capitalized. Some shorten the English name, like Ne for neon; others come from older or non-English names, like Pb from the Latin plumbum and Na from natrium.",
+      "misconception": "A chemical symbol is always the first letter or letters of the element's English name.",
+      "hint": "Not every symbol starts with the same letter as the English name. Which ones come from other languages?",
+      "followUpId": "L01-Q24",
+      "scope": {
+        "lessonId": "L01",
+        "section": "5. Using the Periodic Table",
+        "pages": {
+          "printed": [
+            19
+          ],
+          "pdf": [
+            55
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            19
+          ],
+          "pdfPages": [
+            55
+          ],
+          "locator": "Section 5, Reading the Names of the Elements",
+          "supports": "Ne is neon, C is carbon; Pb (lead) and K (potassium) come from names in other languages, Pb from the Latin plumbum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Tiles show Na for sodium, Fe for iron, K for potassium, Ne for neon and Pb for lead."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.3 Atomic Structure and Symbolism",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "accessed": "2026-10-14",
+          "supports": "Some symbols come from Latin names: Pb from plumbum, K from kalium, Na from natrium, Fe from ferrum."
+        }
+      ],
+      "left": [
+        {
+          "id": "pb",
+          "text": "Pb",
+          "rationale": "Lead, from the Latin plumbum."
+        },
+        {
+          "id": "k",
+          "text": "K",
+          "rationale": "Potassium, from its Latin name kalium; krypton's symbol is Kr."
+        },
+        {
+          "id": "na",
+          "text": "Na",
+          "rationale": "Sodium, from natrium, an older name for sodium."
+        },
+        {
+          "id": "ne",
+          "text": "Ne",
+          "rationale": "Neon, shortened from its English name."
+        },
+        {
+          "id": "fe",
+          "text": "Fe",
+          "rationale": "Iron, from the Latin ferrum."
+        }
+      ],
+      "right": [
+        {
+          "id": "lead",
+          "text": "lead"
+        },
+        {
+          "id": "potassium",
+          "text": "potassium"
+        },
+        {
+          "id": "sodium",
+          "text": "sodium"
+        },
+        {
+          "id": "neon",
+          "text": "neon"
+        },
+        {
+          "id": "iron",
+          "text": "iron"
+        },
+        {
+          "id": "krypton",
+          "text": "krypton"
+        }
+      ],
+      "answer": {
+        "pb": "lead",
+        "k": "potassium",
+        "na": "sodium",
+        "ne": "neon",
+        "fe": "iron"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Right-side krypton is an unmatched distractor for the K/Kr mix-up. Round 1 (2026-10-14): Fe rationale names ferrum; the read-aloud prompt spells capital and small letters; the O4 Explorer card now teaches the natrium, kalium and ferrum origins so the item is not solvable only by elimination. Verify (2026-10-14): checked against rendered printed pp. 16, 17, 19; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. OpenStax 2.3 Table 2.3 re-opened: Na natrium, K kalium, Fe ferrum, Pb plumbum. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Fe rationale names ferrum; accessiblePrompt spells capital and small letters; O4 card teaches Na, K and Fe origins"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q26",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "chemical symbols",
+        "communication"
+      ],
+      "familyId": "L01-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A chemist in Brazil and a chemist in Japan speak different languages, yet both write “K” when they mean potassium. Why is that useful?",
+      "accessiblePrompt": "A chemist in Brazil and a chemist in Japan speak different languages, yet both write the letter K when they mean potassium. Why is that useful?",
+      "explanation": "Chemical symbols work like a worldwide alphabet for the elements. Because everyone uses the same symbols, a periodic table or a formula means the same thing in any language, and the short symbols also let a lot of information fit on one chart.",
+      "misconception": "Chemical symbols are abbreviations of English words, so they only work for English speakers.",
+      "hint": "What would go wrong if every country invented its own symbols?",
+      "followUpId": "L01-Q23",
+      "scope": {
+        "lessonId": "L01",
+        "section": "5. Using the Periodic Table",
+        "pages": {
+          "printed": [
+            19
+          ],
+          "pdf": [
+            55
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            19
+          ],
+          "pdfPages": [
+            55
+          ],
+          "locator": "Section 5, Reading the Names of the Elements",
+          "supports": "Scientists everywhere use the same chemical symbols to communicate about elements, whatever language they speak."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shared symbols let scientists everywhere identify elements the same way.",
+          "rationale": "Correct. A universal shorthand means a symbol means the same element in any language."
+        },
+        {
+          "id": "b",
+          "text": "K is short for the English word potassium, so everyone uses English.",
+          "rationale": "K does not come from the English name at all; it comes from another language, which is why it looks mysterious."
+        },
+        {
+          "id": "c",
+          "text": "Each country invents its own symbols, and K matches by chance.",
+          "rationale": "The symbols are shared on purpose, not matched by luck."
+        },
+        {
+          "id": "d",
+          "text": "Symbols only save ink; they don't carry a shared meaning.",
+          "rationale": "Saving space is a bonus, but the key benefit is that every scientist reads them the same way."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Verify (2026-10-14): checked against rendered printed pp. 19; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q27",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O4",
+        "L01-O3"
+      ],
+      "conceptTags": [
+        "periodic table",
+        "atomic mass",
+        "exceptions",
+        "groups"
+      ],
+      "familyId": "L01-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "On the periodic table, tellurium (127.6 Da) comes just before iodine (126.9 Da), even though tellurium is heavier. Which reason best fits how the table is organized?",
+      "accessiblePrompt": "On the periodic table, tellurium, 127.6 daltons, comes just before iodine, 126.9 daltons, even though tellurium is heavier. Which reason best fits how the table is organized?",
+      "explanation": "Columns are about shared properties. Tellurium behaves like selenium above it, and iodine behaves like chlorine and bromine above it, so the two swap places compared with strict mass order. Today's table is ordered by atomic number, the number of protons in each atom, which puts tellurium (52) before iodine (53) with no exception at all.",
+      "misconception": "The periodic table follows atomic mass with no exceptions.",
+      "hint": "Which matters more for choosing a column: an element's mass, or how it behaves?",
+      "followUpId": "L01-Q18",
+      "scope": {
+        "lessonId": "L01",
+        "section": "4. The Periodic Table; Key Science Concept: The Periodic Table of Elements; 5. Using the Periodic Table",
+        "pages": {
+          "printed": [
+            15,
+            17,
+            18
+          ],
+          "pdf": [
+            51,
+            53,
+            54
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            18
+          ],
+          "pdfPages": [
+            54
+          ],
+          "locator": "Section 5. Using the Periodic Table",
+          "supports": "Atomic masses increase across a period with only a few exceptions; elements in a group share properties."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            17
+          ],
+          "pdfPages": [
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Tellurium (127.6) is placed just before iodine (126.9); selenium sits above tellurium, and chlorine and bromine sit above iodine."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4, Mendeleev's 1871 table",
+          "supports": "Mendeleev listed tellurium as Te=125, just before iodine (J=127)."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.5 The Periodic Table",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "accessed": "2026-10-14",
+          "supports": "The modern periodic table arranges elements in increasing order of atomic number; elements in the same group have similar properties."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table: element property data (atomic number, atomic mass, standard state, atomic radius)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Tellurium has atomic number 52 and mass 127.6; iodine has atomic number 53 and mass 126.9."
+        }
+      ],
+      "choices": [
+        {
+          "id": "e",
+          "text": "Each one sits in the column whose members share its properties.",
+          "rationale": "Correct. Tellurium goes with selenium's column and iodine with chlorine's and bromine's; matching properties outweigh a small difference in mass."
+        },
+        {
+          "id": "b",
+          "text": "It is a printing mistake; the table always follows strict mass order.",
+          "rationale": "The lesson says masses increase with only a few exceptions; this is one of them, and it is deliberate."
+        },
+        {
+          "id": "f",
+          "text": "Tellurium's mass was measured wrong; it is really lighter than iodine.",
+          "rationale": "Mendeleev's 1871 table did list tellurium at 125, lighter than iodine, but later measurements confirm tellurium really is heavier (127.6 Da); properties, not a wrong mass, explain the order."
+        },
+        {
+          "id": "d",
+          "text": "Heavier elements always come first in each row.",
+          "rationale": "Atomic mass generally increases along a row, so heavier elements usually come later."
+        }
+      ],
+      "answer": "e",
+      "review": {
+        "status": "reviewed",
+        "notes": "Explains an exception to mass order through properties; the atomic-number note comes from external sources (L01-RF4). Round 1 (2026-10-14): Switched from argon/potassium to tellurium/iodine, because the O4 Explorer card states the Ar/K answer (the card keeps Ar/K as its worked example). The proposed distractor \"Tellurium was discovered first\" was not used: its premise is true (RSC: tellurium 1783, iodine 1811), which could make a careful learner hesitate, and it repeats Q20's discovery-date distractor. It is replaced by f, the historical belief that tellurium's mass was mis-measured (Mendeleev listed Te=125 on p. 15). Choices with new claims get new ids (e, f); b and d keep their text and ids. Verify (2026-10-14): checked against rendered printed pp. 15, 17, 18; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. Se above Te and Cl/Br above I confirmed on the rendered p. 17; PubChem re-fetched (Te 52/127.6, I 53/126.9); OpenStax 2.5 re-opened (atomic-number order). No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: switched to tellurium and iodine so the Explorer card no longer gives the answer (choice c replaced by a Te=125 distractor; see notes)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01-Q28",
+      "lessonId": "L01",
+      "objectiveIds": [
+        "L01-O4"
+      ],
+      "conceptTags": [
+        "atomic mass",
+        "dalton",
+        "data"
+      ],
+      "familyId": "L01-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "Using rounded atomic masses from the lesson, an oxygen atom is about 16 Da and a helium atom about 4 Da. How many helium atoms together have the same mass as three oxygen atoms? Give a whole number.",
+      "accessiblePrompt": "Using rounded atomic masses from the lesson, an oxygen atom is about 16 daltons and a helium atom about 4 daltons. How many helium atoms together have the same mass as three oxygen atoms? Give a whole number.",
+      "explanation": "Atomic masses let you compare atoms you could never weigh one at a time. Three oxygen atoms total about 48 Da, and each helium atom is about 4 Da, so it takes 12 helium atoms to match them.",
+      "misconception": "Atomic mass is just an ID number, not a measure of how much mass an atom has.",
+      "hint": "First find the total mass of the three oxygen atoms.",
+      "followUpId": "L01-Q16",
+      "scope": {
+        "lessonId": "L01",
+        "section": "3. Classifying Elements; Key Science Concept: The Periodic Table of Elements",
+        "pages": {
+          "printed": [
+            14,
+            17
+          ],
+          "pdf": [
+            50,
+            53
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Atomic mass is reported in daltons; oxygen is 16 Da."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            17
+          ],
+          "pdfPages": [
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Helium 4.0 and oxygen 16.0."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.3 Atomic Structure and Symbolism",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "accessed": "2026-10-14",
+          "supports": "Atomic masses are given in daltons (unified atomic mass units), and table values are averages over isotopes."
+        }
+      ],
+      "answer": 12,
+      "tolerance": 0,
+      "unit": "helium atoms",
+      "units": "number of helium atoms",
+      "workedSolution": "Step 1: 3 oxygen atoms × 16 Da = 48 Da. Step 2: 48 Da ÷ 4 Da per helium atom = 12 helium atoms. The spread's values (O 16.0 Da, He 4.0 Da) give the same answer: 48.0 ÷ 4.0 = 12.",
+      "limitations": "Uses rounded, average atomic masses.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Author draft; textbook pages rendered and checked. Round 1 (2026-10-14): Rewritten as a two-step item (three oxygen atoms, then divide by helium's mass) so it is no longer a one-step 16 ÷ 1. The prompt asks for a whole number and the spread's values give exactly 12, so tolerance 0 no longer marks correct reasoning wrong (the science reviewer's 15.9 concern). Verify (2026-10-14): checked against rendered printed pp. 14, 17; key unique, distractor rationales, citations, read-aloud prompt and guardrails confirmed. He 4.0 and O 16.0 confirmed on the rendered p. 17; 3 × 16 ÷ 4 = 12. No edits.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten so the spread's values give exactly 12; asks for a whole number (tolerance 0 is now fair)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: two-step helium/oxygen item; hint no longer states the calculation"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1198 @@
+{
+  "lessonId": "L01",
+  "guidingQuestion": "What are the smallest particles of matter?",
+  "hook": "Flip the switch on a neon sign and an “empty” glass tube blazes red, so what was hiding inside it all along?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          8,
+          9
+        ],
+        "pdf": [
+          44,
+          45
+        ]
+      }
+    },
+    {
+      "title": "1. Atoms",
+      "pages": {
+        "printed": [
+          10,
+          11
+        ],
+        "pdf": [
+          46,
+          47
+        ]
+      }
+    },
+    {
+      "title": "2. Engineering Tools to Observe Atoms",
+      "pages": {
+        "printed": [
+          12,
+          13
+        ],
+        "pdf": [
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "title": "3. Classifying Elements",
+      "pages": {
+        "printed": [
+          14
+        ],
+        "pdf": [
+          50
+        ]
+      }
+    },
+    {
+      "title": "4. The Periodic Table",
+      "pages": {
+        "printed": [
+          15
+        ],
+        "pdf": [
+          51
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: The Periodic Table of Elements",
+      "pages": {
+        "printed": [
+          16,
+          17
+        ],
+        "pdf": [
+          52,
+          53
+        ]
+      }
+    },
+    {
+      "title": "5. Using the Periodic Table",
+      "pages": {
+        "printed": [
+          18,
+          19
+        ],
+        "pdf": [
+          54,
+          55
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L01-O1",
+      "kind": "observe",
+      "text": "Identify matter (including invisible air) as anything with mass that takes up space, tell it apart from non-matter such as light, and distinguish a single atom from an element.",
+      "sections": [
+        "Introduction",
+        "1. Atoms",
+        "Key Science Concept: The Periodic Table of Elements"
+      ],
+      "pages": {
+        "printed": [
+          9,
+          10,
+          16
+        ],
+        "pdf": [
+          45,
+          46,
+          52
+        ]
+      }
+    },
+    {
+      "id": "L01-O2",
+      "kind": "relate",
+      "text": "Explain how the tiny atomic scale shaped the tools built to observe atoms, including the criteria, constraints, and probe-and-current model of the Scanning Tunneling Microscope.",
+      "sections": [
+        "1. Atoms",
+        "2. Engineering Tools to Observe Atoms"
+      ],
+      "pages": {
+        "printed": [
+          11,
+          12,
+          13
+        ],
+        "pdf": [
+          47,
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "id": "L01-O3",
+      "kind": "relate",
+      "text": "Explain how patterns linking properties and atomic mass led from Döbereiner's trios to Mendeleev's table and its successful predictions.",
+      "sections": [
+        "3. Classifying Elements",
+        "4. The Periodic Table"
+      ],
+      "pages": {
+        "printed": [
+          14,
+          15
+        ],
+        "pdf": [
+          50,
+          51
+        ]
+      }
+    },
+    {
+      "id": "L01-O4",
+      "kind": "apply",
+      "text": "Use an element's place in the periodic table, its atomic mass, and its chemical symbol to predict properties and interpret data.",
+      "sections": [
+        "Key Science Concept: The Periodic Table of Elements",
+        "5. Using the Periodic Table"
+      ],
+      "pages": {
+        "printed": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "pdf": [
+          52,
+          53,
+          54,
+          55
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "All the ordinary matter around you, from an iron nail to the invisible air in a balloon, is built from atoms. Light and sound are not matter.",
+    "An atom is one particle of an element; an element is a substance made of only one kind of atom. Fewer than a hundred kinds of atoms occur in nature, and they combine to build millions of substances.",
+    "Atoms are so small that scientists think about them on their own scale and measure them in picometers (trillionths of a meter).",
+    "Engineers define criteria (what success requires) and constraints (the limits they must work within). Rohrer and Binnig did both to invent the Scanning Tunneling Microscope.",
+    "The STM maps a surface by sweeping a sharp probe across it. In the simplest picture, with the probe held at one steady height, the electric current rises over each atom and falls over the gaps.",
+    "Before anyone could image atoms, chemists classified elements by patterns in properties and atomic mass, from Döbereiner's trios to Newlands' repeating eights to Mendeleev's columns.",
+    "Mendeleev left gaps for missing elements and predicted their properties; finding gallium, scandium, and germanium supported his table.",
+    "Elements in the same group tend to behave alike, so position predicts properties, and one- or two-letter chemical symbols give scientists everywhere a shared shorthand."
+  ],
+  "glossary": [
+    {
+      "term": "matter",
+      "definition": "Anything that has mass and takes up space, whether it is a solid, a liquid, or an invisible gas like air.",
+      "pages": {
+        "printed": [
+          10
+        ],
+        "pdf": [
+          46
+        ]
+      }
+    },
+    {
+      "term": "atom",
+      "definition": "One single particle of an element: the smallest piece that still counts as that element.",
+      "pages": {
+        "printed": [
+          9,
+          10
+        ],
+        "pdf": [
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "term": "element",
+      "definition": "A pure substance built from only one kind of atom, such as the carbon in a diamond or the neon in a sign.",
+      "pages": {
+        "printed": [
+          9,
+          10,
+          16
+        ],
+        "pdf": [
+          45,
+          46,
+          52
+        ]
+      }
+    },
+    {
+      "term": "atomic scale",
+      "definition": "The size range where atoms live, far too small to see even with a magnifying glass, so it needs its own tiny units.",
+      "pages": {
+        "printed": [
+          11
+        ],
+        "pdf": [
+          47
+        ]
+      }
+    },
+    {
+      "term": "picometer (pm)",
+      "definition": "A length unit equal to one trillionth of a meter (10⁻¹² m), handy for describing how wide atoms are.",
+      "pages": {
+        "printed": [
+          11
+        ],
+        "pdf": [
+          47
+        ]
+      }
+    },
+    {
+      "term": "criteria",
+      "definition": "The requirements a design has to meet before anyone can call it a success.",
+      "pages": {
+        "printed": [
+          9,
+          12
+        ],
+        "pdf": [
+          45,
+          48
+        ]
+      }
+    },
+    {
+      "term": "constraint",
+      "definition": "A limit, such as money, time, or the technology available, that narrows which design solutions are possible.",
+      "pages": {
+        "printed": [
+          9,
+          12
+        ],
+        "pdf": [
+          45,
+          48
+        ]
+      }
+    },
+    {
+      "term": "Scanning Tunneling Microscope (STM)",
+      "definition": "A tool that maps a surface atom by atom by sweeping a very sharp probe just above it and tracking a tiny electric current that changes with distance.",
+      "pages": {
+        "printed": [
+          13
+        ],
+        "pdf": [
+          49
+        ]
+      }
+    },
+    {
+      "term": "atomic mass",
+      "definition": "How much mass an atom has, measured in daltons. The number printed for each element is an average for that element's atoms.",
+      "pages": {
+        "printed": [
+          9,
+          14
+        ],
+        "pdf": [
+          45,
+          50
+        ]
+      }
+    },
+    {
+      "term": "dalton (Da)",
+      "definition": "The unit for atomic masses. A hydrogen atom is about 1 Da and an oxygen atom about 16 Da.",
+      "pages": {
+        "printed": [
+          14
+        ],
+        "pdf": [
+          50
+        ]
+      }
+    },
+    {
+      "term": "periodic table of the elements",
+      "definition": "A chart of every known element, arranged in rows and columns so that elements with similar properties line up in the same column.",
+      "pages": {
+        "printed": [
+          15,
+          16,
+          18
+        ],
+        "pdf": [
+          51,
+          52,
+          54
+        ]
+      }
+    },
+    {
+      "term": "group",
+      "definition": "A column of the periodic table; elements in the same group tend to share properties.",
+      "pages": {
+        "printed": [
+          18
+        ],
+        "pdf": [
+          54
+        ]
+      }
+    },
+    {
+      "term": "period",
+      "definition": "A row of the periodic table; atomic mass generally climbs as you move along it.",
+      "pages": {
+        "printed": [
+          18
+        ],
+        "pdf": [
+          54
+        ]
+      }
+    },
+    {
+      "term": "chemical symbol",
+      "definition": "A one- or two-letter shorthand for an element's name, such as Ne for neon or Pb for lead, shared by scientists in every country.",
+      "pages": {
+        "printed": [
+          19
+        ],
+        "pdf": [
+          55
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L01-O1",
+      "title": "Everything with mass is built from atoms",
+      "paragraphs": [
+        "Look at a neon sign that is switched off and its tube seems empty. It isn't. It holds trillions upon trillions of neon atoms, far too small to see. When electricity flows through the tube, those atoms give off a bright red glow.",
+        "Matter is anything that has mass and takes up space. An iron nail, a glass of water, and the invisible air inside a balloon all count, and all of them are made of atoms. Light, sound, and the warmth of a heat lamp are different: they are energy or vibrations traveling through or between matter, not stuff built from atoms.",
+        "An atom is one single particle of an element. An element is a substance built from only one kind of atom. A sparkling diamond and the gray graphite in a pencil look nothing alike, yet both are the element carbon. Fewer than a hundred kinds of atoms occur in nature, and they join in different combinations to make millions of substances."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Matter or not?",
+        "alt": "A table with three columns: example, matter or not, and what it is. Air in a balloon: matter, a mix of mostly nitrogen and oxygen particles. Neon in a sign: matter, neon atoms, one element. A diamond: matter, carbon atoms, one element. The sign's red glow: not matter, light, a form of energy. Music from a band: not matter, a vibration traveling through air.",
+        "columns": [
+          "Example",
+          "Matter?",
+          "What it is"
+        ],
+        "rows": [
+          [
+            "Air in a balloon",
+            "Yes",
+            "A mix of mostly nitrogen and oxygen particles"
+          ],
+          [
+            "Neon in a sign",
+            "Yes",
+            "Neon atoms (one element)"
+          ],
+          [
+            "A diamond",
+            "Yes",
+            "Carbon atoms (one element)"
+          ],
+          [
+            "The sign's red glow",
+            "No",
+            "Light, a form of energy"
+          ],
+          [
+            "Music from a band",
+            "No",
+            "A vibration traveling through air"
+          ]
+        ]
+      },
+      "watchOut": "Drawings show atoms as colored balls. That is a model for counting and comparing, not a picture of what atoms really look like, and atoms are not tiny solar systems. Keep the two words straight: “atom” means one particle; “element” means a substance made of only that kind of particle.",
+      "pages": {
+        "printed": [
+          9,
+          10,
+          16
+        ],
+        "pdf": [
+          45,
+          46,
+          52
+        ]
+      }
+    },
+    {
+      "objectiveId": "L01-O2",
+      "title": "Seeing the unseeable",
+      "paragraphs": [
+        "Atoms live on their own size scale. One grain of sand holds roughly 5 × 10¹⁹ atoms, and a single meter contains a trillion picometers. Scientists describe atoms in picometers for the same reason you measure road trips in kilometers and hair growth in centimeters: the unit should fit the thing.",
+        "Ordinary light microscopes could reveal bacteria but not single atoms. In the late 1970s Heinrich Rohrer and Gerd Binnig chose to invent a new kind of tool instead of improving old ones. Their criteria described success: see, measure, and move individual atoms, with detail as small as about 100 picometers. Their constraints described the limits: the tools available to them could not map the individual atoms of an ordinary surface, and even people moving around the building shook their measurements, so they worked at night.",
+        "Their Scanning Tunneling Microscope, working by 1981, uses no lenses and no light. A super-sharp probe sweeps just above a surface. In the simplest picture, with the probe held at one steady height, the electric current between probe and surface jumps when the probe passes over an atom and drops over the gaps, a bit like reading braille with a fingertip. A computer turns those changes into a map. The invention earned a Nobel Prize in 1986."
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "One STM scan line (simplified, made-up data)",
+        "alt": "A line graph of electric current in relative units against probe position in picometers, from 0 to 700, for a probe held at one steady height. The current stays low, around 1, except for three sharp peaks reaching about 7 at 100, 350, and 600 picometers. Each peak marks the probe passing over the top of one atom.",
+        "xLabel": "Probe position (pm)",
+        "yLabel": "Current (relative units)",
+        "series": [
+          {
+            "label": "Current",
+            "points": [
+              [
+                0,
+                1
+              ],
+              [
+                50,
+                2
+              ],
+              [
+                100,
+                7
+              ],
+              [
+                150,
+                2
+              ],
+              [
+                225,
+                1
+              ],
+              [
+                300,
+                2
+              ],
+              [
+                350,
+                7
+              ],
+              [
+                400,
+                2
+              ],
+              [
+                475,
+                1
+              ],
+              [
+                550,
+                2
+              ],
+              [
+                600,
+                7
+              ],
+              [
+                650,
+                2
+              ],
+              [
+                700,
+                1
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": 100,
+            "y": 7,
+            "text": "atom"
+          },
+          {
+            "x": 225,
+            "y": 1,
+            "text": "gap"
+          }
+        ]
+      },
+      "watchOut": "An STM image is a computer-drawn map of current or probe height, often in added false colors, not a photograph. It also wasn't the very first instrument to resolve atoms: a field ion microscope imaged atoms on a sharp metal tip in 1955. The STM's breakthrough was mapping surfaces atom by atom.",
+      "pages": {
+        "printed": [
+          11,
+          12,
+          13
+        ],
+        "pdf": [
+          47,
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "objectiveId": "L01-O3",
+      "title": "Patterns before pictures",
+      "paragraphs": [
+        "Long before anyone could image an atom, chemists sorted elements by how they behaved and by atomic mass, which today is reported in daltons. Hydrogen is about 1 Da and oxygen about 16 Da.",
+        "In the early 1800s Johann Döbereiner noticed trios of look-alike elements. Lithium (7 Da), sodium (23 Da), and potassium (39 Da) are soft metals that all react with water, and sodium's mass is close to the average of the other two. Its behavior falls in between, too: lithium fizzes, sodium reacts harder, and potassium reacts most violently.",
+        "In the mid-1800s John Newlands lined the known elements up by mass and saw properties repeat every eighth element. Dmitry Mendeleev then built a table in which mass climbed along the rows and similar elements stacked into columns. When the next element did not fit a column, he left a blank and predicted what would one day fill it.",
+        "Gallium, scandium, and germanium were discovered later in the 1800s with masses and properties close to his predictions. A model that predicts something before it is found earns serious trust."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "A Döbereiner trio",
+        "alt": "A bar graph of atomic mass in daltons: lithium 6.9, sodium 23.0, potassium 39.1. Sodium's bar sits almost exactly halfway between the other two, because 6.9 plus 39.1, divided by 2, equals 23.0.",
+        "yLabel": "Atomic mass (Da)",
+        "bars": [
+          {
+            "label": "Lithium (Li)",
+            "value": 6.9
+          },
+          {
+            "label": "Sodium (Na)",
+            "value": 23.0
+          },
+          {
+            "label": "Potassium (K)",
+            "value": 39.1
+          }
+        ]
+      },
+      "watchOut": "The halfway rule is a pattern that works for some trios, not a law for any three elements. And the atomic mass printed for an element is an average: atoms of one element can differ slightly in mass (isotopes), so not every atom has exactly the listed value.",
+      "pages": {
+        "printed": [
+          14,
+          15
+        ],
+        "pdf": [
+          50,
+          51
+        ]
+      }
+    },
+    {
+      "objectiveId": "L01-O4",
+      "title": "Reading the table like a map",
+      "paragraphs": [
+        "The periodic table works as a model that sorts elements by their properties. Rows are called periods and columns are called groups. Elements in a group tend to behave alike, so an element's address is a strong clue to its personality.",
+        "The column holding lithium, sodium, and potassium is mostly soft metals that react with water; hydrogen, at its top, is the odd one out because it is a gas. The column holding helium, neon, and argon is made of gases at room temperature, and several of them glow in lighted signs.",
+        "Every element has a one- or two-letter chemical symbol with only the first letter capitalized. Some come from English names (C for carbon, Ne for neon); others come from older names, like Pb from the Latin plumbum for lead. Na for sodium comes from natrium, K for potassium from kalium, and Fe for iron from the Latin ferrum. Scientists in every country use the same symbols.",
+        "Atomic mass mostly increases along each row and down each column, with a few exceptions. Argon (39.9 Da) sits just before potassium (39.1 Da) because argon behaves like neon and potassium behaves like sodium."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Two families in the periodic table",
+        "alt": "A table with three columns: family, members shown in the lesson, and shared behavior. Lithium's group: lithium, sodium, potassium; soft metals that react with water. Neon's group: helium, neon, argon; gases at room temperature, some used in lights.",
+        "columns": [
+          "Family",
+          "Members in the lesson",
+          "Shared behavior"
+        ],
+        "rows": [
+          [
+            "Lithium's group",
+            "Li, Na, K",
+            "Soft metals that react with water"
+          ],
+          [
+            "Neon's group",
+            "He, Ne, Ar",
+            "Gases at room temperature; some glow in lights"
+          ]
+        ]
+      },
+      "watchOut": "Today's periodic table is actually ordered by atomic number, the number of protons in each atom, which later science classes cover. Atomic mass rises in almost the same order, which is why pairs like argon and potassium look out of place if you check mass alone. Three-letter symbols on older charts, such as Uuo, were temporary placeholders, replaced by two-letter symbols in 2016.",
+      "pages": {
+        "printed": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "pdf": [
+          52,
+          53,
+          54,
+          55
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L01-RF1",
+      "issue": "Pages 9, 10 and 16 state that exactly 92 kinds of atoms occur naturally. The count depends on convention: Glenn Seaborg argued for 94 because trace plutonium forms in uranium ore, while some counts are lower because technetium and promethium occur only as tiny traces formed by uranium fission.",
+      "pages": {
+        "printed": [
+          9,
+          10,
+          16
+        ],
+        "pdf": [
+          45,
+          46,
+          52
+        ]
+      },
+      "resolution": "Content says “fewer than a hundred kinds of atoms occur in nature” and no question tests an exact natural-element count (as the brief requires). The textbook's 92 is treated as the figure used when the book was written.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "States that 92 different elements occur naturally."
+        },
+        {
+          "type": "external",
+          "title": "Do transuranic elements such as plutonium ever occur naturally?",
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/do-transuranic-elements-s/",
+          "accessed": "2026-10-14",
+          "supports": "Seaborg argued the natural count is 94 rather than 92 because plutonium occurs in trace amounts in uranium ore (pitchblende)."
+        },
+        {
+          "type": "external",
+          "title": "Technetium: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/43/technetium",
+          "accessed": "2026-10-14",
+          "supports": "Technetium is essentially absent from Earth's crust apart from traces made by uranium fission (about 1 mg per tonne of uranium); any present when Earth formed has long since decayed."
+        },
+        {
+          "type": "external",
+          "title": "Promethium: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/61/promethium",
+          "accessed": "2026-10-14",
+          "supports": "Promethium is not found naturally on Earth in any useful amount; minute traces occur in uranium ores as a result of fission (less than a microgram per million tonnes of ore)."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF2",
+      "issue": "The vocabulary box (p. 9) and p. 10 define an element as a unique particle of matter, which blurs the difference between an element and an atom. The Key Science Concept text (p. 16) gives the clearer definition: a substance made entirely of one kind of atom.",
+      "pages": {
+        "printed": [
+          9,
+          10,
+          16
+        ],
+        "pdf": [
+          45,
+          46,
+          52
+        ]
+      },
+      "resolution": "Glossary, cards and questions define an element as a substance made of only one kind of atom and an atom as a single particle of an element.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16
+          ],
+          "pdfPages": [
+            52
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Defines an element as a substance composed entirely of one kind of atom."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Elements are pure substances that cannot be broken down by chemical changes; an atom is the smallest particle of an element that has that element's properties."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF3",
+      "issue": "Pages 9 and 14 say “all atoms of an element have the same atomic mass.” Most elements are natural mixtures of isotopes, so the value on the table is a weighted average and individual atoms differ slightly.",
+      "pages": {
+        "printed": [
+          9,
+          14
+        ],
+        "pdf": [
+          45,
+          50
+        ]
+      },
+      "resolution": "The glossary calls the printed value an average; no question claims every atom of an element has an identical mass; the O3 Explorer card names isotopes in its watch-out. Daltons are kept as the unit.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Defines atomic mass and reports it in daltons (hydrogen 1 Da, oxygen 16 Da)."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.3 Atomic Structure and Symbolism",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+          "accessed": "2026-10-14",
+          "supports": "Most elements exist naturally as mixtures of isotopes; average atomic mass is a weighted average, and the dalton is equivalent to the unified atomic mass unit."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF4",
+      "issue": "Pages 15, 18 and 19 describe the periodic table as organized by increasing atomic mass. The modern table is ordered by atomic number, and mass order has exceptions; the spread itself lists argon (39.9) before potassium (39.1) and tellurium (127.6) before iodine (126.9).",
+      "pages": {
+        "printed": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "pdf": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ]
+      },
+      "resolution": "Questions keep the textbook's framing (masses mostly increase, with a few exceptions) and explain an exception through properties: the O4 card uses argon and potassium as its worked example, and L01-Q27 tests the other exception on the spread, tellurium and iodine, which Mendeleev's own 1871 table (p. 15) also lists in that order, though it gives tellurium a mass of 125, below iodine's 127. L01-Q20 says mass “generally” increased along his rows. The O4 card watch-out and the Q27 explanation mention atomic number with external support.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            18
+          ],
+          "pdfPages": [
+            54
+          ],
+          "locator": "Section 5. Using the Periodic Table",
+          "supports": "Atomic masses increase across periods and down groups with only a few exceptions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Tiles list potassium 39.1 and argon 39.9, with argon placed before potassium."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.5 The Periodic Table",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table",
+          "accessed": "2026-10-14",
+          "supports": "The modern periodic table arranges elements in order of increasing atomic number; Mendeleev's table used increasing atomic mass."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table: element property data (atomic number, atomic mass, standard state, atomic radius)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Argon has atomic number 18 and mass 39.9; potassium has atomic number 19 and mass 39.1."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF5",
+      "issue": "Pages 13 and 19 say the STM let people see atoms for the first time and proved that atoms exist. A field ion microscope imaged individual atoms in 1955, and atoms were well established long before 1981. The Nobel committee credits Binnig and Rohrer with achieving the precision to study surfaces atom by atom, building on earlier work.",
+      "pages": {
+        "printed": [
+          13,
+          19
+        ],
+        "pdf": [
+          49,
+          55
+        ]
+      },
+      "resolution": "Content presents the STM (1981) as a new tool that maps surfaces atom by atom using current; no question claims it produced the first-ever atom image or first proved atoms exist. The O2 card watch-out names the 1955 field ion microscope. After round-1 review, the O2 card's constraint sentence and L01-Q11 item i3 say only that the available tools could not map the atoms of an ordinary surface (the field ion microscope works only on sharp needle tips), not that no tool could show atoms.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            13
+          ],
+          "pdfPages": [
+            49
+          ],
+          "locator": "Section 2, “Seeing” Atoms",
+          "supports": "Describes the STM probe, current changes over atoms, 1981 build and 1986 Nobel Prize."
+        },
+        {
+          "type": "external",
+          "title": "'Atoms, ja, atoms!' Physics pioneer was key to microscopy revolution in resolution",
+          "publisher": "Penn State Eberly College of Science",
+          "url": "https://www.psu.edu/news/eberly-college-science/story/atoms-ja-atoms-physics-pioneer-key-microscopy-revolution-resolution",
+          "accessed": "2026-10-14",
+          "supports": "Erwin Müller's field ion microscope imaged individual tungsten atoms in 1955 at Penn State and was for about 25 years the only microscope with atomic resolution."
+        },
+        {
+          "type": "external",
+          "title": "Press release: The 1986 Nobel Prize in Physics",
+          "publisher": "The Royal Swedish Academy of Sciences / NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/physics/1986/press-release/",
+          "accessed": "2026-10-14",
+          "supports": "The STM's tunneling current depends strongly on the tip-to-surface distance, letting the surface be studied atom by atom; the achievement built on earlier work and ideas."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF6",
+      "issue": "The caption on p. 12 names “Greg Binnig”; the body text on the same page and the Nobel record give Gerd Binnig.",
+      "pages": {
+        "printed": [
+          12
+        ],
+        "pdf": [
+          48
+        ]
+      },
+      "resolution": "Gerd Binnig is used throughout.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            12
+          ],
+          "pdfPages": [
+            48
+          ],
+          "locator": "Section 2. Engineering Tools to Observe Atoms",
+          "supports": "Body text names Heinrich Rohrer and Gerd Binnig."
+        },
+        {
+          "type": "external",
+          "title": "Press release: The 1986 Nobel Prize in Physics",
+          "publisher": "The Royal Swedish Academy of Sciences / NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/physics/1986/press-release/",
+          "accessed": "2026-10-14",
+          "supports": "The 1986 prize half was awarded jointly to Dr Gerd Binnig and Dr Heinrich Rohrer for the design of the scanning tunneling microscope."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF7",
+      "issue": "Page 11 says 50 quintillion ping-pong-ball-sized atoms “would fill the Grand Canyon 500,000 times.” Check: a 40 mm ball has a volume of about 3.4 × 10⁻⁵ m³, so 5 × 10¹⁹ balls occupy about 1.7 × 10¹⁵ m³. A generous box the size of the canyon (447 km long × 28.8 km maximum width × 1.6 km average depth ≈ 2.1 × 10¹³ m³) would be filled only about 80 times; using the 16 km average width, about 150 times. The real V-shaped canyon would be filled a few hundred times, not 500,000.",
+      "pages": {
+        "printed": [
+          11
+        ],
+        "pdf": [
+          47
+        ]
+      },
+      "resolution": "The Grand Canyon comparison is not used in any question or card. The sand-grain count (about 5 × 10¹⁹ atoms) is kept only as a rough, size-dependent estimate, and L01-Q10 says so.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            11
+          ],
+          "pdfPages": [
+            47
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "States the 5 × 10¹⁹ atoms per sand grain estimate and the 500,000-times Grand Canyon comparison."
+        },
+        {
+          "type": "external",
+          "title": "Park Statistics, Grand Canyon National Park",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/grca/learn/management/statistics.htm",
+          "accessed": "2026-10-14",
+          "supports": "Grand Canyon: 278 river miles (447 km) long, maximum rim-to-rim width 18 miles (28.8 km), average width 10 miles (16 km), average depth 1 mile (1.6 km)."
+        },
+        {
+          "type": "external",
+          "title": "Laws of Table Tennis 2023-24 (ball specification)",
+          "publisher": "Table Tennis England",
+          "url": "https://tabletennisengland.co.uk/content/uploads/2024/07/Laws-2023-24-July-24.pdf",
+          "accessed": "2026-10-14",
+          "supports": "A regulation table tennis ball is spherical with a diameter of 40 mm."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF8",
+      "issue": "Page 19 says chemical symbols have one, two, or three letters, and the Figure 5 table on p. 18 still shows the temporary symbols Uut, Uup, Uus and Uuo. IUPAC approved nihonium (Nh), moscovium (Mc), tennessine (Ts) and oganesson (Og) on 28 November 2016; the spread on pp. 16–17 already uses those names.",
+      "pages": {
+        "printed": [
+          17,
+          18,
+          19
+        ],
+        "pdf": [
+          53,
+          54,
+          55
+        ]
+      },
+      "resolution": "Content says symbols have one or two letters and calls three-letter symbols temporary placeholders; no question tests three-letter symbols.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            19
+          ],
+          "pdfPages": [
+            55
+          ],
+          "locator": "Section 5, Reading the Names of the Elements",
+          "supports": "Explains chemical symbols, including Pb from the Latin plumbum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            17
+          ],
+          "pdfPages": [
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Tiles show Nh, Mc, Ts and Og."
+        },
+        {
+          "type": "external",
+          "title": "IUPAC announces the names of the elements 113, 115, 117, and 118",
+          "publisher": "International Union of Pure and Applied Chemistry (IUPAC)",
+          "url": "https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118/",
+          "accessed": "2026-10-14",
+          "supports": "On 28 November 2016 IUPAC approved the names and two-letter symbols Nh, Mc, Ts and Og for elements 113, 115, 117 and 118."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF9",
+      "issue": "The Figure 5 caption (p. 18) says lithium, sodium and potassium all burn on contact with water, but p. 14 says lithium only fizzes. RSC confirms lithium does not catch fire and reactivity rises from lithium to sodium to potassium.",
+      "pages": {
+        "printed": [
+          14,
+          18
+        ],
+        "pdf": [
+          50,
+          54
+        ]
+      },
+      "resolution": "Questions say all three react with water, with vigor increasing from lithium to potassium, and that sodium can (not always does) start a fire (L01-Q15, L01-Q17, L01-Q24). L01-Q17 extends the trend to rubidium using outside sources (RSC rubidium page; OpenStax Chemistry 2e §18.1), because the textbook does not describe rubidium's reaction. No procedure or demonstration is described.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            14
+          ],
+          "pdfPages": [
+            50
+          ],
+          "locator": "Section 3. Classifying Elements",
+          "supports": "Lithium only fizzes, sodium can start a fire, potassium practically explodes."
+        },
+        {
+          "type": "external",
+          "title": "Reactivity trends of the alkali metals",
+          "publisher": "Royal Society of Chemistry (Education)",
+          "url": "https://edu.rsc.org/experiments/reactivity-trends-of-the-alkali-metals/731.article",
+          "accessed": "2026-10-14",
+          "supports": "Lithium floats and fizzes but does not catch fire; sodium is more vigorous and may catch fire only if it sticks in place; potassium catches fire; reactivity order lithium < sodium < potassium."
+        },
+        {
+          "type": "external",
+          "title": "Rubidium: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/37/rubidium",
+          "accessed": "2026-10-14",
+          "supports": "Rubidium reacts violently with water, so violently that the hydrogen released can ignite; reactivity increases going down Group 1."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 18.1 Periodicity",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+          "accessed": "2026-10-14",
+          "supports": "The alkali metals all react vigorously with water, and their reactivity increases with increasing atomic number."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF10",
+      "issue": "The Key Science Concept spread (pp. 16–17) colors element tiles pink, blue or green with no legend. The colors seem to mark state at room temperature (gases pink; bromine and mercury blue), but terbium is blue and lutetium is pink although both are solids.",
+      "pages": {
+        "printed": [
+          16,
+          17
+        ],
+        "pdf": [
+          52,
+          53
+        ]
+      },
+      "resolution": "No question or card uses tile colors. Masses, symbols and positions from the spread were used only after zoomed rendering.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Tiles show name, use icon, symbol and atomic mass; the color key is not explained."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table: element property data (atomic number, atomic mass, standard state, atomic radius)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Standard state is solid for terbium and lutetium, liquid for bromine and mercury."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF11",
+      "issue": "Pages 10 and 16 say “everything in the world is made of” atoms. Matter is made of atoms, but light and sound are not matter. The brief asks the attraction to distinguish matter from a non-matter example.",
+      "pages": {
+        "printed": [
+          10,
+          16
+        ],
+        "pdf": [
+          46,
+          52
+        ]
+      },
+      "resolution": "Content says all matter is made of atoms, defines matter as anything with mass that takes up space, and classifies light and sound as non-matter (L01-Q02) with external support.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            10
+          ],
+          "pdfPages": [
+            46
+          ],
+          "locator": "Section 1. Atoms",
+          "supports": "Air, iron, aluminum and neon are made of particles of matter."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Matter is anything that occupies space and has mass; gases take up space, which is why a balloon inflates."
+        },
+        {
+          "type": "external",
+          "title": "Anatomy of an Electromagnetic Wave",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/ems/02_anatomy/",
+          "accessed": "2026-10-14",
+          "supports": "Electromagnetic waves such as light need no medium and cross the vacuum of space; sound is a mechanical wave, a vibration in matter, and cannot travel through a vacuum."
+        }
+      ]
+    },
+    {
+      "id": "L01-RF12",
+      "issue": "OCR text is empty or garbled for the opener (p. 8), Mendeleev's 1871 table (p. 15), the Key Science Concept spread (pp. 16–17) and the Figure 5 table (p. 18), and exponents on p. 11 are corrupted.",
+      "pages": {
+        "printed": [
+          8,
+          11,
+          15,
+          16,
+          17,
+          18
+        ],
+        "pdf": [
+          44,
+          47,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      "resolution": "All 12 pages were rendered at 110 dpi, and the p. 11 text, p. 15 table and pp. 16–17 tiles were re-rendered at 200–260 dpi. Values used: 5 × 10¹⁹ atoms per sand grain; 10⁻¹² m per picometer; Mendeleev's blanks at 44, 68 and 72; spread masses H 1.008, He 4.0, Li 6.9, Na 23.0, K 39.1, Rb 85.5, Ca 40.1, Sr 87.6, Ba 137.3, Sc 45.0, Ne 20.2, Ar 39.9, O 16.0, Ga 69.7, Ge 72.6, Te 127.6, I 126.9; Mendeleev's Te=125 before J=127 (iodine) on p. 15. Round-1 revision (2026-10-14) re-rendered pp. 14, 16, 17 and 18 and re-read the p. 15 zoom to confirm these values.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            11
+          ],
+          "pdfPages": [
+            47
+          ],
+          "locator": "Section 1. Atoms (rendered)",
+          "supports": "5 × 10¹⁹ atoms in a sand grain; a picometer is 10⁻¹² m."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            15
+          ],
+          "pdfPages": [
+            51
+          ],
+          "locator": "Section 4, Mendeleev's 1871 table (rendered)",
+          "supports": "Blank spaces marked with predicted masses 44, 68 and 72."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            52,
+            53
+          ],
+          "locator": "Key Science Concept spread (rendered)",
+          "supports": "Element tiles with symbols and atomic masses."
+        }
+      ]
+    }
+  ]
+}

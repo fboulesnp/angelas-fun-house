@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+# Never commit the textbook or bulk text extracted from it.
+*.pdf
+**/book-extracted.txt
+**/book-pages.json
+source-cache/
+test-results/
+screenshots/tmp/

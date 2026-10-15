@@ -1,0 +1,988 @@
+{
+  "lessonId": "L13",
+  "guidingQuestion": "What happens to atoms when a chemical reaction makes new substances?",
+  "hook": "The iron parts of an old car rusting in a field get heavier as the rust builds up, yet rusting cannot make a single new atom, so where does the extra mass come from?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          162,
+          163
+        ],
+        "pdf": [
+          198,
+          199
+        ]
+      }
+    },
+    {
+      "title": "1. Atoms Regroup in Chemical Reactions",
+      "pages": {
+        "printed": [
+          164,
+          165
+        ],
+        "pdf": [
+          200,
+          201
+        ]
+      }
+    },
+    {
+      "title": "2. Ways Atoms Regroup in Chemical Reactions",
+      "pages": {
+        "printed": [
+          166,
+          167
+        ],
+        "pdf": [
+          202,
+          203
+        ]
+      }
+    },
+    {
+      "title": "3. Conservation of Matter",
+      "pages": {
+        "printed": [
+          168,
+          169
+        ],
+        "pdf": [
+          204,
+          205
+        ]
+      }
+    },
+    {
+      "title": "4. Engineering Green Medicines",
+      "pages": {
+        "printed": [
+          170,
+          171
+        ],
+        "pdf": [
+          206,
+          207
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L13-O1",
+      "text": "Read a chemical equation: pick out the reactants and products, tell a coefficient from a subscript, and count the atoms of each element on each side of the arrow.",
+      "kind": "observe",
+      "sections": [
+        "1. Atoms Regroup in Chemical Reactions",
+        "2. Ways Atoms Regroup in Chemical Reactions",
+        "3. Conservation of Matter"
+      ],
+      "pages": {
+        "printed": [
+          165,
+          167,
+          169
+        ],
+        "pdf": [
+          201,
+          203,
+          205
+        ]
+      }
+    },
+    {
+      "id": "L13-O2",
+      "text": "Use an atom model to explain that a reaction breaks and forms bonds so the same atoms regroup into new substances, by breaking apart, joining together, swapping partners, or a mix of these.",
+      "kind": "relate",
+      "sections": [
+        "1. Atoms Regroup in Chemical Reactions",
+        "2. Ways Atoms Regroup in Chemical Reactions"
+      ],
+      "pages": {
+        "printed": [
+          164,
+          165,
+          166,
+          167
+        ],
+        "pdf": [
+          200,
+          201,
+          202,
+          203
+        ]
+      }
+    },
+    {
+      "id": "L13-O3",
+      "text": "Use the conservation of atoms to predict and explain the total mass before and after a reaction, both in a sealed container and in an open one where gases can enter or leave.",
+      "kind": "apply",
+      "sections": [
+        "Introduction",
+        "3. Conservation of Matter"
+      ],
+      "pages": {
+        "printed": [
+          163,
+          168,
+          169
+        ],
+        "pdf": [
+          199,
+          204,
+          205
+        ]
+      }
+    },
+    {
+      "id": "L13-O4",
+      "text": "Analyze data on reactants, wanted products and waste to compare design solutions, and explain why combining the best features of different solutions can beat any one of them, using the ibuprofen redesign as the example.",
+      "kind": "apply",
+      "sections": [
+        "Introduction",
+        "4. Engineering Green Medicines"
+      ],
+      "pages": {
+        "printed": [
+          163,
+          170,
+          171
+        ],
+        "pdf": [
+          199,
+          206,
+          207
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "In a chemical reaction, bonds between atoms break and new bonds form, so the same atoms end up grouped into new substances with new properties.",
+    "A chemical equation is shorthand: reactants go left of the arrow, products go right. A coefficient counts whole molecules or units; a subscript counts atoms inside one of them.",
+    "Three basic regrouping patterns show up: one substance splitting into several, several merging into one, and two substances trading partners. Real reactions often mix them.",
+    "Ordinary chemical reactions never create, destroy or change atoms into other elements, so each element has the same atom count before and after.",
+    "Because the atoms are conserved, total mass is conserved. A sealed container shows this directly; an open one can seem to gain or lose mass when a gas comes in or escapes.",
+    "The law of conservation of matter describes the pattern; the atom model explains why it happens.",
+    "Every reactant atom ends up somewhere, so engineers redesign processes to send more atoms into wanted products and fewer into waste."
+  ],
+  "glossary": [
+    {
+      "term": "chemical reaction",
+      "definition": "A change in which bonds between atoms break and new bonds form, leaving the atoms grouped into new substances with new properties.",
+      "pages": {
+        "printed": [
+          164
+        ],
+        "pdf": [
+          200
+        ]
+      }
+    },
+    {
+      "term": "reactant",
+      "definition": "A starting substance in a chemical reaction. In an equation, reactants are written to the left of the arrow.",
+      "pages": {
+        "printed": [
+          164,
+          165
+        ],
+        "pdf": [
+          200,
+          201
+        ]
+      }
+    },
+    {
+      "term": "product",
+      "definition": "A substance made by a chemical reaction. In an equation, products are written to the right of the arrow.",
+      "pages": {
+        "printed": [
+          164,
+          165
+        ],
+        "pdf": [
+          200,
+          201
+        ]
+      }
+    },
+    {
+      "term": "chemical equation",
+      "definition": "A shorthand line of formulas, plus signs and an arrow that shows which substances react and which new substances form.",
+      "pages": {
+        "printed": [
+          163,
+          165
+        ],
+        "pdf": [
+          199,
+          201
+        ]
+      }
+    },
+    {
+      "term": "coefficient",
+      "definition": "The whole number written in front of a formula. It tells how many molecules or formula units of that substance take part: 3O₂ means three oxygen molecules.",
+      "pages": {
+        "printed": [
+          165,
+          166
+        ],
+        "pdf": [
+          201,
+          202
+        ]
+      }
+    },
+    {
+      "term": "subscript",
+      "definition": "The small number after an element symbol inside a formula. It tells how many atoms of that element are in one molecule or unit: the ₂ in H₂O means two hydrogen atoms. A subscript after parentheses multiplies every atom inside them: (NO₃)₂ holds 2 N and 6 O.",
+      "pages": {
+        "printed": [
+          164,
+          165,
+          167
+        ],
+        "pdf": [
+          200,
+          201,
+          203
+        ]
+      }
+    },
+    {
+      "term": "extended structure",
+      "definition": "A substance whose atoms are linked in a large repeating network rather than in separate small molecules. Iron oxide is one example.",
+      "pages": {
+        "printed": [
+          164,
+          167
+        ],
+        "pdf": [
+          200,
+          203
+        ]
+      }
+    },
+    {
+      "term": "law of conservation of matter",
+      "definition": "The scientific law that matter is neither created nor destroyed in ordinary chemical and physical changes, so the total mass afterward equals the total mass before.",
+      "pages": {
+        "printed": [
+          168
+        ],
+        "pdf": [
+          204
+        ]
+      }
+    },
+    {
+      "term": "scientific law",
+      "definition": "A statement in words or math that describes a pattern found every time it has been tested. A law describes what happens; it does not explain why.",
+      "pages": {
+        "printed": [
+          163,
+          168
+        ],
+        "pdf": [
+          199,
+          204
+        ]
+      }
+    },
+    {
+      "term": "closed system",
+      "definition": "A setup that matter cannot enter or leave, such as a sealed container, so every atom and every gram stays inside where it can be measured. Energy, such as heat or electricity, can still pass in or out.",
+      "pages": {
+        "printed": [
+          168
+        ],
+        "pdf": [
+          204
+        ]
+      }
+    },
+    {
+      "term": "electrolysis",
+      "definition": "Using an electric current to break a compound apart. A current passed through water splits it into hydrogen gas and oxygen gas.",
+      "pages": {
+        "printed": [
+          164
+        ],
+        "pdf": [
+          200
+        ]
+      }
+    },
+    {
+      "term": "catalyst",
+      "definition": "A substance that helps a reaction happen without being used up, so it can be recovered and used again.",
+      "pages": {
+        "printed": [
+          170
+        ],
+        "pdf": [
+          206
+        ]
+      }
+    },
+    {
+      "term": "waste product",
+      "definition": "A leftover reactant, or a product that is not wanted or put to use. A by-product that gets used is no longer waste.",
+      "pages": {
+        "printed": [
+          170,
+          171
+        ],
+        "pdf": [
+          206,
+          207
+        ]
+      }
+    },
+    {
+      "term": "efficiency (of a chemical process)",
+      "definition": "The percent of the reactants' mass that ends up in wanted products instead of waste, worked out from the balanced equations. Chemists call this atom economy.",
+      "pages": {
+        "printed": [
+          170,
+          171
+        ],
+        "pdf": [
+          206,
+          207
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L13-O1",
+      "title": "Reading the Atom Recipe",
+      "paragraphs": [
+        "A chemical equation is a compact sentence about a reaction. The starting substances, called reactants, sit to the left of the arrow. The new substances, called products, sit to the right. Plus signs separate one substance from the next.",
+        "Two kinds of numbers do two different jobs. A subscript lives inside a formula: the ₂s in H₂O₂ say each hydrogen peroxide molecule holds two hydrogen atoms and two oxygen atoms. A coefficient sits in front: 2H₂O₂ means two of those molecules.",
+        "To count atoms, multiply the coefficient by each subscript. In 2H₂O₂ → 2H₂O + O₂ the left side has 4 H and 4 O. The right side has 4 H in the water, plus 2 O in the water and 2 O in the oxygen gas: 4 H and 4 O again.",
+        "When every element has the same count on both sides, the equation is balanced. A balanced equation is a record that no atoms were gained or lost."
+      ],
+      "diagram": {
+        "kind": "equation",
+        "caption": "Hydrogen peroxide breaks down into water and oxygen gas",
+        "alt": "Equation: 2 H2O2 yields 2 H2O plus O2. Two hydrogen peroxide molecules hold 4 hydrogen atoms and 4 oxygen atoms in all. They become two water molecules and one oxygen molecule, which together still hold 4 hydrogen atoms and 4 oxygen atoms.",
+        "reactants": [
+          {
+            "formula": "H2O2",
+            "coefficient": 2,
+            "label": "hydrogen peroxide"
+          }
+        ],
+        "products": [
+          {
+            "formula": "H2O",
+            "coefficient": 2,
+            "label": "water"
+          },
+          {
+            "formula": "O2",
+            "label": "oxygen gas"
+          }
+        ]
+      },
+      "watchOut": "Changing a subscript changes the substance itself: H₂O is water, but H₂O₂ is hydrogen peroxide. For a network substance such as Fe₂O₃, the formula gives the ratio of atoms in one repeating unit, not one separate molecule, so its coefficient counts formula units.",
+      "pages": {
+        "printed": [
+          164,
+          165
+        ],
+        "pdf": [
+          200,
+          201
+        ]
+      }
+    },
+    {
+      "objectiveId": "L13-O2",
+      "title": "Same Atoms, New Partners",
+      "paragraphs": [
+        "In a reaction, the bonds holding atoms together break and new bonds form. The atoms themselves are not split: each atom's nucleus stays the same, so an iron atom is still an iron atom afterward, even when some electrons shift between partners. Only the partners change, so new substances with new properties appear.",
+        "Atoms regroup in three basic patterns. One substance can break apart into two or more, as when an electric current splits water into hydrogen gas and oxygen gas. Two or more substances can join into one, as when iron and oxygen build iron oxide.",
+        "Atoms can also swap partners. When lead nitrate meets potassium iodide, lead ends up with iodine as a bright yellow solid, while potassium ends up with the nitrate group. Many real reactions mix these patterns."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Three ways atoms regroup",
+        "alt": "Table with three rows. Breaking apart: one substance becomes two or more, for example 2 H2O yields 2 H2 plus O2. Joining together: two or more substances become one, for example 4 Fe plus 3 O2 yields 2 Fe2O3. Swapping partners: two substances trade partners to make two new substances, for example Pb(NO3)2 plus 2 KI yields PbI2 plus 2 KNO3.",
+        "columns": [
+          "Pattern",
+          "Shape of the change",
+          "Example from the lesson"
+        ],
+        "rows": [
+          [
+            "Breaking apart",
+            "one substance → two or more",
+            "2H₂O → 2H₂ + O₂"
+          ],
+          [
+            "Joining together",
+            "two or more substances → one",
+            "4Fe + 3O₂ → 2Fe₂O₃"
+          ],
+          [
+            "Swapping partners",
+            "two substances trade partners → two new ones",
+            "Pb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃"
+          ]
+        ]
+      },
+      "watchOut": "It is the bonds that break, not the atoms. Ball-and-stick pictures show which atoms are linked, but real atoms are not colored balls on sticks, and they are not tiny solar systems.",
+      "pages": {
+        "printed": [
+          164,
+          165,
+          166,
+          167
+        ],
+        "pdf": [
+          200,
+          201,
+          202,
+          203
+        ]
+      }
+    },
+    {
+      "objectiveId": "L13-O3",
+      "title": "Mass Before Equals Mass After",
+      "paragraphs": [
+        "Each atom keeps its own mass, and no atoms appear or vanish, so the total mass of the products equals the total mass of the reactants. Scientists call this pattern the law of conservation of matter.",
+        "The law is easiest to see in a closed system, such as a sealed, rigid container. If 68 g of hydrogen peroxide breaks down inside one, the water and oxygen gas that form also add up to 68 g.",
+        "In an open container the balance can fool you. A gas that bubbles away carries its mass with it, so the reading drops. Oxygen from the air that joins a metal brings its mass along, so the reading rises. The matter moved; it was not destroyed or created.",
+        "A scientific law like this one describes a pattern found every time it has been tested. The atom model is what explains why."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Hydrogen peroxide breaking down in a sealed container",
+        "alt": "Bar chart of mass in grams. Before: hydrogen peroxide, 68 grams. After: water, 36 grams, and oxygen gas, 32 grams. The products together total 68 grams, the same as the starting mass.",
+        "yLabel": "Mass (g)",
+        "bars": [
+          {
+            "label": "Hydrogen peroxide (before)",
+            "value": 68
+          },
+          {
+            "label": "Water (after)",
+            "value": 36
+          },
+          {
+            "label": "Oxygen gas (after)",
+            "value": 32
+          },
+          {
+            "label": "All products (after)",
+            "value": 68
+          }
+        ]
+      },
+      "watchOut": "A reading that drops in an open cup does not mean matter was destroyed; a gas escaped. This law covers ordinary chemical and physical changes. Nuclear changes, which can turn one element into another, are a different topic.",
+      "pages": {
+        "printed": [
+          163,
+          168,
+          169
+        ],
+        "pdf": [
+          199,
+          204,
+          205
+        ]
+      }
+    },
+    {
+      "objectiveId": "L13-O4",
+      "title": "Make Every Atom Count",
+      "paragraphs": [
+        "Since atoms are conserved, every atom in the reactants has to end up somewhere: in a product someone wants, or in waste. Green chemistry tries to steer as many atoms as possible into wanted products.",
+        "Engineers compare designs by asking what share of the reactants' mass ends up in wanted products. The ibuprofen process used from the 1960s turned only about 40% of its reactant mass into ibuprofen (206 g out of 514.5 g). The rest was waste.",
+        "A 1990s redesign used reusable catalysts to cut the process from six reactions to three, raising the share to about 77% (206 g out of 266 g). Collecting the acetic acid by-product and putting it to use meant about 99% of the reactant mass ended up in useful products: ibuprofen plus acetic acid.",
+        "Each fix cut a different kind of waste, so together they beat either one alone. Testing designs, studying the data and combining the strongest features of each is a strategy engineers use far beyond medicine."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Share of reactant mass that ends up in wanted products",
+        "alt": "Bar chart of percent of reactant mass ending up in wanted products. 1960s six-step process: 40 percent. 1990s three-step process with catalysts: 77 percent. Three-step process with the acetic acid by-product also put to use: about 99 percent, counting the recovered acetic acid as a wanted product.",
+        "yLabel": "Percent of reactant mass (%)",
+        "bars": [
+          {
+            "label": "1960s six-step process",
+            "value": 40
+          },
+          {
+            "label": "1990s three-step process",
+            "value": 77
+          },
+          {
+            "label": "Three steps + acetic acid put to use",
+            "value": 99
+          }
+        ]
+      },
+      "watchOut": "Here 'efficiency' means the share of reactant mass that ends up in wanted products (chemists call it atom economy). A by-product that gets used counts as wanted, which is how the figure reached about 99%. It is worked out from the balanced equations. It is not how fast a reaction runs, and it is not the same as how much product a real batch actually yields.",
+      "pages": {
+        "printed": [
+          170,
+          171
+        ],
+        "pdf": [
+          206,
+          207
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L13-RF1",
+      "issue": "Brief-flagged page. The Key Science Concept spread (p. 169) says that in most reactions 'atoms break apart and then join together, swapping places'. Atoms do not break apart in a chemical reaction; bonds between atoms break and form, and 'most reactions' is an unsupported generalization. The rendered spread also draws calcium carbonate and calcium chloride as single small units although both are ionic extended structures, shows hydrochloric acid as loose HCl molecules although it is HCl dissolved in water, and frames the reaction with a doctor prescribing antacids. Rendered and checked: the atom tally boxes are correct (Ca 1/1, C 1/1, O 3/3, H 2/2, Cl 2/2; 9 atoms on each side).",
+      "pages": {
+        "printed": [
+          169
+        ],
+        "pdf": [
+          205
+        ]
+      },
+      "resolution": "Game text always says bonds break and whole atoms regroup, never that atoms break apart, and never claims what 'most' reactions do. The verified equation CaCO₃ + 2HCl → CO₂ + H₂O + CaCl₂ and its atom tally are used as a counting model only, with a note that ionic substances are networks counted in formula units. The reaction is presented as a lab reaction between calcium carbonate and hydrochloric acid; no medical or dosing context is used. Question L13-Q10 repairs the 'atoms break apart' wording directly. Question L13-Q29 uses the same reaction to show a mix of regrouping patterns (a swap plus a break-up), judged by counting substances, without any claim about what most reactions do.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            164
+          ],
+          "pdfPages": [
+            200
+          ],
+          "locator": "Section 1. Atoms Regroup in Chemical Reactions",
+          "supports": "Reactions happen when bonds between atoms in the reactants break and new bonds form, regrouping the atoms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            169
+          ],
+          "pdfPages": [
+            205
+          ],
+          "locator": "Key Science Concept: Equations Model Conservation of Matter in Chemical Reactions",
+          "supports": "Antacid reaction equation with atom tallies showing equal counts of each element on both sides."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 21.2 Nuclear Equations",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/21-2-nuclear-equations",
+          "accessed": "2026-10-14",
+          "supports": "In a chemical reaction the total number of atoms of each element is conserved; it is nuclear reactions that change nuclei and turn one element into another."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 3.1 Formula Mass and the Mole Concept",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "accessed": "2026-10-14",
+          "supports": "Ionic compounds are built from cations and anions in fixed ratios; their formulas do not describe discrete molecules."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF2",
+      "issue": "Typo in the printed equation for burning steel wool (p. 166): the product is printed as '2F₂O₃'. 'F' is fluorine; iron oxide is Fe₂O₃. The figure label on the same page correctly reads 2Fe₂O₃ (checked in a 300 dpi render).",
+      "pages": {
+        "printed": [
+          166
+        ],
+        "pdf": [
+          202
+        ]
+      },
+      "resolution": "Use 4Fe + 3O₂ → 2Fe₂O₃ everywhere (balanced: 4 Fe and 6 O on each side). Never reproduce the misprint. Fe₂O₃ is used as the textbook's (and RSC's) model product; real burned steel wool can contain other iron oxides, such as black Fe₃O₄ when plenty of oxygen is available, so no question asks which exact oxide forms.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            166
+          ],
+          "pdfPages": [
+            202
+          ],
+          "locator": "Section 2, Atoms of Multiple Substances Combine; Figure 2A label",
+          "supports": "Iron and oxygen gas join to form iron oxide; the figure labels the product 2Fe₂O₃."
+        },
+        {
+          "type": "external",
+          "title": "The combustion of iron wool (demonstration)",
+          "publisher": "Royal Society of Chemistry, RSC Education",
+          "url": "https://edu.rsc.org/experiments/the-combustion-of-iron-wool/717.article",
+          "accessed": "2026-10-14",
+          "supports": "Iron wool heated in air gains mass as iron combines with oxygen to form iron oxide, Fe₂O₃."
+        },
+        {
+          "type": "external",
+          "title": "Foundations to Chemistry, 11. Conservation of Mass, Charge, and Energy (problems)",
+          "publisher": "University of Oxford, Department of Chemistry (VRChemistry teaching site)",
+          "url": "https://vrchemistry.chem.ox.ac.uk/Conservation/x_prob2ems.htm",
+          "accessed": "2026-10-14",
+          "supports": "If plenty of oxygen is available, iron burns to form black Fe₃O₄."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF3",
+      "issue": "Oversimplified (p. 165): the text says a whole number in front of a formula tells how many molecules of that substance take part. For extended structures in this same lesson (Fe₂O₃, PbI₂, KNO₃, CaCl₂) there are no separate molecules; the number counts formula units, and coefficients really give relative amounts.",
+      "pages": {
+        "printed": [
+          165
+        ],
+        "pdf": [
+          201
+        ]
+      },
+      "resolution": "Glossary and Explorer text say a coefficient counts 'molecules or formula units'. Questions about network substances count atoms per formula unit and state that limitation.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            165
+          ],
+          "pdfPages": [
+            201
+          ],
+          "locator": "Section 1, Writing Chemical Reactions",
+          "supports": "A whole number written before a formula gives how many units of that substance take part."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 4.1 Writing and Balancing Chemical Equations",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "accessed": "2026-10-14",
+          "supports": "Coefficients represent the relative numbers of reactant and product species and can be read in any counting unit; subscripts cannot be changed without changing the substance."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 3.1 Formula Mass and the Mole Concept",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "accessed": "2026-10-14",
+          "supports": "The formula of an ionic compound does not represent a discrete molecule."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF4",
+      "issue": "Ambiguous (p. 164): because water has twice as many hydrogen atoms as oxygen atoms, the text says the hydrogen tube 'contains twice as much gas'. This is true of volume (and number of molecules) at the same temperature and pressure, not of mass: the oxygen produced is about eight times heavier than the hydrogen.",
+      "pages": {
+        "printed": [
+          164
+        ],
+        "pdf": [
+          200
+        ]
+      },
+      "resolution": "Game text says 'twice the volume'. Question L13-Q19 uses the volume-versus-mass distinction and conservation of mass (36 g of water gives 4 g of hydrogen and 32 g of oxygen).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            164
+          ],
+          "pdfPages": [
+            200
+          ],
+          "locator": "Section 1, electrolysis of water; Figure 1A",
+          "supports": "Electrolysis splits water into hydrogen gas and oxygen gas, with more hydrogen gas collected than oxygen."
+        },
+        {
+          "type": "external",
+          "title": "Hoffmann Electrolysis",
+          "publisher": "Temple University, Chemistry Demonstrated (lecture demonstration site)",
+          "url": "https://sites.temple.edu/chemdemo/2024/10/24/hoffmann-electrolysis/",
+          "accessed": "2026-10-14",
+          "supports": "At equal temperature and pressure, the hydrogen produced occupies twice the volume of the oxygen because twice as many hydrogen molecules form (2H₂O → 2H₂ + O₂)."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF5",
+      "issue": "Oversimplified (p. 163): the opener explains a rusting car purely as iron plus oxygen forming iron oxide. Rust is a hydrated iron(III) oxide, and iron rusts when it is exposed to both oxygen and water.",
+      "pages": {
+        "printed": [
+          163
+        ],
+        "pdf": [
+          199
+        ]
+      },
+      "resolution": "Game text says the extra mass comes from atoms in the surroundings, mainly oxygen from the air, with water also taking part. Iron oxide (Fe₂O₃) is used only for the steel-wool model reaction.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            163
+          ],
+          "pdfPages": [
+            199
+          ],
+          "locator": "Introduction",
+          "supports": "A rusting car gains mass because atoms from the air combine with the iron to form a new substance."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 17.6 Corrosion",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+          "accessed": "2026-10-14",
+          "supports": "Iron rusts when exposed to oxygen and water; rust is an iron(III) oxide hydrate whose water content varies."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF6",
+      "issue": "Overstated scope (p. 168): the text says matter is not created or destroyed during 'any other changes in matter'. The rule that each element's atoms are conserved applies to ordinary chemical and physical changes; nuclear reactions change one element into another and involve mass-energy conversion.",
+      "pages": {
+        "printed": [
+          168
+        ],
+        "pdf": [
+          204
+        ]
+      },
+      "resolution": "Game text limits the law to ordinary chemical and physical changes and notes that nuclear changes are a different topic. Questions never test nuclear reactions.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            168
+          ],
+          "pdfPages": [
+            204
+          ],
+          "locator": "Section 3. Conservation of Matter",
+          "supports": "Matter is not created or destroyed in state changes and chemical reactions; total mass of reactants equals total mass of products."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 21.2 Nuclear Equations",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/21-2-nuclear-equations",
+          "accessed": "2026-10-14",
+          "supports": "Chemical reactions conserve the atoms of each element; nuclear reactions change atomic numbers, turning one element into another."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 21.1 Nuclear Structure and Stability",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/21-1-nuclear-structure-and-stability",
+          "accessed": "2026-10-14",
+          "supports": "Mass changes during ordinary chemical reactions are virtually undetectable; mass-energy conversion becomes significant in nuclear processes."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF7",
+      "issue": "Inconsistent numbers on p. 170: the Figure 4 caption gives the green method a 75 percent efficiency, while the main text and the figure fraction give 77 percent. In the figure, the green-method beaker is labeled '256 g' of starting reactants, but the fraction beside it is 206 g / 266 g, and 206 g ibuprofen + 60 g waste = 266 g (checked in a 250 dpi render).",
+      "pages": {
+        "printed": [
+          170
+        ],
+        "pdf": [
+          206
+        ]
+      },
+      "resolution": "Use 266 g of reactants and 77% (206 ÷ 266 ≈ 0.774) for the three-step process, and 514.5 g with 40% (206 ÷ 514.5 ≈ 0.400) for the 1960s process. Note that EPA and OpenStax round the three-step figure to about 80%; game text says 'about 77%'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            170
+          ],
+          "pdfPages": [
+            206
+          ],
+          "locator": "Section 4, Figure 4 and 'Comparing the Efficiency of Chemical Processes'",
+          "supports": "The 1960s process: 514.5 g reactants gave 206 g ibuprofen and 308.5 g waste (40%); the green method: 206 g ibuprofen with 60 g waste (77%)."
+        },
+        {
+          "type": "external",
+          "title": "Presidential Green Chemistry Challenge: 1997 Greener Synthetic Pathways Award (BHC Company, ibuprofen)",
+          "publisher": "U.S. Environmental Protection Agency (archived EPA website snapshot)",
+          "url": "https://19january2025snapshot.epa.gov/greenchemistry/presidential-green-chemistry-challenge-1997-greener-synthetic-pathways-award/index.html",
+          "accessed": "2026-10-14",
+          "supports": "The BHC ibuprofen process uses three catalytic steps instead of six, with approximately 80 percent atom utilization (virtually 99 percent including recovered acetic acid), replacing a process with less than 40 percent."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 4.4 Reaction Yields (Green Chemistry and Atom Economy feature)",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "accessed": "2026-10-14",
+          "supports": "About 514 g of reactants were needed per 206 g of ibuprofen in the original six-step route (40% atom economy); the three-step route reaches roughly 80%."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF8",
+      "issue": "Imprecise method (p. 170): the text says this efficiency is found by measuring the weight of the reactants and products. The figure is the atom economy, a theoretical percentage calculated from the masses in the balanced equations, not a weighing of a real batch, and it concerns mass rather than weight.",
+      "pages": {
+        "printed": [
+          170
+        ],
+        "pdf": [
+          206
+        ]
+      },
+      "resolution": "Game text defines efficiency as the share of reactant mass that ends up in wanted products (a by-product that gets used counts as wanted), says it is worked out from the balanced equations, names it atom economy, and keeps it separate from reaction speed and from how much product a batch actually yields.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            170
+          ],
+          "pdfPages": [
+            206
+          ],
+          "locator": "Section 4. Engineering Green Medicines",
+          "supports": "An efficient process sends most reactant mass into the desired product and makes less waste; efficiency is given as a percentage."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 4.4 Reaction Yields (Green Chemistry and Atom Economy feature)",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+          "accessed": "2026-10-14",
+          "supports": "Atom economy is the mass of the final product as a percentage of the masses of all reactants used, a measure of the theoretical efficiency of a process, distinct from percent yield."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF9",
+      "issue": "Narrative details not verified (p. 171): the text tells the acetic acid recovery as a separate 'second solution' that was later combined with the catalyst route, and says the acetic acid was used to make polyvinyl alcohol for eye drops and putty. EPA describes acetic acid recovery as part of the commercial BHC process (since 1992) but does not mention polyvinyl alcohol. The ibuprofen dates and award claims are historical examples from the time the textbook was written.",
+      "pages": {
+        "printed": [
+          171
+        ],
+        "pdf": [
+          207
+        ]
+      },
+      "resolution": "Questions use only verified facts: three catalytic steps instead of six, and about 99% of the reactant mass ending up in useful products when the recovered acetic acid is counted. The polyvinyl alcohol detail and award count are not tested. The 'combine the best features of two solutions' idea (MS-ETS1-3) is taught as a design strategy, not as a precise history: Q25 no longer says each fix was tried alone, and Q30 uses hypothetical design data.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            171
+          ],
+          "pdfPages": [
+            207
+          ],
+          "locator": "Section 4, Using Products in Other Reactions; Combining the Solutions",
+          "supports": "Reusing the acetic acid by-product together with the shorter catalytic route gave a process about 99 percent efficient."
+        },
+        {
+          "type": "external",
+          "title": "Presidential Green Chemistry Challenge: 1997 Greener Synthetic Pathways Award (BHC Company, ibuprofen)",
+          "publisher": "U.S. Environmental Protection Agency (archived EPA website snapshot)",
+          "url": "https://19january2025snapshot.epa.gov/greenchemistry/presidential-green-chemistry-challenge-1997-greener-synthetic-pathways-award/index.html",
+          "accessed": "2026-10-14",
+          "supports": "BHC recovers and reuses the acetic acid by-product; atom utilization is virtually 99 percent including it; commercialized since 1992."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF10",
+      "issue": "Safety framing: the lesson shows electrolysis releasing explosive hydrogen gas (p. 164), hydrogen peroxide foaming on skin (p. 165), burning steel wool (p. 166) and an antacid taken for stomach pain (p. 169).",
+      "pages": {
+        "printed": [
+          164,
+          165,
+          166,
+          169
+        ],
+        "pdf": [
+          200,
+          201,
+          202,
+          205
+        ]
+      },
+      "resolution": "The game presents these only as conceptual atom-counting models and balance-reading scenarios. It gives no procedures to try at home, no first-aid or medicine advice, and no instructions for producing gases. Q14's burning-magnesium equation is likewise a counting model only, with no procedure.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            164,
+            165,
+            166,
+            169
+          ],
+          "pdfPages": [
+            200,
+            201,
+            202,
+            205
+          ],
+          "locator": "Figures 1A, 1B, 2A and the Key Science Concept spread",
+          "supports": "The reactions shown are electrolysis of water, breakdown of hydrogen peroxide, burning of steel wool and calcium carbonate with hydrochloric acid."
+        }
+      ]
+    },
+    {
+      "id": "L13-RF11",
+      "issue": "Simplified model (p. 167): the swapping-partners figure draws potassium nitrate after the reaction as potassium bonded to a nitrate group. In water, a soluble ionic substance such as potassium nitrate stays dissolved as separate K⁺ and NO₃⁻ ions; only lead iodide comes out as a solid. The 'swap' is a bookkeeping picture of which atoms end up grouped in the products.",
+      "pages": {
+        "printed": [
+          167
+        ],
+        "pdf": [
+          203
+        ]
+      },
+      "resolution": "Game text treats 'swapping partners' as a record of where atoms end up in the products and never claims that dissolved ions are bonded pairs. Q11 and Q29 classify reactions only by counting the substances on each side of the arrow.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            167
+          ],
+          "pdfPages": [
+            203
+          ],
+          "locator": "Section 2, Atoms Switch Places; Figure 2B",
+          "supports": "Lead nitrate and potassium iodide swap partners to form lead iodide, a yellow solid, and potassium nitrate."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 4.1 Writing and Balancing Chemical Equations (Equations for Ionic Reactions)",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "accessed": "2026-10-14",
+          "supports": "Ionic compounds that dissolve in water dissociate into their ions; spectator ions are neither chemically nor physically changed by the reaction."
+        }
+      ]
+    }
+  ]
+}

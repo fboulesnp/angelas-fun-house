@@ -1,0 +1,293 @@
+{
+  "lessonId": "L06",
+  "guidingQuestion": "How do energy and matter move through ecosystems?",
+  "hook": "A bison can graze a huge pile of grass in a day and still not weigh that much more by evening, so where did all that grass go?",
+  "sections": [
+    { "title": "Introduction", "pages": { "printed": [64, 65], "pdf": [100, 101] } },
+    { "title": "1. Food Webs", "pages": { "printed": [66, 67], "pdf": [102, 103] } },
+    { "title": "2. Decomposers", "pages": { "printed": [68, 69], "pdf": [104, 105] } },
+    { "title": "3. Biomass in Food Webs", "pages": { "printed": [70], "pdf": [106] } },
+    { "title": "4. Energy in Food Webs", "pages": { "printed": [71], "pdf": [107] } },
+    { "title": "Key Science Concept: Biomass and Energy in Food Webs", "pages": { "printed": [72, 73], "pdf": [108, 109] } },
+    { "title": "5. Using Trophic Pyramids to Restore an Ecosystem", "pages": { "printed": [74, 75], "pdf": [110, 111] } },
+    { "title": "Lesson Summary", "pages": { "printed": [75], "pdf": [111] } }
+  ],
+  "objectives": [
+    {
+      "id": "L06-O1",
+      "text": "Identify producers, consumers, and decomposers in a food web, and read each arrow as matter and energy moving from the food to the eater.",
+      "kind": "observe",
+      "sections": ["1. Food Webs", "2. Decomposers"],
+      "pages": { "printed": [66, 67, 68, 69], "pdf": [102, 103, 104, 105] }
+    },
+    {
+      "id": "L06-O2",
+      "text": "Explain how decomposers return matter to the environment so it can cycle again, while energy flows one way through a food web and leaves as heat.",
+      "kind": "relate",
+      "sections": ["2. Decomposers", "3. Biomass in Food Webs", "4. Energy in Food Webs", "Key Science Concept: Biomass and Energy in Food Webs"],
+      "pages": { "printed": [68, 69, 70, 71, 72, 73], "pdf": [104, 105, 106, 107, 108, 109] }
+    },
+    {
+      "id": "L06-O3",
+      "text": "Use a trophic pyramid model to calculate and compare how much energy and biomass reach each level of a food chain, and explain why less reaches the higher levels.",
+      "kind": "apply",
+      "sections": ["3. Biomass in Food Webs", "4. Energy in Food Webs", "Key Science Concept: Biomass and Energy in Food Webs"],
+      "pages": { "printed": [65, 70, 71, 72, 73], "pdf": [101, 106, 107, 108, 109] }
+    },
+    {
+      "id": "L06-O4",
+      "text": "Predict direct and indirect effects when one population in a food web changes, and evaluate how scientists tested and improved a food-web fix for a polluted lake.",
+      "kind": "apply",
+      "sections": ["1. Food Webs", "5. Using Trophic Pyramids to Restore an Ecosystem"],
+      "pages": { "printed": [67, 74, 75], "pdf": [103, 110, 111] }
+    }
+  ],
+  "keyIdeas": [
+    "A food web models who eats whom. Each arrow starts at the food and points to the eater, showing matter and energy moving along with the meal.",
+    "A food chain is one single path through a web. It starts with a producer, which makes its own food from carbon dioxide and water using energy from sunlight.",
+    "Decomposers such as soil bacteria and fungi feed on wastes and remains from every level, then release carbon dioxide and nutrients that producers take back in.",
+    "Matter cycles: atoms are passed around and reused again and again, never used up or destroyed.",
+    "Energy flows one way: at every step much of it leaves living things as heat, so every ecosystem needs a steady supply of new energy, which for nearly all of them is sunlight.",
+    "Only a small share of the energy at one level, about 10 percent on average, becomes available to the level above, so less energy reaches each higher level, and higher levels usually hold less biomass.",
+    "A change in one population ripples outward: as a direct effect on the populations it eats or is eaten by, and as indirect effects through third populations.",
+    "Scientists used food-web models, along with cutting off sewage, to help restore an algae-choked lake in Finland, testing and improving their plan along the way."
+  ],
+  "glossary": [
+    { "term": "food web", "definition": "A diagram model of the feeding links among populations in an ecosystem, with arrows running from each food to the organisms that eat it.", "pages": { "printed": [65, 66], "pdf": [101, 102] } },
+    { "term": "food chain", "definition": "One single path through a food web, starting at a producer and following the arrows from eaten to eater.", "pages": { "printed": [65, 66, 67], "pdf": [101, 102, 103] } },
+    { "term": "producer", "definition": "An organism, such as a plant or phytoplankton, that builds its own food from carbon dioxide and water using energy from sunlight.", "pages": { "printed": [67, 72], "pdf": [103, 108] } },
+    { "term": "consumer", "definition": "An organism that gets its matter and energy by eating other organisms or their remains.", "pages": { "printed": [68, 72], "pdf": [104, 108] } },
+    { "term": "decomposer", "definition": "A consumer, such as a soil bacterium or a mushroom, that feeds on wastes and dead remains and releases simpler materials that producers can reuse.", "pages": { "printed": [65, 68, 69], "pdf": [101, 104, 105] } },
+    { "term": "top predator", "definition": "An animal at the end of a food chain that nothing else in that particular model eats.", "pages": { "printed": [66, 67], "pdf": [102, 103] } },
+    { "term": "direct effect", "definition": "A change in one population caused by another population that eats it or is eaten by it, with no other population in between.", "pages": { "printed": [65, 67], "pdf": [101, 103] } },
+    { "term": "indirect effect", "definition": "A change in one population caused by another population acting through a third population in between.", "pages": { "printed": [65, 67], "pdf": [101, 103] } },
+    { "term": "biomass", "definition": "The total mass of living matter in a group of organisms, such as one level of a food chain.", "pages": { "printed": [70], "pdf": [106] } },
+    { "term": "trophic level", "definition": "A feeding step in a food chain: producers form the first level, the organisms that eat them form the second, and so on.", "pages": { "printed": [71], "pdf": [107] } },
+    { "term": "trophic pyramid", "definition": "A stacked model of a food chain's levels that shows how much energy reaches each level, with the most at the producer base.", "pages": { "printed": [65, 71], "pdf": [101, 107] } },
+    { "term": "phytoplankton", "definition": "Tiny drifting producers in oceans and lakes that make food by photosynthesis.", "pages": { "printed": [70, 71], "pdf": [106, 107] } },
+    { "term": "zooplankton", "definition": "Tiny drifting consumers in water, many of them small animals such as copepods and krill, that often feed on phytoplankton.", "pages": { "printed": [70, 71], "pdf": [106, 107] } },
+    { "term": "first-stage consumer", "definition": "An organism that eats producers, such as zooplankton eating algae. It sits on the second trophic level, and the animals that eat it are second-stage consumers.", "pages": { "printed": [74, 75], "pdf": [110, 111] } }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L06-O1",
+      "title": "Reading the Arrows of a Food Web",
+      "paragraphs": [
+        "A food web is a map of meals. Each organism shows up once, and arrows link whatever gets eaten to whatever eats it. The arrowhead always lands on the eater, because that is where the matter and energy end up.",
+        "Producers such as grasses, shrubs, and phytoplankton sit at the base. They build their own food from carbon dioxide and water using energy from sunlight, so no feeding arrows point at them. Consumers get their matter and energy by eating other organisms.",
+        "Choose any producer and trace arrowheads, meal by meal, until you land on an organism that nothing in the web eats. That one path is a food chain. A real web is many chains woven together, because most animals eat more than one kind of food and face more than one kind of predator.",
+        "Decomposers, like soil bacteria and mushrooms, feed on wastes and dead remains from every part of the web. When a diagram includes them, arrows run from every organism to the decomposers."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "web",
+        "caption": "A small forest food web (arrows point from food to eater)",
+        "alt": "A forest food web with two producers, grass and shrub. Arrows: grass to rabbit, grass to grasshopper, shrub to deer mouse, grasshopper to deer mouse, rabbit to fox, deer mouse to fox, deer mouse to snake, snake to hawk, rabbit to hawk. Grass and shrub have no arrows pointing to them. Fox and hawk have no arrows leaving them, so they are top predators in this model.",
+        "nodes": [
+          { "id": "grass", "label": "Grass", "group": "producer" },
+          { "id": "shrub", "label": "Shrub", "group": "producer" },
+          { "id": "rabbit", "label": "Rabbit", "group": "consumer" },
+          { "id": "grasshopper", "label": "Grasshopper", "group": "consumer" },
+          { "id": "mouse", "label": "Deer mouse", "group": "consumer" },
+          { "id": "snake", "label": "Snake", "group": "consumer" },
+          { "id": "fox", "label": "Fox", "group": "consumer" },
+          { "id": "hawk", "label": "Hawk", "group": "consumer" }
+        ],
+        "edges": [
+          { "from": "grass", "to": "rabbit" },
+          { "from": "grass", "to": "grasshopper" },
+          { "from": "shrub", "to": "mouse" },
+          { "from": "grasshopper", "to": "mouse" },
+          { "from": "rabbit", "to": "fox" },
+          { "from": "mouse", "to": "fox" },
+          { "from": "mouse", "to": "snake" },
+          { "from": "snake", "to": "hawk" },
+          { "from": "rabbit", "to": "hawk" }
+        ]
+      },
+      "watchOut": "An arrow does not mean \"eats.\" It means \"is eaten by\": matter and energy travel toward the arrowhead. Also, \"top predator\" only means nothing in that particular model eats the animal. Add more organisms and the top can change.",
+      "pages": { "printed": [66, 67, 68, 69], "pdf": [102, 103, 104, 105] }
+    },
+    {
+      "objectiveId": "L06-O2",
+      "title": "Matter Loops, Energy Leaves",
+      "paragraphs": [
+        "When a rabbit eats grass, the atoms in the grass become part of the rabbit, or get breathed out, or leave as waste. Atoms are never used up. They just change places and partners.",
+        "Decomposers close the loop. As they feed on dead leaves, dung, and remains, they release carbon dioxide from cellular respiration and nitrogen-containing nutrients as wastes into the air, soil, or water. Producers take those raw materials back in to build new sugars and body parts.",
+        "Energy behaves differently. It usually arrives as sunlight and is stored as chemical energy in food. At every step, organisms use some of it to stay alive, and that energy spreads into the surroundings as heat. Producers cannot turn that heat back into food, so an ecosystem needs a steady supply of new energy, usually sunlight.",
+        "The short version: matter cycles, while energy flows through and out."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "How matter cycles (arrows show where matter goes)",
+        "alt": "A cycle of matter. Producers pass matter to consumers when they are eaten. Producers pass matter to decomposers as dead leaves. Consumers pass matter to decomposers as wastes and remains. Producers also release carbon dioxide to the air, soil, and water through respiration. Consumers release carbon dioxide to the air, soil, and water through respiration. Decomposers release carbon dioxide and nutrients to the air, soil, and water. Air, soil, and water supply carbon dioxide, water, and nutrients back to producers. Energy is not shown cycling because it leaves as heat.",
+        "nodes": [
+          { "id": "prod", "label": "Producers" },
+          { "id": "cons", "label": "Consumers" },
+          { "id": "dec", "label": "Decomposers" },
+          { "id": "env", "label": "Air, soil, and water" }
+        ],
+        "edges": [
+          { "from": "prod", "to": "cons", "label": "eaten" },
+          { "from": "prod", "to": "dec", "label": "dead leaves" },
+          { "from": "cons", "to": "dec", "label": "wastes, remains" },
+          { "from": "prod", "to": "env", "label": "CO₂ from respiration" },
+          { "from": "cons", "to": "env", "label": "CO₂ from respiration" },
+          { "from": "dec", "to": "env", "label": "CO₂, nutrients" },
+          { "from": "env", "to": "prod", "label": "CO₂, water, nutrients" }
+        ]
+      },
+      "watchOut": "Watch for phrases like \"energy cycles\" or \"matter is lost.\" Energy is not reused once it spreads out as heat, and matter is never destroyed; it just leaves the food chain for the air, soil, water, or decomposers. Plants also carry out cellular respiration, not only photosynthesis.",
+      "pages": { "printed": [68, 69, 70, 71, 72, 73], "pdf": [104, 105, 106, 107, 108, 109] }
+    },
+    {
+      "objectiveId": "L06-O3",
+      "title": "The Energy Pyramid",
+      "paragraphs": [
+        "A trophic pyramid stacks the levels of a food chain: producers at the bottom, then the organisms that eat them, and so on upward. The size of each layer shows how much energy reaches that level.",
+        "Only a small share of one level's energy ends up stored in the next. Most is used for living and released as heat, or stays in parts that are never eaten and go to decomposers. A common model says about 10 percent moves up each step.",
+        "With that model, 10,000 units of energy in phytoplankton become about 1,000 units in zooplankton, 100 in small fish, and only 10 in tuna. To get each level, multiply the level below it by 0.10.",
+        "Biomass, the mass of living matter, usually shrinks up the chain for a similar reason: much of what an animal eats leaves as wastes or as carbon dioxide and water, so only a little becomes new body tissue. That is why a grazing bison does not gain the full mass of the grass it eats."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Energy at each level in the 10 percent model",
+        "alt": "Bar graph of energy units at each level of an ocean food chain using the 10 percent model: phytoplankton 10,000 units, zooplankton 1,000 units, small fish 100 units, tuna 10 units. Each bar is one tenth of the bar for the level it eats.",
+        "yLabel": "Energy units",
+        "bars": [
+          { "label": "Phytoplankton", "value": 10000 },
+          { "label": "Zooplankton", "value": 1000 },
+          { "label": "Small fish", "value": 100 },
+          { "label": "Tuna", "value": 10 }
+        ]
+      },
+      "watchOut": "The 10 percent figure is an average, not a law; real transfers vary from place to place. A pyramid of numbers can also flip, since one oak tree can feed thousands of caterpillars. An energy pyramid, which tracks energy passed up over time, never flips, because no level can receive more energy than the level below captured. A biomass snapshot can flip in open water, where fast-growing phytoplankton are eaten almost as fast as they grow.",
+      "pages": { "printed": [65, 70, 71, 72, 73], "pdf": [101, 106, 107, 108, 109] }
+    },
+    {
+      "objectiveId": "L06-O4",
+      "title": "Ripples Through a Web, and a Lake Repair",
+      "paragraphs": [
+        "Change one population and others respond. If snakes eat mice, more snakes means fewer mice: a direct effect. If those mice ate beetles, the beetles may now increase even though snakes never touch a beetle: an indirect effect, passed along through a third population.",
+        "Food-web models helped scientists plan a repair of Lake Vesijärvi in Finland. Years of sewage had fed the algae so well that the water turned murky; small plankton-eating fish such as roach swarmed while big predatory fish were scarce, and the algae kept booming even after the sewage stopped. The food-web model said the roach were eating the zooplankton that would otherwise graze the algae down.",
+        "In the textbook's account, the first test removed many roach. That helped, but not enough, so the plan was modified by stocking predatory fish that eat roach. The textbook names the predator pike; the scientists' own published review names pikeperch. In that account, fewer roach meant more zooplankton, fewer algae, and clearer water. The scientists' own review adds that predator stocking began years before the fish removal, that cutting off the sewage did much of the work, and that exactly why the algae dropped is still debated.",
+        "To check results, scientists counted algal cells in measured drops of lake water and scaled up to estimate the whole lake. Testing, measuring, and modifying is how engineers improve a design."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "chain",
+        "caption": "The lake food chain used to plan the repair",
+        "alt": "A lake food chain with arrows from food to eater: algae to zooplankton, zooplankton to roach, roach to predatory fish. Algae are producers, zooplankton are first-stage consumers, roach are second-stage consumers, and the predatory fish are top predators.",
+        "nodes": [
+          { "id": "algae", "label": "Algae", "group": "producer" },
+          { "id": "zoo", "label": "Zooplankton", "group": "consumer" },
+          { "id": "roach", "label": "Roach", "group": "consumer" },
+          { "id": "pred", "label": "Predatory fish", "group": "consumer" }
+        ],
+        "edges": [
+          { "from": "algae", "to": "zoo" },
+          { "from": "zoo", "to": "roach" },
+          { "from": "roach", "to": "pred" }
+        ]
+      },
+      "watchOut": "Food-web models predict the direction of a change, not exact numbers, and real lakes have many more links than four. A fix that worked in one lake will not automatically work the same way in every lake.",
+      "pages": { "printed": [67, 74, 75], "pdf": [103, 110, 111] }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L06-RF1",
+      "issue": "Brief-requested check of pp. 72-73 (rendered and viewed). The Key Science Concept text says trophic pyramids show how energy cycles through an ecosystem, and the Introduction (p. 65) says energy and matter are recycled. Energy is not recycled: it flows one way and leaves living things as heat. The spread's arrows themselves are drawn correctly (food source to eater, and every organism to decomposers).",
+      "pages": { "printed": [65, 72], "pdf": [101, 108] },
+      "resolution": "Content teaches that matter cycles while energy flows one way and disperses as heat. Question L06-Q12 repairs the 'energy cycles' wording directly, and L06-Q11 sorts matter-only, energy-only, and shared statements. No question uses the textbook's 'energy cycles' sentence as a fact.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [71], "pdfPages": [107], "locator": "Section 4. Energy in Food Webs, Figure 4", "supports": "Each level loses energy as heat and to decomposers, so energy shrinks at each step rather than returning." },
+        { "type": "external", "title": "Biology 2e, 46.2 Energy Flow through Ecosystems", "publisher": "OpenStax, Rice University", "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems", "accessed": "2026-10-14", "supports": "Energy flows directionally through ecosystems and is lost as metabolic heat at each transfer." },
+        { "type": "external", "title": "Biology 2e, 46.3 Biogeochemical Cycles", "publisher": "OpenStax, Rice University", "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles", "accessed": "2026-10-14", "supports": "Energy flows one way, entering as sunlight and leaving as heat, while the matter of living things is conserved and recycled." }
+      ]
+    },
+    {
+      "id": "L06-RF2",
+      "issue": "Figure 3 caption (p. 70) and the Key Science Concept spread (pp. 72-73) say matter is 'lost' moving up a food web. Matter is not destroyed; it leaves the food chain as wastes, as carbon dioxide and water from cellular respiration, or in uneaten remains taken up by decomposers, and is recycled.",
+      "pages": { "printed": [70, 72, 73], "pdf": [106, 108, 109] },
+      "resolution": "Content and questions say matter 'leaves the food chain' or 'passes to decomposers and the environment', never that it is lost or destroyed. L06-Q10, L06-Q14, L06-Q15 and L06-Q16 test where the matter goes. The single-choice items among them (Q10, Q14, Q16) carry the 'matter is destroyed' and 'matter turns into energy' misconceptions as distractors, and the numeric Q15 has learners account for every kilogram eaten.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [70], "pdfPages": [106], "locator": "Section 3. Biomass in Food Webs", "supports": "Eaten matter partly leaves as waste and partly becomes carbon dioxide during cellular respiration; uneaten matter goes to decomposers or stays in the ecosystem." },
+        { "type": "external", "title": "Biology 2e, 46.3 Biogeochemical Cycles", "publisher": "OpenStax, Rice University", "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles", "accessed": "2026-10-14", "supports": "The matter that makes up living organisms is conserved and recycled; respiration returns organic carbon to carbon dioxide." }
+      ]
+    },
+    {
+      "id": "L06-RF3",
+      "issue": "Section 4 and Figure 4 (p. 71) present 'only 10 percent' as if every level passes on exactly 10 percent of its energy. The 10 percent figure is an average rule of thumb; measured transfer efficiencies vary between ecosystems and organisms.",
+      "pages": { "printed": [71], "pdf": [107] },
+      "resolution": "Calculation questions state 'use the 10 percent model' as a condition. L06-Q20 computes a 12 percent transfer from example data so learners see real values vary. The O3 Science Explorer card names 10 percent as an average.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [71], "pdfPages": [107], "locator": "Section 4. Energy in Food Webs, Figure 4", "supports": "The textbook's pyramid model uses 10 percent per level: 10,000, 1,000, 100, 10 energy units." },
+        { "type": "external", "title": "Energy Flow and the 10 Percent Rule", "publisher": "National Geographic Society (National Geographic Education)", "url": "https://education.nationalgeographic.org/resource/energy-flow-and-10-percent-rule/", "accessed": "2026-10-14", "supports": "On average about 10 percent of the energy at one trophic level passes to the next; the rest is lost mainly as heat from respiration, in wastes, and in organisms that die uneaten." },
+        { "type": "external", "title": "Biology 2e, 46.2 Energy Flow through Ecosystems", "publisher": "OpenStax, Rice University", "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems", "accessed": "2026-10-14", "supports": "A measured example (Silver Springs) shows about 14.5 percent transfer between the first two trophic levels, so efficiency is not fixed at 10 percent." }
+      ]
+    },
+    {
+      "id": "L06-RF4",
+      "issue": "The Key Science Concept text (p. 72) says populations get smaller at each level. That holds for energy, but a pyramid of numbers can be inverted (a few trees can feed very many insects), and some aquatic biomass pyramids are inverted at a given moment because phytoplankton reproduce so quickly.",
+      "pages": { "printed": [72], "pdf": [108] },
+      "resolution": "Content says the energy passed up to each level always decreases, biomass usually does, and organism counts need not; it no longer says each level 'holds' less energy, because standing energy content can invert just as standing biomass can. L06-Q18 repairs the 'counts must always shrink' idea with an oak-and-caterpillars case. L06-Q16 compares the new biomass each level builds over a year rather than a one-moment snapshot, because open-ocean plankton are the textbook case of an inverted standing-biomass pyramid; its limitations say so. The O3 watchOut names the open-water snapshot exception.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [71], "pdfPages": [107], "locator": "Section 4. Energy in Food Webs, Figure 4", "supports": "The textbook's pyramid passes only 10 percent of each level's energy to the next level up." },
+        { "type": "external", "title": "Biology 2e, 46.2 Energy Flow through Ecosystems", "publisher": "OpenStax, Rice University", "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems", "accessed": "2026-10-14", "supports": "Pyramids of numbers can be inverted (a temperate forest example has far more insects than trees), biomass pyramids can be inverted (English Channel phytoplankton make up less biomass than zooplankton because they turn over quickly), and energy pyramids, measured per area per year, are always upright." }
+      ]
+    },
+    {
+      "id": "L06-RF5",
+      "issue": "Section 3 (p. 70) calls zooplankton single-celled consumers. Many zooplankton are multicellular animals (for example krill, copepods, and fish larvae); the textbook's own zooplankton artwork on pp. 71 and 73 shows small crustaceans.",
+      "pages": { "printed": [70], "pdf": [106] },
+      "resolution": "The glossary and questions describe zooplankton as tiny drifting consumers, many of them small animals. No question asks whether zooplankton are single-celled.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [70], "pdfPages": [106], "locator": "Section 3. Biomass in Food Webs", "supports": "Zooplankton are consumers that eat phytoplankton in the textbook's ocean food chain." },
+        { "type": "external", "title": "What are plankton?", "publisher": "NOAA National Ocean Service", "url": "https://oceanservice.noaa.gov/facts/plankton.html", "accessed": "2026-10-14", "supports": "Zooplankton include small animals such as krill, sea snails and pelagic worms, plus the young of larger invertebrates and fish; most zooplankton eat phytoplankton." }
+      ]
+    },
+    {
+      "id": "L06-RF6",
+      "issue": "Text on p. 67 conflicts with Figure 1A (p. 66, viewed at 300 dpi). The text says the red-tailed hawk is a top predator because nothing in the web feeds on hawks, but Figure 1A (and Figure 2 on p. 69) draws an arrow from the hawk to the owl. The text also says fewer hawks would increase rattlesnakes as an indirect effect, but Figure 1A shows hawks eating rattlesnakes, which would make that a direct effect.",
+      "pages": { "printed": [66, 67, 69], "pdf": [102, 103, 105] },
+      "resolution": "Questions do not test the textbook's hawk-disease example or call the hawk the top predator of Figure 1A. Direct and indirect effects are tested on original webs whose every arrow is stated in the prompt or alt text. The O1 card warns that 'top predator' depends on which organisms a model includes. Internal inconsistency only; no external correction is used as an answer.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [66], "pdfPages": [102], "locator": "Figure 1A, A Forest Food Web", "supports": "The figure shows arrows from the deer mouse, vole, rabbit and rattlesnake to the red-tailed hawk, and an arrow from the red-tailed hawk to the owl." },
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [67], "pdfPages": [103], "locator": "Section 1. Food Webs (direct and indirect effects)", "supports": "The text defines direct and indirect effects and gives the hawk-disease example." }
+      ]
+    },
+    {
+      "id": "L06-RF7",
+      "issue": "Section 5 (p. 74) says the algae themselves consumed the oxygen. Algae do use oxygen in respiration, especially at night, but in nutrient-polluted water the largest drain is usually decomposers breaking down dead algae. The textbook sentence is incomplete rather than wrong.",
+      "pages": { "printed": [74], "pdf": [110] },
+      "resolution": "L06-Q28 asks which process uses up large amounts of oxygen when algae overgrow, keyed to decomposers breaking down dead algae (NOAA). Its explanation adds that living algae also use some oxygen in their own respiration, especially at night when they can't photosynthesize (USGS), which is the part the textbook mentions, so learners see how the two fit together. No question claims algae alone removed the oxygen.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [74], "pdfPages": [110], "locator": "Section 5. Using Trophic Pyramids to Restore an Ecosystem", "supports": "Sewage nutrients made the lake's algae grow out of control and the water lost oxygen." },
+        { "type": "external", "title": "What is a dead zone?", "publisher": "NOAA National Ocean Service", "url": "https://oceanservice.noaa.gov/facts/deadzone.html", "accessed": "2026-10-14", "supports": "Excess nutrients cause algae overgrowth; the algae sink and decompose, and the decomposition process consumes oxygen and depletes the supply." },
+        { "type": "external", "title": "Water Q&A: What causes fish kills?", "publisher": "U.S. Geological Survey, Water Science School", "url": "https://www.usgs.gov/water-science-school/science/water-qa-what-causes-fish-kills", "accessed": "2026-10-14", "supports": "Algae produce oxygen by photosynthesis during the day, but at night they and other organisms keep respiring and use up oxygen, so dissolved oxygen can drop too low for fish during blooms." }
+      ]
+    },
+    {
+      "id": "L06-RF8",
+      "issue": "Section 5 (pp. 74-75) says the lake was stocked with pike, says locals could no longer find many fish, and tells the story as two separate steps (remove roach, then add predators). The scientists' published review of Lake Vesijärvi (open-access full text read) reports a different history: sewage was diverted in the mid-1970s, and recovery was mainly due to that diversion and the dilution that followed; over a million juvenile pikeperch (Sander lucioperca) were stocked in 1984-1991, before and during a 1989-1993 mass removal of plankton-eating and bottom-feeding fish; the removal cut planktivorous roach and smelt by about 90 percent after a strong 1988 roach year class, so small plankton-eating fish were abundant while open-water predatory fish were scarce in the 1980s; phosphorus left the lake in the harvested fish; and the phytoplankton change was not driven by extra zooplankton grazing (the review cites Horppila et al. 1998), with the detailed mechanisms still unclear.",
+      "pages": { "printed": [74, 75], "pdf": [110, 111] },
+      "resolution": "Questions say 'predatory fish' instead of 'pike'. Lake items present the cascade as the food-web model's prediction or the textbook's account, not as documented history: L06-Q24 (now about what a simple model cannot predict) and L06-Q25 carry limitations naming sewage diversion, nutrient removal in fish, the stocking and removal years and the unclear mechanism, and L06-Q27 is framed as the textbook's version of the story. The O4 card says roach swarmed while big predatory fish were scarce, frames the roach-zooplankton link as the model's claim, and adds the review's caveats. Key idea 8 credits cutting off sewage as well as food-web models. Dates and outcomes are not tested as facts.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [74, 75], "pdfPages": [110, 111], "locator": "Section 5. Removing a Predator; Adding a Top Predator", "supports": "Removing roach and adding predatory fish increased zooplankton and reduced algae in the textbook's account." },
+        { "type": "external", "title": "Development of Lake Vesijärvi through four decades of remediation efforts (Salonen et al., Hydrobiologia 847: 4601-4619, 2020), open-access reprint", "publisher": "Natural Resources Institute Finland (Luke), Jukuri repository", "url": "https://jukuri.luke.fi/bitstream/10024/546583/1/Salonen_et_al_2020.pdf", "accessed": "2026-10-14", "supports": "Sewage diversion in the mid-1970s cut nutrient loading and was the main driver of recovery; over a million juvenile pikeperch were stocked in 1984-1991, before and during the 1989-1993 mass fish removal, which cut planktivorous roach and smelt by about 90 percent and removed phosphorus in the harvested fish; the phytoplankton change was not due to enhanced zooplankton grazing, and the detailed mechanisms remain unclear." }
+      ]
+    },
+    {
+      "id": "L06-RF9",
+      "issue": "Section 2 (pp. 68-69) calls earthworms and dung beetles decomposers. Many scientists call animals that eat dead material detritivores and keep 'decomposer' for bacteria and fungi, though school sources often use the terms together. The text also says that without decomposers the matter in remains would be locked away 'forever', an unsupported absolute.",
+      "pages": { "printed": [68, 69], "pdf": [104, 105] },
+      "resolution": "Questions use bacteria and fungi (mushrooms) as decomposer examples, so no item depends on the earthworm or dung beetle label. No question uses 'forever'. The textbook's broad usage is accepted for grade 7.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [68, 69], "pdfPages": [104, 105], "locator": "Section 2. Decomposers", "supports": "Bacteria and fungi break down wastes and remains and release nutrients that producers use." },
+        { "type": "external", "title": "Decomposers", "publisher": "National Geographic Society (National Geographic Education)", "url": "https://education.nationalgeographic.org/resource/decomposers/", "accessed": "2026-10-14", "supports": "Decomposers break dead organisms into simpler inorganic materials for producers; invertebrates such as earthworms are sometimes called detritivores." }
+      ]
+    }
+  ]
+}
