@@ -1,6 +1,6 @@
 # Build status — Angela's Fun House
 
-_Last updated: 2026-10-14 (in progress). This file is the resume point if work is interrupted._
+_Last updated: 2026-10-14 22:40 (in progress). This file is the resume point if work is interrupted._
 
 ## Milestones
 
@@ -55,6 +55,15 @@ Columns: content (reviewed questions / validator), table (table-check), manual r
 | L27 | Biodiversity Lantern Festival | in workflow | in workflow | |
 | L28 | Living World Market | in workflow | in workflow | |
 | L29 | Future Garden Grand Finale | in workflow | in workflow | |
+
+## Done since the 3D switch (verified)
+
+- Three.js PBR renderer (`src/game/render3d`), quality tiers (measured on this Mac in Chrome,
+  1600×1000: Ultra ≈46 fps, High ≈111 fps, Medium ≈216 fps, Low ≈324 fps), 2D fallback.
+- 3D mansion title + dollhouse map with opening façade, room vignettes, 3D celebration parade.
+- How-to-play, opening story, answer lanes, cosmetics (trails, trims, sticker album), error boundary.
+- Tests: 30 Vitest behaviour tests (mutation-checked); keyboard e2e 20/20; axe 0 violations on
+  8 screens; audio runtime check passes; production build OK (three.js split into its own chunk).
 
 ## Next actions
 
