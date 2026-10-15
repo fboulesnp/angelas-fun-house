@@ -678,10 +678,14 @@ export class Renderer {
       const ny = m.x2 - m.x1;
       const nl = Math.hypot(nx, ny) || 1;
       const sgn = (286 - mx) * nx + (600 - my) * ny > 0 ? 1 : -1;
-      ctx.translate((nx / nl) * 16 * sgn, (ny / nl) * 16 * sgn);
+      // Upright targets: run the text along the target so facing neighbours never overlap.
+      const upright = Math.abs(m.y2 - m.y1) > Math.abs(m.x2 - m.x1);
+      const off = upright && !m.icon ? 10 : 16;
+      ctx.translate((nx / nl) * off * sgn, (ny / nl) * off * sgn);
       ctx.fillStyle = this.theme.ink;
       if (!drawIcon(ctx, m.icon, 7, this.icons) && m.label) {
         ctx.font = '700 11px "Atkinson Hyperlegible Next", system-ui, sans-serif';
+        if (upright) ctx.rotate(-Math.PI / 2);
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         ctx.fillText(m.label, 0, 0);
