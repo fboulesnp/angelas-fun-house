@@ -34,7 +34,10 @@ export class BallView {
   reducedMotion = false;
   holdGlowColor: THREE.Color;
 
-  constructor(opts: { transmission: boolean; trailColor: string; glowColor: string; maxLights: number }) {
+  private prism = false;
+
+  constructor(opts: { transmission: boolean; trailColor: string; glowColor: string; maxLights: number; prism?: boolean }) {
+    this.prism = !!opts.prism;
     this.geo = new THREE.SphereGeometry(12 * K, 48, 32);
     this.coreGeo = new THREE.IcosahedronGeometry(12 * K * 0.42, 1);
     this.shellMat = new THREE.MeshPhysicalMaterial({
@@ -98,6 +101,7 @@ export class BallView {
   }
 
   update(balls: Ball[], heightOf: (b: Ball) => number, t: number) {
+    if (this.prism && !this.reducedMotion) (this.trailMat.uniforms.color.value as THREE.Color).setHSL((t * 0.15) % 1, 0.8, 0.65);
     const seen = new Set<number>();
     for (const b of balls) {
       if (b.state === 'drained') continue;

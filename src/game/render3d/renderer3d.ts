@@ -13,6 +13,10 @@ import { TableView } from './tableView.ts';
 import { TH, TW, wx, wz } from './space.ts';
 
 export interface Render3DSettings {
+  /** Cosmetic trail colour (and Pip's prism cycling) and cabinet wood finish. */
+  trailColor?: string;
+  prismTrail?: boolean;
+  woodFinish?: { base: string; dark: string };
   quality: Quality;
   adaptiveQuality: boolean;
   reducedMotion: boolean;
@@ -82,9 +86,9 @@ export class Renderer3D implements TableRenderer {
       scene.add(s, s.target);
     }
 
-    this.table = new TableView(this.def, session.rt, { reducedMotion: settings.reducedMotion, detail: q.detail, shadows: q.shadows });
+    this.table = new TableView(this.def, session.rt, { reducedMotion: settings.reducedMotion, detail: q.detail, shadows: q.shadows, woodFinish: settings.woodFinish });
     scene.add(this.table.root);
-    this.balls = new BallView({ transmission: settings.quality === 'ultra', trailColor: theme.trail, glowColor: theme.lampOn, maxLights: settings.quality === 'low' ? 0 : 2 });
+    this.balls = new BallView({ transmission: settings.quality === 'ultra', trailColor: settings.trailColor ?? theme.trail, prism: settings.prismTrail, glowColor: theme.lampOn, maxLights: settings.quality === 'low' ? 0 : 2 });
     this.balls.trailLength = settings.trailLength;
     this.balls.reducedMotion = settings.reducedMotion;
     scene.add(this.balls.root);

@@ -464,6 +464,14 @@ export class MansionScene {
     return null;
   }
 
+  private parade: { ids: LessonId[]; i: number; t: number; onRoom(id: LessonId, i: number): void; onDone(): void } | null = null;
+
+  /** Camera tour of the given rooms with fireworks (wing celebrations and the grand finale). */
+  startParade(ids: LessonId[], onRoom: (id: LessonId, i: number) => void, onDone: () => void) {
+    this.mode = 'map';
+    this.parade = { ids, i: -1, t: 0, onRoom, onDone };
+  }
+
   zoomInto(id: LessonId, done: () => void) {
     this.zoom = { id, k: 0, done };
   }
@@ -503,8 +511,8 @@ export class MansionScene {
       r.windowMat.emissiveIntensity = 0.22 + flicker + r.lit * 2.3 + (hovered ? 0.6 : 0);
       r.update(t, Math.max(r.lit, hovered ? 0.4 : 0.08));
     }
-    this.beacon.setLit(0.15 + (litCount / 29) * 0.85);
-    this.fireworks.setLit(litCount >= 29 ? 1 : 0);
+    this.beacon.setLit(this.parade ? 1 : 0.15 + (litCount / 29) * 0.85);
+    this.fireworks.setLit(litCount >= 29 || this.parade ? 1 : 0);
     this.marqueeBulbs.forEach((m, i) => (m.emissiveIntensity = this.reduced ? 2 : 0.6 + 2.2 * (((i + Math.floor(t * 8)) % 4 === 0) ? 1 : 0.25)));
     this.kit.tick(t, dt);
     // Camera
@@ -527,6 +535,30 @@ export class MansionScene {
     }
     cam.updateProjectionMatrix();
     cam.lookAt(target);
+    const pa = this.parade;
+    if (pa && this.facadeOpen > 0.8) {
+      pa.t += dt;
+      const per = 1.6;
+      const idx = Math.min(pa.ids.length - 1, Math.floor(pa.t / per));
+      if (idx !== pa.i) {
+        pa.i = idx;
+        pa.onRoom(pa.ids[idx], idx);
+      }
+      const room = this.rooms.find((r) => r.id === pa.ids[idx]);
+      if (room) {
+        this.focusRoom = room.id;
+        const k = Math.min(1, (pa.t % per) / 0.6);
+        const e = k * k * (3 - 2 * k);
+        const goal = room.center.clone().add(new THREE.Vector3(0, 0.35, 4.2));
+        cam.position.lerp(goal, this.reduced ? 0 : 0.35 + 0.4 * e);
+        cam.lookAt(target.lerp(room.center, this.reduced ? 0 : 0.7));
+      }
+      if (pa.t > per * pa.ids.length + 1.2) {
+        this.parade = null;
+        this.focusRoom = null;
+        pa.onDone();
+      }
+    }
     if (this.zoom) {
       const z = this.zoom;
       z.k += dt / (this.reduced ? 0.05 : 0.9);

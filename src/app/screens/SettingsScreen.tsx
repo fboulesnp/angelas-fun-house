@@ -7,6 +7,7 @@ import { audio } from '../../game/audio/audio.ts';
 import { exportSave, importSave, newSave } from '../../persistence/save.ts';
 import { getSave, replaceSave, setSetting, storageAvailable, updateSave, useSave } from '../store.ts';
 import { webglAvailable } from '../../game/render3d/stage.ts';
+import { TRAILS, TRIMS, missionsDone, wonderlights } from '../cosmetics.ts';
 
 export function SettingsScreen({ back }: { back(): void }) {
   const save = useSave();
@@ -115,6 +116,7 @@ export function SettingsScreen({ back }: { back(): void }) {
             <input type="range" min="0.6" max="1" step="0.05" value={s.simSpeed} onInput={(e) => setSetting('simSpeed', Number((e.target as HTMLInputElement).value))} />
           </label>
           {toggle('nudge', 'Allow nudging', 'Optional; it never affects missions or questions.')}
+          {toggle('answerLanes', 'Answer lanes', 'After you answer in the Wonder Pocket, deliver it by shooting a lit lane for a bonus. Missing is only an aiming miss.')}
           <label class="field">Free Play questions
             <select value={String(s.freeTrivia)} onChange={(e) => setSetting('freeTrivia', Number((e.target as HTMLSelectElement).value) as 0)}>
               <option value="0">Off</option>
@@ -148,6 +150,36 @@ export function SettingsScreen({ back }: { back(): void }) {
             </select>
           </label>
           {toggle('showDebug', 'Show collision debug (2D view)')}
+        </section>
+        <section class="panel">
+          <h2>Collectibles</h2>
+          <p class="field-note">Earned by restoring Wonderlights and finishing missions. Purely cosmetic.</p>
+          <fieldset class="swatches">
+            <legend>Ball trail</legend>
+            {TRAILS.map((t) => {
+              const ok = wonderlights(save) >= t.need;
+              return (
+                <label class={`swatch ${save.cosmetics.trail === t.id ? 'on' : ''}`} title={ok ? t.name : `Unlocks at ${t.need} Wonderlights`}>
+                  <input type="radio" name="trail" disabled={!ok} checked={save.cosmetics.trail === t.id} onChange={() => updateSave((d) => void (d.cosmetics = { ...d.cosmetics, trail: t.id }))} />
+                  <span class="swatch-dot" style={{ background: t.prism ? 'conic-gradient(#ff7f86,#ffc75b,#71e3cf,#9fb4ff,#ff7f86)' : t.color }} />
+                  <span>{t.name}{!ok && <small> · {t.need} ★</small>}</span>
+                </label>
+              );
+            })}
+          </fieldset>
+          <fieldset class="swatches">
+            <legend>Cabinet wood</legend>
+            {TRIMS.map((t) => {
+              const ok = missionsDone(save) >= t.need;
+              return (
+                <label class={`swatch ${save.cosmetics.trim === t.id ? 'on' : ''}`} title={ok ? t.name : `Unlocks after ${t.need} missions`}>
+                  <input type="radio" name="trim" disabled={!ok} checked={save.cosmetics.trim === t.id} onChange={() => updateSave((d) => void (d.cosmetics = { ...d.cosmetics, trim: t.id }))} />
+                  <span class="swatch-dot" style={{ background: `linear-gradient(135deg, ${t.base}, ${t.dark})` }} />
+                  <span>{t.name}{!ok && <small> · {t.need} missions</small>}</span>
+                </label>
+              );
+            })}
+          </fieldset>
         </section>
         <section class="panel">
           <h2>Controls</h2>

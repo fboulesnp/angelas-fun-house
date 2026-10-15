@@ -32,12 +32,17 @@ export function JournalScreen({ lessonId, go }: { lessonId?: LessonId; go(r: Rou
         <p class="lead">Lesson {l.number}: {l.lessonTitle}</p>
         {def && (
           <section class="panel">
-            <h2>Discoveries</h2>
-            <ul>
+            <h2>Discovery stickers</h2>
+            <div class="stickers" role="list">
               {def.missions.map((m, i) => (
-                <li>{pr.missions[i] ? <><strong>{m.title}:</strong> {m.discovery}</> : <em>{m.title} — not discovered yet</em>}</li>
+                <div role="listitem" class={pr.missions[i] ? 'sticker' : 'sticker empty'}>
+                  {pr.missions[i] ? <><div>★ {m.title}</div><p class="small-note">{m.discovery}</p></> : <><div>{m.title}</div><p class="small-note">Not discovered yet</p></>}
+                </div>
               ))}
-            </ul>
+              <div role="listitem" class={pr.wonderlight ? 'sticker' : 'sticker empty'}>
+                {pr.wonderlight ? <><div>✦ Wonderlight</div><p class="small-note">{def.finale.celebration}</p></> : <><div>Wonderlight</div><p class="small-note">Finish the finale</p></>}
+              </div>
+            </div>
           </section>
         )}
         {content && (
@@ -64,6 +69,7 @@ export function JournalScreen({ lessonId, go }: { lessonId?: LessonId; go(r: Rou
         <button class="btn ghost small" onClick={() => go({ name: 'title' })}>← Title</button>
         <h1>Journal</h1>
       </header>
+      <p class="lead">Discovery stickers collected: {LESSONS.reduce((n, l) => n + save.progress[l.id].missions.filter(Boolean).length, 0)} of 87 · Wonderlights: {LESSONS.filter((l) => save.progress[l.id].wonderlight).length} of 29</p>
       <ul class="room-list">
         {LESSONS.map((l) => {
           const pr = save.progress[l.id];

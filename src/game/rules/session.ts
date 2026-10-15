@@ -40,6 +40,8 @@ export interface SessionOptions {
   flipperWidth: number;
   completedMissions: boolean[];
   finaleDone: boolean;
+  /** Optional answer-lane mode: after answering in the panel, deliver it by making a lit shot. */
+  answerLanes?: boolean;
 }
 
 export interface QuestionRequest {
@@ -496,6 +498,11 @@ export class GameSession {
       const ins = this.rt.find(s.insert);
       if (ins) ins.lamp = useful.has(s.id) ? 'flash' : 'off';
     }
+    if (this.delivery) {
+      const sh = this.def.shots.find((s) => s.id === this.delivery!.shotId);
+      const ins = sh?.insert ? this.rt.find(sh.insert) : undefined;
+      if (ins) ins.lamp = 'pulse';
+    }
     const plan = r.lampPlan();
     for (const id of plan.on) {
       const m = this.rt.find(id);
@@ -527,6 +534,33 @@ export class GameSession {
       this.def.onProgress?.(this.rt, { slot: this.runner.slot, stage: this.runner.stageIdx, level: this.runner.level });
     } catch (e) {
       this.hooks.onError?.(`table onProgress failed: ${(e as Error).message}`);
+    }
+  }
+
+  /**
+   * Answer lanes: the answer was already chosen in the panel (that is the knowledge check).
+   * Delivering it to a lit shot is pure arcade skill: making it earns a bonus, missing it is
+   * only an aiming miss and never changes the learning record.
+   */
+  delivery: { shotId: string; label: string; until: number } | null = null;
+
+  private startDelivery() {
+    const options = this.def.shots.filter((s) => s.insert && !s.on.some((m) => m.type === 'saucer'));
+    if (!options.length) return;
+    const pick = options[Math.floor((this.rt.time * 7.3) % options.length)];
+    this.delivery = { shotId: pick.id, label: pick.label, until: this.rt.time + 30 };
+    this.callout({ text: 'Deliver your answer!', sub: `Shoot the ${pick.label} for a delivery bonus. Your answer already counts.`, tone: 'good', speaker: 'pip', seconds: 4 });
+  }
+
+  private checkDelivery(e: TableEvent) {
+    const d = this.delivery;
+    if (!d) return;
+    const shot = this.def.shots.find((s) => s.id === d.shotId);
+    if (shot && shotMade(shot, e)) {
+      this.delivery = null;
+      this.add(30000, e.x, e.y);
+      this.callout({ text: 'Answer delivered!', sub: '+30,000 aiming bonus', tone: 'big', speaker: 'pip' });
+      this.refreshLamps();
     }
   }
 
@@ -599,6 +633,7 @@ export class GameSession {
     if (this.state !== 'parked' && this.state !== 'paused') return;
     if (this.state === 'paused') this.pausedFrom = 'parked';
     const correct = outcomes.filter((o) => o.correct).length;
+    if (this.opts.answerLanes && outcomes.length) this.startDelivery();
     if (correct > 0) {
       this.add(SCORES.brightIdea * correct, pd.saucer.x, pd.saucer.y);
       const kb = this.rt.order.find((m) => m.kind === 'kickback' && m.lamp === 'off') as Kickback | undefined;
@@ -710,6 +745,11 @@ export class GameSession {
     this.energy = Math.max(0, this.energy - dt * 0.6);
     this.tiltMeter = Math.max(0, this.tiltMeter - dt * 0.12);
     if (this.rt.time > this.comboUntil) this.combo = 0;
+    if (this.delivery && this.rt.time > this.delivery.until) {
+      this.delivery = null;
+      this.callout({ text: 'Delivery window closed', sub: 'Only an aiming miss: your answer still counts.', tone: 'gentle' });
+      this.refreshLamps();
+    }
     if (this.skillShotUntil && this.rt.time > this.skillShotUntil && this.def.skillShot) {
       this.skillShotUntil = 0;
       const m = this.rt.find(this.def.skillShot);
@@ -724,6 +764,7 @@ export class GameSession {
       }
       this.scoreEvent(e);
       this.missionEvent(e);
+      this.checkDelivery(e);
       this.hooks.onEvent?.(e);
       if (e.type === 'saucer') this.onSaucer(e);
       if ((this.state as GameState) === 'parked') break;

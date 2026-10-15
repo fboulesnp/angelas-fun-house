@@ -8,6 +8,7 @@ import type { Route } from '../App.tsx';
 import { updateSave, useSave } from '../store.ts';
 import { DollhouseMap } from '../components/DollhouseMap.tsx';
 import { webglAvailable } from '../../game/render3d/stage.ts';
+import { OpeningStory } from '../components/HowToPlay.tsx';
 
 interface Props {
   mode: PlayMode;
@@ -25,17 +26,19 @@ const MODE_LABEL: Record<PlayMode, string> = {
 export function MansionScreen({ mode, initialView, go }: Props) {
   const save = useSave();
   const canMap = webglAvailable();
-  const [view, setView] = useState<'map' | 'list'>(initialView ?? (canMap ? 'map' : 'list'));
+  // Story opens on the dollhouse; chapter and free play open on the list they came from.
+  const [view, setView] = useState<'map' | 'list'>(initialView ?? (canMap && mode === 'story' ? 'map' : 'list'));
   const [practice, setPractice] = useState(false);
   const lit = LESSONS.filter((l) => save.progress[l.id].wonderlight).length;
   const suggested = LESSONS.find((l) => !save.progress[l.id].wonderlight)?.id ?? 'L01';
 
+  const [opening, setOpening] = useState(mode === 'story' && !save.introSeen);
+  const [intro, setIntro] = useState<string | null>(null);
   useEffect(() => {
-    if (mode !== 'story') return;
+    if (mode !== 'story' || opening) return;
     const wing = WINGS.find((w) => w.lessons.includes(suggested));
     if (wing && !save.wingIntrosSeen[wing.id]) setIntro(wing.id);
-  }, []);
-  const [intro, setIntro] = useState<string | null>(null);
+  }, [opening]);
 
   const open = (id: LessonId) => go({ name: 'play', lessonId: id, mode, practice });
 
@@ -100,6 +103,7 @@ export function MansionScreen({ mode, initialView, go }: Props) {
         </div>
       )}
 
+      {opening && <OpeningStory onClose={() => { updateSave((d) => void (d.introSeen = true), true); setOpening(false); }} />}
       {intro && (
         <div class="modal-backdrop">
           <div class="modal panel" role="dialog" aria-modal="true" aria-labelledby="wing-intro">

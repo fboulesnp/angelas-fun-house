@@ -12,9 +12,11 @@ interface Props {
   mode: SceneMode;
   onOpen?(id: LessonId): void;
   suggested?: LessonId;
+  /** Celebration tour of these rooms. */
+  parade?: { ids: LessonId[]; onRoom(id: LessonId, i: number): void; onDone(): void };
 }
 
-export function MansionView({ mode, onOpen, suggested }: Props) {
+export function MansionView({ mode, onOpen, suggested, parade }: Props) {
   const save = useSave();
   const wrap = useRef<HTMLDivElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
@@ -38,6 +40,7 @@ export function MansionView({ mode, onOpen, suggested }: Props) {
     }
     sceneRef.current = scene;
     scene.setMode(mode);
+    if (parade) scene.startParade(parade.ids, parade.onRoom, parade.onDone);
     const resize = () => {
       const r = wrap.current!.getBoundingClientRect();
       scene.resize(r.width, r.height);
@@ -99,7 +102,7 @@ export function MansionView({ mode, onOpen, suggested }: Props) {
   return (
     <div class={`mansion-view ${mode}`} ref={wrap}>
       <canvas ref={canvas} class="mansion-canvas" aria-hidden="true" />
-      {mode === 'map' && (
+      {mode === 'map' && !parade && (
         <>
           <div class="dollhouse-buttons" role="list" aria-label="Rooms of the Fun House">
             {rects.map((b) => {

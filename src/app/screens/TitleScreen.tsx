@@ -5,10 +5,13 @@ import { audio } from '../../game/audio/audio.ts';
 import { useSave } from '../store.ts';
 import { LESSONS } from '../../content/curriculum.ts';
 import { webglAvailable } from '../../game/render3d/stage.ts';
+import { useState } from 'preact/hooks';
+import { HowToPlay } from '../components/HowToPlay.tsx';
 
 export function TitleScreen({ go }: { go(r: Route): void }) {
   const save = useSave();
   const lit = LESSONS.filter((l) => save.progress[l.id].wonderlight).length;
+  const [howto, setHowto] = useState(false);
   const begin = (r: Route) => {
     audio.start();
     audio.setMusic('map');
@@ -34,12 +37,14 @@ export function TitleScreen({ go }: { go(r: Route): void }) {
           <button class="btn secondary" onClick={() => begin({ name: 'mansion', mode: 'free', view: 'list' })}>Free Play</button>
           <button class="btn secondary" onClick={() => begin({ name: 'explorer' })}>Science Explorer</button>
           <div class="title-row">
+            <button class="btn ghost small" onClick={() => setHowto(true)}>How to play</button>
             <button class="btn ghost small" onClick={() => go({ name: 'journal' })}>Journal</button>
             <button class="btn ghost small" onClick={() => go({ name: 'settings', back: { name: 'title' } })}>Settings</button>
           </div>
         </nav>
         <p class="title-progress">{lit} of 29 Wonderlights restored</p>
       </div>
+      {howto && <HowToPlay onClose={() => setHowto(false)} />}
     </main>
   );
 }

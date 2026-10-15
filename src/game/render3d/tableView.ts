@@ -27,6 +27,7 @@ interface Synced {
 }
 
 export interface TableViewOptions {
+  woodFinish?: { base: string; dark: string };
   reducedMotion: boolean;
   detail: number;
   shadows: boolean;
@@ -52,6 +53,7 @@ export class TableView {
     this.rt = rt;
     this.theme = def.theme;
     this.opts = opts;
+    if (opts.woodFinish) this.mats.woodFinish = opts.woodFinish;
     const pw = 1024;
     const ph = Math.round((pw * TABLE_H) / TABLE_W);
     this.printCanvas = document.createElement('canvas');

@@ -17,6 +17,8 @@ import type { TableDef } from '../../game/table/tableDef.ts';
 import { getSave, prefersReducedMotion, setSetting, updateSave, useSave } from '../store.ts';
 import { Angela, Quark, Speaker } from '../components/Characters.tsx';
 import { QuestionPanel, type PanelResult } from '../components/QuestionPanel.tsx';
+import { HowToPlay } from '../components/HowToPlay.tsx';
+import { trailFor, trimFor } from '../cosmetics.ts';
 import type { Question } from '../../content/schema.ts';
 
 interface Props {
@@ -81,6 +83,7 @@ export function GameScreen(p: Props) {
   const [paused, setPaused] = useState(false);
   const [gameOver, setGameOver] = useState(false);
   const [wonder, setWonder] = useState(false);
+  const [howto, setHowto] = useState(false);
   const [error, setError] = useState('');
   const [rendererKind, setRendererKind] = useState<'3d' | '2d'>('3d');
   const [quality, setQuality] = useState<Quality>('high');
@@ -132,6 +135,7 @@ export function GameScreen(p: Props) {
       autoFlip: settings.autoFlip,
       flipperWidth: settings.wideFlippers ? 1.35 : 1,
       completedMissions: isFree ? [] : prog.missions,
+      answerLanes: settings.answerLanes,
       finaleDone: isFree ? false : prog.wonderlight,
     }, {
       askQuestions: (req) =>
@@ -198,6 +202,9 @@ export function GameScreen(p: Props) {
         reducedMotion: reduced,
         trailLength: settings.trailLength,
         camera: settings.camera,
+        trailColor: trailFor(getSave()).color,
+        prismTrail: !!trailFor(getSave()).prism,
+        woodFinish: trimFor(getSave()),
       });
       (renderer as Renderer3D).stage.onQualityChange = (nq) => setQuality(nq);
       setRendererKind('3d');
@@ -495,6 +502,7 @@ export function GameScreen(p: Props) {
             </div>
             <div class="intro-actions">
               <button class="btn" onClick={togglePause} autofocus>Resume</button>
+              <button class="btn ghost" onClick={() => { if (inputRef.current) inputRef.current.active = false; setHowto(true); }}>How to play</button>
               <button class="btn ghost" onClick={p.onExit}>Exit to the mansion</button>
             </div>
             <p class="small-note">Your missions and discoveries are saved as you go.</p>
@@ -530,6 +538,7 @@ export function GameScreen(p: Props) {
           </div>
         </div>
       )}
+      {howto && <HowToPlay onClose={() => { setHowto(false); if (inputRef.current) inputRef.current.active = true; }} />}
       {error && <div class="error-toast" role="alert">{error}<button class="btn small" onClick={() => setError('')}>OK</button></div>}
     </main>
   );

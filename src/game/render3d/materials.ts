@@ -50,8 +50,12 @@ export class Materials {
     return this.get(`rubber:${color}`, () => new THREE.MeshStandardMaterial({ color, roughness: 0.82, metalness: 0 }));
   }
 
+  /** Cabinet wood finish (cosmetic trims change it). */
+  woodFinish: { base: string; dark: string } = { base: '#6b3f22', dark: '#3a2010' };
+
   wood(): THREE.MeshPhysicalMaterial {
-    return this.get('wood', () => new THREE.MeshPhysicalMaterial({ map: woodTexture(), roughness: 0.42, clearcoat: 0.9, clearcoatRoughness: 0.12 }));
+    const f = this.woodFinish;
+    return this.get(`wood:${f.base}`, () => new THREE.MeshPhysicalMaterial({ map: woodTexture(f.base, f.dark), roughness: 0.42, clearcoat: 0.9, clearcoatRoughness: 0.12 }));
   }
 
   dark(): THREE.MeshStandardMaterial {

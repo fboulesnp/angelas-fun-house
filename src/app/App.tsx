@@ -1,7 +1,7 @@
 // App shell: screen routing, global preferences on <html>, and adventure-level events
 // (wing celebrations, whole-house finale).
 
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useErrorBoundary, useState } from 'preact/hooks';
 import { LESSONS, WINGS, wingOf, type LessonId, type WingId } from '../content/curriculum.ts';
 import type { PlayMode } from '../game/rules/session.ts';
 import { audio } from '../game/audio/audio.ts';
@@ -27,10 +27,31 @@ function initialRoute(): Route {
   const q = new URLSearchParams(location.search);
   const t = q.get('table') as LessonId | null;
   if (t && LESSONS.some((l) => l.id === t)) return { name: 'play', lessonId: t, mode: 'chapter', practice: q.has('practice') };
+  const c = q.get('celebrate');
+  if (c === 'finale') return { name: 'celebrate', kind: 'finale', back: { name: 'title' } };
+  if (c && WINGS.some((w) => w.id === c)) return { name: 'celebrate', kind: 'wing', wing: c as WingId, back: { name: 'title' } };
   return { name: 'title' };
 }
 
+/** Friendly recovery instead of a blank screen if any screen throws. */
+function Recovery({ error, reset }: { error: Error; reset(): void }) {
+  return (
+    <main class="screen">
+      <div class="panel" role="alert" style={{ maxWidth: '640px', margin: '10vh auto' }}>
+        <h1>Oops — a Wonderlight flickered</h1>
+        <p>Something went wrong while showing this screen. Your saved missions and discoveries are safe.</p>
+        <p class="small-note">Details: {error.message}</p>
+        <div class="intro-actions">
+          <button class="btn" onClick={reset}>Back to the title</button>
+          <button class="btn ghost" onClick={() => location.reload()}>Reload the game</button>
+        </div>
+      </div>
+    </main>
+  );
+}
+
 export function App() {
+  const [error, resetError] = useErrorBoundary((e) => console.error('[AFH] screen error', e));
   const save = useSave();
   const [route, setRoute] = useState<Route>(initialRoute);
   const [notice, setNotice] = useState(startupNotice);
@@ -115,6 +136,9 @@ export function App() {
       break;
   }
 
+  if (error) {
+    return <Recovery error={error as Error} reset={() => { setRoute({ name: 'title' }); resetError(); }} />;
+  }
   return (
     <>
       {screen}
