@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'preact/hooks';
 import { LESSONS, LESSON_BY_ID, type LessonId } from '../../content/curriculum.ts';
 import { hasLessonContent, loadLesson, type LoadedLesson } from '../../content/loader.ts';
-import { TABLES } from '../../tables/index.ts';
+import { loadTable } from '../../tables/index.ts';
+import type { TableDef } from '../../game/table/tableDef.ts';
 import type { Route } from '../App.tsx';
 import { useSave } from '../store.ts';
 import { formula } from '../components/Diagram.tsx';
@@ -11,13 +12,15 @@ import { formula } from '../components/Diagram.tsx';
 export function JournalScreen({ lessonId, go }: { lessonId?: LessonId; go(r: Route): void }) {
   const save = useSave();
   const [content, setContent] = useState<LoadedLesson | null>(null);
+  const [def, setDef] = useState<TableDef | null>(null);
   useEffect(() => {
-    if (lessonId) loadLesson(lessonId).then(setContent).catch(() => setContent(null));
+    if (!lessonId) return;
+    loadLesson(lessonId).then(setContent).catch(() => setContent(null));
+    loadTable(lessonId).then(setDef);
   }, [lessonId]);
 
   if (lessonId) {
     const l = LESSON_BY_ID[lessonId];
-    const def = TABLES[lessonId];
     const pr = save.progress[lessonId];
     const bests = save.bests[lessonId] ?? [];
     return (

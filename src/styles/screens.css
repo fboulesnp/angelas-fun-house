@@ -1,17 +1,57 @@
 /* ---------------------------------------------------------------- title */
 
 .title-screen {
-  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: hidden;
+}
+.title-overlay {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  gap: 18px;
+  gap: 16px;
+  padding: 24px clamp(16px, 6vw, 90px);
+  background: linear-gradient(90deg, rgba(10, 6, 20, 0.82) 0%, rgba(10, 6, 20, 0.45) 38%, rgba(10, 6, 20, 0) 62%);
   text-align: center;
-  background:
-    radial-gradient(60% 40% at 50% 20%, rgba(255, 199, 91, 0.18), transparent 70%),
-    radial-gradient(80% 60% at 50% 110%, rgba(113, 227, 207, 0.12), transparent 70%);
+}
+.title-overlay > * {
+  width: min(440px, 100%);
+}
+.mansion-view {
+  position: absolute;
+  inset: 0;
+}
+.mansion-view.map {
+  position: relative;
+  flex: 1;
+  min-height: 62vh;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 199, 91, 0.2);
+}
+.mansion-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media (max-width: 760px), (orientation: portrait) {
+  .title-overlay {
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(0deg, rgba(10, 6, 20, 0.92) 0%, rgba(10, 6, 20, 0.6) 55%, rgba(10, 6, 20, 0) 85%);
+  }
 }
 .marquee {
   position: relative;
-  padding: clamp(20px, 4vw, 40px) clamp(24px, 6vw, 64px);
+  padding: clamp(16px, 3vw, 30px) clamp(18px, 4vw, 40px);
   border-radius: 28px;
   background: linear-gradient(180deg, #3b2466, #1d1236);
   box-shadow: 0 0 0 6px #ffc75b, 0 0 0 10px #7a4f12, 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 120px rgba(255, 199, 91, 0.25);
@@ -36,7 +76,7 @@
   }
 }
 .marquee-title {
-  font-size: clamp(2.6rem, 8vw, 5.6rem);
+  font-size: clamp(2.4rem, 5.4vw, 4.4rem);
   margin: 0;
   color: #fff7e7;
   text-shadow: 0 3px 0 #b3416b, 0 6px 0 #5a1f45, 0 0 30px rgba(255, 127, 134, 0.6);

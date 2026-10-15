@@ -161,6 +161,7 @@ export class GameSession {
     this.sceneryLevel = this.runner.level;
     this.serveBall();
     this.refreshLamps();
+    this.progressHook();
   }
 
   // ------------------------------------------------------------------ state machine
@@ -516,6 +517,19 @@ export class GameSession {
     }
   }
 
+  private lastProgressKey = '';
+  /** Let the table script react to mission/stage changes (diverters, portals, lamps). */
+  private progressHook() {
+    const key = `${this.runner.slot}:${this.runner.stageIdx}:${this.runner.level}`;
+    if (key === this.lastProgressKey) return;
+    this.lastProgressKey = key;
+    try {
+      this.def.onProgress?.(this.rt, { slot: this.runner.slot, stage: this.runner.stageIdx, level: this.runner.level });
+    } catch (e) {
+      this.hooks.onError?.(`table onProgress failed: ${(e as Error).message}`);
+    }
+  }
+
   /** Mechanism ids currently flashing (for the shot preview and Pip). */
   nextUsefulTargets(): Mechanism[] {
     return this.rt.order.filter((m) => m.lamp === 'flash' && m.kind !== 'kickback');
@@ -537,7 +551,10 @@ export class GameSession {
         this.hooks.onSound?.('pocketLit');
       }
     }
-    if (notes.length) this.refreshLamps();
+    if (notes.length) {
+      this.refreshLamps();
+      this.progressHook();
+    }
   }
 
   private onSaucer(e: TableEvent) {
@@ -606,6 +623,7 @@ export class GameSession {
     this.phrase = 0;
     this.hooks.onSound?.('resolve');
     this.refreshLamps();
+    this.progressHook();
     // Release the pocket ball once play resumes.
     this.pocketToRelease = pd.saucer;
   }

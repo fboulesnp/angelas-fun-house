@@ -5,8 +5,8 @@
   position: fixed;
   inset: 0;
   display: grid;
-  grid-template-columns: minmax(240px, 300px) 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
   grid-template-areas:
     'hud hud'
     'mission stage'
@@ -659,8 +659,8 @@
 
 @media (max-width: 860px), (orientation: portrait) {
   .game-screen {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
     grid-template-areas:
       'hud'
       'mission'
@@ -694,7 +694,39 @@
     font-size: 1rem;
   }
   .hud-value {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+  }
+  .game-hud {
+    gap: 6px;
+    padding: 4px 6px;
+  }
+  .game-hud .icon-btn {
+    width: 44px;
+    height: 44px;
+  }
+  .hud-score,
+  .hud-ball {
+    padding: 2px 8px;
+  }
+  .hud-label {
+    font-size: 0.62rem;
+  }
+  .launch-tip {
+    display: none;
+  }
+  .mission-card .chip {
+    margin-left: 4px;
+  }
+  .touch-btn {
+    min-height: 64px;
+  }
+}
+@media (max-width: 420px) {
+  .hud-attraction {
+    font-size: 0.92rem;
+  }
+  .mission-kicker {
+    display: none;
   }
 }
 @media (max-height: 520px) and (orientation: landscape) {

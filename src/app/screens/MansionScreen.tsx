@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { LESSONS, WINGS, type LessonId } from '../../content/curriculum.ts';
 import type { PlayMode } from '../../game/rules/session.ts';
-import { TABLES } from '../../tables/index.ts';
+import { hasTable } from '../../tables/index.ts';
 import type { Route } from '../App.tsx';
 import { updateSave, useSave } from '../store.ts';
 import { DollhouseMap } from '../components/DollhouseMap.tsx';
@@ -74,7 +74,7 @@ export function MansionScreen({ mode, initialView, go }: Props) {
                   {w.lessons.map((id) => {
                     const l = LESSONS.find((x) => x.id === id)!;
                     const pr = save.progress[id];
-                    const built = !!TABLES[id];
+                    const built = hasTable(id);
                     const done = pr.missions.filter(Boolean).length;
                     return (
                       <li>

@@ -37,7 +37,10 @@ export class CameraRig {
     const cam = this.camera;
     cam.fov = p.fov;
     cam.updateProjectionMatrix();
-    const el = THREE.MathUtils.degToRad(p.elevationDeg);
+    // Tall portrait screens are width-limited: view the table more face-on to fill the height.
+    const portrait = cam.aspect < 0.75;
+    const elevation = portrait && this.preset !== 'overhead' ? Math.max(p.elevationDeg, 66) : p.elevationDeg;
+    const el = THREE.MathUtils.degToRad(elevation);
     this.look.set(0, 0, p.lookZ);
     const dir = new THREE.Vector3(0, Math.sin(el), Math.cos(el));
     const hw = TW / 2 + 0.36 + this.margin;

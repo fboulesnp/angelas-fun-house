@@ -199,7 +199,8 @@ export class SetKit {
     const g = new THREE.Group() as THREE.Group & Lit;
     const glyphMat = this.track(new THREE.MeshStandardMaterial({ color: '#000000', emissive: color, emissiveMap: tex, emissiveIntensity: 0.06, alphaMap: tex, transparent: true, depthWrite: false }));
     const glyph = new THREE.Mesh(new THREE.PlaneGeometry(h * aspect, h), glyphMat);
-    glyph.position.z = 0.03;
+    glyph.position.z = 0.05;
+    glyph.renderOrder = 3;
     g.add(glyph);
     if (opts.backing !== false) {
       const back = new THREE.Mesh(new THREE.BoxGeometry(h * aspect * 0.92, h * 1.05, 0.06), this.mats.plastic('#1a1228'));

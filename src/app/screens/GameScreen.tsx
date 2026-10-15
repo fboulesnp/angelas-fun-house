@@ -12,7 +12,8 @@ import { Renderer3D, type TableRenderer } from '../../game/render3d/renderer3d.t
 import { detectQuality, webglAvailable, type Quality } from '../../game/render3d/stage.ts';
 import { GameSession, type Callout, type GameState, type PlayMode, type QuestionOutcome, type QuestionRequest } from '../../game/rules/session.ts';
 import { lessonBadgeEarned, recordResponse, selectQuestions } from '../../learning/engine.ts';
-import { TABLES } from '../../tables/index.ts';
+import { loadTable } from '../../tables/index.ts';
+import type { TableDef } from '../../game/table/tableDef.ts';
 import { getSave, prefersReducedMotion, setSetting, updateSave, useSave } from '../store.ts';
 import { Angela, Quark, Speaker } from '../components/Characters.tsx';
 import { QuestionPanel, type PanelResult } from '../components/QuestionPanel.tsx';
@@ -58,7 +59,7 @@ export function GameScreen(p: Props) {
   const save = useSave();
   const settings = save.settings;
   const lesson = LESSON_BY_ID[p.lessonId];
-  const def = TABLES[p.lessonId];
+  const [def, setDef] = useState<TableDef | null | undefined>(undefined);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const leftZone = useRef<HTMLDivElement>(null);
@@ -89,6 +90,7 @@ export function GameScreen(p: Props) {
   useEffect(() => {
     let alive = true;
     loadLesson(p.lessonId).then((c) => alive && setContent(c)).catch(() => alive && setContent(null));
+    loadTable(p.lessonId).then((d) => alive && setDef(d));
     updateSave((d) => {
       d.progress[p.lessonId].visited = true;
     });
@@ -274,10 +276,10 @@ export function GameScreen(p: Props) {
   // Test hooks: ?autostart skips the intro card; ?test exposes the session for scripted checks.
   useEffect(() => {
     const q = new URLSearchParams(location.search);
-    if (q.has('autostart') && phase === 'intro' && content !== undefined) start();
-  }, [content]);
+    if (q.has('autostart') && phase === 'intro' && content !== undefined && def) start();
+  }, [content, def]);
   useEffect(() => {
-    if (new URLSearchParams(location.search).has('test')) (window as unknown as { __afh: unknown }).__afh = { session: () => sessionRef.current, renderer: () => rendererRef.current };
+    if (new URLSearchParams(location.search).has('test')) (window as unknown as { __afh: unknown }).__afh = { session: () => sessionRef.current, renderer: () => rendererRef.current, loop: () => loopRef.current };
   });
 
   // Resize + teardown
@@ -330,6 +332,9 @@ export function GameScreen(p: Props) {
     }, true);
   };
 
+  if (def === undefined) {
+    return <main class="screen"><p role="status">Opening {lesson.attractionTitle}…</p></main>;
+  }
   if (!def) {
     return (
       <div class="screen">
@@ -341,7 +346,7 @@ export function GameScreen(p: Props) {
   const h = hud;
   const mission = h && h.slot < 3 ? def.missions[h.slot] : null;
   return (
-    <div class={`game-screen ${coarse ? 'touch' : ''}`} data-renderer={rendererKind}>
+    <main class={`game-screen ${coarse ? 'touch' : ''}`} data-renderer={rendererKind}>
       <header class="game-hud" aria-label="Game status">
         <button class="icon-btn" aria-label="Pause" onClick={togglePause} disabled={phase !== 'playing'}>
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
@@ -381,13 +386,13 @@ export function GameScreen(p: Props) {
             {h.saveActive && <span class="chip save-chip">Ball save on</span>}
             {h.multiball && <span class="chip">Multiball</span>}
             {h.ballInLane && h.state !== 'parked' && (
-              <p class="launch-tip">Hold <span class="kbd">{keyLabel(settings.bindings.plunger[0])}</span> then release to launch{coarse ? ', or tap Launch' : ''}.</p>
+              <p class="launch-tip">{coarse ? 'Tap Launch, or hold it and let go for a stronger plunge.' : <>Hold <span class="kbd">{keyLabel(settings.bindings.plunger[0])}</span> then release to launch.</>}</p>
             )}
           </>
         )}
       </aside>
 
-      <div class="stage" ref={stageRef} tabIndex={0} aria-label={`${lesson.attractionTitle} pinball table. Use ${keyLabel(settings.bindings.left[0])} and ${keyLabel(settings.bindings.right[0])} for flippers, hold ${keyLabel(settings.bindings.plunger[0])} to launch.`}>
+      <div class="stage" ref={stageRef} tabIndex={0} role="application" aria-roledescription="pinball table" aria-label={`${lesson.attractionTitle} pinball table. Use ${keyLabel(settings.bindings.left[0])} and ${keyLabel(settings.bindings.right[0])} for flippers, hold ${keyLabel(settings.bindings.plunger[0])} to launch.`}>
         <canvas ref={canvasRef} class="table-canvas" />
         <div class="touch-zone left" ref={leftZone} aria-hidden="true" />
         <div class="touch-zone right" ref={rightZone} aria-hidden="true" />
@@ -526,7 +531,7 @@ export function GameScreen(p: Props) {
         </div>
       )}
       {error && <div class="error-toast" role="alert">{error}<button class="btn small" onClick={() => setError('')}>OK</button></div>}
-    </div>
+    </main>
   );
 }
 

@@ -4,7 +4,7 @@
 import type { LessonId } from '../../content/curriculum.ts';
 import type { QuestionType } from '../../content/schema.ts';
 import type { TableBuilder } from './builder.ts';
-import type { TableEventType } from './runtime.ts';
+import type { TableEventType, TableRuntime } from './runtime.ts';
 import type { SceneryPainter } from '../render/sceneryTypes.ts';
 import type { IconPainter } from '../render/icons.ts';
 import type { RoomBuilder, SetBuilder } from '../render3d/setKit.ts';
@@ -138,4 +138,10 @@ export interface TableDef {
   set?: SetBuilder;
   /** Miniature vignette for this attraction's room in the dollhouse map. */
   room?: RoomBuilder;
+  /**
+   * Optional table script, called at start and whenever the mission/stage changes: switch
+   * diverters (`rt.get<Diverter>(id).set(0|1)`), enable portals/saucers, light lamps.
+   * Moving parts must stay safe: Diverter only moves when no ball is in its sweep.
+   */
+  onProgress?(rt: TableRuntime, info: { slot: number; stage: number; level: number }): void;
 }

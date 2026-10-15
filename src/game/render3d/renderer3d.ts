@@ -84,7 +84,7 @@ export class Renderer3D implements TableRenderer {
 
     this.table = new TableView(this.def, session.rt, { reducedMotion: settings.reducedMotion, detail: q.detail, shadows: q.shadows });
     scene.add(this.table.root);
-    this.balls = new BallView({ transmission: settings.quality === 'ultra' || settings.quality === 'high', trailColor: theme.trail, glowColor: theme.lampOn, maxLights: settings.quality === 'low' ? 0 : 2 });
+    this.balls = new BallView({ transmission: settings.quality === 'ultra', trailColor: theme.trail, glowColor: theme.lampOn, maxLights: settings.quality === 'low' ? 0 : 2 });
     this.balls.trailLength = settings.trailLength;
     this.balls.reducedMotion = settings.reducedMotion;
     scene.add(this.balls.root);
