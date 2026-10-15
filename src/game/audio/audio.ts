@@ -49,6 +49,19 @@ const PHRASE = [0, 2, 4, 7, 9, 12, 14, 16, 19, 21, 24, 26, 28];
 
 const midi = (m: number) => 440 * Math.pow(2, (m - 69) / 12);
 
+// Attraction identity inside a wing theme (index by lesson number). A rest is -1.
+const MOTIFS: number[][] = [
+  [0, 2, 4, 2, 5, 4, 2, 1],
+  [4, -1, 2, 3, 4, -1, 7, 5],
+  [0, 4, 7, 4, 2, -1, 1, 2],
+  [7, 5, 4, 2, 4, -1, 0, -1],
+  [2, -1, 2, 4, 5, 4, 2, -1],
+  [0, 1, 2, 4, -1, 4, 5, 7],
+  [5, 4, -1, 2, 0, 2, 4, -1],
+];
+const TRANSPOSE = [0, 2, -3, 5, -2, 3, -5];
+const CHIMES: number[][] = [[0, 3, 6], [2, 7], [1, 4, 5], [0, 5], [3, 7], [6]];
+
 export class AudioEngine {
   private ctx: AudioContext | null = null;
   private master!: GainNode;
@@ -68,7 +81,6 @@ export class AudioEngine {
   private beat = 0;
   /** 0..1 musical intensity (layers added with progress). */
   intensity = 0.3;
-  private motifSeed = 0;
   private suspended = false;
 
   get started() {
@@ -334,9 +346,16 @@ export class AudioEngine {
 
   // ------------------------------------------------------------------ music
 
+  /** Per-attraction identity inside its wing theme: key, motif shape and a chime layer. */
+  private transpose = 0;
+  private motif: number[] = MOTIFS[0];
+  private chime: number[] = [];
+
   setMusic(theme: WingTheme | null, seed = 0) {
     this.theme = theme;
-    this.motifSeed = seed;
+    this.transpose = seed ? TRANSPOSE[seed % TRANSPOSE.length] : 0;
+    this.motif = MOTIFS[seed % MOTIFS.length];
+    this.chime = seed ? CHIMES[Math.floor(seed / MOTIFS.length) % CHIMES.length] : [];
     if (!this.ctx) return;
     window.clearInterval(this.seqTimer);
     if (!theme) return;
@@ -361,7 +380,7 @@ export class AudioEngine {
     const n = th.scale.length;
     const o = Math.floor(degree / n);
     const d = ((degree % n) + n) % n;
-    return th.root + th.scale[d] + 12 * (o + octave);
+    return th.root + this.transpose + th.scale[d] + 12 * (o + octave);
   }
 
   private playBeat(th: MusicTheme, beat: number, when: number) {
@@ -375,11 +394,13 @@ export class AudioEngine {
     if (b8 % 4 === 0) this.tone(midi(this.note(th, chord[0], -1)), 0.5, { type: 'triangle', gain: 0.12, when, bus, filter: 600 });
     // Plucked arpeggio as intensity grows
     if (this.intensity > 0.35 && b8 % 2 === 1) this.tone(midi(this.note(th, chord[(b8 >> 1) % 3], 1)), 0.25, { type: 'triangle', gain: 0.035, when, bus });
-    // Lead motif (seeded per attraction) at higher intensity
+    // The attraction's own chime figure, high and soft, once play has warmed up
+    if (this.intensity > 0.2 && this.chime.includes(b8)) this.tone(midi(this.note(th, chord[(b8 + bar) % 3], 2)), 0.3, { type: 'sine', gain: 0.02, when, bus });
+    // Lead motif (shape chosen per attraction) at higher intensity
     if (this.intensity > 0.6) {
-      const motif = [0, 2, 4, 2, 5, 4, 2, 1];
-      const k = (b8 + this.motifSeed) % motif.length;
-      if ((b8 + this.motifSeed) % 3 !== 2) this.tone(midi(this.note(th, chord[0] + motif[k], 1)), 0.22, { type: th.lead, gain: 0.025, when, bus, filter: 2400 });
+      const motif = this.motif;
+      const k = (b8 + bar * 2) % motif.length;
+      if (motif[k] >= 0) this.tone(midi(this.note(th, chord[0] + motif[k], 1)), 0.22, { type: th.lead, gain: 0.025, when, bus, filter: 2400 });
     }
     // Soft percussion
     if (b8 % 4 === 2) this.noiseBurst(0.05, { freq: 6000, gain: 0.015 * (0.5 + this.intensity), when, type: 'highpass' });

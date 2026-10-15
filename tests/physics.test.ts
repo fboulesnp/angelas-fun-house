@@ -174,18 +174,19 @@ describe('layers, ramps and portals', () => {
     const ball = rt.world.addBall(300, 460);
     ball.state = 'live';
     ball.vy = 300;
+    const state = (): string => ball.state;
     let events = 0;
     let transitSeen = false;
-    for (let i = 0; i < 120 && ball.state !== 'transit'; i++) {
+    for (let i = 0; i < 120 && state() !== 'transit'; i++) {
       rt.step(1 / 120);
       events += rt.drainEvents().filter((e) => e.type === 'portal').length;
     }
     expect(ball.state).toBe('transit');
     for (let i = 0; i < 120 * 2; i++) {
       rt.step(1 / 120);
-      if (ball.state === 'transit') transitSeen = true;
+      if (state() === 'transit') transitSeen = true;
       events += rt.drainEvents().filter((e) => e.type === 'portal').length;
-      if (ball.state === 'live') break;
+      if (state() === 'live') break;
     }
     expect(transitSeen).toBe(true);
     expect(events).toBe(1);
