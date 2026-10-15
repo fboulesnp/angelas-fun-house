@@ -1,6 +1,16 @@
 # Build status — Angela's Fun House
 
-_Last updated: 2026-10-14 22:40 (in progress). This file is the resume point if work is interrupted._
+_Last updated: 2026-10-15 13:40 (in progress). This file is the resume point if work is interrupted._
+
+**Resume point (2026-10-15):** both workflows hit the account session limit on 2026-10-14 and were
+resumed on 2026-10-15 from their journals (completed agents replay from cache):
+
+- Content: run `wf_bd7e9274-73c` (script `afh-content-banks`, args in the session scratchpad
+  `content-args.json`). All 29 lessons are authored; L01/L06/L13 are reviewed; the other 26 are in
+  science/pedagogy review → revise → verify.
+- Tables: run `wf_7a38e426-cf1` (script `afh-tables`). L02–L10, L12, L14, L15 are built (table-check
+  PASS) and in review; L11, L13, L16–L29 are being built.
+- The shared dev server runs with `AFH_NO_HMR=1` so screenshots aren't interrupted by reloads.
 
 ## Milestones
 
@@ -64,6 +74,20 @@ Columns: content (reviewed questions / validator), table (table-check), manual r
 - How-to-play, opening story, answer lanes, cosmetics (trails, trims, sticker album), error boundary.
 - Tests: 30 Vitest behaviour tests (mutation-checked); keyboard e2e 20/20; axe 0 violations on
   8 screens; audio runtime check passes; production build OK (three.js split into its own chunk).
+
+## Fixed on 2026-10-15 (verified)
+
+- Tab hide paused and immediately un-paused the game (two handlers toggled pause); now pauses once.
+- Mission lamps from a finished collect stage stayed lit; they now go dark (new unit test).
+- L01's kickback fired into the left orbit's exit deflector and drained (5/15 saves in a probe);
+  the deflector is now a one-way gate (15/15). L01 table-check still PASS, fewer drains.
+- Celebration camera now pulls back to reveal the awakened set; camera update no longer allocates.
+- Set animations freeze while paused; string lights are instanced (one draw call per colour).
+- Explorer shows each lesson's key words and textbook sections; each attraction has its own key,
+  motif and chime layer inside its wing theme.
+- e2e now also covers resize mid-game, tab hide, camera change from Pause, and a Wonder Pocket
+  question answered by keyboard with the save surviving a reload (28/28 PASS).
+- Tests: 34 unit/behaviour tests (added ramp layer return, portal transit/exit/save, lamp reset).
 
 ## Next actions
 

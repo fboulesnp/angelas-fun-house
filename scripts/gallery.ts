@@ -76,6 +76,29 @@ await p.waitForTimeout(900);
 await shot(p, '04-question-panel');
 await p.close();
 
+// The same panel during play: L01 mission 1 completed by test events, ball captured in the pocket.
+p = await ctxPage(1600, 1000);
+await p.goto(`${base}/?table=L01&autostart&test`, { waitUntil: 'networkidle' });
+await p.waitForFunction(() => !!(window as unknown as { __afh?: { session(): unknown } }).__afh?.session(), null, { timeout: 30000 });
+await p.waitForTimeout(3000);
+await p.keyboard.down('Space');
+await p.waitForTimeout(500);
+await p.keyboard.up('Space');
+await p.waitForTimeout(900);
+await p.evaluate(async () => {
+  type S = { rt: { emit(e: object): void; world: { balls: { state: string }[] }; get(id: string): { capture(b: unknown): void } } };
+  const s = (window as unknown as { __afh: { session(): S } }).__afh.session();
+  for (let i = 0; i < 8; i++) s.rt.emit({ type: 'bumper', id: 'bumper_he', group: 'elements', x: 0, y: 0 });
+  s.rt.emit({ type: 'target', id: 'matter_target', group: 'sort', x: 0, y: 0 });
+  s.rt.emit({ type: 'target', id: 'nonmatter_target', group: 'sort', x: 0, y: 0 });
+  await new Promise((r) => setTimeout(r, 300));
+  const b = s.rt.world.balls.find((x) => x.state === 'live');
+  if (b) s.rt.get('microscope').capture(b);
+});
+await p.waitForTimeout(1500);
+await shot(p, '04b-wonder-pocket-question-in-play');
+await p.close();
+
 p = await ctxPage(390, 844, true);
 await p.goto(`${base}/?table=L01&autostart&test`, { waitUntil: 'networkidle' });
 await p.waitForTimeout(4500);
