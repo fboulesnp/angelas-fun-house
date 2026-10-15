@@ -240,15 +240,24 @@ export class SetKit {
     }
     g.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 40, 0.008, 4), this.mats.dark()));
     const bulbs: THREE.MeshStandardMaterial[] = colors.map((c) => this.track(new THREE.MeshStandardMaterial({ color: '#221a2a', emissive: c, emissiveIntensity: 0.05 })));
-    const geo = new THREE.SphereGeometry(0.05, 10, 8);
-    for (let i = 0; i < count; i++) {
-      const u = (i + 0.5) / count;
-      const p = a.clone().lerp(b, u);
-      p.y -= Math.sin(u * Math.PI) * sag + 0.06;
-      const m = new THREE.Mesh(geo, bulbs[i % bulbs.length]);
-      m.position.copy(p);
-      g.add(m);
-    }
+    const geo = this.track(new THREE.SphereGeometry(0.05, 10, 8));
+    // One instanced mesh per bulb colour keeps a long strand to a handful of draw calls.
+    const m4 = new THREE.Matrix4();
+    bulbs.forEach((mat, k) => {
+      const n = Math.ceil((count - k) / bulbs.length);
+      if (n <= 0) return;
+      const inst = new THREE.InstancedMesh(geo, mat, n);
+      let j = 0;
+      for (let i = k; i < count; i += bulbs.length) {
+        const u = (i + 0.5) / count;
+        const p = a.clone().lerp(b, u);
+        p.y -= Math.sin(u * Math.PI) * sag + 0.06;
+        inst.setMatrixAt(j++, m4.makeTranslation(p.x, p.y, p.z));
+      }
+      inst.instanceMatrix.needsUpdate = true;
+      inst.computeBoundingSphere();
+      g.add(inst);
+    });
     g.setLit = (v) => bulbs.forEach((m) => (m.emissiveIntensity = 0.05 + v * 3.5));
     return this.add(g);
   }

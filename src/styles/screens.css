@@ -403,6 +403,14 @@
 .glossary dd {
   margin: 2px 0 0;
 }
+.key-words {
+  margin-top: 12px;
+}
+.key-words summary {
+  cursor: pointer;
+  font-weight: 800;
+  padding: 11px 0;
+}
 
 .celebration {
   align-items: center;

@@ -32,8 +32,22 @@ for (const q of qualities) {
     });
     times.sort((a, b) => a - b);
     const avg = times.reduce((a, b) => a + b, 0) / times.length;
-    const stage = (window as unknown as { __afh: { renderer(): { stage?: { quality: string; renderer: { info: { render: { calls: number; triangles: number } } } } } } }).__afh.renderer().stage;
-    return { avgMs: avg, p95: times[Math.floor(times.length * 0.95)], quality: stage?.quality, calls: stage?.renderer.info.render.calls, tris: stage?.renderer.info.render.triangles };
+    type Info = { autoReset: boolean; reset(): void; render: { calls: number; triangles: number } };
+    const stage = (window as unknown as { __afh: { renderer(): { stage?: { quality: string; renderer: { info: Info } } } } }).__afh.renderer().stage;
+    // The composer renders several passes per frame; count the whole frame, not the last pass.
+    let calls = 0;
+    let tris = 0;
+    if (stage) {
+      const info = stage.renderer.info;
+      info.autoReset = false;
+      await new Promise((res) => requestAnimationFrame(res));
+      info.reset();
+      await new Promise((res) => requestAnimationFrame(res));
+      calls = info.render.calls;
+      tris = info.render.triangles;
+      info.autoReset = true;
+    }
+    return { avgMs: avg, p95: times[Math.floor(times.length * 0.95)], quality: stage?.quality, calls, tris };
   });
   console.log(`${table} ${q}: avg ${r.avgMs.toFixed(1)} ms (${(1000 / r.avgMs).toFixed(0)} fps), p95 ${r.p95.toFixed(1)} ms, active tier ${r.quality}, draw calls ${r.calls}, triangles ${r.tris}`);
   await ctx.close();

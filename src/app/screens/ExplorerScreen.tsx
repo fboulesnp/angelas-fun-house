@@ -84,6 +84,24 @@ export function ExplorerScreen({ lessonId, go }: { lessonId?: LessonId; go(r: Ro
       <section class="panel">
         <h2>Big ideas</h2>
         <ul>{content.lesson.keyIdeas.map((k) => <li>{formula(k)}</li>)}</ul>
+        {content.lesson.glossary.length > 0 && (
+          <details class="key-words">
+            <summary>Key words ({content.lesson.glossary.length})</summary>
+            <dl class="glossary">
+              {content.lesson.glossary.map((g) => (<><dt>{g.term}</dt><dd>{formula(g.definition)}</dd></>))}
+            </dl>
+          </details>
+        )}
+        {content.lesson.sections.length > 0 && (
+          <details class="key-words">
+            <summary>Where this is in your textbook</summary>
+            <ul class="section-list">
+              {content.lesson.sections.map((sec) => (
+                <li>{sec.title} <span class="source-note">p. {sec.pages.printed.join('–')}</span></li>
+              ))}
+            </ul>
+          </details>
+        )}
       </section>
       {content.lesson.objectives.map((o) => {
         const card = content.lesson.explorer.find((c) => c.objectiveId === o.id);
