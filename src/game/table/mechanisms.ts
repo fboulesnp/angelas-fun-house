@@ -628,7 +628,14 @@ export class Diverter extends Mechanism {
     super.update(dt);
     if (this.pending === null) return;
     const sweepR = this.length + BALL_R + 6;
-    const blocked = this.rt.world.balls.some((b) => b.state !== 'drained' && b.layer === this.layer && Math.hypot(b.x - this.px, b.y - this.py) < sweepR);
+    // Plain loop: this runs every step while a switch is pending, so no closure per frame.
+    let blocked = false;
+    for (const b of this.rt.world.balls) {
+      if (b.state !== 'drained' && b.layer === this.layer && Math.hypot(b.x - this.px, b.y - this.py) < sweepR) {
+        blocked = true;
+        break;
+      }
+    }
     if (blocked) return;
     this.position = this.pending;
     this.pending = null;

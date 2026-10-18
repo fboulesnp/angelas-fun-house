@@ -81,7 +81,7 @@ export class TableView {
       roughness: 0.5,
       metalness: 0,
       clearcoat: 0.85,
-      clearcoatRoughness: 0.14,
+      clearcoatRoughness: 0.2,
       envMapIntensity: 0.8,
     });
     this.playfield = new THREE.Mesh(geo, mat);
@@ -213,9 +213,11 @@ export class TableView {
   /** Warm general illumination under the plastics (skipped on the lowest tier). */
   private buildGI() {
     if (this.opts.detail < 0.5) return;
-    const spots: [number, number, number][] = [[140, 260, 1.1], [440, 260, 1.1], [120, 760, 0.9], [452, 760, 0.9], [286, 560, 1.0]];
+    // Warm fill from well above the lacquer: close point lights print tight specular dots on
+    // the clearcoat that read like extra balls, so these sit high with a wide reach instead.
+    const spots: [number, number, number][] = [[140, 260, 2.4], [440, 260, 2.4], [120, 760, 2.2], [452, 760, 2.2], [286, 560, 2.3]];
     for (const [x, y, h] of spots) {
-      const l = new THREE.PointLight('#ffd7a3', 1.1, 4.5, 2);
+      const l = new THREE.PointLight('#ffd7a3', 2.6, 7.5, 2);
       l.position.set(wx(x), h, wz(y));
       this.root.add(l);
     }

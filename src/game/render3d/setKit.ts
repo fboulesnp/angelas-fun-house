@@ -668,6 +668,8 @@ export class SetKit {
     const bursts = 4;
     const per = Math.floor(n / bursts);
     const r = rng(77);
+    // Parsed once: the animate loop below runs every frame and must not allocate.
+    const palette = colors.map((c) => new THREE.Color(c));
     const dirs = Array.from({ length: n }, () => {
       const u = r() * 2 - 1;
       const th = r() * Math.PI * 2;
@@ -682,7 +684,7 @@ export class SetKit {
         const seed = Math.floor(t * 0.4 + b / bursts) * 13 + b;
         const cx = area.x0 + ((seed * 0.37) % 1) * (area.x1 - area.x0);
         const cy = area.y0 + ((seed * 0.61) % 1) * (area.y1 - area.y0);
-        const c = new THREE.Color(colors[(seed + b) % colors.length]);
+        const c = palette[(seed + b) % palette.length];
         for (let i = b * per; i < (b + 1) * per; i++) {
           const d = dirs[i];
           const rad = cyc * 2.2;
