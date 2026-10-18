@@ -1,18 +1,13 @@
 # Build status — Angela's Fun House
 
-_Last updated: 2026-10-17 22:10 (in progress). This file is the resume point if work is interrupted._
+_Last updated: 2026-10-18 03:55. **Build complete.** This file stays the resume point for any follow-up work._
 
-**Resume point (2026-10-17 22:10):** the account hit its weekly limit on 2026-10-15; work resumed
-after the reset.
-
-- Content: run `wf_bd7e9274-73c` (script `afh-content-banks`, args in the session scratchpad
-  `content-args.json`) resumed. All 26 remaining lessons have science + pedagogy reviews; 13 are
-  revised; final verification (the only step that marks questions `reviewed`) is running.
-- Tables: the original `afh-tables` run is retired. All 23 completed builds were kept. A new run
-  `wf_efca48d9-78e` (script `afh-tables-finish`, args `tables-finish-args.json`) finishes the five
-  interrupted drafts (L13, L26–L29) and gives all 28 agent-built tables one independent
-  review-and-fix pass. Final verification is scripted (`check-all-tables.ts`, gallery), not agents.
-- The shared dev server runs with `AFH_NO_HMR=1` so screenshots aren't interrupted by reloads.
+**State (2026-10-18):** every milestone below is done and committed. `npm run check` passes
+(TypeScript, content validator 844 reviewed / 0 errors, 72 tests, 29/29 tables), `npm run build`
+produces `dist/`, and the handoff documents are in `docs/` (`playtest-notes.md`,
+`validation-report.md`, `content-review.md`, `manual-review.json`, `asset-ledger.md`) with the
+gallery in `screenshots/`. The workflow runs that produced content and tables are finished; nothing
+is left queued. The dev server used for the checks may still be running on http://localhost:5199.
 
 ## Milestones
 
@@ -22,8 +17,8 @@ after the reset.
 | 2 | Vertical slice: L01 Neon Atom Midway (physics, missions, questions, audio, saving, 3D) | Done — passes table-check (4 seeds × 20 min) |
 | 3 | Architecture stress check (cycle table + ecosystem table) | Done — L07 Planet Carousel and L06 Food-Web Forest built, reviewed, passing |
 | 4 | Full game: 29 tables, 696+ questions, mansion map, journal, explorer, celebrations | Done — 29/29 tables pass table-check (3 × 20-min soaks, 0 warnings), every table reviewed; 844 reviewed questions |
-| 5 | Quality pass (every chapter, desktop/mobile, a11y, perf, audio) | In progress — e2e 28/28, axe 0 violations, kickback sweep, hands-on first-minute sessions running |
-| 6 | Handoff (README, reports, screenshots) | Pending |
+| 5 | Quality pass (every chapter, desktop/mobile, a11y, perf, audio) | Done — every table reviewed + 20-min soaks; e2e 28/28; axe 0 violations; classify radiogroup keyboard fix; kickback + saucer-loop probes; hands-on first-minute sessions on all 29 (0 page errors); frame times measured; audio runtime check |
+| 6 | Handoff (README, reports, screenshots) | Done — README, playtest notes, validation report, content review record, asset ledger, 25 screenshots, production build |
 
 ## How work is produced
 
@@ -95,9 +90,13 @@ Columns: content (reviewed questions / validator), table (table-check), manual r
   fireworks/diverter per-frame allocations removed; warm fill lights no longer print ball-like dots;
   map first-frame dt clamped; celebration progress clamped to 0..1.
 
-## Next actions
+## Next actions (for a person)
 
-1. When the workflows finish: run `npm run check`, `node scripts/table-check.ts` for all 29,
-   fix stragglers, assemble `docs/content-review.md`.
-2. Quality pass: play each table in the browser, mobile layout, keyboard-only pass, perf.
-3. Screenshots + README + validation report.
+1. Play the first minute of a few tables (L01, L13, L17, L29 are good contrasts) and note what
+   feels unfair or unclear; everything so far was AI-driven.
+2. Have a teacher spot-check `docs/content-review.md`, starting with the "Source review flags"
+   table, before classroom use.
+3. Open `dist/` (or `npm run dev`) on a real phone or tablet and in Safari; the Medium/Low
+   graphics tiers were built for that but never measured on a device.
+4. If anything is changed: `npm run check`, then `node scripts/report.ts` and
+   `node scripts/first-minute.ts` to regenerate the records.
