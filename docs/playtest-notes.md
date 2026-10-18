@@ -28,8 +28,9 @@ has taken place yet._
 - Viewports exercised: 1600×1000 and 1400×900 (desktop), 820×1100 (resize mid-game),
   390×844 with a mobile user agent and touch (portrait layout, 3× pixel ratio).
 - Not tested: any physical phone or tablet, Safari, Firefox, Windows, a screen reader, a
-  gamepad (the gamepad code path is untested), or a child playing. The 2D fallback renderer
-  was only checked by screenshot (`scripts/shot2d.ts`), not played.
+  gamepad (the gamepad code path is untested), or a child playing. The 2D fallback renderer was played
+  by the same scripted first-minute session on L01 (`--renderer 2d`) and screenshotted on
+  others (`scripts/shot2d.ts`); it has not had its own full pass.
 
 ## Performance (measured)
 
