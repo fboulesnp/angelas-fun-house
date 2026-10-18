@@ -1,15 +1,17 @@
 # Build status — Angela's Fun House
 
-_Last updated: 2026-10-15 13:40 (in progress). This file is the resume point if work is interrupted._
+_Last updated: 2026-10-17 22:10 (in progress). This file is the resume point if work is interrupted._
 
-**Resume point (2026-10-15):** both workflows hit the account session limit on 2026-10-14 and were
-resumed on 2026-10-15 from their journals (completed agents replay from cache):
+**Resume point (2026-10-17 22:10):** the account hit its weekly limit on 2026-10-15; work resumed
+after the reset.
 
 - Content: run `wf_bd7e9274-73c` (script `afh-content-banks`, args in the session scratchpad
-  `content-args.json`). All 29 lessons are authored; L01/L06/L13 are reviewed; the other 26 are in
-  science/pedagogy review → revise → verify.
-- Tables: run `wf_7a38e426-cf1` (script `afh-tables`). L02–L10, L12, L14, L15 are built (table-check
-  PASS) and in review; L11, L13, L16–L29 are being built.
+  `content-args.json`) resumed. All 26 remaining lessons have science + pedagogy reviews; 13 are
+  revised; final verification (the only step that marks questions `reviewed`) is running.
+- Tables: the original `afh-tables` run is retired. All 23 completed builds were kept. A new run
+  `wf_efca48d9-78e` (script `afh-tables-finish`, args `tables-finish-args.json`) finishes the five
+  interrupted drafts (L13, L26–L29) and gives all 28 agent-built tables one independent
+  review-and-fix pass. Final verification is scripted (`check-all-tables.ts`, gallery), not agents.
 - The shared dev server runs with `AFH_NO_HMR=1` so screenshots aren't interrupted by reloads.
 
 ## Milestones
