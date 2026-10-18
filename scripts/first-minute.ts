@@ -64,14 +64,17 @@ for (const id of ids) {
   let drains = 0;
   let lastBall = 1;
   const lastFlip = { left: 0, right: 0 };
+  let parkedNow = false;
   while (Date.now() - t0 < seconds * 1000) {
     const s = await snap();
     maxScore = Math.max(maxScore, s.score);
     if (s.ball !== lastBall) { drains++; lastBall = s.ball; }
     if (s.state === 'parked') {
-      // A discovery question: answer it by keyboard like the e2e does, then continue.
-      questionsSeen++;
-      for (let i = 0; i < 30; i++) {
+      // A discovery question: answer it by keyboard like the e2e does, then continue. A classify
+      // question can have 30+ tab stops, so the budget is generous; one park = one question.
+      if (!parkedNow) questionsSeen++;
+      parkedNow = true;
+      for (let i = 0; i < 90; i++) {
         await page.keyboard.press('Tab');
         const info = await page.evaluate(() => { const el = document.activeElement as HTMLInputElement | null; return { tag: el?.tagName, type: el?.type, text: el?.innerText ?? '', role: el?.getAttribute('role'), disabled: (el as HTMLButtonElement | null)?.disabled }; });
         if (info.tag === 'INPUT' && (info.type === 'radio' || info.type === 'checkbox')) await page.keyboard.press('Space');
@@ -90,6 +93,7 @@ for (const id of ids) {
       await page.locator('.stage').focus();
       continue;
     }
+    if (s.state !== 'parked') parkedNow = false;
     if (s.state === 'gameover') break;
     if (s.state === 'ready' || (s.balls.length && s.balls.every((b) => b.state === 'shooter'))) {
       await page.waitForTimeout(400);
