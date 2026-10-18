@@ -12,6 +12,9 @@ const secIdx = argv.indexOf('--seconds');
 const seconds = secIdx >= 0 ? Number(argv[secIdx + 1]) : 75;
 const ids = (argv.filter((a) => /^L\d\d$/.test(a)).length ? argv.filter((a) => /^L\d\d$/.test(a)) : tableIds()) as LessonId[];
 const base = process.env.AFH_URL ?? 'http://localhost:5199';
+// --renderer 2d plays the same session on the 2D fallback renderer (entries are keyed "Lnn-2d").
+const rIdx = argv.indexOf('--renderer');
+const renderer = rIdx >= 0 ? argv[rIdx + 1] : '3d';
 const out = 'docs/manual-review.json';
 const notes: Record<string, string> = existsSync(out) ? JSON.parse(readFileSync(out, 'utf8')) : {};
 
@@ -24,6 +27,7 @@ const browser = await chromium.launch({ executablePath: '/Applications/Google Ch
 
 for (const id of ids) {
   const ctx = await browser.newContext({ viewport: { width: 1600, height: 1000 } });
+  if (renderer === '2d') await ctx.addInitScript(() => localStorage.setItem('angelas-fun-house.save', JSON.stringify({ version: 2, settings: { renderer: '2d' } })));
   const page = await ctx.newPage();
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -111,13 +115,14 @@ for (const id of ids) {
     }
   }
   const end = await snap();
-  await page.screenshot({ path: `screenshots/tmp/${id}-first-minute.png` });
+  await page.screenshot({ path: `screenshots/tmp/${id}-first-minute${renderer === '2d' ? '-2d' : ''}.png` });
   const l = LESSON_BY_ID[id];
   const ev = Object.entries(end.events).filter(([k]) => !['wall', 'drain'].includes(k)).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => `${k} ${v}`).join(', ');
   const firstCallouts = end.callouts.slice(0, 4).map((c) => `"${c}"`).join(', ');
   const stageText = end.missions.filter(Boolean).length ? `${end.missions.filter(Boolean).length} mission(s) completed` : `reached mission ${end.slot + 1}, stage ${end.stage + 1}`;
-  notes[id] = `AI-driven browser session (${seconds} s of real keyboard play in Chrome, ${new Date().toISOString().slice(0, 10)}), not a human playtest. ${l.attractionTitle}: ${launches} launch(es), ${drains} ball(s) lost, score ${maxScore.toLocaleString()}, ${stageText}, ${questionsSeen} question(s) answered; scenery level ${end.level.toFixed(1)}. Contacts: ${ev || 'none'}. First callouts: ${firstCallouts || 'none'}. ${errors.length ? 'PAGE ERRORS: ' + errors.slice(0, 2).join(' | ') : 'No page errors.'}`;
-  console.log(`${id}: ${notes[id]}`);
+  const key = renderer === '2d' ? `${id}-2d` : id;
+  notes[key] = `AI-driven browser session (${seconds} s of real keyboard play in Chrome${renderer === '2d' ? ', 2D fallback renderer' : ''}, ${new Date().toISOString().slice(0, 10)}), not a human playtest. ${l.attractionTitle}: ${launches} launch(es), ${drains} ball(s) lost, score ${maxScore.toLocaleString()}, ${stageText}, ${questionsSeen} question(s) answered; scenery level ${end.level.toFixed(1)}. Contacts: ${ev || 'none'}. First callouts: ${firstCallouts || 'none'}. ${errors.length ? 'PAGE ERRORS: ' + errors.slice(0, 2).join(' | ') : 'No page errors.'}`;
+  console.log(`${key}: ${notes[key]}`);
   await ctx.close();
 }
 writeFileSync(out, JSON.stringify(notes, null, 2) + '\n');
