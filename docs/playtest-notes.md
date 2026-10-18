@@ -38,7 +38,18 @@ RESULTS_PERF
 
 ## Results summary
 
-RESULTS_SUMMARY
+| Area | Result (2026-10-18) |
+|---|---|
+| Lessons and questions | 29 lesson files; **844 reviewed questions** in play (24–32 per lesson; requirement 696 / 24). Validator: 0 errors, 0 warnings, including the cross-lesson duplicate scan. Every lesson has an author pass, two independent reviews, a revision and a final verification on record. |
+| Tables | **29 of 29 pass** `table-check` with 3 × 20-simulated-minute aiming-bot soaks each (finale reached, no escaped balls, no non-finite values, no stalls, 0 warnings). Every table except L01 (hand-built vertical slice) had one independent review-and-fix pass; L24 had its one soak warning (a plunger race in multiball) fixed in the engine. |
+| Kickbacks | 24 tables have one; a 15-ball probe returns the ball to play 15/15 on 23 of them and 11/15 on L09. |
+| Saucer loops | Probe on L05, L07, L12, L17, L27: no eject feeds back into a saucer by itself (max one pass into a neighbour). |
+| Unit / behaviour tests | 72 pass (physics, session, missions, learning, persistence, content), each mutation-checked when added. |
+| Keyboard e2e | 28/28 in Chrome: menus, launch, flip, pause/resume, blur, resize, tab hide, camera change, exit, Explorer question, in-play Wonder Pocket question, save survives reload. A separate check confirmed classify questions are one tab stop per row with arrow-key selection. |
+| Accessibility scan | axe-core: 0 violations on 8 screens. |
+| Hands-on first-minute sessions | 29 tables × 75 s of scripted keyboard play in Chrome (plus L01 on the 2D renderer): 115 launches, 45 balls lost, 3 missions completed, 10 discovery questions answered, scores 37,090–692,090 (median 77,680), **0 page errors**. Per-table notes in `docs/manual-review.json`. |
+| Production build | `npm run build` passes (TypeScript check + Vite); main bundle ≈ 87 KB gzipped, three.js ≈ 206 KB gzipped, each table lazy-loaded (12–31 KB gzipped). `dist/` served with `vite preview` and a table loaded and played in Chrome. |
+| Content and asset safety | No network calls, no outside images, models or audio; everything procedural or synthesized. No trademarked names in the app. The textbook PDF and extracted text are outside the repository and ignored by git. |
 
 ## Known limitations and open items
 
