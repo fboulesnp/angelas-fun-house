@@ -1,6 +1,6 @@
 // Build docs/content-review.md (combined review record) and docs/validation-report.md
 // (per-chapter status from real check outputs). node scripts/report.ts [--soak-minutes 20]
-import { execFileSync } from 'node:child_process';
+import { execFile } from 'node:child_process';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { LESSONS } from '../src/content/curriculum.ts';
@@ -74,6 +74,20 @@ parts.push(flags.join('\n'), '');
 writeFileSync(join(root, 'docs/content-review.md'), parts.join('\n') + '\n\n# Per-lesson review records\n\n' + sections.join('\n\n'));
 
 // ---------------------------------------------------------------- validation report
+// Table checks are slow (3 × 20 simulated minutes each), so run them a few at a time first.
+const checks = new Map<string, { out: string; ok: boolean }>();
+{
+  const queue = LESSONS.map((l) => l.id);
+  const run = (id: string) => new Promise<void>((resolve) => {
+    execFile('node', ['scripts/table-check.ts', id, '--minutes', minutes, '--seeds', '3', '--json'], { cwd: root, maxBuffer: 1 << 24 }, (err, stdout) => {
+      checks.set(id, { out: stdout?.toString() ?? '', ok: !err });
+      resolve();
+    });
+  });
+  await Promise.all(Array.from({ length: 5 }, async () => {
+    while (queue.length) await run(queue.shift()!);
+  }));
+}
 const rows: string[] = [];
 const details: string[] = [];
 // Notes from hands-on browser sessions (docs/manual-review.json), written by whoever played the table.
@@ -87,15 +101,14 @@ for (const l of LESSONS) {
   let tableResult = 'no table';
   let soak = '';
   if (def) {
-    try {
-      const out = execFileSync('node', ['scripts/table-check.ts', l.id, '--minutes', minutes, '--seeds', '3', '--json'], { cwd: root, maxBuffer: 1 << 24 }).toString();
-      const j = JSON.parse(out);
+    const c = checks.get(l.id);
+    if (c?.ok) {
+      const j = JSON.parse(c.out);
       tableResult = 'PASS';
       soak = j.soaks.map((s: { finale: number; missions: number[] }) => (s.finale >= 0 ? `finale ${s.finale}s` : `${s.missions.length} missions`)).join(', ');
-    } catch (e) {
-      const out = (e as { stdout?: Buffer }).stdout?.toString() ?? '';
+    } else {
       try {
-        const j = JSON.parse(out);
+        const j = JSON.parse(c?.out ?? '');
         tableResult = `FAIL: ${j.errors.slice(0, 2).join('; ')}`;
       } catch {
         tableResult = 'FAIL';
