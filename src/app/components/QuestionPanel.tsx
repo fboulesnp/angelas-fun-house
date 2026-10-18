@@ -259,17 +259,32 @@ function QuestionView({ q, seed, narration, headingRef, onAnswered, onContinue, 
             <div class={answered ? (result!.parts[it.id] ? 'cls-row key' : 'cls-row wrong') : 'cls-row'}>
               <span class="cls-text" id={`cls-${it.id}`}>{formula(it.text)}</span>
               <span class="cls-bins" role="radiogroup" aria-labelledby={`cls-${it.id}`}>
-                {q.bins.map((b) => (
-                  <button
-                    role="radio"
-                    aria-checked={answer.bins[it.id] === b.id}
-                    class={answer.bins[it.id] === b.id ? 'bin on' : 'bin'}
-                    disabled={answered}
-                    onClick={() => setAnswer({ type: 'classify', bins: { ...answer.bins, [it.id]: b.id } })}
-                  >
-                    {b.label}
-                  </button>
-                ))}
+                {q.bins.map((b, bi) => {
+                  // One tab stop per row (the chosen bin, or the first); arrows move and choose.
+                  const chosen = answer.bins[it.id];
+                  const tabbable = chosen ? chosen === b.id : bi === 0;
+                  return (
+                    <button
+                      role="radio"
+                      aria-checked={chosen === b.id}
+                      tabIndex={tabbable ? 0 : -1}
+                      class={chosen === b.id ? 'bin on' : 'bin'}
+                      disabled={answered}
+                      onClick={() => setAnswer({ type: 'classify', bins: { ...answer.bins, [it.id]: b.id } })}
+                      onKeyDown={(e) => {
+                        const step = e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? -1 : 0;
+                        if (!step) return;
+                        e.preventDefault();
+                        const next = q.bins[(bi + step + q.bins.length) % q.bins.length];
+                        setAnswer({ type: 'classify', bins: { ...answer.bins, [it.id]: next.id } });
+                        const el = (e.currentTarget as HTMLElement).parentElement?.children[(bi + step + q.bins.length) % q.bins.length] as HTMLElement | undefined;
+                        el?.focus();
+                      }}
+                    >
+                      {b.label}
+                    </button>
+                  );
+                })}
               </span>
               {answered && (
                 <span class="choice-why">
