@@ -97,6 +97,16 @@ npm run check:a11y
 npm run perf
 ```
 
+## What has been tested, and what has not
+
+Every check that was run is listed with its real result in `docs/playtest-notes.md` and
+`docs/validation-report.md`: automated physics and session tests, the content validator, the
+per-table geometry lint and aiming-bot soaks, keyboard-only browser checks, an axe-core
+accessibility scan, frame-time measurements, and scripted hands-on "first minute" sessions.
+All of it ran on one Mac in Chrome, and all content and table reviews were done by AI agents.
+No human has playtested the game yet, no physical phone or tablet has run it, and nobody has
+tried it with a screen reader. Treat those as the next steps, not as done.
+
 ## Where things are
 
 | Path | What |
@@ -112,7 +122,7 @@ npm run perf
 | `src/learning` | evaluation, question selection, mastery rule |
 | `src/persistence` | versioned local saves |
 | `src/app` | screens, mansion scene, components |
-| `docs/` | architecture, art direction, authoring guides, content review, validation report, asset ledger |
+| `docs/` | architecture, art direction, authoring guides, content review, validation report, playtest notes, asset ledger |
 | `BUILD_STATUS.md` | chapter checklist and current status |
 
 The textbook PDF and any text extracted from it are never part of the app or the repository.
