@@ -220,3 +220,25 @@ describe('layers, ramps and portals', () => {
     expect(ball.state).toBe('live');
   });
 });
+
+describe('plunger', () => {
+  it('fires every ball resting on the rod, so a second ball is never left trapped under the tip', () => {
+    const { rt } = frame();
+    rt.world.finalize();
+    const p = rt.plunger!;
+    // Pull the rod back with two balls on it: one on the tip, one wedged beside/below it.
+    p.pulling = true;
+    for (let i = 0; i < 120; i++) rt.step(1 / 120);
+    const a = rt.world.addBall(p.x, p.tipY - 12 - 2);
+    a.state = 'live';
+    const b = rt.world.addBall(p.x + 10, p.tipY + 6);
+    b.state = 'live';
+    p.release();
+    for (let i = 0; i < 30; i++) rt.step(1 / 120);
+    for (const ball of [a, b]) {
+      expect(ball.y, 'ball should be above the resting tip').toBeLessThan(p.y - 12);
+      expect(Number.isFinite(ball.x) && Number.isFinite(ball.y)).toBe(true);
+    }
+    expect(p.ballOnTip()).toBeUndefined();
+  });
+});

@@ -857,7 +857,15 @@ export class Plunger extends Mechanism {
   }
   /** Ball resting on the plunger tip, if any. */
   ballOnTip(): Ball | undefined {
-    return this.rt.world.balls.find((b) => (b.state === 'shooter' || b.state === 'live') && Math.abs(b.x - this.x) < this.laneHalf && b.y > this.tipY - b.r - 22 && b.y < this.tipY + 2);
+    return this.rt.world.balls.find((b) => this.onTip(b));
+  }
+  private onTip(b: Ball) {
+    return (b.state === 'shooter' || b.state === 'live') && Math.abs(b.x - this.x) < this.laneHalf && b.y > this.tipY - b.r - 22 && b.y < this.tipY + 2;
+  }
+  /** Every ball the rod will carry when it snaps back: on the tip, or anywhere in its sweep. */
+  private ballsInSweep(): Ball[] {
+    const top = this.y - 3;
+    return this.rt.world.balls.filter((b) => (b.state === 'shooter' || b.state === 'live') && Math.abs(b.x - this.x) < this.laneHalf && b.y > top - b.r - 22 && b.y < this.tipY + b.r + 4);
   }
   release(): Ball | undefined {
     const strength = this.pull;
@@ -874,8 +882,17 @@ export class Plunger extends Mechanism {
     const sp = this.minSpeed + (this.maxSpeed - this.minSpeed) * Math.pow(Math.min(1, strength), 1.1);
     b.vy = -sp;
     b.vx = 0;
-    // The rod snaps back to rest as it fires, carrying the ball with it.
+    // The rod snaps back to rest as it fires, carrying the ball with it. In multiball a second
+    // ball can be resting beside or below the first; the rod must carry it too rather than
+    // snap up through it and leave it trapped under the tip.
     b.y = Math.min(b.y, this.y - b.r - 3);
+    for (const other of this.ballsInSweep()) {
+      if (other === b) continue;
+      other.y = Math.min(other.y, this.y - other.r - 3);
+      other.vy = Math.min(other.vy, -sp * 0.6);
+      other.vx = 0;
+      other.saveUntil = Math.max(other.saveUntil, b.saveUntil);
+    }
     this.rt.emit({ type: 'launch', id: this.id, ball: b, value: strength, x: b.x, y: b.y });
     return b;
   }
