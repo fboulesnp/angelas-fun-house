@@ -139,6 +139,7 @@ export class GameSession {
   tiltWarnings = 0;
   tilted = false;
   private celebrateUntil = 0;
+  private celebrateSeconds = 1;
   private celebrateNext: GameState = 'play';
   private pendingDiscover: { saucer: Saucer; stage: Extract<Stage, { kind: 'discover' }> } | null = null;
   energy = 0;
@@ -682,6 +683,7 @@ export class GameSession {
 
   private celebrate(seconds: number, c: Callout) {
     this.celebrateUntil = this.rt.time + seconds;
+    this.celebrateSeconds = Math.max(0.1, seconds);
     this.celebrateNext = 'play';
     this.celebrateProgress = 0;
     this.go('celebrate');
@@ -723,7 +725,8 @@ export class GameSession {
     }
     if (this.state === 'celebrate') {
       // Celebration animates scenery while every ball is safely held still.
-      this.celebrateProgress = 1 - Math.max(0, this.celebrateUntil - this.rt.time) / 5;
+      // 0 → 1 across this celebration, whatever its length.
+      this.celebrateProgress = Math.min(1, Math.max(0, 1 - (this.celebrateUntil - this.rt.time) / this.celebrateSeconds));
       this.rt.world.time += dt;
       this.sceneryLevel += (this.runner.level - this.sceneryLevel) * Math.min(1, dt * 1.2);
       if (this.rt.time >= this.celebrateUntil) {

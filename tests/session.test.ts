@@ -161,6 +161,28 @@ describe('pause and question parking', () => {
     expect(s.rt.find('microscope')!.lamp).toBe('flash');
   });
 
+  it('celebration progress runs from 0 to 1 and never leaves that range', async () => {
+    const { s } = session();
+    launch(s);
+    for (let i = 0; i < 8; i++) s.rt.emit({ type: 'bumper', id: 'bumper_he', group: 'elements', x: 0, y: 0 });
+    s.rt.emit({ type: 'target', id: 'matter_target', group: 'sort', x: 0, y: 0 });
+    s.rt.emit({ type: 'target', id: 'nonmatter_target', group: 'sort', x: 0, y: 0 });
+    step(s, 1);
+    s.rt.get<import('../src/game/table/mechanisms.ts').Saucer>('microscope').capture(s.rt.world.balls[0]);
+    step(s, 1);
+    await new Promise((r) => setTimeout(r, 0));
+    expect(s.state).toBe('celebrate');
+    const seen: number[] = [];
+    for (let i = 0; i < 120 * 8 && s.state === 'celebrate'; i++) {
+      step(s, 1);
+      if (s.state === 'celebrate') seen.push(s.celebrateProgress);
+    }
+    expect(Math.min(...seen)).toBeGreaterThanOrEqual(0);
+    expect(Math.min(...seen)).toBeLessThan(0.05);
+    expect(Math.max(...seen)).toBeLessThanOrEqual(1);
+    expect(Math.max(...seen)).toBeGreaterThan(0.95);
+  });
+
   it('wrong answers still complete the mission and never cost balls', async () => {
     const { s } = session({}, false);
     launch(s);

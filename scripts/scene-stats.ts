@@ -3,7 +3,7 @@ import { chromium } from 'playwright-core';
 const table = process.argv[2] ?? 'L01';
 const browser = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true, args: ['--use-angle=metal'] });
 const page = await (await browser.newContext({ viewport: { width: 1600, height: 1000 } })).newPage();
-await page.goto(`http://localhost:5199/?table=${table}&autostart&test`, { waitUntil: 'networkidle' });
+await page.goto(`${process.env.AFH_URL ?? 'http://localhost:5199'}/?table=${table}&autostart&test`, { waitUntil: 'networkidle' });
 await page.waitForFunction(() => !!(window as any).__afh?.renderer(), null, { timeout: 30000 });
 await page.waitForTimeout(3000);
 const r = await page.evaluate(() => {
