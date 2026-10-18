@@ -97,6 +97,11 @@ npm run check:a11y
 npm run perf
 ```
 
+Two more scripts produce the handoff records: `node scripts/first-minute.ts` plays every table
+for 75 s with real keyboard input in Chrome and writes `docs/manual-review.json` (labelled as
+AI-driven sessions), and `node scripts/report.ts` regenerates `docs/content-review.md` and
+`docs/validation-report.md` from fresh validator and table-check runs.
+
 ## What has been tested, and what has not
 
 Every check that was run is listed with its real result in `docs/playtest-notes.md` and
