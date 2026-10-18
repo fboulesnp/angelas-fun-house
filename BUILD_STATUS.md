@@ -7,7 +7,10 @@ _Last updated: 2026-10-18 03:55. **Build complete.** This file stays the resume 
 produces `dist/`, and the handoff documents are in `docs/` (`playtest-notes.md`,
 `validation-report.md`, `content-review.md`, `manual-review.json`, `asset-ledger.md`) with the
 gallery in `screenshots/`. The workflow runs that produced content and tables are finished; nothing
-is left queued. The dev server used for the checks may still be running on http://localhost:5199.
+is left queued. Published 2026-10-18 to GitHub Pages from the public repo
+`fboulesnp/angelas-fun-house`: **https://fboulesnp.github.io/angelas-fun-house/** (verified in
+Chrome: title, L13 plays, no console errors). Commit emails were rewritten to the GitHub
+noreply address before the first push.
 
 ## Milestones
 

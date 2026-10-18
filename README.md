@@ -7,6 +7,14 @@ A 3D science pinball adventure for a seventh-grade learner. Every one of the 29 
 impossible fun-house mansion. Restore all 29 Wonderlights by completing science missions
 and answering discovery questions in the Wonder Pocket.
 
+## Play it online
+
+The production build is published with GitHub Pages at
+**https://fboulesnp.github.io/angelas-fun-house/** — open it in any modern browser; nothing to
+install, no account. Progress saves in that browser. Every push to `main` of
+[fboulesnp/angelas-fun-house](https://github.com/fboulesnp/angelas-fun-house) rebuilds and
+redeploys it (`.github/workflows/pages.yml`).
+
 ## Requirements
 
 - Node.js 20.11+ (developed on Node 26) and npm.
@@ -36,7 +44,7 @@ npm run preview
 
 The production build lives in `dist/` and is fully static: copy that folder to any static
 host (or open it through any local static file server). It uses relative paths, so it works
-from a sub-folder.
+from a sub-folder — that is how the GitHub Pages copy above is served.
 
 ## Modes
 
