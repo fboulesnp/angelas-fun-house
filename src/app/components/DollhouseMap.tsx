@@ -52,7 +52,8 @@ export function MansionView({ mode, onOpen, suggested, parade }: Props) {
     let last = performance.now();
     let lastRects = 0;
     const frame = (now: number) => {
-      const dt = Math.min(0.1, (now - last) / 1000);
+      // The first rAF timestamp can predate the setup clock: never feed the scene a negative dt.
+      const dt = Math.max(0, Math.min(0.1, (now - last) / 1000));
       last = now;
       scene.render(dt);
       if (mode === 'map' && now - lastRects > 200) {

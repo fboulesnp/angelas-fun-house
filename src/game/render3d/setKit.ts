@@ -684,7 +684,8 @@ export class SetKit {
         const seed = Math.floor(t * 0.4 + b / bursts) * 13 + b;
         const cx = area.x0 + ((seed * 0.37) % 1) * (area.x1 - area.x0);
         const cy = area.y0 + ((seed * 0.61) % 1) * (area.y1 - area.y0);
-        const c = palette[(seed + b) % palette.length];
+        // seed can be negative or NaN if a scene feeds an odd time; keep the index valid.
+        const c = palette[(((seed + b) % palette.length) + palette.length) % palette.length] ?? palette[0];
         for (let i = b * per; i < (b + 1) * per; i++) {
           const d = dirs[i];
           const rad = cyc * 2.2;

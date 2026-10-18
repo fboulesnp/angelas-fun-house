@@ -183,6 +183,27 @@ describe('pause and question parking', () => {
     expect(Math.max(...seen)).toBeGreaterThan(0.95);
   });
 
+  it('Free Play with questions off completes the mission at the pocket without asking anything', async () => {
+    const { s, asked } = session({ mode: 'free', triviaLevel: 0 });
+    launch(s);
+    for (let i = 0; i < 8; i++) s.rt.emit({ type: 'bumper', id: 'bumper_he', group: 'elements', x: 0, y: 0 });
+    s.rt.emit({ type: 'target', id: 'matter_target', group: 'sort', x: 0, y: 0 });
+    s.rt.emit({ type: 'target', id: 'nonmatter_target', group: 'sort', x: 0, y: 0 });
+    step(s, 1);
+    s.rt.get<import('../src/game/table/mechanisms.ts').Saucer>('microscope').capture(s.rt.world.balls[0]);
+    step(s, 1);
+    await new Promise((r) => setTimeout(r, 0));
+    expect(asked).toEqual([]);
+    expect(s.runner.completed[0]).toBe(true);
+    step(s, 120 * 7);
+    // Play resumed and the pocket released its ball (it may already have drained into ball
+    // save and be waiting in the shooter lane, but it is never left held in the pocket).
+    expect(s.state).toBe('play');
+    expect(s.rt.world.balls.length).toBe(1);
+    expect(s.rt.world.balls[0].state).not.toBe('held');
+    expect(s.ballNumber).toBe(1);
+  });
+
   it('wrong answers still complete the mission and never cost balls', async () => {
     const { s } = session({}, false);
     launch(s);
