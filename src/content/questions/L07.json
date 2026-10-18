@@ -1,0 +1,4008 @@
+{
+  "lessonId": "L07",
+  "questions": [
+    {
+      "lessonId": "L07",
+      "id": "L07-Q01",
+      "objectiveIds": [
+        "L07-O1"
+      ],
+      "conceptTags": [
+        "reservoir",
+        "process",
+        "cycle-model"
+      ],
+      "familyId": "L07-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Cycle models show storage places and the routes between them. Sort each item: is it a reservoir (a place where matter is stored for a while) or a process (a way matter moves from place to place)?",
+      "accessiblePrompt": "Sort each item into one of two groups. Reservoir: a place where matter is stored for a while. Process: a way matter moves from one place to another.",
+      "items": [
+        {
+          "id": "photo",
+          "text": "Photosynthesis",
+          "rationale": "Process: it moves carbon from carbon dioxide into producers."
+        },
+        {
+          "id": "atm",
+          "text": "The atmosphere",
+          "rationale": "Reservoir: the air stores water vapor, carbon dioxide, and nitrogen gas."
+        },
+        {
+          "id": "evap",
+          "text": "Evaporation",
+          "rationale": "Process: it moves liquid water into the air as vapor."
+        },
+        {
+          "id": "soil",
+          "text": "Soil",
+          "rationale": "Reservoir: soil holds water, carbon from decayed remains, and nitrogen compounds."
+        },
+        {
+          "id": "denit",
+          "text": "Denitrification",
+          "rationale": "Process: bacteria move nitrogen from soil compounds back into the air as nitrogen gas."
+        },
+        {
+          "id": "fossil",
+          "text": "Coal and oil deposits underground",
+          "rationale": "Reservoir: carbon can stay stored there for millions of years."
+        },
+        {
+          "id": "burn",
+          "text": "Combustion",
+          "rationale": "Process: burning moves carbon from a fuel into the air as carbon dioxide."
+        },
+        {
+          "id": "river",
+          "text": "A river",
+          "rationale": "Reservoir: it holds liquid water and dissolved carbon dioxide."
+        }
+      ],
+      "bins": [
+        {
+          "id": "reservoir",
+          "label": "Reservoir (where matter is stored)"
+        },
+        {
+          "id": "process",
+          "label": "Process (how matter moves)"
+        }
+      ],
+      "answer": {
+        "photo": "process",
+        "atm": "reservoir",
+        "evap": "process",
+        "soil": "reservoir",
+        "denit": "process",
+        "fossil": "reservoir",
+        "burn": "process",
+        "river": "reservoir"
+      },
+      "explanation": "Reservoirs are the nouns of a cycle diagram: places such as the air, soil, rivers, and fossil fuel deposits where atoms wait. Processes are the verbs: photosynthesis, evaporation, denitrification, and combustion each carry atoms from one reservoir to another. Living bodies count as reservoirs too, since they store carbon, water, and nitrogen.",
+      "misconception": "Processes such as photosynthesis are places, or reservoirs such as soil are only pathways that matter passes through without stopping.",
+      "hint": "Ask: is this a place where atoms can sit, or something that happens to carry atoms somewhere?",
+      "followUpId": "L07-Q08",
+      "scope": {
+        "lessonId": "L07",
+        "section": "2. The Water Cycle; 3. The Carbon Cycle; 4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            79,
+            81,
+            83
+          ],
+          "pdf": [
+            115,
+            117,
+            119
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle, Figure 2",
+          "supports": "Water is stored as vapor in the atmosphere, ice and snow, liquid water, and water in the soil, and moves between them by processes such as evaporation."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle, Figure 3",
+          "supports": "Carbon is stored in the atmosphere, in water, and in soil and fossil fuel deposits, and moves by photosynthesis and combustion, among other processes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle, Figure 4",
+          "supports": "Denitrification moves nitrogen from the soil back to nitrogen gas in the atmosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief mission \"identify a reservoir\". The word \"reservoir\" is the game's label for the storage circles in Figures 2-4; the textbook does not use the term. Drafted from printed pp. 79, 81, 83 (all three figures rendered). Round 1 revision (2026-10-14): both reviewers passed the item; no change. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked against renders of pp. 79, 81 and 83 (the Figure 2-4 storage circles and the evaporation, photosynthesis, combustion and denitrification arrows). Every item has one defensible bin. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q02",
+      "objectiveIds": [
+        "L07-O1",
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "cellular-respiration",
+        "linked-cycles",
+        "carbon-cycle",
+        "water-cycle"
+      ],
+      "familyId": "L07-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Some processes move atoms in two cycles at once. Which process gives off both carbon dioxide and water in plants, animals, and decomposers alike?",
+      "accessiblePrompt": "Some processes move atoms in two cycles at once. Which process gives off both carbon dioxide and water in plants, animals, and decomposers alike?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Photosynthesis",
+          "rationale": "Photosynthesis takes in carbon dioxide and water to build sugar, using up both overall rather than releasing them."
+        },
+        {
+          "id": "f",
+          "text": "Cellular respiration",
+          "rationale": "Correct. Cells break down sugar with oxygen and give off carbon dioxide and water, so one process moves matter in both the carbon cycle and the water cycle."
+        },
+        {
+          "id": "g",
+          "text": "Transpiration from leaves",
+          "rationale": "Leaves give off water vapor this way, but it releases no carbon dioxide, so only water moves."
+        },
+        {
+          "id": "h",
+          "text": "Evaporation",
+          "rationale": "Evaporation turns liquid water into vapor from lakes and soil, not inside cells, and it carries no carbon."
+        }
+      ],
+      "answer": "f",
+      "explanation": "When cells break down sugar for energy, the sugar's carbon leaves as carbon dioxide and its hydrogen ends up in new water molecules. That is why the water-cycle and carbon-cycle models each have a cellular-respiration arrow. Photosynthesis links the same two cycles in the other direction, taking in carbon dioxide and water together.",
+      "misconception": "Each process belongs to only one cycle, so the water, carbon, and nitrogen cycles run separately.",
+      "hint": "Think about what a squirrel's body does with the sugar in a seed it eats.",
+      "followUpId": "L07-Q11",
+      "scope": {
+        "lessonId": "L07",
+        "section": "2. The Water Cycle; 3. The Carbon Cycle; Key Science Concept: Global Cycles of Matter and You",
+        "pages": {
+          "printed": [
+            79,
+            80,
+            85
+          ],
+          "pdf": [
+            115,
+            116,
+            121
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle, Figure 2",
+          "supports": "Figure 2 has arrows labeled cellular respiration carrying water from consumers and from decomposers to water vapor in the atmosphere."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            116
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Plants and consumers use sugar for energy, and through cellular respiration the carbon leaves as carbon dioxide."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Two text boxes on the spread say that cellular respiration releases water and that it releases carbon dioxide into the atmosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief mission \"connect reservoirs through a process\". Drafted from printed pp. 80-81 (Figure 3 rendered at 200 dpi to read arrow directions). Round 1 revision (2026-10-14): rebuilt on the pedagogy reviewer's instruction as the bank's cycles-interlink item (brief: water, carbon, and nitrogen routes interlink), because the old photosynthesis item duplicated Q11, Q12 and Q15. Kept id, family F01, category and type. The rebuild retires the old choice ids a-d and uses new ids e-h, so no id is reused for different text. The reviewer's choice 'Transpiration' was written as 'Transpiration from leaves' so the key ('Cellular respiration') is not the longest option. The science-review-agent pass was recorded on the earlier photosynthesis version; the rebuilt item has had no independent science check yet. Wording keeps cells (respiration) separate from breathing (RF8). Re-checked p. 79 Figure 2 (cellular-respiration arrows from consumers and decomposers to the atmosphere), p. 80 and the p. 85 spread text boxes from the renders. Round 2 revision (2026-10-14): both reviewers examined the rebuilt item, so this round's science pass covers the cellular-respiration version. The science reviewer asked for a hint without the absolute 'every living thing'; the pedagogy reviewer's new hint (what a squirrel's body does with seed sugar) has no absolute and no longer names the key's defining feature, so it replaces both the old hint and the science reviewer's wording. The prompt drops the word 'cells', which matched only the key. Choices e-h, key f, rationales, explanation and follow-up unchanged. Verify-agent (2026-10-14): checked against the p. 79 Figure 2 render (cellular-respiration arrows from consumers and decomposers to the air), the p. 80 text and the p. 85 text boxes. Independent science check of the rebuilt item: cellular respiration releases both carbon dioxide and water; transpiration and evaporation move only water, and photosynthesis takes both in. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt as the linked-cycles item (respiration releases CO₂ and water); new choice ids e-h, difficulty 2, O1+O3"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer says 'every living thing' (the pedagogy reviewer's squirrel hint meets the same fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt drops the 'cells' word cue; hint no longer names the key's defining feature"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q03",
+      "objectiveIds": [
+        "L07-O2"
+      ],
+      "conceptTags": [
+        "closed-system",
+        "matter-vs-energy"
+      ],
+      "familyId": "L07-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Scientists often model Earth as a closed system. What does that mean in this model?",
+      "accessiblePrompt": "Scientists often model Earth as a closed system. What does that mean in this model?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing at all enters or leaves Earth, not even sunlight or heat.",
+          "rationale": "Closed refers to matter, not energy. Sunlight reaches Earth every day and heat escapes to space; without sunlight, photosynthesis would stop."
+        },
+        {
+          "id": "b",
+          "text": "The same molecules stay on Earth forever, never splitting or changing.",
+          "rationale": "Atoms are conserved, but molecules are broken apart and rebuilt all the time, as when carbon dioxide becomes sugar."
+        },
+        {
+          "id": "c",
+          "text": "Almost no matter gets in or out, but energy like sunlight still does.",
+          "rationale": "Correct. Earth keeps nearly all of its atoms while energy arrives as sunlight and leaves as heat."
+        },
+        {
+          "id": "f",
+          "text": "Atoms mostly stay in the same forest or pond where they started.",
+          "rationale": "Closed describes the whole planet, not each place in it. Inside Earth, atoms travel: carbon dioxide breathed out beside a pond can drift away and end up in a faraway forest."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A closed system is closed to matter, not to energy. Sunlight pours onto Earth and heat radiates back to space, but nearly all the atoms here have been part of Earth since it formed about 4.6 billion years ago, so they get reused again and again.",
+      "misconception": "A closed system is sealed against energy as well as matter, or a closed planet means each ecosystem is sealed off from the others.",
+      "hint": "Think about what the Sun sends to Earth every day. Is it matter or energy?",
+      "followUpId": "L07-Q28",
+      "scope": {
+        "lessonId": "L07",
+        "section": "1. Earth is a Closed System; Key Science Concept: Global Cycles of Matter and You",
+        "pages": {
+          "printed": [
+            78,
+            84
+          ],
+          "pdf": [
+            114,
+            120
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            78
+          ],
+          "pdfPages": [
+            114
+          ],
+          "locator": "Section 1. Earth is a Closed System",
+          "supports": "The matter in food, water, air, and our bodies became part of Earth when it formed 4.6 billion years ago; in a closed system the amount of matter stays the same while its form changes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            84
+          ],
+          "pdfPages": [
+            120
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Photosynthesis uses energy from the sun along with carbon dioxide and water."
+        },
+        {
+          "type": "external",
+          "title": "Climate and Earth's Energy Budget",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget",
+          "accessed": "2026-10-17",
+          "supports": "Earth receives energy as sunlight and loses an equal amount to space as thermal infrared radiation."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 78 (rendered) with p. 84 for sunlight as an energy input. \"Almost no matter\" follows the exceptions on p. 78; see L07-RF1. Option lengths balanced (64-75 characters). Round 1 revision (2026-10-14): choice d (matter used up and replaced) duplicated Q28 a and was retired; new choice e targets the idea that a closed planet seals each ecosystem off. Misconception extended to match. Round 2 revision (2026-10-14): scope adds the p. 84 spread (photosynthesis uses the Sun's energy), which the evidence already cited. The textbook never says Earth is open to energy (L07-RF1), so the energy part of key c, choice a's rationale and the explanation now rest on NASA Earth Observatory's energy-budget page, opened 2026-10-17 (the system date when the reviser opened it; the workflow's nominal date is 2026-10-14). Choice e (each forest or pond never trades atoms), an absolute, retired for new choice f, which is softly worded ('mostly'), so the key is no longer the only hedged choice. Key c, a, b, explanation, hint and follow-up Q28 unchanged. Verify-agent (2026-10-14): checked the p. 78 render and the p. 84 text box (photosynthesis uses energy from the sun); re-opened NASA Earth Observatory 'Climate and Earth's Energy Budget' (sunlight in is balanced by energy radiating to space). New choice f is clearly wrong as a meaning of the closed-system model, which describes the whole planet; key c is the only defensible answer. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: matter-from-space distractor d replaced by new choice e (each ecosystem sealed off)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope adds p. 84; NASA energy-budget record supports energy flowing in and out"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute choice e replaced by hedged choice f (atoms mostly stay where they started)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q04",
+      "objectiveIds": [
+        "L07-O2"
+      ],
+      "conceptTags": [
+        "closed-system",
+        "models",
+        "conservation-of-matter"
+      ],
+      "familyId": "L07-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Each day Earth gains over 100 tons of space dust and loses a few hundred tons of gas from the top of its atmosphere. Rockets carry matter away too. Why do scientists still model Earth as a closed system for ecosystems?",
+      "accessiblePrompt": "Each day Earth gains more than 100 tons of dust from space and loses a few hundred tons of gas from the top of its atmosphere. Rockets also carry some matter away. Why do scientists still model Earth as a closed system when they study ecosystems?",
+      "conditions": "The daily amounts are approximate NASA estimates.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The dust and the lost gas cancel out exactly, so nothing changes.",
+          "rationale": "Nothing shows the gains and losses balance exactly; the numbers given are not even equal. The model works for a different reason."
+        },
+        {
+          "id": "e",
+          "text": "Space dust burns up as meteors, so none of its matter reaches Earth.",
+          "rationale": "Burning changes the dust's form, not its amount. Its atoms stay in Earth's atmosphere and slowly settle to the ground, so Earth still gains that matter. Your textbook also says meteors bring small amounts of matter in."
+        },
+        {
+          "id": "c",
+          "text": "These amounts are tiny next to Earth's total mass, so the model works.",
+          "rationale": "Correct. Earth's mass is about 6 sextillion metric tons, so a few hundred tons a day is a vanishingly small share. A model only has to be accurate enough for the question being asked."
+        },
+        {
+          "id": "d",
+          "text": "Scientific laws have no exceptions, so the measurements must be wrong.",
+          "rationale": "The measurements are real. Matter is not created or destroyed here; it just crosses Earth's boundary. It is the closed-system model that is approximate."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Earth's mass is about 6 sextillion metric tons (a 6 followed by 21 zeros), so a few hundred tons a day barely registers. A model does not have to be perfect to be useful; it has to capture what matters. For ecosystems, almost every atom is recycled rather than imported, so the closed-system model fits well.",
+      "misconception": "A model with any exception is useless, a scientific model must match reality perfectly, or matter that burns up as a meteor no longer counts.",
+      "hint": "Does a model have to be perfect to be useful, or just good enough for the question being asked?",
+      "followUpId": "L07-Q07",
+      "scope": {
+        "lessonId": "L07",
+        "section": "1. Earth is a Closed System",
+        "pages": {
+          "printed": [
+            78
+          ],
+          "pdf": [
+            114
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            78
+          ],
+          "pdfPages": [
+            114
+          ],
+          "locator": "Section 1. Earth is a Closed System",
+          "supports": "Spacecraft carry some matter away and meteors bring small amounts in, but scientists still find the closed-system model useful for understanding ecosystems."
+        },
+        {
+          "type": "external",
+          "title": "Asteroid Fast Facts",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/solar-system/asteroids/asteroid-fast-facts/",
+          "accessed": "2026-10-14",
+          "supports": "Earth is bombarded with more than 100 tons of dust and sand-sized particles every day."
+        },
+        {
+          "type": "external",
+          "title": "Toward Mapping the Atmosphere's Escape from Earth",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/toward-mapping-the-atmospheres-escape-from-earth-144386/",
+          "accessed": "2026-10-14",
+          "supports": "Earth loses several hundred tons of its atmosphere to space every day, yet at that rate the atmosphere should last for billions of years."
+        },
+        {
+          "type": "external",
+          "title": "Earth Fact Sheet",
+          "publisher": "NASA Goddard Space Flight Center (NSSDCA)",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+          "accessed": "2026-10-14",
+          "supports": "Earth's mass is 5.9722 × 10²⁴ kg (about 6 × 10²¹ metric tons)."
+        },
+        {
+          "type": "external",
+          "title": "Tiny Meteors Leave Smoke in the Atmosphere. NASA's Studying It.",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/missions/aim/tiny-meteors-leave-smoke-in-the-atmosphere-nasas-studying-it/",
+          "accessed": "2026-10-17",
+          "supports": "Tiny meteoroids (cosmic dust) burn up high in the atmosphere and leave meteoric smoke particles, which clump together as they fall to Earth over several years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Addresses L07-RF1 (closed-system absolutes on pp. 77-78, 84). Textbook names spacecraft and meteors; the daily figures and Earth's mass come from NASA pages opened 2026-10-14. Round 1 revision (2026-10-14): hint replaced because it stated the keyed reasoning; choice b reworded (same misconception, same id) because the gas in the prompt escapes from Earth rather than arriving from space. The science reviewer's optional suggestion (compare with matter cycling in air, water and living things) was not applied; the reviewer judged the key defensible as written. Round 2 revision (2026-10-14): choice b (dust and gas are energy) was implausible, since dust is plainly matter; retired for new choice e (dust that burns up as a meteor no longer counts), and the misconception adds that idea. e's rationale (the burned dust settles to the ground) is supported by NASA's page on meteoric smoke, opened 2026-10-17, and by p. 78 (meteors bring small amounts of matter in). Key c unchanged. Verify-agent (2026-10-14): checked the p. 78 render (spacecraft and meteors named as exceptions). Re-opened NASA Asteroid Fast Facts (more than 100 tons a day), NASA Earth Observatory's atmospheric-escape page (several hundred tons a day) and NASA's meteoric-smoke page (burned-up dust falls to Earth over several years), which supports new choice e's rationale. 5.97 x 10^24 kg is about 6 x 10^21 metric tons, so '6 sextillion' and 'a 6 followed by 21 zeros' are right. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer states the keyed comparison; choice b reworded to match the scenario (gas escapes from Earth)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible choice b replaced by new choice e (meteor dust burns up and no longer counts)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q05",
+      "objectiveIds": [
+        "L07-O2"
+      ],
+      "conceptTags": [
+        "conservation-of-matter",
+        "closed-system",
+        "mass"
+      ],
+      "familyId": "L07-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A student seals soil, moss, a fern, water, and a few pill bugs inside a glass jar. Total mass: 1,250 g. The jar sits in a sunny window for six weeks. Plants grow, a leaf dies and rots, and droplets form on the glass. What is the total mass now, in grams?",
+      "accessiblePrompt": "A student seals soil, moss, a fern, water, and a few pill bugs inside a glass jar. The total mass is 1,250 grams. The jar sits in a sunny window for six weeks. The plants grow, a leaf dies and rots, and water droplets form on the inside of the glass. What is the total mass now, in grams?",
+      "units": "grams (g)",
+      "conditions": "The jar stays tightly sealed the whole time, so no gas or water can get in or out. The same accurate balance is used both times.",
+      "limitations": "Light and heat pass through the glass, but they are energy, not matter, so they do not change the mass.",
+      "answer": 1250,
+      "tolerance": 0,
+      "unit": "g",
+      "workedSolution": "The sealed jar is a closed system: no matter enters or leaves. Plant growth and rotting rearrange atoms into new substances, and condensation changes water from vapor to liquid, all inside the jar. So the mass after = the mass before = 1,250 g.",
+      "explanation": "Inside the jar, atoms keep moving: carbon dioxide becomes plant sugar, decomposers return a dead leaf's carbon to the air, and water evaporates and condenses. None of those changes create or destroy atoms, so the sealed jar's mass stays the same. Earth works the same way on a giant scale.",
+      "misconception": "Growing plants add new matter to a sealed container, or rotting makes matter disappear.",
+      "hint": "The fern grew and a leaf rotted. Where did the atoms for the new plant parts come from?",
+      "followUpId": "L07-Q06",
+      "scope": {
+        "lessonId": "L07",
+        "section": "1. Earth is a Closed System; 3. The Carbon Cycle",
+        "pages": {
+          "printed": [
+            78,
+            81
+          ],
+          "pdf": [
+            114,
+            117
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            78
+          ],
+          "pdfPages": [
+            114
+          ],
+          "locator": "Section 1. Earth is a Closed System",
+          "supports": "The law of conservation of matter: the amount of matter in a closed system stays the same, although its form may change."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Carbon atoms are never created or destroyed, but they change form throughout the cycle."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original sealed-jar scenario modeling Spaceship Earth (p. 78). Drafted from printed pp. 78 and 81. Round 1 revision (2026-10-14): both reviewers passed the item. The reviser applied the science reviewer's lesson-level finding (atoms do not change state; substances do) to the worked solution, which had said growth, rotting and condensation \"rearrange atoms or change their state\". Round 2 revision (2026-10-14): scope adds p. 81 and Section 3, which the evidence already cited (carbon atoms are never created or destroyed). Hint replaced: the old yes/no hint (can atoms get into or out of a sealed jar?) restated the conditions and skipped the step the item targets. Stem, answer 1250 g, tolerance 0, worked solution and explanation unchanged. Verify-agent (2026-10-14): checked pp. 78 and 81. Answer 1,250 g with tolerance 0 follows from the sealed-jar conditions; the worked solution carries units. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: worked solution says substances change state, not atoms (applies the lesson-level atoms/state finding)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope adds p. 81 (Section 3. The Carbon Cycle) to match the evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: yes/no hint replaced with one about where the new plant parts' atoms came from"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q06",
+      "objectiveIds": [
+        "L07-O2"
+      ],
+      "conceptTags": [
+        "change-of-state",
+        "chemical-change",
+        "conservation-of-matter"
+      ],
+      "familyId": "L07-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Matter in Earth's cycles changes form in two main ways: by changing state, or by its atoms rearranging into new substances. Sort each change.",
+      "accessiblePrompt": "Matter in Earth's cycles changes form in two main ways. It can change state, staying the same substance, or its atoms can rearrange into new substances. Sort each change into one of those two groups.",
+      "items": [
+        {
+          "id": "cloud",
+          "text": "Water vapor condensing into cloud droplets",
+          "rationale": "Change of state: still water, going from gas to liquid."
+        },
+        {
+          "id": "sugar",
+          "text": "Seagrass making sugar from carbon dioxide and water",
+          "rationale": "New substances: photosynthesis rearranges the atoms into sugar and oxygen gas."
+        },
+        {
+          "id": "melt",
+          "text": "A snowbank melting into a stream",
+          "rationale": "Change of state: still water, going from solid to liquid."
+        },
+        {
+          "id": "fix",
+          "text": "Soil bacteria turning nitrogen gas into ammonia",
+          "rationale": "New substances: nitrogen atoms bond with hydrogen to form ammonia, a different compound."
+        },
+        {
+          "id": "evap",
+          "text": "Seawater evaporating on a warm day",
+          "rationale": "Change of state: water molecules leave the liquid as vapor without changing into anything else."
+        },
+        {
+          "id": "burn",
+          "text": "Wood burning into carbon dioxide and water",
+          "rationale": "New substances: the wood's atoms combine with oxygen to make different molecules."
+        }
+      ],
+      "bins": [
+        {
+          "id": "state",
+          "label": "Change of state (same substance)"
+        },
+        {
+          "id": "new",
+          "label": "New substances form (atoms rearranged)"
+        }
+      ],
+      "answer": {
+        "cloud": "state",
+        "sugar": "new",
+        "melt": "state",
+        "fix": "new",
+        "evap": "state",
+        "burn": "new"
+      },
+      "explanation": "In a change of state, the molecules stay the same: water is H₂O whether it is ice, liquid, or vapor. In photosynthesis, nitrogen fixation, and burning, bonds break and atoms join new partners to form different substances. Either way, every atom is still there afterward.",
+      "misconception": "Any dramatic-looking change, such as evaporating, must make a new substance, or atoms are lost when new substances form.",
+      "hint": "Ask whether the molecules at the end are the same kind as at the start.",
+      "followUpId": "L07-Q05",
+      "scope": {
+        "lessonId": "L07",
+        "section": "1. Earth is a Closed System; 2. The Water Cycle; 3. The Carbon Cycle; 4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            78,
+            79,
+            81,
+            82
+          ],
+          "pdf": [
+            114,
+            115,
+            117,
+            118
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            78
+          ],
+          "pdfPages": [
+            114
+          ],
+          "locator": "Section 1. Earth is a Closed System",
+          "supports": "Matter can change form by changing state or by combining with other substances."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle, Figure 2",
+          "supports": "Figure 2 shows water changing state by melting, freezing, and evaporation, and moving as precipitation."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Nitrogen-fixing bacteria convert nitrogen gas into ammonia."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Burning a fuel with oxygen releases carbon dioxide."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Built on the p. 78 distinction (changing state vs combining with other substances). Drafted from printed pp. 78, 79, 81, 82. Round 1 revision (2026-10-14): evidence record 2 now treats precipitation as movement, not a state change; scope now cites every page the items test (pp. 78, 79, 81, 82), matching the evidence. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked the p. 78 render (changing state versus combining with other substances), the p. 79 Figure 2 render (melting, freezing, evaporation) and pp. 81-82. Every item has one defensible bin. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: evidence no longer calls precipitation a change of state; scope widened to pp. 78, 79, 81, 82"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q07",
+      "objectiveIds": [
+        "L07-O2",
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "atoms-vs-molecules",
+        "water-cycle",
+        "photosynthesis",
+        "cellular-respiration"
+      ],
+      "familyId": "L07-F03",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A poster claims: \"The exact water molecules in your glass were once sipped by a dinosaur.\" Which revision is most scientifically accurate?",
+      "accessiblePrompt": "A poster claims that the exact water molecules in your glass were once sipped by a dinosaur. Which revision of that claim is most scientifically accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It's exactly right, since a water molecule never breaks apart once it forms.",
+          "rationale": "Water molecules do break apart: photosynthesis splits some of them. What lasts is the atoms, not the molecules."
+        },
+        {
+          "id": "b",
+          "text": "The atoms may be the same ones, but many molecules were split and rebuilt.",
+          "rationale": "Correct. Photosynthesis splits water, and cellular respiration builds new water, while the hydrogen and oxygen atoms carry on."
+        },
+        {
+          "id": "e",
+          "text": "Most of those atoms are gone, because living things used them up long ago.",
+          "rationale": "Living things do not use up atoms; they rearrange them. Earth keeps reusing nearly all of its atoms, so the hydrogen and oxygen in your glass have been on Earth for billions of years."
+        },
+        {
+          "id": "d",
+          "text": "The molecules last forever, but their atoms get replaced by atoms from space.",
+          "rationale": "This is backward: atoms last, while molecules change. Space adds only a tiny amount of matter."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Conservation of matter is about atoms. During photosynthesis, plants split water molecules and release the oxygen as oxygen gas; during cellular respiration, oxygen joins with hydrogen to form brand-new water molecules. So hydrogen and oxygen atoms keep circulating for ages, while individual water molecules come and go.",
+      "misconception": "Matter is conserved as unchanging molecules, rather than as atoms that get rearranged.",
+      "hint": "Think about what photosynthesis does to some of the water a plant takes in.",
+      "followUpId": "L07-Q10",
+      "scope": {
+        "lessonId": "L07",
+        "section": "2. The Water Cycle; Key Science Concept: Global Cycles of Matter and You",
+        "pages": {
+          "printed": [
+            79,
+            85
+          ],
+          "pdf": [
+            115,
+            121
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle",
+          "supports": "Some water molecules taken in by producers are used in photosynthesis to make oxygen gas and sugar."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Cellular respiration releases water."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 8.2 The Light-Dependent Reactions of Photosynthesis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "accessed": "2026-10-14",
+          "supports": "Splitting one water molecule in photosynthesis releases two electrons, two hydrogen atoms, and one oxygen atom; pairs of these oxygen atoms form O₂."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.4 Oxidative Phosphorylation",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "accessed": "2026-10-14",
+          "supports": "In cellular respiration, reduced oxygen picks up two hydrogen ions to make water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the p. 79 \"dinosaur water molecules\" claim (L07-RF2). Corrected answer supported by OpenStax 8.2 and 7.4 (opened 2026-10-14). Round 1 revision (2026-10-14): scope now cites p. 85 (respiration releases water), already in the evidence. Key b reworded for clarity (same claim, same id). Choice d keeps the matter-from-space idea, which the pedagogy reviewer accepted once Q03 d was retired. Round 2 revision (2026-10-14): choice c (none of the atoms remain), an absolute, retired for new choice e in the pedagogy reviewer's softer wording ('Most of those atoms are gone'), so key b is no longer the only hedged choice. e keeps the used-up idea, as the reviewer specified: it is the natural opposite of the key in this atoms-versus-molecules item, and the bank's other copies of that throwaway were cut this round (Q14, Q16, Q17). Key b, a, d unchanged. Verify-agent (2026-10-14): checked p. 79 and the p. 85 text box (cellular respiration releases water); the OpenStax 8.2 and 7.4 records match. New choice e is wrong for the stated reason (atoms are rearranged, not used up); key b is the only accurate revision. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope adds the p. 85 spread that supports respiration building new water"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key b reworded so it says which atoms may be the same"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute choice c replaced by hedged choice e (most atoms used up long ago)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q08",
+      "objectiveIds": [
+        "L07-O1"
+      ],
+      "conceptTags": [
+        "water-cycle",
+        "precipitation",
+        "condensation",
+        "transpiration"
+      ],
+      "familyId": "L07-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each water-cycle process to what happens to the water.",
+      "accessiblePrompt": "Match each of five water-cycle processes to a description of what happens to the water.",
+      "left": [
+        {
+          "id": "precip",
+          "text": "Precipitation",
+          "rationale": "Precipitation moves water from clouds down to land, ice, and bodies of water."
+        },
+        {
+          "id": "cond",
+          "text": "Condensation",
+          "rationale": "Condensation changes invisible vapor into tiny liquid droplets, which is what clouds are made of."
+        },
+        {
+          "id": "trans",
+          "text": "Transpiration",
+          "rationale": "Transpiration is plants giving off water vapor from their leaves."
+        },
+        {
+          "id": "melt",
+          "text": "Melting",
+          "rationale": "Melting changes ice and snow into liquid water."
+        },
+        {
+          "id": "absorb",
+          "text": "Absorption",
+          "rationale": "Absorption is roots taking in water from the soil, moving it into producers."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Plants give off water vapor through their leaves"
+        },
+        {
+          "id": "r2",
+          "text": "Roots take in water from the soil"
+        },
+        {
+          "id": "r3",
+          "text": "Water falls from clouds as rain or snow"
+        },
+        {
+          "id": "r4",
+          "text": "Ice and snow turn into liquid water"
+        },
+        {
+          "id": "r5",
+          "text": "Invisible vapor turns into tiny droplets that form clouds"
+        }
+      ],
+      "answer": {
+        "precip": "r3",
+        "cond": "r5",
+        "trans": "r1",
+        "melt": "r4",
+        "absorb": "r2"
+      },
+      "explanation": "Each process either moves water between reservoirs or changes its state. Condensation turns invisible vapor into the droplets that make up clouds, precipitation brings water down out of the air, transpiration sends it back from plants, melting turns stored ice into flowing water, and absorption carries soil water into producers.",
+      "misconception": "Transpiration and precipitation are the same thing, or clouds are made of water vapor.",
+      "hint": "For each description, ask where the water starts and where it ends up.",
+      "followUpId": "L07-Q01",
+      "scope": {
+        "lessonId": "L07",
+        "section": "2. The Water Cycle",
+        "pages": {
+          "printed": [
+            79,
+            84
+          ],
+          "pdf": [
+            115,
+            120
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle, Figure 2",
+          "supports": "Figure 2 shows precipitation, transpiration, melting, and absorption moving water among the atmosphere, ice and snow, liquid water, soil, and producers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            84
+          ],
+          "pdfPages": [
+            120
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Water vapor condenses in the atmosphere as clouds and as precipitation."
+        },
+        {
+          "type": "external",
+          "title": "Condensation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Water vapor in the air is usually invisible; condensation forms cloud droplets that combine and grow into clouds."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 79 (Figure 2 rendered at 200 dpi) and the p. 84 spread text box. Cloud description keeps vapor invisible (guide guardrail). Round 1 revision (2026-10-14): explanation now says condensation makes cloud droplets and only precipitation brings water down. The absorb rationale follows the pedagogy reviewer's wording (the learner never sees Figure 2), which supersedes the science reviewer's optional Figure 2 wording. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked the p. 79 Figure 2 render (precipitation, transpiration, melting and absorption arrows) and the p. 84 'water gas condenses' text box; the condensation description keeps vapor invisible. One-to-one matching. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer says condensation removes water from the air"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absorb rationale drops the Figure 2 reference; hint no longer lists the matching clue words"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q09",
+      "objectiveIds": [
+        "L07-O1"
+      ],
+      "conceptTags": [
+        "water-cycle",
+        "sublimation",
+        "change-of-state"
+      ],
+      "familyId": "L07-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "High on a dry, windy mountain, a patch of snow in strong sunshine shrinks day after day, yet no meltwater ever appears. Which process best explains where the water went?",
+      "accessiblePrompt": "High on a dry, windy mountain, a patch of snow in strong sunshine gets smaller day after day, but no melted water ever appears. Which process best explains where the water went? The snow's temperature stayed below zero degrees Celsius (32 degrees Fahrenheit) the whole time, so none of it could melt.",
+      "conditions": "No liquid water was observed at any point, and the wind did not blow the snow away. The snow's temperature stayed below 0 °C (32 °F) the whole time, so none of it could melt.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Evaporation: liquid water changed into vapor",
+          "rationale": "Evaporation starts from liquid, and no meltwater appeared. The textbook's water-cycle figure labels the ice-to-vapor arrow \"evaporation\", but scientists call that direct change sublimation."
+        },
+        {
+          "id": "b",
+          "text": "Precipitation: the snow fell again as rain",
+          "rationale": "Precipitation is water falling from clouds. It would add water to the mountain, not explain snow disappearing."
+        },
+        {
+          "id": "c",
+          "text": "Sublimation: ice changed straight into vapor",
+          "rationale": "Correct. Ice can turn directly into water vapor without melting, especially in dry, windy, sunny, high places."
+        },
+        {
+          "id": "d",
+          "text": "Transpiration: plants released it as vapor",
+          "rationale": "Plants release water they absorbed as liquid through their roots. With no meltwater, there was nothing to absorb."
+        }
+      ],
+      "answer": "c",
+      "explanation": "When ice turns straight into water vapor without melting first, the change is called sublimation. It happens most where the air is dry and windy, the air pressure is low, and sunlight supplies energy, which describes a high mountain. The water molecules still exist; they have simply moved into the atmosphere reservoir.",
+      "misconception": "Ice must always melt into liquid before it can enter the air, so this must be evaporation.",
+      "hint": "Compare the state the water started in with the starting state each process needs.",
+      "followUpId": "L07-Q06",
+      "scope": {
+        "lessonId": "L07",
+        "section": "2. The Water Cycle",
+        "pages": {
+          "printed": [
+            79
+          ],
+          "pdf": [
+            115
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle, Figure 2",
+          "supports": "Figure 2 shows water moving from ice and snow directly to water vapor in the atmosphere (the figure labels this arrow evaporation)."
+        },
+        {
+          "type": "external",
+          "title": "Sublimation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/sublimation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Sublimation is snow and ice changing into water vapor without first melting; it is favored by low humidity, dry winds, low air pressure at high altitude, and strong sunlight."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the Figure 2 label (p. 79) that calls ice-to-vapor \"evaporation\"; see L07-RF3. Corrected term supported by USGS Water Science School (opened 2026-10-14). Round 1 revision (2026-10-14): conditions close the wind-transport loophole on a windy ridge. Hint replaced. Sublimation is now introduced in the O1 card teaching text (lesson-level fix), not only in its watchOut. Round 2 revision (2026-10-14): conditions add that the snow stayed below 0 °C (32 °F), so no thin film of meltwater could form and then evaporate or soak in unseen; the accessible prompt ends with the same sentence, with the temperature spelled out for read-aloud. Key c and the rationales unchanged. Verify-agent (2026-10-14): checked the p. 79 Figure 2 render (the ice-and-snow-to-vapor arrow is labeled 'Evaporation'). The USGS sublimation page returned HTTP 504 on re-check; a web search of the same USGS Water Science School page confirmed the definition (snow and ice to vapor without first melting) and the favoring conditions. The below-0 °C condition leaves c as the only defensible answer. 'Below' in the accessible prompt is a temperature, not a layout cue. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions rule out wind carrying the snow away"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points straight at the keyed choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions keep the snow below 0 °C, so unseen meltwater cannot evaporate"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q10",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "water-cycle",
+        "consumers",
+        "cellular-respiration"
+      ],
+      "familyId": "L07-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A manatee grazing on seagrass takes in water with its food. How can water molecules from that meal get back out into the environment? Select all that apply.",
+      "accessiblePrompt": "A manatee grazing on seagrass takes in water with its food. In which ways can water molecules from that meal get back out into the environment? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In the manatee's wastes",
+          "rationale": "Correct. Water leaves in wastes, and decomposers that feed on the wastes return it to the soil and water."
+        },
+        {
+          "id": "b",
+          "text": "By changing into energy for swimming",
+          "rationale": "Matter does not turn into energy. The manatee releases energy stored in food, but the atoms leave as carbon dioxide and water."
+        },
+        {
+          "id": "c",
+          "text": "As water vapor it breathes out at the surface",
+          "rationale": "Correct. Manatees surface to breathe air, and exhaled breath carries moisture, including water made by cellular respiration."
+        },
+        {
+          "id": "f",
+          "text": "As oxygen gas, after its cells split the water apart",
+          "rationale": "In living things, only photosynthesis splits water to release oxygen gas, and animals do not photosynthesize."
+        },
+        {
+          "id": "g",
+          "text": "It can't: the water stays in the manatee's body for good",
+          "rationale": "Body water is constantly replaced. It leaves in wastes and breath and rejoins the water cycle."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Water that a consumer takes in does not vanish. It leaves in wastes, which decomposers break down, and as moisture in breath. Some of that breath moisture is new water made by cellular respiration from hydrogen in the food and oxygen breathed in.",
+      "misconception": "Water an animal takes in is used up, kept for good, or turned into energy, or animals release oxygen from water the way plants do.",
+      "hint": "Think about two ways animals release things: what they excrete and what they breathe out.",
+      "followUpId": "L07-Q13",
+      "scope": {
+        "lessonId": "L07",
+        "section": "2. The Water Cycle",
+        "pages": {
+          "printed": [
+            79,
+            85
+          ],
+          "pdf": [
+            115,
+            121
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle",
+          "supports": "The manatee releases water in its wastes and as moisture when it exhales; decomposers consume the wastes and return the water to the soil."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Cellular respiration releases water, which is used by the body and breathed into the atmosphere."
+        },
+        {
+          "type": "external",
+          "title": "Florida Manatee (Trichechus manatus latirostris)",
+          "publisher": "U.S. Fish & Wildlife Service",
+          "url": "https://www.fws.gov/species/florida-manatee-trichechus-manatus-latirostris",
+          "accessed": "2026-10-14",
+          "supports": "Manatees typically surface every three to five minutes to breathe."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 79 and the p. 85 spread. \"At the surface\" reflects that manatees breathe air (L07-RF8). 2 of 5 correct. Round 1 revision (2026-10-14): choice d (photosynthesis in its skin) retired for new choice f, the realistic form of the photosynthesis mix-up; e reworded (same idea, same id) to drop the game word 'flippers'. The science reviewer's optional polish of d's rationale ('uses up water overall') no longer applies because d is retired. Answer stays [a, c]. Round 2 revision (2026-10-14): choice e (transpiration through its skin) retired because it was wrong only by a word: water does leave animals through skin (cuticular water loss in insects, diffusion in marine mammals), which made an all-or-nothing item unfair. New choice g (the water stays in the body for good) carries the item's 'used up or kept' misconception, which now says 'kept for good'. Answer stays [a, c]; 2 of 5 choices are correct. Verify-agent (2026-10-14): checked p. 79 (water leaves in wastes and as exhaled moisture; decomposers return it) and the p. 85 text box. New choice g is wrong for the stated reason; [a, c] is the only defensible set (2 of 5). No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: joke distractor d replaced by new choice f (cells split water into oxygen gas); 'flippers' changed to 'skin' in e"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: terminology-only distractor e replaced by new choice g (water stays in the body for good)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q11",
+      "objectiveIds": [
+        "L07-O1",
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "carbon-cycle",
+        "photosynthesis",
+        "cellular-respiration",
+        "combustion",
+        "decomposers"
+      ],
+      "familyId": "L07-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each process by what it does to the amount of carbon dioxide in the air around an aspen forest.",
+      "accessiblePrompt": "Sort each process by what it does to the amount of carbon dioxide in the air around an aspen forest: does it add carbon dioxide to the air, or remove it from the air?",
+      "items": [
+        {
+          "id": "photo",
+          "text": "Aspen leaves carrying out photosynthesis",
+          "rationale": "Removes: photosynthesis takes carbon dioxide from the air to build sugar."
+        },
+        {
+          "id": "tresp",
+          "text": "Aspen trees carrying out cellular respiration",
+          "rationale": "Adds: trees break down sugar for energy and release carbon dioxide, just as animals do."
+        },
+        {
+          "id": "squirrel",
+          "text": "A squirrel using seed sugars for energy",
+          "rationale": "Adds: the squirrel's cellular respiration turns seed carbon into carbon dioxide, which it breathes out."
+        },
+        {
+          "id": "rot",
+          "text": "Decomposers breaking down fallen leaves",
+          "rationale": "Adds: decomposers respire too, releasing the leaves' carbon as carbon dioxide."
+        },
+        {
+          "id": "burn",
+          "text": "A campfire burning dead aspen wood",
+          "rationale": "Adds: combustion joins the wood's carbon with oxygen to make carbon dioxide."
+        },
+        {
+          "id": "pond",
+          "text": "Carbon dioxide dissolving into a pond",
+          "rationale": "Removes from the air: the carbon dioxide moves into the water reservoir, where water plants can use it."
+        }
+      ],
+      "bins": [
+        {
+          "id": "adds",
+          "label": "Adds carbon dioxide to the air"
+        },
+        {
+          "id": "removes",
+          "label": "Removes carbon dioxide from the air"
+        }
+      ],
+      "answer": {
+        "photo": "removes",
+        "tresp": "adds",
+        "squirrel": "adds",
+        "rot": "adds",
+        "burn": "adds",
+        "pond": "removes"
+      },
+      "explanation": "In this list, only photosynthesis and dissolving into water pull carbon dioxide out of the air. Plants, animals, and decomposers all release carbon dioxide through cellular respiration, including the aspen trees themselves; burning releases the carbon stored in wood.",
+      "misconception": "Plants only remove carbon dioxide and never release it, or decomposing leaves do not affect the air.",
+      "hint": "Which items build sugar from carbon dioxide or store it somewhere else? Which break sugar or wood back down?",
+      "followUpId": "L07-Q02",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle",
+        "pages": {
+          "printed": [
+            80,
+            81
+          ],
+          "pdf": [
+            116,
+            117
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            116
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Producers capture carbon dioxide in photosynthesis; plants and consumers such as a squirrel use sugar for energy and release carbon dioxide through cellular respiration."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle, Figure 3",
+          "supports": "Decomposers consume remains; burning a fuel releases carbon dioxide; carbon dioxide transfers between the atmosphere and water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Aspen-and-squirrel setting from the lesson opener (p. 77), processes from pp. 80-81 (Figure 3 rendered). Round 1 revision (2026-10-14): both reviewers passed the item; no change. It is now the follow-up for Q17 as well as Q02. Round 2 revision (2026-10-14): the explanation no longer says 'every living thing' respires carbon dioxide (not true of some microbes); it names plants, animals, and decomposers, and the separate decomposer clause is merged in. Bin labels spell out carbon dioxide for read-aloud. Items, answer map and rationales unchanged. It is now also the follow-up for Q15 and the new Q29. Verify-agent (2026-10-14): checked the p. 80 text (plants and a squirrel use sugar and release carbon dioxide) and the p. 81 Figure 3 render (photosynthesis, cellular respiration, transfer between air and water, combustion). Every item has one defensible bin. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation names plants, animals and decomposers instead of 'every living thing'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bin labels spell out carbon dioxide for read-aloud"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q12",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "photosynthesis",
+        "cellular-respiration",
+        "plants-respire",
+        "evidence"
+      ],
+      "familyId": "L07-F05",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A sealed clear jar holds a leafy water plant and a CO₂ sensor. In bright light, the CO₂ level slowly falls. In dim light, it holds steady. In darkness, it rises. What best explains the rise in the dark?",
+      "accessiblePrompt": "A sealed clear jar holds a leafy water plant and a sensor that measures carbon dioxide. In bright light, the carbon dioxide level slowly falls. In dim light, it holds steady. In darkness, it rises. What best explains the rise in the dark?",
+      "conditions": "The jar is sealed, and the plant is the only living thing inside. Dim light still lets the plant photosynthesize, only more slowly than bright light.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Plants switch from photosynthesis to respiration only in the dark.",
+          "rationale": "If plants respired only in the dark, the level would keep falling in dim light, where the plant still photosynthesizes a little. It holds steady because respiration is releasing carbon dioxide as fast as dim light lets photosynthesis use it."
+        },
+        {
+          "id": "b",
+          "text": "Darkness causes new carbon atoms to form inside the sealed jar.",
+          "rationale": "Atoms are not created. The extra carbon dioxide carries carbon from the plant's own sugar."
+        },
+        {
+          "id": "c",
+          "text": "The sensor must read wrong in the dark, so the plant is doing nothing.",
+          "rationale": "There is no reason to throw out the data; cellular respiration explains the rise."
+        },
+        {
+          "id": "d",
+          "text": "The plant keeps respiring, but in the dark it can't photosynthesize.",
+          "rationale": "Correct. Respiration releases carbon dioxide all the time; photosynthesis needs light energy, so in the dark nothing uses the carbon dioxide up."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Plants carry out cellular respiration all the time, breaking down sugar for energy and releasing carbon dioxide. In bright light, photosynthesis uses carbon dioxide faster than respiration releases it, so the level falls. The steady level in dim light is the clue: the plant is releasing and using carbon dioxide at the same rate. In darkness, photosynthesis stops for lack of light energy, and respiration's carbon dioxide builds up.",
+      "misconception": "Plants only take in carbon dioxide, or they respire only at night.",
+      "hint": "What does photosynthesis need that is missing in the dark?",
+      "followUpId": "L07-Q02",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle",
+        "pages": {
+          "printed": [
+            80,
+            84
+          ],
+          "pdf": [
+            116,
+            120
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            116
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "The aquatic plant uses sugar for energy and, through cellular respiration, releases carbon dioxide just like the manatee."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            84
+          ],
+          "pdfPages": [
+            120
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Photosynthesis uses carbon dioxide and water along with energy from the sun to make sugars."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original sealed-jar data scenario; repairs \"plants only take in CO₂\" (guide guardrail: plants photosynthesize and respire). Drafted from printed pp. 80 and 84. Round 1 revision (2026-10-14): hint's second sentence (which process never stops) removed; difficulty raised to 3 because the learner reasons from data about two processes at once. Round 2 revision (2026-10-14): a dim-light reading (the level holds steady) lets the data, not memory, rule out choice a (respiration only in the dark); choice a's rationale and the explanation now use it. The reviser also added to the conditions that dim light still allows slow photosynthesis: without that, a steady level in dim light could mean neither process was running, and choice a would not be ruled out. Follow-up changed from Q13 to Q02 (respiration gives off carbon dioxide in plants too), which repairs this item's 'plants do not respire' idea. Key d, difficulty 3 and hint unchanged. The science pass was given before the dim-light reading was added, so the verifier should check it. Verify-agent (2026-10-14): checked pp. 80 and 84. Independent science check of the dim-light reading: a steady level means respiration releases carbon dioxide as fast as slow photosynthesis uses it (the light compensation point), so with the added condition the data rule out choice a, and only d explains the rise in the dark. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint drops the give-away second sentence; difficulty 2 to 3"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: dim-light reading lets the data rule out choice a; follow-up Q13 to Q02"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q13",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "carbon-cycle",
+        "food-web",
+        "decomposers",
+        "tracing-atoms"
+      ],
+      "familyId": "L07-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A carbon atom starts in carbon dioxide dissolved in the water of a shallow coastal bay. It is then moved by four processes, in this order: photosynthesis, feeding, decomposition, cellular respiration. Put the four places it ends up in order.",
+      "accessiblePrompt": "A carbon atom starts in carbon dioxide dissolved in the water of a shallow coastal bay. It is then moved by four processes, in this order: first photosynthesis, then feeding, then decomposition, then cellular respiration. Put the four places where the atom ends up in order, from first to last.",
+      "items": [
+        {
+          "id": "manatee",
+          "text": "Part of a protein in a manatee's muscle",
+          "rationale": "Second: feeding moves the carbon from the seagrass into the manatee that eats it."
+        },
+        {
+          "id": "air",
+          "text": "Part of carbon dioxide released into the water or air",
+          "rationale": "Fourth: the bacterium's cellular respiration releases the carbon as carbon dioxide into the surrounding water or air."
+        },
+        {
+          "id": "grass",
+          "text": "Part of a sugar in a seagrass leaf",
+          "rationale": "First: photosynthesis builds the dissolved carbon dioxide into sugar."
+        },
+        {
+          "id": "bact",
+          "text": "Part of a decomposer bacterium's cell",
+          "rationale": "Third: after the manatee dies, decomposers break down its body and build the carbon into their own cells."
+        }
+      ],
+      "answer": [
+        "grass",
+        "manatee",
+        "bact",
+        "air"
+      ],
+      "ends": [
+        "First stop",
+        "Last stop"
+      ],
+      "explanation": "Each process hands the atom to a new reservoir: photosynthesis builds it into seagrass sugar, feeding moves it into the manatee, decomposition passes it to bacteria, and the bacteria's cellular respiration releases it as carbon dioxide. From there it could be used by seagrass again, which is what makes it a cycle.",
+      "misconception": "Carbon in a dead animal stays locked there or disappears, instead of passing to decomposers and back to the water or air.",
+      "hint": "Match each process to the place it delivers carbon to.",
+      "followUpId": "L07-Q11",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle",
+        "pages": {
+          "printed": [
+            80,
+            81
+          ],
+          "pdf": [
+            116,
+            117
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            116
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "An aquatic plant builds carbon into sugar by photosynthesis; when a manatee eats it, the carbon becomes part of the manatee's proteins or DNA; cellular respiration releases carbon to the nonliving environment."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "When the manatee dies, decomposers consume its remains and the carbon atom becomes part of the bacteria."
+        },
+        {
+          "type": "external",
+          "title": "Manatee Habitat",
+          "publisher": "Florida Fish and Wildlife Conservation Commission",
+          "url": "https://myfwc.com/wildlifehabitats/wildlife/manatee/habitat/",
+          "accessed": "2026-10-17",
+          "supports": "Seagrasses are underwater flowering plants of Florida's protected bays, lagoons, and other shallow coastal waters, and manatees eat every seagrass species found in Florida."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Path follows the textbook's manatee story (pp. 80-81) but the prompt gives processes, not places, so the learner must map each process to its reservoir. One defensible order. Round 1 revision (2026-10-14): the last stop now allows for the river: decomposer respiration releases carbon dioxide into the water first (Figure 3 labels the soil-to-air arrow 'Transfer'). Explanation and misconception adjusted to match. The order is unchanged and still unique. Round 2 revision (2026-10-14): both reviewers asked to move the start from a river to the water of a shallow coastal bay, because seagrasses grow in salty coastal water (the textbook's 'Florida river' on p. 81 sits beside a seagrass-like photo in Figure 3). Florida Fish and Wildlife Conservation Commission (opened 2026-10-17) says seagrasses live in protected bays, lagoons and shallow coastal waters and that manatees eat them; the same page loosely speaks of 'seagrass' beds in rivers, so the bay wording simply removes the doubt. Items, order, ends and rationales unchanged; the 'water or air' last stop fits a bay. Verify-agent (2026-10-14): checked the pp. 80-81 renders (aquatic plant sugar, the manatee's protein or DNA, decomposer bacteria). Re-opened FWC 'Manatee Habitat' (seagrasses grow in protected bays, lagoons and shallow coastal waters; manatees eat every Florida seagrass species). The processes are given in order, so only one sequence is defensible. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: last stop is carbon dioxide in the water or air, since a carcass in a river decays in the water"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: start moved from a river to the water of a shallow coastal bay (seagrass grows in coastal water)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: river changed to a shallow coastal bay in prompt and accessible prompt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q14",
+      "objectiveIds": [
+        "L07-O3",
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "decomposers",
+        "recycling",
+        "prediction"
+      ],
+      "familyId": "L07-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Imagine a forest floor with no decomposers at all. Fallen aspen leaves pile up year after year. What would most likely happen to the carbon and nitrogen in those leaves?",
+      "accessiblePrompt": "Imagine a forest floor with no decomposers at all. Fallen aspen leaves pile up year after year. What would most likely happen to the carbon and nitrogen atoms in those leaves?",
+      "conditions": "Thought experiment: no decomposers of any kind, including bacteria and fungi.",
+      "limitations": "Real forests always contain decomposers; this is a simplified prediction.",
+      "choices": [
+        {
+          "id": "f",
+          "text": "They would turn into soil once the dry leaves crumbled into small pieces.",
+          "rationale": "Crumbling only makes smaller pieces of dead leaf, even if they mix into the ground. The carbon and nitrogen stay inside leaf molecules until decomposers digest them and release carbon dioxide and ammonia."
+        },
+        {
+          "id": "b",
+          "text": "They would stay stuck in the dead leaves instead of being recycled.",
+          "rationale": "Correct. Decomposers are what turn dead leaves back into carbon dioxide and nitrogen compounds that producers can use."
+        },
+        {
+          "id": "c",
+          "text": "They would move into living trees faster, since the leaves are nearby.",
+          "rationale": "Trees cannot absorb carbon or nitrogen straight from intact dead leaves; decomposers have to break the leaves down first."
+        },
+        {
+          "id": "e",
+          "text": "Rain would wash them into the soil, so recycling would go on as usual.",
+          "rationale": "Rain washes out only a small share. Most of a leaf's carbon and nitrogen is locked in large, tough molecules that decomposers must break down first."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Decomposers are the recyclers. As they break down dead leaves, they release carbon dioxide into the air and nitrogen compounds such as ammonia into the soil, where producers can use them again. Without decomposers, those atoms would pile up in dead material and producers would gradually run short of nutrients like nitrogen.",
+      "misconception": "Dead matter returns its nutrients on its own, without decomposers, or crumbling a leaf is the same as decomposing it.",
+      "hint": "Think about what normally happens to a fallen leaf over a year or two, and what makes it happen.",
+      "followUpId": "L07-Q25",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle; 4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            81,
+            83
+          ],
+          "pdf": [
+            117,
+            119
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Decomposers consume remains; carbon from decomposers can be stored in soil and transferred between soil and atmosphere."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Decomposers break down wastes and remains of dead organisms, recycling their nutrients and returning nitrogen atoms to the soil."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Prediction item set among the opener's aspen leaves (p. 77 asks about decomposers feeding on fallen leaves). Drafted from printed pp. 81 and 83. Round 1 revision (2026-10-14): choice d (turn into energy) retired for new choice e, which carries the item's named misconception (nutrients return without decomposers). The reviewer's rationale said only decomposers break the molecules down; the reviser softened it to 'must break down first' because some leaching and physical breakdown do happen. Hint replaced. Round 2 revision (2026-10-14): choice a (atoms destroyed as the leaves dry), the recycled atoms-destroyed throwaway, retired for new choice f (crumbled leaves turn into soil); the misconception now names crumbling versus decomposing. The reviser added 'even if they mix into the ground' to f's rationale so it also answers a learner who pictures leaf crumbs mixed into soil. Key b, c and e unchanged. Verify-agent (2026-10-14): checked pp. 81 and 83. New choice f is wrong for the stated reason (crumbling is not decomposition); under the no-decomposers condition key b is the only defensible prediction. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: matter-to-energy distractor d replaced by new choice e (rain recycles leaves without decomposers); hint no longer states the reasoning"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: atoms-destroyed choice a replaced by new choice f (crumbled leaves become soil)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q15",
+      "objectiveIds": [
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "fossil-fuels",
+        "evidence",
+        "carbon-cycle"
+      ],
+      "familyId": "L07-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A geologist splits open a chunk of coal and finds the imprint of a fern leaf inside it. Using this evidence and what you know about how plants grow, where did the carbon in coal most likely come from?",
+      "accessiblePrompt": "A geologist splits open a chunk of coal and finds the imprint of a fern leaf inside it. Using this evidence and what you know about how plants grow, where did the carbon in coal most likely come from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heat deep inside Earth created new carbon atoms that formed coal.",
+          "rationale": "Carbon atoms are not created. Heat and pressure change buried remains, but the carbon was already in them."
+        },
+        {
+          "id": "f",
+          "text": "The imprint is just a pattern in the rock and says nothing about coal.",
+          "rationale": "The leaf shape is preserved inside the coal, so it formed with the coal and is real evidence of plant origin."
+        },
+        {
+          "id": "c",
+          "text": "Ancient plants took it from the air and were buried, becoming coal.",
+          "rationale": "Correct. Plant fossils inside coal show it formed from plants that captured carbon dioxide by photosynthesis long ago."
+        },
+        {
+          "id": "e",
+          "text": "Ancient ferns absorbed it from the soil through their roots.",
+          "rationale": "Roots take in water and minerals, but a plant's carbon comes from carbon dioxide in the air."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Fossil plant parts inside coal are evidence that coal formed from ancient plants. Those plants pulled carbon dioxide from the air by photosynthesis. After they died, layers of sediment and rock buried them, and over millions of years heat and pressure turned the carbon-rich remains into coal.",
+      "misconception": "Fossil fuels are made of carbon that formed underground, or plants build their bodies from carbon in the soil rather than from the air.",
+      "hint": "Where do plants get the carbon they use to build leaves?",
+      "followUpId": "L07-Q11",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle; 5. Designing Carbon Capture Solutions",
+        "pages": {
+          "printed": [
+            81,
+            86
+          ],
+          "pdf": [
+            117,
+            122
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Fossil fuels contain the energy stored in the remains of ancient organisms; carbon stored underground for millions of years may form fossil fuels."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Carbon captured by photosynthesis becomes biomass, and biomass stored deep in Earth for millions of years becomes fossil fuels."
+        },
+        {
+          "type": "external",
+          "title": "Coal explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/coal/",
+          "accessed": "2026-10-14",
+          "supports": "Layers of dirt and rock covered ancient plants over millions of years, and the resulting pressure and heat turned them into coal."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Evidence-reasoning item. Burial \"under sediment and rock\" follows EIA rather than the textbook's \"layers of soil\" (L07-RF9). Drafted from printed pp. 81 and 86. Round 1 revision (2026-10-14): choice d (meteors) retired for new choice e, the soil-as-carbon-source misconception (guide guardrail); choice b retired for new choice f with clearer wording. Because the fern imprint alone shows plant origin but not air versus soil, the reviser added 'and what you know about how plants grow' to the prompt so exactly one answer is defensible; the existing hint (where plants get their carbon) separates c from e. Round 2 revision (2026-10-14): follow-up changed from Q02 to Q11, whose photosynthesis row teaches that plants take carbon dioxide from the air, the idea this item's soil-carbon misconception needs. Verify-agent (2026-10-14): checked pp. 81 and 86; burial wording follows EIA (L07-RF9). With 'what you know about how plants grow' in the prompt, only c is defensible. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: meteor distractor d replaced by new choice e (carbon from soil); awkward b replaced by new choice f"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up Q02 to Q11"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q16",
+      "objectiveIds": [
+        "L07-O4",
+        "L07-O2"
+      ],
+      "conceptTags": [
+        "fossil-fuels",
+        "combustion",
+        "climate-change",
+        "conservation-of-matter"
+      ],
+      "familyId": "L07-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "What does burning coal, oil, and natural gas do to the carbon cycle?",
+      "accessiblePrompt": "What does burning coal, oil, and natural gas do to the carbon cycle?",
+      "choices": [
+        {
+          "id": "f",
+          "text": "It turns the fuel's carbon into ash and soot that settle on the ground.",
+          "rationale": "A little ash and soot form, but most of the carbon leaves as invisible carbon dioxide gas that mixes into the air."
+        },
+        {
+          "id": "b",
+          "text": "It quickly moves long-buried carbon into the air as carbon dioxide.",
+          "rationale": "Correct. Carbon that was locked away for millions of years reaches the air in moments."
+        },
+        {
+          "id": "e",
+          "text": "It returns carbon that plants pulled from the air only last year.",
+          "rationale": "That describes burning recently grown wood. Fossil-fuel carbon has been out of the air for millions of years, so burning it adds extra carbon dioxide."
+        },
+        {
+          "id": "d",
+          "text": "It pulls carbon dioxide out of the air and stores it underground again.",
+          "rationale": "That is backward. Burning releases carbon dioxide; it does not store it."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Fossil fuels hold carbon that sat deep underground for millions of years, out of the fast-moving part of the cycle. Burning combines that carbon with oxygen and releases it as carbon dioxide in moments. The atoms are not new, but the extra carbon dioxide in the air is, and it is causing global climate change.",
+      "misconception": "Burning leaves a fuel's carbon behind as solid ash, or fossil-fuel carbon is recent carbon, so burning it only returns what plants just took from the air.",
+      "hint": "Combustion is a reaction between a fuel and oxygen. Where was the fuel's carbon before, and where does it go?",
+      "followUpId": "L07-Q05",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle; 5. Designing Carbon Capture Solutions",
+        "pages": {
+          "printed": [
+            81,
+            86
+          ],
+          "pdf": [
+            117,
+            122
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Combustion is a reaction of a fuel with oxygen; burning carbon in fuels releases carbon dioxide."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Using fossil fuels for energy releases carbon into the atmosphere as carbon dioxide, causing global climate change."
+        },
+        {
+          "type": "external",
+          "title": "The Carbon Cycle",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Burning fossil fuels moves carbon from the slow carbon cycle to the fast cycle."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 81 and 86; slow-to-fast framing from NASA Earth Observatory (opened 2026-10-14). Round 1 revision (2026-10-14): prompt now matches the glossary (natural gas, not gasoline); key b reworded (same claim, same id) so it reads aloud cleanly. Choice c (oxygen turned into carbon) retired for new choice e, which tests the item's real point: fossil carbon is old carbon. The reviewer's rationale said 'this year's firewood'; the reviser wrote 'recently grown wood' to match the choice's 'last year'. This separates Q16 from Q17. Round 2 revision (2026-10-14): choice a (burning destroys carbon atoms), the recycled atoms-destroyed throwaway it shared with Q17, retired for new choice f (the carbon becomes ash and soot); the misconception now names that idea. Key b, e and d unchanged. Verify-agent (2026-10-14): checked pp. 81 and 86; re-opened NASA Earth Observatory 'The Carbon Cycle' (burning fossil fuels moves carbon from the slow cycle to the fast cycle). New choice f is wrong as stated (most of the carbon leaves as carbon dioxide). No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt uses natural gas, key b spells out carbon dioxide, conservation distractor c replaced by new choice e (recent versus fossil carbon)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: atoms-destroyed choice a replaced by new choice f (carbon left behind as ash and soot)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q17",
+      "objectiveIds": [
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "reforestation",
+        "combustion",
+        "carbon-storage",
+        "evaluating-solutions"
+      ],
+      "familyId": "L07-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A reforestation project stored carbon in young trees for twenty years. Then a wildfire burned much of the forest. What should engineers take from this when they compare future carbon-capture plans?",
+      "accessiblePrompt": "A reforestation project stored carbon in young trees for twenty years. Then a wildfire burned much of the forest. What should engineers take from this when they compare future carbon-capture plans?",
+      "choices": [
+        {
+          "id": "g",
+          "text": "Once trees capture carbon, it stays out of the air even if they burn.",
+          "rationale": "Burning joins the wood's carbon with oxygen and sends it back into the air as carbon dioxide; only some stays behind in ash and charcoal."
+        },
+        {
+          "id": "f",
+          "text": "Stored carbon can return to the air, so how long it stays stored matters.",
+          "rationale": "Correct. Fire is combustion, so much of the wood's carbon rejoined the air as carbon dioxide. A plan has to keep carbon out of the air for a long time, not only capture it fast."
+        },
+        {
+          "id": "h",
+          "text": "Burned forests quickly turn into coal, so the carbon stays safely stored anyway.",
+          "rationale": "Coal forms only after remains are buried under sediment and rock for millions of years. A fire returns carbon to the air within hours."
+        },
+        {
+          "id": "i",
+          "text": "Planting trees can never capture carbon, so engineers should give it up.",
+          "rationale": "The forest did capture carbon for twenty years, and forests that survive keep storing it. The lesson is to weigh fire risk, not to drop the idea."
+        }
+      ],
+      "answer": "f",
+      "explanation": "Burning is combustion: the wood's carbon joins oxygen and returns to the air as carbon dioxide. So a forest stores carbon only while its wood stays intact. Engineers have to weigh how long a site's trees are likely to last, given fire, clearing and decay, and not just how fast they grow.",
+      "misconception": "Carbon captured by a forest is locked away for good, or one setback means reforestation can never work.",
+      "hint": "Burning wood is the same kind of reaction as burning coal. Where does the wood's carbon end up, and what does that mean for the project?",
+      "followUpId": "L07-Q11",
+      "scope": {
+        "lessonId": "L07",
+        "section": "3. The Carbon Cycle; 5. Designing Carbon Capture Solutions",
+        "pages": {
+          "printed": [
+            81,
+            86,
+            87
+          ],
+          "pdf": [
+            117,
+            122,
+            123
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Wood is a fuel that stores energy from photosynthesis; when carbon in fuels is burned with oxygen, carbon dioxide is released."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Reforestation captures carbon from the atmosphere and stores it in tree body structures as biomass."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            87
+          ],
+          "pdfPages": [
+            123
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions, photo caption",
+          "supports": "Photosynthesis stores carbon in plant cells, so planting trees and other producers that live for many years can help remove excess carbon dioxide from the air."
+        },
+        {
+          "type": "external",
+          "title": "The Carbon Cycle",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+          "accessed": "2026-10-17",
+          "supports": "Removing forests, often through fire, releases carbon dioxide, and forests that burn release carbon from the plants and the soil into the atmosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Adds the permanence limit the textbook leaves out of section 5 (L07-RF10). Uses only textbook chemistry (p. 81 combustion of wood). Round 1 revision (2026-10-14): choice d (turns into heat and light) retired for new choice e about how slowly coal forms. Follow-up now Q11, whose campfire row covers combustion adding carbon dioxide. Round 2 revision (2026-10-14): rewritten on the pedagogy reviewer's instruction. The old stem asked only where the burned wood's carbon goes, the same fact as Q11's campfire row, and never asked about the permanence limit it was written for (L07-RF10, objective O4). The new stem asks what the wildfire means when engineers compare carbon-capture plans. Old choices a, b, c and e retired; new ids f-i (key f). The reviewer's pp. 81 and 86 records are kept; the reviser added the p. 87 photo caption (producers that live for many years) and NASA Earth Observatory's carbon-cycle page (burning forests release their carbon; opened 2026-10-17) because they support the new key, and scope now includes p. 87. Family F07, O4, application, difficulty 2 and follow-up Q11 unchanged. The science pass recorded in this round was given on the old version, so the rewritten item still needs an independent science check. Verify-agent (2026-10-14): independent science check of the round 2 rewrite: checked p. 81 (wood is a fuel; burning releases carbon dioxide), p. 86 (reforestation stores carbon as biomass) and the p. 87 photo caption on the render; re-opened NASA Earth Observatory 'The Carbon Cycle' (forests removed, often through fire, release carbon dioxide). Key f is correct and is the only defensible lesson for comparing plans; g, h and i each fail for the stated reason. No emergency advice. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: matter-to-energy distractor d replaced by new choice e (coal forms in a few years); followUpId Q26 to Q11"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten to ask what the wildfire means for judging carbon-capture plans; new choices f-i"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q18",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "nitrogen-fixation",
+        "nitrogen-gas",
+        "plants"
+      ],
+      "familyId": "L07-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Air is about 78 percent nitrogen gas, and every plant is surrounded by it. So why can crops still run short of nitrogen?",
+      "accessiblePrompt": "Air is about 78 percent nitrogen gas, and every plant is surrounded by it. So why can crops still run short of nitrogen?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Roots take in nitrogen gas from air spaces in the soil, but there is too little.",
+          "rationale": "Roots cannot use nitrogen gas either (in peanut roots, bacteria living there do the fixing), and the air in soil holds plenty of it. Roots take in nitrogen only after it has been fixed into compounds such as ammonia and nitrates."
+        },
+        {
+          "id": "b",
+          "text": "Nitrogen gas exists only high in the atmosphere, far above crops.",
+          "rationale": "Nitrogen gas is mixed all through the air, right down to the ground and into soil."
+        },
+        {
+          "id": "c",
+          "text": "Plants can't use nitrogen gas until it is fixed into compounds like ammonia.",
+          "rationale": "Correct. Nitrogen gas must first be changed into compounds such as ammonia and nitrates, which roots absorb from the soil."
+        },
+        {
+          "id": "d",
+          "text": "Plants get all their nitrogen from rainwater, and it does not rain enough.",
+          "rationale": "Rain brings only a small share. Most usable nitrogen comes from bacteria and decomposers in the soil, and from fertilizer."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Nitrogen gas is everywhere, but most organisms cannot use it directly. It has to be fixed first: bacteria, and to a smaller degree lightning, change it into compounds such as ammonia and nitrates in the soil. Producers absorb those compounds through their roots, so the soil's supply of fixed nitrogen often limits how well crops grow.",
+      "misconception": "Plants take in nitrogen gas from the air, through their leaves or roots, the way they take in carbon dioxide.",
+      "hint": "Compare the form nitrogen takes in the air with the forms roots take in from the soil.",
+      "followUpId": "L07-Q21",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82
+          ],
+          "pdf": [
+            118
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "About 78 percent of the atmosphere is nitrogen gas, yet few organisms can use nitrogen in that form; nitrogen fixation converts it into usable molecules, and available nitrates limit producer growth."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.3 Biogeochemical Cycles",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "accessed": "2026-10-14",
+          "supports": "Primary production in many ecosystems is limited by the available supply of nitrogen."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief guardrail: do not confuse nitrogen fixation with plant absorption of nitrogen gas. \"Often limits\" follows L07-RF7. Drafted from printed p. 82. Round 1 revision (2026-10-14): hint replaced; nothing else changed. Round 2 revision (2026-10-14): choice a (leaves absorb nitrogen gas but the air holds too little) was ruled out by the stem's own 78 percent figure and repeated Q19 d and Q25 f; retired for new choice e (roots take in nitrogen gas from soil air). The reviser added a peanut-root clause to e's rationale so it agrees with Q19 d (bacteria in peanut roots do the fixing) and wrote 'holds plenty of it' for soil air. The misconception now names roots as well as leaves. Key c, b and d unchanged. Verify-agent (2026-10-14): checked the p. 82 render (78 percent nitrogen gas; few organisms can use it; fixation; nitrates limit growth). New choice e is wrong for the stated reasons and agrees with Q19 d. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: yes/no hint replaced with a comparison prompt"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: self-refuting choice a replaced by new choice e (roots take in nitrogen gas from soil air)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q19",
+      "objectiveIds": [
+        "L07-O1"
+      ],
+      "conceptTags": [
+        "nitrogen-fixation",
+        "lightning",
+        "bacteria",
+        "fertilizer"
+      ],
+      "familyId": "L07-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which of these can change nitrogen gas from the air into nitrogen compounds that plants can use? Select all that apply.",
+      "accessiblePrompt": "Which of these can change nitrogen gas from the air into nitrogen compounds that plants can use? Select all that apply.",
+      "limitations": "\"Factories\" means industrial plants that make nitrogen fertilizer from nitrogen gas in the air.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nitrogen-fixing bacteria in soil and roots",
+          "rationale": "Correct. These bacteria do most of the natural nitrogen fixing on Earth, including in the roots of peanut plants."
+        },
+        {
+          "id": "b",
+          "text": "Denitrifying bacteria in soil",
+          "rationale": "These bacteria do the reverse job, turning nitrogen compounds back into nitrogen gas."
+        },
+        {
+          "id": "c",
+          "text": "Lightning flashing through the air",
+          "rationale": "Correct. Lightning's energy makes nitrogen react with oxygen, and rain carries the products down as nitrates."
+        },
+        {
+          "id": "d",
+          "text": "Corn leaves taking in the gas directly",
+          "rationale": "Plants cannot fix nitrogen gas themselves. Even peanut plants rely on bacteria living in their roots."
+        },
+        {
+          "id": "e",
+          "text": "Factories that make nitrogen fertilizer",
+          "rationale": "Correct. Your textbook names only lightning and bacteria, but today factories use high heat and pressure to turn nitrogen gas into ammonia for fertilizer, a third way to fix nitrogen."
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "e"
+      ],
+      "explanation": "Changing nitrogen gas into usable compounds is called nitrogen fixation. Bacteria do most of the natural fixing, and lightning's energy also makes nitrogen react with oxygen, forming compounds that rain carries down. Today, factories fix huge amounts of nitrogen to make fertilizer. Denitrifying bacteria work in the opposite direction, and plants cannot fix nitrogen on their own.",
+      "misconception": "Plants can take nitrogen gas straight from the air, or nitrogen fixation happens only in living things.",
+      "hint": "Fixing starts with nitrogen gas and ends with a usable compound. Check where each choice starts and ends.",
+      "followUpId": "L07-Q21",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82,
+            83
+          ],
+          "pdf": [
+            118,
+            119
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Nitrogen fixation happens through lightning and through nitrogen-fixing bacteria in soil and in the roots of plants such as peanuts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Denitrifying bacteria convert nitrogen-based molecules into nitrogen gas."
+        },
+        {
+          "type": "external",
+          "title": "An Overview of Key Soil Nitrogen Cycling Transformations (SL471/SS684)",
+          "publisher": "University of Florida IFAS Extension (EDIS)",
+          "url": "https://ask.ifas.ufl.edu/publication/SS684",
+          "accessed": "2026-10-14",
+          "supports": "The Haber-Bosch process uses very high temperatures and pressure to break apart N₂ and is used worldwide to make synthetic fertilizers; lightning also aids N₂ fixation."
+        },
+        {
+          "type": "external",
+          "title": "Lightning Strikes",
+          "publisher": "EarthDate (Switch Energy Alliance)",
+          "url": "https://www.earthdate.org/episodes/lightning-strikes",
+          "accessed": "2026-10-14",
+          "supports": "Lightning breaks apart nitrogen molecules so they can combine with oxygen to form nitrogen oxides, which dissolve in rain to form nitrates."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Keys industrial fixation, which the textbook omits (p. 82 says only two ways; L07-RF5), with UF/IFAS as the source. Lightning rationale gives nitrates, not the textbook's \"ammonia\" (L07-RF4). 3 of 5 correct. Round 1 revision (2026-10-14): hint no longer says 'three'. Choice e's rationale now tells a learner who trusted the textbook (p. 82: only lightning and bacteria) why factories also count. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked pp. 82-83; re-opened UF/IFAS EDIS SS684 (Haber-Bosch fixation is used worldwide to make fertilizer; lightning adds a small amount through rain). [a, c, e] is the only defensible set (3 of 5); the limitation defines 'factories'. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives the number of correct answers; choice e rationale names the textbook version before correcting it"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q20",
+      "objectiveIds": [
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "fertilizer",
+        "legumes",
+        "evidence",
+        "limiting-nutrient"
+      ],
+      "familyId": "L07-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Students grew corn in three plots of the same nitrogen-poor soil, with equal water and sunlight. Plot A got nothing extra. Plot B got nitrate fertilizer. Plot C grew peanuts the year before. Which conclusion do the results support?",
+      "accessiblePrompt": "Students grew corn in three plots of the same nitrogen-poor soil, with equal water and sunlight. Plot A got nothing extra and produced 20 kilograms of corn. Plot B got nitrate fertilizer and produced 46 kilograms. Plot C had grown peanuts the year before and produced 38 kilograms. Which conclusion do the results support?",
+      "diagram": {
+        "kind": "bars",
+        "caption": "Corn harvest from three test plots (invented example data)",
+        "alt": "Bar graph of corn harvest in kilograms per plot. Plot A, no added nitrogen: 20 kilograms. Plot B, nitrate fertilizer: 46 kilograms. Plot C, peanuts grown the year before: 38 kilograms.",
+        "yLabel": "Corn harvest (kg per plot)",
+        "bars": [
+          {
+            "label": "A: nothing added",
+            "value": 20
+          },
+          {
+            "label": "B: nitrate fertilizer",
+            "value": 46
+          },
+          {
+            "label": "C: peanuts last year",
+            "value": 38
+          }
+        ]
+      },
+      "conditions": "Same soil, water, sunlight, and corn variety in every plot. The numbers are an invented example.",
+      "limitations": "One trial with one plot per treatment; real studies repeat their trials. The peanut plot's gain is assumed to come from fixed nitrogen; rotating crops can also raise yields in other ways.",
+      "choices": [
+        {
+          "id": "f",
+          "text": "Plot C came in behind Plot B, so the peanuts most likely added no useful nitrogen.",
+          "rationale": "Plot C still grew 18 kilograms more than Plot A. Finishing behind fertilizer is not the same as adding nothing; compare each treatment with the untreated plot."
+        },
+        {
+          "id": "b",
+          "text": "Both treated plots beat Plot A, so added nitrogen likely helped in this soil.",
+          "rationale": "Correct. Both treated plots beat Plot A, and the claim stays within this one test and says 'likely', since the peanut plot could have gained in other ways too."
+        },
+        {
+          "id": "c",
+          "text": "Corn got plenty of nitrogen from the air, so extra nitrogen did not matter.",
+          "rationale": "Plot A, with no extra nitrogen, grew the least corn, so the extra nitrogen clearly mattered. Corn cannot use nitrogen gas from the air."
+        },
+        {
+          "id": "d",
+          "text": "Fertilizer will always give the biggest harvest, whatever the soil is like.",
+          "rationale": "This stretches one test in one nitrogen-poor soil into a rule for all soils, which the data cannot support."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Both treatments that added usable nitrogen beat the plot with nothing added, which supports the idea that nitrogen was limiting corn growth in this soil. Fertilizer supplied nitrates directly, and the peanut plot most likely gained fixed nitrogen left by the bacteria in last year's peanut roots and leftover plant parts. Because it is one test in one soil, it cannot prove what will happen on every farm.",
+      "misconception": "One experiment proves a rule for every situation, a treatment that comes second added nothing, or crops get enough nitrogen from the air.",
+      "hint": "Compare each treated plot with Plot A, then ask how far one test can be stretched.",
+      "followUpId": "L07-Q22",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82
+          ],
+          "pdf": [
+            118
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Farmers plant crops like peanuts to improve soil nitrogen because the plants house nitrogen-fixing bacteria in their roots, and they add nitrate fertilizers because available nitrates limit how well producers grow."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.3 Biogeochemical Cycles",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "accessed": "2026-10-14",
+          "supports": "Many ecosystem processes such as primary production are limited by available nitrogen, while phosphorus is often the limiting nutrient in aquatic ecosystems."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original invented data; distinguishes evidence from overgeneralization. Soil stated as nitrogen-poor because nitrogen is not limiting everywhere (L07-RF7). Drafted from printed p. 82. Round 1 revision (2026-10-14): choice a (peanuts beat fertilizer everywhere) retired for new choice e, which tests reading the controlled variables; e was written slightly longer than the reviewer's text so the key is not the longest option. Key b reworded with 'likely' (same claim, same id), consistent with the science reviewer's request to separate evidence from explanation. Round 2 revision (2026-10-14): choice e (Plot A got less water and sunlight) was contradicted word for word by the stem; retired for new choice f (Plot C trailing Plot B means the peanuts added nothing), a real wrong-baseline reading error whose 'most likely' means the key is no longer the only hedged choice. Misconception updated. Key b, c, d, the diagram, conditions and hint unchanged. Verify-agent (2026-10-14): checked the p. 82 render (peanuts house nitrogen-fixing bacteria; fertilizers include nitrates). Independent check of new choice f: Plot C (38 kg) beat Plot A (20 kg), so f's conclusion does not follow. Bar values, alt text and accessible prompt agree. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation hedges the peanut-plot nitrogen inference; limitations name other rotation effects"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute distractor a replaced by new choice e (controlled variables); key b hedged with likely"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: self-refuting choice e replaced by new choice f (wrong baseline); key no longer the only hedged choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q21",
+      "objectiveIds": [
+        "L07-O1"
+      ],
+      "conceptTags": [
+        "nitrogen-cycle",
+        "bacteria",
+        "decomposers",
+        "producers"
+      ],
+      "familyId": "L07-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Living things do most of the work in the nitrogen cycle. Match each group to the job it does.",
+      "accessiblePrompt": "Living things do most of the work in the nitrogen cycle. Match each of five groups of organisms to the job it does.",
+      "left": [
+        {
+          "id": "fixer",
+          "text": "Nitrogen-fixing bacteria",
+          "rationale": "They capture nitrogen gas from the air and make ammonia."
+        },
+        {
+          "id": "nitrifier",
+          "text": "Nitrifying bacteria",
+          "rationale": "They change ammonia into nitrates."
+        },
+        {
+          "id": "denit",
+          "text": "Denitrifying bacteria",
+          "rationale": "They undo fixation, turning nitrates back into nitrogen gas."
+        },
+        {
+          "id": "decomp",
+          "text": "Decomposers",
+          "rationale": "They break down proteins in wastes and dead remains, releasing ammonia into the soil."
+        },
+        {
+          "id": "producer",
+          "text": "Producers",
+          "rationale": "Plants absorb nitrogen compounds through their roots and build proteins with them."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Change nitrates back into nitrogen gas"
+        },
+        {
+          "id": "r2",
+          "text": "Absorb nitrogen compounds to build proteins"
+        },
+        {
+          "id": "r3",
+          "text": "Turn nitrogen gas into ammonia"
+        },
+        {
+          "id": "r4",
+          "text": "Break down wastes and remains, releasing ammonia"
+        },
+        {
+          "id": "r5",
+          "text": "Turn ammonia into nitrates"
+        }
+      ],
+      "answer": {
+        "fixer": "r3",
+        "nitrifier": "r5",
+        "denit": "r1",
+        "decomp": "r4",
+        "producer": "r2"
+      },
+      "explanation": "Nitrogen-fixing bacteria bring nitrogen in from the air by turning nitrogen gas into ammonia. Nitrifying bacteria convert ammonia into nitrates, which producers absorb to build proteins. Decomposers release ammonia from wastes and remains, and denitrifying bacteria send nitrogen back to the air as gas.",
+      "misconception": "Nitrogen-fixing and denitrifying bacteria do the same job, or plants make ammonia from nitrogen gas themselves.",
+      "hint": "Start with the pair you are surest of, then ask what each remaining group starts with and what it makes.",
+      "followUpId": "L07-Q19",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82,
+            83
+          ],
+          "pdf": [
+            118,
+            119
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Nitrogen-fixing bacteria convert nitrogen gas to ammonia; nitrifying bacteria convert ammonia into nitrates that producers need."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Decomposers break down wastes and remains; denitrifying bacteria convert nitrogen-based molecules into nitrogen gas."
+        },
+        {
+          "type": "external",
+          "title": "An Overview of Key Soil Nitrogen Cycling Transformations (SL471/SS684)",
+          "publisher": "University of Florida IFAS Extension (EDIS)",
+          "url": "https://ask.ifas.ufl.edu/publication/SS684",
+          "accessed": "2026-10-14",
+          "supports": "Soil microbes convert organic nitrogen to ammonium (mineralization); nitrification converts ammonium to nitrite and then nitrate; denitrification converts nitrate to N₂."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Decomposers keyed to ammonia rather than the textbook's \"nitrates and ammonia\" (L07-RF11). Drafted from printed pp. 82-83 (Figure 4 rendered). Round 1 revision (2026-10-14): explanation no longer implies the cycle has a start (brief: no single mandatory circuit). Hint replaced; difficulty lowered to 1 because the descriptions mirror the group names. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked pp. 82-83 and the Figure 4 render; decomposers keyed to ammonia per UF/IFAS (L07-RF11). One-to-one matching. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer says fixers 'start the cycle'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer hands over three matches; difficulty 2 to 1"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q22",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "nitrogen-cycle",
+        "tracing-atoms",
+        "food-chain"
+      ],
+      "familyId": "L07-F09",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "A nitrogen atom starts in nitrogen gas above a cornfield. Put these stops in the order the atom reaches them along this one path.",
+      "accessiblePrompt": "A nitrogen atom starts in nitrogen gas in the air above a cornfield. Put the four stops in the order the atom reaches them along this one path, from first to last.",
+      "items": [
+        {
+          "id": "nit",
+          "text": "A nitrate in the soil, made by nitrifying bacteria",
+          "rationale": "Second: nitrifying bacteria can only make nitrate from ammonia that already exists."
+        },
+        {
+          "id": "mouse",
+          "text": "A protein in a mouse that ate the corn",
+          "rationale": "Fourth: the mouse gets the nitrogen by eating corn and building it into its own proteins."
+        },
+        {
+          "id": "amm",
+          "text": "Ammonia in the soil, made by nitrogen-fixing bacteria",
+          "rationale": "First: nitrogen-fixing bacteria take the atom out of nitrogen gas and make ammonia."
+        },
+        {
+          "id": "corn",
+          "text": "A protein in a corn leaf, built from a nitrate its roots absorbed",
+          "rationale": "Third: the corn needs the nitrate before it can build the atom into a protein."
+        }
+      ],
+      "answer": [
+        "amm",
+        "nit",
+        "corn",
+        "mouse"
+      ],
+      "ends": [
+        "First stop after the air",
+        "Last stop"
+      ],
+      "explanation": "First, nitrogen-fixing bacteria turn nitrogen gas into ammonia. Nitrifying bacteria then change ammonia into nitrates, which corn roots absorb and use to build proteins. When a mouse eats the corn, it digests those proteins and builds its own. Other paths exist too: plants can absorb ammonia directly, and denitrifying bacteria can send nitrates back to the air.",
+      "misconception": "Plants take nitrogen straight from the air, or nitrates come before ammonia.",
+      "hint": "What does each kind of bacteria start with?",
+      "followUpId": "L07-Q18",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82,
+            83
+          ],
+          "pdf": [
+            118,
+            119
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Nitrogen-fixing bacteria make ammonia from nitrogen gas; nitrifying bacteria convert ammonia into nitrates that producers use to build nitrogen-based molecules."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle, Figure 4",
+          "supports": "Consumers get nitrogen-based molecules by eating producers (feeding arrow from producers to consumers)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each item names its source, so only one order is defensible. Drafted from printed pp. 82-83 (Figure 4 rendered at 200 dpi). Round 1 revision (2026-10-14): both reviewers passed the item; difficulty lowered to 1 under the pedagogy reviewer's lesson-level difficulty-spread fix. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked pp. 82-83 and the Figure 4 render (feeding arrow from producers to consumers). Each stop names what made it, so only one order is defensible. 'Above a cornfield' is scene wording, not a layout cue. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: difficulty 2 to 1 (lesson-level difficulty-spread fix; item verdict pass)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q23",
+      "objectiveIds": [
+        "L07-O4",
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "denitrification",
+        "prediction",
+        "nitrogen-cycle"
+      ],
+      "familyId": "L07-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Imagine all the denitrifying bacteria on Earth suddenly stopped working. Over a long time, what would most likely happen?",
+      "accessiblePrompt": "Imagine all the denitrifying bacteria on Earth suddenly stopped working. Over a long time, what would most likely happen?",
+      "conditions": "Thought experiment: only denitrification stops; every other process carries on.",
+      "limitations": "Real nitrogen cycles have more paths than the textbook model shows, so this is a simplified prediction.",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Plants would soon run short of the usable nitrogen compounds their roots take in.",
+          "rationale": "That mixes up denitrifiers with fixers. Denitrifiers remove usable nitrogen from soil, so without them more would stay, not less."
+        },
+        {
+          "id": "b",
+          "text": "The air would completely run out of nitrogen gas within a few days.",
+          "rationale": "The air is a gigantic nitrogen reservoir, about 78 percent nitrogen gas, and fixation removes it only slowly."
+        },
+        {
+          "id": "c",
+          "text": "Lightning would stop fixing nitrogen, because the whole cycle is broken.",
+          "rationale": "Lightning does not depend on bacteria. It would keep fixing nitrogen as before."
+        },
+        {
+          "id": "d",
+          "text": "Fixed nitrogen would pile up in soil and water, with little returning to the air.",
+          "rationale": "Correct. Denitrification is the main route that returns fixed nitrogen to the air, so without it fixed nitrogen would pile up."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Denitrifying bacteria are the main route that returns fixed nitrogen to the air as nitrogen gas. Without them, fixation would keep pulling nitrogen out of the air while little went back, so nitrogen compounds would slowly accumulate in soils and water. The atmosphere's enormous supply of nitrogen gas would not vanish quickly, though.",
+      "misconception": "Denitrifiers supply plants with nitrogen the way fixers do, or losing one part of a cycle makes everything stop at once.",
+      "hint": "Denitrifiers take nitrogen from where, and send it where?",
+      "followUpId": "L07-Q25",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82,
+            83
+          ],
+          "pdf": [
+            118,
+            119
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Denitrifying bacteria convert nitrogen-based molecules such as nitrates and ammonia into nitrogen gas, returning nitrogen to the atmosphere."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "About 78 percent of the atmosphere is nitrogen gas; lightning and nitrogen-fixing bacteria fix it."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Prediction from the Figure 4 model. Drafted from printed pp. 82-83. Round 1 revision (2026-10-14): key d reworded (same claim, same id). Choice a (instantly lose every source) retired for new choice e, the fixer/denitrifier mix-up; e was written slightly longer than the reviewer's text so the key is not the longest option. Choice b keeps its absolute wording, which the reviewer left in place. Round 2 revision (2026-10-14): key d no longer says the compounds would 'not return to the air', an absolute that clashed with the explanation ('the main route', 'little went back') and with other routes such as anammox bacteria; it now says little would return, and its rationale says 'the main route'. The reviewer's 'with little going back to the air' made d one character longer than choice e, so the reviser wrote 'with little returning to the air' (ties e at 81 characters, as the reviewer required). Same claim, same id. Verify-agent (2026-10-14): checked pp. 82-83 and the p. 85 text box. Key d ('with little returning to the air') is correct and matches the explanation; the other choices fail for the stated reasons. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key d no longer says compounds build up 'instead of the air'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute distractor a replaced by new choice e (fixer/denitrifier confusion)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key d says little nitrogen would go back to the air, not none"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q24",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "consumers",
+        "proteins",
+        "amino-acids",
+        "nitrogen-cycle"
+      ],
+      "familyId": "L07-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Peanuts are rich in protein. When you eat peanuts, how does your body get the nitrogen it needs to build its own proteins?",
+      "accessiblePrompt": "Peanuts are rich in protein. When you eat peanuts, how does your body get the nitrogen it needs to build its own proteins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It takes the nitrates stored inside the peanuts and makes proteins with them.",
+          "rationale": "Your textbook's peanut example says this, but plants and many microbes can build proteins from nitrates; animals cannot. Your body needs amino acids, which come from the proteins you eat."
+        },
+        {
+          "id": "b",
+          "text": "It absorbs nitrogen gas from the air you breathe in, through your lungs.",
+          "rationale": "You breathe nitrogen gas in and out all day, but your body cannot use it."
+        },
+        {
+          "id": "c",
+          "text": "It turns the sugar in the peanuts into brand-new nitrogen atoms to use.",
+          "rationale": "Sugar contains no nitrogen, and digestion cannot change atoms of one element into another."
+        },
+        {
+          "id": "d",
+          "text": "It digests peanut proteins into amino acids and builds its own from them.",
+          "rationale": "Correct. Digestion splits food proteins into nitrogen-containing amino acids, which your cells link into your own proteins."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Consumers get nitrogen by eating. Digestion breaks the proteins in food into amino acids, which contain nitrogen, and your cells link those amino acids into your own proteins. Producers, along with many soil microbes, can build proteins from simple compounds like nitrates and ammonia; animals cannot.",
+      "misconception": "People use nitrates or nitrogen gas directly to make proteins, the way plants use nitrates.",
+      "hint": "Proteins are built from smaller building blocks. Where are those blocks in your food?",
+      "followUpId": "L07-Q22",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            82,
+            83,
+            85
+          ],
+          "pdf": [
+            118,
+            119,
+            121
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Consumers get the nitrogen-based molecules they need by eating producers or other consumers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "When you digest protein from food, your body gets rid of extra nitrogen-based molecules."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Producers use nitrates to form nitrogen-based molecules in their bodies."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 34.2 Nutrition and Energy Production",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+          "accessed": "2026-10-14",
+          "supports": "Protein breakdown provides amino acids used for cellular function, and some amino acids must be obtained from food because the body cannot make them."
+        },
+        {
+          "type": "external",
+          "title": "An Overview of Key Soil Nitrogen Cycling Transformations (SL471/SS684)",
+          "publisher": "University of Florida IFAS Extension (EDIS)",
+          "url": "https://ask.ifas.ufl.edu/publication/SS684",
+          "accessed": "2026-10-17",
+          "supports": "Soil microbes take up ammonium and nitrate (immobilization) to meet their own nitrogen needs and build it into their biomass."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the p. 83 sentence saying you use the peanut's nitrates to build proteins (L07-RF6); distractor a carries that mix-up. Corrected answer supported by OpenStax 34.2 (opened 2026-10-14). Round 1 revision (2026-10-14): choice a's rationale now tells a learner who trusted the p. 83 peanut sentence why it is wrong (L07-RF6). Round 2 revision (2026-10-14): choice a's rationale and the explanation no longer say that only plants (or only producers) can build proteins from nitrates; many microbes can too. UF/IFAS SS684 on immobilization (microbes take up ammonium and nitrate), re-opened 2026-10-17, is added to the evidence. Key d unchanged. Verify-agent (2026-10-14): checked pp. 82 and 83 and the p. 85 text box (digesting protein). Re-opened OpenStax 34.2 (protein breakdown supplies amino acids) and UF/IFAS SS684 (soil microbes take up ammonium and nitrate). No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale names the textbook version before correcting it"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale a and explanation say plants and many microbes, not only plants, build proteins from nitrates"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q25",
+      "objectiveIds": [
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "wastes",
+        "decomposers",
+        "branching-paths",
+        "nitrogen-cycle"
+      ],
+      "familyId": "L07-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Your body sends leftover nitrogen from your food out in your wastes. Where could those nitrogen atoms end up later? Select all that apply.",
+      "accessiblePrompt": "Your body sends leftover nitrogen from your food out in your wastes. Where could those nitrogen atoms end up later? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In ammonia, after decomposers break the wastes down",
+          "rationale": "Correct. Decomposers release nitrogen from wastes as ammonia in the soil or water."
+        },
+        {
+          "id": "f",
+          "text": "In a plant, after its leaves take in nitrogen gas from the air",
+          "rationale": "Plants cannot use nitrogen gas. In this model, nitrogen reaches plants as ammonia or nitrates that their roots absorb."
+        },
+        {
+          "id": "c",
+          "text": "In a plant, after soil bacteria make compounds its roots absorb",
+          "rationale": "Correct. Ammonia or nitrates made from the wastes can be absorbed by plant roots."
+        },
+        {
+          "id": "d",
+          "text": "In the air as nitrogen gas, released by denitrifying bacteria",
+          "rationale": "Correct. Denitrifying bacteria can turn the nitrogen compounds back into nitrogen gas."
+        },
+        {
+          "id": "g",
+          "text": "In sugar that a plant builds by photosynthesis",
+          "rationale": "Sugar contains only carbon, hydrogen, and oxygen; a plant puts nitrogen into proteins and DNA instead."
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "Nitrogen in wastes is not lost. Decomposers release it as ammonia; nitrifying bacteria can turn that into nitrates; plants can absorb those compounds; or denitrifying bacteria can turn them back into nitrogen gas. The same atom has several possible futures, which is why the cycle branches.",
+      "misconception": "The nitrogen cycle has only one route, plants can take in nitrogen gas through their leaves, or nitrogen can end up in sugar.",
+      "hint": "Picture the cycle diagram: from the soil, how many different arrows lead away?",
+      "followUpId": "L07-Q14",
+      "scope": {
+        "lessonId": "L07",
+        "section": "4. The Nitrogen Cycle",
+        "pages": {
+          "printed": [
+            83,
+            85
+          ],
+          "pdf": [
+            119,
+            121
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Decomposers break down wastes and return nitrogen atoms to the soil, where nitrogen may become part of a plant cell or be converted back into nitrogen gas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "When you digest protein from food, your body gets rid of extra nitrogen-based molecules."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Branching-path item (brief: do not force one mandatory circuit). 3 of 5 correct. Drafted from printed pp. 83 and 85. Round 1 revision (2026-10-14): prompt reworded to avoid a 6-word overlap with the p. 85 caption. Choices b and e retired for new choices f and g. The reviewer worded f as 'In a plant's leaves, which take in nitrogen gas from the air'; because a nitrogen atom from wastes really can reach a plant's leaves (via the roots), the reviser worded f as a route ('In a plant, after its leaves take in nitrogen gas from the air') so it is unambiguously wrong. Its rationale says 'in this model' because leaves can absorb tiny amounts of some nitrogen gases other than N₂. Answer stays [a, c, d]. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked p. 83 (a nitrogen atom may join a plant cell or return to the air as gas) and the p. 85 text box; [a, c, d] is the only defensible set (3 of 5). No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt reworded away from the p. 85 caption; conservation distractors b and e replaced by new choices f (leaves take in N₂) and g (nitrogen in sugar)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q26",
+      "objectiveIds": [
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "criteria",
+        "constraints",
+        "reforestation"
+      ],
+      "familyId": "L07-F11",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "An engineering team is planning a reforestation project to capture carbon. Sort each item: is it a criterion (a goal the solution must meet) or a constraint (a limit the solution must work within)?",
+      "accessiblePrompt": "An engineering team is planning a reforestation project to capture carbon. Sort each item into one of two groups. Criterion: a goal the solution must meet. Constraint: a limit the solution must work within.",
+      "items": [
+        {
+          "id": "remove",
+          "text": "Pull carbon dioxide out of the atmosphere",
+          "rationale": "Criterion: removing carbon dioxide is the main goal of the project."
+        },
+        {
+          "id": "cost",
+          "text": "Stay within the project's budget",
+          "rationale": "Constraint: money limits how many trees can be planted and where."
+        },
+        {
+          "id": "last",
+          "text": "Keep the captured carbon out of the air for many decades",
+          "rationale": "Criterion: the project only succeeds if the carbon stays stored; carbon that returns to the air quickly does not help."
+        },
+        {
+          "id": "homes",
+          "text": "Avoid land where people already live",
+          "rationale": "Constraint: existing homes limit which sites can be used."
+        },
+        {
+          "id": "roads",
+          "text": "Pick sites that existing roads can reach",
+          "rationale": "Constraint: road access limits which sites are affordable to plant."
+        }
+      ],
+      "bins": [
+        {
+          "id": "criterion",
+          "label": "Criterion (goal)"
+        },
+        {
+          "id": "constraint",
+          "label": "Constraint (limit)"
+        }
+      ],
+      "answer": {
+        "remove": "criterion",
+        "cost": "constraint",
+        "last": "criterion",
+        "homes": "constraint",
+        "roads": "constraint"
+      },
+      "explanation": "Criteria describe success: here, removing carbon dioxide from the air and keeping that carbon stored for a long time. Constraints are limits on how you get there, such as money, land use, and access. A good design meets the criteria while respecting every constraint.",
+      "misconception": "Criteria and constraints mean the same thing, or limits such as cost are goals.",
+      "hint": "Does the item describe what the project is trying to achieve, or what holds it back?",
+      "followUpId": "L07-Q17",
+      "scope": {
+        "lessonId": "L07",
+        "section": "5. Designing Carbon Capture Solutions",
+        "pages": {
+          "printed": [
+            86,
+            87
+          ],
+          "pdf": [
+            122,
+            123
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Criteria: removing carbon dioxide from the atmosphere and storing carbon in a different part of the cycle. Constraints include where people already live and existing infrastructure such as roads."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            87
+          ],
+          "pdfPages": [
+            123
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Cost is an important constraint on planting trees to capture carbon, and a photo caption says planting producers that live for many years can help remove excess carbon dioxide."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 86-87 (rendered). Round 1 revision (2026-10-14): follow-up now Q17 (the reforested-forest wildfire item). Explanation and store rationale no longer echo the p. 86 criteria sentence; the explanation says \"locking its carbon away in wood\" rather than the reviewer's \"locking the carbon away in wood, out of the air\" to avoid repeating \"from the air\" in one sentence. Round 2 revision (2026-10-14): item 'store' (store the carbon in trunks, roots, and leaves) retired for new item 'last' (keep the captured carbon out of the air for many decades). Both reviewers flagged 'store': the science reviewer because leaves are short-lived storage that conflicts with the O4 permanence point, the pedagogy reviewer because it described the method rather than a goal. The pedagogy reviewer's wording meets both points (no leaves, long-term storage, phrased as a goal), so it was used instead of the science reviewer's 'Keep the carbon stored in wood and roots for many years', which still names the method. It matches the p. 86 second criterion (storing carbon in another part of the cycle) and the p. 87 caption (producers that live for many years); the p. 87 evidence record now cites that caption. Explanation updated. Bin stays criterion; follow-up Q17 unchanged. Verify-agent (2026-10-14): checked the pp. 86-87 renders (criteria: remove carbon dioxide and store carbon elsewhere in the cycle; constraints: residents, roads, cost; the p. 87 caption on long-lived producers). New item 'last' is phrased as a goal and belongs only under criterion. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId Q16 to Q17; explanation and 'store' rationale reworded away from the p. 86 criteria sentence"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: storage item no longer counts short-lived leaves; it now asks for long-term storage"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: method-like item 'store' replaced by goal item 'last' (keep carbon out of the air for decades)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q27",
+      "objectiveIds": [
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "evaluating-solutions",
+        "reforestation",
+        "data"
+      ],
+      "familyId": "L07-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A team must pick one site for a new forest. Goal: capture carbon as fast as possible. Constraints: cost no more than $80,000, no homes on the land, and reachable by road. Use the table. Which site should they choose?",
+      "accessiblePrompt": "A team must pick one site for a new forest. The goal is to capture carbon as fast as possible. The constraints are: cost no more than 80,000 dollars, no homes on the land, and reachable by road. North Ridge: highest growth, 95,000 dollars, no homes, has a road. River Bend: high growth, 70,000 dollars, no homes, has a road. Lake Flats: highest growth, 60,000 dollars, has homes, has a road. Dry Mesa: low growth, 40,000 dollars, no homes, has a road. Cloud Valley: highest growth, 55,000 dollars, no homes, no road. All five sites are the same size, so growth rate alone sets how fast each would capture carbon. Which site should they choose?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Possible reforestation sites (invented data)",
+        "alt": "Table of five sites. North Ridge: highest forest growth, costs 95,000 dollars, no homes, road access yes. River Bend: high growth, 70,000 dollars, no homes, road access yes. Lake Flats: highest growth, 60,000 dollars, homes on the land, road access yes. Dry Mesa: low growth, 40,000 dollars, no homes, road access yes. Cloud Valley: highest growth, 55,000 dollars, no homes, no road access.",
+        "columns": [
+          "Site",
+          "Forest growth",
+          "Cost",
+          "Homes on land?",
+          "Road access?"
+        ],
+        "rows": [
+          [
+            "North Ridge",
+            "Highest",
+            "$95,000",
+            "No",
+            "Yes"
+          ],
+          [
+            "River Bend",
+            "High",
+            "$70,000",
+            "No",
+            "Yes"
+          ],
+          [
+            "Lake Flats",
+            "Highest",
+            "$60,000",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Dry Mesa",
+            "Low",
+            "$40,000",
+            "No",
+            "Yes"
+          ],
+          [
+            "Cloud Valley",
+            "Highest",
+            "$55,000",
+            "No",
+            "No"
+          ]
+        ]
+      },
+      "conditions": "Faster forest growth means faster photosynthesis and faster carbon capture. All data are invented. All five sites are the same size, so growth rate alone sets how fast each would capture carbon.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North Ridge",
+          "rationale": "Its trees grow fastest, but it costs $95,000, which breaks the budget constraint."
+        },
+        {
+          "id": "b",
+          "text": "River Bend",
+          "rationale": "Correct. It meets every constraint, and of the sites that do, its forest grows fastest."
+        },
+        {
+          "id": "c",
+          "text": "Lake Flats",
+          "rationale": "It grows fast and is cheap, but people already live there, which breaks a constraint."
+        },
+        {
+          "id": "d",
+          "text": "Dry Mesa",
+          "rationale": "It meets every constraint, but its slow growth means it captures carbon more slowly than River Bend."
+        },
+        {
+          "id": "e",
+          "text": "Cloud Valley",
+          "rationale": "It grows fast and is affordable, but no road reaches it, which breaks a constraint."
+        }
+      ],
+      "answer": "b",
+      "explanation": "First cross out every site that breaks a constraint: North Ridge costs too much, Lake Flats has homes, and Cloud Valley has no road. Of the two sites left, River Bend's trees grow faster, so they will photosynthesize faster and pull carbon dioxide from the air sooner. The fastest-growing site overall is not the answer if it breaks a rule.",
+      "misconception": "The site with the fastest growth is automatically the best choice, whatever the constraints.",
+      "hint": "Check every constraint first, then compare growth among the sites that are left.",
+      "followUpId": "L07-Q17",
+      "scope": {
+        "lessonId": "L07",
+        "section": "5. Designing Carbon Capture Solutions",
+        "pages": {
+          "printed": [
+            86,
+            87
+          ],
+          "pdf": [
+            122,
+            123
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Engineers decide where to reforest by weighing where trees store the most carbon against constraints such as existing residents and road infrastructure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            87
+          ],
+          "pdfPages": [
+            123
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Faster-growing trees photosynthesize faster and remove carbon dioxide faster; after considering criteria and constraints, the site where trees grow fastest is chosen."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original invented table replaces the undated Figure 5 map (L07-RF10). One defensible answer: two sites pass all constraints and River Bend grows faster. Round 1 revision (2026-10-14): the equal-size condition removes the unstated assumption behind \"fastest capture\", so River Bend stays the one defensible answer. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): checked pp. 86-87. The constraint screen leaves River Bend and Dry Mesa, and the equal-size condition makes River Bend the only defensible answer. Table, alt text and accessible prompt agree. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions and accessible prompt state that all sites are the same size"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q28",
+      "objectiveIds": [
+        "L07-O2",
+        "L07-O3"
+      ],
+      "conceptTags": [
+        "matter-cycles",
+        "conservation-of-matter",
+        "seed"
+      ],
+      "familyId": "L07-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "What happens to matter as it moves among organisms, air, water, and land?",
+      "accessiblePrompt": "What happens to matter as it moves among living things, the air, water, and land?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is used up by organisms and replaced by matter from space.",
+          "rationale": "Matter is not used up, and space supplies only tiny amounts. Earth reuses the same atoms."
+        },
+        {
+          "id": "b",
+          "text": "It is transferred and recycled through Earth's systems.",
+          "rationale": "Correct. Atoms pass among living and nonliving parts of Earth, changing form but never disappearing."
+        },
+        {
+          "id": "c",
+          "text": "It turns into energy and drifts off into space as heat.",
+          "rationale": "Energy leaves Earth as heat, but matter does not turn into energy in these cycles. Energy flows; matter cycles."
+        },
+        {
+          "id": "d",
+          "text": "It moves one way, from the air into living things, and stays.",
+          "rationale": "Matter returns to the air, water, and soil through cellular respiration, decomposition, burning, and denitrification."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Matter cycles. Atoms of water, carbon, and nitrogen pass from the air, water, and soil into living things and back again, joining different molecules along the way. Nothing is used up: the same atoms keep being reused, while energy from the Sun flows through and leaves as heat.",
+      "misconception": "Living things use up matter, or matter turns into energy.",
+      "hint": "Think about where the atoms in a fallen leaf go after it drops.",
+      "followUpId": "L07-Q03",
+      "scope": {
+        "lessonId": "L07",
+        "section": "Introduction; Lesson Summary",
+        "pages": {
+          "printed": [
+            77,
+            87
+          ],
+          "pdf": [
+            113,
+            123
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            77
+          ],
+          "pdfPages": [
+            113
+          ],
+          "locator": "Introduction",
+          "supports": "The same matter moves continuously in a global cycle throughout Earth's ecosystems, taking on different forms as it moves."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            87
+          ],
+          "pdfPages": [
+            123
+          ],
+          "locator": "Lesson Summary",
+          "supports": "Matter cycles continuously among living and nonliving parts of Earth's ecosystems; it is never lost but changes form."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L07 (Planet Carousel), polished; keyed answer matches the brief's seed answer. Drafted from printed pp. 77 and 87. Round 1 revision (2026-10-14): hint replaced; stem, key (the brief's seed answer) and choice c's 'Energy flows; matter cycles' rationale kept. Round 2 review (2026-10-14): both reviewers passed the item; no change. Verify-agent (2026-10-14): brief seed question; key matches the brief's answer. Checked pp. 77 and 87. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer cues the key by the word 'cycle'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L07",
+      "id": "L07-Q29",
+      "objectiveIds": [
+        "L07-O4"
+      ],
+      "conceptTags": [
+        "reforestation",
+        "growing-conditions",
+        "photosynthesis",
+        "prediction"
+      ],
+      "familyId": "L07-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two newly planted forests are the same size. Forest 1 is in a warm, rainy place with a ten-month growing season. Forest 2 is in a cold, dry place with a three-month growing season. Which forest will most likely capture carbon faster, and why?",
+      "accessiblePrompt": "Two newly planted forests are the same size. Forest 1 is in a warm, rainy place with a ten-month growing season. Forest 2 is in a cold, dry place with a three-month growing season. Which forest will most likely capture carbon faster, and why?",
+      "conditions": "Both forests have the same number of young trees, and nothing such as fire or logging disturbs either one.",
+      "limitations": "Real forest growth also depends on soil, tree species, and other factors; this comparison looks only at warmth, water, and season length.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forest 2, since cold air holds more carbon dioxide for the trees to use.",
+          "rationale": "Trees take carbon dioxide from the air in both places. How fast they capture it depends on how fast they photosynthesize, and cold, dry weather slows that down."
+        },
+        {
+          "id": "b",
+          "text": "Forest 1, since its warm weather lets the trees pull carbon from the soil.",
+          "rationale": "Forest 1 is the better choice, but not for this reason. Trees build wood from carbon dioxide in the air, not from carbon in the soil."
+        },
+        {
+          "id": "c",
+          "text": "Forest 1, since more water and a longer season mean more photosynthesis.",
+          "rationale": "Correct. Trees grow fastest with plenty of water and a long growing season. More growth means more photosynthesis, which pulls carbon dioxide out of the air faster."
+        },
+        {
+          "id": "d",
+          "text": "Both the same, since two forests of equal size capture carbon at the same rate.",
+          "rationale": "Equal size does not mean equal growth. Forest 1's trees have more water and more than three times as many growing months, so they photosynthesize far more each year."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Trees capture carbon through photosynthesis, so whatever speeds up their growth speeds up capture. Plenty of water, warmth, and a long growing season let Forest 1's trees photosynthesize for more of the year. That is why engineers planning reforestation look for sunny, well-watered sites where the growing season lasts many months.",
+      "misconception": "Cold air holds more carbon dioxide for trees, forests of the same size capture carbon at the same rate, or trees get their carbon from the soil.",
+      "hint": "What does a tree need to grow quickly, and which forest gives it more of those things?",
+      "followUpId": "L07-Q11",
+      "scope": {
+        "lessonId": "L07",
+        "section": "5. Designing Carbon Capture Solutions",
+        "pages": {
+          "printed": [
+            86,
+            87
+          ],
+          "pdf": [
+            122,
+            123
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            87
+          ],
+          "pdfPages": [
+            123
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Trees grow especially fast where light and water are plentiful and growing seasons are long, and the faster they grow, the faster they photosynthesize and remove carbon dioxide from the air."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "When trees carry out photosynthesis, they capture carbon dioxide from the atmosphere and store the carbon in their body structures as biomass."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in round 2 (2026-10-14), written by the reviser on the pedagogy reviewer's coverage-gap finding: no item asked the learner to use the p. 87 idea that forests capture carbon fastest where light and water are plentiful and growing seasons are long (Q27 hands over growth rates as data). Drafted from printed pp. 86-87 (re-rendered at 110 dpi). The reviewer's sketch was adapted: 'cold air holds more CO₂' kept (a); 'both the same, because trees are trees' became the equal-size idea (d); 'the dry one, because sunlight matters more than water' was dropped, because Forest 2 is both cold and dry, so it would point to the same forest as a with a weaker reason, and was replaced by b, the right forest for a wrong reason (carbon from the soil, a guide guardrail). Key c is not the longest choice and no choice is hedged. F11 now has 3 questions. Not yet seen by any reviewer. Verify-agent (2026-10-14): independent check of the round 2 item, its first review after the author: checked the pp. 86-87 renders (trees grow fastest with plenty of light and water and long growing seasons; faster growth means faster carbon dioxide removal). Key c is the only defensible answer, and a, b and d each fail for the stated reason; no 9-word overlap with the textbook. It carries two recorded passes (author and verifier) but no separate science or pedagogy pass. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1299 @@
+{
+  "lessonId": "L21",
+  "guidingQuestion": "How do organisms interact in ecosystems?",
+  "hook": "A clown fish naps safely among stinging tentacles that can paralyze other small fish, so what does the anemone get out of the deal?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          272,
+          273
+        ],
+        "pdf": [
+          308,
+          309
+        ]
+      }
+    },
+    {
+      "title": "1. Predators",
+      "pages": {
+        "printed": [
+          274,
+          275
+        ],
+        "pdf": [
+          310,
+          311
+        ]
+      }
+    },
+    {
+      "title": "2. Interacting Populations Affect One Another",
+      "pages": {
+        "printed": [
+          276,
+          277
+        ],
+        "pdf": [
+          312,
+          313
+        ]
+      }
+    },
+    {
+      "title": "3. Using Predators to Manage Ecosystems",
+      "pages": {
+        "printed": [
+          278,
+          279
+        ],
+        "pdf": [
+          314,
+          315
+        ]
+      }
+    },
+    {
+      "title": "4. Mutually Beneficial Interactions",
+      "pages": {
+        "printed": [
+          280
+        ],
+        "pdf": [
+          316
+        ]
+      }
+    },
+    {
+      "title": "5. Other Kinds of Interactions",
+      "pages": {
+        "printed": [
+          281
+        ],
+        "pdf": [
+          317
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Interactions in Ecosystems",
+      "pages": {
+        "printed": [
+          282
+        ],
+        "pdf": [
+          318
+        ]
+      }
+    },
+    {
+      "title": "6. Scientists Predict Interactions",
+      "pages": {
+        "printed": [
+          283
+        ],
+        "pdf": [
+          319
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          283
+        ],
+        "pdf": [
+          319
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L21-O1",
+      "text": "Recognize predation and sort predators into carnivores, herbivores and omnivores by what they mainly eat, including why plant eaters count as predators in this lesson.",
+      "kind": "observe",
+      "sections": [
+        "Introduction",
+        "1. Predators"
+      ],
+      "pages": {
+        "printed": [
+          273,
+          274,
+          275
+        ],
+        "pdf": [
+          309,
+          310,
+          311
+        ]
+      }
+    },
+    {
+      "id": "L21-O2",
+      "text": "Classify an interaction between two species as mutualism, commensalism, parasitism, predation or competition by rating its effect on each partner as helpful (+), harmful (−) or no effect (0).",
+      "kind": "observe",
+      "sections": [
+        "4. Mutually Beneficial Interactions",
+        "5. Other Kinds of Interactions",
+        "Key Science Concept: Interactions in Ecosystems",
+        "6. Scientists Predict Interactions"
+      ],
+      "pages": {
+        "printed": [
+          273,
+          280,
+          281,
+          282,
+          283
+        ],
+        "pdf": [
+          309,
+          316,
+          317,
+          318,
+          319
+        ]
+      }
+    },
+    {
+      "id": "L21-O3",
+      "text": "Explain the cause-and-effect link between predator and prey populations and interpret population data and graphs in which predator rises and falls trail behind prey rises and falls.",
+      "kind": "relate",
+      "sections": [
+        "1. Predators",
+        "2. Interacting Populations Affect One Another"
+      ],
+      "pages": {
+        "printed": [
+          275,
+          276,
+          277
+        ],
+        "pdf": [
+          311,
+          312,
+          313
+        ]
+      }
+    },
+    {
+      "id": "L21-O4",
+      "text": "Predict how a change in one population ripples through its interactions to other species, explain why repeating interaction patterns let scientists make such predictions in ecosystems with different species, and use those patterns to choose ways to manage a population, such as returning wolves to Yellowstone or protecting prey for snow leopards.",
+      "kind": "apply",
+      "sections": [
+        "1. Predators",
+        "3. Using Predators to Manage Ecosystems",
+        "4. Mutually Beneficial Interactions",
+        "6. Scientists Predict Interactions"
+      ],
+      "pages": {
+        "printed": [
+          275,
+          278,
+          279,
+          280,
+          283
+        ],
+        "pdf": [
+          311,
+          314,
+          315,
+          316,
+          319
+        ]
+      }
+    },
+    {
+      "id": "L21-O5",
+      "text": "Use criteria and constraints to judge a design for monitoring a predator population, such as the radio collars used to follow Yellowstone's reintroduced wolves.",
+      "kind": "apply",
+      "sections": [
+        "3. Using Predators to Manage Ecosystems"
+      ],
+      "pages": {
+        "printed": [
+          278,
+          279
+        ],
+        "pdf": [
+          314,
+          315
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "In predation, a predator gets its food by eating all or part of its prey. In this lesson the word covers carnivores, herbivores and omnivores, so a grazing cow counts as a predator of grass.",
+    "Predator and prey populations are linked by cause and effect: plenty of predators pushes prey numbers down, scarce prey pulls predator numbers down, and fewer predators lets prey bounce back.",
+    "Graphs of a predator and its main prey often show repeating waves in which each predator peak comes a little after a prey peak. Real data are bumpier than this model because weather, food, disease and parasites matter too.",
+    "Scientists rate an interaction by its effect on each partner: mutualism is + +, commensalism is + 0, predation and parasitism are + −, and competition is − −.",
+    "A parasite lives on or inside a living host and takes a little at a time, so it usually weakens the host instead of killing it the way a hunting predator such as an owl kills its prey.",
+    "Mutualists depend on each other, so when one partner's population drops, the other partner's population can drop as well.",
+    "Because these patterns repeat in ecosystems all over Earth, managers can predict ripple effects and act on them, for example by bringing wolves back to Yellowstone or protecting the prey that snow leopards hunt.",
+    "Engineers begin a design by listing criteria (what it must do) and constraints (limits such as cost or side effects), which is how radio collars were chosen to follow Yellowstone's wolves."
+  ],
+  "glossary": [
+    {
+      "term": "predation",
+      "definition": "An interaction in which one living thing gets its food by eating all or part of another living thing without living on or in it, as when an owl eats a mouse or a cow grazes grass.",
+      "pages": {
+        "printed": [
+          273,
+          274
+        ],
+        "pdf": [
+          309,
+          310
+        ]
+      }
+    },
+    {
+      "term": "predator",
+      "definition": "The organism that does the eating in predation. In this lesson, plant eaters count as predators too.",
+      "pages": {
+        "printed": [
+          274,
+          275
+        ],
+        "pdf": [
+          310,
+          311
+        ]
+      }
+    },
+    {
+      "term": "prey",
+      "definition": "The organism that gets eaten in predation, whether it is an animal or a plant.",
+      "pages": {
+        "printed": [
+          274,
+          275
+        ],
+        "pdf": [
+          310,
+          311
+        ]
+      }
+    },
+    {
+      "term": "carnivore",
+      "definition": "A consumer whose diet is made up mostly of animals, such as an owl that swallows mice.",
+      "pages": {
+        "printed": [
+          273,
+          274
+        ],
+        "pdf": [
+          309,
+          310
+        ]
+      }
+    },
+    {
+      "term": "herbivore",
+      "definition": "A consumer whose diet is made up mostly of plants or plant parts, such as a zebra grazing on grass.",
+      "pages": {
+        "printed": [
+          273,
+          275
+        ],
+        "pdf": [
+          309,
+          311
+        ]
+      }
+    },
+    {
+      "term": "omnivore",
+      "definition": "A consumer that regularly eats both plants and animals. The mix varies: some omnivores eat mostly plants and others mostly animals.",
+      "pages": {
+        "printed": [
+          273,
+          275
+        ],
+        "pdf": [
+          309,
+          311
+        ]
+      }
+    },
+    {
+      "term": "competition",
+      "definition": "An interaction in which two species need the same limited resource, so each gets less than it would alone and both are harmed.",
+      "pages": {
+        "printed": [
+          273,
+          282
+        ],
+        "pdf": [
+          309,
+          318
+        ]
+      }
+    },
+    {
+      "term": "mutualism",
+      "definition": "A partnership between two species in which each one gains something that helps it survive, grow or reproduce.",
+      "pages": {
+        "printed": [
+          273,
+          280
+        ],
+        "pdf": [
+          309,
+          316
+        ]
+      }
+    },
+    {
+      "term": "commensalism",
+      "definition": "An interaction in which one species gains while the other is neither helped nor harmed, as far as scientists can tell.",
+      "pages": {
+        "printed": [
+          273,
+          281
+        ],
+        "pdf": [
+          309,
+          317
+        ]
+      }
+    },
+    {
+      "term": "parasitism",
+      "definition": "An interaction in which one species lives on or in another and feeds on it, usually weakening it without killing it.",
+      "pages": {
+        "printed": [
+          273,
+          281
+        ],
+        "pdf": [
+          309,
+          317
+        ]
+      }
+    },
+    {
+      "term": "parasite",
+      "definition": "An organism that lives on or inside a living host and takes food or other resources from it.",
+      "pages": {
+        "printed": [
+          281
+        ],
+        "pdf": [
+          317
+        ]
+      }
+    },
+    {
+      "term": "host",
+      "definition": "The living organism that a parasite lives on or inside and takes resources from.",
+      "pages": {
+        "printed": [
+          281
+        ],
+        "pdf": [
+          317
+        ]
+      }
+    },
+    {
+      "term": "criteria",
+      "definition": "The requirements a design has to meet to count as a success. One requirement is called a criterion.",
+      "pages": {
+        "printed": [
+          278
+        ],
+        "pdf": [
+          314
+        ]
+      }
+    },
+    {
+      "term": "constraints",
+      "definition": "Limits, such as money, available people or unwanted side effects, that narrow down which designs can be used.",
+      "pages": {
+        "printed": [
+          279
+        ],
+        "pdf": [
+          315
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L21-O1",
+      "title": "Who Counts as a Predator?",
+      "paragraphs": [
+        "In everyday talk, a predator is a hunter such as a lion. This lesson uses a wider meaning: any organism that gets food by eating another organism is a predator, and the one being eaten is its prey. By that rule, a cow munching clover is a predator of clover. Parasites, which live on or inside a living host, are a separate kind of interaction.",
+        "Predators sort into three big groups by what they mainly eat. Carnivores eat mostly animals, like an owl gulping down mice. Herbivores eat mostly plants or plant parts, like zebras grazing on grass. Omnivores regularly eat both, like raccoons, Mona monkeys and most people.",
+        "Plants can't run, but they aren't defenseless prey. Thorns, tough leaves and bitter chemicals make some plants harder to eat, so a deer may skip a thorny shrub and nibble a softer one.",
+        "The species change from place to place, yet nearly every ecosystem has carnivores, herbivores and omnivores. That repeating pattern helps scientists predict how feeding relationships will shape populations."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Three kinds of predators",
+        "alt": "A table with three rows. Carnivore: mainly eats animals; examples are an eagle owl, a panther chameleon and a wolf. Herbivore: mainly eats plants or plant parts; examples are a cow, a zebra and a white-tailed deer. Omnivore: regularly eats both plants and animals; examples are a raccoon, a Mona monkey and most people.",
+        "columns": [
+          "Group",
+          "Mainly eats",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "Carnivore",
+            "Animals",
+            "Eagle owl, panther chameleon, wolf"
+          ],
+          [
+            "Herbivore",
+            "Plants or plant parts",
+            "Cow, zebra, white-tailed deer"
+          ],
+          [
+            "Omnivore",
+            "Both plants and animals",
+            "Raccoon, Mona monkey, most people"
+          ]
+        ]
+      },
+      "watchOut": "An omnivore doesn't need a half-and-half diet: a black bear eats mostly nuts and berries and is still an omnivore. Predators aren't villains either; hunting or grazing is simply how they get what they need to live. And a Venus flytrap catches insects, but it still makes its own food by photosynthesis; the insects mainly supply nutrients missing from its boggy soil.",
+      "pages": {
+        "printed": [
+          274,
+          275
+        ],
+        "pdf": [
+          310,
+          311
+        ]
+      }
+    },
+    {
+      "objectiveId": "L21-O2",
+      "title": "Plus, Minus, Zero",
+      "paragraphs": [
+        "To sort an interaction, ask one question about each partner: does the interaction help it (+), harm it (−), or make no difference (0)? The pair of answers names the interaction.",
+        "Mutualism is + +: clown fish get a stinging bodyguard, and the anemone gets a defender. Commensalism is + 0: a cattle egret snaps up insects that a grazing cow kicks up, and the cow carries on unaffected. Competition is − −: when hyenas and vultures squabble over one carcass, each ends up with less.",
+        "Predation and parasitism both rate + −. The difference is how the harm happens. A hunting predator such as an owl usually kills its prey, while a parasite such as a flea or a leech lives on or in a living host and takes a little at a time. Grazers count as predators too, but they often leave the plant alive."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Rating interactions by their effect on each species",
+        "alt": "A table of five interactions with the effect on species 1 and species 2. Mutualism: plus and plus; example, ants guard aphids and the aphids give the ants sugary droplets. Commensalism: plus and zero; example, a cattle egret eats insects stirred up by a grazing cow, and the cow is not affected. Predation: plus and minus; example, a grizzly bear eats a salmon. Parasitism: plus and minus; example, a leech drinks a person's blood. Competition: minus and minus; example, hyenas and vultures feed on the same carcass.",
+        "columns": [
+          "Interaction",
+          "Species 1",
+          "Species 2",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Mutualism",
+            "+",
+            "+",
+            "Ants guard aphids; aphids give ants sugary droplets"
+          ],
+          [
+            "Commensalism",
+            "+",
+            "0",
+            "Cattle egret eats insects a grazing cow stirs up"
+          ],
+          [
+            "Predation",
+            "+",
+            "−",
+            "Grizzly bear eats a salmon"
+          ],
+          [
+            "Parasitism",
+            "+",
+            "−",
+            "Leech drinks a person's blood"
+          ],
+          [
+            "Competition",
+            "−",
+            "−",
+            "Hyenas and vultures share one carcass"
+          ]
+        ]
+      },
+      "watchOut": "A 0 means no effect that scientists can detect, which is hard to prove; some partnerships called commensal, such as barnacles riding on whales, might have small effects. And the signs describe what the interaction does to each species, not whether an animal is nice or mean.",
+      "pages": {
+        "printed": [
+          280,
+          281,
+          282
+        ],
+        "pdf": [
+          316,
+          317,
+          318
+        ]
+      }
+    },
+    {
+      "objectiveId": "L21-O3",
+      "title": "Linked Lines on a Graph",
+      "paragraphs": [
+        "Predators and their prey are tied together by cause and effect. When predators are plentiful, more prey get eaten and the prey population falls. When prey grow scarce, predators struggle to find food, fewer young survive, and the predator population falls too.",
+        "The chain also runs the other way. With fewer predators hunting, more prey survive each year, so prey numbers climb, and that extra food lets the predator population grow again.",
+        "On Isle Royale, an island in Lake Superior, scientists have counted wolves and moose for decades. In the early 2000s ticks weakened many moose and the herd shrank; within a few years the wolves declined too. Later, when only a handful of wolves were left, the moose population grew.",
+        "Graph the two populations over time and you often see repeating waves. Each predator peak arrives a little after a prey peak, because it takes time for well-fed predators to raise more young."
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "An idealized model of a prey population and its main predator",
+        "alt": "A line graph of population size against time from 0 to 20 years, made from a simplified model. The prey line rises and falls in waves between about 30 and 98, peaking between years 2 and 3 and again between years 12 and 13. The predator line is always lower, waving between about 15 and 35, and peaks between years 4 and 5 and again between years 14 and 15, about two years after each prey peak.",
+        "xLabel": "Time (years)",
+        "yLabel": "Population size",
+        "series": [
+          {
+            "label": "Prey",
+            "points": [
+              [
+                0,
+                60
+              ],
+              [
+                1,
+                84
+              ],
+              [
+                2,
+                98
+              ],
+              [
+                3,
+                98
+              ],
+              [
+                4,
+                84
+              ],
+              [
+                5,
+                60
+              ],
+              [
+                6,
+                36
+              ],
+              [
+                7,
+                30
+              ],
+              [
+                8,
+                30
+              ],
+              [
+                9,
+                36
+              ],
+              [
+                10,
+                60
+              ],
+              [
+                11,
+                84
+              ],
+              [
+                12,
+                98
+              ],
+              [
+                13,
+                98
+              ],
+              [
+                14,
+                84
+              ],
+              [
+                15,
+                60
+              ],
+              [
+                16,
+                36
+              ],
+              [
+                17,
+                30
+              ],
+              [
+                18,
+                30
+              ],
+              [
+                19,
+                36
+              ],
+              [
+                20,
+                60
+              ]
+            ]
+          },
+          {
+            "label": "Predator",
+            "points": [
+              [
+                0,
+                15
+              ],
+              [
+                1,
+                19
+              ],
+              [
+                2,
+                25
+              ],
+              [
+                3,
+                31
+              ],
+              [
+                4,
+                35
+              ],
+              [
+                5,
+                35
+              ],
+              [
+                6,
+                31
+              ],
+              [
+                7,
+                25
+              ],
+              [
+                8,
+                19
+              ],
+              [
+                9,
+                15
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                19
+              ],
+              [
+                12,
+                25
+              ],
+              [
+                13,
+                31
+              ],
+              [
+                14,
+                35
+              ],
+              [
+                15,
+                35
+              ],
+              [
+                16,
+                31
+              ],
+              [
+                17,
+                25
+              ],
+              [
+                18,
+                19
+              ],
+              [
+                19,
+                15
+              ],
+              [
+                20,
+                15
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": 2.5,
+            "y": 98,
+            "text": "Prey peak"
+          },
+          {
+            "x": 4.5,
+            "y": 35,
+            "text": "Predator peak follows"
+          }
+        ]
+      },
+      "watchOut": "These smooth waves are a model. Real counts are bumpy, and weather, food plants, disease and parasites push populations around too. On Isle Royale, starvation and winter ticks have in some years killed far more moose than wolves did.",
+      "pages": {
+        "printed": [
+          276,
+          277
+        ],
+        "pdf": [
+          312,
+          313
+        ]
+      }
+    },
+    {
+      "objectiveId": "L21-O4",
+      "title": "Ripples Through an Ecosystem",
+      "paragraphs": [
+        "A change in one population can ripple out to species it never touches. Wolves eat elk, and elk browse willows and aspens. Take away the wolves and elk multiply, so more plants get eaten. Bring the wolves back and some plants get a break.",
+        "That happened in Yellowstone. People wiped out the wolves there in the early 1900s, elk herds grew and overgrazed, and in the 1990s wolves were brought back. Scientists count the wolves as one of several causes, along with weather, other predators and hunting, of later changes in elk numbers and some plant communities.",
+        "Mutualists rise and fall together. If disease or extra predators shrink one partner's population, the other partner can shrink too, because it loses help it relied on.",
+        "Managers use these patterns. To help a shrinking snow leopard population, they might protect the wild sheep and goats it hunts, strengthening a + interaction, or treat a parasite, weakening a − interaction."
+      ],
+      "diagram": {
+        "kind": "network",
+        "caption": "A simple feeding chain in Yellowstone (arrows point from the food to the eater)",
+        "alt": "A three-step chain with arrows pointing from food to eater: willows and aspens are eaten by elk, and elk are eaten by wolves. With fewer wolves, elk increase and eat more willows and aspens; with more wolves, elk are held in check and the plants face less browsing.",
+        "layout": "chain",
+        "nodes": [
+          {
+            "id": "plants",
+            "label": "Willows and aspens",
+            "group": "producer"
+          },
+          {
+            "id": "elk",
+            "label": "Elk",
+            "group": "herbivore"
+          },
+          {
+            "id": "wolves",
+            "label": "Wolves",
+            "group": "carnivore"
+          }
+        ],
+        "edges": [
+          {
+            "from": "plants",
+            "to": "elk",
+            "label": "eaten by"
+          },
+          {
+            "from": "elk",
+            "to": "wolves",
+            "label": "eaten by"
+          }
+        ]
+      },
+      "watchOut": "Real ecosystems have many more links than a three-step chain, so a prediction tells you what is likely, not what is guaranteed. Scientists still debate how much of Yellowstone's plant recovery is due to wolves and how much to other causes.",
+      "pages": {
+        "printed": [
+          278,
+          279,
+          280,
+          283
+        ],
+        "pdf": [
+          314,
+          315,
+          316,
+          319
+        ]
+      }
+    },
+    {
+      "objectiveId": "L21-O5",
+      "title": "Designing a Wolf Tracker",
+      "paragraphs": [
+        "When wolves returned to Yellowstone, scientists needed to know whether the newcomers were surviving, raising pups and staying in the area. Engineers start a problem like this by writing down its criteria and constraints.",
+        "Criteria say what a solution must do: show whether each wolf is alive, reveal where it travels, and cover a park bigger than 3,400 square miles, where a single pack can roam hundreds of square miles. Constraints are limits: the method has to be affordable and practical, and it must not change how wolves behave, or the data would describe disturbed wolves instead of natural ones.",
+        "Radio collars fit the list. Each collar gives off its own signal, so researchers with antennas can tell where a wolf is, which wolves it travels with, and whether it is still alive."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Criteria and constraints for tracking Yellowstone's wolves",
+        "alt": "A two-column table. Criteria, meaning what the solution must do: show whether each wolf is alive; show whether wolves stay in Yellowstone or leave; give accurate locations across thousands of square miles. Constraints, meaning limits on the solution: cost and ease of use; must not change the wolves' natural behavior.",
+        "columns": [
+          "Criteria (what it must do)",
+          "Constraints (limits)"
+        ],
+        "rows": [
+          [
+            "Show whether each wolf is alive",
+            "Affordable to buy and run"
+          ],
+          [
+            "Show whether wolves stay or leave the park",
+            "Practical for the field crew to use"
+          ],
+          [
+            "Give accurate locations across thousands of square miles",
+            "Must not change the wolves' natural behavior"
+          ]
+        ]
+      },
+      "watchOut": "Today's Yellowstone wolf team combines several tools, including radio (VHF) collars, GPS collars that report locations by satellite, and tracking flights. The textbook story is a simplified version of a real project that keeps changing.",
+      "pages": {
+        "printed": [
+          278,
+          279
+        ],
+        "pdf": [
+          314,
+          315
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L21-RF1",
+      "issue": "OCR is missing or garbled on image-heavy pages: the opener (p. 272) is a photo with no text; the title OCRs as 'Organisis' and the NGSS box is letter-spaced (p. 273); Figure 2 (p. 277) lost its curves and axis labels; the Key Science Concept spread (p. 282) kept only its intro and a garbled mutualism label ('tJ\\utuat/s/;7'), dropping the competition, parasitism, commensalism and predation examples and most +/− symbols; on p. 283 '(+)' reads '(-I-)' and '(-n)'.",
+      "pages": {
+        "printed": [
+          272,
+          273,
+          277,
+          282,
+          283
+        ],
+        "pdf": [
+          308,
+          309,
+          313,
+          318,
+          319
+        ]
+      },
+      "resolution": "All twelve lesson pages were rendered at 110 dpi and read from the images; Figure 2 was also re-rendered at 220 dpi. The spread's five interactions, symbols and examples (ants and aphids + +; hyenas and vultures − −; leeches and a person + −; cattle egrets and cows + 0; grizzly bears and salmon + −) were taken from the render, not the OCR.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "The rendered spread rates mutualism + +, competition − −, parasitism + −, commensalism + 0 and predation + −, each with a photo example."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            277
+          ],
+          "pdfPages": [
+            313
+          ],
+          "locator": "Figure 2, Predator and Prey Population Sizes Change Together",
+          "supports": "The render shows a prey curve and a smaller predator curve that rises and falls a little later, on unlabeled population-size and time axes."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF2",
+      "issue": "The vocabulary box and section 1 define an omnivore as eating plants and animals 'in similar amounts'. Omnivores are not required to eat equal amounts; many eat mostly plants (black bears) or mostly animals.",
+      "pages": {
+        "printed": [
+          273,
+          275
+        ],
+        "pdf": [
+          309,
+          311
+        ]
+      },
+      "resolution": "The glossary and Explorer define an omnivore as regularly eating both plants and animals, with a mix that varies by species. No question tests the 'similar amounts' wording; Q02's invented diet is an exact 50/50 split of animal and plant foods, so both definitions give the same answer and 'mostly animals' (carnivore) does not fit.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Omnivores",
+          "supports": "Omnivores such as raccoons, Mona monkeys and most humans eat both plant and animal foods."
+        },
+        {
+          "type": "external",
+          "title": "Omnivore",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/omnivore/",
+          "accessed": "2026-10-14",
+          "supports": "An omnivore regularly eats a variety of foods including plants and animals; black bears eat mostly nuts, berries and fruit and squirrels eat mostly nuts and seeds, yet both are omnivores."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF3",
+      "issue": "The lesson counts herbivores as predators (plant eating = predation). Many biology texts name herbivory as its own interaction next to predation, so learners may meet a narrower meaning of 'predator' elsewhere.",
+      "pages": {
+        "printed": [
+          274,
+          275,
+          282
+        ],
+        "pdf": [
+          310,
+          311,
+          318
+        ]
+      },
+      "resolution": "Kept the lesson's broad usage, because the whole lesson and the + − rating rely on it. Q03, whose key depends on it, says 'as this lesson uses the word'; Q01 sorts 'animals', so it does not rely on the broad meaning; explanations and rationales that call a grazer a predator say 'in this lesson'; and the O1 Explorer card states the broader meaning openly. Statements that a predator kills its prey now say 'hunting predator' (key idea 5, the O2 card, Q15, Q16), because grazers usually leave the plant alive (p. 276).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Herbivores",
+          "supports": "Scientists in this lesson include plant eaters in the predator category; herbivores prey on plants."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Herbivory, the eating of plants by insects and other animals, is described alongside predation as a related but separately named interaction that affects populations."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF4",
+      "issue": "Venus flytraps are given as plant carnivores ('an organism that mainly eats other animals'). A flytrap's main energy source is photosynthesis; captured insects mainly supply nutrients that its soil lacks.",
+      "pages": {
+        "printed": [
+          274
+        ],
+        "pdf": [
+          310
+        ]
+      },
+      "resolution": "Not tested. The O1 Explorer watch-out explains that a flytrap still makes its own food and uses insects mainly for nutrients.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            274
+          ],
+          "pdfPages": [
+            310
+          ],
+          "locator": "1. Predators, Carnivores",
+          "supports": "The lesson says even plants can be carnivores and names the Venus flytrap as an insect-catching plant."
+        },
+        {
+          "type": "external",
+          "title": "Venus Fly Trap (Dionaea muscipula)",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://www.fws.gov/species/venus-fly-trap-dionaea-muscipula",
+          "accessed": "2026-10-14",
+          "supports": "The Venus flytrap's main source of energy is photosynthesis; digesting insects gives it nutrients not readily available in its environment."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF5",
+      "issue": "Section 2 calls Isle Royale isolated enough to study wolves and moose 'without the influence of other factors', and gives dated counts (wolves down to three in spring 2015). Moose there are also strongly affected by winter food supply, winter ticks and weather, and the wolves by disease and inbreeding; the wolf count later fell to two, and wolves were relocated to the island in 2018-2019.",
+      "pages": {
+        "printed": [
+          276,
+          277
+        ],
+        "pdf": [
+          312,
+          313
+        ]
+      },
+      "resolution": "The game uses Isle Royale as an example of the predator-prey link 'according to the lesson's account' and states that other factors also matter (Q06 limitations, O3 Explorer watch-out). Counts and years are not tested and are treated as figures from the time the textbook was written.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            276,
+            277
+          ],
+          "pdfPages": [
+            312,
+            313
+          ],
+          "locator": "2. Interacting Populations Affect One Another, Isle Royale",
+          "supports": "Ticks weakened moose in the early 2000s, the moose population shrank and by 2007 the wolf population had also decreased; later, with few wolves, moose increased."
+        },
+        {
+          "type": "external",
+          "title": "Wolves (Isle Royale National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/isro/learn/nature/wolves.htm",
+          "accessed": "2026-10-14",
+          "supports": "Wolves reached Isle Royale over an ice bridge around 1948; numbers fell to a low of two between 2016 and 2018; disease (parvovirus, distemper) and inbreeding also affected the wolves; nineteen wolves were relocated to the island."
+        },
+        {
+          "type": "external",
+          "title": "Isle Royale Winter Study: Good Year for Wolves, Tough One for Moose (2022)",
+          "publisher": "Michigan Technological University",
+          "url": "https://mtu.edu/news/2022/06/isle-royale-winter-study-good-year-for-wolves-tough-one-for-moose.html",
+          "accessed": "2026-10-14",
+          "supports": "In the 2022 winter study wolves caused about 8.7 percent of moose deaths; researchers also reported moose deaths from malnutrition, a winter food shortage and heavy winter tick loads; wolves were translocated in 2018-19."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF6",
+      "issue": "Figure 2 draws perfectly smooth, regular waves, and the text says the populations 'grow and decline together'. Real predator-prey data are irregular, the predator changes lag behind the prey, and predation is not the only driver of such cycles.",
+      "pages": {
+        "printed": [
+          277
+        ],
+        "pdf": [
+          313
+        ]
+      },
+      "resolution": "Questions present the curve as an idealized model and state that limitation; Q07 and Q08 test the lag (predator peaks follow prey peaks) rather than 'together'. Q08 uses clearly invented data with a single peak and a single low point for each species. The game's model curve (Q07 and the O3 Explorer card) keeps the predator line below the prey line at every point; the textbook's schematic draws the curves crossing at the prey troughs, and nothing tested depends on that detail.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            277
+          ],
+          "pdfPages": [
+            313
+          ],
+          "locator": "Figure 2 and the text beside it",
+          "supports": "Each rise in the moose population is followed by a rise in the wolf population, and each wolf rise is followed by a moose fall."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "In the lynx and snowshoe hare cycle the predator lags the prey by about one to two years, and some researchers argue that factors other than predation, such as crowding, also drive the cycle."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF7",
+      "issue": "Section 3 credits reintroduced wolves alone with controlling elk and restoring Yellowstone's plants and birds, and dates the reintroduction to the late 1990s; the park service gives 1995. The park service also describes wolves as one of several factors: early elk declines were tied mostly to climate and human hunting, and other predators and weather also matter.",
+      "pages": {
+        "printed": [
+          278,
+          279
+        ],
+        "pdf": [
+          314,
+          315
+        ]
+      },
+      "resolution": "Q19's ordered history says wolves 'along with other factors' held elk in check, and its rationale dates the return to 1995 (NPS) rather than the textbook's 'late 1990s'; Explorer O4 says 'in the 1990s', names the other causes and notes the debate. Simple cascade questions state 'in this simple model' conditions.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            278,
+            279
+          ],
+          "pdfPages": [
+            314,
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems",
+          "supports": "Wolves were removed by the mid-1900s, elk increased and overgrazed, wolves were reintroduced in the late 1990s, and plant communities began to recover."
+        },
+        {
+          "type": "external",
+          "title": "Wolf Management (Yellowstone National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/yell/learn/management/wolf.htm",
+          "accessed": "2026-10-14",
+          "supports": "Wolves were reintroduced in 1995; early elk declines were mostly due to climate and human hunting; wolves, along with cougars, grizzly bears, black bears and weather patterns, shape Northern Range elk numbers; and wolves have played a role in changes observed in some vegetation communities, including willow and aspen."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF8",
+      "issue": "Section 3 presents radio collars tracked with handheld antennas as the chosen solution, with GPS and aircraft as alternatives. The real Yellowstone wolf project combines VHF radio collars, GPS satellite collars, helicopter captures and aerial tracking.",
+      "pages": {
+        "printed": [
+          279
+        ],
+        "pdf": [
+          315
+        ]
+      },
+      "resolution": "Engineering questions (Q25-Q28) use the textbook's design story as a simplified case and invented planning tables, and never claim GPS or aircraft were rejected in real life. The O5 Explorer watch-out describes the real mix of tools.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Design Solution",
+          "supports": "Radio collars with unique signals, tracked with handheld antennas, show where a wolf hunts, which wolves it meets and whether it is alive."
+        },
+        {
+          "type": "external",
+          "title": "Wolf Management (Yellowstone National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/yell/learn/management/wolf.htm",
+          "accessed": "2026-10-14",
+          "supports": "Yellowstone biologists track wolves with VHF collars followed from the ground or air and GPS collars that send daily locations by satellite; captures are done by helicopter."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF9",
+      "issue": "The parasite photo caption on p. 281 calls a tick an insect parasite. Ticks are arachnids (adults and nymphs have eight legs), not insects.",
+      "pages": {
+        "printed": [
+          281
+        ],
+        "pdf": [
+          317
+        ]
+      },
+      "resolution": "The game calls fleas insects and ticks arachnids whenever ticks are mentioned (Q16 rationale). The textbook's main point, that ticks and fleas are blood-feeding parasites, is kept.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, photo caption",
+          "supports": "Fleas and ticks feed on mammals' blood without needing to kill their hosts."
+        },
+        {
+          "type": "external",
+          "title": "Tick Biology and Ecology",
+          "publisher": "University of Maine Cooperative Extension Tick Lab",
+          "url": "https://extension.umaine.edu/ticks/tick-biology/",
+          "accessed": "2026-10-14",
+          "supports": "Ticks are often mistaken for insects but are small arachnids, like spiders and scorpions; adult and nymph ticks have eight legs."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF10",
+      "issue": "Section 4 describes every lichen as an alga plus a fungus that cannot survive apart, whose populations rise together. The photosynthetic partner can be a green alga or a cyanobacterium (or both), and many lichen algae can also live on their own.",
+      "pages": {
+        "printed": [
+          280
+        ],
+        "pdf": [
+          316
+        ]
+      },
+      "resolution": "Not tested. Lichens appear only as an example of a close mutualism; game wording says 'an alga or cyanobacterium and a fungus' if lichens are described.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions, lichen",
+          "supports": "A lichen is a pair of partners in which the photosynthetic partner makes food and the fungus gives structure, shelter and water."
+        },
+        {
+          "type": "external",
+          "title": "About Lichens",
+          "publisher": "USDA Forest Service",
+          "url": "https://www.fs.usda.gov/wildflowers/beauty/lichens/about.shtml",
+          "accessed": "2026-10-14",
+          "supports": "A lichen is a partnership of a fungus and an alga, which may be green or blue-green (cyanobacteria); algae can survive on their own in fresh or salt water."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Lichens are a mutualism between a fungus and photosynthetic algae or bacteria."
+        }
+      ]
+    },
+    {
+      "id": "L21-RF11",
+      "issue": "Commensal partners are described as completely unaffected (barnacles on a humpback whale; cows beside cattle egrets). A zero effect is hard to demonstrate, and heavy barnacle loads might cost a whale a little.",
+      "pages": {
+        "printed": [
+          281,
+          282
+        ],
+        "pdf": [
+          317,
+          318
+        ]
+      },
+      "resolution": "Kept the standard commensalism label for these examples. Q13's prompt says the whale is not helped or harmed 'as far as scientists can tell'; Q14's conditions rule out egrets picking ticks or flies off the cows, and its key says the cows are not helped or harmed 'as far as scientists can tell'; the O2 Explorer watch-out explains that 0 means no detectable effect.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Commensalism",
+          "supports": "Barnacles benefit from riding on a whale, while the whale is mostly unaffected."
+        },
+        {
+          "type": "external",
+          "title": "Gray Whales (Point Reyes National Seashore)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://nps.gov/pore/learn/nature/gray_whales.htm",
+          "accessed": "2026-10-14",
+          "supports": "Gray whales and the barnacles that live on them are described as an excellent example of commensalism, in which one organism benefits and the other gets no benefit or drawback."
+        }
+      ]
+    }
+  ]
+}

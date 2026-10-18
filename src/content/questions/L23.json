@@ -1,0 +1,3880 @@
+{
+  "lessonId": "L23",
+  "questions": [
+    {
+      "id": "L23-Q01",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "solid",
+        "particle motion",
+        "vibration"
+      ],
+      "familyId": "L23-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "How do the particles in a solid move?",
+      "accessiblePrompt": "How do the particles, meaning the atoms or molecules, in a solid move?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They vibrate back and forth around spots that stay fixed",
+          "rationale": "Correct: solid particles jiggle constantly, but each stays in its own place relative to its neighbors."
+        },
+        {
+          "id": "b",
+          "text": "They don't move at all",
+          "rationale": "Solid particles are never perfectly still; they vibrate even though the solid keeps its shape."
+        },
+        {
+          "id": "c",
+          "text": "They slide past one another",
+          "rationale": "Sliding past neighbors is what particles in a liquid do; that's why liquids flow and solids don't."
+        },
+        {
+          "id": "d",
+          "text": "They fly in straight lines until they bump into something",
+          "rationale": "Long straight-line trips between collisions describe gas particles, which have lots of empty space around them."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Particles in a solid are packed tightly and touch their neighbors, so they can't wander around or trade places. They still have energy, though, so each one vibrates around its position. That locked-in arrangement is why a solid keeps its shape.",
+      "misconception": "Particles in a solid are completely still.",
+      "hint": "A solid holds its shape, but that doesn't mean nothing inside it is moving.",
+      "followUpId": "L23-Q03",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1. Molecular Motion in Solids",
+        "pages": {
+          "printed": [
+            298
+          ],
+          "pdf": [
+            334
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids; Figure 1",
+          "supports": "Particles in a solid are closely packed, touching, and can only vibrate in place within fixed positions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            307
+          ],
+          "pdfPages": [
+            343
+          ],
+          "locator": "Lesson Summary",
+          "supports": "The summary says solid particles sit packed together and only jiggle in place."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (section 7, lesson 23), polished: 'vibrate around spots that stay fixed' is the brief's answer; the distractors are the still, liquid and gas pictures.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q02",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "solid",
+        "particle motion",
+        "misconception repair"
+      ],
+      "familyId": "L23-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A tray of ice cubes has sat in a −18°C freezer for a week, and the cubes haven't changed shape at all. Your friend says the water molecules inside must be perfectly still. What's the best reply?",
+      "accessiblePrompt": "A tray of ice cubes has been in a freezer at minus 18 degrees Celsius for a week, and the cubes have not changed shape at all. Your friend says the water molecules inside must be perfectly still. What is the best reply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They vibrate nonstop in their own spots, so the shape holds",
+          "rationale": "Correct: vibrating in place explains both facts at once, because the molecules move yet the shape never changes."
+        },
+        {
+          "id": "b",
+          "text": "You're right: they'll only start moving once the ice melts",
+          "rationale": "Molecules in ice already vibrate. Melting happens when they gain enough energy to slip out of their fixed spots, not when they first start moving."
+        },
+        {
+          "id": "c",
+          "text": "They slide past one another, just too slowly to notice",
+          "rationale": "If the molecules slid past one another, the ice would slowly sag and flow like a liquid; in a solid they can't rearrange."
+        },
+        {
+          "id": "e",
+          "text": "Only the molecules on the surface move; the ones deep inside are still",
+          "rationale": "Every molecule in the ice vibrates, inside and out. Being deep in the cube, or in a cold freezer, doesn't stop them."
+        }
+      ],
+      "answer": "a",
+      "conditions": "The freezer stays at −18°C, far below water's melting point.",
+      "explanation": "Not changing shape and not moving are different things. The molecules in ice are packed tightly and can't trade places, which is why the cube keeps its shape. Each molecule still vibrates around its spot, even in a freezer.",
+      "misconception": "If a solid isn't changing, its particles aren't moving.",
+      "hint": "Think about what would have to happen inside the cube for its shape to change.",
+      "followUpId": "L23-Q08",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1. Molecular Motion in Solids",
+        "pages": {
+          "printed": [
+            298
+          ],
+          "pdf": [
+            334
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids",
+          "supports": "Ice holds its shape because its molecules can't slip past each other or swap places; they just vibrate."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            297
+          ],
+          "pdfPages": [
+            333
+          ],
+          "locator": "Introduction, Disciplinary Core Ideas box",
+          "supports": "In a solid, atoms sit close together and can vibrate in place, but they do not swap positions with their neighbors."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Misconception repair for the brief's guardrail that solid particles still move. Round 1: the freezer-air distractor (old d) was replaced by the surface-only-motion misconception (new id e). Verify-agent (cosmetic): the second evidence record's 'supports' quoted the NGSS box on p. 297 word for word; it is now a paraphrase.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible freezer-air distractor d replaced by a surface-only-motion misconception (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q03",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "solid",
+        "liquid",
+        "gas",
+        "particle arrangement"
+      ],
+      "familyId": "L23-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each particle description by the state of matter it describes.",
+      "accessiblePrompt": "Sort each particle description into solid, liquid, or gas. The descriptions are: packed in a fixed pattern, each particle jiggling in its own spot; separated mostly by empty space, so a sample can be squeezed into less room; touching neighbors but able to slip past them; unable to slide past one another or rearrange; sliding down to fill the bottom of a container while staying in contact; far apart, traveling in straight lines between collisions.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Packed in a fixed pattern, each particle jiggling in its own spot",
+          "rationale": "Fixed spots plus vibration is the solid picture."
+        },
+        {
+          "id": "i2",
+          "text": "Touching neighbors but able to slip past them",
+          "rationale": "Close contact with freedom to slide is what lets a liquid flow."
+        },
+        {
+          "id": "i3",
+          "text": "Far apart, traveling in straight lines between collisions",
+          "rationale": "Long, free trips through empty space happen only in a gas."
+        },
+        {
+          "id": "i7",
+          "text": "Separated mostly by empty space, so a sample can be squeezed into less room",
+          "rationale": "Only a gas has enough empty space between its particles to be squeezed into much less room."
+        },
+        {
+          "id": "i8",
+          "text": "Sliding down to fill the bottom of a container while staying in contact",
+          "rationale": "Liquid particles stay touching but slide downward until they fill the bottom of their container; solid particles can't slide, and gas particles don't stay in contact."
+        },
+        {
+          "id": "i6",
+          "text": "Unable to slide past one another or rearrange",
+          "rationale": "Only solid particles are locked out of rearranging, which is why solids keep their shape."
+        }
+      ],
+      "bins": [
+        {
+          "id": "solid",
+          "label": "Solid"
+        },
+        {
+          "id": "liquid",
+          "label": "Liquid"
+        },
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "answer": {
+        "i1": "solid",
+        "i2": "liquid",
+        "i3": "gas",
+        "i7": "gas",
+        "i8": "liquid",
+        "i6": "solid"
+      },
+      "explanation": "Two questions sort every description: are the particles crowded together or far apart, and can they change places? Crowded and locked in place means solid. Crowded but free to slide means liquid. Far apart and free means gas.",
+      "misconception": "Liquid particles are spread far apart, like gas particles.",
+      "hint": "First ask whether the particles touch, then ask whether they can change places.",
+      "followUpId": "L23-Q05",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1-3. Molecular Motion in Solids, Liquids, and Gases",
+        "pages": {
+          "printed": [
+            298,
+            299,
+            300
+          ],
+          "pdf": [
+            334,
+            335,
+            336
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids",
+          "supports": "Solid particles are closely packed, touching, and only vibrate in place."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            299
+          ],
+          "pdfPages": [
+            335
+          ],
+          "locator": "Section 2. Molecular Motion in Liquids; Figure 2",
+          "supports": "Liquid particles are closely packed and touching but are not held in fixed positions and can slip past one another."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3. Molecular Motion in Gases; Figure 3",
+          "supports": "Gas particles are spread apart, touch only when they run into one another, and travel in nearly straight lines between collisions."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each description fits exactly one state; two items per bin. Round 1: the paraphrase pairs were removed. Old i4 (gas, meets only in collisions) became gas compressibility (new id i7), and old i5 (liquid, trades places) became a liquid filling the bottom of its container (new id i8). Six items now test six ideas, and the read-aloud no longer follows the stored order.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: paraphrase items i4 and i5 replaced by gas compressibility and liquid filling the container's bottom (new ids i7, i8); read-aloud reordered"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q04",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "solid",
+        "liquid",
+        "particle arrangement",
+        "particle motion"
+      ],
+      "familyId": "L23-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which statements are true of the particles in both a solid and a liquid? Select all that apply.",
+      "accessiblePrompt": "Which statements are true of the particles in both a solid and a liquid? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are packed closely and touch their neighbors",
+          "rationale": "Correct: solids and liquids share this crowded arrangement; only gas particles are spread out."
+        },
+        {
+          "id": "b",
+          "text": "They are always moving",
+          "rationale": "Correct: solid particles vibrate, and liquid particles vibrate and slide; neither is ever still."
+        },
+        {
+          "id": "c",
+          "text": "They stay in fixed positions",
+          "rationale": "Only solid particles stay in fixed positions; liquid particles can move around each other."
+        },
+        {
+          "id": "d",
+          "text": "They can slip past one another",
+          "rationale": "Only liquid particles slip past one another; solid particles can't rearrange."
+        },
+        {
+          "id": "e",
+          "text": "They are separated by lots of empty space",
+          "rationale": "Lots of empty space between particles describes a gas, not a solid or a liquid."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Solids and liquids are both crowded states: their particles are packed together and touching, and they are always in motion. The difference is freedom. Solid particles only vibrate in place, while liquid particles can also slide past each other.",
+      "misconception": "Particles in a solid don't move, so 'always moving' is true only of liquids.",
+      "hint": "Look for what the two states share, not what makes them different.",
+      "followUpId": "L23-Q01",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1-2. Molecular Motion in Solids and Liquids",
+        "pages": {
+          "printed": [
+            298,
+            299
+          ],
+          "pdf": [
+            334,
+            335
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            299
+          ],
+          "pdfPages": [
+            335
+          ],
+          "locator": "Section 2. Molecular Motion in Liquids",
+          "supports": "Liquid particles are closely packed and touching like solid particles and vibrate as solid particles do, but unlike solid particles they can move around each other."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids",
+          "supports": "Solid particles are closely packed, touching, and can only vibrate in place."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3. Molecular Motion in Gases",
+          "supports": "The particles of solids, liquids and gases are always moving."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of five; each wrong choice belongs to exactly one other state. Round 1: the read-aloud choice list was removed, because the narrator reads the shuffled choices itself. The scope label now names both sections.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional scope label now '1-2. Molecular Motion in Solids and Liquids'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the read-aloud choice list that the narrator repeats"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q05",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "shape",
+        "volume",
+        "macroscopic properties"
+      ],
+      "familyId": "L23-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each state of matter to how a sample of it behaves when you move it into a new, larger container.",
+      "accessiblePrompt": "Match each state of matter, solid, liquid, and gas, to how a sample of it behaves when you move it into a new, larger container. The behaviors are: spreads out to fill the container's shape and volume; keeps its own shape and its own volume; keeps its volume but takes the shape of the bottom of the container.",
+      "left": [
+        {
+          "id": "s",
+          "text": "Solid",
+          "rationale": "Solid particles are locked in place, so the sample keeps both its shape and its volume."
+        },
+        {
+          "id": "l",
+          "text": "Liquid",
+          "rationale": "Liquid particles slide down and take the shape of the container's bottom, but stay packed, so the volume stays the same."
+        },
+        {
+          "id": "g",
+          "text": "Gas",
+          "rationale": "Gas particles move independently until they fill the space, so a gas takes the container's shape and volume."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Keeps its own shape and its own volume"
+        },
+        {
+          "id": "r2",
+          "text": "Keeps its volume but takes the shape of the bottom of the container"
+        },
+        {
+          "id": "r3",
+          "text": "Spreads out to fill the container's shape and volume"
+        }
+      ],
+      "answer": {
+        "s": "r1",
+        "l": "r2",
+        "g": "r3"
+      },
+      "explanation": "What you see at the macroscopic scale follows from the particles. Locked particles give a solid a fixed shape and volume. Packed but sliding particles let a liquid change shape while keeping its volume. Free, far-apart particles let a gas change both.",
+      "misconception": "A liquid's volume changes whenever its shape changes.",
+      "hint": "Picture moving an ice cube, a cup of water and the air from a balloon into a big empty box.",
+      "followUpId": "L23-Q04",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1-3. Molecular Motion in Solids, Liquids, and Gases",
+        "pages": {
+          "printed": [
+            298,
+            299,
+            300
+          ],
+          "pdf": [
+            334,
+            335,
+            336
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids",
+          "supports": "A macroscopic amount of a solid has a fixed shape and volume."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            299
+          ],
+          "pdfPages": [
+            335
+          ],
+          "locator": "Section 2; Figure 2 caption",
+          "supports": "A liquid has a changing shape and a fixed volume."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3; Figure 3",
+          "supports": "A gas fills its container, matching both its shape and its volume."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three one-to-one pairs. Round 1: r2 now says that a liquid takes the shape of the bottom of a larger container (p. 299: 'the lower part of their container'). It is the same idea, worded more precisely, so it keeps its ID. The read-aloud behaviors are no longer in answer order.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: r2 now says the liquid takes the shape of the bottom of the container; liquid rationale and read-aloud match"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud behaviors no longer in answer order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q06",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "liquid",
+        "shape",
+        "volume",
+        "particle model"
+      ],
+      "familyId": "L23-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "You pour 250 mL of juice from a tall, thin glass into a wide, shallow bowl. Its shape changes completely, but it still measures 250 mL. Which particle explanation fits?",
+      "accessiblePrompt": "You pour 250 milliliters of juice from a tall, thin glass into a wide, shallow bowl. Its shape changes completely, but it still measures 250 milliliters. Which particle explanation fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The particles slide into a new arrangement but stay packed and touching",
+          "rationale": "Correct: sliding allows the new shape, and staying packed keeps the volume the same."
+        },
+        {
+          "id": "b",
+          "text": "The particles spread apart to fill the wide bowl",
+          "rationale": "If the particles spread apart, the juice's volume would grow, as a gas's does; the measurement shows it didn't."
+        },
+        {
+          "id": "c",
+          "text": "Each particle flattens out to fit the shallow bowl",
+          "rationale": "Particles don't change shape or size; only their arrangement changes."
+        },
+        {
+          "id": "d",
+          "text": "The particles stay locked in place while the bowl holds them differently",
+          "rationale": "Particles locked in place would keep the glass's tall shape, the way a solid would."
+        }
+      ],
+      "answer": "a",
+      "units": "mL",
+      "explanation": "A liquid's particles are crowded together and touching, so they can't spread out or squeeze closer, and the volume stays fixed. But they can slip past one another, so gravity pulls them down into whatever shape the container has.",
+      "misconception": "Particles stretch or flatten to fit a new container.",
+      "hint": "One property changed and one stayed the same. Explain each one separately.",
+      "followUpId": "L23-Q07",
+      "scope": {
+        "lessonId": "L23",
+        "section": "2. Molecular Motion in Liquids",
+        "pages": {
+          "printed": [
+            299
+          ],
+          "pdf": [
+            335
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            299
+          ],
+          "pdfPages": [
+            335
+          ],
+          "locator": "Section 2. Molecular Motion in Liquids; Figure 2",
+          "supports": "Liquid particles stay closely packed but slip past one another, filling gaps as gravity pulls them down, so a liquid takes its container's shape while keeping a fixed volume."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original example (juice into a bowl); none of the distractors is defensible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q07",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1",
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "gas",
+        "compression",
+        "particle spacing",
+        "collisions",
+        "gas pressure"
+      ],
+      "familyId": "L23-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A sealed syringe full of air is pushed in until the air takes up half the space, with its temperature kept the same. Which statements about the air particles are true? Select all that apply.",
+      "accessiblePrompt": "A sealed syringe full of air is pushed in until the air takes up half the space, with its temperature kept the same. Which statements about the air particles are true? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "There are still the same number of particles",
+          "rationale": "Correct: the syringe is sealed, so no particles get in or out."
+        },
+        {
+          "id": "b",
+          "text": "The particles are closer together on average",
+          "rationale": "Correct: the same particles now share half the space, so there's less empty space between them."
+        },
+        {
+          "id": "c",
+          "text": "Each particle has shrunk to about half its size",
+          "rationale": "Particles don't shrink when a gas is squeezed; the empty space between them is what shrinks."
+        },
+        {
+          "id": "d",
+          "text": "The particles have stopped moving because they are crowded",
+          "rationale": "Gas particles keep moving independently when squeezed; at the same temperature their average speed is the same as before."
+        },
+        {
+          "id": "e",
+          "text": "The particles hit each patch of the wall more often",
+          "rationale": "Correct: the same particles in half the space reach the walls more often, which is why the pressure rises."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "e"
+      ],
+      "conditions": "The syringe is sealed and the temperature does not change.",
+      "explanation": "A gas is mostly empty space, which is why you can squeeze it. Pushing the plunger shrinks the gaps between particles, not the particles themselves. The particles keep zooming around and now hit the walls more often, which raises the pressure.",
+      "misconception": "A gas takes up less space because its particles get smaller.",
+      "hint": "A gas is mostly empty space. Which part of it can be squeezed?",
+      "followUpId": "L23-Q13",
+      "scope": {
+        "lessonId": "L23",
+        "section": "3. Molecular Motion in Gases",
+        "pages": {
+          "printed": [
+            300
+          ],
+          "pdf": [
+            336
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3. Molecular Motion in Gases",
+          "supports": "When a bottle of air is crumpled to a smaller volume, the gas molecules keep moving independently but are squeezed closer together."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            302
+          ],
+          "pdfPages": [
+            338
+          ],
+          "locator": "Section 5, Pressure and Particles",
+          "supports": "Gas pressure depends on how many particles collide with an area of the container."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct of five. It carries the brief's note that particles don't change size. Round 1: choice e ties p. 302's collision count to pressure, so the item is now also tagged L23-O2. The choice d rationale says average speed, and the read-aloud choice list was removed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d rationale now says average speed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud choice list removed; third correct choice e added (particles hit each patch of the wall more often), tagged L23-O2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q08",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1",
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "solid",
+        "thermal expansion",
+        "particle spacing",
+        "vibration"
+      ],
+      "familyId": "L23-F04",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "On a hot afternoon, a long steel bridge gets a few centimeters longer. Which statements describe what happens to its iron atoms? Select all that apply.",
+      "accessiblePrompt": "On a hot afternoon, a long steel bridge gets a few centimeters longer. Which statements describe what happens to its iron atoms? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They vibrate more energetically",
+          "rationale": "Correct: warming gives the atoms more energy, so they vibrate harder around their positions."
+        },
+        {
+          "id": "b",
+          "text": "Their average distance from neighboring atoms grows slightly",
+          "rationale": "Correct: harder vibration keeps neighbors a tiny bit farther apart on average, and along a long bridge those tiny gaps add up."
+        },
+        {
+          "id": "c",
+          "text": "Each atom swells to a larger size",
+          "rationale": "Atoms don't grow when a solid warms; only the spacing between them changes."
+        },
+        {
+          "id": "e",
+          "text": "Heat fills the gaps between the atoms and pushes them apart",
+          "rationale": "Heat is energy moving from warmer things to cooler ones, not a substance that takes up room; the atoms' own harder vibrations keep them slightly farther apart on average."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "conditions": "The steel stays solid; a hot day is far below its melting point.",
+      "limitations": "The lesson treats a solid's volume as fixed; real solids expand slightly when warmed (review flag L23-RF6).",
+      "explanation": "A solid's volume is nearly fixed, not perfectly fixed. When a solid warms, its particles vibrate harder and sit slightly farther apart on average, so the whole object expands a little. The particles themselves stay the same size.",
+      "misconception": "A solid expands because its particles get bigger, or because heat fills the spaces between them.",
+      "hint": "Think about what extra energy does to particles that vibrate in place.",
+      "followUpId": "L23-Q02",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1. Molecular Motion in Solids",
+        "pages": {
+          "printed": [
+            298
+          ],
+          "pdf": [
+            334
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids",
+          "supports": "Particles in a solid are closely packed in fixed positions and can only vibrate in place."
+        },
+        {
+          "type": "external",
+          "title": "University Physics Volume 2, 1.3 Thermal Expansion",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion",
+          "accessed": "2026-10-14",
+          "supports": "Raising the temperature increases the kinetic energy of a solid's atoms and the average distance between them, so solids expand when heated."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the textbook's 'fixed volume' wording (L23-RF6) and tests the brief's guardrail that particles do not grow when a sample expands. Round 1: the flow-like-a-liquid distractor (old d) was replaced by the heat-as-a-substance misconception (new id e). The size distractor c stays as the item's main target, and the read-aloud choice list was removed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud choice list removed; flow-like-a-liquid distractor d replaced by heat-as-a-substance (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q09",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "water vapor",
+        "change of state",
+        "molecules",
+        "boiling"
+      ],
+      "familyId": "L23-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "When liquid water boils, it becomes water vapor. How does a water molecule (H₂O) in the vapor compare with one in the liquid?",
+      "accessiblePrompt": "When liquid water boils, it becomes water vapor. How does a water molecule, H₂O, made of two hydrogen atoms and one oxygen atom, compare in the vapor and in the liquid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It's the same H₂O molecule, just far from its neighbors",
+          "rationale": "Correct: a change of state changes how molecules are spaced and how they move, not what they are."
+        },
+        {
+          "id": "b",
+          "text": "It has split apart into hydrogen and oxygen atoms",
+          "rationale": "Boiling doesn't break water molecules apart; the bubbles hold whole H₂O molecules in the gas state."
+        },
+        {
+          "id": "e",
+          "text": "It has turned into air, which fills the bubbles",
+          "rationale": "The big bubbles in boiling water hold water vapor, not air; the molecules inside are still H₂O."
+        },
+        {
+          "id": "d",
+          "text": "It has turned into a new substance called steam",
+          "rationale": "Vapor is still water, the same substance in its gas state. The white 'steam' you can see is actually tiny liquid droplets."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Boiling changes how water molecules are spaced and how they move, not what they are. In the vapor, the same H₂O molecules are far apart and move independently. Their size and makeup stay the same, which is why the vapor can condense back into ordinary liquid water.",
+      "misconception": "Boiling turns water into air, or breaks its molecules into hydrogen and oxygen.",
+      "hint": "Water vapor can turn back into ordinary liquid water. What does that tell you about its molecules?",
+      "followUpId": "L23-Q14",
+      "scope": {
+        "lessonId": "L23",
+        "section": "1-3. Molecular Motion in Solids, Liquids, and Gases",
+        "pages": {
+          "printed": [
+            298,
+            299,
+            300
+          ],
+          "pdf": [
+            334,
+            335,
+            336
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298,
+            299,
+            300
+          ],
+          "pdfPages": [
+            334,
+            335,
+            336
+          ],
+          "locator": "Figures 1-3, atomic-level views",
+          "supports": "The figures for ice, liquid water and water vapor all show the same H₂O molecule at the atomic level; only the arrangement and motion of the molecules differ."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3; Figure 3 caption",
+          "supports": "Water vapor can't be seen; the steam you can see is droplets of condensing water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the rendered Figures 1-3 (atomic-level panels) rather than OCR. Round 1: the size distractor (old c) was replaced by bubbles-are-air (new id e). The explanation now opens with the idea instead of citing the textbook, and the scope label names all three sections.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional scope label now '1-3. Molecular Motion in Solids, Liquids, and Gases'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: size distractor c replaced by bubbles-are-air (new id e); explanation opens with the idea instead of citing the textbook"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q10",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "pressure",
+        "force",
+        "area"
+      ],
+      "familyId": "L23-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A hiker pushes down on soft snow with the same 600-newton force each time. Order these from the least pressure on the snow to the most.",
+      "accessiblePrompt": "A hiker pushes down on soft snow with the same force, 600 newtons, each time. Order these from the least pressure on the snow to the most: standing in two ordinary boots with 0.06 square meters touching the snow; lying flat on a sled with 0.6 square meters touching; balancing on one boot heel with 0.01 square meters touching; standing on two snowshoes with 0.25 square meters touching.",
+      "items": [
+        {
+          "id": "c",
+          "text": "Standing in two ordinary boots (0.06 m²)",
+          "rationale": "A much smaller area than the snowshoes, so much more pressure (10 kPa)."
+        },
+        {
+          "id": "a",
+          "text": "Lying flat on a sled (0.6 m²)",
+          "rationale": "The largest area spreads the force the most: least pressure (1 kPa)."
+        },
+        {
+          "id": "d",
+          "text": "Balancing on one boot heel (0.01 m²)",
+          "rationale": "The smallest area concentrates the force the most: greatest pressure (60 kPa)."
+        },
+        {
+          "id": "b",
+          "text": "Standing on two snowshoes (0.25 m²)",
+          "rationale": "Less area than the sled, so more pressure (2.4 kPa)."
+        }
+      ],
+      "ends": [
+        "Least pressure",
+        "Most pressure"
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "units": "kPa",
+      "conditions": "The force is the same 600 newtons in every case.",
+      "explanation": "Pressure is force divided by area. When the force stays the same, a bigger area means less pressure and a smaller area means more. That's why snowshoes keep you on top of soft snow while a single heel punches straight in.",
+      "misconception": "The same weight always makes the same pressure, no matter what area it presses on.",
+      "hint": "The force never changes. What happens to the pressure when you spread that force over more area?",
+      "followUpId": "L23-Q12",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            302
+          ],
+          "pdf": [
+            338
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            302
+          ],
+          "pdfPages": [
+            338
+          ],
+          "locator": "Section 5. Pressure Affects the State of Matter, footprint example",
+          "supports": "Pressure is the force exerted over an area; the same force on a smaller area (stilts versus sneakers) applies more pressure and sinks deeper into mud."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original snowshoe example replaces the book's sneakers and stilts. Areas are given so the order is unambiguous; items stored out of answer order. Round 1: the read-aloud now lists the options in stored order, not answer order.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud lists the options in stored order, not answer order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q11",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "pressure",
+        "kilopascal",
+        "calculation"
+      ],
+      "familyId": "L23-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A heavy crate presses on the floor with a force of 1,200 newtons spread over 0.4 square meters. What pressure does it put on the floor, in kilopascals? (1 kPa = 1,000 N/m²)",
+      "accessiblePrompt": "A heavy crate presses on the floor with a force of 1,200 newtons spread over 0.4 square meters. What pressure does it put on the floor, in kilopascals? One kilopascal equals 1,000 newtons per square meter.",
+      "answer": 3,
+      "tolerance": 0.05,
+      "unit": "kPa",
+      "units": "kPa",
+      "workedSolution": "Pressure = force ÷ area = 1,200 N ÷ 0.4 m² = 3,000 N/m². Since 1 kPa = 1,000 N/m², 3,000 N/m² ÷ 1,000 = 3 kPa.",
+      "conditions": "The crate's weight is spread evenly over the 0.4 square meters.",
+      "explanation": "Divide the force by the area to get newtons per square meter, then divide by 1,000 to change to kilopascals. The crate's 3 kPa is small next to the roughly 101 kPa that air presses on everything at sea level.",
+      "misconception": "Pressure is force times area, or one kilopascal is one newton per square meter.",
+      "hint": "Pressure tells you how much force lands on each square meter.",
+      "followUpId": "L23-Q12",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            302
+          ],
+          "pdf": [
+            338
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            302
+          ],
+          "pdfPages": [
+            338
+          ],
+          "locator": "Section 5, Pressure and Particles",
+          "supports": "Pressure is force over an area; one kilopascal equals 1,000 newtons per square meter; air at sea level presses on objects with about 101 kPa."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round numbers; tolerance 0.05 kPa.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q12",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "gas pressure",
+        "collisions"
+      ],
+      "familyId": "L23-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Air is sealed inside a balloon. What causes the air to push outward on the rubber?",
+      "accessiblePrompt": "Air is sealed inside a balloon. What causes the air to push outward on the rubber?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Air particles hitting the rubber, each hit giving a tiny push",
+          "rationale": "Correct: each collision exerts a small force, and together they add up to the gas's pressure."
+        },
+        {
+          "id": "e",
+          "text": "Air particles packed tightly against the rubber, like marbles in a bag",
+          "rationale": "Gas particles are far apart, not packed; the push comes from moving particles bouncing off the rubber."
+        },
+        {
+          "id": "c",
+          "text": "Air particles sticking to the rubber and pulling it outward",
+          "rationale": "Gas particles bounce off the wall rather than sticking to it; the push comes from the bounces."
+        },
+        {
+          "id": "d",
+          "text": "Warm air rising and lifting the top of the balloon upward",
+          "rationale": "The balloon is pushed outward in every direction, sideways and down too, which rising air can't explain."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Gas particles are always zooming around. Each time one hits a wall and bounces off, it pushes on that wall a little. An enormous number of hits every second, far more than trillions, over the whole inner surface add up to the steady push we call gas pressure.",
+      "misconception": "Gas pressure comes from particles packed against the walls, or from warm air rising.",
+      "hint": "Picture how the particles inside the balloon move. What happens when they reach the rubber?",
+      "followUpId": "L23-Q10",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            300,
+            302
+          ],
+          "pdf": [
+            336,
+            338
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            302
+          ],
+          "pdfPages": [
+            338
+          ],
+          "locator": "Section 5, Pressure and Particles",
+          "supports": "When gas particles collide with a container's walls they exert force; many collisions over the container's area make up the gas's pressure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3. Molecular Motion in Gases",
+          "supports": "Gas particles travel in nearly straight lines until they collide with another molecule or a container wall and bounce off."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round 1: the explanation no longer says 'billions' of hits per second (air at sea level makes about 3 × 10²⁷ wall hits per square meter per second). The size distractor (old b) was replaced by gas-packed-like-marbles (new id e).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer says 'billions' of hits per second (the real number is vastly larger)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: size distractor b replaced by gas-packed-like-marbles (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q13",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "air pressure",
+        "elevation",
+        "collisions"
+      ],
+      "familyId": "L23-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "At a mountain cabin where air pressure is about 60 kPa, a hiker tightly caps an empty plastic bottle. After the drive down to the beach, where air pressure is about 101 kPa, the bottle is crumpled. Why?",
+      "accessiblePrompt": "At a mountain cabin where the air pressure is about 60 kilopascals, a hiker tightly caps an empty plastic bottle. After the drive down to the beach, where the air pressure is about 101 kilopascals, the bottle is crumpled. Why?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Outside air particles hit the bottle more often than the trapped ones did",
+          "rationale": "Correct: on the way down, the denser beach air made more collisions on each bit of the outer wall than the thin trapped air made inside, so the walls caved in."
+        },
+        {
+          "id": "e",
+          "text": "The trapped air particles stopped moving once the cap was on",
+          "rationale": "Gas particles never stop moving; the trapped ones kept hitting the walls, just less often than the denser outside air did on the way down."
+        },
+        {
+          "id": "c",
+          "text": "Some of the trapped air leaked out through the plastic walls",
+          "rationale": "The bottle is sealed, so the same particles stay inside; it crumples because of a pressure difference, not a leak."
+        },
+        {
+          "id": "d",
+          "text": "The trapped air got heavier and pulled the walls inward",
+          "rationale": "Gas pushes outward on its container; it can't pull walls inward. The inward push comes from the air outside."
+        }
+      ],
+      "answer": "a",
+      "conditions": "The bottle stays sealed, and the temperature is about the same at both places.",
+      "explanation": "The bottle traps thin mountain air, so fewer particles hit each bit of its inner wall. At the beach, the outside air is denser and its particles hit the outer wall more often, so the outside pressure is greater. The walls cave in until the trapped air is squeezed enough to push back about as hard.",
+      "misconception": "A sealed bottle crumples because the air inside leaks out or stops moving.",
+      "hint": "Compare how many particles hit the outside of the bottle with how many hit the inside.",
+      "followUpId": "L23-Q07",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            302
+          ],
+          "pdf": [
+            338
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            302
+          ],
+          "pdfPages": [
+            338
+          ],
+          "locator": "Section 5; Figure 5A",
+          "supports": "A bottle capped high on a mountain crumbles inward at lower elevation because more air particles collide with its outside walls than its inside walls."
+        },
+        {
+          "type": "external",
+          "title": "Air pressure (JetStream)",
+          "publisher": "NOAA National Weather Service",
+          "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure",
+          "accessed": "2026-10-14",
+          "supports": "Air pressure decreases as elevation increases because the number of air molecules decreases; standard sea-level pressure is 1013.25 millibars (about 101 kPa)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round pressures (about 60 and 101 kPa) instead of the figure's 62 and 98 kPa (L23-RF4). Round 1: key a is now in the past tense, because the difference in collisions held on the way down and not after the bottle crumpled. It is the same claim, so it keeps its ID. The size distractor (old b) was replaced by trapped-air-stops-moving (new id e).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key a now in the past tense; size distractor b replaced by trapped-air-stops-moving (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q14",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2",
+        "L23-O1"
+      ],
+      "conceptTags": [
+        "melting point",
+        "boiling point",
+        "heating",
+        "water",
+        "particle model",
+        "change of state"
+      ],
+      "familyId": "L23-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A block of ice at −20°C is heated steadily at sea-level pressure (101 kPa) until it reaches 120°C. Put these stages in order.",
+      "accessiblePrompt": "A block of ice at minus 20 degrees Celsius is heated steadily at sea-level pressure, 101 kilopascals, until it reaches 120 degrees Celsius. Put these stages in order: molecules stay close together and slide around as the liquid warms; far-apart molecules move independently as the vapor warms; molecules vibrate in fixed spots as the ice warms; molecules escape the liquid in bubbles and spread far apart; molecules break out of their fixed spots and start sliding past one another.",
+      "items": [
+        {
+          "id": "c",
+          "text": "Molecules stay close together and slide around as the liquid warms",
+          "rationale": "Once all the ice has melted at 0°C, the liquid's molecules stay close but slide past one another as the temperature climbs toward 100°C."
+        },
+        {
+          "id": "e",
+          "text": "Far-apart molecules move independently as the vapor warms",
+          "rationale": "Only after boiling at 100°C is the water a gas whose far-apart molecules can heat past 100°C at this pressure."
+        },
+        {
+          "id": "a",
+          "text": "Molecules vibrate in fixed spots as the ice warms",
+          "rationale": "At −20°C the water is solid, so the stage below 0°C, with molecules vibrating in place, comes first."
+        },
+        {
+          "id": "d",
+          "text": "Molecules escape the liquid in bubbles and spread far apart",
+          "rationale": "At 100°C, water's boiling point at 101 kPa, molecules break away from one another and form bubbles of vapor."
+        },
+        {
+          "id": "b",
+          "text": "Molecules break out of their fixed spots and start sliding past one another",
+          "rationale": "At 0°C, water's melting point, the vibrating molecules gain enough energy to leave their fixed spots: the ice melts."
+        }
+      ],
+      "ends": [
+        "Start (coldest)",
+        "End (hottest)"
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "conditions": "The pressure stays at 101 kPa the whole time, and the water is pure.",
+      "explanation": "At 101 kPa water melts at 0°C and boils at 100°C, so warming ice passes through solid, liquid and gas in that order. Melting is molecules leaving fixed spots; boiling is molecules leaving each other's company. Between those changes, the water simply gets warmer and its molecules move faster.",
+      "misconception": "Heated ice can boil before it melts, or melting and boiling don't change how the molecules are arranged and move.",
+      "hint": "Which change of state does water reach first as it warms: melting or boiling?",
+      "followUpId": "L23-Q19",
+      "scope": {
+        "lessonId": "L23",
+        "section": "4. Temperature Affects the State of Matter",
+        "pages": {
+          "printed": [
+            298,
+            299,
+            300,
+            301
+          ],
+          "pdf": [
+            334,
+            335,
+            336,
+            337
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            301
+          ],
+          "pdfPages": [
+            337
+          ],
+          "locator": "Section 4. Temperature Affects the State of Matter; Figure 4",
+          "supports": "Water's melting point is 0°C and its boiling point is 100°C; ice warms and melts into liquid, and heated liquid water eventually boils into vapor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept",
+          "supports": "At 101 kPa, water is solid below 0°C, liquid between 0°C and 100°C and gas above 100°C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298,
+            299,
+            300
+          ],
+          "pdfPages": [
+            334,
+            335,
+            336
+          ],
+          "locator": "Sections 1-3; Figures 1-3",
+          "supports": "Solid particles vibrate in fixed positions, liquid particles stay packed but slip past one another, and gas particles are far apart and move independently."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            297
+          ],
+          "pdfPages": [
+            333
+          ],
+          "locator": "Introduction, Next Generation Science Standards box (MS-PS1-4)",
+          "supports": "Learners model how particle motion, temperature and the state of a pure substance change when thermal energy is added or removed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible order at a stated 101 kPa; items stored out of answer order. Round 1 (pedagogy): the items are now particle-model stages with no temperatures, so the order can't be found by sorting numbers. Each ID still names the same stage in the same position, and the read-aloud uses stored order. The item also covers the particle view of a change of state (MS-PS1-4, p. 297), so it is now tagged L23-O1 too.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: items rewritten as particle-model stages with no numbers; read-aloud in stored order; explanation adds the melting/boiling particle contrast; tagged L23-O1"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q15",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "temperature",
+        "different substances",
+        "carbon dioxide",
+        "water"
+      ],
+      "familyId": "L23-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "At 23°C and 101 kPa, carbon dioxide (CO₂) is a gas but water is a liquid. What best explains the difference?",
+      "accessiblePrompt": "At 23 degrees Celsius and 101 kilopascals, carbon dioxide, C O two, made of one carbon atom and two oxygen atoms, is a gas, but water is a liquid. What best explains the difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each substance changes state at its own temperatures",
+          "rationale": "Correct: at 101 kPa water stays liquid from 0°C to 100°C, while solid carbon dioxide turns to gas at −78.5°C, so 23°C puts them in different states."
+        },
+        {
+          "id": "b",
+          "text": "The carbon dioxide is at a higher temperature than the water",
+          "rationale": "Both are at the same 23°C; the difference comes from the substances, not their temperatures."
+        },
+        {
+          "id": "c",
+          "text": "CO₂ molecules are lighter, so they drift off as a gas",
+          "rationale": "A CO₂ molecule (one carbon and two oxygens, about 44 atomic mass units) is actually heavier than a water molecule (one oxygen and two hydrogens, about 18), yet CO₂ is the gas, so molecule mass alone can't explain the difference."
+        },
+        {
+          "id": "d",
+          "text": "The air presses harder on water than on carbon dioxide",
+          "rationale": "Both feel the same 101 kPa; identical conditions give different states because the substances differ."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Temperature helps decide state, but each substance has its own change-of-state temperatures. At 101 kPa, water is liquid between 0°C and 100°C, while solid carbon dioxide turns into gas at −78.5°C. So 23°C puts water in its liquid range and carbon dioxide far into its gas range.",
+      "misconception": "At the same temperature and pressure, every substance is in the same state.",
+      "hint": "Compare 23°C with each substance's own change-of-state temperatures.",
+      "followUpId": "L23-Q24",
+      "scope": {
+        "lessonId": "L23",
+        "section": "4. Temperature Affects the State of Matter",
+        "pages": {
+          "printed": [
+            297,
+            301,
+            306
+          ],
+          "pdf": [
+            333,
+            337,
+            342
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            297
+          ],
+          "pdfPages": [
+            333
+          ],
+          "locator": "Introduction",
+          "supports": "Because water and carbon dioxide are different substances, one temperature can leave them in different states; at room temperature carbon dioxide is a gas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept",
+          "supports": "At 101 kPa water is liquid between 0°C and 100°C, while carbon dioxide is a gas unless cooled below −78.5°C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round 1: the choice c rationale now gives the molecule masses (about 44 for CO₂ and about 18 for water) and says only that mass alone can't explain this case. The old absolute, 'weight isn't what sets the state', was false in general: heavier molecules of similar kinds do boil higher.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale now says mass alone can't explain the difference (CO₂ about 44 u, water about 18 u)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q16",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "pressure",
+        "change of state",
+        "condensation",
+        "piston"
+      ],
+      "familyId": "L23-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A sealed cylinder with a movable piston holds water vapor at 100°C and 50 kPa. The piston is pushed in until the pressure reaches 200 kPa, while the temperature stays at 100°C. What happens to the water?",
+      "accessiblePrompt": "A sealed cylinder with a movable piston holds water vapor at 100 degrees Celsius and 50 kilopascals. The piston is pushed in until the pressure reaches 200 kilopascals, while the temperature stays at 100 degrees. What happens to the water?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It becomes a liquid, since at 200 kPa water boils above 100°C",
+          "rationale": "Correct: at 200 kPa water boils at about 120°C, so water at 100°C is a liquid."
+        },
+        {
+          "id": "b",
+          "text": "It stays a gas, because only a temperature change can change a state",
+          "rationale": "Pressure can change state too: squeezing pushes vapor molecules together until they form a liquid."
+        },
+        {
+          "id": "c",
+          "text": "It freezes into ice, because squeezing locks the molecules in place",
+          "rationale": "At 100°C water is far too warm to freeze at these pressures; squeezing turns the vapor into a liquid."
+        },
+        {
+          "id": "e",
+          "text": "It stays a gas, because squeezing a gas only pushes its molecules closer",
+          "rationale": "That's true for air at room temperature, but at 200 kPa water's boiling point is about 120°C, so 100°C vapor is squeezed into a liquid."
+        }
+      ],
+      "answer": "a",
+      "conditions": "The cylinder is sealed and held at 100°C the whole time.",
+      "explanation": "Temperature isn't the only thing that sets a state. At 50 kPa water boils at about 81°C, so water at 100°C is a gas. Pushing the piston crowds the molecules together and raises the pressure; at 200 kPa water's boiling point is about 120°C, so the same 100°C water becomes a liquid.",
+      "misconception": "Only heating or cooling can change a substance's state, so squeezing a gas only crowds its molecules.",
+      "hint": "Water's boiling point depends on pressure. Is 100°C above or below the boiling point at 200 kPa?",
+      "followUpId": "L23-Q20",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            303
+          ],
+          "pdf": [
+            339
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter; Figure 5B",
+          "supports": "At a constant 100°C, water in a sealed piston container is a gas at about 50 kPa (52 kPa in the figure) and is compressed into a liquid at 200 kPa."
+        },
+        {
+          "type": "external",
+          "title": "Saturation Properties for Water (Thermophysical Properties of Fluid Systems)",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/fluid.cgi?PLow=50&PHigh=200&PInc=10&Digits=5&ID=C7732185&Action=Load&Type=SatP&TUnit=C&PUnit=kPa&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+          "accessed": "2026-10-14",
+          "supports": "Water's saturation (boiling) temperature is about 81°C at 50 kPa and about 120°C at 200 kPa."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the text's 50 kPa; the figure's 52 kPa gives the same result (L23-RF4). Round 1: the size distractor (old d) was replaced by squeezing-only-crowds-a-gas (new id e), which catches learners who over-apply Q07. The follow-up is now L23-Q20, because Q21 was rejected.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: size distractor d replaced by the squeezing-only-crowds-a-gas misconception (new id e); follow-up now L23-Q20"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q17",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "boiling point",
+        "air pressure",
+        "elevation"
+      ],
+      "familyId": "L23-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "At a high mountain campsite, the air pressure is about 60 kPa. A camper heats a pot of pure water until it bubbles hard. What can you predict about the boiling water's temperature?",
+      "accessiblePrompt": "At a high mountain campsite, the air pressure is about 60 kilopascals. A camper heats a pot of pure water until it bubbles hard. What can you predict about the boiling water's temperature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It's below 100°C, because lower pressure lowers water's boiling point",
+          "rationale": "Correct: at about 60 kPa, water boils at roughly 86°C."
+        },
+        {
+          "id": "b",
+          "text": "It's exactly 100°C, because water always boils at 100°C",
+          "rationale": "100°C is water's boiling point only near sea-level pressure, about 101 kPa."
+        },
+        {
+          "id": "e",
+          "text": "It's above 100°C, because thin air makes water harder to boil",
+          "rationale": "Lower pressure makes water boil more easily, at a lower temperature, not a higher one."
+        },
+        {
+          "id": "d",
+          "text": "It can't be predicted, because water won't boil at such a low pressure",
+          "rationale": "Water boils at lower pressures too; it just boils at a lower temperature."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Pure water boiling in an open pot at about 60 kPa.",
+      "explanation": "A boiling point depends on pressure. With less air pressing down on the water, it boils at a lower temperature: about 86°C at 60 kPa. That's why cooking directions for high elevations differ from the ones for sea level.",
+      "misconception": "Water always boils at 100°C.",
+      "hint": "Is the air pressure at the campsite higher or lower than at sea level? What does that do to the boiling point?",
+      "followUpId": "L23-Q19",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            303
+          ],
+          "pdf": [
+            339
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter",
+          "supports": "A decrease in pressure lowers the boiling temperature, so at high elevations water boils well below 100°C."
+        },
+        {
+          "type": "external",
+          "title": "Saturation Properties for Water (Thermophysical Properties of Fluid Systems)",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/fluid.cgi?PLow=50&PHigh=200&PInc=10&Digits=5&ID=C7732185&Action=Load&Type=SatP&TUnit=C&PUnit=kPa&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+          "accessed": "2026-10-14",
+          "supports": "Water's saturation (boiling) temperature is about 85.9°C at 60 kPa."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round 1: the incoherent cold-air distractor (old c) was replaced by thin-air-makes-boiling-harder (new id e). The follow-up is now L23-Q19, because Q21 was rejected.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: incoherent distractor c replaced by thin-air-makes-boiling-harder (new id e); follow-up now L23-Q19"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q18",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O2",
+        "L23-O4"
+      ],
+      "conceptTags": [
+        "boiling point",
+        "pressure",
+        "reporting conditions",
+        "evidence"
+      ],
+      "familyId": "L23-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Two careful students measure the boiling point of the same pure water. At a seaside lab one gets 100°C. At a mountain lab where air pressure is about 84 kPa, the other gets about 95°C. Which explanation and next step are best?",
+      "accessiblePrompt": "Two careful students measure the boiling point of the same pure water. At a seaside lab one gets 100 degrees Celsius. At a mountain lab where the air pressure is about 84 kilopascals, the other gets about 95 degrees. Which explanation and next step are best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lower air pressure lowers the boiling point, so each report should state its pressure",
+          "rationale": "Correct: both results can be right, and listing the pressure lets readers compare them fairly."
+        },
+        {
+          "id": "b",
+          "text": "The mountain thermometer must be broken, since water always boils at 100°C",
+          "rationale": "Water boils at 100°C only near sea-level pressure; about 95°C is the expected result at about 84 kPa."
+        },
+        {
+          "id": "c",
+          "text": "The mountain lab is colder, and cold rooms make water boil at lower temperatures",
+          "rationale": "The room's temperature doesn't set the boiling point; the pressure on the water does."
+        },
+        {
+          "id": "d",
+          "text": "Mountain water holds less energy, so it needs a lower temperature to boil",
+          "rationale": "Pure water is the same substance everywhere; only the pressure on it is different."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Both students used accurate thermometers and pure water.",
+      "explanation": "Both results can be correct. A boiling point depends on pressure, and the mountain lab's lower air pressure lets water boil at about 95°C. That's why a careful report gives the pressure along with the boiling point, so others can compare fairly.",
+      "misconception": "A substance's boiling point is one fixed number, so any different result must be an error.",
+      "hint": "What is different about the air at the two labs?",
+      "followUpId": "L23-Q27",
+      "scope": {
+        "lessonId": "L23",
+        "section": "5. Pressure Affects the State of Matter",
+        "pages": {
+          "printed": [
+            303,
+            307
+          ],
+          "pdf": [
+            339,
+            343
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter",
+          "supports": "Higher elevations have lower air pressure and so a lower boiling point for water; a precise boiling point names its pressure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            307
+          ],
+          "pdfPages": [
+            343
+          ],
+          "locator": "Section 7. Standard Temperature and Pressure",
+          "supports": "Scientists note when their measurement conditions differ from standard conditions so others can compare and replicate results."
+        },
+        {
+          "type": "external",
+          "title": "Saturation Properties for Water (Thermophysical Properties of Fluid Systems)",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/fluid.cgi?PLow=50&PHigh=200&PInc=10&Digits=5&ID=C7732185&Action=Load&Type=SatP&TUnit=C&PUnit=kPa&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+          "accessed": "2026-10-14",
+          "supports": "Water's saturation (boiling) temperature is about 93.5°C at 80 kPa and 99.6°C at 100 kPa, so it is about 95°C near 84 kPa."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round 1: Explorer O4 no longer uses this item's example (about 84 kPa and about 95°C); it now uses about 70 kPa and about 90°C. Science Explorer users must apply the idea rather than recall the case.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q19",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "state diagram",
+        "water",
+        "prediction"
+      ],
+      "familyId": "L23-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Use water's state diagram to sort each set of conditions by the state water would be in.",
+      "accessiblePrompt": "Use the state diagram for water, described in the diagram text, to sort each set of conditions by the state water would be in. The conditions are: 110 degrees Celsius and 200 kilopascals; minus 40 degrees and 101 kilopascals; 100 degrees and 60 kilopascals; 150 degrees and 101 kilopascals; minus 10 degrees and 60 kilopascals; 60 degrees and 101 kilopascals.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "−40°C and 101 kPa",
+          "rationale": "Colder than 0°C, so the point lands in the solid region."
+        },
+        {
+          "id": "i2",
+          "text": "60°C and 101 kPa",
+          "rationale": "Between 0°C and the boiling line (100°C at this pressure), so liquid."
+        },
+        {
+          "id": "i3",
+          "text": "150°C and 101 kPa",
+          "rationale": "Hotter than the boiling line at 101 kPa (100°C), so gas."
+        },
+        {
+          "id": "i4",
+          "text": "−10°C and 60 kPa",
+          "rationale": "Colder than 0°C; at this pressure water is still solid."
+        },
+        {
+          "id": "i5",
+          "text": "110°C and 200 kPa",
+          "rationale": "At 200 kPa water boils at about 120°C, so at 110°C it is still liquid."
+        },
+        {
+          "id": "i6",
+          "text": "100°C and 60 kPa",
+          "rationale": "At 60 kPa water boils at about 86°C, so at 100°C it is a gas."
+        }
+      ],
+      "bins": [
+        {
+          "id": "solid",
+          "label": "Solid"
+        },
+        {
+          "id": "liquid",
+          "label": "Liquid"
+        },
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "answer": {
+        "i1": "solid",
+        "i2": "liquid",
+        "i3": "gas",
+        "i4": "solid",
+        "i5": "liquid",
+        "i6": "gas"
+      },
+      "diagram": {
+        "kind": "curve",
+        "caption": "State diagram of water (simplified, 50 to 200 kPa)",
+        "alt": "State diagram for water. Temperature in degrees Celsius runs along the horizontal axis from −100 to 200, and pressure in kilopascals (kPa) runs along the vertical axis from 50 to 200. A melting line at 0°C separates solid from liquid at every pressure shown. A boiling line separates liquid from gas: it passes through about 81°C at 50 kPa, 86°C at 60 kPa, 93.5°C at 80 kPa, 100°C at 101 kPa, 105°C at 120 kPa, 111°C at 150 kPa and 120°C at 200 kPa. Water colder than 0°C is solid; water between 0°C and the boiling line is liquid; water hotter than the boiling line is gas.",
+        "xLabel": "Temperature (°C)",
+        "yLabel": "Pressure (kPa)",
+        "series": [
+          {
+            "label": "Melting line (solid | liquid)",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                0,
+                200
+              ]
+            ]
+          },
+          {
+            "label": "Boiling line (liquid | gas)",
+            "points": [
+              [
+                81,
+                50
+              ],
+              [
+                86,
+                60
+              ],
+              [
+                93.5,
+                80
+              ],
+              [
+                100,
+                101
+              ],
+              [
+                105,
+                120
+              ],
+              [
+                111,
+                150
+              ],
+              [
+                120,
+                200
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": -50,
+            "y": 150,
+            "text": "Solid"
+          },
+          {
+            "x": 45,
+            "y": 150,
+            "text": "Liquid"
+          },
+          {
+            "x": 160,
+            "y": 100,
+            "text": "Gas"
+          }
+        ]
+      },
+      "limitations": "The diagram is simplified and covers 50 to 200 kPa; every point is at least 10°C from a boundary.",
+      "explanation": "A state diagram needs both numbers: find the temperature, find the pressure, and see which region the point lands in. Notice that 100°C is a gas at 60 kPa, while 110°C is still a liquid at 200 kPa. Temperature alone isn't enough.",
+      "misconception": "Water hotter than 100°C is always a gas, whatever the pressure.",
+      "hint": "For each pair, find water's boiling temperature at that pressure first, then compare.",
+      "followUpId": "L23-Q16",
+      "scope": {
+        "lessonId": "L23",
+        "section": "6. Predicting States of Matter",
+        "pages": {
+          "printed": [
+            304
+          ],
+          "pdf": [
+            340
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            304
+          ],
+          "pdfPages": [
+            340
+          ],
+          "locator": "Section 6. Predicting States of Matter; Figure 6A, The State Diagram of Water",
+          "supports": "A state diagram plots temperature on the x-axis and pressure on the y-axis; the region a point falls in gives water's state."
+        },
+        {
+          "type": "external",
+          "title": "Saturation Properties for Water (Thermophysical Properties of Fluid Systems)",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/fluid.cgi?PLow=50&PHigh=200&PInc=10&Digits=5&ID=C7732185&Action=Load&Type=SatP&TUnit=C&PUnit=kPa&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+          "accessed": "2026-10-14",
+          "supports": "Water's boiling temperature is about 86°C at 60 kPa, 100°C at 101.3 kPa and 120°C at 200 kPa."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Points chosen well inside regions (L23-RF4); two items per bin. Round 1: the read-aloud conditions were reordered so they no longer cycle solid, liquid, gas. Verify-agent (cosmetic): the diagram alt said '94°C at 80 kPa' while the plotted point is 93.5 (NIST 93.49°C); the alt now says 93.5°C.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud conditions reordered so they no longer cycle solid, liquid, gas"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q20",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "state diagram",
+        "pressure change",
+        "boiling point",
+        "prediction"
+      ],
+      "familyId": "L23-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An open cup of water at 25°C is carried from the beach (101 kPa) up to a mountain pass where the air pressure is about 60 kPa. The water stays at 25°C. What does water's state diagram predict at the pass?",
+      "accessiblePrompt": "An open cup of water at 25 degrees Celsius is carried from the beach, at 101 kilopascals, up to a mountain pass where the air pressure is about 60 kilopascals. The water stays at 25 degrees. Using the state diagram for water, described in the diagram text, what happens to the water at the pass?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "It boils, because lowering the pressure always makes water boil",
+          "rationale": "Lower pressure lowers the boiling point, but only to about 86°C at 60 kPa; water at 25°C is far below that, so it doesn't boil."
+        },
+        {
+          "id": "f",
+          "text": "It stays liquid, since 25°C is far below the boiling point at 60 kPa",
+          "rationale": "Correct: at 60 kPa water boils at about 86°C, so a point at 25°C stays well inside the liquid region."
+        },
+        {
+          "id": "g",
+          "text": "It freezes, because lowering the pressure pulls energy out of the water",
+          "rationale": "Freezing would need the water to cool to about 0°C; it stays at 25°C, far from the solid region."
+        },
+        {
+          "id": "h",
+          "text": "It sits on the boiling line, so it's half liquid and half gas",
+          "rationale": "The boiling line crosses 60 kPa at about 86°C, more than 60°C hotter than this water, so the point is nowhere near the line."
+        }
+      ],
+      "answer": "f",
+      "diagram": {
+        "kind": "curve",
+        "caption": "State diagram of water (simplified, 50 to 200 kPa)",
+        "alt": "State diagram for water. Temperature in degrees Celsius runs along the horizontal axis from −100 to 200, and pressure in kilopascals (kPa) runs along the vertical axis from 50 to 200. A melting line at 0°C separates solid from liquid at every pressure shown. A boiling line separates liquid from gas: it passes through about 81°C at 50 kPa, 86°C at 60 kPa, 93.5°C at 80 kPa, 100°C at 101 kPa, 105°C at 120 kPa, 111°C at 150 kPa and 120°C at 200 kPa. Water colder than 0°C is solid; water between 0°C and the boiling line is liquid; water hotter than the boiling line is gas.",
+        "xLabel": "Temperature (°C)",
+        "yLabel": "Pressure (kPa)",
+        "series": [
+          {
+            "label": "Melting line (solid | liquid)",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                0,
+                200
+              ]
+            ]
+          },
+          {
+            "label": "Boiling line (liquid | gas)",
+            "points": [
+              [
+                81,
+                50
+              ],
+              [
+                86,
+                60
+              ],
+              [
+                93.5,
+                80
+              ],
+              [
+                100,
+                101
+              ],
+              [
+                105,
+                120
+              ],
+              [
+                111,
+                150
+              ],
+              [
+                120,
+                200
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": -50,
+            "y": 150,
+            "text": "Solid"
+          },
+          {
+            "x": 45,
+            "y": 150,
+            "text": "Liquid"
+          },
+          {
+            "x": 160,
+            "y": 100,
+            "text": "Gas"
+          }
+        ]
+      },
+      "conditions": "The temperature is held at 25°C; ignore the slow evaporation from the water's surface.",
+      "explanation": "Lowering the pressure does lower water's boiling point, but only to about 86°C at 60 kPa. Following 25°C from 101 kPa down to 60 kPa keeps the point inside the liquid region the whole way. A pressure change alters a state only when it carries the point across a boundary.",
+      "misconception": "Lowering the pressure always makes a liquid boil.",
+      "hint": "Follow 25°C from 101 kPa down to 60 kPa. Do you cross the boiling line?",
+      "followUpId": "L23-Q17",
+      "scope": {
+        "lessonId": "L23",
+        "section": "6. Predicting States of Matter",
+        "pages": {
+          "printed": [
+            303,
+            304
+          ],
+          "pdf": [
+            339,
+            340
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            304
+          ],
+          "pdfPages": [
+            340
+          ],
+          "locator": "Section 6. Predicting States of Matter; opening example and Figure 6A",
+          "supports": "Water's state depends on both temperature and pressure. The section's opening example takes a 23°C cup of water from the seaside (101 kPa) to a lower-pressure mountain cabin, and on Figure 6A the liquid region at that temperature spans every pressure shown, from 50 kPa upward."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter",
+          "supports": "A decrease in pressure decreases the boiling temperature."
+        },
+        {
+          "type": "external",
+          "title": "Saturation Properties for Water (Thermophysical Properties of Fluid Systems)",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/fluid.cgi?PLow=50&PHigh=200&PInc=10&Digits=5&ID=C7732185&Action=Load&Type=SatP&TUnit=C&PUnit=kPa&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+          "accessed": "2026-10-17",
+          "supports": "Water's saturation (boiling) temperature at 60 kPa is about 85.9°C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Rewritten in round 1 (pedagogy-review-agent). The old item (90°C water boiling as the pressure fell to 50 kPa) mirrored Q16 and repeated its misconception, and it was the sixth item on pressure shifting the boiling point. It now tests a pressure drop that crosses no line: 25°C water at 60 kPa stays liquid (boiling point about 86°C, NIST). The choices have new IDs, e to h, and the key is f. Difficulty went from 3 to 2. The science reviewer's fixes (name a piston; correct the 8.7°C margin) applied to the old wording and no longer arise. The new point sits about 25°C from the melting line and about 61°C from the boiling line. Verify-agent (cosmetic): the diagram alt said '94°C at 80 kPa' while the plotted point is 93.5 (NIST 93.49°C); the alt now says 93.5°C.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: piston and margin issues resolved by the pedagogy rewrite (no sealed cylinder; point about 61°C from the boiling line)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a pressure drop that crosses no line (25°C water at 60 kPa stays liquid); new ids e-h; difficulty 3 to 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "The diagram is simplified and covers 50 to 200 kPa; the point stays about 25°C from the melting line and about 61°C from the boiling line."
+    },
+    {
+      "id": "L23-Q21",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "state diagram",
+        "boiling line",
+        "pressure"
+      ],
+      "familyId": "L23-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "On water's state diagram, the boiling line slants: at higher pressures it sits at higher temperatures. What does that slant tell you?",
+      "accessiblePrompt": "On the state diagram for water, the boiling line, which separates liquid from gas, slants: at higher pressures it sits at higher temperatures. What does that slant tell you?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The higher the pressure, the hotter water must get before it boils",
+          "rationale": "Correct: each point on the line is a boiling point, and those points climb to higher temperatures as pressure rises."
+        },
+        {
+          "id": "b",
+          "text": "Water boils at 100°C no matter what the pressure is",
+          "rationale": "If that were true, the boiling line would run straight up the diagram at 100°C instead of slanting."
+        },
+        {
+          "id": "c",
+          "text": "Raising the pressure makes water boil at a lower temperature",
+          "rationale": "That's backward: the line moves to higher temperatures as the pressure rises."
+        },
+        {
+          "id": "d",
+          "text": "Raising the pressure makes ice melt at a much higher temperature",
+          "rationale": "The slanted line separates liquid from gas; the solid-liquid line stays at about 0°C across this pressure range."
+        }
+      ],
+      "answer": "a",
+      "diagram": {
+        "kind": "curve",
+        "caption": "State diagram of water (simplified, 50 to 200 kPa)",
+        "alt": "State diagram for water. Temperature in degrees Celsius runs along the horizontal axis from −100 to 200, and pressure in kilopascals (kPa) runs along the vertical axis from 50 to 200. A melting line at 0°C separates solid from liquid at every pressure shown. A boiling line separates liquid from gas: it passes through about 81°C at 50 kPa, 86°C at 60 kPa, 94°C at 80 kPa, 100°C at 101 kPa, 105°C at 120 kPa, 111°C at 150 kPa and 120°C at 200 kPa. Water colder than 0°C is solid; water between 0°C and the boiling line is liquid; water hotter than the boiling line is gas.",
+        "xLabel": "Temperature (°C)",
+        "yLabel": "Pressure (kPa)",
+        "series": [
+          {
+            "label": "Melting line (solid | liquid)",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                0,
+                200
+              ]
+            ]
+          },
+          {
+            "label": "Boiling line (liquid | gas)",
+            "points": [
+              [
+                81,
+                50
+              ],
+              [
+                86,
+                60
+              ],
+              [
+                93.5,
+                80
+              ],
+              [
+                100,
+                101
+              ],
+              [
+                105,
+                120
+              ],
+              [
+                111,
+                150
+              ],
+              [
+                120,
+                200
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": -50,
+            "y": 150,
+            "text": "Solid"
+          },
+          {
+            "x": 45,
+            "y": 150,
+            "text": "Liquid"
+          },
+          {
+            "x": 160,
+            "y": 100,
+            "text": "Gas"
+          }
+        ]
+      },
+      "explanation": "Every point on the boiling line is a boiling point at one pressure. Because the line reaches higher temperatures as the pressure rises, water under more pressure must get hotter to boil, and water under less pressure boils at a lower temperature.",
+      "misconception": "Water's boiling point is 100°C at every pressure.",
+      "hint": "Read two points on the boiling line: one at low pressure and one at high pressure.",
+      "followUpId": "L23-Q17",
+      "scope": {
+        "lessonId": "L23",
+        "section": "6. Predicting States of Matter",
+        "pages": {
+          "printed": [
+            303,
+            304
+          ],
+          "pdf": [
+            339,
+            340
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            304
+          ],
+          "pdfPages": [
+            340
+          ],
+          "locator": "Section 6; Figure 6A (rendered)",
+          "supports": "On the rendered diagram the liquid-gas boundary slants, sitting at lower temperatures at lower pressures and at higher temperatures at higher pressures."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter",
+          "supports": "Changing the pressure shifts the temperature where liquid turns to gas; lowering the pressure lowers the boiling point."
+        }
+      ],
+      "review": {
+        "status": "rejected",
+        "notes": "Rejected in round 1 (pedagogy-review-agent). It targets the same misconception as Q17 and Q18 (water's boiling point is 100°C at every pressure), and its key restates Q17's. The prompt also gives the answer away ('at higher pressures it sits at higher temperatures'), so no diagram reading is needed. The science reviewer passed its science. Replaced by L23-Q29, an L23-O4 identification item.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: duplicates Q17's misconception and key, and the prompt states the answer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q22",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "carbon dioxide",
+        "dry ice",
+        "sublimation",
+        "state diagram"
+      ],
+      "familyId": "L23-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Use the table for carbon dioxide (CO₂) at 101 kPa. Which statements does it support? Select all that apply.",
+      "accessiblePrompt": "Use the table for carbon dioxide, C O two, at 101 kilopascals, described in the diagram text. Which statements does it support? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dry ice warmed at 101 kPa becomes gas without turning liquid",
+          "rationale": "Correct: the table goes from solid straight to gas at −78.5°C, and no row shows a liquid."
+        },
+        {
+          "id": "b",
+          "text": "Carbon dioxide at −100°C is a solid",
+          "rationale": "Correct: −100°C is colder than −78.5°C, so carbon dioxide is solid dry ice."
+        },
+        {
+          "id": "c",
+          "text": "Carbon dioxide is a liquid between −78.5°C and 0°C",
+          "rationale": "The table shows gas at −50°C and 0°C; at 101 kPa carbon dioxide is never a liquid."
+        },
+        {
+          "id": "d",
+          "text": "Carbon dioxide at 25°C is a liquid that evaporates quickly",
+          "rationale": "At 25°C and 101 kPa carbon dioxide is already a gas; there is no liquid to evaporate."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Every state of carbon dioxide (CO₂) at 101 kPa",
+        "alt": "Table showing the state of carbon dioxide at 101 kPa at five temperatures. At −100°C it is a solid (dry ice). At −78.5°C it is at the boundary between solid and gas. At −50°C, 0°C and 25°C it is a gas. These are the only states carbon dioxide takes at this pressure.",
+        "columns": [
+          "Temperature (at 101 kPa)",
+          "State of carbon dioxide"
+        ],
+        "rows": [
+          [
+            "−100°C",
+            "Solid (dry ice)"
+          ],
+          [
+            "−78.5°C",
+            "Boundary between solid and gas"
+          ],
+          [
+            "−50°C",
+            "Gas"
+          ],
+          [
+            "0°C",
+            "Gas"
+          ],
+          [
+            "25°C",
+            "Gas"
+          ]
+        ]
+      },
+      "conditions": "The pressure is 101 kPa throughout.",
+      "explanation": "At 101 kPa, carbon dioxide's state diagram has no liquid region. Colder than −78.5°C it is solid dry ice; warmer than that it is a gas. So dry ice warming at sea-level pressure skips the liquid stage, a change called sublimation.",
+      "misconception": "Every solid melts into a liquid before it becomes a gas.",
+      "hint": "Look for any temperature in the table where carbon dioxide is a liquid.",
+      "followUpId": "L23-Q15",
+      "scope": {
+        "lessonId": "L23",
+        "section": "6. Predicting States of Matter",
+        "pages": {
+          "printed": [
+            305,
+            306
+          ],
+          "pdf": [
+            341,
+            342
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            305
+          ],
+          "pdfPages": [
+            341
+          ],
+          "locator": "Section 6, State Diagrams of Different Substances; Figure 6B",
+          "supports": "At pressures near 101 kPa carbon dioxide changes directly from solid to gas and is never a liquid at any temperature."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept",
+          "supports": "Carbon dioxide is a gas unless cooled below −78.5°C, when it becomes a solid."
+        },
+        {
+          "type": "external",
+          "title": "Sublimation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Dry ice is solid carbon dioxide that sublimates, turning straight to gas with no liquid stage, at −78.5°C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of four. 'Sublimation' is named in the explanation only (glossary notes the lesson doesn't name it). Round 1: the table row, caption and alt no longer state choice a or refute choice c outright; the learner infers both from the rows. The read-aloud choice list was removed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: table row, caption and alt no longer state choice a outright; read-aloud choice list removed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q23",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O1",
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "dry ice",
+        "fog",
+        "invisible gas",
+        "condensation"
+      ],
+      "familyId": "L23-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A chunk of dry ice (solid CO₂) is dropped into warm water. Bubbles rise, and thick white fog spills over the rim. What is the white fog mostly made of?",
+      "accessiblePrompt": "A chunk of dry ice, which is solid carbon dioxide, C O two, is dropped into warm water. Bubbles rise, and thick white fog spills over the rim of the glass. What is the white fog mostly made of?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tiny droplets of liquid water",
+          "rationale": "Correct: the icy-cold gas chills water vapor until it condenses into droplets small enough to float, and the droplets are what you see."
+        },
+        {
+          "id": "b",
+          "text": "Carbon dioxide gas, which is white",
+          "rationale": "Carbon dioxide gas is colorless; you can't see it, just as you can't see water vapor."
+        },
+        {
+          "id": "c",
+          "text": "Droplets of liquid carbon dioxide",
+          "rationale": "Carbon dioxide can't be a liquid at sea-level pressure, so the droplets can't be carbon dioxide."
+        },
+        {
+          "id": "d",
+          "text": "Smoke from the dry ice burning",
+          "rationale": "Nothing is burning; dry ice changes from solid to gas without any flame or smoke."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Sea-level pressure (about 101 kPa).",
+      "explanation": "The bubbles carry carbon dioxide gas, which is invisible. The gas is so cold that it chills the water vapor it meets, and that vapor condenses into tiny liquid droplets. The droplets make the fog, and the cold, heavy carbon dioxide gas carries them down over the rim.",
+      "misconception": "The fog you can see around dry ice is carbon dioxide gas.",
+      "hint": "Can you see a gas? Think about what visible steam and clouds are made of.",
+      "followUpId": "L23-Q09",
+      "scope": {
+        "lessonId": "L23",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            297,
+            300,
+            305
+          ],
+          "pdf": [
+            333,
+            336,
+            341
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            297
+          ],
+          "pdfPages": [
+            333
+          ],
+          "locator": "Introduction",
+          "supports": "When dry ice warms in water, carbon dioxide forms rising bubbles of gas, and fog-like vapor sinks over the sides of the beaker."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3; Figure 3 caption",
+          "supports": "Water vapor is not visible; visible steam contains droplets of liquid water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            305
+          ],
+          "pdfPages": [
+            341
+          ],
+          "locator": "Section 6, State Diagrams of Different Substances",
+          "supports": "At ordinary atmospheric pressure, carbon dioxide has no liquid state."
+        },
+        {
+          "type": "external",
+          "title": "The Dry-Ice-in-Water Cloud (Tom Kuntzleman, 2016)",
+          "publisher": "Chemical Education Xchange (ChemEd X)",
+          "url": "https://chemedx.org/blog/dry-ice-water-cloud",
+          "accessed": "2026-10-14",
+          "supports": "The cloud formed when dry ice is placed in water is made of tiny liquid water droplets that condense inside the cold carbon dioxide bubbles."
+        },
+        {
+          "type": "external",
+          "title": "Carbon Dioxide, MeSH Descriptor D002245",
+          "publisher": "U.S. National Library of Medicine, National Institutes of Health",
+          "url": "https://meshb.nlm.nih.gov/record/ui?ui=D002245",
+          "accessed": "2026-10-14",
+          "supports": "Carbon dioxide is a colorless, odorless gas."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the opener's 'smoky vapor' (L23-RF2). Choice a avoids naming where the water vapor comes from, since sources differ (container water versus room air).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q24",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "gallium",
+        "carbon dioxide",
+        "water",
+        "comparing substances"
+      ],
+      "familyId": "L23-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Use the table to sort each sample (all at 101 kPa) by its state.",
+      "accessiblePrompt": "Use the table of change-of-state temperatures at 101 kilopascals, described in the diagram text, to sort each sample by its state: solid, liquid, or gas. The samples are: carbon dioxide at minus 40 degrees Celsius; gallium at 23 degrees, a typical room; water at 37 degrees; water at minus 20 degrees; carbon dioxide at 37 degrees; gallium at 37 degrees, body temperature.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Gallium at 23°C (a typical room)",
+          "rationale": "23°C is colder than gallium's melting point of about 30°C."
+        },
+        {
+          "id": "i2",
+          "text": "Gallium at 37°C (body temperature)",
+          "rationale": "37°C is warmer than gallium's melting point and nowhere near its boiling point."
+        },
+        {
+          "id": "i3",
+          "text": "Water at 37°C",
+          "rationale": "Between water's 0°C melting point and 100°C boiling point."
+        },
+        {
+          "id": "i4",
+          "text": "Carbon dioxide at 37°C",
+          "rationale": "Far warmer than −78.5°C, where solid carbon dioxide turns to gas."
+        },
+        {
+          "id": "i7",
+          "text": "Carbon dioxide at −40°C",
+          "rationale": "Below 0°C, but still far warmer than −78.5°C, so carbon dioxide is a gas."
+        },
+        {
+          "id": "i8",
+          "text": "Water at −20°C",
+          "rationale": "Colder than water's 0°C melting point, so it is solid ice."
+        }
+      ],
+      "bins": [
+        {
+          "id": "solid",
+          "label": "Solid"
+        },
+        {
+          "id": "liquid",
+          "label": "Liquid"
+        },
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "answer": {
+        "i1": "solid",
+        "i2": "liquid",
+        "i3": "liquid",
+        "i4": "gas",
+        "i7": "gas",
+        "i8": "solid"
+      },
+      "diagram": {
+        "kind": "table",
+        "caption": "Change-of-state temperatures at 101 kPa",
+        "alt": "Table of three substances at 101 kPa. Water: solid colder than 0°C, liquid between 0°C and 100°C, gas hotter than 100°C. Gallium: solid colder than about 30°C, liquid between about 30°C and about 2,200°C, gas hotter than about 2,200°C. Carbon dioxide: solid colder than −78.5°C, never a liquid at 101 kPa, gas hotter than −78.5°C.",
+        "columns": [
+          "Substance",
+          "Solid when colder than",
+          "Liquid between",
+          "Gas when hotter than"
+        ],
+        "rows": [
+          [
+            "Water",
+            "0°C",
+            "0°C and 100°C",
+            "100°C"
+          ],
+          [
+            "Gallium",
+            "about 30°C",
+            "about 30°C and about 2,200°C",
+            "about 2,200°C"
+          ],
+          [
+            "Carbon dioxide",
+            "−78.5°C",
+            "never liquid at 101 kPa",
+            "−78.5°C"
+          ]
+        ]
+      },
+      "conditions": "Every sample is at 101 kPa.",
+      "explanation": "The same temperature can mean different states for different substances. At body temperature, gallium and water are both liquids while carbon dioxide is a gas. And below 0°C doesn't mean frozen for everything: at −40°C carbon dioxide is still a gas, because it turns solid only when colder than −78.5°C.",
+      "misconception": "At the same temperature all substances are in the same state, metals are always solid, and anything below 0°C is frozen.",
+      "hint": "For each sample, compare its temperature with that substance's row in the table.",
+      "followUpId": "L23-Q19",
+      "scope": {
+        "lessonId": "L23",
+        "section": "Key Science Concept: Substances Are a Solid, Liquid, or Gas under Different Conditions",
+        "pages": {
+          "printed": [
+            305,
+            306
+          ],
+          "pdf": [
+            341,
+            342
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept: Substances Are a Solid, Liquid, or Gas under Different Conditions",
+          "supports": "At 101 kPa, water is solid, liquid or gas across a narrow temperature range; gallium is solid or liquid in that range; carbon dioxide is a gas unless cooled below −78.5°C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            305
+          ],
+          "pdfPages": [
+            341
+          ],
+          "locator": "Section 6, State Diagrams of Different Substances; gallium photo",
+          "supports": "Gallium is a silvery solid at 23°C and 101 kPa and is a liquid at body temperature, 37°C."
+        },
+        {
+          "type": "external",
+          "title": "Gallium: Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry, Periodic Table",
+          "url": "https://periodic-table.rsc.org/element/31/gallium",
+          "accessed": "2026-10-14",
+          "supports": "Gallium's melting point is 29.7646°C and its boiling point is 2229°C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Gallium values rounded to about 30°C and about 2,200°C (L23-RF7); two items per bin. Round 1: old i5 (carbon dioxide at −100°C, the same fact as Q22 choice b) and old i6 (water at 120°C, a repeat of Q19) were replaced by carbon dioxide at −40°C, a gas (new id i7), and water at −20°C, a solid (new id i8). There are still two items per bin, and the read-aloud is reordered. Verify-agent (cosmetic): the p. 305 evidence record said gallium 'melts at body temperature, 37°C', which reads as a 37°C melting point; it now says gallium is liquid at 37°C.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: i5 and i6 (repeats of Q22 and Q19) replaced by carbon dioxide at −40°C and water at −20°C (new ids i7, i8); read-aloud reordered"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q25",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O4",
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "melting point",
+        "identifying substances",
+        "gallium",
+        "evidence"
+      ],
+      "familyId": "L23-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A pure, silvery metal is solid on a 23°C lab bench, but it melts when the lab warms it to 35°C. The pressure is 101 kPa. Using the table, which metal is it?",
+      "accessiblePrompt": "A pure, silvery metal is solid on a lab bench at 23 degrees Celsius, but it melts when the lab warms it to 35 degrees. The pressure is 101 kilopascals. Using the table of melting points, described in the diagram text, which metal is it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mercury",
+          "rationale": "Mercury melts at −39°C, so it would already be a liquid on a 23°C bench."
+        },
+        {
+          "id": "b",
+          "text": "Gallium",
+          "rationale": "Correct: its melting point, about 30°C, is the only one between 23°C and 35°C."
+        },
+        {
+          "id": "c",
+          "text": "Tin",
+          "rationale": "Tin stays solid until 232°C, far hotter than 35°C."
+        },
+        {
+          "id": "d",
+          "text": "Lead",
+          "rationale": "Lead melts at 327°C, so it would stay solid at 35°C."
+        }
+      ],
+      "answer": "b",
+      "diagram": {
+        "kind": "table",
+        "caption": "Melting points of four metals at 101 kPa",
+        "alt": "Table of melting points at 101 kPa: mercury melts at −39°C, gallium at about 30°C, tin at 232°C and lead at 327°C.",
+        "columns": [
+          "Metal",
+          "Melting point at 101 kPa"
+        ],
+        "rows": [
+          [
+            "Mercury",
+            "−39°C"
+          ],
+          [
+            "Gallium",
+            "about 30°C"
+          ],
+          [
+            "Tin",
+            "232°C"
+          ],
+          [
+            "Lead",
+            "327°C"
+          ]
+        ]
+      },
+      "conditions": "The metal is pure and the pressure stays at 101 kPa.",
+      "explanation": "A melting point acts like an ID tag for a pure substance. The sample was solid at 23°C and liquid at 35°C, so its melting point lies between those temperatures. Only gallium's melting point, about 30°C, fits.",
+      "misconception": "Melting point can't tell metals apart because all metals melt only at very high temperatures.",
+      "hint": "The metal was solid at one temperature and liquid at another. What does that tell you about its melting point?",
+      "followUpId": "L23-Q18",
+      "scope": {
+        "lessonId": "L23",
+        "section": "4. Temperature Affects the State of Matter",
+        "pages": {
+          "printed": [
+            301,
+            305
+          ],
+          "pdf": [
+            337,
+            341
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            301
+          ],
+          "pdfPages": [
+            337
+          ],
+          "locator": "Section 4. Temperature Affects the State of Matter",
+          "supports": "Because each substance has its own melting point, measuring it helps tell substances apart."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            305
+          ],
+          "pdfPages": [
+            341
+          ],
+          "locator": "Section 6; gallium photo caption",
+          "supports": "Gallium is solid at room conditions and melts from body heat; its melting point is given as 29.78°C at 101 kPa."
+        },
+        {
+          "type": "external",
+          "title": "Gallium: Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry, Periodic Table",
+          "url": "https://periodic-table.rsc.org/element/31/gallium",
+          "accessed": "2026-10-14",
+          "supports": "Gallium's melting point is 29.7646°C."
+        },
+        {
+          "type": "external",
+          "title": "Mercury: Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry, Periodic Table",
+          "url": "https://periodic-table.rsc.org/element/80/mercury",
+          "accessed": "2026-10-14",
+          "supports": "Mercury's melting point is −38.829°C."
+        },
+        {
+          "type": "external",
+          "title": "Tin: Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry, Periodic Table",
+          "url": "https://periodic-table.rsc.org/element/50/tin",
+          "accessed": "2026-10-14",
+          "supports": "Tin's melting point is 231.928°C."
+        },
+        {
+          "type": "external",
+          "title": "Lead: Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry, Periodic Table",
+          "url": "https://periodic-table.rsc.org/element/82/lead",
+          "accessed": "2026-10-14",
+          "supports": "Lead's melting point is 327.462°C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Mercury, tin and lead are not in the lesson; their melting points come from the RSC Periodic Table. Round 1: the read-aloud choice list was removed, and the hint no longer does the item's reasoning step.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud choice list removed; hint no longer does the reasoning step"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q26",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O4",
+        "L23-O2"
+      ],
+      "conceptTags": [
+        "vocabulary",
+        "melting point",
+        "boiling point",
+        "pressure",
+        "STP"
+      ],
+      "familyId": "L23-F12",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each term to its meaning.",
+      "accessiblePrompt": "Match each term to its meaning. The terms are: melting point; boiling point; pressure; state diagram; standard temperature and pressure, S T P. The meanings are: force spread over an area; an agreed reference set of conditions, 0 degrees Celsius and 100 kilopascals; the temperature at which a liquid turns into a gas; a graph showing a substance's state at different temperatures and pressures; the temperature at which a solid turns into a liquid.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Melting point",
+          "rationale": "It names the temperature where a solid becomes a liquid as it gains energy."
+        },
+        {
+          "id": "b",
+          "text": "Boiling point",
+          "rationale": "It names the temperature where a liquid becomes a gas as it gains energy."
+        },
+        {
+          "id": "c",
+          "text": "Pressure",
+          "rationale": "Pressure measures how much force pushes on each unit of area."
+        },
+        {
+          "id": "d",
+          "text": "State diagram",
+          "rationale": "A state diagram maps which state a substance is in across temperatures and pressures."
+        },
+        {
+          "id": "e",
+          "text": "Standard temperature and pressure (STP)",
+          "rationale": "STP is the agreed reference set of conditions: 0°C and 100 kPa."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "The temperature at which a solid turns into a liquid"
+        },
+        {
+          "id": "r2",
+          "text": "The temperature at which a liquid turns into a gas"
+        },
+        {
+          "id": "r3",
+          "text": "Force spread over an area"
+        },
+        {
+          "id": "r4",
+          "text": "A graph showing a substance's state at different temperatures and pressures"
+        },
+        {
+          "id": "r5",
+          "text": "An agreed reference set of conditions: 0°C and 100 kPa"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4",
+        "e": "r5"
+      },
+      "explanation": "These terms work as a team. Melting and boiling points are the temperatures where a state changes, pressure shifts those temperatures, a state diagram maps it all, and STP gives scientists one shared set of conditions for reporting results.",
+      "misconception": "Melting point and boiling point mean the same thing, or pressure is the same as force.",
+      "hint": "Start with the term you're surest of, then match the rest.",
+      "followUpId": "L23-Q11",
+      "scope": {
+        "lessonId": "L23",
+        "section": "7. Standard Temperature and Pressure",
+        "pages": {
+          "printed": [
+            297,
+            302,
+            304,
+            307
+          ],
+          "pdf": [
+            333,
+            338,
+            340,
+            343
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            297
+          ],
+          "pdfPages": [
+            333
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "Defines melting point, boiling point and pressure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            302
+          ],
+          "pdfPages": [
+            338
+          ],
+          "locator": "Section 5. Pressure Affects the State of Matter",
+          "supports": "Pressure is force divided over an area."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            304
+          ],
+          "pdfPages": [
+            340
+          ],
+          "locator": "Section 6. Predicting States of Matter",
+          "supports": "A state diagram is a tool for predicting a substance's state at given temperatures and pressures."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            307
+          ],
+          "pdfPages": [
+            343
+          ],
+          "locator": "Section 7. Standard Temperature and Pressure",
+          "supports": "STP is a set of conditions, 0°C and 100 kPa, used by many scientists."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Five one-to-one pairs; definitions in original wording. Round 1: the read-aloud meanings are no longer in the same order as the terms.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud meanings no longer in the same order as the terms"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q27",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O4"
+      ],
+      "conceptTags": [
+        "STP",
+        "reporting conditions",
+        "replication"
+      ],
+      "familyId": "L23-F12",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Why do scientists report results at standard temperature and pressure (STP), or say when their conditions were different?",
+      "accessiblePrompt": "Why do scientists report results at standard temperature and pressure, S T P, or say when their conditions were different?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Conditions affect results, so stating them keeps results comparable",
+          "rationale": "Correct: temperature and pressure change a substance's state and properties, so knowing the exact conditions lets other scientists compare and repeat the work."
+        },
+        {
+          "id": "b",
+          "text": "Every lab in the world is kept at exactly 0°C and 100 kPa",
+          "rationale": "Labs vary in temperature, and their air pressure changes with elevation and weather; that's why a standard has to be agreed on."
+        },
+        {
+          "id": "c",
+          "text": "Substances have a definite state only under STP conditions",
+          "rationale": "Substances have a state under any conditions; STP is just a shared reference point."
+        },
+        {
+          "id": "e",
+          "text": "STP matches the conditions in a typical classroom",
+          "rationale": "STP's 0°C is far colder than a 23°C room, and room pressure varies with elevation and weather; STP is a shared reference, not an everyday condition."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Temperature and pressure both affect a substance's state and its melting and boiling points, so a result means little unless you know the conditions. Using STP (0°C and 100 kPa), or reporting the actual conditions, lets scientists anywhere check and repeat each other's work.",
+      "misconception": "Standard conditions are simply the conditions every lab happens to have.",
+      "hint": "Think about what can differ from one lab to another.",
+      "followUpId": "L23-Q18",
+      "scope": {
+        "lessonId": "L23",
+        "section": "7. Standard Temperature and Pressure",
+        "pages": {
+          "printed": [
+            307
+          ],
+          "pdf": [
+            343
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            307
+          ],
+          "pdfPages": [
+            343
+          ],
+          "locator": "Section 7. Standard Temperature and Pressure",
+          "supports": "Rooms differ in temperature and, with elevation and weather, in pressure, so scientists report findings at standard conditions (STP: 0°C, 100 kPa) and note measurements made under different conditions."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 9.2 Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+          "accessed": "2026-10-14",
+          "supports": "IUPAC changed standard pressure from 1 atm to 1 bar (100 kPa) in 1982; the older 1 atm (101.325 kPa) definition still appears in many references."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Does not ask water's state at STP (L23-RF5). Round 1: key a was reworded so it reads clearly aloud (same claim, same ID). The STP-makes-everything-solid distractor (old d), which echoed the book's flagged claim, was replaced by STP-equals-room-conditions (new id e).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key a reworded for read-aloud; STP-makes-everything-solid distractor d replaced by STP-equals-room-conditions (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q28",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O4",
+        "L23-O3"
+      ],
+      "conceptTags": [
+        "STP",
+        "dry ice",
+        "gallium",
+        "evidence",
+        "prediction"
+      ],
+      "familyId": "L23-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Several samples are kept at STP (0°C and 100 kPa) for a long time. Which observation should make a scientist suspect a mistake or unusual conditions?",
+      "accessiblePrompt": "Several samples are kept at standard temperature and pressure, S T P, which is 0 degrees Celsius and 100 kilopascals, for a long time. Which observation should make a scientist suspect a mistake or unusual conditions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A lump of dry ice (solid CO₂) is still solid",
+          "rationale": "Correct: at 0°C and about 100 kPa carbon dioxide should be a gas, because solid CO₂ turns to gas at about −78.5°C at this pressure."
+        },
+        {
+          "id": "b",
+          "text": "A piece of gallium is still solid",
+          "rationale": "Gallium melts at about 30°C, so being solid at 0°C is exactly what you'd expect."
+        },
+        {
+          "id": "c",
+          "text": "A jar of carbon dioxide is still a gas",
+          "rationale": "0°C is far warmer than −78.5°C, so carbon dioxide being a gas is expected."
+        },
+        {
+          "id": "e",
+          "text": "A thermometer in the chamber reads 0°C",
+          "rationale": "0°C is the standard temperature in STP, so this reading is expected."
+        }
+      ],
+      "answer": "a",
+      "conditions": "All samples are pure and held at 0°C and 100 kPa long enough to settle into their stable states.",
+      "explanation": "Knowing STP lets you predict what you should see. At 0°C and 100 kPa, gallium (melting point about 30°C) should be solid and carbon dioxide (which turns from solid to gas at about −78.5°C) should be a gas. Dry ice that stayed solid at STP would signal that something wasn't as reported.",
+      "misconception": "Dry ice can stay solid at ordinary freezing temperatures, just like ice from a freezer.",
+      "hint": "Compare 0°C with the temperature where each substance changes state.",
+      "followUpId": "L23-Q22",
+      "scope": {
+        "lessonId": "L23",
+        "section": "7. Standard Temperature and Pressure",
+        "pages": {
+          "printed": [
+            305,
+            306,
+            307
+          ],
+          "pdf": [
+            341,
+            342,
+            343
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            307
+          ],
+          "pdfPages": [
+            343
+          ],
+          "locator": "Section 7. Standard Temperature and Pressure",
+          "supports": "Under STP, solid gallium is expected, but dry ice that was not turning into a gas would be a sign of something unusual."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept",
+          "supports": "Carbon dioxide is a gas unless cooled below −78.5°C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            305
+          ],
+          "pdfPages": [
+            341
+          ],
+          "locator": "Section 6; gallium photo caption",
+          "supports": "Gallium's melting point is about 30°C (29.78°C) at 101 kPa."
+        },
+        {
+          "type": "external",
+          "title": "Sublimation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Dry ice sublimates, turning straight to gas, at −78.5°C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Avoids water at STP, which sits on its melting boundary (L23-RF5). −78.5°C is the 101 kPa value; at 100 kPa the difference is negligible. Round 1: old choice d, 'the chamber's pressure gauge reads 100 kPa', was replaced by a thermometer reading 0°C (new id e). An ordinary gauge reads pressure above the surrounding air, so 100 kPa on a gauge means about 200 kPa absolute; that would rightly look suspicious and made d a second defensible answer. Difficulty stays 3, declining the pedagogy reviewer's optional drop to 2. Each observation has to be checked against its expected state at 0°C and 100 kPa, and the change keeps three items at level 3 (with Q08 and Q18) after Q20 moved to 2.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d (a gauge reading can be gauge pressure, about 200 kPa absolute) replaced by a thermometer reading 0°C (new id e)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L23-Q29",
+      "lessonId": "L23",
+      "objectiveIds": [
+        "L23-O4"
+      ],
+      "conceptTags": [
+        "boiling point",
+        "identifying substances",
+        "characteristic property",
+        "evidence"
+      ],
+      "familyId": "L23-F11",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "You have a big jug and a small test tube of the same pure, clear liquid. Which measurement could help identify the liquid, because it comes out the same for both samples?",
+      "accessiblePrompt": "You have a big jug and a small test tube of the same pure, clear liquid. Which measurement could help identify the liquid, because it comes out the same for both samples?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its mass in grams",
+          "rationale": "The jug holds far more liquid, so its mass is much larger; mass tells you how much you have, not what it is."
+        },
+        {
+          "id": "b",
+          "text": "Its volume in milliliters",
+          "rationale": "The jug's volume is much bigger than the test tube's; volume also depends on the amount, not the substance."
+        },
+        {
+          "id": "c",
+          "text": "Its boiling point at 101 kPa",
+          "rationale": "Correct: a pure substance boils at the same temperature at a stated pressure whether you have a lot or a little, so its boiling point is a clue to what it is."
+        },
+        {
+          "id": "d",
+          "text": "The time it takes to start boiling on a stove",
+          "rationale": "A bigger amount, or a weaker burner, takes longer to heat, so the time depends on the setup, not on the substance."
+        }
+      ],
+      "answer": "c",
+      "conditions": "Both samples are the same pure liquid, and any boiling point is measured at 101 kPa.",
+      "explanation": "A boiling point at a stated pressure belongs to the substance, not to the sample: a jug and a test tube of the same pure liquid boil at the same temperature. Mass, volume and heating time all change with how much liquid you have, so on their own they can't tell you what it is. That's why melting and boiling points work as clues for identifying a substance.",
+      "misconception": "A bigger sample has a higher boiling point, so measurements that depend on amount can identify a substance.",
+      "hint": "Imagine pouring half the liquid out. Which of these measurements would stay the same?",
+      "followUpId": "L23-Q18",
+      "scope": {
+        "lessonId": "L23",
+        "section": "4. Temperature Affects the State of Matter",
+        "pages": {
+          "printed": [
+            301
+          ],
+          "pdf": [
+            337
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            301
+          ],
+          "pdfPages": [
+            337
+          ],
+          "locator": "Section 4. Temperature Affects the State of Matter",
+          "supports": "Like melting point, a substance's boiling point (the book adds 'at sea level') is a property that can be used to identify the substance."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter",
+          "supports": "A more accurate description of a substance's boiling point includes the pressure at which it boils."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-17",
+          "supports": "Mass and volume are extensive properties, which depend on the amount of matter present; an intensive property, such as temperature, does not depend on the amount. Melting and boiling points are listed among physical properties."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Replacement for rejected L23-Q21 (pedagogy-review-agent, round 1). It covers the thin identification half of L23-O4, and it is the first item to use boiling point as an identifier (Q25 uses melting point only). The textbook does not say outright that a boiling point is independent of sample size; that follows from p. 301 (boiling point identifies a substance). OpenStax 1.3 supports only the amount-dependence of mass and volume, and does not classify boiling point. The stored key is c. Verify-agent: this round-1 replacement had no science or pedagogy reviewer pass, so the verifier checked both its science and its wording against pp. 301 and 303 and OpenStax Chemistry 2e 1.3 (reopened 2026-10-18).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

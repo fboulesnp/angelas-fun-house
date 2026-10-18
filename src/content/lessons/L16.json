@@ -1,0 +1,1648 @@
+{
+  "lessonId": "L16",
+  "guidingQuestion": "How did scientists turn clues from fossils, rocks, earthquakes and the seafloor into the theory of plate tectonics?",
+  "hook": "Drain away the oceans and you would find a chain of volcanic mountains stitched around the whole planet like a giant seam, with the coasts of South America and Africa shaped like torn puzzle pieces on either side.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          202,
+          203
+        ],
+        "pdf": [
+          238,
+          239
+        ]
+      }
+    },
+    {
+      "title": "1. Wegener's Hypothesis",
+      "pages": {
+        "printed": [
+          204,
+          205
+        ],
+        "pdf": [
+          240,
+          241
+        ]
+      }
+    },
+    {
+      "title": "2. Discovering Earth's Interior",
+      "pages": {
+        "printed": [
+          206
+        ],
+        "pdf": [
+          242
+        ]
+      }
+    },
+    {
+      "title": "3. Observing Patterns of Volcanoes and Earthquakes",
+      "pages": {
+        "printed": [
+          207
+        ],
+        "pdf": [
+          243
+        ]
+      }
+    },
+    {
+      "title": "4. Discovering Features of the Seafloor",
+      "pages": {
+        "printed": [
+          208,
+          209
+        ],
+        "pdf": [
+          244,
+          245
+        ]
+      }
+    },
+    {
+      "title": "5. Designing a Drill Ship",
+      "pages": {
+        "printed": [
+          210,
+          211
+        ],
+        "pdf": [
+          246,
+          247
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Evidence for Moving Continents",
+      "pages": {
+        "printed": [
+          212,
+          213
+        ],
+        "pdf": [
+          248,
+          249
+        ]
+      }
+    },
+    {
+      "title": "6. The Theory of Plate Tectonics",
+      "pages": {
+        "printed": [
+          214,
+          215
+        ],
+        "pdf": [
+          250,
+          251
+        ]
+      }
+    },
+    {
+      "title": "7. Tracking Plate Motion",
+      "pages": {
+        "printed": [
+          216,
+          217
+        ],
+        "pdf": [
+          252,
+          253
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          217
+        ],
+        "pdf": [
+          253
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L16-O1",
+      "text": "Identify Wegener's clues for continental drift, explain what each one suggests, and explain why many scientists still rejected his idea.",
+      "kind": "observe",
+      "sections": [
+        "1. Wegener's Hypothesis",
+        "Key Science Concept: Evidence for Moving Continents",
+        "6. The Theory of Plate Tectonics"
+      ],
+      "pages": {
+        "printed": [
+          204,
+          205,
+          212,
+          214
+        ],
+        "pdf": [
+          240,
+          241,
+          248,
+          250
+        ]
+      }
+    },
+    {
+      "id": "L16-O2",
+      "text": "Describe what earthquake waves, maps of earthquakes and volcanoes, and sonar revealed about Earth's layers and the ocean floor.",
+      "kind": "observe",
+      "sections": [
+        "2. Discovering Earth's Interior",
+        "3. Observing Patterns of Volcanoes and Earthquakes",
+        "4. Discovering Features of the Seafloor",
+        "Key Science Concept: Evidence for Moving Continents"
+      ],
+      "pages": {
+        "printed": [
+          206,
+          207,
+          208,
+          213
+        ],
+        "pdf": [
+          242,
+          243,
+          244,
+          249
+        ]
+      }
+    },
+    {
+      "id": "L16-O3",
+      "text": "Explain how seafloor spreading at mid-ocean ridges, subduction at trenches and slow mantle convection work together to move tectonic plates, and why that turned continental drift into the theory of plate tectonics.",
+      "kind": "relate",
+      "sections": [
+        "4. Discovering Features of the Seafloor",
+        "6. The Theory of Plate Tectonics"
+      ],
+      "pages": {
+        "printed": [
+          209,
+          214,
+          215
+        ],
+        "pdf": [
+          245,
+          250,
+          251
+        ]
+      }
+    },
+    {
+      "id": "L16-O4",
+      "text": "Use seafloor data to test seafloor spreading by predicting and interpreting rock ages at different distances from a ridge, and tell apart the criteria and constraints of the drill ship that collected the samples.",
+      "kind": "apply",
+      "sections": [
+        "4. Discovering Features of the Seafloor",
+        "5. Designing a Drill Ship",
+        "Key Science Concept: Evidence for Moving Continents"
+      ],
+      "pages": {
+        "printed": [
+          209,
+          210,
+          211,
+          213
+        ],
+        "pdf": [
+          245,
+          246,
+          247,
+          249
+        ]
+      }
+    },
+    {
+      "id": "L16-O5",
+      "text": "Classify plate boundaries as convergent, divergent or transform, predict the features each tends to produce, and use plate speeds to estimate how much the surface changes over time.",
+      "kind": "apply",
+      "sections": [
+        "3. Observing Patterns of Volcanoes and Earthquakes",
+        "7. Tracking Plate Motion"
+      ],
+      "pages": {
+        "printed": [
+          207,
+          216,
+          217
+        ],
+        "pdf": [
+          243,
+          252,
+          253
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "In 1912 Alfred Wegener proposed continental drift: the continents were once joined in a supercontinent, Pangaea, that broke apart, and the pieces slowly moved to their present places.",
+    "Wegener's clues included fossils of the same land plants, land animals and shallow-water reptiles on continents now split by oceans, mountain ranges with matching rock layers on opposite shores, and continents whose outlines fit together.",
+    "Many scientists set the idea aside because Wegener could not explain what force could move whole continents. Evidence gathered later in the 1900s supplied that missing mechanism.",
+    "Earthquake waves revealed Earth's layers. The lithosphere, made of the crust plus the cool, rigid top of the mantle, sits on hotter mantle rock that is mostly solid yet slowly flows.",
+    "Earthquakes and volcanoes cluster in long, narrow belts, such as the Pacific Ring of Fire, that seem to outline giant pieces of the lithosphere.",
+    "Sonar mapped a mid-ocean ridge circling the globe, fracture zones, deep trenches and continental shelves. Drill cores then showed that seafloor rock gets older with distance from the ridge on both sides.",
+    "Plate tectonics explains the evidence. The ocean-floor parts of plates form at mid-ocean ridges by seafloor spreading, cool and grow denser as they move away, and sink back into the mantle at trenches by subduction. Meanwhile mantle rock slowly circulates by convection, and the continents ride along on the plates.",
+    "Plates move a few centimeters a year. Boundaries are named by motion: convergent (together), divergent (apart) and transform (sliding past). Rate times time shows how small yearly motions open oceans over millions of years."
+  ],
+  "glossary": [
+    {
+      "term": "hypothesis",
+      "definition": "A testable idea or explanation built on limited evidence; observations and experiments can then support it or knock it down.",
+      "pages": {
+        "printed": [
+          203,
+          204
+        ],
+        "pdf": [
+          239,
+          240
+        ]
+      }
+    },
+    {
+      "term": "continental drift",
+      "definition": "Wegener's idea that today's continents once formed a single huge landmass, Pangaea, that split up while its pieces slowly wandered to where they are now.",
+      "pages": {
+        "printed": [
+          203,
+          204
+        ],
+        "pdf": [
+          239,
+          240
+        ]
+      }
+    },
+    {
+      "term": "lithosphere",
+      "definition": "Earth's rigid outer shell: all of the crust plus the cool, stiff top part of the mantle. It is cracked into tectonic plates.",
+      "pages": {
+        "printed": [
+          206
+        ],
+        "pdf": [
+          242
+        ]
+      }
+    },
+    {
+      "term": "seismic wave",
+      "definition": "A vibration that spreads through Earth from an earthquake. Recording how these waves travel lets scientists map layers no one can visit.",
+      "pages": {
+        "printed": [
+          206,
+          207
+        ],
+        "pdf": [
+          242,
+          243
+        ]
+      }
+    },
+    {
+      "term": "mid-ocean ridge",
+      "definition": "A long chain of underwater volcanic mountains winding around the globe where plates pull apart and new seafloor is made.",
+      "pages": {
+        "printed": [
+          208,
+          215
+        ],
+        "pdf": [
+          244,
+          251
+        ]
+      }
+    },
+    {
+      "term": "trench",
+      "definition": "A long, very deep valley in the ocean floor where one plate is pushed down beneath another.",
+      "pages": {
+        "printed": [
+          208,
+          215
+        ],
+        "pdf": [
+          244,
+          251
+        ]
+      }
+    },
+    {
+      "term": "seafloor spreading",
+      "definition": "The process in which the plates on both sides of a mid-ocean ridge move apart and rising molten rock fills the gap, hardening into new ocean floor.",
+      "pages": {
+        "printed": [
+          203,
+          209
+        ],
+        "pdf": [
+          239,
+          245
+        ]
+      }
+    },
+    {
+      "term": "subduction",
+      "definition": "The sinking of a denser plate under a less dense one where two plates collide, which carries old lithosphere back down into the mantle.",
+      "pages": {
+        "printed": [
+          203,
+          215
+        ],
+        "pdf": [
+          239,
+          251
+        ]
+      }
+    },
+    {
+      "term": "mantle convection",
+      "definition": "The very slow circulation of hot, mostly solid mantle rock, in which warmer, less dense rock rises and cooler, denser rock sinks.",
+      "pages": {
+        "printed": [
+          215
+        ],
+        "pdf": [
+          251
+        ]
+      }
+    },
+    {
+      "term": "scientific theory",
+      "definition": "A well-tested explanation backed by a large body of evidence that accounts for many different observations. New evidence can still refine it.",
+      "pages": {
+        "printed": [
+          203,
+          214
+        ],
+        "pdf": [
+          239,
+          250
+        ]
+      }
+    },
+    {
+      "term": "plate tectonics",
+      "definition": "The scientific theory that Earth's lithosphere is broken into rigid plates that slowly move; new ocean floor forms at mid-ocean ridges and old ocean floor sinks at trenches.",
+      "pages": {
+        "printed": [
+          203,
+          214
+        ],
+        "pdf": [
+          239,
+          250
+        ]
+      }
+    },
+    {
+      "term": "convergent boundary",
+      "definition": "A place where two plates move toward each other. Where an ocean plate sinks beneath another plate, a trench and volcanic mountains often form; strong earthquakes are common at convergent boundaries.",
+      "pages": {
+        "printed": [
+          216
+        ],
+        "pdf": [
+          252
+        ]
+      }
+    },
+    {
+      "term": "divergent boundary",
+      "definition": "A place where two plates move apart, so magma rises between them, new lithosphere forms, and the gap between the plates widens, as the Red Sea is doing.",
+      "pages": {
+        "printed": [
+          216
+        ],
+        "pdf": [
+          252
+        ]
+      }
+    },
+    {
+      "term": "transform boundary",
+      "definition": "A place where two plates slide sideways past each other along a fault, a fracture in the crust where rock has shifted. In many places the plates stick, build up stress and then slip suddenly, causing earthquakes.",
+      "pages": {
+        "printed": [
+          203,
+          208,
+          217
+        ],
+        "pdf": [
+          239,
+          244,
+          253
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L16-O1",
+      "title": "Puzzle Pieces and Fossil Clues",
+      "paragraphs": [
+        "Spin a globe and South America's bulge seems to tuck right into Africa's west coast. A mapmaker spotted that fit back in 1596. In 1912 the scientist Alfred Wegener pushed the idea much further: he proposed that all the continents were once joined in a supercontinent he named Pangaea, which broke apart and slowly drifted. He called this continental drift.",
+        "Wegener collected clues. Fossils of Mesosaurus, a small reptile of shallow inland waters, turn up in both South America and southern Africa. Lystrosaurus, a pig-sized plant eater that lived on land, is found in Antarctica, southern Africa and India, as well as China and Russia. The extinct seed plant Glossopteris appears across all the southern continents. None of these living things could have crossed a wide ocean.",
+        "The rocks matched too. The Appalachian Mountains of North America and the Atlas Mountains of northwest Africa share the same rock types, ages and layer order, as if one range had been torn in two. Much later, sonar showed that the underwater edges of the continents, the continental shelves, fit together even better than the coastlines.",
+        "Even so, many scientists rejected drift for decades. Wegener could show that the continents had probably moved, but not what force could move them. That missing mechanism kept his idea on the shelf until new evidence came from the seafloor."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Clues Wegener could point to",
+        "alt": "A table of five clues for continental drift, with where each is found and why it matters. Mesosaurus fossils: found in South America and southern Africa; a small shallow-water reptile could not swim across an ocean. Lystrosaurus fossils: found in Antarctica, southern Africa and India, and also in China and Russia; a land animal could not cross the Indian Ocean. Glossopteris fossils: found in South America, Africa, India, Australia and Antarctica; one plant group spread across lands that oceans now separate. Appalachian and Atlas mountains: found in North America and northwest Africa; the same rock types, ages and layer order. Continental shelf edges: found around the Atlantic Ocean; they fit together even better than coastlines.",
+        "columns": [
+          "Clue",
+          "Where it is found",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Mesosaurus fossils",
+            "South America and southern Africa",
+            "A small shallow-water reptile could not swim an ocean"
+          ],
+          [
+            "Lystrosaurus fossils",
+            "Antarctica, southern Africa, India (also China and Russia)",
+            "A land animal could not cross the Indian Ocean"
+          ],
+          [
+            "Glossopteris fossils",
+            "South America, Africa, India, Australia, Antarctica",
+            "One plant group across lands now split by oceans"
+          ],
+          [
+            "Appalachian and Atlas mountains",
+            "North America and northwest Africa",
+            "Same rock types, ages and layer order"
+          ],
+          [
+            "Continental shelf edges",
+            "Around the Atlantic Ocean",
+            "Fit together even better than coastlines"
+          ]
+        ]
+      },
+      "watchOut": "One matching fossil is a clue, not proof; drift became convincing only when many independent clues, including seafloor evidence that showed how continents move, pointed the same way. Also, the textbook calls Glossopteris a warm-climate fern that needed the continents near the equator. It was really a seed plant that grew in cool, seasonal climates, even close to the South Pole, so its Antarctic fossils show a joined landmass and a changed climate rather than an equator location.",
+      "pages": {
+        "printed": [
+          204,
+          205,
+          212
+        ],
+        "pdf": [
+          240,
+          241,
+          248
+        ]
+      }
+    },
+    {
+      "objectiveId": "L16-O2",
+      "title": "Seeing the Unseeable",
+      "paragraphs": [
+        "No drill has ever cut all the way through the crust into the mantle; the deepest hole drilled from the surface goes down only about 12 kilometers. So scientists listen instead. Earthquakes send seismic waves through the whole planet, and seismographs record them. The waves change speed and bend as they pass into rock with different properties, and those changes reveal hidden layers.",
+        "The waves showed that oceanic crust is thinner than continental crust and that the top of the mantle is cool and rigid. The crust plus that rigid mantle make up the lithosphere. Below it the mantle is hotter. It is still mostly solid rock, but over millions of years it can slowly flow, a bit like extremely stiff putty.",
+        "Seismic stations set up around the world, starting in 1899, also showed where earthquakes strike. Most earthquakes and volcanoes crowd into long, narrow belts that trace the rims of continents and ocean basins and follow chains of islands. The busiest belt, the Pacific Ring of Fire, circles the Pacific Ocean. The belts seemed to slice the lithosphere into giant pieces.",
+        "Sonar opened up the ocean floor. By timing echoes of sound pulses, ships mapped a mid-ocean ridge of volcanic mountains winding around the globe, fracture zones cutting across it, deep trenches and continental shelves. The seafloor turned out to be anything but flat."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Seafloor features revealed by sonar",
+        "alt": "A table of four seafloor features, what each is, and what it hints. Mid-ocean ridge: a chain of underwater volcanic mountains circling the globe; new seafloor forms there. Fracture zone: a crack crossing the ridge at right angles that offsets its segments; the seafloor moves. Trench: a long seafloor valley several kilometers deep; one plate sinks beneath another there. Continental shelf: the shallow, underwater outer edge of a continent; it shows a continent's true outline.",
+        "columns": [
+          "Feature",
+          "What it is",
+          "What it hints"
+        ],
+        "rows": [
+          [
+            "Mid-ocean ridge",
+            "Chain of underwater volcanic mountains circling the globe",
+            "New seafloor forms here"
+          ],
+          [
+            "Fracture zone",
+            "Crack crossing the ridge at right angles, offsetting its segments",
+            "The seafloor moves"
+          ],
+          [
+            "Trench",
+            "Long seafloor valley, several kilometers deep",
+            "One plate sinks beneath another here"
+          ],
+          [
+            "Continental shelf",
+            "Shallow, underwater outer edge of a continent",
+            "A continent's true outline"
+          ]
+        ]
+      },
+      "watchOut": "The rock under the plates is not a sea of liquid magma; it is mostly solid and creeps only centimeters a year. Also, the textbook says seismic waves go faster through denser rock. A rock's stiffness matters too, not just its density, so the safe idea is that the waves change speed and direction when the rock they travel through changes.",
+      "pages": {
+        "printed": [
+          206,
+          207,
+          208,
+          213
+        ],
+        "pdf": [
+          242,
+          243,
+          244,
+          249
+        ]
+      }
+    },
+    {
+      "objectiveId": "L16-O3",
+      "title": "The Seafloor Conveyor",
+      "paragraphs": [
+        "In the early 1960s scientists proposed seafloor spreading. At a mid-ocean ridge the plates pull apart, hot mantle rock rises and partly melts, and magma fills the cracks and hardens into new lithosphere. As more rock forms behind it, the new rock is carried outward, cooling as it goes.",
+        "Cooling rock contracts and grows denser. By the time old oceanic lithosphere meets another plate at a trench, it is dense enough to be forced underneath and sink into the mantle. That sinking is subduction. Because old seafloor is destroyed at trenches about as fast as new seafloor forms at ridges, Earth stays the same size.",
+        "Beneath it all, mantle rock slowly circulates in convection cells: warmer, less dense rock rises and cooler, denser rock sinks. Mantle convection, seafloor spreading and subduction together supplied what Wegener lacked, an explanation of how continents move. They ride along on moving plates of lithosphere.",
+        "By the late 1960s these ideas, backed by evidence from fossils, rocks, earthquakes and the seafloor, had become the theory of plate tectonics. A scientific theory is a well-tested explanation of many observations, and it stays open to refinement when new evidence arrives."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "chain",
+        "caption": "A simplified life story of oceanic lithosphere",
+        "alt": "A chain of five steps joined by arrows. Step 1: hot mantle rock rises under the mid-ocean ridge and partly melts. Arrow to step 2: magma hardens into new lithosphere at the ridge. Arrow to step 3: the rock moves away from the ridge, cooling and growing denser. Arrow to step 4: the plate meets another plate at a trench. Arrow to step 5: the denser plate sinks into the mantle by subduction.",
+        "nodes": [
+          {
+            "id": "rise",
+            "label": "Hot mantle rock rises under the ridge"
+          },
+          {
+            "id": "form",
+            "label": "Magma hardens into new lithosphere"
+          },
+          {
+            "id": "move",
+            "label": "Rock moves away, cools, grows denser"
+          },
+          {
+            "id": "meet",
+            "label": "Plate meets another at a trench"
+          },
+          {
+            "id": "sink",
+            "label": "Denser plate sinks into the mantle"
+          }
+        ],
+        "edges": [
+          {
+            "from": "rise",
+            "to": "form"
+          },
+          {
+            "from": "form",
+            "to": "move",
+            "label": "seafloor spreading"
+          },
+          {
+            "from": "move",
+            "to": "meet"
+          },
+          {
+            "from": "meet",
+            "to": "sink",
+            "label": "subduction"
+          }
+        ]
+      },
+      "watchOut": "The conveyor picture is a model. Scientists now think the pull of old, dense plates sinking at trenches is one of the strongest forces moving plates, and they still debate how mantle flow and plate motion fit together. Rock that sinks at a trench does not simply flow straight back to the ridge.",
+      "pages": {
+        "printed": [
+          209,
+          214,
+          215
+        ],
+        "pdf": [
+          245,
+          250,
+          251
+        ]
+      }
+    },
+    {
+      "objectiveId": "L16-O4",
+      "title": "Putting Seafloor Spreading to the Test",
+      "paragraphs": [
+        "Seafloor spreading made a bold, testable prediction: seafloor rock should be youngest at the ridge and older farther away, in matching patterns on both sides. To check it, scientists needed rock from the ocean floor at many distances from the ridge.",
+        "Oil-company drill ships of the 1960s were built to find oil, not to haul up rock cores from far beneath the ocean floor, so engineers designed and built a new research drill ship, the Glomar Challenger, launched in 1968. They spelled out criteria, the requirements for success: lower drill pipe through thousands of meters of water, drill more than 1,000 meters into the crust, and bring up rock layers unbroken and unmixed. They also named constraints, the limits they faced, such as the technology of the day.",
+        "Soon after it entered service in 1968, on one of its first voyages, the ship crisscrossed the Atlantic between South America and Africa, drilling on both sides of the ridge. Lab tests showed rock ages rising with distance from the ridge, just as predicted. Its successor, the JOIDES Resolution, carried deep-ocean drilling on for nearly four decades, until its final expedition in 2024.",
+        "You can use the pattern too. If seafloor moves away from a ridge at a steady rate, its age equals its distance divided by that rate. Rock 100 km from a ridge that spreads 25 mm a year on that side is about 4 million years old."
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "Model: seafloor age across a ridge spreading a steady 25 mm a year on each side",
+        "alt": "A line graph. The horizontal axis is distance from the ridge in kilometers, with west as negative numbers and east as positive. The vertical axis is the age of the seafloor rock in millions of years. The line makes a V shape: age is 0 at the ridge, 20 million years at 500 km on either side, and 40 million years at 1,000 km on either side. The two sides mirror each other.",
+        "xLabel": "Distance from the ridge (km; west negative, east positive)",
+        "yLabel": "Age of seafloor rock (millions of years)",
+        "series": [
+          {
+            "label": "Model, steady 25 mm a year each side",
+            "points": [
+              [
+                -1000,
+                40
+              ],
+              [
+                -500,
+                20
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                500,
+                20
+              ],
+              [
+                1000,
+                40
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": 0,
+            "y": 0,
+            "text": "Ridge: youngest rock"
+          }
+        ]
+      },
+      "watchOut": "Real spreading rates change over time and differ from ridge to ridge, so real age plots are bumpier than this model. And the oldest seafloor is not always at a trench: in the Atlantic, the oldest seafloor lies beside the continents, where there are no trenches.",
+      "pages": {
+        "printed": [
+          209,
+          210,
+          211
+        ],
+        "pdf": [
+          245,
+          246,
+          247
+        ]
+      }
+    },
+    {
+      "objectiveId": "L16-O5",
+      "title": "Three Ways Plates Meet",
+      "paragraphs": [
+        "Plates move only a few centimeters a year, about as fast as your fingernails grow. Their edges, called boundaries, are named for how the two plates move compared with each other.",
+        "At a convergent boundary, plates move together. Off South America, the dense Nazca Plate sinks beneath the South American Plate at roughly 65 to 80 mm a year. That makes a deep trench offshore, strong earthquakes, and melting deep below that feeds the volcanoes of the Andes.",
+        "At a divergent boundary, plates move apart and new lithosphere forms between them; the African and Arabian plates are separating, and GPS measurements show the southern Red Sea widening by about 15 mm a year. At a transform boundary, plates slide past each other. Along most of California's San Andreas Fault, the Pacific and North American plates lock, build up stress, and then slip suddenly in earthquakes.",
+        "Multiply a rate by a time to see how change adds up: 15 mm a year for one million years is 15,000,000 mm, or 15 kilometers. Small, steady motions can open whole oceans over tens of millions of years."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Plate boundaries at a glance",
+        "alt": "A table of three boundary types. Convergent: plates move toward each other; common features are a trench, volcanic mountains and strong earthquakes; example, the Nazca Plate sinking under the South American Plate, which built the Andes. Divergent: plates move apart; common features are new lithosphere, a mid-ocean ridge and a widening sea; example, the African and Arabian plates opening the Red Sea. Transform: plates slide past each other; common features are earthquakes where locked stretches stick and then slip, with no crust made or destroyed; example, the Pacific and North American plates along the San Andreas Fault.",
+        "columns": [
+          "Boundary",
+          "Motion",
+          "Common features",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Convergent",
+            "Plates move toward each other",
+            "Trench, volcanic mountains, strong earthquakes",
+            "Nazca under South American Plate (Andes)"
+          ],
+          [
+            "Divergent",
+            "Plates move apart",
+            "New lithosphere, mid-ocean ridge, widening sea",
+            "African and Arabian plates (Red Sea)"
+          ],
+          [
+            "Transform",
+            "Plates slide past each other",
+            "Earthquakes where locked stretches slip; no crust made or destroyed",
+            "Pacific and North American plates (San Andreas Fault)"
+          ]
+        ]
+      },
+      "watchOut": "Not every boundary brings the same hazards: a transform boundary is known for earthquakes, not for the volcano chains of a subduction zone. Knowing a boundary's type helps scientists estimate risk over many years, but it cannot predict the exact day of an earthquake. Also, the textbook gives the San Andreas rate as 5 mm a year; USGS gives about 5 cm (50 mm) a year for the two plates' motion past each other.",
+      "pages": {
+        "printed": [
+          216,
+          217
+        ],
+        "pdf": [
+          252,
+          253
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L16-RF1",
+      "issue": "Section 7 says the Pacific and North American plates move past each other along the San Andreas Fault at an average of about 5 millimeters per year. USGS gives about 5 centimeters (50 mm) per year, so the printed figure looks like a millimeter/centimeter slip and is ten times too small.",
+      "pages": {
+        "printed": [
+          217
+        ],
+        "pdf": [
+          253
+        ]
+      },
+      "resolution": "Content uses the USGS value of about 5 cm (50 mm) a year, described as the two plates' motion past each other (O5 card watch-out and the limitations of L16-Q28). No question asks for the San Andreas rate, and the 5 mm figure is never presented as correct.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            217
+          ],
+          "pdfPages": [
+            253
+          ],
+          "locator": "Section 7. Tracking Plate Motion, Transform Motion",
+          "supports": "The San Andreas Fault marks where the Pacific and North American plates meet and slide sideways, with built-up stress released as earthquakes."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "The Pacific Plate has been grinding horizontally past the North American Plate for about 10 million years at an average rate of about 5 cm/yr."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF2",
+      "issue": "Section 5 says the JOIDES Resolution 'is still exploring the seafloor today' and gives running totals of sites and drilling depth. These describe the time the textbook was written; the ship's scientific drilling ended after its final expedition in 2024.",
+      "pages": {
+        "printed": [
+          211
+        ],
+        "pdf": [
+          247
+        ]
+      },
+      "resolution": "Content describes the JOIDES Resolution in the past tense ('for nearly four decades, until its final expedition in 2024'). No question tests its current status, its site counts or its drilling records; questions use only the Glomar Challenger's criteria and the age pattern its samples revealed.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            211
+          ],
+          "pdfPages": [
+            247
+          ],
+          "locator": "Section 5. Designing a Drill Ship, Testing for Seafloor Spreading",
+          "supports": "The Glomar Challenger's 1968 samples showed oceanic crust getting older with distance from the mid-ocean ridge; it was later replaced by the JOIDES Resolution."
+        },
+        {
+          "type": "external",
+          "title": "The JOIDES Resolution Embarks on Its Final Expedition",
+          "publisher": "Eos (American Geophysical Union)",
+          "url": "https://eos.org/articles/the-joides-resolution-embarks-on-its-final-expedition",
+          "accessed": "2026-10-14",
+          "supports": "In June 2024 the JOIDES Resolution began Expedition 403, its final expedition, after nearly four decades of service, as the U.S. National Science Foundation retired the ship."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF3",
+      "issue": "Section 1 calls Glossopteris 'a fern that grew only in warm climates' and says it could have lived in some places only if the continents were once closer to the equator. Glossopteris was a seed plant (a 'seed fern', not a true fern), and Antarctic fossil wood shows it grew at very high southern latitudes in a cool, strongly seasonal climate.",
+      "pages": {
+        "printed": [
+          205
+        ],
+        "pdf": [
+          241
+        ]
+      },
+      "resolution": "Content calls Glossopteris an extinct seed plant and uses its fossils only as evidence that the southern continents were joined and that Antarctica's climate has changed. L16-Q02 states the tree-ring evidence of dark polar winters in its prompt, keys 'joined lands, and a much less icy Antarctica', offers the textbook's own claim ('joined, with Antarctica near the equator') as the parallel distractor that the tree rings rule out, and records the textbook conflict in its limitations; the O1 card's watch-out explains the correction.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205,
+            212
+          ],
+          "pdfPages": [
+            241,
+            248
+          ],
+          "locator": "Section 1, Evidence for Continental Drift; Key Science Concept map",
+          "supports": "Glossopteris fossils occur on several southern continents, including Antarctica, as part of the evidence for continental drift."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to the Glossopteridales",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/seedplants/pteridosperms/glossopterids.html",
+          "accessed": "2026-10-14",
+          "supports": "The Glossopteridales were an extinct group of seed plants on the southern supercontinent Gondwana, with fossils in India, South America, Australia, Africa and Antarctica; they help identify areas once connected but now separated by continental drift."
+        },
+        {
+          "type": "external",
+          "title": "Silicified wood from the Permian and Triassic of Antarctica: tree rings from polar paleolatitudes (Open-File Report 2007-1047-SRP-080)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/publications/silicified-wood-permian-and-triassic-antarctica-tree-rings-polar-paleolatitudes",
+          "accessed": "2026-10-18",
+          "supports": "Late Permian fossil wood from the Beardmore Glacier area of Antarctica grew at polar paleolatitudes of about 80-85 degrees south, in a climate reconstructed as cold temperate, with ring formation strongly influenced by the polar light-dark cycle; the abstract names the Glossopteridales as the Paleozoic seed-fern group of that time."
+        },
+        {
+          "type": "external",
+          "title": "UWM geologists uncover Antarctica's fossil forests",
+          "publisher": "University of Wisconsin-Milwaukee News",
+          "url": "https://uwm.edu/news/uwm-geologists-uncover-antarcticas-fossil-forests/",
+          "accessed": "2026-10-18",
+          "supports": "Antarctica's Permian fossil forest, which included the extinct plant Glossopteris, grew at polar latitudes with months of winter darkness, and tree rings in the fossil trees show a rapid switch from summer growth to winter dormancy."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF4",
+      "issue": "Section 6 and Figure 6A state that there are 15 major tectonic plates. The count depends on how plates are grouped; USGS describes the lithosphere as broken into 'a dozen or so' rigid slabs, and many sources list about seven large plates plus smaller ones.",
+      "pages": {
+        "printed": [
+          214
+        ],
+        "pdf": [
+          250
+        ]
+      },
+      "resolution": "No question asks how many plates there are. Content names only plates that appear on the textbook's map and in its examples (Nazca, South American, African, Arabian, Pacific, North American).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            214
+          ],
+          "pdfPages": [
+            250
+          ],
+          "locator": "Section 6. The Theory of Plate Tectonics, Figure 6A",
+          "supports": "The textbook map shows 15 labeled plates and says several smaller plates are not shown."
+        },
+        {
+          "type": "external",
+          "title": "Moving slabs (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/slabs.html",
+          "accessed": "2026-10-14",
+          "supports": "The layer of Earth we live on is broken into a dozen or so rigid slabs, called tectonic plates, that move relative to one another."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF5",
+      "issue": "Section 2 and the Lesson Summary say the mantle below the lithosphere 'is capable of flowing' and carries the lithosphere, without saying the mantle is solid. Learners (and the master brief) are at risk of picturing plates floating on a liquid mantle.",
+      "pages": {
+        "printed": [
+          206,
+          217
+        ],
+        "pdf": [
+          242,
+          253
+        ]
+      },
+      "resolution": "Content always describes the mantle as mostly solid rock that flows very slowly, over millions of years. L16-Q10 repairs the ocean-of-liquid-magma and rafts idea, L16-Q09's lava distractor rejects a worldwide liquid layer just under the crust, L16-Q14's distractor rejects continents floating apart on liquid rock at the earthquake and volcano belts, L16-Q30's explanation says mantle rock stays mostly solid while it convects, and the O2 card's watch-out names the mix-up.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior",
+          "supports": "The top of the mantle is stiff and fairly cool, while the hotter mantle beneath that thin zone can flow."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-14",
+          "supports": "The mantle is mostly solid rock that can move plastically over millions of years; the asthenosphere is more ductile than the lithosphere."
+        },
+        {
+          "type": "external",
+          "title": "Inside the Earth (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+          "accessed": "2026-10-14",
+          "supports": "The asthenosphere is a mobile zone of hot, semi-solid material that can soften and flow."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF6",
+      "issue": "Section 6 presents mantle convection, seafloor spreading and subduction as the 'three processes that drive plate motion', and says subducted rock is heated and moves back toward the mid-ocean ridge. USGS reports that the pull of sinking slabs is now considered the driving force, that seafloor spreading is less fundamental than subduction, and that no proposed mechanism explains every aspect of plate motion.",
+      "pages": {
+        "printed": [
+          215,
+          217
+        ],
+        "pdf": [
+          251,
+          253
+        ]
+      },
+      "resolution": "Content teaches convection, spreading and subduction as linked parts of one system, as the textbook does, and the O3 card's watch-out adds that slab pull matters and the details are still debated. L16-Q18's sequence ends when the plate sinks into the mantle rather than tracing a return path to the ridge, L16-Q30 keys only the energy source of convection (heat from Earth's interior) and names the open debate in its limitations, and no question asks which force is the single driver.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion and Figure 6B",
+          "supports": "Mantle convection, seafloor spreading and subduction together are given as the mechanism that moves plates; rock forms at ridges and sinks at trenches."
+        },
+        {
+          "type": "external",
+          "title": "Some unanswered questions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "accessed": "2026-10-17",
+          "supports": "Slab pull is now considered the main driving force of plate tectonics; subduction is described as playing a more fundamental role than seafloor spreading; none of the proposed mechanisms can explain all facets of plate movement."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF7",
+      "issue": "The Key Science Concept (p. 213) lists 'the oldest rocks at the trenches', and Section 4 says the oldest seafloor is located 'at the trenches'. The textbook's own Atlantic age map (Figure 4B) shows the oldest Atlantic seafloor beside the continents, where there are no trenches.",
+      "pages": {
+        "printed": [
+          209,
+          213
+        ],
+        "pdf": [
+          245,
+          249
+        ]
+      },
+      "resolution": "Content says seafloor gets older with distance from the ridge and that, in the Atlantic, the oldest seafloor lies along the continents (O4 card watch-out). Questions key 'youngest at the ridge, older with distance' (L16-Q15, Q20, Q23) and never claim the oldest rock is always at a trench.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading and Figure 4B",
+          "supports": "Rocks increase in age with distance from the mid-ocean ridge; the Atlantic map shows the youngest rock along the ridge and the oldest toward South America and Africa."
+        },
+        {
+          "type": "external",
+          "title": "Map of Oceanic Crust Ages in the Atlantic",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/tectonics/atlantic.html",
+          "accessed": "2026-10-14",
+          "supports": "In the Atlantic, the youngest crust is at the Mid-Oceanic Ridge and the oldest (Jurassic) crust lies along the coastlines of Europe, Africa and the Americas."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF8",
+      "issue": "Section 2 says seismic waves travel faster through denser rock and bend because layers have different densities. Seismic speed depends on a rock's stiffness (rigidity and resistance to compression) as well as its density; with stiffness unchanged, higher density actually slows the waves.",
+      "pages": {
+        "printed": [
+          206
+        ],
+        "pdf": [
+          242
+        ]
+      },
+      "resolution": "Content says only that the waves change speed and direction when they pass into rock with different properties. L16-Q09 keys that idea and never claims 'denser means faster'; the O2 card's watch-out explains the simplification. The correction now rests on the U.S. EPA's Seismic Velocities page, which gives P- and S-wave speeds as a rock's elastic moduli divided by its density. That record replaces the earlier Geosciences LibreTexts page, which had a backwards bullet about compressibility.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior and Figure 2",
+          "supports": "Seismic waves change speed and direction as they move between layers, and recordings of them revealed the properties of Earth's layers."
+        },
+        {
+          "type": "external",
+          "title": "Seismic Velocities (Environmental Geophysics)",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/environmental-geophysics/seismic-velocities",
+          "accessed": "2026-10-17",
+          "supports": "P- and S-wave speeds are governed by a rock's elastic moduli (bulk modulus and shear modulus, or rigidity) together with its density: Vp = √[(κ + 4/3μ)/ρ] and Vs = √(μ/ρ), so density sits in the denominator and does not by itself decide the speed."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF9",
+      "issue": "Section 7 says 'part of the subducting plate melts to form pockets of magma'. USGS notes that scientists debate whether volcanic magma above subduction zones comes from partial melting of the sinking plate, of the overlying plate, or both.",
+      "pages": {
+        "printed": [
+          216
+        ],
+        "pdf": [
+          252
+        ]
+      },
+      "resolution": "Content says melting happens deep down near the sinking plate and feeds the volcanoes, without saying which plate melts. L16-Q26 keys 'a chain of volcanic mountains' but does not ask where the magma comes from.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7, Convergent Motion and Figure 7",
+          "supports": "Where the Nazca Plate subducts beneath the South American Plate, a trench forms, magma rises toward the surface and volcanoes form, building the Andes."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "For volcanoes above subduction zones, scientists debate the source of the magma: partial melting of the descending slab, of the overlying plate, or a combination."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF10",
+      "issue": "Section 4 says the mountains on either side of a fracture zone move past each other in opposite directions. That is true only along the active stretch between offset ridge segments (a transform fault); farther out, fracture zones are mostly inactive scars.",
+      "pages": {
+        "printed": [
+          208
+        ],
+        "pdf": [
+          244
+        ]
+      },
+      "resolution": "Content describes a fracture zone as a crack that crosses the ridge and offsets its segments, with opposite sliding only where the ridge pieces are offset (L16-Q11 rationale). No question asks students to say that the entire fracture zone is active.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            208
+          ],
+          "pdfPages": [
+            244
+          ],
+          "locator": "Section 4, Seafloor Structures and Figure 4A",
+          "supports": "Cracks at right angles to the mid-ocean ridge break it into segments; these fracture zones are a kind of fault."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "Transform faults commonly offset active spreading ridges; oceanic fracture zones are ocean-floor valleys that offset spreading ridges and are now mostly inactive."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF11",
+      "issue": "Section 6 says plate movement over 'the past 3 billion years' produced today's features. When plate tectonics began is still debated; most estimates are around 3 billion years ago, with published estimates both older and younger.",
+      "pages": {
+        "printed": [
+          214
+        ],
+        "pdf": [
+          250
+        ]
+      },
+      "resolution": "No question tests when plate tectonics started, and content does not give a start date.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            214
+          ],
+          "pdfPages": [
+            250
+          ],
+          "locator": "Section 6, From Hypothesis to Theory",
+          "supports": "The textbook states that plate movement over the past 3 billion years caused the patterns and features described in the lesson."
+        },
+        {
+          "type": "external",
+          "title": "Plate tectonics started at least 3.5 billion years ago",
+          "publisher": "Science News (Society for Science)",
+          "url": "https://www.sciencenews.org/article/plate-tectonics-started-least-35-billion-years-ago",
+          "accessed": "2026-10-14",
+          "supports": "Most estimates put the onset of plate tectonics at around 3 billion years ago, and a 2017 study argued it may have begun at least 3.5 billion years ago, showing the timing is unsettled."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF12",
+      "issue": "Section 6 says a theory's extensive evidence indicates 'that it correctly describes how the natural world works', which can read as 'proven and final'. The lesson's own NGSS box lists 'Scientific Knowledge is Open to Revision in Light of New Evidence', and USGS notes that parts of plate tectonics, such as its driving forces, are still debated.",
+      "pages": {
+        "printed": [
+          203,
+          214
+        ],
+        "pdf": [
+          239,
+          250
+        ]
+      },
+      "resolution": "L16-Q07 keys 'gained a mechanism and wide evidence but stays open to revision' and uses 'proven for all time' as a distractor. The scientific theory glossary entry and the O3 card say a theory can still be refined.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            203
+          ],
+          "pdfPages": [
+            239
+          ],
+          "locator": "Lesson opener, Next Generation Science Standards box",
+          "supports": "Lists the practice 'Scientific Knowledge is Open to Revision in Light of New Evidence'."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            214
+          ],
+          "pdfPages": [
+            250
+          ],
+          "locator": "Section 6, From Hypothesis to Theory",
+          "supports": "A hypothesis is based on limited evidence; a theory is a well-established group of ideas supported by a large amount of evidence that explains many phenomena."
+        },
+        {
+          "type": "external",
+          "title": "Some unanswered questions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "accessed": "2026-10-14",
+          "supports": "No mechanism for plate motion can be tested directly and proven beyond reasonable doubt, and scientists may never fully understand all the details."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF13",
+      "issue": "OCR is empty or garbled on several pages: p. 202 is a full-page image with no text; the NGSS box on p. 203; map legends and labels on pp. 205, 212-213; the heading on p. 209; and figure labels on pp. 214-216.",
+      "pages": {
+        "printed": [
+          202,
+          203,
+          205,
+          209,
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "pdf": [
+          238,
+          239,
+          241,
+          245,
+          248,
+          249,
+          250,
+          251,
+          252
+        ]
+      },
+      "resolution": "All 16 lesson pages (printed 202-217) were rendered at 110 dpi and read. Map facts used in content (which fossils appear on which continents, the plates shown, Atlantic seafloor ages) were read from the renders, not the OCR.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212,
+            213
+          ],
+          "pdfPages": [
+            248,
+            249
+          ],
+          "locator": "Key Science Concept: Evidence for Moving Continents",
+          "supports": "Maps of fossil distribution, earthquake and volcano belts, and seafloor features (ridge, fracture zones, trenches, continental shelves) as read from the rendered spread."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF14",
+      "issue": "Section 1 says Mesosaurus 'lived only in fresh water'. Its habitat is debated: a peer-reviewed study of mesosaur-bearing rocks in Uruguay interprets them as temporarily hypersaline, lagoon-like water, a setting also indicated for the matching Iratí (Brazil) and Whitehill (South Africa) formations, and earlier work had proposed marine or freshwater-to-brackish settings.",
+      "pages": {
+        "printed": [
+          205
+        ],
+        "pdf": [
+          241
+        ]
+      },
+      "resolution": "Content never calls Mesosaurus a freshwater animal. It is described as a small reptile of shallow inland waters that could not have crossed an open ocean (key idea 2, the O1 card and table, L16-Q01, L16-Q03). No question asks what kind of water it lived in; the drift argument needs only a small shallow-water reptile that could not cross an ocean.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift",
+          "supports": "Mesosaurus fossils occur in both South America and Africa, and the animal could not have swum across an ocean."
+        },
+        {
+          "type": "external",
+          "title": "Unusual environmental conditions preserve a Permian mesosaur-bearing Konservat-Lagerstätte from Uruguay",
+          "publisher": "Acta Palaeontologica Polonica (Institute of Paleobiology, Polish Academy of Sciences)",
+          "url": "https://www.app.pan.pl/article/item/app20100113.html",
+          "accessed": "2026-10-14",
+          "supports": "The mesosaur community of Uruguay's Mangrullo Formation probably lived under temporary hypersaline, lagoon-like conditions, which features of the correlative Brazilian Iratí and South African Whitehill formations also indicate; earlier authors had proposed marine or freshwater-to-brackish settings."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF15",
+      "issue": "Section 1 says Lystrosaurus fossils 'are found only in Antarctica, southeastern Africa, and India'. Lystrosaurus fossils are also found in China and Russia, so 'only' is wrong.",
+      "pages": {
+        "printed": [
+          205,
+          212
+        ],
+        "pdf": [
+          241,
+          248
+        ]
+      },
+      "resolution": "Content never says 'only': the O1 card and its table add China and Russia. L16-Q29 uses Lystrosaurus's southern lands (southern Africa, India and Antarctica) as one of two fossil clues without saying they are the only places it is found, and its limitations note the Asian finds. No question asks where Lystrosaurus is exclusively found. This replaces the author's earlier note that no flag was needed.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift",
+          "supports": "The textbook places Lystrosaurus fossils in Antarctica, southeastern Africa and India and says this land animal could not have made its way across the Indian Ocean."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212
+          ],
+          "pdfPages": [
+            248
+          ],
+          "locator": "Key Science Concept: Evidence from Fossils, Mountain Ranges, and Coastlines (map)",
+          "supports": "The map shows Lystrosaurus fossils in southern Africa, India and Antarctica."
+        },
+        {
+          "type": "external",
+          "title": "Weathering the tough times: Fossil evidence of 'hibernation-like' state in 250-million-year-old Antarctic animal",
+          "publisher": "University of Washington News",
+          "url": "https://www.washington.edu/news/2020/08/27/torpor-lystrosaurus-release/",
+          "accessed": "2026-10-14",
+          "supports": "Paleontologists find Lystrosaurus fossils in India, China, Russia, parts of Africa and Antarctica."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF16",
+      "issue": "Section 2 gives 12,262 m as the deepest anyone has drilled, which invites the conclusion (repeated in the first draft of this content) that no drill has ever reached the mantle. That is out of date: in 2023 the JOIDES Resolution recovered a 1,268 m core of mantle rock from a 'tectonic window' on the Mid-Atlantic Ridge seafloor, where mantle rock is exposed. What remains true is that no drill has gone all the way down through the crust into the mantle.",
+      "pages": {
+        "printed": [
+          206
+        ],
+        "pdf": [
+          242
+        ]
+      },
+      "resolution": "The O2 card says no drill has cut all the way through the crust into the mantle and that the deepest hole drilled from the surface reaches about 12 km. L16-Q09 no longer opens with a drilling claim; its choice b rationale and explanation use the accurate wording.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior",
+          "supports": "No one has drilled deeper than 12,262 meters, so scientists studied seismic waves to learn about Earth's interior."
+        },
+        {
+          "type": "external",
+          "title": "Mantle rock recovery may reveal secrets of Earth's history",
+          "publisher": "Woods Hole Oceanographic Institution",
+          "url": "https://www.whoi.edu/?p=582178",
+          "accessed": "2026-10-14",
+          "supports": "In spring 2023 the JOIDES Resolution recovered a nearly continuous 1,268 m of mantle rock from a tectonic window, a section of seabed along the Mid-Atlantic Ridge where rocks from the mantle are exposed."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF17",
+      "issue": "Section 5 says the team chose to 'redesign an existing drill ship' from the oil industry and named the result the Glomar Challenger. IODP records that Levingston Shipbuilding laid the ship's keel on 18 October 1967 in Orange, Texas, and launched it on 23 March 1968, so it was newly built rather than converted. Section 5 also calls the South Atlantic transect the ship's 'first expedition'; IODP describes that voyage as Leg 3, which drilled 17 holes at 10 sites between South America and Africa.",
+      "pages": {
+        "printed": [
+          210,
+          211
+        ],
+        "pdf": [
+          246,
+          247
+        ]
+      },
+      "resolution": "The O4 card says engineers designed and built a new research drill ship, launched in 1968, and calls the Atlantic transect one of its first voyages. L16-Q21 says 'designing' rather than 'redesigning'. The criteria and constraints used in L16-Q21 and L16-Q22 come from p. 210 and are unaffected. A reviewer's suggestion that the design drew on oil-industry drill ships is not used, because the IODP page opened does not describe the design basis.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            210
+          ],
+          "pdfPages": [
+            246
+          ],
+          "locator": "Section 5. Designing a Drill Ship, Ship Design Challenges and Figure 5",
+          "supports": "The textbook lists the drill ship's criteria (lower drill pipe through thousands of meters of water, drill over 1,000 m into the crust, recover unbroken and unmixed rock layers) and names technology as a main constraint."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            211
+          ],
+          "pdfPages": [
+            247
+          ],
+          "locator": "Section 5, Testing for Seafloor Spreading",
+          "supports": "The Glomar Challenger began work in 1968 and gathered seafloor samples on either side of the ridge between Africa and South America."
+        },
+        {
+          "type": "external",
+          "title": "DSDP Phase: Glomar Challenger",
+          "publisher": "International Ocean Discovery Program (Texas A&M University)",
+          "url": "https://web.iodp.tamu.edu/publicinfo/glomar_challenger.html",
+          "accessed": "2026-10-14",
+          "supports": "Levingston Shipbuilding laid the Glomar Challenger's keel on October 18, 1967, in Orange, Texas; the ship was launched on March 23, 1968, and accepted by the Deep Sea Drilling Project on August 11, 1968. On Leg 3 its crew drilled 17 holes at 10 sites along the ridge between South America and Africa."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF18",
+      "issue": "Section 1 pairs the Appalachian Mountains with the Atlas Mountains of northwestern Africa. The old rock belt that matches the Appalachians is best seen in Morocco's Anti-Atlas, which formed as North America collided with Africa while Pangaea assembled, and the High Atlas gained much of its present height far later. 'One range torn in two' is a simplification.",
+      "pages": {
+        "printed": [
+          205
+        ],
+        "pdf": [
+          241
+        ]
+      },
+      "resolution": "Content keeps the textbook's simplified picture of one range torn in two (O1 card, L16-Q04 key) because the rock-type, age and layer-order match it describes is real. L16-Q04's limitations explain that the match is between old rock belts and that the Atlas range gained much of its height later, and its distractor rationale no longer treats rock age as the age of the mountains.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift",
+          "supports": "The Appalachian Mountains and the Atlas Mountains of northwestern Africa share rock types, rock ages and the order of their rock layers."
+        },
+        {
+          "type": "external",
+          "title": "Anti-Atlas Mountains of Morocco",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/anti-atlas-mountains-of-morocco-7218",
+          "accessed": "2026-10-14",
+          "supports": "The Anti-Atlas of Morocco and the Appalachians are linked in time: both were built as what is now North America crashed into what is now Africa during the formation of Pangaea, and the opening Atlantic later separated them."
+        },
+        {
+          "type": "external",
+          "title": "Vertical movements at the fringe of the West African Craton: First zircon fission track datings from the Anti-Atlas Precambrian basement, Morocco",
+          "publisher": "Comptes Rendus Géoscience (Académie des sciences)",
+          "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2008.11.006/",
+          "accessed": "2026-10-14",
+          "supports": "The Anti-Atlas's Paleozoic cover rocks were folded during the Variscan orogeny, while the High Atlas underwent an important part of its uplift much later, in the Neogene."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF19",
+      "issue": "Section 7 says transform motion does not happen smoothly and that stress builds until the plates suddenly move, causing earthquakes. Along the San Andreas Fault that is true of the locked sections, but USGS documents a central creeping section that slips steadily (aseismically), producing many small earthquakes but no large ones.",
+      "pages": {
+        "printed": [
+          217
+        ],
+        "pdf": [
+          253
+        ]
+      },
+      "resolution": "The transform boundary glossary entry says the plates stick and slip 'in many places' (the final verifier changed it from 'along most stretches', which no opened source supports for transform boundaries in general); the O5 card says this of most of California's San Andreas Fault, and its table says 'locked stretches'. L16-Q28 asks about most of the fault and its limitations name the creeping section. L16-Q25's 'locking, then lurching' item describes transform motion without claiming every stretch behaves that way.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            217
+          ],
+          "pdfPages": [
+            253
+          ],
+          "locator": "Section 7, Transform Motion",
+          "supports": "Transform motion does not happen smoothly: stress builds along the boundary until the plates move suddenly, causing earthquakes, as along the San Andreas Fault."
+        },
+        {
+          "type": "external",
+          "title": "Parkfield: Tectonic Setting",
+          "publisher": "U.S. Geological Survey, Earthquake Hazards Program",
+          "url": "https://earthquake.usgs.gov/learn/parkfield/geology.php",
+          "accessed": "2026-10-14",
+          "supports": "Between locked sections the San Andreas fault creeps (slips aseismically); the creeping section produces numerous small earthquakes but no large ones, while locked sections produced large historic earthquakes such as those of 1857 and 1906."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF20",
+      "issue": "Section 7 gives the Nazca-South American convergence as approximately 70-100 mm per year. USGS gives about 80 mm a year in the south falling to about 65 mm a year in the north, so the printed upper end is too high.",
+      "pages": {
+        "printed": [
+          216
+        ],
+        "pdf": [
+          252
+        ]
+      },
+      "resolution": "The O5 card uses the USGS range of 65 to 80 mm a year. L16-Q27 uses about 80 mm a year, the USGS figure for the southern part of the boundary, with a USGS evidence record, and its conditions note the textbook's printed range.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7. Tracking Plate Motion, Convergent Motion and Figure 7",
+          "supports": "The Nazca and South American plates converge, with the denser Nazca Plate subducting beneath the South American Plate; the page prints the rate as about 70-100 mm per year."
+        },
+        {
+          "type": "external",
+          "title": "Seismicity of the Earth 1900–2013, Seismotectonics of South America (Nazca Plate Region)",
+          "publisher": "U.S. Geological Survey (Open-File Report 2015–1031–E)",
+          "url": "https://pubs.usgs.gov/of/2015/1031/e",
+          "accessed": "2026-10-17",
+          "supports": "Relative to a fixed South American Plate, the Nazca Plate moves slightly north of east at about 80 mm per year in the south to about 65 mm per year in the north."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF21",
+      "issue": "Pages 204 and 214 say Wegener proposed continental drift in 1912, but the p. 205 photo caption says he published his continental drift hypothesis in 1915. A learner who reads the caption may think content that says 1912 is wrong.",
+      "pages": {
+        "printed": [
+          204,
+          205,
+          214
+        ],
+        "pdf": [
+          240,
+          241,
+          250
+        ]
+      },
+      "resolution": "Both dates are right for different events: Wegener first presented the idea in 1912, in a talk and two articles, and his book The Origin of Continents and Oceans came out in 1915. Content uses 1912 for when he proposed the idea (key idea 1, the O1 card, L16-Q06, L16-Q07 and L16-Q31). No question asks for the year as the tested fact, and L16-Q31's order holds with either date.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            204,
+            214
+          ],
+          "pdfPages": [
+            240,
+            250
+          ],
+          "locator": "Section 1, The Continental Drift Hypothesis; Section 6, From Hypothesis to Theory",
+          "supports": "Wegener reintroduced the idea of a single former landmass, Pangaea, in 1912."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1, photo caption beside Figure 1B",
+          "supports": "The caption dates Wegener's publication of the continental drift hypothesis to 1915."
+        },
+        {
+          "type": "external",
+          "title": "Historical perspective (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/historical.html",
+          "accessed": "2026-10-17",
+          "supports": "Not until 1912 was the idea of moving continents seriously considered as a full scientific theory, introduced in two articles published by Alfred Lothar Wegener."
+        },
+        {
+          "type": "external",
+          "title": "Alfred Wegener",
+          "publisher": "NASA Earth Observatory (NASA Science)",
+          "url": "https://science.nasa.gov/earth/earth-observatory/alfred-wegener",
+          "accessed": "2026-10-17",
+          "supports": "Wegener presented the idea to the Geological Association in Frankfurt on 6 January 1912; his book The Origin of Continents and Oceans was published in 1915."
+        }
+      ]
+    },
+    {
+      "id": "L16-RF22",
+      "issue": "Section 7 gives the Red Sea's widening as a single rate of 15-15.7 mm per year. The GPS study opened for this check (McClusky et al. 2010) reports about 15 mm a year of extension for the southern Red Sea, north of about 16 degrees N. A reviewer reported that opening is slower farther north, but no source opened here confirmed a northern rate.",
+      "pages": {
+        "printed": [
+          216,
+          217
+        ],
+        "pdf": [
+          252,
+          253
+        ]
+      },
+      "resolution": "The O5 card says GPS shows the southern Red Sea widening by about 15 mm a year and makes no claim about the northern part. The card's rate-times-time example (15 mm a year for a million years is 15 km) illustrates the method. No question uses a Red Sea rate: L16-Q25 and L16-Q32 name the Red Sea only as an example of plates moving apart.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7, Divergent Motion and Figure 7",
+          "supports": "The African and Arabian plates are moving apart, so the Red Sea between them is widening; the page prints the rate as 15-15.7 mm per year."
+        },
+        {
+          "type": "external",
+          "title": "Kinematics of the southern Red Sea-Afar Triple Junction and implications for plate dynamics (McClusky et al., Geophysical Research Letters 37, L05301, 2010)",
+          "publisher": "Australian National University Research Portal (abstract record)",
+          "url": "https://researchportalplus.anu.edu.au/en/publications/kinematics-of-the-southern-red-sea-afar-triple-junction-and-impli/",
+          "accessed": "2026-10-17",
+          "supports": "GPS shows that north of about 16 degrees N all extension, about 15 mm per year, is on the main Red Sea Rift; farther south it shifts to the Danakil Depression."
+        }
+      ]
+    }
+  ]
+}

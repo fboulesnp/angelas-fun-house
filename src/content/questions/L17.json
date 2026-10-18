@@ -1,0 +1,4137 @@
+{
+  "lessonId": "L17",
+  "questions": [
+    {
+      "id": "L17-Q01",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O1"
+      ],
+      "conceptTags": [
+        "minerals-in-rock",
+        "granite"
+      ],
+      "familyId": "L17-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A chunk of granite is speckled with pink, white, gray and black grains. What are those different grains?",
+      "accessiblePrompt": "A chunk of granite is speckled with grains of four colors: pink, white, gray and black. What are those different grains?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Different minerals, each with its own atom pattern",
+          "rationale": "Correct. Granite is a mix of several minerals, such as quartz, feldspars and mica. Each has its own chemical makeup and crystal pattern, and different minerals tend to show different colors."
+        },
+        {
+          "id": "b",
+          "text": "Bits of a single mineral stained by soil and rainwater",
+          "rationale": "Staining only tints a surface. These grains differ all the way through because they are different substances with different arrangements of atoms."
+        },
+        {
+          "id": "e",
+          "text": "Sand grains of different colors cemented together",
+          "rationale": "Cemented sand makes sandstone. Granite's grains are crystals that grew interlocked as magma cooled, with no cement between them."
+        },
+        {
+          "id": "d",
+          "text": "Tiny separate rocks melted together by lava",
+          "rationale": "The grains are minerals, the building blocks of rock. Granite's crystals grew side by side as magma cooled slowly underground, not from lava gluing rocks together."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Most rocks are built from minerals, and minerals are built from crystals: atoms of one or more elements stacked in a repeating pattern. A typical granite holds four main minerals (quartz, biotite mica, and two feldspars, orthoclase and plagioclase), so its grains come in several colors.",
+      "misconception": "The colored grains in a rock are just stains, or bits of other rock stuck together.",
+      "hint": "Think about the building blocks one step smaller than the rock itself.",
+      "followUpId": "L17-Q05",
+      "scope": {
+        "lessonId": "L17",
+        "section": "2. Materials That Make Up Rocks",
+        "pages": {
+          "printed": [
+            221
+          ],
+          "pdf": [
+            257
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            221
+          ],
+          "pdfPages": [
+            257
+          ],
+          "locator": "Section 2. Materials That Make Up Rocks and Figure 2 (A Rock Composed of Four Minerals)",
+          "supports": "A crystal has atoms arranged in a repeating geometric pattern; a mineral is made of crystals with a specific chemical composition; granite is made of quartz, biotite mica, orthoclase and plagioclase."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 221 (rendered; Figure 2 labels read from the render). Keyed choice is not the longest. Reviser round 1 (2026-10-14): choice a rationale no longer says the crystal pattern sets a mineral's color; the four minerals are tied to Figure 2 rather than stated as a rule for all granite. Hint now points to minerals, not crystals. Choice c (pure elements, which repeated L17-Q02 c) was replaced by a new choice e (cemented sand grains); the pure-element idea stays tested in L17-Q02. Reviser round 2 (2026-10-14): explanation no longer cites the textbook's Figure 2, which the game does not show; 'a typical granite' keeps it from reading as a rule for every granite (pedagogy reviewer's optional fix). Final verification (verify-agent, 2026-10-14): checked against the p. 221 render (Figure 2 labels: quartz, biotite mica, orthoclase, plagioclase). Cosmetic: the explanation now says 'four main minerals', so it does not read as a complete mineral list for every granite. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: color rationale corrected; four minerals tied to the textbook's Figure 2"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint now points to minerals; distractor c replaced by cemented-sand choice e"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, explanation no longer cites a textbook figure the game does not show"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q02",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O1"
+      ],
+      "conceptTags": [
+        "mineral-definition",
+        "crystal-structure",
+        "natural-glass"
+      ],
+      "familyId": "L17-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which statements about minerals are accurate? Select all that apply.",
+      "accessiblePrompt": "Here are four statements about minerals. Choose every statement that is accurate. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mineral's atoms are arranged in a repeating pattern.",
+          "rationale": "Correct. That orderly, repeating arrangement is what makes a mineral crystalline and gives it its shape."
+        },
+        {
+          "id": "b",
+          "text": "Each mineral has its own specific chemical makeup.",
+          "rationale": "Correct. Quartz is always silicon and oxygen, and halite is always sodium and chlorine, in fixed proportions. Some minerals, such as plagioclase feldspar, can vary within set limits, holding more sodium or more calcium."
+        },
+        {
+          "id": "f",
+          "text": "Most minerals are made of a single chemical element.",
+          "rationale": "Only a few minerals, such as diamond (pure carbon), are single elements. Most are compounds, like quartz (silicon and oxygen) and halite (sodium and chlorine)."
+        },
+        {
+          "id": "e",
+          "text": "Volcanic glass is a mineral, since it is a natural solid.",
+          "rationale": "Natural glass is solid, but its atoms are jumbled instead of repeating in a pattern. With no crystal structure, it is not a mineral. That is why pumice, which is mostly glass, is not built mainly from minerals."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A mineral forms naturally, has a definite chemical makeup, and has its atoms arranged in an orderly, repeating pattern, which shapes its crystals. Most minerals are compounds of two or more elements, such as quartz (silicon and oxygen). Natural glass is not a mineral, because its atoms do not repeat in a pattern.",
+      "misconception": "Minerals are pure elements, and any natural solid counts as a mineral.",
+      "hint": "Test each statement on two examples: quartz, and the natural glass in pumice.",
+      "followUpId": "L17-Q03",
+      "scope": {
+        "lessonId": "L17",
+        "section": "2. Materials That Make Up Rocks; 3. Igneous Processes",
+        "pages": {
+          "printed": [
+            221,
+            223
+          ],
+          "pdf": [
+            257,
+            259
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            221
+          ],
+          "pdfPages": [
+            257
+          ],
+          "locator": "Section 2. Materials That Make Up Rocks and Figure 2 (A Rock Composed of Four Minerals)",
+          "supports": "A crystal has atoms arranged in a repeating geometric pattern; a mineral is made of crystals with a specific chemical composition; granite is made of quartz, biotite mica, orthoclase and plagioclase."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            223
+          ],
+          "pdfPages": [
+            259
+          ],
+          "locator": "Section 3. Igneous Processes, Extrusion",
+          "supports": "Glass has no crystal structure; the page says pumice is made up mostly of glass (its separate claim that pumice has no crystals at all is flagged in L17-RF11)."
+        },
+        {
+          "type": "external",
+          "title": "What is the difference between a rock and a mineral?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral",
+          "accessed": "2026-10-14",
+          "supports": "A mineral is a naturally occurring element or compound with an orderly internal structure and characteristic chemical composition; a rock is an aggregate of one or more minerals."
+        },
+        {
+          "type": "external",
+          "title": "Plagioclase Feldspar (Common Minerals)",
+          "publisher": "University of Minnesota, Department of Earth and Environmental Sciences",
+          "url": "https://commonminerals.esci.umn.edu/minerals-o-s/plagioclase-feldspar",
+          "accessed": "2026-10-17",
+          "supports": "Plagioclase ranges from NaAlSi3O8 (albite) to CaAl2Si2O8 (anorthite): it is a continuous mineral series in which calcium and sodium substitute for one another in the same crystal structure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 221 (rendered). External USGS definition recorded for the naturally-formed clause (L17-RF1); no choice depends on it. Reviser round 1 (2026-10-14): applied the science reviewer's optional fix (choice d rationale tied to Figure 2). Explanation no longer says every rock is a mixture, matching the revised key idea 1 (glassy rocks such as pumice are mostly glass). Reviser round 2 (2026-10-14): distractors c ('Every mineral...') and d ('A rock can only ever...'), which carried the item's only absolutes and d of which was about rocks, were replaced by new choices f (most minerals are single elements) and e (volcanic glass is a mineral). p. 223 evidence and scope added for e (glass has no crystal structure). The hint, which answered c outright, now asks the learner to test each statement on quartz and pumice glass. Explanation now covers glass and drops the rock sentence that went with the removed choice d. Science fix: limitation and a sentence in b's rationale say some minerals vary within set limits. The reviewer's wording said plagioclase allows a 'narrow range' and can vary 'a little'; the University of Minnesota Common Minerals page (opened 2026-10-17) describes plagioclase as a continuous series from sodium-rich albite to calcium-rich anorthite, so the wording says 'within set limits, holding more sodium or more calcium' instead. Key (a, b) unchanged. Final verification (verify-agent, 2026-10-14): checked against the pp. 221 and 223 renders (p. 223: glass has no crystal structure). The University of Minnesota plagioclase page, re-opened by the verifier, supports the limitation and choice b's rationale. Key a, b correct; f and e are false. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, choice d rationale tied to the textbook's Figure 2"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitation and choice b rationale note that some minerals, such as plagioclase, vary within set limits"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute-word distractors c and d replaced by f (single elements) and e (volcanic glass); hint no longer answers a choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Follows the lesson's definition: each mineral has its own defined chemical recipe. Some minerals, such as the plagioclase feldspar in granite, allow a range within that recipe, holding more sodium or more calcium."
+    },
+    {
+      "id": "L17-Q03",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O1"
+      ],
+      "conceptTags": [
+        "three-rock-types",
+        "rock-formation"
+      ],
+      "familyId": "L17-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each rock-making story into the type of rock it produces.",
+      "accessiblePrompt": "Sort seven rock-making stories into three rock types: igneous, sedimentary and metamorphic. The stories are: salt crystals remain as seawater dries up; lava spills from a volcano and hardens; limestone beside hot magma recrystallizes into marble; sand grains pile up in layers and get cemented; solid rock squeezed between colliding plates forms bands; magma cools for ages deep inside a mountain; and seashells pile up on the seafloor and harden.",
+      "items": [
+        {
+          "id": "lava",
+          "text": "Lava spills from a volcano and hardens",
+          "rationale": "Igneous: molten rock that cools and hardens makes igneous rock, here quickly at the surface."
+        },
+        {
+          "id": "deep",
+          "text": "Magma cools for ages deep inside a mountain",
+          "rationale": "Igneous: slow underground cooling of melted rock is how granite forms."
+        },
+        {
+          "id": "sand",
+          "text": "Sand grains pile up in layers and get cemented",
+          "rationale": "Sedimentary: deposited rock fragments that are compacted and cemented make rock like sandstone."
+        },
+        {
+          "id": "salt",
+          "text": "Salt crystals remain as seawater dries up",
+          "rationale": "Sedimentary: dissolved minerals crystallize out of the water and build up as halite (rock salt)."
+        },
+        {
+          "id": "shells",
+          "text": "Seashells pile up on the seafloor and harden",
+          "rationale": "Sedimentary: the remains of living things that settle in layers form rock such as limestone."
+        },
+        {
+          "id": "marble",
+          "text": "Limestone beside hot magma recrystallizes into marble",
+          "rationale": "Metamorphic: heat changes an existing solid rock's crystals without melting it. The magma nearby is a heat source, not the rock that forms."
+        },
+        {
+          "id": "bands",
+          "text": "Solid rock squeezed between colliding plates forms bands",
+          "rationale": "Metamorphic: pressure and heat reshape solid rock, lining up its crystals in bands."
+        }
+      ],
+      "bins": [
+        {
+          "id": "ign",
+          "label": "Igneous"
+        },
+        {
+          "id": "sed",
+          "label": "Sedimentary"
+        },
+        {
+          "id": "met",
+          "label": "Metamorphic"
+        }
+      ],
+      "answer": {
+        "lava": "ign",
+        "deep": "ign",
+        "sand": "sed",
+        "salt": "sed",
+        "shells": "sed",
+        "marble": "met",
+        "bands": "met"
+      },
+      "explanation": "The rock type depends on how the rock formed. Melted rock that cools becomes igneous. Pieces of older rock or the remains of living things that settle and harden, and minerals that crystallize out of water, become sedimentary. Solid rock that heat and pressure change becomes metamorphic.",
+      "misconception": "Rock type depends on where a rock is found or how it looks, not on how it formed.",
+      "hint": "Ask of each story: did it start as melted rock, as settling bits, or as solid rock that got changed?",
+      "followUpId": "L17-Q15",
+      "scope": {
+        "lessonId": "L17",
+        "section": "1. Observing Rocks",
+        "pages": {
+          "printed": [
+            220
+          ],
+          "pdf": [
+            256
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            220
+          ],
+          "pdfPages": [
+            256
+          ],
+          "locator": "Section 1. Observing Rocks, Composition and Texture; Three Kinds of Rock",
+          "supports": "Composition is what a rock is made of; texture is the size, shape and arrangement of its grains; igneous rock forms from cooling magma, sedimentary rock from deposited fragments, dissolved materials or remains of organisms, and metamorphic rock from existing rock changed by heat and pressure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            225
+          ],
+          "pdfPages": [
+            261
+          ],
+          "locator": "Section 4. Sedimentary Processes, Chemical Sedimentation and Figure 4B",
+          "supports": "Chemical weathering dissolves rock minerals into material too small to see that water carries away; organisms build shells that settle into limestone; minerals crystallize out as water evaporates, forming halite (rock salt)."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226,
+            227
+          ],
+          "pdfPages": [
+            262,
+            263
+          ],
+          "locator": "Section 5. Metamorphic Processes, Figures 5A and 5B",
+          "supports": "Solid rock deformed by tectonic forces forms metamorphic rock with lined-up crystals (schist) or parallel bands (gneiss); limestone heated by nearby magma recrystallizes into marble."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 220, 225-227 (rendered). Shell story sorted only as sedimentary, avoiding the chemical-versus-biologic split (L17-RF4). Reviser round 1 (2026-10-14): read-aloud story list interleaved so it no longer groups the stories by bin (the pedagogy reviewer's order, with the fifth and sixth stories swapped so the bins do not repeat in a fixed cycle). Explanation no longer says dissolved minerals 'settle', matching the revised sedimentary-rock glossary entry. Reviser round 2 (2026-10-14): no learner-facing change; pp. 226-227 evidence wording now separates schist (lined-up crystals) from gneiss (bands), matching Figure 5A. Final verification (verify-agent, 2026-10-14): checked against the pp. 220 and 225-227 renders; each story has exactly one defensible bin, and the read-aloud list is interleaved. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation aligned with the lesson-level sedimentary-rock wording (dissolved minerals crystallize, they do not settle)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud story list interleaved instead of grouped by bin"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q04",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O1"
+      ],
+      "conceptTags": [
+        "sedimentary-rock",
+        "compaction-vs-metamorphism"
+      ],
+      "familyId": "L17-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sand from a crumbling desert rock tower gets buried and squeezed under more sand. Over time, minerals carried by groundwater crystallize between the grains and cement them together, with no strong heating. What kind of rock forms?",
+      "accessiblePrompt": "Sand from a crumbling desert rock tower gets buried and squeezed under more sand. Over time, minerals carried by groundwater crystallize between the grains and cement them together, and the sand is never strongly heated. What kind of rock forms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sedimentary rock, since it is glued-together grains",
+          "rationale": "Correct. Compacted, cemented sand grains make sandstone, a sedimentary rock."
+        },
+        {
+          "id": "b",
+          "text": "Metamorphic rock, since burial squeezes it",
+          "rationale": "Burial pressure does pack the grains, but that compaction is part of making sedimentary rock. Metamorphism needs much more heat and pressure, enough to rebuild the crystals."
+        },
+        {
+          "id": "e",
+          "text": "Igneous rock, since new crystals grew between the grains",
+          "rationale": "The cement crystals did grow, but from minerals dissolved in groundwater, not from melted rock. Igneous rock forms only when melted rock cools."
+        },
+        {
+          "id": "f",
+          "text": "Not rock yet, since grains need heat to harden into rock",
+          "rationale": "Minerals carried by groundwater can glue grains into solid rock without any heating. That is how sandstone forms."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Weathered grains that are carried, dropped, buried and cemented form sedimentary rock. The weight of overlying sand presses the grains together, and minerals left by groundwater crystallize between them and glue them. Those cement crystals grow from water, not from melted rock, and shallow burial is far from the intense heat and pressure of metamorphism.",
+      "misconception": "Squeezing or new crystal growth during burial turns sediment into metamorphic or igneous rock.",
+      "hint": "Squeezing and new crystals both show up in this story. Which one actually joined the grains, and what did those crystals grow from?",
+      "followUpId": "L17-Q11",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            224
+          ],
+          "pdf": [
+            260
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            224
+          ],
+          "pdfPages": [
+            260
+          ],
+          "locator": "Section 4. Sedimentary Processes, Physical Sedimentation and Figure 4A",
+          "supports": "Physical weathering breaks rock into sediment; wind or water carries it and deposits it when it lacks the energy to keep it moving; breccia (large angular pebbles) and sandstone (small grains, compacted and cemented in layers) form this way."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock (Rock Castle)",
+          "supports": "The Rock Castle is slowly breaking down into sand, and that sand will at some point be recycled into another rock formation."
+        },
+        {
+          "type": "external",
+          "title": "Sedimentary Rocks",
+          "publisher": "U.S. National Park Service (Geology)",
+          "url": "https://www.nps.gov/subjects/geology/sedimentary.htm",
+          "accessed": "2026-10-14",
+          "supports": "If sediment is buried deeply it becomes compacted and cemented, forming sedimentary rock; cementation deposits minerals in the spaces between grains."
+        }
+      ],
+      "conditions": "Shallow burial with no strong heating; the grains are never melted.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 224 and 228 (rendered). Conditions rule out metamorphism. Reviser round 2 (2026-10-14): key a now shares the 'X, since Y' frame of the other choices (rationale unchanged). Distractors c (desert heat melts it) and d (loose grains stay loose), which the stem itself ruled out, were replaced by new choices e (new crystals mean igneous) and f (rock needs heat). The reviser added 'and squeezed' and 'crystallize between the grains' to the stem so that the new hint ('Squeezing and new crystals both show up in this story') and lures b and e rest on what the stem actually says; the conditions still rule out melting and metamorphism. Explanation now says the cement crystals grow from water. Misconception widened as the reviewer suggested. Final verification (verify-agent, 2026-10-14): checked against the p. 224 render and p. 228; the stated conditions rule out metamorphism and melting, so sedimentary is the single best answer. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shares the 'X, since Y' frame; stem-contradicted distractors c and d replaced by e (new crystals mean igneous) and f (rock needs heat); hint no longer names the process"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q05",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O1"
+      ],
+      "conceptTags": [
+        "texture-vs-composition"
+      ],
+      "familyId": "L17-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A geologist jots down four notes about a rock. Which note describes the rock's texture rather than its composition?",
+      "accessiblePrompt": "A geologist writes four notes about a rock. Which note describes the rock's texture, meaning how it looks and feels, rather than its composition, meaning what it is made of?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its grains are large and feel rough.",
+          "rationale": "Correct. Grain size and feel describe texture, the way a rock looks and feels."
+        },
+        {
+          "id": "b",
+          "text": "It contains a lot of the mineral quartz.",
+          "rationale": "This names an ingredient, so it is about composition, not texture."
+        },
+        {
+          "id": "c",
+          "text": "Lab tests show it is rich in iron.",
+          "rationale": "Which elements a rock contains is part of its composition."
+        },
+        {
+          "id": "e",
+          "text": "Its grains are mostly the mineral feldspar.",
+          "rationale": "It mentions grains, but it names what they are made of, so it describes composition."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Composition is what a rock is made of: its minerals and elements. Texture is how it looks and feels: the size, shape and arrangement of its grains. Large, rough grains are a texture clue, and in igneous rock they hint at slow cooling.",
+      "misconception": "Texture and composition mean the same thing.",
+      "hint": "Ask of each note: is it about what the rock is made of, or about the size, shape and fit of its pieces?",
+      "followUpId": "L17-Q07",
+      "scope": {
+        "lessonId": "L17",
+        "section": "1. Observing Rocks",
+        "pages": {
+          "printed": [
+            220
+          ],
+          "pdf": [
+            256
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            220
+          ],
+          "pdfPages": [
+            256
+          ],
+          "locator": "Section 1. Observing Rocks, Composition and Texture; Three Kinds of Rock",
+          "supports": "Composition is what a rock is made of; texture is the size, shape and arrangement of its grains; igneous rock forms from cooling magma, sedimentary rock from deposited fragments, dissolved materials or remains of organisms, and metamorphic rock from existing rock changed by heat and pressure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 220 (rendered). Reviser round 1 (2026-10-14): choice d (mostly calcite), which paralleled choice b, was replaced by a new choice e that mentions grains but describes composition. The hint no longer points straight at the only choice about grains. Final verification (verify-agent, 2026-10-14): checked against the p. 220 render (composition versus texture). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: near-parallel distractor d replaced (its optional note, applied through the pedagogy fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced by grains-but-composition lure e; hint no longer cues the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q06",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O1",
+        "L17-O2"
+      ],
+      "conceptTags": [
+        "texture-clues",
+        "rock-history"
+      ],
+      "familyId": "L17-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each texture clue to the history it most likely points to.",
+      "accessiblePrompt": "Match each of four texture clues to the history it most likely points to. Clues: large crystals you can see without a lens; crystals too small to see without a lens; small sand grains in flat layers; flattened crystals lined up in wavy bands. Histories: grains were carried and dropped by wind or water; solid rock was squeezed and heated deep underground; melted rock cooled quickly at the surface; melted rock cooled slowly underground.",
+      "left": [
+        {
+          "id": "big",
+          "text": "Large crystals you can see without a lens",
+          "rationale": "Slow cooling underground gives crystals a long time to grow, as in granite."
+        },
+        {
+          "id": "tiny",
+          "text": "Crystals too small to see without a lens",
+          "rationale": "Quick cooling at the surface stops crystals while they are still small, as in basalt."
+        },
+        {
+          "id": "layers",
+          "text": "Small sand grains in flat layers",
+          "rationale": "Wind or water dropped the grains, layer on layer, as in sandstone."
+        },
+        {
+          "id": "bands",
+          "text": "Flattened crystals lined up in wavy bands",
+          "rationale": "Squeezing and heat deformed solid rock, stretching and aligning its crystals, as in gneiss."
+        }
+      ],
+      "right": [
+        {
+          "id": "slow",
+          "text": "Melted rock cooled slowly underground"
+        },
+        {
+          "id": "fast",
+          "text": "Melted rock cooled quickly at the surface"
+        },
+        {
+          "id": "dropped",
+          "text": "Grains were carried and dropped by wind or water"
+        },
+        {
+          "id": "squeezed",
+          "text": "Solid rock was squeezed and heated deep underground"
+        }
+      ],
+      "answer": {
+        "big": "slow",
+        "tiny": "fast",
+        "layers": "dropped",
+        "bands": "squeezed"
+      },
+      "explanation": "Texture is a record of how a rock formed. Crystal size tells how fast melted rock cooled, layered grains tell of settling sediment, and lined-up crystals in bands tell of solid rock being squeezed. Reading texture is one of the first things geologists do with a new rock.",
+      "misconception": "A rock's texture is random and says nothing about how it formed.",
+      "hint": "Ask what process could make each pattern: growing crystals, settling grains, or squeezing.",
+      "followUpId": "L17-Q09",
+      "scope": {
+        "lessonId": "L17",
+        "section": "1. Observing Rocks; 3. Igneous Processes; 4. Sedimentary Processes; 5. Metamorphic Processes",
+        "pages": {
+          "printed": [
+            220,
+            222,
+            223,
+            224,
+            226
+          ],
+          "pdf": [
+            256,
+            258,
+            259,
+            260,
+            262
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            220
+          ],
+          "pdfPages": [
+            256
+          ],
+          "locator": "Section 1. Observing Rocks, Composition and Texture",
+          "supports": "Texture is the way a rock looks and feels, set by the size, shape and arrangement of its grains; fine-grained rocks have small particles and coarse-grained rocks large ones."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            222
+          ],
+          "pdfPages": [
+            258
+          ],
+          "locator": "Section 3. Igneous Processes, Intrusion and Figure 3A",
+          "supports": "Igneous texture depends on how fast magma cools: slow cooling underground lets crystals grow large, as in granite and gabbro; intrusive rock such as Enchanted Rock can later be uplifted and exposed by erosion."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            223
+          ],
+          "pdfPages": [
+            259
+          ],
+          "locator": "Section 3. Igneous Processes, Extrusion and Figure 3B",
+          "supports": "Extrusive rock cools quickly at the surface: basalt from lava has small crystals, and pumice, from material blasted out in an explosive eruption, is glassy and full of pores left by escaping gas (the page's claim that pumice has no crystals at all is flagged in L17-RF11)."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            224
+          ],
+          "pdfPages": [
+            260
+          ],
+          "locator": "Section 4. Sedimentary Processes, Physical Sedimentation and Figure 4A",
+          "supports": "Physical weathering breaks rock into sediment; wind or water carries it and deposits it when it lacks the energy to keep it moving; breccia (large angular pebbles) and sandstone (small grains, compacted and cemented in layers) form this way."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226
+          ],
+          "pdfPages": [
+            262
+          ],
+          "locator": "Section 5. Metamorphic Processes, Deformation and Figure 5A",
+          "supports": "Tectonic forces and heat deform solid rock; crystals become longer and thinner and line up parallel to each other, in bands; schist forms at moderately high and gneiss at very high temperatures. Figure 5A: schist crystals line up parallel; gneiss crystals separate into parallel bands."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 220, 222-224, 226 (rendered). One-to-one pairs. Reviser round 1 (2026-10-14): scope section now names every section its pages span; p. 220 textbook evidence added for the texture definition; read-aloud histories reordered so no history sits in the same position as its clue. p. 223 evidence wording updated (L17-RF11). Reviser round 2 (2026-10-14): the 'bands' rationale now names only gneiss, since Figure 5A (p. 226, rendered) says schist's crystals line up parallel and gneiss's crystals separate into parallel bands (science reviewer's optional fix). p. 226 evidence now quotes that Figure 5A split. Final verification (verify-agent, 2026-10-14): checked against the pp. 220, 222-224 and 226 renders; the match is one-to-one, and no read-aloud history sits in its clue's position. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope section names Sections 1, 3, 4 and 5; p. 220 evidence added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud histories no longer in matching positions"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, 'bands' rationale names only gneiss (Figure 5A)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q07",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O2"
+      ],
+      "conceptTags": [
+        "cooling-rate",
+        "crystal-size"
+      ],
+      "familyId": "L17-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two igneous rocks contain the same minerals in about the same amounts. One has crystals as big as peas; the other's crystals are too small to see. What best explains the difference?",
+      "accessiblePrompt": "Two igneous rocks contain the same minerals in about the same amounts. One has crystals as big as peas, and the other has crystals too small to see. What best explains the difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their molten rock cooled at different speeds",
+          "rationale": "Correct. Same ingredients, different cooling time: slow cooling grows big crystals and fast cooling leaves tiny ones."
+        },
+        {
+          "id": "b",
+          "text": "The pea-crystal rock has heavier elements",
+          "rationale": "Both rocks have the same minerals, so their composition matches. Here crystal size comes from cooling time, not from which elements are present."
+        },
+        {
+          "id": "c",
+          "text": "The tiny crystals are still growing in the rock",
+          "rationale": "Once the rock is solid, its crystals stop growing. Small crystals mean growth was cut short by fast cooling."
+        },
+        {
+          "id": "d",
+          "text": "Pressure crushed the big crystals into small ones",
+          "rationale": "Crushing would leave broken fragments, not neat tiny crystals, and nothing suggests one rock was crushed."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When magma cools, crystals start small and grow for as long as the rock stays molten. Slow cooling, such as deep underground, gives crystals time to grow large. Quick cooling, such as in lava at the surface, freezes them while they are still tiny.",
+      "misconception": "Crystal size in igneous rock is set by which elements the rock contains.",
+      "hint": "The ingredients are the same. What else could differ between the two batches of molten rock?",
+      "followUpId": "L17-Q10",
+      "scope": {
+        "lessonId": "L17",
+        "section": "3. Igneous Processes",
+        "pages": {
+          "printed": [
+            222,
+            223
+          ],
+          "pdf": [
+            258,
+            259
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            222
+          ],
+          "pdfPages": [
+            258
+          ],
+          "locator": "Section 3. Igneous Processes, Intrusion and Figure 3A",
+          "supports": "Igneous texture depends on how fast magma cools: slow cooling underground lets crystals grow large, as in granite and gabbro; intrusive rock such as Enchanted Rock can later be uplifted and exposed by erosion."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            223
+          ],
+          "pdfPages": [
+            259
+          ],
+          "locator": "Section 3. Igneous Processes, Extrusion and Figure 3B",
+          "supports": "Extrusive rock cools quickly at the surface: basalt from lava has small crystals, and pumice, from material blasted out in an explosive eruption, is glassy and full of pores left by escaping gas (the page's claim that pumice has no crystals at all is flagged in L17-RF11)."
+        },
+        {
+          "type": "external",
+          "title": "What are igneous rocks?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-are-igneous-rocks",
+          "accessed": "2026-10-14",
+          "supports": "Slow cooling gives mineral grains a long time to grow to a relatively large size; quick cooling means crystals do not have much time to grow."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 222-223 (rendered). Reviser round 1 (2026-10-14): no content change; p. 223 evidence wording updated (L17-RF11). The prompt holds composition constant, so the cooling-speed key is unaffected by the composition caveat in L17-RF12. Final verification (verify-agent, 2026-10-14): checked against the pp. 222-223 renders; composition is held constant, so the cooling-speed key is the single best answer (L17-RF12). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q08",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O2"
+      ],
+      "conceptTags": [
+        "cooling-rate",
+        "intrusive-extrusive"
+      ],
+      "familyId": "L17-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these igneous rocks in order, from the one whose molten rock cooled most slowly to the one that cooled fastest.",
+      "accessiblePrompt": "Put three igneous rocks in order, from the one whose molten rock cooled most slowly to the one that cooled fastest. The rocks are: basalt, with crystals too small to see; pumice, which is frothy volcanic glass; and granite, with big interlocking crystals.",
+      "items": [
+        {
+          "id": "basalt",
+          "text": "Basalt: crystals too small to see",
+          "rationale": "Middle: it formed from lava that cooled at the surface, fast enough to keep its crystals small."
+        },
+        {
+          "id": "pumice",
+          "text": "Pumice: frothy volcanic glass",
+          "rationale": "Fastest: it was blasted out in an explosive eruption and cooled almost instantly, too fast for new crystals to grow, so it froze as glass."
+        },
+        {
+          "id": "granite",
+          "text": "Granite: big, interlocking crystals",
+          "rationale": "Slowest: it cooled deep underground over a very long time, so its crystals grew large."
+        }
+      ],
+      "answer": [
+        "granite",
+        "basalt",
+        "pumice"
+      ],
+      "ends": [
+        "Cooled most slowly",
+        "Cooled fastest"
+      ],
+      "explanation": "Crystal size tracks cooling time. Granite cooled slowly deep underground and grew big crystals. Basalt formed from lava that cooled in the open, fast enough to keep its crystals tiny. Pumice was blasted out and cooled so fast that it froze as glass instead of growing crystals.",
+      "misconception": "All igneous rocks cool at about the same rate, so crystal size is just chance.",
+      "hint": "Bigger crystals need more time to grow.",
+      "followUpId": "L17-Q10",
+      "scope": {
+        "lessonId": "L17",
+        "section": "3. Igneous Processes",
+        "pages": {
+          "printed": [
+            222,
+            223
+          ],
+          "pdf": [
+            258,
+            259
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            222
+          ],
+          "pdfPages": [
+            258
+          ],
+          "locator": "Section 3. Igneous Processes, Intrusion and Figure 3A",
+          "supports": "Igneous texture depends on how fast magma cools: slow cooling underground lets crystals grow large, as in granite and gabbro; intrusive rock such as Enchanted Rock can later be uplifted and exposed by erosion."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            223
+          ],
+          "pdfPages": [
+            259
+          ],
+          "locator": "Section 3. Igneous Processes, Extrusion and Figure 3B",
+          "supports": "Extrusive rock cools quickly at the surface: basalt from lava has small crystals, and pumice, from material blasted out in an explosive eruption, is glassy and full of pores left by escaping gas (the page's claim that pumice has no crystals at all is flagged in L17-RF11)."
+        },
+        {
+          "type": "external",
+          "title": "Table 2. Modal abundances of phenocryst-rich and phenocryst-poor dacites (Mount Pinatubo)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/pinatubo/bernard/table2.html",
+          "accessed": "2026-10-17",
+          "supports": "Measured on polished pumice samples and reported on a vesicle-free (bubble-free) basis, the erupted dacite holds about 24 to 42 volume percent crystals (phenocrysts, mainly plagioclase and hornblende) set in a 58 to 76 percent glassy matrix, so pumice is mostly glass but can carry a large share of crystals that grew before the eruption."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 222-223 (rendered). One defensible order, directly supported by the textbook's three examples. Reviser round 1 (2026-10-14): pumice is now described as frothy volcanic glass, not as crystal-free (L17-RF11, USGS Pinatubo table); limitation added that the order compares how fast each final melt cooled. Order and key unchanged. Reviser round 2 (2026-10-14): no learner-facing change; the USGS Pinatubo record (re-opened 2026-10-17) now says the 24 to 42 percent crystal figure is on a vesicle-free basis, in a 58 to 76 percent glassy matrix (L17-RF11). Final verification (verify-agent, 2026-10-14): checked against the pp. 222-223 renders. USGS Pinatubo Table 2, re-opened by the verifier, gives 42 and 24 vol% phenocrysts in 58 and 76 vol% glassy matrix on a vesicle-free basis; the order is unique under the stated limitation. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: pumice described as frothy volcanic glass, not crystal-free; limitation and USGS Pinatubo source added (L17-RF11)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Compares how fast each rock's final melt cooled; crystals that grew in the magma before an eruption are not counted."
+    },
+    {
+      "id": "L17-Q09",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O2"
+      ],
+      "conceptTags": [
+        "intrusive-extrusive",
+        "uplift-and-erosion"
+      ],
+      "familyId": "L17-F05",
+      "category": "application",
+      "difficulty": 3,
+      "type": "classify",
+      "prompt": "Did each rock form from magma that hardened underground (intrusive) or from molten rock that cooled at the surface (extrusive)? Sort them.",
+      "accessiblePrompt": "Sort five rocks by where their molten rock cooled: underground, which is intrusive, or at the surface, which is extrusive. The rocks are: basalt from an ancient lava flow, now buried under younger rock layers; granite with large crystals found deep in a mine; glassy, bubble-filled pumice washed up on a beach; Enchanted Rock's granite dome, now exposed at the surface; and coarse-grained gabbro.",
+      "items": [
+        {
+          "id": "mine",
+          "text": "Granite with large crystals, found deep in a mine",
+          "rationale": "Intrusive: large crystals mean slow cooling underground."
+        },
+        {
+          "id": "dome",
+          "text": "Enchanted Rock's granite dome, now exposed at the surface",
+          "rationale": "Intrusive: its large crystals show it cooled slowly underground. Uplift and erosion exposed it later, so where it is now is not where it formed."
+        },
+        {
+          "id": "gabbro",
+          "text": "Coarse-grained gabbro",
+          "rationale": "Intrusive: coarse grains mean the magma cooled slowly below the surface."
+        },
+        {
+          "id": "basalt",
+          "text": "Basalt from an ancient lava flow, now buried under younger rock layers",
+          "rationale": "Extrusive: it formed from lava that cooled quickly at the surface, keeping its crystals tiny. Younger layers buried it later, so where it sits now is not where it cooled."
+        },
+        {
+          "id": "pumice",
+          "text": "Glassy, bubble-filled pumice washed up on a beach",
+          "rationale": "Extrusive: its glassy, bubbly texture shows it cooled almost instantly after an eruption, so its melt froze as glass. Where it washed up does not change where it cooled."
+        }
+      ],
+      "bins": [
+        {
+          "id": "intr",
+          "label": "Intrusive (cooled underground)"
+        },
+        {
+          "id": "extr",
+          "label": "Extrusive (cooled at the surface)"
+        }
+      ],
+      "answer": {
+        "mine": "intr",
+        "dome": "intr",
+        "gabbro": "intr",
+        "basalt": "extr",
+        "pumice": "extr"
+      },
+      "explanation": "Texture tells where cooling happened: large crystals mean slow cooling underground, and tiny crystals or glass mean fast cooling at the surface. Location can fool you in both directions. Enchanted Rock cooled underground and was later lifted up and uncovered by erosion, while an old lava flow can end up buried under younger rock.",
+      "misconception": "Where an igneous rock is found today shows where it cooled.",
+      "hint": "Ask where each rock's molten rock cooled, not where the rock sits today.",
+      "followUpId": "L17-Q24",
+      "scope": {
+        "lessonId": "L17",
+        "section": "3. Igneous Processes",
+        "pages": {
+          "printed": [
+            222,
+            223
+          ],
+          "pdf": [
+            258,
+            259
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            222
+          ],
+          "pdfPages": [
+            258
+          ],
+          "locator": "Section 3. Igneous Processes, Intrusion and Figure 3A",
+          "supports": "Igneous texture depends on how fast magma cools: slow cooling underground lets crystals grow large, as in granite and gabbro; intrusive rock such as Enchanted Rock can later be uplifted and exposed by erosion."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            223
+          ],
+          "pdfPages": [
+            259
+          ],
+          "locator": "Section 3. Igneous Processes, Extrusion and Figure 3B",
+          "supports": "Extrusive rock cools quickly at the surface: basalt from lava has small crystals, and pumice, from material blasted out in an explosive eruption, is glassy and full of pores left by escaping gas (the page's claim that pumice has no crystals at all is flagged in L17-RF11)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 222-223 (rendered). The Enchanted Rock item uses the textbook's own uplift-and-erosion account. Reviser round 1 (2026-10-14): pumice rationale and explanation say its melt froze as glass instead of 'no crystals' (L17-RF11). The basalt and pumice labels no longer state the answer, and the buried basalt makes the location trap run in both directions; the hint now asks about cooling rather than crystal size because two labels no longer name a crystal size. Read-aloud list interleaved. Difficulty raised from 2 to 3. p. 223 evidence wording updated. Final verification (verify-agent, 2026-10-14): checked against the pp. 222-223 renders (p. 222: Enchanted Rock intrusion uplifted and exposed by erosion); every rock has one defensible bin. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: pumice rationale and explanation say glass, not 'no crystals'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: basalt and pumice labels no longer state the answer; location trap runs both ways; read-aloud list interleaved; difficulty 3"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q10",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O2"
+      ],
+      "conceptTags": [
+        "pumice",
+        "explosive-eruption"
+      ],
+      "familyId": "L17-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Pumice is riddled with tiny holes, and the rock between the holes is mostly glass rather than crystals. Which history explains both features?",
+      "accessiblePrompt": "Pumice is a volcanic rock full of tiny holes, and the rock between the holes is mostly natural glass instead of crystals. Which history explains both of those features?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gas-rich magma blasted out and cooled almost instantly",
+          "rationale": "Correct. Fast cooling froze the gas bubbles in place as holes and left no time for new crystals to grow, so the melt became glass."
+        },
+        {
+          "id": "b",
+          "text": "Rainwater dissolved holes into it over thousands of years",
+          "rationale": "Dissolving by water is chemical weathering. It could carve holes, but it could not turn crystals into glass. The holes are gas bubbles frozen in place."
+        },
+        {
+          "id": "c",
+          "text": "It cooled slowly underground as gas leaked out",
+          "rationale": "Slow cooling underground grows large crystals, as in granite. Pumice is mostly glass."
+        },
+        {
+          "id": "d",
+          "text": "Tiny sea creatures bored holes into soft rock",
+          "rationale": "Pumice comes from volcanoes, and its holes are gas pockets, not burrows."
+        }
+      ],
+      "answer": "a",
+      "explanation": "In an explosive eruption, gas-charged magma is torn into fragments that cool in moments. The bubbles are frozen in place as holes, and there is no time for new crystals to grow, so the frothy rock is mostly natural glass. Any larger crystals you can spot in pumice had already grown in the magma before it erupted.",
+      "misconception": "The holes in pumice were worn or dissolved by water after the rock formed.",
+      "hint": "What happens to the bubbles in a frothy liquid that suddenly turns solid?",
+      "followUpId": "L17-Q08",
+      "scope": {
+        "lessonId": "L17",
+        "section": "3. Igneous Processes",
+        "pages": {
+          "printed": [
+            223
+          ],
+          "pdf": [
+            259
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            223
+          ],
+          "pdfPages": [
+            259
+          ],
+          "locator": "Section 3. Igneous Processes, Extrusion and Figure 3B",
+          "supports": "Extrusive rock cools quickly at the surface: basalt from lava has small crystals, and pumice, from material blasted out in an explosive eruption, is glassy and full of pores left by escaping gas (the page's claim that pumice has no crystals at all is flagged in L17-RF11)."
+        },
+        {
+          "type": "external",
+          "title": "Volcano Hazards Program Glossary",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/volcanoes/glossary",
+          "accessed": "2026-10-14",
+          "supports": "Pumice is highly vesicular volcanic ejecta, typically silicic in composition."
+        },
+        {
+          "type": "external",
+          "title": "Igneous Rocks",
+          "publisher": "U.S. National Park Service (Geology)",
+          "url": "https://www.nps.gov/subjects/geology/igneous.htm",
+          "accessed": "2026-10-14",
+          "supports": "Pumice is a highly vesicular, frothy pyroclastic rock formed during highly explosive eruptions."
+        },
+        {
+          "type": "external",
+          "title": "Table 2. Modal abundances of phenocryst-rich and phenocryst-poor dacites (Mount Pinatubo)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/pinatubo/bernard/table2.html",
+          "accessed": "2026-10-17",
+          "supports": "Measured on polished pumice samples and reported on a vesicle-free (bubble-free) basis, the erupted dacite holds about 24 to 42 volume percent crystals (phenocrysts, mainly plagioclase and hornblende) set in a 58 to 76 percent glassy matrix, so pumice is mostly glass but can carry a large share of crystals that grew before the eruption."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 223 (rendered). Avoids the textbook's 'silica, or glass' wording (L17-RF3). Reviser round 1 (2026-10-14): prompt no longer claims pumice has 'no crystals at all'; choice a and c rationales and the explanation now say mostly glass, with earlier crystals explained. Limitation and USGS Pinatubo evidence added (L17-RF11, which replaces RF3's earlier 'sources agree' claim). Key unchanged. Reviser round 2 (2026-10-14): prompt and read-aloud now say the rock between the holes is 'mostly' glass; the limitation no longer says 'a few' crystals, since the USGS Pinatubo table (re-opened 2026-10-17) reports 24 to 42 volume percent crystals on a vesicle-free basis; choice b's rationale now makes the right point (dissolving cannot turn crystals into glass). Key unchanged. Final verification (verify-agent, 2026-10-14): checked against the p. 223 render; the re-opened USGS Pinatubo table supports the limitation. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'no crystals at all' premise removed; mostly-glass wording, limitation and USGS Pinatubo source added (L17-RF11)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says 'mostly glass'; limitation no longer understates the crystal share; choice b rationale corrected"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Many pumices also carry crystals, sometimes a large share of the rock, that grew in the magma before the eruption; the question is about the glassy, bubbly part."
+    },
+    {
+      "id": "L17-Q11",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "physical-sedimentation",
+        "weathering-erosion-deposition"
+      ],
+      "familyId": "L17-F06",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Follow one route a granite cliff can take to become sandstone. Put the steps in order.",
+      "accessiblePrompt": "Follow one route a granite cliff can take to become sandstone, and put four steps in order. The steps are: buried layers are compacted and cemented into rock; wind, water and temperature swings break the granite into grains; the wind or water slows and drops the grains in layers; and wind or flowing water carries the grains away.",
+      "items": [
+        {
+          "id": "cement",
+          "text": "Buried layers are compacted and cemented into rock",
+          "rationale": "Last: once the grains are deposited and buried, pressure packs them and minerals glue them into sandstone."
+        },
+        {
+          "id": "weather",
+          "text": "Wind, water and temperature swings break the granite into grains",
+          "rationale": "First: physical weathering has to make sediment before anything can carry it."
+        },
+        {
+          "id": "drop",
+          "text": "The wind or water slows and drops the grains in layers",
+          "rationale": "Third: when the carrier loses the energy to move the grains, it deposits them."
+        },
+        {
+          "id": "carry",
+          "text": "Wind or flowing water carries the grains away",
+          "rationale": "Second: erosion moves the loose grains away from the cliff."
+        }
+      ],
+      "answer": [
+        "weather",
+        "carry",
+        "drop",
+        "cement"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Physical sedimentation runs in this order: weathering makes sediment, erosion moves it, deposition drops it when the carrier loses energy, and burial packs and glues it into rock. The rock cycle has other routes, but within this route each step needs the one before it.",
+      "misconception": "Sediment turns into rock right where the rock broke, without being moved or deposited.",
+      "hint": "Start at the cliff: what has to happen to solid granite before wind or water can move any of it?",
+      "followUpId": "L17-Q19",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            224
+          ],
+          "pdf": [
+            260
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            224
+          ],
+          "pdfPages": [
+            260
+          ],
+          "locator": "Section 4. Sedimentary Processes, Physical Sedimentation and Figure 4A",
+          "supports": "Physical weathering breaks rock into sediment; wind or water carries it and deposits it when it lacks the energy to keep it moving; breccia (large angular pebbles) and sandstone (small grains, compacted and cemented in layers) form this way."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            231
+          ],
+          "pdfPages": [
+            267
+          ],
+          "locator": "Lesson Summary, Sedimentary Processes",
+          "supports": "Physical sedimentation occurs when sediment is physically weathered, eroded and deposited to form rock."
+        }
+      ],
+      "limitations": "This is one route through a branching cycle; the order is fixed only within this route.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 224 and 231 (rendered). The prompt fixes one route, so one order is defensible. Reviser round 2 (2026-10-14): hint now points only to the first step instead of spelling out the whole order. Final verification (verify-agent, 2026-10-14): checked against the p. 224 render and the p. 231 summary; the prompt fixes one route, so only one order is defensible. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives the whole order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q12",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "breccia",
+        "sediment-transport"
+      ],
+      "familyId": "L17-F06",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "One rock is made of large, sharp-edged chunks cemented together (breccia). Another is fine sand in thin layers (sandstone). What does the sharp-edged rock suggest about its chunks?",
+      "accessiblePrompt": "One rock, called breccia, is made of large, sharp-edged chunks cemented together. Another rock, sandstone, is fine sand in thin layers. What do the sharp edges suggest about the chunks in the breccia?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They settled close to where they broke off",
+          "rationale": "Correct. Short travel leaves little time for corners to wear away, so the pieces stay angular."
+        },
+        {
+          "id": "b",
+          "text": "They tumbled a long way down a gentle river",
+          "rationale": "A long trip in water knocks corners off and rounds pebbles. Sharp edges point to the opposite: a short trip."
+        },
+        {
+          "id": "e",
+          "text": "They were broken apart by heat and pressure deep underground",
+          "rationale": "Deep underground, heat and pressure make solid rock bend into bands rather than shatter into sharp chunks. These chunks are pieces of sediment held together by cement."
+        },
+        {
+          "id": "f",
+          "text": "They are much younger than the sandstone's grains",
+          "rationale": "Sharp edges show how far the pieces traveled, not how old they are; nothing in these clues dates either rock."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Broken rock starts out jagged. The farther pieces tumble in wind or water, the more they bump and grind until their corners wear round. Breccia's sharp chunks suggest a short trip, such as rock that fell to the foot of a steep slope. Sandstone's small, layered grains suggest a longer, gentler ride.",
+      "misconception": "The farther rock pieces travel, the sharper they stay.",
+      "hint": "What happens to the corners of a rock that bounces along a riverbed for miles?",
+      "followUpId": "L17-Q06",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            224
+          ],
+          "pdf": [
+            260
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            224
+          ],
+          "pdfPages": [
+            260
+          ],
+          "locator": "Section 4. Sedimentary Processes, Physical Sedimentation and Figure 4A",
+          "supports": "Physical weathering breaks rock into sediment; wind or water carries it and deposits it when it lacks the energy to keep it moving; breccia (large angular pebbles) and sandstone (small grains, compacted and cemented in layers) form this way."
+        },
+        {
+          "type": "external",
+          "title": "Conglomerates and Breccias (GeoImages)",
+          "publisher": "University of Pittsburgh, Department of Geology and Environmental Science",
+          "url": "https://sites.pitt.edu/~cejones/GeoImages/5SedimentaryRocks/ClasticSedRocks/ConglomeratesBreccias.html",
+          "accessed": "2026-10-14",
+          "supports": "Breccias have angular clasts and conglomerates rounded clasts; water transport rapidly rounds large clasts, so breccias normally indicate minimal transport, often as rock-fall deposits along cliffs."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226
+          ],
+          "pdfPages": [
+            262
+          ],
+          "locator": "Section 5. Metamorphic Processes, Deformation and Figure 5A",
+          "supports": "Tectonic forces and heat deform solid rock; crystals become longer and thinner and line up parallel to each other, in bands; schist forms at moderately high and gneiss at very high temperatures. Figure 5A: schist crystals line up parallel; gneiss crystals separate into parallel bands."
+        }
+      ],
+      "limitations": "Shape is a clue, not proof: some hard rocks stay angular longer than soft ones. The question treats this breccia as a sedimentary rock; rarer breccias form where rock is crushed along faults.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 224 (rendered). Key consistent with the textbook's steep-slope setting and the external source (L17-RF5). Reviser round 1 (2026-10-14): choices c and d, which clashed with the 'cemented together' stem, were replaced by new choices e (heat and pressure deep underground) and f (age). The reviser added p. 226 evidence for choice e's rationale and a limitation naming fault breccias, so choice e's rationale stays accurate for a careful reader. Key unchanged. Reviser round 2 (2026-10-14): no learner-facing change; the shared p. 226 evidence now quotes the Figure 5A schist/gneiss split. Final verification (verify-agent, 2026-10-14): checked against the p. 224 render (breccia's large angular pebbles on steeper slopes); the key agrees with both the textbook setting and the University of Pittsburgh source. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors c and d replaced by lures e (deep heat and pressure) and f (age) that fit the stem"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q13",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "chemical-weathering",
+        "dissolution",
+        "conservation-of-matter"
+      ],
+      "familyId": "L17-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Rainwater slowly dissolves minerals from a limestone hillside, and the minerals vanish from sight. What happened to them?",
+      "accessiblePrompt": "Rainwater slowly dissolves minerals from a limestone hillside, and the minerals can no longer be seen. What happened to them?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their matter is still there, in the water",
+          "rationale": "Correct. The minerals broke apart into particles too small to see, and the water carries them away. Every atom is still there."
+        },
+        {
+          "id": "b",
+          "text": "They were destroyed and are gone for good",
+          "rationale": "Matter is not destroyed when it dissolves. It is still present, just mixed into the water."
+        },
+        {
+          "id": "c",
+          "text": "They changed into more water molecules",
+          "rationale": "The rock's atoms do not turn into water. They travel in the water as dissolved particles and can later build shells or new crystals."
+        },
+        {
+          "id": "d",
+          "text": "They floated up into the air as invisible gas",
+          "rationale": "Dissolved minerals stay in the water. That is why salt is left behind when seawater evaporates."
+        }
+      ],
+      "answer": "a",
+      "explanation": "In chemical weathering, water breaks rock minerals down into dissolved particles too tiny to see. The mineral's bonds break, but none of its atoms are destroyed. Rivers carry that dissolved material to lakes and seas, where it can later become shells or crystallize into new rock.",
+      "misconception": "When a mineral dissolves out of sight, its matter is gone.",
+      "hint": "Think about salt stirred into water: is it gone, or just hidden?",
+      "followUpId": "L17-Q03",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            225
+          ],
+          "pdf": [
+            261
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            225
+          ],
+          "pdfPages": [
+            261
+          ],
+          "locator": "Section 4. Sedimentary Processes, Chemical Sedimentation and Figure 4B",
+          "supports": "Chemical weathering dissolves rock minerals into material too small to see that water carries away; organisms build shells that settle into limestone; minerals crystallize out as water evaporates, forming halite (rock salt)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 225 (rendered). Uses 'dissolved' rather than the textbook's 'dissolved sediment' (L17-RF4). Reviser round 1 (2026-10-14): choice c rationale no longer says dissolved calcite stays its own substance; the explanation now says bonds break while atoms are conserved. Choice a now reads 'Their matter is still there, in the water' so it cannot be read as 'still on the hillside'. The science reviewer's wording ('...dissolved in the water', 51 characters) would have made the key the longest choice; 'dissolved' is already in the stem. Follow-up changed to L17-Q03 (salt left as seawater dries). Final verification (verify-agent, 2026-10-14): checked against the p. 225 render (dissolution into material too small to see). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reworded to 'their matter'; choice c rationale and explanation now say bonds break while atoms are conserved"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L17-Q03"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q14",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "evaporation",
+        "halite",
+        "chemical-sedimentation"
+      ],
+      "familyId": "L17-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A shallow desert lake, fed by streams carrying dissolved minerals, slowly dries up over many centuries. Which rock is most likely to build up on its floor?",
+      "accessiblePrompt": "A shallow desert lake, fed by streams carrying dissolved minerals, slowly dries up over many centuries. Which rock is most likely to build up on the lake floor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Halite, as evaporation leaves crystals behind",
+          "rationale": "Correct. Evaporation concentrates the dissolved salt until it crystallizes into layers of rock salt."
+        },
+        {
+          "id": "b",
+          "text": "Basalt, as the hot sun melts the lakebed",
+          "rationale": "Sunlight warms the ground but cannot melt rock. Basalt forms from lava."
+        },
+        {
+          "id": "c",
+          "text": "Marble, as the drying lake squeezes the mud",
+          "rationale": "A drying lake does not supply the deep heat and pressure that metamorphism needs, and marble comes from limestone."
+        },
+        {
+          "id": "d",
+          "text": "Breccia, as cracking mud breaks into big chunks",
+          "rationale": "Mud does crack as it dries, but breccia is made of large rock pieces cemented together, and the dissolved minerals still have to go somewhere."
+        }
+      ],
+      "answer": "a",
+      "explanation": "As water evaporates, the dissolved minerals stay behind and grow more and more concentrated until they crystallize. Halite (rock salt) forms this way. The sun drives the evaporation, but it never melts rock.",
+      "misconception": "When a lake dries up, its dissolved minerals leave along with the water.",
+      "hint": "The water leaves as vapor. What does it leave behind?",
+      "followUpId": "L17-Q22",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            225
+          ],
+          "pdf": [
+            261
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            225
+          ],
+          "pdfPages": [
+            261
+          ],
+          "locator": "Section 4. Sedimentary Processes, Chemical Sedimentation and Figure 4B",
+          "supports": "Chemical weathering dissolves rock minerals into material too small to see that water carries away; organisms build shells that settle into limestone; minerals crystallize out as water evaporates, forming halite (rock salt)."
+        },
+        {
+          "type": "external",
+          "title": "Halite (Common Minerals)",
+          "publisher": "University of Minnesota, Department of Earth and Environmental Sciences",
+          "url": "https://commonminerals.esci.umn.edu/minerals-g-m/halite",
+          "accessed": "2026-10-14",
+          "supports": "Halite (NaCl, sodium chloride) forms from the evaporation of seawater or brine lakes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 225 (rendered). Keys halite, not limestone, for evaporation (L17-RF4). Reviser round 1 (2026-10-14): 'salty' removed from the stem and 'salt' from the key, so the key no longer echoes the stem; the key reads 'as the water leaves minerals behind' (the pedagogy reviewer's 'crystallized from minerals the water left behind' would have made it the longest choice). Misconception now targets dissolved minerals leaving with the water. Key still halite (L17-RF4). Reviser round 2 (2026-10-14): key a no longer repeats 'minerals' from the stem. The reviewer's 'Halite, crystallizing as the water evaporates' would have broken the 'X, as ...' frame that every other choice uses (the frame cue this same review flags in Q04, Q23 and Q30), so the key reads 'Halite, as evaporation leaves crystals behind' (45 characters; choice d at 47 stays the longest). Rationale and answer unchanged. Final verification (verify-agent, 2026-10-14): checked against the p. 225 render (Figure 4B halite callout); halite is the only plausible choice. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'salty'/'salt' clang cue removed; misconception retargeted to dissolved minerals"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key no longer echoes 'minerals' from the stem (kept the shared 'X, as ...' frame)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q15",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "metamorphism-no-melting"
+      ],
+      "familyId": "L17-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Does a rock have to melt to become metamorphic rock?",
+      "accessiblePrompt": "Does a rock have to melt in order to become metamorphic rock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; heat and pressure change it while it stays solid",
+          "rationale": "Correct. Atoms rearrange inside the solid rock, forming new or reshaped crystals."
+        },
+        {
+          "id": "b",
+          "text": "Yes; it melts completely and then cools into new crystals",
+          "rationale": "Melting and then cooling is the igneous route. Metamorphism happens while the rock stays solid."
+        },
+        {
+          "id": "e",
+          "text": "Yes; strong squeezing alone turns the rock liquid",
+          "rationale": "Pressure squeezes and reshapes solid rock; it does not make it liquid. Metamorphic change happens while the rock stays solid."
+        },
+        {
+          "id": "d",
+          "text": "No; it breaks into sediment and is cemented back together",
+          "rationale": "That is the sedimentary route. Metamorphism changes rock in place without breaking it into sediment."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Metamorphic rock is changed while it is solid. Heat and pressure let atoms shift and regroup into new or reshaped crystals, with no melting needed. If the rock did melt, it would become magma, and cooling would make igneous rock instead.",
+      "misconception": "Metamorphism means melting rock and letting it harden again.",
+      "hint": "If a rock melted and then cooled, which rock type would that make?",
+      "followUpId": "L17-Q17",
+      "scope": {
+        "lessonId": "L17",
+        "section": "5. Metamorphic Processes",
+        "pages": {
+          "printed": [
+            226,
+            227
+          ],
+          "pdf": [
+            262,
+            263
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226
+          ],
+          "pdfPages": [
+            262
+          ],
+          "locator": "Section 5. Metamorphic Processes, Deformation and Figure 5A",
+          "supports": "Tectonic forces and heat deform solid rock; crystals become longer and thinner and line up parallel to each other, in bands; schist forms at moderately high and gneiss at very high temperatures. Figure 5A: schist crystals line up parallel; gneiss crystals separate into parallel bands."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            227
+          ],
+          "pdfPages": [
+            263
+          ],
+          "locator": "Section 5. Metamorphic Processes, Recrystallization and Figure 5B",
+          "supports": "Heat conducted from intruding magma recrystallizes nearby rock: quartz sandstone becomes quartzite and limestone becomes marble; rock closest to the magma changes most."
+        },
+        {
+          "type": "external",
+          "title": "What are metamorphic rocks?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-are-metamorphic-rocks",
+          "accessed": "2026-10-14",
+          "supports": "Metamorphism does not melt the rocks but transforms them into denser, more compact rocks; rocks hot enough to melt would become igneous rocks."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 226-227 (rendered). Brief guardrail: metamorphism does not require melting (L17-RF7). Reviser round 1 (2026-10-14): prompt now asks whether melting is required (the brief's guardrail). The half-defensible 'Yes, partly' choice c was replaced by new choice e (squeezing alone makes rock liquid), so the item has two Yes and two No options. The science reviewer's alternative distractor ('No; only pressure changes it, and heat plays no part') was not used: it would have made three No options that differ only in their reason, the same compound pattern it criticized, and the heat-alone idea is already tested in L17-Q16 and L17-Q17. 'Never becomes liquid' removed; partial-melting limitation added. Key a shortened so it is not the longest choice; key unchanged in meaning. Reviser round 2 (2026-10-14): no learner-facing change; the shared p. 226 evidence now quotes the Figure 5A schist/gneiss split. Final verification (verify-agent, 2026-10-14): checked against the pp. 226-227 renders; meets the brief's guardrail that metamorphism does not require melting. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: compound 'Yes, partly' distractor replaced; 'never liquid' absolute removed; partial-melting limitation added (alternative heat-only distractor not used, see notes)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks whether melting is required; distractor c replaced by squeezing-melts lure e"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "At the very highest temperatures some rock starts to melt; any part that melts becomes magma and follows the igneous route. This question asks whether melting is required."
+    },
+    {
+      "id": "L17-Q16",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "contact-metamorphism",
+        "distance-from-magma"
+      ],
+      "familyId": "L17-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Long ago, magma pushed into a thick layer of limestone and cooled. A geologist samples the limestone at different distances from the old magma. Which findings would you expect? Select all that apply.",
+      "accessiblePrompt": "Long ago, magma pushed into a thick layer of limestone and then cooled. A geologist collects limestone samples at different distances from where the magma was. Which findings would you expect? There are four findings to consider. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rock right next to the old magma changed the most.",
+          "rationale": "Correct. Rock touching the magma received the most heat, so its crystals were rebuilt the most."
+        },
+        {
+          "id": "b",
+          "text": "Some limestone close to the old magma became marble.",
+          "rationale": "Correct. Heat makes limestone's calcite regrow into larger crystals, turning it into marble."
+        },
+        {
+          "id": "c",
+          "text": "Changes grow stronger the farther you go from the magma.",
+          "rationale": "It is the reverse. Heat spreads out from the magma, so rock farther away was heated less and changed less."
+        },
+        {
+          "id": "d",
+          "text": "The marble formed when the limestone melted and cooled.",
+          "rationale": "The limestone stayed solid. Melting and cooling would make igneous rock, not marble."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Heat flows from hot magma into the cooler rock around it, so the rock touching the magma heats the most and recrystallizes the most. Limestone's calcite regrows into larger crystals, making marble, while the rock stays solid. Farther away, the rock was heated less and changed less.",
+      "misconception": "Rock next to magma melts to become metamorphic rock, and the heating is the same everywhere around it.",
+      "hint": "Where would the limestone have gotten the hottest?",
+      "followUpId": "L17-Q17",
+      "scope": {
+        "lessonId": "L17",
+        "section": "5. Metamorphic Processes",
+        "pages": {
+          "printed": [
+            227
+          ],
+          "pdf": [
+            263
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            227
+          ],
+          "pdfPages": [
+            263
+          ],
+          "locator": "Section 5. Metamorphic Processes, Recrystallization and Figure 5B",
+          "supports": "Heat conducted from intruding magma recrystallizes nearby rock: quartz sandstone becomes quartzite and limestone becomes marble; rock closest to the magma changes most."
+        },
+        {
+          "type": "external",
+          "title": "Metamorphic Rocks",
+          "publisher": "U.S. National Park Service (Geology)",
+          "url": "https://www.nps.gov/subjects/geology/metamorphic.htm",
+          "accessed": "2026-10-14",
+          "supports": "Contact metamorphism is local, thermal metamorphism caused by the intrusion of magma."
+        },
+        {
+          "type": "external",
+          "title": "What are metamorphic rocks?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-are-metamorphic-rocks",
+          "accessed": "2026-10-14",
+          "supports": "Metamorphism does not melt the rocks; rocks hot enough to melt would become igneous rocks."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 227 (rendered). Tests distance pattern and no-melting rule only (L17-RF6). Reviser round 2 (2026-10-14): choice b no longer uses the undefined term 'contact' (rationale unchanged). Follow-up changed from L17-Q21 to L17-Q17 (family F09), which teaches heat beside magma turning limestone into marble. Final verification (verify-agent, 2026-10-14): checked against the p. 227 render (rock closest to the magma changes most; limestone to marble). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'contact' replaced with plain wording; follow-up now L17-Q17"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q17",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "metamorphic-products",
+        "parent-rock"
+      ],
+      "familyId": "L17-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each starting rock and change to the metamorphic rock it produces.",
+      "accessiblePrompt": "Match each of four starting rocks and changes to the metamorphic rock it produces. Changes: limestone heated by nearby magma; quartz sandstone heated by nearby magma; rock squeezed by colliding plates at moderately high temperature; and rock squeezed by colliding plates at very high temperature, with its minerals sorted into bands. Metamorphic rocks: quartzite, gneiss, marble and schist.",
+      "left": [
+        {
+          "id": "lime",
+          "text": "Limestone heated by nearby magma",
+          "rationale": "Marble: limestone's calcite crystals regrow into larger calcite crystals."
+        },
+        {
+          "id": "qsand",
+          "text": "Quartz sandstone heated by nearby magma",
+          "rationale": "Quartzite: the quartz grains regrow into larger, tightly interlocking quartz crystals."
+        },
+        {
+          "id": "moderate",
+          "text": "Rock squeezed by colliding plates at moderately high temperature",
+          "rationale": "Schist: crystals become longer and thinner and line up parallel to each other."
+        },
+        {
+          "id": "veryhigh",
+          "text": "Rock squeezed by colliding plates at very high temperature, minerals sorted into bands",
+          "rationale": "Gneiss: at very high temperatures, light and dark minerals separate into distinct parallel bands."
+        }
+      ],
+      "right": [
+        {
+          "id": "marble",
+          "text": "Marble"
+        },
+        {
+          "id": "quartzite",
+          "text": "Quartzite"
+        },
+        {
+          "id": "schist",
+          "text": "Schist"
+        },
+        {
+          "id": "gneiss",
+          "text": "Gneiss"
+        }
+      ],
+      "answer": {
+        "lime": "marble",
+        "qsand": "quartzite",
+        "moderate": "schist",
+        "veryhigh": "gneiss"
+      },
+      "explanation": "Which metamorphic rock forms depends on the starting rock and the conditions. Heat beside magma regrows the crystals of limestone into marble and of quartz sandstone into quartzite. Squeezing by plates lines up crystals: moderate heat gives schist, and very high heat sorts the minerals into the distinct bands of gneiss.",
+      "misconception": "The starting rock and the conditions make no difference to which metamorphic rock forms.",
+      "hint": "Marble and quartzite keep the main mineral of the rock they came from.",
+      "followUpId": "L17-Q16",
+      "scope": {
+        "lessonId": "L17",
+        "section": "5. Metamorphic Processes",
+        "pages": {
+          "printed": [
+            226,
+            227
+          ],
+          "pdf": [
+            262,
+            263
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226
+          ],
+          "pdfPages": [
+            262
+          ],
+          "locator": "Section 5. Metamorphic Processes, Deformation and Figure 5A",
+          "supports": "Tectonic forces and heat deform solid rock; crystals become longer and thinner and line up parallel to each other, in bands; schist forms at moderately high and gneiss at very high temperatures. Figure 5A: schist crystals line up parallel; gneiss crystals separate into parallel bands."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            227
+          ],
+          "pdfPages": [
+            263
+          ],
+          "locator": "Section 5. Metamorphic Processes, Recrystallization and Figure 5B",
+          "supports": "Heat conducted from intruding magma recrystallizes nearby rock: quartz sandstone becomes quartzite and limestone becomes marble; rock closest to the magma changes most."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 226-227 (rendered; Figure 5A and 5B labels read from the render). Reviser round 1 (2026-10-14): read-aloud rock list reordered so no rock sits in the same position as its change (the reviewer's order 'gneiss, marble, schist, quartzite' still paired schist by position, so 'quartzite, gneiss, marble, schist' was used). Follow-up changed to L17-Q16. Optional simplification limitation added. Reviser round 2 (2026-10-14): no learner-facing change; the shared p. 226 evidence now quotes the Figure 5A schist/gneiss split that this match relies on. Final verification (verify-agent, 2026-10-14): checked against the pp. 226-227 renders (Figure 5A: schist at moderately high and gneiss at very high temperature, gneiss in parallel bands; Figure 5B: quartzite and marble pairs). One-to-one; no read-aloud rock sits in its change's position. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional simplification limitation added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud rock list reordered; follow-up now L17-Q16"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Simplified to the textbook's four examples; in nature the starting rock and pressure also affect which metamorphic rock forms."
+    },
+    {
+      "id": "L17-Q18",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "deformation",
+        "foliation"
+      ],
+      "familyId": "L17-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In schist, the crystals are long, thin and lined up parallel to one another. What lined them up?",
+      "accessiblePrompt": "In the metamorphic rock schist, the crystals are long and thin, and they all line up parallel to one another. What lined them up?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Squeezing from colliding plates while the rock is solid",
+          "rationale": "Correct. Pressure from the sides stretches and turns the crystals until they line up parallel to one another."
+        },
+        {
+          "id": "b",
+          "text": "Water currents laying the grains down flat as they settled",
+          "rationale": "Settling makes the flat layers of sedimentary rock. Schist's lined-up crystals were reshaped by squeezing."
+        },
+        {
+          "id": "c",
+          "text": "Gravity pulling heavy crystals down in liquid magma",
+          "rationale": "Schist never melted. Its crystals were reshaped while the rock stayed solid."
+        },
+        {
+          "id": "d",
+          "text": "Fast cooling of lava as it flowed downhill",
+          "rationale": "Fast-cooled lava makes tiny crystals in rock like basalt, not long crystals lined up in parallel."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When plates push on rock from the sides, the solid rock slowly deforms. Its crystals stretch, flatten and turn to line up across the squeeze, giving schist its flaky layering; at even higher heat, gneiss sorts its minerals into light and dark bands. These patterns come from pressure, unlike the layers of sedimentary rock, which come from settling.",
+      "misconception": "Lined-up crystals in metamorphic rock are the same as layers formed by settling sediment.",
+      "hint": "Picture pressing a lump of clay between your palms. Which way do things inside it get flattened?",
+      "followUpId": "L17-Q06",
+      "scope": {
+        "lessonId": "L17",
+        "section": "5. Metamorphic Processes",
+        "pages": {
+          "printed": [
+            226
+          ],
+          "pdf": [
+            262
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226
+          ],
+          "pdfPages": [
+            262
+          ],
+          "locator": "Section 5. Metamorphic Processes, Deformation and Figure 5A",
+          "supports": "Tectonic forces and heat deform solid rock; crystals become longer and thinner and line up parallel to each other, in bands; schist forms at moderately high and gneiss at very high temperatures. Figure 5A: schist crystals line up parallel; gneiss crystals separate into parallel bands."
+        },
+        {
+          "type": "external",
+          "title": "What are metamorphic rocks?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-are-metamorphic-rocks",
+          "accessed": "2026-10-14",
+          "supports": "Foliation forms when pressure squeezes the flat or elongate minerals within a rock so they become aligned, giving a banded or platy structure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 226 (rendered). Reviser round 2 (2026-10-14): schist is now described as having crystals lined up parallel, not in bands, matching Figure 5A (p. 226, rendered: schist crystals 'line up parallel to each other'; gneiss crystals 'separate into parallel bands'). The page's body text does say crystals line up 'parallel to each other, in bands', so the p. 226 evidence record now quotes both the text and the Figure 5A split. Rationales a, b and d, the explanation and the misconception were reworded to match; the explanation also drops 'flat' before sedimentary layers, matching the revised O3 watch-out (sandstone layers can be slanted). Follow-up changed from the level-3 L17-Q25 to the level-2 L17-Q06 (family F03), which sets the banding clue beside contrasting textures. Key and choice texts unchanged; concept tag 'foliation-bands' renamed 'foliation'. Final verification (verify-agent, 2026-10-14): checked against the p. 226 render (Figure 5A: schist crystals line up parallel). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: schist described as lined up parallel, not banded; bands kept for gneiss (Figure 5A)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, follow-up now L17-Q06"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q19",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O4"
+      ],
+      "conceptTags": [
+        "rock-cycle-pathways",
+        "branching-cycle",
+        "seed-question"
+      ],
+      "familyId": "L17-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Must every rock travel through the rock cycle in the same order, such as igneous, then sedimentary, then metamorphic, then back to igneous?",
+      "accessiblePrompt": "Must every rock travel through the rock cycle in the same order, for example from igneous rock, to sedimentary rock, to metamorphic rock, and then back to igneous rock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; different processes send rocks along different routes",
+          "rationale": "Correct. Any rock can weather, be changed by heat and pressure, or melt, so rocks follow many different routes."
+        },
+        {
+          "id": "b",
+          "text": "Yes; the cycle is one fixed loop that all rocks follow",
+          "rationale": "The model has many branches. A metamorphic rock, for example, can weather into sediment or melt into magma."
+        },
+        {
+          "id": "c",
+          "text": "Yes; but a rock may begin the loop at any of its three stops",
+          "rationale": "Where a rock starts is not the only freedom. Rocks can skip a type, repeat a type, or turn back, so there is no fixed order to follow."
+        },
+        {
+          "id": "d",
+          "text": "No; each rock can change type once, then never again",
+          "rationale": "Rocks can change again and again over millions of years. A quartz sandstone can later become quartzite, and that quartzite can later weather back into sediment."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The rock cycle is a web of possible changes, not a one-way track. Igneous rock can be squeezed straight into metamorphic rock, sedimentary rock can weather into new sediment, and any rock can melt. Which route a rock takes depends on the conditions it meets.",
+      "misconception": "The rock cycle is a single fixed loop that every rock must follow step by step.",
+      "hint": "Can sedimentary rock weather into new sediment without ever melting?",
+      "followUpId": "L17-Q15",
+      "scope": {
+        "lessonId": "L17",
+        "section": "6. Recycling the Three Types of Rock; Key Science Concept: Modeling the Rock Cycle",
+        "pages": {
+          "printed": [
+            228,
+            229
+          ],
+          "pdf": [
+            264,
+            265
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock and Figure 6 (The Rock Cycle Model)",
+          "supports": "The rock cycle is a continuous set of processes by which any type of rock can change into any other type, driven by the sun, gravity, tectonic forces and Earth's interior heat."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            229
+          ],
+          "pdfPages": [
+            265
+          ],
+          "locator": "Key Science Concept: Modeling the Rock Cycle (rendered spread)",
+          "supports": "The sun drives weathering and transport, gravity moves sediment to low areas, and Earth's interior forms magma and deforms and recrystallizes rock; any of the three rock types can weather into sediment, melt into magma, or become metamorphic rock."
+        },
+        {
+          "type": "external",
+          "title": "Rock Cycle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/rock-cycle/",
+          "accessed": "2026-10-14",
+          "supports": "Any rock type can become any other; sedimentary rocks can become metamorphic rocks such as marble and quartzite without passing through magma."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Master brief seed question for L17 (Rock-Cycle Rollercoaster), polished. Drafted from printed pp. 228-229 (rendered). Reviser round 1 (2026-10-14): choice d rationale no longer implies a human timescale ('tomorrow'); scope section names the Key Science Concept spread; follow-up changed from an ordering item to L17-Q15, whose explanation shows a route that skips magma. Reviser round 2 (2026-10-14): choice c punctuation made parallel with the other 'Yes;'/'No;' choices (pedagogy reviewer's optional fix). Left open for the verifier: the 'Yes' distractors restate the prompt's universal claim ('Must every rock...'), so absolute words (all, any, never) sit only in distractors; both reviewers passed the item, and the reviser did not reword the seed question's choices. Final verification (verify-agent, 2026-10-14): brief seed question; checked against the pp. 228-229 renders. The absolute words in distractors b and d were judged not to cue the key: the 'Yes' options restate the prompt's own universal claim, and eliminating every option with an absolute still leaves choices a and c. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d rationale gives a millions-of-years timescale; scope section names the Key Science Concept"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L17-Q15"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, choice c punctuation made parallel"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q20",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O4"
+      ],
+      "conceptTags": [
+        "rock-cycle-pathways",
+        "valid-transformations"
+      ],
+      "familyId": "L17-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Which changes are possible routes in the rock-cycle model? Select all that apply.",
+      "accessiblePrompt": "Here are five possible changes between rock materials. Choose every change that is a possible route in the rock-cycle model. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Metamorphic rock weathers into sediment, then into sedimentary rock",
+          "rationale": "Possible. Any rock exposed at the surface can weather into sediment, which can then form sedimentary rock."
+        },
+        {
+          "id": "b",
+          "text": "Solid sedimentary rock is heated and squeezed into metamorphic rock",
+          "rationale": "Possible. Quartz sandstone turning into quartzite is one example; the rock stays solid throughout."
+        },
+        {
+          "id": "c",
+          "text": "Igneous rock melts, then cools into new igneous rock",
+          "rationale": "Possible. A rock can even stay in the igneous family through melting and cooling again."
+        },
+        {
+          "id": "f",
+          "text": "Loose sediment is buried and cemented into igneous rock",
+          "rationale": "Burial and cementing make sedimentary rock; igneous rock forms only when melted rock cools."
+        },
+        {
+          "id": "g",
+          "text": "Magma is squeezed by colliding plates straight into metamorphic rock",
+          "rationale": "Metamorphism changes solid rock; magma must cool into igneous rock first."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Every rock type can weather into sediment, be changed by heat and pressure, or melt. Igneous rock always needs a melting-and-cooling step, and metamorphic rock always starts as solid rock. So burying and cementing sediment cannot make igneous rock, and liquid magma cannot be squeezed straight into metamorphic rock.",
+      "misconception": "Only some rock types can weather, melt or become metamorphic.",
+      "hint": "For each route, check that the starting material fits what the process needs: solid rock, sediment or magma.",
+      "followUpId": "L17-Q15",
+      "scope": {
+        "lessonId": "L17",
+        "section": "6. Recycling the Three Types of Rock; Key Science Concept: Modeling the Rock Cycle",
+        "pages": {
+          "printed": [
+            228,
+            229
+          ],
+          "pdf": [
+            264,
+            265
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            229
+          ],
+          "pdfPages": [
+            265
+          ],
+          "locator": "Key Science Concept: Modeling the Rock Cycle (rendered spread)",
+          "supports": "The sun drives weathering and transport, gravity moves sediment to low areas, and Earth's interior forms magma and deforms and recrystallizes rock; any of the three rock types can weather into sediment, melt into magma, or become metamorphic rock."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock and Figure 6 (The Rock Cycle Model)",
+          "supports": "The rock cycle is a continuous set of processes by which any type of rock can change into any other type, driven by the sun, gravity, tectonic forces and Earth's interior heat."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 228-229 (rendered; the metamorphic callout on p. 229 is missing from OCR, L17-RF10). Reviser round 1 (2026-10-14): scope section names Section 6 and the Key Science Concept. Wrong routes d and e (which carried 'without' qualifiers) were replaced by positive claims f and g; key choice c was shortened so a distractor is longer than a keyed choice. Key a, b, c unchanged in meaning. Reviser round 2 (2026-10-14): choices a, b and g reworded (same meanings, same IDs) so the longest choice is distractor g, not a keyed choice (pedagogy reviewer's optional fix). Choice b's rationale now uses quartz sandstone to quartzite instead of the bank's most repeated example (limestone to marble). Final verification (verify-agent, 2026-10-14): checked against the pp. 228-229 renders (the p. 229 metamorphic callout, missing from the OCR, read from the render); three possible routes and two impossible ones, each with one defensible verdict. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope section names Section 6 and the Key Science Concept"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: wrong routes now stated as positive claims (f, g); no 'without' cue"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, choices reworded so distractor g is the longest"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q21",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O4"
+      ],
+      "conceptTags": [
+        "rock-cycle-processes",
+        "model-interpretation"
+      ],
+      "familyId": "L17-F10",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "This rock-cycle model leaves its arrows unlabeled. Match each change to the process that causes it.",
+      "accessiblePrompt": "A model of the rock cycle connects five stops, igneous rock, sediment, sedimentary rock, metamorphic rock and magma, with arrows that carry no labels. Match each of five rock-cycle changes to the process that causes it. Changes: any rock becomes sediment; sediment becomes sedimentary rock; any rock becomes metamorphic rock; any rock becomes magma; magma becomes igneous rock. Processes: cooling and hardening; melting; weathering and erosion; heat and pressure with no melting; deposition, compaction and cementation.",
+      "left": [
+        {
+          "id": "toSed",
+          "text": "Any rock becomes sediment",
+          "rationale": "Weathering breaks rock down and erosion carries the pieces away."
+        },
+        {
+          "id": "toSedRock",
+          "text": "Sediment becomes sedimentary rock",
+          "rationale": "Sediment is deposited, then compacted and cemented into rock."
+        },
+        {
+          "id": "toMet",
+          "text": "Any rock becomes metamorphic rock",
+          "rationale": "Heat and pressure change the rock while it stays solid."
+        },
+        {
+          "id": "toMagma",
+          "text": "Any rock becomes magma",
+          "rationale": "Enough heat melts rock into magma."
+        },
+        {
+          "id": "toIgn",
+          "text": "Magma becomes igneous rock",
+          "rationale": "Magma cools and hardens, slowly underground (intrusion) or quickly at the surface (extrusion)."
+        }
+      ],
+      "right": [
+        {
+          "id": "weather",
+          "text": "Weathering and erosion"
+        },
+        {
+          "id": "deposit",
+          "text": "Deposition, compaction and cementation"
+        },
+        {
+          "id": "heatpress",
+          "text": "Heat and pressure, with no melting"
+        },
+        {
+          "id": "melt",
+          "text": "Melting"
+        },
+        {
+          "id": "cool",
+          "text": "Cooling and hardening"
+        }
+      ],
+      "answer": {
+        "toSed": "weather",
+        "toSedRock": "deposit",
+        "toMet": "heatpress",
+        "toMagma": "melt",
+        "toIgn": "cool"
+      },
+      "explanation": "Each arrow in the rock cycle stands for a process. Weathering and erosion make sediment, deposition plus compaction and cementation turn it into rock, heat and pressure make metamorphic rock, melting makes magma, and cooling turns magma into igneous rock, underground or at the surface.",
+      "misconception": "Melting is the step that makes every new rock.",
+      "hint": "Only one of these changes ends with something liquid.",
+      "followUpId": "L17-Q03",
+      "scope": {
+        "lessonId": "L17",
+        "section": "6. Recycling the Three Types of Rock; Key Science Concept: Modeling the Rock Cycle",
+        "pages": {
+          "printed": [
+            228,
+            229
+          ],
+          "pdf": [
+            264,
+            265
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock and Figure 6 (The Rock Cycle Model)",
+          "supports": "The rock cycle is a continuous set of processes by which any type of rock can change into any other type, driven by the sun, gravity, tectonic forces and Earth's interior heat."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            229
+          ],
+          "pdfPages": [
+            265
+          ],
+          "locator": "Key Science Concept: Modeling the Rock Cycle (rendered spread)",
+          "supports": "The sun drives weathering and transport, gravity moves sediment to low areas, and Earth's interior forms magma and deforms and recrystallizes rock; any of the three rock types can weather into sediment, melt into magma, or become metamorphic rock."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 228-229 (rendered; Figure 6 labels read from the render). Reviser round 1 (2026-10-14): scope section names the Key Science Concept. Read-aloud process list reordered so no process sits in the same position as its change (the reviewer's order still paired deposition by position, so a full reordering was used). Follow-up changed to the level-1 item L17-Q03. Reviser round 2 (2026-10-14): added the bank's first model diagram: the O4 card's rock-cycle network (same five nodes and ten edges, 'cycle' layout) with the edge labels left off so the picture does not answer the match. The alt text lists every arrow without naming a process, and the read-aloud prompt says the model connects the five stops with unlabeled arrows. Pairs, answer and lists unchanged. Final verification (verify-agent, 2026-10-14): checked against the pp. 228-229 renders; the diagram's ten edges match its alt text, and the match is one-to-one. Non-blocking: the change 'Any rock becomes metamorphic rock' is broader than the drawn arrows, since there is no metamorphic-to-metamorphic arrow (the renderer cannot draw a self-loop); the p. 229 callout supports 'any', and the match stays unique. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope section names Section 6 and the Key Science Concept"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud process list reordered; follow-up now L17-Q03"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: unlabeled rock-cycle model diagram added for model interpretation"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "The rock-cycle model, arrows unlabeled",
+        "alt": "A network with five stops: igneous rock, sediment, sedimentary rock, metamorphic rock and magma. Arrows point from igneous rock, from sedimentary rock and from metamorphic rock to sediment. One arrow points from sediment to sedimentary rock. Arrows point from igneous rock and from sedimentary rock to metamorphic rock. Arrows point from igneous rock, from sedimentary rock and from metamorphic rock to magma. One arrow points from magma to igneous rock. None of the arrows is labeled with a process.",
+        "nodes": [
+          {
+            "id": "ign",
+            "label": "Igneous rock",
+            "group": "rock"
+          },
+          {
+            "id": "sed",
+            "label": "Sediment",
+            "group": "material"
+          },
+          {
+            "id": "sedr",
+            "label": "Sedimentary rock",
+            "group": "rock"
+          },
+          {
+            "id": "met",
+            "label": "Metamorphic rock",
+            "group": "rock"
+          },
+          {
+            "id": "mag",
+            "label": "Magma",
+            "group": "material"
+          }
+        ],
+        "edges": [
+          {
+            "from": "ign",
+            "to": "sed"
+          },
+          {
+            "from": "sedr",
+            "to": "sed"
+          },
+          {
+            "from": "met",
+            "to": "sed"
+          },
+          {
+            "from": "sed",
+            "to": "sedr"
+          },
+          {
+            "from": "ign",
+            "to": "met"
+          },
+          {
+            "from": "sedr",
+            "to": "met"
+          },
+          {
+            "from": "ign",
+            "to": "mag"
+          },
+          {
+            "from": "sedr",
+            "to": "mag"
+          },
+          {
+            "from": "met",
+            "to": "mag"
+          },
+          {
+            "from": "mag",
+            "to": "ign"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q22",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O4"
+      ],
+      "conceptTags": [
+        "energy-sources",
+        "sun-gravity-interior",
+        "deformation"
+      ],
+      "familyId": "L17-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "In this lesson's rock-cycle model, three sources drive the changes: energy from the sun, gravity, and heat from Earth's interior. Sort each event by its main driver.",
+      "accessiblePrompt": "In this lesson's rock-cycle model, three sources drive the changes: energy from the sun, gravity, and heat from Earth's interior. Sort five events by the main driver behind each one. The events are: wind sandblasts a desert rock tower; rock deep underground melts into magma; loose sediment slides downhill and settles in a low basin; rock deep beneath a mountain range is squeezed and heated into banded gneiss; and evaporation leaves salt crystals on a dry lakebed.",
+      "items": [
+        {
+          "id": "wind",
+          "text": "Wind sandblasts a desert rock tower",
+          "rationale": "Sun: winds are set moving by the sun heating Earth's surface unevenly, so this surface weathering traces back to sunlight."
+        },
+        {
+          "id": "evap",
+          "text": "Evaporation leaves salt crystals on a dry lakebed",
+          "rationale": "Sun: sunlight supplies the energy that evaporates the water and leaves the salt behind."
+        },
+        {
+          "id": "slide",
+          "text": "Loose sediment slides downhill and settles in a low basin",
+          "rationale": "Gravity: it pulls sediment down slopes and into low areas where it collects."
+        },
+        {
+          "id": "melt",
+          "text": "Rock deep underground melts into magma",
+          "rationale": "Earth's interior: deep heat, far from any sunlight, melts the rock."
+        },
+        {
+          "id": "squeeze",
+          "text": "Rock deep beneath a mountain range is squeezed and heated into banded gneiss",
+          "rationale": "Earth's interior: the heat and the plate motion that squeeze this rock both come from inside Earth."
+        }
+      ],
+      "bins": [
+        {
+          "id": "sun",
+          "label": "Energy from the sun"
+        },
+        {
+          "id": "gravity",
+          "label": "Gravity"
+        },
+        {
+          "id": "interior",
+          "label": "Heat from Earth's interior"
+        }
+      ],
+      "answer": {
+        "wind": "sun",
+        "evap": "sun",
+        "slide": "gravity",
+        "melt": "interior",
+        "squeeze": "interior"
+      },
+      "explanation": "In this lesson's model, sunlight powers the surface processes: it drives wind and evaporation, which wear rock down and move water. Gravity pulls sediment down into low places. Heat from inside Earth melts rock and drives the heating and squeezing that make metamorphic rock.",
+      "misconception": "Sunlight or the sun's heat can reach deep underground to melt rock.",
+      "hint": "Ask whether each event happens at the surface or deep below, and whether it is mainly about moving downhill.",
+      "followUpId": "L17-Q14",
+      "scope": {
+        "lessonId": "L17",
+        "section": "Key Science Concept: Modeling the Rock Cycle",
+        "pages": {
+          "printed": [
+            229
+          ],
+          "pdf": [
+            265
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            229
+          ],
+          "pdfPages": [
+            265
+          ],
+          "locator": "Key Science Concept: Modeling the Rock Cycle (rendered spread)",
+          "supports": "The sun drives weathering and transport, gravity moves sediment to low areas, and Earth's interior forms magma and deforms and recrystallizes rock; any of the three rock types can weather into sediment, melt into magma, or become metamorphic rock."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock and Figure 6 (The Rock Cycle Model)",
+          "supports": "The rock cycle is a continuous set of processes by which any type of rock can change into any other type, driven by the sun, gravity, tectonic forces and Earth's interior heat."
+        }
+      ],
+      "limitations": "Real events often involve more than one driver; each item is sorted by its main driver in this lesson's model. The textbook also names tectonic forces, which Earth's interior heat powers.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 228-229 (rendered). Items chosen so each has one main driver in the textbook's model. Reviser round 1 (2026-10-14): prompt and explanation say 'this lesson's model' instead of 'the textbook's model' and name the three drivers; the limitation notes that the textbook also lists tectonic forces. Read-aloud events interleaved. Follow-up changed to L17-Q14, whose explanation says the sun drives evaporation but never melts rock. Reviser round 2 (2026-10-14): item 'bake' (magma heats limestone into marble, the bank's most repeated example) was replaced by a new item 'squeeze' (rock beneath a mountain range squeezed and heated into banded gneiss, interior bin), which tests the p. 229 point that Earth's interior drives deformation. It sits in the same position in the read-aloud list. Final verification (verify-agent, 2026-10-14): checked against the p. 229 render (Key Science Concept introduction: sun, gravity, Earth's interior); the limitation covers events with more than one driver. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: lesson-model wording; read-aloud events interleaved; follow-up now L17-Q14"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, limestone-to-marble item replaced by a squeezed-gneiss item (interior drives deformation)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q23",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O4"
+      ],
+      "conceptTags": [
+        "energy-sources",
+        "thought-experiment"
+      ],
+      "familyId": "L17-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Imagine Earth's interior cooled completely while the sun kept shining. Which rock-cycle processes would eventually stop?",
+      "accessiblePrompt": "Imagine a thought experiment: Earth's interior cools completely, but the sun keeps shining and gravity still works. Which rock-cycle processes would eventually stop?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Melting and metamorphism, since both need inner heat",
+          "rationale": "Correct. Melting rock into magma and changing rock by deep heat and pressure both depend on heat from inside Earth, which this thought experiment removes."
+        },
+        {
+          "id": "b",
+          "text": "Weathering, since wind needs Earth's inner heat",
+          "rationale": "Wind is driven by sunlight heating the surface unevenly, so weathering would carry on."
+        },
+        {
+          "id": "c",
+          "text": "Nothing, since sunlight also powers changes deep underground",
+          "rationale": "Sunlight drives surface processes only. Melting and metamorphism deep underground need Earth's internal heat."
+        },
+        {
+          "id": "d",
+          "text": "Forming sedimentary rock, since sediment needs magma",
+          "rationale": "Sediment comes from weathering at the surface, powered by the sun and gravity, so sedimentary rock could still form."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Melting rock, moving plates, and the deep heating and squeezing of metamorphism all draw on Earth's internal heat. Weathering, erosion and deposition run on sunlight and gravity, so they would keep breaking rock down and laying down sediment. But no new magma or metamorphic rock would form.",
+      "misconception": "The sun alone powers the whole rock cycle.",
+      "hint": "First sort the processes into surface ones and deep ones.",
+      "followUpId": "L17-Q20",
+      "scope": {
+        "lessonId": "L17",
+        "section": "Key Science Concept: Modeling the Rock Cycle",
+        "pages": {
+          "printed": [
+            229
+          ],
+          "pdf": [
+            265
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            229
+          ],
+          "pdfPages": [
+            265
+          ],
+          "locator": "Key Science Concept: Modeling the Rock Cycle (rendered spread)",
+          "supports": "The sun drives weathering and transport, gravity moves sediment to low areas, and Earth's interior forms magma and deforms and recrystallizes rock; any of the three rock types can weather into sediment, melt into magma, or become metamorphic rock."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock and Figure 6 (The Rock Cycle Model)",
+          "supports": "The rock cycle is a continuous set of processes by which any type of rock can change into any other type, driven by the sun, gravity, tectonic forces and Earth's interior heat."
+        }
+      ],
+      "conditions": "A thought experiment: only Earth's interior heat is removed; sunlight and gravity are unchanged.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 228-229 (rendered). Thought experiment; conditions stated. Reviser round 1 (2026-10-14): optional long-term limitation added (erosion would slow as the land wore down). Key unchanged. Reviser round 2 (2026-10-14): key a now shares the 'X, since Y' frame of the distractors (pedagogy fix; answer unchanged). The reviser also reworded distractor c (same meaning, same ID) to drop 'every', so that the bank-wide checklist line this review proposes (absolute words never appear only in distractors) holds here; 'Nothing' stays because it is the content of that answer. Lengths: key a 52, c 60, d 52, so a distractor is strictly longer than the key. Final verification (verify-agent, 2026-10-14): checked against the p. 229 render; the thought-experiment conditions are stated, and the limitation covers long-term slowing of erosion. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional long-term erosion limitation added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shares the 'X, since Y' frame"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Simplified: without interior heat no new mountains would be pushed up, so over very long times erosion would also slow as the land wore down."
+    },
+    {
+      "id": "L17-Q24",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O5",
+        "L17-O2"
+      ],
+      "conceptTags": [
+        "field-evidence",
+        "uplift-and-erosion"
+      ],
+      "familyId": "L17-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A geologist finds granite on a hilltop. Its large crystals show it cooled slowly underground. What evidence would best help explain how it reached the surface?",
+      "accessiblePrompt": "A geologist finds granite on a hilltop. The granite's large crystals show that it cooled slowly underground. What evidence would best help explain how the granite reached the surface?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A map of the nearby rock formations",
+          "rationale": "Correct. How the granite relates to the rock around it shows whether it was uplifted and uncovered by erosion."
+        },
+        {
+          "id": "b",
+          "text": "More exact measurements of its crystal sizes",
+          "rationale": "Crystal size already told how the granite formed. Measuring it again says nothing about how the rock moved later."
+        },
+        {
+          "id": "c",
+          "text": "A lab test of whether it contains quartz",
+          "rationale": "Composition confirms what the rock is, not how it traveled to the hilltop."
+        },
+        {
+          "id": "d",
+          "text": "A careful count of its grain colors",
+          "rationale": "Grain colors reflect its minerals, which describe the rock itself, not its journey to the surface."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Texture records how a rock formed, but not how it moved afterward. To learn that, geologists map the surrounding rock and look at how the formations relate, for example whether rock that once covered the granite has been worn away after uplift. Field evidence plus the rock-cycle model lets them reconstruct the journey.",
+      "misconception": "One clue, like crystal size, can tell a rock's whole history.",
+      "hint": "Think about what must have happened to the rock that once lay on top of the granite.",
+      "followUpId": "L17-Q09",
+      "scope": {
+        "lessonId": "L17",
+        "section": "7. How Scientists Investigate Rocks",
+        "pages": {
+          "printed": [
+            230
+          ],
+          "pdf": [
+            266
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            230
+          ],
+          "pdfPages": [
+            266
+          ],
+          "locator": "Section 7. How Scientists Investigate Rocks",
+          "supports": "Texture shows how a rock formed; mapping nearby formations shows how it reached its location; scientists measure rocks in the field and lab and use the data to construct explanations."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            222
+          ],
+          "pdfPages": [
+            258
+          ],
+          "locator": "Section 3. Igneous Processes, Intrusion and Figure 3A",
+          "supports": "Igneous texture depends on how fast magma cools: slow cooling underground lets crystals grow large, as in granite and gabbro; intrusive rock such as Enchanted Rock can later be uplifted and exposed by erosion."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 222 and 230 (rendered). Reviser round 1 (2026-10-14): hint no longer points at the only choice that looks beyond the rock. Final verification (verify-agent, 2026-10-14): checked against the pp. 222 and 230 renders (mapping nearby formations shows how the rock reached its location). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives the answer away"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q25",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O5",
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "evidence-from-texture",
+        "deformation",
+        "gneiss"
+      ],
+      "familyId": "L17-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A geologist finds rock with large crystals sorted into wavy bands of light and dark minerals, and the rock layers around it are folded. A classmate says, 'Large crystals mean it must be igneous.' Which history fits all the clues best?",
+      "accessiblePrompt": "A geologist finds a rock with large crystals sorted into wavy bands of light and dark minerals, and the rock layers around it are folded and bent. A classmate says that large crystals mean the rock must be igneous. Which history fits all of the clues best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Existing solid rock was deformed by heat and pressure",
+          "rationale": "Correct. Wavy, sorted bands and folded layers come from squeezing solid rock, and strong heat during that squeezing can also grow large crystals."
+        },
+        {
+          "id": "b",
+          "text": "Magma cooled slowly, and its crystals settled into bands",
+          "rationale": "Crystals settling in slowly cooling magma can sometimes form layers, but that would not explain wavy bands in a place where the surrounding layers are folded. Deformation of solid rock fits all the clues better; large crystals alone cannot decide."
+        },
+        {
+          "id": "c",
+          "text": "Sand and mud settled in water, layer after layer",
+          "rationale": "Settling makes layers of small grains, not bands of large crystals sorted by mineral. Folding can bend sedimentary layers, but growing large crystals would take strong heat, which means metamorphism."
+        },
+        {
+          "id": "d",
+          "text": "Lava flowed out in waves and cooled quickly",
+          "rationale": "Fast-cooling lava leaves tiny crystals, not large ones."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Large crystals can grow in slowly cooling magma, but strong heat during metamorphism can grow them too, so that clue alone cannot decide. Wavy bands of sorted minerals and folded layers nearby both point to solid rock being squeezed and bent. This rock is most like gneiss, which forms when rock is deformed at very high temperatures.",
+      "misconception": "Any rock with large crystals must be igneous.",
+      "hint": "Large crystals can form in more than one way. Which history also explains the wavy bands?",
+      "followUpId": "L17-Q18",
+      "scope": {
+        "lessonId": "L17",
+        "section": "5. Metamorphic Processes; 7. How Scientists Investigate Rocks",
+        "pages": {
+          "printed": [
+            226,
+            230
+          ],
+          "pdf": [
+            262,
+            266
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            226
+          ],
+          "pdfPages": [
+            262
+          ],
+          "locator": "Section 5. Metamorphic Processes, Deformation and Figure 5A",
+          "supports": "Tectonic forces and heat deform solid rock; crystals become longer and thinner and line up parallel to each other, in bands; schist forms at moderately high and gneiss at very high temperatures. Figure 5A: schist crystals line up parallel; gneiss crystals separate into parallel bands."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            230
+          ],
+          "pdfPages": [
+            266
+          ],
+          "locator": "Section 7. How Scientists Investigate Rocks",
+          "supports": "Texture shows how a rock formed; relationships between nearby rock formations are part of the evidence; scientists measure rocks in the field and lab and use the data to construct explanations."
+        },
+        {
+          "type": "external",
+          "title": "What are metamorphic rocks?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-are-metamorphic-rocks",
+          "accessed": "2026-10-14",
+          "supports": "Foliation forms when pressure squeezes the flat or elongate minerals within a rock so they become aligned, giving a banded or platy structure; metamorphism happens deep in Earth or where plates meet."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 226 and 230 (rendered). Reviser round 1 (2026-10-14): reworked as a conflicting-clues item: a classmate's 'large crystals mean igneous' claim is weighed against the wavy bands. The pedagogy reviewer asked to drop the collision setting from the stem; the science reviewer's verdict relied on that setting to rule out crystal settling in a layered intrusion. Both are met by replacing 'where plates once collided' with a field clue (the surrounding layers are folded), which the learner must interpret rather than match. Choice b's rationale now grants that crystal settling can form layers (science fix). Hint and follow-up (L17-Q18) changed; scope section names Sections 5 and 7. USGS metamorphic-rock source added. Key a unchanged in meaning ('solid' added). Choice c's rationale now also covers folded sedimentary layers. Reviser round 2 (2026-10-14): no learner-facing change; the shared p. 226 evidence now quotes the Figure 5A schist/gneiss split. Final verification (verify-agent, 2026-10-14): checked against the pp. 226 and 230 renders; the folded-layer field clue makes deformation the single best history. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale grants crystal settling can make layers; scope section names Sections 5 and 7; folded-layer field clue keeps a single best answer"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: reworked as a conflicting-clues item; collision wording removed from the stem; hint and follow-up (L17-Q18) changed"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q26",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O5",
+        "L17-O4"
+      ],
+      "conceptTags": [
+        "observation-vs-conclusion",
+        "weathering-source"
+      ],
+      "familyId": "L17-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In the Sahara Desert, the dune sand around a tall rock formation is a similar color to the rock. Which conclusion does that observation best support?",
+      "accessiblePrompt": "In the Sahara Desert, the sand dunes around a tall rock formation are a similar color to the rock. Which conclusion does that observation best support?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sand likely weathered from that or similar rock",
+          "rationale": "Correct. A similar color can hint at shared minerals, so the sand plausibly came from rock like this, though color alone is a weak clue. Comparing the minerals in the sand and the rock could test it."
+        },
+        {
+          "id": "b",
+          "text": "The sand and the rock probably formed at the same time",
+          "rationale": "Sand forms when rock breaks down, so sand weathered from this rock formed after it. Color reflects shared minerals, not when either formed."
+        },
+        {
+          "id": "c",
+          "text": "The sand was likely carried in from a faraway desert",
+          "rationale": "A similar color fits a nearby source and gives no sign the sand traveled far, though sand from similar rock elsewhere could match too."
+        },
+        {
+          "id": "d",
+          "text": "The rock is probably made of cooled magma",
+          "rationale": "The color of the sand says nothing about how the rock itself formed."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A similar color is a clue that the sand and the rock may share the same minerals, which fits the idea that wind and temperature swings have been breaking the rock down into grains. It is a reasonable inference, not proof; a geologist would check by comparing the minerals in the sand and the rock.",
+      "misconception": "A color match can tell when or how a rock formed, not just where the sand may have come from.",
+      "hint": "Color is a clue to what the grains are made of. What can a shared color suggest, and what can't it tell you?",
+      "followUpId": "L17-Q04",
+      "scope": {
+        "lessonId": "L17",
+        "section": "Introduction; 6. Recycling the Three Types of Rock",
+        "pages": {
+          "printed": [
+            218,
+            219,
+            228
+          ],
+          "pdf": [
+            254,
+            255,
+            264
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            218,
+            219
+          ],
+          "pdfPages": [
+            254,
+            255
+          ],
+          "locator": "Introduction (opener photo of the Rock Castle, Sahara Desert, p. 218; text p. 219)",
+          "supports": "The opener photo shows sand dunes around the Rock Castle, the sand a paler tan than the deeper orange rock; the text asks readers to compare the two colors as a clue to where the sand came from."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            228
+          ],
+          "pdfPages": [
+            264
+          ],
+          "locator": "Section 6. Recycling the Three Types of Rock",
+          "supports": "The Rock Castle is slowly breaking down into sand."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 218-219 and 228 (rendered). Keyed answer is hedged ('may') to keep inference separate from proof. Reviser round 1 (2026-10-14): the rendered p. 218 photo shows a similar, not identical, color (paler tan sand, deeper orange rock), so the prompt says 'similar'. The photo reference was removed because the game does not show it. Every choice is now hedged (likely/probably), so the key is no longer the only hedged option, and the hint no longer points at hedging. Choice c's rationale no longer claims a color match rules out a distant source. The science reviewer's 'proves' wording for b was not kept because the pedagogy hedge fix removes all absolutes. p. 218 added to the evidence and scope; scope section names Section 6. Moved to family F13 (observation versus inference) with L17-Q27. Reviser round 2 (2026-10-14): hint and choice a's rationale now treat color as a weak clue rather than a direct readout of minerals (science reviewer's optional fix). Key unchanged. Final verification (verify-agent, 2026-10-14): checked against the p. 218 render (paler tan sand, deeper orange rock, so 'similar' is fair) and pp. 219 and 228; the key is a hedged inference. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'similar' color; overclaiming choice c rationale corrected; p. 218 cited; scope section and pages extended"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: every choice hedged; photo reference removed; hint rewritten; moved to F13"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional, hint and choice a rationale treat color as a weak clue"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q27",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O5"
+      ],
+      "conceptTags": [
+        "observation-vs-inference",
+        "scientific-practice"
+      ],
+      "familyId": "L17-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "A geologist studies a layered rock. Sort each statement as an observation (something seen or measured) or an inference (an explanation built from observations).",
+      "accessiblePrompt": "A geologist studies a layered rock. Sort six statements into two groups: observations, which are things seen or measured, and inferences, which are explanations built from observations. The statements are: the grains were once carried by wind or water; the grains are about the size of sand; the rock has thin, flat layers; the sand came from weathered granite; each layer was laid down at a different time; and a lab instrument shows the grains are mostly quartz.",
+      "items": [
+        {
+          "id": "size",
+          "text": "The grains are about the size of sand.",
+          "rationale": "Observation: grain size can be seen and measured directly."
+        },
+        {
+          "id": "layers",
+          "text": "The rock has thin, flat layers.",
+          "rationale": "Observation: anyone looking at the rock can see the layers."
+        },
+        {
+          "id": "quartz",
+          "text": "A lab instrument shows the grains are mostly quartz.",
+          "rationale": "Observation: it is a measurement of composition, made with a tool."
+        },
+        {
+          "id": "carried",
+          "text": "The grains were once carried by wind or water.",
+          "rationale": "Inference: nobody watched it happen; it explains the layered sand using what we know about deposition."
+        },
+        {
+          "id": "times",
+          "text": "Each layer was laid down at a different time.",
+          "rationale": "Inference: it is a reasonable explanation of the layers, but it goes beyond what can be seen today."
+        },
+        {
+          "id": "source",
+          "text": "The sand came from weathered granite.",
+          "rationale": "Inference: quartz fits a granite source, but the source itself is an explanation, not something measured."
+        }
+      ],
+      "bins": [
+        {
+          "id": "obs",
+          "label": "Observation"
+        },
+        {
+          "id": "inf",
+          "label": "Inference"
+        }
+      ],
+      "answer": {
+        "size": "obs",
+        "layers": "obs",
+        "quartz": "obs",
+        "carried": "inf",
+        "times": "inf",
+        "source": "inf"
+      },
+      "explanation": "Observations are what you can see or measure directly, in the field or with lab instruments. Inferences are explanations that go beyond the data, such as how and when the rock formed. Strong explanations rest on many observations plus knowledge of rock-forming processes.",
+      "misconception": "Anything a scientist says about a rock counts as an observation.",
+      "hint": "Could you check the statement by looking at or measuring the rock today?",
+      "followUpId": "L17-Q24",
+      "scope": {
+        "lessonId": "L17",
+        "section": "7. How Scientists Investigate Rocks",
+        "pages": {
+          "printed": [
+            230
+          ],
+          "pdf": [
+            266
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            230
+          ],
+          "pdfPages": [
+            266
+          ],
+          "locator": "Section 7. How Scientists Investigate Rocks",
+          "supports": "Texture shows how a rock formed; mapping nearby formations shows how it reached its location; scientists measure rocks in the field and lab and use the data to construct explanations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 230 (rendered). Guardrail: distinguish observation, evidence and explanation. Reviser round 1 (2026-10-14): read-aloud statements interleaved instead of grouped by bin (the reviewer's order with the third and fourth statements swapped, so the bins do not strictly alternate); follow-up changed to L17-Q24 because L17-Q26 now shares family F13. Final verification (verify-agent, 2026-10-14): checked against the p. 230 render; each statement has one defensible bin. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list interleaved; follow-up now L17-Q24"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q28",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O5"
+      ],
+      "conceptTags": [
+        "scales-of-time-and-space",
+        "why-study-rocks"
+      ],
+      "familyId": "L17-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why do geologists rely on clues inside rocks, instead of simply watching rocks change?",
+      "accessiblePrompt": "Why do geologists rely on clues found inside rocks, instead of simply watching rocks as they change?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many changes are too slow, deep or tiny to watch",
+          "rationale": "Correct. Many processes take enormous spans of time, happen far underground, or work at the scale of atoms."
+        },
+        {
+          "id": "b",
+          "text": "Rocks stay the same once they have formed",
+          "rationale": "Rocks are always changing. Wind and water are wearing down formations like Black Church Rock in England right now."
+        },
+        {
+          "id": "c",
+          "text": "Most rock changes are too fast for instruments to record",
+          "rationale": "Fast events such as eruptions and rockfalls can be filmed and measured with instruments. The changes geologists cannot watch directly are mostly too slow, too deep or too small."
+        },
+        {
+          "id": "d",
+          "text": "Rock changes mostly ended when Earth was young",
+          "rationale": "Weathering, erosion, eruptions and metamorphism are still going on today."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Many rock-cycle processes play out over thousands to millions of years, kilometers underground, or at the scale of atoms. So geologists read the evidence those processes leave behind, such as texture, composition and crystal size, outdoors and in the lab, and use it to piece together a rock's past.",
+      "misconception": "Rocks stop changing once they form, so there is nothing happening now to study.",
+      "hint": "Think about how long granite's crystals take to grow underground.",
+      "followUpId": "L17-Q04",
+      "scope": {
+        "lessonId": "L17",
+        "section": "7. How Scientists Investigate Rocks",
+        "pages": {
+          "printed": [
+            230,
+            231
+          ],
+          "pdf": [
+            266,
+            267
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            231
+          ],
+          "pdfPages": [
+            267
+          ],
+          "locator": "Section 7. How Scientists Investigate Rocks (Black Church Rock) and Lesson Summary",
+          "supports": "Rocks are always changing; many geologic processes happen on scales of time and space too small or too large to observe directly, so scientists study clues in rocks."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            230
+          ],
+          "pdfPages": [
+            266
+          ],
+          "locator": "Section 7. How Scientists Investigate Rocks",
+          "supports": "Texture shows how a rock formed; mapping nearby formations shows how it reached its location; scientists measure rocks in the field and lab and use the data to construct explanations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 230-231 (rendered). Reviser round 1 (2026-10-14): key now says 'Many', matching p. 231; choice c's rationale no longer repeats 'Most'. Moved to family F12 (reconstructing a rock's history from evidence) and follow-up changed to L17-Q04 (a desert tower crumbling into sand now). Reviser round 2 (2026-10-14): distractors b, c and d reworded (same meanings, same IDs) to drop the absolutes ('never', 'any instrument', 'only') that sat only in wrong answers. Choice c's rationale no longer says unwatchable changes are 'not too fast', which contradicted p. 231 ('too small or too large' time scales). Key a unchanged (48 characters; c at 56 is the longest). Final verification (verify-agent, 2026-10-14): checked against the pp. 230-231 renders. Cosmetic: choice b's rationale now says 'Black Church Rock in England', since the game does not show the textbook photo. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key says 'Many' changes, matching p. 231"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to F12; follow-up now L17-Q04"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale no longer contradicts p. 231 on time scales"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute words removed from distractors b, c and d"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q29",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "physical-weathering",
+        "chemical-weathering"
+      ],
+      "familyId": "L17-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Physical weathering breaks rock into smaller pieces without changing its minerals. Chemical weathering changes or dissolves the minerals themselves. Sort each change.",
+      "accessiblePrompt": "Sort six changes into two groups: physical weathering, which breaks rock into smaller pieces without changing its minerals, and chemical weathering, which changes or dissolves the minerals themselves. The changes are: water freezes in a crack and wedges the rock apart; rainwater seeps into limestone and slowly hollows out a cave; iron-bearing minerals react with air and water and crumble into rust-colored grains; wind-blown sand scours grains off a cliff; a boulder splits after years of hot days and cold nights; and acids from decaying leaves and fungi slowly eat away a rock's minerals.",
+      "items": [
+        {
+          "id": "freeze",
+          "text": "Water freezes in a crack and wedges the rock apart",
+          "rationale": "Physical: ice takes up more space than water, so it pries the crack wider. The broken pieces are made of the same minerals as before."
+        },
+        {
+          "id": "cave",
+          "text": "Rainwater seeps into limestone and slowly hollows out a cave",
+          "rationale": "Chemical: slightly acidic rainwater reacts with the limestone's calcite and carries it away dissolved."
+        },
+        {
+          "id": "rust",
+          "text": "Iron-bearing minerals react with air and water and crumble into rust-colored grains",
+          "rationale": "Chemical: iron joins with oxygen to form rust, a new substance, which weakens the rock."
+        },
+        {
+          "id": "sand",
+          "text": "Wind-blown sand scours grains off a cliff",
+          "rationale": "Physical: flying sand knocks bits off the rock, like sandpaper. The bits are still the same minerals."
+        },
+        {
+          "id": "swing",
+          "text": "A boulder splits after years of hot days and cold nights",
+          "rationale": "Physical: the rock swells as it heats and shrinks as it cools, again and again, until it cracks."
+        },
+        {
+          "id": "acid",
+          "text": "Acids from decaying leaves and fungi slowly eat away a rock's minerals",
+          "rationale": "Chemical: the acids react with the minerals and dissolve them."
+        }
+      ],
+      "bins": [
+        {
+          "id": "phys",
+          "label": "Physical weathering"
+        },
+        {
+          "id": "chem",
+          "label": "Chemical weathering"
+        }
+      ],
+      "answer": {
+        "freeze": "phys",
+        "cave": "chem",
+        "rust": "chem",
+        "sand": "phys",
+        "swing": "phys",
+        "acid": "chem"
+      },
+      "explanation": "Physical weathering only breaks rock into smaller pieces, so the minerals stay the same; ice in cracks, wind-blown sand and big temperature swings all work this way. Chemical weathering changes the minerals themselves: water dissolves limestone, iron-bearing minerals rust, and acids from living things eat into rock. Both kinds turn solid rock into sediment.",
+      "misconception": "Any weathering that involves water must be chemical.",
+      "hint": "After each change, are the rock's minerals still the same stuff, just in smaller pieces?",
+      "followUpId": "L17-Q11",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            224,
+            225
+          ],
+          "pdf": [
+            260,
+            261
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            224
+          ],
+          "pdfPages": [
+            260
+          ],
+          "locator": "Section 4. Sedimentary Processes, Physical Sedimentation",
+          "supports": "Temperature changes, wind, flowing water and gravity break rock into small fragments; this breakdown by physical processes is physical weathering."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            225
+          ],
+          "pdfPages": [
+            261
+          ],
+          "locator": "Section 4. Sedimentary Processes, Chemical Sedimentation",
+          "supports": "Rock reacts chemically with air, water, soil and organisms and breaks down (chemical weathering); in dissolution, water breaks solid rock material down into dissolved material too small to see."
+        },
+        {
+          "type": "external",
+          "title": "Weathering",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/weathering/",
+          "accessed": "2026-10-17",
+          "supports": "Mechanical (physical) weathering makes rock crumble, for example by frost wedging and by rock expanding with heat and contracting with cold; chemical weathering changes the molecular structure of rock, for example carbonic acid hollowing out caves in limestone, iron rusting with oxygen and water, and carbonic acid from decaying plants and fungi weakening and dissolving rock."
+        }
+      ],
+      "limitations": "Real rock often weathers both ways at once; each change is sorted by the process it describes.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Added in reviser round 1 (2026-10-14) to close the pedagogy reviewer's coverage gap (physical versus chemical weathering, pp. 224-225). Drafted from printed pp. 224-225 (rendered) and the National Geographic weathering page, opened 2026-10-14. Plant roots are left out because they can act both ways; the frost-wedging item targets the idea that anything involving water is chemical. Read-aloud list mixes the bins (P C C P P C). Needs science and pedagogy review passes before verification. Reviser round 2 (2026-10-14): the National Geographic Weathering record (re-opened 2026-10-17) now reports what the page says: it does not say mechanical weathering leaves composition unchanged, and it names the organic acid as carbonic acid from decaying plants and fungi. The wind item rests on the p. 224 textbook record. Choices, bins and key unchanged. This round adds the item's first science and pedagogy passes. Final verification (verify-agent, 2026-10-14): checked against the pp. 224-225 renders. The National Geographic Weathering page, re-opened by the verifier, describes frost wedging and heat-and-cold expansion as mechanical, and carbonic acid in limestone caves, iron oxidation and acids from decaying plants and fungi as chemical. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: National Geographic evidence record reworded to match the page"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q30",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O3"
+      ],
+      "conceptTags": [
+        "deposition",
+        "energy-and-sediment"
+      ],
+      "familyId": "L17-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A fast, muddy river carrying sand and fine mud flows into a calm lake. Where does most of its sand settle, and why?",
+      "accessiblePrompt": "A fast-flowing, muddy river carries sand and fine mud into a calm lake. Where does most of the river's sand settle, and why?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Near the river mouth, since the slowing water drops it",
+          "rationale": "Correct. Entering the calm lake, the river slows and loses the energy to carry sand, so the heavier sand drops first, close to the mouth."
+        },
+        {
+          "id": "b",
+          "text": "Evenly across the lake bottom, since still water spreads it out",
+          "rationale": "Calm water does not spread sand evenly. Sand drops where the current slows, near the mouth; only finer mud is carried farther out."
+        },
+        {
+          "id": "c",
+          "text": "Nowhere, since moving water keeps sand afloat",
+          "rationale": "Water carries sand only while it moves fast enough. In the calm lake the current slows, and the sand settles."
+        },
+        {
+          "id": "d",
+          "text": "Far out in the middle, since the deepest water pulls it down",
+          "rationale": "Deep water does not pull sediment toward it. Sand drops as soon as the current slows, which happens where the river meets the lake."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Moving water can carry sediment only while it has enough energy. When a fast river meets a calm lake, it slows sharply and drops its heaviest grains, the sand, close to the mouth. Finer mud stays suspended longer and settles farther out. Over time these layers can be buried and harden into sedimentary rock.",
+      "misconception": "Sediment settles evenly wherever water is still, or stays afloat as long as the water moves at all.",
+      "hint": "What does flowing water need in order to keep carrying sand?",
+      "followUpId": "L17-Q22",
+      "scope": {
+        "lessonId": "L17",
+        "section": "4. Sedimentary Processes",
+        "pages": {
+          "printed": [
+            224
+          ],
+          "pdf": [
+            260
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            224
+          ],
+          "pdfPages": [
+            260
+          ],
+          "locator": "Section 4. Sedimentary Processes, Physical Sedimentation and Figure 4A",
+          "supports": "Physical weathering breaks rock into sediment; wind or water carries it and deposits it when it lacks the energy to keep it moving; breccia (large angular pebbles) and sandstone (small grains, compacted and cemented in layers) form this way."
+        },
+        {
+          "type": "external",
+          "title": "Delta",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/delta/",
+          "accessed": "2026-10-14",
+          "supports": "A river slows as it nears its mouth and drops its sediment; heavier, coarser material settles first, and smaller, finer sediment is carried farther."
+        },
+        {
+          "type": "external",
+          "title": "Sediment and Suspended Sediment (Water Science School)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/sediment-and-suspended-sediment",
+          "accessed": "2026-10-14",
+          "supports": "Fast-moving water can pick up and move larger particles more easily than slow-moving water; where river water moves too slowly to keep sediment suspended, as in a reservoir, the sediment settles to the bottom."
+        }
+      ],
+      "conditions": "The lake water is calm, and the river carries a mix of sand and much finer mud.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Added in reviser round 1 (2026-10-14) to close the pedagogy reviewer's coverage gap: deposition happens because the carrier slows and loses energy (p. 224, NGSS MS-ESS2-1). Drafted from printed p. 224 (rendered), National Geographic Delta and USGS Sediment and Suspended Sediment, both opened 2026-10-14. Keyed choice is not the longest. Needs science and pedagogy review passes before verification. Reviser round 2 (2026-10-14): key a now shares the 'X, since Y' frame of the distractors, and choice c drops its stacked absolutes ('Nowhere' plus 'any water'; same meaning, same ID). Answer unchanged. This round adds the item's first science and pedagogy passes (science: National Geographic Delta and USGS Sediment and Suspended Sediment re-opened by the reviewer and found to support the key). Final verification (verify-agent, 2026-10-14): checked against the p. 224 render (the carrier deposits sediment when it no longer has enough energy to move it). Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shares the 'X, since Y' frame; stacked absolutes removed from choice c"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L17-Q31",
+      "lessonId": "L17",
+      "objectiveIds": [
+        "L17-O5"
+      ],
+      "conceptTags": [
+        "field-and-lab-tools",
+        "scientific-practice"
+      ],
+      "familyId": "L17-F13",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each job a geologist needs to do with the tool that fits it best.",
+      "accessiblePrompt": "Match each of four jobs a geologist needs to do with the tool that fits it best. Jobs: check crystal size on a rock face during a hike; break off a fresh, unweathered piece to study; see the shape of the land and its rock formations across a whole region; and find out which elements a sample contains. Tools: a rock hammer; a lab instrument that measures composition; a hand lens; and a topographic map or remote-sensing image.",
+      "left": [
+        {
+          "id": "crystal",
+          "text": "Check crystal size on a rock face during a hike",
+          "rationale": "Hand lens: a small magnifier you can carry, so you can see crystal size right on the rock face."
+        },
+        {
+          "id": "fresh",
+          "text": "Break off a fresh, unweathered piece to study",
+          "rationale": "Rock hammer: it breaks off a piece of rock, exposing a fresh surface that weathering has not changed."
+        },
+        {
+          "id": "region",
+          "text": "See the shape of the land and its rock formations across a whole region",
+          "rationale": "Topographic map or remote-sensing image: a topographic map shows the shape of the land, and an image taken from a satellite or airplane shows its surface and rock formations, both across a whole region at once."
+        },
+        {
+          "id": "elements",
+          "text": "Find out which elements a sample contains",
+          "rationale": "Lab instrument: devices in the lab measure the composition of a rock sample, including which elements it holds."
+        }
+      ],
+      "right": [
+        {
+          "id": "hammer",
+          "text": "Rock hammer"
+        },
+        {
+          "id": "lab",
+          "text": "Lab instrument that measures composition"
+        },
+        {
+          "id": "lens",
+          "text": "Hand lens"
+        },
+        {
+          "id": "map",
+          "text": "Topographic map or remote-sensing image"
+        }
+      ],
+      "answer": {
+        "crystal": "lens",
+        "fresh": "hammer",
+        "region": "map",
+        "elements": "lab"
+      },
+      "explanation": "Each tool fits a different scale and setting. A hand lens magnifies small details such as crystal size right in the field, and a rock hammer breaks off fresh pieces whose surfaces have not been changed by weathering. Topographic maps and remote-sensing images show a whole region at once, while lab instruments measure what a sample is made of.",
+      "misconception": "One tool can answer every question about a rock, whatever the scale or setting.",
+      "hint": "Think about the size of what each job looks at, from tiny crystals to a whole region.",
+      "followUpId": "L17-Q24",
+      "scope": {
+        "lessonId": "L17",
+        "section": "7. How Scientists Investigate Rocks",
+        "pages": {
+          "printed": [
+            230
+          ],
+          "pdf": [
+            266
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            230
+          ],
+          "pdfPages": [
+            266
+          ],
+          "locator": "Section 7. How Scientists Investigate Rocks (text and photo captions, rendered page)",
+          "supports": "Tools used to collect and study rocks include rock hammers, hand lenses, microscopes, remote sensing technology, topographic maps and devices that measure composition; a photo shows a scientist inspecting a rock with a magnifying lens; samples go to a lab, where instruments analyze composition, texture and crystal size; scientists map nearby rock formations."
+        },
+        {
+          "type": "external",
+          "title": "Collecting Rocks",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/collect1/collectgip.html",
+          "accessed": "2026-10-17",
+          "supports": "The geologist's hammer is used to break off fresh rock specimens; the hand lens (pocket magnifier) is used to identify mineral grains, with six- to ten-power magnification best."
+        },
+        {
+          "type": "external",
+          "title": "Breaking off the weathered surface of lavas in the Clear Lake Volcanic Field to sample the fresh, unaltered cores",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/media/images/breaking-weathered-surface-lavas-clear-lake-volcanic-field-sample-fresh-unaltered",
+          "accessed": "2026-10-17",
+          "supports": "Geologists often break off the weathered surfaces of rocks in the field to get at fresh cores, which makes the original mineralogy easier to see."
+        },
+        {
+          "type": "external",
+          "title": "What is a topographic map?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-a-topographic-map",
+          "accessed": "2026-10-17",
+          "supports": "A topographic map uses elevation contour lines to show the shape of Earth's surface."
+        },
+        {
+          "type": "external",
+          "title": "What is remote sensing and what is it used for?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-remote-sensing-and-what-it-used",
+          "accessed": "2026-10-17",
+          "supports": "Remote sensing detects and monitors the physical characteristics of an area from a distance; cameras on satellites and airplanes take images of large areas of Earth's surface."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Added in reviser round 2 (2026-10-14) to close the pedagogy reviewer's coverage gap: Section 7's field and lab tools (printed p. 230, rendered) were untested, and O5 had no slack above the 4-question minimum. The textbook lists the tools but not which job each does, so the pairings rest on USGS sources opened 2026-10-17 (Collecting Rocks; the Clear Lake fresh-surface caption; the topographic map and remote-sensing FAQs). Each job has one defensible tool among the four offered: no microscope is offered, so the lab-composition pair is unique. The reviewer's 'Measure exactly which elements' became 'Find out which elements' so the job does not echo 'measures' in its tool, and 'how rock formations are laid out' became 'the shape of the land and its rock formations', which is what a topographic map shows. Read-aloud tools are ordered rock hammer, lab instrument, hand lens, map, so no tool sits in the same position as its job. Family F13 (gathering and interpreting evidence) now holds Q26, Q27 and Q31. Needs science and pedagogy review passes before verification. Final verification (verify-agent, 2026-10-14): checked against the p. 230 render (tool list and the magnifying-lens photo caption). This item had no separate science or pedagogy pass, so the verifier made both checks: each job has one defensible tool among the four offered, no read-aloud tool sits in its job's position, and no textbook wording is copied. USGS Collecting Rocks, re-opened, says the hammer breaks off fresh specimens and the hand lens identifies mineral grains (six- to ten-power). The USGS topographic-map and remote-sensing FAQ pages returned 403 or 504 errors to the verifier, so their claims were confirmed from search-result excerpts of those same pages. The Clear Lake caption could not be re-opened; its claim repeats what Collecting Rocks says. Result: pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

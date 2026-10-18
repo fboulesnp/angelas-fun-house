@@ -1,0 +1,3724 @@
+{
+  "lessonId": "L08",
+  "questions": [
+    {
+      "id": "L08-Q01",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1"
+      ],
+      "conceptTags": [
+        "law-of-superposition",
+        "relative-age"
+      ],
+      "familyId": "L08-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "In an undisturbed stack of sedimentary rock layers, where are the older layers generally found?",
+      "accessiblePrompt": "In an undisturbed stack of sedimentary rock layers, where are the older layers generally found?",
+      "conditions": "Undisturbed means the layers have not been folded, flipped over, or moved since they formed.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Below the younger layers",
+          "rationale": "Correct. Each new layer settles on top of what is already there, so in an undisturbed stack the layers get older as you go down."
+        },
+        {
+          "id": "b",
+          "text": "Above the younger layers",
+          "rationale": "This flips the order. A layer can only settle on top of layers that already exist, so the upper layers are the newer ones."
+        },
+        {
+          "id": "c",
+          "text": "In whichever layer is thickest",
+          "rationale": "Thickness depends on how much sediment piled up, not on when the layer formed. A thin layer can be older than a thick one."
+        },
+        {
+          "id": "d",
+          "text": "In whichever layer is darkest",
+          "rationale": "Color comes from what the rock is made of, such as iron minerals or plant remains. It is not a reliable clue to age."
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is the law of superposition. Sediment settles in layers, each one on top of the last, so in an undisturbed stack the bottom layer formed first and the top layer formed last. That is why geologists read rock layers from the bottom up.",
+      "misconception": "The top layer is oldest because it has been exposed longest, or thicker or darker layers are older.",
+      "hint": "Think of mail piling up on a table all week. Where is Monday's mail?",
+      "followUpId": "L08-Q05",
+      "scope": {
+        "lessonId": "L08",
+        "section": "2. Reading Strata from the Bottom Up",
+        "pages": {
+          "printed": [
+            91,
+            93
+          ],
+          "pdf": [
+            127,
+            129
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            93
+          ],
+          "pdfPages": [
+            129
+          ],
+          "locator": "Section 2. Reading Strata from the Bottom Up, Figure 2",
+          "supports": "Sediment is deposited in a horizontal layer on top of older layers, so in undisturbed layers the oldest rock is at the bottom and the youngest at the top."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            91
+          ],
+          "pdfPages": [
+            127
+          ],
+          "locator": "Vocabulary: law of superposition",
+          "supports": "In undisturbed rock layers the oldest rock is at the bottom and the youngest at the top."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L08 (older layers lie below younger layers), polished. Drafted from printed pp. 91, 93 / PDF 127, 129 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 91, 93 / PDF 127, 129; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: (optional nit) choice d rationale now says color is 'not a reliable clue to age'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q02",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1"
+      ],
+      "conceptTags": [
+        "law-of-superposition",
+        "sequencing-layers"
+      ],
+      "familyId": "L08-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Clues from an undisturbed cliff: The shale rests directly on the coal. The limestone is at the very bottom. Sandstone caps the cliff. The coal rests directly on the limestone. Put the four layers in order from oldest to youngest.",
+      "accessiblePrompt": "Here are clues about four layers in an undisturbed cliff. The shale rests directly on the coal. The limestone is at the very bottom. The sandstone is the top layer of the cliff. The coal rests directly on the limestone. Put the four layers in order from oldest to youngest.",
+      "items": [
+        {
+          "id": "shale",
+          "text": "Shale",
+          "rationale": "Third: it rests on the coal, so it formed after the coal, and the sandstone formed after it."
+        },
+        {
+          "id": "sand",
+          "text": "Sandstone",
+          "rationale": "Last: it caps the cliff, so nothing else in this stack formed after it."
+        },
+        {
+          "id": "lime",
+          "text": "Limestone",
+          "rationale": "First: it is at the bottom of an undisturbed stack, so it formed before the others."
+        },
+        {
+          "id": "coal",
+          "text": "Coal",
+          "rationale": "Second: it sits directly on the limestone, so it formed after the limestone but before the shale."
+        }
+      ],
+      "answer": [
+        "lime",
+        "coal",
+        "shale",
+        "sand"
+      ],
+      "ends": [
+        "Oldest",
+        "Youngest"
+      ],
+      "explanation": "Rebuild the stack first: limestone at the bottom, coal on the limestone, shale on the coal, and sandstone on top. Because the cliff is undisturbed, superposition says that bottom-to-top order is also oldest-to-youngest.",
+      "misconception": "Layers formed in the order the clues are listed, or the type of rock decides its age.",
+      "hint": "Sketch the stack from the bottom up before you think about ages.",
+      "followUpId": "L08-Q05",
+      "scope": {
+        "lessonId": "L08",
+        "section": "2. Reading Strata from the Bottom Up",
+        "pages": {
+          "printed": [
+            93
+          ],
+          "pdf": [
+            129
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            93
+          ],
+          "pdfPages": [
+            129
+          ],
+          "locator": "Section 2. Reading Strata from the Bottom Up, Figure 2",
+          "supports": "Sediment is deposited in a horizontal layer on top of older layers, so in undisturbed layers the oldest rock is at the bottom and the youngest at the top."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original four-layer stack (limestone, coal, shale, sandstone). Revision round 1: the stack was changed so it no longer repeats the O1 Science Explorer card diagram, and the follow-up now points to L08-Q05. The science reviewer's pass was on the earlier stack. Drafted from printed p. 93 / PDF 129 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 93 / PDF 129; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new limestone-coal-shale-sandstone stack so the O1 card no longer gives the order away; follow-up now L08-Q05"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q03",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1",
+        "L08-O5"
+      ],
+      "conceptTags": [
+        "law-of-superposition",
+        "uniformitarianism",
+        "assumptions"
+      ],
+      "familyId": "L08-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "No one watched the lower sedimentary layers of the Grand Canyon form. Why can geologists still use superposition to say those layers are older than the ones above them?",
+      "accessiblePrompt": "No one was there to watch the lower sedimentary layers of the Grand Canyon form. Why can geologists still use superposition to say that those layers are older than the layers above them?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They assume sediment settled long ago the same way it settles today.",
+          "rationale": "Correct. Geologists can watch sediment settle in layers today, and they assume the same natural laws worked the same way in the past. That assumption lets them read layers no one saw form."
+        },
+        {
+          "id": "b",
+          "text": "Scientists long ago watched those layers form and wrote down the order.",
+          "rationale": "Those layers formed hundreds of millions of years before any people lived, so no one could have watched them. The order comes from reasoning, not from eyewitnesses."
+        },
+        {
+          "id": "c",
+          "text": "Deep rock ages faster because of the heat and pressure underground.",
+          "rationale": "Heat and pressure can squeeze and harden buried sediment, but they can't change when a layer was laid down. Age depends on the time of deposition."
+        },
+        {
+          "id": "d",
+          "text": "The lower layers are harder, and harder rock takes longer to form.",
+          "rationale": "Hardness depends on what a rock is made of and how well it was cemented, not on its age. A soft layer can be older than a hard one."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Superposition rests on an assumption: the natural laws at work today, such as gravity pulling sediment down into layers, worked the same way in the past and everywhere on Earth. Geologists state that assumption and check the conditions that go with it, such as whether the layers have been overturned. Then the lower layers can be read as older, even though no one saw them form.",
+      "misconception": "The order of rock layers can be known only if someone saw them form, or deep layers are older because burial makes rock age faster.",
+      "hint": "Think about what geologists can watch happening today at a river mouth or a beach.",
+      "followUpId": "L08-Q09",
+      "scope": {
+        "lessonId": "L08",
+        "section": "1. Finding the Ages of Rock Layers",
+        "pages": {
+          "printed": [
+            92,
+            93
+          ],
+          "pdf": [
+            128,
+            129
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            92
+          ],
+          "pdfPages": [
+            128
+          ],
+          "locator": "Section 1. Finding the Ages of Rock Layers, Relative Dating",
+          "supports": "Relative dating rests on laws and principles that describe natural processes working the same way no matter when or where they happen."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            93
+          ],
+          "pdfPages": [
+            129
+          ],
+          "locator": "Section 2. Reading Strata from the Bottom Up, Figure 2",
+          "supports": "Sediment is deposited in a layer on top of older layers, and rock strata have formed this way everywhere on Earth throughout its history."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            91
+          ],
+          "pdfPages": [
+            127
+          ],
+          "locator": "Next Generation Science Standards box, Science and Engineering Practices",
+          "supports": "Scientific explanations assume that the laws describing the natural world worked in the past just as they work today."
+        },
+        {
+          "type": "external",
+          "title": "Geology - Grand Canyon National Park",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+          "accessed": "2026-10-14",
+          "supports": "The lowest rocks in Grand Canyon are igneous and metamorphic rocks of the inner gorge (about 1.8 billion years old); the sedimentary layers above them run up to the Kaibab Formation at the rim, about 270 million years old."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Revision round 1 (pedagogy review): retargeted from the deposition mechanism, which repeated L08-Q01, to the lesson's stated assumption that today's processes worked the same way in the past (uniformitarianism). It says 'lower sedimentary layers' because the very lowest Grand Canyon rocks are igneous and metamorphic, not sedimentary layers (NPS page, opened 2026-10-14). The science reviewer's fix to the old choice b rationale is superseded because that choice was removed. Sources: printed pp. 91-93 / PDF 127-129 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 91-93 / PDF 127-129; re-opened NPS Grand Canyon geology and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: superseded; the flagged choice b rationale ('Layers don't re-sort by weight') was removed when the item was retargeted"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: retargeted from the deposition mechanism (a repeat of Q01) to the uniformitarian assumption behind superposition"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "The layers have not been flipped over since they formed."
+    },
+    {
+      "id": "L08-Q04",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1",
+        "L08-O4"
+      ],
+      "conceptTags": [
+        "relative-dating",
+        "absolute-dating"
+      ],
+      "familyId": "L08-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each finding by the kind of dating it comes from.",
+      "accessiblePrompt": "Sort each finding into one of two groups: relative dating, which puts events in order without giving years, or absolute dating, which gives an approximate age in years.",
+      "items": [
+        {
+          "id": "depth",
+          "text": "In this undisturbed cliff, the fossil bed lies 30 meters below the ash layer, so it is older.",
+          "rationale": "Relative: 30 meters is a distance, not an age. The bed's position shows only that it came first, not how many years ago."
+        },
+        {
+          "id": "ash",
+          "text": "This volcanic ash erupted about 75 million years ago.",
+          "rationale": "Absolute: it gives an approximate age in years, which takes radiometric dating."
+        },
+        {
+          "id": "dike",
+          "text": "The dike is younger than the sandstone it cuts.",
+          "rationale": "Relative: cross-cutting tells which came first, not how long ago."
+        },
+        {
+          "id": "zircon",
+          "text": "Measuring uranium and lead in a zircon crystal shows how many years ago it formed.",
+          "rationale": "Absolute: measuring radioactive atoms and their decay products gives an age in years."
+        },
+        {
+          "id": "fossil",
+          "text": "Shales in two states hold the same index fossil, so they are about the same age.",
+          "rationale": "Relative: matching fossils shows the layers formed in the same span of time, without giving years."
+        },
+        {
+          "id": "lava",
+          "text": "A lava flow is 1.1 billion years old, give or take a few million years.",
+          "rationale": "Absolute: an age in years with an uncertainty is a result of absolute dating."
+        }
+      ],
+      "bins": [
+        {
+          "id": "rel",
+          "label": "Relative dating (order only)"
+        },
+        {
+          "id": "abs",
+          "label": "Absolute dating (age in years)"
+        }
+      ],
+      "answer": {
+        "depth": "rel",
+        "ash": "abs",
+        "dike": "rel",
+        "zircon": "abs",
+        "fossil": "rel",
+        "lava": "abs"
+      },
+      "explanation": "Relative dating answers \"which came first?\" using superposition, cross-cutting features and fossils. Absolute dating answers \"about how many years ago?\" by measuring radioactive atoms, mostly in igneous rock. Geologists use both together.",
+      "misconception": "Any finding that contains a number, or any statement about age, counts as absolute dating; or fossils give ages in years.",
+      "hint": "For each finding, ask which question it answers: \"Which came first?\" or \"About how many years ago?\"",
+      "followUpId": "L08-Q23",
+      "scope": {
+        "lessonId": "L08",
+        "section": "1. Finding the Ages of Rock Layers",
+        "pages": {
+          "printed": [
+            92,
+            93
+          ],
+          "pdf": [
+            128,
+            129
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            92
+          ],
+          "pdfPages": [
+            128
+          ],
+          "locator": "Section 1. Finding the Ages of Rock Layers, Figure 1",
+          "supports": "Relative dating gives the order of events (which strata are older or younger); absolute dating gives the age of a rock or event in years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            93
+          ],
+          "pdfPages": [
+            129
+          ],
+          "locator": "Section 2. Reading Strata from the Bottom Up, Figure 2",
+          "supports": "Sediment is deposited in a horizontal layer on top of older layers, so in undisturbed layers the oldest rock is at the bottom and the youngest at the top."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            91
+          ],
+          "pdfPages": [
+            127
+          ],
+          "locator": "Next Generation Science Standards box (ESS1.C)",
+          "supports": "Rock strata and the fossil record give relative dates, not an absolute time scale."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Radiometric Time Scale",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/radiometric.html",
+          "accessed": "2026-10-14",
+          "supports": "Chiefly igneous rocks can be dated directly; sedimentary rocks are placed in time by bracketing them between dated igneous rocks. Half-lives: uranium-235 about 704 million years, potassium-40 about 1.25 billion years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original findings; the 75-million-year ash and the 1.1-billion-year lava flow are illustrative values. Revision round 1: a relative item now carries a number (30 meters) and the zircon item carries none, so counting digits no longer sorts the items. Drafted from printed pp. 91-93 / PDF 127-129 (rendered). Second review cycle (reviser round 1, 2026-10-14): no item change; \"dike\" is now defined in the glossary entry for intrusion (lesson-level pedagogy fix). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 91-93 / PDF 127-129; re-opened USGS \"Radiometric Time Scale\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: depth item (has a number, relative) replaces 'Layer C formed before layer D'; zircon item has no digits; new hint; follow-up now L08-Q23"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q05",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1"
+      ],
+      "conceptTags": [
+        "relative-dating",
+        "limits-of-evidence"
+      ],
+      "familyId": "L08-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In an undisturbed cliff, a sandstone layer sits directly on top of a shale layer. Using only this observation, which claim is supported?",
+      "accessiblePrompt": "In an undisturbed cliff, a sandstone layer sits directly on top of a shale layer. Using only this observation, which claim is supported?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sandstone is younger, but not by a known number of years.",
+          "rationale": "Correct. The sandstone was laid down after the shale, but its position alone can't measure the time between them."
+        },
+        {
+          "id": "b",
+          "text": "The sandstone is about 10 million years younger than the shale.",
+          "rationale": "Nothing in the observation gives a number of years. A stack shows order; putting a number on the gap would take absolute dating."
+        },
+        {
+          "id": "c",
+          "text": "The two layers formed at the same time, because they touch.",
+          "rationale": "Touching layers can be separated by a little time or a lot. Superposition still says the upper one was laid down later."
+        },
+        {
+          "id": "d",
+          "text": "The shale is younger, because softer rock forms faster.",
+          "rationale": "How fast a rock forms doesn't change which layer was laid down first. The upper layer, the sandstone, is the younger one."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Superposition gives a relative age: the sandstone was deposited after the shale. It can't tell whether the gap between them was a week or millions of years. Turning order into years takes absolute dating, usually of nearby igneous rock.",
+      "misconception": "Relative dating can tell how many years apart two layers formed.",
+      "hint": "Does a stack of layers come with a calendar? What does its order tell you, and what doesn't it?",
+      "followUpId": "L08-Q24",
+      "scope": {
+        "lessonId": "L08",
+        "section": "1. Finding the Ages of Rock Layers",
+        "pages": {
+          "printed": [
+            92,
+            93
+          ],
+          "pdf": [
+            128,
+            129
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            92
+          ],
+          "pdfPages": [
+            128
+          ],
+          "locator": "Section 1. Finding the Ages of Rock Layers, Figure 1",
+          "supports": "Relative dating gives the order of events (which strata are older or younger); absolute dating gives the age of a rock or event in years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            93
+          ],
+          "pdfPages": [
+            129
+          ],
+          "locator": "Section 2. Reading Strata from the Bottom Up, Figure 2",
+          "supports": "Sediment is deposited in a horizontal layer on top of older layers, so in undisturbed layers the oldest rock is at the bottom and the youngest at the top."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Targets the brief's mission 'compare evidence without claiming an exact date'. Drafted from printed pp. 92-93 / PDF 128-129 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 92-93 / PDF 128-129; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q06",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1",
+        "L08-O5"
+      ],
+      "conceptTags": [
+        "relative-dating",
+        "limits-of-evidence",
+        "missing-time"
+      ],
+      "familyId": "L08-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Jamal finds a limestone layer 20 meters below the top of a canyon wall. He says, \"Layers build up about 1 meter every million years, so this limestone is 20 million years old.\" What is the best response?",
+      "accessiblePrompt": "Jamal finds a limestone layer 20 meters below the top of a canyon wall. He says: layers build up about 1 meter every million years, so this limestone is 20 million years old. What is the best response to his claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Depth shows order, not years: rates vary, and erosion can remove layers.",
+          "rationale": "Correct. A meter of mud might settle quickly in a flood or very slowly in a calm sea, and erosion can wipe out layers entirely. Position tells which is older; years need absolute dating."
+        },
+        {
+          "id": "b",
+          "text": "He is right, since all sediment piles up at one steady rate everywhere.",
+          "rationale": "Sediment builds up fast in some places and times and slowly in others, and sometimes stops while erosion removes rock. There's no single rate to use."
+        },
+        {
+          "id": "c",
+          "text": "He should count the layers instead, since each layer stands for a million years.",
+          "rationale": "Layers aren't a set amount of time each. One layer may form in a day; another may take many thousands of years."
+        },
+        {
+          "id": "e",
+          "text": "He is right if all the rock above it is limestone too.",
+          "rationale": "Even limestone can build up quickly in some stretches of time and slowly in others, and erosion can remove layers of any kind. Rock type alone does not turn depth into years."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Superposition says the limestone is older than the layers above it, but depth is not a clock. Sediment doesn't pile up at one set pace, and some stretches of time leave no layer at all because erosion removed it. Scientists get ages in years from radiometric dating of igneous rock.",
+      "misconception": "Depth or thickness of rock converts directly into years.",
+      "hint": "What would have to be true about every meter of this rock for Jamal's math to work? Can the cliff alone show that?",
+      "followUpId": "L08-Q27",
+      "scope": {
+        "lessonId": "L08",
+        "section": "1. Finding the Ages of Rock Layers",
+        "pages": {
+          "printed": [
+            92,
+            103
+          ],
+          "pdf": [
+            128,
+            139
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            92
+          ],
+          "pdfPages": [
+            128
+          ],
+          "locator": "Section 1. Finding the Ages of Rock Layers, Figure 1",
+          "supports": "Relative dating gives the order of events (which strata are older or younger); absolute dating gives the age of a rock or event in years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            103
+          ],
+          "pdfPages": [
+            139
+          ],
+          "locator": "Section 7, text before the Lesson Summary",
+          "supports": "Relative dating gave the sequence of events, but scientists did not know how long those events took."
+        },
+        {
+          "type": "external",
+          "title": "2. Absolute age dating",
+          "publisher": "Paleontological Research Institution, Digital Atlas of Ancient Life",
+          "url": "https://www.digitalatlasofancientlife.org/learn/geological-time/absolute-age-dating/",
+          "accessed": "2026-10-14",
+          "supports": "Early geologists who turned rock thickness into years with a measured sedimentation rate got ages far too young, mainly because unconformities (gaps often caused by erosion) hide missing time."
+        },
+        {
+          "type": "external",
+          "title": "Geology - Grand Canyon National Park",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+          "accessed": "2026-10-14",
+          "supports": "The oldest rocks in Grand Canyon are about 1.8 billion years old and the Kaibab Formation at the rim is about 270 million years old; most younger layers above it have eroded away, so chapters of the record are missing."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original claim to evaluate. Drafted from printed pp. 92, 103 / PDF 128, 139 (rendered). External sources support missing time from erosion and unconformities. Revision round 1: the PRI record now states the passage that backs the tested claim (page re-opened 2026-10-14), and the hint no longer names both reasons in the key. Second review cycle (reviser round 1, 2026-10-14): key reworded from the metaphor \"erosion can erase time\" to \"erosion can remove layers\"; optional suggestion applied: choice d (sea fossils) retired and new choice e added. Departure from the suggested e (\"measure from the bottom of the canyon instead\"): the new e targets a real misconception, that one kind of rock piles up at one steady rate, which the explanation already rebuts. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 92, 103 / PDF 128, 139; re-opened PRI \"Absolute age dating\", NPS Grand Canyon geology and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: PRI external record now states the thickness-to-years passage it actually backs"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint that does not name both reasons in the keyed choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key says \"erosion can remove layers\"; choice d retired, new choice e (same rock type means a steady rate)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q07",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1"
+      ],
+      "conceptTags": [
+        "lateral-continuity",
+        "erosion"
+      ],
+      "familyId": "L08-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "On both sides of a river canyon, the same red, tan and gray layers appear in the same order and with the same thicknesses. What does the principle of lateral continuity let you conclude about the red layer on the two sides?",
+      "accessiblePrompt": "On both sides of a river canyon, the same red, tan and gray layers appear in the same order and with the same thicknesses. What does the principle of lateral continuity let you conclude about the red layer on the two sides of the canyon?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is one layer of the same age, later cut through by the river.",
+          "rationale": "Correct. Matching layers in the same position were laid down as one continuous sheet during the same span of time, and erosion later split it."
+        },
+        {
+          "id": "b",
+          "text": "The red layer on the higher side of the canyon is older.",
+          "rationale": "Which side stands higher doesn't change when the layer formed. Matching layers in the same place in the sequence formed together."
+        },
+        {
+          "id": "c",
+          "text": "The river laid down a separate red layer on each side after carving the canyon.",
+          "rationale": "The canyon cuts through the layers, so the layers came first. A river carving a canyon removes rock rather than building matching layers on both walls."
+        },
+        {
+          "id": "d",
+          "text": "Each side's red layer formed at a different time, since a canyon divides them.",
+          "rationale": "The gap came later, from erosion. Before the river cut down, the layer stretched straight across."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sediment spreads out sideways in a layer until something stops it. When matching layers show up on both sides of a gap, they were one continuous layer that weathering and erosion later cut through. So the red layer is the same age on both sides, and the canyon is younger than all the layers it slices through.",
+      "misconception": "Layers separated by a canyon formed separately or at different times.",
+      "hint": "Which came first: the layers, or the canyon that cuts them?",
+      "followUpId": "L08-Q25",
+      "scope": {
+        "lessonId": "L08",
+        "section": "3. Finding Continuity in Rock Strata",
+        "pages": {
+          "printed": [
+            94
+          ],
+          "pdf": [
+            130
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            94
+          ],
+          "pdfPages": [
+            130
+          ],
+          "locator": "Section 3. Finding Continuity in Rock Strata, Figure 3",
+          "supports": "Layers deposited sideways until blocked were once continuous; when erosion cuts a gap, matching layers on either side are the same age."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 94 / PDF 130 (rendered, Figure 3). Revision round 1: the key says 'one layer of the same age' rather than 'formed at one time', since a layer builds up over a span of time. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 94 / PDF 130; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key now says 'one layer of the same age' instead of 'formed at one time'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q08",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O1"
+      ],
+      "conceptTags": [
+        "lateral-continuity",
+        "evidence"
+      ],
+      "familyId": "L08-F03",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A tan layer shows up on both sides of a wide valley. Which observations would support the idea that the two parts were once one continuous layer? Select all that apply.",
+      "accessiblePrompt": "A tan layer shows up on both sides of a wide valley. Which observations would support the idea that the two parts were once one continuous layer? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both parts match in rock type, color and thickness.",
+          "rationale": "Correct. Matching rock type, color and thickness suggest the same sediment settled in one continuous sheet."
+        },
+        {
+          "id": "c",
+          "text": "Both parts have the same layers above and below them.",
+          "rationale": "Correct. Sitting in the same place in the sequence is strong evidence the parts formed together."
+        },
+        {
+          "id": "d",
+          "text": "The valley between the two parts is very deep.",
+          "rationale": "A deep valley shows a lot of erosion happened, but it says nothing about whether the two parts match."
+        },
+        {
+          "id": "f",
+          "text": "Both parts contain fossils of some kind.",
+          "rationale": "Many layers hold fossils. Only the same species, in the same place in the sequence, would link the two parts; fossils of any kind don't."
+        },
+        {
+          "id": "g",
+          "text": "Both parts have cracks running through them.",
+          "rationale": "Cracks can form in almost any rock long after it hardens, so sharing cracks doesn't show the two parts were once one layer."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "To argue that layers were once connected, geologists look for matching features: the same rock type, color and thickness, and the same place in the sequence of layers. When several clues line up, the best explanation is one layer that erosion later cut apart.",
+      "misconception": "Any feature of the landscape counts as evidence that two layers match.",
+      "hint": "Which clues would be unlikely to match by chance if the two parts were different layers?",
+      "followUpId": "L08-Q17",
+      "scope": {
+        "lessonId": "L08",
+        "section": "3. Finding Continuity in Rock Strata",
+        "pages": {
+          "printed": [
+            94
+          ],
+          "pdf": [
+            130
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            94
+          ],
+          "pdfPages": [
+            130
+          ],
+          "locator": "Section 3. Finding Continuity in Rock Strata, Figure 3",
+          "supports": "Layers deposited sideways until blocked were once continuous; when erosion cuts a gap, matching layers on either side are the same age."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 94 / PDF 130 (rendered). Revision round 1 (optional pedagogy suggestion): rock type, color and thickness merged into one choice (a), choice b retired, and a 'fossils of some kind' distractor (f) added, so this multi has two correct of five while the bank's other multis have three. Second review cycle (reviser round 1, 2026-10-14): choice e (plants grow on top) retired as not a real misconception; new choice g (shared cracks), the same kind of trap as f. Still two correct of five. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 94 / PDF 130; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: (lesson-level, optional) now two correct of five with a new fossil distractor, breaking the three-of-five pattern"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice e retired, new choice g (shared cracks)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q09",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "original-horizontality",
+        "tilting"
+      ],
+      "familyId": "L08-F04",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A road cut shows layers of shale and limestone tilted steeply, like books leaning on a shelf. What does the principle of original horizontality tell you about them?",
+      "accessiblePrompt": "A road cut shows layers of shale and limestone tilted steeply, like books leaning on a shelf. What does the principle of original horizontality tell you about these layers?",
+      "limitations": "Sediment can settle on gentle slopes, such as the front of a delta, but whole layers of mud and lime tilted steeply like these point to later movement.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were laid down flat, then tilted later by forces inside Earth.",
+          "rationale": "Correct. Sediment settles in flat or nearly flat layers, so a steep tilt means the layers were moved after they formed."
+        },
+        {
+          "id": "c",
+          "text": "The ground tilted first, and then the mud settled into a tilted shape.",
+          "rationale": "Loose mud can't rest in layers this steep; on sloping ground it slides downhill and fills in toward flat layers. Layers tilted this steeply were moved after they formed."
+        },
+        {
+          "id": "d",
+          "text": "These tilted layers are younger than the flat layers in a nearby hill.",
+          "rationale": "The tilt shows only that the tilting came after these layers formed. It can't compare their age with layers somewhere else."
+        },
+        {
+          "id": "e",
+          "text": "Digging the road cut tipped the layers over.",
+          "rationale": "Digging exposes the layers, but it can't tip thick layers of solid bedrock. The tilt was already there, made long before by slow tectonic forces."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Gravity makes sediment settle in flat or nearly flat layers. So when sedimentary layers are steeply tilted or folded, something happened to them after they formed, usually slow, powerful pushing from colliding tectonic plates. The layers are older than the tilting.",
+      "misconception": "Sedimentary layers can form already tilted, or the tilt was caused by something recent such as digging.",
+      "hint": "How does mud settle when it sinks through calm water?",
+      "followUpId": "L08-Q13",
+      "scope": {
+        "lessonId": "L08",
+        "section": "4. Reading Folded and Tilted Strata",
+        "pages": {
+          "printed": [
+            95
+          ],
+          "pdf": [
+            131
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            95
+          ],
+          "pdfPages": [
+            131
+          ],
+          "locator": "Section 4. Reading Folded and Tilted Strata, Figure 4",
+          "supports": "Sediment is deposited in horizontal layers by gravity; tectonic forces later fold and tilt them, so in folded rock the oldest layer may not be at the bottom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            101
+          ],
+          "pdfPages": [
+            137
+          ],
+          "locator": "Key Science Concept: Reading Folded and Tilted Strata callout",
+          "supports": "Strata that were folded or tilted are older than the event that changed them."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 95, 101 / PDF 131, 137 (rendered). Revision round 1: the rock is now shale and limestone (wind-dune sandstone can form steep cross-beds), and choice c's rationale now rests on loose sediment being unable to stay in layers this steep, not on all sediment settling flat. Second review cycle (reviser round 1, 2026-10-14): choice b retired (it repeated c's \"formed already tilted\" idea); new choice e (digging tipped the layers); choice d reworded without \"always\"/\"any\"; misconception updated. Choice a rationale and the explanation now say \"flat or nearly flat\", matching the lesson-level original-horizontality fix (NPS; L08-RF12). Key unchanged. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 95, 101 / PDF 131, 137; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale now says loose sediment can't rest in layers this steep"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rock changed to shale and limestone (no dune cross-bed loophole); b, c, hint, limitation and accessible prompt updated"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: b retired, new e (digging), d reworded without absolutes, misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q10",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "folding",
+        "overturned-layers",
+        "law-of-superposition"
+      ],
+      "familyId": "L08-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In a tightly folded mountain, part of a fold has flipped completely over. Which statement about the layers in the flipped part is correct?",
+      "accessiblePrompt": "In a tightly folded mountain, part of a fold has been flipped completely upside down. Which statement about the layers in the flipped part is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The oldest layer is now on top of the younger ones.",
+          "rationale": "Correct. In the overturned part the stack reads upside down, so the layer that formed first now lies on top of the younger layers."
+        },
+        {
+          "id": "b",
+          "text": "The bottom layer must still be the oldest one.",
+          "rationale": "Superposition reads straight up only when layers are right-side up. Where a fold has flipped the stack, the bottom layer is now the youngest."
+        },
+        {
+          "id": "c",
+          "text": "Folding changed the layers' ages along with their order.",
+          "rationale": "Folding moves layers but can't change when they formed. Each layer keeps its age; only its position changes."
+        },
+        {
+          "id": "d",
+          "text": "The folding happened before the layers were laid down.",
+          "rationale": "The layers had to exist before they could be bent, so the folding is younger than the layers."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Superposition reads bottom-to-top only when layers are undisturbed or at least right-side up. Tectonic forces can bend layers so far that part of a stack ends up on its side or upside down. In those places, geologists first work out how the layers were folded, then read their order.",
+      "misconception": "The bottom layer is always the oldest, even where layers have been flipped over.",
+      "hint": "Superposition has a condition built in. Does a flipped fold meet it?",
+      "followUpId": "L08-Q26",
+      "scope": {
+        "lessonId": "L08",
+        "section": "4. Reading Folded and Tilted Strata",
+        "pages": {
+          "printed": [
+            95,
+            103
+          ],
+          "pdf": [
+            131,
+            139
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            95
+          ],
+          "pdfPages": [
+            131
+          ],
+          "locator": "Section 4. Reading Folded and Tilted Strata, Figure 4",
+          "supports": "Sediment is deposited in horizontal layers by gravity; tectonic forces later fold and tilt them, so in folded rock the oldest layer may not be at the bottom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            103
+          ],
+          "pdfPages": [
+            139
+          ],
+          "locator": "Lesson Summary",
+          "supports": "In folded rock, the oldest layer may not be at the bottom and the youngest may not be at the top."
+        },
+        {
+          "type": "external",
+          "title": "Stratigraphy",
+          "publisher": "Penn State College of Earth and Mineral Sciences (GEOSC 10: Geology of the National Parks)",
+          "url": "https://courses.ems.psu.edu/geosc10/node/2097",
+          "accessed": "2026-10-17",
+          "supports": "Folding can locally place older rocks on top of younger rocks, and 'up' indicators in the rock show which way was up when it formed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 95, 103 / PDF 131, 139 (rendered, Figure 4). Revision round 1: the key states the overturned order directly (no hedge set against an absolute distractor); the b rationale, explanation and misconception now match p. 95, where superposition is applied once the folding is worked out; difficulty lowered from 3 to 2. Second review cycle (reviser round 1, 2026-10-14): correction-supported: pp. 95 and 103 say only that the oldest layer may not be on the bottom; the keyed \"oldest on top\" in an overturned fold is backed by the Penn State GEOSC 10 page (opened 2026-10-17). The p. 103 record now states that idea, and the scope cites pp. 95 and 103. Prompt, choices and key unchanged. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 95, 103 / PDF 131, 139; re-opened Penn State GEOSC 10 \"Stratigraphy\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: b rationale, explanation and misconception now say superposition reads straight up only for right-side-up layers (p. 95)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reworded without the 'may' hedge; difficulty 3 to 2"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: p. 103 evidence now states the folded-rock idea; scope pp. 95, 103; Penn State GEOSC 10 external record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q11",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "cross-cutting-relationships",
+        "intrusion"
+      ],
+      "familyId": "L08-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A band of igneous rock cuts straight across three sandstone layers. Which formed first?",
+      "accessiblePrompt": "A band of igneous rock cuts straight across three sandstone layers. Which formed first, the sandstone layers or the igneous rock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sandstone layers",
+          "rationale": "Correct. The magma had to push into rock that already existed, so the intrusion that does the cutting is younger."
+        },
+        {
+          "id": "b",
+          "text": "The igneous rock",
+          "rationale": "Its magma came from deep inside Earth, but that doesn't make the intrusion old. It hardened after the magma squeezed into the sandstone, so it is younger."
+        },
+        {
+          "id": "c",
+          "text": "Both formed at the same time",
+          "rationale": "Touching isn't the same as forming together. The igneous band crosses the layers, so the layers were already there."
+        },
+        {
+          "id": "d",
+          "text": "There's no way to tell without fossils",
+          "rationale": "Fossils can help, but they aren't needed here. One rock cutting across another is enough to tell which came first."
+        }
+      ],
+      "answer": "a",
+      "explanation": "By the law of cross-cutting relationships, a feature that cuts across rock is younger than the rock it cuts. Magma squeezed into cracks in the sandstone, then cooled and hardened into an igneous intrusion, so the sandstone was there first.",
+      "misconception": "Igneous rock from deep inside Earth must be older than the layers it cuts.",
+      "hint": "You can't slice a loaf of bread before the loaf exists.",
+      "followUpId": "L08-Q14",
+      "scope": {
+        "lessonId": "L08",
+        "section": "5. Reading Features That Cut Across Strata",
+        "pages": {
+          "printed": [
+            96
+          ],
+          "pdf": [
+            132
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            96
+          ],
+          "pdfPages": [
+            132
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Figure 5A",
+          "supports": "Magma intrudes cracks and hardens into an intrusion, which is younger than the rock it cuts."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 96 / PDF 132 (rendered, Figure 5A). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 96 / PDF 132; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q12",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "cross-cutting-relationships",
+        "intrusion",
+        "fault",
+        "erosion-surface",
+        "misconception-repair"
+      ],
+      "familyId": "L08-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A sign on a rock trail says: \"When erosion, a fault or magma cuts through rock layers, the cut came before the layers.\" What is the best correction?",
+      "accessiblePrompt": "A sign on a rock trail says that when erosion, a fault or magma cuts through rock layers, the cut came before the layers. What is the best correction to the sign?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each cut came after the layers, so it is younger than what it cuts.",
+          "rationale": "Correct. Erosion needs rock to wear away, a fault needs rock to break, and magma needs rock to push into. So every cut is younger than the layers it cuts."
+        },
+        {
+          "id": "b",
+          "text": "Only an intrusion is younger; faults and eroded surfaces came first.",
+          "rationale": "The same rule covers all three. A fault can only break rock that already exists, and erosion can only wear down rock that is already there."
+        },
+        {
+          "id": "c",
+          "text": "Each cut formed at the same time as the layers it touches.",
+          "rationale": "Cutting across a layer shows the layer was already there. Rocks that touch can be very different in age."
+        },
+        {
+          "id": "d",
+          "text": "The sign is right, because deep cuts reach older parts of Earth.",
+          "rationale": "How deep a cut reaches doesn't set its age. A canyon can slice into very old rock, but the carving happened after that rock formed."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The law of cross-cutting relationships always runs one way: the feature that cuts is younger than what it cuts. That holds for surfaces carved by erosion, for faults and for igneous intrusions, because each one needs existing rock to wear down, break or push into. Even printed materials sometimes flip this rule, so check it against how the feature forms.",
+      "misconception": "A cutting feature such as an eroded surface, a fault or an intrusion can be older than the layers it cuts, or the rule covers intrusions only.",
+      "hint": "For each kind of cut, think about how it forms. What does it need to work on?",
+      "followUpId": "L08-Q25",
+      "scope": {
+        "lessonId": "L08",
+        "section": "5. Reading Features That Cut Across Strata",
+        "pages": {
+          "printed": [
+            94,
+            96,
+            97
+          ],
+          "pdf": [
+            130,
+            132,
+            133
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            94
+          ],
+          "pdfPages": [
+            130
+          ],
+          "locator": "Section 3. Finding Continuity in Rock Strata, Figure 3",
+          "supports": "Weathering and erosion carved a gap through layers that were once continuous, so the erosion came after the layers formed."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            96
+          ],
+          "pdfPages": [
+            132
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Figure 5A",
+          "supports": "Magma intrudes cracks and hardens into an intrusion, which is younger than the rock it cuts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            97
+          ],
+          "pdfPages": [
+            133
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Faults, Figure 5B",
+          "supports": "A fault is younger than the rock it cuts; new strata on top are not broken by an older fault; a fault cut by another fault is the older of the two."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            103
+          ],
+          "pdfPages": [
+            139
+          ],
+          "locator": "Lesson Summary",
+          "supports": "Folded or tilted layers are older than the folding; intrusions and faults are younger than the rock they cut; absolute dating gives an igneous rock's age in years."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Principles—Cross-cutting Relationships",
+          "publisher": "U.S. National Park Service",
+          "url": "https://home.nps.gov/articles/geologic-principles-cross-cutting-relationships.htm",
+          "accessed": "2026-10-14",
+          "supports": "Younger rocks or structures cut across older ones: intrusions, faults and erosional surfaces are all younger than the rocks they cut."
+        },
+        {
+          "type": "external",
+          "title": "1. Relative age dating",
+          "publisher": "Paleontological Research Institution, Digital Atlas of Ancient Life",
+          "url": "https://www.digitalatlasofancientlife.org/learn/geological-time/relative-age-dating/",
+          "accessed": "2026-10-14",
+          "supports": "Rocks below are older than rocks above; a rock unit must be older than the unit or feature that cuts it, including an erosional surface."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the reversed Key Science Concept callout on p. 101 (L08-RF1), which states the rule backward for eroded surfaces, faults and intrusions together; the sign wording is original. Revision round 1 (pedagogy review): the sign now carries that general reversed rule, so the item no longer repeats L08-Q11's intrusion-only fact. The science reviewer's pass was on the earlier intrusion-only wording. Drafted from printed pp. 94, 96-97, 101, 103 / PDF 130, 132-133, 137, 139 (rendered; p. 101 at 250 dpi). NPS and PRI pages re-opened 2026-10-14. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 94, 96-97, 103 / PDF 130, 132-133, 139; re-opened NPS cross-cutting and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: sign now states the reversed rule for erosion, faults and intrusions together, distinct from Q11"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q13",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "fault",
+        "intrusion",
+        "folding",
+        "erosion-surface"
+      ],
+      "familyId": "L08-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each clue seen in a rock wall to the event it records.",
+      "accessiblePrompt": "Match each clue seen in a rock wall to the event it records. The events are an igneous intrusion, erosion, a fault, and folding.",
+      "left": [
+        {
+          "id": "offset",
+          "text": "Layers on the two sides of a crack no longer line up.",
+          "rationale": "Fault: the rock broke and the two sides moved, shifting the layers."
+        },
+        {
+          "id": "sheet",
+          "text": "A sheet of once-melted rock slices across several layers.",
+          "rationale": "Igneous intrusion: magma squeezed into cracks and hardened."
+        },
+        {
+          "id": "waves",
+          "text": "Layers curve up and down like a rumpled rug.",
+          "rationale": "Folding: tectonic forces bent the layers after they formed."
+        },
+        {
+          "id": "worn",
+          "text": "An uneven, worn surface cuts off the tops of older layers, and newer layers rest on it.",
+          "rationale": "Erosion: the older layers were worn down before new layers settled on top."
+        }
+      ],
+      "right": [
+        {
+          "id": "intrusion",
+          "text": "Igneous intrusion"
+        },
+        {
+          "id": "erosion",
+          "text": "Erosion"
+        },
+        {
+          "id": "fault",
+          "text": "Fault"
+        },
+        {
+          "id": "fold",
+          "text": "Folding"
+        }
+      ],
+      "answer": {
+        "offset": "fault",
+        "sheet": "intrusion",
+        "waves": "fold",
+        "worn": "erosion"
+      },
+      "explanation": "Each clue records an event that happened after the layers formed. Offset layers record a fault, a sheet of once-melted rock that cuts across layers records an intrusion, waves record folding, and a worn surface that cuts off older layers records a long stretch of erosion. All four are younger than the layers they affect.",
+      "misconception": "Bent, broken or cut layers formed that way, instead of recording later events.",
+      "hint": "Ask what had to happen to flat, unbroken layers to make each clue.",
+      "followUpId": "L08-Q09",
+      "scope": {
+        "lessonId": "L08",
+        "section": "Key Science Concept: Evidence from Relative Dating Methods",
+        "pages": {
+          "printed": [
+            95,
+            96,
+            97,
+            100,
+            101
+          ],
+          "pdf": [
+            131,
+            132,
+            133,
+            136,
+            137
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            95
+          ],
+          "pdfPages": [
+            131
+          ],
+          "locator": "Section 4. Reading Folded and Tilted Strata, Figure 4",
+          "supports": "Sediment is deposited in horizontal layers by gravity; tectonic forces later fold and tilt them, so in folded rock the oldest layer may not be at the bottom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            96
+          ],
+          "pdfPages": [
+            132
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Figure 5A",
+          "supports": "Magma intrudes cracks and hardens into an intrusion, which is younger than the rock it cuts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            97
+          ],
+          "pdfPages": [
+            133
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Faults, Figure 5B",
+          "supports": "A fault is younger than the rock it cuts; new strata on top are not broken by an older fault; a fault cut by another fault is the older of the two."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            100,
+            101
+          ],
+          "pdfPages": [
+            136,
+            137
+          ],
+          "locator": "Key Science Concept: Evidence from Relative Dating Methods",
+          "supports": "A model cross section shows deposition, folding, faulting, erosion and an igneous intrusion, read with relative dating principles."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 95-97, 100-101 / PDF 131-133, 136-137 (rendered). Revision round 1: the erosion clue no longer mentions tilting, so each clue records exactly one event. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 95-97, 100-101 / PDF 131-133, 136-137; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: erosion clue no longer mentions tilting; one clue, one event"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: erosion clue no longer starts with 'Tilted' (science reviewer's wording used)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q14",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "fault",
+        "cross-cutting-relationships",
+        "sequencing-events"
+      ],
+      "familyId": "L08-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A cliff shows layers 1–3. Fault X breaks all three. Fault Y also breaks them and cuts across Fault X, shifting it. Layer 4 lies on top, unbroken by either fault. Put the events in order from first to last.",
+      "accessiblePrompt": "A cliff shows layers 1 to 3. Fault X breaks all three layers. Fault Y also breaks them and cuts across Fault X, shifting it. Layer 4 lies on top and is not broken by either fault. Put the events in order from first to last.",
+      "items": [
+        {
+          "id": "y",
+          "text": "Fault Y forms",
+          "rationale": "Third: Y cuts across X, so X had to exist first."
+        },
+        {
+          "id": "l4",
+          "text": "Layer 4 is laid down",
+          "rationale": "Last: neither fault breaks layer 4, so it formed after both faults."
+        },
+        {
+          "id": "x",
+          "text": "Fault X forms",
+          "rationale": "Second: X breaks layers 1–3, so they were already there, and Y later cuts X."
+        },
+        {
+          "id": "l13",
+          "text": "Layers 1–3 are laid down",
+          "rationale": "First: both faults break these layers, so the layers came before any faulting."
+        }
+      ],
+      "answer": [
+        "l13",
+        "x",
+        "y",
+        "l4"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Apply cross-cutting relationships one feature at a time. Both faults break layers 1–3, so those layers are older than both faults. Fault Y cuts Fault X, so X is older than Y. Layer 4 isn't broken, so it was laid down after the faulting ended.",
+      "misconception": "A fault that is cut by another fault is the younger one, or an unbroken layer on top could be older than the faults below it.",
+      "hint": "For each pair, ask: which one is doing the cutting?",
+      "followUpId": "L08-Q12",
+      "scope": {
+        "lessonId": "L08",
+        "section": "5. Reading Features That Cut Across Strata",
+        "pages": {
+          "printed": [
+            97
+          ],
+          "pdf": [
+            133
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            97
+          ],
+          "pdfPages": [
+            133
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Faults, Figure 5B",
+          "supports": "A fault is younger than the rock it cuts; new strata on top are not broken by an older fault; a fault cut by another fault is the older of the two."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original two-fault scenario. Drafted from printed p. 97 / PDF 133 (rendered, Figure 5B). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 97 / PDF 133; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q15",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O3"
+      ],
+      "conceptTags": [
+        "fossil-succession"
+      ],
+      "familyId": "L08-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "What does the law of fossil succession tell geologists?",
+      "accessiblePrompt": "What does the law of fossil succession tell geologists?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fossil species appear in the same order wherever they occur.",
+          "rationale": "Correct. As life changed, each change was recorded in order in the layers, and that order matches from place to place."
+        },
+        {
+          "id": "b",
+          "text": "Every rock layer on Earth contains the same kinds of fossils.",
+          "rationale": "Different layers hold different fossils, because life changed over time. That difference is what makes fossils useful for dating."
+        },
+        {
+          "id": "c",
+          "text": "The deepest layers hold the largest fossils.",
+          "rationale": "Fossil size has nothing to do with age. Small and large organisms lived throughout Earth's history."
+        },
+        {
+          "id": "d",
+          "text": "Each continent has its own order of fossil species.",
+          "rationale": "The law says the opposite: the sequence matches from place to place, which lets geologists compare layers across continents."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Organisms have changed over time, and their fossils were buried in layers as they lived. Because those changes happened once, in one order, the sequence of fossil species is the same wherever the fossils are found. Geologists use this to match up layers in different places.",
+      "misconception": "Fossils are scattered randomly through layers, or their order is different from place to place.",
+      "hint": "Picture comparing the fossils in a cliff in Ohio with the fossils in a cliff on another continent. What would have to be true for that comparison to tell you anything?",
+      "followUpId": "L08-Q18",
+      "scope": {
+        "lessonId": "L08",
+        "section": "6. Using Fossils to Determine the Age of Strata",
+        "pages": {
+          "printed": [
+            98
+          ],
+          "pdf": [
+            134
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            98
+          ],
+          "pdfPages": [
+            134
+          ],
+          "locator": "Section 6. Using Fossils to Determine the Age of Strata, Figure 6",
+          "supports": "The sequence of changes in organisms recorded by fossils is the same everywhere; younger species appear in higher strata."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 98 / PDF 134 (rendered, Figure 6). Second review cycle (reviser round 1, 2026-10-14): new hint that no longer restates the key; choice c reworded without \"always\". Key unchanged. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 98 / PDF 134; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint that does not restate the key; c reworded without \"always\""
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q16",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O3"
+      ],
+      "conceptTags": [
+        "fossil-succession",
+        "correlation"
+      ],
+      "familyId": "L08-F07",
+      "category": "application",
+      "difficulty": 3,
+      "type": "order",
+      "prompt": "Cliff 1 shows fossil species W, X and Y, in that order from bottom to top. Cliff 2, far away, shows X, Y and Z, in that order from bottom to top. Put all four species in order from oldest to youngest.",
+      "accessiblePrompt": "Cliff 1 shows fossil species W, X and Y, in that order from bottom to top. Cliff 2, far away, shows species X, Y and Z, in that order from bottom to top. Put all four species in order from oldest to youngest.",
+      "conditions": "Both cliffs are undisturbed, and each species appears at the same point in the fossil sequence everywhere it is found.",
+      "items": [
+        {
+          "id": "z",
+          "text": "Species Z",
+          "rationale": "Youngest: it sits above Y in Cliff 2, and Y is above both W and X."
+        },
+        {
+          "id": "x",
+          "text": "Species X",
+          "rationale": "Second: X is above W in Cliff 1 and below Y in both cliffs."
+        },
+        {
+          "id": "w",
+          "text": "Species W",
+          "rationale": "Oldest: it lies below X in Cliff 1, and X lies below the remaining species."
+        },
+        {
+          "id": "y",
+          "text": "Species Y",
+          "rationale": "Third: Y is above X in both cliffs and below Z in Cliff 2."
+        }
+      ],
+      "answer": [
+        "w",
+        "x",
+        "y",
+        "z"
+      ],
+      "ends": [
+        "Oldest",
+        "Youngest"
+      ],
+      "explanation": "X and Y appear in both cliffs in the same order, so they link the two records. W is below X in Cliff 1, and Z is above Y in Cliff 2. Joining them gives W, X, Y, Z. Neither cliff shows all four species, but fossil succession lets geologists stitch the records together.",
+      "misconception": "Fossils from different places can't be compared, so each cliff has to be read on its own.",
+      "hint": "Find the species the two cliffs share and use them to line the cliffs up.",
+      "followUpId": "L08-Q19",
+      "scope": {
+        "lessonId": "L08",
+        "section": "6. Using Fossils to Determine the Age of Strata",
+        "pages": {
+          "printed": [
+            98
+          ],
+          "pdf": [
+            134
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            98
+          ],
+          "pdfPages": [
+            134
+          ],
+          "locator": "Section 6. Using Fossils to Determine the Age of Strata, Figure 6",
+          "supports": "The sequence of changes in organisms recorded by fossils is the same everywhere; younger species appear in higher strata."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            101
+          ],
+          "pdfPages": [
+            137
+          ],
+          "locator": "Key Science Concept: Using Fossils to Determine Age callout",
+          "supports": "Strata from different places with the same kinds of fossils are taken to be the same age."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original W-X-Y-Z correlation. Drafted from printed pp. 98, 101 / PDF 134, 137 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 98, 101 / PDF 134, 137; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q17",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O3"
+      ],
+      "conceptTags": [
+        "index-fossil",
+        "correlation",
+        "rock-type-vs-age"
+      ],
+      "familyId": "L08-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A gray shale in one country and a reddish sandstone in another look nothing alike, but both hold the same trilobite species, which lived for only a few million years. What is the best conclusion?",
+      "accessiblePrompt": "A gray shale in one country and a reddish sandstone in another country look nothing alike, but both contain fossils of the same trilobite species, which lived for only a few million years. What is the best conclusion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The two layers formed at about the same time.",
+          "rationale": "Correct. A short-lived species narrows both layers to the same small slice of geologic time, even though different sediments built them."
+        },
+        {
+          "id": "b",
+          "text": "They can't be the same age, since they are different rocks.",
+          "rationale": "Different sediments pile up in different places at the same time: mud in calm water, sand near a shore. Rock type tells about the setting, not the time."
+        },
+        {
+          "id": "c",
+          "text": "They formed in exactly the same year.",
+          "rationale": "A species that lived a few million years only narrows the age to that span. Fossils can't pick out a single year."
+        },
+        {
+          "id": "d",
+          "text": "The shale is older, because shale forms from finer mud.",
+          "rationale": "Grain size reflects how the sediment was carried and settled, not when. It doesn't make one layer older."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Index fossils match layers by time, not by looks. Because this trilobite species lived only briefly, any layer holding it formed during that short span. The two layers are about the same age, even though one formed from mud and the other from sand.",
+      "misconception": "Layers must look alike to be the same age, or matching fossils give an exact date.",
+      "hint": "Which tells you more about time here: the kind of rock, or the fossil inside it?",
+      "followUpId": "L08-Q19",
+      "scope": {
+        "lessonId": "L08",
+        "section": "6. Using Fossils to Determine the Age of Strata",
+        "pages": {
+          "printed": [
+            98,
+            99
+          ],
+          "pdf": [
+            134,
+            135
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            99
+          ],
+          "pdfPages": [
+            135
+          ],
+          "locator": "Section 6, Index Fossils",
+          "supports": "Index fossils are widespread, easy to identify, and come from organisms that existed for a short time; long-lived organisms occur in too many strata to tell layers apart."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            98
+          ],
+          "pdfPages": [
+            134
+          ],
+          "locator": "Section 6, trilobite photo caption",
+          "supports": "Finding the same fossil in two places means the rock at both is approximately the same age."
+        },
+        {
+          "type": "external",
+          "title": "Biostratigraphy – Biozones and Zone Fossils",
+          "publisher": "Geosciences LibreTexts (University of California, Davis, GEL 109)",
+          "url": "https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_109:_Sediments_and_Strata_(Sumner)/Textbook_Construction/Biostratigraphy__Biozones_and_Zone_Fossils",
+          "accessed": "2026-10-14",
+          "supports": "A good index fossil has a short geologic range and a wide distribution; finding one dates a rock unit to a small span of time with an error range, not to an exact date."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Keyed to 'about the same time' per L08-RF2. Drafted from printed pp. 98-99 / PDF 134-135 (rendered). Revision round 1: follow-up now L08-Q19 (choosing an index fossil from data). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 98-99 / PDF 134-135; re-opened LibreTexts biostratigraphy and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L08-Q19 (choosing an index fossil from data)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q18",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O3"
+      ],
+      "conceptTags": [
+        "index-fossil"
+      ],
+      "familyId": "L08-F08",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "Which traits make a fossil useful as an index fossil? Select all that apply.",
+      "accessiblePrompt": "Which traits make a fossil useful as an index fossil? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The species lived for a short span of geologic time.",
+          "rationale": "Correct. A short span means finding the fossil narrows the layer's age a lot."
+        },
+        {
+          "id": "b",
+          "text": "Its fossils are found over a wide area, such as oceans worldwide.",
+          "rationale": "Correct. A wide range lets the same fossil link layers in many places."
+        },
+        {
+          "id": "c",
+          "text": "It is easy to recognize and tell apart from similar species.",
+          "rationale": "Correct. If it is easy to identify, geologists won't mistake it for a look-alike from another time."
+        },
+        {
+          "id": "d",
+          "text": "Its kind of organism lasted, barely changed, for hundreds of millions of years.",
+          "rationale": "A kind of organism that lasted that long shows up in layers of many different ages, so finding it barely narrows the age."
+        },
+        {
+          "id": "f",
+          "text": "Its fossils are big enough to see without a microscope.",
+          "rationale": "Size isn't one of the tests. Most foraminifera are too small to see clearly without a microscope, yet they make excellent index fossils."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "A good index fossil works like a time stamp. A short time span narrows the age, a wide range lets geologists find it in many places, and easy identification keeps it from being confused with a look-alike from another time. Ocean dwellers such as ammonites, graptolites and foraminifera often fit.",
+      "misconception": "The longer a kind of organism lasted, or the bigger its fossils are, the more useful they are for dating layers.",
+      "hint": "Imagine using one fossil to match two cliffs on different continents and narrow their age. What would make that work?",
+      "followUpId": "L08-Q17",
+      "scope": {
+        "lessonId": "L08",
+        "section": "6. Using Fossils to Determine the Age of Strata",
+        "pages": {
+          "printed": [
+            99
+          ],
+          "pdf": [
+            135
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            99
+          ],
+          "pdfPages": [
+            135
+          ],
+          "locator": "Section 6, Index Fossils",
+          "supports": "Index fossils are widespread, easy to identify, and come from organisms that existed for a short time; long-lived organisms occur in too many strata to tell layers apart."
+        },
+        {
+          "type": "external",
+          "title": "Biostratigraphy – Biozones and Zone Fossils",
+          "publisher": "Geosciences LibreTexts (University of California, Davis, GEL 109)",
+          "url": "https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_109:_Sediments_and_Strata_(Sumner)/Textbook_Construction/Biostratigraphy__Biozones_and_Zone_Fossils",
+          "accessed": "2026-10-14",
+          "supports": "A good index fossil has a short geologic range and a wide distribution; finding one dates a rock unit to a small span of time with an error range, not to an exact date."
+        },
+        {
+          "type": "external",
+          "title": "Fossil Record of Foraminifera",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/foram/foramfr.html",
+          "accessed": "2026-10-17",
+          "supports": "Most foraminifera are small enough to be hard to see, yet many species were short-lived, so a paleontologist can tell the geologic age of a rock from them; their small size makes them more useful than larger fossils for work such as drilling."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 99 / PDF 135 (rendered). Three correct of five. Revision round 1: choice d now describes a kind of organism, not a single species, lasting hundreds of millions of years (p. 99 speaks of types of organisms); new hint; follow-up now L08-Q17. Second review cycle (reviser round 1, 2026-10-14): choice e (one small lake) retired because it mirrored key b and repeated L08-Q19's Fossil A; new choice f (fossil size), drawing on p. 99 (foraminifera made tiny shells) and the UCMP fossil-record page (opened 2026-10-17). Misconception updated. Still three correct of five. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 99 / PDF 135; re-opened LibreTexts biostratigraphy, UCMP \"Fossil Record of Foraminifera\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d now describes a kind of organism, not one species, lasting hundreds of millions of years"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint that does not list the keyed traits; d reworded; follow-up now L08-Q17"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: e retired, new f (fossil size) with UCMP support; misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q19",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O3"
+      ],
+      "conceptTags": [
+        "index-fossil",
+        "data-interpretation"
+      ],
+      "familyId": "L08-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The table describes four kinds of fossils. Which would make the best index fossil for matching rock layers on different continents?",
+      "accessiblePrompt": "A table describes four kinds of fossils. Fossil A, a coiled shell: that kind of organism existed for about 1 million years, and its fossils are found only in one small inland lake. Fossil B, a spiral shell: that kind existed for about 2 million years, and its fossils are found in ocean rocks on every continent. Fossil C, a clam: that kind existed for about 250 million years, and its fossils are found in ocean rocks on every continent. Fossil D, a coral: that kind existed for about 40 million years, and its fossils are found in one reef region of one ocean. Which would make the best index fossil for matching rock layers on different continents?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Four kinds of fossils",
+        "alt": "A table of four kinds of fossils. Fossil A, a coiled shell: that kind of organism existed for about 1 million years, and its fossils are found only in one small inland lake. Fossil B, a spiral shell: that kind existed for about 2 million years, and its fossils are found in ocean rocks on every continent. Fossil C, a clam: that kind existed for about 250 million years, and its fossils are found in ocean rocks on every continent. Fossil D, a coral: that kind existed for about 40 million years, and its fossils are found in one reef region of one ocean.",
+        "columns": [
+          "Fossil",
+          "How long that kind of organism existed",
+          "Where its fossils are found"
+        ],
+        "rows": [
+          [
+            "A (coiled shell)",
+            "About 1 million years",
+            "One small inland lake"
+          ],
+          [
+            "B (spiral shell)",
+            "About 2 million years",
+            "Ocean rocks on every continent"
+          ],
+          [
+            "C (clam)",
+            "About 250 million years",
+            "Ocean rocks on every continent"
+          ],
+          [
+            "D (coral)",
+            "About 40 million years",
+            "One reef region of one ocean"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fossil A",
+          "rationale": "Its short time span helps, but it is found in only one lake, so it can't link layers on different continents."
+        },
+        {
+          "id": "b",
+          "text": "Fossil B",
+          "rationale": "Correct. That kind of organism existed only briefly and spread worldwide, so it narrows the age and can be found in many places."
+        },
+        {
+          "id": "c",
+          "text": "Fossil C",
+          "rationale": "This kind of clam is found everywhere, but it lasted 250 million years. Finding it only says a layer is somewhere in that huge span."
+        },
+        {
+          "id": "d",
+          "text": "Fossil D",
+          "rationale": "It existed a fairly long time and stayed in one region, so it fails both tests."
+        }
+      ],
+      "answer": "b",
+      "explanation": "An index fossil needs both a short time span and a wide range. Fossil B is the only one with both, so finding it in two places tells geologists the layers formed within the same couple of million years.",
+      "misconception": "Being found everywhere is enough, no matter how long that kind of organism existed.",
+      "hint": "Check both columns. The best choice has to pass two tests.",
+      "followUpId": "L08-Q15",
+      "scope": {
+        "lessonId": "L08",
+        "section": "6. Using Fossils to Determine the Age of Strata",
+        "pages": {
+          "printed": [
+            99
+          ],
+          "pdf": [
+            135
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            99
+          ],
+          "pdfPages": [
+            135
+          ],
+          "locator": "Section 6, Index Fossils",
+          "supports": "Index fossils are widespread, easy to identify, and come from organisms that existed for a short time; long-lived organisms occur in too many strata to tell layers apart."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented fossil data. Revision round 1: the four entries now describe kinds of organisms rather than single species, since one species lasting 40 or 250 million years is unrealistic (p. 99 speaks of types of organisms); the numbers are unchanged. Drafted from printed p. 99 / PDF 135 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 99 / PDF 135; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt, table, alt and rationales now describe kinds of organisms, not species"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: entries renamed Fossil A-D with 'how long that kind of organism existed'; numbers kept"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q20",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O4"
+      ],
+      "conceptTags": [
+        "half-life",
+        "radioactive-decay"
+      ],
+      "familyId": "L08-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "numeric",
+      "prompt": "In a model mineral, 1,000 radioactive parent atoms are trapped when it crystallizes. Their half-life is 1 million years. How many parent atoms would you expect to remain after 2 million years?",
+      "accessiblePrompt": "In a model mineral, 1,000 radioactive parent atoms are trapped when it crystallizes. Their half-life is 1 million years. How many of the parent atoms would you expect to remain after 2 million years?",
+      "units": "atoms",
+      "conditions": "Assume no atoms leak into or out of the mineral (a closed system).",
+      "limitations": "Each atom decays at a random moment; the halving pattern describes what large numbers of atoms do.",
+      "answer": 250,
+      "tolerance": 0,
+      "unit": "atoms",
+      "workedSolution": "2 million years ÷ 1 million years per half-life = 2 half-lives. After the first half-life: 1,000 ÷ 2 = 500 atoms. After the second: 500 ÷ 2 = 250 atoms remain.",
+      "explanation": "A half-life is the time it takes for half of the radioactive atoms present to decay. Each half-life cuts what is left in half again, so the count drops from 1,000 to 500 to 250. The decayed atoms didn't vanish; they became daughter atoms of another kind.",
+      "misconception": "After two half-lives, all of the radioactive atoms are gone.",
+      "hint": "Halve the number once for each half-life that passes.",
+      "followUpId": "L08-Q22",
+      "scope": {
+        "lessonId": "L08",
+        "section": "7. Finding the Absolute Age of Rock",
+        "pages": {
+          "printed": [
+            102
+          ],
+          "pdf": [
+            138
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            102
+          ],
+          "pdfPages": [
+            138
+          ],
+          "locator": "Section 7. Finding the Absolute Age of Rock, Figure 7",
+          "supports": "Radioactive atoms trapped when minerals form from magma decay at a constant rate; a half-life is the time for half of them to decay, leaving 50 percent, then 25 percent, then 12.5 percent."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented model numbers; arithmetic checked (1,000 / 2 / 2 = 250). Drafted from printed p. 102 / PDF 138 (rendered, Figure 7). Revision round 1 (optional science suggestion): the prompt asks how many atoms you would expect to remain, since decay is random. Second review cycle (reviser round 1, 2026-10-14): no item change; \"parent\" and \"daughter\" atoms are now defined in the glossary entry for radioactive decay and in the O4 card (lesson-level pedagogy fix). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 102 / PDF 138; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: (optional) prompt asks how many atoms you would expect to remain, since decay is random"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q21",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O4"
+      ],
+      "conceptTags": [
+        "half-life",
+        "radiometric-dating",
+        "calculation"
+      ],
+      "familyId": "L08-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "Potassium-40 has a half-life of about 1.25 billion years. A mineral from an old lava flow still has 12.5% of the potassium-40 it started with. About how old is the mineral, in billions of years?",
+      "accessiblePrompt": "Potassium-40 has a half-life of about 1.25 billion years. A mineral from an old lava flow still has 12.5 percent of the potassium-40 it started with. About how old is the mineral, in billions of years?",
+      "units": "billion years",
+      "conditions": "Assume the mineral has kept all of its atoms since it crystallized (a closed system).",
+      "limitations": "Real potassium-40 decays into two different daughter atoms, and geologists check for leaks such as escaping argon gas. This model ignores those details.",
+      "answer": 3.75,
+      "tolerance": 0.05,
+      "unit": "billion years",
+      "workedSolution": "Count halvings from 100%: 100% → 50% → 25% → 12.5% is 3 half-lives. Age = 3 × 1.25 billion years = 3.75 billion years.",
+      "explanation": "Work backward from the fraction left. Each half-life halves what remains, so 12.5% means three half-lives have passed. Multiplying by the half-life turns that count into time: about 3.75 billion years since the lava's crystals formed.",
+      "misconception": "Percent remaining converts straight into years, as if decay took away the same amount in every time step.",
+      "hint": "How many times do you halve 100% to reach 12.5%?",
+      "followUpId": "L08-Q24",
+      "scope": {
+        "lessonId": "L08",
+        "section": "7. Finding the Absolute Age of Rock",
+        "pages": {
+          "printed": [
+            102
+          ],
+          "pdf": [
+            138
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            102
+          ],
+          "pdfPages": [
+            138
+          ],
+          "locator": "Section 7. Finding the Absolute Age of Rock, Figure 7",
+          "supports": "Radioactive atoms trapped when minerals form from magma decay at a constant rate; a half-life is the time for half of them to decay, leaving 50 percent, then 25 percent, then 12.5 percent."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Radiometric Time Scale",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/radiometric.html",
+          "accessed": "2026-10-14",
+          "supports": "Chiefly igneous rocks can be dated directly; sedimentary rocks are placed in time by bracketing them between dated igneous rocks. Half-lives: uranium-235 about 704 million years, potassium-40 about 1.25 billion years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Half-life value from USGS; scenario invented. Arithmetic checked (3 x 1.25 = 3.75). Drafted from printed p. 102 / PDF 138 (rendered). Second review cycle (reviser round 1, 2026-10-14): optional nit applied: the units field now reads \"billion years\", matching unit. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 102 / PDF 138; re-opened USGS \"Radiometric Time Scale\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: (optional nit) units field now \"billion years\", matching unit"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q22",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O4"
+      ],
+      "conceptTags": [
+        "radiometric-dating",
+        "crystallization",
+        "constant-decay-rate"
+      ],
+      "familyId": "L08-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Radiometric dating gives the age of an igneous rock. What event starts its radiometric \"clock\"?",
+      "accessiblePrompt": "Radiometric dating gives the age of an igneous rock. What event starts its radiometric clock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Crystals form in cooling magma and trap radioactive atoms.",
+          "rationale": "Correct. Once atoms are locked into crystals, the decay products build up there, so the clock counts from crystallization."
+        },
+        {
+          "id": "b",
+          "text": "The radioactive atoms in it are created for the first time.",
+          "rationale": "Those atoms were made long before the rock existed. The clock measures when the crystals formed, not where the atoms came from."
+        },
+        {
+          "id": "c",
+          "text": "A geologist crushes the sample into powder in a laboratory.",
+          "rationale": "Crushing prepares the sample for measuring. It doesn't reset or start anything."
+        },
+        {
+          "id": "d",
+          "text": "The rock cools enough for radioactive decay to begin.",
+          "rationale": "Decay goes on at a steady rate whether rock is hot or cold. Cooling matters because crystals form and trap atoms, not because decay switches on."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When magma cools, minerals crystallize and trap radioactive atoms inside them. From then on, those atoms decay at a steady rate into daughter atoms that build up in the crystal. Comparing how many parent atoms are left with how many daughter atoms have built up shows how long ago the crystals formed. Heat and pressure don't speed up or slow down that decay.",
+      "misconception": "Radioactive decay switches on, or speeds up, only under certain conditions such as cooling.",
+      "hint": "What has to happen so that the radioactive atoms, and the atoms they turn into, stay together in one place where they can be counted?",
+      "followUpId": "L08-Q20",
+      "scope": {
+        "lessonId": "L08",
+        "section": "7. Finding the Absolute Age of Rock",
+        "pages": {
+          "printed": [
+            102
+          ],
+          "pdf": [
+            138
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            102
+          ],
+          "pdfPages": [
+            138
+          ],
+          "locator": "Section 7. Finding the Absolute Age of Rock, Figure 7",
+          "supports": "Radioactive atoms trapped when minerals form from magma decay at a constant rate; a half-life is the time for half of them to decay, leaving 50 percent, then 25 percent, then 12.5 percent."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            102
+          ],
+          "pdfPages": [
+            138
+          ],
+          "locator": "Section 7, Figure 7 caption",
+          "supports": "The proportions of uranium and its decay product, lead, in an igneous rock let geologists work out the rock's age in years."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Radiometric Time Scale",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/radiometric.html",
+          "accessed": "2026-10-14",
+          "supports": "Chiefly igneous rocks can be dated directly; sedimentary rocks are placed in time by bracketing them between dated igneous rocks. Half-lives: uranium-235 about 704 million years, potassium-40 about 1.25 billion years."
+        },
+        {
+          "type": "external",
+          "title": "2. Absolute age dating",
+          "publisher": "Paleontological Research Institution, Digital Atlas of Ancient Life",
+          "url": "https://www.digitalatlasofancientlife.org/learn/geological-time/absolute-age-dating/",
+          "accessed": "2026-10-14",
+          "supports": "A parent isotope decays at a constant rate; a date from a mineral grain in sedimentary rock gives only the maximum possible age of that layer; unconformities represent missing time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 102 / PDF 138 (rendered). Revision round 1: new hint that does not restate the key; key shortened so it is no longer the longest choice. Second review cycle (reviser round 1, 2026-10-14): explanation now describes comparing parent and daughter atoms, as the p. 102 Figure 7 caption does (record added); new hint that no longer rules out choice d, the targeted misconception, and avoids the terms parent and daughter. Key, choices unchanged. The optional limitation (slowly cooled rock starts its clock once crystals are cool enough to keep daughter atoms) was NOT added: I could not open an authoritative source for it in this session (the USGS Geochron documentation returned an error and Britannica refused the request), and the guide requires an opened external record for a claim beyond the textbook. Left for the verifier or a teacher. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed p. 102 / PDF 138; re-opened USGS \"Radiometric Time Scale\", PRI \"Absolute age dating\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint that does not restate the key; key shortened so it is no longer the longest choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation now compares parent and daughter atoms (p. 102 Figure 7 caption); optional limitation not added, no source opened"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint that no longer rules out choice d"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q23",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O4"
+      ],
+      "conceptTags": [
+        "radiometric-dating",
+        "igneous-vs-sedimentary"
+      ],
+      "familyId": "L08-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A cliff has layers of sandstone, shale and limestone, plus one thin layer of volcanic ash. A geologist wants an age in years. Which layer should she sample for radiometric dating?",
+      "accessiblePrompt": "A cliff has layers of sandstone, shale and limestone, plus one thin layer of volcanic ash. A geologist wants an age in years. Which layer should she sample for radiometric dating?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The volcanic ash, because its crystals grew from magma about when it erupted",
+          "rationale": "Correct. Its crystals grew from magma shortly before or during the eruption, so their clocks started at about the time the ash layer was laid down."
+        },
+        {
+          "id": "b",
+          "text": "The sandstone, because its sand grains formed when the layer was laid down",
+          "rationale": "Sand grains are bits of older rock that wore away. Any clock inside them started when that older rock formed, not when the sandstone was laid down."
+        },
+        {
+          "id": "c",
+          "text": "The thickest layer, because it holds the most atoms",
+          "rationale": "Thickness doesn't matter. What matters is whether the crystals formed at about the time you want to date."
+        },
+        {
+          "id": "d",
+          "text": "Any layer, because every rock's clock started at the moment its layer formed",
+          "rationale": "Only crystals that grew from magma when the layer formed have clocks set at that time. Sandstone and shale are made of grains worn from older rock, and limestone rarely holds a usable clock."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Radiometric dating works best on igneous rock, such as volcanic ash, whose crystals grew from magma at about the time the layer formed. Sandstone and shale are built from bits of older rock, so their grains carry older clocks, and limestone rarely holds a usable clock. That's why geologists date volcanic layers and use them to set age limits for the sedimentary layers around them.",
+      "misconception": "Any rock layer can be dated directly with radiometric dating.",
+      "hint": "Which layer's crystals formed at about the same time the layer did?",
+      "followUpId": "L08-Q04",
+      "scope": {
+        "lessonId": "L08",
+        "section": "7. Finding the Absolute Age of Rock",
+        "pages": {
+          "printed": [
+            92,
+            102
+          ],
+          "pdf": [
+            128,
+            138
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            92
+          ],
+          "pdfPages": [
+            128
+          ],
+          "locator": "Section 1. Finding the Ages of Rock Layers, Figure 1",
+          "supports": "Relative dating gives the order of events (which strata are older or younger); absolute dating gives the age of a rock or event in years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            102
+          ],
+          "pdfPages": [
+            138
+          ],
+          "locator": "Section 7. Finding the Absolute Age of Rock",
+          "supports": "Absolute dating is used on igneous rock; dating the volcanic layers in a cliff helps estimate the ages of the other layers."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Radiometric Time Scale",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/radiometric.html",
+          "accessed": "2026-10-14",
+          "supports": "Chiefly igneous rocks can be dated directly; sedimentary rocks are placed in time by bracketing them between dated igneous rocks. Half-lives: uranium-235 about 704 million years, potassium-40 about 1.25 billion years."
+        },
+        {
+          "type": "external",
+          "title": "2. Absolute age dating",
+          "publisher": "Paleontological Research Institution, Digital Atlas of Ancient Life",
+          "url": "https://www.digitalatlasofancientlife.org/learn/geological-time/absolute-age-dating/",
+          "accessed": "2026-10-14",
+          "supports": "A parent isotope decays at a constant rate; a date from a mineral grain in sedimentary rock gives only the maximum possible age of that layer; unconformities represent missing time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Correction-supported: the textbook does not explain why sedimentary grains give older ages (L08-RF4); USGS and PRI support it. Drafted from printed pp. 92, 102 / PDF 128, 138 (rendered). Revision round 1: the key says the ash crystals grew at about the time of the eruption (many grow in the magma shortly before it), the rationales and explanation no longer say all sedimentary rock is made of older rock fragments (limestone forms mostly from shells and minerals that settle out of water), and the follow-up now points to L08-Q04. Second review cycle (reviser round 1, 2026-10-14): optional suggestion applied: the accessible prompt no longer adds \"and why?\", so it asks the same question as the prompt (the choices carry the reasons). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 92, 102 / PDF 128, 138; re-opened USGS \"Radiometric Time Scale\", PRI \"Absolute age dating\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key says crystals grew about when the ash erupted; d rationale, explanation and hint no longer overgeneralize sedimentary rock"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L08-Q04 (sorting relative and absolute findings)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: (optional) accessible prompt now asks the same question as the prompt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q24",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O4",
+        "L08-O5"
+      ],
+      "conceptTags": [
+        "bracketing",
+        "absolute-dating",
+        "law-of-superposition"
+      ],
+      "familyId": "L08-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In an undisturbed cliff, a sandstone lies between two volcanic ash layers. The lower ash is dated at 82 million years and the upper ash at 79 million years. What is the best statement about the sandstone's age?",
+      "accessiblePrompt": "In an undisturbed cliff, a sandstone layer lies between two volcanic ash layers. The ash layer beneath the sandstone is dated at 82 million years, and the ash layer on top of it is dated at 79 million years. What is the best statement about the sandstone's age?",
+      "diagram": {
+        "kind": "layers",
+        "caption": "Two dated ash layers around a sandstone",
+        "alt": "A column of four layers, listed from top to bottom: an upper volcanic ash layer dated at 79 million years; a sandstone layer with no date; a lower volcanic ash layer dated at 82 million years; and a shale layer at the bottom.",
+        "layers": [
+          {
+            "id": "ashU",
+            "label": "Ash: 79 million years",
+            "texture": "volcanic-ash"
+          },
+          {
+            "id": "ss",
+            "label": "Sandstone: not dated",
+            "texture": "sandstone"
+          },
+          {
+            "id": "ashL",
+            "label": "Ash: 82 million years",
+            "texture": "volcanic-ash"
+          },
+          {
+            "id": "sh",
+            "label": "Shale",
+            "texture": "shale"
+          }
+        ]
+      },
+      "conditions": "Both ash layers fell on the surface during eruptions; neither is magma that squeezed in later. The layers are not overturned.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Between about 79 and 82 million years old",
+          "rationale": "Correct. It formed after the lower ash fell and before the upper ash fell, so its age lies between their dates."
+        },
+        {
+          "id": "b",
+          "text": "Exactly 80.5 million years old, halfway between",
+          "rationale": "Nothing says the sand piled up at a steady rate, so the halfway point is a guess. The evidence supports a range, not one number."
+        },
+        {
+          "id": "c",
+          "text": "Older than 82 million years",
+          "rationale": "The sandstone sits on the lower ash, so it formed after that ash fell. It must be younger than 82 million years."
+        },
+        {
+          "id": "d",
+          "text": "Impossible to narrow down without dating the sandstone itself",
+          "rationale": "The dated layers above and below already bracket it. Superposition plus two absolute dates gives a solid range."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Superposition says the sandstone formed after the lower ash and before the upper ash. Radiometric dates on the two ash layers turn that order into numbers, so the sandstone is between about 79 and 82 million years old. This is how geologists give age ranges to sedimentary layers they can't date directly.",
+      "misconception": "Position plus two dates gives an exact date, or sedimentary layers can't be given any age in years.",
+      "hint": "Which ash fell before the sand was laid down, and which fell after?",
+      "followUpId": "L08-Q05",
+      "scope": {
+        "lessonId": "L08",
+        "section": "7. Finding the Absolute Age of Rock",
+        "pages": {
+          "printed": [
+            92,
+            102
+          ],
+          "pdf": [
+            128,
+            138
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            92
+          ],
+          "pdfPages": [
+            128
+          ],
+          "locator": "Section 1. Finding the Ages of Rock Layers, Figure 1",
+          "supports": "Relative dating gives the order of events (which strata are older or younger); absolute dating gives the age of a rock or event in years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            102
+          ],
+          "pdfPages": [
+            138
+          ],
+          "locator": "Section 7. Finding the Absolute Age of Rock",
+          "supports": "Dating the volcanic layers in a cliff gives a better idea of how old the other layers are."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Radiometric Time Scale",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/radiometric.html",
+          "accessed": "2026-10-14",
+          "supports": "Chiefly igneous rocks can be dated directly; sedimentary rocks are placed in time by bracketing them between dated igneous rocks. Half-lives: uranium-235 about 704 million years, potassium-40 about 1.25 billion years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief mission 'compare evidence without claiming an exact date'. Original dates. Drafted from printed pp. 92, 102 / PDF 128, 138 (rendered). Revision round 1: item text unchanged; the O4 Science Explorer card's worked example now uses 151 and 147 million years, so the card no longer gives this item's 79-82 answer away. Second review cycle (reviser round 1, 2026-10-14): diagram labels shortened to \"Ash: 79 million years\" and \"Ash: 82 million years\" so they no longer clip at the layers renderer's 470-unit viewBox; the alt text still says upper and lower. Prompt, conditions and key unchanged. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 92, 102 / PDF 128, 138; re-opened USGS \"Radiometric Time Scale\" and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: resolved in the lesson file; the O4 card example now uses 151/147 million years so it no longer gives this item's answer away; item text unchanged"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: ash labels shortened so they no longer clip"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q25",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O2",
+        "L08-O5"
+      ],
+      "conceptTags": [
+        "cross-cutting-relationships",
+        "erosion-surface",
+        "folding"
+      ],
+      "familyId": "L08-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A river canyon slices down through rock layers that were folded into waves. The canyon walls are straight and cut cleanly across the bends. Which happened more recently?",
+      "accessiblePrompt": "A river canyon slices down through rock layers that were folded into waves. The canyon walls are straight and cut cleanly across the bends in the layers. Which happened more recently, the folding or the carving of the canyon?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The carving of the canyon",
+          "rationale": "Correct. The canyon cuts across the folds, so the folds were already there. Like a fault or an intrusion, an eroded surface is younger than the rock it cuts."
+        },
+        {
+          "id": "b",
+          "text": "The folding of the layers",
+          "rationale": "If folding came later, the canyon walls would be bent too. Straight walls cutting across the folds show the folding came first."
+        },
+        {
+          "id": "c",
+          "text": "Both happened at the same moment",
+          "rationale": "Folding happens slowly over long periods, and the canyon cuts across the finished folds, so carving came after folding."
+        },
+        {
+          "id": "d",
+          "text": "There's no way to tell",
+          "rationale": "You can tell: erosion leaves a surface that cuts across rock, and the cross-cutting rule applies to it just as it does to faults and intrusions."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Cross-cutting relationships work for erosion too. A canyon or other worn surface that slices across layers formed after those layers, and after any folding that bent them. Here the order is: layers deposited, layers folded, then the river carved the canyon.",
+      "misconception": "Eroded surfaces don't count as cross-cutting features, or folding can come after the erosion that cuts across the folds.",
+      "hint": "Which feature is doing the cutting?",
+      "followUpId": "L08-Q12",
+      "scope": {
+        "lessonId": "L08",
+        "section": "Key Science Concept: Evidence from Relative Dating Methods",
+        "pages": {
+          "printed": [
+            94,
+            100,
+            101
+          ],
+          "pdf": [
+            130,
+            136,
+            137
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            94
+          ],
+          "pdfPages": [
+            130
+          ],
+          "locator": "Section 3. Finding Continuity in Rock Strata, Figure 3",
+          "supports": "Layers deposited sideways until blocked were once continuous; when erosion cuts a gap, matching layers on either side are the same age."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            100,
+            101
+          ],
+          "pdfPages": [
+            136,
+            137
+          ],
+          "locator": "Key Science Concept: Evidence from Relative Dating Methods",
+          "supports": "A model cross section shows deposition, folding, faulting, erosion and an igneous intrusion, read with relative dating principles."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Principles—Cross-cutting Relationships",
+          "publisher": "U.S. National Park Service",
+          "url": "https://home.nps.gov/articles/geologic-principles-cross-cutting-relationships.htm",
+          "accessed": "2026-10-14",
+          "supports": "Younger rocks or structures cut across older ones: intrusions, faults and erosional surfaces are all younger than the rocks they cut."
+        },
+        {
+          "type": "external",
+          "title": "1. Relative age dating",
+          "publisher": "Paleontological Research Institution, Digital Atlas of Ancient Life",
+          "url": "https://www.digitalatlasofancientlife.org/learn/geological-time/relative-age-dating/",
+          "accessed": "2026-10-14",
+          "supports": "Rocks below are older than rocks above; a rock unit must be older than the unit or feature that cuts it, including an erosional surface."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "External sources carry the erosion-surface rule because the p. 101 callout states it backward (L08-RF1). Drafted from printed pp. 94, 100-101 / PDF 130, 136-137 (rendered). Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 94, 100-101 / PDF 130, 136-137; re-opened NPS cross-cutting and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q26",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O5",
+        "L08-O2"
+      ],
+      "conceptTags": [
+        "sequencing-events",
+        "original-horizontality",
+        "cross-cutting-relationships",
+        "erosion-surface"
+      ],
+      "familyId": "L08-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "order",
+      "prompt": "In a cross section, layers 1–3 are tilted and end at a worn, flat surface. Flat layers 4 and 5 lie on that surface. A dike, a sheet of igneous rock, cuts through all five layers. Put the events in order from first to last.",
+      "accessiblePrompt": "In a cross section, layers 1, 2 and 3 are tilted and end at a worn, flat surface. Flat layers 4 and 5 lie on top of that surface. A dike, a sheet of igneous rock, cuts through all five layers. Put the five events in order from first to last.",
+      "items": [
+        {
+          "id": "dike",
+          "text": "A dike forms, cutting all five layers",
+          "rationale": "Last: it cuts layer 5, the youngest layer, so it formed after everything else here."
+        },
+        {
+          "id": "erode",
+          "text": "The tilted layers are worn down to a flat surface",
+          "rationale": "Third: the worn surface cuts across the tilted layers, so it formed after the tilting."
+        },
+        {
+          "id": "dep13",
+          "text": "Layers 1–3 are laid down flat",
+          "rationale": "First: by original horizontality they formed flat before anything tilted them."
+        },
+        {
+          "id": "dep45",
+          "text": "Layers 4 and 5 are laid down",
+          "rationale": "Fourth: they lie flat on the worn surface, so they came after the erosion."
+        },
+        {
+          "id": "tilt",
+          "text": "Layers 1–3 are tilted",
+          "rationale": "Second: the layers had to form flat first, and they were tilted before erosion cut them off."
+        }
+      ],
+      "answer": [
+        "dep13",
+        "tilt",
+        "erode",
+        "dep45",
+        "dike"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Read the story with several rules at once. Original horizontality says layers 1–3 formed flat and were tilted later. The worn surface cuts across the tilted layers, so erosion came next. Layers 4 and 5 rest flat on that surface, so they came after it. The dike cuts all five, so it is the youngest feature.",
+      "misconception": "Events happen in layer order only, ignoring tilting, erosion and intrusions, or a cutting dike formed before the layers it cuts.",
+      "hint": "Take one feature at a time and ask: what had to exist before this could happen?",
+      "followUpId": "L08-Q13",
+      "scope": {
+        "lessonId": "L08",
+        "section": "Key Science Concept: Evidence from Relative Dating Methods",
+        "pages": {
+          "printed": [
+            95,
+            96,
+            100,
+            101
+          ],
+          "pdf": [
+            131,
+            132,
+            136,
+            137
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            95
+          ],
+          "pdfPages": [
+            131
+          ],
+          "locator": "Section 4. Reading Folded and Tilted Strata, Figure 4",
+          "supports": "Sediment is deposited in horizontal layers by gravity; tectonic forces later fold and tilt them, so in folded rock the oldest layer may not be at the bottom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            96
+          ],
+          "pdfPages": [
+            132
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Figure 5A",
+          "supports": "Magma intrudes cracks and hardens into an intrusion, which is younger than the rock it cuts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            100,
+            101
+          ],
+          "pdfPages": [
+            136,
+            137
+          ],
+          "locator": "Key Science Concept: Evidence from Relative Dating Methods",
+          "supports": "A model cross section shows deposition, folding, faulting, erosion and an igneous intrusion, read with relative dating principles."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Principles—Cross-cutting Relationships",
+          "publisher": "U.S. National Park Service",
+          "url": "https://home.nps.gov/articles/geologic-principles-cross-cutting-relationships.htm",
+          "accessed": "2026-10-14",
+          "supports": "Younger rocks or structures cut across older ones: intrusions, faults and erosional surfaces are all younger than the rocks they cut."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original cross section. Drafted from printed pp. 95-96, 100-101 / PDF 131-132, 136-137 (rendered). Revision round 1: the hint no longer lists the events in the keyed order. Renderer note (engine, not content): the layers diagram draws every layer flat and shows the 'tilt' feature only as a text label; the alt text and labels carry the tilt. Second review cycle (reviser round 1, 2026-10-14): the layers diagram was removed (pedagogy fix). The renderer draws every layer as a flat band and cannot draw tilt, so layers 1-3 appeared flat under a flat worn surface and the angular contact, the item's main clue, was invisible; the prompt and accessible prompt state every fact needed. The science reviewer instead proposed keeping the diagram with shorter labels; removal is preferred because shorter labels still leave the picture contradicting its own \"tilted\" labels. If the renderer learns to draw tilt, restore the diagram with the science reviewer's tested labels: \"Layer 5 (flat)\", \"Layer 4 (flat)\", \"Layer 3 (tilted)\", \"Layer 2 (tilted)\", \"Layer 1 (tilted)\", erosion label \"Worn surface\", no tilt feature, caption \"Schematic cross section: labels show which layers are tilted\". The prompt now glosses \"dike\" as a sheet of igneous rock, and the follow-up is L08-Q13 (family F06). Items, answer, ends, hint and explanation unchanged. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 95-96, 100-101 / PDF 131-132, 136-137; re-opened NPS cross-cutting and confirmed the cited claims; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer lists the events in the keyed order"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: diagram removed (pedagogy fix chosen); the tested label set is recorded in notes for a future restore"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: diagram removed, prompt says \"In a cross section\" and glosses dike, follow-up now L08-Q13"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q27",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O5",
+        "L08-O1"
+      ],
+      "conceptTags": [
+        "evidence-and-inference",
+        "law-of-superposition",
+        "original-horizontality",
+        "marine-fossils"
+      ],
+      "familyId": "L08-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A sea cliff has six layers, A (lowest) to F (highest), all tilted at the same angle. B and F are volcanic rock. The rest are sandstone and limestone with fossils of sea animals. Which conclusions does this evidence support? Select all that apply.",
+      "accessiblePrompt": "A sea cliff has six layers, labeled A for the lowest through F for the highest, all tilted at the same angle. Layers B and F are volcanic rock. The other layers are sandstone and limestone containing fossils of sea animals. Which conclusions does this evidence support? Select all that apply.",
+      "conditions": "Nothing in the cliff shows that the layers have been flipped upside down.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Layer A formed before layer F.",
+          "rationale": "Correct. With no sign of overturning, superposition still applies along the tilted stack: the lowest layer, A, formed first."
+        },
+        {
+          "id": "b",
+          "text": "The layers were tilted after they formed.",
+          "rationale": "Correct. Sea-floor sand and lime settle in flat or nearly flat layers, so a tilt shared by the whole stack came later."
+        },
+        {
+          "id": "c",
+          "text": "Part of this area was once covered by the sea.",
+          "rationale": "Correct. Fossils of sea animals in sandstone and limestone show those layers formed on a sea floor."
+        },
+        {
+          "id": "d",
+          "text": "B and F formed at the same time, since both are volcanic.",
+          "rationale": "Layers of the same rock type can form at very different times. Here other layers lie between B and F, so B is older."
+        },
+        {
+          "id": "e",
+          "text": "Each layer took the same number of years to form.",
+          "rationale": "Nothing in the cliff measures how long each layer took. Layers can build up at very different speeds."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Good conclusions stay tied to evidence plus a stated principle. The tilt plus original horizontality shows the layers were tilted later. Position plus superposition shows A is older than F, as long as the stack isn't flipped. Sea fossils show an ocean setting. Rock type alone can't match B and F in time, and nothing here gives years.",
+      "misconception": "Layers made of the same type of rock are the same age, or a cliff shows how long each layer took to form.",
+      "hint": "For each statement, name the clue and the principle behind it. If you can't, it isn't supported.",
+      "followUpId": "L08-Q06",
+      "scope": {
+        "lessonId": "L08",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            90,
+            91,
+            95
+          ],
+          "pdf": [
+            126,
+            127,
+            131
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            90,
+            91
+          ],
+          "pdfPages": [
+            126,
+            127
+          ],
+          "locator": "Introduction, opening cliff photo (layers A to F)",
+          "supports": "A New Zealand sea cliff has tilted layers; B and F are volcanic rock and the others are sandstone and limestone with marine fossils."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            95
+          ],
+          "pdfPages": [
+            131
+          ],
+          "locator": "Section 4. Reading Folded and Tilted Strata, Figure 4",
+          "supports": "Sediment is deposited in horizontal layers by gravity; tectonic forces later fold and tilt them, so in folded rock the oldest layer may not be at the bottom."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Built on the lesson's opening cliff, described in original words. Drafted from printed pp. 90-91, 95 / PDF 126-127, 131 (rendered). Three correct of five. Second review cycle (reviser round 1, 2026-10-14): reviser consistency edit after both reviewers passed the item: choice b's rationale now says \"flat or nearly flat\", matching the lesson-level original-horizontality fix (L08-RF12). Prompt, choices and key unchanged. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 90-91, 95 / PDF 126-127, 131; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L08-Q28",
+      "lessonId": "L08",
+      "objectiveIds": [
+        "L08-O5",
+        "L08-O3"
+      ],
+      "conceptTags": [
+        "evidence-and-inference",
+        "observation",
+        "fossil-succession",
+        "cross-cutting-relationships"
+      ],
+      "familyId": "L08-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "In a cliff, layer D rests on layer C, and a crack runs through both. Sort each statement about the cliff as an observation or an inference.",
+      "accessiblePrompt": "In a cliff, layer D rests on top of layer C, and a crack runs through both layers. Sort each statement about the cliff into one of two groups: an observation, which is seen or measured directly, or an inference, which is a conclusion drawn from observations and scientific principles.",
+      "items": [
+        {
+          "id": "fossil",
+          "text": "Layer C contains trilobite fossils.",
+          "rationale": "Observation: you can see the fossils in the rock."
+        },
+        {
+          "id": "match",
+          "text": "Layer C formed at about the same time as a far-off layer with the same trilobite species.",
+          "rationale": "Inference: no one saw both layers form; it comes from matching fossils plus the law of fossil succession."
+        },
+        {
+          "id": "offset",
+          "text": "Layers on the two sides of the crack are offset by about 3 meters.",
+          "rationale": "Observation: anyone can measure how far the matching layers are shifted."
+        },
+        {
+          "id": "fault",
+          "text": "The crack formed after the layers it offsets.",
+          "rationale": "Inference: it applies cross-cutting relationships to the offset; no one watched the crack form."
+        },
+        {
+          "id": "thick",
+          "text": "Layer D is about 2 meters thick.",
+          "rationale": "Observation: it can be measured with a tape."
+        },
+        {
+          "id": "order",
+          "text": "Layer D formed after layer C.",
+          "rationale": "Inference: it comes from D resting on C plus superposition, and it assumes the layers aren't overturned."
+        }
+      ],
+      "bins": [
+        {
+          "id": "obs",
+          "label": "Observation (seen or measured directly)"
+        },
+        {
+          "id": "inf",
+          "label": "Inference (concluded from evidence)"
+        }
+      ],
+      "answer": {
+        "fossil": "obs",
+        "match": "inf",
+        "offset": "obs",
+        "fault": "inf",
+        "thick": "obs",
+        "order": "inf"
+      },
+      "explanation": "Observations are what you can see, measure or count today: the fossils, the 3-meter offset, the layer's thickness. Inferences apply a principle to observations: fossil succession links layer C to a far-off layer, cross-cutting places the crack after the layers, and superposition puts D after C. Keeping them apart lets others check both the evidence and the reasoning, including assumptions such as the layers not being overturned.",
+      "misconception": "Statements about when a layer or a crack formed are direct observations.",
+      "hint": "Could someone check the statement just by looking or measuring today, without any reasoning?",
+      "followUpId": "L08-Q05",
+      "scope": {
+        "lessonId": "L08",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            91,
+            93,
+            97,
+            98
+          ],
+          "pdf": [
+            127,
+            129,
+            133,
+            134
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            91
+          ],
+          "pdfPages": [
+            127
+          ],
+          "locator": "Introduction",
+          "supports": "Reading a cliff's layers means using clues such as volcanic layers, marine fossils and tilt to work out past events and which layers are oldest and youngest."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            91
+          ],
+          "pdfPages": [
+            127
+          ],
+          "locator": "Next Generation Science Standards box (ESS1.C)",
+          "supports": "Rock strata and the fossil record give relative dates, not an absolute time scale."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            93
+          ],
+          "pdfPages": [
+            129
+          ],
+          "locator": "Section 2. Reading Strata from the Bottom Up, Figure 2",
+          "supports": "Sediment is deposited in a horizontal layer on top of older layers, so in undisturbed layers the oldest rock is at the bottom and the youngest at the top."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            97
+          ],
+          "pdfPages": [
+            133
+          ],
+          "locator": "Section 5. Reading Features That Cut Across Strata, Faults, Figure 5B",
+          "supports": "A fault is younger than the rock it cuts; new strata on top are not broken by an older fault; a fault cut by another fault is the older of the two."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            98
+          ],
+          "pdfPages": [
+            134
+          ],
+          "locator": "Section 6. Using Fossils to Determine the Age of Strata, Figure 6",
+          "supports": "The sequence of changes in organisms recorded by fossils is the same everywhere; younger species appear in higher strata."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Guardrail item: distinguish observation from inference. Revision round 1 (pedagogy review): all six statements replaced so they no longer repeat L08-Q27's keyed conclusions or the O5 card's tilt example; it now includes a fossil-correlation inference and is tagged L08-O3. The science reviewer's pass was on the earlier statements. Drafted from printed pp. 91, 93, 97, 98 / PDF 127, 129, 133, 134 (rendered). Second review cycle (reviser round 1, 2026-10-14): follow-up now L08-Q05 (what one observation does and does not support), which targets an observation-versus-inference mistake better than Q04. Final verification (verify-agent, 2026-10-14): key, distractor rationales, explanation, hint, accessible prompt and citations checked against rendered printed pp. 91, 93, 97-98 / PDF 127, 129, 133-134; uniquely answerable, distinct from the other 27 items, original wording, guardrail-compliant. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new trilobite, crack-offset, thickness and layer-order statements; tagged L08-O3; evidence for pp. 93, 97, 98 added"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L08-Q05"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Nothing in the cliff shows that the layers have been flipped over."
+    }
+  ]
+}

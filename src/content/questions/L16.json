@@ -1,0 +1,4115 @@
+{
+  "lessonId": "L16",
+  "questions": [
+    {
+      "id": "L16-Q01",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1"
+      ],
+      "conceptTags": [
+        "fossil-evidence",
+        "continental-drift",
+        "brief-seed"
+      ],
+      "familyId": "L16-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Fossils of Mesosaurus, a small reptile of shallow inland waters, turn up in both South America and southern Africa, an ocean apart. What can these matching fossils suggest?",
+      "accessiblePrompt": "Fossils of Mesosaurus, a small reptile that lived in shallow inland waters such as lagoons, are found in both South America and southern Africa, which are an ocean apart. What can these matching fossils suggest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The continents were once joined, especially if other evidence agrees",
+          "rationale": "Correct. A small shallow-water reptile that could not cross an ocean, found on both sides of one, points to land that was once connected. The fossils are one clue; matching rock layers and continental edges make the case much stronger."
+        },
+        {
+          "id": "b",
+          "text": "Mesosaurus swam across the open Atlantic Ocean to get there",
+          "rationale": "A small reptile of shallow inland waters could not survive a swim across thousands of kilometers of open ocean. That is exactly why its fossils are such a useful clue."
+        },
+        {
+          "id": "c",
+          "text": "The same reptile evolved separately, in identical form, on each continent",
+          "rationale": "One species appearing independently, identical in every way, on two continents is far less likely than one population living on land that was once joined."
+        },
+        {
+          "id": "d",
+          "text": "The fossils alone prove the continents were joined, so no other clues are needed",
+          "rationale": "One kind of clue can suggest a connection but cannot prove it alone. Fossils, matching rocks and continental edges together made a strong case, but most scientists accepted moving continents only after seafloor evidence showed how they could move."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Matching fossils of an animal that could not cross an ocean suggest the lands where they lie were once connected. On its own, a fossil match is a clue rather than proof. The case grew stronger when it lined up with matching rock layers, mountain ranges and continental edges, and most scientists accepted it only when seafloor evidence showed how continents could move.",
+      "misconception": "Matching fossils prove a connection all by themselves, or the animals simply crossed the ocean.",
+      "hint": "Think about where a small reptile of shallow inland waters could and could not travel.",
+      "followUpId": "L16-Q04",
+      "scope": {
+        "lessonId": "L16",
+        "section": "1. Wegener's Hypothesis",
+        "pages": {
+          "printed": [
+            205,
+            212
+          ],
+          "pdf": [
+            241,
+            248
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift and Figure 1B",
+          "supports": "The textbook places Mesosaurus fossils in both South America and Africa and says the animal could not have swum across an ocean. Fossils, rock formations and mountain ranges together supported continental drift, yet the idea was set aside because Wegener could not explain what force could move continents."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212
+          ],
+          "pdfPages": [
+            248
+          ],
+          "locator": "Key Science Concept: Evidence from Fossils, Mountain Ranges, and Coastlines",
+          "supports": "Fossils of the same species on continents now separated by ocean are one of several kinds of evidence that continents moved."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion",
+          "supports": "Mantle convection, seafloor spreading and subduction later supplied the mechanism Wegener lacked to explain how continents move."
+        },
+        {
+          "type": "external",
+          "title": "Unusual environmental conditions preserve a Permian mesosaur-bearing Konservat-Lagerstätte from Uruguay",
+          "publisher": "Acta Palaeontologica Polonica (Institute of Paleobiology, Polish Academy of Sciences)",
+          "url": "https://www.app.pan.pl/article/item/app20100113.html",
+          "accessed": "2026-10-14",
+          "supports": "The mesosaur community of Uruguay's Mangrullo Formation probably lived under temporary hypersaline, lagoon-like conditions, which features of the correlative Brazilian Iratí and South African Whitehill formations also indicate; earlier authors had proposed marine or freshwater-to-brackish settings."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for lesson 16 (master brief section 7), polished: the key keeps the brief's qualifier that fossils suggest a past connection when considered with other geological evidence. Drafted from printed pp. 205 and 212 (both rendered). Round 1 (2026-10-14): the contested word \"freshwater\" is gone (the textbook's \"lived only in fresh water\" is flagged in L16-RF14). The two reviewers proposed different stems; the science reviewer kept \"could not have crossed an open ocean\" in the stem, but the pedagogy reviewer showed that clause rules out choice b, so the stem now names the habitat without it and the ocean-crossing point lives in the rationales and hint. Choice d now targets the \"fossils alone prove it\" idea. Re-checked against printed pp. 205 and 212 (re-rendered). Review cycle 2 (2026-10-14): the science reviewer showed that the old choice d rationale and explanation said land clues alone made drift convincing, which contradicts p. 205 and L16-Q06. Both now say acceptance came only after seafloor evidence supplied a mechanism (p. 215 record added). The reviewer's 'it was settled only when' became 'most scientists accepted it only when', so the explanation does not contradict L16-Q07 (theories stay open to revision). Prompt, key, scope and the choice d text are unchanged. Re-checked against printed pp. 205, 212 and 215 (re-rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 205, 212, 215 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: contested \"freshwater\" habitat removed from prompt, rationales, hint and evidence; Acta Palaeontologica Polonica source added (L16-RF14)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer rules out choice b; choice d now targets \"fossils alone prove it\"; difficulty raised to 2"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d rationale and explanation no longer say fossil, rock and edge clues alone made drift convincing; acceptance came after seafloor evidence supplied a mechanism (p. 215 record added)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q02",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1"
+      ],
+      "conceptTags": [
+        "glossopteris",
+        "fossil-distribution",
+        "past-climate"
+      ],
+      "familyId": "L16-F01",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Fossils of Glossopteris, an extinct seed plant, are found in South America, Africa, India, Australia and Antarctica. Rings in its fossil wood show it grew through long, dark polar winters. Today Antarctica is too icy for any forest. What does this evidence best support?",
+      "accessiblePrompt": "Fossils of Glossopteris, an extinct seed plant, are found in five places: South America, Africa, India, Australia and Antarctica. Growth rings in its fossil wood show that it grew through long, dark winters close to the South Pole. Today Antarctica is too icy for any forest to grow. What does this evidence best support?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The lands were once joined, and Antarctica was once much less icy",
+          "rationale": "Correct. One plant group spread across lands now split by oceans fits a single joined landmass, and fossil forests show Antarctica's climate was once far milder than today's ice sheet."
+        },
+        {
+          "id": "b",
+          "text": "Its seeds drifted across several oceans and sprouted on each shore",
+          "rationale": "Nothing shows these seeds could survive crossing several wide oceans, and the fossil areas fit neatly together when the southern continents are fitted back into one landmass."
+        },
+        {
+          "id": "c",
+          "text": "Antarctica has always been as icy as it is today",
+          "rationale": "Forests cannot grow under a thick ice sheet, so Antarctica's climate must have been different when these plants lived."
+        },
+        {
+          "id": "e",
+          "text": "The lands were once joined, with Antarctica near the equator",
+          "rationale": "The joined part fits, but the tree rings record long, dark polar winters, so these plants grew far from the equator, not near it."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Glossopteris fossils form one connected pattern when the southern continents are fitted together, which supports a joined landmass. Fossil forests in Antarctica show its climate was once much less harsh, and their tree rings record dark polar winters, so the plants grew far from the equator. The textbook calls Glossopteris a warm-climate fern, but it was a seed plant that grew in cool, seasonal climates.",
+      "misconception": "Fossils of a plant in a cold place prove the land was once at the equator, or plants simply spread their seeds across oceans.",
+      "hint": "Ask two questions: how could one plant group reach all five places, and what do the tree rings say about where it grew?",
+      "followUpId": "L16-Q29",
+      "scope": {
+        "lessonId": "L16",
+        "section": "1. Wegener's Hypothesis",
+        "pages": {
+          "printed": [
+            205,
+            212
+          ],
+          "pdf": [
+            241,
+            248
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift",
+          "supports": "Glossopteris fossils are found on several continents, including Antarctica, and Wegener used them as evidence that the continents were once joined."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212
+          ],
+          "pdfPages": [
+            248
+          ],
+          "locator": "Key Science Concept: Evidence from Fossils, Mountain Ranges, and Coastlines (map)",
+          "supports": "The map shows Glossopteris fossils in South America, Africa, India, Australia and Antarctica."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to the Glossopteridales",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/seedplants/pteridosperms/glossopterids.html",
+          "accessed": "2026-10-14",
+          "supports": "Glossopteris belonged to an extinct group of seed plants on Gondwana, with fossils in India, South America, Australia, Africa and Antarctica, and helps identify areas once connected but now separated by continental drift."
+        },
+        {
+          "type": "external",
+          "title": "Silicified wood from the Permian and Triassic of Antarctica: tree rings from polar paleolatitudes (Open-File Report 2007-1047-SRP-080)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/publications/silicified-wood-permian-and-triassic-antarctica-tree-rings-polar-paleolatitudes",
+          "accessed": "2026-10-18",
+          "supports": "Late Permian fossil wood from the Beardmore Glacier area of Antarctica grew at polar paleolatitudes of about 80-85 degrees south, in a climate reconstructed as cold temperate, with ring formation strongly influenced by the polar light-dark cycle; the abstract names the Glossopteridales as the Paleozoic seed-fern group of that time."
+        },
+        {
+          "type": "external",
+          "title": "UWM geologists uncover Antarctica's fossil forests",
+          "publisher": "University of Wisconsin-Milwaukee News",
+          "url": "https://uwm.edu/news/uwm-geologists-uncover-antarcticas-fossil-forests/",
+          "accessed": "2026-10-18",
+          "supports": "Antarctica's Permian fossil forest, which included the extinct plant Glossopteris, grew at polar latitudes with months of winter darkness, and tree rings in the fossil trees show a rapid switch from summer growth to winter dormancy."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 205 and 212 (rendered; the fossil map legend was read from the render because the OCR garbles it). Avoids the textbook's 'warm-climate fern near the equator' claim and makes the equator idea a distractor (L16-RF3). Round 1 (2026-10-14): the tree-ring evidence (USGS OFR 2007-1047) is now in the stem, so a learner who trusts the textbook's equator claim is given the evidence that rules choice d out; limitations record the textbook conflict. Review cycle 2 (2026-10-14): the pedagogy reviewer showed the key was the only two-part choice and the old equator distractor was a one-part claim the stem ruled out on its own. The old choice d is replaced by the textbook's own claim, 'joined, with Antarctica near the equator', which is parallel to the key, so the tree-ring clue decides between them. It gets the new id e because its claim differs from the old d (the schema never reuses an id for different text). followUpId is now L16-Q29, the rewritten fossil-reconstruction item in L16-F02. Re-checked against printed pp. 205 and 212 (re-rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 205, 212 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt. Verify-agent (2026-10-14): citation precision fix only. The USGS OFR 2007-1047 abstract (re-opened 2026-10-18) places Late Permian Antarctic wood at about 80-85 degrees S with rings set by the polar light-dark cycle and names the Glossopteridales as the Paleozoic seed-fern group, but does not itself say the wood is Glossopteris, so its supports text now says only that. A UWM News record (opened 2026-10-18) is added: Antarctica's Permian polar fossil forest included Glossopteris, and its tree rings show rapid winter dormancy in months of darkness. Item text, key and rationales unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: tree-ring evidence added to the stem so the equator distractor can be ruled out; hint and choice d rationale revised; limitations record the textbook conflict (L16-RF3)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: equator distractor replaced by a parallel two-part claim (new id e: joined, with Antarctica near the equator) so the tree-ring clue decides; followUpId now L16-Q29"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "The textbook calls Glossopteris a warm-climate fern that needed the continents near the equator; fossil-wood studies show a seed plant that grew at high southern latitudes (L16-RF3)."
+    },
+    {
+      "id": "L16-Q03",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1"
+      ],
+      "conceptTags": [
+        "evidence-evaluation",
+        "south-america-africa"
+      ],
+      "familyId": "L16-F01",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "A student claims South America and Africa were once joined. Which observations count as evidence for that claim? Select all that apply.",
+      "accessiblePrompt": "A student claims that South America and Africa were once joined together. Five observations are listed. Choose every observation that counts as evidence for that claim. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The edges of their continental shelves fit together closely",
+          "rationale": "Evidence. Sonar showed that the shelves, the true underwater edges of the continents, match even better than the coastlines."
+        },
+        {
+          "id": "b",
+          "text": "Mesosaurus fossils occur on both sides of the South Atlantic",
+          "rationale": "Evidence. A small reptile of shallow inland waters that could not cross an ocean, found on both continents, points to a past land connection."
+        },
+        {
+          "id": "c",
+          "text": "Glossopteris fossils appear on both continents",
+          "rationale": "Evidence. The same extinct plant group on both continents fits a shared landmass."
+        },
+        {
+          "id": "d",
+          "text": "Both continents have large rivers that flow into the Atlantic",
+          "rationale": "Many continents have big rivers, so this similarity says nothing about whether these two were ever connected."
+        },
+        {
+          "id": "e",
+          "text": "Both continents lie partly in the tropics today",
+          "rationale": "Where a continent sits today is not evidence of a past connection; many continents that were never neighbors share a latitude."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Useful evidence is something you would expect mainly if the continents had been joined: matching edges and matching fossils of living things that could not cross oceans. Similarities that almost any two continents share, such as big rivers or a tropical location today, cannot settle the question.",
+      "misconception": "Any similarity between two continents counts as evidence that they were once connected.",
+      "hint": "For each statement, ask: would this be true even if the two continents had never touched?",
+      "followUpId": "L16-Q05",
+      "scope": {
+        "lessonId": "L16",
+        "section": "Key Science Concept: Evidence for Moving Continents",
+        "pages": {
+          "printed": [
+            212,
+            213
+          ],
+          "pdf": [
+            248,
+            249
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212
+          ],
+          "pdfPages": [
+            248
+          ],
+          "locator": "Key Science Concept: Evidence from Fossils, Mountain Ranges, and Coastlines",
+          "supports": "Fossils of the same land species on separated continents and the matching coastlines of South America and Africa are evidence; the map shows Mesosaurus and Glossopteris fossils on both continents."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            213
+          ],
+          "pdfPages": [
+            249
+          ],
+          "locator": "Key Science Concept: Evidence from the Seafloor",
+          "supports": "The continental shelves of North America, South America, Eurasia and Africa have matching shapes under the Atlantic Ocean."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original item. Drafted from printed pp. 212-213 (rendered spread). Three of five keyed; the two distractors are true-but-irrelevant similarities, so each choice has one defensible status. Round 1 (2026-10-14): choice b rationale no longer calls Mesosaurus freshwater (L16-RF14). Final verification (verify-agent, 2026-10-14): checked against printed pp. 212, 213 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: contested \"freshwater\" wording removed from choice b rationale (L16-RF14)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q04",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1"
+      ],
+      "conceptTags": [
+        "mountain-ranges",
+        "rock-layers"
+      ],
+      "familyId": "L16-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "The Appalachian Mountains in North America and the Atlas Mountains in northwest Africa contain the same kinds of rock, of the same ages, stacked in the same order. What does this suggest?",
+      "accessiblePrompt": "The Appalachian Mountains in North America and the Atlas Mountains in northwest Africa are an ocean apart. They contain the same kinds of rock, the rocks are the same ages, and the layers are stacked in the same order. What does this suggest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were once one mountain range that later split apart",
+          "rationale": "Correct. Identical rock types, ages and layer order on two coasts fit one range that was torn apart as the continents separated."
+        },
+        {
+          "id": "b",
+          "text": "Every mountain range on Earth has these same rock layers",
+          "rationale": "Mountain ranges differ a lot in their rocks and ages. This match is unusual, which is why it counts as evidence."
+        },
+        {
+          "id": "c",
+          "text": "The two ranges formed separately in similar settings, so they only look alike",
+          "rationale": "Similar settings can make similar kinds of rock, but not the same rock ages stacked in the same order on two coasts. One range torn in two explains all three matches."
+        },
+        {
+          "id": "d",
+          "text": "The match is a coincidence that says nothing about the continents' past",
+          "rationale": "Matching rock types, rock ages and layer order all at once would be extremely unlikely to happen by chance in two unrelated places, which is why geologists treat the match as evidence."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When rock types, ages and the order of layers all match across an ocean, the simplest explanation is that the rocks formed together in one place. Wegener used this match as evidence that North America and Africa once sat side by side, with the range split as the continents moved apart.",
+      "misconception": "Similar rocks on continents far apart are just a coincidence.",
+      "hint": "Two separate ranges might share one feature by chance. How likely is it that rock type, age and layer order would all match?",
+      "followUpId": "L16-Q03",
+      "scope": {
+        "lessonId": "L16",
+        "section": "1. Wegener's Hypothesis",
+        "pages": {
+          "printed": [
+            205
+          ],
+          "pdf": [
+            241
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift",
+          "supports": "The Appalachians in North America and the Atlas Mountains in northwest Africa match in rock type, rock age and layer order."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212
+          ],
+          "pdfPages": [
+            248
+          ],
+          "locator": "Key Science Concept: Evidence from Fossils, Mountain Ranges, and Coastlines",
+          "supports": "Similar mountain ranges would be continuous if the continents were once closer together."
+        },
+        {
+          "type": "external",
+          "title": "Anti-Atlas Mountains of Morocco",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/anti-atlas-mountains-of-morocco-7218",
+          "accessed": "2026-10-14",
+          "supports": "The Anti-Atlas of Morocco and the Appalachians are linked in time: both were built as what is now North America crashed into what is now Africa during the formation of Pangaea, and the opening Atlantic later separated them."
+        },
+        {
+          "type": "external",
+          "title": "Vertical movements at the fringe of the West African Craton: First zircon fission track datings from the Anti-Atlas Precambrian basement, Morocco",
+          "publisher": "Comptes Rendus Géoscience (Académie des sciences)",
+          "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2008.11.006/",
+          "accessed": "2026-10-14",
+          "supports": "The Anti-Atlas's Paleozoic cover rocks were folded during the Variscan orogeny, while the High Atlas underwent an important part of its uplift much later, in the Neogene."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 205 and 212 (rendered; mountain-range symbols read from the map). Round 1 (2026-10-14): the old choice d rationale treated rock age as mountain-building age; both weak distractors were replaced and the new d uses the science reviewer's wording. The key keeps the textbook's \"one range torn in two\" simplification, explained in limitations (L16-RF18). Final verification (verify-agent, 2026-10-14): checked against printed pp. 205, 212 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor rationale no longer equates rock age with mountain-building age; limitations plus NASA Earth Observatory and Comptes Rendus sources added (L16-RF18)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible wind distractor and self-contradicting \"separate times\" distractor replaced; hint no longer hands over the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "The match is between old rock belts built when North America and Africa collided as Pangaea formed; in Africa those rocks show best in the Anti-Atlas, and the Atlas range gained much of its present height far later (L16-RF18)."
+    },
+    {
+      "id": "L16-Q05",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1",
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "continental-shelf",
+        "continental-fit"
+      ],
+      "familyId": "L16-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "You want the most accurate test of whether two continents once fit together like puzzle pieces. Which outlines should you compare?",
+      "accessiblePrompt": "You want the most accurate way to test whether two continents once fit together like puzzle pieces. Which outlines should you compare?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The edges of their continental shelves, hidden underwater",
+          "rationale": "Correct. The shelves are the real outer edges of the continents, and sonar maps showed that shelf edges match even better than coastlines."
+        },
+        {
+          "id": "b",
+          "text": "Their present-day coastlines, exactly where land meets sea",
+          "rationale": "A coastline is only where today's sea level happens to reach. The continent carries on underwater, so coastlines give a rougher fit."
+        },
+        {
+          "id": "c",
+          "text": "The bends of the mid-ocean ridge between them",
+          "rationale": "The ridge does mirror the coasts, because the continents split along it, but it is where new seafloor forms, not the edge of either continent."
+        },
+        {
+          "id": "d",
+          "text": "Their coastlines traced at the lowest tide of the year",
+          "rationale": "Low tide uncovers only a narrow strip of shore. The continent's true edge, the shelf, lies far beyond it under deeper water."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A continent does not end at the beach. Its edge continues underwater as the continental shelf. Once sonar mapped the shelves, scientists found that the shelf edges of the continents around the Atlantic fit together even better than the coastlines do.",
+      "misconception": "A continent ends exactly at its coastline.",
+      "hint": "Ask what each outline really traces: the true edge of the continent itself, or something else?",
+      "followUpId": "L16-Q11",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            208,
+            213
+          ],
+          "pdf": [
+            244,
+            249
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            208
+          ],
+          "pdfPages": [
+            244
+          ],
+          "locator": "Section 4. Discovering Features of the Seafloor, Seafloor Structures",
+          "supports": "Continental shelves are the submerged outer edges of continents, and shelf edges match across the Atlantic more closely than coastlines do."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            213
+          ],
+          "pdfPages": [
+            249
+          ],
+          "locator": "Key Science Concept: Evidence from the Seafloor",
+          "supports": "The continental shelves of North America, South America, Eurasia and Africa have matching shapes under the Atlantic Ocean."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original design-a-test framing. Drafted from printed pp. 208 and 213 (rendered). Round 1 (2026-10-14): country-border and lake distractors replaced with ridge-bend and low-tide misconceptions; the hint was also softened because the science reviewer noted it nearly gave the answer away. Review cycle 2 (2026-10-14): the science reviewer's optional wording fix was applied: the prompt now says 'outlines', matching the accessiblePrompt. Final verification (verify-agent, 2026-10-14): checked against printed pp. 208, 213 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible country-border and lake distractors replaced with ridge-bend and low-tide-coastline misconceptions; accessiblePrompt no longer rules out the ridge choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional wording applied; the prompt now says 'outlines', matching the accessiblePrompt"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q06",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1"
+      ],
+      "conceptTags": [
+        "continental-drift",
+        "missing-mechanism"
+      ],
+      "familyId": "L16-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Alfred Wegener proposed continental drift in 1912, but many scientists rejected the idea for decades. What was the main reason?",
+      "accessiblePrompt": "Alfred Wegener proposed continental drift in 1912, but many scientists rejected the idea for decades. What was the main reason?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He couldn't explain what force could move whole continents",
+          "rationale": "Correct. Without a mechanism strong enough to move continents, many scientists set the hypothesis aside until new evidence arrived."
+        },
+        {
+          "id": "b",
+          "text": "He had no evidence at all, only a hunch about puzzle shapes",
+          "rationale": "Wegener had several kinds of evidence: matching fossils, rock layers, mountain ranges and climate clues."
+        },
+        {
+          "id": "e",
+          "text": "Better maps showed the continents' edges did not really fit",
+          "rationale": "The opposite happened: when sonar later mapped the continental shelves, their edges fit even better than the coastlines."
+        },
+        {
+          "id": "d",
+          "text": "Fossils had not yet been found on more than one continent",
+          "rationale": "Wegener's case depended on fossils found on several continents, such as Mesosaurus in South America and Africa."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Wegener's evidence suggested that the continents had moved, but not how. Scientists asked what force could push or pull entire continents, and he had no convincing answer. The idea waited until discoveries about the seafloor in the mid-1900s revealed a mechanism.",
+      "misconception": "Wegener's idea was rejected because he had no evidence.",
+      "hint": "Evidence can show that something happened. What else do scientists want to know before they accept an idea?",
+      "followUpId": "L16-Q17",
+      "scope": {
+        "lessonId": "L16",
+        "section": "1. Wegener's Hypothesis",
+        "pages": {
+          "printed": [
+            205
+          ],
+          "pdf": [
+            241
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift",
+          "supports": "Many scientists resisted continental drift largely because Wegener could not identify a force strong enough to move continents."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            204
+          ],
+          "pdfPages": [
+            240
+          ],
+          "locator": "Section 1. Wegener's Hypothesis",
+          "supports": "In 1912 Wegener reintroduced the idea, first noticed by the mapmaker Abraham Ortelius in 1596, that the continents were once joined."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            208
+          ],
+          "pdfPages": [
+            244
+          ],
+          "locator": "Section 4. Discovering Features of the Seafloor, Seafloor Structures",
+          "supports": "Sonar showed that the continental shelves of different continents fit together even better than their coastlines do."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 204-205 (rendered). Review cycle 2 (2026-10-14): the pedagogy reviewer showed the old stem ('Wegener gathered fossil, rock and mountain evidence') ruled out choices b and d. The stem now says only that he proposed drift in 1912 and was rejected, so b ('no evidence at all') and d ('fossils on only one continent') are live misconceptions again. The implausible 'maps had not been drawn yet' choice is replaced by 'better maps showed the edges did not really fit' (new id e), backed by the p. 208 shelf-fit record. The 1912/1915 date difference is recorded in L16-RF21. Re-checked against printed pp. 204, 205 and 208 (re-rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 204, 205, 208 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer says Wegener had evidence, so choices b and d stay live; implausible 'no maps' distractor replaced (new id e: better maps showed no fit); p. 208 shelf-fit evidence added"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q07",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1",
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "hypothesis-vs-theory",
+        "nature-of-science"
+      ],
+      "familyId": "L16-F03",
+      "category": "foundational",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Continental drift began as a hypothesis in 1912. Plate tectonics became a scientific theory in the 1960s. Which statement best describes that change?",
+      "accessiblePrompt": "Continental drift began as a hypothesis in 1912. In the 1960s, plate tectonics became a scientific theory. Which statement best describes what changed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It gained a mechanism and wide evidence but stays open to revision",
+          "rationale": "Correct. A theory is backed by a large body of evidence and explains many observations, including how plates move. Scientists still refine details, such as which forces matter most."
+        },
+        {
+          "id": "b",
+          "text": "It was proven for all time, so scientists may never revise it again",
+          "rationale": "Even strong theories stay open to new evidence. Scientists still debate parts of plate tectonics, such as the exact mix of driving forces."
+        },
+        {
+          "id": "c",
+          "text": "Theory means a guess, so it is no more certain than the old hypothesis",
+          "rationale": "In science, a theory is a well-tested explanation supported by lots of evidence, not a hunch."
+        },
+        {
+          "id": "d",
+          "text": "Scientists simply renamed the old idea without adding any new evidence",
+          "rationale": "The change came from new evidence, such as seafloor maps, drill-core ages and earthquake belts, plus an explanation of how plates move."
+        }
+      ],
+      "answer": "a",
+      "limitations": "The textbook says a theory's evidence shows it 'correctly describes' nature; this item follows the lesson's own NGSS note that scientific knowledge stays open to revision (L16-RF12).",
+      "explanation": "A hypothesis is a testable idea based on limited evidence. A scientific theory pulls together a large body of evidence and explains many observations: plate tectonics explains why continents moved, why seafloor ages form a pattern and where earthquakes cluster. Like all science, it stays open to revision if new evidence calls for it.",
+      "misconception": "A theory is either an unproven guess or a final fact that can never change.",
+      "hint": "Think about what new evidence and explanations were added between 1912 and the 1960s, and whether science ever closes the door on new evidence.",
+      "followUpId": "L16-Q20",
+      "scope": {
+        "lessonId": "L16",
+        "section": "6. The Theory of Plate Tectonics",
+        "pages": {
+          "printed": [
+            214
+          ],
+          "pdf": [
+            250
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            214
+          ],
+          "pdfPages": [
+            250
+          ],
+          "locator": "Section 6. The Theory of Plate Tectonics, From Hypothesis to Theory",
+          "supports": "A hypothesis is based on limited evidence; a scientific theory is a well-established group of ideas supported by a large amount of evidence that explains many phenomena; plate tectonics was developed in the 1960s."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            203
+          ],
+          "pdfPages": [
+            239
+          ],
+          "locator": "Lesson opener, Next Generation Science Standards box",
+          "supports": "Lists 'Scientific Knowledge is Open to Revision in Light of New Evidence'."
+        },
+        {
+          "type": "external",
+          "title": "Some unanswered questions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "accessed": "2026-10-14",
+          "supports": "Scientists still debate the forces that drive plates; none of the proposed mechanisms explains every facet of plate movement."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 203 (NGSS box, rendered because the OCR is garbled) and 214. Keyed choice is the shortest option so length gives no cue. Final verification (verify-agent, 2026-10-14): checked against printed pp. 203, 214 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q08",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "lithosphere",
+        "earth-layers"
+      ],
+      "familyId": "L16-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each part of Earth by whether it belongs to the lithosphere.",
+      "accessiblePrompt": "Sort five parts of Earth into two groups: part of the lithosphere, or not part of the lithosphere. The parts are: oceanic crust under the Pacific Ocean; continental crust under a city; the cool, rigid top layer of the mantle; hot, slowly flowing mantle rock just below the plates; and Earth's core, at the planet's center.",
+      "items": [
+        {
+          "id": "ocrust",
+          "text": "Oceanic crust under the Pacific Ocean",
+          "rationale": "Lithosphere: the lithosphere includes all of the crust, and the thinner oceanic crust counts too."
+        },
+        {
+          "id": "flow",
+          "text": "Hot, slowly flowing mantle rock just below the plates",
+          "rationale": "Not lithosphere: this hotter rock can flow, so it lies beneath the rigid lithosphere, which moves along on top of it."
+        },
+        {
+          "id": "ccrust",
+          "text": "Continental crust under a city",
+          "rationale": "Lithosphere: continental crust is thicker than oceanic crust, but it is still crust, so it belongs to the lithosphere."
+        },
+        {
+          "id": "core",
+          "text": "Earth's core, at the planet's center",
+          "rationale": "Not lithosphere: the core lies thousands of kilometers below the rigid outer shell."
+        },
+        {
+          "id": "rigid",
+          "text": "The cool, rigid top layer of the mantle",
+          "rationale": "Lithosphere: the surprise member. The lithosphere is the crust plus the stiff uppermost part of the mantle."
+        }
+      ],
+      "bins": [
+        {
+          "id": "litho",
+          "label": "Part of the lithosphere"
+        },
+        {
+          "id": "not",
+          "label": "Not part of the lithosphere"
+        }
+      ],
+      "answer": {
+        "ocrust": "litho",
+        "ccrust": "litho",
+        "rigid": "litho",
+        "flow": "not",
+        "core": "not"
+      },
+      "explanation": "The lithosphere is defined by stiffness, not by a single layer name. It includes all of the crust plus the cool, rigid top of the mantle. Beneath it, hotter mantle rock can slowly flow, which is why the rigid lithosphere can move as plates.",
+      "misconception": "The lithosphere is just another name for the crust.",
+      "hint": "The lithosphere is Earth's rigid outer shell. Which parts are cool and stiff?",
+      "followUpId": "L16-Q19",
+      "scope": {
+        "lessonId": "L16",
+        "section": "2. Discovering Earth's Interior",
+        "pages": {
+          "printed": [
+            206
+          ],
+          "pdf": [
+            242
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior and Figure 2",
+          "supports": "Earth's main layers are the crust, mantle and core; oceanic crust is thinner than continental crust; the uppermost mantle is rigid and relatively cool; the crust and this rigid outer mantle form the lithosphere; below it the hotter mantle can flow."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original items. Drafted from printed p. 206 (rendered; Figure 2 labels read from the render). Every item has one defensible bin. Round 1 (2026-10-14): applied the pedagogy reviewer's optional wording so that \"flowing\" cannot attach to \"plates\" when read aloud. Final verification (verify-agent, 2026-10-14): checked against printed pp. 206 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional read-aloud wording applied to the flowing-mantle item"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q09",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "seismic-waves",
+        "earth-interior"
+      ],
+      "familyId": "L16-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "How did scientists discover that the top of Earth's mantle is rigid, while hotter mantle rock below it can slowly flow?",
+      "accessiblePrompt": "How did scientists discover that the top of Earth's mantle is rigid, while hotter mantle rock below it can slowly flow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By tracking how earthquake waves change speed and direction inside Earth",
+          "rationale": "Correct. Seismographs around the world record earthquake waves, and changes in the waves' speed and path reveal layers with different properties."
+        },
+        {
+          "id": "b",
+          "text": "By drilling through the crust and pulling up samples of the mantle",
+          "rationale": "No drill has gone all the way through the crust into the mantle; the deepest hole drilled down from the surface is about 12 kilometers. Mantle rock has been drilled only where it lies exposed on the seafloor, long after the layers were mapped."
+        },
+        {
+          "id": "c",
+          "text": "By lowering thermometers down volcanoes into the mantle",
+          "rationale": "No instrument can be lowered through a volcano into the mantle; the evidence comes from waves passing through rock."
+        },
+        {
+          "id": "d",
+          "text": "By studying lava, which pours up from a liquid layer just under the crust",
+          "rationale": "There is no worldwide liquid layer just under the crust. Lava comes from rock that melts only in certain places, so it cannot show which parts of the mantle are rigid and which slowly flow."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Scientists cannot visit the mantle, so they read it from earthquake waves. The waves speed up, slow down and bend as they pass into rock with different properties. Mapping those changes revealed a cool, rigid outer shell above hotter rock that can slowly flow. No drill has gone all the way through the crust into the mantle; the deepest hole drilled from the surface reaches only about 12 km.",
+      "misconception": "Scientists know what Earth's interior is like because they have drilled through it, seen it directly or sampled a liquid layer beneath the crust.",
+      "hint": "No one can travel to the mantle or see it. What can pass through solid rock and be recorded back at the surface?",
+      "followUpId": "L16-Q13",
+      "scope": {
+        "lessonId": "L16",
+        "section": "2. Discovering Earth's Interior",
+        "pages": {
+          "printed": [
+            206
+          ],
+          "pdf": [
+            242
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior and Figure 2",
+          "supports": "No one has drilled deeper than 12,262 meters; by studying how seismic waves change speed and direction, scientists found the rigid uppermost mantle and the hotter, flowing mantle below."
+        },
+        {
+          "type": "external",
+          "title": "Seismic Velocities (Environmental Geophysics)",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/environmental-geophysics/seismic-velocities",
+          "accessed": "2026-10-17",
+          "supports": "P- and S-wave speeds are governed by a rock's elastic moduli (bulk modulus and shear modulus, or rigidity) together with its density: Vp = √[(κ + 4/3μ)/ρ] and Vs = √(μ/ρ), so density sits in the denominator and does not by itself decide the speed."
+        },
+        {
+          "type": "external",
+          "title": "Mantle rock recovery may reveal secrets of Earth's history",
+          "publisher": "Woods Hole Oceanographic Institution",
+          "url": "https://www.whoi.edu/?p=582178",
+          "accessed": "2026-10-14",
+          "supports": "In spring 2023 the JOIDES Resolution recovered a nearly continuous 1,268 m of mantle rock from a tectonic window, a section of seabed along the Mid-Atlantic Ridge where rocks from the mantle are exposed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 206 (rendered). Keys 'change speed and direction' and avoids the textbook's 'denser means faster' simplification (L16-RF8). Round 1 (2026-10-14): the stem no longer opens with a drilling claim. That resolves the science finding (the old \"no drill has ever reached the mantle\" is out of date after JOIDES Resolution Expedition 399 in 2023; L16-RF16) and the pedagogy finding (the old stem ruled out choice b). The satellite distractor was replaced by a liquid-layer lava distractor that targets the brief's liquid-mantle hazard (L16-RF5). The LibreTexts record is kept, cited only for its rigidity and density statements (see L16-RF8); no USGS, IRIS or SEG replacement page could be opened on 2026-10-14. Review cycle 2 (2026-10-14): the science reviewer's optional source swap was applied: the Geosciences LibreTexts record, which has a known backwards compressibility bullet, is replaced by the U.S. EPA Seismic Velocities page (opened 2026-10-17), which gives P- and S-wave speeds as elastic moduli divided by density (L16-RF8). Item text unchanged. Final verification (verify-agent, 2026-10-14): checked against printed pp. 206 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt. Verify-agent (2026-10-14): wording precision fix. Choice d's rationale said 'There is no worldwide liquid layer', which is false as an unqualified claim (Earth's outer core is liquid); it now says 'There is no worldwide liquid layer just under the crust', matching choice d. Key and item text unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: outdated \"no drill has ever reached the mantle\" removed; choice b rationale and explanation now say no drill has gone through the crust into the mantle; WHOI source added (L16-RF16)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer rules out choice b; satellite distractor replaced with a liquid-layer lava misconception; hint no longer names the answer; 12 km fact moved to the explanation"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional source swap applied; the LibreTexts seismic-speed record is replaced by the U.S. EPA Seismic Velocities page (L16-RF8)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q10",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2",
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "mantle-state",
+        "liquid-mantle-misconception"
+      ],
+      "familyId": "L16-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which statements about the mantle rock just below the tectonic plates are accurate? Select all that apply.",
+      "accessiblePrompt": "Four statements describe the mantle rock just below Earth's tectonic plates. Choose every statement that is accurate. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is hotter than the rigid layer above it",
+          "rationale": "Accurate. Temperature rises with depth, and this hotter rock is softer than the cool lithosphere above it."
+        },
+        {
+          "id": "b",
+          "text": "It is mostly solid rock that can flow very slowly over millions of years",
+          "rationale": "Accurate. Like extremely stiff putty, it is solid yet creeps over long spans of time."
+        },
+        {
+          "id": "c",
+          "text": "It is a worldwide ocean of liquid magma on which the plates float like rafts",
+          "rationale": "The mantle is mostly solid rock. Magma forms only in limited places, such as beneath mid-ocean ridges and near sinking plates."
+        },
+        {
+          "id": "d",
+          "text": "It flows about as fast as water in a river",
+          "rationale": "Mantle rock creeps only centimeters a year, far slower than any river, at about the pace the plates above it move."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Below the plates lies hot mantle rock that is solid yet able to creep, a bit like extremely stiff putty. Over millions of years it slowly flows, and the rigid plates move along with it. It is not a sea of liquid magma, and it moves only centimeters a year.",
+      "misconception": "Tectonic plates float on a worldwide ocean of liquid magma.",
+      "hint": "Can something be solid and still flow if you give it millions of years?",
+      "followUpId": "L16-Q17",
+      "scope": {
+        "lessonId": "L16",
+        "section": "2. Discovering Earth's Interior",
+        "pages": {
+          "printed": [
+            206,
+            216,
+            217
+          ],
+          "pdf": [
+            242,
+            252,
+            253
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior",
+          "supports": "Beneath the thin rigid zone the mantle is hotter and can flow, so the lithosphere could ride along on it."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7. Tracking Plate Motion",
+          "supports": "Plates move just a few centimeters each year."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-14",
+          "supports": "The mantle is mostly solid rock that can move plastically over millions of years; the asthenosphere is more ductile than the lithosphere."
+        },
+        {
+          "type": "external",
+          "title": "Inside the Earth (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+          "accessed": "2026-10-14",
+          "supports": "The asthenosphere is hot, semi-solid material that can soften and flow."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the master brief's named hazard (plates on a universally liquid mantle; L16-RF5). Drafted from printed pp. 206, 216 and the Lesson Summary on p. 217 (all rendered). Review cycle 2 (2026-10-14): the science reviewer's optional tidy-up was applied: scope pages now include p. 216, the source of choice d's centimeters-a-year rate. Final verification (verify-agent, 2026-10-14): checked against printed pp. 206, 216, 217 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional tidy-up applied; scope pages now printed 206, 216, 217 (pdf 242, 252, 253)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q11",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "seafloor-features",
+        "sonar-mapping"
+      ],
+      "familyId": "L16-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each seafloor feature to its description.",
+      "accessiblePrompt": "Match four seafloor features to four descriptions. Features: mid-ocean ridge, trench, fracture zone, continental shelf. Descriptions: an underwater chain of volcanic mountains that winds around the globe; a long, deep valley where one plate is forced beneath another; a crack across the ridge that breaks it into offset pieces; the underwater outer edge of a continent.",
+      "left": [
+        {
+          "id": "ridge",
+          "text": "Mid-ocean ridge",
+          "rationale": "The ridge is the largest seafloor feature, a chain of volcanic mountains where new seafloor forms."
+        },
+        {
+          "id": "trench",
+          "text": "Trench",
+          "rationale": "Trenches are the deepest parts of the ocean floor and mark places where plates converge."
+        },
+        {
+          "id": "fracture",
+          "text": "Fracture zone",
+          "rationale": "Fracture zones cut across the ridge at right angles; where ridge pieces are offset, the rock on each side slides past in opposite directions."
+        },
+        {
+          "id": "shelf",
+          "text": "Continental shelf",
+          "rationale": "The shelf is still part of the continent, just covered by shallow sea."
+        }
+      ],
+      "right": [
+        {
+          "id": "r-crack",
+          "text": "A crack across the ridge that breaks it into offset pieces"
+        },
+        {
+          "id": "r-edge",
+          "text": "The underwater outer edge of a continent"
+        },
+        {
+          "id": "r-mountains",
+          "text": "An underwater chain of volcanic mountains that winds around the globe"
+        },
+        {
+          "id": "r-valley",
+          "text": "A long, deep valley where one plate is forced beneath another"
+        }
+      ],
+      "answer": {
+        "ridge": "r-mountains",
+        "trench": "r-valley",
+        "fracture": "r-crack",
+        "shelf": "r-edge"
+      },
+      "explanation": "Sonar turned the hidden ocean floor into a map. The mid-ocean ridge is where new seafloor forms, trenches are where old seafloor sinks, fracture zones show the ridge broken into offset pieces, and continental shelves mark the true edges of continents.",
+      "misconception": "The ocean floor is a flat, featureless plain.",
+      "hint": "Which feature is the deepest? Which one is really part of a continent?",
+      "followUpId": "L16-Q15",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            208
+          ],
+          "pdf": [
+            244
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            208
+          ],
+          "pdfPages": [
+            244
+          ],
+          "locator": "Section 4. Discovering Features of the Seafloor, Seafloor Structures and Figure 4A",
+          "supports": "Sonar revealed the mid-ocean ridge (a chain of volcanic mountains), fracture zones (cracks at right angles that break the ridge into segments), trenches (deep valleys where one plate is forced under another) and continental shelves (the outer edges of continents)."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "Transform faults offset active spreading ridges; fracture zones are ocean-floor valleys that offset the ridges and are now mostly inactive."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 208 (rendered; Figure 4A labels read from the render). The fracture-zone rationale limits opposite sliding to the offset stretch (L16-RF10). Final verification (verify-agent, 2026-10-14): checked against printed pp. 208 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q12",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "sonar",
+        "echo-timing",
+        "rate-time-distance"
+      ],
+      "familyId": "L16-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A ship's sonar sends a sound pulse straight down. The echo from the seafloor returns 6.0 seconds later. Sound travels about 1,500 meters per second in seawater. How deep is the seafloor there, in meters?",
+      "accessiblePrompt": "A ship's sonar sends a pulse of sound straight down to the seafloor. The echo comes back to the ship 6.0 seconds later. Sound travels about 1,500 meters per second in seawater. How deep is the seafloor at that spot, in meters?",
+      "answer": 4500,
+      "tolerance": 50,
+      "unit": "m",
+      "workedSolution": "The 6.0 seconds covers the trip down and the trip back up, so the one-way trip takes 6.0 s ÷ 2 = 3.0 s. Depth = speed × one-way time = 1,500 m/s × 3.0 s = 4,500 m. Multiplying by the full 6.0 s gives 9,000 m, which is the round-trip distance, not the depth.",
+      "units": "m",
+      "conditions": "The sound travels straight down and back at a steady 1,500 m/s.",
+      "limitations": "Real surveys correct the speed of sound for the water's temperature, salinity and pressure.",
+      "explanation": "Sonar times a round trip. Halving the echo time gives the time to reach the bottom, and multiplying by the speed of sound in seawater gives the depth. Thousands of these soundings revealed the ridge, trenches and fracture zones.",
+      "misconception": "The echo time is a one-way trip, so you multiply the speed by the whole time.",
+      "hint": "The pulse has to travel down and come back up. How much of the 6.0 seconds is the trip down?",
+      "followUpId": "L16-Q24",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            208
+          ],
+          "pdf": [
+            244
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            208
+          ],
+          "pdfPages": [
+            244
+          ],
+          "locator": "Section 4. Discovering Features of the Seafloor, Seafloor Structures",
+          "supports": "Sonar finds ocean depth by timing a sound pulse's round trip from the ship to the seafloor and back."
+        },
+        {
+          "type": "external",
+          "title": "Echo-Sounding Correction Tables for Computer Use (Matthews' Tables)",
+          "publisher": "NOAA National Centers for Environmental Information",
+          "url": "https://ngdc.noaa.gov/mgg/fliers/84mgg18.html",
+          "accessed": "2026-10-14",
+          "supports": "An echo sounding measures two-way travel time; it is commonly halved and multiplied by an assumed speed of sound in seawater of 1,500 m/s, with corrections for temperature, salinity and pressure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original numeric item. Method from printed p. 208 (rendered); the 1,500 m/s value comes from NOAA NCEI because the textbook gives no sound speed. Tolerance 50 m. Round 1 (2026-10-14): tagged to L16-O2 only; a sonar depth calculation does not test O4. Final verification (verify-agent, 2026-10-14): checked against printed pp. 208 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: objectiveIds narrowed to L16-O2 (sonar depth does not test O4)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q13",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "earthquake-volcano-pattern",
+        "ring-of-fire"
+      ],
+      "familyId": "L16-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "On a world map of recent earthquakes and active volcanoes, what pattern stands out?",
+      "accessiblePrompt": "Picture a world map with a mark for each recent earthquake and each active volcano. What pattern do the marks make?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They gather in long, narrow belts, such as one ringing the Pacific",
+          "rationale": "Correct. Most earthquakes and volcanoes sit in narrow zones tracing continent edges, ocean-basin rims and island chains. The busiest belt rings the Pacific."
+        },
+        {
+          "id": "b",
+          "text": "They are scattered fairly evenly across every continent and every ocean",
+          "rationale": "The map is far from even: huge areas, such as the middle of most continents, have few earthquakes or volcanoes."
+        },
+        {
+          "id": "c",
+          "text": "They are packed into the centers of the largest continents",
+          "rationale": "The centers of continents are mostly quiet; the activity clusters along edges and island chains."
+        },
+        {
+          "id": "d",
+          "text": "They occur almost only near the equator, where Earth is hottest",
+          "rationale": "Surface temperature does not control them; belts run from Alaska to Antarctica, far from the equator."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Earthquakes and volcanoes are not random. Most line up in long, narrow belts that trace the rims of continents and ocean basins and follow chains of islands. The Pacific Ring of Fire, tens of thousands of kilometers long, holds most of the world's active volcanoes, and these belts became a key clue to where plates meet.",
+      "misconception": "Earthquakes and volcanoes are about equally likely anywhere on Earth.",
+      "hint": "Think of places famous for earthquakes or volcanoes, such as Alaska, Japan, Iceland and Indonesia. Are they scattered at random or lined up?",
+      "followUpId": "L16-Q25",
+      "scope": {
+        "lessonId": "L16",
+        "section": "3. Observing Patterns of Volcanoes and Earthquakes",
+        "pages": {
+          "printed": [
+            207,
+            213
+          ],
+          "pdf": [
+            243,
+            249
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            207
+          ],
+          "pdfPages": [
+            243
+          ],
+          "locator": "Section 3. Observing Patterns of Volcanoes and Earthquakes and Figure 3",
+          "supports": "Seismic records place most activity in narrow zones at continent and ocean-basin edges and along island chains; the Ring of Fire around the Pacific stretches tens of thousands of kilometers and holds most active volcanoes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            213
+          ],
+          "pdfPages": [
+            249
+          ],
+          "locator": "Key Science Concept: Evidence from Volcanoes and Earthquakes",
+          "supports": "Volcanoes and earthquakes are concentrated in long, narrow zones along continent edges and island chains."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 207 and 213 (rendered; the map's belt from Alaska to Antarctica was read from the render). Final verification (verify-agent, 2026-10-14): checked against printed pp. 207, 213 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points to the only choice that names the Pacific"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q14",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O2",
+        "L16-O5"
+      ],
+      "conceptTags": [
+        "plate-edges",
+        "earthquake-belts-as-evidence"
+      ],
+      "familyId": "L16-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why did narrow belts of earthquakes and volcanoes become a clue for scientists trying to explain how continents move?",
+      "accessiblePrompt": "Earthquakes and volcanoes cluster in narrow belts. Why did these belts become a clue for scientists trying to explain how continents move?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The belts seemed to outline giant sections of Earth's rigid outer layer",
+          "rationale": "Correct. The belts seemed to trace the edges of huge pieces of the lithosphere, hinting that the pieces meet and move along those edges."
+        },
+        {
+          "id": "b",
+          "text": "Earthquakes had torn the continents apart in a single sudden event long ago",
+          "rationale": "This echoes the 1500s idea that earthquakes and floods tore the Americas from Europe and Africa. Continents move slowly, over millions of years, not in one event."
+        },
+        {
+          "id": "c",
+          "text": "Volcanoes erupt with enough force to shove continents sideways",
+          "rationale": "Eruptions are powerful locally, but they cannot push whole continents; the activity marks plate edges rather than moving the plates."
+        },
+        {
+          "id": "e",
+          "text": "They marked spots where liquid rock lets continents float apart",
+          "rationale": "Volcanoes bring up melted rock in some places, but there is no layer of liquid rock for continents to float on; the mantle under the plates is mostly solid. The belts mark the edges of rigid pieces of lithosphere."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Scientists noticed that the belts of earthquakes and volcanoes split the lithosphere into large sections, like cracks in an eggshell. If those sections move, their edges are where you would expect the ground to grind, crack and melt. The belts do not move the continents; they mark where moving pieces meet.",
+      "misconception": "Earthquakes or eruptions push the continents apart, or the continents float on liquid rock at the belts.",
+      "hint": "If Earth's outer shell were cracked into pieces, where would you expect the most shaking?",
+      "followUpId": "L16-Q26",
+      "scope": {
+        "lessonId": "L16",
+        "section": "3. Observing Patterns of Volcanoes and Earthquakes",
+        "pages": {
+          "printed": [
+            207
+          ],
+          "pdf": [
+            243
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            207
+          ],
+          "pdfPages": [
+            243
+          ],
+          "locator": "Section 3. Observing Patterns of Volcanoes and Earthquakes",
+          "supports": "The belts of earthquakes and volcanoes seemed to split the lithosphere into big sections, a clue to how continents move; worldwide seismic monitoring began in 1899."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            204
+          ],
+          "pdfPages": [
+            240
+          ],
+          "locator": "Section 1. Wegener's Hypothesis",
+          "supports": "Ortelius suggested the Americas had been torn from Europe and Africa by earthquakes and floods."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7. Tracking Plate Motion",
+          "supports": "Plates move only a few centimeters per year, and the continents took hundreds of millions of years to reach their present positions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior",
+          "supports": "The lithosphere is the crust plus the rigid outer mantle; the hotter mantle below it can flow and carry the lithosphere along."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-14",
+          "supports": "The mantle is mostly solid rock that can move plastically over millions of years; the asthenosphere is more ductile than the lithosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 204, 207 and 216 (rendered). Distractor b is a historical idea from the lesson itself. Review cycle 2 (2026-10-14): the pedagogy reviewer replaced the implausible 'exactly which day' choice with a liquid-rock misconception that targets the brief's liquid-mantle hazard (new id e; L16-RF5). The science reviewer had asked only to reword that old choice's rationale ('records go back only about a century' understated instrument records from 1899 and written records thousands of years old); the replacement removes the claim, so the rewording was not needed. p. 206 and National Geographic (mantle mostly solid) records added for the new rationale. Re-checked against printed pp. 206 and 207 (re-rendered p. 207). Final verification (verify-agent, 2026-10-14): checked against printed pp. 204, 206, 207, 216 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale reworded to drop a 7-word run shared with p. 207"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: the old choice d and its 'records go back only about a century' claim are gone, replaced under the pedagogy fix, so the requested rewording was not needed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible exact-day distractor replaced by a floating-on-liquid-rock misconception (new id e); misconception updated; L16-RF5 now cites Q14"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q15",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3",
+        "L16-O4"
+      ],
+      "conceptTags": [
+        "seafloor-spreading-prediction",
+        "seafloor-age-pattern"
+      ],
+      "familyId": "L16-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "If new seafloor forms at the mid-ocean ridge and then spreads outward, what pattern of rock ages should scientists find?",
+      "accessiblePrompt": "Suppose new seafloor forms at the mid-ocean ridge and then spreads outward. What pattern of rock ages should scientists find across the ocean floor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Youngest rock at the ridge, getting older farther away on both sides",
+          "rationale": "Correct. Rock is made at the ridge and carried outward, so its age should increase with distance on each side."
+        },
+        {
+          "id": "b",
+          "text": "Oldest rock at the ridge, getting younger toward the continents",
+          "rationale": "This is backward: the ridge is where new rock forms, so it should be the youngest."
+        },
+        {
+          "id": "c",
+          "text": "Rock of roughly the same age at every spot across the whole ocean floor",
+          "rationale": "Equal ages everywhere would mean the seafloor formed all at once, but spreading makes new rock at the ridge all the time."
+        },
+        {
+          "id": "d",
+          "text": "Youngest rock on one side of the ridge, oldest rock on the other",
+          "rationale": "Spreading carries rock away in both directions, so the two sides should mirror each other."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A good hypothesis makes a testable prediction. Seafloor spreading predicts the youngest rock at the ridge and steadily older rock farther away, mirrored on both sides. Drill samples later showed exactly that pattern.",
+      "misconception": "The mid-ocean ridge holds the oldest seafloor because it is the biggest feature.",
+      "hint": "Think of a conveyor belt that starts at the ridge. Where is the newest material?",
+      "followUpId": "L16-Q18",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            209
+          ],
+          "pdf": [
+            245
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading and Figure 4B",
+          "supports": "If seafloor spreading were occurring, the seafloor closest to the ridge would be youngest and the farthest the oldest; the age map shows the youngest rocks along the ridge and older rocks farther away on both sides."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 209 (rendered; Figure 4B colors read from the render). Says 'farther away', not 'at the trenches' (L16-RF7). Round 1 (2026-10-14): moved to family L16-F11 with Q23 (same seafloor age-pattern idea). Final verification (verify-agent, 2026-10-14): checked against printed pp. 209 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to L16-F11 with Q23 (same age-pattern idea); followUpId now L16-Q18"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q16",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "subduction",
+        "earth-not-growing"
+      ],
+      "familyId": "L16-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A classmate says, \"Mid-ocean ridges make new seafloor all the time, so Earth must be slowly swelling like a balloon.\" What is the best reply?",
+      "accessiblePrompt": "A classmate says that because mid-ocean ridges make new seafloor all the time, Earth must be slowly swelling like a balloon. What is the best reply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Old, dense seafloor sinks back into the mantle at trenches",
+          "rationale": "Correct. Subduction destroys old oceanic lithosphere at trenches, balancing what forms at ridges."
+        },
+        {
+          "id": "b",
+          "text": "New seafloor melts away again right where it formed at the ridge",
+          "rationale": "New rock moves away from the ridge as spreading continues; it is not destroyed where it forms."
+        },
+        {
+          "id": "c",
+          "text": "Waves and currents slowly grind the new seafloor down into sand",
+          "rationale": "Erosion moves sediment around but cannot remove whole slabs of seafloor rock from the planet."
+        },
+        {
+          "id": "d",
+          "text": "The classmate is right: Earth grows a little larger every year",
+          "rationale": "Earth is not expanding. Old seafloor sinks at trenches about as fast as new seafloor forms at ridges, which is also why ocean-floor rocks are much younger than the oldest continental rocks."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Spreading and subduction work as a pair. Oceanic lithosphere forms at mid-ocean ridges, moves away, and eventually sinks back into the mantle at trenches. Because seafloor is recycled, Earth stays the same size, and ocean-floor rocks are much younger than the oldest continental rocks.",
+      "misconception": "If new crust keeps forming, Earth must be expanding.",
+      "hint": "If something is made all the time but the total stays the same, what else must be happening all the time?",
+      "followUpId": "L16-Q18",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            209,
+            215
+          ],
+          "pdf": [
+            245,
+            251
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading",
+          "supports": "Seafloor spreading raised the question of why Earth isn't getting bigger; scientists proposed that cooled, dense oceanic crust sinks into the mantle at trenches and is recycled."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion",
+          "supports": "Subduction continuously destroys lithosphere at trenches while seafloor spreading forms it at the ridge."
+        },
+        {
+          "type": "external",
+          "title": "Developing the theory (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/developing.html",
+          "accessed": "2026-10-14",
+          "supports": "Hess explained why Earth does not get bigger with seafloor spreading: oceanic crust eventually descends into the trenches; oceanic rocks are much younger than continental rocks."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 209 and 215 (rendered). Round 1 (2026-10-14): stays in L16-F07, now paired with the new convection item L16-Q30 instead of Q15 (the reviewer's stated alternative), so familyId and followUpId are unchanged. Review cycle 2 (2026-10-14): the pedagogy reviewer showed the old stem ('yet Earth is not getting any bigger') ruled out choice d and echoed the textbook's own p. 209 question. The item is now a misconception repair: a classmate claims Earth is swelling. Choice d keeps id d because it makes the same claim as before (Earth is growing), now worded as agreement with the classmate. Key, explanation and hint are unchanged. Re-checked against printed pp. 209 and 215 (re-rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 209, 215 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: reviewer's alternative adopted; stays in L16-F07, now paired with new convection item L16-Q30 instead of Q15; followUpId L16-Q18 unchanged"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: reframed as a classmate's 'swelling balloon' claim so the stem no longer rules out choice d or echoes the p. 209 question; choice d reworded as agreeing with the classmate"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q17",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "why-plates-sink"
+      ],
+      "familyId": "L16-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "As a piece of oceanic lithosphere moves away from the mid-ocean ridge, what happens to it, and why does it eventually sink at a trench?",
+      "accessiblePrompt": "A piece of oceanic lithosphere forms at the mid-ocean ridge and then moves away from it. What happens to the rock as it moves, and why does it eventually sink at a trench?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It cools and contracts, becomes denser, and sinks beneath less dense rock",
+          "rationale": "Correct. Cooling makes rock contract and grow denser, so old oceanic lithosphere can sink beneath a less dense plate."
+        },
+        {
+          "id": "b",
+          "text": "It heats up and swells, which makes it heavier so it drops",
+          "rationale": "Heating makes rock expand and become less dense, which makes it rise, not sink."
+        },
+        {
+          "id": "c",
+          "text": "It gets lighter as it ages and is pushed down by the ocean water",
+          "rationale": "Older seafloor gets denser, not lighter, and the weight of seawater does not push plates into the mantle."
+        },
+        {
+          "id": "d",
+          "text": "It stays exactly the same, and the trench is simply where it happens to stop",
+          "rationale": "The rock does not stay the same: it cools steadily, and that change in density is what lets it sink."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Rock made at the ridge starts out hot. As spreading carries it away, it cools, contracts and becomes denser. Where it meets another plate at a trench, the denser plate is forced underneath and sinks into the mantle; that sinking is subduction.",
+      "misconception": "Heating makes rock heavier and denser, so hot rock sinks.",
+      "hint": "What usually happens to a material's density when it cools?",
+      "followUpId": "L16-Q16",
+      "scope": {
+        "lessonId": "L16",
+        "section": "6. The Theory of Plate Tectonics",
+        "pages": {
+          "printed": [
+            215
+          ],
+          "pdf": [
+            251
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion",
+          "supports": "Heated rock expands, loses density and rises; cooled rock contracts, gains density and sinks. Rock moving out from the ridge cools, grows denser and sinks at trenches, where the denser plate is forced beneath the other."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading",
+          "supports": "As oceanic crust moves away from the ridge it cools and becomes denser."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 209 and 215 (rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 209, 215 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass: conditional followUp change not needed because Q16 stays in L16-F07 with new L16-Q30 (reviewer's stated alternative)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q18",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "lithosphere-life-cycle",
+        "spreading-and-subduction"
+      ],
+      "familyId": "L16-F08",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "order",
+      "prompt": "Put the life story of a piece of oceanic lithosphere in order, from its birth to its return into the mantle.",
+      "accessiblePrompt": "Put five stages in the life of a piece of oceanic lithosphere in order, from its birth to its return into the mantle. The stages are: it reaches a trench and is forced under a less dense plate; hot mantle rock rises beneath the mid-ocean ridge and partly melts; it sinks into the hot mantle; magma fills cracks at the ridge and hardens into new lithosphere; spreading carries the rock away from the ridge as it cools and grows denser.",
+      "items": [
+        {
+          "id": "trench",
+          "text": "It reaches a trench and is forced under a less dense plate",
+          "rationale": "Fourth: at a convergent boundary the denser plate bends down beneath the other one."
+        },
+        {
+          "id": "rise",
+          "text": "Hot mantle rock rises beneath the mid-ocean ridge and partly melts",
+          "rationale": "First: rising hot rock beneath the ridge supplies the magma."
+        },
+        {
+          "id": "sink",
+          "text": "It sinks into the hot mantle",
+          "rationale": "Last: the subducted rock sinks into the mantle, where it heats up again."
+        },
+        {
+          "id": "harden",
+          "text": "Magma fills cracks at the ridge and hardens into new lithosphere",
+          "rationale": "Second: the magma cools in the cracks and becomes brand-new lithosphere."
+        },
+        {
+          "id": "travel",
+          "text": "Spreading carries the rock away from the ridge as it cools and grows denser",
+          "rationale": "Third: new rock keeps forming behind it, so it moves outward, cooling as it goes."
+        }
+      ],
+      "answer": [
+        "rise",
+        "harden",
+        "travel",
+        "trench",
+        "sink"
+      ],
+      "ends": [
+        "Birth at the ridge",
+        "Return to the mantle"
+      ],
+      "limitations": "A simplified path: real plates also move sideways, and how sunken rock circulates deep in the mantle is still being studied (L16-RF6).",
+      "explanation": "Oceanic lithosphere is born at a mid-ocean ridge, carried away by seafloor spreading while it cools and grows denser, and destroyed when it subducts at a trench and sinks into the mantle. This cycle of creation and destruction keeps reshaping Earth's surface.",
+      "misconception": "Seafloor lasts forever once it forms.",
+      "hint": "Start where new rock is made. Where does it go next, and what change lets it sink?",
+      "followUpId": "L16-Q15",
+      "scope": {
+        "lessonId": "L16",
+        "section": "6. The Theory of Plate Tectonics",
+        "pages": {
+          "printed": [
+            215
+          ],
+          "pdf": [
+            251
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion and Figure 6B",
+          "supports": "Hot rock rising under the ridge melts into magma that cools in cracks to form new lithosphere; spreading carries it away as it cools and grows denser; at trenches the denser plate subducts and becomes part of the mantle."
+        },
+        {
+          "type": "external",
+          "title": "Some unanswered questions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "accessed": "2026-10-14",
+          "supports": "Many questions about mantle convection remain unanswered, and no single proposed mechanism explains all facets of plate movement."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 215 (rendered; Figure 6B arrows read from the render). Ends at sinking into the mantle rather than the textbook's simplified return to the ridge, so exactly one order is defensible. Final verification (verify-agent, 2026-10-14): checked against printed pp. 215 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q19",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3",
+        "L16-O2"
+      ],
+      "conceptTags": [
+        "tectonic-plate-definition",
+        "plates-vs-continents"
+      ],
+      "familyId": "L16-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Which description of a tectonic plate is most accurate?",
+      "accessiblePrompt": "Which description of a tectonic plate is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A rigid piece of lithosphere carrying continent, seafloor or both",
+          "rationale": "Correct. Plates are pieces of the lithosphere. Some, like the Pacific Plate, are mostly seafloor; others carry whole continents as well."
+        },
+        {
+          "id": "b",
+          "text": "Simply another name for a continent, while the ocean floor stays put",
+          "rationale": "Plates are not the same as continents: many plate boundaries run through oceans, and the seafloor moves too."
+        },
+        {
+          "id": "c",
+          "text": "A thin sheet of crust only, with no mantle rock attached",
+          "rationale": "Plates include the rigid top of the mantle as well as the crust."
+        },
+        {
+          "id": "d",
+          "text": "A loose pile of separate rock pieces that each move on their own",
+          "rationale": "A plate moves as one rigid unit, which is why whole plates can be tracked across the globe."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Plate tectonics says the lithosphere, the crust plus the rigid top of the mantle, is broken into large rigid pieces that each move as a unit. A plate may carry a continent, ocean floor or both, which is why many plate edges lie far out at sea.",
+      "misconception": "Tectonic plates are the same thing as continents.",
+      "hint": "Picture where plate edges are drawn on a world map. Do they all follow coastlines?",
+      "followUpId": "L16-Q08",
+      "scope": {
+        "lessonId": "L16",
+        "section": "6. The Theory of Plate Tectonics",
+        "pages": {
+          "printed": [
+            214
+          ],
+          "pdf": [
+            250
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            214
+          ],
+          "pdfPages": [
+            250
+          ],
+          "locator": "Section 6. The Theory of Plate Tectonics and Figure 6A",
+          "supports": "In plate tectonics the lithosphere consists of rigid plates moving over Earth's surface; Figure 6A shows plates such as the Pacific Plate whose edges lie out in the oceans."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            206
+          ],
+          "pdfPages": [
+            242
+          ],
+          "locator": "Section 2. Discovering Earth's Interior",
+          "supports": "The lithosphere is made of the crust together with the stiff outer part of the mantle."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 206 and 214 (rendered; plate outlines in Figure 6A read from the render). Avoids the textbook's count of 15 major plates (L16-RF4). Review cycle 2 (2026-10-14): difficulty set from 2 to 1 under the pedagogy reviewer's lesson-level difficulty-spread fix. Final verification (verify-agent, 2026-10-14): checked against printed pp. 206, 214 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: difficulty 2 -> 1 (lesson-level difficulty-spread fix)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q20",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3",
+        "L16-O4"
+      ],
+      "conceptTags": [
+        "seafloor-moves",
+        "misconception-repair"
+      ],
+      "familyId": "L16-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A classmate says, \"Only the continents move. The ocean floor stays put.\" Which evidence most directly shows this is wrong?",
+      "accessiblePrompt": "A classmate says that only the continents move and the ocean floor stays in place. Which piece of evidence most directly shows that this is wrong?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seafloor rock gets older with distance from the ridge on both sides",
+          "rationale": "Correct. That age pattern shows the seafloor itself is made at the ridge and carried away, so the ocean floor moves."
+        },
+        {
+          "id": "b",
+          "text": "The very same fossils turn up on continents that are far apart today",
+          "rationale": "Fossils show the continents were once joined, but they say nothing about whether the seafloor moves."
+        },
+        {
+          "id": "c",
+          "text": "Earthquakes and volcanoes are common around the Pacific Ocean",
+          "rationale": "This pattern marks plate edges, but on its own it does not show seafloor traveling away from ridges."
+        },
+        {
+          "id": "d",
+          "text": "Coastlines on opposite sides of the Atlantic match in shape",
+          "rationale": "Matching coastlines suggest the continents were joined, but they do not test whether the ocean floor moves."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Clues from the continents, like fossils and coastlines, show that land moved but are silent about the ocean floor. The seafloor's own rocks settle it: they are youngest at the ridge and older farther away, in mirror-image bands. Fracture zones cutting across the ridge add more evidence that the seafloor moves.",
+      "misconception": "Continents plow through an ocean floor that stays fixed in place.",
+      "hint": "Which clue could exist only if the ocean floor itself had been made and moved?",
+      "followUpId": "L16-Q15",
+      "scope": {
+        "lessonId": "L16",
+        "section": "Key Science Concept: Evidence for Moving Continents",
+        "pages": {
+          "printed": [
+            209,
+            213
+          ],
+          "pdf": [
+            245,
+            249
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            213
+          ],
+          "pdfPages": [
+            249
+          ],
+          "locator": "Key Science Concept: Evidence from the Seafloor",
+          "supports": "Fracture zones along the ridge show that the seafloor moves, and the seafloor's age pattern has the youngest rocks at the mid-ocean ridge."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading and Figure 4B",
+          "supports": "Seafloor rocks increase in age with distance from the ridge on both sides."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original misconception-repair item. Drafted from printed pp. 209 and 213 (rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 209, 213 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points straight at choice a"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q21",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O4"
+      ],
+      "conceptTags": [
+        "criteria-and-constraints",
+        "engineering-design"
+      ],
+      "familyId": "L16-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Engineers designing a ship to drill into the seafloor listed requirements and limits. Sort each item as a criterion or a constraint.",
+      "accessiblePrompt": "Engineers designing a ship to drill into the seafloor wrote down requirements the ship must meet, called criteria, and limits they had to work within, called constraints. Sort six items into criterion or constraint. Items: send drill pipe down through several kilometers of seawater; recover rock from more than 1,000 meters below the seafloor; samples count only if the rock layers come up unbroken and unmixed; only drilling technology that existed in the 1960s can be used; the project has a fixed amount of money to spend; the deck can hold only so much drill pipe.",
+      "items": [
+        {
+          "id": "money",
+          "text": "The project has a fixed amount of money to spend",
+          "rationale": "Constraint: every design choice has to fit inside the budget, so it limits the solution."
+        },
+        {
+          "id": "deep",
+          "text": "Recover rock from more than 1,000 meters below the seafloor",
+          "rationale": "Criterion: reaching rock this deep is something the ship must achieve for the project to succeed."
+        },
+        {
+          "id": "tech",
+          "text": "Only drilling technology that existed in the 1960s can be used",
+          "rationale": "Constraint: the engineers could not use tools that had not been invented yet."
+        },
+        {
+          "id": "water",
+          "text": "Send drill pipe down through several kilometers of seawater",
+          "rationale": "Criterion: the ship has to reach a seafloor that lies kilometers down; that is a required ability."
+        },
+        {
+          "id": "deck",
+          "text": "The deck can hold only so much drill pipe",
+          "rationale": "Constraint: limited space limits how much pipe the ship can carry."
+        },
+        {
+          "id": "order",
+          "text": "Samples count only if the rock layers come up unbroken and unmixed",
+          "rationale": "Criterion: it says what a usable sample must be like, so it is a requirement for success, not a limit on how the ship is built."
+        }
+      ],
+      "bins": [
+        {
+          "id": "crit",
+          "label": "Criterion (what success requires)"
+        },
+        {
+          "id": "cons",
+          "label": "Constraint (a limit on the design)"
+        }
+      ],
+      "answer": {
+        "deep": "crit",
+        "order": "crit",
+        "water": "crit",
+        "tech": "cons",
+        "money": "cons",
+        "deck": "cons"
+      },
+      "limitations": "The budget and deck-space items are realistic constraints added for this question; the textbook names technology as a main constraint.",
+      "explanation": "Criteria describe what a solution must achieve, like reaching deep rock and keeping samples in order. Constraints are the limits engineers must work within, such as the technology available, money and space. Defining both precisely helped make the Glomar Challenger's design a success.",
+      "misconception": "Criteria and constraints are the same thing: anything written in a design plan.",
+      "hint": "Ask: is this something the ship must accomplish, or something that limits how it can be built?",
+      "followUpId": "L16-Q23",
+      "scope": {
+        "lessonId": "L16",
+        "section": "5. Designing a Drill Ship",
+        "pages": {
+          "printed": [
+            210
+          ],
+          "pdf": [
+            246
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            210
+          ],
+          "pdfPages": [
+            246
+          ],
+          "locator": "Section 5. Designing a Drill Ship, Ship Design Challenges and Figure 5",
+          "supports": "Criteria are the requirements for success: the ship had to send drill pipe through thousands of meters of water, drill over 1,000 m into ocean crust and bring up unbroken, unmixed rock layers. Constraints are limits, and technology was a main one."
+        },
+        {
+          "type": "external",
+          "title": "DSDP Phase: Glomar Challenger",
+          "publisher": "International Ocean Discovery Program (Texas A&M University)",
+          "url": "https://web.iodp.tamu.edu/publicinfo/glomar_challenger.html",
+          "accessed": "2026-10-14",
+          "supports": "Levingston Shipbuilding laid the Glomar Challenger's keel on October 18, 1967, in Orange, Texas, and launched the ship on March 23, 1968, so it was newly built for deep-sea drilling."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 210 (rendered). The textbook's 'ship must stay stationary' item is left out because it reads as either a criterion or a constraint, so every item here has one defensible bin. Round 1 (2026-10-14): \"redesigning\" became \"designing\" because the Glomar Challenger was newly built (L16-RF17). The \"water\" item no longer echoes p. 210, and the word \"only\" now appears in a criterion as well as two constraints, so it no longer marks the constraint bin. Bins, key and the other rationales are unchanged. Final verification (verify-agent, 2026-10-14): checked against printed pp. 210 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: \"redesigning\" changed to \"designing\" because the ship was newly built; IODP source added (L16-RF17)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: \"water\" item reworded to drop a 7-word run from p. 210; \"order\" item reworded so the word \"only\" no longer marks the constraint bin"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q22",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O4",
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "core-samples",
+        "testing-a-hypothesis"
+      ],
+      "familyId": "L16-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "One criterion for the drill ship was to bring up seafloor rock without breaking the samples or mixing the layers. Why did that matter for testing seafloor spreading?",
+      "accessiblePrompt": "One requirement for the drill ship was to bring up seafloor rock without breaking the samples or mixing up the layers. Why did that matter for testing the idea of seafloor spreading?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each rock's age had to be matched to the layer it came from",
+          "rationale": "Correct. To compare rock ages from site to site, each sample had to keep its place in the layer sequence; mixed layers would scramble the age record."
+        },
+        {
+          "id": "b",
+          "text": "Broken rock cannot be dated at all, so every piece had to stay whole",
+          "rationale": "Broken pieces can still be dated. The problem is losing track of which layer and depth each piece came from."
+        },
+        {
+          "id": "c",
+          "text": "Keeping the layers in order showed how fast the drill had been turning",
+          "rationale": "Drilling speed says nothing about seafloor spreading; the test needed each rock's age and position."
+        },
+        {
+          "id": "d",
+          "text": "Unmixed layers showed whether the continents' coastlines matched",
+          "rationale": "Coastline fit comes from maps, not seafloor cores; the cores were collected to test the age pattern."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Seafloor spreading predicts how rock ages change with distance from the ridge. To check that prediction, scientists had to know exactly which layer each piece came from, so broken or mixed samples would blur the very record they were testing. The engineering criterion served the science question.",
+      "misconception": "Engineering requirements have nothing to do with the scientific question they serve.",
+      "hint": "What were the scientists trying to measure in each sample?",
+      "followUpId": "L16-Q23",
+      "scope": {
+        "lessonId": "L16",
+        "section": "5. Designing a Drill Ship",
+        "pages": {
+          "printed": [
+            210,
+            211
+          ],
+          "pdf": [
+            246,
+            247
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            210
+          ],
+          "pdfPages": [
+            246
+          ],
+          "locator": "Section 5. Designing a Drill Ship, Ship Design Challenges",
+          "supports": "A key requirement was recovering seafloor rock layers intact and in order, without breaking or mixing them."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            211
+          ],
+          "pdfPages": [
+            247
+          ],
+          "locator": "Section 5, Testing for Seafloor Spreading",
+          "supports": "Samples were analyzed to find whether rock ages formed a pattern; the data showed oceanic crust getting older with distance from the mid-ocean ridge."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original reasoning item linking an engineering criterion to the science test. Drafted from printed pp. 210-211 (rendered). Round 1 (2026-10-14): three implausible distractors replaced with misconception-based ones. Choice c was lengthened slightly so the keyed choice is not the longest. Review cycle 2 (2026-10-14): the keyed choice is reworded on the pedagogy reviewer's finding that 'needed to know which rock came from which layer to date it' implied the layer is what makes dating possible, pulling against choice b's rationale. It keeps id a because the claim is the same, only more precise. It is still not the longest choice. Final verification (verify-agent, 2026-10-14): checked against printed pp. 210, 211 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: three implausible distractors replaced with misconception-based ones (dating broken rock, drill speed, coastline fit)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: keyed choice reworded to 'Each rock's age had to be matched to the layer it came from' so it no longer implies the layer is what makes dating possible"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q23",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O4"
+      ],
+      "conceptTags": [
+        "seafloor-age-interpretation",
+        "ridge-symmetry"
+      ],
+      "familyId": "L16-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Four drill sites lie on a line across a mid-ocean ridge (see the table). Order the sites from youngest to oldest seafloor.",
+      "accessiblePrompt": "Four drill sites lie on a line across a mid-ocean ridge. Site W is 600 kilometers west of the ridge. Site X is 50 kilometers east. Site Y is 1,200 kilometers east. Site Z is 300 kilometers west. The ridge spreads at the same steady rate on both sides. Order the sites from youngest to oldest seafloor.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Drill sites across one mid-ocean ridge",
+        "alt": "A table of four drill sites. Site W: west side of the ridge, 600 kilometers from the ridge. Site X: east side, 50 kilometers from the ridge. Site Y: east side, 1,200 kilometers from the ridge. Site Z: west side, 300 kilometers from the ridge. The ridge spreads at the same steady rate on both sides.",
+        "columns": [
+          "Site",
+          "Side of ridge",
+          "Distance from ridge (km)"
+        ],
+        "rows": [
+          [
+            "W",
+            "West",
+            600
+          ],
+          [
+            "X",
+            "East",
+            50
+          ],
+          [
+            "Y",
+            "East",
+            1200
+          ],
+          [
+            "Z",
+            "West",
+            300
+          ]
+        ]
+      },
+      "items": [
+        {
+          "id": "W",
+          "text": "Site W (600 km west)",
+          "rationale": "Third: twice as far from the ridge as Site Z, so its seafloor is older than Z's."
+        },
+        {
+          "id": "Y",
+          "text": "Site Y (1,200 km east)",
+          "rationale": "Oldest: it is the farthest site from the ridge."
+        },
+        {
+          "id": "X",
+          "text": "Site X (50 km east)",
+          "rationale": "Youngest: it is closest to the ridge, where new seafloor forms."
+        },
+        {
+          "id": "Z",
+          "text": "Site Z (300 km west)",
+          "rationale": "Second: farther out than X, on the other side; only distance matters, not direction."
+        }
+      ],
+      "answer": [
+        "X",
+        "Z",
+        "W",
+        "Y"
+      ],
+      "ends": [
+        "Youngest",
+        "Oldest"
+      ],
+      "conditions": "The ridge spreads at the same steady rate on both sides, and each distance is measured straight out from the ridge.",
+      "explanation": "With equal spreading on both sides, the age of the seafloor depends only on its distance from the ridge, not on which side it is on. Closer means younger and farther means older, which is the mirror-image pattern drill ships found.",
+      "misconception": "All the seafloor on one side of a ridge is older than all the seafloor on the other side.",
+      "hint": "Where is the newest seafloor made, and how does rock end up far from that spot?",
+      "followUpId": "L16-Q20",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            209,
+            211
+          ],
+          "pdf": [
+            245,
+            247
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading and Figure 4B",
+          "supports": "Seafloor rocks increase in age with distance from the mid-ocean ridge, with matching patterns on both sides."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            211
+          ],
+          "pdfPages": [
+            247
+          ],
+          "locator": "Section 5, Testing for Seafloor Spreading",
+          "supports": "Glomar Challenger samples from both sides of the ridge showed oceanic crust becoming older with distance from the mid-ocean ridge."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original data item with a table diagram. Drafted from printed pp. 209 and 211 (rendered). The stated conditions make exactly one order defensible. Final verification (verify-agent, 2026-10-14): checked against printed pp. 209, 211 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives away the distance-only insight; followUpId now L16-Q20 because Q15 joined L16-F11"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q24",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O4"
+      ],
+      "conceptTags": [
+        "spreading-rate",
+        "rate-time-distance",
+        "unit-conversion"
+      ],
+      "familyId": "L16-F13",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "A drill sample comes from seafloor 120 km from a mid-ocean ridge. On that side, the seafloor has moved away from the ridge at a steady 2 cm per year. About how old is the seafloor at the sample site, in millions of years?",
+      "accessiblePrompt": "A drill sample comes from seafloor 120 kilometers from a mid-ocean ridge. On that side, the seafloor has moved away from the ridge at a steady 2 centimeters per year. About how old is the seafloor at the sample site, in millions of years?",
+      "answer": 6,
+      "tolerance": 0.2,
+      "unit": "million years",
+      "workedSolution": "Convert the distance to centimeters: 120 km × 100,000 cm per km = 12,000,000 cm. Time = distance ÷ rate = 12,000,000 cm ÷ 2 cm per year = 6,000,000 years, or 6 million years. Dividing the bare numbers (120 ÷ 2 = 60) skips the conversion and gives an answer ten times too big.",
+      "units": "million years",
+      "conditions": "Assumes the seafloor has moved away from the ridge at a steady rate since it formed.",
+      "explanation": "Seafloor age, distance and spreading rate are linked: age equals distance divided by rate. Two centimeters a year sounds tiny, but in 6 million years it adds up to 120 km of new ocean floor on this side of the ridge.",
+      "misconception": "You can divide kilometers by centimeters per year without converting units.",
+      "hint": "Put the distance and the rate in the same length unit before you divide.",
+      "followUpId": "L16-Q23",
+      "scope": {
+        "lessonId": "L16",
+        "section": "4. Discovering Features of the Seafloor",
+        "pages": {
+          "printed": [
+            209,
+            217
+          ],
+          "pdf": [
+            245,
+            253
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading",
+          "supports": "New seafloor forms at the ridge and moves away from it, so rocks are older farther from the ridge."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            217
+          ],
+          "pdfPages": [
+            253
+          ],
+          "locator": "Section 7, Tracking Plate Motion",
+          "supports": "Rate multiplied by time, with millimeters converted to kilometers, gives how far plates move."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original numeric item (inverse of the textbook's rate x time method on p. 217). Drafted from printed pp. 209 and 217 (rendered). Tolerance 0.2 million years. Round 1 (2026-10-14): moved to L16-F13 with Q27 (rate, time and distance with a unit conversion). Review cycle 2 (2026-10-14): two fixes combined. Pedagogy: with 20 mm a year, 120 ÷ 20 = 6 already equals the answer in millions of years (1 km ÷ 1 mm per year = 1 million years), so the item could not detect skipped units. The rate is now 2 cm per year, and 120 ÷ 2 = 60 is ten times too big. Science: the explanation's 'a few millimeters a year ... hundreds of kilometers' was numerically loose; it now uses the item's own numbers. Answer 6 million years ± 0.2 unchanged (12,000,000 cm ÷ 2 cm per year = 6,000,000 years); the verifier should recheck the arithmetic. Final verification (verify-agent, 2026-10-14): checked against printed pp. 209, 217 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to L16-F13 with Q27 (rate-time-distance); followUpId now L16-Q23"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation's loose 'a few millimeters a year ... hundreds of kilometers' replaced with the item's own numbers (2 cm a year, 120 km in 6 million years)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rate restated as 2 cm per year so the bare-number shortcut (120 ÷ 2 = 60) no longer gives the answer; worked solution and misconception updated; answer 6 ± 0.2 million years unchanged"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q25",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O5"
+      ],
+      "conceptTags": [
+        "boundary-types",
+        "plate-motion"
+      ],
+      "familyId": "L16-F12",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each plate-boundary example by the kind of motion happening there.",
+      "accessiblePrompt": "Sort six plate-boundary examples into three groups: convergent, where plates move together; divergent, where plates move apart; and transform, where plates slide past each other. Examples: the Nazca Plate sinking beneath the South American Plate; the Red Sea widening between the African and Arabian plates; the Pacific and North American plates grinding past each other along the San Andreas Fault; new seafloor forming along the mid-ocean ridge in the Atlantic; a deep trench forming where one plate dives under another; two plates locking, then lurching sideways past each other.",
+      "items": [
+        {
+          "id": "trench",
+          "text": "A deep trench forming where one plate dives under another",
+          "rationale": "Convergent: trenches form where plates move together and one sinks beneath the other."
+        },
+        {
+          "id": "redsea",
+          "text": "The Red Sea widening between the African and Arabian plates",
+          "rationale": "Divergent: the plates are moving apart, so the sea between them grows wider."
+        },
+        {
+          "id": "lurch",
+          "text": "Two plates locking, then lurching sideways past each other",
+          "rationale": "Transform: sideways sliding that sticks and then slips is the mark of a transform boundary."
+        },
+        {
+          "id": "nazca",
+          "text": "The Nazca Plate sinking beneath the South American Plate",
+          "rationale": "Convergent: the plates move toward each other and the denser Nazca Plate subducts."
+        },
+        {
+          "id": "ridge",
+          "text": "New seafloor forming along the mid-ocean ridge in the Atlantic",
+          "rationale": "Divergent: new lithosphere forms where plates pull apart at the ridge."
+        },
+        {
+          "id": "sanandreas",
+          "text": "The Pacific and North American plates grinding past each other along the San Andreas Fault",
+          "rationale": "Transform: these plates slide past each other rather than colliding or separating."
+        }
+      ],
+      "bins": [
+        {
+          "id": "conv",
+          "label": "Convergent (moving together)"
+        },
+        {
+          "id": "div",
+          "label": "Divergent (moving apart)"
+        },
+        {
+          "id": "trans",
+          "label": "Transform (sliding past)"
+        }
+      ],
+      "answer": {
+        "nazca": "conv",
+        "trench": "conv",
+        "redsea": "div",
+        "ridge": "div",
+        "sanandreas": "trans",
+        "lurch": "trans"
+      },
+      "explanation": "Boundaries are named for how the plates move. Toward each other is convergent, often with a trench where the denser plate sinks. Apart is divergent, where new lithosphere forms and seas widen. Sliding past is transform, where plates stick and then slip.",
+      "misconception": "Every plate boundary has the same kind of motion and the same features.",
+      "hint": "For each example ask: are the plates closing in, pulling apart, or sliding sideways?",
+      "followUpId": "L16-Q14",
+      "scope": {
+        "lessonId": "L16",
+        "section": "7. Tracking Plate Motion",
+        "pages": {
+          "printed": [
+            216,
+            217
+          ],
+          "pdf": [
+            252,
+            253
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7. Tracking Plate Motion, Convergent Motion and Divergent Motion; Figure 7",
+          "supports": "Boundaries are classified by plate motion: the Nazca Plate subducts under the South American Plate at a convergent boundary with a trench; the African and Arabian plates move apart at a divergent boundary, widening the Red Sea."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            217
+          ],
+          "pdfPages": [
+            253
+          ],
+          "locator": "Section 7, Transform Motion",
+          "supports": "Transform boundaries are where plates slide past one another and stored stress releases suddenly; the San Andreas Fault separates the Pacific and North American plates."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion",
+          "supports": "The mid-ocean ridge is a boundary between plates that are diverging."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 215-217 (rendered; Figure 7 photo labels read from the render). Two items per bin; each has one defensible bin. Review cycle 2 (2026-10-14): the science reviewer's optional wording was applied (the San Andreas item now says 'grinding past each other', matching the accessiblePrompt), and difficulty is set from 2 to 1 under the pedagogy reviewer's difficulty-spread fix. L16-F12 now holds Q25 and Q28; Q26 moved to the new boundary-outcome family L16-F14 with new Q32. Final verification (verify-agent, 2026-10-14): checked against printed pp. 215, 216, 217 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L16-Q14 because Q28 joined L16-F12"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional wording applied; the San Andreas item text now matches the accessiblePrompt"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: difficulty 2 -> 1 (lesson-level difficulty-spread fix)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q26",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O5"
+      ],
+      "conceptTags": [
+        "subduction-features",
+        "convergent-boundary"
+      ],
+      "familyId": "L16-F14",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Where a dense oceanic plate is forced beneath a continent, as along the west coast of South America, which features are expected? Select all that apply.",
+      "accessiblePrompt": "Where a dense oceanic plate is forced beneath a continent, as along the west coast of South America, which features would you expect to find? There are five choices. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A deep trench on the seafloor offshore",
+          "rationale": "Expected. The sinking plate bends down and forms a trench."
+        },
+        {
+          "id": "b",
+          "text": "A chain of volcanic mountains on the continent",
+          "rationale": "Expected. Melting deep down near the sinking plate makes magma that rises to build volcanoes like those of the Andes."
+        },
+        {
+          "id": "c",
+          "text": "Frequent, sometimes strong earthquakes",
+          "rationale": "Expected. The plates grind as one sinks beneath the other, so earthquakes are common along this kind of boundary."
+        },
+        {
+          "id": "d",
+          "text": "A widening sea with new seafloor forming between the plates",
+          "rationale": "That describes a divergent boundary, like the Red Sea, where plates move apart."
+        },
+        {
+          "id": "e",
+          "text": "Plates sliding past each other with neither one sinking",
+          "rationale": "That describes a transform boundary, where neither plate goes beneath the other."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Where an ocean plate meets a continent, the denser ocean plate subducts. That makes a trench offshore, earthquakes as the plates grind, and magma that rises to form volcanic mountains such as the Andes. Widening seas and sideways sliding belong to the other boundary types.",
+      "misconception": "All plate boundaries produce the same features and hazards.",
+      "hint": "Follow the sinking plate: what happens on the seafloor, deep underground, and on the land above?",
+      "followUpId": "L16-Q17",
+      "scope": {
+        "lessonId": "L16",
+        "section": "7. Tracking Plate Motion",
+        "pages": {
+          "printed": [
+            216
+          ],
+          "pdf": [
+            252
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7. Tracking Plate Motion, Convergent Motion and Figure 7",
+          "supports": "The denser Nazca Plate is subducted under the South American Plate; subduction forms a trench, magma forms and rises, and volcanoes build mountain ranges like the Andes."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "Strong, destructive earthquakes and rapid uplift of mountain ranges are common near the Peru-Chile trench where the Nazca Plate subducts under South America; scientists debate whether the magma comes from the sinking slab, the overlying plate, or both."
+        },
+        {
+          "type": "external",
+          "title": "Seismicity of the Earth 1900–2013, Seismotectonics of South America (Nazca Plate Region)",
+          "publisher": "U.S. Geological Survey (Open-File Report 2015–1031–E)",
+          "url": "https://pubs.usgs.gov/of/2015/1031/e",
+          "accessed": "2026-10-17",
+          "supports": "Subduction of the Nazca Plate beneath South America uplifts the Andes and feeds an active volcanic chain along much of the boundary; complex changes in geologic processes along the subduction zone strongly influence volcanic activity."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 216 (rendered). Earthquakes at this boundary are supported by USGS because p. 216 does not state them; the magma rationale avoids naming which plate melts (L16-RF9). Review cycle 2 (2026-10-14): the science reviewer's limitation was added so 'expected' does not read as 'everywhere along the boundary' (USGS OFR 2015-1031-E, opened {READ}: the volcanic chain runs along 'much of' the boundary). The reviewer's extra clause about low-angle stretches with no volcanoes was not used, because the USGS page opened does not mention slab angle; the limitation keeps to what that page says. Key unchanged. Moved by the reviser to the new family L16-F14 (predicting boundary outcomes) with new L16-Q32, so L16-F12 stays at 2-3 items; followUpId L16-Q17 is unaffected. Re-checked against printed p. 216 (re-rendered). Final verification (verify-agent, 2026-10-14): checked against printed pp. 216 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitation added that the volcanic chain runs along much, not all, of this boundary; USGS OFR 2015-1031-E evidence added; the unsourced low-angle wording was left out"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "These are the typical features of an ocean plate sinking beneath a continent. USGS describes an active volcanic chain along much, but not all, of this boundary, and notes that conditions change along the subduction zone in ways that strongly affect volcanic activity."
+    },
+    {
+      "id": "L16-Q27",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O5"
+      ],
+      "conceptTags": [
+        "rate-times-time",
+        "convergent-boundary",
+        "unit-conversion"
+      ],
+      "familyId": "L16-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "The Nazca Plate and the South American Plate move toward each other at about 80 mm per year. If that rate stays steady, how many kilometers will they move toward each other in 500,000 years?",
+      "accessiblePrompt": "The Nazca Plate and the South American Plate are moving toward each other at about 80 millimeters per year. If that rate stays steady, how many kilometers will they move toward each other in 500,000 years?",
+      "answer": 40,
+      "tolerance": 1,
+      "unit": "km",
+      "workedSolution": "Distance = rate × time = 80 mm per year × 500,000 years = 40,000,000 mm. A kilometer is 1,000,000 mm, so 40,000,000 mm ÷ 1,000,000 = 40 km.",
+      "units": "km",
+      "conditions": "Uses about 80 mm per year, the USGS figure for the southern part of this boundary (USGS gives about 65–80 mm per year along its length; the textbook prints 70–100), held steady for 500,000 years.",
+      "limitations": "Real rates vary along the boundary and over time. The motion is taken up mostly as the Nazca Plate slides down beneath South America, with some squeezing and lifting of the Andes.",
+      "explanation": "Multiplying a plate's rate by time shows how tiny yearly motions add up. At about 80 mm a year, these plates close by roughly 80 km every million years. Over millions of years, that steady motion carries huge areas of seafloor down at the trench and keeps building the Andes.",
+      "misconception": "A distance worked out in millimeters can be reported in kilometers without converting.",
+      "hint": "First find the distance in millimeters (rate times years), then convert to kilometers.",
+      "followUpId": "L16-Q12",
+      "scope": {
+        "lessonId": "L16",
+        "section": "7. Tracking Plate Motion",
+        "pages": {
+          "printed": [
+            216,
+            217
+          ],
+          "pdf": [
+            252,
+            253
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7, Convergent Motion and Figure 7",
+          "supports": "The Nazca and South American plates converge, with the denser Nazca Plate subducting beneath the South American Plate; the page prints the rate as about 70–100 mm per year, an upper end flagged in L16-RF20."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            217
+          ],
+          "pdfPages": [
+            253
+          ],
+          "locator": "Section 7, Tracking Plate Motion",
+          "supports": "Multiplying a rate of plate motion by an amount of time, and converting millimeters to kilometers, gives how far plates move."
+        },
+        {
+          "type": "external",
+          "title": "Seismicity of the Earth 1900–2013, Seismotectonics of South America (Nazca Plate Region)",
+          "publisher": "U.S. Geological Survey (Open-File Report 2015–1031–E)",
+          "url": "https://pubs.usgs.gov/of/2015/1031/e",
+          "accessed": "2026-10-17",
+          "supports": "Relative to a fixed South American Plate, the Nazca Plate moves slightly north of east at about 80 mm per year in the south to about 65 mm per year in the north."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "Strong, destructive earthquakes and rapid uplift of mountain ranges are common near the Peru-Chile trench, where the Nazca Plate subducts under South America."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original numeric item. Round 1 (2026-10-14): recontextualized on the pedagogy reviewer's finding that the earlier Red Sea version (15 mm a year for 3 million years = 45 km) was the textbook's own p. 217 worked problem with one number swapped. Now uses the convergent Nazca-South American rate from p. 216 (80 mm a year, inside the printed 70–100 mm range) with the rate × time method from p. 217; both pages re-rendered. Answer 160 km, tolerance 2 km. The science reviewer's pass applied to the earlier Red Sea version, so the new numbers still need checking. Review cycle 2 (2026-10-14): two fixes combined. Science: the rate now rests on USGS OFR 2015-1031-E (opened 2026-10-17: about 80 mm a year in the south to 65 in the north) rather than the textbook's 70–100, whose upper end is high (L16-RF20). Pedagogy: with 2 million years, 80 × 2 = 160 already equals the answer in km (mm per year × million years = km), so the unit step was never exercised; the time is now 500,000 years. New answer 40 km, tolerance 1 km (80 mm per year × 500,000 years = 40,000,000 mm = 40 km). The science reviewer verified the earlier 160 km numbers, so the verifier should recheck the new ones. The explanation's 'roughly 80 km every million years' is unchanged and agrees with 40 km in 500,000 years. Final verification (verify-agent, 2026-10-14): checked against printed pp. 216, 217 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier Red Sea version; the item has since been recontextualized, so its new numbers need verification)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: recontextualized from the textbook's Red Sea worked problem to Nazca-South American convergence at 80 mm/yr for 2 million years (160 km ± 2); family L16-F13 with Q24; followUpId now L16-Q12"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions now rest on the USGS rate (about 80 mm a year in the south, 65 in the north) instead of the textbook's 70–100; USGS OFR 2015-1031-E evidence and L16-RF20 added; reviewer checked the earlier 160 km numbers"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: time changed to 500,000 years (answer 40 km ± 1) so the bare-number product no longer equals the answer in km; worked solution, conditions and misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q28",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O5"
+      ],
+      "conceptTags": [
+        "transform-boundary",
+        "stick-slip-earthquakes"
+      ],
+      "familyId": "L16-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Along most of the San Andreas Fault, the Pacific and North American plates move past each other in sudden jerks that cause earthquakes, rather than sliding smoothly. Why?",
+      "accessiblePrompt": "Along most of the San Andreas Fault in California, the Pacific Plate and the North American Plate move past each other in sudden jerks that cause earthquakes, rather than sliding smoothly. Why?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The plates stick, stress builds up, then the rock slips all at once",
+          "rationale": "Correct. Friction locks the plates while they keep being pushed; once the stress is more than the rock can hold, the rock lurches and the stored energy is released as an earthquake."
+        },
+        {
+          "id": "b",
+          "text": "Magma explodes upward wherever the two plates touch",
+          "rationale": "Transform boundaries are known for earthquakes from slipping rock, not for magma bursting out."
+        },
+        {
+          "id": "c",
+          "text": "One plate dives under the other and scrapes the bottom",
+          "rationale": "That is subduction at a convergent boundary. At a transform boundary the plates move sideways and neither one sinks."
+        },
+        {
+          "id": "d",
+          "text": "The plates move a few centimeters each day, too fast to slide calmly",
+          "rationale": "Plates move only centimeters per year; the shaking comes from stored stress being released, not from high speed."
+        }
+      ],
+      "answer": "a",
+      "limitations": "Knowing how stress builds helps scientists estimate long-term earthquake risk; it does not predict the exact time of an earthquake. One central stretch of the San Andreas creeps fairly steadily with only small quakes; this question is about the locked stretches, which store stress and release it in earthquakes (L16-RF19). Averaged over many years, USGS measures these plates moving past each other about 5 cm (50 mm) a year; the textbook's 5 mm looks like a units slip (L16-RF1).",
+      "explanation": "Along locked stretches, transform motion is jerky: the rocks catch on each other while the plates keep pushing, so stress builds for years. When it exceeds what the rock can hold, the rock slips suddenly and causes an earthquake.",
+      "misconception": "Earthquakes at a transform boundary come from magma or from one plate diving under the other, rather than from stress that builds and is suddenly released.",
+      "hint": "Imagine pressing two rough blocks together and pushing them past each other. Is the motion smooth?",
+      "followUpId": "L16-Q14",
+      "scope": {
+        "lessonId": "L16",
+        "section": "7. Tracking Plate Motion",
+        "pages": {
+          "printed": [
+            217
+          ],
+          "pdf": [
+            253
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            217
+          ],
+          "pdfPages": [
+            253
+          ],
+          "locator": "Section 7, Transform Motion",
+          "supports": "Sideways plate motion is jerky: stress accumulates until the plates lurch, producing earthquakes, as along the San Andreas Fault between the Pacific and North American plates."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "The Pacific Plate has been grinding horizontally past the North American Plate for about 10 million years at an average rate of about 5 cm/yr."
+        },
+        {
+          "type": "external",
+          "title": "Parkfield: Tectonic Setting",
+          "publisher": "U.S. Geological Survey, Earthquake Hazards Program",
+          "url": "https://earthquake.usgs.gov/learn/parkfield/geology.php",
+          "accessed": "2026-10-14",
+          "supports": "Between locked sections the San Andreas fault creeps (slips aseismically); the creeping section produces numerous small earthquakes but no large ones, while locked sections produced large historic earthquakes such as those of 1857 and 1906."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 217 (rendered). The limitations correct the textbook's San Andreas rate with USGS (L16-RF1); the rate itself is not the tested idea. Round 1 (2026-10-14): the prompt now says \"most of\" the fault and the limitations name the creeping section (USGS Parkfield; L16-RF19). Moved to L16-F12 with the boundary-type items; the misconception no longer claims transform plates never slide smoothly. Review cycle 2 (2026-10-14): the San Andreas rate sentence moved from the explanation to the end of the limitations on the pedagogy reviewer's finding that it pulled the feedback away from stick-slip motion; L16-RF1 updated. Final verification (verify-agent, 2026-10-14): checked against printed pp. 217 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt limited to most of the fault; creeping-section limitation and USGS Parkfield source added (L16-RF19)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to L16-F12 with the boundary-type items; followUpId now L16-Q14; choice a rationale reworded away from p. 217; explanation rate sentence revised"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: the San Andreas rate sentence moved from the explanation to the limitations; L16-RF1 updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q29",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1"
+      ],
+      "conceptTags": [
+        "continental-reconstruction",
+        "combining-fossil-clues",
+        "mesosaurus",
+        "lystrosaurus"
+      ],
+      "familyId": "L16-F02",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Mesosaurus fossils are found in South America and southern Africa. Fossils of Lystrosaurus, a land animal, are found in southern Africa, India and Antarctica. Neither animal could cross an open ocean. Which reconstructed map fits both clues?",
+      "accessiblePrompt": "Here are two fossil clues. First, Mesosaurus fossils are found in South America and southern Africa. Second, fossils of Lystrosaurus, an animal that lived on land, are found in southern Africa, India and Antarctica. Neither animal could cross an open ocean. Which reconstructed map of these four lands fits both clues?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Africa at the center, joined to South America and to India and Antarctica",
+          "rationale": "Correct. Mesosaurus needs South America and Africa joined, and Lystrosaurus needs Africa, India and Antarctica joined. Of these maps, only this one gives both animals a land path."
+        },
+        {
+          "id": "f",
+          "text": "South America beside Africa, with India and Antarctica far off across open ocean",
+          "rationale": "Fits Mesosaurus, but leaves Lystrosaurus with no land path from Africa to India and Antarctica."
+        },
+        {
+          "id": "g",
+          "text": "Africa beside India and Antarctica, with South America far off across open ocean",
+          "rationale": "Fits Lystrosaurus, but strands Mesosaurus on two shores of an ocean it could not cross."
+        },
+        {
+          "id": "h",
+          "text": "All four lands far apart across open ocean, just as they are today",
+          "rationale": "Fits neither clue: both animals would have had to cross oceans."
+        }
+      ],
+      "answer": "e",
+      "limitations": "Lystrosaurus fossils have also been found in parts of Asia, such as China and Russia, so the textbook's word \"only\" is not repeated; the item uses the southern lands shown on the textbook's map (L16-RF15). The maps are simplified sketches; real reconstructions also use rock and shelf matches.",
+      "explanation": "Each fossil links only some of the lands, so you need both clues. Mesosaurus ties South America to Africa, and Lystrosaurus ties Africa to India and Antarctica, so all four lands must once have been joined. With rock and shelf matches as well, scientists place Africa beside South America on one side and beside India and Antarctica on the other, as part of Pangaea.",
+      "misconception": "Each fossil clue can be read alone; you never need to combine clues to rebuild the old map.",
+      "hint": "Test each map against each animal: does every animal have a land path between all the places it is found?",
+      "followUpId": "L16-Q03",
+      "scope": {
+        "lessonId": "L16",
+        "section": "1. Wegener's Hypothesis",
+        "pages": {
+          "printed": [
+            205,
+            212
+          ],
+          "pdf": [
+            241,
+            248
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            205
+          ],
+          "pdfPages": [
+            241
+          ],
+          "locator": "Section 1. Wegener's Hypothesis, Evidence for Continental Drift and Figure 1B",
+          "supports": "Mesosaurus fossils occur in South America and Africa, and Lystrosaurus, a plant eater that lived on land, has fossils in Antarctica, southeastern Africa and India; neither animal could have crossed the ocean between them."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            212
+          ],
+          "pdfPages": [
+            248
+          ],
+          "locator": "Key Science Concept: Evidence from Fossils, Mountain Ranges, and Coastlines (map)",
+          "supports": "The map shows Mesosaurus fossils in South America and southern Africa, and Lystrosaurus fossils in southern Africa, India and Antarctica."
+        },
+        {
+          "type": "external",
+          "title": "Weathering the tough times: Fossil evidence of 'hibernation-like' state in 250-million-year-old Antarctic animal",
+          "publisher": "University of Washington News",
+          "url": "https://www.washington.edu/news/2020/08/27/torpor-lystrosaurus-release/",
+          "accessed": "2026-10-14",
+          "supports": "Paleontologists find Lystrosaurus fossils in India, China, Russia, parts of Africa and Antarctica."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New item added in round 1 (2026-10-14) on the pedagogy reviewer's coverage finding: it serves the brief's mission \"reconstruct a supported arrangement\" and is the bank's only Lystrosaurus item. Drafted from printed pp. 205 and 212 (re-rendered 2026-10-14; Lystrosaurus areas read from the map legend). Choice b's rationale deliberately avoids claiming Lystrosaurus is absent from North America, and the prompt avoids the textbook's \"only\" (L16-RF15). Review cycle 2 (2026-10-14): rewritten on the pedagogy reviewer's findings that the earlier version repeated L16-Q01's single-fossil inference and cued its key by being the only choice that repeated the stem's three lands. It is now a two-fossil reconstruction (Mesosaurus plus Lystrosaurus), which is the brief's 'reconstruct a supported arrangement' mission; every choice names all four lands, so word matching no longer finds the key. All four choices are new, so they get new ids e-h (the schema never reuses an id for different text); the key is e. This also settles the science reviewer's finding that the old choice d (Antarctica joined only to South America) was consistent with the fossils: every distractor now fails at least one clue. Because a land path through South America would also satisfy the clues, the key's rationale says 'of these maps' and the explanation says only that all four lands were joined, leaving the exact layout to rock and shelf matches. Difficulty 3; family L16-F02 and followUpId L16-Q03 unchanged. Re-checked against printed pp. 205 and 212 (re-rendered; Mesosaurus and Lystrosaurus areas read from the map legend). Final verification (verify-agent, 2026-10-14): checked against printed pp. 205, 212 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: old choice d (Antarctica joined only to South America) was consistent with the fossils; superseded by the pedagogy rewrite, in which every distractor fails at least one clue"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a two-fossil reconstruction (Mesosaurus and Lystrosaurus) so the key is not cued by the stem's land list and the item is distinct from L16-Q01; new choice ids e-h; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q30",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "mantle-convection",
+        "interior-heat"
+      ],
+      "familyId": "L16-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Hundreds of kilometers below the surface, mantle rock slowly circulates in loops called convection cells. What supplies the energy that keeps this circulation going?",
+      "accessiblePrompt": "Hundreds of kilometers below the surface, mantle rock slowly circulates in loops called convection cells. What supplies the energy that keeps this circulation going?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Heat flowing out from Earth's hot interior",
+          "rationale": "Correct. Rock warmed from below expands, becomes less dense and slowly rises, while cooled rock sinks; the heat comes from deep inside Earth."
+        },
+        {
+          "id": "f",
+          "text": "Sunlight warming the land and the oceans",
+          "rationale": "Sunlight warms only Earth's surface; it cannot reach rock hundreds of kilometers down."
+        },
+        {
+          "id": "g",
+          "text": "Earthquakes shaking the mantle rock loose",
+          "rationale": "This reverses cause and effect: earthquakes happen because plates move; they do not power the mantle's flow."
+        },
+        {
+          "id": "h",
+          "text": "Ocean currents dragging the rock along beneath them",
+          "rationale": "Currents move water, not rock deep in the mantle; the seafloor moves because the plate it belongs to moves."
+        }
+      ],
+      "answer": "e",
+      "limitations": "Convection is one part of a linked system; scientists still debate how much it, compared with the pull of sinking plates, drives plate motion (L16-RF6).",
+      "explanation": "Convection needs heat from below. Earth's interior is hot, so mantle rock warmed from below expands, becomes less dense and slowly rises, while rock that has cooled grows denser and sinks, all while staying mostly solid. Sunlight warms only the surface and cannot reach the deep mantle.",
+      "misconception": "The Sun, earthquakes or ocean currents power the slow motion deep inside Earth.",
+      "hint": "A pot of soup circulates when the stove heats it from below. What plays the stove's role for the mantle?",
+      "followUpId": "L16-Q17",
+      "scope": {
+        "lessonId": "L16",
+        "section": "6. The Theory of Plate Tectonics",
+        "pages": {
+          "printed": [
+            215
+          ],
+          "pdf": [
+            251
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            215
+          ],
+          "pdfPages": [
+            251
+          ],
+          "locator": "Section 6, Three Processes That Drive Plate Motion and Figure 6B",
+          "supports": "Energy in Earth's interior makes mantle rock move slowly in convection cells: heated rock expands, becomes less dense and rises, while cooled rock contracts, becomes denser and sinks."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-14",
+          "supports": "The mantle is mostly solid rock that can move plastically over millions of years."
+        },
+        {
+          "type": "external",
+          "title": "Some unanswered questions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "accessed": "2026-10-17",
+          "supports": "Slab pull is now considered the main driving force of plate tectonics, and none of the proposed mechanisms can explain all facets of plate movement."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New item added in round 1 (2026-10-14) on the pedagogy reviewer's coverage finding: L16-O3 promises mantle convection and no item keyed it. Drafted from printed p. 215 (re-rendered 2026-10-14; Figure 6B convection arrows read from the render). Choice b repairs the brief's liquid-mantle hazard (L16-RF5). Shares family L16-F07 with Q16 (the mantle side of the recycling system). Review cycle 2 (2026-10-14): rewritten on the pedagogy reviewer's finding that the earlier version (why warm rock rises) mirrored L16-Q17's temperature-density key and repeated its 'heating makes rock heavier' distractor. It now keys what powers convection: heat from Earth's interior (p. 215, 'energy in Earth's interior'). The stem says 'hundreds of kilometers below the surface' rather than 'inside Earth' so it does not echo the key's wording, and choice h was lengthened slightly so the key is not the longest choice. All four choices are new, so they get ids e-h; the key is e. The reviser set category to foundational and difficulty to 1 because the item now asks for one fact from p. 215. The USGS supports text now says slab pull is 'the main' driving force, as the science reviewer asked (page re-opened 2026-10-17). The liquid-mantle guard moves to the explanation ('all while staying mostly solid') and to L16-Q14 (L16-RF5). Limitations (L16-RF6), family L16-F07 and followUpId L16-Q17 unchanged. Re-checked against printed p. 215 (re-rendered; Figure 6B). Final verification (verify-agent, 2026-10-14): checked against printed pp. 215 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional USGS supports wording applied (slab pull is the main driving force); the reviewer's pass covered the earlier why-warm-rock-rises version, so the rewritten item still needs a science check"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten to key the energy source of convection (heat from Earth's interior) instead of mirroring L16-Q17's density key; new choice ids e-h"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q31",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O1",
+        "L16-O3"
+      ],
+      "conceptTags": [
+        "history-of-plate-tectonics",
+        "sequence-of-discovery",
+        "nature-of-science"
+      ],
+      "familyId": "L16-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these steps toward the theory of plate tectonics in the order they happened.",
+      "accessiblePrompt": "Put five steps toward the theory of plate tectonics in order, from earliest to latest. The steps are: ships use sound echoes to map the shape of the seafloor; a mapmaker notices that the coasts on both sides of the Atlantic could fit together; drill cores show seafloor rock getting older with distance from the ridge; Wegener proposes that the continents were once joined and have drifted apart; scientists propose that new seafloor forms at mid-ocean ridges and spreads outward.",
+      "items": [
+        {
+          "id": "sonar",
+          "text": "Ships use sound echoes to map the shape of the seafloor",
+          "rationale": "Third: ships were mapping the seafloor with sound echoes by the 1920s, after Wegener's proposal. The ridges and trenches they revealed later needed an explanation."
+        },
+        {
+          "id": "map",
+          "text": "A mapmaker notices that the coasts on both sides of the Atlantic could fit together",
+          "rationale": "First: Abraham Ortelius noticed the fit in 1596, centuries before anyone could explain it."
+        },
+        {
+          "id": "drill",
+          "text": "Drill cores show seafloor rock getting older with distance from the ridge",
+          "rationale": "Last: in 1968 the Glomar Challenger's cores tested seafloor spreading and supported it. A test has to come after the idea it tests."
+        },
+        {
+          "id": "wegener",
+          "text": "Wegener proposes that the continents were once joined and have drifted apart",
+          "rationale": "Second: Wegener proposed continental drift in 1912, using fossil and rock clues found on land."
+        },
+        {
+          "id": "spread",
+          "text": "Scientists propose that new seafloor forms at mid-ocean ridges and spreads outward",
+          "rationale": "Fourth: seafloor spreading was proposed in the early 1960s to explain the seafloor features that sound mapping had revealed."
+        }
+      ],
+      "answer": [
+        "map",
+        "wegener",
+        "sonar",
+        "spread",
+        "drill"
+      ],
+      "ends": [
+        "Earliest",
+        "Latest"
+      ],
+      "explanation": "The theory was built step by step. A mapmaker's observation (1596) was taken up in Wegener's hypothesis (1912); new technology revealed the seafloor (from the 1920s); a new idea explained what it showed (early 1960s); and drilling tested that idea's prediction (1968). Each step built on the ones before it.",
+      "misconception": "A scientific theory appears all at once, rather than being built from observations, hypotheses, new tools and tests over time.",
+      "hint": "A test must come after the idea it tests, and an idea about the seafloor needs someone to have mapped the seafloor first.",
+      "followUpId": "L16-Q15",
+      "scope": {
+        "lessonId": "L16",
+        "section": "6. The Theory of Plate Tectonics",
+        "pages": {
+          "printed": [
+            204,
+            208,
+            209,
+            211,
+            214
+          ],
+          "pdf": [
+            240,
+            244,
+            245,
+            247,
+            250
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            204
+          ],
+          "pdfPages": [
+            240
+          ],
+          "locator": "Section 1. Wegener's Hypothesis",
+          "supports": "Abraham Ortelius noticed in 1596 that the continents around the Atlantic looked as if they could fit together; Wegener reintroduced the idea of a former supercontinent in 1912."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            208
+          ],
+          "pdfPages": [
+            244
+          ],
+          "locator": "Section 4. Discovering Features of the Seafloor",
+          "supports": "By the 1920s, scientists were using sound waves to map seafloor features; sonar later revealed the mid-ocean ridge, fracture zones, trenches and continental shelves."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading",
+          "supports": "In the early 1960s, scientists hypothesized that new lithosphere continuously forms at the mid-ocean ridge, a process later called seafloor spreading."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            211
+          ],
+          "pdfPages": [
+            247
+          ],
+          "locator": "Section 5, Testing for Seafloor Spreading",
+          "supports": "In 1968 the Glomar Challenger collected seafloor samples on both sides of the ridge, and the data showed oceanic crust getting older with distance from the ridge, supporting seafloor spreading."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            214
+          ],
+          "pdfPages": [
+            250
+          ],
+          "locator": "Section 6, From Hypothesis to Theory",
+          "supports": "Wegener proposed the continental drift hypothesis in 1912, and scientists developed the theory of plate tectonics in the 1960s."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New item added in review cycle 2 (2026-10-14) on the pedagogy reviewer's coverage finding: the guiding question asks how the theory developed, but no item tested the sequence of discovery. Drafted from printed pp. 204, 208, 209, 211 and 214 (all re-rendered). Dates and logical dependency (an idea comes before its test; a seafloor idea comes after seafloor mapping) give one defensible order. Item texts carry no dates; the rationales do. 'Theory accepted' is left out because its 1960s date would tie with the drill-core step. The order holds whether Wegener's date is taken as 1912 or 1915 (L16-RF21). Echo sounding is dated 'by the 1920s' as on p. 208, which is after either Wegener date. Lifts L16-F03 to three items. Final verification (verify-agent, 2026-10-14): checked against printed pp. 204, 208, 209, 211, 214 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L16-Q32",
+      "lessonId": "L16",
+      "objectiveIds": [
+        "L16-O5"
+      ],
+      "conceptTags": [
+        "divergent-boundary",
+        "boundary-outcomes"
+      ],
+      "familyId": "L16-F14",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two plates are pulling apart beneath a sea. If they keep moving this way, what will happen there over time?",
+      "accessiblePrompt": "Two tectonic plates are pulling apart from each other beneath a sea. If they keep moving this way, what will happen there over time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "New lithosphere forms between them and the sea widens",
+          "rationale": "Correct. As the plates separate, magma rises into the gap and cools into new lithosphere, so the sea between them slowly grows wider, as the Red Sea is doing."
+        },
+        {
+          "id": "b",
+          "text": "One plate sinks beneath the other, and a deep trench forms",
+          "rationale": "That happens where plates move toward each other, at a convergent boundary such as the one off South America."
+        },
+        {
+          "id": "c",
+          "text": "The plates lock, then lurch sideways past each other",
+          "rationale": "Sticking and then slipping sideways is transform motion, as along the San Andreas Fault; these plates are moving apart instead."
+        },
+        {
+          "id": "d",
+          "text": "The sea slowly narrows until the two shores finally meet",
+          "rationale": "That is the reverse of what happens: plates moving apart open space between them, so the sea gets wider, not narrower."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Plates moving apart leave a gap that rising magma fills. The magma cools into new lithosphere, so the sea between the plates grows wider over time. The Red Sea between the African and Arabian plates is widening this way, and seafloor spreading of the same kind moved South America and Africa apart as the Atlantic opened.",
+      "misconception": "Every plate boundary makes a trench, or plates moving apart close up the sea between them.",
+      "hint": "Picture two plates moving away from each other. What has to fill the space between them?",
+      "followUpId": "L16-Q25",
+      "scope": {
+        "lessonId": "L16",
+        "section": "7. Tracking Plate Motion",
+        "pages": {
+          "printed": [
+            216
+          ],
+          "pdf": [
+            252
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            216
+          ],
+          "pdfPages": [
+            252
+          ],
+          "locator": "Section 7. Tracking Plate Motion, Divergent Motion and Figure 7",
+          "supports": "As two plates diverge, magma rises between them and cools to form new lithosphere; this seafloor spreading makes oceans and seas wider, as the African and Arabian plates widen the Red Sea."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            209
+          ],
+          "pdfPages": [
+            245
+          ],
+          "locator": "Section 4, Seafloor Spreading",
+          "supports": "Seafloor spreading helped explain how South America and Africa moved away from each other."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New item added in review cycle 2 (2026-10-14) on the pedagogy reviewer's optional O5 coverage finding: divergent-boundary outcomes appeared only as one bin in L16-Q25, while the brief's mission is 'identify boundary outcomes'. Drafted from printed pp. 209 and 216 (re-rendered). It does not reuse the textbook's Red Sea width calculation or any Red Sea rate (L16-RF22). Distractors are the convergent and transform outcomes and the reversed (closing) direction. The key was kept shorter than choices b and d so length gives no cue. Placed with L16-Q26 (convergent outcomes) in the new family L16-F14, predicting boundary outcomes. Final verification (verify-agent, 2026-10-14): checked against printed pp. 209, 216 (all rendered at 110 dpi and viewed), the cited external sources and the authoring guide's rules and guardrails; one defensible answer, accurate citations, original wording, accessible prompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

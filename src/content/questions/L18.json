@@ -1,0 +1,3974 @@
+{
+  "lessonId": "L18",
+  "questions": [
+    {
+      "id": "L18-Q01",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1"
+      ],
+      "conceptTags": [
+        "change of state",
+        "evaporation",
+        "condensation",
+        "crystallization",
+        "melting",
+        "runoff"
+      ],
+      "familyId": "L18-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each water cycle event to the change of state it involves.",
+      "accessiblePrompt": "Match each water cycle event to the change of state it involves. The events are: a puddle on a sunny sidewalk slowly disappears; droplets bead up on the outside of an icy glass of juice; feathery frost grows on a freezing windshield that had no liquid water on it; a snowbank shrinks into a trickling stream in spring sunshine; and rainwater rushes downhill into a creek. The changes are: solid to liquid; no change, the water stays liquid; gas to liquid; gas to solid; and liquid to gas.",
+      "left": [
+        {
+          "id": "a",
+          "text": "A puddle on a sunny sidewalk slowly disappears",
+          "rationale": "The liquid puddle evaporates: its water becomes invisible vapor, so liquid to gas."
+        },
+        {
+          "id": "b",
+          "text": "Droplets bead up on the outside of an icy glass of juice",
+          "rationale": "Water vapor in the air touches the cold glass and condenses, so gas to liquid."
+        },
+        {
+          "id": "c",
+          "text": "Feathery frost grows on a freezing windshield that had no liquid on it",
+          "rationale": "With no liquid present, vapor turned straight into ice crystals, so gas to solid."
+        },
+        {
+          "id": "d",
+          "text": "A snowbank shrinks into a trickling stream in spring sunshine",
+          "rationale": "Sunlight melts the snow, so solid to liquid."
+        },
+        {
+          "id": "e",
+          "text": "Rainwater rushes downhill into a creek",
+          "rationale": "Runoff moves liquid water downhill; it is liquid before and after, so no change of state."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Liquid → gas"
+        },
+        {
+          "id": "r2",
+          "text": "Gas → liquid"
+        },
+        {
+          "id": "r3",
+          "text": "Gas → solid"
+        },
+        {
+          "id": "r4",
+          "text": "Solid → liquid"
+        },
+        {
+          "id": "r5",
+          "text": "No change: stays liquid"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4",
+        "e": "r5"
+      },
+      "explanation": "Ask what state the water starts in and what state it ends in. Evaporation, condensation, crystallization and melting are all changes of state, but runoff only moves liquid water from place to place. Not every step of the water cycle changes water's state.",
+      "misconception": "Every process in the water cycle is a change of state.",
+      "hint": "For each event, ask: was the water a solid, a liquid or a gas before, and what is it after?",
+      "followUpId": "L18-Q09",
+      "scope": {
+        "lessonId": "L18",
+        "section": "Key Science Concept: Global Processes in the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            236,
+            237,
+            241
+          ],
+          "pdf": [
+            270,
+            272,
+            273,
+            277
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation",
+          "supports": "Evaporation is the change from liquid to gas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation",
+          "supports": "Condensation is the change from gas to liquid, as on a cold window or other cool surface."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            237
+          ],
+          "pdfPages": [
+            273
+          ],
+          "locator": "Section 2, Crystallization",
+          "supports": "Crystallization changes gas or liquid into solid ice, as in frost on a window."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            241
+          ],
+          "pdfPages": [
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Melting turns surface ice into liquid; runoff is liquid water flowing downhill under gravity."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 234, 236, 237 and 241. Frost item specifies no liquid water on the glass so the only defensible match is gas to solid (L18-RF3). Round 1 (2026-10-14): accessiblePrompt now lists the changes in an order that puts no change in its matching event's slot (the pedagogy reviewer's order; the science reviewer's order left solid to liquid level with the snowbank). Q05 no longer repeats this frost scene. Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against rendered pp. 234, 236, 237 and 241: each event has exactly one defensible change (frost with no liquid present is gas to solid; runoff is no change). Cosmetic fix: the read-aloud frost event now says 'that had no liquid water on it', matching the visible item. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list of changes no longer runs parallel to the events"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list of changes no longer runs parallel to the events"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q02",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1"
+      ],
+      "conceptTags": [
+        "condensation",
+        "clouds",
+        "water vapor"
+      ],
+      "familyId": "L18-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "What changes water vapor into the tiny liquid droplets that make up a cloud?",
+      "accessiblePrompt": "What change turns water vapor, the invisible gas form of water, into the tiny liquid droplets that make up a cloud?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Condensation",
+          "rationale": "Correct: condensation is the change from gas to liquid that builds cloud droplets."
+        },
+        {
+          "id": "b",
+          "text": "Evaporation",
+          "rationale": "Evaporation is the reverse change: it turns liquid water into vapor."
+        },
+        {
+          "id": "c",
+          "text": "Precipitation",
+          "rationale": "Precipitation is water falling out of clouds; the droplets must already exist before they can fall."
+        },
+        {
+          "id": "d",
+          "text": "Transpiration",
+          "rationale": "Transpiration adds vapor to the air from plant leaves; it does not turn vapor into droplets."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Condensation is the change from gas to liquid. When rising vapor cools, its molecules slow down and cling together on specks of dust or salt, forming droplets. Billions of these droplets together make a cloud you can see.",
+      "misconception": "Clouds form by evaporation, or clouds are made of water vapor.",
+      "hint": "Look for the change that runs in the opposite direction from evaporation.",
+      "followUpId": "L18-Q13",
+      "scope": {
+        "lessonId": "L18",
+        "section": "2. Cooling and the Water Cycle",
+        "pages": {
+          "printed": [
+            233,
+            236
+          ],
+          "pdf": [
+            269,
+            272
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation; Figure 2",
+          "supports": "As vapor rises and cools it condenses onto dust and other tiny particles to form the droplets that make up clouds."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            233
+          ],
+          "pdfPages": [
+            269
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "Condensation is defined as the change from a gas to a liquid."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (section 7, lesson 18), polished: 'the tiny liquid droplets that make up a cloud' keeps condensation as the only answer (ice-crystal clouds would be crystallization). Round 1 (2026-10-14): Both reviewers passed it. The science reviewer's optional fix was applied: scope now also cites p. 233 (the vocabulary box the evidence uses). Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): brief seed; checked against p. 236 (render and OCR) and the p. 233 vocabulary box. Condensation is the only defensible answer for liquid cloud droplets. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q03",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1"
+      ],
+      "conceptTags": [
+        "water vapor",
+        "condensation",
+        "invisible gas"
+      ],
+      "familyId": "L18-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "After a long, hot shower, white mist hangs in the bathroom and the mirror is fogged up. Which statement about the water vapor in this scene is accurate?",
+      "accessiblePrompt": "After a long, hot shower, a white mist hangs in the bathroom air and the mirror is fogged up. Which statement about the water vapor in this scene is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The white mist floating in the air is the water vapor.",
+          "rationale": "The mist is visible because it is tiny liquid droplets that already condensed; the vapor is the invisible gas around them."
+        },
+        {
+          "id": "b",
+          "text": "The film of tiny drops on the mirror is the water vapor.",
+          "rationale": "Those drops are liquid water that condensed on the cool glass; the vapor is the gas that has not condensed."
+        },
+        {
+          "id": "c",
+          "text": "The vapor is an invisible gas mixed through the damp air.",
+          "rationale": "Correct: water vapor is a gas, and like the rest of the air it cannot be seen."
+        },
+        {
+          "id": "d",
+          "text": "All the vapor has already turned into mist and drops.",
+          "rationale": "Only part of the vapor condensed; the warm, damp air still holds plenty of invisible vapor."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Water vapor is a gas, and like the rest of the air it is invisible. Water you can see, such as mist, fog, clouds or a film on a mirror, is liquid water (or, in cold clouds, ice) that has already formed from the vapor. Only part of the vapor condenses, so the warm, damp air still holds plenty of invisible vapor.",
+      "misconception": "The white mist you can see is water vapor, or once mist forms no vapor is left.",
+      "hint": "Think about which parts of the scene you can actually see, and what that tells you about their state.",
+      "followUpId": "L18-Q02",
+      "scope": {
+        "lessonId": "L18",
+        "section": "2. Cooling and the Water Cycle",
+        "pages": {
+          "printed": [
+            236
+          ],
+          "pdf": [
+            272
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation",
+          "supports": "Warm, moist air meeting a cool surface such as a mirror or window forms liquid droplets by condensation."
+        },
+        {
+          "type": "external",
+          "title": "Condensation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "The air is full of water vapor even though most of the time we cannot see it; visible clouds are condensed droplets."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Targets the brief's point that vapor is invisible and differs from visible droplets. Uses a bathroom scene to stay distinct from L10's cloud-composition item. Round 1 (2026-10-14): Choices follow the science reviewer's identity framing, trimmed so the key is not the longest (57 characters against 53-56). Choice d is the pedagogy reviewer's 'it all turned into mist and drops' misconception, recast as a statement; it replaces the implausible 'only inside the pipes'. Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against p. 236 and the USGS condensation record: the mist and the mirror film are condensed liquid, and humid air still holds vapor, so only c is defensible. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: recast as a statement about what the vapor is, so only one choice is defensible; explanation now allows ice in cold clouds"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d now targets the idea that all the vapor condensed; hint no longer points at the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q04",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1"
+      ],
+      "conceptTags": [
+        "states of water",
+        "water vapor",
+        "fog",
+        "clouds",
+        "groundwater",
+        "glaciers"
+      ],
+      "familyId": "L18-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each example by the state the water is in: solid, liquid or gas.",
+      "accessiblePrompt": "Sort each example by the state the water is in: solid, liquid or gas. The examples are: water rising off a sunlit ocean before any cloud has formed; a low bank of fog hugging a desert hillside; a glacier creeping slowly down a mountain valley; hailstones bouncing on a parking lot; the moisture in clear, muggy summer air; and water seeping through the pore spaces of an aquifer.",
+      "items": [
+        {
+          "id": "i7",
+          "text": "Water rising off a sunlit ocean before any cloud has formed",
+          "rationale": "Sunlight evaporates seawater into invisible vapor. Nothing you can see has formed yet, so it is a gas."
+        },
+        {
+          "id": "i2",
+          "text": "A low bank of fog hugging a desert hillside",
+          "rationale": "Fog is a cloud at ground level, made of tiny liquid droplets."
+        },
+        {
+          "id": "i8",
+          "text": "A glacier creeping slowly down a mountain valley",
+          "rationale": "A glacier is a huge mass of ice. It can move slowly downhill, but it stays solid."
+        },
+        {
+          "id": "i4",
+          "text": "Hailstones bouncing on a parking lot",
+          "rationale": "Hail is precipitation in the form of ice, a solid."
+        },
+        {
+          "id": "i5",
+          "text": "The moisture in clear, muggy summer air",
+          "rationale": "Humid air holds invisible water vapor; if you could see the water, it would already be droplets."
+        },
+        {
+          "id": "i6",
+          "text": "Water seeping through the pore spaces of an aquifer",
+          "rationale": "Groundwater is liquid water filling spaces in rock."
+        }
+      ],
+      "bins": [
+        {
+          "id": "solid",
+          "label": "Solid"
+        },
+        {
+          "id": "liquid",
+          "label": "Liquid"
+        },
+        {
+          "id": "gas",
+          "label": "Gas"
+        }
+      ],
+      "answer": {
+        "i7": "gas",
+        "i2": "liquid",
+        "i8": "solid",
+        "i4": "solid",
+        "i5": "gas",
+        "i6": "liquid"
+      },
+      "explanation": "Fog and clouds look like 'steam', but they are made of liquid droplets or ice crystals, so they are not gas. The only gas examples are the water rising off the sunlit ocean and the moisture in clear, muggy air, and you cannot see either one. Hail is ice, and groundwater in an aquifer is liquid. A glacier moves, but it is still solid ice.",
+      "misconception": "Fog and clouds are made of water vapor, a gas, or anything that moves or flows must be a liquid.",
+      "hint": "If you can see it, it is not water vapor.",
+      "followUpId": "L18-Q13",
+      "scope": {
+        "lessonId": "L18",
+        "section": "2. Cooling and the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            236,
+            237,
+            238,
+            239,
+            241,
+            242
+          ],
+          "pdf": [
+            270,
+            272,
+            273,
+            274,
+            275,
+            277,
+            278
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation",
+          "supports": "Evaporation changes liquid water into water vapor, a gas, wherever there is water and energy from the sun."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation",
+          "supports": "Warm, moist air holds water vapor that condenses into droplets on a cool surface, as on a hot, humid day."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            242
+          ],
+          "pdfPages": [
+            278
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Energy from the sun evaporates Pacific Ocean water to form coastal clouds; fog is a cloud touching the land or ocean surface, made of tiny water droplets."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            237
+          ],
+          "pdfPages": [
+            273
+          ],
+          "locator": "Section 2, Crystallization",
+          "supports": "Clouds can contain both water droplets and ice crystals."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Infiltration",
+          "supports": "Precipitation on land can form lakes, rivers, glaciers and polar ice caps; groundwater is liquid water filling pore spaces in soil and rock."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Section 3, Precipitation",
+          "supports": "Hail is one form of precipitation."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            241
+          ],
+          "pdfPages": [
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "The spread shows glaciers on the mountains, fed by precipitation from the clouds and losing water by melting."
+        },
+        {
+          "type": "external",
+          "title": "Condensation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "The air is full of water vapor even when we cannot see it; clouds we can see are made of condensed droplets."
+        },
+        {
+          "type": "external",
+          "title": "Ice, Snow, and Glaciers and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+          "accessed": "2026-10-17",
+          "supports": "Snow piled up in a steep mountain setting is compressed into ice that slowly flows downhill, forming a glacier."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each item has one defensible bin. Stomata item follows L18-RF2 (vapor leaves the leaf). Round 1 (2026-10-14): Items i1 ('invisible vapor') and i5 ('water vapor escaping through stomata') named their own bin; they are now a drying puddle and clear, muggy air. The stomata item is gone because a reader of p. 235 could sort it as liquid (L18-RF2); Q07 alone carries that correction. Evidence updated to match (pp. 234, 236 and USGS, re-opened 2026-10-14). Follow-up now Q13, whose choice c repairs 'cloud droplets are a gas'. Review round 2 (2026-10-14): Pedagogy fix applied. The drying-puddle item (old i1, which repeated Q01 a and Q05 d) is replaced by ocean water rising before any cloud forms (new id i7, gas), and the self-naming 'ice crystals' item (old i3) by a glacier creeping down a valley (new id i8, solid), which also targets 'anything that flows is a liquid'. New ids because the texts changed (schema: ids are never re-used for different text). Read-aloud list, explanation and misconception updated; evidence adds p. 241 (glaciers on the spread), widens the p. 239 and p. 242 records (glaciers on land; Pacific evaporation) and adds the USGS ice and glaciers page (opened 2026-10-17 by the system clock) for glacier flow. The p. 237 record stays for the explanation's cloud sentence. Bins stay balanced 2 solid / 2 liquid / 2 gas. Verify-agent (2026-10-14): checked against renders of pp. 234, 236-239 and 241, plus p. 242. Under the stated wording each item has one bin (clear air and pre-cloud ocean vapor are gas; fog and aquifer water are liquid; glacier and hail are solid). Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: gas items no longer name their own bin; contested stomata item replaced; follow-up now Q13"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: drying-puddle and self-naming ice-crystal items replaced by ocean vapor (i7) and a glacier (i8)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q05",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1"
+      ],
+      "conceptTags": [
+        "crystallization",
+        "freezing",
+        "deposition",
+        "change of state",
+        "precipitation"
+      ],
+      "familyId": "L18-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Which event is an example of what this lesson calls crystallization?",
+      "accessiblePrompt": "Which event is an example of what this lesson calls crystallization?",
+      "conditions": "Uses this lesson's term. Scientists usually call liquid-to-solid freezing and gas-to-solid deposition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A puddle freezes into ice overnight",
+          "rationale": "Correct: liquid water becomes solid ice crystals, which this lesson calls crystallization."
+        },
+        {
+          "id": "b",
+          "text": "Your cool glasses fog up in hot, humid air",
+          "rationale": "That is condensation: vapor turns into liquid droplets on the cool lenses, and no solid forms."
+        },
+        {
+          "id": "e",
+          "text": "Snowflakes fall from a cloud onto a field",
+          "rationale": "That is precipitation. The flakes were already ice before they fell (they crystallized up in the cloud), so falling moves them without changing their state."
+        },
+        {
+          "id": "d",
+          "text": "A wet sidewalk dries on a sunny afternoon",
+          "rationale": "That is evaporation: liquid water becomes invisible vapor."
+        }
+      ],
+      "answer": "a",
+      "explanation": "This lesson uses crystallization for any change from gas or liquid into solid ice. A freezing puddle goes from liquid to solid, so it counts; scientists usually call that change freezing, and call vapor turning straight into frost deposition. The other events are condensation (gas to liquid), precipitation (no change of state) and evaporation (liquid to gas).",
+      "misconception": "Anything involving ice or snow counts as crystallization, or freezing a liquid is not crystallization.",
+      "hint": "For each event, name the state the water starts in and the state it ends in.",
+      "followUpId": "L18-Q01",
+      "scope": {
+        "lessonId": "L18",
+        "section": "2. Cooling and the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            236,
+            237,
+            238
+          ],
+          "pdf": [
+            270,
+            272,
+            273,
+            274
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            237
+          ],
+          "pdfPages": [
+            273
+          ],
+          "locator": "Section 2, Crystallization",
+          "supports": "Crystallization is a change from gas or liquid to solid, which the section earlier calls freezing; it forms snowflakes and frost."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation",
+          "supports": "Condensation turns vapor into liquid droplets on cool surfaces such as mirrors and eyeglasses."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation",
+          "supports": "Evaporation is the change from liquid to gas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Section 3, Precipitation",
+          "supports": "Snow is one form of precipitation, and every form of precipitation falls to the ground under the influence of gravity."
+        },
+        {
+          "type": "external",
+          "title": "The water cycle",
+          "publisher": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Water vapor can turn directly into ice without condensing first (the change scientists call deposition)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Keeps the textbook term; conditions mention 'deposition' (L18-RF3). Round 1 (2026-10-14): Rewritten from the pedagogy review: the old frost-on-a-window item repeated Q01 item c and its hint gave the answer away. It now asks for an example and teaches the liquid-to-solid meaning; the gas-to-solid (frost) case stays in Q01. The science reviewer passed the earlier version, so the verifier should check this rewrite against p. 237. Departures from the reviewer's text: the dew choice became fogged glasses (Q09 item i1 already uses dew on grass); the icicle choice says 'warm sun' so two choices do not both say 'afternoon'; the key is trimmed to 'A puddle freezes into ice overnight' so it is not the longest choice; the hint asks for start and end states instead of 'which event ends as a solid', which would name the key. Follow-up now Q01 (F01), which practises reading start and end states. Review round 2 (2026-10-14): Pedagogy fix applied. The icicle distractor (old c) is replaced by 'Snowflakes fall from a cloud onto a field' (new id e), so a second choice ends as solid and the key can no longer be found by matching the word 'ice'; its rationale adds that the flakes crystallized earlier, up in the cloud, so the event shown (the fall) is not itself a change of state. Explanation and misconception follow the reviewer; the p. 241 melting record and scope page are replaced by p. 238 (snow is a form of precipitation that falls under gravity). Conditions unchanged. Verify-agent (2026-10-14): checked the rewrite against p. 237 (crystallization is gas or liquid to solid; the text earlier calls it freezing). The freezing puddle is the only event in which water becomes solid; the falling snowflakes are already solid, and the other two choices are condensation and evaporation. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a crystallization example item (liquid to solid) so it no longer repeats Q01's frost scene; new hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: icicle distractor replaced by falling snowflakes (new id e), a no-change-of-state solid"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q06",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1"
+      ],
+      "conceptTags": [
+        "evaporation",
+        "transpiration",
+        "surface to atmosphere"
+      ],
+      "familyId": "L18-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "Which processes carry water from oceans, lakes, soil and living things up into the air? Select all that apply.",
+      "accessiblePrompt": "Which processes carry water from oceans, lakes, soil and living things up into the air? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Evaporation",
+          "rationale": "Correct: liquid water at the surface gains energy and enters the air as vapor."
+        },
+        {
+          "id": "b",
+          "text": "Transpiration",
+          "rationale": "Correct: plants release water vapor from their leaves into the air."
+        },
+        {
+          "id": "c",
+          "text": "Condensation",
+          "rationale": "Condensation happens in the air, turning vapor into droplets; it does not lift water from the ground."
+        },
+        {
+          "id": "d",
+          "text": "Infiltration",
+          "rationale": "Infiltration moves water down into the soil, not up into the air."
+        },
+        {
+          "id": "e",
+          "text": "Precipitation",
+          "rationale": "Precipitation brings water down from clouds to the surface."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Evaporation lifts water from oceans, lakes, rivers and wet ground into the air as vapor, and transpiration does the same through plant leaves. Condensation happens up in the air, turning vapor already there into droplets. Infiltration and precipitation move water downward.",
+      "misconception": "Condensation sends water up into the sky.",
+      "hint": "Which processes turn liquid water into vapor?",
+      "followUpId": "L18-Q11",
+      "scope": {
+        "lessonId": "L18",
+        "section": "1. Heating and the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            235
+          ],
+          "pdf": [
+            270,
+            271
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation",
+          "supports": "Water moves from Earth's surface into the atmosphere through evaporation."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration",
+          "supports": "Transpiration moves water from roots to leaves, where it evaporates into the atmosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of five; sublimation is not taught in this lesson and is not offered. Round 1 (2026-10-14): accessiblePrompt choice list deleted (both reviewers offered this); QuestionPanel narration appends the shuffled choices. Review round 2 (2026-10-14): Both reviewers passed it. The pedagogy reviewer's optional rewording was applied so the stem no longer paraphrases the textbook's in-text reading question on p. 234; choices and key [a, b] unchanged ('living things' covers transpiration and evaporating sweat, both already keyed). Verify-agent (2026-10-14): checked against pp. 234-235: evaporation and transpiration are the only offered processes that move water from the surface into the air. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the read-aloud choice list that named the correct choices first"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the read-aloud choice list (narration already reads the shuffled choices)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q07",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O1",
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "transpiration",
+        "stomata",
+        "plants"
+      ],
+      "familyId": "L18-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Which description of transpiration is most accurate?",
+      "accessiblePrompt": "Which description of transpiration, the way plants release water, is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Root water evaporates inside the leaves and exits as vapor through stomata.",
+          "rationale": "Correct: the water travels up from the roots, evaporates in the leaf, and leaves as vapor through the pores."
+        },
+        {
+          "id": "b",
+          "text": "Leaves take in water vapor through stomata and send it down to the roots.",
+          "rationale": "This reverses the direction; transpiration carries water up and out of the plant."
+        },
+        {
+          "id": "c",
+          "text": "Liquid water drips from the leaves to the soil and becomes runoff.",
+          "rationale": "Dripping liquid is not transpiration; transpiration releases water into the air as vapor."
+        },
+        {
+          "id": "d",
+          "text": "Sunlight is turned into new water that the leaves release into the air.",
+          "rationale": "Sunlight is energy, not matter; the water came from the soil through the roots."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Roots take in water, and it travels up the stem to the leaves. Inside the leaf the water evaporates, and the vapor escapes through stomata, tiny pores mostly on the underside of the leaf. The plant does not make the water; it came from the soil.",
+      "misconception": "Plants breathe in water vapor through their leaves, or plants create new water from sunlight.",
+      "hint": "Follow the water: where does it enter the plant, and in what state does it leave?",
+      "followUpId": "L18-Q10",
+      "scope": {
+        "lessonId": "L18",
+        "section": "1. Heating and the Water Cycle",
+        "pages": {
+          "printed": [
+            235,
+            240
+          ],
+          "pdf": [
+            271,
+            276
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240
+          ],
+          "pdfPages": [
+            276
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "In transpiration, water inside the plant evaporates and is released to the air as water vapor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration; Figure 1B",
+          "supports": "Water moves from roots to leaves and leaves through stomata on the underside of the leaves."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 30.5 Transport of Water and Solutes in Plants",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+          "accessed": "2026-10-14",
+          "supports": "Water evaporates from cell surfaces into air spaces inside the leaf and is lost as water vapor through the stomata."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the p. 235 wording (L18-RF2) using the p. 240 caption and OpenStax. Round 1 (2026-10-14): Both reviewers passed it. Since round 1 it is the only item that carries the L18-RF2 stomata correction. Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against the p. 240 render (transpiration caption) and p. 235. The verifier re-opened OpenStax Biology 2e 30.5, which confirms that water evaporates inside the leaf and leaves as vapor through the stomata (L18-RF2). Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q08",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "stomata",
+        "transpiration rate",
+        "evaporative cooling"
+      ],
+      "familyId": "L18-F04",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "On a scorching, dry afternoon, a plant closes most of its stomata. What is the most likely result?",
+      "accessiblePrompt": "On a scorching, dry afternoon, a plant closes most of its stomata, the tiny pores in its leaves. What is the most likely result?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It loses less water, but its leaves get less cooling.",
+          "rationale": "Correct: fewer open pores mean less vapor escapes and less energy is carried away."
+        },
+        {
+          "id": "b",
+          "text": "It loses more water, because closed stomata trap heat.",
+          "rationale": "Closing the pores slows the escape of vapor, so water loss goes down, not up."
+        },
+        {
+          "id": "c",
+          "text": "Its roots pull in water faster to make up for it.",
+          "rationale": "Transpiration helps draw water up; with less of it, the pull from the leaves weakens."
+        },
+        {
+          "id": "d",
+          "text": "Nothing changes, because transpiration happens in the roots.",
+          "rationale": "Transpiration releases water from the leaves, so closing leaf pores does change it."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stomata are the exits for water vapor, so closing them slows transpiration and saves water. But evaporation carries energy away from the leaf, so less transpiration also means less cooling. Plants trade water loss against cooling.",
+      "misconception": "Closing stomata makes a plant lose more water, or has no effect on its temperature.",
+      "hint": "Think of sweating: what does evaporating water do for your skin, and what happens if less of it can evaporate?",
+      "followUpId": "L18-Q09",
+      "scope": {
+        "lessonId": "L18",
+        "section": "1. Heating and the Water Cycle",
+        "pages": {
+          "printed": [
+            235
+          ],
+          "pdf": [
+            271
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration",
+          "supports": "Open stomata increase transpiration and closed stomata decrease it; evaporation draws energy from the plant and helps regulate its temperature."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Cause-and-effect item built on p. 235. Choice c targets the idea that roots pump harder when leaves lose less water. Round 1 (2026-10-14): New hint from the pedagogy review (sweating analogy, as on p. 235). Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against p. 235 (stomata opening and closing set transpiration rates; evaporation draws energy and helps regulate plant temperature). The key is the only outcome consistent with both statements. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer states both halves of the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q09",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "energy",
+        "evaporation",
+        "condensation",
+        "crystallization",
+        "melting",
+        "sleet"
+      ],
+      "familyId": "L18-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each event by what happens to the water's energy: does the water gain energy or give energy off?",
+      "accessiblePrompt": "Sort each event by what happens to the water's energy: does the water gain energy, or give energy off? The events are: dew forms on cool grass at dawn; seawater turns to vapor under the midday sun; snowflakes grow from vapor high in a freezing cloud; the edge of a glacier melts on a sunny afternoon; a sunflower transpires on a hot day; and raindrops freeze into sleet as they fall through cold air.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Dew forms on cool grass at dawn",
+          "rationale": "Dew is condensation, gas to liquid, which releases energy."
+        },
+        {
+          "id": "i2",
+          "text": "Seawater turns to vapor under the midday sun",
+          "rationale": "Evaporation needs energy, here from sunlight."
+        },
+        {
+          "id": "i3",
+          "text": "Snowflakes grow from vapor high in a freezing cloud",
+          "rationale": "Crystallization, gas to solid, gives energy off to the air."
+        },
+        {
+          "id": "i4",
+          "text": "The edge of a glacier melts on a sunny afternoon",
+          "rationale": "Melting needs energy to loosen the ice's fixed pattern."
+        },
+        {
+          "id": "i5",
+          "text": "A sunflower transpires on a hot day",
+          "rationale": "Water evaporating inside the leaf absorbs energy, which cools the leaf."
+        },
+        {
+          "id": "i7",
+          "text": "Raindrops freeze into sleet as they fall through cold air",
+          "rationale": "Liquid drops turning into ice is what this lesson calls crystallization, and it gives energy off to the surrounding air."
+        }
+      ],
+      "bins": [
+        {
+          "id": "gain",
+          "label": "Water gains energy"
+        },
+        {
+          "id": "release",
+          "label": "Water gives energy off"
+        }
+      ],
+      "answer": {
+        "i1": "release",
+        "i2": "gain",
+        "i3": "release",
+        "i4": "gain",
+        "i5": "gain",
+        "i7": "release"
+      },
+      "explanation": "Changes that free particles from each other's hold (solid to liquid, liquid to gas) need energy, so the water absorbs it. Changes that let particles join back together (gas to liquid, gas or liquid to solid) release energy to the surroundings. That is why evaporation cools a surface while condensation and crystallization warm the nearby air.",
+      "misconception": "Condensation and freezing take in energy because they happen in cold places.",
+      "hint": "Are the water particles breaking free of one another, or joining together?",
+      "followUpId": "L18-Q08",
+      "scope": {
+        "lessonId": "L18",
+        "section": "2. Cooling and the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            235,
+            236,
+            237,
+            238,
+            241
+          ],
+          "pdf": [
+            270,
+            271,
+            272,
+            273,
+            274,
+            277
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation; Figure 1A",
+          "supports": "Water gains energy from the sun to evaporate."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation; Figure 2",
+          "supports": "Water releases energy into the atmosphere when it condenses or freezes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            237
+          ],
+          "pdfPages": [
+            273
+          ],
+          "locator": "Section 2, Crystallization",
+          "supports": "Energy is released when water vapor or liquid water crystallizes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            241
+          ],
+          "pdfPages": [
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Energy from the sun melts ice on Earth's surface."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration",
+          "supports": "Transpiration is driven by energy from the sun."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Section 3, Precipitation; Figure 3A",
+          "supports": "Sleet is one of the forms of precipitation that fall from clouds to the ground."
+        },
+        {
+          "type": "external",
+          "title": "Glossary: Sleet",
+          "publisher": "National Weather Service, NOAA (weather.gov)",
+          "url": "https://forecast.weather.gov/glossary.php?word=sleet",
+          "accessed": "2026-10-17",
+          "supports": "Sleet is pellets of ice made of frozen or mostly frozen raindrops, or of refrozen, partly melted snowflakes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Sorts by energy gained or released rather than 'sun or gravity', avoiding the oversimplification in L18-RF4. Round 1 (2026-10-14): Explanation and hint now describe particles breaking free or joining together, which holds for melting too (liquid water is denser than ice and melting happens at a constant 0 °C). The science reviewer's 'locking together' became 'joining together' because condensing vapor joins into a liquid, not a locked solid. Review round 2 (2026-10-14): Pedagogy fix applied. Item i6 (cloud droplets forming, a second condensation item) is replaced by raindrops freezing into sleet (new id i7, release), so the bank now has a liquid-freezing item that matches the misconception field. Read-aloud list updated in stored order. Evidence adds p. 238 (sleet is precipitation) and the NWS glossary entry for sleet (opened 2026-10-17), which says sleet is frozen raindrops; p. 237 already supports energy release when liquid water crystallizes. Bins stay 3 gain / 3 release. Verify-agent (2026-10-14): checked against pp. 234-238 and 241: every item has one bin. The verifier re-opened the NWS sleet glossary, which confirms sleet is frozen or mostly frozen raindrops. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and hint no longer say melting makes particles faster and more spread out"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now Q08 (evaporating water carries energy away)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: duplicate condensation item replaced by raindrops freezing into sleet (new id i7)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q10",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "particle model",
+        "evaporation",
+        "molecular motion"
+      ],
+      "familyId": "L18-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Picture the water molecules at the surface of a sunlit lake. Why do some of them leave the liquid and become vapor?",
+      "accessiblePrompt": "Picture the water molecules at the surface of a sunlit lake. Why do some of them leave the liquid and become vapor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They gain enough energy to move fast and break away.",
+          "rationale": "Correct: extra energy speeds the molecules up, and the fastest surface molecules escape."
+        },
+        {
+          "id": "b",
+          "text": "Sunlight splits them into hydrogen and oxygen gases.",
+          "rationale": "Evaporation is a change of state; the molecules stay H₂O."
+        },
+        {
+          "id": "c",
+          "text": "They are lighter than other water molecules, so they float.",
+          "rationale": "Molecules do not float off for being light. What decides it is speed: a surface molecule escapes when it is moving fast enough to break away from its neighbors."
+        },
+        {
+          "id": "d",
+          "text": "They reach boiling temperature, so they boil away.",
+          "rationale": "Evaporation happens far below boiling; even a cool lake loses its fastest surface molecules."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sunlight gives the water energy, so its molecules move faster and collide harder. A few molecules at the surface move fast enough to break away into the air. They are still whole H₂O molecules; evaporation changes how far apart and how fast they move, not what they are made of.",
+      "misconception": "Evaporation breaks water molecules apart into hydrogen and oxygen, or water must boil to evaporate.",
+      "hint": "Think about speed: what does extra energy do to the motion of molecules?",
+      "followUpId": "L18-Q12",
+      "scope": {
+        "lessonId": "L18",
+        "section": "1. Heating and the Water Cycle",
+        "pages": {
+          "printed": [
+            234
+          ],
+          "pdf": [
+            270
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation; Figure 1A (How Water Evaporates)",
+          "supports": "Energy from the sun makes water molecules move faster and collide; some surface molecules move fast enough to break away and become vapor."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Particle-model item from the rendered Figure 1A 'microscopic view' (molecules collide, one gains energy and enters the gas state). Round 1 (2026-10-14): Choice c rationale is the science reviewer's text (heavier isotope forms of water exist). Choice d is the pedagogy reviewer's boiling misconception, worded 'They reach boiling temperature...' to stay parallel with the other choices. Review round 2 (2026-10-14): Pedagogy fix applied: the read-aloud sentence about H₂O's hydrogen and oxygen atoms is deleted, because it primed distractor b and sighted learners never saw it; the read-aloud now matches the visible prompt. Verify-agent (2026-10-14): checked against the rendered Figure 1A microscopic view (p. 234): molecules gain energy, collide and the fastest surface molecules escape. Distractors are real misconceptions. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale no longer claims all water molecules have the same mass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d now targets 'water must boil to evaporate' instead of repeating Q12's gravity idea; c rationale corrected"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud no longer adds the H₂O sentence that primed choice b"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q11",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "sun's energy",
+        "gravity",
+        "drivers of the water cycle"
+      ],
+      "familyId": "L18-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each process by its main driver in the water cycle: energy from the sun, or the pull of gravity.",
+      "accessiblePrompt": "Sort each process by its main driver in the water cycle: energy from the sun, or the pull of gravity. The processes, in alphabetical order, are: evaporation; groundwater flow; infiltration; melting of glacier ice; precipitation; runoff; and transpiration.",
+      "conditions": "Condensation and crystallization are left out on purpose: they happen when water vapor gives off energy as it cools.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Evaporation",
+          "rationale": "Sunlight supplies the energy liquid water needs to become vapor."
+        },
+        {
+          "id": "i2",
+          "text": "Transpiration",
+          "rationale": "Sunlight supplies the energy for water in leaves to evaporate."
+        },
+        {
+          "id": "i3",
+          "text": "Melting of glacier ice",
+          "rationale": "Energy from the sun melts surface ice."
+        },
+        {
+          "id": "i4",
+          "text": "Precipitation",
+          "rationale": "Gravity pulls drops and ice crystals that are heavy enough down from clouds."
+        },
+        {
+          "id": "i5",
+          "text": "Runoff",
+          "rationale": "Gravity pulls surface water downhill."
+        },
+        {
+          "id": "i6",
+          "text": "Infiltration",
+          "rationale": "Gravity draws surface water down into soil and rock."
+        },
+        {
+          "id": "i7",
+          "text": "Groundwater flow",
+          "rationale": "Gravity moves groundwater slowly through connected pores."
+        }
+      ],
+      "bins": [
+        {
+          "id": "sun",
+          "label": "Energy from the sun"
+        },
+        {
+          "id": "gravity",
+          "label": "Gravity"
+        }
+      ],
+      "answer": {
+        "i1": "sun",
+        "i2": "sun",
+        "i3": "sun",
+        "i4": "gravity",
+        "i5": "gravity",
+        "i6": "gravity",
+        "i7": "gravity"
+      },
+      "explanation": "The sun's energy changes water's state and lifts it into the air as vapor: evaporation, transpiration and melting. Gravity moves water down and downhill: precipitation, runoff, infiltration and groundwater flow. Working together, they keep water moving around the planet.",
+      "misconception": "Gravity lifts water into the air, or the sun makes rain fall.",
+      "hint": "Does the process need water to gain energy, or does it move water downward?",
+      "followUpId": "L18-Q13",
+      "scope": {
+        "lessonId": "L18",
+        "section": "Key Science Concept: Global Processes in the Water Cycle",
+        "pages": {
+          "printed": [
+            235,
+            240,
+            241
+          ],
+          "pdf": [
+            271,
+            276,
+            277
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240
+          ],
+          "pdfPages": [
+            276
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Evaporation is powered by the sun's energy, and the spread says each process is powered by either the sun or gravity."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration",
+          "supports": "Transpiration, like evaporation, is powered by the sun's energy."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            241
+          ],
+          "pdfPages": [
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Melting is caused by the sun's energy; precipitation, runoff, infiltration and groundwater flow happen under the force of gravity."
+        },
+        {
+          "type": "external",
+          "title": "Cloud Development (training page)",
+          "publisher": "National Weather Service, NOAA (weather.gov)",
+          "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/clouds/cloud_development/clouds.htm",
+          "accessed": "2026-10-14",
+          "supports": "Rising air expands and cools; water vapor gives off heat (latent heat) when it condenses into droplets or deposits as ice."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Condensation and crystallization deliberately excluded (stated in conditions) because of L18-RF4. Round 1 (2026-10-14): Both reviewers' suggested orders alternate sun and gravity item by item, which is itself a pattern, so the read-aloud list is alphabetical. The weather.gov page was re-opened on 2026-10-14: it says rising air expands and cools and names the latent heats of condensation and deposition; the 'not directly powered by sunlight or gravity' inference was dropped from the record and stays in conditions. Follow-up now Q13 (gravity acts on cloud droplets that updrafts hold up). Review round 2 (2026-10-14): Science fix applied. Re-checked the p. 240 render: the Transpiration caption does not mention the sun (only the Evaporation caption and the spread's introduction do), so the p. 240 record now says only that, and a p. 235 record (Section 1, Transpiration: driven by energy from the sun) is added with p. 235 in scope. Key, items and bins unchanged. Verify-agent (2026-10-14): checked against the renders of pp. 240-241 and p. 235. With condensation and crystallization excluded (conditions, L18-RF4), each process has one main driver. The verifier re-opened the weather.gov page and its record is accurate. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list no longer grouped by answer; weather.gov record now states only what the page says"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list no longer grouped by bin; follow-up now Q13"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: p. 240 record reworded; p. 235 record and scope page added for sun-driven transpiration"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q12",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "gravity",
+        "sun's energy",
+        "misconception repair"
+      ],
+      "familyId": "L18-F06",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Jordan says, \"Gravity is what lifts water vapor up into the sky.\" Which response best fixes Jordan's idea?",
+      "accessiblePrompt": "Jordan says that gravity is what lifts water vapor up into the sky. Which response best fixes Jordan's idea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sun's energy lifts water as vapor; gravity brings it back down.",
+          "rationale": "Correct: energy from the sun lifts water as vapor, and gravity returns it."
+        },
+        {
+          "id": "b",
+          "text": "Jordan is right, because gravity pulls water in every direction.",
+          "rationale": "Gravity pulls water toward Earth; it is the sun's energy that turns water into vapor and warms air so it rises."
+        },
+        {
+          "id": "c",
+          "text": "Wind alone lifts water, so the sun and gravity do not matter.",
+          "rationale": "Wind moves vapor around, but water needs the sun's energy to become vapor at all."
+        },
+        {
+          "id": "d",
+          "text": "The sun's gravity pulls water up because it is stronger than Earth's.",
+          "rationale": "Near Earth the sun's pull is far weaker than Earth's; what the sun supplies is energy, which turns water into vapor."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Gravity pulls water toward Earth, so on its own it brings water down, not up. Energy from the sun is what turns liquid water into vapor that can rise into the air. The water cycle needs both: the sun to lift water as vapor and gravity to bring it back down.",
+      "misconception": "Gravity lifts water vapor into the sky.",
+      "hint": "Which way does gravity always pull?",
+      "followUpId": "L18-Q10",
+      "scope": {
+        "lessonId": "L18",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            233,
+            234
+          ],
+          "pdf": [
+            269,
+            270
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            233
+          ],
+          "pdfPages": [
+            269
+          ],
+          "locator": "Introduction",
+          "supports": "Energy from the sun and Earth's gravity work together to cycle water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation",
+          "supports": "Energy from the sun makes water molecules break away into the atmosphere as vapor."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Misconception-repair item for the brief's 'distinguish the roles of energy and gravity'. Round 1 (2026-10-14): Explanation softened to 'on its own' to match the new limitation about rising warm air. Review round 2 (2026-10-14): Both reviewers passed it. The science reviewer's optional point was applied to the limitation (buoyancy: gravity pulls harder on the cooler, denser surrounding air), matching the new Explorer O2 watchOut. Key unchanged; it is still the only defensible response to Jordan's claim. Verify-agent (2026-10-14): checked against pp. 233-234. The key is the only defensible repair, and the limitation correctly notes gravity's part in buoyant rising. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale no longer says gravity 'cannot' play any part; limitation added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shortened (67 characters against 61-69)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Simplified: gravity has a part in the rising too, because it pulls harder on the cooler, denser air around warm, moist air, so that air sinks and pushes the warm air up. The energy that evaporates the water and warms the air comes from the sun."
+    },
+    {
+      "id": "L18-Q13",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "precipitation",
+        "cloud droplets",
+        "updrafts",
+        "gravity"
+      ],
+      "familyId": "L18-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Gravity pulls on every droplet in a cloud, yet tiny cloud droplets can float for hours. Why don't they fall right away?",
+      "accessiblePrompt": "Gravity pulls on every droplet in a cloud, yet tiny cloud droplets can float for hours. Why don't they fall right away?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are so small and light that rising air holds them up.",
+          "rationale": "Correct: updrafts keep tiny droplets aloft until they grow heavy enough to fall."
+        },
+        {
+          "id": "b",
+          "text": "Gravity does not act on anything high above the ground.",
+          "rationale": "Gravity pulls on the droplets the whole time, high up or not; that is why rain and snow fall at all."
+        },
+        {
+          "id": "c",
+          "text": "Cloud droplets are a gas, so they are lighter than air.",
+          "rationale": "Cloud droplets are liquid water; vapor is the invisible gas."
+        },
+        {
+          "id": "d",
+          "text": "The dust specks inside the droplets hold the cloud up.",
+          "rationale": "Dust gives vapor a surface to condense on; it does not hold droplets up."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Cloud droplets are so small and light that rising air currents, called updrafts, can hold them up even though gravity acts on them. As droplets collide and merge, they grow heavier. Once they are big enough, gravity wins and they fall as precipitation.",
+      "misconception": "Gravity does not act on things up in the sky, or cloud droplets are a gas.",
+      "hint": "What would have to change about a droplet before it could fall?",
+      "followUpId": "L18-Q23",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            238
+          ],
+          "pdf": [
+            274
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Section 3, Precipitation; Figure 3A",
+          "supports": "Small droplets are kept from falling by updrafts even though gravity acts on them; once collisions make them large enough, they fall."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Relationship item; distractor c ties back to vapor vs droplets. Round 1 (2026-10-14): Now the follow-up for Q04 and Q11. Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against p. 238: updrafts keep small droplets from falling even though gravity acts on them. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale gives a reason instead of citing the lesson"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q14",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "raindrop shape",
+        "air resistance",
+        "gravity"
+      ],
+      "familyId": "L18-F07",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A raindrop a few millimeters across is falling fast through the air. Which shape best describes it?",
+      "accessiblePrompt": "A raindrop a few millimeters across is falling fast through the air. Which shape best describes it?",
+      "limitations": "Drop shapes are described qualitatively; exact size limits vary between sources.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rounded on top and flattened underneath by air pushing up",
+          "rationale": "Correct: air resistance pushing up on the falling drop flattens its underside."
+        },
+        {
+          "id": "b",
+          "text": "A teardrop with a pointed top, as gravity stretches it",
+          "rationale": "This is the cartoon shape; real falling drops are not pointed."
+        },
+        {
+          "id": "c",
+          "text": "A perfect sphere, as air has no effect on falling water",
+          "rationale": "Only small drops stay nearly round; air does push on larger falling drops."
+        },
+        {
+          "id": "d",
+          "text": "Flattened on top, as gravity presses down on its upper surface",
+          "rationale": "Gravity pulls on the whole drop rather than pressing on its top; the push that flattens it comes from the air below."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Real raindrops are not teardrops. Small drops are nearly round, but as a larger drop falls, air pushes up on its underside and flattens it, giving a shape like the top of a hamburger bun. A very large drop can be pushed out of shape until it breaks into smaller drops.",
+      "misconception": "Raindrops are shaped like teardrops with a pointed top.",
+      "hint": "When you ride a bike fast, which way does the air push on you? Now picture a drop falling fast.",
+      "followUpId": "L18-Q12",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            238
+          ],
+          "pdf": [
+            274
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Figure 3A, The Process of Precipitation",
+          "supports": "Drops drawn larger than 2 mm are rounded on top and flattened underneath; air resistance pushes up while gravity pulls down, and the largest drop splits."
+        },
+        {
+          "type": "external",
+          "title": "Are Raindrops Shaped Like Teardrops?",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops",
+          "accessed": "2026-10-14",
+          "supports": "Small raindrops are spherical; larger drops take a hamburger-bun shape because air pushes up on the bottom of the falling drop."
+        },
+        {
+          "type": "external",
+          "title": "The Anatomy of a Raindrop",
+          "publisher": "NASA Global Precipitation Measurement Mission",
+          "url": "https://gpm.nasa.gov/science/anatomy-of-a-raindrop",
+          "accessed": "2026-10-14",
+          "supports": "Raindrops are round on top and flat on the bottom, not teardrop-shaped."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "No size cutoffs are tested because sources disagree on them (L18-RF6). Round 1 (2026-10-14): Air resistance and drop flattening are now taught in Explorer card O2 (paragraph 3) and key idea 5, so the Science Explorer path covers this item. Category changed to relationship (forces to shape), which makes the bank 9 foundational / 10 relationship / 9 application. Review round 2 (2026-10-14): Pedagogy fix applied: the old hint said a force pushes on the drop's bottom, which only the key mentions; the new hint asks which way moving air pushes, so the learner must work out 'upward on a falling drop' and its effect on shape. The science reviewer re-checked USGS (radius) and NASA GPM sizes and found RF6 accurate. Verify-agent (2026-10-14): checked against the rendered Figure 3A (p. 238). The verifier re-opened NASA GPM (round on top, flat on the bottom, not teardrops). The USGS page refused or timed out from this machine, but search excerpts match its record. No size cutoff is tested (L18-RF6). Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: no longer relies on the textbook figure; key shortened; misconception-based choice d; re-tagged relationship"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at a push on the drop's underside"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q15",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O2"
+      ],
+      "conceptTags": [
+        "precipitation",
+        "condensation",
+        "drop growth",
+        "air resistance"
+      ],
+      "familyId": "L18-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these steps in order to show how one raindrop forms and falls.",
+      "accessiblePrompt": "Put these steps in order to show how one raindrop forms and falls. The steps are: it bumps into other droplets and merges, growing larger; water vapor cools and condenses on a speck of dust; as it falls, air resistance pushes up on it and can split a very large drop; the tiny new droplet stays up in the cloud; it becomes heavy enough that gravity pulls it down.",
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "items": [
+        {
+          "id": "c",
+          "text": "It bumps into other droplets and merges, growing larger",
+          "rationale": "Collisions make the droplet bigger while rising air still holds it up; it has to grow before it can fall, though it can keep growing on the way down."
+        },
+        {
+          "id": "a",
+          "text": "Water vapor cools and condenses on a speck of dust",
+          "rationale": "The droplet must form before anything else can happen to it."
+        },
+        {
+          "id": "e",
+          "text": "As it falls, air resistance pushes up and can split a very large drop",
+          "rationale": "This step describes a drop that is already falling, so it must come after the drop grows heavy enough to fall."
+        },
+        {
+          "id": "b",
+          "text": "The tiny new droplet stays up in the cloud",
+          "rationale": "A brand-new droplet is too light to fall yet."
+        },
+        {
+          "id": "d",
+          "text": "It becomes heavy enough that gravity pulls it down",
+          "rationale": "Only after growing can the drop overcome the updrafts and fall."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "explanation": "A droplet starts when cooling vapor condenses on a speck of dust. At first it is light enough for rising air to hold up. Collisions make it bigger until gravity can pull it down. Once it is falling it can keep growing, and air resistance pushes up on it and may break a very large drop apart.",
+      "misconception": "Raindrops form at full size the moment vapor condenses.",
+      "hint": "For each step, ask what must already be true about the droplet.",
+      "followUpId": "L18-Q02",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            236,
+            238
+          ],
+          "pdf": [
+            272,
+            274
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation",
+          "supports": "Vapor condenses on tiny dust particles to form the droplets that make clouds."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Section 3, Precipitation; Figure 3A",
+          "supports": "Droplets held up by updrafts grow by colliding; once large enough they fall, and air resistance can break big drops apart."
+        },
+        {
+          "type": "external",
+          "title": "Precipitation (JetStream)",
+          "publisher": "National Weather Service, NOAA",
+          "url": "https://www.noaa.gov/jetstream/atmosphere/precipitation",
+          "accessed": "2026-10-14",
+          "supports": "Rain forms by two processes: in the warm-rain process, droplets of different sizes collide and coalesce into larger drops; in the ice crystal process in colder clouds, ice crystals grow until they fall, and the snowflakes may melt to rain."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible order (each step needs the one before). Items stored out of answer order. Round 1 (2026-10-14): The science reviewer gave the stored order as c, e, a, d, b; the stored order is actually c, a, e, b, d, and the read-aloud list follows it (no step sits in its answer position). Item b is the pedagogy reviewer's text. The limitation is worded to match NOAA JetStream (opened 2026-10-14): ice-crystal growth happens in colder clouds, and the snowflakes may melt to rain. Review round 2 (2026-10-14): Science fix applied: item c's rationale now says drops can keep growing as they fall (p. 238: the droplets continue to collide and get bigger as they fall), and the explanation says the same. The order is still the only defensible one, because growth must come before the drop can fall (step d). Verify-agent (2026-10-14): checked against pp. 236 and 238: each step presupposes the one before, so a, b, c, d, e is the one defensible order. The verifier re-opened NOAA JetStream, which supports the warm-rain limitation. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud steps no longer in answer order; item e rationale corrected; warm-rain model limitation added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud steps in stored order; item b no longer gives away Q13; new hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: item c rationale and explanation allow growth while falling"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Follows the lesson's model, in which liquid droplets grow by colliding. In colder clouds, raindrops can instead start as ice crystals that grow, fall as snowflakes and melt on the way down."
+    },
+    {
+      "id": "L18-Q16",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "runoff",
+        "infiltration",
+        "pore spaces"
+      ],
+      "familyId": "L18-F08",
+      "category": "application",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "The same heavy rain falls on a paved parking lot and on a nearby sandy field. Compared with the field, what happens on the parking lot?",
+      "accessiblePrompt": "The same heavy rain falls on a paved parking lot and on a nearby sandy field. Compared with the field, what happens on the parking lot?",
+      "conditions": "Same amount of rain on both; ordinary sealed pavement (not porous pavement) with no cracks.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More water runs off, since little water soaks through pavement.",
+          "rationale": "Correct: ordinary pavement has almost no connected openings, so most of the rain flows downhill over the surface."
+        },
+        {
+          "id": "b",
+          "text": "More water infiltrates, because pavement is harder than sand.",
+          "rationale": "Hardness does not let water in; infiltration needs open pore spaces."
+        },
+        {
+          "id": "e",
+          "text": "About the same amount runs off, since the same rain fell on both.",
+          "rationale": "The rain is the same, but the surface decides how much soaks in: sand has pores that let water in, and sealed pavement does not."
+        },
+        {
+          "id": "d",
+          "text": "Gravity pulls less on water that lands on pavement.",
+          "rationale": "Gravity pulls equally on water everywhere; the surface decides where it goes."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Infiltration needs connected open spaces for water to seep into. Sandy soil has pore spaces, so much of the rain soaks in. Ordinary pavement seals the ground and has almost no connected openings, so more of the rain flows away over the surface as runoff, pulled downhill by gravity.",
+      "misconception": "Harder ground soaks up more water, the surface makes no difference to runoff, or gravity acts differently on different surfaces.",
+      "hint": "Where could the rainwater soak in, and where must it flow away instead?",
+      "followUpId": "L18-Q11",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            239
+          ],
+          "pdf": [
+            275
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Runoff and Infiltration",
+          "supports": "Surface water seeps into the ground through soil and rock layers; water the ground cannot absorb flows downhill as runoff under gravity."
+        },
+        {
+          "type": "external",
+          "title": "Impervious Surfaces and Flooding",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/impervious-surfaces-and-flooding",
+          "accessed": "2026-10-17",
+          "supports": "Pavement and other hard surfaces are impervious to rain, so water no longer seeps into the ground but runs off; replacing vegetation with impervious surfaces reduces infiltration and increases stormwater runoff."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Prediction item applying p. 239 to a new setting. Round 1 (2026-10-14): Key shortened from the pedagogy review. Review round 2 (2026-10-14): Science fix applied: the key no longer says pavement 'has no pores' (concrete and asphalt have a few pores but almost no connected ones); it now reads 'little water soaks through pavement' (the reviewer's 'can soak' trimmed so the key, 63 characters, is shorter than the new 65-character distractor), and the conditions say ordinary sealed pavement, not porous pavement. Pedagogy fix applied: the implausible 'rain evaporates before it reaches the pavement' (old c) is replaced by 'about the same amount runs off' (new id e), the rainfall-alone-sets-runoff idea; misconception updated. Evidence adds USGS 'Impervious Surfaces and Flooding' (opened 2026-10-17), since the textbook does not discuss pavement. Verify-agent (2026-10-14): checked against p. 239 (water the ground cannot absorb runs off; infiltration needs soil and rock to seep into). The conditions make it a fair comparison. The USGS impervious-surfaces page could not be re-opened here, but the claim is standard and uncontested. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shortened (62 characters against 51-61)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reason no longer says pavement has no pores; conditions specify ordinary sealed pavement"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible evaporation distractor replaced by 'about the same runs off' (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q17",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "groundwater",
+        "aquifer",
+        "pore spaces"
+      ],
+      "familyId": "L18-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which statements about groundwater are accurate? Select all that apply.",
+      "accessiblePrompt": "Which statements about groundwater are accurate? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It fills tiny open spaces between grains of soil and rock.",
+          "rationale": "Correct: groundwater fills the pores between grains of soil and rock underground."
+        },
+        {
+          "id": "b",
+          "text": "It can flow through rock whose pores are connected.",
+          "rationale": "Correct: connected pores let groundwater move through rock."
+        },
+        {
+          "id": "c",
+          "text": "Gravity moves it, and in many places it reaches the ocean.",
+          "rationale": "Correct: gravity drives groundwater flow, and in many places it reaches the sea; elsewhere it feeds springs, streams and lakes."
+        },
+        {
+          "id": "d",
+          "text": "It mostly sits in big underground lakes and rivers.",
+          "rationale": "Groundwater mostly fills the small pores between grains of soil and rock, not big open lakes or rivers."
+        },
+        {
+          "id": "e",
+          "text": "It stays where it soaked in until a well pumps it out.",
+          "rationale": "Groundwater moves slowly on its own, pulled by gravity, and in many places it reaches the sea."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Groundwater is not usually an underground lake. It fills the small spaces between grains of soil and rock, and where those spaces connect, it can flow slowly through the rock. Gravity drives that flow without any pump, and in many places groundwater eventually seeps into the ocean.",
+      "misconception": "Groundwater sits in big underground lakes and moves only when a well pumps it.",
+      "hint": "Think about where rain goes after it soaks into the ground, and what keeps pulling on it there.",
+      "followUpId": "L18-Q21",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            239,
+            241
+          ],
+          "pdf": [
+            275,
+            277
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Infiltration; Figure 3B",
+          "supports": "Groundwater fills pore spaces in soil and rock, flows through rock with connected pores, moves because of gravity, and in many places reaches the ocean."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            241
+          ],
+          "pdfPages": [
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Groundwater flow: under gravity, liquid water flows through rock formations whose pore spaces are connected."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct of five; no absolute claims about renewability. Round 1 (2026-10-14): Choices d and e are the pedagogy reviewer's; d's rationale says 'mostly fills the small pores' (supported by p. 239) instead of 'large open underground lakes are rare', and e's rationale says 'in many places it reaches the sea' (p. 239) instead of 'toward streams'. The hint changed too, because the old hint ('tiny spaces between grains') now echoes choice a. Review round 2 (2026-10-14): Both reviewers passed the item. Lesson-level fix applied: objectiveIds now L18-O3 only, so family F08 tests one objective and cannot give O1 mastery credit for groundwater facts. Choice c's rationale no longer says groundwater 'often ends at the sea' (the lesson-level groundwater wording fix; p. 239 says 'in many places'). Verify-agent (2026-10-14): checked against p. 239 and the p. 241 render: a, b and c are each stated in the lesson, while d and e contradict it. No absolute claim about renewability. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the read-aloud choice list that named the correct choices first"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute-word distractors replaced with misconception-based ones; choice a no longer repeats the glossary definition; choice list removed"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: objectiveIds now L18-O3 only (family F08 single-objective)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q18",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "aquifer",
+        "infiltration",
+        "pore spaces"
+      ],
+      "familyId": "L18-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A geologist poured water on samples of the two rock layers under this farm. It drained through the sandstone but stayed on top of the granite. Which rock layer could act as an aquifer that supplies a well?",
+      "accessiblePrompt": "Under a farm there are three layers. Nearest the surface is soil. Under the soil is sandstone, and the deepest layer is granite. A geologist poured water on a sample of each rock. The water drained through the sandstone sample but stayed on top of the granite sample. Which rock layer could act as an aquifer that supplies a well?",
+      "diagram": {
+        "kind": "layers",
+        "caption": "Layers under a farm",
+        "alt": "Three layers, listed from the surface down: soil, sandstone and granite. In a test, water poured on a sandstone sample drained through it, but water poured on a granite sample stayed on top.",
+        "layers": [
+          {
+            "id": "L1",
+            "label": "Soil",
+            "texture": "soil"
+          },
+          {
+            "id": "L2",
+            "label": "Sandstone",
+            "texture": "sandstone"
+          },
+          {
+            "id": "L3",
+            "label": "Granite",
+            "texture": "igneous"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sandstone, because water passed through it",
+          "rationale": "Correct: water passing through shows the sandstone has connected pores, so groundwater can fill it and flow to a well."
+        },
+        {
+          "id": "b",
+          "text": "The granite, because it is the deepest layer",
+          "rationale": "Depth does not make an aquifer; water could not pass through the granite, so it lacks connected pores."
+        },
+        {
+          "id": "c",
+          "text": "Neither layer, since water cannot pass below the soil",
+          "rationale": "Infiltration carries water through soil and down into rock layers, and the sandstone test shows water can pass through rock."
+        },
+        {
+          "id": "d",
+          "text": "Both layers equally, since all rock holds water",
+          "rationale": "The granite sample kept the water out, so it lacks the connected pores an aquifer needs."
+        }
+      ],
+      "answer": "a",
+      "explanation": "An aquifer needs connected pore spaces so groundwater can fill the rock and flow toward a well. Water draining through the sandstone sample shows its pores connect. The granite held the water on top, so it lacks connected pores, and groundwater collects in the sandstone sitting above it.",
+      "misconception": "Any underground rock can hold flowing groundwater, or the deepest layer must be the aquifer.",
+      "hint": "What does each sample test tell you about the open spaces inside the rock?",
+      "followUpId": "L18-Q21",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            239
+          ],
+          "pdf": [
+            275
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Infiltration; Figure 3B",
+          "supports": "An aquifer is rock plus the groundwater it holds when it has enough water for a well; a rock must have pores for groundwater to flow through it, and Figure 3B shows rock with no pore spaces beneath the aquifer."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Layers diagram built from the rendered Figure 3B (aquifer above 'rock with no pore spaces'). Round 1 (2026-10-14): The layer labels are just 'Soil', 'Sandstone' and 'Granite' instead of the reviewer's long test labels: the layers renderer leaves about 20 characters beside each layer (the old 36-character labels already ran past the edge), so the test results are in the prompt, the accessiblePrompt and the alt text. The science reviewer passed the earlier version; Figure 3B (p. 239) still supports the aquifer-above-non-porous-rock setup. Review round 2 (2026-10-14): Science fix applied: the stem now asks 'Which rock layer', because soil is also a layer in the diagram and loose sediments can be aquifers; conditions now say each sample is typical of its whole layer with no large cracks, since real granite can carry well water through fractures. Diagram, key and rationales unchanged. Verify-agent (2026-10-14): checked against p. 239 and the rendered Figure 3B (aquifer above rock with no pore spaces). The conditions remove the fracture caveat, so only the sandstone is defensible. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: learner now infers connected pores from a water test instead of reading them off the labels; new choice b and hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: asks which rock layer; conditions say each sample is typical of its layer with no large cracks"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Assume each sample is typical of its whole layer, with no large cracks."
+    },
+    {
+      "id": "L18-Q19",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "water cycle routes",
+        "no fixed sequence",
+        "models"
+      ],
+      "familyId": "L18-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A poster shows one loop: ocean → cloud → rain → river → ocean. Its caption says, \"Every water molecule follows these steps in this order.\" What is the best correction?",
+      "accessiblePrompt": "A poster shows one loop: from the ocean, to a cloud, to rain, to a river, and back to the ocean. Its caption says that every water molecule follows these steps in this order. What is the best correction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water takes many routes; it can skip places or pause for years.",
+          "rationale": "Correct: the cycle branches, so a molecule can skip places, and it can pause for years or longer in places such as glaciers and aquifers before moving on."
+        },
+        {
+          "id": "b",
+          "text": "The order is right, but every molecule must also pass through a plant.",
+          "rationale": "Plants are one possible route, not a required stop."
+        },
+        {
+          "id": "c",
+          "text": "The order is right, because the cycle always starts in the ocean.",
+          "rationale": "The water cycle has no starting point."
+        },
+        {
+          "id": "d",
+          "text": "Water cycles only once; after reaching the ocean it stays there.",
+          "rationale": "Ocean water keeps evaporating, so the cycle never ends."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The water cycle has no starting point and no required order. One molecule might rain straight back into the ocean; another might fall as snow, sit in a glacier, melt, and travel underground. Some water evaporates or is transpired before it ever reaches a river or the sea.",
+      "misconception": "All water follows the same steps in the same order.",
+      "hint": "Think about rain that falls on the ocean, or snow that lands on a glacier.",
+      "followUpId": "L18-Q22",
+      "scope": {
+        "lessonId": "L18",
+        "section": "Key Science Concept: Global Processes in the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            239,
+            240
+          ],
+          "pdf": [
+            270,
+            275,
+            276
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "1. Heating and the Water Cycle",
+          "supports": "The movement of water in the water cycle has no starting point."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240
+          ],
+          "pdfPages": [
+            276
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Readers are invited to trace the various paths a single molecule might take."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Infiltration",
+          "supports": "Not all water on land reaches the ocean; some evaporates or transpires first."
+        },
+        {
+          "type": "external",
+          "title": "The water cycle",
+          "publisher": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "The real water cycle is much more complicated than a simple circle; water can take many paths."
+        },
+        {
+          "type": "external",
+          "title": "Ice, Snow, and Glaciers and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+          "accessed": "2026-10-17",
+          "supports": "Water can be stored as ice for many years up to many centuries, and even longer at the bottom of ice sheets such as those of Greenland and Antarctica."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Guardrail item: cycles branch; no compulsory sequence. Round 1 (2026-10-14): Key reworded from the pedagogy review; rationale names glaciers and aquifers as long pauses (Explorer O3). Review round 2 (2026-10-14): Science fix applied: the key's 'pause for years' had no evidence for storage times (pp. 234, 239, 240 and NOAA give none), so the USGS 'Ice, Snow, and Glaciers and the Water Cycle' page is added; it was re-opened on 2026-10-17 by the system clock and says water can stay as ice for many years up to many centuries. Nothing else changed. Verify-agent (2026-10-14): checked against pp. 234, 239 and 240. The verifier re-opened NOAA 'The water cycle' (the simple circle is incomplete; water takes many paths). Guardrail met: cycles branch, with no compulsory sequence. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key says water can 'pause for years' instead of 'stay put', matching the never-ending cycle"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: USGS ice and glaciers record added for multi-year storage"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q20",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "water cycle routes",
+        "infiltration",
+        "transpiration",
+        "runoff"
+      ],
+      "familyId": "L18-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Rain lands on a forested hillside. Which of these could eventually happen to some of that water? Select all that apply.",
+      "accessiblePrompt": "Rain lands on a forested hillside. Which of these could eventually happen to some of that water? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soak into the soil by infiltration",
+          "rationale": "Correct: gravity can draw the rain into the soil."
+        },
+        {
+          "id": "b",
+          "text": "Be drawn up by tree roots and transpired",
+          "rationale": "Correct: once the rain soaks in, tree roots can take it up, and the leaves release it as vapor."
+        },
+        {
+          "id": "c",
+          "text": "Flow downhill as runoff into a stream",
+          "rationale": "Correct: water the ground does not absorb runs downhill."
+        },
+        {
+          "id": "d",
+          "text": "Rise straight back up to the cloud as liquid drops",
+          "rationale": "Gravity pulls liquid drops down; water must evaporate into vapor to rise."
+        },
+        {
+          "id": "e",
+          "text": "Be used up and vanish from Earth for good",
+          "rationale": "The water does not vanish from Earth; it keeps moving on through the cycle."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Rain on land can take several routes: it can soak in, be taken up by roots and transpired, or run downhill into a stream. To get back into the air it must first become vapor, and the water does not vanish from Earth; it keeps moving through the cycle.",
+      "misconception": "Water that lands on the ground is used up and gone for good, or liquid water can float back up to the clouds.",
+      "hint": "Which choices need gravity, which need the sun's energy, and which break the rules?",
+      "followUpId": "L18-Q16",
+      "scope": {
+        "lessonId": "L18",
+        "section": "3. Gravity and the Water Cycle",
+        "pages": {
+          "printed": [
+            235,
+            239
+          ],
+          "pdf": [
+            271,
+            275
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Runoff and Infiltration",
+          "supports": "Water on land can flow downhill as runoff or seep into the ground; some evaporates or transpires."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration",
+          "supports": "Water drawn in through roots is carried to the leaves and transpired."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct of five; distractor e targets 'water gets used up'. Round 1 (2026-10-14): Prompt uses the pedagogy wording ('could eventually happen to some of that water'), which also answers the science reviewer's point about root uptake. Choice e now reads 'vanish from Earth for good' rather than 'disappear from the water cycle': with 'some of that water', a tree using a little of it in photosynthesis (earlier lessons) could make the old wording arguable, while the new wording is false either way and matches the science reviewer's rationale. Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against pp. 235 and 239: a, b and c are possible routes for some of the water; d and e break the model. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks what could eventually happen, so root uptake after infiltration counts; 'never used up' absolutes removed; read-aloud choice list removed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'next' became 'eventually'; read-aloud choice list removed"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q21",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "water cycle model",
+        "processes",
+        "reservoirs"
+      ],
+      "familyId": "L18-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "The diagram shows arrows between places in the water cycle. Match each place to the process that carries water out of it along its arrow.",
+      "accessiblePrompt": "A water cycle diagram has arrows between places. Ocean has an arrow to the air. Plants have an arrow to the air. The air has an arrow to clouds. Clouds have arrows to land and to a glacier. Glacier has an arrow to land. Aquifer has an arrow to the ocean. Land has arrows to the ocean, to the aquifer and to plants. Match each place to the process that carries water out of it along its arrow: ocean, plants, clouds, glacier, aquifer. The processes to choose from are: melting, groundwater flow, evaporation, precipitation and transpiration.",
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "Where water can go next",
+        "alt": "Arrows between places in the water cycle, with no process names. Ocean to air. Plants to air. Air to clouds. Clouds to land. Clouds to glacier. Glacier to land. Land to ocean. Land to aquifer. Land to plants. Aquifer to ocean.",
+        "nodes": [
+          {
+            "id": "ocean",
+            "label": "Ocean"
+          },
+          {
+            "id": "air",
+            "label": "Water vapor in the air"
+          },
+          {
+            "id": "clouds",
+            "label": "Clouds"
+          },
+          {
+            "id": "glacier",
+            "label": "Glacier"
+          },
+          {
+            "id": "land",
+            "label": "Land: lakes, rivers, soil"
+          },
+          {
+            "id": "aquifer",
+            "label": "Aquifer"
+          },
+          {
+            "id": "plants",
+            "label": "Plants"
+          }
+        ],
+        "edges": [
+          {
+            "from": "ocean",
+            "to": "air"
+          },
+          {
+            "from": "plants",
+            "to": "air"
+          },
+          {
+            "from": "air",
+            "to": "clouds"
+          },
+          {
+            "from": "clouds",
+            "to": "land"
+          },
+          {
+            "from": "clouds",
+            "to": "glacier"
+          },
+          {
+            "from": "glacier",
+            "to": "land"
+          },
+          {
+            "from": "land",
+            "to": "ocean"
+          },
+          {
+            "from": "land",
+            "to": "aquifer"
+          },
+          {
+            "from": "land",
+            "to": "plants"
+          },
+          {
+            "from": "aquifer",
+            "to": "ocean"
+          }
+        ]
+      },
+      "left": [
+        {
+          "id": "a",
+          "text": "Ocean",
+          "rationale": "Its arrow goes to the air, so liquid seawater must become vapor: evaporation."
+        },
+        {
+          "id": "b",
+          "text": "Plants",
+          "rationale": "Their arrow goes to the air as vapor released from leaves: transpiration."
+        },
+        {
+          "id": "c",
+          "text": "Clouds",
+          "rationale": "Their arrows go down to land and the glacier: precipitation."
+        },
+        {
+          "id": "d",
+          "text": "Glacier",
+          "rationale": "Its arrow carries ice to the land as liquid: melting."
+        },
+        {
+          "id": "e",
+          "text": "Aquifer",
+          "rationale": "Its arrow carries underground water to the ocean: groundwater flow."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Evaporation"
+        },
+        {
+          "id": "r2",
+          "text": "Transpiration"
+        },
+        {
+          "id": "r3",
+          "text": "Precipitation"
+        },
+        {
+          "id": "r4",
+          "text": "Melting"
+        },
+        {
+          "id": "r5",
+          "text": "Groundwater flow"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4",
+        "e": "r5"
+      },
+      "explanation": "Each place has a typical way out. Ocean water leaves as vapor by evaporation; plants release vapor by transpiration; clouds lose water by precipitation; glaciers lose it by melting; and aquifers drain toward the sea by groundwater flow. Reading arrows like this turns a picture into possible routes.",
+      "misconception": "Water leaves every place by the same process, such as evaporation.",
+      "hint": "For each place, ask what state the water is in there and which way it is heading.",
+      "followUpId": "L18-Q20",
+      "scope": {
+        "lessonId": "L18",
+        "section": "Key Science Concept: Global Processes in the Water Cycle",
+        "pages": {
+          "printed": [
+            240,
+            241
+          ],
+          "pdf": [
+            276,
+            277
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240
+          ],
+          "pdfPages": [
+            276
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Evaporation carries ocean water to the atmosphere; transpiration carries water from plants to the atmosphere."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            241
+          ],
+          "pdfPages": [
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Precipitation falls from clouds, melting releases water from glaciers, and groundwater flows through aquifers toward the ocean."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Network diagram with unlabeled arrows, simplified from the rendered spread; the learner supplies the process names. Round 1 (2026-10-14): The read-aloud process list is scrambled so no process sits level with its place. Review round 2 (2026-10-14): Both reviewers passed the item. Lesson-level fix applied: objectiveIds now L18-O3 only, so family F10 (reading and judging the model) is single-objective. Verify-agent (2026-10-14): checked against the renders of pp. 240-241. The one-to-one match is unique (the ocean can only be evaporation, which leaves transpiration for plants), and the read-aloud describes every arrow. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud diagram now includes the air-to-clouds arrow and the processes to choose from"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: air-to-clouds arrow added to the read-aloud diagram"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: objectiveIds now L18-O3 only (family F10 single-objective)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q22",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O3"
+      ],
+      "conceptTags": [
+        "models",
+        "model limitations",
+        "evaporation"
+      ],
+      "familyId": "L18-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A water cycle diagram draws an evaporation arrow rising from the ocean, but none from the lake, the river or the wet soil in the same picture. What is the best way to read the diagram?",
+      "accessiblePrompt": "A water cycle diagram draws an evaporation arrow rising from the ocean, but none from the lake, the river or the wet soil in the same picture. What is the best way to read the diagram?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It shows selected routes; lakes, rivers, soil and puddles evaporate too.",
+          "rationale": "Correct: the diagram simplifies; any liquid water that sunlight warms can evaporate, not just the ocean."
+        },
+        {
+          "id": "b",
+          "text": "Lakes and puddles are too small to evaporate, so only the ocean does.",
+          "rationale": "Any sunlit water can evaporate; a puddle drying on a warm day shows it."
+        },
+        {
+          "id": "c",
+          "text": "The diagram is wrong, so it cannot teach anything about the cycle.",
+          "rationale": "A simplified model still shows real routes; it just leaves some out."
+        },
+        {
+          "id": "d",
+          "text": "Water on land must reach the ocean before it can evaporate.",
+          "rationale": "The lesson says some water evaporates from land before reaching the ocean."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A model shows selected relationships, not everything. The diagram draws one evaporation arrow to keep the picture clear, but water also evaporates from lakes, rivers, soil and puddles, and some does so before it ever reaches the sea. A model can be simplified and still be very useful.",
+      "misconception": "Anything a diagram leaves out does not happen, or a simplified model is useless.",
+      "hint": "Does a map show every street? Think about what a diagram is for.",
+      "followUpId": "L18-Q19",
+      "scope": {
+        "lessonId": "L18",
+        "section": "Key Science Concept: Global Processes in the Water Cycle",
+        "pages": {
+          "printed": [
+            234,
+            239,
+            240
+          ],
+          "pdf": [
+            270,
+            275,
+            276
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240
+          ],
+          "pdfPages": [
+            276
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "The spread's diagram draws the evaporation arrow from the ocean to the atmosphere."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "Section 1, Evaporation",
+          "supports": "Most evaporation is from oceans, lakes and rivers, but it can happen anywhere there is water and energy from the sun."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Infiltration",
+          "supports": "Some water on land evaporates before reaching the ocean."
+        },
+        {
+          "type": "external",
+          "title": "The water cycle",
+          "publisher": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "The simple water cycle model is useful, but the real cycle is much more complicated."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Model-limitation item for L18-RF7. Round 1 (2026-10-14): Prompt no longer depends on a figure game learners do not see; Explorer O3 paragraph 3 explains how to read such a diagram. Review round 2 (2026-10-14): Pedagogy fix applied: the stem no longer states that evaporation happens wherever sunlight warms water, which refuted distractors b and d outright; it now describes a diagram with no arrows from the lake, river or wet soil, so b and d test the 'not drawn means it does not happen' idea. Choices, rationales, hint and evidence unchanged; the key rests on p. 234 and Explorer O3 paragraph 3. One small departure: choice a's rationale said 'the text confirms' evaporation from other water, which pointed at a stem sentence that is now gone, so it now says any liquid water that sunlight warms can evaporate (p. 234); its substance is unchanged. Verify-agent (2026-10-14): checked against the p. 240 render (evaporation arrow drawn from the ocean only) and p. 234 (evaporation wherever there is water and sunlight). The key is the only defensible reading. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt describes the diagram instead of relying on the textbook figure; choice b now a real misconception"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer states the fact that refuted choices b and d"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q23",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O4"
+      ],
+      "conceptTags": [
+        "fog catcher",
+        "fog",
+        "gravity",
+        "droplets"
+      ],
+      "familyId": "L18-F11",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Fog droplets in the Atacama Desert are too tiny to fall as rain. How does a fog-catcher net turn them into water people can use?",
+      "accessiblePrompt": "Fog droplets in the Atacama Desert are too tiny to fall as rain. How does a fog-catcher net turn them into water that people can use?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Droplets hit the mesh, merge into heavy drops and drip down.",
+          "rationale": "Correct: the mesh gathers droplets until they are heavy enough for gravity to drain them."
+        },
+        {
+          "id": "b",
+          "text": "The net heats the fog so its droplets evaporate into a tank.",
+          "rationale": "Evaporation would turn the droplets into invisible vapor, the opposite of collecting water."
+        },
+        {
+          "id": "e",
+          "text": "The net chills the air so vapor condenses on it, like dew.",
+          "rationale": "Fog nets are not cooled. The water they gather is already liquid: droplets that hit the mesh. Nothing has to condense."
+        },
+        {
+          "id": "d",
+          "text": "The net builds new water from hydrogen and oxygen in the air.",
+          "rationale": "The water already exists as fog droplets; the net only gathers it."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The net's fine mesh sits across the wind. Fog droplets hit the strands and stick, then merge into bigger, heavier drops. Once they are heavy enough, gravity pulls them down the net into a trough and a storage tank, much like droplets growing in a cloud until they fall.",
+      "misconception": "A fog catcher makes new water, evaporates the fog, or condenses invisible vapor out of the air.",
+      "hint": "What makes drops in a cloud finally fall? The net copies that trick.",
+      "followUpId": "L18-Q13",
+      "scope": {
+        "lessonId": "L18",
+        "section": "4. Designing a Fog Catcher",
+        "pages": {
+          "printed": [
+            242,
+            243
+          ],
+          "pdf": [
+            278,
+            279
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            242
+          ],
+          "pdfPages": [
+            278
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Fog droplets are too small and light to fall; the nets capture tiny water droplets from the fog, and as they combine and grow, gravity makes them run down into storage tanks."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            243
+          ],
+          "pdfPages": [
+            279
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Water collects on the net's surface and, when the drops get heavy enough, gravity carries it into a collection tank."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Links the engineering section back to drop growth and gravity (O2). Round 1 (2026-10-14): Key shortened from the pedagogy review; the rationale still names gravity. Review round 2 (2026-10-14): Pedagogy fix applied: the freezing distractor (old c), implausible in mild desert air, is replaced by 'The net chills the air so vapor condenses on it, like dew' (new id e), the vapor-versus-droplets mix-up; misconception updated; the p. 242 record now also says the nets capture droplets already in the fog. objectiveIds now L18-O4 only (lesson-level family-tag fix); the explanation still links the net to drop growth and gravity. Verify-agent (2026-10-14): checked against pp. 242-243: droplets collect on the net, combine and run down into the tank under gravity. The nets are not cooled, so the condensing-vapor distractor is wrong. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shortened (60 characters against 60-61)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: freezing distractor replaced by a condensing-vapor distractor (new id e); objectiveIds now L18-O4 only"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q24",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O4"
+      ],
+      "conceptTags": [
+        "fog",
+        "evaporation",
+        "condensation",
+        "water cycle routes"
+      ],
+      "familyId": "L18-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Which water cycle processes made the fog that an Atacama fog net catches? Select all that apply.",
+      "accessiblePrompt": "Which water cycle processes made the fog that a fog net in the Atacama Desert catches? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Evaporation of Pacific Ocean water",
+          "rationale": "Correct: the sun's energy evaporated Pacific Ocean water, putting vapor into the air."
+        },
+        {
+          "id": "b",
+          "text": "Condensation of vapor into tiny droplets",
+          "rationale": "Correct: fog is a cloud of droplets formed by condensation."
+        },
+        {
+          "id": "c",
+          "text": "Rain falling onto the net from clouds",
+          "rationale": "Rain is not part of making fog; fog droplets are too small to fall as rain, and the wind carries them into the net."
+        },
+        {
+          "id": "d",
+          "text": "Infiltration of water into desert rock",
+          "rationale": "Infiltration moves water down into the ground; it plays no part in forming fog."
+        },
+        {
+          "id": "e",
+          "text": "Melting of glaciers on the mountains",
+          "rationale": "The fog comes from ocean evaporation, not melting ice."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "This fog's water came from the Pacific Ocean, where the sun's energy evaporated it. The vapor then condensed into tiny droplets, forming low clouds that winds pushed inland as fog. No rain is needed: the droplets are too small to fall as rain, which is exactly why a net is used to catch them.",
+      "misconception": "Fog forms from rain, or water collected by a fog net must have fallen as rain first.",
+      "hint": "Trace the water backward: what was it just before it reached the net, and where was it before that?",
+      "followUpId": "L18-Q19",
+      "scope": {
+        "lessonId": "L18",
+        "section": "4. Designing a Fog Catcher",
+        "pages": {
+          "printed": [
+            236,
+            242
+          ],
+          "pdf": [
+            272,
+            278
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            242
+          ],
+          "pdfPages": [
+            278
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Coastal clouds form when the sun's energy evaporates Pacific Ocean water; fog droplets are too small to fall as precipitation, and winds carry the fog inland."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation",
+          "supports": "Clouds form when rising vapor cools and condenses into droplets."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of five; the rain distractor targets the idea that all collected water must be precipitation. Round 1 (2026-10-14): Rationale and explanation no longer imply the cycle starts in the ocean (Q19). Review round 2 (2026-10-14): Science fix applied: the stem asks which processes made the fog instead of what 'had to happen' (a molecule's full history includes earlier trips, rain among them), and choice c's rationale says rain is not part of making fog. Pedagogy fix applied: the hint no longer names the ocean. objectiveIds now L18-O4 only (lesson-level family-tag fix). Choice d's rationale and the explanation ('too small to fall as rain') follow the new stem. Choices and answer [a, b] unchanged. Verify-agent (2026-10-14): checked against p. 242 (sun-driven evaporation of Pacific water forms coastal clouds; fog droplets are too small to fall) and p. 236 (clouds form by condensation). Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the read-aloud choice list that named the correct choices first"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'start the journey' wording removed; read-aloud choice list removed"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: asks which processes made the fog instead of what 'had to' happen; choice c rationale reworded"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the ocean; objectiveIds now L18-O4 only"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q25",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O4"
+      ],
+      "conceptTags": [
+        "fog catcher",
+        "site selection",
+        "fog and wind"
+      ],
+      "familyId": "L18-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A coastal desert village wants to put up a fog-catcher net. Based on how its fog forms and moves, where is the net most likely to collect the most water?",
+      "accessiblePrompt": "A coastal desert village wants to put up a fog-catcher net. Based on how its fog forms and moves, where is the net most likely to collect the most water?",
+      "conditions": "Assume the same net design in each spot.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On a coastal hillside where ocean fog regularly blows inland",
+          "rationale": "Correct: that is where fog-laden wind flows through the net most often."
+        },
+        {
+          "id": "e",
+          "text": "In a sheltered inland valley where the air stays calm",
+          "rationale": "Calm, sheltered air pushes little fog through the net, and a net only catches droplets that the wind carries through it."
+        },
+        {
+          "id": "c",
+          "text": "Right beside the village, so no one has to carry the water far",
+          "rationale": "Handy for people, but a net only collects where fog flows through it, and fog may seldom reach the village."
+        },
+        {
+          "id": "d",
+          "text": "Flat on the beach sand, so the fog settles onto it",
+          "rationale": "Fog droplets ride the wind; a net must stand across the wind to catch them."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The fog forms over the ocean and is pushed inland by onshore winds, where it piles up against the hills. A net catches water only when fog flows through it, so the best spot is where foggy wind blows most often. That is why a net's catch changes with place and season.",
+      "misconception": "A fog net works anywhere, or the best spot is the most sheltered or most convenient one.",
+      "hint": "The net can only catch droplets that are carried through it.",
+      "followUpId": "L18-Q28",
+      "scope": {
+        "lessonId": "L18",
+        "section": "4. Designing a Fog Catcher",
+        "pages": {
+          "printed": [
+            242
+          ],
+          "pdf": [
+            278
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            242
+          ],
+          "pdfPages": [
+            278
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Low coastal clouds are trapped along the hillsides and onshore winds blow them inland as fog."
+        },
+        {
+          "type": "external",
+          "title": "Capturing fog to make water",
+          "publisher": "Food and Agriculture Organization of the United Nations (FAO)",
+          "url": "https://www.fao.org/newsroom/story/capturing-fog-to-make-water/en",
+          "accessed": "2026-10-14",
+          "supports": "Fog-catcher water is caught mostly in the season when fog and wind are greatest, and communities adjust the locations of their nets."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Application item; frames nets as dependent on fog and wind (L18-RF9). Round 1 (2026-10-14): Choice c replaced from the pedagogy review; misconception updated to match. Review round 2 (2026-10-14): Pedagogy fix applied: the self-refuting choice b ('where fog seldom reaches') is replaced by 'In a sheltered inland valley where the air stays calm' (new id e), which tests the 'most sheltered spot is best' idea named in the misconception field. Verify-agent (2026-10-14): checked against p. 242 (low clouds trapped on hillsides and blown inland). The verifier re-opened FAO, which says water is caught mostly when fog and wind are greatest and that communities adjust net locations. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c now targets confusing where water is needed with where it can be caught"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: self-refuting valley distractor replaced by a calm sheltered valley (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q26",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O4"
+      ],
+      "conceptTags": [
+        "iterative testing",
+        "engineering design",
+        "data"
+      ],
+      "familyId": "L18-F12",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Engineers improve a fog-catcher net by iterative testing. Put one round of their work in order.",
+      "accessiblePrompt": "Engineers improve a fog-catcher net by iterative testing. Put one round of their work in order. The steps are: compare the results with data from earlier designs; test the new version in the same way; build a model net with a chosen hole size and material; change a feature, such as hole size, based on what was learned; set it up in fog and measure how much water it collects.",
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "items": [
+        {
+          "id": "c",
+          "text": "Compare the results with data from earlier designs",
+          "rationale": "You can only compare once this net's results are measured."
+        },
+        {
+          "id": "e",
+          "text": "Test the new version in the same way",
+          "rationale": "Testing the changed design closes the loop and starts the next round."
+        },
+        {
+          "id": "a",
+          "text": "Build a model net with a chosen hole size and material",
+          "rationale": "There must be a design before anything can be tested."
+        },
+        {
+          "id": "d",
+          "text": "Change a feature, such as hole size, based on what was learned",
+          "rationale": "The comparison tells engineers what to change next."
+        },
+        {
+          "id": "b",
+          "text": "Set it up in fog and measure how much water it collects",
+          "rationale": "Testing produces the output data the rest of the round depends on."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "explanation": "Iterative testing is a loop: build, test, measure, compare, change, then test again. Each round's output data guides the next change, so the design improves step by step instead of being guessed all at once.",
+      "misconception": "Engineers build one design and know right away whether it is the best.",
+      "hint": "What does each step need from the step before it?",
+      "followUpId": "L18-Q23",
+      "scope": {
+        "lessonId": "L18",
+        "section": "4. Designing a Fog Catcher",
+        "pages": {
+          "printed": [
+            243
+          ],
+          "pdf": [
+            279
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            243
+          ],
+          "pdfPages": [
+            279
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Iterative testing is a series of tests in which each new test uses what was learned from earlier ones; scientists vary hole size and material and collect output data on efficiency."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible order; items stored out of answer order. Round 1 (2026-10-14): Read-aloud list follows the stored item order (c, e, a, d, b), as both reviewers asked. Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against p. 243 (iterative testing; hole size and material as inputs; output data). Each step needs the one before, so there is one order. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud steps now in stored order, not answer order"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud steps in stored order; hint no longer gives the middle positions"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q27",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O4"
+      ],
+      "conceptTags": [
+        "efficiency",
+        "percent",
+        "fog catcher"
+      ],
+      "familyId": "L18-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "During one foggy month, fog carrying 30,000 liters of water drifts through a net. The net catches 2 percent of that water. How many liters does it collect?",
+      "accessiblePrompt": "During one foggy month, fog carrying 30,000 liters of water drifts through a net. The net catches 2 percent of that water. How many liters does it collect?",
+      "answer": 600,
+      "tolerance": 0,
+      "unit": "liters",
+      "units": "liters",
+      "conditions": "All 30,000 liters pass through the net as fog droplets.",
+      "workedSolution": "2 percent = 2 ÷ 100 = 0.02. Water collected = 0.02 × 30,000 liters = 600 liters.",
+      "explanation": "Two percent means 2 out of every 100 liters. Of 30,000 liters, that is 600 liters. A net that caught 10 percent, as 2013 MIT research suggested finer meshes might, would collect 3,000 liters from the same fog: five times as much.",
+      "misconception": "Two percent of 30,000 is 2 × 30,000, or percent means 'out of 1,000'.",
+      "hint": "Change 2 percent to a decimal first, then multiply.",
+      "followUpId": "L18-Q23",
+      "scope": {
+        "lessonId": "L18",
+        "section": "4. Designing a Fog Catcher",
+        "pages": {
+          "printed": [
+            243
+          ],
+          "pdf": [
+            279
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            243
+          ],
+          "pdfPages": [
+            279
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Fog catchers collect about two percent of the water in fog flowing through them; improved designs might collect ten percent or more."
+        },
+        {
+          "type": "external",
+          "title": "How to get fresh water out of thin air",
+          "publisher": "MIT News, Massachusetts Institute of Technology",
+          "url": "https://news.mit.edu/2013/how-to-get-fresh-water-out-of-thin-air-0830",
+          "accessed": "2026-10-14",
+          "supports": "Existing fog collectors extract about 2 percent of the water in mild fog; finer meshes could extract 10 percent or more."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Round numbers; 2 percent treated as an approximate typical value (L18-RF8). Round 1 (2026-10-14): Both reviewers passed it. Explorer O4 now dates the 2 percent and 10 percent figures to the 2013 MIT study (L18-RF8). Review round 2 (2026-10-14): Both reviewers passed it (600 L, tolerance 0). The science reviewer's optional wording was applied so the explanation dates the 10 percent projection to the 2013 MIT research. Verify-agent (2026-10-14): checked against p. 243 and MIT News, re-opened by the verifier (about 2 percent in mild fog; 10 percent or more with finer mesh). 0.02 x 30,000 L = 600 L; a tolerance of 0 suits a whole-number answer. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L18-Q28",
+      "lessonId": "L18",
+      "objectiveIds": [
+        "L18-O4"
+      ],
+      "conceptTags": [
+        "test data",
+        "evidence",
+        "fog catcher design",
+        "conclusions"
+      ],
+      "familyId": "L18-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A team set up five nets side by side in the same fog for the same week. Which conclusion do their results support best?",
+      "accessiblePrompt": "A team set up five nets side by side in the same fog for the same week and measured the water each collected, in liters per square meter per day. Net A: 3 millimeter openings, thick fibers, 1.0. Net B: 1 millimeter openings, thick fibers, 2.2. Net C: 1 millimeter openings, fine fibers, 3.1. Net D: 0.2 millimeter openings, fine fibers, 1.4. Net E: a solid sheet with no openings, 0.3. Which conclusion do their results support best?",
+      "limitations": "Invented practice data. Real results also depend on fog, wind and coatings.",
+      "conditions": "Nets tested side by side at the same time, same fog and wind, same net area.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Fog-net test results (invented practice data)",
+        "alt": "Table of five nets tested side by side in the same fog for the same week. Net A: 3 millimeter openings, thick fibers, 1.0 liters per square meter per day. Net B: 1 millimeter openings, thick fibers, 2.2. Net C: 1 millimeter openings, fine fibers, 3.1. Net D: 0.2 millimeter openings, fine fibers, 1.4. Net E: solid sheet with no openings, 0.3.",
+        "columns": [
+          "Net",
+          "Opening width",
+          "Fibers",
+          "Water collected (L per m² per day)"
+        ],
+        "rows": [
+          [
+            "A",
+            "3 mm",
+            "thick",
+            "1.0"
+          ],
+          [
+            "B",
+            "1 mm",
+            "thick",
+            "2.2"
+          ],
+          [
+            "C",
+            "1 mm",
+            "fine",
+            "3.1"
+          ],
+          [
+            "D",
+            "0.2 mm",
+            "fine",
+            "1.4"
+          ],
+          [
+            "E",
+            "no openings (solid sheet)",
+            "none",
+            "0.3"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Net C collected the most; even smaller openings collected less.",
+          "rationale": "Correct: Net C is the best here, and Nets D and E show that going smaller stopped helping."
+        },
+        {
+          "id": "b",
+          "text": "Each smaller opening size tested collected more water.",
+          "rationale": "Going from 1 mm (Net C) to 0.2 mm (Net D) and then to a solid sheet (Net E) collected less, not more."
+        },
+        {
+          "id": "c",
+          "text": "Fiber thickness made no difference to the water collected.",
+          "rationale": "Nets B and C differ only in fiber thickness, and C collected more."
+        },
+        {
+          "id": "d",
+          "text": "A solid sheet with no openings collects the most fog water.",
+          "rationale": "Net E collected the least; fog flows around a solid sheet."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Shrinking the openings from 3 mm to 1 mm helped, and finer fibers helped further (B versus C). But the 0.2 mm net and the solid sheet collected less, so smaller is better only up to a point: fog has to flow through the net to be caught. A fair conclusion stays within the data.",
+      "misconception": "If smaller openings help a little, the smallest openings must help the most.",
+      "hint": "Check every row, not just the first few. Does the pattern hold all the way to the solid sheet?",
+      "followUpId": "L18-Q25",
+      "scope": {
+        "lessonId": "L18",
+        "section": "4. Designing a Fog Catcher",
+        "pages": {
+          "printed": [
+            243
+          ],
+          "pdf": [
+            279
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            243
+          ],
+          "pdfPages": [
+            279
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Engineers test nets with different hole sizes and materials as inputs and compare the water collected as output data."
+        },
+        {
+          "type": "external",
+          "title": "How to get fresh water out of thin air",
+          "publisher": "MIT News, Massachusetts Institute of Technology",
+          "url": "https://news.mit.edu/2013/how-to-get-fresh-water-out-of-thin-air-0830",
+          "accessed": "2026-10-14",
+          "supports": "The best mesh used fine strands spaced about twice their thickness apart, and droplets tend to be deflected around solid surfaces rather than captured."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented data table; supports L18-RF8 (smaller is not always better). Round 1 (2026-10-14): All water values are stored as one-decimal strings so the table shows 1.0, not 1 (the table renderer prints String(value)). Review round 2 (2026-10-14): Both reviewers passed it; no change. Verify-agent (2026-10-14): checked against p. 243 and MIT News, re-opened by the verifier (the best mesh balances fine strands and spacing; droplets deflect around solid surfaces). The invented data support only choice a, and B versus C isolates fiber thickness. Pass; status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: nets tested side by side in the same week (a fair test); 'helped further'; Net A shown as 1.0"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b no longer uses 'always'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

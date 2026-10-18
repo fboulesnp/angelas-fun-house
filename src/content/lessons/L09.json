@@ -1,0 +1,1664 @@
+{
+  "lessonId": "L09",
+  "guidingQuestion": "How can scientists piece together what happened over Earth's 4.6-billion-year history?",
+  "hook": "A slab of rock packed with feathery sea-lily fossils once lay on the floor of a shallow sea; later, in one catastrophe, most creatures like them vanished from the planet: what happened, and how could anyone possibly know?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          104,
+          105
+        ],
+        "pdf": [
+          140,
+          141
+        ]
+      }
+    },
+    {
+      "title": "1. Organizing Geologic Time",
+      "pages": {
+        "printed": [
+          106,
+          107
+        ],
+        "pdf": [
+          142,
+          143
+        ]
+      }
+    },
+    {
+      "title": "2. The Origins of Earth and the Moon",
+      "pages": {
+        "printed": [
+          108,
+          109
+        ],
+        "pdf": [
+          144,
+          145
+        ]
+      }
+    },
+    {
+      "title": "3. The Origins of the Atmosphere, Oceans, and Life",
+      "pages": {
+        "printed": [
+          110,
+          111
+        ],
+        "pdf": [
+          146,
+          147
+        ]
+      }
+    },
+    {
+      "title": "4. Pangaea and the Age of the Dinosaurs",
+      "pages": {
+        "printed": [
+          112,
+          113
+        ],
+        "pdf": [
+          148,
+          149
+        ]
+      }
+    },
+    {
+      "title": "5. Moving Continents and the Rise of Mammals",
+      "pages": {
+        "printed": [
+          114,
+          115
+        ],
+        "pdf": [
+          150,
+          151
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Organizing Time on the Geologic Scale",
+      "pages": {
+        "printed": [
+          116,
+          117
+        ],
+        "pdf": [
+          152,
+          153
+        ]
+      }
+    },
+    {
+      "title": "6. The Current Ice Age",
+      "pages": {
+        "printed": [
+          118,
+          119
+        ],
+        "pdf": [
+          154,
+          155
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          119
+        ],
+        "pdf": [
+          155
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L09-O1",
+      "text": "Read the geologic time scale: name its nested units (eon, era, period, epoch), decode the labels Ga, Ma and ka, and recognize when a timeline is not drawn to scale.",
+      "kind": "observe",
+      "sections": [
+        "1. Organizing Geologic Time",
+        "Key Science Concept: Organizing Time on the Geologic Scale"
+      ],
+      "pages": {
+        "printed": [
+          106,
+          107,
+          116,
+          117
+        ],
+        "pdf": [
+          142,
+          143,
+          152,
+          153
+        ]
+      }
+    },
+    {
+      "id": "L09-O2",
+      "text": "Explain how the solar system, Earth's layers, the moon, the atmosphere, the oceans and early life came to be, linking each step to the evidence behind it.",
+      "kind": "relate",
+      "sections": [
+        "2. The Origins of Earth and the Moon",
+        "3. The Origins of the Atmosphere, Oceans, and Life"
+      ],
+      "pages": {
+        "printed": [
+          108,
+          109,
+          110,
+          111
+        ],
+        "pdf": [
+          144,
+          145,
+          146,
+          147
+        ]
+      }
+    },
+    {
+      "id": "L09-O3",
+      "text": "Explain how mass extinctions, moving continents and ice ages reshaped life and land, and why big changes in the fossil record are used as boundaries on the time scale.",
+      "kind": "relate",
+      "sections": [
+        "1. Organizing Geologic Time",
+        "4. Pangaea and the Age of the Dinosaurs",
+        "5. Moving Continents and the Rise of Mammals",
+        "6. The Current Ice Age"
+      ],
+      "pages": {
+        "printed": [
+          106,
+          112,
+          113,
+          114,
+          115,
+          118,
+          119
+        ],
+        "pdf": [
+          142,
+          148,
+          149,
+          150,
+          151,
+          154,
+          155
+        ]
+      }
+    },
+    {
+      "id": "L09-O4",
+      "text": "Use rock sequences, fossils and dated rocks to put events in order, combine records from different places, and tell evidence apart from the explanations built on it.",
+      "kind": "apply",
+      "sections": [
+        "Introduction",
+        "1. Organizing Geologic Time",
+        "2. The Origins of Earth and the Moon",
+        "4. Pangaea and the Age of the Dinosaurs",
+        "Key Science Concept: Organizing Time on the Geologic Scale"
+      ],
+      "pages": {
+        "printed": [
+          105,
+          106,
+          108,
+          109,
+          110,
+          112,
+          113,
+          116,
+          117
+        ],
+        "pdf": [
+          141,
+          142,
+          144,
+          145,
+          146,
+          148,
+          149,
+          152,
+          153
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Rock layers and the fossils inside them are a record of the past: each layer captures the organisms, environment and events of the time it formed.",
+    "No single place holds the whole record. Matching a shared layer across canyons lets geologists join short sequences into one longer history.",
+    "The geologic time scale nests its units: eons hold eras, eras hold periods, periods hold epochs. Ga, Ma and ka stand for billions, millions and thousands of years.",
+    "Boundaries on the time scale sit at big changes in rocks and fossils, such as mass extinctions, so the units have uneven lengths.",
+    "Most charts are not to scale. The Phanerozoic Eon is only about one-eighth of Earth's history, yet its rich fossil record gets it most of the space on typical time-scale charts.",
+    "Meteorites date the solar system to about 4.6 billion years. Young Earth melted, iron sank to form the core, and a giant impact most likely made the moon.",
+    "Volcanic gases built an early atmosphere with almost no free oxygen. Oxygen from cyanobacteria first reacted with iron in seawater before slowly building up in the air.",
+    "Mass extinctions, drifting continents and ice ages reshaped life and land, and survivors evolved to fill the roles left open, as mammals did after the non-bird dinosaurs."
+  ],
+  "glossary": [
+    {
+      "term": "geologic time scale",
+      "definition": "A model that splits Earth's whole history into named units of time, from the longest (eons) to the shortest (epochs), built from evidence in rock layers and fossils.",
+      "pages": {
+        "printed": [
+          105,
+          107,
+          116
+        ],
+        "pdf": [
+          141,
+          143,
+          152
+        ]
+      }
+    },
+    {
+      "term": "eon, era, period and epoch",
+      "definition": "The nested units of the geologic time scale, from longest to shortest: eons hold eras, eras hold periods, and periods hold epochs. Today falls in the Phanerozoic Eon, the Cenozoic Era, the Quaternary Period and the Holocene Epoch. Periods differ in length because their boundaries follow big changes in the rocks and fossils.",
+      "pages": {
+        "printed": [
+          107,
+          116,
+          117
+        ],
+        "pdf": [
+          143,
+          152,
+          153
+        ]
+      }
+    },
+    {
+      "term": "Ga, Ma and ka",
+      "definition": "Short labels for spans of time: Ga is a billion years, Ma a million years and ka a thousand years. On a timeline, a label like 66 Ma usually means that long ago.",
+      "pages": {
+        "printed": [
+          107,
+          117
+        ],
+        "pdf": [
+          143,
+          153
+        ]
+      }
+    },
+    {
+      "term": "principle of lateral continuity",
+      "definition": "The idea that a sediment layer forms as a broad sheet that keeps going sideways until it thins out or meets a barrier, so pieces exposed in separate canyons can belong to one layer.",
+      "pages": {
+        "printed": [
+          106
+        ],
+        "pdf": [
+          142
+        ]
+      }
+    },
+    {
+      "term": "relative and absolute dating",
+      "definition": "Two ways of telling time with rocks. Relative dating puts layers and fossils in order, older or younger, without giving ages in years. Absolute dating measures an age in years from certain materials, such as meteorites, moon rocks and some volcanic rocks.",
+      "pages": {
+        "printed": [
+          105,
+          108,
+          109
+        ],
+        "pdf": [
+          141,
+          144,
+          145
+        ]
+      }
+    },
+    {
+      "term": "mass extinction",
+      "definition": "The dying out of a large share of Earth's species within a short stretch of geologic time.",
+      "pages": {
+        "printed": [
+          105,
+          106
+        ],
+        "pdf": [
+          141,
+          142
+        ]
+      }
+    },
+    {
+      "term": "nebular hypothesis",
+      "definition": "The leading explanation for how the solar system formed: a spinning cloud of gas and dust contracted, most of it gathered at the center as the sun, and dust in the surrounding disk clumped into bigger and bigger pieces that became planets. Leftover pieces remain as asteroids.",
+      "pages": {
+        "printed": [
+          108
+        ],
+        "pdf": [
+          144
+        ]
+      }
+    },
+    {
+      "term": "giant impact hypothesis",
+      "definition": "The leading explanation for the moon: a body about the size of Mars struck young Earth, and debris from both bodies, much of it like Earth's mantle rock, went into orbit and gathered to form the moon.",
+      "pages": {
+        "printed": [
+          109
+        ],
+        "pdf": [
+          145
+        ]
+      }
+    },
+    {
+      "term": "stromatolite",
+      "definition": "A layered mound of rock built up by mats of microbes, including cyanobacteria. Stromatolite fossils are among the oldest signs of life on Earth.",
+      "pages": {
+        "printed": [
+          110
+        ],
+        "pdf": [
+          146
+        ]
+      }
+    },
+    {
+      "term": "banded iron formation",
+      "definition": "Ancient seafloor rock made of thin, alternating layers that are rich or poor in iron. Many formed when oxygen released by cyanobacteria reacted with iron dissolved in seawater, so the iron settled out as rusty minerals.",
+      "pages": {
+        "printed": [
+          111,
+          116
+        ],
+        "pdf": [
+          147,
+          152
+        ]
+      }
+    },
+    {
+      "term": "Cambrian Explosion",
+      "definition": "A burst of evolution beginning roughly 540 million years ago, when early relatives of most major animal groups appear in the fossil record within a geologically short time.",
+      "pages": {
+        "printed": [
+          111
+        ],
+        "pdf": [
+          147
+        ]
+      }
+    },
+    {
+      "term": "ice age",
+      "definition": "A long stretch of cooler global climate with lasting ice at the poles. Earth is in one right now.",
+      "pages": {
+        "printed": [
+          118
+        ],
+        "pdf": [
+          154
+        ]
+      }
+    },
+    {
+      "term": "glacial period",
+      "definition": "A colder stretch within an ice age, when large ice sheets grow outward from the poles toward the equator.",
+      "pages": {
+        "printed": [
+          105,
+          118
+        ],
+        "pdf": [
+          141,
+          154
+        ]
+      }
+    },
+    {
+      "term": "interglacial period",
+      "definition": "A warmer stretch within an ice age, when ice sheets melt back toward the poles. We are living in one today.",
+      "pages": {
+        "printed": [
+          105,
+          118
+        ],
+        "pdf": [
+          141,
+          154
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L09-O1",
+      "title": "Reading Earth's Deep-Time Calendar",
+      "paragraphs": [
+        "Your life fits on a calendar of days, months and years. Earth's 4.6-billion-year history needs much bigger boxes, so geologists nest them: eons hold eras, eras hold periods, and periods hold epochs. Today sits in the Holocene Epoch, inside the Quaternary Period, the Cenozoic Era and the Phanerozoic Eon.",
+        "Labels save space. Ga means billions of years, Ma means millions and ka means thousands, all from annum, the Latin word for year. A dot marked 66 Ma sits 66 million years before today.",
+        "The boxes are not equal. Geologists draw a boundary where the rock and fossil record shows a big change, such as many kinds of fossils vanishing together in a mass extinction. Those changes came at irregular times, so periods and epochs have uneven lengths.",
+        "Most charts are not to scale. The Phanerozoic Eon, the last 541 million years or so, gets most of the page because its rocks are well preserved, widely exposed and full of fossils, so it has been split into many units. Drawn to scale, it is only about one-eighth of Earth's history; the Precambrian eons before it fill nearly nine-tenths."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Earth's four eons drawn to scale (rounded lengths)",
+        "alt": "Bar graph of how long each eon lasted, in millions of years: Hadean about 600, Archean about 1,500, Proterozoic about 1,959, Phanerozoic about 541. The Phanerozoic bar is the shortest of the four, even though it is the eon we live in and the one most charts give the most space to.",
+        "yLabel": "Length of eon (millions of years)",
+        "bars": [
+          {
+            "label": "Hadean (4.6–4.0 Ga)",
+            "value": 600
+          },
+          {
+            "label": "Archean (4.0–2.5 Ga)",
+            "value": 1500
+          },
+          {
+            "label": "Proterozoic (2.5 Ga–541 Ma)",
+            "value": 1959
+          },
+          {
+            "label": "Phanerozoic (541 Ma–today)",
+            "value": 541
+          }
+        ]
+      },
+      "watchOut": "On a chart, size is not time: check the numbers before judging how long something lasted. Also, Ma can mean \"million years\" as a length or \"million years ago\" as a date, so read which one a label means.",
+      "pages": {
+        "printed": [
+          106,
+          107,
+          116,
+          117
+        ],
+        "pdf": [
+          142,
+          143,
+          152,
+          153
+        ]
+      }
+    },
+    {
+      "objectiveId": "L09-O2",
+      "title": "How Earth Got Its Core, Moon, Air and Oceans",
+      "paragraphs": [
+        "About 4.6 billion years ago a spinning cloud of gas and dust began to collapse. Gravity gathered bits into clumps and clumps into bigger clumps until the sun and planets formed. Leftover chunks became asteroids. Most meteorites are fallen pieces of asteroids, so the oldest of them can date the whole solar system. This model is called the nebular hypothesis.",
+        "Young Earth was largely molten. Dense iron and nickel sank toward the center while lighter materials rose, giving Earth a core and mantle by roughly 4.5 billion years ago. Soon after, a Mars-sized body most likely slammed into Earth, and debris flung into orbit, much of it like Earth's mantle rock, came together as the moon. Moon rocks that closely match Earth's mantle support this idea. As the surface cooled, the first crustal rocks formed, by about 4.4 billion years ago.",
+        "Volcanoes released gases, mostly water vapor and carbon dioxide. The early air, which also held nitrogen and some methane, had almost no free oxygen. As Earth cooled, water vapor condensed and rained down, filling low basins with the first oceans.",
+        "Microbes called cyanobacteria began releasing oxygen by photosynthesis. For a very long time that oxygen reacted with iron dissolved in seawater, leaving banded iron layers on the seafloor. Only after those supplies ran low did oxygen collect in the air, eventually reaching about 21 percent.",
+        "For billions of years, nearly all life was made of single cells. Starting roughly 540 million years ago, in the Cambrian Explosion, early relatives of most animal groups appear in the fossil record within a geologically short time. Rare sites such as the Burgess Shale in Canada even preserved soft-bodied animals, which usually rot away before they can become fossils."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "chain",
+        "caption": "How oxygen built up in Earth's air (arrows point from cause to effect)",
+        "alt": "A cause-and-effect chain with five steps, each arrow pointing to the next: cyanobacteria in the ocean release oxygen; the oxygen reacts with iron dissolved in seawater; iron-rich banded layers settle on the seafloor; once the dissolved iron runs low, oxygen builds up in the air; oxygen eventually makes up about 21 percent of the air, as it does today.",
+        "nodes": [
+          {
+            "id": "cyano",
+            "label": "Cyanobacteria release O₂",
+            "group": "life"
+          },
+          {
+            "id": "iron",
+            "label": "O₂ reacts with iron in seawater",
+            "group": "ocean"
+          },
+          {
+            "id": "bif",
+            "label": "Banded iron layers settle on the seafloor",
+            "group": "rock"
+          },
+          {
+            "id": "air",
+            "label": "O₂ builds up in the air",
+            "group": "air"
+          },
+          {
+            "id": "today",
+            "label": "About 21% O₂ today",
+            "group": "air"
+          }
+        ],
+        "edges": [
+          {
+            "from": "cyano",
+            "to": "iron"
+          },
+          {
+            "from": "iron",
+            "to": "bif"
+          },
+          {
+            "from": "bif",
+            "to": "air",
+            "label": "once iron runs low"
+          },
+          {
+            "from": "air",
+            "to": "today"
+          }
+        ]
+      },
+      "watchOut": "Cyanobacteria were the first organisms known to release oxygen by photosynthesis, but other microbes used sunlight earlier without releasing oxygen. Also, \"no oxygen\" in the early air means almost no free O₂ gas; oxygen atoms were still around, locked in water, carbon dioxide and rock.",
+      "pages": {
+        "printed": [
+          108,
+          109,
+          110,
+          111
+        ],
+        "pdf": [
+          144,
+          145,
+          146,
+          147
+        ]
+      }
+    },
+    {
+      "objectiveId": "L09-O3",
+      "title": "Extinctions, Drifting Continents and Ice",
+      "paragraphs": [
+        "Scientists usually count five big mass extinctions in roughly the last 450 million years. In rock layers each one shows up as many kinds of fossils disappearing at the same level. Geologists use most of them to mark the end of a period; the one about 372 million years ago falls inside the Devonian Period.",
+        "The worst struck about 252 million years ago, at the end of the Permian. Most species died out, especially in the oceans; trilobites vanished, along with most kinds of crinoids. The die-off lines up with huge, long-lasting eruptions in Siberia whose gases most likely warmed the climate fast. About 66 million years ago an asteroid hit near Chicxulub, Mexico; dust dimmed the sunlight, plants failed, and the non-bird dinosaurs died out.",
+        "Survivors evolved to fill the roles left empty. Dinosaurs rose after the Permian and Triassic extinctions. Mammals, mostly small while dinosaurs ruled, diversified after 66 million years ago into forms from bats to whales.",
+        "Moving plates kept rearranging the map. Pangaea came together and then, starting roughly 200 to 180 million years ago, split apart, separating populations that went on to evolve differently. India's collision with Eurasia raised the Himalayas, which are still rising. Moving continents can even change the climate: as seaways opened between Antarctica and its neighbors, ocean currents changed and carried less warmth to its coasts, and together with falling carbon dioxide in the air, which many scientists think mattered most, this helped an ice sheet form on Antarctica about 34 million years ago.",
+        "Today Earth is in an ice age. Antarctica has held an ice sheet for about 34 million years, and big northern ice sheets have grown and shrunk in cycles for about the last 2.6 million years; the present warm interglacial began about 11,700 years ago. Ice sheets that advanced earlier helped carve the Great Lakes basins. Interglacial warming is a natural swing that unfolds over many thousands of years; the warming measured today is happening far faster and is mainly caused by people."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "The five big mass extinctions on this lesson's time scale",
+        "alt": "Table of the five mass extinctions. About 444 million years ago, end of the Ordovician: cause not covered in this lesson. About 372 million years ago, late in the Devonian: cause not covered in this lesson. About 252 million years ago, end of the Permian: huge volcanic eruptions in Siberia and rapid warming. About 201 million years ago, end of the Triassic: volcanic gases and rapid warming. About 66 million years ago, end of the Cretaceous: asteroid impact at Chicxulub, Mexico.",
+        "columns": [
+          "About when",
+          "Where on the time scale",
+          "Main cause described in this lesson"
+        ],
+        "rows": [
+          [
+            "444 Ma",
+            "End of the Ordovician Period",
+            "Not covered in this lesson"
+          ],
+          [
+            "372 Ma",
+            "Late in the Devonian Period",
+            "Not covered in this lesson"
+          ],
+          [
+            "252 Ma",
+            "End of the Permian Period",
+            "Siberian eruptions and rapid warming"
+          ],
+          [
+            "201 Ma",
+            "End of the Triassic Period",
+            "Volcanic gases and rapid warming"
+          ],
+          [
+            "66 Ma",
+            "End of the Cretaceous Period",
+            "Asteroid impact at Chicxulub"
+          ]
+        ]
+      },
+      "watchOut": "Percentages of species lost differ between sources, and even between pages of the textbook (90 or 95 percent for the end-Permian), so treat them as estimates. And \"the dinosaurs died out\" really means the non-bird dinosaurs: birds are living dinosaurs.",
+      "pages": {
+        "printed": [
+          106,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "pdf": [
+          142,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      }
+    },
+    {
+      "objectiveId": "L09-O4",
+      "title": "Reading the Clues: Evidence and Explanations",
+      "paragraphs": [
+        "Rock layers are stacked records. In undisturbed layers the lower ones formed first. Fossils inside show what lived when each layer formed, and the rock itself hints at the setting, such as a shallow sea or a sandy desert.",
+        "No single place holds the whole story. Because a sediment layer spreads sideways as a broad sheet, the same layer can turn up in canyons far apart. Lining canyons up at a shared layer lets geologists stitch short records into a longer one, as they have done with canyons in Utah and Arizona.",
+        "Layers and fossils give the order of events, not ages in years. Absolute dating of materials such as meteorites, moon rocks and certain volcanic rocks, like an ash bed between sediment layers, supplies the numbers.",
+        "Keep observations and explanations apart. \"Moon rocks closely match Earth's mantle\" is an observation; \"a giant impact made the moon\" is an explanation built to fit it. Two events at the same time, like eruptions and an extinction, point to a suspect, not a proof, so scientists also look for a way one could cause the other.",
+        "Reading old rocks also rests on an assumption, not an observation: the same natural laws worked in the past as they do today. That is why sand settling into layers on a river bed now can explain how an ancient sandstone formed, even though past events may have been bigger or faster."
+      ],
+      "diagram": {
+        "kind": "layers",
+        "caption": "One canyon wall, read from the bottom up",
+        "alt": "Four undisturbed rock layers, listed from top (youngest) to bottom (oldest). Top: sandstone with fossil reptile footprints, from a sandy desert. Second: limestone with crinoid and brachiopod fossils, from a shallow sea. Third: shale with trilobite fossils, from a muddy sea floor. Bottom: ancient igneous basement rock with no fossils. Reading upward, the area changed from a muddy sea to a shallow sea to a desert.",
+        "layers": [
+          {
+            "id": "sand",
+            "label": "Desert sandstone",
+            "texture": "sandstone",
+            "fossils": [
+              "reptile footprints"
+            ]
+          },
+          {
+            "id": "lime",
+            "label": "Shallow-sea limestone",
+            "texture": "limestone",
+            "fossils": [
+              "crinoids",
+              "brachiopods"
+            ]
+          },
+          {
+            "id": "shale",
+            "label": "Muddy-sea shale",
+            "texture": "shale",
+            "fossils": [
+              "trilobites"
+            ]
+          },
+          {
+            "id": "base",
+            "label": "Ancient basement rock",
+            "texture": "igneous"
+          }
+        ]
+      },
+      "watchOut": "Reading bottom-to-top only works when layers have not been flipped, tilted or cut by faults. And a matching rock type alone does not prove two layers are the same; geologists also match fossils and position in the sequence.",
+      "pages": {
+        "printed": [
+          105,
+          106,
+          108,
+          109,
+          112,
+          113
+        ],
+        "pdf": [
+          141,
+          142,
+          144,
+          145,
+          148,
+          149
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L09-RF1",
+      "issue": "Section 3 (p. 111) says scientists have found \"over 60,000 different species\" of fossil organisms in the Burgess Shale. That number is far too high for species; it matches the scale of specimen counts. The Royal Ontario Museum reports about 200 species and a collection of over 150,000 specimens.",
+      "pages": {
+        "printed": [
+          111
+        ],
+        "pdf": [
+          147
+        ]
+      },
+      "resolution": "Content never states a Burgess Shale species count. Q15 tests why the site matters (it preserves soft-bodied animals), which the textbook and the museum both support. If a count is ever shown, use \"about 200 species, from well over 100,000 specimens\".",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            111
+          ],
+          "pdfPages": [
+            147
+          ],
+          "locator": "Section 3. Life Becomes Diverse",
+          "supports": "The Burgess Shale in British Columbia is a key record of the Cambrian Explosion and preserved many organisms, including ones without hard shells."
+        },
+        {
+          "type": "external",
+          "title": "The Royal Ontario Museum and Parks Canada Bring Ancient Creatures to Life",
+          "publisher": "Royal Ontario Museum",
+          "url": "https://www.rom.on.ca/news-releases/royal-ontario-museum-and-parks-canada-bring-ancient-creatures-life",
+          "accessed": "2026-10-14",
+          "supports": "The Burgess Shale fossil gallery covers approximately 200 species; the ROM holds the largest collection, over 150,000 specimens; the fossils include spectacularly preserved soft-bodied organisms."
+        },
+        {
+          "type": "external",
+          "title": "The Cambrian Period",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/cambrian/camb.html",
+          "accessed": "2026-10-14",
+          "supports": "The Burgess Shale is a Middle Cambrian site in British Columbia known for excellent preservation of soft-bodied invertebrates."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF2",
+      "issue": "The end-Permian death toll is given two ways: \"95 percent of all lifeforms\" in the Introduction (p. 105) and \"90 percent of all species\" in Section 4 (p. 112). Outside sources also differ (NASA: about 9 in 10 marine and 7 in 10 land species; Natural History Museum: more than 95 percent of species).",
+      "pages": {
+        "printed": [
+          105,
+          112
+        ],
+        "pdf": [
+          141,
+          148
+        ]
+      },
+      "resolution": "The O3 Science Explorer card calls the end-Permian event the worst extinction and says most species died out, especially in the oceans. No question keys an exact percentage. The O3 card's watch-out names the disagreement.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            105
+          ],
+          "pdfPages": [
+            141
+          ],
+          "locator": "Introduction",
+          "supports": "Most crinoids died out about 252 million years ago in a catastrophic event; the textbook gives 95 percent of lifeforms here."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            112
+          ],
+          "pdfPages": [
+            148
+          ],
+          "locator": "Section 4. Pangaea and the Age of the Dinosaurs",
+          "supports": "The Permian Mass Extinction about 252 million years ago was the most severe; the textbook gives 90 percent of species here."
+        },
+        {
+          "type": "external",
+          "title": "The Great Dying",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/science-research/earth-science/the-great-dying/",
+          "accessed": "2026-10-14",
+          "supports": "Roughly 9 in 10 marine species and 7 in 10 land species vanished in the end-Permian extinction."
+        },
+        {
+          "type": "external",
+          "title": "What is mass extinction and are we facing a sixth one?",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/discover/what-is-mass-extinction-and-are-we-facing-a-sixth-one.html",
+          "accessed": "2026-10-14",
+          "supports": "The Permian extinction, also called the Great Dying, eradicated more than 95 percent of species; estimates differ between sources."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF3",
+      "issue": "Section 1 (p. 107) says the Phanerozoic Eon is \"only about 10 percent\" of geologic time, about 541 million years. Using the textbook's own numbers, 541 ÷ 4,600 is about 12 percent; the National Park Service puts the Precambrian at about 88 percent. The 541 Ma date is also dated: the International Commission on Stratigraphy chart (v2024/12) gives 538.8 Ma for the base of the Cambrian.",
+      "pages": {
+        "printed": [
+          107,
+          116,
+          117
+        ],
+        "pdf": [
+          143,
+          152,
+          153
+        ]
+      },
+      "resolution": "Content says the Phanerozoic is about 12 percent (about one-eighth) of Earth's history. Q05 asks for the percentage to the nearest whole number (12, tolerance 0.5) and its limitations note the textbook's rounding and the newer 538.8 Ma date. Elsewhere the textbook's 541 Ma is kept as the lesson's value.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            107
+          ],
+          "pdfPages": [
+            143
+          ],
+          "locator": "Section 1, Figure 1B",
+          "supports": "The Phanerozoic Eon began about 541 million years ago; the figure is not drawn to scale."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time Scale",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/subjects/geology/time-scale.htm",
+          "accessed": "2026-10-14",
+          "supports": "The Precambrian spans from about 4,600 to 541 million years ago and the Phanerozoic began 541.0 million years ago; by these dates the Precambrian is about 88 percent of geologic time (the page itself states no percentage)."
+        },
+        {
+          "type": "external",
+          "title": "The Precambrian",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/articles/000/the-precambrian.htm",
+          "accessed": "2026-10-14",
+          "supports": "The Precambrian lasted about 3,998 million years, 88.1 percent of geologic time."
+        },
+        {
+          "type": "external",
+          "title": "International Chronostratigraphic Chart (v2024/12)",
+          "publisher": "International Commission on Stratigraphy",
+          "url": "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
+          "accessed": "2026-10-14",
+          "supports": "The current chart lists the base of the Cambrian (and Phanerozoic) at 538.8 ± 0.6 Ma."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF4",
+      "issue": "Section 1 (p. 107) says most of the rock in Earth's crust formed during the current eon, and gives that as the reason the Phanerozoic gets more space on the chart. This is questionable: the ancient cores of the continents (cratons or shields) formed in the Precambrian. The main reason for the detail is the Phanerozoic's abundant fossil record, together with better-preserved, more widely exposed rock.",
+      "pages": {
+        "printed": [
+          107
+        ],
+        "pdf": [
+          143
+        ]
+      },
+      "resolution": "Q06 keys the fossil-record and preservation reason and does not use the crust claim. The O1 Science Explorer card explains that charts are not to scale because the Phanerozoic is split into many fossil-defined units.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            107
+          ],
+          "pdfPages": [
+            143
+          ],
+          "locator": "Section 1. Organizing Geologic Time",
+          "supports": "The time-scale figure is not drawn to scale, and weathering and plate tectonics have left few rocks from the first three eons."
+        },
+        {
+          "type": "external",
+          "title": "Introduction (geologic time, Youth and Education in Science)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/youth-and-education-in-science/introduction",
+          "accessed": "2026-10-14",
+          "supports": "Era and period boundaries were first defined by the appearance or disappearance of fossil species; the Phanerozoic is the eon in which fossil evidence of complex, abundant life is found."
+        },
+        {
+          "type": "external",
+          "title": "The Precambrian",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/articles/000/the-precambrian.htm",
+          "accessed": "2026-10-14",
+          "supports": "During the Archean Eon the first continental crust formed and merged into larger landmasses; these continental cores are known as cratons or shields."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Age of the Earth",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+          "accessed": "2026-10-14",
+          "supports": "Earth's oldest rocks have been recycled and destroyed by plate tectonics."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF5",
+      "issue": "Section 3 (p. 110) says cyanobacteria were \"the first organisms to carry out photosynthesis\" and describes stromatolites simply as fossil colonies of cyanobacteria. Other microbes used sunlight earlier without releasing oxygen, and stromatolites are built by microbial mats in general. The timeline date of 3.5 Ga for the first oxygen-releasing cyanobacteria is also still debated.",
+      "pages": {
+        "printed": [
+          110
+        ],
+        "pdf": [
+          146
+        ]
+      },
+      "resolution": "Content says cyanobacteria were the first organisms known to release oxygen by photosynthesis, and defines a stromatolite as a mound built by microbial mats that include cyanobacteria. Q12 tests only the order of steps. Q13 describes the delay before oxygen built up in the air as \"probably hundreds of millions of years\", and its limitations say the start of oxygen release is debated: the textbook says (p. 111) the delay lasted more than a billion years, while newer studies (Planavsky et al. 2014; MIT 2021) put it at roughly 400 to 500 million years or more. No question keys a start date.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            110
+          ],
+          "pdfPages": [
+            146
+          ],
+          "locator": "Section 3. The Increase in Oxygen",
+          "supports": "Stromatolites are among Earth's oldest fossils, and photosynthesis by cyanobacteria released oxygen."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 22.1 Prokaryotic Diversity",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/22-1-prokaryotic-diversity",
+          "accessed": "2026-10-14",
+          "supports": "Phototrophs appeared within a billion years of Earth's formation, and cyanobacteria evolved from those simple phototrophs at least a billion years later; stromatolites form when prokaryotes in a microbial mat cause minerals to precipitate; microbial-mat fossils go back about 3.5 billion years."
+        },
+        {
+          "type": "external",
+          "title": "Cyanobacteria: Fossil Record",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/bacteria/cyanofr.html",
+          "accessed": "2026-10-14",
+          "supports": "The oldest stromatolites date to the Early Archaean, and cyanobacteria photosynthesizing during the Archaean and Proterozoic generated the oxygen atmosphere."
+        },
+        {
+          "type": "external",
+          "title": "Evidence for oxygenic photosynthesis half a billion years before the Great Oxidation Event (Planavsky et al., Nature Geoscience, 2014)",
+          "publisher": "California Institute of Technology (CaltechAUTHORS record)",
+          "url": "https://authors.library.caltech.edu/records/1brwr-kvk71",
+          "accessed": "2026-10-14",
+          "supports": "Molybdenum isotopes in rocks at least 2.95 billion years old indicate that oxygen from photosynthesis was building up in shallow seas at least half a billion years before significant oxygen accumulated in the atmosphere."
+        },
+        {
+          "type": "external",
+          "title": "Zeroing in on the origins of Earth's \"single most important evolutionary innovation\"",
+          "publisher": "MIT News, Massachusetts Institute of Technology",
+          "url": "https://news.mit.edu/2021/photosynthesis-evolution-origins-0928",
+          "accessed": "2026-10-14",
+          "supports": "Estimates for the origin of oxygenic photosynthesis vary widely; one molecular-clock study places it at least 400 million years before the Great Oxidation Event, after which it still took hundreds of millions of years for oxygen to take off."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF6",
+      "issue": "The Cambrian Explosion is overstated or inconsistent: the p. 111 photo caption says all modern organisms can be traced back to organisms that evolved at that time (microbes, for example, are billions of years older); the text gives about 11 million years while the p. 116 spread labels it 541–539 Ma; and 541 Ma has since been revised to 538.8 Ma.",
+      "pages": {
+        "printed": [
+          111,
+          116
+        ],
+        "pdf": [
+          147,
+          152
+        ]
+      },
+      "resolution": "Content describes the Cambrian Explosion as the geologically short burst in which early relatives of most major animal groups appear in the fossil record, long after life began. Q14 repairs the \"life began then\" idea. No question keys a duration.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            111
+          ],
+          "pdfPages": [
+            147
+          ],
+          "locator": "Section 3. Life Becomes Diverse",
+          "supports": "Early relatives of the major groups of modern animals evolved in the oceans in a relatively short span; its start marks the boundary between two eons."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 27.4 The Evolutionary History of the Animal Kingdom",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/27-4-the-evolutionary-history-of-the-animal-kingdom",
+          "accessed": "2026-10-14",
+          "supports": "Animals resembling echinoderms, mollusks, worms, arthropods and chordates, most animal phyla living today, arose during the Cambrian; Ediacaran animal life existed before it."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 22.1 Prokaryotic Diversity",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/22-1-prokaryotic-diversity",
+          "accessed": "2026-10-14",
+          "supports": "Fossil microbial mats go back about 3.5 billion years."
+        },
+        {
+          "type": "external",
+          "title": "International Chronostratigraphic Chart (v2024/12)",
+          "publisher": "International Commission on Stratigraphy",
+          "url": "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
+          "accessed": "2026-10-14",
+          "supports": "The base of the Cambrian is placed at 538.8 ± 0.6 Ma on the current chart."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF7",
+      "issue": "Section 4 (p. 112) says dinosaurs dominated the land for 164 million years starting 230 million years ago, and both pages say the Age of the Dinosaurs ended 66 million years ago. Dinosaurs became the dominant land animals only after the end-Triassic extinction about 201 million years ago (as p. 113 itself hints), and birds are living dinosaurs, so it was the non-bird dinosaurs that died out.",
+      "pages": {
+        "printed": [
+          112,
+          113
+        ],
+        "pdf": [
+          148,
+          149
+        ]
+      },
+      "resolution": "Content says \"non-bird dinosaurs\" whenever it describes the 66 Ma extinction, and says dinosaurs rose after the Permian and Triassic extinctions. No question keys the 164-million-year figure for dinosaur dominance. Q19's table gives the first dinosaurs at about 230 Ma and the end of the non-bird dinosaurs at 66 Ma; its statement f uses the span between them only for how long non-bird dinosaurs existed, not for how long they dominated.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            113
+          ],
+          "pdfPages": [
+            149
+          ],
+          "locator": "Section 4. Pangaea and the Age of the Dinosaurs",
+          "supports": "Dinosaurs thrived after the extinction about 201 million years ago, and their age ended with the Cretaceous Mass Extinction 66 million years ago."
+        },
+        {
+          "type": "external",
+          "title": "The Triassic Period: the rise of the dinosaurs",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/discover/the-triassic-period-the-rise-of-the-dinosaurs.html",
+          "accessed": "2026-10-14",
+          "supports": "The end-Triassic extinction opened up environments that other reptiles had occupied, letting the surviving dinosaurs take their place."
+        },
+        {
+          "type": "external",
+          "title": "Why are birds the only surviving dinosaurs?",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/discover/why-are-birds-the-only-surviving-dinosaurs.html",
+          "accessed": "2026-10-14",
+          "supports": "Birds evolved from meat-eating dinosaurs; after the extinction only birds remained of the dinosaurs."
+        },
+        {
+          "type": "external",
+          "title": "What is mass extinction and are we facing a sixth one?",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/discover/what-is-mass-extinction-and-are-we-facing-a-sixth-one.html",
+          "accessed": "2026-10-14",
+          "supports": "The end-Cretaceous extinction, most likely caused by an asteroid impact in what is now Mexico, killed the remaining non-avian dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF8",
+      "issue": "Sections 5 and 6 (pp. 114, 118-119) date the current ice age from 2.6 million years ago. That fits p. 118's definition, which needs ice caps at both poles, but Antarctica alone has carried an ice cap since about 34 million years ago (p. 114 timeline), so the start date depends on the definition used. The present interglacial is said to have begun about 11,500 years ago; the international chart puts the start of the Holocene at 11,700 years ago.",
+      "pages": {
+        "printed": [
+          114,
+          118,
+          119
+        ],
+        "pdf": [
+          150,
+          154,
+          155
+        ]
+      },
+      "resolution": "The O3 Science Explorer card says Antarctica has held an ice sheet for about 34 million years, that big northern ice sheets have grown and shrunk in cycles for about the last 2.6 million years, and that the present interglacial began about 11,700 years ago. Following p. 118, it also contrasts natural interglacial warming with today's much faster, mainly human-caused warming (NASA). Q22 sorts glacial and interglacial features without keying a start date; Q28 uses the northern ice-sheet cycles, not \"the ice age begins\".",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            118
+          ],
+          "pdfPages": [
+            154
+          ],
+          "locator": "Section 6. The Current Ice Age",
+          "supports": "An ice age is a long cool period with permanent ice at the poles, as when both the North and South Poles are covered by ice caps; glacial and interglacial periods alternate, and Earth is in an interglacial today."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            114
+          ],
+          "pdfPages": [
+            150
+          ],
+          "locator": "Section 5, Figure 5 timeline",
+          "supports": "About 34 million years ago Antarctica separated from Australia, Earth cooled, and an ice cap formed on Antarctica."
+        },
+        {
+          "type": "external",
+          "title": "What's the coldest the Earth's ever been?",
+          "publisher": "NOAA Climate.gov",
+          "url": "https://www.climate.gov/news-features/climate-qa/whats-coldest-earths-ever-been",
+          "accessed": "2026-10-14",
+          "supports": "The Antarctic Ice Sheet began to form about 34 million years ago; the most recent ice age started about 2.6 million years ago; we are technically still in an ice age, living in an interglacial."
+        },
+        {
+          "type": "external",
+          "title": "International Chronostratigraphic Chart (v2024/12)",
+          "publisher": "International Commission on Stratigraphy",
+          "url": "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
+          "accessed": "2026-10-14",
+          "supports": "The base of the Holocene is 0.0117 Ma (11,700 years ago) and the base of the Quaternary is 2.58 Ma."
+        },
+        {
+          "type": "external",
+          "title": "Evidence (Climate Change)",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "accessed": "2026-10-14",
+          "supports": "Current warming is occurring roughly 10 times faster than the average rate of warming after an ice age, and human activity is the principal cause."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF9",
+      "issue": "Section 6 (p. 118) explains the Great Lakes basins only by the weight of ice sinking the crust. The main process was the ice sheets' weight and movement scraping out and deepening existing low areas; meltwater then filled them.",
+      "pages": {
+        "printed": [
+          118
+        ],
+        "pdf": [
+          154
+        ]
+      },
+      "resolution": "Content and Q23 say the ice sheets gouged and deepened the land as well as pressing it down, and that meltwater filled the basins.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            118
+          ],
+          "pdfPages": [
+            154
+          ],
+          "locator": "Section 6. The Current Ice Age",
+          "supports": "The Great Lakes formed where heavy ice sheets advanced across the land; after the ice melted, water filled the basins."
+        },
+        {
+          "type": "external",
+          "title": "Great Lakes ecoregion",
+          "publisher": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/freshwater/great-lakes-ecoregion",
+          "accessed": "2026-10-14",
+          "supports": "The massive weight and movement of the glacier gouged out the earth to form the lake basins, and water from the melting glacier filled them."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF10",
+      "issue": "Figure 1A (p. 106) labels the top of the Grand Canyon sequence as 208 million years old. The National Park Service gives about 270 million years for the Kaibab Formation, the canyon's youngest (rim) layer. The figure's other labels look like rounded teaching values as well.",
+      "pages": {
+        "printed": [
+          106
+        ],
+        "pdf": [
+          142
+        ]
+      },
+      "resolution": "No question uses Figure 1A's ages. The rock-sequence items (Q24, Q25) use invented canyons and test the method (superposition plus lateral continuity), which the figure illustrates correctly.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            106
+          ],
+          "pdfPages": [
+            142
+          ],
+          "locator": "Section 1, Figure 1A",
+          "supports": "Comparing the same layers (such as the Dakota sandstone and Kaibab limestone) in several canyons lets geologists combine their sequences into a longer record."
+        },
+        {
+          "type": "external",
+          "title": "Geology (Grand Canyon National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+          "accessed": "2026-10-14",
+          "supports": "The youngest rock layer at the Grand Canyon, the Kaibab Formation, is about 270 million years old; the oldest rocks are about 1.8 billion years old."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF11",
+      "issue": "The lesson uses \"4.6 billion years\" for both the solar system and Earth (pp. 105, 108). That is the rounded age of the solar system; the U.S. Geological Survey gives 4.54 billion years for Earth (meteorites 4.53 to 4.58 billion; oldest moon rocks 4.4 to 4.5 billion).",
+      "pages": {
+        "printed": [
+          105,
+          108,
+          109
+        ],
+        "pdf": [
+          141,
+          144,
+          145
+        ]
+      },
+      "resolution": "Content dates the solar system to about 4.6 billion years and says Earth had a core and mantle by roughly 4.5 billion years ago and its first crustal rocks by about 4.4 billion years ago (Figure 2 order; see L09-RF13). Questions use \"about 4.6 billion years\" only for Earth's whole history, as the textbook's rounded figure.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            108
+          ],
+          "pdfPages": [
+            144
+          ],
+          "locator": "Section 2. The Origins of Earth and the Moon",
+          "supports": "Absolute dating of the Canyon Diablo meteorite gave about 4.6 billion years, the age of the solar system."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Time: Age of the Earth",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+          "accessed": "2026-10-14",
+          "supports": "Earth is 4.54 billion years old with less than 1 percent uncertainty; meteorites formed 4.53 to 4.58 billion years ago; the oldest moon rocks are 4.4 to 4.5 billion years old."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF12",
+      "issue": "Section 6 (p. 119) and the Lesson Summary say modern humans appeared \"more than 200,000 years ago\". This is still true but dated: the Smithsonian now places the origin of Homo sapiens in Africa about 300,000 years ago.",
+      "pages": {
+        "printed": [
+          118,
+          119
+        ],
+        "pdf": [
+          154,
+          155
+        ]
+      },
+      "resolution": "No question keys the date of the first modern humans. Learner-facing mentions use \"about 300,000 years ago\": Q19's table lists the first modern humans at about 300,000 years ago (Smithsonian).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            119
+          ],
+          "pdfPages": [
+            155
+          ],
+          "locator": "Section 6. The Current Ice Age",
+          "supports": "Fossil evidence shows modern humans appeared more than 200,000 years ago."
+        },
+        {
+          "type": "external",
+          "title": "Homo sapiens",
+          "publisher": "Smithsonian National Museum of Natural History, Human Origins Program",
+          "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+          "accessed": "2026-10-14",
+          "supports": "Homo sapiens has lived from about 300,000 years ago to the present and evolved in Africa."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF13",
+      "issue": "Internal inconsistencies: the Figure 2 caption (p. 108) calls young Earth \"entirely liquid\" while the text (p. 109) says \"almost completely molten\"; Pangaea starts breaking up \"around 200 million years ago\" in the text (p. 113) but at 180 Ma on the timeline and spread (pp. 112, 117); and the p. 109 text says the core, mantle and crust had formed by about 4.5 billion years ago, while Figure 2 places the first crustal rocks at 4.4 Ga, after the moon-forming impact.",
+      "pages": {
+        "printed": [
+          108,
+          109,
+          112,
+          113,
+          116,
+          117
+        ],
+        "pdf": [
+          144,
+          145,
+          148,
+          149,
+          152,
+          153
+        ]
+      },
+      "resolution": "The O2 Science Explorer card says young Earth was \"largely molten\", and the O3 card says Pangaea split apart starting roughly 200 to 180 million years ago. No question keys either detail. The O2 card follows Figure 2's order (core, impact, then first crust): a core and mantle by roughly 4.5 billion years ago, the moon-forming impact soon after, and the first crustal rocks by about 4.4 billion years ago. Q10's explanation matches.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            109
+          ],
+          "pdfPages": [
+            145
+          ],
+          "locator": "Section 2. Formation of Earth's Core",
+          "supports": "Newly formed Earth was almost completely molten, letting iron and nickel sink to the center."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            113
+          ],
+          "pdfPages": [
+            149
+          ],
+          "locator": "Section 4. Pangaea and the Age of the Dinosaurs",
+          "supports": "Pangaea began splitting into separate continents around 200 million years ago, separating dinosaur populations."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            109
+          ],
+          "pdfPages": [
+            145
+          ],
+          "locator": "Section 2, Figure 2 timeline",
+          "supports": "Soon after the core forms (4.5 Ga), a Mars-sized planet strikes Earth and the moon forms; the first crustal rocks form at 4.4 Ga as lighter elements at the surface cool."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            116
+          ],
+          "pdfPages": [
+            152
+          ],
+          "locator": "Key Science Concept: Organizing Time on the Geologic Scale",
+          "supports": "The eon timeline marks Earth's core and the moon forming before the atmosphere, ocean and first crustal rocks form."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF14",
+      "issue": "OCR condition: p. 104 is a full-page photo with no text; the OCR of Figure 1B (p. 107) and the Key Science Concept spread (pp. 116–117) is fragmentary or garbled (for example \"Q u B le m v Y\" for Quaternary and \"Pliocefl#\"), and p. 117 is nearly empty in the OCR file.",
+      "pages": {
+        "printed": [
+          104,
+          107,
+          116,
+          117
+        ],
+        "pdf": [
+          140,
+          143,
+          152,
+          153
+        ]
+      },
+      "resolution": "All time-scale names, nesting, dates and event labels used in content were read from 110-dpi renders of pp. 104–119, not from the OCR text.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            116,
+            117
+          ],
+          "pdfPages": [
+            152,
+            153
+          ],
+          "locator": "Key Science Concept: Organizing Time on the Geologic Scale",
+          "supports": "The spread shows eons, eras, periods and epochs on stacked timelines with dated events, including five mass extinctions at 444, 372, 252, 201 and 66 Ma."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF15",
+      "issue": "Section 5 (p. 115) says the ongoing collision makes the Himalayas rise \"more than one centimeter per year\". That matches the older USGS This Dynamic Earth booklet, but uplift rates vary along the range: NASA Earth Observatory describes several millimeters per year, and National Geographic reports roughly 10 millimeters a year in the northwestern Himalaya but only about a millimeter a year at Everest. Q20's explanation originally repeated the textbook figure as a precise fact.",
+      "pages": {
+        "printed": [
+          115
+        ],
+        "pdf": [
+          151
+        ]
+      },
+      "resolution": "Content (Q20's explanation) says the Himalayas are still rising, by up to about a centimeter a year in places; the O3 card says only that they are still rising. No question keys a rate.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            115
+          ],
+          "pdfPages": [
+            151
+          ],
+          "locator": "Section 5. Continents Change Positions",
+          "supports": "The India-Eurasia collision is still going on today, and the textbook says the Himalayas rise more than one centimeter per year."
+        },
+        {
+          "type": "external",
+          "title": "The Himalayas: Two continents collide",
+          "publisher": "U.S. Geological Survey (This Dynamic Earth)",
+          "url": "https://pubs.usgs.gov/gip/dynamic/himalaya.html",
+          "accessed": "2026-10-14",
+          "supports": "Because India and Asia have about the same rock density, neither plate could be subducted under the other; India hit Asia about 40 to 50 million years ago, and the Himalayas are still rising (this booklet gives more than 1 cm a year)."
+        },
+        {
+          "type": "external",
+          "title": "Dhaulagiri, Himalaya",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/dhaulagiri-himalaya-1376/",
+          "accessed": "2026-10-14",
+          "supports": "Uplift of the Himalayas continues today, at a rate of several millimeters per year, because India is still colliding with Eurasia."
+        },
+        {
+          "type": "external",
+          "title": "Why Mount Everest keeps changing its height",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/why-mount-everest-can-grow-and-shrink-plate-tectonics",
+          "accessed": "2026-10-14",
+          "supports": "Estimated average uplift is roughly 10 millimeters a year in the northwestern sections of the Himalaya and around a millimeter a year at Everest, so the rate varies along the range."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF16",
+      "issue": "Several dated or questionable source details that content does not use: (a) pp. 114, 115 and 117 place the first modern whales at about 5.3 Ma, but the two modern whale groups, toothed and baleen whales, had evolved by the late Oligocene, more than 23 million years ago; (b) p. 114 says whales \"had evolved to live in the oceans\" by about 50 Ma, but whales then were land-living or amphibious, and whales living entirely in the water appear about 40 Ma; (c) the p. 111 timeline and the p. 117 spread have oxygen reaching its current level, with the first land plants, at about 400 Ma, but land plants go back to the Ordovician, and oxygen reached about today's level near 350 Ma and later rose as high as about 35 percent; (d) p. 112 says Pangaea was complete by about 252 Ma, while the USGS says it had formed by the start of the Permian, about 299 Ma; (e) the p. 115 timeline (14 Ma) says apes living along the grasslands of southern Europe eventually evolved into modern apes and humans, but the oldest known members of the human family lived in Africa (for example, Sahelanthropus in Chad about 7 to 6 million years ago, Smithsonian Human Origins).",
+      "pages": {
+        "printed": [
+          111,
+          112,
+          114,
+          115,
+          117
+        ],
+        "pdf": [
+          147,
+          148,
+          150,
+          151,
+          153
+        ]
+      },
+      "resolution": "None of these details is a keyed fact in any question or card. Q19's table uses land-living whale ancestors at about 50 Ma and whales living only in the ocean at about 40 Ma (NHM) instead of the textbook's 50 Ma ocean date. Q28 says Pangaea \"exists as one supercontinent\" at the end-Permian extinction, which is true under either date. Q12 and the O2 card say only that oxygen eventually reached about 21 percent, without dating it. No content mentions modern whales or dates the first land plants. No content uses the p. 115 claim about apes in southern Europe; Q19's table keeps only the textbook's 3.5-million-year upright-walking ancestors, and its limitations name Sahelanthropus as an older member of the human family.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            114
+          ],
+          "pdfPages": [
+            150
+          ],
+          "locator": "Section 5. Mammals Diversify",
+          "supports": "The ancestors of the first whales lived on land, but by about 50 million years ago they had evolved to live in the oceans; the first modern whales appeared by about 5.3 million years ago."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            111
+          ],
+          "pdfPages": [
+            147
+          ],
+          "locator": "Section 3, Figure 3 timeline",
+          "supports": "At 400 Ma, oxygen reaches its current level of 21 percent and the first land plants evolve."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            112
+          ],
+          "pdfPages": [
+            148
+          ],
+          "locator": "Section 4. Pangaea and the Age of the Dinosaurs",
+          "supports": "Pangaea began forming about 390 million years ago and was complete by about 252 million years ago."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to the Cetacea",
+          "publisher": "University of California Museum of Paleontology",
+          "url": "https://ucmp.berkeley.edu/mammal/cetacea/cetacean.html",
+          "accessed": "2026-10-14",
+          "supports": "By the late Oligocene, the two modern lineages of cetaceans (toothed and baleen whales) had evolved from archaeocete ancestors; both are common in Miocene marine deposits."
+        },
+        {
+          "type": "external",
+          "title": "When whales walked on four legs",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/discover/when-whales-walked-on-four-legs.html",
+          "accessed": "2026-10-14",
+          "supports": "Whales' land-dwelling ancestors, such as Pakicetus, lived about 50 million years ago; Ambulocetus (about 50 to 48 million years ago) spent time both in and out of water; Dorudon (40 to 33 million years ago) lived entirely in the water."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 25.1 Early Plant Life",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life",
+          "accessed": "2026-10-14",
+          "supports": "Land was colonized by plants in the Ordovician; fossilized cells, cuticles and spores of early land plants date back to the Ordovician period, well before 400 million years ago."
+        },
+        {
+          "type": "external",
+          "title": "The Age of Oxygen (Forces of Change: Atmosphere)",
+          "publisher": "Smithsonian Institution",
+          "url": "https://forces.si.edu/atmosphere/02_02_06.html",
+          "accessed": "2026-10-14",
+          "supports": "Oxygen made up about 20 percent of the atmosphere, about today's level, around 350 million years ago, then rose to as much as 35 percent over the next 50 million years."
+        },
+        {
+          "type": "external",
+          "title": "Paleozoic",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/youth-and-education-in-science/paleozoic",
+          "accessed": "2026-10-14",
+          "supports": "Gondwana's collision with the northern landmass created the supercontinent Pangaea by the beginning of the Permian Period."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            115
+          ],
+          "pdfPages": [
+            151
+          ],
+          "locator": "Section 5, Figure 5 timeline (14 Ma)",
+          "supports": "Apes evolved from an ancestor shared with monkeys, began living along the grasslands of southern Europe, and eventually evolved into modern apes and humans."
+        },
+        {
+          "type": "external",
+          "title": "Sahelanthropus tchadensis",
+          "publisher": "Smithsonian National Museum of Natural History, Human Origins Program",
+          "url": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+          "accessed": "2026-10-14",
+          "supports": "Sahelanthropus lived between about 7 and 6 million years ago in West-Central Africa (Chad), is one of the oldest known species in the human family tree, and probably walked upright."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF17",
+      "issue": "Section 2 (p. 109) and its timeline say the impact blew a large part of Earth's mantle into orbit, where it formed the moon. Current models put debris from both Earth and the Mars-sized impactor into orbit (NASA). Separately, the p. 110 timeline lists carbon dioxide, nitrogen, water vapor and methane as the volcanic gases that formed the early atmosphere; volcanic gas is overwhelmingly water vapor, carbon dioxide and sulfur dioxide (USGS), and an earlier draft of the O2 card listed methane as a main volcanic gas.",
+      "pages": {
+        "printed": [
+          109,
+          110
+        ],
+        "pdf": [
+          145,
+          146
+        ]
+      },
+      "resolution": "The glossary and the O2 Science Explorer card say debris from both bodies, much of it like Earth's mantle rock, went into orbit and formed the moon, and Q11's idea 2 uses the same wording. The O2 card says volcanoes released mostly water vapor and carbon dioxide, and that the early air also held nitrogen and some methane, without calling methane a volcanic gas.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            109
+          ],
+          "pdfPages": [
+            145
+          ],
+          "locator": "Section 2. Formation of the Moon",
+          "supports": "According to the giant impact hypothesis, a Mars-sized planet struck Earth soon after it formed and blew a large part of Earth's mantle into orbit, where the debris formed the moon."
+        },
+        {
+          "type": "external",
+          "title": "Moon Formation",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/moon/formation/",
+          "accessed": "2026-10-14",
+          "supports": "A Mars-sized object struck early Earth; simulations show material from both Earth and the impactor launched into orbit, where it formed the Moon."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            110
+          ],
+          "pdfPages": [
+            146
+          ],
+          "locator": "Section 3, Figure 3 timeline",
+          "supports": "Gases released from volcanoes formed an early atmosphere with no oxygen, containing carbon dioxide, nitrogen, water vapor and methane."
+        },
+        {
+          "type": "external",
+          "title": "What gases are emitted by Kīlauea and other active volcanoes?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-gases-are-emitted-kilauea-and-other-active-volcanoes",
+          "accessed": "2026-10-14",
+          "supports": "Ninety-nine percent of the gas molecules emitted during a volcanic eruption are water vapor, carbon dioxide and sulfur dioxide."
+        }
+      ]
+    },
+    {
+      "id": "L09-RF18",
+      "issue": "The p. 114 timeline says Antarctica's separation from Australia changed ocean circulation, made global temperatures fall and led to the Antarctic ice cap about 34 million years ago. That gives a single cause for a change scientists still debate: declining atmospheric carbon dioxide is considered the primary driver, while the opening and deepening of the Southern Ocean seaways (between Antarctica and Australia, and between Antarctica and South America) reorganized currents and cooled Antarctic surface waters.",
+      "pages": {
+        "printed": [
+          114
+        ],
+        "pdf": [
+          150
+        ]
+      },
+      "resolution": "The O3 Science Explorer card (paragraph 4) names both causes: as seaways opened, ocean currents changed and carried less warmth to Antarctica's coasts, and falling carbon dioxide, which many scientists think mattered most, cooled the planet. No question keys a cause of the Antarctic ice sheet.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            114
+          ],
+          "pdfPages": [
+            150
+          ],
+          "locator": "Section 5, Figure 5 timeline (34 Ma)",
+          "supports": "Antarctica separated from Australia, ocean circulation changed, global temperatures fell, and an ice cap formed on Antarctica."
+        },
+        {
+          "type": "external",
+          "title": "Gateway-driven weakening of ocean gyres leads to Southern Ocean cooling (Sauermilch et al., Nature Communications, 2021)",
+          "publisher": "NERC Open Research Archive, UK Natural Environment Research Council (open-access copy of the Nature Communications article)",
+          "url": "https://nora.nerc.ac.uk/id/eprint/531383/1/s41467-021-26658-1.pdf",
+          "accessed": "2026-10-14",
+          "supports": "Declining atmospheric CO₂ is considered the primary driver of the change to icehouse conditions about 34 million years ago; when both Southern Ocean gateways (Tasmanian and Drake) had deepened, ocean gyres that had carried warm water toward Antarctica weakened, cooling Antarctic surface waters by about 2 to 4 °C on average."
+        }
+      ]
+    }
+  ]
+}

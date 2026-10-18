@@ -1,0 +1,1195 @@
+{
+  "lessonId": "L12",
+  "guidingQuestion": "How can you tell when a new substance has formed?",
+  "hook": "When one clear liquid meets another and a cloud of bright yellow solid swirls into view, what evidence would show that something brand new was just made?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          152,
+          153
+        ],
+        "pdf": [
+          188,
+          189
+        ]
+      }
+    },
+    {
+      "title": "1. Chemical Reactions Change Substances",
+      "pages": {
+        "printed": [
+          154,
+          155
+        ],
+        "pdf": [
+          190,
+          191
+        ]
+      }
+    },
+    {
+      "title": "2. Conditions that Cause Chemical Reactions",
+      "pages": {
+        "printed": [
+          156,
+          157
+        ],
+        "pdf": [
+          192,
+          193
+        ]
+      }
+    },
+    {
+      "title": "3. Evidence of Chemical Reactions",
+      "pages": {
+        "printed": [
+          158,
+          159
+        ],
+        "pdf": [
+          194,
+          195
+        ]
+      }
+    },
+    {
+      "title": "4. Evaluating Medicines in Clinical Trials",
+      "pages": {
+        "printed": [
+          160,
+          161
+        ],
+        "pdf": [
+          196,
+          197
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L12-O1",
+      "kind": "observe",
+      "text": "Name the reactants and products in a reaction, and spot the property changes, such as a new color, a solid forming in a liquid, a gas or a new odor, that hint a new substance formed.",
+      "sections": [
+        "Introduction",
+        "1. Chemical Reactions Change Substances",
+        "3. Evidence of Chemical Reactions"
+      ],
+      "pages": {
+        "printed": [
+          153,
+          154,
+          155,
+          158
+        ],
+        "pdf": [
+          189,
+          190,
+          191,
+          194
+        ]
+      }
+    },
+    {
+      "id": "L12-O2",
+      "kind": "relate",
+      "text": "Explain why a new substance has its own set of physical and chemical properties, and tell a chemical reaction apart from a physical change such as boiling, melting or dissolving.",
+      "sections": [
+        "1. Chemical Reactions Change Substances",
+        "3. Evidence of Chemical Reactions"
+      ],
+      "pages": {
+        "printed": [
+          154,
+          155,
+          158
+        ],
+        "pdf": [
+          190,
+          191,
+          194
+        ]
+      }
+    },
+    {
+      "id": "L12-O3",
+      "kind": "relate",
+      "text": "Explain how heating, cooling or mixing can start a chemical reaction, and why whether a reaction happens depends on both the substances and the conditions.",
+      "sections": [
+        "2. Conditions that Cause Chemical Reactions"
+      ],
+      "pages": {
+        "printed": [
+          156,
+          157
+        ],
+        "pdf": [
+          192,
+          193
+        ]
+      }
+    },
+    {
+      "id": "L12-O4",
+      "kind": "apply",
+      "text": "Use before-and-after property data, such as solubility and melting point, to decide whether a new substance formed, keeping observations separate from conclusions and judging how strong the evidence is.",
+      "sections": [
+        "3. Evidence of Chemical Reactions"
+      ],
+      "pages": {
+        "printed": [
+          158,
+          159
+        ],
+        "pdf": [
+          194,
+          195
+        ]
+      }
+    },
+    {
+      "id": "L12-O5",
+      "kind": "apply",
+      "text": "Evaluate competing medicine designs against their criteria, using test results for salicylic acid and aspirin, and explain how chemical reactions helped improve the design.",
+      "sections": [
+        "4. Evaluating Medicines in Clinical Trials"
+      ],
+      "pages": {
+        "printed": [
+          160,
+          161
+        ],
+        "pdf": [
+          196,
+          197
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "In a chemical reaction, starting substances called reactants change into new substances called products as their atoms are rearranged into new combinations; no atoms are created or destroyed.",
+    "Each substance has its own set of characteristic properties, so products differ from their reactants in at least some properties, such as color, odor, solubility or melting point.",
+    "A color change, a solid forming in a liquid, a gas, a new smell or a temperature change can be clues to a reaction. But boiling, melting, dissolving and a soda's fizz can also change how things look or feel without making anything new.",
+    "Physical properties can be observed or measured while a substance stays the same; chemical properties describe whether and how a substance can change into new substances, such as whether it burns or reacts with vinegar, so you find them by trying a reaction.",
+    "Whether a reaction happens depends on both the substances and the conditions: some reactions start with heating, some with cooling, and some as soon as the reactants mix.",
+    "A reaction stops once one of its reactants has been used up, even if plenty of the other reactant remains.",
+    "To be confident a new substance formed, scientists compare before-and-after measurements of properties that should differ, and a claim is stronger when several tests agree.",
+    "Medicines were improved step by step, from willow bark to salicin, salicylic acid and then aspirin, with each new version tested on patients against criteria such as relief with few side effects."
+  ],
+  "glossary": [
+    {
+      "term": "chemical reaction",
+      "definition": "A change in which one or more substances turn into one or more different substances with their own properties.",
+      "pages": {
+        "printed": [
+          153,
+          154
+        ],
+        "pdf": [
+          189,
+          190
+        ]
+      }
+    },
+    {
+      "term": "reactant",
+      "definition": "A starting substance that is present before a reaction and gets changed by it.",
+      "pages": {
+        "printed": [
+          153,
+          154
+        ],
+        "pdf": [
+          189,
+          190
+        ]
+      }
+    },
+    {
+      "term": "product",
+      "definition": "A new substance that a chemical reaction makes.",
+      "pages": {
+        "printed": [
+          153,
+          154
+        ],
+        "pdf": [
+          189,
+          190
+        ]
+      }
+    },
+    {
+      "term": "physical change",
+      "definition": "A change in the form, size or state of a substance, or a mixing such as dissolving, that does not turn it into a different substance.",
+      "pages": {
+        "printed": [
+          154
+        ],
+        "pdf": [
+          190
+        ]
+      }
+    },
+    {
+      "term": "physical property",
+      "definition": "A trait you can observe or measure without turning the substance into something else, such as color, density, melting point or solubility.",
+      "pages": {
+        "printed": [
+          155
+        ],
+        "pdf": [
+          191
+        ]
+      }
+    },
+    {
+      "term": "chemical property",
+      "definition": "A trait that describes whether and how a substance can change into new substances, such as whether it burns or reacts with vinegar.",
+      "pages": {
+        "printed": [
+          155
+        ],
+        "pdf": [
+          191
+        ]
+      }
+    },
+    {
+      "term": "solubility",
+      "definition": "How much of a substance can dissolve in a given amount of a liquid, such as grams per liter of water at a stated temperature.",
+      "pages": {
+        "printed": [
+          155,
+          159
+        ],
+        "pdf": [
+          191,
+          195
+        ]
+      }
+    },
+    {
+      "term": "melting point",
+      "definition": "The temperature at which a solid turns into a liquid. A pure substance melts within a narrow range, usually a degree or two, at a characteristic temperature; an impure sample starts melting lower and melts over a wider range. Two different substances can happen to share a melting point.",
+      "pages": {
+        "printed": [
+          158,
+          159
+        ],
+        "pdf": [
+          194,
+          195
+        ]
+      }
+    },
+    {
+      "term": "precipitate",
+      "definition": "A solid that forms and separates out of a liquid solution, often because substances dissolved in it react, like the yellow lead iodide that settles to the bottom of a flask.",
+      "pages": {
+        "printed": [
+          155
+        ],
+        "pdf": [
+          191
+        ]
+      }
+    },
+    {
+      "term": "scientific evidence",
+      "definition": "Observations and measurements that can be used to back up, or argue against, a scientific claim.",
+      "pages": {
+        "printed": [
+          153,
+          158
+        ],
+        "pdf": [
+          189,
+          194
+        ]
+      }
+    },
+    {
+      "term": "observation",
+      "definition": "Something you notice with your senses or measure with a tool, such as a color, a smell or a thermometer reading.",
+      "pages": {
+        "printed": [
+          153,
+          158,
+          159
+        ],
+        "pdf": [
+          189,
+          194,
+          195
+        ]
+      }
+    },
+    {
+      "term": "conclusion",
+      "definition": "An idea drawn from observations and measurements that explains what they mean, such as the claim that a new substance formed.",
+      "pages": {
+        "printed": [
+          158,
+          159
+        ],
+        "pdf": [
+          194,
+          195
+        ]
+      }
+    },
+    {
+      "term": "criteria",
+      "definition": "The goals a design has to meet to count as a success, such as easing pain while causing few side effects.",
+      "pages": {
+        "printed": [
+          160
+        ],
+        "pdf": [
+          196
+        ]
+      }
+    },
+    {
+      "term": "clinical trial",
+      "definition": "A carefully planned study that tests how well a medicine or treatment works in people and what side effects it causes.",
+      "pages": {
+        "printed": [
+          153,
+          160
+        ],
+        "pdf": [
+          189,
+          196
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L12-O1",
+      "title": "Before and After: Spotting a New Substance",
+      "paragraphs": [
+        "Every chemical reaction has a before and an after. The substances you start with are the reactants, and the new substances the reaction makes are the products. When vinegar meets baking soda, acetic acid and sodium bicarbonate react to make sodium acetate, water and carbon dioxide gas.",
+        "Not every product shows itself. When clear lead nitrate and potassium iodide solutions meet, two products form: bright yellow lead iodide, which barely dissolves and settles out as a solid, and potassium nitrate, which stays dissolved where you can't see it.",
+        "Clues that a new substance may have formed include a new color, a solid appearing in a liquid, a gas forming when nothing is boiling, and a smell that wasn't there before. Each clue means some property changed."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Clues from this lesson and the property each one tracks",
+        "alt": "Table of four clues. A new color: brown nitrogen dioxide fading to nearly colorless as it cools; property: color. A solid appears in a liquid: yellow lead iodide forming in a clear mixture; property: solubility. A gas forms with no boiling: carbon dioxide bubbles from baking soda and vinegar; property: state at room temperature. A new smell: heated sugar smelling of caramel; property: odor.",
+        "columns": [
+          "Clue",
+          "Example from the lesson",
+          "Property that changed"
+        ],
+        "rows": [
+          [
+            "A new color",
+            "Brown nitrogen dioxide fades to nearly colorless as it cools",
+            "Color"
+          ],
+          [
+            "A solid appears in a liquid",
+            "Yellow lead iodide forms in a clear mixture",
+            "Solubility"
+          ],
+          [
+            "A gas forms with no boiling",
+            "Carbon dioxide bubbles from baking soda and vinegar",
+            "State at room temperature"
+          ],
+          [
+            "A new smell",
+            "Heated sugar smells of caramel",
+            "Odor"
+          ]
+        ]
+      },
+      "watchOut": "A clue is a reason to look closer, not proof. Boiling water bubbles, a freshly opened soda fizzes, and ice melting in a drink makes it colder, yet no new substance forms. Scientists confirm a reaction by testing properties.",
+      "pages": {
+        "printed": [
+          153,
+          154,
+          155,
+          158
+        ],
+        "pdf": [
+          189,
+          190,
+          191,
+          194
+        ]
+      }
+    },
+    {
+      "objectiveId": "L12-O2",
+      "title": "A New Substance Brings New Properties",
+      "paragraphs": [
+        "Every substance has its own set of characteristic properties. Physical properties, such as color, density, melting point and solubility, can be measured while the substance stays the same. Chemical properties, such as whether it burns or reacts with vinegar, describe whether and how it can change into something new, so you find them by trying a reaction.",
+        "Because products are different substances, at least some of their properties differ from the reactants'. Lead nitrate and potassium iodide are white and dissolve easily; the lead iodide they make is yellow and barely dissolves.",
+        "A physical change, such as melting, boiling or dissolving, changes a substance's form or state but not what it is. Boiling water makes bubbles of water vapor, which is still water.",
+        "Chemical properties can be evidence too. Baking soda reacts with vinegar, but the products of that reaction show no sign of reacting with it. When all the baking soda is used up, the fizzing stops even if vinegar is left over."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Reactants and products of the yellow-solid reaction",
+        "alt": "Table of four substances. Lead nitrate: reactant, white, dissolves easily in water. Potassium iodide: reactant, white, dissolves easily in water. Lead iodide: product, bright yellow, barely dissolves in water. Potassium nitrate: product, white, dissolves easily in water.",
+        "columns": [
+          "Substance",
+          "Role",
+          "Color as a solid",
+          "Dissolves in water?"
+        ],
+        "rows": [
+          [
+            "Lead nitrate",
+            "Reactant",
+            "White",
+            "Easily"
+          ],
+          [
+            "Potassium iodide",
+            "Reactant",
+            "White",
+            "Easily"
+          ],
+          [
+            "Lead iodide",
+            "Product",
+            "Bright yellow",
+            "Barely"
+          ],
+          [
+            "Potassium nitrate",
+            "Product",
+            "White",
+            "Easily"
+          ]
+        ]
+      },
+      "watchOut": "A product can still match its reactant in some properties. Aspirin and the salicylic acid it is made from are both white powders with nearly the same density; their melting points and solubility tell them apart.",
+      "pages": {
+        "printed": [
+          154,
+          155,
+          159
+        ],
+        "pdf": [
+          190,
+          191,
+          195
+        ]
+      }
+    },
+    {
+      "objectiveId": "L12-O3",
+      "title": "Heat It, Cool It, Mix It",
+      "paragraphs": [
+        "Putting substances together doesn't always make them react. Two things decide it: the chemical properties of the substances, and their conditions, such as temperature.",
+        "Heating: a strike-anywhere match head holds all of its reactants, but they need a little energy to get started. Friction against a rough surface heats the head and sets the reaction off.",
+        "Cooling: brown nitrogen dioxide gas, found in smog, reacts to form colorless dinitrogen tetroxide when it is cooled, so a cold tube looks paler. Warming runs the reaction backward and the brown color returns.",
+        "Mixing: some reactants need nothing extra. Lead nitrate and potassium iodide, or baking soda and vinegar, react as soon as they meet."
+      ],
+      "diagram": {
+        "kind": "equation",
+        "caption": "Cooling turns brown nitrogen dioxide into colorless dinitrogen tetroxide",
+        "alt": "Equation: two molecules of NO₂, nitrogen dioxide (one nitrogen atom and two oxygen atoms each), a brown gas, join to make one molecule of N₂O₄, dinitrogen tetroxide (two nitrogen atoms and four oxygen atoms), a colorless gas. Both sides have 2 nitrogen and 4 oxygen atoms. The note over the arrow says cooling drives this direction and warming runs it backward.",
+        "reactants": [
+          {
+            "formula": "NO2",
+            "coefficient": 2,
+            "label": "nitrogen dioxide (brown)"
+          }
+        ],
+        "products": [
+          {
+            "formula": "N2O4",
+            "label": "dinitrogen tetroxide (colorless)"
+          }
+        ],
+        "arrowNote": "cooling (warming runs it backward)"
+      },
+      "watchOut": "A change you can undo isn't automatically a physical change. Warming turns dinitrogen tetroxide back into nitrogen dioxide, which is a chemical reaction running in reverse. Both gases are present together, so a cooled tube fades toward colorless rather than switching all at once.",
+      "pages": {
+        "printed": [
+          156,
+          157
+        ],
+        "pdf": [
+          192,
+          193
+        ]
+      }
+    },
+    {
+      "objectiveId": "L12-O4",
+      "title": "Testing Properties: From Clues to Conclusions",
+      "paragraphs": [
+        "An observation is something you see or measure, like a temperature on a thermometer. A conclusion is an idea that explains the observations, like the claim that a new substance formed. Good scientists keep the two apart so others can check the reasoning.",
+        "In the textbook's aspirin example, a scientist turns salicylic acid into a white powder. Both powders look alike and both measure about 1.4 g/cm³, but 3.3 g of the new powder dissolves in a liter of water compared with 2.4 g of salicylic acid, and it melts at 136 °C instead of 159 °C.",
+        "Scientists pick tests for properties that are known to differ between the expected reactant and product. The density test couldn't help here: the real densities are very close, and the volume of a packed powder is hard to measure exactly.",
+        "One changed measurement is one piece of evidence. When several independent tests agree, the claim that a new substance formed becomes much stronger."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Before and after: the textbook's aspirin example",
+        "alt": "Table comparing salicylic acid (before) with the powder made from it (after). Appearance: white powder before, white powder after. Density: 1.4 g/cm³ before, 1.4 g/cm³ after. Mass that dissolves in 1 liter of water: 2.4 g before, 3.3 g after. Melting point: 159 °C before, 136 °C after.",
+        "columns": [
+          "Test",
+          "Salicylic acid (before)",
+          "New powder (after)"
+        ],
+        "rows": [
+          [
+            "Appearance",
+            "White powder",
+            "White powder"
+          ],
+          [
+            "Density",
+            "1.4 g/cm³",
+            "1.4 g/cm³"
+          ],
+          [
+            "Dissolves in 1 L of water",
+            "2.4 g",
+            "3.3 g"
+          ],
+          [
+            "Melting point",
+            "159 °C",
+            "136 °C"
+          ]
+        ]
+      },
+      "watchOut": "A lower melting point by itself could also mean an impure sample, because impurities make a solid melt lower and over a wider range. A sample that melts within a narrow range at the expected product's melting point, backed by a second changed property, is stronger evidence.",
+      "pages": {
+        "printed": [
+          158,
+          159
+        ],
+        "pdf": [
+          194,
+          195
+        ]
+      }
+    },
+    {
+      "objectiveId": "L12-O5",
+      "title": "Better Medicines by Design",
+      "paragraphs": [
+        "For centuries people used willow bark to ease pain and fever. Chemists in the early 1800s separated a substance called salicin from the bark, and later used salicin as a reactant to make salicylic acid. Within a few decades, chemists could also make salicylic acid in factories from other chemicals, without any bark.",
+        "Doctors judged these medicines against criteria: lower fever and pain, with as few side effects as possible. Salicylic acid lowered fever but caused unpleasant side effects, such as stomach irritation and nausea (the textbook also lists dizziness and breathing problems), so it only partly met the criteria.",
+        "Chemists then used a reaction to turn salicylic acid into acetylsalicylic acid, now called aspirin. Tests on patients showed it met the criteria better, and by about 1918 it was one of the most widely used medicines.",
+        "Today's clinical trials are more carefully planned than those early tests. They may compare a new treatment with one already in use, and many must be approved and watched over by an ethics review board."
+      ],
+      "diagram": {
+        "kind": "network",
+        "caption": "From willow bark to aspirin: the order in which each substance was first found or made",
+        "alt": "Chain diagram showing the order in which each substance was first found or made, with arrows pointing from each source to what was first found in it or made from it. Willow bark points to salicin, labeled separated from the bark. Salicin points to salicylic acid, labeled made by chemical reactions. Salicylic acid points to aspirin, labeled made by a chemical reaction.",
+        "layout": "chain",
+        "nodes": [
+          {
+            "id": "bark",
+            "label": "Willow bark"
+          },
+          {
+            "id": "salicin",
+            "label": "Salicin"
+          },
+          {
+            "id": "sa",
+            "label": "Salicylic acid"
+          },
+          {
+            "id": "asa",
+            "label": "Aspirin"
+          }
+        ],
+        "edges": [
+          {
+            "from": "bark",
+            "to": "salicin",
+            "label": "separated from the bark"
+          },
+          {
+            "from": "salicin",
+            "to": "sa",
+            "label": "chemical reactions"
+          },
+          {
+            "from": "sa",
+            "to": "asa",
+            "label": "chemical reaction"
+          }
+        ]
+      },
+      "watchOut": "Natural doesn't mean safe, and better doesn't mean perfect. Aspirin can still cause side effects, such as stomach irritation, so this story is about how designs are judged, not advice about taking any medicine.",
+      "pages": {
+        "printed": [
+          160,
+          161
+        ],
+        "pdf": [
+          196,
+          197
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L12-RF1",
+      "issue": "p. 155 says lead iodide 'is not soluble in water'. It is only very slightly soluble (about 0.076 g per 100 cm³ at 20 °C), not completely insoluble.",
+      "pages": {
+        "printed": [
+          155
+        ],
+        "pdf": [
+          191
+        ]
+      },
+      "resolution": "Game text says lead iodide 'barely dissolves' everywhere (O1 and O2 cards, Q02, Q04, Q08); round 1 removed the last 'won't dissolve' wording. Q02 states the limitation. The yellow solid still forms because so little can dissolve.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, lead nitrate and potassium iodide reaction and photo caption",
+          "supports": "Both reactants are white solids that dissolve to give colorless mixtures; the products are bright yellow lead iodide, which settles out as a solid, and potassium nitrate, which stays dissolved."
+        },
+        {
+          "type": "external",
+          "title": "Lead iodide (CID 24931), Solubility section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24931/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "Lead iodide's water solubility is about 0.076 g per 100 cm³ at 20 °C."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF2",
+      "issue": "pp. 156–157 describe cooling nitrogen dioxide as if it simply 'forms' colorless dinitrogen tetroxide. The two gases are in equilibrium in a closed tube; cooling shifts the mixture toward N₂O₄, so the tubes fade gradually and a cold tube can stay faintly yellow from leftover NO₂ (as the p. 157 figure shows).",
+      "pages": {
+        "printed": [
+          156,
+          157
+        ],
+        "pdf": [
+          192,
+          193
+        ]
+      },
+      "resolution": "Explorer card O3 and Q16–Q18 say cooling favors forming the colorless gas and that both gases are present; the order question (Q17) links graded colors to the amount of colorless gas in each tube. The word 'equilibrium' is not required of learners. Both gases are toxic, so no procedure is given anywhere.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Cooling",
+          "supports": "Cooled brown nitrogen dioxide reacts to form colorless dinitrogen tetroxide, and heating runs the reverse reaction, bringing the brown gas back."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "external",
+          "title": "Temperature Effect on the Equilibrium Between Two Gases (lecture demonstration)",
+          "publisher": "Rutgers University, Department of Chemistry and Chemical Biology, Chemistry Lecture Demonstration Facility",
+          "url": "https://chem.rutgers.edu/cldf-demos/1033-cldf-demo-temperature-effect",
+          "accessed": "2026-10-14",
+          "supports": "2NO₂ ⇌ N₂O₄ is an equilibrium in a closed system; cooling favors N₂O₄; a yellowish tint comes from traces of NO₂; both gases are toxic by inhalation."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF3",
+      "issue": "The p. 158 photo caption says the sugar is 'burned', while the body text on the same page says the sugar is heated until it breaks apart into caramel. Burning (combustion in air) and caramelizing by heating are different processes; the body text also calls caramel 'crystals'.",
+      "pages": {
+        "printed": [
+          158
+        ],
+        "pdf": [
+          194
+        ]
+      },
+      "resolution": "Game text follows the body text: sugar is heated until it browns and smells of caramel. It does not say the sugar burns and does not call caramel crystals.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions, heated sugar and photo caption",
+          "supports": "Heated white sugar breaks down into brown caramel with a new taste and a new odor."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF4",
+      "issue": "The p. 159 Key Science Concept concludes 'She has created a new substance!' from a melting point 23 °C lower. A lower melting point can also come from an impure sample. The solubility test gives no temperature. Reference values differ somewhat from the textbook's (salicylic acid: melts about 158–159 °C, 2.24 g/L at 25 °C, density about 1.44 g/cm³; aspirin: melts about 135 °C, reported water solubilities from about 2.5 g/L at 15 °C to 4.6 g/L at 25 °C, densities about 1.35–1.40 g/cm³). A packed powder contains air gaps, so its measured density would normally read below the true density; the textbook's 1.4 g/cm³ readings are treated as idealized example data.",
+      "pages": {
+        "printed": [
+          159
+        ],
+        "pdf": [
+          195
+        ]
+      },
+      "resolution": "Questions use the textbook's numbers as 'the textbook's example' and state that solubility tests were done at the same temperature. Q19 uses the textbook's per-liter solubility figures only to scale them to 2 L of water, and Q20 treats the lower melting point as one of two changed results. Q23, the O4 card and the melting point glossary entry teach that a pure substance melts within a narrow range (about a degree or two), that impurities lower and broaden the range, and that agreeing tests make a stronger claim. Q21 uses the reference densities to explain why the density test failed. No question asks for an exact melting point, solubility or density of aspirin.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        },
+        {
+          "type": "external",
+          "title": "6.1B: Uses of Melting Points (Organic Chemistry Lab Techniques)",
+          "publisher": "Chemistry LibreTexts (Lisa Nichols, Butte College; SUNY Oneonta course copy)",
+          "url": "https://chem.libretexts.org/Courses/SUNY_Oneonta/Chem_221%3A_Organic_Chemistry_I_(Bennett)/2%3ALab_Textbook_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point/6.1B%3A_Uses_of_Melting_Points",
+          "accessed": "2026-10-17",
+          "supports": "Impurities lower and broaden the melting range; a melting point is one piece of data supporting an identification. Its table lists pure benzoic acid melting over 120–122 °C, a narrow range, while benzoic acid mixed with acetanilide starts melting lower and melts over a wider range (109–120 °C with 10% acetanilide)."
+        },
+        {
+          "type": "external",
+          "title": "5.3: Melting Point Analysis - Identity and Purity (How to be a Successful Organic Chemist)",
+          "publisher": "Chemistry LibreTexts (Alexander Sandtorv)",
+          "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Book%3A_How_to_be_a_Successful_Organic_Chemist_(Sandtorv)/05%3A_HOW_TO_INTERPRET_YOUR_RESULTS/5.03%3A_MELTING_POINT_ANALYSIS-_IDENTITY_AND_PURITY",
+          "accessed": "2026-10-17",
+          "supports": "Impurities lead to wider and depressed melting point ranges, and a measured melting point more than about 1 °C away from the expected value usually means the sample is not pure enough; its worked example lists a literature melting range of 121–123 °C for 2-naphthol."
+        },
+        {
+          "type": "external",
+          "title": "Salicylic acid (CID 338), Melting Point section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/338/JSON?heading=Melting+Point",
+          "accessed": "2026-10-14",
+          "supports": "Salicylic acid melts at about 158–159 °C."
+        },
+        {
+          "type": "external",
+          "title": "Salicylic acid (CID 338), Solubility section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/338/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "Salicylic acid dissolves to about 2.24 g/L in water at 25 °C."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (CID 2244), Melting Point section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2244/JSON?heading=Melting+Point",
+          "accessed": "2026-10-14",
+          "supports": "Aspirin melts at about 135 °C."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (CID 2244), Solubility section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2244/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "Reported water solubilities include 1 g in about 300 mL at 25 °C (about 3.3 g/L), 4,600 mg/L at 25 °C and 0.25 g/100 mL at 15 °C."
+        },
+        {
+          "type": "external",
+          "title": "Salicylic acid (CID 338), Density section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/338/JSON?heading=Density",
+          "accessed": "2026-10-14",
+          "supports": "Salicylic acid density is about 1.44 g/cm³."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (CID 2244), Density section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2244/JSON?heading=Density",
+          "accessed": "2026-10-14",
+          "supports": "Listed densities for aspirin range from 1.35 to 1.40 g/cm³."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF5",
+      "issue": "The p. 154 caption and the p. 161 summary say products have an 'entirely different' set of properties. The textbook's own p. 159 example shows a product that matches its reactant in color and in measured density.",
+      "pages": {
+        "printed": [
+          154,
+          159,
+          161
+        ],
+        "pdf": [
+          190,
+          195,
+          197
+        ]
+      },
+      "resolution": "Game text says products differ in at least some characteristic properties. Q09 repairs the 'every property must differ' idea using the first two p. 159 results (color and density match), and the O2 card's watchOut names it. The melting point glossary entry notes that two substances can share a melting point.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "A chemical change always produces one or more types of matter that differ from the matter present before the change."
+        },
+        {
+          "type": "external",
+          "title": "6.1B: Uses of Melting Points (Organic Chemistry Lab Techniques)",
+          "publisher": "Chemistry LibreTexts (Lisa Nichols, Butte College; SUNY Oneonta course copy)",
+          "url": "https://chem.libretexts.org/Courses/SUNY_Oneonta/Chem_221%3A_Organic_Chemistry_I_(Bennett)/2%3ALab_Textbook_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point/6.1B%3A_Uses_of_Melting_Points",
+          "accessed": "2026-10-14",
+          "supports": "It is not uncommon for two different compounds to have coincidentally similar or identical melting points."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF6",
+      "issue": "p. 155's sentence defining chemical and physical properties is garbled in print (words are missing, so it never says what physical properties are), and it says flammability can be noticed only while a substance is reacting and burning.",
+      "pages": {
+        "printed": [
+          155
+        ],
+        "pdf": [
+          191
+        ]
+      },
+      "resolution": "Glossary, key idea 4, the O2 card and Q10 use OpenStax-based definitions: physical properties can be observed without changing the substance; chemical properties describe whether and how it can change into new substances (flammability, reacting with vinegar). Q11 uses a chemical property: unlike baking soda, the products show no sign of reacting with vinegar.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, chemical and physical properties",
+          "supports": "Flammability and the ability to react with another substance are chemical properties, noticed only when a substance reacts."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "A physical property is not associated with a change in chemical composition; the ability to change from one type of matter into another (or the inability to change), such as flammability, is a chemical property."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF7",
+      "issue": "History on pp. 160–161 is partly inaccurate. p. 160 says a French chemist found salicin in 1826; NLM dates the French pharmacist Henri Leroux's isolation of salicin to 1829 (earlier partial isolations are credited to others). p. 161 says Felix Hoffmann 'devised and patented' his method in 1897; Hoffmann made pure acetylsalicylic acid at Bayer in 1897, but Bayer's German patent was refused and its U.S. patent ran from 1900. Some historians also credit Arthur Eichengrün. Sources disagree on the patent: NLM says Bayer patented aspirin in 1899, while the Science History Institute says the German application was rejected and the U.S. patent ran 1900–1917.",
+      "pages": {
+        "printed": [
+          160,
+          161
+        ],
+        "pdf": [
+          196,
+          197
+        ]
+      },
+      "resolution": "Game text says 'early 1800s' for salicin and does not say who patented aspirin or when. No question tests dates, nationalities or who deserves credit. Q27 orders the steps by which was made from which, not by date. Salicylic acid from salicin (Piria, 1838) and Gerhardt's 1853 acetylsalicylic acid agree with NLM and are not tested. Q27 notes that salicylic acid was made synthetically from 1859 (Kolbe) and sold commercially from 1874 (Heyden), so the chain shows the order of discovery, not where later aspirin came from; the O5 card says the same in plain words.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            160
+          ],
+          "pdfPages": [
+            196
+          ],
+          "locator": "Section 4, Evaluating Medicines in Clinical Trials",
+          "supports": "Salicin was found in willow bark, and chemists later made salicylic acid using salicin as a reactant."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Section 4, Evaluating Aspirin",
+          "supports": "Salicylic acid reduced fever and pain but caused nausea, dizziness and breathing problems; aspirin, made from salicylic acid, was tested on patients and judged a better solution."
+        },
+        {
+          "type": "external",
+          "title": "The Story of Aspirin (online exhibition)",
+          "publisher": "U.S. National Library of Medicine, National Institutes of Health",
+          "url": "https://www.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+          "accessed": "2026-10-14",
+          "supports": "Henri Leroux isolated salicin in 1829; Raffaele Piria obtained salicylic acid in 1838; Charles Gerhardt first made acetylsalicylic acid in 1853; Bayer patented aspirin in 1899."
+        },
+        {
+          "type": "external",
+          "title": "Felix Hoffmann (scientific biography)",
+          "publisher": "Science History Institute",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/felix-hoffmann/",
+          "accessed": "2026-10-17",
+          "supports": "Hoffmann made acetylsalicylic acid at Bayer in 1897; the German patent application was rejected; the U.S. patent gave Bayer a monopoly from 1900 to 1917; Eichengrün's role is debated. Kolbe synthesized salicylic acid in 1859, and from 1874 the Heyden Company manufactured and sold synthetic salicylic acid, cheaper than willow bark extract."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF8",
+      "issue": "pp. 160–161 call the 1800s patient tests 'clinical trials' and report 'no reports of dizziness or breathing problems' for aspirin, which can read as if aspirin has no side effects. Early tests lacked modern features such as comparison groups and ethics review, and aspirin can cause stomach irritation and bleeding, allergic breathing reactions, and is not routinely given to children or teens. Aspirin is itself converted to salicylic acid in the body, and it can trigger breathing problems in some people, so the textbook's 'no reports of dizziness or breathing problems' is a historical report, not a lasting difference between the two medicines; the drawback of salicylic acid that historical accounts stress is stomach irritation.",
+      "pages": {
+        "printed": [
+          160,
+          161
+        ],
+        "pdf": [
+          196,
+          197
+        ]
+      },
+      "resolution": "Game says aspirin met the criteria better than salicylic acid in those tests, never that it is side-effect free (Q26, O5 card watchOut). The O5 card notes modern trials are more carefully planned. No question gives dosing or medicine advice. Q26 notes aspirin can trigger breathing problems in some people; Q28 does not use the salicin-to-salicylic-acid finding as a reason to reject salicin. The O5 card names stomach irritation first among salicylic acid's side effects and attributes dizziness and breathing problems to the textbook.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Section 4, Evaluating Aspirin",
+          "supports": "Salicylic acid reduced fever and pain but caused nausea, dizziness and breathing problems; aspirin, made from salicylic acid, was tested on patients and judged a better solution."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (drug information)",
+          "publisher": "MedlinePlus, U.S. National Library of Medicine",
+          "url": "https://medlineplus.gov/druginfo/meds/a682878.html",
+          "accessed": "2026-10-14",
+          "supports": "Aspirin can cause stomach pain, heartburn and bleeding; its serious side effects include wheezing or difficulty breathing; a doctor should be asked before giving it to children or teenagers because of Reye's syndrome."
+        },
+        {
+          "type": "external",
+          "title": "Clinical Trials (health topic)",
+          "publisher": "MedlinePlus, U.S. National Library of Medicine",
+          "url": "https://medlineplus.gov/clinicaltrials.html",
+          "accessed": "2026-10-14",
+          "supports": "Clinical trials are research studies testing how well new medical approaches work in people; they may compare a new treatment with an existing one, and an institutional review board checks that they are ethical."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (CID 2244), Metabolism/Metabolites section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2244/JSON?heading=Metabolism%2FMetabolites",
+          "accessed": "2026-10-14",
+          "supports": "Acetylsalicylic acid is rapidly hydrolyzed, primarily in the liver, to salicylic acid."
+        },
+        {
+          "type": "external",
+          "title": "Felix Hoffmann (scientific biography)",
+          "publisher": "Science History Institute",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/felix-hoffmann/",
+          "accessed": "2026-10-14",
+          "supports": "Salicylic acid irritated the stomach, and some patients could not tolerate it."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF9",
+      "issue": "The lesson features toxic or hazardous materials and kitchen reactions: lead nitrate and lead iodide (lead compounds), nitrogen dioxide (a toxic smog gas), matches, and heated sugar.",
+      "pages": {
+        "printed": [
+          154,
+          155,
+          156,
+          158
+        ],
+        "pdf": [
+          190,
+          191,
+          192,
+          194
+        ]
+      },
+      "resolution": "All of these appear only as described scenarios and thought experiments. The game gives no procedures, quantities or instructions to try anything at home.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, lead nitrate and potassium iodide reaction and photo caption",
+          "supports": "Both reactants are white solids that dissolve to give colorless mixtures; the products are bright yellow lead iodide, which settles out as a solid, and potassium nitrate, which stays dissolved."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Cooling",
+          "supports": "Cooled brown nitrogen dioxide reacts to form colorless dinitrogen tetroxide, and heating runs the reverse reaction, bringing the brown gas back."
+        },
+        {
+          "type": "external",
+          "title": "Temperature Effect on the Equilibrium Between Two Gases (lecture demonstration)",
+          "publisher": "Rutgers University, Department of Chemistry and Chemical Biology, Chemistry Lecture Demonstration Facility",
+          "url": "https://chem.rutgers.edu/cldf-demos/1033-cldf-demo-temperature-effect",
+          "accessed": "2026-10-14",
+          "supports": "Nitrogen dioxide and dinitrogen tetroxide are both toxic by inhalation."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF10",
+      "issue": "The lesson presents a color change and the appearance of a gas as evidence of reaction. Without care this could teach that any single clue (bubbles, a color change, a temperature change) proves a reaction, which the brief warns against.",
+      "pages": {
+        "printed": [
+          154,
+          158
+        ],
+        "pdf": [
+          190,
+          194
+        ]
+      },
+      "resolution": "The seed question (Q05), Q06 and Q07 teach that bubbles and temperature changes also happen when nothing new forms. The O1 card's watchOut and key idea 3 name boiling, a soda's fizz and the cooling from melting ice as clues that are not proof, to be confirmed by property tests; Q03 does the same for melting and dissolving.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances (opening scenario)",
+          "supports": "The fizzing of vinegar and baking soda is contrasted with boiling and sublimation, which are changes of state rather than reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions",
+          "supports": "Scientific evidence is data that supports a claim; a change in properties such as color or odor is a clue that new substances are forming."
+        },
+        {
+          "type": "external",
+          "title": "3.6: Changes in Matter - Physical and Chemical Changes (Introductory Chemistry)",
+          "publisher": "Chemistry LibreTexts (Marisa Alviar-Agnew and Henry Agnew, Sacramento City College)",
+          "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03:_Matter_and_Energy/3.06:_Changes_in_Matter_-_Physical_and_Chemical_Changes",
+          "accessed": "2026-10-14",
+          "supports": "Bubbles indicate a chemical change only when the substance is not boiling; temperature and color changes are indicators, and other observations are needed to show a chemical change."
+        }
+      ]
+    },
+    {
+      "id": "L12-RF11",
+      "issue": "The p. 153 standards box (PS1.B) says the atoms of the original substances are regrouped into different 'molecules'. Several products in this lesson, such as potassium nitrate and sodium acetate, are ionic compounds made of ions, not separate molecules.",
+      "pages": {
+        "printed": [
+          153
+        ],
+        "pdf": [
+          189
+        ]
+      },
+      "resolution": "Key idea 1 says the atoms are rearranged into new combinations and that no atoms are created or destroyed; no game text calls these products molecules. The O3 card, whose gases really are molecules (NO₂ and N₂O₄), shows the same atoms on both sides of the equation.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            153
+          ],
+          "pdfPages": [
+            189
+          ],
+          "locator": "Next Generation Science Standards box, Disciplinary Core Ideas (PS1.B)",
+          "supports": "In a chemical process the original substances' atoms are regrouped to make new substances whose properties differ from the reactants'."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.6 Ionic and Molecular Compounds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-6-ionic-and-molecular-compounds",
+          "accessed": "2026-10-17",
+          "supports": "An ionic compound contains positive and negative ions held together by ionic bonds and is not made up of single, discrete molecules; nitrate and acetate are polyatomic ions found in many ionic compounds."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 4.1 Writing and Balancing Chemical Equations",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+          "accessed": "2026-10-17",
+          "supports": "A balanced chemical equation shows equal numbers of atoms of each element on the reactant and product sides, as the law of conservation of matter requires."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3827 @@
+{
+  "lessonId": "L05",
+  "questions": [
+    {
+      "lessonId": "L05",
+      "id": "L05-Q01",
+      "objectiveIds": [
+        "L05-O1"
+      ],
+      "conceptTags": [
+        "consumer",
+        "matter-and-energy-source"
+      ],
+      "familyId": "L05-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Under a microscope, an amoeba stretches around a smaller single-celled organism and swallows it whole. What makes the amoeba a consumer?",
+      "accessiblePrompt": "Under a microscope, an amoeba stretches around a smaller single-celled organism and swallows it whole. What makes the amoeba a consumer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It gets food from another organism",
+          "rationale": "Correct. A consumer can't make its own food, so it gets matter and energy from other organisms. Engulfing prey is exactly that."
+        },
+        {
+          "id": "b",
+          "text": "It is made of only one cell",
+          "rationale": "Cell count doesn't decide the role. Some single-celled organisms, such as many algae, make their own food by photosynthesis and are producers."
+        },
+        {
+          "id": "c",
+          "text": "It carries out cellular respiration",
+          "rationale": "Producers carry out cellular respiration too, so respiration can't be what separates a consumer from a producer."
+        },
+        {
+          "id": "e",
+          "text": "It moves around on its own",
+          "rationale": "Moving isn't the test. Some single-celled algae swim with tiny tails yet make their own food. What matters is where the food comes from."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A consumer is any organism that can't make its own food and instead gets matter and energy from other organisms, by eating or absorbing them. The amoeba engulfs its prey and uses that cell's matter and energy. Producers and consumers both carry out cellular respiration, so respiration alone doesn't tell them apart.",
+      "misconception": "Only animals are consumers, or carrying out cellular respiration is what makes something a consumer.",
+      "hint": "Ask where the amoeba's food comes from.",
+      "followUpId": "L05-Q03",
+      "scope": {
+        "lessonId": "L05",
+        "section": "1. Consumers",
+        "pages": {
+          "printed": [
+            56
+          ],
+          "pdf": [
+            92
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "An amoeba is a single-celled consumer that engulfs other cells and uses their matter and energy; consumers feed by eating other organisms or by absorbing them."
+        },
+        {
+          "type": "external",
+          "title": "What are phytoplankton?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/phyto.html",
+          "accessed": "2026-10-15",
+          "supports": "Phytoplankton are microscopic marine algae that contain chlorophyll and need sunlight to live and grow; dinoflagellates, one group of them, move through the water with a whip-like tail (flagellum)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 56 (rendered; amoeba photo and caption). Choice c also prepares the plant-respiration family. Round 1 (2026-10-14): choice a rationale and the explanation now define a consumer as an organism that can't make its own food, without the photosynthesis wording (chemosynthetic producers exist; L05-RF12). Distractor d ('swims around in the water', untrue of amoebas, which crawl) replaced by 'moves around on its own' (new id e, since the claim changed); its swimming-algae example is supported by NOAA (opened 2026-10-15). Review round 2 (2026-10-14): both reviewers passed it; the p. 56 evidence line, which shared 9 words with the textbook, was paraphrased. Verify-agent (2026-10-14): Checked against p. 56 (OCR and render: amoeba engulfs other cells; consumers eat or absorb) and the NOAA phytoplankton page (re-opened: dinoflagellates move with a whip-like flagellum). One defensible key.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale and explanation define a consumer as not making its own food, dropping the photosynthesis-only wording"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: false 'swims in the water' distractor replaced by 'moves around on its own' (new id e) with a swimming-algae rationale"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: evidence line paraphrased (lesson-level originality finding)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q02",
+      "objectiveIds": [
+        "L05-O1"
+      ],
+      "conceptTags": [
+        "producer",
+        "consumer"
+      ],
+      "familyId": "L05-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each organism by how it gets its food.",
+      "accessiblePrompt": "Sort each organism into one of two groups: producer, which makes its own food, or consumer, which eats or absorbs food made by other organisms.",
+      "items": [
+        {
+          "id": "oak",
+          "text": "An oak tree",
+          "rationale": "Producer: it builds sugar from carbon dioxide and water using sunlight, and stores some in its acorns."
+        },
+        {
+          "id": "grass",
+          "text": "Grass in a meadow",
+          "rationale": "Producer: grass makes its own food by photosynthesis."
+        },
+        {
+          "id": "squirrel",
+          "text": "A squirrel",
+          "rationale": "Consumer: it gets its matter and energy by eating acorns and other foods."
+        },
+        {
+          "id": "tapeworm",
+          "text": "A tapeworm living in a cat's gut, absorbing food through its body surface",
+          "rationale": "Consumer: it has no digestive system of its own, but it absorbs food the cat has already digested. Absorbing food that other organisms made still counts as getting food from others."
+        },
+        {
+          "id": "amoeba",
+          "text": "An amoeba",
+          "rationale": "Consumer: this single cell engulfs smaller organisms and uses their matter and energy."
+        },
+        {
+          "id": "kelp",
+          "text": "Giant kelp, a seaweed growing up toward the sunlit ocean surface",
+          "rationale": "Producer: kelp is an alga, not a plant, yet it makes its own food by photosynthesis. Living in water or not being a plant doesn't make something a consumer."
+        }
+      ],
+      "bins": [
+        {
+          "id": "producer",
+          "label": "Producer (makes its own food)"
+        },
+        {
+          "id": "consumer",
+          "label": "Consumer (eats or absorbs food from other organisms)"
+        }
+      ],
+      "answer": {
+        "oak": "producer",
+        "grass": "producer",
+        "squirrel": "consumer",
+        "tapeworm": "consumer",
+        "amoeba": "consumer",
+        "kelp": "producer"
+      },
+      "explanation": "Producers make their own food, and not all of them are plants: giant kelp is an alga that builds its food by photosynthesis, just as oak trees and grass do. Consumers can't make their own food, so they get it from other organisms. A squirrel eats acorns and an amoeba engulfs smaller cells, while a tapeworm, which has no digestive system, absorbs food its host has already digested. Eating and absorbing both count.",
+      "misconception": "Only plants make their own food, or an organism has to swallow its food to be a consumer.",
+      "hint": "Does it build its own food, or take in food that something else made?",
+      "followUpId": "L05-Q06",
+      "scope": {
+        "lessonId": "L05",
+        "section": "1. Consumers",
+        "pages": {
+          "printed": [
+            55,
+            56
+          ],
+          "pdf": [
+            91,
+            92
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            55
+          ],
+          "pdfPages": [
+            91
+          ],
+          "locator": "Introduction",
+          "supports": "An oak tree is a producer that stored matter and energy in its acorn; the squirrel eats the acorn."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "Consumers take in other organisms for matter and energy, by eating them or by absorbing them; the single-celled amoeba is one example."
+        },
+        {
+          "type": "external",
+          "title": "What is a kelp forest?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/kelp.html",
+          "accessed": "2026-10-17",
+          "supports": "Kelp are large brown algae of cool, shallow coastal water, and kelp forests grow only in shallow water because kelp depends on light for photosynthesis."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 23.3 Groups of Protists",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists",
+          "accessed": "2026-10-17",
+          "supports": "Brown algae, the multicellular marine seaweeds that include giant kelp, are described among the protists (the stramenopile group) rather than among plants, though some resemble land plants; their leaf-like parts can photosynthesize."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 28.3 Superphylum Lophotrochozoa: Flatworms, Rotifers, and Nemerteans",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+          "accessed": "2026-10-17",
+          "supports": "Tapeworms lack a digestive system altogether; their long, flat bodies absorb nutrients from the digested food around them in the host's intestine."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 55-56 (rendered). Each item has one defensible bin. Round 1 (2026-10-14): the fish item (a second animal consumer) was replaced by phytoplankton, a single-celled water-dwelling producer, so the item now sets a single-celled producer against a single-celled consumer (bins 3/3) and actually tests its stated misconception. Lesson 4 p. 45 / PDF 81 rendered and read for the phytoplankton record. Review round 2 (2026-10-14): REBUILT after the pedagogy review: with phytoplankton against an amoeba it had drifted toward L06-Q05 (already reviewed), and the 'absorbing' half of the consumer definition (p. 56) was untested. Phytoplankton became giant kelp (a producer that is an alga, not a plant) and the dolphin became a tapeworm (a consumer that absorbs rather than eats); oak, grass, squirrel and amoeba kept; bins stay 3/3. The consumer bin now reads 'eats or absorbs food from other organisms', since a tapeworm absorbs its host's digested food, not the host. The science reviewer's read-aloud fix is included: the producer group no longer says 'by photosynthesis' (L05-RF12). The L04 p. 45 phytoplankton record was dropped; NOAA (kelp forests), OpenStax 23.3 (brown algae are protists) and OpenStax 28.3 (tapeworms absorb digested food) were opened on 2026-10-17. Deviation: the host is a cat, not the reviewer's dog, because L21-Q10 already uses 'a tapeworm lives in a dog's intestine' (there to classify a parasitic relationship, a different idea); 'no mouth' was not used because the opened source says only that tapeworms lack a digestive system. Verify-agent (2026-10-14): Checked against pp. 55-56 (rendered) for the eat-or-absorb consumer definition; NOAA kelp page, OpenStax 23.3 and OpenStax 28.3 re-opened and match their supports lines. Every item has one defensible bin. First science check of the rebuilt version: no issues.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: fish item replaced with phytoplankton (single-celled producer) so the single-celled/water misconception is tested; bins 3/3"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud prompt no longer says producers make food by photosynthesis"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt with giant kelp (producer, not a plant) and a tapeworm (consumer that absorbs) to separate it from L06-Q05 and test 'absorbing'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q03",
+      "objectiveIds": [
+        "L05-O1"
+      ],
+      "conceptTags": [
+        "producer",
+        "consumer",
+        "matter-and-energy-source"
+      ],
+      "familyId": "L05-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Which statements are true of producers only, consumers only, or both?",
+      "accessiblePrompt": "Sort each statement into one of three groups: true of producers only, true of consumers only, or true of both producers and consumers.",
+      "conditions": "Think of typical producers, such as trees and grass, that make food by photosynthesis, and typical consumers, such as animals, that get food from other organisms.",
+      "items": [
+        {
+          "id": "s1",
+          "text": "Captures energy from sunlight to build sugar",
+          "rationale": "Producers only: capturing light to make sugar is photosynthesis, which consumers can't do."
+        },
+        {
+          "id": "s2",
+          "text": "Breaks down sugar to power its cells",
+          "rationale": "Both: producers and consumers alike release the energy in sugar by cellular respiration."
+        },
+        {
+          "id": "s3",
+          "text": "Gets matter for new cells by eating other organisms",
+          "rationale": "Consumers only: producers build their bodies from carbon dioxide and water instead."
+        },
+        {
+          "id": "s4",
+          "text": "Has to take in sugar that another organism made",
+          "rationale": "Consumers only: producers make their own sugar, but consumers must take it from the organisms they eat."
+        },
+        {
+          "id": "s5",
+          "text": "Uses the atoms in sugar to build new cells",
+          "rationale": "Both: producers use the sugar they make, and consumers use sugar and other molecules from their food. Either way, those atoms become part of new cells."
+        },
+        {
+          "id": "s6",
+          "text": "Gets the carbon atoms for its body from carbon dioxide",
+          "rationale": "Producers only: photosynthesis puts the carbon from carbon dioxide into sugar, and the producer builds its body mainly from that sugar. Consumers get their carbon from food."
+        }
+      ],
+      "bins": [
+        {
+          "id": "prod",
+          "label": "Producers only"
+        },
+        {
+          "id": "cons",
+          "label": "Consumers only"
+        },
+        {
+          "id": "both",
+          "label": "Both"
+        }
+      ],
+      "answer": {
+        "s1": "prod",
+        "s2": "both",
+        "s3": "cons",
+        "s4": "cons",
+        "s5": "both",
+        "s6": "prod"
+      },
+      "explanation": "Producers and consumers differ in how they get food. For energy, producers capture sunlight to build sugar, while consumers get sugar by eating other organisms. For matter, producers take carbon from carbon dioxide, while consumers take it from the organisms they eat. Once they have sugar, both use it the same way: they break it down for energy and use its atoms to build new cells.",
+      "misconception": "Producers run directly on sunlight and don't need food for energy.",
+      "hint": "Separate getting food from using food.",
+      "followUpId": "L05-Q16",
+      "scope": {
+        "lessonId": "L05",
+        "section": "2. Sources of Matter and Energy",
+        "pages": {
+          "printed": [
+            56,
+            57
+          ],
+          "pdf": [
+            92,
+            93
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy, Figure 2",
+          "supports": "Both producers and consumers use sugars for energy; only producers capture sunlight to make sugar; producers draw their matter from carbon dioxide and water, consumers from eating other organisms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "Producers build, maintain and grow their bodies from the matter in the food they make, and consumers from the matter in the food they eat."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Mirrors the Figure 2 table (p. 57, rendered) in original statements; the soil row is left out (L05-RF6). Round 1 (2026-10-14): rebuilt as an energy/matter grid (pedagogy review): s4 and s5 rewritten, s6 added; bins 2/2/2. s6 says 'carbon atoms ... from carbon dioxide' rather than the reviewer's 'building matter from carbon dioxide and water', because consumers' cells also contain water they drink (L05-RF7), which would make the reviewer's wording true of both. Science reviewer's optional conditions wording (typical producers and consumers) applied, which handles edge cases such as meat-eating plants. s6 now carries the soil-versus-air point (L05-RF6). Review round 2 (2026-10-14): s6 rationale reworded (science review): photosynthesis puts carbon from carbon dioxide into sugar, and the producer builds its body mainly from that sugar, leaving room for the soil minerals in L05-RF6. Optional pedagogy edit applied: s4 no longer repeats s3's phrase 'by eating other organisms', so the two consumer items can't be sorted by one keyword. Bins and answer map unchanged. Both evidence lines were paraphrased (they shared 7-8 words with the textbook). Verify-agent (2026-10-14): Checked against the Figure 2 table on p. 57 (rendered; check marks read from the image) and p. 56. Every statement has one defensible bin under the stated typical-organism conditions.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt as a 2x2 energy/matter sort plus a shared row; s4 and s5 rewritten, s6 added; bins 2/2/2"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: s6 rationale says carbon from carbon dioxide goes into sugar and the body is built mainly from that sugar; both evidence lines paraphrased"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q04",
+      "objectiveIds": [
+        "L05-O1"
+      ],
+      "conceptTags": [
+        "producer",
+        "sources-of-matter",
+        "plant-mass"
+      ],
+      "familyId": "L05-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An acorn sprouts and, over 80 years, grows into an oak with thousands of kilograms of wood. Where did most of the matter in that wood come from?",
+      "accessiblePrompt": "An acorn sprouts and, over 80 years, grows into an oak tree with thousands of kilograms of wood. Where did most of the matter in that wood come from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carbon dioxide from the air, plus water",
+          "rationale": "Correct. Photosynthesis builds sugar out of carbon dioxide and water, and the tree builds wood from that sugar. Most of a plant's dry mass is carbon that arrived as carbon dioxide."
+        },
+        {
+          "id": "b",
+          "text": "Minerals and soil packed around the roots",
+          "rationale": "Soil supplies small amounts of minerals such as nitrogen, but the ground under an oak doesn't shrink by thousands of kilograms. The bulk came from air and water."
+        },
+        {
+          "id": "c",
+          "text": "Sunlight soaking into the leaves",
+          "rationale": "Sunlight brings energy, not matter. It powers sugar-building, but no atom in the wood came from light."
+        },
+        {
+          "id": "d",
+          "text": "The acorn the tree grew from",
+          "rationale": "An acorn has only a few grams of matter. It got the seedling started but can't account for tons of wood."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Producers get their building matter from carbon dioxide and water. Photosynthesis joins them into sugar, and the tree uses that sugar to build wood. Soil adds a small amount of minerals, and sunlight supplies the energy, but the atoms that make up most of the wood came out of the air and water.",
+      "misconception": "Plants get most of their mass from the soil, or sunlight turns into plant matter.",
+      "hint": "Which choices are actually matter, and which one could supply the carbon that wood is built from?",
+      "followUpId": "L05-Q26",
+      "scope": {
+        "lessonId": "L05",
+        "section": "2. Sources of Matter and Energy",
+        "pages": {
+          "printed": [
+            57
+          ],
+          "pdf": [
+            93
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy",
+          "supports": "Producers get matter from carbon dioxide and water in their surroundings and use these molecules to make sugars and build their bodies."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 31.1 Nutritional Requirements of Plants",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+          "accessed": "2026-10-14",
+          "supports": "Plants take in carbon as carbon dioxide from the atmosphere, carbon makes up the majority of the dry mass of most plants, and the soil supplies mineral nutrients such as nitrogen and potassium."
+        }
+      ],
+      "review": {
+        "status": "rejected",
+        "notes": "Targets the guide's 'soil is not the main source of plant mass'. Figure 2's soil row handled in L05-RF6 with OpenStax 31.1. REJECTED in review round 1 (2026-10-14): cross-lesson duplicate of L04-Q16 (sequoia; most dry mass from carbon dioxide; same key and the same soil and sunlight distractors), which the word-shingle check can't see. Plant-mass origin belongs to L04. In L05 the producer matter-source point is carried by Q03 item s6 and the O1 card (L05-RF6). The science reviewer's hint fix (carbon dioxide is not 'mostly carbon') was applied before rejection. Replaced by L05-Q29. Review round 2 (2026-10-14): Both reviewers confirmed the rejection (cross-lesson duplicate of L04-Q16). Its replacement, L05-Q29, was written in round 1, so no second replacement was added. No followUpId points to Q04.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer calls carbon dioxide 'mostly carbon'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: cross-lesson duplicate of L04-Q16 (plant mass comes from carbon dioxide)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: confirmed; cross-lesson duplicate of L04-Q16 (already replaced by Q29)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: confirmed; duplicate of L04-Q16, and no followUpId points to it"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q05",
+      "objectiveIds": [
+        "L05-O1",
+        "L05-O4"
+      ],
+      "conceptTags": [
+        "consumer",
+        "sources-of-matter",
+        "conservation-of-matter"
+      ],
+      "familyId": "L05-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A young squirrel grows new muscle all autumn. Where did most of the carbon atoms in that new muscle come from?",
+      "accessiblePrompt": "A young squirrel grows new muscle all autumn. Where did most of the carbon atoms in that new muscle come from?",
+      "limitations": "Water the squirrel drinks also becomes part of its cells; this question asks only about carbon atoms.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The acorns and other food it ate",
+          "rationale": "Correct. Consumers build their cells from the matter in their food. The acorn's molecules were broken down and rebuilt into squirrel muscle."
+        },
+        {
+          "id": "b",
+          "text": "Carbon dioxide it breathed in from air",
+          "rationale": "Only producers can build sugar from carbon dioxide. The squirrel actually breathes carbon dioxide out, as a product of cellular respiration."
+        },
+        {
+          "id": "c",
+          "text": "Oxygen it breathed in",
+          "rationale": "Oxygen gas contains no carbon atoms at all. The squirrel uses oxygen as a reactant in cellular respiration."
+        },
+        {
+          "id": "e",
+          "text": "Water it drank from a stream",
+          "rationale": "Water does become part of the squirrel's cells, but H₂O has no carbon atoms, so it can't supply the carbon in new muscle."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Producers build their bodies from carbon dioxide and water, but consumers can't. A squirrel gets its building materials from food: digestion breaks the acorn's molecules into smaller pieces, and its cells rebuild them into squirrel muscle. The carbon in that muscle once sat in an oak tree, and before that in the air.",
+      "misconception": "Animals build their bodies from the air they breathe, just as plants do.",
+      "hint": "Which choice could actually hand the squirrel carbon atoms it can use?",
+      "followUpId": "L05-Q24",
+      "scope": {
+        "lessonId": "L05",
+        "section": "2. Sources of Matter and Energy",
+        "pages": {
+          "printed": [
+            56,
+            57
+          ],
+          "pdf": [
+            92,
+            93
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy",
+          "supports": "Consumers do not use the air they breathe to build cells; they must eat other organisms and use that matter to build their cells."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "A producer's body matter goes on to build the cells and bodies of the consumers that eat it."
+        },
+        {
+          "type": "external",
+          "title": "The Water in You: Water and the Human Body",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body",
+          "accessed": "2026-10-14",
+          "supports": "Water is a building material of every cell, so drinking water also contributes matter to an animal's body; the question is limited to carbon atoms."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Asks about carbon specifically because of L05-RF7 (consumers' cells do contain water they drink). Round 1 (2026-10-14): the implausible 'sunlight warming its fur' distractor (which repeated Q06 c) was replaced by drinking water (new id e), the real misconception behind L05-RF7. Review round 2 (2026-10-14): both reviewers passed it; the p. 56 evidence line was paraphrased (it shared 7 words with the textbook). Verify-agent (2026-10-14): Checked against pp. 56-57. The USGS page could not be re-opened by the verifier (HTTP 403 / timeout); it supports only the limitation, not the key.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: sunlight distractor replaced with drinking water (new id e), the L05-RF7 misconception"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: evidence line paraphrased (lesson-level originality finding)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q06",
+      "objectiveIds": [
+        "L05-O1"
+      ],
+      "conceptTags": [
+        "chemical-energy",
+        "food"
+      ],
+      "familyId": "L05-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "Which of these hold stored chemical energy that a consumer's cells could use? Select all that apply.",
+      "accessiblePrompt": "Which of these hold stored chemical energy that a consumer's cells could use? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An acorn",
+          "rationale": "Correct. The oak packed sugars, fats and other energy-rich molecules into its seed, and a squirrel's cells can release that energy."
+        },
+        {
+          "id": "b",
+          "text": "A fish",
+          "rationale": "Correct. A fish's body is built of energy-rich molecules such as proteins and fats, which become food for a dolphin."
+        },
+        {
+          "id": "c",
+          "text": "Sunlight",
+          "rationale": "Sunlight is light energy, not stored chemical energy, and consumers can't capture it to make food. Only producers turn light energy into chemical energy stored in sugar."
+        },
+        {
+          "id": "d",
+          "text": "A glass of water",
+          "rationale": "Water holds no usable food energy. It's one of the leftovers of cellular respiration, not a fuel for it."
+        },
+        {
+          "id": "e",
+          "text": "Carbon dioxide in a breath",
+          "rationale": "Carbon dioxide is a low-energy product of cellular respiration. Cells can't get more energy out of it."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Food is stored chemical energy: molecules built by living things, such as sugars, fats and proteins. Acorns and fish are both made of those molecules. Sunlight is energy that only producers can capture, and water and carbon dioxide are the low-energy leftovers of cellular respiration.",
+      "misconception": "Anything an animal takes in, including water, air or sunlight, is a source of food energy.",
+      "hint": "Which of these did a living thing build and pack with fuel?",
+      "followUpId": "L05-Q12",
+      "scope": {
+        "lessonId": "L05",
+        "section": "1. Consumers",
+        "pages": {
+          "printed": [
+            56,
+            57
+          ],
+          "pdf": [
+            92,
+            93
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "Every organism runs on energy stored in food; dolphins eat fish."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy",
+          "supports": "Producers store captured sunlight energy in sugar; consumers can get that usable energy only by eating other organisms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Carbon dioxide and water are the products left after sugar's stored energy is released."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of five; all-or-nothing scoring. Drafted from printed pp. 56, 57, 59. Round 1 (2026-10-14): science reviewer's optional edit applied: choice c rationale now gives the main reason sunlight fails (it is not stored chemical energy). Review round 2 (2026-10-14): The p. 56 and p. 57 evidence lines were paraphrased (science review, lesson-level originality finding). Optional pedagogy edit applied: the hint no longer states the whole selection rule (sugars, fats or proteins). Verify-agent (2026-10-14): Checked against pp. 56, 57 and 59. Two correct of five; each rationale is specific.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: p. 56 and p. 57 evidence lines paraphrased (they echoed textbook wording)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q07",
+      "objectiveIds": [
+        "L05-O1",
+        "L05-O3"
+      ],
+      "conceptTags": [
+        "chemical-energy",
+        "plant-respiration",
+        "sugar-as-fuel"
+      ],
+      "familyId": "L05-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An oak's roots spread deep underground, where sunlight never reaches. How do the root cells get the energy they need?",
+      "accessiblePrompt": "An oak's roots spread deep underground, where sunlight never reaches. How do the root cells get the energy they need?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Root cells break down sugar sent from the leaves",
+          "rationale": "Correct. The leaves store captured light energy as chemical energy in sugar. Sugar carried to the root is broken down there by cellular respiration."
+        },
+        {
+          "id": "b",
+          "text": "Root cells catch faint light that seeps through soil",
+          "rationale": "Root cells can't capture light, especially underground. The energy was captured up in the leaves."
+        },
+        {
+          "id": "c",
+          "text": "Root cells take ready-made energy from soil water",
+          "rationale": "Soil water and minerals carry no usable chemical energy. The root's fuel is sugar made by the leaves."
+        },
+        {
+          "id": "d",
+          "text": "Root cells need no energy, since they don't photosynthesize",
+          "rationale": "Every living cell needs energy to grow and stay alive. Not photosynthesizing just means the root must get sugar from somewhere else."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Light energy is captured in the leaves and stored as chemical energy in sugar, a form that can travel. Sugar made in the leaves travels to parts that never see light, like roots, and those cells release its energy by cellular respiration in their mitochondria. Roots are a clear case of a producer's cells living on stored energy, just like a consumer's.",
+      "misconception": "Plant cells that don't photosynthesize don't need energy, or they get energy straight from sunlight or soil.",
+      "hint": "Where in the plant is light energy turned into a form that can travel?",
+      "followUpId": "L05-Q14",
+      "scope": {
+        "lessonId": "L05",
+        "section": "2. Sources of Matter and Energy",
+        "pages": {
+          "printed": [
+            57,
+            58
+          ],
+          "pdf": [
+            93,
+            94
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy",
+          "supports": "Producers capture energy from sunlight and store it in sugar molecules, and the energy stored in sugar can then be used by plant and animal cells."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Producers' cells, like consumers', carry out cellular respiration in their mitochondria."
+        },
+        {
+          "type": "external",
+          "title": "PlantFacts: Respiration (HCS 300)",
+          "publisher": "The Ohio State University",
+          "url": "https://plantfacts.osu.edu/resources/hcs300/respire.htm",
+          "accessed": "2026-10-14",
+          "supports": "Non-green plant parts such as roots get their energy from respiration."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the p. 57 idea in its defensible form (stored in sugar so other cells can use it); see L05-RF4. Round 1 (2026-10-14): explanation no longer says light energy is useful to plant cells only after storage (L05-RF4); the p. 57 evidence record is paraphrased in that defensible form. Carrot root replaced by the oak's roots (avoids L04-Q19/Q20's seed and carrot examples and ties to the lesson's oak anchor). The key now starts 'Root cells' like every distractor, removing the grammar cue; same claim, so id a kept. Verify-agent (2026-10-14): Checked against pp. 57-58 and the Ohio State PlantFacts page (re-opened: non-green parts get their energy from respiration).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation's first sentence now says light energy is stored in sugar, a form that can travel (no 'only after storage' absolute)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: oak roots replace the carrot used in L04; key reworded to open 'Root cells' like the distractors"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q08",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "respiration-equation",
+        "reactants-and-products"
+      ],
+      "familyId": "L05-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "In the cellular respiration model, which of these are written on the products side of the arrow? Select all that apply.",
+      "accessiblePrompt": "In the cellular respiration model, which of these are written on the products side, after the arrow? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carbon dioxide",
+          "rationale": "Correct. Each carbon atom from the sugar ends up in a carbon dioxide molecule."
+        },
+        {
+          "id": "b",
+          "text": "Water",
+          "rationale": "Correct. The sugar's hydrogen atoms end up in water molecules."
+        },
+        {
+          "id": "c",
+          "text": "Energy",
+          "rationale": "Correct. Energy is written after the arrow because the reaction releases it for the cell to use. It isn't matter, so it has no atoms."
+        },
+        {
+          "id": "d",
+          "text": "Oxygen",
+          "rationale": "Oxygen is a reactant: cells use it up. Giving off oxygen belongs to photosynthesis."
+        },
+        {
+          "id": "e",
+          "text": "Sugar (glucose)",
+          "rationale": "Sugar is the fuel that goes in. It is broken down, not made, in cellular respiration."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Sugar and oxygen go in as reactants. Carbon dioxide and water come out as products, and energy is written on the products side because the reaction releases it. In symbols: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy.",
+      "misconception": "Cellular respiration gives off oxygen, mixing it up with photosynthesis.",
+      "hint": "Think about what the cell gets out of the reaction as well as what it gets rid of.",
+      "followUpId": "L05-Q10",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            59,
+            60
+          ],
+          "pdf": [
+            95,
+            96
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, Figure 3B",
+          "supports": "Sugar and oxygen are the reactants, carbon dioxide and water the products, and the textbook writes energy after the arrow alongside the products."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            60
+          ],
+          "pdfPages": [
+            96
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Cellular Respiration",
+          "supports": "Oxygen and sugar are used; carbon dioxide and water are produced; energy is released."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct of five. Equation taken from the renders of pp. 59-60 (L05-RF1). Round 1 (2026-10-14): hint no longer steers learners toward waste products only. Review round 2 (2026-10-14): The p. 59 evidence line shared a 13-word run with the textbook; it is now paraphrased (science review). Verify-agent (2026-10-14): Checked against the rendered equations on pp. 59-60 (energy is written after the arrow, as a product).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint now covers what the cell gets out of the reaction, not only leftovers"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: p. 59 evidence line paraphrased (it shared a 13-word run with the textbook)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q09",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "respiration-equation",
+        "conservation-of-atoms",
+        "tracing-atoms"
+      ],
+      "familyId": "L05-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In cellular respiration, C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Where do the 12 hydrogen atoms from one sugar molecule end up?",
+      "accessiblePrompt": "The cellular respiration equation is: one C six H twelve O six, a sugar molecule with six carbon, twelve hydrogen and six oxygen atoms, plus six O two, six oxygen molecules with two oxygen atoms each, yields six C O two, six carbon dioxide molecules with one carbon and two oxygen atoms each, plus six H two O, six water molecules with two hydrogen atoms and one oxygen atom each, plus energy. Where do the 12 hydrogen atoms from one sugar molecule end up?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "In the six water molecules, two in each",
+          "rationale": "Correct. Water is the only product that contains hydrogen. Six H₂O molecules hold 6 × 2 = 12 hydrogen atoms, exactly the number the sugar brought in."
+        },
+        {
+          "id": "f",
+          "text": "In the six carbon dioxide molecules",
+          "rationale": "Carbon dioxide, CO₂, is made only of carbon and oxygen atoms, so it can't hold any of the hydrogen."
+        },
+        {
+          "id": "g",
+          "text": "They escape from the cell as hydrogen gas",
+          "rationale": "No hydrogen gas appears among the products. Every hydrogen atom is accounted for in the water."
+        },
+        {
+          "id": "h",
+          "text": "Back in a new sugar molecule",
+          "rationale": "Cellular respiration breaks sugar down; it doesn't build new sugar. Building sugar from carbon dioxide and water is photosynthesis."
+        }
+      ],
+      "answer": "e",
+      "explanation": "Atoms aren't created or destroyed, so all 12 hydrogen atoms from the sugar must show up among the products. Carbon dioxide has no hydrogen, so they all end up in water: 6 water molecules × 2 hydrogen atoms = 12. Tracing one element at a time like this is how the equation keeps track of matter.",
+      "misconception": "Atoms from the sugar can vanish or land in any product, instead of being counted in the product molecules that actually contain that element.",
+      "hint": "Check which product molecules contain any hydrogen at all.",
+      "followUpId": "L05-Q10",
+      "scope": {
+        "lessonId": "L05",
+        "section": "Key Science Concept: Matter and Energy in Cellular Respiration",
+        "pages": {
+          "printed": [
+            59,
+            60
+          ],
+          "pdf": [
+            95,
+            96
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, Figure 3B",
+          "supports": "Sugar and oxygen react to give carbon dioxide and water; one sugar molecule, with its six carbons, yields six molecules of each product, and no atoms are lost."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            60
+          ],
+          "pdfPages": [
+            96
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Cellular Respiration",
+          "supports": "The spread prints C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy and shows models of the water molecules (two hydrogen atoms and one oxygen atom each) and carbon dioxide molecules (one carbon and two oxygen atoms each)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 59 (rendered). REWRITTEN in review round 1 (2026-10-14): the old item ('why does one sugar always give exactly six CO₂?') repeated L04-Q10's carbon-counting reasoning and stated an unsupported absolute. It now traces the sugar's 12 hydrogen atoms into water under the overall-equation model, with conditions (complete breakdown) and a limitation (the real pathway passes hydrogen between molecules). Distractor h ('back in a new sugar') replaces the pedagogy reviewer's suggested 'they become the energy the cell uses', which would have repeated the matter-to-energy distractor the same review asked to thin out (Q11, Q12 b, Q26 c). Fresh choice ids e-h because every claim changed. Checked: 6 × 2 = 12 H in water; CO₂ has no H. Renders of pp. 59-60 re-viewed in round 1. Review round 2 (2026-10-14): Choice g no longer shows the formula H₂, which a screen reader would read as raw subscript characters (pedagogy review, lesson-level accessibility). It now reads 'They escape from the cell as hydrogen gas' (41 characters), so the 39-character key is still not the longest choice. Same claim, so id g kept. Verify-agent (2026-10-14): Checked against the rendered equation on pp. 59-60; 6 H₂O × 2 = 12 H, CO₂ has none.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'always ... exactly six' absolute removed; the item now states complete breakdown under the overall equation"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten to trace hydrogen into water (old 'why six CO₂' duplicated L04-Q10); hint no longer names the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hydrogen-gas choice spelled out without the formula, for read-aloud"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Use the overall equation: one sugar molecule broken down completely with oxygen.",
+      "limitations": "The equation is a summary. Inside cells the reaction runs as many small steps, and hydrogen atoms are passed between molecules along the way, but the totals balance exactly as the equation shows."
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q10",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "respiration-equation",
+        "ratios-in-equations",
+        "conservation-of-atoms"
+      ],
+      "familyId": "L05-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "In a model, a muscle cell completely breaks down 4 sugar molecules by cellular respiration (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy). How many oxygen molecules, O₂, does it use?",
+      "accessiblePrompt": "In a model, a muscle cell completely breaks down 4 sugar molecules by cellular respiration. The equation is: one C six H twelve O six, a sugar molecule, plus six O two, six oxygen molecules, yields six C O two, six carbon dioxide molecules, plus six H two O, six water molecules, plus energy. How many oxygen molecules, O two, does the cell use?",
+      "units": "molecules",
+      "answer": 24,
+      "tolerance": 0,
+      "unit": "O₂ molecules",
+      "workedSolution": "The equation uses 6 O₂ for each sugar molecule: 4 × 6 = 24 O₂. Check: 4 sugars and 24 O₂ make 24 CO₂ and 24 H₂O, and every atom balances (24 C, 48 H and 72 O on each side).",
+      "explanation": "The equation is the recipe for one sugar molecule, and the amounts scale with how much sugar reacts: 4 sugars need 4 × 6 = 24 O₂ and give off 24 CO₂. That's why you breathe harder when your muscles break down more sugar: the cells need more oxygen delivered and more carbon dioxide carried away.",
+      "misconception": "The coefficients are fixed amounts no matter how much sugar reacts, or one O₂ is used per sugar molecule.",
+      "hint": "The equation is the recipe for one sugar molecule. How many times is the recipe run?",
+      "followUpId": "L05-Q09",
+      "scope": {
+        "lessonId": "L05",
+        "section": "Key Science Concept: Matter and Energy in Cellular Respiration",
+        "pages": {
+          "printed": [
+            59,
+            60
+          ],
+          "pdf": [
+            95,
+            96
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            60
+          ],
+          "pdfPages": [
+            96
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Cellular Respiration",
+          "supports": "The chemical equation C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy, with six oxygen molecules used for each sugar molecule."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Gases of Cellular Respiration",
+          "supports": "Breathing takes in the oxygen that cellular respiration needs and gives off the carbon dioxide it makes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "REWRITTEN in review round 1 (2026-10-14): the old item counted the 18 oxygen atoms in 6CO₂ + 6H₂O, the same count on the same molecules as L04-Q09. It now scales the equation (6 O₂ per sugar molecule), a skill no other item tests. Arithmetic checked: 4 × 6 = 24; atom check 24 C, 48 H, 72 O on each side. The science reviewer passed the earlier version; this rewrite has not yet had a science review. Verify-agent (2026-10-14): Science check of the round 1 rewrite: 4 × 6 = 24 O₂; atoms balance at 24 C, 48 H, 72 O. Equation read from the p. 60 render.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a ratio question (4 sugars need 24 O₂); the old 18-oxygen count duplicated L04-Q09"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Every sugar molecule is broken down completely with oxygen, exactly as the equation shows."
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q11",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "conservation-of-mass",
+        "respiration-equation"
+      ],
+      "familyId": "L05-F05",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "In a lab model, 180 g of glucose reacts completely with 192 g of oxygen. The reaction makes 264 g of carbon dioxide and some water. How many grams of water form?",
+      "accessiblePrompt": "In a lab model, 180 grams of glucose, a sugar, reacts completely with 192 grams of oxygen. The reaction makes 264 grams of carbon dioxide and some water. How many grams of water form?",
+      "units": "grams (g)",
+      "conditions": "Closed system: nothing enters or leaves, and all of the glucose and oxygen react.",
+      "limitations": "This is a model calculation. Inside cells the reaction runs in many small steps, but the totals obey the same conservation rule.",
+      "answer": 108,
+      "tolerance": 1,
+      "unit": "g",
+      "workedSolution": "Mass is conserved, so the products weigh as much as the reactants: 180 g + 192 g = 372 g. Water = 372 g − 264 g = 108 g.",
+      "explanation": "Because atoms are only rearranged, the total mass of the products must equal the total mass of the reactants. The reactants total 372 g, so after 264 g of carbon dioxide, the remaining 108 g must be water. Releasing energy doesn't make any matter disappear.",
+      "misconception": "Some mass is used up or turned into energy when sugar is broken down.",
+      "hint": "What must be true about the total mass before and after the reaction?",
+      "followUpId": "L05-Q12",
+      "scope": {
+        "lessonId": "L05",
+        "section": "Key Science Concept: Matter and Energy in Cellular Respiration",
+        "pages": {
+          "printed": [
+            59,
+            60
+          ],
+          "pdf": [
+            95,
+            96
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            60
+          ],
+          "pdfPages": [
+            96
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Cellular Respiration",
+          "supports": "The spread says the matter in sugar and oxygen ends up, in equal amount, as carbon dioxide and water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Matter is not lost in cellular respiration; it just changes form."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Numbers match the real equation (180 + 192 = 264 + 108 = 372); arithmetic checked. Round 1 (2026-10-14): pedagogy reviewer's optional edit applied: followUpId now L05-Q12 (F06), which repairs the 'mass turns into energy' idea a wrong answer here signals. Review round 2 (2026-10-14): The p. 60 evidence line was paraphrased (science review, lesson-level). Optional pedagogy edit applied: the hint no longer hands over the first step. Kept despite a calculation pattern shared with L13-Q18 (reviewed): this item uses the p. 60 claim and targets the L05-specific idea that releasing energy destroys mass; flagged for the verifier. Verify-agent (2026-10-14): Arithmetic re-checked: 180 + 192 = 372 g; 372 - 264 = 108 g; values match the real molar masses for one mole of glucose. Cross-lesson pattern overlap with L13-Q18 weighed: different reaction and a lesson-specific misconception, kept.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: p. 60 evidence line paraphrased"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q12",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "energy-conversion",
+        "chemical-energy"
+      ],
+      "familyId": "L05-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Jordan says, \"Cellular respiration creates energy out of sugar.\" Which revision of Jordan's statement is most accurate?",
+      "accessiblePrompt": "Jordan says that cellular respiration creates energy out of sugar. Which revision of Jordan's statement is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It releases chemical energy stored in sugar",
+          "rationale": "Correct. Energy isn't made from nothing. Respiration converts chemical energy that photosynthesis stored in sugar into forms the cell uses, and some becomes heat."
+        },
+        {
+          "id": "b",
+          "text": "It turns the sugar's atoms into pure energy",
+          "rationale": "No atoms are destroyed or turned into energy in a chemical reaction. They all leave in carbon dioxide and water."
+        },
+        {
+          "id": "c",
+          "text": "It captures energy from sunlight, like photosynthesis",
+          "rationale": "Capturing light energy is photosynthesis. Respiration releases energy that was already stored, and it runs in the dark too."
+        },
+        {
+          "id": "d",
+          "text": "It stores new energy inside the carbon dioxide it makes",
+          "rationale": "Carbon dioxide is a low-energy product. The energy goes to the cell's work and to heat, not into the carbon dioxide."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Energy can change form or move, but it can't be created or destroyed. In cellular respiration, chemical energy stored in sugar is released and converted into forms the cell can use, with some escaping as heat. The atoms aren't used up either; they leave in carbon dioxide and water.",
+      "misconception": "Cellular respiration creates energy, or turns matter into energy.",
+      "hint": "Where was the energy before the sugar was broken down?",
+      "followUpId": "L05-Q11",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            59
+          ],
+          "pdf": [
+            95
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Process of Cellular Respiration",
+          "supports": "Cellular respiration releases energy that was stored in sugar during photosynthesis, and matter is not lost."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 6.3 The Laws of Thermodynamics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/6-3-the-laws-of-thermodynamics",
+          "accessed": "2026-10-14",
+          "supports": "Energy can be transferred or transformed but cannot be created or destroyed, and cellular metabolic reactions release part of their energy as heat."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the textbook's 'generates energy' wording (L05-RF4). Verify-agent (2026-10-14): Checked against p. 59 (energy stored during photosynthesis is released; matter not lost); repairs the textbook's \"generates energy\" wording (L05-RF4).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q13",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "bond-energy",
+        "energy-conversion"
+      ],
+      "familyId": "L05-F06",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Breaking chemical bonds always takes energy, and forming bonds releases energy. So why does cellular respiration give off energy overall?",
+      "accessiblePrompt": "Breaking chemical bonds always takes energy, and forming bonds releases energy. So why does cellular respiration give off energy overall?",
+      "conditions": "Use the bond-energy idea stated in the question: breaking a bond requires energy, and forming a bond releases energy.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forming carbon dioxide and water releases more than breaking bonds costs",
+          "rationale": "Correct. The new bonds in carbon dioxide and water are stronger, so forming them releases more energy than pulling sugar and oxygen apart took."
+        },
+        {
+          "id": "b",
+          "text": "Breaking the sugar's bonds is what releases the energy",
+          "rationale": "This is the common shortcut, but breaking any bond costs energy. The payoff comes when the new bonds form."
+        },
+        {
+          "id": "e",
+          "text": "Breathing in oxygen is what supplies the energy",
+          "rationale": "Breathing only moves oxygen in and carbon dioxide out. The energy is released by the reaction inside cells, when the new bonds in carbon dioxide and water form."
+        },
+        {
+          "id": "d",
+          "text": "No bonds actually break, so the reaction never needs to spend any energy",
+          "rationale": "Sugar and oxygen molecules have to come apart for their atoms to regroup into carbon dioxide and water, so bonds are broken."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A reaction's energy bill has two parts: breaking bonds costs energy, and forming bonds pays energy back. In cellular respiration, the bonds formed in carbon dioxide and water release more energy than it took to pull sugar and oxygen apart, so the reaction gives off energy overall. That is why we say sugar and oxygen together store energy: they hold more chemical energy than the carbon dioxide and water they become.",
+      "misconception": "Breaking chemical bonds releases energy.",
+      "hint": "Compare the energy spent on old bonds with the energy returned by new ones.",
+      "followUpId": "L05-Q09",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            59
+          ],
+          "pdf": [
+            95
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Process of Cellular Respiration",
+          "supports": "The textbook describes energy stored in the bonds of sugar being released as the sugar is broken down into carbon dioxide and water."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 7.5 Strengths of Ionic and Covalent Bonds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "accessed": "2026-10-14",
+          "supports": "Separating bonded atoms always requires energy, energy is released when bonds form, and a reaction releases energy overall when the bonds in the products are stronger than those in the reactants."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Teaches the net bond-energy picture the guide requires and repairs the 'stored in bonds' shortcut (L05-RF4). Difficulty 3. Round 1 (2026-10-14): distractor c ('atoms destroyed, mass becomes energy', repeated in Q12 b and Q26 c) replaced by a breathing-supplies-the-energy distractor (new id e), per the pedagogy reviewer's distractor-variety finding. The science reviewer's optional edit applied: the last explanation sentence credits sugar and oxygen together, not sugar alone. Review round 2 (2026-10-14): The key no longer shows CO₂, so read-aloud says 'carbon dioxide' (pedagogy review, lesson-level accessibility). Spelling it out made the key 72 characters, longer than any distractor, so choice d was lightly reworded ('actually', 'needs to') to 72 characters as well; the two tie and the key is not the longest. Both keep their ids because their claims are unchanged. Verify-agent (2026-10-14): Checked against p. 59 and OpenStax Chemistry 2e 7.5 (re-opened: separating bonded atoms requires energy; exothermic when product bonds are stronger). Net transfer classified correctly.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: overused atoms-destroyed distractor replaced with 'breathing in oxygen supplies the energy' (new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key spells out carbon dioxide for read-aloud; choice d reworded so the key is not the longest"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q14",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "mitochondria",
+        "site-of-respiration"
+      ],
+      "familyId": "L05-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "In both a maple leaf cell and a squirrel muscle cell, which structure does most of the work of releasing energy from sugar?",
+      "accessiblePrompt": "In both a maple leaf cell and a squirrel muscle cell, which structure does most of the work of releasing energy from sugar?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitochondria",
+          "rationale": "Correct. Most of cellular respiration takes place in mitochondria, in producer and consumer cells alike."
+        },
+        {
+          "id": "b",
+          "text": "Chloroplasts",
+          "rationale": "Chloroplasts capture light to build sugar in photosynthesis. A squirrel's cells have none, yet they release energy from sugar."
+        },
+        {
+          "id": "c",
+          "text": "The nucleus",
+          "rationale": "The nucleus holds the cell's genetic instructions. It isn't where sugar is broken down."
+        },
+        {
+          "id": "d",
+          "text": "The lungs",
+          "rationale": "Lungs are an organ for moving air, not a structure inside cells, and a maple tree has none."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Mitochondria are the cell's energy-release stations. Most of cellular respiration happens inside them, in plant and animal cells alike, so a leaf cell has mitochondria as well as chloroplasts. The very first steps of breaking down sugar happen just outside the mitochondria, in the cell's fluid.",
+      "misconception": "Plant cells have chloroplasts instead of mitochondria, or respiration happens in the lungs.",
+      "hint": "The structure must exist in both the leaf cell and the muscle cell.",
+      "followUpId": "L05-Q16",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            58
+          ],
+          "pdf": [
+            94
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration, Figure 3A",
+          "supports": "Mitochondria in both producer and consumer cells turn the energy in sugar into a form the cell can use."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.2 Glycolysis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+          "accessed": "2026-10-14",
+          "supports": "The first stage of sugar breakdown, glycolysis, happens in the cytoplasm, so mitochondria do most, not all, of the work."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Keyed to 'most of the work' because of L05-RF3. Review round 2 (2026-10-14): Explanation now says 'a leaf cell has mitochondria as well as chloroplasts' instead of implying every plant cell has chloroplasts (root cells have none), the misconception Q07 and Q16 work against (science review). The Figure 3A evidence line was paraphrased. Verify-agent (2026-10-14): Checked against p. 58 and the Figure 3A render; keyed to \"most of the work\" per L05-RF3.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation says a leaf cell, not every plant cell, has chloroplasts; Figure 3A evidence line paraphrased"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q15",
+      "objectiveIds": [
+        "L05-O2"
+      ],
+      "conceptTags": [
+        "mitochondria",
+        "structure-and-function"
+      ],
+      "familyId": "L05-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Heart muscle cells contract nonstop, every minute of your life. Under a microscope, they turn out to be packed with mitochondria. What is the best explanation?",
+      "accessiblePrompt": "Heart muscle cells contract nonstop, every minute of your life. Under a microscope, they turn out to be packed with mitochondria. What is the best explanation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitochondria release the energy these busy cells need",
+          "rationale": "Correct. Mitochondria release the energy in sugar and other food molecules, and a cell that never rests uses a lot of it."
+        },
+        {
+          "id": "b",
+          "text": "Mitochondria store the oxygen the heart pumps",
+          "rationale": "Mitochondria use oxygen in cellular respiration; they aren't storage tanks. Blood carries the oxygen."
+        },
+        {
+          "id": "c",
+          "text": "Mitochondria make sugar for the rest of the body",
+          "rationale": "Mitochondria break sugar down to release its energy. They don't manufacture sugar to send to the rest of the body."
+        },
+        {
+          "id": "d",
+          "text": "Mitochondria let the heart cells breathe air directly",
+          "rationale": "Breathing happens in the lungs. Mitochondria carry out a chemical reaction, not gas exchange with the air."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The job of mitochondria is to release energy from sugar and other food molecules so the cell can use it. A cell that works hard all the time, like a heart muscle cell, needs a lot of that energy, so it has many mitochondria. The structure fits the job.",
+      "misconception": "Mitochondria store oxygen or make food.",
+      "hint": "What do mitochondria do, and which cells would need more of it?",
+      "followUpId": "L05-Q18",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            58
+          ],
+          "pdf": [
+            94
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration, Figure 3A",
+          "supports": "Figure 3A says mitochondria exist to supply the cell with usable energy for its life processes."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 4.3 Eukaryotic Cells",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "accessed": "2026-10-14",
+          "supports": "Mitochondria, found in both plant and animal cells, carry out cellular respiration using the chemical energy in glucose; muscle cells have a very high concentration of mitochondria."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Observation (many mitochondria in muscle cells) is given in the prompt and supported by OpenStax 4.3; the textbook supplies the function. Round 1 (2026-10-14): key reworded to open with 'Mitochondria' like the three distractors, removing the grammar cue. 'Release' is used instead of the reviewer's 'supply' to match the lesson's energy wording (L05-RF4: energy is released or converted, not made). Same claim, so id a kept. Review round 2 (2026-10-14): The Figure 3A evidence line copied a 17-word caption sentence; it is now paraphrased (science review). Verify-agent (2026-10-14): Checked against the Figure 3A caption (p. 58) and OpenStax 4.3 (re-opened: muscle cells have a very high concentration of mitochondria).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key now opens 'Mitochondria ...' like the distractors, removing the grammar cue"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Figure 3A evidence line paraphrased (it copied a 17-word caption sentence)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q16",
+      "objectiveIds": [
+        "L05-O3"
+      ],
+      "conceptTags": [
+        "plant-respiration",
+        "producer"
+      ],
+      "familyId": "L05-F08",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Do plants carry out cellular respiration?",
+      "accessiblePrompt": "Do plants carry out cellular respiration?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes. Their cells break down sugar to release energy",
+          "rationale": "Correct. Producers carry out cellular respiration just as consumers do. It's how a plant's cells use the energy stored in the sugar they made."
+        },
+        {
+          "id": "b",
+          "text": "No. Plants photosynthesize instead, so they don't respire",
+          "rationale": "Photosynthesis builds and stores sugar, but it stops in the dark and can't fuel the roots or most of a cell's work. Plants carry out both processes."
+        },
+        {
+          "id": "c",
+          "text": "Only at night, when photosynthesis stops",
+          "rationale": "Respiration runs day and night in living plant cells. It's just easier to detect at night, when photosynthesis isn't masking it."
+        },
+        {
+          "id": "d",
+          "text": "Only in the leaves, where the sugar is made",
+          "rationale": "Every living plant cell respires, including the cells of underground roots, which get no light to photosynthesize."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Yes. Plants are producers, but making sugar is only half the story: their cells still have to release the energy in that sugar, and they do it by cellular respiration, mostly in their mitochondria. Photosynthesis stores energy in sugar and cellular respiration releases it, and plants do both.",
+      "misconception": "Plants photosynthesize instead of respiring, or respire only at night.",
+      "hint": "Making fuel and using fuel are two different jobs.",
+      "followUpId": "L05-Q25",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            58,
+            60
+          ],
+          "pdf": [
+            94,
+            96
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Both producers and consumers carry out cellular respiration to release energy stored in sugars."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            60
+          ],
+          "pdfPages": [
+            96
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Cellular Respiration",
+          "supports": "The spread shows cellular respiration in both a producer (a tree) and a consumer (a giraffe)."
+        },
+        {
+          "type": "external",
+          "title": "PlantFacts: Respiration (HCS 300)",
+          "publisher": "The Ohio State University",
+          "url": "https://plantfacts.osu.edu/resources/hcs300/respire.htm",
+          "accessed": "2026-10-14",
+          "supports": "Non-green plant parts get their energy from respiration, and green parts respire at night as well."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L05 (Do plants carry out cellular respiration? Yes; plants also use it to access energy stored in food molecules), polished. Round 1 (2026-10-14): choice b rationale no longer says photosynthesis 'doesn't power the cell's other work' (an absolute, given L05-RF4). The reviewer's wording is used except 'stems', dropped because green stems can photosynthesize. Review round 2 (2026-10-14): Choice d rationale no longer says stem cells never photosynthesize (green stems do), matching the round 1 decision for choice b; the explanation now says respiration happens mostly in mitochondria (L05-RF3). Both from the science review. Verify-agent (2026-10-14): Brief seed question. Checked against p. 58 and the p. 60 spread (rendered: respiration labelled for producers and consumers) and Ohio State PlantFacts (re-opened). Verifier wording fix: choice d rationale said root cells \"never photosynthesize\", an unsupported absolute (some aerial roots are green); it now says the cells of underground roots get no light to photosynthesize. Key, answer and claim tested unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale says photosynthesis stops in the dark and can't fuel roots or most cell work, not that it powers no other work"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d rationale drops 'stem cells never photosynthesize'; explanation says mostly in mitochondria"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q17",
+      "objectiveIds": [
+        "L05-O3",
+        "L05-O5"
+      ],
+      "conceptTags": [
+        "plant-respiration",
+        "evidence-from-data",
+        "photosynthesis-vs-respiration",
+        "net-vs-total"
+      ],
+      "familyId": "L05-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A plant in sterile sand sits in a sealed box with a carbon dioxide sensor. The table shows the readings, lamp on and then off. If the plant respires at the same rate in light and dark, how fast was photosynthesis alone using up carbon dioxide while the lamp was on?",
+      "accessiblePrompt": "A plant rooted in sterile sand sits in a sealed, clear box with a carbon dioxide sensor. With the lamp on, carbon dioxide reads 800 parts per million at hour 0, 650 at hour 1 and 500 at hour 2. The lamp goes off just after the hour 2 reading. With the lamp off, it reads 560 at hour 3, 620 at hour 4 and 680 at hour 5. If the plant respires at the same rate in light and dark, how fast was photosynthesis alone using up carbon dioxide while the lamp was on?",
+      "conditions": "The box is sealed, and the sand is sterile, so the plant is the only living thing inside. The lamp went off just after the hour-2 reading. Assume respiration runs at the same rate with the lamp on or off.",
+      "limitations": "The numbers are made up for this model. Real respiration rates can change with light and temperature, and a lamp can warm the box.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Carbon dioxide in a sealed box with one plant",
+        "alt": "Readings of carbon dioxide in a sealed box with one plant. Lamp on: hour 0, 800 parts per million; hour 1, 650; hour 2, 500. The lamp goes off just after the hour-2 reading. Lamp off: hour 3, 560; hour 4, 620; hour 5, 680. The level falls steadily while the lamp is on and rises steadily after it goes off.",
+        "columns": [
+          "Time (hours)",
+          "Lamp",
+          "Carbon dioxide (ppm)"
+        ],
+        "rows": [
+          [
+            0,
+            "On",
+            800
+          ],
+          [
+            1,
+            "On",
+            650
+          ],
+          [
+            2,
+            "On",
+            500
+          ],
+          [
+            3,
+            "Off",
+            560
+          ],
+          [
+            4,
+            "Off",
+            620
+          ],
+          [
+            5,
+            "Off",
+            680
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "e",
+          "text": "210 ppm each hour",
+          "rationale": "Correct. In the dark, respiration alone adds 60 ppm each hour. It was still adding those 60 ppm with the lamp on, so photosynthesis had to remove them plus the 150 ppm net fall: 150 + 60 = 210 ppm each hour."
+        },
+        {
+          "id": "f",
+          "text": "150 ppm each hour",
+          "rationale": "This is only the net fall in the light. It treats respiration as if it stopped when the lamp was on, but the plant kept respiring and adding carbon dioxide."
+        },
+        {
+          "id": "g",
+          "text": "90 ppm each hour",
+          "rationale": "This subtracts respiration (150 − 60) instead of adding it back. Respiration was adding carbon dioxide in the light, so photosynthesis had to remove more than the net fall, not less."
+        },
+        {
+          "id": "h",
+          "text": "60 ppm each hour",
+          "rationale": "This is respiration's own rate, seen by itself in the dark. It isn't how fast photosynthesis was using carbon dioxide."
+        }
+      ],
+      "answer": "e",
+      "explanation": "The dark readings show respiration alone adding 60 ppm each hour. Respiration doesn't stop when the lamp comes on, so in the light photosynthesis had to remove those 60 ppm plus the 150 ppm net fall: 210 ppm each hour. The fall in the light hides respiration; it doesn't mean respiration stopped.",
+      "misconception": "A plant stops respiring in the light, so the fall in carbon dioxide shows all of its photosynthesis.",
+      "hint": "In the light, two processes change the carbon dioxide at once. Which one do the dark readings show by itself?",
+      "followUpId": "L05-Q20",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            58,
+            63
+          ],
+          "pdf": [
+            94,
+            99
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Producers carry out cellular respiration."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            63
+          ],
+          "pdfPages": [
+            99
+          ],
+          "locator": "Section 5. Comparing Photosynthesis and Cellular Respiration",
+          "supports": "Photosynthesis uses carbon dioxide; cellular respiration produces it."
+        },
+        {
+          "type": "external",
+          "title": "PlantFacts: Respiration (HCS 300)",
+          "publisher": "The Ohio State University",
+          "url": "https://plantfacts.osu.edu/resources/hcs300/respire.htm",
+          "accessed": "2026-10-14",
+          "supports": "Green plant parts respire at night, when photosynthesis has stopped."
+        },
+        {
+          "type": "external",
+          "title": "Pierre Dizengremel, Plant resistance to stress: role of respiration?",
+          "publisher": "Encyclopedia of the Environment (Association des Encyclopédies de l'Environnement et de l'Énergie, Université Grenoble Alpes)",
+          "url": "https://encyclopedie-environnement.org/?p=19453",
+          "accessed": "2026-10-17",
+          "supports": "Plant respiration takes place day and night, unlike photosynthesis, which needs light; during the dark period only respiration operates."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Model data are original (different numbers from the O3 Explorer curve). Round 1 (2026-10-14): potting soil replaced by sterile sand, because soil microbes also respire and would add carbon dioxide in the dark; the O3 card was changed to match. Overlap noted by the pedagogy reviewer: L04-Q15 also tests respiration continuing in the light; L05 owns plant respiration, so this item stays and the overlap is left for L04's reviewer. Review round 2 (2026-10-14): REWRITTEN after the pedagogy review: the old item (why does carbon dioxide rise in the dark? key: the plant keeps respiring) was a near-verbatim duplicate of L07-Q12 and was already taught qualitatively by the O3 card, and its 'leaked in from the room' distractor was ruled out by its own sealed-box condition. Same table, numbers and sterile-sand setup, but the learner must now use the fact that respiration also runs in the light: photosynthesis alone removed 150 + 60 = 210 ppm each hour. Arithmetic checked: lamp on 800 → 650 → 500 (net fall 150 per hour); lamp off just after hour 2, then 500 → 560 → 620 → 680 (rise 60 per hour). Distractors: 150 (net fall only), 90 (subtracts respiration), 60 (respiration's own rate); all four choices are 16-17 characters. Fresh ids e-h because every claim changed. Difficulty 3; concept tag 'net-vs-total' added. Ohio State covers only night respiration, so an Encyclopedia of the Environment article (Dizengremel, Université de Lorraine; opened 2026-10-17) was added for respiration by day and night. The O3 card's dark rise was changed to 50 ppm per hour so the card's numbers stay clearly different. Not seen by a science reviewer in this form. For the L07 reviewer: L07-Q12 keeps the qualitative dark-rise item; L04-Q15 (qualitative, respiration continues in light) is the nearest remaining neighbour. Verify-agent (2026-10-14): First science check of the round 2 rewrite. Arithmetic: net fall 150 ppm per hour in light (800, 650, 500); rise 60 ppm per hour in dark (560, 620, 680); photosynthesis alone 150 + 60 = 210 ppm per hour, uniquely determined by the stated equal-respiration assumption. Encyclopedia of the Environment article (Dizengremel) and Ohio State page re-opened and match their supports lines. Cross-lesson neighbours L04-Q15 and L07-Q12 are qualitative; this item is distinct.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: plant now rooted in sterile sand so it really is the only living thing in the box"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a net-versus-total inference (photosynthesis alone removed 150 + 60 = 210 ppm each hour) to separate it from L07-Q12"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q18",
+      "objectiveIds": [
+        "L05-O3"
+      ],
+      "conceptTags": [
+        "breathing-vs-respiration",
+        "gas-exchange"
+      ],
+      "familyId": "L05-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "What is the main difference between breathing and cellular respiration?",
+      "accessiblePrompt": "What is the main difference between breathing and cellular respiration?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Breathing moves gases; cellular respiration releases energy in cells",
+          "rationale": "Correct. Breathing moves air or water over lungs or gills so gases can be exchanged; cellular respiration is the chemical reaction inside cells that uses the oxygen and makes the carbon dioxide."
+        },
+        {
+          "id": "b",
+          "text": "They are two names for one process that happens in the lungs",
+          "rationale": "Breathing happens at the lungs, but cellular respiration happens inside cells all over the body, and in plants with no lungs at all."
+        },
+        {
+          "id": "c",
+          "text": "Breathing releases energy from sugar; respiration moves air",
+          "rationale": "This swaps the two. Releasing energy from sugar is the reaction inside cells; moving air is breathing."
+        },
+        {
+          "id": "d",
+          "text": "Only animals breathe, and only plants carry out cellular respiration",
+          "rationale": "Animals and plants both carry out cellular respiration. Breathing with lungs or gills is how many animals supply it with oxygen."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Breathing moves air or water over lungs or gills, bringing oxygen in and carrying carbon dioxide out. Cellular respiration is the chemical reaction inside cells that uses that oxygen to release energy from sugar and makes the carbon dioxide. Breathing serves cellular respiration, but they are different processes, and plants respire without breathing at all.",
+      "misconception": "Breathing and cellular respiration are the same thing.",
+      "hint": "A tree has no lungs, yet it still carries out one of these. Which one, and what does that tell you about where it happens?",
+      "followUpId": "L05-Q14",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            59
+          ],
+          "pdf": [
+            95
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Gases of Cellular Respiration",
+          "supports": "Breathing brings in the oxygen cellular respiration uses and removes the carbon dioxide it makes; the textbook points out the shared word 'respiration'."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief: breathing is not identical to cellular respiration. Round 1 (2026-10-14): hint no longer restates the key. Review round 2 (2026-10-14): The science reviewer's lesson-level breathing finding was applied here as well: the key rationale and explanation called breathing 'gas exchange' while also saying plants respire without breathing, though plant cells exchange gases too. Breathing is now described as moving air or water over lungs or gills, matching key idea 5 and the O3 card. The p. 59 evidence line was paraphrased. Key and distractors unchanged. Verify-agent (2026-10-14): Checked against p. 59 (The Gases of Cellular Respiration, rendered). Matches the lesson-wide breathing definition.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the key; it now points to a tree with no lungs"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: breathing described as moving air or water over lungs or gills (lesson-level breathing finding); evidence line paraphrased"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q19",
+      "objectiveIds": [
+        "L05-O3"
+      ],
+      "conceptTags": [
+        "breathing-vs-respiration",
+        "gas-exchange",
+        "mitochondria"
+      ],
+      "familyId": "L05-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each event: is it part of breathing, or part of cellular respiration?",
+      "accessiblePrompt": "Sort each event into one of two groups: breathing, which moves gases into and out of the body, or cellular respiration, the chemical reaction inside cells.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "You take a deep breath of air into your lungs",
+          "rationale": "Breathing: moving air into the lungs is gas exchange, not a reaction in cells."
+        },
+        {
+          "id": "i2",
+          "text": "Sugar and oxygen react inside a muscle cell",
+          "rationale": "Cellular respiration: this is the reaction itself."
+        },
+        {
+          "id": "i3",
+          "text": "A dolphin blows stale air out of its blowhole",
+          "rationale": "Breathing: pushing air out of the body is gas exchange."
+        },
+        {
+          "id": "i4",
+          "text": "Carbon dioxide molecules form from sugar's carbon",
+          "rationale": "Cellular respiration: carbon dioxide is made by the reaction inside cells; breathing only carries it out."
+        },
+        {
+          "id": "i5",
+          "text": "An oak leaf's mitochondria release energy",
+          "rationale": "Cellular respiration: plant cells respire in their mitochondria even though plants have no lungs or gills."
+        },
+        {
+          "id": "i6",
+          "text": "A fish's gills take oxygen from the water",
+          "rationale": "Breathing: gills exchange gases with water, the way lungs do with air."
+        }
+      ],
+      "bins": [
+        {
+          "id": "breath",
+          "label": "Breathing (moving gases in and out)"
+        },
+        {
+          "id": "cr",
+          "label": "Cellular respiration (reaction inside cells)"
+        }
+      ],
+      "answer": {
+        "i1": "breath",
+        "i2": "cr",
+        "i3": "breath",
+        "i4": "cr",
+        "i5": "cr",
+        "i6": "breath"
+      },
+      "explanation": "Breathing moves gases between an animal and its surroundings, through lungs, a blowhole or gills. Cellular respiration is the chemical change inside cells, in animals and plants, where sugar and oxygen become carbon dioxide and water and energy is released. Carbon dioxide is made in the cells, and breathing just carries it away.",
+      "misconception": "Carbon dioxide is made in the lungs, or plants can't respire because they don't breathe.",
+      "hint": "Is the event moving gas, or changing molecules?",
+      "followUpId": "L05-Q16",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            58,
+            59
+          ],
+          "pdf": [
+            94,
+            95
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Gases of Cellular Respiration",
+          "supports": "Breathing takes in the oxygen needed for cellular respiration and breathes out carbon dioxide; animals use lungs or gills."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Cellular respiration takes place in mitochondria inside the cells of producers and consumers."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each item has one defensible bin; the oak-leaf item ties to the plant-respiration family. Review round 2 (2026-10-14): i5 rationale no longer says plants 'never breathe', which clashed with the bin label (moving gases in and out) and with plant leaves exchanging gases through their pores; it now says plants have no lungs or gills (science review). Answer map unchanged. Verify-agent (2026-10-14): Checked against pp. 58-59. Every item has one defensible bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: i5 rationale says plants have no lungs or gills instead of 'never breathe'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q20",
+      "objectiveIds": [
+        "L05-O3"
+      ],
+      "conceptTags": [
+        "plant-respiration",
+        "evidence",
+        "misconception-repair"
+      ],
+      "familyId": "L05-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Maya says, \"Plants have no lungs, and their leaves make oxygen, so plants never need to take in oxygen.\" Which observation is the best evidence against her claim?",
+      "accessiblePrompt": "Maya says that plants have no lungs, and their leaves make oxygen, so plants never need to take in oxygen. Which observation is the best evidence against her claim?",
+      "limitations": "Some wetland plants have special air channels that carry oxygen to their roots; this question is about typical garden and crop plants.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Roots can die when floodwater fills the soil's air spaces",
+          "rationale": "Correct. Underground roots don't photosynthesize, so they depend on oxygen from air pockets in the soil for cellular respiration. Without it they can be damaged or die."
+        },
+        {
+          "id": "b",
+          "text": "Leaves give off bubbles of oxygen gas in bright sunlight",
+          "rationale": "This shows photosynthesis making oxygen. It fits Maya's idea rather than challenging it."
+        },
+        {
+          "id": "c",
+          "text": "Leaves take in carbon dioxide through tiny pores in their surface",
+          "rationale": "Taking in carbon dioxide feeds photosynthesis. It says nothing about whether cells need oxygen."
+        },
+        {
+          "id": "e",
+          "text": "Plants wilt when the soil around their roots dries out",
+          "rationale": "This shows roots need water, not oxygen. A plant could make all the oxygen it needs and still wilt without water, so it doesn't challenge Maya's claim."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Underground roots can't photosynthesize, so they can't make their own oxygen. Root cells take oxygen from air spaces in the soil to carry out cellular respiration, and long flooding cuts off that supply. Leaf cells also take in oxygen at night, when photosynthesis stops. Plants don't need lungs, but their living cells still exchange gases with their surroundings.",
+      "misconception": "Plants make all the oxygen they need, so they never take in oxygen from their surroundings.",
+      "hint": "Which observation would be hard to explain if Maya were right?",
+      "followUpId": "L05-Q17",
+      "scope": {
+        "lessonId": "L05",
+        "section": "3. Cellular Respiration",
+        "pages": {
+          "printed": [
+            58,
+            59
+          ],
+          "pdf": [
+            94,
+            95
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Producers carry out cellular respiration, which uses oxygen."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Gases of Cellular Respiration",
+          "supports": "The textbook states that producers already have the oxygen they need from photosynthesis; this question repairs that claim (L05-RF2)."
+        },
+        {
+          "type": "external",
+          "title": "Too much moisture can hinder root development",
+          "publisher": "University of Missouri Extension",
+          "url": "https://extension.missouri.edu/news/too-much-moisture-can-hinder-root-development",
+          "accessed": "2026-10-14",
+          "supports": "Plant roots need oxygen to respire; when water fills the soil pores, roots become oxygen-deprived, at times to the point of death."
+        },
+        {
+          "type": "external",
+          "title": "PlantFacts: Respiration (HCS 300)",
+          "publisher": "The Ohio State University",
+          "url": "https://plantfacts.osu.edu/resources/hcs300/respire.htm",
+          "accessed": "2026-10-14",
+          "supports": "Non-green plant parts get their energy from respiration and green parts also respire at night; roots in flooded or compacted soil are deprived of the oxygen respiration needs."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the p. 59 claim flagged in L05-RF2; corrected answer supported by MU Extension and Ohio State PlantFacts. Round 1 (2026-10-14): hint no longer points straight at the only root choice. Review round 2 (2026-10-14): Filler distractor d ('Houseplants grow toward a sunny window') replaced by a roots-and-soil distractor about wilting (new id e), so the key is no longer the only choice about roots and soil and learners must reason about which resource is missing (pedagogy review). The new choice is 54 characters, shorter than the 57-character key; choice c (65) remains the longest. Answer unchanged. Verify-agent (2026-10-14): Repairs the p. 59 claim (L05-RF2). MU Extension and Ohio State PlantFacts re-opened: roots need oxygen to respire and flooded soil deprives them of it, at times to the point of death.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the only root choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: filler distractor replaced by a roots-and-soil wilting distractor (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q21",
+      "objectiveIds": [
+        "L05-O4"
+      ],
+      "conceptTags": [
+        "carbohydrates",
+        "fats",
+        "proteins"
+      ],
+      "familyId": "L05-F10",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each food molecule to the description that fits it best.",
+      "accessiblePrompt": "Match each of five food molecules, starch, glycogen, cellulose, fat and protein, to the description that fits it best.",
+      "left": [
+        {
+          "id": "starch",
+          "text": "Starch",
+          "rationale": "Starch is the complex carbohydrate plants store, plentiful in potatoes and corn."
+        },
+        {
+          "id": "glycogen",
+          "text": "Glycogen",
+          "rationale": "Glycogen is the complex carbohydrate your own body builds from spare sugar and keeps in your liver and muscles."
+        },
+        {
+          "id": "cellulose",
+          "text": "Cellulose",
+          "rationale": "Cellulose is the complex carbohydrate plants build into their cell walls; your body can't make it."
+        },
+        {
+          "id": "fat",
+          "text": "Fat",
+          "rationale": "Fats store energy for the long term and help form cell membranes."
+        },
+        {
+          "id": "protein",
+          "text": "Protein",
+          "rationale": "Proteins build muscle and ferry molecules in and out of cells."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Carbohydrate your own body builds from spare sugar"
+        },
+        {
+          "id": "r2",
+          "text": "Long-term energy store that helps build cell membranes"
+        },
+        {
+          "id": "r3",
+          "text": "Carbohydrate plants store in potatoes and corn"
+        },
+        {
+          "id": "r4",
+          "text": "Builds muscle and moves molecules in and out of cells"
+        },
+        {
+          "id": "r5",
+          "text": "Carbohydrate that forms the tough walls of plant cells"
+        }
+      ],
+      "answer": {
+        "starch": "r3",
+        "glycogen": "r1",
+        "cellulose": "r5",
+        "fat": "r2",
+        "protein": "r4"
+      },
+      "explanation": "Starch, glycogen and cellulose are all complex carbohydrates built from sugars, but they do different jobs: plants store starch in foods such as potatoes and corn, your body builds glycogen from spare sugar, and plants build cellulose into their cell walls. Fats are long-term energy stores and membrane builders, and proteins build muscle, move molecules and help reactions happen.",
+      "misconception": "All complex carbohydrates are the same, or fats and proteins are only fuel.",
+      "hint": "Three of these are carbohydrates. Ask who makes each one and what it is for.",
+      "followUpId": "L05-Q24",
+      "scope": {
+        "lessonId": "L05",
+        "section": "4. How You Get Energy and Matter",
+        "pages": {
+          "printed": [
+            62
+          ],
+          "pdf": [
+            98
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates, Fats and Proteins",
+          "supports": "Cellulose is made by plants joining sugars together; potatoes and corn are examples of plant foods rich in starch; animals build glycogen and keep it in the liver and muscles; fats store energy for the long term and help form healthy cells; proteins help build muscle and move molecules in and out of cells."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 3.2 Carbohydrates",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+          "accessed": "2026-10-15",
+          "supports": "Plants store sugars as starch; cellulose makes up most of a plant cell wall and gives the cell structural support; glycogen, the animal equivalent of starch, is stored in liver and muscle cells."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Cellulose limited to 'your body' (L05-RF9). One-to-one match. Round 1 (2026-10-14): r5 was ambiguous ('plants build it, your body can't make it' also fits starch); it now reads 'forms the tough walls of plant cells' (science reviewer's wording, chosen over 'tough structure of plants' because the OpenStax source names cell walls). r1 now reads 'your own body builds from spare sugar' so it no longer repeats Q22's liver-and-muscle fact. The textbook record no longer says p. 62 states plants store starch; OpenStax 3.2 (opened 2026-10-15) supports starch storage and cellulose cell walls. The OIST tunicate record was removed: no description here depends on the 'animals can't make cellulose' claim. Answer map unchanged. Verify-agent (2026-10-14): Checked against p. 62 (rendered). One-to-one match with a single defensible pairing.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: r5 now 'forms the tough walls of plant cells' (unique to cellulose); evidence corrected and OpenStax 3.2 added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: ambiguous r5 reworded; r1 now 'your own body builds from spare sugar' to avoid repeating Q22"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q22",
+      "objectiveIds": [
+        "L05-O4"
+      ],
+      "conceptTags": [
+        "glycogen",
+        "energy-storage"
+      ],
+      "familyId": "L05-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Hours after lunch, your blood carries less sugar, yet your muscles keep working through soccer practice. Which stored molecule can your body break down to supply more sugar?",
+      "accessiblePrompt": "Hours after lunch, your blood carries less sugar, yet your muscles keep working through soccer practice. Which stored molecule can your body break down to supply more sugar?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glycogen",
+          "rationale": "Correct. Your body builds glycogen from spare sugar and stores it in your liver and muscles, then splits it back into sugar when needed."
+        },
+        {
+          "id": "b",
+          "text": "Starch",
+          "rationale": "Starch is how plants store sugar. You can eat it, but your body stores its own reserve as glycogen."
+        },
+        {
+          "id": "c",
+          "text": "Cellulose",
+          "rationale": "Your body can't make cellulose, so you have no store of it to draw on."
+        },
+        {
+          "id": "d",
+          "text": "Carbon dioxide",
+          "rationale": "Carbon dioxide is a low-energy waste product of cellular respiration, not a stored fuel."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Your body links extra sugar molecules into glycogen and stores it in your liver and muscles. When you need sugar, chemical reactions break glycogen back into the simple sugars it was built from, and your cells release their energy by cellular respiration.",
+      "misconception": "Animals store sugar as starch, the way plants do.",
+      "hint": "Plants store one carbohydrate; animals store a different one.",
+      "followUpId": "L05-Q23",
+      "scope": {
+        "lessonId": "L05",
+        "section": "4. How You Get Energy and Matter",
+        "pages": {
+          "printed": [
+            62
+          ],
+          "pdf": [
+            98
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates",
+          "supports": "Animals make glycogen, a source of stored energy in the liver and muscles; complex carbohydrates such as glycogen are broken down into simpler sugars when the body needs energy."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 62 (rendered). Verify-agent (2026-10-14): Checked against p. 62 (rendered: glycogen stored in liver and muscles and broken down into sugars).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q23",
+      "objectiveIds": [
+        "L05-O4"
+      ],
+      "conceptTags": [
+        "digestion",
+        "using-food",
+        "cellular-respiration"
+      ],
+      "familyId": "L05-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these steps in order to trace the starch in a baked potato as it powers your leg muscles on a bike ride.",
+      "accessiblePrompt": "Put these five steps in order, from first to last, to trace the starch in a baked potato as it powers your leg muscles on a bike ride.",
+      "items": [
+        {
+          "id": "blood",
+          "text": "Sugar molecules travel in your blood to a leg muscle cell",
+          "rationale": "Third: digested sugars are carried by the blood to the cells that need them."
+        },
+        {
+          "id": "exhale",
+          "text": "You breathe out the carbon dioxide that was made",
+          "rationale": "Last: the carbon dioxide made in the muscle cell travels in the blood to your lungs and is breathed out."
+        },
+        {
+          "id": "chew",
+          "text": "You chew the potato into small bits",
+          "rationale": "First: chewing breaks the potato into smaller pieces, and digestion of its starch begins in your mouth."
+        },
+        {
+          "id": "mito",
+          "text": "In the muscle cell, cellular respiration (mostly in mitochondria) uses the sugar and oxygen and releases energy",
+          "rationale": "Fourth: cellular respiration, mostly inside mitochondria, releases the sugar's energy and makes carbon dioxide and water."
+        },
+        {
+          "id": "digest",
+          "text": "Digestion finishes breaking the starch into simple sugars",
+          "rationale": "Second: the starch's large molecules are split into the simple sugars they were built from, a job finished in the small intestine."
+        }
+      ],
+      "answer": [
+        "chew",
+        "digest",
+        "blood",
+        "mito",
+        "exhale"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Food has to be taken apart before cells can use it. Chewing and digestion break the potato's starch into simple sugars, the blood delivers them to your leg muscle cells, and cellular respiration, mostly in the mitochondria, releases their energy. The carbon dioxide made there is carried away and breathed out.",
+      "misconception": "Food goes straight to the muscles as it was eaten, or the carbon dioxide we breathe out comes from the air we breathed in.",
+      "hint": "Big molecules have to become small before they can travel in blood.",
+      "followUpId": "L05-Q14",
+      "scope": {
+        "lessonId": "L05",
+        "section": "4. How You Get Energy and Matter",
+        "pages": {
+          "printed": [
+            59,
+            61,
+            62
+          ],
+          "pdf": [
+            95,
+            97,
+            98
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            61
+          ],
+          "pdfPages": [
+            97
+          ],
+          "locator": "Section 4. How You Get Energy and Matter",
+          "supports": "Chewing and digestion break food into smaller molecules that travel through the bloodstream to every cell, where sugars fuel cellular respiration."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates",
+          "supports": "Potatoes and corn are plant foods rich in starch, and the body breaks starch back down into the simple sugars it was built from."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Gases of Cellular Respiration",
+          "supports": "Carbon dioxide made by cellular respiration is breathed out."
+        },
+        {
+          "type": "external",
+          "title": "Your Digestive System & How It Works",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+          "accessed": "2026-10-14",
+          "supports": "Digestion starts in the mouth and is completed in the small intestine, which absorbs nutrients into the blood; this item names no organ (L05-RF8)."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.2 Glycolysis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+          "accessed": "2026-10-14",
+          "supports": "Glycolysis, the first stage of breaking down glucose, takes place in the cytoplasm, so cellular respiration happens mostly, not entirely, inside mitochondria."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible order. The digestion step names no organ because of L05-RF8. Round 1 (2026-10-14): recast in the learner's own body (a baked potato powering a bike ride), as Section 4 is about how you get energy and matter; this also stops it repeating Q27's acorn-to-squirrel path. The 'mito' step now says cellular respiration happens mostly in the mitochondria (L05-RF3, science review), and the digestion step says digestion 'finishes' breaking down the starch, because starch digestion begins in the mouth during chewing (L05-RF8); with that wording the order is the one defensible sequence. p. 62 names potatoes as a starch food. Review round 2 (2026-10-14): Optional pedagogy edit applied: the 'mito' step loses its nested comma clause. Order and ids unchanged. Verify-agent (2026-10-14): Checked against pp. 59, 61 and 62 and the NIDDK page (re-opened: digestion starts in the mouth and is completed in the small intestine, which absorbs most nutrients). One defensible order; no organ is tested (L05-RF8).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: respiration step now 'mostly in the mitochondria', not the whole reaction inside them (L05-RF3)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: recast as a baked potato powering your leg muscles, so it no longer repeats Q27's acorn-squirrel path"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q24",
+      "objectiveIds": [
+        "L05-O4"
+      ],
+      "conceptTags": [
+        "breaking-down-and-building-up",
+        "chemical-reactions-in-body"
+      ],
+      "familyId": "L05-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Your body runs two kinds of food reactions. Sort each one: breaking big molecules down, or building big molecules up.",
+      "accessiblePrompt": "Your body runs two kinds of food reactions. Sort each reaction into one of two groups: breaking big molecules down into smaller ones, or building big molecules up from smaller ones.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Digesting the starch in a slice of bread",
+          "rationale": "Breaking down: a large carbohydrate becomes small sugars."
+        },
+        {
+          "id": "i2",
+          "text": "Your liver storing spare sugar as glycogen",
+          "rationale": "Building up: many small sugars are joined into one large carbohydrate."
+        },
+        {
+          "id": "i3",
+          "text": "Your muscle cells making new muscle protein from digested bean protein",
+          "rationale": "Building up: small pieces from food are assembled into your own large proteins."
+        },
+        {
+          "id": "i4",
+          "text": "Digesting the protein in a boiled egg",
+          "rationale": "Breaking down: digestion takes large food proteins apart."
+        },
+        {
+          "id": "i5",
+          "text": "Your cells making fats for new cell membranes",
+          "rationale": "Building up: your body builds its own fat molecules from smaller pieces taken from food."
+        },
+        {
+          "id": "i6",
+          "text": "Cellular respiration in a leg muscle cell",
+          "rationale": "Breaking down: cellular respiration splits sugar into smaller molecules and releases energy."
+        }
+      ],
+      "bins": [
+        {
+          "id": "down",
+          "label": "Breaking down (big to small)"
+        },
+        {
+          "id": "up",
+          "label": "Building up (small to big)"
+        }
+      ],
+      "answer": {
+        "i1": "down",
+        "i2": "up",
+        "i3": "up",
+        "i4": "down",
+        "i5": "up",
+        "i6": "down"
+      },
+      "explanation": "Food is taken apart first: digestion breaks starch and proteins into small pieces, and cellular respiration breaks sugar down further to release energy. Your body also builds: glycogen, your own proteins and your fats are larger molecules assembled from those small pieces. In every case the atoms are conserved; they just end up in new molecules.",
+      "misconception": "Food molecules are used just as they are eaten, without being broken down and rebuilt.",
+      "hint": "Do the molecules end up bigger or smaller?",
+      "followUpId": "L05-Q22",
+      "scope": {
+        "lessonId": "L05",
+        "section": "4. How You Get Energy and Matter",
+        "pages": {
+          "printed": [
+            61,
+            62
+          ],
+          "pdf": [
+            97,
+            98
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            61
+          ],
+          "pdfPages": [
+            97
+          ],
+          "locator": "Section 4. How You Get Energy and Matter",
+          "supports": "Some food molecules are sugars used as reactants in cellular respiration; other reactions combine small molecules to build cell structures."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates, Fats and Proteins",
+          "supports": "The body breaks down food proteins and builds its own proteins, uses fats from food to build its own fats, and makes glycogen from sugars."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each item has one defensible bin. Drafted from printed pp. 61-62. Round 1 (2026-10-14): item i6 no longer places the whole of sugar breakdown inside mitochondria (L05-RF3). Review round 2 (2026-10-14): Items reworded (pedagogy review): every item's verb ('splits', 'link', 'join', 'breaks down') gave away its bin, so a learner could score 6/6 from grammar alone. Items now name the process (digesting starch, storing sugar as glycogen, cellular respiration, making proteins and fats), so the learner must know what each process does. Ids, bins, answer map and rationales unchanged; the explanation now says which molecules are built up and which processes take molecules apart. Verify-agent (2026-10-14): Checked against pp. 61-62. Every item has one defensible bin; item wording no longer cues the bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: item i6 now names cellular respiration instead of putting all sugar breakdown in mitochondria"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: items reworded so their verbs no longer give away the bins; explanation names what is built up and what is taken apart"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q25",
+      "objectiveIds": [
+        "L05-O5",
+        "L05-O3"
+      ],
+      "conceptTags": [
+        "photosynthesis-vs-respiration",
+        "plant-respiration"
+      ],
+      "familyId": "L05-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each statement: true of photosynthesis only, cellular respiration only, or both.",
+      "accessiblePrompt": "Sort each statement into one of three groups: true of photosynthesis only, true of cellular respiration only, or true of both.",
+      "items": [
+        {
+          "id": "s1",
+          "text": "Gives off oxygen gas",
+          "rationale": "Photosynthesis only: it releases oxygen, while cellular respiration uses oxygen up."
+        },
+        {
+          "id": "s2",
+          "text": "Takes place in a squirrel's muscle cells",
+          "rationale": "Cellular respiration only: animals respire, but they can't photosynthesize."
+        },
+        {
+          "id": "s3",
+          "text": "Uses carbon dioxide as a reactant",
+          "rationale": "Photosynthesis only: carbon dioxide and water are its raw materials."
+        },
+        {
+          "id": "s4",
+          "text": "Gives off carbon dioxide as a product",
+          "rationale": "Cellular respiration only: the sugar's carbon atoms leave as carbon dioxide."
+        },
+        {
+          "id": "s5",
+          "text": "Happens in plant cells",
+          "rationale": "Both: plant cells photosynthesize and also carry out cellular respiration."
+        },
+        {
+          "id": "s6",
+          "text": "Ends with the same number of each kind of atom it started with",
+          "rationale": "Both: each reaction rearranges atoms without creating or destroying any."
+        }
+      ],
+      "bins": [
+        {
+          "id": "ps",
+          "label": "Photosynthesis only"
+        },
+        {
+          "id": "cr",
+          "label": "Cellular respiration only"
+        },
+        {
+          "id": "both",
+          "label": "Both"
+        }
+      ],
+      "answer": {
+        "s1": "ps",
+        "s2": "cr",
+        "s3": "ps",
+        "s4": "cr",
+        "s5": "both",
+        "s6": "both"
+      },
+      "explanation": "The two processes trade gases in opposite directions: photosynthesis takes in carbon dioxide and gives off oxygen, while cellular respiration uses oxygen and gives off carbon dioxide. Only producers photosynthesize, but producers and consumers both respire, so both processes happen in plant cells while only respiration happens in a squirrel's cells. Both rearrange atoms without creating or destroying any.",
+      "misconception": "Plants only photosynthesize and animals only respire.",
+      "hint": "List each process's inputs and outputs, then ask who carries it out.",
+      "followUpId": "L05-Q16",
+      "scope": {
+        "lessonId": "L05",
+        "section": "5. Comparing Photosynthesis and Cellular Respiration",
+        "pages": {
+          "printed": [
+            58,
+            63
+          ],
+          "pdf": [
+            94,
+            99
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            63
+          ],
+          "pdfPages": [
+            99
+          ],
+          "locator": "Section 5. Comparing Photosynthesis and Cellular Respiration",
+          "supports": "Photosynthesis uses carbon dioxide and water and forms sugar and oxygen; cellular respiration uses sugar and oxygen and gives off carbon dioxide and water; the atoms stay balanced in both."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Producers carry out cellular respiration as well as photosynthesis."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each statement has one defensible bin under the overall-equation model. Round 1 (2026-10-14): s1 and s2 (capturing sunlight, releasing stored energy) repeated Q03 and Q26; they now ask about giving off oxygen and about a squirrel's muscle cells. Bins stay 2/2/2. Hint and explanation now focus on gases and on who carries out each process, leaving the energy contrast to Q26. Verify-agent (2026-10-14): Checked against pp. 58 and 63 (rendered). Every statement has one defensible bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: s1 and s2 replaced (gives off oxygen; happens in a squirrel's muscle cells) so they no longer repeat Q03/Q26; hint and explanation refocused"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q26",
+      "objectiveIds": [
+        "L05-O5"
+      ],
+      "conceptTags": [
+        "photosynthesis-vs-respiration",
+        "energy-flow"
+      ],
+      "familyId": "L05-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Photosynthesis: carbon dioxide + water + light energy → sugar + oxygen. Compare it with cellular respiration, where sugar + oxygen → carbon dioxide + water + energy. What is the key difference?",
+      "accessiblePrompt": "Photosynthesis: carbon dioxide plus water plus light energy yields sugar plus oxygen. Compare it with cellular respiration, where sugar plus oxygen yields carbon dioxide plus water plus energy. What is the key difference?",
+      "limitations": "The equations are overall summaries; each process really runs as many smaller steps.",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Photosynthesis stores energy in sugar; respiration releases it",
+          "rationale": "Correct. Photosynthesis takes in light energy and stores it in sugar; cellular respiration releases that stored energy for the cell."
+        },
+        {
+          "id": "b",
+          "text": "They are built from different kinds of atoms",
+          "rationale": "Both use the same carbon, hydrogen and oxygen atoms, just rearranged in opposite directions."
+        },
+        {
+          "id": "c",
+          "text": "Photosynthesis creates matter, and respiration destroys it",
+          "rationale": "Neither creates nor destroys atoms. Each one rearranges the same atoms into different molecules."
+        },
+        {
+          "id": "f",
+          "text": "Respiration stores energy in sugar; photosynthesis releases it",
+          "rationale": "This reverses the two. Respiration breaks sugar down and releases its energy; photosynthesis is the process that stores light energy in sugar."
+        }
+      ],
+      "answer": "e",
+      "explanation": "The matter in the two equations is a perfect swap: the reactants of one are the products of the other, built from the same atoms. What differs is energy. Photosynthesis takes in energy from sunlight and stores it in sugar, and cellular respiration releases that stored energy for the cell to use.",
+      "misconception": "Photosynthesis creates matter and cellular respiration destroys it, or the two processes' energy roles are the other way around.",
+      "hint": "Matter is the same on both sides of both equations. What else changes?",
+      "followUpId": "L05-Q12",
+      "scope": {
+        "lessonId": "L05",
+        "section": "5. Comparing Photosynthesis and Cellular Respiration",
+        "pages": {
+          "printed": [
+            63
+          ],
+          "pdf": [
+            99
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            63
+          ],
+          "pdfPages": [
+            99
+          ],
+          "locator": "Section 5. Comparing Photosynthesis and Cellular Respiration",
+          "supports": "Each process's reactants are the other's products; the atoms stay balanced but are rearranged; photosynthesis captures the sun's energy and cellular respiration releases stored energy."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 63 (rendered; the OCR shows '^' for arrows). Round 1 (2026-10-14): key no longer says 'stores light energy ... releases it', which could be read as releasing light. 'Releases that energy' is used instead of the reviewer's 'releases that stored energy' so the key is not the longest choice (58 characters, equal to choice c). Pedagogy reviewer's optional gentler hint applied. Same claim, so id a kept. Review round 2 (2026-10-14): The key ('One stores energy in sugar; the other releases that energy') didn't say which process does which, so a learner with the roles reversed would still pick it. New key e names them; the weak distractor d ('Only photosynthesis is a chemical reaction', ruled out by the equations in the prompt) became f, the reversed roles. e and f are both 62 characters, so there is no length cue. Misconception extended. b, c, the hint and the limitation unchanged (pedagogy review). The p. 63 evidence line was paraphrased. Verify-agent (2026-10-14): Checked against the p. 63 word equations (rendered). Key and reversed-roles distractor tie in length.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reworded so 'it' can't be read as light energy"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: evidence line paraphrased (lesson-level originality finding)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key names which process stores and which releases energy (new id e); reversed-roles distractor f replaces weak d"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q27",
+      "objectiveIds": [
+        "L05-O5"
+      ],
+      "conceptTags": [
+        "matter-cycles",
+        "carbon-path"
+      ],
+      "familyId": "L05-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A carbon atom starts in a carbon dioxide molecule in the air over an oak forest. Put the next four stops on its round trip in order.",
+      "accessiblePrompt": "A carbon atom starts in a carbon dioxide molecule in the air over an oak forest. Put the next four stops on its round trip in order, from the first stop to the last stop, which is back in the air.",
+      "items": [
+        {
+          "id": "seed",
+          "text": "Part of the starch stored in an acorn",
+          "rationale": "Second: the oak turns sugar from its leaves into starch and stores it in its seeds."
+        },
+        {
+          "id": "breath",
+          "text": "Back in the air, in carbon dioxide the squirrel breathes out",
+          "rationale": "Last: cellular respiration in the squirrel's cells releases the carbon as carbon dioxide, which the squirrel exhales."
+        },
+        {
+          "id": "leaf",
+          "text": "Part of a sugar molecule made in an oak leaf",
+          "rationale": "First: photosynthesis builds the carbon from the air into sugar."
+        },
+        {
+          "id": "squirrel",
+          "text": "Part of a sugar molecule in a squirrel's muscle cell",
+          "rationale": "Third: the squirrel digests the acorn's starch into sugar, which its blood carries to its cells."
+        }
+      ],
+      "answer": [
+        "leaf",
+        "seed",
+        "squirrel",
+        "breath"
+      ],
+      "ends": [
+        "First stop",
+        "Last stop (back in the air)"
+      ],
+      "explanation": "Photosynthesis pulls the carbon atom out of the air into sugar, the oak stores it as starch in an acorn, and the squirrel digests that starch back into sugar. Cellular respiration in the squirrel's cells returns the carbon to the air as carbon dioxide, ready for a leaf to use again. The atom is never used up; it cycles. This is just one of many routes the atom could take.",
+      "misconception": "Carbon atoms are used up inside the animal, or go straight from the air into animals.",
+      "hint": "Which process takes carbon out of the air, and which one puts it back?",
+      "followUpId": "L05-Q05",
+      "scope": {
+        "lessonId": "L05",
+        "section": "5. Comparing Photosynthesis and Cellular Respiration",
+        "pages": {
+          "printed": [
+            55,
+            62,
+            63
+          ],
+          "pdf": [
+            91,
+            98,
+            99
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            63
+          ],
+          "pdfPages": [
+            99
+          ],
+          "locator": "Section 5. Comparing Photosynthesis and Cellular Respiration",
+          "supports": "Photosynthesis makes sugar from carbon dioxide, cellular respiration returns carbon dioxide, and together they show matter moving through ecosystems."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            55
+          ],
+          "pdfPages": [
+            91
+          ],
+          "locator": "Introduction",
+          "supports": "The oak stored matter in its acorn, and some of that matter becomes the squirrel's."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates",
+          "supports": "Starch is a complex carbohydrate broken down into simple sugars."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible order; the start and end are distinguished by wording. Round 1 (2026-10-14): the 'air' item was dropped and the start fixed in the prompt, because 'air' and 'breath' were both carbon dioxide in the air, giving two defensible orders. Four stops remain, with one defensible order. A limitation now says this is one of many routes (the guide's branching-cycle guardrail). Its focus, respiration returning the atom to the air, separates it from L04-Q22. Review round 2 (2026-10-14): Both reviewers passed it. The pedagogy reviewer noted it is the fourth carbon-route ordering item across L04-L07 (L04-Q22, L06-Q09, L07-Q13); it is kept because its L05 angle, the consumer's own cellular respiration returning the carbon to the air, is lesson-specific. Flagged for the verifier. Verify-agent (2026-10-14): Checked against pp. 55, 62 and 63. One defensible order with the fixed start. Cross-lesson overlap with L04-Q22 (leaf sugar, seed starch, eater) weighed: this item's point is the consumer's respiration returning the atom to the air, which L04-Q22 does not test, so it is kept; teacher may still prefer to vary the organisms.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitation added that this is one of many routes; explanation ends saying so"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: air item dropped and start fixed in the prompt, removing the second defensible order"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Follow the one route these four stops describe.",
+      "limitations": "This is one possible path. A carbon atom can take many routes: it could return to the air sooner through the oak's own respiration, stay in wood for centuries, or pass to decomposers. The carbon cycle has no single required order."
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q28",
+      "objectiveIds": [
+        "L05-O5"
+      ],
+      "conceptTags": [
+        "matter-cycles",
+        "energy-flow",
+        "closed-system"
+      ],
+      "familyId": "L05-F13",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A sealed glass terrarium holds moss, ferns and a few snails, with a lamp on a day-night timer. It has stayed healthy for months. Which statement best explains how?",
+      "accessiblePrompt": "A sealed glass terrarium holds moss, ferns and a few snails, with a lamp on a day-and-night timer. It has stayed healthy for months. Which statement best explains how?",
+      "conditions": "The lid stays closed: no air, water or food is added. The lamp is the only energy input.",
+      "limitations": "A real terrarium also depends on decomposers, nutrients and temperature; this model tracks only the gases and sugar.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lamp-powered photosynthesis and respiration keep trading atoms",
+          "rationale": "Correct. The lamp powers photosynthesis, which rebuilds sugar and oxygen from the carbon dioxide and water that respiration in the plants and snails makes. The atoms keep cycling while the lamp keeps supplying energy."
+        },
+        {
+          "id": "b",
+          "text": "The snails breathe in carbon dioxide and give off fresh oxygen",
+          "rationale": "Snails, like other animals, take in oxygen and give off carbon dioxide. Only photosynthesis returns oxygen."
+        },
+        {
+          "id": "c",
+          "text": "The plants make oxygen and never use any themselves",
+          "rationale": "Plants respire too, using oxygen day and night. They just make more than they use while the lamp is on."
+        },
+        {
+          "id": "d",
+          "text": "No outside energy is needed, since energy is recycled too",
+          "rationale": "Matter cycles, but energy doesn't. Without the lamp's steady energy, the terrarium would run down."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Inside the sealed jar, matter cycles: cellular respiration in snails, moss and ferns turns sugar and oxygen into carbon dioxide and water, and photosynthesis rebuilds sugar and oxygen from them. Energy is different: it enters as lamplight, is stored in sugar, is released by respiration, and eventually leaves as heat. That's why the lamp has to keep shining.",
+      "misconception": "Energy cycles in a closed system just as matter does, or animals give off oxygen.",
+      "hint": "Which things cycle inside the glass, and which must keep coming in?",
+      "followUpId": "L05-Q26",
+      "scope": {
+        "lessonId": "L05",
+        "section": "5. Comparing Photosynthesis and Cellular Respiration",
+        "pages": {
+          "printed": [
+            63
+          ],
+          "pdf": [
+            99
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            63
+          ],
+          "pdfPages": [
+            99
+          ],
+          "locator": "Section 5. Comparing Photosynthesis and Cellular Respiration",
+          "supports": "Each process's reactants are the other's products; photosynthesis captures the sun's energy and respiration releases it; taken together they model how matter and energy travel through ecosystems."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 6.3 The Laws of Thermodynamics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/6-3-the-laws-of-thermodynamics",
+          "accessed": "2026-10-14",
+          "supports": "Energy is transformed, not recycled, and cellular reactions release some of it as heat, so living systems need a continuing energy input."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Energy-flow guardrail: matter cycles, energy flows through and leaves as heat. Round 1 (2026-10-14): choice b rationale says 'like other animals' instead of the unsupported 'like all animals'. Review round 2 (2026-10-14): The key explained only the matter half; it now names the lamp as the energy source (science review; also the pedagogy reviewer's optional suggestion). 'Lamp-powered photosynthesis and respiration keep trading atoms' is 62 characters, tying choice b, so the key is not the longest. Same claim with the energy source named, so id a kept. The p. 63 evidence line was paraphrased. Verify-agent (2026-10-14): Checked against p. 63 and OpenStax 6.3. Energy-flow guardrail respected (energy enters as lamplight and leaves as heat; matter cycles).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'like all animals' absolute softened to 'like other animals'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key now names the lamp as the energy source that keeps the cycle running; p. 63 evidence line paraphrased"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "lessonId": "L05",
+      "id": "L05-Q29",
+      "objectiveIds": [
+        "L05-O4"
+      ],
+      "conceptTags": [
+        "fats",
+        "energy-storage",
+        "evidence-from-data"
+      ],
+      "familyId": "L05-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A black bear eats nearly nonstop all autumn, then spends months in its den without eating. The table shows model data for its stored molecules. Which conclusion do the data best support?",
+      "accessiblePrompt": "A black bear eats nearly nonstop all autumn, then spends months in its den without eating. Model data for its stored molecules: fat, 40 kilograms at the start of winter and 16 kilograms at the end; protein, mostly in muscle, 22 kilograms at the start and 20 kilograms at the end; glycogen, 1 kilogram at the start and 1 kilogram at the end. Which conclusion do the data best support?",
+      "units": "kilograms (kg)",
+      "conditions": "The bear eats nothing while it is in its den, so its energy must come from what its body already stores.",
+      "limitations": "The numbers are made up for this model. Real bears differ in size, and their bodies also recycle some molecules over the winter.",
+      "diagram": {
+        "kind": "table",
+        "caption": "A denning bear's stored molecules (model data)",
+        "alt": "A table of model data for one black bear's stored molecules. Fat: 40 kilograms at the start of winter and 16 at the end. Protein, mostly in muscle: 22 kilograms at the start and 20 at the end. Glycogen: 1 kilogram at the start and 1 at the end. Fat drops by far the most, protein drops a little, and glycogen doesn't change.",
+        "columns": [
+          "Stored molecule",
+          "Start of winter (kg)",
+          "End of winter (kg)"
+        ],
+        "rows": [
+          [
+            "Fat",
+            40,
+            16
+          ],
+          [
+            "Protein (mostly in muscle)",
+            22,
+            20
+          ],
+          [
+            "Glycogen",
+            1,
+            1
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its cells broke down stored fat to release energy all winter",
+          "rationale": "Correct. Fat is the body's long-term energy store, and the fat row falls by 24 kg. The bear's cells broke fat down by cellular respiration to keep working through the winter."
+        },
+        {
+          "id": "b",
+          "text": "Glycogen in its liver and muscles was its main winter fuel",
+          "rationale": "Glycogen is an energy store, but in these data it doesn't change at all. Fat, not glycogen, is the body's long-term energy store."
+        },
+        {
+          "id": "c",
+          "text": "Its body turned the lost fat into new muscle protein",
+          "rationale": "The protein row falls slightly instead of rising, so the fat didn't become muscle. It was broken down to release energy."
+        },
+        {
+          "id": "d",
+          "text": "A sleeping bear uses no energy, so the fat simply disappeared",
+          "rationale": "Living cells need energy even during sleep; a denning bear's body slows down but doesn't stop. And matter can't simply vanish: the fat's atoms ended up in carbon dioxide and water."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Fat is the body's long-term energy store. Over the winter the bear's cells broke fat down by cellular respiration to release the energy stored in it: even a sleeping body needs energy, though a denning bear's body runs much more slowly. The fat's atoms weren't destroyed; they ended up in carbon dioxide and water.",
+      "misconception": "A sleeping animal uses no energy, or body fat turns into muscle or simply disappears.",
+      "hint": "Compare the start and end of each row. Which change needs explaining, and what is that molecule's job?",
+      "followUpId": "L05-Q24",
+      "scope": {
+        "lessonId": "L05",
+        "section": "4. How You Get Energy and Matter",
+        "pages": {
+          "printed": [
+            61,
+            62
+          ],
+          "pdf": [
+            97,
+            98
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Fats",
+          "supports": "Fats in the body provide long-term energy storage; glycogen is a source of stored energy in the liver and muscles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            61
+          ],
+          "pdfPages": [
+            97
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, photo caption",
+          "supports": "Everything the body does takes energy, whether it is asleep, awake, sitting still or active."
+        },
+        {
+          "type": "external",
+          "title": "Black Bear Biology",
+          "publisher": "U.S. National Park Service, Big South Fork National River and Recreation Area",
+          "url": "https://www.nps.gov/biso/learn/nature/bearbiology.htm",
+          "accessed": "2026-10-15",
+          "supports": "Black bears do not eat during hibernation, so they must build up a large fat reserve during summer and fall."
+        },
+        {
+          "type": "external",
+          "title": "Black Bear",
+          "publisher": "U.S. National Park Service, Kenai Fjords National Park",
+          "url": "https://home.nps.gov/kefj/learn/nature/black-bear.htm",
+          "accessed": "2026-10-15",
+          "supports": "Most black bears hibernate for four to seven months; during hibernation the heart rate drops sharply and metabolism slows by about half, so energy use continues at a lower rate."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.6 Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+          "accessed": "2026-10-15",
+          "supports": "Triglycerides (fats) are a form of long-term energy storage in animals, and their parts are broken down through the glucose-breakdown pathways, including glycolysis and the citric acid cycle."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Replacement for rejected L05-Q04, written in review round 1 (2026-10-14). The pedagogy reviewer proposed a nitrogen item (sugar has no nitrogen, so where must the nitrogen in muscle protein come from?), but L07-Q24 already asks how your body gets the nitrogen to build its own proteins, with the same key (food protein) and two of the same distractors (nitrogen gas breathed in; sugar turned into nitrogen), so it would repeat the cross-lesson duplication that got Q04 rejected. This item fills the other half of the reviewer's O4 gap instead: fats as the long-term energy store, which no full question tested (fats appeared only as single rows in Q21 and Q24). It uses the p. 61 caption (the body needs energy even when asleep) and p. 62 (fats store energy long term); pp. 61-62 rendered and read. Model data are invented and labeled; bear facts come from NPS pages opened 2026-10-15. Difficulty 3, as the reviewer asked, to widen the difficulty spread. Review round 2 (2026-10-14): First science and pedagogy reviews: both passed it. Verify-agent (2026-10-14): Checked against p. 62 (fats are long-term energy storage) and the p. 61 caption (energy is used even while asleep), both rendered. NPS Big South Fork, NPS Kenai Fjords and OpenStax 7.6 re-opened and match their supports lines. Fat falls 24 kg; key uniquely supported.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

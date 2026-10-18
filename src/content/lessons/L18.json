@@ -1,0 +1,1138 @@
+{
+  "lessonId": "L18",
+  "guidingQuestion": "How is all of Earth's water recycled?",
+  "hook": "The roaring water that carries a kayaker over a waterfall was once invisible vapor drifting in the sky, so what lifted it up there, and what brought it back down?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          232,
+          233
+        ],
+        "pdf": [
+          268,
+          269
+        ]
+      }
+    },
+    {
+      "title": "1. Heating and the Water Cycle",
+      "pages": {
+        "printed": [
+          234,
+          235
+        ],
+        "pdf": [
+          270,
+          271
+        ]
+      }
+    },
+    {
+      "title": "2. Cooling and the Water Cycle",
+      "pages": {
+        "printed": [
+          236,
+          237
+        ],
+        "pdf": [
+          272,
+          273
+        ]
+      }
+    },
+    {
+      "title": "3. Gravity and the Water Cycle",
+      "pages": {
+        "printed": [
+          238,
+          239
+        ],
+        "pdf": [
+          274,
+          275
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Global Processes in the Water Cycle",
+      "pages": {
+        "printed": [
+          240,
+          241
+        ],
+        "pdf": [
+          276,
+          277
+        ]
+      }
+    },
+    {
+      "title": "4. Designing a Fog Catcher",
+      "pages": {
+        "printed": [
+          242,
+          243
+        ],
+        "pdf": [
+          278,
+          279
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          243
+        ],
+        "pdf": [
+          279
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L18-O1",
+      "text": "Identify the water cycle's processes and places, describe what each process does, and name the change of state it involves, if any, using everyday examples such as a fogged mirror, frost and a drying puddle.",
+      "kind": "observe",
+      "sections": [
+        "1. Heating and the Water Cycle",
+        "2. Cooling and the Water Cycle",
+        "3. Gravity and the Water Cycle",
+        "Key Science Concept: Global Processes in the Water Cycle"
+      ],
+      "pages": {
+        "printed": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "pdf": [
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277
+        ]
+      }
+    },
+    {
+      "id": "L18-O2",
+      "text": "Explain how energy from the sun and the pull of gravity drive the water cycle: which changes need water to gain energy, which give energy off as water cools, and which processes gravity powers.",
+      "kind": "relate",
+      "sections": [
+        "1. Heating and the Water Cycle",
+        "2. Cooling and the Water Cycle",
+        "3. Gravity and the Water Cycle",
+        "Key Science Concept: Global Processes in the Water Cycle"
+      ],
+      "pages": {
+        "printed": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "pdf": [
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277
+        ]
+      }
+    },
+    {
+      "id": "L18-O3",
+      "text": "Use a water cycle model to trace and predict different routes water can take among the ocean, air, land, living things and underground, knowing the cycle has no fixed starting point or required order.",
+      "kind": "apply",
+      "sections": [
+        "1. Heating and the Water Cycle",
+        "3. Gravity and the Water Cycle",
+        "Key Science Concept: Global Processes in the Water Cycle"
+      ],
+      "pages": {
+        "printed": [
+          234,
+          239,
+          240,
+          241
+        ],
+        "pdf": [
+          270,
+          275,
+          276,
+          277
+        ]
+      }
+    },
+    {
+      "id": "L18-O4",
+      "text": "Apply water cycle ideas to fog catchers: explain how a net collects fog water, and use test data and iterative testing to judge and improve a design.",
+      "kind": "apply",
+      "sections": [
+        "4. Designing a Fog Catcher"
+      ],
+      "pages": {
+        "printed": [
+          242,
+          243
+        ],
+        "pdf": [
+          278,
+          279
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "The water cycle moves water among the ocean, the air, the land, the underground and living things. It has no starting point and no single required route.",
+    "Energy from the sun powers evaporation, transpiration and melting. In evaporation, water gains energy, its molecules speed up, and the fastest ones at the surface escape into the air as invisible vapor.",
+    "When water vapor cools, its molecules slow down and cling together on specks of dust or salt. Condensation makes liquid droplets and crystallization makes ice crystals, and both give energy off to the surrounding air.",
+    "Clouds and fog are made of tiny liquid droplets, ice crystals or both. Water vapor itself is a gas you cannot see.",
+    "Gravity brings water down and moves it downhill: precipitation, runoff, infiltration and groundwater flow all depend on it. Falling drops also meet air resistance, which flattens larger drops underneath and can break very large ones apart.",
+    "Groundwater is water that fills pore spaces in soil and rock. Rock with connected pores can form an aquifer that feeds wells and springs, and groundwater flows slowly downhill into springs, streams and lakes, and in many places all the way to the sea.",
+    "Fog catchers trap droplets too small to fall as rain; the droplets merge on a mesh and gravity drains them into tanks. Engineers improve the nets by iterative testing, letting each test's data guide the next design."
+  ],
+  "glossary": [
+    {
+      "term": "water cycle",
+      "definition": "The never-ending movement of Earth's water among the ocean, the air, the land, the underground and living things, driven by the sun's energy and by gravity.",
+      "pages": {
+        "printed": [
+          234
+        ],
+        "pdf": [
+          270
+        ]
+      }
+    },
+    {
+      "term": "water vapor",
+      "definition": "Water in its gas state. It is invisible; the mist, fog and clouds you can see are tiny drops of liquid water or bits of ice.",
+      "pages": {
+        "printed": [
+          234,
+          236
+        ],
+        "pdf": [
+          270,
+          272
+        ]
+      }
+    },
+    {
+      "term": "evaporation",
+      "definition": "The change of liquid water into water vapor. It happens when water molecules gain enough energy to break away from the liquid.",
+      "pages": {
+        "printed": [
+          233,
+          234
+        ],
+        "pdf": [
+          269,
+          270
+        ]
+      }
+    },
+    {
+      "term": "transpiration",
+      "definition": "The movement of water from a plant's roots up to its leaves, where it evaporates and escapes into the air as vapor.",
+      "pages": {
+        "printed": [
+          233,
+          235
+        ],
+        "pdf": [
+          269,
+          271
+        ]
+      }
+    },
+    {
+      "term": "stomata",
+      "definition": "Tiny pores, mostly on the underside of leaves, that open and close to let gases in and out, including the water vapor a plant gives off.",
+      "pages": {
+        "printed": [
+          235
+        ],
+        "pdf": [
+          271
+        ]
+      }
+    },
+    {
+      "term": "condensation",
+      "definition": "The change of water vapor into liquid water, as when cooling vapor forms cloud droplets or beads up on a cold mirror.",
+      "pages": {
+        "printed": [
+          233,
+          236
+        ],
+        "pdf": [
+          269,
+          272
+        ]
+      }
+    },
+    {
+      "term": "crystallization",
+      "definition": "In this lesson, the change of water vapor or liquid water into solid ice crystals, such as snowflakes and frost. Scientists often call the gas-to-solid change deposition.",
+      "pages": {
+        "printed": [
+          237
+        ],
+        "pdf": [
+          273
+        ]
+      }
+    },
+    {
+      "term": "precipitation",
+      "definition": "Water falling from clouds to the ground as rain, sleet, snow or hail, pulled down by gravity.",
+      "pages": {
+        "printed": [
+          233,
+          238
+        ],
+        "pdf": [
+          269,
+          274
+        ]
+      }
+    },
+    {
+      "term": "runoff",
+      "definition": "Water on the land's surface flowing downhill into streams, rivers, lakes and often on to the ocean.",
+      "pages": {
+        "printed": [
+          233,
+          239
+        ],
+        "pdf": [
+          269,
+          275
+        ]
+      }
+    },
+    {
+      "term": "infiltration",
+      "definition": "The soaking of surface water down into the ground through the open spaces in soil and rock.",
+      "pages": {
+        "printed": [
+          233,
+          239
+        ],
+        "pdf": [
+          269,
+          275
+        ]
+      }
+    },
+    {
+      "term": "groundwater",
+      "definition": "Water stored underground in the tiny open spaces, called pores, between grains of soil and rock.",
+      "pages": {
+        "printed": [
+          233,
+          239
+        ],
+        "pdf": [
+          269,
+          275
+        ]
+      }
+    },
+    {
+      "term": "aquifer",
+      "definition": "A layer of rock or sediment with connected pores, together with the groundwater in it, that holds enough water to supply a well or spring.",
+      "pages": {
+        "printed": [
+          239
+        ],
+        "pdf": [
+          275
+        ]
+      }
+    },
+    {
+      "term": "fog",
+      "definition": "A cloud that touches the ground or the sea surface. Its droplets are too small to fall as rain.",
+      "pages": {
+        "printed": [
+          242
+        ],
+        "pdf": [
+          278
+        ]
+      }
+    },
+    {
+      "term": "iterative testing",
+      "definition": "An engineering method of testing a design over and over, using what each test shows to improve the next version.",
+      "pages": {
+        "printed": [
+          243
+        ],
+        "pdf": [
+          279
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L18-O1",
+      "title": "Water's Many Disguises",
+      "paragraphs": [
+        "As water travels around Earth it keeps changing state. Evaporation turns liquid water into a gas called water vapor. Condensation turns vapor back into liquid droplets. Crystallization turns vapor or liquid into ice crystals such as snowflakes and frost, and melting turns ice back into liquid. Transpiration also changes state: water carried up from the roots evaporates inside the leaf and leaves as vapor.",
+        "Some steps move water without needing to change its state. Precipitation brings rain, sleet, snow or hail down from the clouds. Runoff carries liquid water downhill over the land, infiltration lets it soak into the ground, and groundwater flow moves it slowly through rock.",
+        "You can spot these processes every day: a puddle shrinking in the sun, drops beading on a cold glass of juice, frost feathers on a winter windshield, a gutter gushing after a storm."
+      ],
+      "diagram": {
+        "kind": "particles",
+        "caption": "Water's three states, from least energy to most energy",
+        "alt": "Three panels of water particles. Ice, a solid: particles held in a fixed, repeating pattern, vibrating in place, lowest energy. Liquid water: particles close together but sliding past each other, medium energy. Water vapor, a gas: particles far apart and moving fast, highest energy.",
+        "panels": [
+          {
+            "label": "Ice (solid)",
+            "state": "solid",
+            "energy": "low"
+          },
+          {
+            "label": "Liquid water",
+            "state": "liquid",
+            "energy": "medium"
+          },
+          {
+            "label": "Water vapor (gas)",
+            "state": "gas",
+            "energy": "high"
+          }
+        ]
+      },
+      "watchOut": "Water vapor is invisible. The white mist over a hot bath, a cloud or a fog bank is made of tiny liquid droplets or ice crystals that have already condensed or frozen. Also, this lesson uses 'crystallization' for both gas-to-solid and liquid-to-solid changes; scientists usually call liquid-to-solid freezing and gas-to-solid deposition.",
+      "pages": {
+        "printed": [
+          234,
+          236,
+          237,
+          239,
+          241
+        ],
+        "pdf": [
+          270,
+          272,
+          273,
+          275,
+          277
+        ]
+      }
+    },
+    {
+      "objectiveId": "L18-O2",
+      "title": "The Sun Lifts, Gravity Drops",
+      "paragraphs": [
+        "Two things keep the water cycle running. Energy from the sun warms water so its molecules move faster. At the surface of a lake or the ocean, the fastest molecules escape into the air as vapor. The same energy melts snow and ice and powers transpiration in plants.",
+        "Changes of state trade energy with their surroundings. Evaporation and melting take energy in, which is why evaporating sweat cools your skin and transpiration cools a leaf. Condensation and crystallization give energy back: as rising air cools, vapor molecules slow down, gather on specks of dust or salt, and release energy into the air around them.",
+        "Gravity handles the trip down. Cloud droplets ride on rising air until collisions make them heavy enough to fall as precipitation. As a drop falls, air pushes up on it (air resistance). That push flattens the underside of larger drops, and very large drops break apart. On the ground, gravity pulls runoff downhill, draws water into the soil by infiltration, and moves groundwater slowly through connected pores, in many places all the way to the sea."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Nine water cycle processes and what drives them",
+        "alt": "Table with three columns: process, change of state, and what drives it. Evaporation: liquid to gas; the sun's energy, water gains energy. Transpiration: liquid to gas inside the leaf; the sun's energy, water gains energy. Melting: solid to liquid; the sun's energy, water gains energy. Condensation: gas to liquid; cooling, water gives off energy. Crystallization: gas or liquid to solid; cooling, water gives off energy. Precipitation: no change of state required, although falling snow can melt and rain can freeze into sleet; gravity. Runoff, infiltration and groundwater flow: no change of state; gravity.",
+        "columns": [
+          "Process",
+          "Change of state",
+          "What drives it"
+        ],
+        "rows": [
+          [
+            "Evaporation",
+            "liquid → gas",
+            "Sun's energy (water gains energy)"
+          ],
+          [
+            "Transpiration",
+            "liquid → gas (inside the leaf)",
+            "Sun's energy (water gains energy)"
+          ],
+          [
+            "Melting",
+            "solid → liquid",
+            "Sun's energy (water gains energy)"
+          ],
+          [
+            "Condensation",
+            "gas → liquid",
+            "Cooling (water gives off energy)"
+          ],
+          [
+            "Crystallization",
+            "gas or liquid → solid",
+            "Cooling (water gives off energy)"
+          ],
+          [
+            "Precipitation",
+            "none required",
+            "Gravity"
+          ],
+          [
+            "Runoff",
+            "none",
+            "Gravity"
+          ],
+          [
+            "Infiltration",
+            "none",
+            "Gravity"
+          ],
+          [
+            "Groundwater flow",
+            "none",
+            "Gravity"
+          ]
+        ]
+      },
+      "watchOut": "Gravity does not turn water into vapor, and it only ever pulls downward; the sun's energy evaporates water and warms air, and the warm, moist air rises because cooler, denser air sinks around it. The lesson's big diagram says each process is powered by the sun or by gravity, but condensation and crystallization really happen when water vapor loses energy as it cools, often in rising air.",
+      "pages": {
+        "printed": [
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "pdf": [
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277
+        ]
+      }
+    },
+    {
+      "objectiveId": "L18-O3",
+      "title": "Many Roads, No Starting Line",
+      "paragraphs": [
+        "The water cycle has no starting line and no finish. A molecule that evaporates from the sea might rain straight back into the sea. Another might fall as snow, rest in a glacier for a very long time, melt, soak into the ground and creep through an aquifer before it reaches the ocean.",
+        "Water never has to visit every place. Some rain soaks in, some runs off, and some is drawn up by roots and transpired before it reaches a river. Water in a lake can evaporate before it ever gets to the sea.",
+        "Diagrams of the cycle draw only selected arrows. The lesson's big diagram shows evaporation rising from the ocean, but water also evaporates from lakes, rivers, wet soil and puddles. Read a diagram as a map of possible routes, not a required tour."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "Some of the routes water can take",
+        "alt": "Water cycle network with arrows pointing from one place to the next. Ocean to water vapor in the air: evaporation. Plants to water vapor in the air: transpiration. Water vapor in the air to clouds: condensation or crystallization. Clouds to ocean: precipitation as rain. Clouds to land (lakes, rivers and soil): precipitation as rain. Clouds to glacier: precipitation as snow. Glacier to land: melting. Land to ocean: runoff. Land to aquifer: infiltration. Land to plants: roots take up water. Land to water vapor in the air: evaporation. Aquifer to ocean: groundwater flow.",
+        "nodes": [
+          {
+            "id": "ocean",
+            "label": "Ocean"
+          },
+          {
+            "id": "air",
+            "label": "Water vapor in the air"
+          },
+          {
+            "id": "clouds",
+            "label": "Clouds"
+          },
+          {
+            "id": "glacier",
+            "label": "Glacier"
+          },
+          {
+            "id": "land",
+            "label": "Land: lakes, rivers, soil"
+          },
+          {
+            "id": "aquifer",
+            "label": "Aquifer"
+          },
+          {
+            "id": "plants",
+            "label": "Plants"
+          }
+        ],
+        "edges": [
+          {
+            "from": "ocean",
+            "to": "air",
+            "label": "evaporation"
+          },
+          {
+            "from": "plants",
+            "to": "air",
+            "label": "transpiration"
+          },
+          {
+            "from": "air",
+            "to": "clouds",
+            "label": "condensation or crystallization"
+          },
+          {
+            "from": "clouds",
+            "to": "ocean",
+            "label": "precipitation (rain)"
+          },
+          {
+            "from": "clouds",
+            "to": "land",
+            "label": "precipitation (rain)"
+          },
+          {
+            "from": "clouds",
+            "to": "glacier",
+            "label": "precipitation (snow)"
+          },
+          {
+            "from": "glacier",
+            "to": "land",
+            "label": "melting"
+          },
+          {
+            "from": "land",
+            "to": "ocean",
+            "label": "runoff"
+          },
+          {
+            "from": "land",
+            "to": "aquifer",
+            "label": "infiltration"
+          },
+          {
+            "from": "land",
+            "to": "plants",
+            "label": "roots take up water"
+          },
+          {
+            "from": "land",
+            "to": "air",
+            "label": "evaporation"
+          },
+          {
+            "from": "aquifer",
+            "to": "ocean",
+            "label": "groundwater flow"
+          }
+        ]
+      },
+      "watchOut": "Arrows in a water cycle diagram show possible moves, not a fixed order, and no single diagram shows every route. Water can pass through some steps quickly and stay put for a long time in others, such as glaciers and aquifers.",
+      "pages": {
+        "printed": [
+          234,
+          239,
+          240,
+          241
+        ],
+        "pdf": [
+          270,
+          275,
+          276,
+          277
+        ]
+      }
+    },
+    {
+      "objectiveId": "L18-O4",
+      "title": "Catching Clouds in a Net",
+      "paragraphs": [
+        "Along Chile's coast, the Atacama Desert gets almost no rain, yet sea fog often rolls in. The sun evaporates Pacific Ocean water, the vapor condenses into low clouds, and onshore winds push them against the coastal hills as fog.",
+        "Fog droplets are too small to fall as rain. A fog catcher is a fine mesh net set up across the wind. Droplets in the passing fog hit the strands and stick, merge into bigger drops, and gravity drains them into a trough and a storage tank.",
+        "Engineers have improved fog catchers by iterative testing: build a model net, test it in fog, measure the water it collects, change a feature such as hole size or material, and test again. Water-repellent strands help drops bead up and slide off instead of soaking in.",
+        "In a 2013 study, MIT researchers reported that typical nets caught only about 2 percent of the water in a mild fog, the same figure the textbook gives. They estimated that a finer mesh could catch 10 percent or more."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Inputs engineers change and outputs they measure",
+        "alt": "Table with two columns. Inputs engineers change: the size of the mesh openings, the fiber material and thickness, and a water-repellent coating. Outputs they measure: liters of water collected per day, the share of fog water captured, and the cost to build and maintain the net.",
+        "columns": [
+          "Input: what engineers change",
+          "Output: what they measure"
+        ],
+        "rows": [
+          [
+            "Size of the mesh openings",
+            "Liters of water collected per day"
+          ],
+          [
+            "Fiber material and thickness",
+            "Share of the fog water captured"
+          ],
+          [
+            "Water-repellent coating",
+            "Cost to build and maintain"
+          ]
+        ]
+      },
+      "watchOut": "Smaller holes help only up to a point. A solid sheet makes fog flow around it instead of through it, so the best mesh balances thin strands with open spaces. A net's catch also depends on how often fog and wind arrive, so it varies by place and season.",
+      "pages": {
+        "printed": [
+          242,
+          243
+        ],
+        "pdf": [
+          278,
+          279
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L18-RF1",
+      "issue": "OCR is empty or garbled on image-heavy pages: the opener photo (p. 232) has no text; Figure 1A (p. 234), Figure 3A (p. 238) and the Key Science Concept spread (pp. 240-241) lost most labels, arrows and the solid/liquid/gas color key ('As It moves ... c h a r t g ^'). The NGSS box on p. 233 is letter-spaced.",
+      "pages": {
+        "printed": [
+          232,
+          233,
+          234,
+          238,
+          240,
+          241
+        ],
+        "pdf": [
+          268,
+          269,
+          270,
+          274,
+          276,
+          277
+        ]
+      },
+      "resolution": "Every listed page was rendered at 110 dpi (pp. 240-241 also at 200 dpi) and read from the image. The spread's nine processes (evaporation, transpiration, condensation, crystallization, precipitation, runoff, melting, infiltration, groundwater flow), its places (ocean, atmosphere, plants, clouds, glaciers, lakes, rivers, aquifers) and its arrow colors were taken from the render, not the OCR.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240,
+            241
+          ],
+          "pdfPages": [
+            276,
+            277
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "The rendered spread names nine processes, eight places and a key showing arrow color from solid through liquid to gas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Figure 3A, The Process of Precipitation",
+          "supports": "The render shows gravity pointing down, air resistance pointing up, and drop shapes labeled by size."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF2",
+      "issue": "Section 1 (p. 235) says liquid water is released through the stomata and then evaporates once it meets the air. In plants, water evaporates inside the leaf and leaves through the stomata as vapor, which is what the Key Science Concept caption on p. 240 says.",
+      "pages": {
+        "printed": [
+          235,
+          240
+        ],
+        "pdf": [
+          271,
+          276
+        ]
+      },
+      "resolution": "Game text says water evaporates inside the leaf and escapes through stomata as water vapor. Question L18-Q07 tests this; since review round 1 it is the only item that carries the correction (the stomata item was taken out of Q04, because a reader of p. 235 could defensibly sort it as liquid). Stomata opening and closing to control water loss (p. 235) is kept; it is correct.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            240
+          ],
+          "pdfPages": [
+            276
+          ],
+          "locator": "Key Science Concept: Global Processes in the Water Cycle",
+          "supports": "Transpiration caption: water inside the plant evaporates and is released to the air as water vapor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration; Figure 1B",
+          "supports": "Stomata on the underside of leaves open and close to raise or lower transpiration, and evaporation helps regulate plant temperature."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 30.5 Transport of Water and Solutes in Plants",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+          "accessed": "2026-10-14",
+          "supports": "Water on the surfaces of cells inside the leaf evaporates into the leaf's air spaces; transpiration is the loss of water vapor through stomata, regulated mainly by opening and closing the stomata."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF3",
+      "issue": "The lesson uses 'crystallization' for both gas-to-solid and liquid-to-solid changes (pp. 237, 241); frost and snowflakes forming straight from vapor are usually called deposition. The text also says crystals are made of 'atoms' (p. 237), but ice crystals are built from water molecules, and the Lesson Summary (p. 243) says clouds can be made of 'crystallized water vapor that has condensed', which muddles the two changes.",
+      "pages": {
+        "printed": [
+          237,
+          241,
+          243
+        ],
+        "pdf": [
+          273,
+          277,
+          279
+        ]
+      },
+      "resolution": "Questions keep the textbook's term 'crystallization' (it is also the NGSS wording) and add the scientists' terms (glossary, Explorer card O1). Q05's conditions name both freezing (liquid to solid) and deposition (gas to solid), and Q01's frost item is the gas-to-solid case. Game text says ice crystals are made of water molecules and that clouds are made of liquid droplets, ice crystals, or both.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            237
+          ],
+          "pdfPages": [
+            273
+          ],
+          "locator": "Section 2, Crystallization",
+          "supports": "Crystallization is described as gas or liquid becoming solid, forming frost and snowflakes and releasing energy."
+        },
+        {
+          "type": "external",
+          "title": "The water cycle",
+          "publisher": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Water vapor can turn directly into ice without condensing first (deposition), and snow or ice can turn directly into vapor (sublimation)."
+        },
+        {
+          "type": "external",
+          "title": "Cloud Development (training page)",
+          "publisher": "National Weather Service, NOAA (weather.gov)",
+          "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/clouds/cloud_development/clouds.htm",
+          "accessed": "2026-10-14",
+          "supports": "Clouds are made of cloud droplets, ice crystals, or both; water releases heat when it changes from vapor to liquid or solid (latent heats of condensation and deposition)."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF4",
+      "issue": "The Key Science Concept introduction (p. 240) says each of the nine processes is powered either by the sun's energy or by gravity. Condensation and crystallization are not directly powered by either: they happen when water vapor gives off energy as it cools, for example in rising air that expands.",
+      "pages": {
+        "printed": [
+          240
+        ],
+        "pdf": [
+          276
+        ]
+      },
+      "resolution": "The game says the sun and gravity drive the cycle as a whole, and classifies condensation and crystallization as 'water gives off energy as it cools'. Q11 (sun or gravity sort) leaves those two out and says why in its conditions; Q09 sorts changes by energy gained or released instead. Explorer card O2 names the limitation.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            236
+          ],
+          "pdfPages": [
+            272
+          ],
+          "locator": "Section 2, Condensation; Figure 2",
+          "supports": "Cooling vapor molecules slow down and join together; condensation and freezing release energy into the atmosphere."
+        },
+        {
+          "type": "external",
+          "title": "Cloud Development (training page)",
+          "publisher": "National Weather Service, NOAA (weather.gov)",
+          "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/clouds/cloud_development/clouds.htm",
+          "accessed": "2026-10-14",
+          "supports": "As air rises it expands and cools; vapor gives off latent heat when it condenses or deposits as ice."
+        },
+        {
+          "type": "external",
+          "title": "Condensation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Clouds form because air containing water vapor rises and cools, and heat is released into the atmosphere as vapor condenses."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF5",
+      "issue": "Section 1 (p. 235) gives 'about 90 percent' of atmospheric water vapor from bodies of water and 'the other 10 percent' from transpiration. These are rough estimates, and a very small share also comes from sublimation of ice and snow.",
+      "pages": {
+        "printed": [
+          235
+        ],
+        "pdf": [
+          271
+        ]
+      },
+      "resolution": "The game calls these 'about' figures and does not ask for exact percentages. No question depends on the 90/10 split.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            235
+          ],
+          "pdfPages": [
+            271
+          ],
+          "locator": "Section 1, Transpiration",
+          "supports": "About 90 percent of water vapor comes from evaporation from bodies of water and the remainder from transpiration."
+        },
+        {
+          "type": "external",
+          "title": "Evaporation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "About 90 percent of atmospheric moisture comes from evaporation from oceans, seas, lakes and rivers; the rest comes from plant transpiration and a very small amount from sublimation."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF6",
+      "issue": "Figure 3A (p. 238) labels drop shapes 'Less than 2 mm', 'More than 2 mm' and 'More than 5 mm' without saying whether these are diameters or radii; published breakup sizes are not stated consistently (USGS quotes a radius of about 4.5 mm; NASA GPM says drops larger than about 4.5 mm break apart without saying whether that is a radius or a diameter).",
+      "pages": {
+        "printed": [
+          238
+        ],
+        "pdf": [
+          274
+        ]
+      },
+      "resolution": "Questions use only the shape pattern the figure and sources agree on: small drops are nearly round, larger falling drops are flattened underneath like a hamburger bun because air pushes up on them, and very large drops break apart. Raindrops are not teardrop-shaped. No size cutoffs are tested (Q14). Explorer card O2 and key idea 5 teach air resistance and drop flattening, so Q14 is answerable from the game.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            238
+          ],
+          "pdfPages": [
+            274
+          ],
+          "locator": "Figure 3A, The Process of Precipitation",
+          "supports": "Drawn drops grow from round to flattened-bottom shapes, and the largest splits; air resistance acts upward and gravity downward."
+        },
+        {
+          "type": "external",
+          "title": "Are Raindrops Shaped Like Teardrops?",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops",
+          "accessed": "2026-10-14",
+          "supports": "Small raindrops are spherical; larger ones take a hamburger-bun shape because air pushes up on the bottom of the falling drop; very large drops become parachute-shaped and break up."
+        },
+        {
+          "type": "external",
+          "title": "The Anatomy of a Raindrop",
+          "publisher": "NASA Global Precipitation Measurement Mission",
+          "url": "https://gpm.nasa.gov/science/anatomy-of-a-raindrop",
+          "accessed": "2026-10-14",
+          "supports": "Raindrops are round on top and flat on the bottom, not teardrop-shaped; drops larger than about 4.5 mm distort and break into smaller drops."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF7",
+      "issue": "The Key Science Concept diagram (pp. 240-241) draws one set of arrows: evaporation only from the ocean, no evaporation from lakes, rivers or soil, no water entering plants and no sublimation. Without care, learners may read it as one compulsory loop.",
+      "pages": {
+        "printed": [
+          234,
+          239,
+          240,
+          241
+        ],
+        "pdf": [
+          270,
+          275,
+          276,
+          277
+        ]
+      },
+      "resolution": "The game treats the diagram as a model of selected routes. Q19 repairs the 'one fixed loop' idea, Q22 asks how to read the missing lake evaporation, and Explorer card O3 states that water need not visit every place. Supported by the lesson's own text: the cycle has no starting point (p. 234), evaporation can happen wherever there is water and sunlight (p. 234), and some water evaporates or transpires before reaching the ocean (p. 239).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            234
+          ],
+          "pdfPages": [
+            270
+          ],
+          "locator": "1. Heating and the Water Cycle",
+          "supports": "The water cycle has no starting point, and evaporation can take place anywhere there is water and energy from the sun."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            239
+          ],
+          "pdfPages": [
+            275
+          ],
+          "locator": "Section 3, Infiltration",
+          "supports": "Some water on land evaporates or transpires before it reaches the ocean."
+        },
+        {
+          "type": "external",
+          "title": "The water cycle",
+          "publisher": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "The simple circular model is useful but incomplete; water's paths are complex, for example flowing over land, into the ground, up through plants and back into the air."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF8",
+      "issue": "Section 4 (p. 243) says scientists found that 'smaller holes and finer materials collect the most water'. Research describes a best balance rather than 'smaller is always better': mesh with fine strands spaced about twice their thickness apart worked best, and solid surfaces make droplets flow around them. MIT also reports that typical nets' strands and holes are much too large, so the textbook's direction holds for ordinary nets; the limit is that near-solid surfaces deflect fog around them.",
+      "pages": {
+        "printed": [
+          243
+        ],
+        "pdf": [
+          279
+        ]
+      },
+      "resolution": "Q28 uses invented test data in which the smallest openings and a solid sheet collect less, and asks which conclusion the data support. Explorer card O4 says smaller holes help only up to a point and dates the 2 percent and 10 percent figures to the 2013 MIT study of mild fog; Q27 uses them as round, approximate values.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            243
+          ],
+          "pdfPages": [
+            279
+          ],
+          "locator": "Section 4, Designing a Fog Catcher",
+          "supports": "Engineers vary hole size and material as inputs and measure collection as output; typical nets catch about two percent of fog water, and future designs might catch ten percent or more."
+        },
+        {
+          "type": "external",
+          "title": "How to get fresh water out of thin air",
+          "publisher": "MIT News, Massachusetts Institute of Technology",
+          "url": "https://news.mit.edu/2013/how-to-get-fresh-water-out-of-thin-air-0830",
+          "accessed": "2026-10-14",
+          "supports": "Existing fog collectors may extract only about 2 percent of the water in mild fog, and a finer mesh could extract 10 percent or more; most existing nets have filaments and holes that are much too large; the best mesh had fine strands spaced about twice their thickness apart, and fog droplets tend to be deflected around solid surfaces."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF9",
+      "issue": "Section 4 (p. 242) gives dated or simplified figures and history: 'over one million people', less than 5 mm of rain per year, a 'Chilean physics student' in the 1950s, villages that 'for the first time' have running water, and nets now used 'all around the world'. Sources describe the inventor, Carlos Espinosa Arancibia, as a Chilean scientist, architect and professor, and report that yields depend on the season's fog and wind.",
+      "pages": {
+        "printed": [
+          242
+        ],
+        "pdf": [
+          278
+        ]
+      },
+      "resolution": "Population and rainfall numbers are treated as figures from the time the textbook was written and are not tested. No question asks about the inventor, dates or villages. Fog catchers are framed as a useful extra water source whose output depends on fog and wind, not as a guaranteed supply (Q25 siting question).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            242
+          ],
+          "pdfPages": [
+            278
+          ],
+          "locator": "4. Designing a Fog Catcher",
+          "supports": "Coastal low clouds trapped along hillsides are blown inland as fog; nets with small openings catch the droplets, which run down into storage tanks."
+        },
+        {
+          "type": "external",
+          "title": "Capturing fog to make water",
+          "publisher": "Food and Agriculture Organization of the United Nations (FAO)",
+          "url": "https://www.fao.org/newsroom/story/capturing-fog-to-make-water/en",
+          "accessed": "2026-10-14",
+          "supports": "Fog catchers were first developed in the 1950s by Chilean scientist, architect and professor Carlos Espinosa Arancibia; water is caught mostly when fog and wind are greatest, and communities adjust designs, materials and locations over time."
+        }
+      ]
+    },
+    {
+      "id": "L18-RF10",
+      "issue": "Section 2 (p. 237) says crystallization occurs when the air temperature falls below freezing. Being below 0 °C is needed for ice to form, but it does not guarantee it: cloud droplets often stay liquid (supercooled) well below 0 °C, in experiments down to about −40 °C, until a particle or an ice crystal sets off freezing.",
+      "pages": {
+        "printed": [
+          237
+        ],
+        "pdf": [
+          273
+        ]
+      },
+      "resolution": "Not tested; game text never says water must freeze below 0 °C. The glossary and Explorer card O1 describe crystallization as vapor or liquid turning into ice crystals without a temperature rule, and the items that involve freezing (Q05's puddle, Q09's sleet) describe a change that did happen, not one that must happen at a set temperature.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            237
+          ],
+          "pdfPages": [
+            273
+          ],
+          "locator": "Section 2, Crystallization",
+          "supports": "Crystallization is described as happening when the air temperature falls below freezing, forming snowflakes and frost."
+        },
+        {
+          "type": "external",
+          "title": "Supercooling and Superheating",
+          "publisher": "Hong Kong Observatory",
+          "url": "https://www.hko.gov.hk/en/education/earth-science/general/00473-supercooling-and-superheating.html",
+          "accessed": "2026-10-17",
+          "supports": "Water droplets in cold clouds below the freezing point can exist as supercooled liquid water, staying liquid as low as −40 °C; freezing needs particles such as suspended particulates or existing ice crystals to start it."
+        }
+      ]
+    }
+  ]
+}

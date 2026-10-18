@@ -1,0 +1,1346 @@
+{
+  "lessonId": "L27",
+  "guidingQuestion": "Why is biodiversity important in ecosystems?",
+  "hook": "Hang one lantern for every kind of living thing and a patch of tropical rainforest would blaze while the Arctic tundra glowed with only a scattering, yet in both places, switching off a single lantern can dim many others.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          358,
+          359
+        ],
+        "pdf": [
+          394,
+          395
+        ]
+      }
+    },
+    {
+      "title": "1. The Importance of Biodiversity",
+      "pages": {
+        "printed": [
+          360,
+          361
+        ],
+        "pdf": [
+          396,
+          397
+        ]
+      }
+    },
+    {
+      "title": "2. Fragile Tundra Ecosystems",
+      "pages": {
+        "printed": [
+          362,
+          363
+        ],
+        "pdf": [
+          398,
+          399
+        ]
+      }
+    },
+    {
+      "title": "3. Keystone Species in the Kelp Forest",
+      "pages": {
+        "printed": [
+          364,
+          365
+        ],
+        "pdf": [
+          400,
+          401
+        ]
+      }
+    },
+    {
+      "title": "4. Many Niches in Tropical Rainforests",
+      "pages": {
+        "printed": [
+          366,
+          367
+        ],
+        "pdf": [
+          402,
+          403
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Biodiversity in Earth's Ecosystems",
+      "pages": {
+        "printed": [
+          368,
+          369
+        ],
+        "pdf": [
+          404,
+          405
+        ]
+      }
+    },
+    {
+      "title": "5. Humans Benefit from Biodiversity",
+      "pages": {
+        "printed": [
+          370,
+          371
+        ],
+        "pdf": [
+          406,
+          407
+        ]
+      }
+    },
+    {
+      "title": "6. Engineering a Super Bandage",
+      "pages": {
+        "printed": [
+          372,
+          373
+        ],
+        "pdf": [
+          408,
+          409
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          373
+        ],
+        "pdf": [
+          409
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L27-O1",
+      "kind": "observe",
+      "text": "Describe biodiversity as the variety of life, say which level is being compared, and use a circle graph and world maps to find the largest species groups and the ecosystems with high, middle or low biodiversity.",
+      "sections": [
+        "Introduction",
+        "1. The Importance of Biodiversity",
+        "2. Fragile Tundra Ecosystems",
+        "3. Keystone Species in the Kelp Forest",
+        "4. Many Niches in Tropical Rainforests",
+        "Key Science Concept: Biodiversity in Earth's Ecosystems"
+      ],
+      "pages": {
+        "printed": [
+          359,
+          360,
+          361,
+          362,
+          364,
+          366,
+          368,
+          369
+        ],
+        "pdf": [
+          395,
+          396,
+          397,
+          398,
+          400,
+          402,
+          404,
+          405
+        ]
+      }
+    },
+    {
+      "id": "L27-O2",
+      "kind": "relate",
+      "text": "Explain how feeding relationships and niches link species, so that a change in one population, such as shrinking numbers of polar bears or the loss of sea otters, can spread to many others, and explain why ecosystems with low biodiversity tend to be more fragile.",
+      "sections": [
+        "2. Fragile Tundra Ecosystems",
+        "3. Keystone Species in the Kelp Forest"
+      ],
+      "pages": {
+        "printed": [
+          362,
+          363,
+          364,
+          365
+        ],
+        "pdf": [
+          398,
+          399,
+          400,
+          401
+        ]
+      }
+    },
+    {
+      "id": "L27-O3",
+      "kind": "relate",
+      "text": "Explain how warm, wet conditions with resources available all year let tropical rainforest species specialize in narrow niches, and how specialization lowers competition so that many species can live together.",
+      "sections": [
+        "2. Fragile Tundra Ecosystems",
+        "4. Many Niches in Tropical Rainforests",
+        "Key Science Concept: Biodiversity in Earth's Ecosystems"
+      ],
+      "pages": {
+        "printed": [
+          362,
+          363,
+          366,
+          367,
+          368
+        ],
+        "pdf": [
+          398,
+          399,
+          402,
+          403,
+          404
+        ]
+      }
+    },
+    {
+      "id": "L27-O4",
+      "kind": "apply",
+      "text": "Use evidence to identify the consequences of biodiversity loss, from the extirpation of a local population to the extinction of a whole species, including lost food webs, medicines, materials and knowledge.",
+      "sections": [
+        "3. Keystone Species in the Kelp Forest",
+        "5. Humans Benefit from Biodiversity"
+      ],
+      "pages": {
+        "printed": [
+          365,
+          370,
+          371
+        ],
+        "pdf": [
+          401,
+          406,
+          407
+        ]
+      }
+    },
+    {
+      "id": "L27-O5",
+      "kind": "apply",
+      "text": "Evaluate competing solutions, including conservation proposals and nature-inspired designs, by comparing evidence and test results against criteria and combining the strongest features into a better solution.",
+      "sections": [
+        "3. Keystone Species in the Kelp Forest",
+        "6. Engineering a Super Bandage"
+      ],
+      "pages": {
+        "printed": [
+          365,
+          372,
+          373
+        ],
+        "pdf": [
+          401,
+          408,
+          409
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Biodiversity is the variety of life in a place. It can be compared at several levels, from genes within one species to species to whole ecosystems, so a fair comparison says which level it uses. This lesson mostly compares how many different species live somewhere.",
+    "When the textbook was written, scientists had named about 1.9 million species, only part of everything alive. Insects make up about half of all named species, while plants, algae and single-celled life together are less than a quarter, even though producers hold most of Earth's living mass.",
+    "Every ecosystem has its own natural level of biodiversity. On land it is generally highest in warm, wet tropics and falls toward the poles; in the ocean it is highest in warm, sunlit shallow coastal waters. Arctic tundra is low, kelp forests are intermediate, and tropical rainforests and coral reefs are high.",
+    "Species are tied together by feeding and other interactions, so a change in one population can spread. As warming breaks up Arctic sea ice, polar bears catch fewer seals, leaving fewer leftovers for Arctic foxes and gulls.",
+    "Ecosystems with few species tend to be fragile, because fewer species are available to take over a lost role. High biodiversity often helps an ecosystem withstand change, but it is not a guarantee against every disturbance.",
+    "A keystone species has an effect far larger than its numbers suggest. Sea otters eat sea urchins; where hunters removed the otters, urchins multiplied and grazed away kelp, and the many species that rely on kelp declined. Where otters returned, kelp recovered in many places.",
+    "Year-round warmth, rain and food let rainforest species specialize in narrow niches, such as an anteater that eats mainly ants and termites or an orchid that lives on high branches. Specialists compete less with one another, so many species can share a small area.",
+    "People depend on biodiversity for medicines, materials and ideas. Extirpation removes a population from one place, while extinction removes a species everywhere, along with anything it could have taught us. Engineers also borrow nature's designs, combining a gecko-like texture with mussel-like glue into an adhesive that held in wet and dry lab tests."
+  ],
+  "glossary": [
+    {
+      "term": "biodiversity",
+      "definition": "The variety of life in a place, which can be compared at the level of genes within a species, of different species, or of whole ecosystems. This lesson mostly compares numbers of different species.",
+      "pages": {
+        "printed": [
+          359,
+          360
+        ],
+        "pdf": [
+          395,
+          396
+        ]
+      }
+    },
+    {
+      "term": "proportion",
+      "definition": "A comparison of a part with the whole it belongs to, often written as a fraction or a percentage.",
+      "pages": {
+        "printed": [
+          359,
+          361
+        ],
+        "pdf": [
+          395,
+          397
+        ]
+      }
+    },
+    {
+      "term": "described species",
+      "definition": "A species that scientists have found, studied and given an official scientific name. Many living species have not been described yet.",
+      "pages": {
+        "printed": [
+          361
+        ],
+        "pdf": [
+          397
+        ]
+      }
+    },
+    {
+      "term": "biomass",
+      "definition": "The total mass of the living things in a place or in a group of organisms. It measures how much living material there is, not how many kinds.",
+      "pages": {
+        "printed": [
+          361
+        ],
+        "pdf": [
+          397
+        ]
+      }
+    },
+    {
+      "term": "biome",
+      "definition": "A large region of Earth set apart by its climate and the kinds of communities living there, such as tundra, desert or tropical rainforest.",
+      "pages": {
+        "printed": [
+          359,
+          366
+        ],
+        "pdf": [
+          395,
+          402
+        ]
+      }
+    },
+    {
+      "term": "niche",
+      "definition": "The role a species plays in its ecosystem: what it eats, how and where it gets its food, and how it affects other species.",
+      "pages": {
+        "printed": [
+          359,
+          363
+        ],
+        "pdf": [
+          395,
+          399
+        ]
+      }
+    },
+    {
+      "term": "specialized niche",
+      "definition": "A narrow role that few other species share, such as eating mainly ants and termites or growing only on high tree branches.",
+      "pages": {
+        "printed": [
+          367
+        ],
+        "pdf": [
+          403
+        ]
+      }
+    },
+    {
+      "term": "fragile ecosystem",
+      "definition": "An ecosystem whose stability is easily upset, so a small change in one part can spread into large changes. Ecosystems with low biodiversity tend to be fragile.",
+      "pages": {
+        "printed": [
+          363
+        ],
+        "pdf": [
+          399
+        ]
+      }
+    },
+    {
+      "term": "keystone species",
+      "definition": "A species whose effect on its ecosystem is much larger than its numbers would suggest, so losing it changes many other populations.",
+      "pages": {
+        "printed": [
+          359,
+          365
+        ],
+        "pdf": [
+          395,
+          401
+        ]
+      }
+    },
+    {
+      "term": "extirpation",
+      "definition": "The loss of every member of a population from one place while the species still survives somewhere else.",
+      "pages": {
+        "printed": [
+          359,
+          365
+        ],
+        "pdf": [
+          395,
+          401
+        ]
+      }
+    },
+    {
+      "term": "extinction",
+      "definition": "The death of every member of a species everywhere, so that the species is gone for good and cannot be replaced.",
+      "pages": {
+        "printed": [
+          359,
+          371
+        ],
+        "pdf": [
+          395,
+          407
+        ]
+      }
+    },
+    {
+      "term": "biomimicry",
+      "definition": "Designing technology by borrowing a solution that a living thing evolved, such as copying the texture of a gecko's toe pads.",
+      "pages": {
+        "printed": [
+          372
+        ],
+        "pdf": [
+          408
+        ]
+      }
+    },
+    {
+      "term": "criteria",
+      "definition": "The requirements a design must meet to count as a success, such as sticking when wet and peeling off without hurting.",
+      "pages": {
+        "printed": [
+          372,
+          373
+        ],
+        "pdf": [
+          408,
+          409
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L27-O1",
+      "title": "Counting the Lanterns",
+      "paragraphs": [
+        "Biodiversity is the variety of life in a place. Scientists can compare it at different levels: the variety of genes inside one species, the variety of species, or the variety of whole ecosystems. This lesson mostly compares species, so the place with more kinds of living things has more biodiversity, even if another place holds more individuals.",
+        "When the textbook was written, scientists had named about 1.9 million species, and newer catalogs list more than 2 million. That is only the life people have found and described. Many more species, especially tiny insects, fungi and microbes, are still waiting for names.",
+        "Insects alone are about half of all named species. Plants, algae and single-celled organisms together are under a quarter, even though producers hold most of the living mass on Earth. Counting kinds and weighing living material are two different measurements.",
+        "Each ecosystem has its own natural level. On land, species pile up in warm, wet places near the equator and thin out toward the poles. In the ocean, warm, sunlit shallow coasts such as coral reefs are richest. Arctic tundra is low, kelp forests are in the middle, and tropical rainforests and coral reefs are high."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Share of named species in each group (textbook values; insects 52% from the text, labeled 50% on the graph)",
+        "alt": "A bar chart of the percentage of named species in six groups, from the textbook's circle graph. Insects 52 percent, other animals 20 percent, plants 18 percent, fungi 5 percent, single-celled organisms 3 percent, algae 2 percent. The graph's own label shows insects as 50 percent, but the textbook's text and caption use 52 percent, which makes the groups add up to 100 percent.",
+        "yLabel": "Percent of named species",
+        "bars": [
+          {
+            "label": "Insects",
+            "value": 52
+          },
+          {
+            "label": "Other animals",
+            "value": 20
+          },
+          {
+            "label": "Plants",
+            "value": 18
+          },
+          {
+            "label": "Fungi",
+            "value": 5
+          },
+          {
+            "label": "Single-celled organisms",
+            "value": 3
+          },
+          {
+            "label": "Algae",
+            "value": 2
+          }
+        ]
+      },
+      "watchOut": "A list of named species is not a full census of life. Large, easy-to-spot organisms tend to get named first, so microbes and tiny insects are badly undercounted. And more individuals is not the same as more biodiversity: a field of a million identical crop plants has very little.",
+      "pages": {
+        "printed": [
+          359,
+          360,
+          361,
+          368,
+          369
+        ],
+        "pdf": [
+          395,
+          396,
+          397,
+          404,
+          405
+        ]
+      }
+    },
+    {
+      "objectiveId": "L27-O2",
+      "title": "When One Lantern Goes Dark",
+      "paragraphs": [
+        "Species are tied together: who eats whom, who shelters whom, who cleans up after whom. Change the size of one population and the change can travel along those ties to many other species.",
+        "On the Arctic sea ice, polar bears wait beside breathing holes to catch seals. They often leave much of each seal behind, and Arctic foxes and gulls, which cannot catch grown seals on the ice, feed on the scraps, especially in lean winter months. As warming breaks up the sea ice, bears catch fewer seals, and the scavengers lose food too.",
+        "Low biodiversity tends to make an ecosystem fragile. When only a few species share the work, there may be no one to take over a role that is lost. Richer ecosystems often have backups, but diversity is not a shield against everything: coral reefs, among the richest places on Earth, can be badly damaged when hot water bleaches their corals.",
+        "In kelp forests, sea otters eat sea urchins, and urchins eat kelp. When hunters wiped out otters along much of the Pacific coast, urchins multiplied and mowed down the kelp, and many animals that lived in it declined. A species whose influence is this large compared with its numbers is called a keystone species."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "web",
+        "caption": "Who depends on seals in the Arctic winter (arrows point from food to eater)",
+        "alt": "A food web with four animals. Arrows point from the food to the animal that eats it. An arrow goes from seal to polar bear, labeled hunted from the sea ice. An arrow goes from seal to Arctic fox and another from seal to gull, each labeled leftovers from polar bear kills. Arctic foxes and gulls cannot catch grown seals at breathing holes, so in winter their share of seal depends on polar bears.",
+        "nodes": [
+          {
+            "id": "seal",
+            "label": "Seal",
+            "group": "prey"
+          },
+          {
+            "id": "bear",
+            "label": "Polar bear",
+            "group": "predator"
+          },
+          {
+            "id": "fox",
+            "label": "Arctic fox",
+            "group": "scavenger"
+          },
+          {
+            "id": "gull",
+            "label": "Gull",
+            "group": "scavenger"
+          }
+        ],
+        "edges": [
+          {
+            "from": "seal",
+            "to": "bear",
+            "label": "hunted from the sea ice"
+          },
+          {
+            "from": "seal",
+            "to": "fox",
+            "label": "leftovers from polar bear kills"
+          },
+          {
+            "from": "seal",
+            "to": "gull",
+            "label": "leftovers from polar bear kills"
+          }
+        ]
+      },
+      "watchOut": "Polar bears do not hibernate. Only pregnant females den for the winter to give birth; other polar bears keep hunting seals from the sea ice, which is why losing that ice matters so much. And in any food web, arrows point from the food to the eater, so the arrow runs from seal to polar bear.",
+      "pages": {
+        "printed": [
+          362,
+          363,
+          364,
+          365
+        ],
+        "pdf": [
+          398,
+          399,
+          400,
+          401
+        ]
+      }
+    },
+    {
+      "objectiveId": "L27-O3",
+      "title": "Room for Everyone",
+      "paragraphs": [
+        "Tropical rainforests are warm and wet nearly all year. Steady heat, light and water feed a huge variety of producers: a small patch can hold hundreds of kinds of trees, each draped in ferns, vines, mosses and orchids. Those producers feed swarms of insects, which feed lizards, birds and mammals.",
+        "Because food and shelter are there in every season, a species can survive by doing one narrow job very well. The lesser anteater rips open ant and termite nests with strong claws and gathers the insects with a long, sticky tongue. Some orchids grip the bark of high branches with special roots, reaching sunlight that seldom reaches the forest floor.",
+        "Specialists seldom get in each other's way. An animal that eats ants and one that eats fruit are not fighting over food, and a plant on a branch is not fighting a plant in the soil for the same ground. With competition low, many species can share a small area, and biodiversity climbs.",
+        "The tundra works differently. Its plants grow only during a short summer, and in winter food is scarce and buried under snow, so an animal that could eat only one summer plant would go hungry for most of the year. Tundra animals tend to eat a range of foods or leave for the winter, as caribou do."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Specialized niches and how they avoid competition",
+        "alt": "A table with three columns: species, its niche, and why it competes little with others. Lesser anteater: eats mainly ants and termites, using strong claws and a long sticky tongue; few other animals specialize on these insects. Tropical orchid: lives on the trunks and high branches of rainforest trees, held on by clinging roots; it does not compete with plants rooted in the soil. Polar bear: hunts seals from the Arctic sea ice; few other Arctic animals can catch seals, and it is the chief hunter of grown seals at breathing holes.",
+        "columns": [
+          "Species",
+          "Niche",
+          "Why it competes little"
+        ],
+        "rows": [
+          [
+            "Lesser anteater",
+            "Eats mainly ants and termites, using strong claws and a long sticky tongue",
+            "Few other animals specialize on these insects"
+          ],
+          [
+            "Tropical orchid",
+            "Lives on high trunks and branches, held on by clinging roots",
+            "Does not compete with plants rooted in soil"
+          ],
+          [
+            "Polar bear",
+            "Hunts seals from the Arctic sea ice",
+            "Few other Arctic animals can catch seals, and it is the chief hunter of grown seals at breathing holes"
+          ]
+        ]
+      },
+      "watchOut": "Specialization is a gamble that pays off only where a resource is reliable. A specialist has no backup if its one food or perch disappears, so specialists can be hit hard when their habitat changes.",
+      "pages": {
+        "printed": [
+          362,
+          363,
+          366,
+          367,
+          368
+        ],
+        "pdf": [
+          398,
+          399,
+          402,
+          403,
+          404
+        ]
+      }
+    },
+    {
+      "objectiveId": "L27-O4",
+      "title": "What We Lose When Life Disappears",
+      "paragraphs": [
+        "People lean on biodiversity every day. Silk comes from cocoon fibers spun by silkworm moth caterpillars, and some bacteria break down oil, which could help clean up spills.",
+        "Plants have handed us important medicines. Willow bark contains salicin, and chemists used a related compound to make aspirin. Purple foxglove contains digitoxin, a medicine that acts on the heart, and doctors have used its leaves since the 1700s; the related drug digoxin, used for some heart rhythm problems and to ease heart failure symptoms, comes from its cousin, woolly foxglove. Madagascar periwinkle, from eastern and southern Madagascar, supplies chemicals used to treat some cancers.",
+        "Biodiversity can be lost at two scales. In extirpation, a population disappears from one place while the species survives elsewhere, as when hunters removed sea otters from many Pacific kelp forests. Because otters lived on in other places, they could return once hunting was banned, sometimes with help from people who moved otters from surviving colonies to empty coasts. In extinction, every member of a species is gone, everywhere, for good.",
+        "The southern gastric brooding frog of Queensland, Australia, swallowed its eggs, scientists think, and raised its young in its stomach while acid production stopped, probably because of a substance the young released. It was described in 1973 and not seen in the wild after about 1981. What it could have taught doctors about controlling stomach acid vanished with it."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Species that have helped, or could have helped, people",
+        "alt": "A table with two columns: species, and what it gives or could have given people. Madagascar periwinkle: chemicals used in treating some cancers. Willow tree: salicin in its bark, which led chemists to aspirin. Purple foxglove: digitoxin, a medicine for some heart problems. Silkworm moth: cocoon fibers woven into silk. Oil-eating bacteria: a possible way to help clean up oil spills. Gastric brooding frog, now extinct: clues about switching off stomach acid that were lost with it.",
+        "columns": [
+          "Species",
+          "What it gives (or could have given) people"
+        ],
+        "rows": [
+          [
+            "Madagascar periwinkle",
+            "Chemicals used in treating some cancers"
+          ],
+          [
+            "Willow tree",
+            "Salicin in its bark, which led chemists to aspirin"
+          ],
+          [
+            "Purple foxglove",
+            "Digitoxin, a medicine for some heart problems"
+          ],
+          [
+            "Silkworm moth",
+            "Cocoon fibers woven into silk"
+          ],
+          [
+            "Oil-eating bacteria",
+            "A possible way to help clean up oil spills"
+          ],
+          [
+            "Gastric brooding frog (extinct)",
+            "Clues about switching off stomach acid, now lost"
+          ]
+        ]
+      },
+      "watchOut": "Being the source of a medicine does not make a plant safe. Many medicinal plants, foxglove included, are poisonous; medicines are purified and dosed by scientists and doctors. Also keep the two losses apart: an extirpated population can sometimes return, but an extinct species cannot.",
+      "pages": {
+        "printed": [
+          365,
+          370,
+          371
+        ],
+        "pdf": [
+          401,
+          406,
+          407
+        ]
+      }
+    },
+    {
+      "objectiveId": "L27-O5",
+      "title": "Two Ideas Are Better Than One",
+      "paragraphs": [
+        "Engineers judge a design against criteria, the things it must do. A bandage for swimmers and sweaty athletes needs to stick when dry, stick when wet, and peel off without hurting skin.",
+        "Biomimicry means borrowing a solution that a living thing evolved. Gecko toe pads are covered in tiny structures that grip dry surfaces and let go easily, while mussels make a protein glue that holds fast to wet rocks.",
+        "Tests showed that each idea alone fell short. A gecko-textured pad stuck and released again and again on dry surfaces but failed when wet, and mussel-style glue held when wet but did not peel off easily. So engineers coated a gecko-like texture with a mussel-like glue. In lab tests the hybrid stuck and released many times in both wet and dry conditions.",
+        "The same thinking works for conservation proposals. Name the goals, study the evidence about what is causing the problem, compare each option against every goal, and keep measuring after the plan starts. In kelp forests, the evidence pointed to missing otters and booming urchins, so protecting otters went after the cause."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "How each adhesive design did against the three criteria",
+        "alt": "A table comparing three adhesive designs against three criteria: sticks when dry, sticks when wet, and peels off easily. Gecko-textured pad: sticks when dry yes, sticks when wet no, peels off easily yes. Mussel-style glue: sticking when dry is not reported, sticks when wet yes, peels off easily no. Combined pad with a gecko-like texture and a mussel-like coating: yes, yes, yes.",
+        "columns": [
+          "Design",
+          "Sticks when dry",
+          "Sticks when wet",
+          "Peels off easily"
+        ],
+        "rows": [
+          [
+            "Gecko-textured pad",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          [
+            "Mussel-style glue",
+            "Not reported",
+            "Yes",
+            "No"
+          ],
+          [
+            "Combined pad",
+            "Yes",
+            "Yes",
+            "Yes"
+          ]
+        ]
+      },
+      "watchOut": "Combining two designs only counts once the combination itself has been tested. The gecko-and-mussel adhesive was a lab prototype: passing early tests is a step toward a product, not the finish line.",
+      "pages": {
+        "printed": [
+          365,
+          372,
+          373
+        ],
+        "pdf": [
+          401,
+          408,
+          409
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L27-RF1",
+      "issue": "Figure 1 (p. 361) labels the insect wedge 50%, but the text says 52% and the caption says insects plus other animals make 72% (52 + 20). With the 50% label the wedges add to only 98%.",
+      "pages": {
+        "printed": [
+          361
+        ],
+        "pdf": [
+          397
+        ]
+      },
+      "resolution": "Content uses 52% only in the O1 bar chart, whose caption and alt text note the discrepancy. Questions say 'about half' for insects and never test the exact insect percentage; the numeric item (L27-Q04) uses the plants wedge (18%), on which the text and figure agree.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            361
+          ],
+          "pdfPages": [
+            397
+          ],
+          "locator": "Section 1 and Figure 1, Proportions of Known Species in Different Groups",
+          "supports": "The text gives insects as 52 percent and producers as 23 percent; the rendered graph labels insects 50%, other animals 20%, plants 18%, fungi 5%, unicellular organisms 3% and algae 2%."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF2",
+      "issue": "Species counts are dated or unverified: about 1.9 million identified species (p. 361), 'almost a million' insect species and 'over 86,000' weevil species in the photo caption (p. 361).",
+      "pages": {
+        "printed": [
+          361
+        ],
+        "pdf": [
+          397
+        ]
+      },
+      "resolution": "Content presents 1.9 million as the count at the time the textbook was written and notes that newer catalogs list more than 2 million. L27-Q04 states the textbook's rounded values in its conditions. The weevil and insect totals are not used.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            361
+          ],
+          "pdfPages": [
+            397
+          ],
+          "locator": "Section 1 and photo caption",
+          "supports": "The textbook gives about 1.9 million identified species, described as a fraction of the total."
+        },
+        {
+          "type": "external",
+          "title": "Catalogue of Life (home page species counts)",
+          "publisher": "Catalogue of Life",
+          "url": "https://www.catalogueoflife.org/",
+          "accessed": "2026-10-14",
+          "supports": "The Catalogue of Life home page lists about 1.8 million animal, 0.41 million plant, 0.17 million fungus and 0.08 million other species, well over 2 million species in all."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF3",
+      "issue": "The textbook treats biodiversity almost entirely as the variety of species. Biodiversity is usually defined to include variety within species (genetic) and of ecosystems as well, so a question must say which level it compares.",
+      "pages": {
+        "printed": [
+          359,
+          360
+        ],
+        "pdf": [
+          395,
+          396
+        ]
+      },
+      "resolution": "The glossary, key ideas and O1 card name the three levels and say this lesson compares species. The brief's seed (L27-Q01) states in its prompt and conditions that the comparison is at the species level.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            359,
+            360
+          ],
+          "pdfPages": [
+            395,
+            396
+          ],
+          "locator": "Vocabulary box; Section 1",
+          "supports": "The textbook defines biodiversity as the variety of organisms on Earth or in a habitat or ecosystem."
+        },
+        {
+          "type": "external",
+          "title": "Convention on Biological Diversity, Article 2: Use of Terms",
+          "publisher": "Secretariat of the Convention on Biological Diversity",
+          "url": "https://www.cbd.int/convention/articles/?a=cbd-02",
+          "accessed": "2026-10-14",
+          "supports": "The Convention defines biological diversity as the variability among living organisms, including diversity within species, between species and of ecosystems."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF4",
+      "issue": "Section 2 (p. 362) lists polar bears among animals that 'hibernate to escape the harsh winters'. Polar bears do not hibernate; only pregnant females den for the winter, and other polar bears stay active, hunting seals on the sea ice.",
+      "pages": {
+        "printed": [
+          362
+        ],
+        "pdf": [
+          398
+        ]
+      },
+      "resolution": "Corrected in the O2 card's watch-out. L27-Q17 targets the misconception, keyed to external sources. No item repeats the textbook's wording.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            362,
+            363
+          ],
+          "pdfPages": [
+            398,
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "The textbook says polar bears hibernate (p. 362) and also describes them hunting seals from sea ice (p. 363)."
+        },
+        {
+          "type": "external",
+          "title": "Polar Bear",
+          "publisher": "National Wildlife Federation",
+          "url": "https://www.nwf.org/polarbear/",
+          "accessed": "2026-10-14",
+          "supports": "NWF states that polar bears do not hibernate during winter and that most polar bears do not den; pregnant females den so their cubs are born in a protected place. Polar bears can survive only where the ocean freezes, which lets them hunt seals."
+        },
+        {
+          "type": "external",
+          "title": "Polar Bear (Ursus maritimus) species profile",
+          "publisher": "Alaska Department of Fish and Game",
+          "url": "https://www.adfg.alaska.gov/index.cfm?adfg=polarbear.main",
+          "accessed": "2026-10-14",
+          "supports": "ADF&G describes pregnant females finding den sites in October and November and giving birth in the den, says polar bears stay close to the pack ice that provides a platform for hunting seals, and notes that the sea ice they depend on is declining."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF5",
+      "issue": "Section 2 (p. 363) states without qualification that polar bear populations are decreasing, and treats polar bears as tundra animals although they depend on sea ice.",
+      "pages": {
+        "printed": [
+          363
+        ],
+        "pdf": [
+          399
+        ]
+      },
+      "resolution": "Content ties polar bears to the sea ice they hunt from and says many populations are declining or expected to decline as sea ice shrinks. No question asks for a population number or trend for the whole species.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            363
+          ],
+          "pdfPages": [
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Sea ice breakup makes it harder for polar bears to catch seals, affecting polar bears and the scavengers that eat their leftovers."
+        },
+        {
+          "type": "external",
+          "title": "U.S. Fish and Wildlife Service finds polar bear status remains threatened",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://fws.gov/press-release/2023-09/us-fish-and-wildlife-service-finds-polar-bear-status-remains-threatened",
+          "accessed": "2026-10-14",
+          "supports": "The 2023 status review keeps the polar bear listed as threatened because of the loss of its sea ice habitat, says polar bears rely heavily on sea ice, and projects that most subpopulations will decline or continue to decline if warming continues."
+        },
+        {
+          "type": "external",
+          "title": "Polar Bear (Ursus maritimus) species profile",
+          "publisher": "Alaska Department of Fish and Game",
+          "url": "https://www.adfg.alaska.gov/index.cfm?adfg=polarbear.main",
+          "accessed": "2026-10-14",
+          "supports": "ADF&G describes pregnant females finding den sites in October and November and giving birth in the den, says polar bears stay close to the pack ice that provides a platform for hunting seals, and notes that the sea ice they depend on is declining."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF6",
+      "issue": "Section 3 (p. 364) calls the sea otter 'a unique species found only in kelp forest ecosystems'. Sea otters also live in other shallow coastal habitats, including estuaries.",
+      "pages": {
+        "printed": [
+          364
+        ],
+        "pdf": [
+          400
+        ]
+      },
+      "resolution": "Content describes sea otters as kelp-forest predators without saying they live only there. No question asks where otters live.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            364
+          ],
+          "pdfPages": [
+            400
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "The textbook describes sea otters living, raising young and hunting in kelp forests."
+        },
+        {
+          "type": "external",
+          "title": "Species recovery and recolonization of past habitats: Lessons for science and conservation from sea otters in estuaries (Hughes et al., 2019)",
+          "publisher": "U.S. Geological Survey, Publications Warehouse",
+          "url": "https://pubs.usgs.gov/publication/70208034",
+          "accessed": "2026-10-14",
+          "supports": "The abstract says estuaries can give southern sea otters high-quality shallow-water habitat and that historical evidence shows sea otters were once widespread in estuaries, not only on exposed rocky coasts."
+        },
+        {
+          "type": "external",
+          "title": "Sea Otters",
+          "publisher": "National Park Service, Southwest Alaska Inventory and Monitoring Network",
+          "url": "https://www.nps.gov/im/swan/seaotters.htm",
+          "accessed": "2026-10-14",
+          "supports": "NPS calls sea otters a keystone species in nearshore marine environments: by eating grazers they produce communities with diverse, abundant algae and relatively few large grazing invertebrates such as sea urchins."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF7",
+      "issue": "Section 3 says 'Without this predator, the forest will die' (p. 364) and that kelp recovered wherever otters returned (p. 365). These are stated as absolutes; how strongly otters affect urchins and kelp depends on local conditions, such as how many otters there are and how long they stay.",
+      "pages": {
+        "printed": [
+          364,
+          365
+        ],
+        "pdf": [
+          400,
+          401
+        ]
+      },
+      "resolution": "Content says kelp recovered 'in many places' where otters returned. L27-Q20 (fictional data) asks learners to separate the otter-kelp pattern from proof of a single cause. L27-Q21 notes in its limitations that recovery takes time and depends on local conditions. In reviser round 1 the O4 card and L27-Q26 were updated to say that in some places people moved otters from surviving colonies to empty coasts, as in the 1969-1970 move of otters from Amchitka Island to Washington.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "After otters were extirpated, urchins increased and kelp declined; where otters returned, kelp forest biodiversity recovered."
+        },
+        {
+          "type": "external",
+          "title": "Limited effects of a keystone species: Trends of sea otters and kelp forests at the Semichi Islands, Alaska",
+          "publisher": "U.S. Geological Survey, Publications Warehouse",
+          "url": "https://pubs.usgs.gov/publication/70022507",
+          "accessed": "2026-10-14",
+          "supports": "About seven years after sea otters recolonized the Semichi Islands, urchin biomass, urchin size and kelp density had changed only marginally; the author suggests that otter density and how long otters stay affect how strong their effect becomes."
+        },
+        {
+          "type": "external",
+          "title": "Sea Otters",
+          "publisher": "National Park Service, Southwest Alaska Inventory and Monitoring Network",
+          "url": "https://www.nps.gov/im/swan/seaotters.htm",
+          "accessed": "2026-10-14",
+          "supports": "NPS calls sea otters a keystone species in nearshore marine environments: by eating grazers they produce communities with diverse, abundant algae and relatively few large grazing invertebrates such as sea urchins."
+        },
+        {
+          "type": "external",
+          "title": "European Colonial Period (Olympic Coast National Marine Sanctuary)",
+          "publisher": "NOAA Office of National Marine Sanctuaries",
+          "url": "https://olympiccoast.noaa.gov/explore/colonial-period.html",
+          "accessed": "2026-10-17",
+          "supports": "The fur trade in Washington ended in 1910, when the last recorded sea otter in the state was killed. In 1969 and 1970, 59 otters were moved from Amchitka Island, Alaska, to the Washington coast near La Push, and today's Washington sea otters are thought to descend from as few as 10 of them."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF8",
+      "issue": "The keystone species definition ('a species that affects the diversity of an entire ecosystem', pp. 359 and 365) leaves out the key idea that the effect is out of proportion to the species' abundance. One sentence on p. 365 is also garbled ('when the population of sea otters affects populations of a large number of other species, it is called a keystone species').",
+      "pages": {
+        "printed": [
+          359,
+          365
+        ],
+        "pdf": [
+          395,
+          401
+        ]
+      },
+      "resolution": "The glossary, key ideas and L27-Q19 define a keystone species by an effect much larger than its numbers would suggest, and use the textbook's arch analogy only as a model.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            359,
+            365
+          ],
+          "pdfPages": [
+            395,
+            401
+          ],
+          "locator": "Vocabulary box; Section 3",
+          "supports": "Keystone species are compared to the top stone of an arch that holds up the structure; sea otters, prairie dogs and beavers are the examples."
+        },
+        {
+          "type": "external",
+          "title": "Keystone species",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/keystone-species",
+          "accessed": "2026-10-14",
+          "supports": "National Geographic defines keystone species as species with a disproportionately large effect on their communities, notes later researchers' wording of an impact disproportionately large relative to abundance, and describes how, without sea otters, urchins increased and consumed the kelp forests other species relied on."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF9",
+      "issue": "Section 2 links low biodiversity to fragility and says the Arctic tundra 'may never be the same' (p. 363). This could be read as saying high biodiversity guarantees stability, which the brief's guardrails reject.",
+      "pages": {
+        "printed": [
+          363
+        ],
+        "pdf": [
+          399
+        ]
+      },
+      "resolution": "Content presents fragility as a tendency, not a law. L27-Q15 includes the distractor 'high biodiversity protects rainforests from every kind of loss', gives a limitation, and uses coral bleaching as a counterexample.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            363
+          ],
+          "pdfPages": [
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Tundra ecosystems with low biodiversity are fragile because a small change can have widespread effects."
+        },
+        {
+          "type": "external",
+          "title": "What is coral bleaching?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/coral_bleach.html",
+          "accessed": "2026-10-14",
+          "supports": "When water is too warm, corals expel their algae and bleach; if the stress continues, the corals die. A massive bleaching event in 2005 cost the U.S. half of its Caribbean coral reefs in one year."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF10",
+      "issue": "Section 4 (p. 366) gives rounded or unverified examples: nearly 1,000 beetle species on one rainforest tree, over 100 new rainforest species found each year, 650 tree species in one small area (about the same as in the whole United States), and a caption saying most newly discovered species are found in rainforests.",
+      "pages": {
+        "printed": [
+          366
+        ],
+        "pdf": [
+          402
+        ]
+      },
+      "resolution": "None of these numbers is tested or repeated. Content says only that a small patch can hold hundreds of kinds of trees and that scientists keep finding new species.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            366
+          ],
+          "pdfPages": [
+            402
+          ],
+          "locator": "Section 4. Many Niches in Tropical Rainforests",
+          "supports": "The textbook uses these figures to illustrate very high rainforest biodiversity."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF11",
+      "issue": "Section 5 (p. 370) oversimplifies three medicines. It says the willow bark chemical 'is the active ingredient in aspirin', but aspirin is acetylsalicylic acid, a lab-made relative of salicin. It says foxglove's chemical 'prevents heart failure', but the foxglove drugs treat some heart problems rather than prevent heart failure. Purple foxglove (Digitalis purpurea) is the source of digitoxin, while digoxin, used for abnormal heart rhythms and to ease heart failure symptoms, is derived from woolly foxglove (Digitalis lanata), not purple foxglove. It calls Madagascar periwinkle native to 'rainforests', but Kew gives its native range as eastern and southern Madagascar, mainly in the seasonally dry tropical biome.",
+      "pages": {
+        "printed": [
+          370
+        ],
+        "pdf": [
+          406
+        ]
+      },
+      "resolution": "Content and L27-Q22 say willow bark 'led chemists to aspirin' and that purple foxglove is 'the source of a medicine for some heart problems' (digitoxin). In reviser round 1 the O4 card, its table and Q22's rationale stopped calling purple foxglove the source of digoxin and now say digoxin comes from its cousin, woolly foxglove. Periwinkle comes from 'eastern and southern Madagascar'. The O4 watch-out warns that medicinal plants such as foxglove are poisonous.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            370
+          ],
+          "pdfPages": [
+            406
+          ],
+          "locator": "Section 5. Humans Benefit from Biodiversity",
+          "supports": "The textbook gives willow, foxglove and Madagascar periwinkle as plant sources of medicines."
+        },
+        {
+          "type": "external",
+          "title": "The Story of Aspirin (online exhibition)",
+          "publisher": "U.S. National Library of Medicine, National Institutes of Health",
+          "url": "https://www.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+          "accessed": "2026-10-14",
+          "supports": "Salicin is the active ingredient in willow bark and salicylic acid is its derivative; chemists first synthesized acetylsalicylic acid, later named aspirin, and salicylic acid came to be made in bulk from smaller molecules rather than from willow bark."
+        },
+        {
+          "type": "external",
+          "title": "Oxford University Plants 400: Digitalis purpurea",
+          "publisher": "University of Oxford Herbaria",
+          "url": "https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/cd/Digitalis",
+          "accessed": "2026-10-17",
+          "supports": "Purple foxglove is the source of digitoxin, a cardiac glycoside that in controlled doses acts as a heart stimulant. The physician William Withering first advocated its use as a medicine in 1785, giving patients a medicine made by boiling the dried leaves."
+        },
+        {
+          "type": "external",
+          "title": "Digoxin (StatPearls)",
+          "publisher": "NCBI Bookshelf, U.S. National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556025/",
+          "accessed": "2026-10-17",
+          "supports": "Digoxin is derived from the foxglove plant Digitalis lanata. Its FDA-approved uses are chronic atrial fibrillation and the symptomatic management of heart failure."
+        },
+        {
+          "type": "external",
+          "title": "Digitalis lanata, Grecian foxglove (plant details)",
+          "publisher": "Royal Horticultural Society",
+          "url": "https://www.rhs.org.uk/plants/30581/digitalis-lanata/details",
+          "accessed": "2026-10-17",
+          "supports": "Digitalis lanata is also called woolly foxglove (other common names: Grecian foxglove, Austrian digitalis)."
+        },
+        {
+          "type": "external",
+          "title": "Digoxin (Heart Matters drug cabinet)",
+          "publisher": "British Heart Foundation",
+          "url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/drug-cabinet/digoxin",
+          "accessed": "2026-10-14",
+          "supports": "Digoxin is mainly used to treat abnormal heart rhythms such as atrial fibrillation, and it can help improve the symptoms of heart failure."
+        },
+        {
+          "type": "external",
+          "title": "Catharanthus roseus (L.) G.Don, general information",
+          "publisher": "Royal Botanic Gardens, Kew (ColPlanta)",
+          "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:77880-1/general-information",
+          "accessed": "2026-10-14",
+          "supports": "The native range is eastern and southern Madagascar, and the plant grows mainly in the seasonally dry tropical biome. Its alkaloids are used to treat several kinds of cancer, including leukaemia in children."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF12",
+      "issue": "Section 6 (pp. 372-373) presents the gecko-and-mussel bandage as a finished design that 'meets all of the criteria'. The research it describes was a lab prototype adhesive.",
+      "pages": {
+        "printed": [
+          372,
+          373
+        ],
+        "pdf": [
+          408,
+          409
+        ]
+      },
+      "resolution": "Content calls it a lab-tested prototype. L27-Q28 asks what must happen before the combined design can be called a success, and its explanation notes the prototype status.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            372,
+            373
+          ],
+          "pdfPages": [
+            408,
+            409
+          ],
+          "locator": "Section 6. Engineering a Super Bandage and Figure 6",
+          "supports": "Gecko-inspired pads stuck and unstuck on dry surfaces but not wet ones; mussel-inspired glue stuck when wet but did not unstick easily; engineers combined the two."
+        },
+        {
+          "type": "external",
+          "title": "A reversible wet/dry adhesive inspired by mussels and geckos (Lee, Lee and Messersmith, Nature 448, 2007): abstract record",
+          "publisher": "IDEAS/RePEc (abstract of the Nature article)",
+          "url": "https://ideas.repec.org/a/nat/nature/v448y2007i7151d10.1038_nature05968.html",
+          "accessed": "2026-10-14",
+          "supports": "The abstract says gecko adhesion is much reduced under water. The hybrid 'geckel' adhesive is an array of tiny pillars coated with a polymer that mimics mussel adhesive proteins, and it held and released reliably over 1,000 cycles in both wet and dry conditions."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF13",
+      "issue": "The aquatic heading of the Key Science Concept spread (p. 369) links high marine biodiversity to 'abundant nutrients and light' and names coral reefs as an example. The coral reef callout credits warm, shallow, sunlit water. The nutrient part is more complicated for reefs, which often grow in clear, low-nutrient tropical water.",
+      "pages": {
+        "printed": [
+          369
+        ],
+        "pdf": [
+          405
+        ]
+      },
+      "resolution": "Resolved in reviser round 1. NOAA's Corals Tutorial says reef-building corals need clear, nutrient-poor water, yet reefs are among the most productive and diverse marine environments, so the spread's 'abundant nutrients' wording does not fit coral reefs. Content keeps crediting reef biodiversity to warm, shallow, sunlit water only (the reef callout on p. 369), and no question asks about reef nutrient levels.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            369
+          ],
+          "pdfPages": [
+            405
+          ],
+          "locator": "Key Science Concept: Biodiversity in Earth's Ecosystems (aquatic map)",
+          "supports": "The aquatic spread ranks coral reefs and coastal marshes as high-biodiversity, sunlit shallow coastal areas."
+        },
+        {
+          "type": "external",
+          "title": "Corals Tutorial: What is Zooxanthellae?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/education/tutorial_corals/coral02_zooxanthellae.html",
+          "accessed": "2026-10-17",
+          "supports": "Reef-building corals require clear water so that sunlight can reach their zooxanthellae; coral reefs require clear, nutrient-poor water, yet they are among the most productive and diverse marine environments on Earth."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF14",
+      "issue": "The OCR is empty or garbled on several pages. P. 358 is a photo collage with no text. The NGSS box on p. 359 is garbled. On p. 361 the Figure 1 wedge labels are missing. On pp. 368-369 the scale bars and map legends of the Key Science Concept spread are fragmentary. On p. 372 the Figure 6 labels are broken.",
+      "pages": {
+        "printed": [
+          358,
+          359,
+          361,
+          368,
+          369,
+          372
+        ],
+        "pdf": [
+          394,
+          395,
+          397,
+          404,
+          405,
+          408
+        ]
+      },
+      "resolution": "All 16 lesson pages were rendered at 110 dpi and viewed, and Figure 1 was also rendered at 220 dpi. Figure values, map callouts and the Figure 6 design steps were taken from the renders.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            361,
+            368,
+            369,
+            372
+          ],
+          "pdfPages": [
+            397,
+            404,
+            405,
+            408
+          ],
+          "locator": "Figure 1; Key Science Concept spread; Figure 6",
+          "supports": "Rendered pages supply the wedge percentages, the ecosystem callouts and the bandage design steps that the OCR lost."
+        }
+      ]
+    },
+    {
+      "id": "L27-RF15",
+      "issue": "Section 2 (p. 363) says the scavengers that eat polar bear leftovers are 'unable to hunt and capture seals themselves' and that 'No other species fills this niche'. Both are absolutes: Arctic foxes tunnel into ringed seal birth lairs in the snow and kill the pups. Earlier drafts of L27-Q13, L27-Q14, the O2 card and the O3 table repeated the absolute.",
+      "pages": {
+        "printed": [
+          363
+        ],
+        "pdf": [
+          399
+        ]
+      },
+      "resolution": "Content now says Arctic foxes and gulls cannot catch grown seals on the ice and calls polar bears the main or chief seal hunters on the sea ice. In reviser round 1, L27-Q13 and L27-Q14, the O2 card and its food-web alt text, and the O3 table were reworded; L27-Q13's limitations note that Arctic foxes catch some newborn pups in their snow dens, and L27-Q16's evidence no longer repeats 'no other species fills this niche'. In the final verification (2026-10-14 workflow date) the O3 table's polar bear row and alt text still said no other animal hunts grown seals at breathing holes, an unsupported absolute of the same kind; both now call the polar bear the chief hunter of grown seals at breathing holes, matching the textbook's 'main hunters of seals from sea ice' (p. 363).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            363
+          ],
+          "pdfPages": [
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Polar bears are the main hunters of seals from sea ice, and their leftovers feed Arctic foxes, gulls and other birds, especially in winter; the text calls these scavengers unable to hunt and capture seals themselves."
+        },
+        {
+          "type": "external",
+          "title": "Ringed Seal species profile",
+          "publisher": "Alaska Department of Fish and Game",
+          "url": "https://www.adfg.alaska.gov/index.cfm?adfg=ringedseal.main",
+          "accessed": "2026-10-17",
+          "supports": "Ringed seals are the most common prey of polar bears. Females give birth in snow-covered lairs above breathing holes; pups are eaten by polar bears, Arctic foxes, red foxes and ravens, and during pupping, foxes tunnel into the lairs to catch the pups."
+        }
+      ]
+    }
+  ]
+}

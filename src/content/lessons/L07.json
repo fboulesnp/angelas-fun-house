@@ -1,0 +1,1401 @@
+{
+  "lessonId": "L07",
+  "guidingQuestion": "How does matter move through ecosystems on Earth?",
+  "hook": "The carbon atoms in the breath you just let out could be part of a leaf by next summer, so how does Earth keep reusing the very same atoms?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          76,
+          77
+        ],
+        "pdf": [
+          112,
+          113
+        ]
+      }
+    },
+    {
+      "title": "1. Earth is a Closed System",
+      "pages": {
+        "printed": [
+          78
+        ],
+        "pdf": [
+          114
+        ]
+      }
+    },
+    {
+      "title": "2. The Water Cycle",
+      "pages": {
+        "printed": [
+          79
+        ],
+        "pdf": [
+          115
+        ]
+      }
+    },
+    {
+      "title": "3. The Carbon Cycle",
+      "pages": {
+        "printed": [
+          80,
+          81
+        ],
+        "pdf": [
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "title": "4. The Nitrogen Cycle",
+      "pages": {
+        "printed": [
+          82,
+          83
+        ],
+        "pdf": [
+          118,
+          119
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Global Cycles of Matter and You",
+      "pages": {
+        "printed": [
+          84,
+          85
+        ],
+        "pdf": [
+          120,
+          121
+        ]
+      }
+    },
+    {
+      "title": "5. Designing Carbon Capture Solutions",
+      "pages": {
+        "printed": [
+          86,
+          87
+        ],
+        "pdf": [
+          122,
+          123
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          87
+        ],
+        "pdf": [
+          123
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L07-O1",
+      "text": "Identify the reservoirs where water, carbon, and nitrogen are stored, and name the processes that move them from one reservoir to another in each cycle model.",
+      "kind": "observe",
+      "sections": [
+        "2. The Water Cycle",
+        "3. The Carbon Cycle",
+        "4. The Nitrogen Cycle",
+        "Key Science Concept: Global Cycles of Matter and You"
+      ],
+      "pages": {
+        "printed": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "pdf": [
+          115,
+          116,
+          117,
+          118,
+          119,
+          120
+        ]
+      }
+    },
+    {
+      "id": "L07-O2",
+      "text": "Explain why the total amount of matter on Earth stays almost the same while matter changes state and atoms are rearranged into new molecules, and why Earth can be modeled as a nearly closed system.",
+      "kind": "relate",
+      "sections": [
+        "Introduction",
+        "1. Earth is a Closed System",
+        "2. The Water Cycle",
+        "3. The Carbon Cycle",
+        "Lesson Summary"
+      ],
+      "pages": {
+        "printed": [
+          77,
+          78,
+          79,
+          81,
+          87
+        ],
+        "pdf": [
+          113,
+          114,
+          115,
+          117,
+          123
+        ]
+      }
+    },
+    {
+      "id": "L07-O3",
+      "text": "Trace atoms of water, carbon, and nitrogen along different paths through producers, consumers, decomposers, bacteria, and the air, water, and soil, explaining what each living thing does with them.",
+      "kind": "relate",
+      "sections": [
+        "2. The Water Cycle",
+        "3. The Carbon Cycle",
+        "4. The Nitrogen Cycle",
+        "Key Science Concept: Global Cycles of Matter and You"
+      ],
+      "pages": {
+        "printed": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "pdf": [
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121
+        ]
+      }
+    },
+    {
+      "id": "L07-O4",
+      "text": "Use the cycle models to predict what happens when something changes, such as burning fossil fuels, adding fertilizer, or losing a group of organisms, and evaluate carbon-capture plans like reforestation using criteria and constraints.",
+      "kind": "apply",
+      "sections": [
+        "3. The Carbon Cycle",
+        "4. The Nitrogen Cycle",
+        "5. Designing Carbon Capture Solutions"
+      ],
+      "pages": {
+        "printed": [
+          81,
+          82,
+          83,
+          86,
+          87
+        ],
+        "pdf": [
+          117,
+          118,
+          119,
+          122,
+          123
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Earth is almost sealed for matter but open to energy: sunlight streams in and heat leaves, while nearly all of its atoms stay on board and get used again and again.",
+    "In the physical and chemical changes that drive these cycles, atoms are not made or destroyed. Substances change state, like water turning to vapor, or their atoms are rearranged into new molecules, like carbon dioxide becoming sugar.",
+    "Water travels among the air, oceans, ice, lakes and rivers, soil, and living things through evaporation, condensation, precipitation, absorption, transpiration, feeding, and cellular respiration.",
+    "Carbon enters living things mainly through photosynthesis, passes along food webs, and returns to the air through cellular respiration by plants, animals, and decomposers, and through burning.",
+    "Nitrogen gas fills most of the air, but most living things cannot use it. Bacteria fix it into ammonia, other bacteria make nitrates that plants absorb, animals get nitrogen by eating proteins, and denitrifying bacteria send it back to the air.",
+    "The cycles branch and connect, so no single path is required. An atom can take many routes or wait in storage for days or for millions of years, and some processes link the cycles: photosynthesis takes in carbon dioxide and water together, and cellular respiration gives both back.",
+    "Burning fossil fuels moves carbon that was buried for millions of years into the air within moments; it is the main source of the extra carbon dioxide that is driving climate change.",
+    "Engineers judge carbon-capture ideas such as reforestation against criteria, the goals a solution must reach, and constraints, the limits it must work within, such as cost, land, and roads."
+  ],
+  "glossary": [
+    {
+      "term": "law of conservation of matter",
+      "definition": "The scientific law that ordinary changes never create or destroy matter, so the total amount in a closed system stays the same even as its form changes.",
+      "pages": {
+        "printed": [
+          77,
+          78
+        ],
+        "pdf": [
+          113,
+          114
+        ]
+      }
+    },
+    {
+      "term": "closed system",
+      "definition": "A system that matter does not enter or leave, although energy can still flow in and out. Earth comes very close to being one.",
+      "pages": {
+        "printed": [
+          78
+        ],
+        "pdf": [
+          114
+        ]
+      }
+    },
+    {
+      "term": "reservoir",
+      "definition": "A place in a cycle where matter is stored for a while, such as the air, the ocean, a lake, the soil, ice, living bodies, or fossil fuel deposits.",
+      "pages": {
+        "printed": [
+          79,
+          81,
+          83
+        ],
+        "pdf": [
+          115,
+          117,
+          119
+        ]
+      }
+    },
+    {
+      "term": "water cycle",
+      "definition": "A model of how water moves among the air, land, bodies of water, and living things, switching between ice, liquid, and vapor along the way.",
+      "pages": {
+        "printed": [
+          77,
+          79
+        ],
+        "pdf": [
+          113,
+          115
+        ]
+      }
+    },
+    {
+      "term": "carbon cycle",
+      "definition": "A model of how carbon atoms travel among the air, water, soil, rocks, and living things as parts of different molecules, such as carbon dioxide, sugar, and proteins.",
+      "pages": {
+        "printed": [
+          77,
+          80,
+          81
+        ],
+        "pdf": [
+          113,
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "term": "cellular respiration",
+      "definition": "The process inside the cells of plants, animals, and decomposers that uses oxygen to break down sugar for energy, giving off carbon dioxide and water.",
+      "pages": {
+        "printed": [
+          80,
+          85
+        ],
+        "pdf": [
+          116,
+          121
+        ]
+      }
+    },
+    {
+      "term": "combustion",
+      "definition": "Burning: a fast reaction between a fuel and oxygen that releases energy and sends the fuel's carbon into the air as carbon dioxide.",
+      "pages": {
+        "printed": [
+          81
+        ],
+        "pdf": [
+          117
+        ]
+      }
+    },
+    {
+      "term": "fossil fuel",
+      "definition": "Coal, oil, or natural gas: a fuel formed over millions of years from the buried remains of ancient living things, holding carbon removed from the air long ago.",
+      "pages": {
+        "printed": [
+          81,
+          86
+        ],
+        "pdf": [
+          117,
+          122
+        ]
+      }
+    },
+    {
+      "term": "nitrogen cycle",
+      "definition": "A model of how nitrogen atoms move between nitrogen gas in the air, compounds in soil and water, and the proteins and other molecules of living things.",
+      "pages": {
+        "printed": [
+          77,
+          82,
+          83
+        ],
+        "pdf": [
+          113,
+          118,
+          119
+        ]
+      }
+    },
+    {
+      "term": "nitrogen fixation",
+      "definition": "Changing nitrogen gas from the air into nitrogen compounds, such as ammonia, that living things can use. Bacteria do most of the natural fixing.",
+      "pages": {
+        "printed": [
+          82
+        ],
+        "pdf": [
+          118
+        ]
+      }
+    },
+    {
+      "term": "nitrifying bacteria",
+      "definition": "Soil bacteria that change ammonia into nitrates, a form of nitrogen that most producers take in easily through their roots.",
+      "pages": {
+        "printed": [
+          82,
+          84
+        ],
+        "pdf": [
+          118,
+          120
+        ]
+      }
+    },
+    {
+      "term": "denitrifying bacteria",
+      "definition": "Bacteria that change nitrogen compounds such as nitrates back into nitrogen gas, which returns to the air.",
+      "pages": {
+        "printed": [
+          83,
+          85
+        ],
+        "pdf": [
+          119,
+          121
+        ]
+      }
+    },
+    {
+      "term": "reforestation",
+      "definition": "Growing a forest again where one was cut down. As the young trees grow, photosynthesis pulls carbon dioxide out of the air and stores the carbon in wood.",
+      "pages": {
+        "printed": [
+          77,
+          86
+        ],
+        "pdf": [
+          113,
+          122
+        ]
+      }
+    },
+    {
+      "term": "criteria and constraints",
+      "definition": "Criteria are the goals a design must meet to succeed. Constraints are the limits it must work within, such as cost, available land, or road access.",
+      "pages": {
+        "printed": [
+          86,
+          87
+        ],
+        "pdf": [
+          122,
+          123
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L07-O1",
+      "title": "Reservoirs and the Routes Between Them",
+      "paragraphs": [
+        "Each cycle is a map of storage places, called reservoirs, joined by processes that carry matter between them. For water, the reservoirs include vapor in the air, ice and snow, oceans, lakes and rivers, water in the soil, and water inside living things. Evaporation turns liquid water into vapor, condensation turns vapor into the tiny droplets that make clouds, precipitation brings water back down as rain or snow, melting turns ice into liquid water, roots absorb water from the soil, and plants give off vapor through their leaves, which is called transpiration. Some routes skip a step: snow and ice can turn straight into vapor without melting first, a change called sublimation.",
+        "For carbon, the reservoirs include carbon dioxide in the air and dissolved in water, the bodies of producers, consumers, and decomposers, dead remains in the soil, and fossil fuel deposits deep underground. Photosynthesis, feeding, cellular respiration, and burning are the routes that move it.",
+        "For nitrogen, the biggest reservoir in the model is nitrogen gas in the air. Bacteria do most of the moving: nitrogen fixers turn the gas into ammonia, nitrifiers turn ammonia into nitrates, and denitrifiers send nitrogen back to the air as gas.",
+        "To read any cycle diagram, ask two questions about each arrow: where does the matter start, and where does it end up?"
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "Carbon cycle model (arrows show where carbon goes)",
+        "alt": "Carbon cycle model with seven reservoirs. Photosynthesis moves carbon from carbon dioxide in the air to producers, and from carbon dioxide dissolved in water to water plants, which are producers. Feeding moves carbon from producers to consumers. Dead producers, and the wastes and dead bodies of consumers, add carbon to dead remains and soil, and decomposers feed on those remains. Cellular respiration moves carbon from producers, consumers, and decomposers back to the air. Carbon dioxide moves both ways between the air and water. Over millions of years, buried remains that were not fully decomposed can become fossil fuel deposits, and burning those fuels sends their carbon to the air.",
+        "nodes": [
+          {
+            "id": "air",
+            "label": "CO₂ in the air",
+            "group": "nonliving"
+          },
+          {
+            "id": "water",
+            "label": "CO₂ dissolved in water",
+            "group": "nonliving"
+          },
+          {
+            "id": "prod",
+            "label": "Producers",
+            "group": "living"
+          },
+          {
+            "id": "cons",
+            "label": "Consumers",
+            "group": "living"
+          },
+          {
+            "id": "dec",
+            "label": "Decomposers",
+            "group": "living"
+          },
+          {
+            "id": "remains",
+            "label": "Dead remains and soil",
+            "group": "nonliving"
+          },
+          {
+            "id": "fossil",
+            "label": "Fossil fuel deposits",
+            "group": "nonliving"
+          }
+        ],
+        "edges": [
+          {
+            "from": "air",
+            "to": "prod",
+            "label": "photosynthesis"
+          },
+          {
+            "from": "water",
+            "to": "prod",
+            "label": "photosynthesis"
+          },
+          {
+            "from": "prod",
+            "to": "cons",
+            "label": "feeding"
+          },
+          {
+            "from": "prod",
+            "to": "remains",
+            "label": "dead remains"
+          },
+          {
+            "from": "cons",
+            "to": "remains",
+            "label": "wastes, remains"
+          },
+          {
+            "from": "remains",
+            "to": "dec",
+            "label": "eaten by decomposers"
+          },
+          {
+            "from": "prod",
+            "to": "air",
+            "label": "cellular respiration"
+          },
+          {
+            "from": "cons",
+            "to": "air",
+            "label": "cellular respiration"
+          },
+          {
+            "from": "dec",
+            "to": "air",
+            "label": "cellular respiration"
+          },
+          {
+            "from": "air",
+            "to": "water",
+            "label": "dissolving"
+          },
+          {
+            "from": "water",
+            "to": "air",
+            "label": "escaping"
+          },
+          {
+            "from": "remains",
+            "to": "fossil",
+            "label": "burial, millions of years"
+          },
+          {
+            "from": "fossil",
+            "to": "air",
+            "label": "burning"
+          }
+        ]
+      },
+      "watchOut": "A cycle diagram shows possible routes, not a track every atom must follow, and real cycles have even more reservoirs, such as groundwater and carbon-rich rocks like limestone. Also, the textbook's water-cycle figure labels ice and snow turning straight into vapor as evaporation; scientists call that solid-to-gas change sublimation.",
+      "pages": {
+        "printed": [
+          79,
+          81,
+          83,
+          84,
+          85
+        ],
+        "pdf": [
+          115,
+          117,
+          119,
+          120,
+          121
+        ]
+      }
+    },
+    {
+      "objectiveId": "L07-O2",
+      "title": "Spaceship Earth Keeps Its Atoms",
+      "paragraphs": [
+        "Earth is like a spaceship that is sealed for matter but open to energy. Sunlight pours in and heat radiates out, yet almost no atoms arrive or leave. That makes Earth a useful model of a closed system: the atoms on board have to be reused.",
+        "The model is not perfect. Each day Earth collects dust and tiny rocks from space, loses a few hundred tons of gas from the top of its atmosphere, and sends a little matter away on rockets. Compared with the mass of the whole planet, these amounts are tiny, so the closed-system model still works well for ecosystems.",
+        "Inside the system, matter changes form in two main ways. It can change state, as when liquid water evaporates. Or its atoms can be rearranged into new substances, as when carbon dioxide and water become sugar and oxygen. Either way, the count of each kind of atom stays the same.",
+        "Check it with photosynthesis: 6 carbon, 12 hydrogen, and 18 oxygen atoms go in, and 6 carbon, 12 hydrogen, and 18 oxygen atoms come out. That is what conservation of matter means."
+      ],
+      "diagram": {
+        "kind": "equation",
+        "caption": "Photosynthesis rearranges atoms; it does not make new ones",
+        "alt": "Photosynthesis equation: 6 carbon dioxide molecules plus 6 water molecules, using light energy, make 1 glucose sugar molecule plus 6 oxygen gas molecules. Both sides contain 6 carbon atoms, 12 hydrogen atoms, and 18 oxygen atoms.",
+        "reactants": [
+          {
+            "formula": "CO2",
+            "coefficient": 6,
+            "label": "carbon dioxide"
+          },
+          {
+            "formula": "H2O",
+            "coefficient": 6,
+            "label": "water"
+          }
+        ],
+        "products": [
+          {
+            "formula": "C6H12O6",
+            "label": "glucose (sugar)"
+          },
+          {
+            "formula": "O2",
+            "coefficient": 6,
+            "label": "oxygen gas"
+          }
+        ],
+        "arrowNote": "light energy"
+      },
+      "watchOut": "Closed to matter does not mean closed to energy. And \"the same atoms\" does not mean \"the same molecules\": plants split water molecules during photosynthesis and release their oxygen as oxygen gas, while cells build brand-new water molecules during cellular respiration. The atoms themselves carry on.",
+      "pages": {
+        "printed": [
+          77,
+          78,
+          79,
+          81
+        ],
+        "pdf": [
+          113,
+          114,
+          115,
+          117
+        ]
+      }
+    },
+    {
+      "objectiveId": "L07-O3",
+      "title": "Follow a Nitrogen Atom",
+      "paragraphs": [
+        "Nitrogen gas makes up about 78 percent of the air, but most living things cannot use it in that form. Nitrogen-fixing bacteria in soil and in the roots of plants such as peanuts turn it into ammonia. Lightning fixes a smaller amount: its energy makes nitrogen react with oxygen, and rain carries the products down as nitrates. Today, fertilizer factories fix a large amount too.",
+        "Nitrifying bacteria change ammonia into nitrates. Plant roots absorb these nitrogen compounds, and the plant uses them to build proteins and other molecules.",
+        "Consumers get nitrogen by eating. When a rabbit eats clover, or you eat peanuts, digestion breaks the food's proteins into amino acids, the building blocks your body links into its own proteins. Extra nitrogen leaves the body in wastes.",
+        "Decomposers break down wastes and dead remains and release ammonia into the soil. From there a nitrogen atom might be absorbed by a plant again, or denitrifying bacteria might turn it back into nitrogen gas that rejoins the air. Carbon and water branch the same way: many routes, and an atom can loop back at almost any point."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "Nitrogen cycle model (arrows show where nitrogen goes)",
+        "alt": "Nitrogen cycle model. Nitrogen-fixing bacteria, and fertilizer factories, turn nitrogen gas in the air into ammonia in the soil. Lightning turns nitrogen gas into compounds that rain carries down as nitrates. Nitrifying bacteria turn ammonia into nitrates. Producers absorb both ammonia and nitrates through their roots and build proteins. Consumers get nitrogen by eating producers. Producers and consumers pass nitrogen to decomposers in dead remains and wastes. Decomposers release ammonia into the soil. Denitrifying bacteria turn nitrates back into nitrogen gas in the air.",
+        "nodes": [
+          {
+            "id": "n2",
+            "label": "Nitrogen gas (N₂) in the air",
+            "group": "nonliving"
+          },
+          {
+            "id": "amm",
+            "label": "Ammonia in soil",
+            "group": "nonliving"
+          },
+          {
+            "id": "nit",
+            "label": "Nitrates in soil",
+            "group": "nonliving"
+          },
+          {
+            "id": "prod",
+            "label": "Producers (proteins)",
+            "group": "living"
+          },
+          {
+            "id": "cons",
+            "label": "Consumers (proteins)",
+            "group": "living"
+          },
+          {
+            "id": "dec",
+            "label": "Decomposers",
+            "group": "living"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n2",
+            "to": "amm",
+            "label": "nitrogen-fixing bacteria (and factories)"
+          },
+          {
+            "from": "n2",
+            "to": "nit",
+            "label": "lightning, then rain"
+          },
+          {
+            "from": "amm",
+            "to": "nit",
+            "label": "nitrifying bacteria"
+          },
+          {
+            "from": "amm",
+            "to": "prod",
+            "label": "absorbed by roots"
+          },
+          {
+            "from": "nit",
+            "to": "prod",
+            "label": "absorbed by roots"
+          },
+          {
+            "from": "prod",
+            "to": "cons",
+            "label": "eaten"
+          },
+          {
+            "from": "prod",
+            "to": "dec",
+            "label": "dead remains"
+          },
+          {
+            "from": "cons",
+            "to": "dec",
+            "label": "wastes, remains"
+          },
+          {
+            "from": "dec",
+            "to": "amm",
+            "label": "breakdown releases ammonia"
+          },
+          {
+            "from": "nit",
+            "to": "n2",
+            "label": "denitrifying bacteria"
+          }
+        ]
+      },
+      "watchOut": "Plants cannot pull nitrogen gas out of the air and use it on their own; that job belongs to nitrogen fixation. And animals, including you, do not build proteins from nitrates. They use amino acids from the proteins they eat. Breathing in nitrogen gas does not help either: it goes right back out unused. (In damp soil, most ammonia is in the form scientists call ammonium.)",
+      "pages": {
+        "printed": [
+          82,
+          83,
+          84,
+          85
+        ],
+        "pdf": [
+          118,
+          119,
+          120,
+          121
+        ]
+      }
+    },
+    {
+      "objectiveId": "L07-O4",
+      "title": "People in the Carbon Cycle",
+      "paragraphs": [
+        "Coal, oil, and natural gas formed from the remains of ancient living things that were buried under layers of sediment and rock for millions of years. Their carbon sat out of the fast-moving part of the cycle for a very long time.",
+        "Burning these fuels joins that old carbon with oxygen and releases it as carbon dioxide in moments. People are adding carbon dioxide to the air far faster than it was stored, and the extra carbon dioxide is causing global climate change.",
+        "One way to pull some back out is reforestation, growing forests again where they were cut down. Trees use photosynthesis to turn carbon dioxide into wood, roots, and leaves. Forests grow fastest where there is plenty of light and water and a long growing season, so they capture carbon fastest there.",
+        "Engineers compare solutions using criteria, the goals a solution must meet, and constraints, the limits it must work within, such as cost, land where people already live, and whether roads reach the site."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "Where carbon goes when people burn fuel and plant forests",
+        "alt": "Three reservoirs. Burning moves carbon quickly from fossil fuel deposits, stored for millions of years, into carbon dioxide in the air. Photosynthesis moves carbon from carbon dioxide in the air into the trees of a replanted forest. Burning, clearing, or decay moves carbon from the forest back into carbon dioxide in the air.",
+        "nodes": [
+          {
+            "id": "fossil",
+            "label": "Fossil fuel deposits (stored for millions of years)",
+            "group": "nonliving"
+          },
+          {
+            "id": "air",
+            "label": "CO₂ in the air",
+            "group": "nonliving"
+          },
+          {
+            "id": "forest",
+            "label": "Trees in a replanted forest",
+            "group": "living"
+          }
+        ],
+        "edges": [
+          {
+            "from": "fossil",
+            "to": "air",
+            "label": "burning (fast)"
+          },
+          {
+            "from": "air",
+            "to": "forest",
+            "label": "photosynthesis"
+          },
+          {
+            "from": "forest",
+            "to": "air",
+            "label": "burning, clearing, or decay"
+          }
+        ]
+      },
+      "watchOut": "A forest keeps its carbon out of the air only while the wood stays intact. If the forest burns, is cleared, or rots, much of that carbon returns to the air as carbon dioxide. Planting trees helps, but it is one tool among several that engineers compare. Fast growth is not the only test: engineers also ask how long the carbon will stay stored and what else the forest changes.",
+      "pages": {
+        "printed": [
+          81,
+          86,
+          87
+        ],
+        "pdf": [
+          117,
+          122,
+          123
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L07-RF1",
+      "issue": "The Introduction (p. 77) says none of Earth's matter leaves or enters the biosphere, p. 78 says the number of atoms on Earth never changes, and the Key Science Concept text (p. 84) says the total never changes. The same p. 78 then lists exceptions (spacecraft, meteors). Earth is closed to matter only approximately, and it is open to energy.",
+      "pages": {
+        "printed": [
+          77,
+          78,
+          84
+        ],
+        "pdf": [
+          113,
+          114,
+          120
+        ]
+      },
+      "resolution": "Content calls Earth a nearly closed system for matter that is open to energy (O2 card, key idea 1). L07-Q03 separates matter from energy, and L07-Q04 asks why the model is still useful despite measured gains and losses. No question states that not one atom ever enters or leaves. The textbook never says Earth is open to energy, so that part of the correction (glossary 'closed system', key idea 1, the O2 card, L07-Q03) rests on NASA Earth Observatory's energy-budget page, added in round 2.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            78
+          ],
+          "pdfPages": [
+            114
+          ],
+          "locator": "Section 1. Earth is a Closed System",
+          "supports": "Spacecraft carry some matter off Earth and meteors bring small amounts in, yet the closed-system model stays useful for ecosystems."
+        },
+        {
+          "type": "external",
+          "title": "Asteroid Fast Facts",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/solar-system/asteroids/asteroid-fast-facts/",
+          "accessed": "2026-10-14",
+          "supports": "Earth is struck by more than 100 tons of dust and sand-sized particles every day."
+        },
+        {
+          "type": "external",
+          "title": "Toward Mapping the Atmosphere's Escape from Earth",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/toward-mapping-the-atmospheres-escape-from-earth-144386/",
+          "accessed": "2026-10-14",
+          "supports": "Earth loses several hundred tons of its atmosphere to space each day, a loss small enough that the atmosphere should last for billions of years."
+        },
+        {
+          "type": "external",
+          "title": "Earth Fact Sheet",
+          "publisher": "NASA Goddard Space Flight Center (NSSDCA)",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+          "accessed": "2026-10-14",
+          "supports": "Earth's mass is about 5.97 × 10²⁴ kg, so daily gains and losses of hundreds of tons are a vanishingly small fraction."
+        },
+        {
+          "type": "external",
+          "title": "Climate and Earth's Energy Budget",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget",
+          "accessed": "2026-10-17",
+          "supports": "Energy Earth receives from sunlight is balanced by energy radiating to space as thermal infrared radiation."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF2",
+      "issue": "Section 2 (p. 79) says every glass of water holds water molecules a dinosaur once drank and that every water molecule has been cycling since early in Earth's history. What persists is atoms, not molecules: the same page says some water is used in photosynthesis, and cellular respiration builds new water. The p. 84 spread also says the total number of molecules never changes; reactions change molecule counts (6 CO₂ + 6 H₂O → 1 C₆H₁₂O₆ + 6 O₂), so only atoms are conserved.",
+      "pages": {
+        "printed": [
+          79,
+          84
+        ],
+        "pdf": [
+          115,
+          120
+        ]
+      },
+      "resolution": "Content says the atoms persist while molecules are split and rebuilt (O2 card watchOut). L07-Q07 asks for the accurate revision of a \"dinosaur water\" claim. The molecule version is never keyed as correct. Key idea 2 and the O2 objective now say atoms are rearranged into new molecules, and the O2 card's equation shows 12 reactant molecules becoming 7 product molecules with every atom kept.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle",
+          "supports": "Some water molecules taken in by producers are used in photosynthesis to make oxygen gas and sugar."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "Cellular respiration releases water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            84
+          ],
+          "pdfPages": [
+            120
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "The spread's introduction says matter takes different forms but the total amount of Earth's atoms and molecules never changes."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 8.2 The Light-Dependent Reactions of Photosynthesis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "accessed": "2026-10-14",
+          "supports": "Splitting one water molecule in photosynthesis releases electrons, hydrogen, and an oxygen atom; two split water molecules supply one O₂ molecule."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.4 Oxidative Phosphorylation",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "accessed": "2026-10-14",
+          "supports": "At the end of cellular respiration, reduced oxygen picks up hydrogen ions to make new water molecules."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF3",
+      "issue": "Figure 2 (p. 79) labels the arrow from ice and snow to water vapor \"Evaporation\". A direct solid-to-gas change is sublimation; evaporation starts from liquid. On the Key Science Concept spread (p. 84) the water vapor is called \"water gas\", and one blue arrow running from the cloud text box to the soil text box is labeled \"Photosynthesis\", which is confusing.",
+      "pages": {
+        "printed": [
+          79,
+          84
+        ],
+        "pdf": [
+          115,
+          120
+        ]
+      },
+      "resolution": "L07-Q09 keys sublimation for snow that vanishes without meltwater, and the evaporation distractor's rationale explains the figure's label. L07-Q08 uses condensation into droplets to describe clouds (vapor itself is invisible). The p. 84 spread is cited only for its text boxes, not its arrow labels. The O1 card's first paragraph now introduces sublimation, so Q09 tests a term the teaching text presents.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            79
+          ],
+          "pdfPages": [
+            115
+          ],
+          "locator": "Section 2. The Water Cycle, Figure 2",
+          "supports": "The figure shows water moving from ice and snow directly to water vapor in the atmosphere."
+        },
+        {
+          "type": "external",
+          "title": "Sublimation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/sublimation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Sublimation is snow and ice changing into water vapor without first melting; it is favored by dry, windy air, low air pressure at altitude, and strong sunlight."
+        },
+        {
+          "type": "external",
+          "title": "Condensation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Water vapor in the air is usually invisible; condensed droplets combine and grow into clouds."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF4",
+      "issue": "Section 4 (p. 82) says lightning makes nitrogen react with oxygen and the products \"fall to Earth as ammonia\". Lightning produces nitrogen oxides, which dissolve in rain to form nitrates (nitric acid), not ammonia.",
+      "pages": {
+        "printed": [
+          82
+        ],
+        "pdf": [
+          118
+        ]
+      },
+      "resolution": "The O3 card says lightning's products reach the ground as nitrates. L07-Q19 lists lightning as a way to fix nitrogen without naming a product. No question says lightning makes ammonia.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Lightning is one of the two natural ways the textbook gives for fixing atmospheric nitrogen."
+        },
+        {
+          "type": "external",
+          "title": "Mid-Latitude Lightning Nitrogen Oxides Production Efficiency",
+          "publisher": "NASA Science (Aura mission)",
+          "url": "https://science.nasa.gov/mission/aura/mid-latitude-lightning-nitrogen-oxides-production-efficiency/",
+          "accessed": "2026-10-14",
+          "supports": "Lightning is the major source of nitrogen oxides (NO and NO₂) in the middle and upper troposphere."
+        },
+        {
+          "type": "external",
+          "title": "Lightning Strikes",
+          "publisher": "EarthDate (Switch Energy Alliance)",
+          "url": "https://www.earthdate.org/episodes/lightning-strikes",
+          "accessed": "2026-10-14",
+          "supports": "Lightning breaks apart nitrogen molecules so they combine with oxygen to form nitrogen oxides, which dissolve in rain to form nitrates."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF5",
+      "issue": "Section 4 (p. 82) says only one process on Earth converts atmospheric nitrogen into more complex molecules and that it happens in two ways (lightning and bacteria). This leaves out industrial fixation (the Haber-Bosch process), which is used worldwide to make fertilizer.",
+      "pages": {
+        "printed": [
+          82
+        ],
+        "pdf": [
+          118
+        ]
+      },
+      "resolution": "L07-Q19 keys fertilizer factories as a third correct way to fix nitrogen, with an external source; the O3 card and its diagram mention factories. Questions keep the textbook's point that bacteria do most natural fixation. Q19's rationale for factories now names the textbook's two-way version before correcting it.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Nitrogen fixation by lightning and by nitrogen-fixing bacteria; farmers add fertilizers that include nitrates."
+        },
+        {
+          "type": "external",
+          "title": "An Overview of Key Soil Nitrogen Cycling Transformations (SL471/SS684)",
+          "publisher": "University of Florida IFAS Extension (EDIS)",
+          "url": "https://ask.ifas.ufl.edu/publication/SS684",
+          "accessed": "2026-10-14",
+          "supports": "The Haber-Bosch process uses very high temperatures and pressure to break apart N₂ and is used worldwide to make synthetic fertilizers; lightning also aids N₂ fixation, adding a small amount via rain."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF6",
+      "issue": "Section 4 (p. 83) says that when you eat a peanut \"you use the nitrates in the peanut\" to form your proteins. Animals cannot build proteins from nitrates; they digest food proteins into amino acids and build their own proteins from those.",
+      "pages": {
+        "printed": [
+          83
+        ],
+        "pdf": [
+          119
+        ]
+      },
+      "resolution": "L07-Q24 keys amino acids from digested protein and uses \"the nitrates stored in the peanuts\" as a distractor whose rationale names the mix-up. The O3 card and its watchOut teach the correct route. The Key Science Concept caption on p. 85 (digesting protein from food) is used as textbook support instead. That rationale now says the textbook's peanut example puts it this way.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Consumers get the nitrogen-based molecules they need by eating producers or other consumers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            85
+          ],
+          "pdfPages": [
+            121
+          ],
+          "locator": "Key Science Concept spread",
+          "supports": "You digest protein from food, and your body gets rid of extra nitrogen-based molecules."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 34.2 Nutrition and Energy Production",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+          "accessed": "2026-10-14",
+          "supports": "Protein breakdown provides amino acids used by the body; some amino acids must come from food because the body cannot make them."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF7",
+      "issue": "Section 4 (p. 82) says that in nearly all ecosystems the amount of available nitrates limits producer growth, and that most producers need nitrates. Nitrogen often limits growth, but phosphorus is often the limiting nutrient in aquatic ecosystems, and plants absorb ammonium as well as nitrate.",
+      "pages": {
+        "printed": [
+          82
+        ],
+        "pdf": [
+          118
+        ]
+      },
+      "resolution": "Content says fixed nitrogen often limits growth. L07-Q20 states that the test soil is nitrogen-poor and asks only what that one test supports. The O3 diagram shows roots absorbing both ammonia and nitrates.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            82
+          ],
+          "pdfPages": [
+            118
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Available nitrates limit how well producers grow, which is why farmers add fertilizers."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.3 Biogeochemical Cycles",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "accessed": "2026-10-14",
+          "supports": "Many ecosystem processes such as primary production are limited by the available supply of nitrogen, while phosphorus is often the limiting nutrient in aquatic ecosystems."
+        },
+        {
+          "type": "external",
+          "title": "An Overview of Key Soil Nitrogen Cycling Transformations (SL471/SS684)",
+          "publisher": "University of Florida IFAS Extension (EDIS)",
+          "url": "https://ask.ifas.ufl.edu/publication/SS684",
+          "accessed": "2026-10-14",
+          "supports": "Both inorganic nitrogen forms, ammonium and nitrate, are available for plants to take up."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF8",
+      "issue": "Figures 2–3 and p. 85 use \"cellular respiration\" as shorthand for the arrow from consumers to the air, which is acceptable, but game wording should keep cells (respiration) separate from lungs (breathing). Page 80 describes a manatee exhaling underwater, with the CO₂ rising to the surface and some staying dissolved; manatees actually surface to breathe air.",
+      "pages": {
+        "printed": [
+          79,
+          80,
+          81,
+          85
+        ],
+        "pdf": [
+          115,
+          116,
+          117,
+          121
+        ]
+      },
+      "resolution": "Questions say cellular respiration releases carbon dioxide and water and that breathing carries them out (L07-Q10 says the manatee breathes out vapor at the surface). No question asks where a manatee's exhaled carbon dioxide goes.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            116
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "In cellular respiration, carbon from sugar combines with oxygen to form carbon dioxide, which the manatee exhales."
+        },
+        {
+          "type": "external",
+          "title": "Florida Manatee (Trichechus manatus latirostris)",
+          "publisher": "U.S. Fish & Wildlife Service",
+          "url": "https://www.fws.gov/species/florida-manatee-trichechus-manatus-latirostris",
+          "accessed": "2026-10-14",
+          "supports": "Manatees typically surface every three to five minutes to breathe and eat seagrass and other vegetation."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.4 Oxidative Phosphorylation",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "accessed": "2026-10-14",
+          "supports": "Cellular respiration is a process inside cells; its final step forms water from oxygen and hydrogen ions."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF9",
+      "issue": "Section 3 (p. 81) says fossil fuels may form when carbon is stored \"under layers of soil for millions of years\". Fossil fuels form from buried organic remains under layers of sediment and rock, with heat and pressure over millions of years.",
+      "pages": {
+        "printed": [
+          81
+        ],
+        "pdf": [
+          117
+        ]
+      },
+      "resolution": "L07-Q15 and the O4 card describe burial under sediment and rock with heat and pressure.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            81
+          ],
+          "pdfPages": [
+            117
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Fossil fuels contain energy stored in the remains of ancient organisms; carbon stored underground for millions of years may form them."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Biomass stored deep in Earth for millions of years is transformed into fossil fuels."
+        },
+        {
+          "type": "external",
+          "title": "Coal explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/coal/",
+          "accessed": "2026-10-14",
+          "supports": "Layers of dirt and rock covered ancient plants over millions of years, and the resulting pressure and heat turned them into coal."
+        },
+        {
+          "type": "external",
+          "title": "The Carbon Cycle",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Heat and pressure compress buried mud and carbon over millions of years, and layers of organic carbon become oil, coal, or natural gas."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF10",
+      "issue": "Figure 5 (p. 86) is a world map of forest growth rates with no date or data source, and the p. 87 activity (\"six places\") cannot be reproduced from the page. The section also does not say that carbon stored in a forest can return to the air if the forest burns, is cleared, or decays.",
+      "pages": {
+        "printed": [
+          86,
+          87
+        ],
+        "pdf": [
+          122,
+          123
+        ]
+      },
+      "resolution": "L07-Q27 uses an original, clearly invented site table instead of the map. L07-Q17 asks what a wildfire in a reforested site means for judging carbon-capture plans (stored carbon can return to the air), L07-Q26 lists long-term storage as a criterion, and the O4 card's watchOut names the permanence limit. L07-Q29 asks the learner to apply the p. 87 growing-conditions idea directly.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            87
+          ],
+          "pdfPages": [
+            123
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Trees grow fastest, and remove carbon dioxide fastest, where light and water are abundant and growing seasons are long."
+        },
+        {
+          "type": "external",
+          "title": "The Carbon Cycle",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Clearing forests removes plants that had stored carbon, and dead plant material decays as bacteria eat it, returning carbon to the air."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF11",
+      "issue": "Section 4 (p. 83) says decomposers break down proteins and leave nitrates and ammonia. Decomposition (mineralization) releases ammonia/ammonium; nitrates come from the next step, done by nitrifying bacteria.",
+      "pages": {
+        "printed": [
+          83
+        ],
+        "pdf": [
+          119
+        ]
+      },
+      "resolution": "L07-Q21 matches decomposers to releasing ammonia and nitrifying bacteria to making nitrates; the O3 card and diagram follow the same order. The O3 card's watchOut adds that in damp soil most ammonia is in the form called ammonium (Minnesota Department of Agriculture: at pH 6 ammonium outnumbers ammonia about 3,000 to 1).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            83
+          ],
+          "pdfPages": [
+            119
+          ],
+          "locator": "Section 4. The Nitrogen Cycle",
+          "supports": "Decomposers break down wastes and remains and return nitrogen atoms to the soil."
+        },
+        {
+          "type": "external",
+          "title": "An Overview of Key Soil Nitrogen Cycling Transformations (SL471/SS684)",
+          "publisher": "University of Florida IFAS Extension (EDIS)",
+          "url": "https://ask.ifas.ufl.edu/publication/SS684",
+          "accessed": "2026-10-14",
+          "supports": "Nitrogen mineralization by soil microbes converts organic nitrogen to ammonium; nitrification then converts ammonium to nitrite and then nitrate."
+        },
+        {
+          "type": "external",
+          "title": "Ecological Effects of Ammonia",
+          "publisher": "Minnesota Department of Agriculture",
+          "url": "https://mda.state.mn.us/ecological-effects-ammonia",
+          "accessed": "2026-10-17",
+          "supports": "Ammonia and ammonium are in a pH-dependent balance in water; at pH 6 there is about 1 ammonia for every 3,000 ammonium, and 1 for every 30 at pH 8."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF12",
+      "issue": "Section 3 (p. 80) says aquatic producers take in carbon dioxide and use it to make oxygen gas and sugars, which implies the oxygen gas comes from carbon dioxide. The O₂ released in photosynthesis comes from splitting water; carbon dioxide supplies the carbon for sugar.",
+      "pages": {
+        "printed": [
+          80
+        ],
+        "pdf": [
+          116
+        ]
+      },
+      "resolution": "L07-Q07 and the O2 card watchOut say plants split water to release oxygen gas; no item says O₂ comes from CO₂. L07-Q10's split-water distractor (choice f) keeps the same science.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            116
+          ],
+          "locator": "Section 3. The Carbon Cycle",
+          "supports": "Aquatic producers take in dissolved carbon dioxide and, in photosynthesis, make sugars and oxygen gas."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 8.2 The Light-Dependent Reactions of Photosynthesis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "accessed": "2026-10-14",
+          "supports": "Splitting one water molecule in photosynthesis releases electrons, hydrogen, and an oxygen atom; two split water molecules supply one O₂ molecule."
+        }
+      ]
+    },
+    {
+      "id": "L07-RF13",
+      "issue": "Section 5 (p. 86) says the carbon dioxide released by burning fossil fuels for energy causes global climate change, but it does not say how much of the extra carbon dioxide comes from fossil fuels; clearing and burning forests adds some too. The first draft of key idea 7 said fossil fuels add 'most' of the extra carbon dioxide with no source.",
+      "pages": {
+        "printed": [
+          86
+        ],
+        "pdf": [
+          122
+        ]
+      },
+      "resolution": "Key idea 7 now calls burning fossil fuels the main source of the extra carbon dioxide, supported by NASA Earth Observatory. The O4 card and L07-Q16 keep the textbook's own claim that the extra carbon dioxide is causing climate change, and no question asks about the size of the share.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            86
+          ],
+          "pdfPages": [
+            122
+          ],
+          "locator": "Section 5. Designing Carbon Capture Solutions",
+          "supports": "Using fossil fuels for energy releases carbon into the atmosphere as carbon dioxide, causing global climate change."
+        },
+        {
+          "type": "external",
+          "title": "The Carbon Cycle",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+          "accessed": "2026-10-17",
+          "supports": "The burning of fossil fuels is the primary source of increased carbon dioxide in the atmosphere today."
+        }
+      ]
+    }
+  ]
+}

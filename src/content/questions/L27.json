@@ -1,0 +1,3693 @@
+{
+  "lessonId": "L27",
+  "questions": [
+    {
+      "id": "L27-Q01",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "biodiversity",
+        "definition",
+        "species-level",
+        "seed"
+      ],
+      "familyId": "L27-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "A field guide says a coral reef has far more biodiversity than the same area of Arctic tundra, comparing them at the species level. What does biodiversity describe here?",
+      "accessiblePrompt": "A field guide says a coral reef has far more biodiversity than the same area of Arctic tundra, comparing them at the species level. What does biodiversity describe here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The variety of life there, counted as different kinds of organisms",
+          "rationale": "Correct. Biodiversity means the variety of life. Here the level being compared is species, so a place with more different species has more biodiversity."
+        },
+        {
+          "id": "b",
+          "text": "How many individual organisms live there in all",
+          "rationale": "That is abundance, not variety. A field packed with millions of plants of a single crop has huge numbers but very little biodiversity."
+        },
+        {
+          "id": "c",
+          "text": "How much all the living things there weigh together",
+          "rationale": "That is biomass. Producers hold most of Earth's living mass, yet they are less than a quarter of named species, so mass and variety are different measurements."
+        },
+        {
+          "id": "d",
+          "text": "How much water, sunlight and other nonliving resources are found there",
+          "rationale": "Water and sunlight are nonliving factors. They help explain why some places hold more species, but they are not biodiversity itself."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Level compared: species (how many different kinds of organisms live in a place).",
+      "explanation": "Biodiversity is the variety of life. It can be compared at several levels, such as the variety of genes within a species, of species, or of whole ecosystems, so a good comparison says which level it uses. This lesson compares species: more kinds of organisms means more biodiversity, whatever the total number or weight of living things.",
+      "misconception": "Biodiversity means how many organisms live somewhere, or how much living material is there.",
+      "hint": "Think about what the word diversity means: a variety of what?",
+      "followUpId": "L27-Q03",
+      "scope": {
+        "lessonId": "L27",
+        "section": "1. The Importance of Biodiversity",
+        "pages": {
+          "printed": [
+            359,
+            360
+          ],
+          "pdf": [
+            395,
+            396
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            359,
+            360
+          ],
+          "pdfPages": [
+            395,
+            396
+          ],
+          "locator": "Vocabulary box; Section 1. The Importance of Biodiversity",
+          "supports": "Biodiversity is the variety of organisms on Earth or in a particular habitat or ecosystem, and each ecosystem has its own natural set of species."
+        },
+        {
+          "type": "external",
+          "title": "Convention on Biological Diversity, Article 2: Use of Terms",
+          "publisher": "Secretariat of the Convention on Biological Diversity",
+          "url": "https://www.cbd.int/convention/articles/?a=cbd-02",
+          "accessed": "2026-10-14",
+          "supports": "The Convention defines biological diversity as the variability among living organisms, including diversity within species, between species and of ecosystems."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief's seed question for L27, polished. The level compared (species) is stated in the prompt and conditions, as the brief asks (L27-RF3). Drafted from rendered pp. 359-360. Reviser round 1: prompt no longer echoes the keyed wording; it names two places so \"there\" has a referent; hint no longer gives the answer (pedagogy review). Choice d ends \"are found there\" instead of the reviewer's \"are there\" so the keyed choice is not the longest. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 359, 360 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt reworded so it no longer cues the key; choices name a place; hint no longer gives the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q02",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "biodiversity",
+        "variety-vs-abundance",
+        "data"
+      ],
+      "familyId": "L27-F01",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Two fictional ponds were surveyed. Pond A holds about 2,000 fish, all of one species. Pond B holds about 300 fish belonging to 12 species. Comparing species, which pond has greater biodiversity?",
+      "accessiblePrompt": "Two fictional ponds were surveyed. Pond A holds about 2,000 fish, all belonging to one species. Pond B holds about 300 fish belonging to 12 different species. Comparing species, which pond has greater biodiversity?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Fictional pond survey",
+        "alt": "A table of a fictional pond survey. Pond A: about 2,000 fish counted, belonging to 1 species. Pond B: about 300 fish counted, belonging to 12 species.",
+        "columns": [
+          "Pond",
+          "Fish counted",
+          "Fish species"
+        ],
+        "rows": [
+          [
+            "Pond A",
+            2000,
+            1
+          ],
+          [
+            "Pond B",
+            300,
+            12
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pond B, because it holds more kinds of fish",
+          "rationale": "Correct. Twelve species is far more variety than one species, so Pond B has greater species biodiversity."
+        },
+        {
+          "id": "b",
+          "text": "Pond A, because it holds more fish in all",
+          "rationale": "More individuals is abundance, not variety. Pond A's 2,000 fish are all the same kind."
+        },
+        {
+          "id": "c",
+          "text": "Neither, because both ponds contain only fish",
+          "rationale": "Belonging to the same broad group does not make two places equal. Twelve kinds of fish are more varied than one kind."
+        },
+        {
+          "id": "d",
+          "text": "Pond A, because its one species has no rivals",
+          "rationale": "Having no competitors says nothing about variety. With only one species, Pond A has the lowest species biodiversity a pond with fish can have."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Fictional survey data. Biodiversity is compared at the species level.",
+      "explanation": "At the species level, biodiversity counts kinds, not individuals. Pond B's 12 species give it far more variety than Pond A's single species, even though Pond A holds more fish. A huge crowd of one kind of organism is still low in biodiversity.",
+      "misconception": "A place with more individual organisms automatically has more biodiversity.",
+      "hint": "Which column of the table tells you about variety?",
+      "followUpId": "L27-Q05",
+      "scope": {
+        "lessonId": "L27",
+        "section": "1. The Importance of Biodiversity",
+        "pages": {
+          "printed": [
+            360
+          ],
+          "pdf": [
+            396
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            360
+          ],
+          "pdfPages": [
+            396
+          ],
+          "locator": "Section 1. The Importance of Biodiversity",
+          "supports": "Biodiversity is the variety of organisms in a place; some places naturally have more species than others."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Fictional data stated in the prompt and table. Drafted from rendered p. 360. Reviser round 1: hint points to the table column instead of the answer (pedagogy review); choice d rationale made exact (science reviewer's optional note). Final verification (verify-agent, 2026-10-14): checked against rendered p. 360 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint points to the table column instead of the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q03",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "named-species",
+        "insects",
+        "circle-graph"
+      ],
+      "familyId": "L27-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Scientists sort the species they have named into groups. Which group makes up about half of all named species?",
+      "accessiblePrompt": "Scientists sort the species they have named into groups. Which group makes up about half of all named species?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Insects",
+          "rationale": "Correct. In the textbook's circle graph of named species, insects are the biggest slice, about half of the total."
+        },
+        {
+          "id": "b",
+          "text": "Plants",
+          "rationale": "Plants are a large group, about 18 percent of named species, but far less than half. Plants make up much of Earth's living mass, which is a different measurement."
+        },
+        {
+          "id": "c",
+          "text": "Animals other than insects",
+          "rationale": "All the other animals together, from worms and spiders to fish and mammals, are about a fifth of named species."
+        },
+        {
+          "id": "d",
+          "text": "Single-celled organisms",
+          "rationale": "Single-celled organisms are only a few percent of the named list in the textbook's graph. Tiny life is hard to find and study, so much of it is still unnamed."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Based on the textbook's circle graph of named species (insects shown as about 50 to 52 percent).",
+      "limitations": "Counts of named species grow as scientists describe new ones, and small organisms are undercounted.",
+      "explanation": "Insects lead the way in variety: about half of all named species are insects. Plants make up about 18 percent and all other animals together about 20 percent. Remember that this counts named species, not every species alive.",
+      "misconception": "The groups people notice most, such as plants or mammals, must have the most species.",
+      "hint": "The biggest group is made of small animals, not the largest or most familiar living things.",
+      "followUpId": "L27-Q01",
+      "scope": {
+        "lessonId": "L27",
+        "section": "1. The Importance of Biodiversity",
+        "pages": {
+          "printed": [
+            361
+          ],
+          "pdf": [
+            397
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            361
+          ],
+          "pdfPages": [
+            397
+          ],
+          "locator": "Section 1 and Figure 1, Proportions of Known Species in Different Groups",
+          "supports": "Insects are the largest group of known species, more than half in the text; plants are 18 percent and other animals 20 percent."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 361. Uses 'about half' because the figure label (50%) and text (52%) disagree (L27-RF1). Reviser round 1: hint no longer names four insects (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 361 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the answer group"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q04",
+      "lessonId": "L27",
+      "type": "numeric",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "proportion",
+        "percent",
+        "named-species",
+        "data"
+      ],
+      "familyId": "L27-F02",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "When the textbook was written, scientists had named about 1.9 million species, and its circle graph shows plants as 18% of them. About how many named plant species is that?",
+      "accessiblePrompt": "When the textbook was written, scientists had named about 1.9 million species, and its circle graph shows plants as 18 percent of them. About how many named plant species is that?",
+      "answer": 342000,
+      "tolerance": 10000,
+      "unit": "species",
+      "workedSolution": "Plants = 18% of 1,900,000 species = 0.18 × 1,900,000 = 342,000 species (about 340,000).",
+      "units": "species",
+      "conditions": "Uses the textbook's rounded values: about 1.9 million named species, with plants at 18 percent.",
+      "limitations": "Newer catalogs list more than 2 million named species, so today's count of named plants is higher.",
+      "explanation": "A proportion compares a part with the whole, so multiplying the whole by the percentage gives the size of the part. Even 18 percent of 1.9 million is a few hundred thousand plant species, and insects, at about half the list, are nearly three times as many.",
+      "misconception": "A percentage is itself the number of species, or it should be applied to 100 instead of to the whole.",
+      "hint": "Turn 18% into a decimal, then multiply it by the whole.",
+      "followUpId": "L27-Q02",
+      "scope": {
+        "lessonId": "L27",
+        "section": "1. The Importance of Biodiversity",
+        "pages": {
+          "printed": [
+            361
+          ],
+          "pdf": [
+            397
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            361
+          ],
+          "pdfPages": [
+            397
+          ],
+          "locator": "Section 1 and Figure 1",
+          "supports": "The textbook gives about 1.9 million identified species and shows plants as 18 percent of known species; it explains proportions as a part compared with a whole."
+        },
+        {
+          "type": "external",
+          "title": "Catalogue of Life (home page species counts)",
+          "publisher": "Catalogue of Life",
+          "url": "https://www.catalogueoflife.org/",
+          "accessed": "2026-10-14",
+          "supports": "The Catalogue of Life home page lists about 1.8 million animal, 0.41 million plant, 0.17 million fungus and 0.08 million other species, well over 2 million species in all."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 361. The plants wedge (18%) is used because the text and figure agree on it (L27-RF1); textbook count treated as dated (L27-RF2). Reviser round 1: no change; both reviewers passed it (plants 18% confirmed on the rendered p. 361). Final verification (verify-agent, 2026-10-14): checked against rendered p. 361 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q05",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "biomass",
+        "species-count",
+        "producers",
+        "misconception-mass-equals-variety"
+      ],
+      "familyId": "L27-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Plants and other producers hold most of the living mass on Earth, yet they make up less than a quarter of named species. How can both statements be true?",
+      "accessiblePrompt": "Plants and other producers hold most of the living mass on Earth, yet they make up less than a quarter of named species. How can both statements be true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mass tracks how much living material; species counts track how many kinds",
+          "rationale": "Correct. A few kinds of big producers can weigh far more than many kinds of small insects, so the two measurements give different leaders."
+        },
+        {
+          "id": "b",
+          "text": "Insects together outweigh all the plants on Earth",
+          "rationale": "This contradicts the first statement. Producers hold most of the living mass; insects lead only in the number of kinds."
+        },
+        {
+          "id": "c",
+          "text": "Producers make their own food, so scientists leave them out of species counts",
+          "rationale": "Producers are counted. Plants alone are about 18 percent of named species in the textbook's graph."
+        },
+        {
+          "id": "d",
+          "text": "Biomass is measured only for producers, and species are counted only for animals",
+          "rationale": "Both measurements cover every group: plants are 18 percent of named species, and animals have mass too."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Biomass and biodiversity answer different questions. A forest's mass is mostly the wood of its trees, while thousands of kinds of tiny insects living there add little weight. That is how producers can lead in living mass while insects lead the list of species.",
+      "misconception": "Groups with the most living mass must also have the most species.",
+      "hint": "Is weighing a forest the same as listing what lives in it?",
+      "followUpId": "L27-Q02",
+      "scope": {
+        "lessonId": "L27",
+        "section": "1. The Importance of Biodiversity",
+        "pages": {
+          "printed": [
+            361
+          ],
+          "pdf": [
+            397
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            361
+          ],
+          "pdfPages": [
+            397
+          ],
+          "locator": "Section 1 and Figure 1",
+          "supports": "Producers may make up most of Earth's biomass but represent less than a quarter of known species, while insects are the largest group of species."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 361. Reviser round 1: distractor d replaced with a measurement-scope misconception and difficulty lowered from 3 to 2 (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 361 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced; difficulty 3 to 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q06",
+      "lessonId": "L27",
+      "type": "order",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "latitude-gradient",
+        "terrestrial-ecosystems",
+        "key-science-concept"
+      ],
+      "familyId": "L27-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Using the textbook's world comparison of land ecosystems, put these from lowest to highest natural biodiversity.",
+      "accessiblePrompt": "Using the textbook's world comparison of land ecosystems, put these ecosystems in order from lowest to highest natural biodiversity. The ecosystems are: deciduous forest, Arctic tundra, tropical rainforest, and boreal forest.",
+      "items": [
+        {
+          "id": "decid",
+          "text": "Deciduous forest",
+          "rationale": "Third: milder, seasonal conditions support more species than boreal forest or tundra."
+        },
+        {
+          "id": "tundra",
+          "text": "Arctic tundra",
+          "rationale": "Lowest: long, freezing winters mean few species can survive."
+        },
+        {
+          "id": "rain",
+          "text": "Tropical rainforest",
+          "rationale": "Highest: warm and wet through most of the year, so many kinds of organisms thrive."
+        },
+        {
+          "id": "boreal",
+          "text": "Boreal forest",
+          "rationale": "Second: cold for long periods, with low biodiversity, but still more than Arctic tundra."
+        }
+      ],
+      "answer": [
+        "tundra",
+        "boreal",
+        "decid",
+        "rain"
+      ],
+      "ends": [
+        "Lowest biodiversity",
+        "Highest biodiversity"
+      ],
+      "conditions": "Natural levels as compared in the textbook's Key Science Concept spread, not counts at any one site.",
+      "explanation": "On land, biodiversity rises from the poles toward the equator. Arctic tundra is the coldest and has the fewest species, boreal forest is cold for long stretches but somewhat richer, deciduous forest has milder seasons and more species, and warm, wet tropical rainforest has the most.",
+      "misconception": "Any forest has about the same biodiversity, or colder, quieter places hold more species.",
+      "hint": "Picture a trip from the Arctic toward the equator.",
+      "followUpId": "L27-Q08",
+      "scope": {
+        "lessonId": "L27",
+        "section": "Key Science Concept: Biodiversity in Earth's Ecosystems",
+        "pages": {
+          "printed": [
+            368
+          ],
+          "pdf": [
+            404
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            368
+          ],
+          "pdfPages": [
+            404
+          ],
+          "locator": "Key Science Concept: Biodiversity in Earth's Ecosystems (terrestrial map)",
+          "supports": "Biodiversity decreases toward the poles; Arctic tundra is low, boreal forest is low but higher than tundra, deciduous forest is higher than either, and tropical rainforests support many kinds of organisms."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from the rendered Key Science Concept spread, p. 368. Both ends are fixed by the spread's explicit comparisons. Reviser round 1: no change; both reviewers passed it after checking the rendered Key Science Concept spread. Final verification (verify-agent, 2026-10-14): checked against rendered p. 368 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q07",
+      "lessonId": "L27",
+      "type": "classify",
+      "objectiveIds": [
+        "L27-O1"
+      ],
+      "conceptTags": [
+        "ecosystem-comparison",
+        "terrestrial-ecosystems",
+        "aquatic-ecosystems"
+      ],
+      "familyId": "L27-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Sort each ecosystem by its natural level of biodiversity, as the textbook describes it.",
+      "accessiblePrompt": "Sort each ecosystem into one of three groups, low, intermediate or high natural biodiversity, as the textbook describes it. The ecosystems are: kelp forest, Arctic tundra, coral reef, tropical desert, tropical rainforest, and boreal forest.",
+      "bins": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "mid",
+          "label": "Intermediate"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        }
+      ],
+      "items": [
+        {
+          "id": "kelp",
+          "text": "Kelp forest",
+          "rationale": "Intermediate: the textbook places kelp forests between low-diversity tundra and the richest reefs and rainforests."
+        },
+        {
+          "id": "tundra",
+          "text": "Arctic tundra",
+          "rationale": "Low: harsh cold and limited food mean few species can survive."
+        },
+        {
+          "id": "reef",
+          "text": "Coral reef",
+          "rationale": "High: warm, sunlit shallow coastal water, with corals giving food and shelter to thousands of species."
+        },
+        {
+          "id": "desert",
+          "text": "Tropical desert",
+          "rationale": "Low: hot and dry for most of the year, so few species can survive."
+        },
+        {
+          "id": "rain",
+          "text": "Tropical rainforest",
+          "rationale": "High: warm and wet through most of the year, so many kinds of organisms thrive."
+        },
+        {
+          "id": "boreal",
+          "text": "Boreal forest",
+          "rationale": "Low: cold for long periods, with only somewhat more species than tundra."
+        }
+      ],
+      "answer": {
+        "kelp": "mid",
+        "tundra": "low",
+        "reef": "high",
+        "desert": "low",
+        "rain": "high",
+        "boreal": "low"
+      },
+      "explanation": "Harsh conditions, such as long freezing winters or near-constant drought, keep biodiversity low in tundra, boreal forest and tropical desert. Kelp forests sit in the middle. Warm, sunlit coral reefs and warm, wet tropical rainforests are among the richest ecosystems on Earth.",
+      "misconception": "Any ecosystem with big trees or plenty of water must have high biodiversity.",
+      "hint": "Extreme cold or dryness usually means fewer species.",
+      "followUpId": "L27-Q09",
+      "scope": {
+        "lessonId": "L27",
+        "section": "Key Science Concept: Biodiversity in Earth's Ecosystems",
+        "pages": {
+          "printed": [
+            364,
+            368,
+            369
+          ],
+          "pdf": [
+            400,
+            404,
+            405
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            368,
+            369
+          ],
+          "pdfPages": [
+            404,
+            405
+          ],
+          "locator": "Key Science Concept: Biodiversity in Earth's Ecosystems",
+          "supports": "Arctic tundra, boreal forest and tropical deserts have low biodiversity; tropical rainforests and coral reefs support many species."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            364
+          ],
+          "pdfPages": [
+            400
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Kelp forests are intermediate in biodiversity: higher than tundra but lower than coral reefs or tropical rainforests."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 364, 368-369. Every item's bin is stated in the textbook. Reviser round 1: no change; both reviewers passed it after checking the rendered Key Science Concept spread. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 364, 368, 369 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q08",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O1",
+        "L27-O3"
+      ],
+      "conceptTags": [
+        "prediction",
+        "climate",
+        "latitude-gradient",
+        "data"
+      ],
+      "familyId": "L27-F04",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Four fictional land sites are described in the table. Based on the patterns in this lesson, which site would you predict naturally has the most species?",
+      "accessiblePrompt": "Four fictional land sites are described. Site A is near the equator, warm all year, with heavy rain all year. Site B is near the equator, hot all year, with very little rain. Site C is at middle latitudes, with warm summers, cold winters and moderate rain. Site D is far north, frozen most of the year, with light precipitation. Based on the patterns in this lesson, which site would you predict naturally has the most species?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Four fictional land sites",
+        "alt": "A table of four fictional land sites. Site A: near the equator, warm all year, heavy rain all year. Site B: near the equator, hot all year, very little rain. Site C: middle latitudes, warm summers and cold winters, moderate rain. Site D: far north, frozen most of the year, light precipitation.",
+        "columns": [
+          "Site",
+          "Location",
+          "Temperature",
+          "Rain or snow"
+        ],
+        "rows": [
+          [
+            "A",
+            "Near the equator",
+            "Warm all year",
+            "Heavy, all year"
+          ],
+          [
+            "B",
+            "Near the equator",
+            "Hot all year",
+            "Very little"
+          ],
+          [
+            "C",
+            "Middle latitudes",
+            "Warm summers, cold winters",
+            "Moderate"
+          ],
+          [
+            "D",
+            "Far north",
+            "Frozen most of the year",
+            "Light"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Site A",
+          "rationale": "Correct. Warmth and heavy rain all year match a tropical rainforest, the richest kind of land ecosystem."
+        },
+        {
+          "id": "b",
+          "text": "Site B",
+          "rationale": "Site B is warm but very dry, like a tropical desert. With so little water, few species can survive, so its biodiversity is low."
+        },
+        {
+          "id": "c",
+          "text": "Site C",
+          "rationale": "Site C's seasonal climate is like a deciduous forest: richer than tundra or boreal forest, but well below a tropical rainforest."
+        },
+        {
+          "id": "d",
+          "text": "Site D",
+          "rationale": "Site D is frozen most of the year, like Arctic tundra, which has the lowest biodiversity of these."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Fictional sites. Prediction is for natural biodiversity, before any human changes.",
+      "limitations": "A general pattern; local factors such as soil, elevation and human disturbance also matter.",
+      "explanation": "On land, biodiversity is highest where it is warm and wet all year, because steady heat, light and water support many producers and the consumers that depend on them. Site B is warm but too dry, Site C has a cold season, and Site D is frozen most of the year.",
+      "misconception": "Heat alone, even without water, produces high biodiversity.",
+      "hint": "Producers feed everything else. At which site could they grow in every season?",
+      "followUpId": "L27-Q06",
+      "scope": {
+        "lessonId": "L27",
+        "section": "Key Science Concept: Biodiversity in Earth's Ecosystems",
+        "pages": {
+          "printed": [
+            366,
+            368
+          ],
+          "pdf": [
+            402,
+            404
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            368
+          ],
+          "pdfPages": [
+            404
+          ],
+          "locator": "Key Science Concept: Biodiversity in Earth's Ecosystems (terrestrial map)",
+          "supports": "Land biodiversity is greatest in tropical areas with sunshine, warmth and rainfall, and decreases toward the poles; hot, dry tropical deserts have low biodiversity."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            366
+          ],
+          "pdfPages": [
+            402
+          ],
+          "locator": "Section 4. Many Niches in Tropical Rainforests",
+          "supports": "Warm temperatures and plenty of rain throughout the year provide abundant resources for producers."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Fictional sites; drafted from rendered pp. 366 and 368. Reviser round 1: hint no longer states the deciding fact (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 366, 368 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. Cosmetic fix: choice b rationale \"Without water\" changed to \"With so little water\" to match the site description (very little rain).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer states the deciding fact"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q09",
+      "lessonId": "L27",
+      "type": "multi",
+      "objectiveIds": [
+        "L27-O3"
+      ],
+      "conceptTags": [
+        "rainforest",
+        "resources",
+        "specialization",
+        "climate"
+      ],
+      "familyId": "L27-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Which conditions help explain why tropical rainforests are home to so many species? Select all that apply.",
+      "accessiblePrompt": "Which conditions help explain why tropical rainforests are home to so many species? Select all that apply. The choices are: warm temperatures through the whole year; plenty of rain spread through the year; food and shelter available in every season; most animals there eat many kinds of food instead of specializing; and few predators live there, so prey animals are rarely eaten.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Warm temperatures through the whole year",
+          "rationale": "Correct. Year-round warmth lets producers grow in every season."
+        },
+        {
+          "id": "b",
+          "text": "Plenty of rain spread through the year",
+          "rationale": "Correct. Steady rainfall, together with warmth, supports an abundance of producers."
+        },
+        {
+          "id": "c",
+          "text": "Food and shelter available in every season",
+          "rationale": "Correct. Reliable resources let species specialize in narrow niches, so many can share the forest."
+        },
+        {
+          "id": "d",
+          "text": "Most animals there eat many kinds of food instead of specializing",
+          "rationale": "The reverse: steady resources let many species specialize in narrow diets, like the lesser anteater's ants and termites."
+        },
+        {
+          "id": "e",
+          "text": "Few predators live there, so prey animals are rarely eaten",
+          "rationale": "Rainforests teem with predators: their insects are eaten by other insects, lizards, birds and mammals."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Warmth and steady rain let producers grow all year, and those producers support huge numbers of consumers. Because resources are always there, species can specialize in narrow niches instead of competing for the same food, so many can live side by side.",
+      "misconception": "Rainforests are rich because their animals are generalists or because predators are scarce, rather than because steady resources let many species specialize.",
+      "hint": "What do plants need, and what happens when they have it in every season?",
+      "followUpId": "L27-Q11",
+      "scope": {
+        "lessonId": "L27",
+        "section": "4. Many Niches in Tropical Rainforests",
+        "pages": {
+          "printed": [
+            366,
+            367
+          ],
+          "pdf": [
+            402,
+            403
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            366,
+            367
+          ],
+          "pdfPages": [
+            402,
+            403
+          ],
+          "locator": "Section 4. Many Niches in Tropical Rainforests",
+          "supports": "Warm temperatures and plentiful rain all year support abundant producers; stable resources let many species specialize in particular niches."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 366-367. All-or-nothing scoring; 3 of 5 correct. Reviser round 1: distractors d and e replaced with specialization and predation misconceptions so the item tests O3 and is not answerable by picking the positive-sounding choices (pedagogy review). The reviewer's wording was softened (\"so none need to specialize\" to \"instead of specializing\", \"never eaten\" to \"rarely eaten\") so the new distractors do not carry the absolute words that the same reviewer's lesson-level note warns about. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 366, 367 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors d and e replaced with specialization and predation misconceptions"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q10",
+      "lessonId": "L27",
+      "type": "match",
+      "objectiveIds": [
+        "L27-O3"
+      ],
+      "conceptTags": [
+        "niche",
+        "specialized-niche",
+        "adaptations",
+        "habitat-vs-niche"
+      ],
+      "familyId": "L27-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Match each species with the niche, or ecological role, that it fills.",
+      "accessiblePrompt": "Match each species with the niche, or ecological role, that it fills. The species are: lesser anteater, tropical orchid, sea urchin, sea otter, and caribou.",
+      "left": [
+        {
+          "id": "ant",
+          "text": "Lesser anteater",
+          "rationale": "It uses strong claws to tear open ant and termite nests and a long, sticky tongue to gather the insects."
+        },
+        {
+          "id": "orchid",
+          "text": "Tropical orchid",
+          "rationale": "Its clinging roots hold it high on trunks and branches, where it reaches sunlight above the shady forest floor."
+        },
+        {
+          "id": "urchin",
+          "text": "Sea urchin",
+          "rationale": "It grazes on kelp, chewing first at the root-like base that anchors the kelp to the seafloor."
+        },
+        {
+          "id": "otter",
+          "text": "Sea otter",
+          "rationale": "It hunts sea urchins, crabs and clams among the kelp."
+        },
+        {
+          "id": "caribou",
+          "text": "Caribou",
+          "rationale": "It grazes tundra plants in the warm season and migrates to warmer places for winter."
+        }
+      ],
+      "right": [
+        {
+          "id": "nests",
+          "text": "Tears open ant and termite nests and laps up the insects"
+        },
+        {
+          "id": "branch",
+          "text": "Clings to high branches with special roots to reach sunlight"
+        },
+        {
+          "id": "base",
+          "text": "Grazes on kelp, starting at its anchoring base"
+        },
+        {
+          "id": "kelp",
+          "text": "Dives among kelp for urchins, crabs and clams"
+        },
+        {
+          "id": "graze",
+          "text": "Grazes tundra plants in summer, then migrates away for winter"
+        }
+      ],
+      "answer": {
+        "ant": "nests",
+        "orchid": "branch",
+        "urchin": "base",
+        "otter": "kelp",
+        "caribou": "graze"
+      },
+      "explanation": "A niche is the job a species does: what it eats, where and how it gets its food, and how it fits with other species. Each species has its own way of making a living, from the anteater raiding insect nests to the caribou grazing summer plants; the anteater and the orchid have especially narrow, specialized niches. The sea otter and the sea urchin share the same kelp-forest home but do very different jobs: one hunts urchins, the other grazes kelp. A niche is a role, not an address.",
+      "misconception": "A niche is just the place where an organism lives.",
+      "hint": "Two of these species live in the same place. Look at what each one does there.",
+      "followUpId": "L27-Q16",
+      "scope": {
+        "lessonId": "L27",
+        "section": "4. Many Niches in Tropical Rainforests",
+        "pages": {
+          "printed": [
+            362,
+            364,
+            365,
+            367
+          ],
+          "pdf": [
+            398,
+            400,
+            401,
+            403
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            367
+          ],
+          "pdfPages": [
+            403
+          ],
+          "locator": "Section 4. Many Niches in Tropical Rainforests",
+          "supports": "Lesser anteaters eat mainly ants and termites using large claws and long sticky tongues; some orchids live on high trunks and branches, clinging with specialized roots."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            364
+          ],
+          "pdfPages": [
+            400
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Sea otters live in kelp forests and eat crabs, clams, mussels and sea urchins."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            362
+          ],
+          "pdfPages": [
+            398
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Caribou graze tundra plants and migrate to warmer places in winter."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Sea urchins eat kelp, starting at its root-like base and grazing along its length; sea otters eat the urchins."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 362-364 and 367. Reviser round 1: the polar bear pair was replaced with a sea urchin pair so the item no longer pre-answers L27-Q16 and two species share one habitat, which tests niche versus habitat directly (pedagogy review). The explanation no longer says every species has a role few others fill (science review); the science reviewer's replacement sentence is used with the caribou in place of the polar bear, which this round removes. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 362, 364, 365, 367 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer claims each role is one few others fill; only the anteater and orchid are called specialized"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: polar bear pair replaced with a sea urchin pair; explanation and hint now target niche versus habitat"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q11",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O3"
+      ],
+      "conceptTags": [
+        "competition",
+        "specialized-niche",
+        "coexistence"
+      ],
+      "familyId": "L27-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "In one patch of rainforest, a lesser anteater eats mainly ants and termites, while another mammal eats only fruit. Why can both live there without driving each other out?",
+      "accessiblePrompt": "In one patch of rainforest, a lesser anteater eats mainly ants and termites, while another mammal eats only fruit. Why can both live there without driving each other out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They use different food, so they hardly compete for it",
+          "rationale": "Correct. Different specialized diets mean little competition, so both populations can share the same patch of forest."
+        },
+        {
+          "id": "b",
+          "text": "Rainforests have so much food that no animals ever compete",
+          "rationale": "Too absolute. Rainforest animals that share the same food can still compete; these two get along because their foods differ."
+        },
+        {
+          "id": "c",
+          "text": "The fruit-eater survives on insects the anteater leaves behind",
+          "rationale": "The fruit-eater eats only fruit, so the anteater's leftovers are not its food."
+        },
+        {
+          "id": "d",
+          "text": "The anteater hunts the fruit-eater, keeping its numbers low",
+          "rationale": "The anteater eats ants and termites, not other mammals. Predation is not what lets these two live together."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Competition happens when species need the same limited resource. Specialists that eat different foods, or use different parts of the forest, rarely get in each other's way, so many can live side by side. That is one big reason rainforests hold so many species.",
+      "misconception": "Animals that live in the same place must compete for food.",
+      "hint": "Do the two animals need the same thing?",
+      "followUpId": "L27-Q09",
+      "scope": {
+        "lessonId": "L27",
+        "section": "4. Many Niches in Tropical Rainforests",
+        "pages": {
+          "printed": [
+            367
+          ],
+          "pdf": [
+            403
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            367
+          ],
+          "pdfPages": [
+            403
+          ],
+          "locator": "Section 4. Many Niches in Tropical Rainforests",
+          "supports": "Organisms with specialized niches are less likely to compete; a mammal that eats only ants does not compete for food with one that eats only fruit, so both can live side by side."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 367. Reviser round 1: no change; both reviewers passed it. Final verification (verify-agent, 2026-10-14): checked against rendered p. 367 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q12",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O3"
+      ],
+      "conceptTags": [
+        "specialization",
+        "tundra",
+        "prediction",
+        "seasonal-resources"
+      ],
+      "familyId": "L27-F05",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "Imagine a tundra mammal that can eat only one kind of plant, which grows only during the short summer. It does not migrate or hibernate. What would most likely happen to it?",
+      "accessiblePrompt": "Imagine a tundra mammal that can eat only one kind of plant, and that plant grows only during the short tundra summer. The mammal does not migrate or hibernate. What would most likely happen to it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It would struggle, since its food is scarce most of the year",
+          "rationale": "Correct. With its one food scarce through the long winter, and no way to leave or switch foods, it would go hungry."
+        },
+        {
+          "id": "b",
+          "text": "It would thrive, since no other animal would share its one food",
+          "rationale": "Little competition does not help if the food disappears for most of the year."
+        },
+        {
+          "id": "c",
+          "text": "It would greatly raise tundra biodiversity by filling an empty niche",
+          "rationale": "One species that can barely survive would not change the tundra's low biodiversity, and a niche is only useful if it can support the species all year."
+        },
+        {
+          "id": "d",
+          "text": "It would be fine, since tundra plants keep growing under the snow",
+          "rationale": "The prompt says this animal's one food plant grows only in the short summer; under the winter snow it makes no new growth for the animal to eat."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Hypothetical animal that stays on the tundra all year and cannot switch foods.",
+      "explanation": "A narrow diet works only where that food is reliable. Rainforest specialists can count on food in every season, but tundra plants grow only during a short summer, and in winter food is scarce and buried under snow. That is why tundra animals tend to eat a range of foods or, like caribou, leave for the winter.",
+      "misconception": "Specializing on one food is an advantage wherever a species lives.",
+      "hint": "Where is this animal's food during the long winter?",
+      "followUpId": "L27-Q15",
+      "scope": {
+        "lessonId": "L27",
+        "section": "4. Many Niches in Tropical Rainforests",
+        "pages": {
+          "printed": [
+            362,
+            367
+          ],
+          "pdf": [
+            398,
+            403
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            367
+          ],
+          "pdfPages": [
+            403
+          ],
+          "locator": "Section 4. Many Niches in Tropical Rainforests",
+          "supports": "A tundra species would not survive on just one type of plant because there would not be enough of it all year; in rainforests that food is available year-round."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            362
+          ],
+          "pdfPages": [
+            398
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Tundra has long, harsh winters with little food; caribou migrate away in winter."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 362 and 367. Hypothetical animal; conditions rule out migration and hibernation. Reviser round 1: explanation and choice d rationale no longer say tundra plants are available only in summer (science review). For the same reason the key now says the food is \"scarce\", not \"missing\", most of the year, which matches p. 367 (not enough of that plant all year). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 362, 367 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and choice d rationale say tundra plants grow only in summer and winter food is scarce under snow"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q13",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O2"
+      ],
+      "conceptTags": [
+        "food-web",
+        "indirect-effects",
+        "polar-bear",
+        "scavengers"
+      ],
+      "familyId": "L27-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "In this Arctic food web, arrows point from a food to the animal that eats it. If polar bears became much rarer, which change would be most likely in winter?",
+      "accessiblePrompt": "This Arctic food web has four animals. An arrow goes from seal to polar bear: polar bears hunt seals from the sea ice. Arrows also go from seal to Arctic fox and from seal to gull: foxes and gulls eat leftovers from polar bear kills. Arctic foxes and gulls cannot catch grown seals at breathing holes, so in winter the seal they eat comes from polar bear leftovers. If polar bears became much rarer, which change would be most likely in winter?",
+      "diagram": {
+        "kind": "network",
+        "layout": "web",
+        "caption": "Who eats seals in the Arctic winter (arrows point from food to eater)",
+        "alt": "A food web with four animals. Arrows point from food to eater. An arrow goes from seal to polar bear, labeled hunted from the sea ice. An arrow goes from seal to Arctic fox and another from seal to gull, each labeled leftovers from polar bear kills. Arctic foxes and gulls cannot catch grown seals at breathing holes, so in winter the seal they eat comes from polar bear leftovers.",
+        "nodes": [
+          {
+            "id": "seal",
+            "label": "Seal"
+          },
+          {
+            "id": "bear",
+            "label": "Polar bear"
+          },
+          {
+            "id": "fox",
+            "label": "Arctic fox"
+          },
+          {
+            "id": "gull",
+            "label": "Gull"
+          }
+        ],
+        "edges": [
+          {
+            "from": "seal",
+            "to": "bear",
+            "label": "hunted from the sea ice"
+          },
+          {
+            "from": "seal",
+            "to": "fox",
+            "label": "leftovers from polar bear kills"
+          },
+          {
+            "from": "seal",
+            "to": "gull",
+            "label": "leftovers from polar bear kills"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Arctic foxes and gulls would find fewer seal scraps to eat",
+          "rationale": "Correct. In winter their seal comes from polar bear kills, so fewer bears means fewer leftovers for them."
+        },
+        {
+          "id": "b",
+          "text": "Arctic foxes would eat more, with fewer bears competing",
+          "rationale": "Polar bears are not rivals for the foxes' seal; they are its source. Foxes cannot catch grown seals on the ice, so fewer bears means less seal for them, not more."
+        },
+        {
+          "id": "c",
+          "text": "Seals would vanish, since foxes would hunt them instead",
+          "rationale": "Foxes and gulls cannot hunt grown seals through the ice (foxes take only some newborn pups from snow dens during the pupping season), so they cannot take over the polar bear's role."
+        },
+        {
+          "id": "d",
+          "text": "Foxes would be unaffected, since they don't eat polar bears",
+          "rationale": "Foxes do not need to eat polar bears to depend on them. The bears supply the foxes' winter seal scraps."
+        }
+      ],
+      "answer": "a",
+      "limitations": "A simplified web. Real Arctic foxes and gulls also eat other foods, and Arctic foxes catch some newborn seal pups in their snow dens.",
+      "explanation": "Arctic foxes and gulls cannot catch grown seals on the ice; in winter they rely on the scraps polar bears leave behind. Fewer bears means fewer kills and fewer scraps, especially in winter, when little other food is around. A change in one population can reach species it never eats directly.",
+      "misconception": "A species is affected only by the animals it eats or the animals that eat it.",
+      "hint": "Where do the foxes' seal scraps come from?",
+      "followUpId": "L27-Q16",
+      "scope": {
+        "lessonId": "L27",
+        "section": "2. Fragile Tundra Ecosystems",
+        "pages": {
+          "printed": [
+            363
+          ],
+          "pdf": [
+            399
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            363
+          ],
+          "pdfPages": [
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Polar bears leave seal carcasses that feed Arctic foxes, gulls and other birds, especially in winter; when polar bear populations decline, many other species are affected."
+        },
+        {
+          "type": "external",
+          "title": "Ringed Seal species profile",
+          "publisher": "Alaska Department of Fish and Game",
+          "url": "https://www.adfg.alaska.gov/index.cfm?adfg=ringedseal.main",
+          "accessed": "2026-10-17",
+          "supports": "Ringed seals are the most common prey of polar bears. Females give birth in snow-covered lairs above breathing holes; pups are eaten by polar bears, Arctic foxes, red foxes and ravens, and during pupping, foxes tunnel into the lairs to catch the pups."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 363. Network arrows run from food to eater. Reviser round 1: every \"cannot catch seals\" absolute is narrowed to grown seals on the ice, the key says \"fewer seal scraps\" rather than \"less to eat\", and ADF&G ringed seal evidence is added (science review; L27-RF15). Choice b's rationale repeated the same absolute and was narrowed too. Choice c says foxes take pups \"during the pupping season\" rather than the reviewer's \"in spring\", because ADF&G says \"during pupping\". Choice d drops \"never\" (pedagogy lesson-level note). Final verification (verify-agent, 2026-10-14): checked against rendered p. 363 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. The simplified-web premise (winter seal from leftovers) is bounded by the limitations line on fox predation of newborn pups; ADF&G ringed seal page re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: fox and gull absolutes narrowed to grown seals; key says fewer seal scraps; ADF&G ringed seal evidence added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d drops \"never\" (lesson-level note on absolute words)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q14",
+      "lessonId": "L27",
+      "type": "order",
+      "objectiveIds": [
+        "L27-O2"
+      ],
+      "conceptTags": [
+        "cause-and-effect",
+        "sea-ice",
+        "climate-change",
+        "chain-of-effects"
+      ],
+      "familyId": "L27-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Put these events in cause-and-effect order, from the first cause to the last effect.",
+      "accessiblePrompt": "Put these events in cause-and-effect order, from the first cause to the last effect. The events are: polar bears catch fewer seals; Arctic foxes and gulls find less food in winter; coastal sea ice breaks up; fewer seal leftovers are left on the ice; the Arctic climate warms.",
+      "items": [
+        {
+          "id": "fewer",
+          "text": "Polar bears catch fewer seals",
+          "rationale": "Third: without enough sea ice to hunt from, bears catch fewer seals."
+        },
+        {
+          "id": "hungry",
+          "text": "Arctic foxes and gulls find less food in winter",
+          "rationale": "Last: foxes and gulls, which cannot catch grown seals on the ice, lose a winter food source."
+        },
+        {
+          "id": "ice",
+          "text": "Coastal sea ice breaks up",
+          "rationale": "Second: warming breaks up the sea ice polar bears hunt from."
+        },
+        {
+          "id": "scraps",
+          "text": "Fewer seal leftovers are left on the ice",
+          "rationale": "Fourth: fewer kills means fewer leftovers."
+        },
+        {
+          "id": "warm",
+          "text": "The Arctic climate warms",
+          "rationale": "First: the warming climate starts the chain."
+        }
+      ],
+      "answer": [
+        "warm",
+        "ice",
+        "fewer",
+        "scraps",
+        "hungry"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Each step causes the next. Warming breaks up the sea ice that polar bears hunt from; without that platform they catch fewer seals, which leaves fewer scraps for scavengers that cannot catch grown seals themselves. In an ecosystem with few species, a change like this can spread far.",
+      "misconception": "Climate change affects only the animals that feel the warmth directly.",
+      "hint": "For each event, ask which other event had to happen just before it.",
+      "followUpId": "L27-Q17",
+      "scope": {
+        "lessonId": "L27",
+        "section": "2. Fragile Tundra Ecosystems",
+        "pages": {
+          "printed": [
+            363
+          ],
+          "pdf": [
+            399
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            363
+          ],
+          "pdfPages": [
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "As Earth's climate changes, Arctic coastal sea ice breaks up, making it harder for polar bears to catch seals; polar bear declines affect species that eat seal leftovers."
+        },
+        {
+          "type": "external",
+          "title": "U.S. Fish and Wildlife Service finds polar bear status remains threatened",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://fws.gov/press-release/2023-09/us-fish-and-wildlife-service-finds-polar-bear-status-remains-threatened",
+          "accessed": "2026-10-14",
+          "supports": "The 2023 status review keeps the polar bear listed as threatened because of the loss of its sea ice habitat, says polar bears rely heavily on sea ice, and projects that most subpopulations will decline or continue to decline if warming continues."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 363. A single causal chain, so only one order is defensible. Reviser round 1: the fox and gull absolute is narrowed to grown seals (science review; L27-RF15); the prompt and hint no longer give away the first and last events (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 363 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: \"cannot hunt seals\" narrowed to grown seals in the item rationale and explanation"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt and hint no longer give away the first and last events"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q15",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O2"
+      ],
+      "conceptTags": [
+        "fragile-ecosystem",
+        "low-biodiversity",
+        "stability",
+        "misconception-diversity-guarantees"
+      ],
+      "familyId": "L27-F06",
+      "category": "relationship",
+      "difficulty": 3,
+      "prompt": "Why can losing one species shake a tundra ecosystem more than a similar loss would usually shake a tropical rainforest?",
+      "accessiblePrompt": "Why can losing one species shake a tundra ecosystem more than a similar loss would usually shake a tropical rainforest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "With fewer species, fewer others can take over the lost role",
+          "rationale": "Correct. A low-diversity ecosystem has fewer backups, so a lost role is more likely to stay empty and the effects spread."
+        },
+        {
+          "id": "b",
+          "text": "Tundra food chains are longer, so effects have farther to travel",
+          "rationale": "Tundra webs are simpler, with fewer species and links. Effects spread because few other species can step in, not because the chains are longer."
+        },
+        {
+          "id": "c",
+          "text": "High biodiversity protects rainforests from every kind of loss",
+          "rationale": "Too absolute. Diversity often helps, but very diverse ecosystems such as coral reefs can still be badly damaged."
+        },
+        {
+          "id": "d",
+          "text": "Cold weather makes each tundra animal weaker than rainforest ones",
+          "rationale": "Fragility describes how easily the whole ecosystem is upset, not how strong individual animals are. Tundra animals are well adapted to the cold."
+        }
+      ],
+      "answer": "a",
+      "limitations": "Describes a general tendency. Real ecosystems vary, and diverse ecosystems can still be badly damaged.",
+      "explanation": "In a low-diversity ecosystem each species tends to carry more of the load, and there may be no other species ready to fill a role that disappears. Richer ecosystems often have more backups. That is a tendency, not a guarantee: even very diverse ecosystems, such as coral reefs, can be badly damaged by disturbances like marine heat waves.",
+      "misconception": "High biodiversity makes an ecosystem safe from any disturbance.",
+      "hint": "Think of a house of cards held up by only a few cards.",
+      "followUpId": "L27-Q12",
+      "scope": {
+        "lessonId": "L27",
+        "section": "2. Fragile Tundra Ecosystems",
+        "pages": {
+          "printed": [
+            362,
+            363
+          ],
+          "pdf": [
+            398,
+            399
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            362,
+            363
+          ],
+          "pdfPages": [
+            398,
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "Tundra ecosystems have low biodiversity, so a threat to one species can have a large impact on many others; their stability is more easily threatened than in ecosystems with more biodiversity."
+        },
+        {
+          "type": "external",
+          "title": "What is coral bleaching?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/coral_bleach.html",
+          "accessed": "2026-10-14",
+          "supports": "When water is too warm, corals expel their algae and bleach; if the stress continues, the corals die. A massive bleaching event in 2005 cost the U.S. half of its Caribbean coral reefs in one year."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 362-363. Distractor c and the limitation address the brief's guardrail (L27-RF9). Reviser round 1: absolute distractor b replaced with a food-chain-length misconception (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 362, 363 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute distractor b replaced with a food-chain-length misconception"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q16",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O2",
+        "L27-O3"
+      ],
+      "conceptTags": [
+        "niche",
+        "habitat-vs-niche",
+        "polar-bear"
+      ],
+      "familyId": "L27-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "A species' niche is the role it plays in its ecosystem. Which of these best describes the polar bear's niche?",
+      "accessiblePrompt": "A species' niche is the role it plays in its ecosystem. Which of these best describes the polar bear's niche?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chief seal hunter on the sea ice, leaving scraps for scavengers",
+          "rationale": "Correct. This describes what the polar bear does and how it affects other species, which is its niche."
+        },
+        {
+          "id": "b",
+          "text": "The frozen sea ice and icy coasts around the North Pole",
+          "rationale": "That is the polar bear's habitat, where it lives, not the role it plays."
+        },
+        {
+          "id": "c",
+          "text": "A thick fur coat and a fat layer that hold in body heat all winter",
+          "rationale": "Those are adaptations, body features that help it survive. They support its role but are not the role itself."
+        },
+        {
+          "id": "d",
+          "text": "The total number of polar bears living across the Arctic",
+          "rationale": "That is the population size, not a role in the ecosystem."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A niche is a job description, not an address. The polar bear's job is hunting seals from the sea ice, and the leftovers it leaves feed foxes and gulls. Its icy home is its habitat, and its fur and fat are adaptations that help it do its job.",
+      "misconception": "A niche is the same thing as a habitat.",
+      "hint": "Ask what the polar bear does, not where it lives or what its body is like.",
+      "followUpId": "L27-Q10",
+      "scope": {
+        "lessonId": "L27",
+        "section": "2. Fragile Tundra Ecosystems",
+        "pages": {
+          "printed": [
+            363
+          ],
+          "pdf": [
+            399
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            363
+          ],
+          "pdfPages": [
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "A niche is the ecological role a species plays; polar bears are the main hunters of seals from sea ice."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 363. Reviser round 1: textbook evidence no longer repeats \"no other species fills this niche\" (science reviewer's optional note; L27-RF15). L27-Q10 no longer contains a polar bear pair, so this item is distinct from it. Final verification (verify-agent, 2026-10-14): checked against rendered p. 363 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q17",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O2"
+      ],
+      "conceptTags": [
+        "polar-bear",
+        "sea-ice",
+        "hibernation-misconception",
+        "textbook-correction"
+      ],
+      "familyId": "L27-F07",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "People sometimes say polar bears sleep through the Arctic winter. What do wildlife scientists report about most polar bears in winter?",
+      "accessiblePrompt": "People sometimes say polar bears sleep through the Arctic winter. What do wildlife scientists report about most polar bears in winter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They stay active and hunt seals from the sea ice",
+          "rationale": "Correct. Apart from pregnant females in dens, polar bears keep hunting seals on the sea ice through the winter."
+        },
+        {
+          "id": "b",
+          "text": "They hibernate in snow dens until spring",
+          "rationale": "Only pregnant females den for the winter, to give birth. Other polar bears do not hibernate."
+        },
+        {
+          "id": "c",
+          "text": "They migrate south into forests, as caribou do",
+          "rationale": "Caribou migrate away from the tundra, but polar bears stay with the sea ice where their seal prey is."
+        },
+        {
+          "id": "d",
+          "text": "They stop eating and wait out the winter on land",
+          "rationale": "Most polar bears hunt through the winter. Wildlife scientists describe the sea ice as the platform they need for hunting seals."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Polar bears do not truly hibernate. Only pregnant females settle into dens for the winter, where they give birth; other polar bears keep hunting seals on the sea ice. That is why a shrinking sea-ice season is such a problem for them.",
+      "misconception": "All bears, including polar bears, hibernate through the winter.",
+      "hint": "Think about where the seals are in winter.",
+      "followUpId": "L27-Q14",
+      "scope": {
+        "lessonId": "L27",
+        "section": "2. Fragile Tundra Ecosystems",
+        "pages": {
+          "printed": [
+            362,
+            363
+          ],
+          "pdf": [
+            398,
+            399
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            362,
+            363
+          ],
+          "pdfPages": [
+            398,
+            399
+          ],
+          "locator": "Section 2. Fragile Tundra Ecosystems",
+          "supports": "The textbook says polar bears hibernate (p. 362), which is corrected here (L27-RF4); it also describes polar bears hunting seals from sea ice (p. 363)."
+        },
+        {
+          "type": "external",
+          "title": "Polar Bear",
+          "publisher": "National Wildlife Federation",
+          "url": "https://www.nwf.org/polarbear/",
+          "accessed": "2026-10-14",
+          "supports": "NWF states that polar bears do not hibernate during winter and that most polar bears do not den; pregnant females den so their cubs are born in a protected place. Polar bears can survive only where the ocean freezes, which lets them hunt seals."
+        },
+        {
+          "type": "external",
+          "title": "Polar Bear (Ursus maritimus) species profile",
+          "publisher": "Alaska Department of Fish and Game",
+          "url": "https://www.adfg.alaska.gov/index.cfm?adfg=polarbear.main",
+          "accessed": "2026-10-14",
+          "supports": "ADF&G describes pregnant females finding den sites in October and November and giving birth in the den, says polar bears stay close to the pack ice that provides a platform for hunting seals, and notes that the sea ice they depend on is declining."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the textbook's statement on p. 362 that polar bears hibernate (L27-RF4); the keyed answer rests on the external sources. Drafted from rendered pp. 362-363. Reviser round 1: choice b drops \"all\" so the distractor is not ruled out by its absolute word (pedagogy lesson-level note); it is still wrong. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 362, 363 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. NWF page re-opened and confirmed (no hibernation; most polar bears do not den; pregnant females den).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b drops \"all\" (lesson-level note on absolute words)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q18",
+      "lessonId": "L27",
+      "type": "order",
+      "objectiveIds": [
+        "L27-O2"
+      ],
+      "conceptTags": [
+        "keystone-species",
+        "sea-otter",
+        "cascade",
+        "cause-and-effect"
+      ],
+      "familyId": "L27-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Put these events in the order they happened in many Pacific kelp forests after sea otters were hunted for their fur, from first to last.",
+      "accessiblePrompt": "Put these events in the order they happened in many Pacific kelp forests after sea otters were hunted for their fur, from first to last. The events are: sea urchin numbers climbed with no otters eating them; fish and other kelp-dependent animals declined; hunters removed every sea otter from a stretch of coast; the kelp forest thinned and shrank; crowds of urchins chewed kelp at its base and ate young kelp.",
+      "items": [
+        {
+          "id": "urchins",
+          "text": "Sea urchin numbers climbed with no otters eating them",
+          "rationale": "Second: without otters to eat them, urchin populations grew."
+        },
+        {
+          "id": "fish",
+          "text": "Fish and other kelp-dependent animals declined",
+          "rationale": "Last: as the kelp disappeared, species that need it for food and shelter declined."
+        },
+        {
+          "id": "hunt",
+          "text": "Hunters removed every sea otter from a stretch of coast",
+          "rationale": "First: hunting for fur wiped out the otters there."
+        },
+        {
+          "id": "shrink",
+          "text": "The kelp forest thinned and shrank",
+          "rationale": "Fourth: with urchins eating kelp faster than it could regrow, the forest shrank."
+        },
+        {
+          "id": "graze",
+          "text": "Crowds of urchins chewed kelp at its base and ate young kelp",
+          "rationale": "Third: once urchins had multiplied, crowds of them grazed the kelp, starting at its anchoring base."
+        }
+      ],
+      "answer": [
+        "hunt",
+        "urchins",
+        "graze",
+        "shrink",
+        "fish"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Otters eat urchins, and urchins eat kelp, so removing the otters let urchins boom and mow down the kelp. Because so many animals use kelp for food and shelter, the loss of one predator spread through the whole community.",
+      "misconception": "Sea otters protect kelp by eating it or living in it, rather than through their prey.",
+      "hint": "Start with the hunters, then ask what each change allowed to happen next.",
+      "followUpId": "L27-Q20",
+      "scope": {
+        "lessonId": "L27",
+        "section": "3. Keystone Species in the Kelp Forest",
+        "pages": {
+          "printed": [
+            365
+          ],
+          "pdf": [
+            401
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "After sea otters were extirpated, urchin populations increased, urchins ate kelp from the base, kelp forests died, and species that depend on kelp declined."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 365. A single causal chain, so only one order is defensible. Reviser round 1: the grazing step now says \"Crowds of urchins\", so it can only follow the population increase (both reviewers); the hint no longer hands over the chain (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 365 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: grazing step reads \"Crowds of urchins...\" so only one order is defensible"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: grazing step reworded; hint no longer hands over the chain"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q19",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O2"
+      ],
+      "conceptTags": [
+        "keystone-species",
+        "definition",
+        "sea-otter"
+      ],
+      "familyId": "L27-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Ecologists call the sea otter a keystone species in kelp forests. What earns it that title?",
+      "accessiblePrompt": "Ecologists call the sea otter a keystone species in kelp forests. What earns it that title?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its effect on many species is far larger than its numbers suggest",
+          "rationale": "Correct. By controlling urchins, a modest number of otters keeps kelp, and everything that lives in it, going."
+        },
+        {
+          "id": "b",
+          "text": "It is the biggest, strongest animal living in the kelp forest",
+          "rationale": "Size is not the test. What matters is how strongly a species shapes the rest of its ecosystem."
+        },
+        {
+          "id": "c",
+          "text": "It is the most numerous animal found anywhere in the kelp forest",
+          "rationale": "The opposite is closer to the truth: a keystone's effect is large compared with how few of them there are."
+        },
+        {
+          "id": "d",
+          "text": "It eats the kelp that so many other kelp-forest species depend on",
+          "rationale": "Otters leave the kelp alone; they protect it by eating the urchins that graze it."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A keystone species, like the top stone in an arch, holds up far more than its size or numbers would suggest. Sea otters are not the most common animals in a kelp forest, but by eating sea urchins they keep the kelp standing, and the kelp supports a whole community of other species.",
+      "misconception": "A keystone species is simply the biggest or most common species in its ecosystem.",
+      "hint": "Follow the chain from otters to urchins to kelp.",
+      "followUpId": "L27-Q13",
+      "scope": {
+        "lessonId": "L27",
+        "section": "3. Keystone Species in the Kelp Forest",
+        "pages": {
+          "printed": [
+            365
+          ],
+          "pdf": [
+            401
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "A keystone species affects the biodiversity of an entire ecosystem; sea otters control sea urchins, letting kelp grow and support many other species."
+        },
+        {
+          "type": "external",
+          "title": "Keystone species",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/keystone-species",
+          "accessed": "2026-10-14",
+          "supports": "National Geographic defines keystone species as species with a disproportionately large effect on their communities, notes later researchers' wording of an impact disproportionately large relative to abundance, and describes how, without sea otters, urchins increased and consumed the kelp forests other species relied on."
+        },
+        {
+          "type": "external",
+          "title": "Sea Otters",
+          "publisher": "National Park Service, Southwest Alaska Inventory and Monitoring Network",
+          "url": "https://www.nps.gov/im/swan/seaotters.htm",
+          "accessed": "2026-10-14",
+          "supports": "NPS calls sea otters a keystone species in nearshore marine environments: by eating grazers they produce communities with diverse, abundant algae and relatively few large grazing invertebrates such as sea urchins."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the abundance-based definition (L27-RF8). Drafted from rendered p. 365. Reviser round 1: no change; both reviewers passed it. Final verification (verify-agent, 2026-10-14): checked against rendered p. 365 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. National Geographic keystone page re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q20",
+      "lessonId": "L27",
+      "type": "multi",
+      "objectiveIds": [
+        "L27-O2",
+        "L27-O5"
+      ],
+      "conceptTags": [
+        "data-interpretation",
+        "correlation-vs-cause",
+        "sea-otter",
+        "kelp"
+      ],
+      "familyId": "L27-F09",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "A team surveyed three stretches of a fictional rocky coast. Which conclusions do their data support? Select all that apply.",
+      "accessiblePrompt": "A team surveyed three stretches of a fictional rocky coast. At Site 1, sea otters have been present for 20 years; there are 2 urchins per square meter and kelp covers 75 percent of the seafloor. At Site 2, there are no otters; there are 30 urchins per square meter and kelp covers 10 percent. At Site 3, otters returned 5 years ago; there are 12 urchins per square meter and kelp covers 40 percent. Which conclusions do their data support? Select all that apply.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Fictional coastal survey",
+        "alt": "A table of a fictional coastal survey. Site 1: sea otters present for 20 years, 2 urchins per square meter, kelp cover 75 percent. Site 2: no otters, 30 urchins per square meter, kelp cover 10 percent. Site 3: otters returned 5 years ago, 12 urchins per square meter, kelp cover 40 percent.",
+        "columns": [
+          "Site",
+          "Sea otters",
+          "Urchins per square meter",
+          "Kelp cover (%)"
+        ],
+        "rows": [
+          [
+            "Site 1",
+            "Present for 20 years",
+            2,
+            75
+          ],
+          [
+            "Site 2",
+            "Absent",
+            30,
+            10
+          ],
+          [
+            "Site 3",
+            "Returned 5 years ago",
+            12,
+            40
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Urchins were fewer at the sites that had otters",
+          "rationale": "Supported. Sites 1 and 3 have 2 and 12 urchins per square meter, compared with 30 at Site 2, which has no otters."
+        },
+        {
+          "id": "b",
+          "text": "Kelp cover was highest where otters had been present longest",
+          "rationale": "Supported. Site 1, with otters for 20 years, has 75 percent kelp cover, the most of the three sites."
+        },
+        {
+          "id": "c",
+          "text": "These data prove otters are the only thing that controls kelp",
+          "rationale": "Not supported. Three sites show a pattern, but other factors, such as storms, water temperature or other urchin predators, could also play a part."
+        },
+        {
+          "id": "d",
+          "text": "Site 3's kelp will reach 75 percent cover within 15 more years",
+          "rationale": "Not supported. One survey of each site is a snapshot. It does not show how fast kelp recovers, and recovery depends on local conditions."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "conditions": "Fictional survey data, collected the same way and in the same season at each site.",
+      "limitations": "Three sites show a correlation; on their own they cannot rule out other causes.",
+      "explanation": "The data show a pattern: where otters are present, urchins are scarcer and kelp covers more of the seafloor, and the site with otters for the longest time has the most kelp. Three sites cannot prove that otters are the only factor. Studies of what otters and urchins eat, and of what happens when otters return, are what link the pattern to a cause.",
+      "misconception": "A pattern seen at a few sites proves a single cause.",
+      "hint": "Separate what the numbers show from what they cannot prove.",
+      "followUpId": "L27-Q18",
+      "scope": {
+        "lessonId": "L27",
+        "section": "3. Keystone Species in the Kelp Forest",
+        "pages": {
+          "printed": [
+            365
+          ],
+          "pdf": [
+            401
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Urchin populations increased where otters were absent, and kelp forest biodiversity recovered where otters returned."
+        },
+        {
+          "type": "external",
+          "title": "Limited effects of a keystone species: Trends of sea otters and kelp forests at the Semichi Islands, Alaska",
+          "publisher": "U.S. Geological Survey, Publications Warehouse",
+          "url": "https://pubs.usgs.gov/publication/70022507",
+          "accessed": "2026-10-14",
+          "supports": "About seven years after sea otters recolonized the Semichi Islands, urchin biomass, urchin size and kelp density had changed only marginally; the author suggests that otter density and how long otters stay affect how strong their effect becomes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Fictional data. Tests the correlation/explanation distinction from the brief's guardrails (L27-RF7). All-or-nothing scoring; 2 of 4 correct. Reviser round 1: distractor d replaced with a tempting prediction that overreaches the data (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 365 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced with a tempting overreach from the data"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q21",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O5"
+      ],
+      "conceptTags": [
+        "conservation-proposal",
+        "criteria",
+        "cause-vs-symptom",
+        "sea-otter"
+      ],
+      "familyId": "L27-F09",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "A fictional town's kelp forest vanished after sea otters were hunted out there long ago, and urchins now carpet the seafloor. Sea otters still live on nearby coasts. Goals: bring kelp back, keep native species, and track results. Which proposal best fits the evidence and goals?",
+      "accessiblePrompt": "A fictional town's kelp forest vanished after sea otters were hunted out there long ago, and sea urchins now carpet the seafloor. Sea otters still live on nearby coasts. The town's goals are to bring the kelp back, keep native species, and track results. Which proposal best fits the evidence and the goals?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Protect otters moving in from nearby; check urchins and kelp yearly",
+          "rationale": "Correct. This targets the cause, overgrazing urchins with no predator, keeps native species, and measures the results."
+        },
+        {
+          "id": "b",
+          "text": "Plant thousands of young kelp each year and count how many survive",
+          "rationale": "Counting survivors meets the tracking goal, but the young kelp would be grazed by the same urchins that destroyed the forest. This treats the symptom, not the cause, and counting the losses does not fix it."
+        },
+        {
+          "id": "c",
+          "text": "Spread a poison that kills the sea urchins along the coast",
+          "rationale": "This breaks the goal of keeping native species: it wipes out a native animal and could harm other species too."
+        },
+        {
+          "id": "d",
+          "text": "Ban fishing for kelp-forest fish so that their numbers can grow back",
+          "rationale": "Fish cannot recover without kelp to live in, and this plan does nothing about the urchins eating the kelp."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Fictional scenario. Sea otters still live on nearby coasts and can move into the area.",
+      "limitations": "Real recovery can take years and depends on local conditions, such as how many otters arrive and how long they stay.",
+      "explanation": "The evidence points to the cause: without otters, urchins boom and graze the kelp away. Protecting returning otters goes after that cause while keeping native species, and yearly surveys show whether the plan is working. Planting kelp, even with careful counts, just feeds the urchins; poison breaks the goal of keeping native species; and a fishing ban leaves the urchins untouched.",
+      "misconception": "Treating the symptom, missing kelp, solves the problem without fixing its cause.",
+      "hint": "Which option deals with what is eating the kelp while meeting all three goals?",
+      "followUpId": "L27-Q26",
+      "scope": {
+        "lessonId": "L27",
+        "section": "3. Keystone Species in the Kelp Forest",
+        "pages": {
+          "printed": [
+            365
+          ],
+          "pdf": [
+            401
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Hunting bans and protection of marine ecosystems increased sea otter numbers, and where otters returned they again controlled urchins and kelp forests recovered."
+        },
+        {
+          "type": "external",
+          "title": "Limited effects of a keystone species: Trends of sea otters and kelp forests at the Semichi Islands, Alaska",
+          "publisher": "U.S. Geological Survey, Publications Warehouse",
+          "url": "https://pubs.usgs.gov/publication/70022507",
+          "accessed": "2026-10-14",
+          "supports": "About seven years after sea otters recolonized the Semichi Islands, urchin biomass, urchin size and kelp density had changed only marginally; the author suggests that otter density and how long otters stay affect how strong their effect becomes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Fictional scenario evaluating a conservation proposal (brief mission). Drafted from rendered p. 365. Reviser round 1: the visible prompt now carries the fact that otters live nearby, matching the read-aloud version; choice b now meets the tracking goal, so the key is not picked by the goal word alone; choice c drops \"every single\" (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 365 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: visible prompt states that otters live nearby; choice b meets the tracking goal; choice c drops \"every single\""
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q22",
+      "lessonId": "L27",
+      "type": "match",
+      "objectiveIds": [
+        "L27-O4"
+      ],
+      "conceptTags": [
+        "human-benefits",
+        "medicines",
+        "materials",
+        "ecosystem-goods"
+      ],
+      "familyId": "L27-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Match each species with a way it has helped people.",
+      "accessiblePrompt": "Match each species with a way it has helped people. The species are: Madagascar periwinkle, willow tree, purple foxglove, silkworm moth, and certain kinds of bacteria.",
+      "left": [
+        {
+          "id": "peri",
+          "text": "Madagascar periwinkle",
+          "rationale": "Chemicals from this plant are used in chemotherapy for some cancers."
+        },
+        {
+          "id": "willow",
+          "text": "Willow tree",
+          "rationale": "Its bark holds salicin; chemists used a related compound to make aspirin."
+        },
+        {
+          "id": "fox",
+          "text": "Purple foxglove",
+          "rationale": "It contains digitoxin, a medicine that acts on the heart, and doctors have used its leaves as medicine since the 1700s; the related heart drug digoxin comes from its cousin, woolly foxglove."
+        },
+        {
+          "id": "silk",
+          "text": "Silkworm moth",
+          "rationale": "Its caterpillar spins cocoon fibers that are woven into silk."
+        },
+        {
+          "id": "bact",
+          "text": "Certain kinds of bacteria",
+          "rationale": "Some bacteria break down oil, which might help clean up spills."
+        }
+      ],
+      "right": [
+        {
+          "id": "cancer",
+          "text": "Chemicals used in treating some cancers"
+        },
+        {
+          "id": "aspirin",
+          "text": "A chemical that led chemists to aspirin"
+        },
+        {
+          "id": "heart",
+          "text": "The source of a medicine for some heart problems"
+        },
+        {
+          "id": "cloth",
+          "text": "Fibers woven into a fine, shiny fabric"
+        },
+        {
+          "id": "spill",
+          "text": "A possible way to help clean up oil spills"
+        }
+      ],
+      "answer": {
+        "peri": "cancer",
+        "willow": "aspirin",
+        "fox": "heart",
+        "silk": "cloth",
+        "bact": "spill"
+      },
+      "limitations": "Medicines are purified and dosed by scientists and doctors. Many medicinal plants, including foxglove, are poisonous.",
+      "explanation": "Biodiversity is a library of chemistry and materials. Medicines linked to periwinkle, willow and foxglove, silk from a moth's cocoon, and oil-eating bacteria all came from studying particular species. Each species that disappears takes its undiscovered possibilities with it.",
+      "misconception": "Only a few well-known crops and farm animals are useful to people.",
+      "hint": "Three of these are plants, one is an insect and one is a microbe. Match the insect and the microbe first.",
+      "followUpId": "L27-Q27",
+      "scope": {
+        "lessonId": "L27",
+        "section": "5. Humans Benefit from Biodiversity",
+        "pages": {
+          "printed": [
+            370
+          ],
+          "pdf": [
+            406
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            370
+          ],
+          "pdfPages": [
+            406
+          ],
+          "locator": "Section 5. Humans Benefit from Biodiversity",
+          "supports": "Periwinkle chemicals are used in cancer chemotherapy; a willow bark chemical relates to aspirin; foxglove produces a heart-related chemical; silk comes from silkworm moth cocoon fibers; some bacteria break down oil."
+        },
+        {
+          "type": "external",
+          "title": "The Story of Aspirin (online exhibition)",
+          "publisher": "U.S. National Library of Medicine, National Institutes of Health",
+          "url": "https://www.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+          "accessed": "2026-10-14",
+          "supports": "Salicin is the active ingredient in willow bark and salicylic acid is its derivative; chemists first synthesized acetylsalicylic acid, later named aspirin, and salicylic acid came to be made in bulk from smaller molecules rather than from willow bark."
+        },
+        {
+          "type": "external",
+          "title": "Oxford University Plants 400: Digitalis purpurea",
+          "publisher": "University of Oxford Herbaria",
+          "url": "https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/cd/Digitalis",
+          "accessed": "2026-10-17",
+          "supports": "Purple foxglove is the source of digitoxin, a cardiac glycoside that in controlled doses acts as a heart stimulant. The physician William Withering first advocated its use as a medicine in 1785, giving patients a medicine made by boiling the dried leaves."
+        },
+        {
+          "type": "external",
+          "title": "Digoxin (StatPearls)",
+          "publisher": "NCBI Bookshelf, U.S. National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556025/",
+          "accessed": "2026-10-17",
+          "supports": "Digoxin is derived from the foxglove plant Digitalis lanata. Its FDA-approved uses are chronic atrial fibrillation and the symptomatic management of heart failure."
+        },
+        {
+          "type": "external",
+          "title": "Digitalis lanata, Grecian foxglove (plant details)",
+          "publisher": "Royal Horticultural Society",
+          "url": "https://www.rhs.org.uk/plants/30581/digitalis-lanata/details",
+          "accessed": "2026-10-17",
+          "supports": "Digitalis lanata is also called woolly foxglove (other common names: Grecian foxglove, Austrian digitalis)."
+        },
+        {
+          "type": "external",
+          "title": "Digoxin (Heart Matters drug cabinet)",
+          "publisher": "British Heart Foundation",
+          "url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/drug-cabinet/digoxin",
+          "accessed": "2026-10-14",
+          "supports": "Digoxin is mainly used to treat abnormal heart rhythms such as atrial fibrillation, and it can help improve the symptoms of heart failure."
+        },
+        {
+          "type": "external",
+          "title": "Catharanthus roseus (L.) G.Don, general information",
+          "publisher": "Royal Botanic Gardens, Kew (ColPlanta)",
+          "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:77880-1/general-information",
+          "accessed": "2026-10-14",
+          "supports": "The native range is eastern and southern Madagascar, and the plant grows mainly in the seasonally dry tropical biome. Its alkaloids are used to treat several kinds of cancer, including leukaemia in children."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Wording for willow and foxglove corrected from the textbook's oversimplification (L27-RF11). Drafted from rendered p. 370. Reviser round 1: the foxglove rationale no longer calls purple foxglove the source of digoxin: it names digitoxin and says digoxin comes from woolly foxglove (science review; L27-RF11). The reviewer suggested \"its leaves gave doctors digitalis heart medicine\", but the Oxford page supports digitoxin as a heart stimulant and Withering's 1785 leaf medicine without naming a heart use for the leaves, so the rationale says only what the opened sources support. BHF is now cited only for digoxin's uses. Three word-matched pairs lost their cue words and the hint was rewritten (pedagogy review). The one-to-one matching stays unique: each species has only one defensible partner once the others are placed. Final verification (verify-agent, 2026-10-14): checked against rendered p. 370 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. StatPearls (digoxin from Digitalis lanata) and Kew ColPlanta (E. & S. Madagascar) re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: foxglove rationale names digitoxin and woolly foxglove as digoxin's source; Oxford, StatPearls and RHS evidence added; BHF narrowed to uses"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: cue words removed from three pairs (bacteria, aspirin, silk); hint rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q23",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O4"
+      ],
+      "conceptTags": [
+        "extinction",
+        "lost-knowledge",
+        "evidence",
+        "gastric-brooding-frog"
+      ],
+      "familyId": "L27-F10",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A student claims, \"Losing one small frog species doesn't matter to people.\" Which evidence about the gastric brooding frog best answers that claim?",
+      "accessiblePrompt": "A student claims that losing one small frog species doesn't matter to people. Which evidence about the gastric brooding frog best answers that claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its stomach acid shut off while young grew inside, a clue to treating ulcers",
+          "rationale": "Correct. Its stomach stopped making acid while the young developed inside it, probably because of a substance from the eggs and young. Learning how could have helped treat stomach illnesses, and that knowledge was lost when the species went extinct."
+        },
+        {
+          "id": "b",
+          "text": "Scientists can learn the same thing by studying any other frog species",
+          "rationale": "Each species has its own traits. Scientists know of no living frog that raises its young in its stomach, and an extinct species cannot be replaced."
+        },
+        {
+          "id": "c",
+          "text": "It was so rare that few people ever saw one in the wild",
+          "rationale": "Rarity alone does not show why the frog mattered to people, so it does nothing to answer the student's claim."
+        },
+        {
+          "id": "d",
+          "text": "It could easily be bred again later from frogs kept in zoos in other countries",
+          "rationale": "The species is extinct, so no members survive anywhere to breed from."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The female gastric brooding frog raised her young in her stomach, where acid production stopped, probably because of a substance released by the eggs and young. Scientists hoped to learn how this worked, which might have helped people with ulcers or acid reflux. The species went extinct soon after it was discovered, and that knowledge was lost with it.",
+      "misconception": "A species that people do not eat or use directly has no value to people.",
+      "hint": "What was so unusual about the way this frog raised its young?",
+      "followUpId": "L27-Q25",
+      "scope": {
+        "lessonId": "L27",
+        "section": "5. Humans Benefit from Biodiversity",
+        "pages": {
+          "printed": [
+            371
+          ],
+          "pdf": [
+            407
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            371
+          ],
+          "pdfPages": [
+            407
+          ],
+          "locator": "Section 5. Humans Benefit from Biodiversity",
+          "supports": "Gastric brooding frogs stopped producing stomach acid while raising young in the stomach; scientists hoped this could lead to treatments for stomach illnesses, but the species became extinct."
+        },
+        {
+          "type": "external",
+          "title": "The Southern Gastric-Brooding Frog",
+          "publisher": "Embryo Project Encyclopedia, Arizona State University",
+          "url": "https://embryo.asu.edu/pages/southern-gastric-brooding-frog-0",
+          "accessed": "2026-10-17",
+          "supports": "The frog was first described in 1973 in Australia. The page says no wild frogs were reported after 1981 (it also gives 1979), and the IUCN declared the species extinct in 2002. Researchers never saw a mother swallow her eggs. The leading hypothesis, resting on circumstantial evidence, is that the young secreted prostaglandin E2, which blocked the mother's stomach acid; the page says no other observed species broods its young this way."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 371. Reviser round 1: the explanation and key no longer say the mother shut off her own acid; the textbook (p. 371) credits chemicals in the eggs, and the ASU page calls the prostaglandin E2 idea a hypothesis on circumstantial evidence (science review). Distractors b and c replaced so only the key is both true and a rebuttal (pedagogy review). Two rationales differ from the reviewer's wording: b says no living frog is known to brood young in its stomach (supported by the ASU page), rather than \"unknown in any other frog\"; c says rarity does not answer the claim, rather than that it supports it. The key was shortened and choice d gained \"in zoos\" so the key is not the longest choice. ASU page re-opened; its record now states the hypothesis status. Final verification (verify-agent, 2026-10-14): checked against rendered p. 371 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. ASU Embryo Project page re-opened and confirmed (1973 description; 1979/1981 last wild record; PGE2 is a hypothesis; no other observed species broods this way).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and key no longer have the mother shut off her own acid; acid stopped, probably because of a substance from the young"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors b and c replaced so only the key is both true and a rebuttal"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q24",
+      "lessonId": "L27",
+      "type": "multi",
+      "objectiveIds": [
+        "L27-O4"
+      ],
+      "conceptTags": [
+        "extinction",
+        "consequences",
+        "food-web",
+        "biodiversity-loss"
+      ],
+      "familyId": "L27-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "A small fish species lived in only one river, and now every one of them has died. Which results are likely? Select all that apply.",
+      "accessiblePrompt": "A small fish species lived in only one river, and now every one of them has died. Which results are likely? Select all that apply. The choices are: Earth now has one fewer species; birds that often ate this fish may switch foods or decline; another species is sure to take over its exact role soon; and the river's biodiversity rises, because the other species now face less competition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Earth now has one fewer species",
+          "rationale": "Correct. The species lived nowhere else, so this is extinction and Earth's biodiversity drops."
+        },
+        {
+          "id": "b",
+          "text": "Birds that often ate this fish may switch foods or decline",
+          "rationale": "Correct. Losing a food source ripples to the animals that ate it."
+        },
+        {
+          "id": "c",
+          "text": "Another species is sure to take over its exact role soon",
+          "rationale": "Nothing guarantees this. Some roles stay empty for a long time, especially in ecosystems with few species."
+        },
+        {
+          "id": "d",
+          "text": "The river's biodiversity rises, because the other species now face less competition",
+          "rationale": "Some populations may grow, but losing a species lowers the variety of species, so biodiversity drops."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "This is extinction, because the species lived nowhere else. Earth's biodiversity drops, and animals that depended on the fish feel the change. Some other populations may grow, but nothing guarantees that another species will fill the gap, and the river now holds less variety of life than before.",
+      "misconception": "When a species disappears, another one always fills its place, or the loss leaves the ecosystem richer because competition drops.",
+      "hint": "Think about the species itself and about the animals that depended on it.",
+      "followUpId": "L27-Q15",
+      "scope": {
+        "lessonId": "L27",
+        "section": "5. Humans Benefit from Biodiversity",
+        "pages": {
+          "printed": [
+            365,
+            371
+          ],
+          "pdf": [
+            401,
+            407
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            371
+          ],
+          "pdfPages": [
+            407
+          ],
+          "locator": "Section 5. Humans Benefit from Biodiversity",
+          "supports": "Extinction is when all members of a species die; an extinct species cannot be replaced, and biodiversity decreases."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "A change in the population of one species can affect many other populations in the ecosystem."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical fish. All-or-nothing scoring; 2 of 4 correct. Reviser round 1: distractor d (restocking from another river) repeated the extirpation-versus-extinction idea of family F11, so it now tests a consequence of the loss; hint rewritten toward consequences (pedagogy review). The science reviewer's optional wording alignment for the old d no longer applies. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 365, 371 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d now tests a consequence of the loss; hint rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q25",
+      "lessonId": "L27",
+      "type": "classify",
+      "objectiveIds": [
+        "L27-O4"
+      ],
+      "conceptTags": [
+        "extirpation",
+        "extinction",
+        "scale-of-loss"
+      ],
+      "familyId": "L27-F11",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Sort each situation as extirpation (gone from one place) or extinction (gone everywhere).",
+      "accessiblePrompt": "Sort each situation as extirpation, meaning gone from one place, or extinction, meaning gone everywhere. The situations are: a butterfly species found in five valleys disappears from one of them; the last frogs of a species that lived in just one set of streams die; a lake's trout die out, but the same species thrives in other lakes; a beetle species that lived on two small islands is wiped out on both; wolves disappear from one park but survive elsewhere in the country.",
+      "bins": [
+        {
+          "id": "extirp",
+          "label": "Extirpation: gone from one place"
+        },
+        {
+          "id": "extinct",
+          "label": "Extinction: gone everywhere"
+        }
+      ],
+      "items": [
+        {
+          "id": "butterfly",
+          "text": "A butterfly species found in five valleys disappears from one of them",
+          "rationale": "Extirpation: the species still lives in the other four valleys."
+        },
+        {
+          "id": "frog",
+          "text": "The last frogs of a species that lived in just one set of streams die",
+          "rationale": "Extinction: those streams were its only home, so no members remain anywhere."
+        },
+        {
+          "id": "trout",
+          "text": "A lake's trout die out, but the same species thrives in other lakes",
+          "rationale": "Extirpation: only the population in that lake is gone."
+        },
+        {
+          "id": "beetle",
+          "text": "A beetle species that lived on two small islands is wiped out on both",
+          "rationale": "Extinction: those two islands were its whole range, so no members remain anywhere."
+        },
+        {
+          "id": "wolf",
+          "text": "Wolves disappear from one park but survive elsewhere in the country",
+          "rationale": "Extirpation: wolves are gone from the park but still live in other places."
+        }
+      ],
+      "answer": {
+        "butterfly": "extirp",
+        "frog": "extinct",
+        "trout": "extirp",
+        "beetle": "extinct",
+        "wolf": "extirp"
+      },
+      "conditions": "Each situation describes the species' whole known range.",
+      "explanation": "Extirpation removes a population from one place while the species survives somewhere else, so it may be able to return. Extinction means no members are left anywhere. A species becomes extinct when it disappears from every place in its range, whether that range is one set of streams or two small islands.",
+      "misconception": "Any disappearance of a species from an area means it is extinct.",
+      "hint": "For each one, ask whether the species is still alive anywhere else.",
+      "followUpId": "L27-Q23",
+      "scope": {
+        "lessonId": "L27",
+        "section": "5. Humans Benefit from Biodiversity",
+        "pages": {
+          "printed": [
+            365,
+            371
+          ],
+          "pdf": [
+            401,
+            407
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Extirpation is when all members of a population in an ecosystem die and the species no longer exists in that place; it applies to one place, not the whole planet."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            371
+          ],
+          "pdfPages": [
+            407
+          ],
+          "locator": "Section 5. Humans Benefit from Biodiversity",
+          "supports": "Extinction is when all members of a species die and the species no longer exists."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical situations; each has one defensible bin given the stated range. Reviser round 1: the butterfly and beetle items no longer carry giveaway clauses, so the learner has to reason about each range; a conditions line states that each description gives the whole range, which keeps every bin defensible (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 365, 371 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: butterfly and beetle items reworded so the range must be reasoned about; conditions added"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q26",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O4"
+      ],
+      "conceptTags": [
+        "extirpation",
+        "recovery",
+        "sea-otter",
+        "conservation"
+      ],
+      "familyId": "L27-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Hunting wiped out sea otters along many stretches of the Pacific coast, yet after hunting was banned, otters returned to many kelp forests. What made this comeback possible?",
+      "accessiblePrompt": "Hunting wiped out sea otters along many stretches of the Pacific coast, yet after hunting was banned, otters returned to many kelp forests. What made this comeback possible?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Otters vanished only locally, so survivors elsewhere could return",
+          "rationale": "Correct. The loss was extirpation, so surviving otters in other places could grow in number and return, on their own or with people's help, once hunting stopped."
+        },
+        {
+          "id": "b",
+          "text": "Extinct species slowly reappear on their own once hunting stops",
+          "rationale": "An extinct species has no survivors, so it cannot reappear. Otters could return because they were never extinct."
+        },
+        {
+          "id": "c",
+          "text": "Sea urchins left those coasts first, which cleared the way for otters",
+          "rationale": "Cause and effect are reversed: otters returning is what brought urchin numbers down."
+        },
+        {
+          "id": "d",
+          "text": "Scientists cloned new otters from DNA in old otter furs",
+          "rationale": "No otters were cloned. Living otters survived in places hunters missed; protection, and in some places moving otters to empty coasts, let them come back."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Losing otters from parts of the coast was extirpation, not extinction: otters survived in other places. Protection let those survivors grow in number and spread back, and in some places people moved otters from surviving colonies to empty coasts. An extinct species has no survivors anywhere, so there would be nothing left to return.",
+      "misconception": "Extirpation and extinction are the same, or an extinct species can come back on its own.",
+      "hint": "Were sea otters gone everywhere, or only from some places?",
+      "followUpId": "L27-Q18",
+      "scope": {
+        "lessonId": "L27",
+        "section": "3. Keystone Species in the Kelp Forest",
+        "pages": {
+          "printed": [
+            365
+          ],
+          "pdf": [
+            401
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Many Pacific kelp forests lost all their sea otters, which the textbook calls extirpation (loss from a place, not the planet); bans on hunting and marine protection increased otter numbers."
+        },
+        {
+          "type": "external",
+          "title": "European Colonial Period (Olympic Coast National Marine Sanctuary)",
+          "publisher": "NOAA Office of National Marine Sanctuaries",
+          "url": "https://olympiccoast.noaa.gov/explore/colonial-period.html",
+          "accessed": "2026-10-17",
+          "supports": "The fur trade in Washington ended in 1910, when the last recorded sea otter in the state was killed. In 1969 and 1970, 59 otters were moved from Amchitka Island, Alaska, to the Washington coast near La Push, and today's Washington sea otters are thought to descend from as few as 10 of them."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 365. Reviser round 1: the explanation and key rationale now say some otters were moved back by people (science review). The reviewer's USGS record (pubs.usgs.gov/publication/87325) returned HTTP 500 on three tries on 2026-10-17, so the NOAA Olympic Coast sanctuary page, which documents the 1969-1970 move of 59 otters from Amchitka to Washington, is cited instead. Distractor d is now a cloning misconception (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered p. 365 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and key rationale mention otters moved back by people; NOAA evidence added (USGS page unavailable)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d is now a cloning misconception"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q27",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O5"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "criteria",
+        "biomimicry",
+        "test-data"
+      ],
+      "familyId": "L27-F12",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Engineers want a bandage that sticks when dry, sticks when wet, and peels off without hurting. Based on the test results in the table, which plan is most promising?",
+      "accessiblePrompt": "Engineers want a bandage that sticks when dry, sticks when wet, and peels off without hurting. A gecko-textured pad stuck when dry, did not stick when wet, and peeled off easily. A mussel-style glue stuck when wet but did not peel off easily; its dry sticking was not reported. Based on these test results, which plan is most promising?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Test results for two nature-inspired adhesives",
+        "alt": "A table of test results against three criteria. Gecko-textured pad: sticks when dry, yes; sticks when wet, no; peels off easily, yes. Mussel-style glue: sticks when dry, not reported; sticks when wet, yes; peels off easily, no.",
+        "columns": [
+          "Design",
+          "Sticks when dry",
+          "Sticks when wet",
+          "Peels off easily"
+        ],
+        "rows": [
+          [
+            "Gecko-textured pad",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          [
+            "Mussel-style glue",
+            "Not reported",
+            "Yes",
+            "No"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coat a gecko-textured pad with mussel-style glue",
+          "rationale": "Correct. The gecko texture brings dry grip and easy removal, and the mussel-style coating brings wet grip, so together they could meet every criterion."
+        },
+        {
+          "id": "b",
+          "text": "Use the gecko pad alone, since it passed two of three tests",
+          "rationale": "Passing most tests is not enough: the gecko pad fails the wet-sticking criterion that the bandage must meet."
+        },
+        {
+          "id": "c",
+          "text": "Use mussel glue alone, since wet sticking matters most",
+          "rationale": "Every criterion matters here. Mussel glue alone fails the easy-removal criterion."
+        },
+        {
+          "id": "d",
+          "text": "Drop both ideas, since neither passed every test",
+          "rationale": "Each design has a feature that works. Throwing both away wastes useful test results."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Each design met some of the criteria but not all of them. The gecko texture handled dry sticking and easy removal; the mussel-style glue handled wet sticking. Combining the strongest feature of each could meet all three criteria, which is the path the engineers took.",
+      "misconception": "The design that passes the most tests should be used as it is, or a design that fails any test is useless.",
+      "hint": "For each criterion, find which design met it.",
+      "followUpId": "L27-Q21",
+      "scope": {
+        "lessonId": "L27",
+        "section": "6. Engineering a Super Bandage",
+        "pages": {
+          "printed": [
+            372,
+            373
+          ],
+          "pdf": [
+            408,
+            409
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            372,
+            373
+          ],
+          "pdfPages": [
+            408,
+            409
+          ],
+          "locator": "Section 6. Engineering a Super Bandage and Figure 6",
+          "supports": "The gecko-inspired pad stuck and unstuck on dry surfaces but not wet ones; mussel-inspired glue stuck when wet but did not unstick easily; engineers combined both into one design."
+        },
+        {
+          "type": "external",
+          "title": "A reversible wet/dry adhesive inspired by mussels and geckos (Lee, Lee and Messersmith, Nature 448, 2007): abstract record",
+          "publisher": "IDEAS/RePEc (abstract of the Nature article)",
+          "url": "https://ideas.repec.org/a/nat/nature/v448y2007i7151d10.1038_nature05968.html",
+          "accessed": "2026-10-14",
+          "supports": "The abstract says gecko adhesion is much reduced under water. The hybrid 'geckel' adhesive is an array of tiny pillars coated with a polymer that mimics mussel adhesive proteins, and it held and released reliably over 1,000 cycles in both wet and dry conditions."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 372-373. The mussel glue's dry result is marked 'not reported' because the textbook does not give it. Reviser round 1: hint no longer announces the combining strategy; followUpId now points to L27-Q21, the criteria-based proposal item in family F09 (pedagogy review). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 372, 373 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. Lee, Lee and Messersmith 2007 abstract re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer announces the strategy; followUpId now L27-Q21"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q28",
+      "lessonId": "L27",
+      "type": "single",
+      "objectiveIds": [
+        "L27-O5"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "testing",
+        "iteration",
+        "prototype"
+      ],
+      "familyId": "L27-F12",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "After engineers combine a gecko-like texture with a mussel-like coating, what should they do before calling the new bandage a success?",
+      "accessiblePrompt": "After engineers combine a gecko-like texture with a mussel-like coating, what should they do before calling the new bandage a success?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Test it against every criterion, in both wet and dry conditions",
+          "rationale": "Correct. Only new tests on the combined design can show whether it really meets all the criteria."
+        },
+        {
+          "id": "b",
+          "text": "Skip testing, since each part already passed its own tests",
+          "rationale": "Parts can behave differently once they are combined, so earlier tests on the separate parts are not enough."
+        },
+        {
+          "id": "c",
+          "text": "Test it only in water, since that was the old design's weak spot",
+          "rationale": "The new design must still stick when dry and peel off easily. Testing only one condition could miss a new problem."
+        },
+        {
+          "id": "d",
+          "text": "Ask people which of the two original designs they liked best",
+          "rationale": "Opinions about the old designs say nothing about whether the new design meets the criteria."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Combining features can change how each one works, so the new design needs its own tests against every criterion. In the real research, the gecko-and-mussel adhesive was tested through many stick-and-release cycles in both wet and dry conditions. Even after passing, it was a lab prototype, not a finished product.",
+      "misconception": "If each part of a design works on its own, the combination is sure to work.",
+      "hint": "Can you be sure about a design you have never tried?",
+      "followUpId": "L27-Q20",
+      "scope": {
+        "lessonId": "L27",
+        "section": "6. Engineering a Super Bandage",
+        "pages": {
+          "printed": [
+            373
+          ],
+          "pdf": [
+            409
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            373
+          ],
+          "pdfPages": [
+            409
+          ],
+          "locator": "Section 6. Engineering a Super Bandage",
+          "supports": "Using test results as a guide, engineers combined the gecko and mussel solutions into a design described as working in both wet and dry conditions."
+        },
+        {
+          "type": "external",
+          "title": "A reversible wet/dry adhesive inspired by mussels and geckos (Lee, Lee and Messersmith, Nature 448, 2007): abstract record",
+          "publisher": "IDEAS/RePEc (abstract of the Nature article)",
+          "url": "https://ideas.repec.org/a/nat/nature/v448y2007i7151d10.1038_nature05968.html",
+          "accessed": "2026-10-14",
+          "supports": "The abstract says gecko adhesion is much reduced under water. The hybrid 'geckel' adhesive is an array of tiny pillars coated with a polymer that mimics mussel adhesive proteins, and it held and released reliably over 1,000 cycles in both wet and dry conditions."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 373. The explanation notes prototype status (L27-RF12). Reviser round 1: no change; both reviewers passed it. Final verification (verify-agent, 2026-10-14): checked against rendered p. 373 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. Lee, Lee and Messersmith 2007 abstract re-opened and confirmed (over 1,000 cycles, wet and dry).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q29",
+      "lessonId": "L27",
+      "type": "classify",
+      "objectiveIds": [
+        "L27-O5"
+      ],
+      "conceptTags": [
+        "conservation-proposal",
+        "criteria",
+        "trade-offs",
+        "combining-solutions"
+      ],
+      "familyId": "L27-F09",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "A fictional forest valley is the only home of a rare frog. The town wants a plan that keeps the frog in the wild, keeps the valley's other native species, and brings income to local families. Using the table, sort each idea into the combined plan or leave it out.",
+      "accessiblePrompt": "A fictional forest valley is the only home of a rare frog. The town wants a plan that keeps the frog in the wild, keeps the valley's other native species, and brings income to local families. A fictional study rated four ideas against these goals. Moving every frog to a zoo hurts the goal of keeping the frog in the wild and does not change the other two goals. Protecting the forest from clearing helps the frog, helps the other native species, and does not change income. Clearing land for cattle ranches hurts the frog, hurts the other native species, and helps income a lot. Running guided tours on raised boardwalks does not change the frog or the other species and helps income some. Sort each idea into the combined plan or leave it out.",
+      "diagram": {
+        "kind": "table",
+        "caption": "How each idea affects the town's three goals (fictional study)",
+        "alt": "A table rating four ideas against three goals: the frog stays in the wild, the valley's other native species, and income for local families. Move every frog to a zoo: hurts the frog staying in the wild, no change to other native species, no change to income. Protect the forest from clearing: helps the frog, helps other native species, no change to income. Clear land for cattle ranches: hurts the frog, hurts other native species, helps income a lot. Run guided tours on raised boardwalks: no change to the frog, no change to other native species, helps income some.",
+        "columns": [
+          "Idea",
+          "Frog stays in the wild",
+          "Other native species",
+          "Income for families"
+        ],
+        "rows": [
+          [
+            "Move every frog to a zoo",
+            "Hurts",
+            "No change",
+            "No change"
+          ],
+          [
+            "Protect the forest from clearing",
+            "Helps",
+            "Helps",
+            "No change"
+          ],
+          [
+            "Clear land for cattle ranches",
+            "Hurts",
+            "Hurts",
+            "Helps a lot"
+          ],
+          [
+            "Run guided tours on raised boardwalks",
+            "No change",
+            "No change",
+            "Helps some"
+          ]
+        ]
+      },
+      "bins": [
+        {
+          "id": "in",
+          "label": "Include in the combined plan"
+        },
+        {
+          "id": "out",
+          "label": "Leave out"
+        }
+      ],
+      "items": [
+        {
+          "id": "zoo",
+          "text": "Move every frog to a zoo",
+          "rationale": "Leave out: the frog would no longer live in the wild, which breaks the first goal."
+        },
+        {
+          "id": "protect",
+          "text": "Protect the forest from clearing",
+          "rationale": "Include: it is the only idea that helps both wildlife goals, and it does not lower income."
+        },
+        {
+          "id": "ranch",
+          "text": "Clear land for cattle ranches",
+          "rationale": "Leave out: it brings the most income but hurts both wildlife goals, and the boardwalk tours already meet the income goal without that harm."
+        },
+        {
+          "id": "tours",
+          "text": "Run guided tours on raised boardwalks",
+          "rationale": "Include: it brings income without harming the frog or the other species, covering the goal that protection alone misses."
+        }
+      ],
+      "answer": {
+        "zoo": "out",
+        "protect": "in",
+        "ranch": "out",
+        "tours": "in"
+      },
+      "conditions": "Fictional valley, frog and study. The combined plan must meet all three goals, and the table gives every effect to use.",
+      "limitations": "Real proposals also weigh cost, how certain the predictions are, and what local people want, and a real plan keeps measuring results after it starts.",
+      "explanation": "No single idea meets all three goals, so the town combines the strongest ones. Protecting the forest covers both wildlife goals, and boardwalk tours add income without harming them. Ranches bring more money but would destroy the habitat the plan exists to save, and a zoo cannot keep the frog living in the wild.",
+      "misconception": "An idea that helps one goal the most, such as bringing the biggest income, belongs in the plan even if it hurts the other goals.",
+      "hint": "Check each idea against all three goals, not just one.",
+      "followUpId": "L27-Q27",
+      "scope": {
+        "lessonId": "L27",
+        "section": "6. Engineering a Super Bandage",
+        "pages": {
+          "printed": [
+            359,
+            365,
+            373
+          ],
+          "pdf": [
+            395,
+            401,
+            409
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            359
+          ],
+          "pdfPages": [
+            395
+          ],
+          "locator": "Introduction: Next Generation Science Standards box",
+          "supports": "The lesson's standards ask learners to evaluate competing design solutions for maintaining biodiversity and ecosystem services, and note that parts of different solutions can be combined into one that is better than any of them."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            365
+          ],
+          "pdfPages": [
+            401
+          ],
+          "locator": "Section 3. Keystone Species in the Kelp Forest",
+          "supports": "Protecting sea otters, through hunting bans and protection of marine ecosystems, increased their numbers, and kelp forest biodiversity recovered where they returned."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            373
+          ],
+          "pdfPages": [
+            409
+          ],
+          "locator": "Section 6. Engineering a Super Bandage",
+          "supports": "Using their test results, engineers combined features of two solutions into one design that met all of the criteria for success."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Added in reviser round 1 at the pedagogy reviewer's request: O5 sat at the four-question minimum and only L27-Q21 evaluated a conservation proposal (brief mission; MS-LS2-5 and the combining idea of ETS1.B/ETS1.C on p. 359). Written as a classify item to keep the single-choice count down. Fictional valley, frog and study; each idea has one defensible bin because the goals are stated and the table gives every effect. Drafted from rendered pp. 359, 365 and 373. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 359, 365, 373 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. This item was added in reviser round 1 and had no separate science or pedagogy pass; the verifier checked both its science (fictional data, every bin fixed by the stated goals and table: only protect + tours meets all three) and its pedagogy (accessible prompt restates the whole table, no length cue, hint does not give the answer).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted (reviser round 1, added for O5 coverage)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L27-Q30",
+      "lessonId": "L27",
+      "type": "classify",
+      "objectiveIds": [
+        "L27-O5",
+        "L27-O4"
+      ],
+      "conceptTags": [
+        "biomimicry",
+        "materials",
+        "engineering-design",
+        "human-benefits"
+      ],
+      "familyId": "L27-F12",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Sort each product by how it uses living things: does it use a material taken from a species, or does it copy a design from one (biomimicry)?",
+      "accessiblePrompt": "Sort each product by how it uses living things: does it use a material taken from a species, or does it copy a design from one, which is called biomimicry? The products are: a lab-made glue whose molecules imitate the proteins mussels use to grip wet rock; cloth woven from the fibers silkworm caterpillars spin for their cocoons; a bandage pad molded with a texture like the ridges on gecko toe pads; a cancer medicine made with chemicals extracted from periwinkle leaves; and a climbing robot whose feet copy the shape of a tree frog's toe pads.",
+      "bins": [
+        {
+          "id": "material",
+          "label": "Uses a material taken from a living thing"
+        },
+        {
+          "id": "design",
+          "label": "Copies a living thing's design (biomimicry)"
+        }
+      ],
+      "items": [
+        {
+          "id": "glue",
+          "text": "A lab-made glue whose molecules imitate the proteins mussels use to grip wet rock",
+          "rationale": "Biomimicry: no mussel protein goes into it; chemists build molecules that copy the way mussel proteins stick when wet."
+        },
+        {
+          "id": "silk",
+          "text": "Cloth woven from the fibers silkworm caterpillars spin for their cocoons",
+          "rationale": "Material: the fibers come straight from the caterpillars' cocoons."
+        },
+        {
+          "id": "pad",
+          "text": "A bandage pad molded with a texture like the ridges on gecko toe pads",
+          "rationale": "Biomimicry: the pad copies the shape of gecko toes; nothing is taken from a gecko."
+        },
+        {
+          "id": "medicine",
+          "text": "A cancer medicine made with chemicals extracted from periwinkle leaves",
+          "rationale": "Material: the medicine uses chemicals taken from the plant itself."
+        },
+        {
+          "id": "robot",
+          "text": "A climbing robot whose feet copy the shape of a tree frog's toe pads",
+          "rationale": "Biomimicry: engineers copy how the frog's toes are built; the robot uses no part of a frog."
+        }
+      ],
+      "answer": {
+        "glue": "design",
+        "silk": "material",
+        "pad": "design",
+        "medicine": "material",
+        "robot": "design"
+      },
+      "conditions": "The climbing robot is a made-up example. Each product is sorted by where its key feature comes from.",
+      "explanation": "Biodiversity helps people in two ways. Some products use a material taken from a species, such as silk from cocoons or cancer-medicine chemicals from periwinkle leaves. Others copy a solution a species evolved, like a gecko-textured pad or a glue that imitates mussel proteins; that is biomimicry. When a species disappears, we lose both its materials and the designs we could have copied.",
+      "misconception": "Anything that comes from studying nature must contain material taken from a living thing.",
+      "hint": "Ask whether any part of the living thing ends up inside the product.",
+      "followUpId": "L27-Q22",
+      "scope": {
+        "lessonId": "L27",
+        "section": "6. Engineering a Super Bandage",
+        "pages": {
+          "printed": [
+            370,
+            372,
+            373
+          ],
+          "pdf": [
+            406,
+            408,
+            409
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            372
+          ],
+          "pdfPages": [
+            408
+          ],
+          "locator": "Section 6. Engineering a Super Bandage and Figure 6",
+          "supports": "Biodiversity offers more than raw materials: engineers used biomimicry, designing an adhesive pad with a texture like gecko toe pads."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            373
+          ],
+          "pdfPages": [
+            409
+          ],
+          "locator": "Section 6. Engineering a Super Bandage",
+          "supports": "The improved bandage has the structure of a gecko's textured toe pad, and its surface is covered in a gluey material similar to the proteins that mussels make."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            370
+          ],
+          "pdfPages": [
+            406
+          ],
+          "locator": "Section 5. Humans Benefit from Biodiversity",
+          "supports": "Silk is woven from fibers the silkworm moth caterpillar makes for its cocoon, and chemicals harvested from Madagascar periwinkle are used in cancer chemotherapy."
+        },
+        {
+          "type": "external",
+          "title": "A reversible wet/dry adhesive inspired by mussels and geckos (Lee, Lee and Messersmith, Nature 448, 2007): abstract record",
+          "publisher": "IDEAS/RePEc (abstract of the Nature article)",
+          "url": "https://ideas.repec.org/a/nat/nature/v448y2007i7151d10.1038_nature05968.html",
+          "accessed": "2026-10-14",
+          "supports": "The hybrid adhesive is an array of tiny pillars coated with a thin layer of a polymer that mimics mussel adhesive proteins, so the mussel-like coating is a lab-made imitation, not protein taken from mussels."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Added in reviser round 1 at the pedagogy reviewer's request: no item asked learners to recognize biomimicry, a glossary term and the big idea of Section 6. It separates copying a design from taking a material, the contrast p. 372 draws (\"more than just raw materials\"). Four products come from pp. 370-373; the climbing robot is a made-up example, labeled as such in conditions. Tagged O4 as well because losing a species loses both kinds of benefit. Drafted from rendered pp. 370, 372 and 373. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 370, 372, 373 and the authoring guide's rules and guardrails; correct, uniquely answerable, distinct, accurately cited, original and accessible. This item was added in reviser round 1 and had no separate science or pedagogy pass; the verifier checked both: each product has one defensible bin (the mussel-like coating is a lab-made imitation per the Lee 2007 abstract; silk and periwinkle chemicals are materials per p. 370), the made-up robot is labeled in conditions, and the hint does not give the answer.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted (reviser round 1, added for biomimicry coverage)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

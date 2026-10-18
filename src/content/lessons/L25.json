@@ -1,0 +1,1288 @@
+{
+  "lessonId": "L25",
+  "guidingQuestion": "How can people forecast volcanic eruptions and earthquakes, and plan ahead for them?",
+  "hook": "One mountain starts to swell and puff out extra gas before it erupts, but the ground under a busy bridge can lurch with no warning at all, so how do scientists and engineers keep people safer from both?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          328,
+          329
+        ],
+        "pdf": [
+          364,
+          365
+        ]
+      }
+    },
+    {
+      "title": "1. Causes of Volcanic Eruptions",
+      "pages": {
+        "printed": [
+          330,
+          331
+        ],
+        "pdf": [
+          366,
+          367
+        ]
+      }
+    },
+    {
+      "title": "2. Planning for Volcanic Eruptions",
+      "pages": {
+        "printed": [
+          332,
+          333
+        ],
+        "pdf": [
+          368,
+          369
+        ]
+      }
+    },
+    {
+      "title": "3. Causes of Earthquakes",
+      "pages": {
+        "printed": [
+          334,
+          335
+        ],
+        "pdf": [
+          370,
+          371
+        ]
+      }
+    },
+    {
+      "title": "4. Planning for Earthquakes",
+      "pages": {
+        "printed": [
+          336,
+          337
+        ],
+        "pdf": [
+          372,
+          373
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+      "pages": {
+        "printed": [
+          338,
+          339
+        ],
+        "pdf": [
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "title": "5. Designing Earthquake-Resistant Bridges",
+      "pages": {
+        "printed": [
+          340,
+          341
+        ],
+        "pdf": [
+          376,
+          377
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          341
+        ],
+        "pdf": [
+          377
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L25-O1",
+      "text": "Identify where volcanoes and earthquakes tend to happen (convergent, divergent and transform plate boundaries, hot spots, and faults inside plates) and describe the pattern this makes on maps, including its exceptions.",
+      "kind": "observe",
+      "sections": [
+        "1. Causes of Volcanic Eruptions",
+        "3. Causes of Earthquakes",
+        "4. Planning for Earthquakes",
+        "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards"
+      ],
+      "pages": {
+        "printed": [
+          330,
+          333,
+          334,
+          337,
+          338,
+          339
+        ],
+        "pdf": [
+          366,
+          369,
+          370,
+          373,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "id": "L25-O2",
+      "text": "Explain what lets rock melt into magma, why thick, gassy magma explodes, and how stuck rock that suddenly slips sends out fast and slow seismic waves.",
+      "kind": "relate",
+      "sections": [
+        "1. Causes of Volcanic Eruptions",
+        "3. Causes of Earthquakes",
+        "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards"
+      ],
+      "pages": {
+        "printed": [
+          330,
+          331,
+          334,
+          335,
+          338,
+          339
+        ],
+        "pdf": [
+          366,
+          367,
+          370,
+          371,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "id": "L25-O3",
+      "text": "Use monitoring data, past records and hazard maps to judge how likely an eruption or earthquake is, and explain why eruptions can be forecast but earthquake times cannot.",
+      "kind": "apply",
+      "sections": [
+        "2. Planning for Volcanic Eruptions",
+        "4. Planning for Earthquakes",
+        "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards"
+      ],
+      "pages": {
+        "printed": [
+          332,
+          333,
+          336,
+          337,
+          338,
+          339
+        ],
+        "pdf": [
+          368,
+          369,
+          372,
+          373,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "id": "L25-O4",
+      "text": "Apply engineering design to earthquake hazards: define criteria and constraints for a bridge, use a hazard-and-performance chart to decide how well it must hold up, and compare designs with a fair, explicit test.",
+      "kind": "apply",
+      "sections": [
+        "4. Planning for Earthquakes",
+        "5. Designing Earthquake-Resistant Bridges"
+      ],
+      "pages": {
+        "printed": [
+          337,
+          340,
+          341
+        ],
+        "pdf": [
+          373,
+          376,
+          377
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Volcanoes and earthquakes gather in belts, such as the Ring of Fire around the Pacific, because most are tied to tectonic plates colliding, separating or grinding past one another. Hot spots and faults inside plates are important exceptions.",
+    "The mantle is mostly solid rock. Magma forms only where something lets rock melt: water and other material from a sinking plate lower its melting temperature, pressure drops where plates separate, or an extra-hot plume rises at a hot spot.",
+    "Runny magma lets gas escape and pours out as lava flows. Thick, gas-rich magma traps pressure until it bursts out as ash, rock and racing pyroclastic flows.",
+    "Rough plate edges and faults lock while the plates keep moving. Stress builds for years, then the rock slips at the focus. Fast body waves cross Earth's interior first; slower surface waves roll along the ground.",
+    "Swarms of small quakes, extra gas and a swelling mountainside warn that magma is on the move, so scientists can forecast that an eruption is getting more likely. Unrest can also fade with no eruption.",
+    "No reliable warning sign has been found before earthquakes. Scientists combine plate knowledge with how often and how strongly past quakes struck to map hazard and estimate chances over years, not to name a date.",
+    "Mitigation lowers the harm rather than stopping the hazard: keeping homes out of the riskiest ground, planning ahead and building structures matched to local risk.",
+    "Engineers define criteria and constraints, weigh how strong and how frequent local earthquakes are against how important a structure is, and compare designs with tests run the same way before choosing."
+  ],
+  "glossary": [
+    {
+      "term": "natural hazard",
+      "definition": "Something that happens in nature, such as an eruption, an earthquake or a flood, that can hurt people or damage what they have built.",
+      "pages": {
+        "printed": [
+          329,
+          331
+        ],
+        "pdf": [
+          365,
+          367
+        ]
+      }
+    },
+    {
+      "term": "magma",
+      "definition": "Melted rock beneath Earth's surface. Once it pours out onto the surface, it is called lava.",
+      "pages": {
+        "printed": [
+          330,
+          331
+        ],
+        "pdf": [
+          366,
+          367
+        ]
+      }
+    },
+    {
+      "term": "plate boundary",
+      "definition": "A place where two tectonic plates meet. At a convergent boundary they come together, at a divergent boundary they move apart, and at a transform boundary they slide past each other sideways.",
+      "pages": {
+        "printed": [
+          330,
+          334,
+          338,
+          339
+        ],
+        "pdf": [
+          366,
+          370,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "term": "subduction",
+      "definition": "The sinking of one tectonic plate beneath another where two plates come together at a convergent boundary.",
+      "pages": {
+        "printed": [
+          330,
+          334
+        ],
+        "pdf": [
+          366,
+          370
+        ]
+      }
+    },
+    {
+      "term": "hot spot",
+      "definition": "A place where unusually hot material rising from deep in the mantle feeds volcanoes, sometimes far from any plate boundary, as in Hawaii.",
+      "pages": {
+        "printed": [
+          330,
+          338
+        ],
+        "pdf": [
+          366,
+          374
+        ]
+      }
+    },
+    {
+      "term": "pyroclastic flow",
+      "definition": "A ground-hugging rush of hot gas, ash and rock that pours down a volcano's slopes during an explosive eruption, typically faster than 80 km per hour (50 mph).",
+      "pages": {
+        "printed": [
+          331
+        ],
+        "pdf": [
+          367
+        ]
+      }
+    },
+    {
+      "term": "precursor events",
+      "definition": "Smaller changes that often come before a bigger event. Before eruptions they include swarms of small earthquakes, extra gas and a swelling mountainside.",
+      "pages": {
+        "printed": [
+          329,
+          332
+        ],
+        "pdf": [
+          365,
+          368
+        ]
+      }
+    },
+    {
+      "term": "frequency",
+      "definition": "How often something happens in a given stretch of time, such as 3 felt earthquakes per year.",
+      "pages": {
+        "printed": [
+          329,
+          332
+        ],
+        "pdf": [
+          365,
+          368
+        ]
+      }
+    },
+    {
+      "term": "magnitude",
+      "definition": "A number on a scale that tells how strong an event, such as an earthquake or an eruption, was.",
+      "pages": {
+        "printed": [
+          329,
+          332
+        ],
+        "pdf": [
+          365,
+          368
+        ]
+      }
+    },
+    {
+      "term": "hazard map",
+      "definition": "A map showing how likely each area is to be affected by a hazard, built from where past events struck, how often and how strongly.",
+      "pages": {
+        "printed": [
+          333,
+          337
+        ],
+        "pdf": [
+          369,
+          373
+        ]
+      }
+    },
+    {
+      "term": "mitigate",
+      "definition": "To lessen the harm an event causes. People cannot switch off an eruption or an earthquake, but they can reduce its impact.",
+      "pages": {
+        "printed": [
+          329,
+          333,
+          337
+        ],
+        "pdf": [
+          365,
+          369,
+          373
+        ]
+      }
+    },
+    {
+      "term": "focus",
+      "definition": "The point underground where the rock first slips at the start of an earthquake.",
+      "pages": {
+        "printed": [
+          335
+        ],
+        "pdf": [
+          371
+        ]
+      }
+    },
+    {
+      "term": "epicenter",
+      "definition": "The spot on Earth's surface straight above an earthquake's focus.",
+      "pages": {
+        "printed": [
+          335
+        ],
+        "pdf": [
+          371
+        ]
+      }
+    },
+    {
+      "term": "seismic waves",
+      "definition": "Waves of energy that spread out from an earthquake's focus. Body waves travel fast through Earth's interior and reach a distant station first; slower surface waves travel along the ground, making it heave up and down or sway from side to side.",
+      "pages": {
+        "printed": [
+          335
+        ],
+        "pdf": [
+          371
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L25-O1",
+      "title": "Where the Ground Gets Restless",
+      "paragraphs": [
+        "Mark every volcano and strong earthquake on a world map and you get belts, not polka dots. Many trace the edges of tectonic plates, like the Ring of Fire around the Pacific Ocean, because plate edges are where plates crash together, spread apart or scrape past each other.",
+        "Each kind of boundary has its own personality. Where one plate sinks beneath another, you find chains of volcanoes and many of the strongest earthquakes. Where plates spread apart, magma wells up and small, shallow quakes rumble. Where plates slide sideways, as along California's San Andreas Fault, the ground shakes but volcanoes are rare.",
+        "The pattern has exceptions. Hot spots such as Hawaii build volcanoes in the middle of a plate, and faults inside a plate, like the New Madrid zone in the central United States, can store stress and release it in strong earthquakes."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Which settings make volcanoes, earthquakes or both",
+        "alt": "A table of five settings. Convergent boundary: one plate sinks beneath another; volcanoes common; earthquakes common, from shallow to very deep. Divergent boundary: two plates pull apart; volcanoes common; earthquakes mostly shallow and minor. Transform boundary: two plates slide past each other sideways; volcanoes rare or absent; earthquakes common and shallow. Hot spot: a hot plume rises from deep in the mantle; volcanoes common; earthquakes common near the active volcanoes, many tied to moving magma, and some strong. Fault inside a plate: blocks of rock shift along a crack; no volcanoes from the fault itself; earthquakes occasional but can be strong.",
+        "columns": [
+          "Setting",
+          "What the plates or rock do",
+          "Volcanoes",
+          "Earthquakes"
+        ],
+        "rows": [
+          [
+            "Convergent boundary",
+            "One plate sinks beneath another",
+            "Common",
+            "Common; shallow to very deep"
+          ],
+          [
+            "Divergent boundary",
+            "Two plates pull apart",
+            "Common",
+            "Mostly shallow and minor"
+          ],
+          [
+            "Transform boundary",
+            "Two plates slide past sideways",
+            "Rare or absent",
+            "Common; shallow"
+          ],
+          [
+            "Hot spot",
+            "Hot plume rises from deep in the mantle",
+            "Common",
+            "Common near active volcanoes; some can be strong"
+          ],
+          [
+            "Fault inside a plate",
+            "Rock blocks shift along a crack",
+            "None from the fault itself",
+            "Occasional; can be strong"
+          ]
+        ]
+      },
+      "watchOut": "Not every boundary brings the same hazards: transform boundaries shake but seldom erupt, and Hawaii erupts far from any boundary. A map of past events shows where activity tends to happen; it is not a promise of when, or exactly where, the next event will strike.",
+      "pages": {
+        "printed": [
+          330,
+          333,
+          334,
+          337,
+          338,
+          339
+        ],
+        "pdf": [
+          366,
+          369,
+          370,
+          373,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "objectiveId": "L25-O2",
+      "title": "What Melts Rock and Shakes the Ground",
+      "paragraphs": [
+        "Earth's mantle is mostly solid rock, so magma forms only where something tips the balance. Where a plate sinks, water and other material it carries lower the melting temperature of the hot rock above it. Where plates pull apart, the pressure on hot rock drops and it starts to melt. At a hot spot, a plume of rock hotter than its surroundings rises from deep down and partly melts as the pressure on it drops near the surface.",
+        "What happens next depends on the magma. Runny magma lets its gas escape, so it spills out as lava flows. Thick, sticky magma holds its gas in; pressure climbs until the rock above gives way in a blast of ash, rock fragments and scorching pyroclastic flows.",
+        "Earthquakes come from stored stress. Plate edges and faults are rough, so they lock while the plates keep creeping along. Stress piles up for years until the rock suddenly slips at the focus. Fast body waves race through the planet's interior, and slower surface waves roll along the ground, which is why a distant station records the body waves first."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "The stick, build, slip cycle along a fault. Each sudden slip at the focus sends out seismic waves.",
+        "alt": "A loop of three steps joined by arrows. Rough edges lock while the plates keep moving, with an arrow to: stress builds in the rock. That has an arrow labeled 'stress grows too great' to: the rock suddenly slips. From there, an arrow labeled 'edges catch again' goes back to the first step, rough edges lock. The caption adds that each sudden slip, at the focus, sends out seismic waves.",
+        "nodes": [
+          {
+            "id": "lock",
+            "label": "Rough edges lock while plates keep moving"
+          },
+          {
+            "id": "stress",
+            "label": "Stress builds in rock"
+          },
+          {
+            "id": "slip",
+            "label": "Rock suddenly slips"
+          }
+        ],
+        "edges": [
+          {
+            "from": "lock",
+            "to": "stress"
+          },
+          {
+            "from": "stress",
+            "to": "slip",
+            "label": "stress grows too great"
+          },
+          {
+            "from": "slip",
+            "to": "lock",
+            "label": "edges catch again"
+          }
+        ]
+      },
+      "watchOut": "The mantle is not an underground ocean of lava; it is mostly solid rock that melts only in special places. Also, the lesson's figure calls convergent-boundary earthquakes 'deep', but subduction zones have shallow quakes too, including the largest ones. They are simply the only setting where quakes can also start hundreds of kilometers down.",
+      "pages": {
+        "printed": [
+          330,
+          331,
+          334,
+          335,
+          338,
+          339
+        ],
+        "pdf": [
+          366,
+          367,
+          370,
+          371,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "objectiveId": "L25-O3",
+      "title": "Reading the Warning Signs",
+      "paragraphs": [
+        "Before many eruptions, a volcano gives itself away. Rising magma cracks rock and sets off swarms of small earthquakes, lets out more gas, and pushes the ground up so the mountain swells. Scientists track these precursor signals with seismometers, gas sensors and satellite radar, and compare them with the volcano's normal background.",
+        "Precursors let scientists forecast that an eruption is becoming more likely. At Iceland's Eyjafjallajökull in 2010, months of monitored unrest meant communities were prepared, so nearby residents could be moved out quickly once the eruptions began. But a forecast is not a promise: unrest can last for weeks, months or even years, or fade away with no eruption, and the signals don't reveal exactly when an eruption will start or how big it will be.",
+        "Earthquakes are harder. No warning sign has been found that reliably comes before them, so nobody can name the day of the next big quake. Instead, scientists combine what they know about plate motion with the frequency and magnitude of past quakes to draw hazard maps and to estimate the chance of a strong quake in a region over the coming decades."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Forecasting eruptions versus earthquakes",
+        "alt": "A table comparing volcanic eruptions and earthquakes. Known warning signs: for eruptions, often, such as small earthquakes, more gas and swelling ground; for earthquakes, none that are reliable. Where they are likely: eruptions are mapped from past eruptions and plate setting; earthquakes are mapped from past quakes, faults and plate setting. Exact time known in advance: for eruptions, no, but a rising likelihood can often be seen over weeks to years; for earthquakes, no, only chances over years to decades.",
+        "columns": [
+          "Question",
+          "Volcanic eruptions",
+          "Earthquakes"
+        ],
+        "rows": [
+          [
+            "Known warning signs?",
+            "Often: small quakes, more gas, swelling ground",
+            "None that are reliable"
+          ],
+          [
+            "Where are they likely?",
+            "Mapped from past eruptions and plate setting",
+            "Mapped from past quakes, faults and plate setting"
+          ],
+          [
+            "Exact time known ahead?",
+            "No, but rising likelihood can often be seen over weeks to years",
+            "No; only chances over years to decades"
+          ]
+        ]
+      },
+      "watchOut": "Forecasting is not fortune-telling. A hazard map shows likelihood, not a schedule. Earthquake early-warning alerts are not predictions either: they detect a quake that has already started and can give seconds of notice before the strongest shaking arrives.",
+      "pages": {
+        "printed": [
+          332,
+          333,
+          336,
+          337,
+          338,
+          339
+        ],
+        "pdf": [
+          368,
+          369,
+          372,
+          373,
+          374,
+          375
+        ]
+      }
+    },
+    {
+      "objectiveId": "L25-O4",
+      "title": "Building a Crossing That Holds",
+      "paragraphs": [
+        "Engineers can't stop earthquakes, but they can mitigate the damage. After the 1995 Kobe earthquake, Japan strengthened bridges and roads and set new tall buildings on giant rubber shock absorbers. The real puzzle is deciding how much strength each structure needs.",
+        "First, engineers define the problem precisely. Criteria say what the design must achieve, such as staying open to ambulances after a strong quake. Constraints are the limits, such as money, time and materials. Making every bridge come through every possible earthquake untouched would cost far too much and take far too long.",
+        "So engineers weigh two things: how strong and how frequent the local earthquakes are, and how important the structure is. A chart pairs them. In a strong, rare quake, a major bridge or hospital must stay fully working, a fire station must stay usable, and a grocery store only needs to stay partly usable.",
+        "Finally, they compare designs using tests run the same way for every option, then pick the one that meets the criteria within the constraints. The newer eastern span of the San Francisco–Oakland Bay Bridge was designed for the strongest shaking expected over about 1,500 years."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Performance goals by structure type (adapted from the lesson's Figure 5)",
+        "alt": "A table of how well each type of structure should perform in three kinds of earthquake. Basic structures such as homes and stores: operational in moderate, occasional quakes; partly operational in strong, rare quakes; near collapse but standing in very strong, very rare quakes. Essential structures such as fire stations and minor bridges: fully operational in moderate quakes; operational in strong, rare quakes; partly operational in very strong, very rare quakes. Safety-critical structures such as hospitals and major bridges: fully operational in moderate quakes (implied, since they must be fully operational in stronger ones) and in strong, rare quakes; at least operational in very strong, very rare quakes, where the chart marks both the fully operational and operational boxes.",
+        "columns": [
+          "Structure type",
+          "Moderate, occasional quakes",
+          "Strong, rare quakes",
+          "Very strong, very rare quakes"
+        ],
+        "rows": [
+          [
+            "Basic (homes, stores)",
+            "Operational",
+            "Partly operational",
+            "Near collapse"
+          ],
+          [
+            "Essential (fire stations, minor bridges)",
+            "Fully operational",
+            "Operational",
+            "Partly operational"
+          ],
+          [
+            "Safety critical (hospitals, major bridges)",
+            "Fully operational (implied)",
+            "Fully operational",
+            "Operational or better (chart marks both)"
+          ]
+        ]
+      },
+      "watchOut": "The chart is a decision tool, not a guarantee. Real performance also depends on the ground under the structure, how well it is built and the actual shaking. Even the textbook's own Bay Bridge example is not fully consistent about how well it must perform in strong and very strong quakes.",
+      "pages": {
+        "printed": [
+          337,
+          340,
+          341
+        ],
+        "pdf": [
+          373,
+          376,
+          377
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L25-RF1",
+      "issue": "OCR is empty or garbled on the image-heavy pages: the opener photo (p. 328) has no text; the title and NGSS box on p. 329 are broken or letter-spaced; the Key Science Concept spread (pp. 338-339) lost its volcano and earthquake-ring icons, which show which setting produces which hazard; Figure 5 (p. 340) is garbled ('ObiectiveSiandlM h T u S lif') and lost every cell of the 4 x 4 grid; the labels of Figures 1A, 1B, 2, 3A, 3B and 4 and both hazard maps are missing.",
+      "pages": {
+        "printed": [
+          328,
+          329,
+          330,
+          331,
+          333,
+          335,
+          337,
+          338,
+          339,
+          340
+        ],
+        "pdf": [
+          364,
+          365,
+          366,
+          367,
+          369,
+          371,
+          373,
+          374,
+          375,
+          376
+        ]
+      },
+      "resolution": "All 14 lesson pages were rendered at 110 dpi and read from the image; Figure 5 was also rendered at 220 dpi and cropped. The grid was read from the render: rows Fully Operational, Operational, Partly Operational, Near Collapse; columns Weak/Common, Moderate/Occasional, Strong/Rare, Very Strong/Very Rare; the diagonal bands are Basic, Essential and Safety Critical. The spread's icons (volcano for hot spots, divergent and one convergent box; rings for transform, the other convergent box and within-plate faults) and the map legends were also taken from the renders.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Figure 5, Structural Performance Objectives and Earthquake Risks",
+          "supports": "The rendered chart crosses four performance levels with four earthquake-hazard levels and labels each cell Basic, Essential, Safety critical or Unacceptable."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338,
+            339
+          ],
+          "pdfPages": [
+            374,
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+          "supports": "The rendered spread marks hot spots and divergent boundaries with a volcano icon, transform boundaries and within-plate faults with earthquake rings, and convergent boundaries with both."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF2",
+      "issue": "Section 1, Figure 1A and the Key Science Concept say that at a subduction zone, crustal material from the sinking plate mixes with mantle rock and lowers its melting temperature. That is a simplification: the main trigger is water (and other volatiles) released by the sinking plate into the hot mantle rock above it.",
+      "pages": {
+        "printed": [
+          330,
+          339
+        ],
+        "pdf": [
+          366,
+          375
+        ]
+      },
+      "resolution": "Game text says 'water and other material from the sinking plate lower the melting temperature of the rock above it' (Explorer O2, key idea 2, L25-Q06), keeping the textbook's idea of a lowered melting temperature while naming water.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Section 1, Formation of Volcanoes; Figure 1A",
+          "supports": "At a convergent boundary, material from the subducting plate lowers the melting temperature of mantle rock, so magma forms."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to Subduction Zones: Amazing Events in Subduction Zones",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/subduction-zone-science/science/introduction-subduction-zones-amazing-events",
+          "accessed": "2026-10-14",
+          "supports": "Rocks of the subducting plate carry water to depth, and at high temperature and pressure that water enables melting; the buoyant magma rises to form chains of volcanoes."
+        },
+        {
+          "type": "external",
+          "title": "Magma's Role in the Rock Cycle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/magma-role-rock-cycle/",
+          "accessed": "2026-10-14",
+          "supports": "Flux melting: water above the subducting seafloor lowers the melting temperature of the mantle."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF3",
+      "issue": "Figure 1A says magma from the lowest mantle 'raises the temperature of the mantle material near the surface, causing it to melt' at hot spots. Hot-spot melting is usually explained as a plume of unusually hot rock partly melting as it rises and the pressure on it falls; how deep plumes start, and whether hot spots stay fixed, are still debated.",
+      "pages": {
+        "printed": [
+          330,
+          337,
+          338
+        ],
+        "pdf": [
+          366,
+          373,
+          374
+        ]
+      },
+      "resolution": "Game text follows the textbook and NPS in saying the plume rises from deep in the mantle, without giving a depth; USGS notes that the depth and fixity of hotspots are debated. It says the plume rock is hotter than its surroundings and partly melts as the pressure on it drops near the surface, not that it heats the rock above it (glossary 'hot spot', Explorer O2, L25-Q03, L25-Q06). Hawaii's distance from any boundary (over 3,000 km) is taken from USGS. Hot spots are not quiet: the Explorer O1 table says earthquakes are common near the active volcanoes and some can be strong, matching Figure 4 (p. 337), which shows the island of Hawaii in the highest earthquake-hazard colour.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Figure 1A, Places Where Volcanoes Form: Hot Spots",
+          "supports": "At hot spots, magma from far down in the mantle rises in columns and builds volcanoes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            337
+          ],
+          "pdfPages": [
+            373
+          ],
+          "locator": "Section 4, Mapping Earthquakes; Figure 4 earthquake hazard map (Hawaii inset)",
+          "supports": "The rendered Hawaii inset colours the island of Hawaii with the map's highest earthquake-hazard shade."
+        },
+        {
+          "type": "external",
+          "title": "Magma's Role in the Rock Cycle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/magma-role-rock-cycle/",
+          "accessed": "2026-10-14",
+          "supports": "Decompression melting of mostly solid mantle as it rises; mantle plumes beneath the ocean, called hot spots, push magma onto the seafloor."
+        },
+        {
+          "type": "external",
+          "title": "Hotspots: Mantle thermal plumes (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/hotspots.html",
+          "accessed": "2026-10-14",
+          "supports": "Most hotspots lie under plate interiors; the Hawaiian Islands formed mid-Pacific, more than 3,200 km from the nearest plate boundary; the authors note hotspots may be neither deep nor fixed."
+        },
+        {
+          "type": "external",
+          "title": "Hotspots",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/subjects/geology/plate-tectonics-hotspots.htm",
+          "accessed": "2026-10-14",
+          "supports": "A hotspot is a large plume of hot mantle material rising from deep within Earth; Hawaii's lava erupts where the Pacific Plate rides over the Hawaiian hotspot."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF4",
+      "issue": "Section 2 and the Lesson Summary say scientists 'can predict' eruptions from precursor events. Precursors raise the likelihood of an eruption, but they can last weeks to years or fade with no eruption, and forecasts are probabilistic.",
+      "pages": {
+        "printed": [
+          332,
+          338,
+          341
+        ],
+        "pdf": [
+          368,
+          374,
+          377
+        ]
+      },
+      "resolution": "Game uses 'forecast' and 'more likely' (key idea 5, Explorer O3, L25-Q17, L25-Q19); L25-Q17's keyed answer says the data cannot give an exact date. Since round 1 the Explorer O3 table says eruptions 'often' give warning signs and that rising likelihood can often be seen over weeks to years, and its paragraph says unrest can last weeks, months or even years.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Predicting Volcanic Eruptions",
+          "supports": "Small earthquakes under the volcano, gas release and changes in the volcano's shape are monitored as precursor events."
+        },
+        {
+          "type": "external",
+          "title": "How can we tell when a volcano will erupt?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/how-can-we-tell-when-a-volcano-will-erupt",
+          "accessed": "2026-10-14",
+          "supports": "Precursors such as more felt earthquakes, swelling ground and changes in gases can last weeks to years and can subside without an eruption."
+        },
+        {
+          "type": "external",
+          "title": "VHP uses monitoring data and volcanic history to forecast eruptions",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/natural-hazards/volcano-hazards/eruption-forecast",
+          "accessed": "2026-10-14",
+          "supports": "Forecasts use monitoring data plus volcanic history and are expressed probabilistically, covering a range of outcomes."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF5",
+      "issue": "Section 4 and the spread say earthquakes have no precursor events and happen with no warning. More precisely, some large quakes follow foreshocks, but foreshocks and other claimed precursors cannot be recognized ahead of time and often occur with no quake following. Earthquake early warning, which the lesson does not mention, detects a quake already under way and is not a prediction.",
+      "pages": {
+        "printed": [
+          336,
+          339
+        ],
+        "pdf": [
+          372,
+          375
+        ]
+      },
+      "resolution": "Game says no reliable warning sign is known (key idea 6, Explorer O3, L25-Q18, L25-Q19). Explorer O3's watch-out notes that early-warning alerts are not predictions. Estimating risk is kept separate from predicting a time.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            336
+          ],
+          "pdfPages": [
+            372
+          ],
+          "locator": "Section 4, Earthquake Predictability",
+          "supports": "Animal behavior, groundwater levels and electrical currents have been studied as warning signs, with no certain link found; locations of likely quakes can still be identified."
+        },
+        {
+          "type": "external",
+          "title": "Can you predict earthquakes?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+          "accessed": "2026-10-14",
+          "supports": "No scientist has ever predicted a major earthquake; claimed precursors often occur with no quake following; USGS calculates probabilities for areas over a set number of years and maps them."
+        },
+        {
+          "type": "external",
+          "title": "Earthquake Early Warning - Overview",
+          "publisher": "U.S. Geological Survey, Earthquake Hazards Program",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview",
+          "accessed": "2026-10-14",
+          "supports": "ShakeAlert is not earthquake prediction; it detects an earthquake that has already begun."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF6",
+      "issue": "Section 3, Figure 3A and the spread say convergent-boundary earthquakes are 'deep'. Subduction zones produce shallow earthquakes too, including the largest megathrust quakes; they are the only setting that can also produce very deep quakes (down to about 700 km).",
+      "pages": {
+        "printed": [
+          334,
+          339
+        ],
+        "pdf": [
+          370,
+          375
+        ]
+      },
+      "resolution": "Questions ask which setting can produce a very deep quake (L25-Q12) and how foci deepen inland along a sinking plate (L25-Q13), never 'convergent quakes are always deep'. Explorer O1's table says 'shallow to very deep'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes; Figure 3A",
+          "supports": "Transform-boundary quakes are close to the surface; convergent-boundary quakes can be much deeper because the plate is moving downward; divergent quakes are shallow and minor."
+        },
+        {
+          "type": "external",
+          "title": "At what depth do earthquakes occur? What is the significance of the depth?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-depth-do-earthquakes-occur-what-significance-depth",
+          "accessed": "2026-10-14",
+          "supports": "The deepest earthquakes occur within subducting slabs, to depths of as much as 700 km; transform faults like the San Andreas are active only in the shallow crust."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to Subduction Zones: Amazing Events in Subduction Zones",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/subduction-zone-science/science/introduction-subduction-zones-amazing-events",
+          "accessed": "2026-10-14",
+          "supports": "The locked plate interface at less than about 25 km produces the largest earthquakes; other quakes occur within the subducting plate, often deeper than about 30 km."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF7",
+      "issue": "Section 3 says body waves are often too small to feel and that surface waves cause the most destruction. Near an earthquake, the slower body waves (S waves) can shake the ground strongly and do serious damage; USGS describes S waves and surface waves together as the more damaging waves.",
+      "pages": {
+        "printed": [
+          335
+        ],
+        "pdf": [
+          371
+        ]
+      },
+      "resolution": "Questions test what the lesson and USGS agree on: body waves are faster and arrive first, and surface waves travel along the ground with large motions (L25-Q14, L25-Q15). No item claims body waves can't be felt or that only surface waves do damage.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            335
+          ],
+          "pdfPages": [
+            371
+          ],
+          "locator": "Section 3, Types of Earthquake Waves; Figure 3B",
+          "supports": "Body waves travel faster through the interior and arrive first; surface waves travel along the surface, are slower and move the ground more."
+        },
+        {
+          "type": "external",
+          "title": "Earthquake Early Warning - Overview",
+          "publisher": "U.S. Geological Survey, Earthquake Hazards Program",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview",
+          "accessed": "2026-10-14",
+          "supports": "P waves are fastest and generally do not produce strong shaking; slower S waves and surface waves are generally more damaging."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF8",
+      "issue": "Section 5 is not consistent about the Bay Bridge. Page 340 says a safety-critical bridge must stay fully operational in very strong, very rare quakes, and the p. 341 photo caption agrees. But the p. 341 text says that in rare strong or very strong quakes the bridge may take minor damage and stay operational, and Figure 5 labels both the fully-operational and operational cells of the very-strong column 'Safety critical'. The book's question 'which square represents the criterion' therefore has no single answer.",
+      "pages": {
+        "printed": [
+          340,
+          341
+        ],
+        "pdf": [
+          376,
+          377
+        ]
+      },
+      "resolution": "No question asks which square fits the Bay Bridge. L25-Q24 uses only the moderate and strong-rare columns, where each structure type has exactly one cell. The Explorer O4 table does not settle the very-strong cell either: it says safety-critical structures must be 'operational or better (chart marks both)', and its moderate-column entry is marked '(implied)' because Figure 5 has no safety-critical cell in that column. The O4 watch-out says the book's example is not fully consistent. The 1,500-year design target and 150-year design life were checked against an MTC fact sheet; Berkeley Engineering describes the goal as limited damage and quick reopening. Verifier (2026-10-14): the p. 341 text's 'rare strong' clause also departs from Figure 5's strong-rare column, where a safety-critical structure such as a major bridge must stay fully operational, while the text allows the Bay Bridge minor damage and 'operational'. L25-Q24 says 'Using the chart' and supplies the chart, so its key follows Figure 5, as does Explorer O4. The O4 watch-out now says the example is inconsistent for strong and very strong quakes (it said only the very strongest).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340,
+            341
+          ],
+          "pdfPages": [
+            376,
+            377
+          ],
+          "locator": "5. Designing Earthquake-Resistant Bridges",
+          "supports": "Figure 5 grid and text: a safety-critical structure must stay fully operational where quakes are very strong but very rare; the replacement span was designed to last 150 years and withstand the strongest quake expected once in 1,500 years."
+        },
+        {
+          "type": "external",
+          "title": "San Francisco-Oakland Bay Bridge fact sheet: new East Span (2014)",
+          "publisher": "Metropolitan Transportation Commission (MTC) Library; text with Caltrans photographs",
+          "url": "https://files.mtc.ca.gov/library/pub/non/47654_26.pdf",
+          "accessed": "2026-10-17",
+          "supports": "The new East Span is designed as a regional lifeline structure that opens to traffic quickly after the strongest ground motions engineers expect in a 1,500-year period, and to last its expected 150-year lifespan."
+        },
+        {
+          "type": "external",
+          "title": "Under construction: Engineering the Bay Bridge",
+          "publisher": "UC Berkeley College of Engineering (2011)",
+          "url": "https://engineering.berkeley.edu/news/2011/04/under-construction-engineering-the-bay-bridge/",
+          "accessed": "2026-10-14",
+          "supports": "The span must withstand a major Bay Area earthquake while sustaining only limited damage and quickly admitting emergency vehicles and traffic."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF9",
+      "issue": "Section 1 says nonexplosive eruptions cause less damage than explosive ones, yet its own Eldfell example (lava and fire destroyed over 400 buildings) was largely a lava eruption. Lava flows rarely kill people but destroy most property in their path.",
+      "pages": {
+        "printed": [
+          330,
+          331
+        ],
+        "pdf": [
+          366,
+          367
+        ]
+      },
+      "resolution": "Game says runny-magma eruptions are usually less deadly, not harmless; L25-Q09 sorts features by eruption type without ranking damage. The pyroclastic-flow speed (over 80 km/h) matches USGS, and the glossary says 'typically faster than 80 km per hour (50 mph)' rather than comparing it with highway traffic.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            331
+          ],
+          "pdfPages": [
+            367
+          ],
+          "locator": "Section 1, Types of Volcanic Eruptions",
+          "supports": "Nonexplosive eruptions of thin magma make lava flows; explosive eruptions of thick magma release pyroclastic material, and pyroclastic flows can race downhill at over 80 km/h."
+        },
+        {
+          "type": "external",
+          "title": "Lava flows destroy everything in their path",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/programs/VHP/lava-flows-destroy-everything-their-path",
+          "accessed": "2026-10-14",
+          "supports": "Deaths caused directly by lava flows are uncommon, but everything in a flow's path is knocked over, buried or ignited."
+        },
+        {
+          "type": "external",
+          "title": "Pyroclastic flows move fast and destroy everything in their path",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/programs/VHP/pyroclastic-flows-move-fast-and-destroy-everything-their-path",
+          "accessed": "2026-10-14",
+          "supports": "Pyroclastic flows typically travel faster than 80 km/h and can destroy nearly all structures in their path."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF10",
+      "issue": "Dated or approximate figures: about 35 active volcanoes in Iceland; over 400 buildings lost at Eldfell in 1973; about 1,500 noticeable quakes a year in Japan; the 1995 Kobe quake's 20 seconds and over 6,400 deaths; Bay Area rates of 2-3 moderate quakes a year and a strong one about every 7 years; Eyjafjallajökull 'small earthquakes in 2009' and 'eleven weeks' of swelling (NASA describes quakes from early March 2010 and at least 40 mm of uplift before the 20 March 2010 eruption).",
+      "pages": {
+        "printed": [
+          330,
+          332,
+          336,
+          340
+        ],
+        "pdf": [
+          366,
+          368,
+          372,
+          376
+        ]
+      },
+      "resolution": "None of these numbers is tested. Where game text mentions an event (Eyjafjallajökull 2010, Kobe 1995), it uses only the year and the general point. The textbook's claim that people reached safety before the Eyjafjallajökull eruption is handled separately in L25-RF13. Practice data in questions is invented and labeled as such.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Eyjafjallajökull example",
+          "supports": "Monitoring of quakes, gas and swelling helped communities prepare and evacuate before the eruption."
+        },
+        {
+          "type": "external",
+          "title": "Eruption of Eyjafjallajökull Volcano, Iceland",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/eruption-of-eyjafjallajakull-volcano-iceland-43252/",
+          "accessed": "2026-10-14",
+          "supports": "Eyjafjallajökull erupted on March 20, 2010, after earthquakes beginning in early March rose toward the surface and land near the volcano rose at least 40 millimeters."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF11",
+      "issue": "The spread's 'Preparing for' boxes (supplies, escape plan) and Section 2's evacuation-plan advice are emergency instructions. The project brief says not to add disaster advice.",
+      "pages": {
+        "printed": [
+          333,
+          338,
+          339
+        ],
+        "pdf": [
+          369,
+          374,
+          375
+        ]
+      },
+      "resolution": "No question or Explorer card gives personal emergency instructions. Mitigation is treated at the level of planning and engineering concepts (land use guided by hazard maps, earthquake-resistant structures): L25-Q22, L25-Q23 and the O4 card.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            333
+          ],
+          "pdfPages": [
+            369
+          ],
+          "locator": "Section 2, Mitigating the Effects of Volcanic Eruptions",
+          "supports": "Mitigating actions include prevention, such as not building near an active volcano, along with preparedness and response planning."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF12",
+      "issue": "Section 1 (p. 331) says nonexplosive eruptions happen more often than any other kind. That is a contestable statistic, not a feature of an eruption: the science reviewer noted that most eruptions in the Smithsonian catalogue are small but explosive, and NPS describes Strombolian eruptions, common at cinder cones, as moderately explosive. The lesson's own pictures also show lava flows alongside explosive activity: the Figure 1B inset (p. 331) labels a lava flow on the same volcano as the ash and the pyroclastic flow, and the opener photo of Mount Etna (p. 328) shows glowing lava thrown into the air while a lava flow pours downslope.",
+      "pages": {
+        "printed": [
+          328,
+          331
+        ],
+        "pdf": [
+          364,
+          367
+        ]
+      },
+      "resolution": "No item keys 'most common' or treats lava flows as belonging only to nonexplosive eruptions. Since round 1, L25-Q09 sorts gentle gas escape instead of 'the most common type', its lava item says the lava pours out gently, and its explanation notes that explosive eruptions can send out some lava too. The Smithsonian Global Volcanism Program pages returned HTTP 403 on 2026-10-17, so the game neither repeats nor replaces the statistic with a number of its own.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            331
+          ],
+          "pdfPages": [
+            367
+          ],
+          "locator": "Section 1, Types of Volcanic Eruptions; Figure 1B inset",
+          "supports": "The text calls nonexplosive eruptions the most common type; the rendered inset labels ash, a vent, a lava flow, a pyroclastic flow and magma on one erupting volcano."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            328,
+            329
+          ],
+          "pdfPages": [
+            364,
+            365
+          ],
+          "locator": "Lesson opener photo and Introduction",
+          "supports": "The opener shows Mount Etna erupting in 2001, with glowing lava fragments flung upward and a lava flow pouring down the slope."
+        },
+        {
+          "type": "external",
+          "title": "Strombolian Eruptions",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/000/strombolian-eruptions.htm",
+          "accessed": "2026-10-17",
+          "supports": "Strombolian eruptions are moderately explosive eruptions of basaltic magma with moderate gas content, made of discrete bursts that throw out pyroclasts, and are common during eruptions that build cinder cones."
+        },
+        {
+          "type": "external",
+          "title": "Volcanic Explosivity Index (VEI)",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/subjects/volcanoes/volcanic-explosivity-index.htm",
+          "accessed": "2026-10-17",
+          "supports": "The VEI is a logarithmic 0-8 scale for the size of explosive eruptions; effusive Hawaiian-style eruptions are rated 0, and the scale is not useful for effusive lava eruptions."
+        }
+      ]
+    },
+    {
+      "id": "L25-RF13",
+      "issue": "Section 2 (p. 332) says the area around Eyjafjallajökull was evacuated and people reached safety before the 2010 eruption. That overstates the warning. The first eruption began shortly before midnight on 20 March 2010, and about 500 residents were evacuated after it had started; a Reuters report quoted scientists saying there had been little warning that night. When the second, summit eruption broke out in April, about 800 people were evacuated at its first signs. The defensible part is that months of monitored unrest had communities prepared.",
+      "pages": {
+        "printed": [
+          332
+        ],
+        "pdf": [
+          368
+        ]
+      },
+      "resolution": "Explorer O3 no longer says people got to safety before the eruption. It says months of monitored unrest meant communities were prepared, so nearby residents could be moved out quickly once the eruptions began. The O3 table says eruptions 'often' give warning signs and that rising likelihood can often be seen over weeks to years (see L25-RF4). No question uses the evacuation claim.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Predicting Volcanic Eruptions (Eyjafjallajökull example)",
+          "supports": "Long-term monitoring helped prepare the communities around the volcano; the book says the area was evacuated before the 20 March eruption."
+        },
+        {
+          "type": "external",
+          "title": "Hundreds evacuate as volcano erupts in southern Iceland (Reuters wire, 21 March 2010)",
+          "publisher": "The Christian Science Monitor (Reuters)",
+          "url": "https://www.csmonitor.com/From-the-news-wires/2010/0321/Hundreds-evacuate-as-volcano-erupts-in-southern-Iceland",
+          "accessed": "2026-10-17",
+          "supports": "The eruption began shortly before midnight; police then declared a local emergency and sent rescue teams to evacuate about 500 people, and scientists who had been monitoring the glacier said there had been little warning."
+        },
+        {
+          "type": "external",
+          "title": "Iceland Volcano Erupts Under Glacier, Triggers Floods (16 April 2010)",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/100414-iceland-volcano-erupts-evacuate-flooding",
+          "accessed": "2026-10-17",
+          "supports": "About 800 people living near the volcano were evacuated as a precaution at the first signs of the second eruption."
+        },
+        {
+          "type": "external",
+          "title": "Months of geologic unrest signaled reawakening of Icelandic volcano (17 November 2010)",
+          "publisher": "University of Wisconsin-Madison News",
+          "url": "https://news.wisc.edu/months-of-geologic-unrest-signaled-reawakening-of-icelandic-volcano/",
+          "accessed": "2026-10-17",
+          "supports": "Several months of unrest, including 11 weeks of swelling, preceded the March and April 2010 eruptions; a co-author says scientists are a long way from predicting every eruption."
+        }
+      ]
+    }
+  ]
+}

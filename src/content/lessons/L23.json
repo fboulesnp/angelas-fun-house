@@ -1,0 +1,1026 @@
+{
+  "lessonId": "L23",
+  "guidingQuestion": "How do the atoms and molecules in solids, liquids and gases move, and what decides which state a substance is in?",
+  "hook": "What kind of ice sinks in room-temperature water, fizzes and spills a heavy white fog over the rim, yet never melts into a liquid?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          296,
+          297
+        ],
+        "pdf": [
+          332,
+          333
+        ]
+      }
+    },
+    {
+      "title": "1. Molecular Motion in Solids",
+      "pages": {
+        "printed": [
+          298
+        ],
+        "pdf": [
+          334
+        ]
+      }
+    },
+    {
+      "title": "2. Molecular Motion in Liquids",
+      "pages": {
+        "printed": [
+          299
+        ],
+        "pdf": [
+          335
+        ]
+      }
+    },
+    {
+      "title": "3. Molecular Motion in Gases",
+      "pages": {
+        "printed": [
+          300
+        ],
+        "pdf": [
+          336
+        ]
+      }
+    },
+    {
+      "title": "4. Temperature Affects the State of Matter",
+      "pages": {
+        "printed": [
+          301
+        ],
+        "pdf": [
+          337
+        ]
+      }
+    },
+    {
+      "title": "5. Pressure Affects the State of Matter",
+      "pages": {
+        "printed": [
+          302,
+          303
+        ],
+        "pdf": [
+          338,
+          339
+        ]
+      }
+    },
+    {
+      "title": "6. Predicting States of Matter",
+      "pages": {
+        "printed": [
+          304,
+          305
+        ],
+        "pdf": [
+          340,
+          341
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Substances Are a Solid, Liquid, or Gas under Different Conditions",
+      "pages": {
+        "printed": [
+          306
+        ],
+        "pdf": [
+          342
+        ]
+      }
+    },
+    {
+      "title": "7. Standard Temperature and Pressure",
+      "pages": {
+        "printed": [
+          307
+        ],
+        "pdf": [
+          343
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          307
+        ],
+        "pdf": [
+          343
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L23-O1",
+      "kind": "observe",
+      "text": "Describe how particles are arranged and how they move in solids, liquids and gases, and use that particle picture to explain each state's shape and volume.",
+      "sections": [
+        "Introduction",
+        "1. Molecular Motion in Solids",
+        "2. Molecular Motion in Liquids",
+        "3. Molecular Motion in Gases"
+      ],
+      "pages": {
+        "printed": [
+          297,
+          298,
+          299,
+          300
+        ],
+        "pdf": [
+          333,
+          334,
+          335,
+          336
+        ]
+      }
+    },
+    {
+      "id": "L23-O2",
+      "kind": "relate",
+      "text": "Explain how temperature and pressure affect a substance's state: how colliding gas particles create pressure, and how heating, cooling, squeezing or lowering pressure can change a state or shift a boiling point.",
+      "sections": [
+        "4. Temperature Affects the State of Matter",
+        "5. Pressure Affects the State of Matter"
+      ],
+      "pages": {
+        "printed": [
+          297,
+          301,
+          302,
+          303
+        ],
+        "pdf": [
+          333,
+          337,
+          338,
+          339
+        ]
+      }
+    },
+    {
+      "id": "L23-O3",
+      "kind": "apply",
+      "text": "Use a state diagram or a table of change-of-state temperatures to predict whether water, carbon dioxide or gallium is a solid, liquid or gas at a given temperature and pressure.",
+      "sections": [
+        "6. Predicting States of Matter",
+        "Key Science Concept: Substances Are a Solid, Liquid, or Gas under Different Conditions"
+      ],
+      "pages": {
+        "printed": [
+          304,
+          305,
+          306
+        ],
+        "pdf": [
+          340,
+          341,
+          342
+        ]
+      }
+    },
+    {
+      "id": "L23-O4",
+      "kind": "apply",
+      "text": "Use melting and boiling points as evidence to identify a substance, and explain why scientists report the pressure and use standard temperature and pressure (STP) when they share results.",
+      "sections": [
+        "4. Temperature Affects the State of Matter",
+        "5. Pressure Affects the State of Matter",
+        "7. Standard Temperature and Pressure"
+      ],
+      "pages": {
+        "printed": [
+          301,
+          303,
+          307
+        ],
+        "pdf": [
+          337,
+          339,
+          343
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "A substance's state (solid, liquid or gas) comes from how its particles are arranged and how they move. The particles themselves keep the same size and identity in every state.",
+    "In a solid, particles are packed tightly and vibrate in place, so a solid keeps its shape and a nearly constant volume. Its particles are never perfectly still.",
+    "In a liquid, particles stay packed and touching but slide past one another, so a liquid flows and takes its container's shape while keeping its volume.",
+    "In a gas, particles are far apart and move independently in straight lines between collisions, so a gas spreads out to take the shape and volume of its container.",
+    "Pressure is force spread over an area (1 kPa = 1,000 N/m²). Gas pressure comes from countless particle collisions; more particles hitting an area means more pressure.",
+    "Temperature and pressure together decide a substance's state. Lower pressure lowers the boiling point, so a boiling point is complete only when its pressure is given.",
+    "A state diagram maps a substance's state across temperatures and pressures, and every substance has its own. At 101 kPa water melts at 0°C and boils at 100°C, gallium melts near 30°C, and carbon dioxide turns straight from solid to gas at −78.5°C.",
+    "Scientists report results at standard temperature and pressure (STP: 0°C and 100 kPa) or state the conditions they used, so others can compare and repeat their work."
+  ],
+  "glossary": [
+    {
+      "term": "state of matter",
+      "definition": "The form a substance takes (solid, liquid or gas), set by how its particles are arranged and how they move.",
+      "pages": {
+        "printed": [
+          297,
+          298
+        ],
+        "pdf": [
+          333,
+          334
+        ]
+      }
+    },
+    {
+      "term": "solid",
+      "definition": "A state in which particles are packed tightly and touching, each vibrating around a spot it cannot leave, so the sample holds its own shape and volume.",
+      "pages": {
+        "printed": [
+          297,
+          298
+        ],
+        "pdf": [
+          333,
+          334
+        ]
+      }
+    },
+    {
+      "term": "liquid",
+      "definition": "A state in which particles stay packed and touching but can slide past one another, so the sample flows and fits its container while keeping its volume.",
+      "pages": {
+        "printed": [
+          297,
+          299
+        ],
+        "pdf": [
+          333,
+          335
+        ]
+      }
+    },
+    {
+      "term": "gas",
+      "definition": "A state in which particles are far apart with empty space between them and move on their own, so the sample spreads to fill whatever container holds it.",
+      "pages": {
+        "printed": [
+          297,
+          300
+        ],
+        "pdf": [
+          333,
+          336
+        ]
+      }
+    },
+    {
+      "term": "macroscopic",
+      "definition": "Big enough to see and handle without a microscope: the scale of an ice cube or a cup of water, as opposed to the scale of single particles.",
+      "pages": {
+        "printed": [
+          297,
+          298
+        ],
+        "pdf": [
+          333,
+          334
+        ]
+      }
+    },
+    {
+      "term": "melting point",
+      "definition": "The temperature at which a solid turns into a liquid as it gains thermal energy, measured at a stated pressure.",
+      "pages": {
+        "printed": [
+          297,
+          301
+        ],
+        "pdf": [
+          333,
+          337
+        ]
+      }
+    },
+    {
+      "term": "boiling point",
+      "definition": "The temperature at which a liquid turns into a gas as it gains thermal energy. It depends on pressure: lower pressure means a lower boiling point.",
+      "pages": {
+        "printed": [
+          297,
+          301,
+          303
+        ],
+        "pdf": [
+          333,
+          337,
+          339
+        ]
+      }
+    },
+    {
+      "term": "pressure",
+      "definition": "How much force pushes on each unit of area. The same force on a smaller area makes more pressure.",
+      "pages": {
+        "printed": [
+          297,
+          302
+        ],
+        "pdf": [
+          333,
+          338
+        ]
+      }
+    },
+    {
+      "term": "kilopascal (kPa)",
+      "definition": "A unit of pressure equal to 1,000 newtons of force on every square meter. Air at sea level presses with about 101 kPa.",
+      "pages": {
+        "printed": [
+          302
+        ],
+        "pdf": [
+          338
+        ]
+      }
+    },
+    {
+      "term": "state diagram",
+      "definition": "A graph with temperature on one axis and pressure on the other, divided into regions that show where a substance is solid, liquid or gas. Scientists also call it a phase diagram.",
+      "pages": {
+        "printed": [
+          304,
+          305
+        ],
+        "pdf": [
+          340,
+          341
+        ]
+      }
+    },
+    {
+      "term": "sublimation",
+      "definition": "A change straight from solid to gas with no liquid stage, as when dry ice warms at sea-level pressure. The lesson describes this change without naming it.",
+      "pages": {
+        "printed": [
+          305
+        ],
+        "pdf": [
+          341
+        ]
+      }
+    },
+    {
+      "term": "standard temperature and pressure (STP)",
+      "definition": "An agreed set of conditions, 0°C and 100 kPa, that scientists use when reporting and comparing results.",
+      "pages": {
+        "printed": [
+          307
+        ],
+        "pdf": [
+          343
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L23-O1",
+      "title": "Three Ways to Dance",
+      "paragraphs": [
+        "Zoom in on any sample of matter and you find particles (atoms or molecules) that never stop moving. What changes from state to state is how close together they are and how freely they can move.",
+        "In a solid such as ice or dry ice, the particles are packed tightly and touch their neighbors. Each one jiggles back and forth around its own spot but can't trade places, so a solid keeps its shape and its volume.",
+        "In a liquid such as water or juice, the particles are still crowded and touching, but they can slide past each other. That's why a liquid flows, sloshes and settles into the bottom of any container while its volume stays the same.",
+        "In a gas such as water vapor or air, the particles are far apart. Each zips along in a straight line until it bumps into another particle or a wall, then heads off in a new direction. A gas spreads to fill its container, and squeezing it only pushes the same particles closer together."
+      ],
+      "diagram": {
+        "kind": "particles",
+        "caption": "Water's particles in three states",
+        "alt": "Three panels of water particles. Ice, a solid: particles packed in a fixed pattern, each vibrating in place, lowest energy. Liquid water: particles crowded and touching but sliding past one another, medium energy. Water vapor, a gas: particles far apart, each moving independently, highest energy. The particles are the same size in all three panels; only their spacing and motion differ.",
+        "panels": [
+          {
+            "label": "Ice (solid)",
+            "state": "solid",
+            "energy": "low"
+          },
+          {
+            "label": "Liquid water",
+            "state": "liquid",
+            "energy": "medium"
+          },
+          {
+            "label": "Water vapor (gas)",
+            "state": "gas",
+            "energy": "high"
+          }
+        ]
+      },
+      "watchOut": "Particles in a solid still move: they vibrate. Particles never grow or shrink when a sample expands, is squeezed or changes state; only the spaces between them change. Water vapor and carbon dioxide gas are invisible, so the white 'steam' or fog you see is tiny liquid droplets. The book's comparisons (sand pouring in an hourglass, a bouncing racquetball) are only partly like real particles.",
+      "pages": {
+        "printed": [
+          298,
+          299,
+          300
+        ],
+        "pdf": [
+          334,
+          335,
+          336
+        ]
+      }
+    },
+    {
+      "objectiveId": "L23-O2",
+      "title": "Turn Up the Heat, Squeeze the Crowd",
+      "paragraphs": [
+        "Pressure is force spread over an area. Wide snowshoes keep a hiker on top of soft snow because the same weight is spread over more area. Scientists measure pressure in kilopascals: 1 kPa is 1,000 newtons on every square meter, and air at sea level presses with about 101 kPa.",
+        "Gas pressure comes from collisions. Every time a gas particle hits a wall, it gives a tiny push, and more particles hitting the same area means more pressure. Air near sea level is more crowded than air high on a mountain, so a bottle capped on a mountaintop gets crushed on the drive down.",
+        "Temperature helps set a substance's state. Warm ice past its melting point and it becomes liquid; keep heating past the boiling point and it becomes a gas. Different substances change state at different temperatures, which is why carbon dioxide is a gas in a 23°C room while water is a liquid.",
+        "Pressure matters too. Squeeze water vapor hard enough and it becomes a liquid even at 100°C. Lower the pressure and water boils at a lower temperature, which is why high-altitude recipes come with their own cooking instructions."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Water's boiling point at different pressures (approximate)",
+        "alt": "Table of water's approximate boiling point at five air pressures: 50 kPa, about 81°C; 60 kPa, about 86°C; 80 kPa, about 93.5°C; 101 kPa, 100°C; 200 kPa, about 120°C. Higher pressure means a higher boiling point.",
+        "columns": [
+          "Pressure (kPa)",
+          "Water boils at about (°C)"
+        ],
+        "rows": [
+          [
+            50,
+            81
+          ],
+          [
+            60,
+            86
+          ],
+          [
+            80,
+            93.5
+          ],
+          [
+            101,
+            100
+          ],
+          [
+            200,
+            120
+          ]
+        ]
+      },
+      "watchOut": "Pressure is not the same as force: the same force can make a little pressure or a lot, depending on the area. And a boiling point without a pressure is incomplete; water boils at 100°C only near sea-level pressure.",
+      "pages": {
+        "printed": [
+          301,
+          302,
+          303
+        ],
+        "pdf": [
+          337,
+          338,
+          339
+        ]
+      }
+    },
+    {
+      "objectiveId": "L23-O3",
+      "title": "Reading the Map of States",
+      "paragraphs": [
+        "A state diagram works like a map. Temperature runs along one axis and pressure along the other. Find the point for your conditions, and the region it lands in tells you the state.",
+        "On the part of water's map shown here (50 to 200 kPa), conditions colder than 0°C are solid, conditions between 0°C and the boiling line are liquid, and conditions hotter than the boiling line are gas. The boiling line slants: the higher the pressure, the hotter water must get to boil.",
+        "Every substance has its own map. At 101 kPa, gallium (a silvery metal) is solid in a 23°C room but melts at about 30°C, so it can melt in a warm hand. Carbon dioxide's map has no liquid region at 101 kPa at all: solid dry ice turns straight into gas at −78.5°C. Liquid carbon dioxide exists only at pressures above about five times sea-level air pressure.",
+        "The lines on the map are boundaries where two states can exist together, like ice and water at 0°C. Predictions are most trustworthy for points well inside a region."
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "State diagram of water (simplified, 50 to 200 kPa)",
+        "alt": "State diagram for water. Temperature in degrees Celsius runs along the horizontal axis from −100 to 200, and pressure in kilopascals (kPa) runs along the vertical axis from 50 to 200. A melting line at 0°C separates solid from liquid at every pressure shown. A boiling line separates liquid from gas: it passes through about 81°C at 50 kPa, 86°C at 60 kPa, 93.5°C at 80 kPa, 100°C at 101 kPa, 105°C at 120 kPa, 111°C at 150 kPa and 120°C at 200 kPa. Water colder than 0°C is solid; water between 0°C and the boiling line is liquid; water hotter than the boiling line is gas.",
+        "xLabel": "Temperature (°C)",
+        "yLabel": "Pressure (kPa)",
+        "series": [
+          {
+            "label": "Melting line (solid | liquid)",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                0,
+                200
+              ]
+            ]
+          },
+          {
+            "label": "Boiling line (liquid | gas)",
+            "points": [
+              [
+                81,
+                50
+              ],
+              [
+                86,
+                60
+              ],
+              [
+                93.5,
+                80
+              ],
+              [
+                100,
+                101
+              ],
+              [
+                105,
+                120
+              ],
+              [
+                111,
+                150
+              ],
+              [
+                120,
+                200
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": -50,
+            "y": 150,
+            "text": "Solid"
+          },
+          {
+            "x": 45,
+            "y": 150,
+            "text": "Liquid"
+          },
+          {
+            "x": 160,
+            "y": 100,
+            "text": "Gas"
+          }
+        ]
+      },
+      "watchOut": "This map is simplified: it shows only part of the temperature and pressure range, and real state diagrams come from careful measurements. A point right on or very near a line is a borderline case where two states can coexist, so it can't be given just one state.",
+      "pages": {
+        "printed": [
+          304,
+          305,
+          306
+        ],
+        "pdf": [
+          340,
+          341,
+          342
+        ]
+      }
+    },
+    {
+      "objectiveId": "L23-O4",
+      "title": "Same Conditions, Fair Comparison",
+      "paragraphs": [
+        "Melting and boiling points work like ID tags. A pure substance changes state at its own temperatures (at a stated pressure), so measuring them can help identify an unknown sample. A pure silvery metal that melts at about 30°C is a strong match for gallium, and checking its boiling point too would make the identification even stronger.",
+        "A melting or boiling point means little without its conditions. Water boils at 100°C near sea level but at about 90°C in a mountain lab where the air pressure is about 70 kPa. Careful scientists record the pressure with every measurement.",
+        "To make comparisons easy, many scientists use standard temperature and pressure, or STP: 0°C and 100 kPa. When their conditions are different, they say so, so others can repeat the work and check it.",
+        "Knowing STP also helps you spot something odd. At STP, gallium should be solid and carbon dioxide should be a gas, so a lump of dry ice that stayed solid at STP would mean something unusual was going on."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Three substances at 101 kPa (solid carbon dioxide turns straight to gas at −78.5°C)",
+        "alt": "Table of three substances at 101 kPa. Water melts at 0°C, boils at 100°C, and is a liquid at room conditions of 23°C. Gallium melts at about 30°C, boils at about 2,200°C, and is a solid at 23°C. Carbon dioxide neither melts nor boils at 101 kPa; its solid turns straight into gas at −78.5°C, and it is a gas at 23°C.",
+        "columns": [
+          "Substance",
+          "Melts at",
+          "Boils at",
+          "State at 23°C"
+        ],
+        "rows": [
+          [
+            "Water",
+            "0°C",
+            "100°C",
+            "Liquid"
+          ],
+          [
+            "Gallium",
+            "about 30°C",
+            "about 2,200°C",
+            "Solid"
+          ],
+          [
+            "Carbon dioxide",
+            "doesn't melt at 101 kPa",
+            "doesn't boil at 101 kPa",
+            "Gas"
+          ]
+        ]
+      },
+      "watchOut": "STP's 0°C sits right on water's melting point, so at STP ice and liquid water can exist together; don't say water simply 'is' a solid at STP. Some books use the older standard pressure of 101.325 kPa (1 atmosphere) instead of 100 kPa. And sharp melting points belong to pure crystalline solids; mixtures and solids like wax or glass soften over a range of temperatures.",
+      "pages": {
+        "printed": [
+          301,
+          303,
+          305,
+          307
+        ],
+        "pdf": [
+          337,
+          339,
+          341,
+          343
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L23-RF1",
+      "issue": "OCR is empty or garbled on image-heavy pages: the opener photo (p. 296) has no text; the NGSS box (p. 297) is letter-spaced and misread ('ate ccnstantly', 'jtum s', 'vibiate'); subscripts and superscripts are lost ('1 cm^', 'H,0', 'H.O', 'CO^'); Figure 5A's lower label (98 kPa, high pressure, low altitude) is missing; Figure 6A's axes and points are garbled ('7-axis', '■r' c H', 'f (- 2 5 * C ,1 2 5 )'); Figure 6B's title reads 'CarboWI ... 101 l(Pa'; and the Key Science Concept (p. 306) lost its panel labels, the room- and body-temperature lines and the gallium panel. Page 304 also has a printed typo ('predict the of state a substance').",
+      "pages": {
+        "printed": [
+          296,
+          297,
+          298,
+          302,
+          304,
+          305,
+          306
+        ],
+        "pdf": [
+          332,
+          333,
+          334,
+          338,
+          340,
+          341,
+          342
+        ]
+      },
+      "resolution": "All twelve lesson pages were rendered at 110 dpi and read from the images; Figure 6A (p. 304) and the Key Science Concept water and carbon dioxide panels (p. 306) were also cropped at 220 dpi. Figure labels, plotted points (−25°C, 125 kPa; 23°C, 101 kPa; 95°C, 80 kPa), the boiling-line shape and the gallium panel were taken from the renders, not the OCR.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            304
+          ],
+          "pdfPages": [
+            340
+          ],
+          "locator": "Section 6; Figure 6A, The State Diagram of Water",
+          "supports": "The render shows pressure (50 to 150+ kPa) on the y-axis, temperature (−100 to 200°C) on the x-axis, a vertical solid/liquid boundary at 0°C, a slanted liquid/gas boundary, and three labeled points."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept: Substances Are a Solid, Liquid, or Gas under Different Conditions",
+          "supports": "The render shows three panels at 101 kPa (water, carbon dioxide, gallium) with room-temperature and body-temperature lines; gallium's liquid region starts between them."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF2",
+      "issue": "The opener (pp. 296-297) calls the white fog over the dry ice 'smoky vapor' that pours down like heavy fog, and Figure 5B (p. 303), the Key Science Concept water and carbon dioxide panels (p. 306) and the Figure 6B photo (p. 305) draw water vapor and carbon dioxide gas as white clouds. Both gases are invisible; the visible fog is tiny liquid water droplets. The book itself says so for water vapor in the Figure 3 caption (p. 300).",
+      "pages": {
+        "printed": [
+          296,
+          297,
+          300,
+          303,
+          305,
+          306
+        ],
+        "pdf": [
+          332,
+          333,
+          336,
+          339,
+          341,
+          342
+        ]
+      },
+      "resolution": "The game always calls the gases invisible and the white fog condensed water droplets carried along by the cold, dense carbon dioxide gas. Q23 tests this directly and Q09 notes that visible 'steam' is droplets; the Explorer O1 watch-out names the mix-up. No question treats the white fog as a gas. USGS is cited only for the −78.5°C sublimation point. Its looser wording, that the fog is cold CO₂ gas mixed with humid air, is not used; ChemEd X (Kuntzleman, 2016) is the source for the droplet explanation.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3; Figure 3 caption",
+          "supports": "Water vapor can't be seen; visible steam is made of droplets of condensing water."
+        },
+        {
+          "type": "external",
+          "title": "The Dry-Ice-in-Water Cloud (Tom Kuntzleman, 2016)",
+          "publisher": "Chemical Education Xchange (ChemEd X)",
+          "url": "https://chemedx.org/blog/dry-ice-water-cloud",
+          "accessed": "2026-10-14",
+          "supports": "The cloud formed when dry ice is placed in water is made of tiny liquid water droplets that condense inside the cold carbon dioxide bubbles."
+        },
+        {
+          "type": "external",
+          "title": "Sublimation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Dry ice sublimates (turns from solid straight to gas) at −78.5°C."
+        },
+        {
+          "type": "external",
+          "title": "Carbon Dioxide, MeSH Descriptor D002245",
+          "publisher": "U.S. National Library of Medicine, National Institutes of Health",
+          "url": "https://meshb.nlm.nih.gov/record/ui?ui=D002245",
+          "accessed": "2026-10-14",
+          "supports": "Carbon dioxide is a colorless, odorless gas."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF3",
+      "issue": "Section 4 (p. 301) says 'all substances have a specific melting point', and Figure 4's caption states water's states by temperature alone. Sharp melting points belong to pure crystalline solids; glass, wax and many mixtures soften over a range, and every melting or boiling point depends on pressure (as p. 303 itself says).",
+      "pages": {
+        "printed": [
+          301,
+          303
+        ],
+        "pdf": [
+          337,
+          339
+        ]
+      },
+      "resolution": "The game says a pure substance has characteristic melting and boiling points at a stated pressure. Every state question gives the pressure. Explorer O4's watch-out notes that mixtures and amorphous solids soften over a range; Q25 stresses a pure sample.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5, How Pressure Affects the State of Matter",
+          "supports": "Pressure changes boiling and melting temperatures, so an accurate boiling point includes the pressure."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.5 The Solid State of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Crystalline solids have a precise melting temperature; amorphous solids such as glass and candle wax soften gradually over a range of temperatures."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF4",
+      "issue": "Inconsistent or near-boundary numbers in sections 5-6: the text gives 50 kPa but Figure 5B shows 52 kPa (p. 303); Figure 5A labels 62 kPa and 98 kPa while the text gives about 101 kPa at sea level (p. 302); p. 304 first puts the mountain cabin at 62 kPa, then works the example at 80 kPa; and it calls water's boiling point at 80 kPa 'much lower', though it is about 93.5°C, so the plotted point (95°C, 80 kPa) sits only about 1.5°C into the gas region.",
+      "pages": {
+        "printed": [
+          302,
+          303,
+          304
+        ],
+        "pdf": [
+          338,
+          339,
+          340
+        ]
+      },
+      "resolution": "The book's conclusions hold: at 100°C water is a gas at 50 or 52 kPa (boiling point about 81°C) and a liquid at 200 kPa (about 120°C). The game uses round, sourced values and never reuses the near-boundary point. It keeps every water state-diagram point at least 10°C from a boundary (Q16, Q19 and Q20); the closest are Q19's −10°C at 60 kPa and 110°C at 200 kPa. Q17 asks for the boiling temperature itself, not a state. Sea-level pressure is treated as about 101 kPa; the figure's 98 kPa is not tested.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            303
+          ],
+          "pdfPages": [
+            339
+          ],
+          "locator": "Section 5; Figure 5B",
+          "supports": "At 100°C, water in a sealed piston container is a gas at 50 kPa (52 kPa in the figure) and a liquid at 200 kPa."
+        },
+        {
+          "type": "external",
+          "title": "Saturation Properties for Water (Thermophysical Properties of Fluid Systems)",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/fluid.cgi?PLow=50&PHigh=200&PInc=10&Digits=5&ID=C7732185&Action=Load&Type=SatP&TUnit=C&PUnit=kPa&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=uPa*s&STUnit=N%2Fm&RefState=DEF",
+          "accessed": "2026-10-17",
+          "supports": "Water's saturation (boiling) temperature is about 81.3°C at 50 kPa, 85.9°C at 60 kPa, 89.9°C at 70 kPa, 93.5°C at 80 kPa, 99.6°C at 100 kPa, 104.8°C at 120 kPa, 111.4°C at 150 kPa and 120.2°C at 200 kPa."
+        },
+        {
+          "type": "external",
+          "title": "Air pressure (JetStream)",
+          "publisher": "NOAA National Weather Service",
+          "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure",
+          "accessed": "2026-10-14",
+          "supports": "Air pressure decreases with elevation as the number of air molecules decreases; standard sea-level pressure is 1013.25 millibars (about 101 kPa)."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF5",
+      "issue": "Brief-flagged phase conditions, pp. 306-307. Section 7 (p. 307) says 'Under STP conditions, water is a solid', but STP's 0°C is water's normal melting point, a boundary where ice and liquid water coexist. The Key Science Concept (p. 306) says water takes all three states within a 'relatively narrow range' of temperatures at 101 kPa, which is vague. Its carbon dioxide figure (−78.5°C at 101 kPa) and the STP definition (0°C, 100 kPa) are correct, though many references still use the older 0°C and 101.325 kPa.",
+      "pages": {
+        "printed": [
+          306,
+          307
+        ],
+        "pdf": [
+          342,
+          343
+        ]
+      },
+      "resolution": "Decision: keep the page's correct facts (water liquid between 0°C and 100°C at 101 kPa; gallium solid or liquid in that range; carbon dioxide solid below −78.5°C; STP = 0°C and 100 kPa) and drop the 'water is a solid at STP' claim. No question asks water's state at STP or at any boundary point. Q27 and Q28 test STP's purpose and a clear carbon dioxide case; Explorer O3 and O4 explain boundaries and the two standard-pressure conventions. Liquid carbon dioxide needs more than about 518 kPa (Explorer O3).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            306
+          ],
+          "pdfPages": [
+            342
+          ],
+          "locator": "Key Science Concept: Substances Are a Solid, Liquid, or Gas under Different Conditions",
+          "supports": "At 101 kPa water is solid below 0°C, liquid between 0°C and 100°C and gas above 100°C; carbon dioxide is a gas unless cooled below −78.5°C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            307
+          ],
+          "pdfPages": [
+            343
+          ],
+          "locator": "Section 7. Standard Temperature and Pressure",
+          "supports": "STP is defined as 0°C and 100 kPa."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.4 Phase Diagrams",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-4-phase-diagrams",
+          "accessed": "2026-10-14",
+          "supports": "A line on a phase diagram marks conditions where two phases coexist in equilibrium; water's normal boiling point is 100°C at 1 atm and its melting line sits at 0°C near 1 atm."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 9.2 Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+          "accessed": "2026-10-14",
+          "supports": "STP is often given as 273.15 K and 1 atm (101.325 kPa); IUPAC changed standard pressure to 1 bar (100 kPa) in 1982, and the older definition still appears in many references."
+        },
+        {
+          "type": "external",
+          "title": "Sublimation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Dry ice sublimates (turns from solid straight to gas) at −78.5°C."
+        },
+        {
+          "type": "external",
+          "title": "Carbon dioxide: Phase change data",
+          "publisher": "NIST Chemistry WebBook, National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Mask=4",
+          "accessed": "2026-10-14",
+          "supports": "Carbon dioxide's triple point is 216.58 K (about −56.6°C) at 5.185 bar (about 518 kPa), so liquid carbon dioxide cannot exist at ordinary atmospheric pressure."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF6",
+      "issue": "Section 1 (p. 298) says an ice cube's volume is fixed because its molecules can neither spread apart nor move closer together. That overstates it: solids expand slightly when warmed because their particles vibrate harder and sit a little farther apart on average. The particles themselves do not grow.",
+      "pages": {
+        "printed": [
+          298
+        ],
+        "pdf": [
+          334
+        ]
+      },
+      "resolution": "The game says a solid's volume is nearly fixed. Q08 tests thermal expansion with the brief's guardrail that particles don't grow when a sample expands; Explorer O1's watch-out repeats it.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            298
+          ],
+          "pdfPages": [
+            334
+          ],
+          "locator": "Section 1. Molecular Motion in Solids",
+          "supports": "Particles in a solid are closely packed in fixed positions and can only vibrate in place."
+        },
+        {
+          "type": "external",
+          "title": "University Physics Volume 2, 1.3 Thermal Expansion",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion",
+          "accessed": "2026-10-14",
+          "supports": "Raising the temperature increases the kinetic energy of a solid's atoms and the average distance between them, so solids and liquids expand when heated."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF7",
+      "issue": "The gallium photo caption (p. 305) gives its melting point as 29.78°C; the reference value is 29.7646°C (about 29.76°C).",
+      "pages": {
+        "printed": [
+          305
+        ],
+        "pdf": [
+          341
+        ]
+      },
+      "resolution": "The game rounds to 'about 30°C', which both values support, and never tests the second decimal place (Q24, Q25, Q28, Explorer O3 and O4).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            305
+          ],
+          "pdfPages": [
+            341
+          ],
+          "locator": "Section 6, State Diagrams of Different Substances; gallium photo caption",
+          "supports": "Gallium is solid at 23°C and 101 kPa and melts at body temperature; the caption gives 29.78°C."
+        },
+        {
+          "type": "external",
+          "title": "Gallium: Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry, Periodic Table",
+          "url": "https://periodic-table.rsc.org/element/31/gallium",
+          "accessed": "2026-10-14",
+          "supports": "Gallium's melting point is 29.7646°C and its boiling point is 2229°C."
+        }
+      ]
+    },
+    {
+      "id": "L23-RF8",
+      "issue": "Analogies and particle pictures are models with limits: liquid molecules are compared with sand pouring through an hourglass (p. 299), though sand grains are tiny solids; a gas particle is compared with a racquetball (p. 300), though a real ball slows down while gas particles in a container keep their average speed at a steady temperature.",
+      "pages": {
+        "printed": [
+          299,
+          300
+        ],
+        "pdf": [
+          335,
+          336
+        ]
+      },
+      "resolution": "No question depends on either analogy. Explorer O1's watch-out says the comparisons are only partly like real particles, and the Explorer particle diagram notes that particle size is the same in every state.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            299
+          ],
+          "pdfPages": [
+            335
+          ],
+          "locator": "Section 2. Molecular Motion in Liquids",
+          "supports": "Liquid molecules slip past one another, compared in the text with grains of sand pouring through an hourglass."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            300
+          ],
+          "pdfPages": [
+            336
+          ],
+          "locator": "Section 3. Molecular Motion in Gases",
+          "supports": "The text compares a gas particle to a racquetball that moves straight until it hits something and rebounds."
+        }
+      ]
+    }
+  ]
+}

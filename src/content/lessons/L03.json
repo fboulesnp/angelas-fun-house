@@ -1,0 +1,1233 @@
+{
+  "lessonId": "L03",
+  "guidingQuestion": "How can you tell one substance from another?",
+  "hook": "Two gray, shiny rings sit side by side in a dusty treasure chest, looking like twins, so how could a detective prove they are made of different metals without trusting their color?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          30,
+          31
+        ],
+        "pdf": [
+          66,
+          67
+        ]
+      }
+    },
+    {
+      "title": "1. Substances",
+      "pages": {
+        "printed": [
+          32
+        ],
+        "pdf": [
+          68
+        ]
+      }
+    },
+    {
+      "title": "2. Properties",
+      "pages": {
+        "printed": [
+          33
+        ],
+        "pdf": [
+          69
+        ]
+      }
+    },
+    {
+      "title": "3. Density",
+      "pages": {
+        "printed": [
+          34
+        ],
+        "pdf": [
+          70
+        ]
+      }
+    },
+    {
+      "title": "4. Melting and Boiling Point",
+      "pages": {
+        "printed": [
+          35
+        ],
+        "pdf": [
+          71
+        ]
+      }
+    },
+    {
+      "title": "5. Solubility",
+      "pages": {
+        "printed": [
+          36
+        ],
+        "pdf": [
+          72
+        ]
+      }
+    },
+    {
+      "title": "6. Flammability",
+      "pages": {
+        "printed": [
+          37
+        ],
+        "pdf": [
+          73
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Using Tests to Identify a Substance",
+      "pages": {
+        "printed": [
+          38
+        ],
+        "pdf": [
+          74
+        ]
+      }
+    },
+    {
+      "title": "7. Mixtures",
+      "pages": {
+        "printed": [
+          39
+        ],
+        "pdf": [
+          75
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          39
+        ],
+        "pdf": [
+          75
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L03-O1",
+      "kind": "observe",
+      "text": "Identify what makes a sample a substance, even an invisible gas, and tell pure substances from mixtures such as air, wood and gold alloys.",
+      "sections": [
+        "Introduction",
+        "1. Substances",
+        "7. Mixtures"
+      ],
+      "pages": {
+        "printed": [
+          31,
+          32,
+          39
+        ],
+        "pdf": [
+          67,
+          68,
+          75
+        ]
+      }
+    },
+    {
+      "id": "L03-O2",
+      "kind": "observe",
+      "text": "Tell properties that describe one particular object (mass, volume, shape) from properties that help identify a substance, and explain why color alone can't identify it.",
+      "sections": [
+        "2. Properties",
+        "3. Density",
+        "4. Melting and Boiling Point",
+        "Lesson Summary"
+      ],
+      "pages": {
+        "printed": [
+          33,
+          34,
+          35,
+          39
+        ],
+        "pdf": [
+          69,
+          70,
+          71,
+          75
+        ]
+      }
+    },
+    {
+      "id": "L03-O3",
+      "kind": "relate",
+      "text": "Use density = mass ÷ volume to explain how mass, volume and density are related, compare samples fairly, and calculate one quantity from the other two.",
+      "sections": [
+        "3. Density",
+        "Key Science Concept: Using Tests to Identify a Substance"
+      ],
+      "pages": {
+        "printed": [
+          34,
+          38
+        ],
+        "pdf": [
+          70,
+          74
+        ]
+      }
+    },
+    {
+      "id": "L03-O4",
+      "kind": "relate",
+      "text": "Explain how melting point, boiling point, solubility and flammability help identify a substance, what each result depends on, and which tests leave the substance unchanged.",
+      "sections": [
+        "4. Melting and Boiling Point",
+        "5. Solubility",
+        "6. Flammability"
+      ],
+      "pages": {
+        "printed": [
+          35,
+          36,
+          37
+        ],
+        "pdf": [
+          71,
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "id": "L03-O5",
+      "kind": "apply",
+      "text": "Identify an unknown by combining several test results and comparing them with a table of known substances, and choose a material whose properties fit a stated design need.",
+      "sections": [
+        "5. Solubility",
+        "6. Flammability",
+        "Key Science Concept: Using Tests to Identify a Substance",
+        "7. Mixtures"
+      ],
+      "pages": {
+        "printed": [
+          36,
+          37,
+          38,
+          39
+        ],
+        "pdf": [
+          72,
+          73,
+          74,
+          75
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "A substance is matter with one fixed makeup, usually gathered in an amount large enough to observe or measure. A cup of water holds trillions upon trillions of molecules, and invisible gases such as oxygen and carbon dioxide are substances too.",
+    "Mass, volume and shape describe one particular object, so they can differ from one object to the next. Density, melting point and boiling point stay the same for every pure sample of a substance under the same conditions, so they can help identify it.",
+    "Density is the mass packed into each unit of volume: density = mass ÷ volume, often in g/cm³. With equal volumes, the denser sample has more mass, and cutting a sample into pieces leaves its density unchanged.",
+    "A large sample needs more heat to melt than a small one, but both melt at the same temperature. Boiling points are compared at the same air pressure, because lower pressure lowers them.",
+    "Solubility always names a pair: what dissolves and what it dissolves in. Sugar dissolves in water but flour does not, and permanent-marker ink resists water yet dissolves in isopropyl alcohol. Dissolved matter has spread out, not vanished.",
+    "Flammability tells whether a substance burns. Burning turns it into new substances, so flammability is a chemical property, while measuring density or melting a metal leaves the substance the same.",
+    "Many substances share some properties, and color alone can mislead, so scientists run several tests and compare every result with a table of known substances.",
+    "Most everyday materials are mixtures, such as air, wood, steel and gold alloys. When a mixture is separated all the way into its individual substances, each one is a pure substance with its own set of properties."
+  ],
+  "glossary": [
+    {
+      "term": "substance",
+      "definition": "A kind of matter with one fixed makeup throughout, such as water or oxygen gas; every pure sample of it shares the same identifying properties.",
+      "pages": {
+        "printed": [
+          32
+        ],
+        "pdf": [
+          68
+        ]
+      }
+    },
+    {
+      "term": "macroscopic",
+      "definition": "At the everyday scale of things you can see, hold or measure directly, far larger than single atoms or molecules.",
+      "pages": {
+        "printed": [
+          32
+        ],
+        "pdf": [
+          68
+        ]
+      }
+    },
+    {
+      "term": "mass",
+      "definition": "How much matter an object or sample contains, measured in kilograms or, for small samples, in grams.",
+      "pages": {
+        "printed": [
+          33
+        ],
+        "pdf": [
+          69
+        ]
+      }
+    },
+    {
+      "term": "volume",
+      "definition": "How much space an object or sample takes up, often measured in cubic centimeters (cm³).",
+      "pages": {
+        "printed": [
+          33
+        ],
+        "pdf": [
+          69
+        ]
+      }
+    },
+    {
+      "term": "property",
+      "definition": "A trait of matter that you can observe or measure, such as color, mass, density or melting point.",
+      "pages": {
+        "printed": [
+          33
+        ],
+        "pdf": [
+          69
+        ]
+      }
+    },
+    {
+      "term": "density",
+      "definition": "How much mass is packed into each unit of volume; density = mass ÷ volume, often written in g/cm³.",
+      "pages": {
+        "printed": [
+          34
+        ],
+        "pdf": [
+          70
+        ]
+      }
+    },
+    {
+      "term": "melting point",
+      "definition": "The temperature at which a solid turns into a liquid. It is the same for a tiny chip and a huge block of the same pure substance.",
+      "pages": {
+        "printed": [
+          35
+        ],
+        "pdf": [
+          71
+        ]
+      }
+    },
+    {
+      "term": "boiling point",
+      "definition": "The temperature at which a liquid boils into a gas. Tables give it at normal sea-level air pressure, because lower air pressure lowers it.",
+      "pages": {
+        "printed": [
+          35
+        ],
+        "pdf": [
+          71
+        ]
+      }
+    },
+    {
+      "term": "solubility",
+      "definition": "How well one substance dissolves, or spreads out evenly, in another. It always depends on both substances, such as sugar in water.",
+      "pages": {
+        "printed": [
+          36
+        ],
+        "pdf": [
+          72
+        ]
+      }
+    },
+    {
+      "term": "flammability",
+      "definition": "Whether, and how easily, a substance burns.",
+      "pages": {
+        "printed": [
+          37
+        ],
+        "pdf": [
+          73
+        ]
+      }
+    },
+    {
+      "term": "physical property",
+      "definition": "A property you can observe or measure while the substance stays the same, such as density or melting point.",
+      "pages": {
+        "printed": [
+          31
+        ],
+        "pdf": [
+          67
+        ]
+      }
+    },
+    {
+      "term": "chemical property",
+      "definition": "A property you can observe only while a substance changes into new substances, such as flammability.",
+      "pages": {
+        "printed": [
+          37
+        ],
+        "pdf": [
+          73
+        ]
+      }
+    },
+    {
+      "term": "mixture",
+      "definition": "Two or more substances mingled together without becoming one new substance; air and wood are examples.",
+      "pages": {
+        "printed": [
+          39
+        ],
+        "pdf": [
+          75
+        ]
+      }
+    },
+    {
+      "term": "alloy",
+      "definition": "A mixture of a metal with other metals or elements, made to give useful properties, such as gold mixed with harder metals for coins.",
+      "pages": {
+        "printed": [
+          39
+        ],
+        "pdf": [
+          75
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L03-O1",
+      "title": "From Invisible Particles to a Sample You Can Hold",
+      "paragraphs": [
+        "One water molecule is far too small to see. Fill a cup, though, and you are holding trillions upon trillions of them: enough to see, pour and drink. Scientists usually use the word substance for a sample like that: matter with one fixed makeup, in an amount large enough to observe or measure.",
+        "Seeing it isn't required. Oxygen gas, carbon dioxide and methane are all substances even though they are invisible, because each has one fixed makeup and takes up space.",
+        "Many everyday materials are mixtures instead. Air is mostly nitrogen and oxygen with a little argon and carbon dioxide. Wood is a blend of cellulose, lignin and more. Most gold coins and jewelry mix gold with harder metals so they keep their shape.",
+        "Separate a mixture completely into its individual substances and each one is a pure substance, with its own fixed set of properties."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Pure substance or mixture?",
+        "alt": "Table with three columns: material, pure substance or mixture, and why. Water: pure substance, one fixed makeup, H₂O. Oxygen gas: pure substance, invisible but one fixed makeup, O₂. Air: mixture of nitrogen, oxygen, argon, carbon dioxide and more. Wood: mixture of cellulose, lignin and other substances. Gold coin made of an alloy: mixture of gold with harder metals.",
+        "columns": [
+          "Material",
+          "Pure substance or mixture?",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Water",
+            "Pure substance",
+            "One fixed makeup: H₂O"
+          ],
+          [
+            "Oxygen gas",
+            "Pure substance",
+            "Invisible, but one fixed makeup: O₂"
+          ],
+          [
+            "Air",
+            "Mixture",
+            "Nitrogen, oxygen, argon, carbon dioxide and more"
+          ],
+          [
+            "Wood",
+            "Mixture",
+            "Cellulose, lignin and other substances"
+          ],
+          [
+            "Gold coin (alloy)",
+            "Mixture",
+            "Gold mixed with harder metals"
+          ]
+        ]
+      },
+      "watchOut": "Plenty of things named after one material are really mixtures: steel beams are an alloy of iron with carbon and other elements, window glass is made from several ingredients, and modern U.S. pennies are mostly zinc with a thin copper coating. Also, 'chemical' simply means a substance; water and table salt are chemicals too.",
+      "pages": {
+        "printed": [
+          31,
+          32,
+          39
+        ],
+        "pdf": [
+          67,
+          68,
+          75
+        ]
+      }
+    },
+    {
+      "objectiveId": "L03-O2",
+      "title": "Clues That Stay Put",
+      "paragraphs": [
+        "Mass, volume and shape describe one particular object. A copper statue and a copper bead differ hugely in all three, so none of them tells you what the object is made of.",
+        "Other properties belong to the substance itself. Pure silver packs about 10.5 g into every cubic centimeter and melts near 960 °C, whether it is an earring or a bar, as long as conditions such as temperature and air pressure match. These are the clues a materials detective trusts.",
+        "Looks give quick clues but can mislead. Silver, platinum, palladium and aluminum are all gray and shiny. Gold's yellow color helps, but color on its own cannot prove what a metal is."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Which properties can identify a substance?",
+        "alt": "Table with three columns: property, whether it changes with sample size or shape, and whether it can help identify the substance. Mass: changes, cannot identify. Volume: changes, cannot identify. Shape: changes, cannot identify. Density: does not change, can identify. Melting point: does not change, can identify. Boiling point at the same air pressure: does not change, can identify.",
+        "columns": [
+          "Property",
+          "Changes with sample size or shape?",
+          "Can help identify the substance?"
+        ],
+        "rows": [
+          [
+            "Mass",
+            "Yes",
+            "No"
+          ],
+          [
+            "Volume",
+            "Yes",
+            "No"
+          ],
+          [
+            "Shape",
+            "Yes",
+            "No"
+          ],
+          [
+            "Density",
+            "No",
+            "Yes"
+          ],
+          [
+            "Melting point",
+            "No",
+            "Yes"
+          ],
+          [
+            "Boiling point (same air pressure)",
+            "No",
+            "Yes"
+          ]
+        ]
+      },
+      "watchOut": "A bigger sample takes more heat, and more time, to melt, but it melts at the same temperature as a small one. Don't mix up how much heating something needs with the temperature at which it changes.",
+      "pages": {
+        "printed": [
+          33,
+          34,
+          35
+        ],
+        "pdf": [
+          69,
+          70,
+          71
+        ]
+      }
+    },
+    {
+      "objectiveId": "L03-O3",
+      "title": "Density: Mass Packed into Space",
+      "paragraphs": [
+        "Density tells how much mass fits into each cubic centimeter: density = mass ÷ volume, so its units are grams per cubic centimeter (g/cm³).",
+        "Equal-size cubes make the comparison easy. A 1 cm³ cube of silver has about 10.5 g of mass, while a platinum cube the same size has about 21.5 g. Same volume, more mass, so platinum is denser.",
+        "A bigger object can still be made of a less dense material. A large silver bar outweighs a tiny platinum bead simply because it has far more volume.",
+        "Cut a sample in half and its mass and volume both halve, so its density stays the same. That is why density can point to a substance: a gray block with 135 g of mass in 50 cm³ works out to 2.7 g/cm³, which matches aluminum, not silver."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Densities of four gray, shiny metals",
+        "alt": "Bar chart of density in grams per cubic centimeter. Aluminum 2.7, silver 10.5, palladium 12.0, platinum 21.5. Platinum is about twice as dense as silver, and aluminum is the least dense.",
+        "yLabel": "Density (g/cm³)",
+        "bars": [
+          {
+            "label": "Aluminum",
+            "value": 2.7
+          },
+          {
+            "label": "Silver",
+            "value": 10.5
+          },
+          {
+            "label": "Palladium",
+            "value": 12.0
+          },
+          {
+            "label": "Platinum",
+            "value": 21.5
+          }
+        ]
+      },
+      "watchOut": "'Heavier' and 'denser' are different ideas. Compare densities by dividing mass by volume, or by using samples of equal volume, never by mass alone.",
+      "pages": {
+        "printed": [
+          34,
+          38
+        ],
+        "pdf": [
+          70,
+          74
+        ]
+      }
+    },
+    {
+      "objectiveId": "L03-O4",
+      "title": "Heat It, Dissolve It, Light It",
+      "paragraphs": [
+        "Melting point is the temperature where a solid becomes a liquid; boiling point is where a liquid boils into a gas. Silver (about 10.5 g/cm³) and palladium (about 12.0 g/cm³) have close densities, but silver melts near 960 °C and palladium near 1550 °C, so a melting test separates them clearly.",
+        "Boiling point depends on air pressure. Pure water boils at 100 °C at sea level but at about 90 °C high in the Colorado mountains, so reference tables list boiling points at normal sea-level pressure.",
+        "Solubility depends on the pair: what dissolves and what it dissolves in. Sugar dissolves in water and flour does not, so a spoonful in water tells two white powders apart. When something dissolves it hasn't vanished; its particles have spread out through the liquid.",
+        "Flammability is whether a substance burns. Magnesium burns with a dazzling white light, while water does not burn at all. Burning makes new substances (magnesium becomes white magnesium oxide), so flammability is a chemical property."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Four identifying tests",
+        "alt": "Table with three columns: test, what you look for, and whether the substance stays the same. Melting point: the temperature where the solid turns liquid; stays the same substance. Boiling point: the temperature where the liquid boils, at a stated air pressure; stays the same substance. Solubility: whether it dissolves in a named liquid; for true dissolving, such as sugar in water, it stays the same substance. Flammability: whether it burns; turns into new substances.",
+        "columns": [
+          "Test",
+          "What you look for",
+          "Same substance afterward?"
+        ],
+        "rows": [
+          [
+            "Melting point",
+            "Temperature where the solid turns liquid",
+            "Yes"
+          ],
+          [
+            "Boiling point",
+            "Temperature where the liquid boils, at a stated air pressure",
+            "Yes"
+          ],
+          [
+            "Solubility",
+            "Whether it dissolves in a named liquid",
+            "Yes, for true dissolving (sugar in water)"
+          ],
+          [
+            "Flammability",
+            "Whether it burns",
+            "No: new substances form"
+          ]
+        ]
+      },
+      "watchOut": "When a metal 'dissolves' in an acid, it is really reacting and turning into new substances, often with bubbles of gas. That is different from sugar dissolving in water, where the sugar stays sugar.",
+      "pages": {
+        "printed": [
+          35,
+          36,
+          37
+        ],
+        "pdf": [
+          71,
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "objectiveId": "L03-O5",
+      "title": "Case Closed: Identifying the Unknown",
+      "paragraphs": [
+        "One test rarely settles a case, because many substances share some properties. Scientists run several tests and compare every result with a table of known substances.",
+        "Take a gray ingot with no smell, a density of 2.7 g/cm³ and a melting point near 660 °C. Palladium is far denser (about 12.0 g/cm³) and melts near 1550 °C, so palladium is ruled out. Aluminum matches every result.",
+        "Close calls need a different test. Magnesium and aluminum melt only about 10 °C apart (measured without air, because hot magnesium catches fire), but their densities, about 1.7 and 2.7 g/cm³, are far apart.",
+        "Properties also guide design. Washable markers use ink that dissolves in water, many gold coins use gold alloys because pure gold is soft and dents easily, and early photographers burned magnesium for its brilliant light."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Reference table of known metals",
+        "alt": "Table with three columns: metal, density in grams per cubic centimeter, and melting point in degrees Celsius. Magnesium 1.7, about 650. Aluminum 2.7, about 660. Silver 10.5, about 960. Palladium 12.0, about 1550. Gold 19.3, about 1064. Platinum 21.5, about 1768.",
+        "columns": [
+          "Metal",
+          "Density (g/cm³)",
+          "Melting point (°C)"
+        ],
+        "rows": [
+          [
+            "Magnesium",
+            1.7,
+            "about 650"
+          ],
+          [
+            "Aluminum",
+            2.7,
+            "about 660"
+          ],
+          [
+            "Silver",
+            10.5,
+            "about 960"
+          ],
+          [
+            "Palladium",
+            12.0,
+            "about 1550"
+          ],
+          [
+            "Gold",
+            19.3,
+            "about 1064"
+          ],
+          [
+            "Platinum",
+            21.5,
+            "about 1768"
+          ]
+        ]
+      },
+      "watchOut": "The textbook's worked example calls the 2.7 g/cm³ sample 'too dense' to be silver, but it is actually far less dense than silver. A result rules a candidate out whenever it is clearly too high or too low.",
+      "pages": {
+        "printed": [
+          37,
+          38,
+          39
+        ],
+        "pdf": [
+          73,
+          74,
+          75
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L03-RF1",
+      "issue": "Key Science Concept, Test 2 result (rendered p. 38, checked at 250 dpi): after finding 135 g in 50 cm³ = 2.7 g/cm³, the book says the sample is 'too dense to be made of silver'. Silver is about 10.5 g/cm³ (the book's own p. 34), so the sample is far LESS dense than silver. The arithmetic (135 ÷ 50 = 2.7) and the conclusion (aluminum) are correct; only the direction word is wrong.",
+      "pages": {
+        "printed": [
+          34,
+          38
+        ],
+        "pdf": [
+          70,
+          74
+        ]
+      },
+      "resolution": "Game text says the sample is much less dense than silver, which rules silver out. Q26 is built on this ruling-out logic, and the O5 Science Explorer card names the textbook slip in its watch-out. No question repeats the 'too dense' wording. Since round 2, O5 paragraph 2 rules out palladium instead of silver, so the card walks through the same logic without giving away Q26's data.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Silver has a density of about 10.5 g/cm³ and platinum about 21.5 g/cm³."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept: Using Tests to Identify a Substance",
+          "supports": "The ingot sample has 135 g in 50 cm³, a density of 2.7 g/cm³, and is identified as aluminum."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF2",
+      "issue": "Sections 5 and the Key Science Concept (pp. 36, 38) call metals 'soluble' in acids: silver in nitric acid, platinum in aqua regia, and the aluminum ingot in hydrochloric, sulfuric and nitric acids. A metal that 'dissolves' in an acid is reacting and turning into new substances (the rendered p. 38 test tubes even show bubbles), which is not the same kind of dissolving as sugar in water. The aluminum-in-nitric-acid claim may also depend on acid strength; I could not open an authoritative source on that detail, so it is neither used nor corrected.",
+      "pages": {
+        "printed": [
+          36,
+          38
+        ],
+        "pdf": [
+          72,
+          74
+        ]
+      },
+      "resolution": "Solubility questions use only the book's physical-dissolving examples (sugar versus flour in water, marker inks in water and isopropyl alcohol). The acid tests are not used in any question, and the O4 card's watch-out explains that metals in acids react. No acid procedure appears anywhere in the game.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "Sugar dissolves in water and flour does not; permanent-marker ink dissolves in mineral oil or isopropyl alcohol but not in water; silver is described as soluble in nitric acid."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept, Test 3: Solubility Test",
+          "supports": "The metal is reported to dissolve in hydrochloric, sulfuric and nitric acids."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 4.2 Classifying Chemical Reactions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+          "accessed": "2026-10-14",
+          "supports": "Metals that 'dissolve' in acids are oxidized in single-displacement (redox) reactions that form new substances, for example Zn + 2HCl → ZnCl₂ + H₂."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Density, melting point and boiling point are physical properties; flammability is a chemical property; sugar dissolving in coffee is a physical change with no change in composition; mass and volume are extensive properties that depend on the amount of matter."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF3",
+      "issue": "Section 2 says identifying properties such as odor are shared by all samples and 'never change', and the Lesson Summary says they change only if the substance changes. Boiling point (and, slightly, density) depends on conditions: water boils at about 90 °C in high mountain towns instead of 100 °C. Odor is also a weak identifier: many substances, including the book's own ingot, have none, and smelling unknowns is not a safe general test.",
+      "pages": {
+        "printed": [
+          33,
+          35,
+          39
+        ],
+        "pdf": [
+          69,
+          71,
+          75
+        ]
+      },
+      "resolution": "Prompts state 'pure' samples 'under the same conditions' or 'at ordinary air pressure'. Q18 repairs the 'boiling point never changes' idea with the Leadville example. The glossary entry for boiling point names sea-level pressure. No question relies on odor as an identifier.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            33
+          ],
+          "pdfPages": [
+            69
+          ],
+          "locator": "Section 2. Properties",
+          "supports": "Some properties, such as odor, are described as shared by all objects of a substance and never changing."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Melting and boiling point do not depend on the amount of the substance."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "A liquid boils when its vapor pressure equals the surrounding pressure; the normal boiling point is measured at 1 atm; in Leadville, Colorado (elevation 10,200 ft, air pressure about 68 kPa) water boils at about 90 °C."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Density, melting point and boiling point are physical properties; flammability is a chemical property; sugar dissolving in coffee is a physical change with no change in composition; mass and volume are extensive properties that depend on the amount of matter."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF4",
+      "issue": "Several everyday objects are presented as single substances although they are mixtures or coated: the Introduction calls the building's iron and glass substances (the beams are steel, an alloy, and window glass has several ingredients; the text also switches between 'steel beams' and 'iron frames'); Section 2 says the Statue of Liberty and an old penny are both copper, but pennies are copper alloys or copper-plated zinc, and the rendered p. 33 photos show green surfaces formed by copper reacting with air. The penny detail is also dated: a science reviewer's web search on 2026-10-14 reported that the U.S. Mint struck its final circulating one-cent coin on 12 November 2025. The Mint's press release returned HTTP 403 when the reviser tried to open it, so it is not cited, and no game text relies on the date. In round 2 (2026-10-14) the second science reviewer's web search (dated 2026-10-17) found consistent reports, for example CoinNews and NBC, of a ceremonial final strike at the Philadelphia Mint on 12 November 2025, with pennies remaining legal tender. None of those outlets is on the guide's preferred list, so the date stays uncited.",
+      "pages": {
+        "printed": [
+          31,
+          33
+        ],
+        "pdf": [
+          67,
+          69
+        ]
+      },
+      "resolution": "The O1 card's watch-out names steel, glass and pennies as mixtures, and since round-1 review it says 'modern U.S. pennies' rather than 'today's pennies', so it makes no claim about current production. The same-substance comparison (Q05) uses an imagined pure-copper statue and bead and says so in its limitations. No question claims that a penny, steel or glass is a pure substance.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            31
+          ],
+          "pdfPages": [
+            67
+          ],
+          "locator": "Introduction",
+          "supports": "Steel beams, iron frames and glass are introduced as examples of substances."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            33
+          ],
+          "pdfPages": [
+            69
+          ],
+          "locator": "Section 2. Properties",
+          "supports": "The Statue of Liberty and an old penny are both described as made of copper."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 3.3 Molarity",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity",
+          "accessed": "2026-10-14",
+          "supports": "Steel is a mixture known as an alloy; the relative amounts of iron, carbon, nickel and other elements set its strength."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "A pure substance has a constant composition and every specimen has the same properties; air and gasoline are homogeneous mixtures; phone-screen glass is silica strengthened with added aluminum, sodium and potassium."
+        },
+        {
+          "type": "external",
+          "title": "What Coins Are Made Of (Coin Classroom)",
+          "publisher": "United States Mint",
+          "url": "https://kids.usmint.gov/coins-life/coin-composition",
+          "accessed": "2026-10-14",
+          "supports": "The penny is copper metal around an inner layer made mostly of zinc."
+        },
+        {
+          "type": "external",
+          "title": "In the name of Liberty: America's favorite lady dons some serious materials science",
+          "publisher": "The American Ceramic Society (Ceramic Tech Today)",
+          "url": "https://ceramics.org/ceramic-tech-today/in-the-name-of-liberty-americas-favorite-lady-dons-some-serious-materials-science/",
+          "accessed": "2026-10-14",
+          "supports": "The Statue of Liberty's green surface formed through decades of oxidation reactions of its copper with air and sea spray."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF5",
+      "issue": "Section 6's burning-splint paragraph says flammable gases 'will always ignite' and that a non-flammable gas may put the splint out. Ignition depends on how much flammable gas is mixed with air (hydrogen pops best at about 20–40% in air), and oxygen, which does not burn itself, makes a glowing splint relight.",
+      "pages": {
+        "printed": [
+          37
+        ],
+        "pdf": [
+          73
+        ]
+      },
+      "resolution": "Q22 describes a small amount of hydrogen already mixed with air and asks only which property the pop reveals. No question says flammable gases always ignite or uses 'puts the splint out' as an identifier. The game gives no gas-making or gas-testing procedure.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability",
+          "supports": "A lit splint near a small amount of hydrogen gives a small pop; flammability can help tell substances apart."
+        },
+        {
+          "type": "external",
+          "title": "Combustion of hydrogen in air",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/combustion-of-hydrogen-in-air/438.article",
+          "accessed": "2026-10-14",
+          "supports": "Hydrogen and air mixtures ignite with pops of varying intensity; the best pop comes from about 20–40% hydrogen by volume; burning hydrogen forms water."
+        },
+        {
+          "type": "external",
+          "title": "The preparation and properties of oxygen",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/the-preparation-and-properties-of-oxygen/396.article",
+          "accessed": "2026-10-14",
+          "supports": "A glowing splint relights in oxygen gas."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF6",
+      "issue": "Section 6 calls octane 'the main component of gasoline'. Gasoline is a blend of many petroleum-based liquids, and most U.S. gasoline is also about 10% ethanol; octane is one of many components, and 'octane rating' is a separate idea.",
+      "pages": {
+        "printed": [
+          37
+        ],
+        "pdf": [
+          73
+        ]
+      },
+      "resolution": "Gasoline and octane are not used in any question or card. Gasoline is mentioned only in this flag, as a mixture.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability",
+          "supports": "Octane is described as the main component of gasoline and burns when heated with oxygen gas."
+        },
+        {
+          "type": "external",
+          "title": "Gasoline explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/gasoline/",
+          "accessed": "2026-10-14",
+          "supports": "Finished motor gasoline is a blend of gasoline blendstocks, fuel ethanol (about 10% by volume in most U.S. gasoline) and additives, made from crude oil and other petroleum liquids."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "A pure substance has a constant composition and every specimen has the same properties; air and gasoline are homogeneous mixtures; phone-screen glass is silica strengthened with added aluminum, sodium and potassium."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF7",
+      "issue": "Number check for every value the game uses. Textbook values match PubChem within rounding: silver 10.5 g/cm³ and about 960 °C (PubChem 10.501, 961.78 °C); platinum about 21.5 (21.46); palladium 12.0 and about 1550 °C (12.0, about 1555 °C); aluminum 2.7 and 660 °C (2.70, 660.3 °C). The game adds magnesium (1.74 g/cm³, about 650 °C), gold (19.3 g/cm³, about 1064 °C) and platinum's melting point (about 1768 °C), which the textbook does not give.",
+      "pages": {
+        "printed": [
+          34,
+          35,
+          38
+        ],
+        "pdf": [
+          70,
+          71,
+          74
+        ]
+      },
+      "resolution": "Textbook values are used with 'about'. Magnesium, gold and platinum-melting-point values carry a PubChem record wherever they appear (Q07, Q17, Q24, Q25 and the O5 card table). PubChem melting points are listed in kelvin and were converted by subtracting 273.15.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density; Figure 3",
+          "supports": "Silver about 10.5 g/cm³ and platinum about 21.5 g/cm³."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Palladium 12.0 g/cm³; silver melts at about 960 °C and palladium at about 1550 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept: Using Tests to Identify a Substance",
+          "supports": "Aluminum has a density of 2.7 g/cm³ and a melting point of 660 °C."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        },
+        {
+          "type": "external",
+          "title": "PubChem element record for silver: Melting Point",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/element/47/JSON?heading=Melting+Point",
+          "accessed": "2026-10-14",
+          "supports": "Silver melts at 1234.93 K, which is 961.78 °C; this confirms the PubChem table lists melting points in kelvin."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF8",
+      "issue": "The lesson never defines physical versus chemical properties. Only the p. 37 caption calls flammability a chemical property, and the p. 31 standards box mentions 'physical and chemical properties'. A learner could think melting or dissolving makes a new substance.",
+      "pages": {
+        "printed": [
+          31,
+          37
+        ],
+        "pdf": [
+          67,
+          73
+        ]
+      },
+      "resolution": "Q23 sorts tests by whether the substance stays the same, using OpenStax for the physical-property side (density, melting point, dissolving sugar) and RSC for the burning products. The glossary defines 'chemical property', the textbook's term on p. 37, and, since round-1 review, 'physical property', which the textbook names only in the p. 31 standards box; that definition rests on OpenStax 1.3. Since round 2, Q29 also uses flammability to tell two lookalike wires apart; its white-powder product rests on RSC and the PubChem magnesium oxide record.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability, photo caption",
+          "supports": "Flammability is a chemical property of magnesium, which burns in air with a bright white flame."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Density, melting point and boiling point are physical properties; flammability is a chemical property; sugar dissolving in coffee is a physical change with no change in composition; mass and volume are extensive properties that depend on the amount of matter."
+        },
+        {
+          "type": "external",
+          "title": "The change in mass when magnesium burns",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/balanced-chemical-equations/the-change-in-mass-when-magnesium-burns/718.article",
+          "accessed": "2026-10-14",
+          "supports": "Magnesium burns with a bright white light and combines with oxygen to form magnesium oxide: 2Mg + O₂ → 2MgO."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF9",
+      "issue": "Section 1 (printed p. 32, checked on the 110 dpi render) says a cup of water holds 'billions of trillions of atoms'. That is too few by a factor of roughly 25 to 25,000, depending on how many billions are meant. A 250 mL cupful is about 250 g of water, or about 13.9 mol at about 18 g per mole, which is about 8.4 × 10²⁴ molecules and about 2.5 × 10²⁵ atoms: trillions of trillions. 'Billions of trillions' (10²¹ up to just under 10²⁴) fits anything from a small drop to about two teaspoons of water; OpenStax's 0.03 g drop holds about 10²¹ molecules. The same page's next sentence, about trillions of trillions of molecules, has the right scale.",
+      "pages": {
+        "printed": [
+          32
+        ],
+        "pdf": [
+          68
+        ]
+      },
+      "resolution": "Game text says 'trillions of trillions' or 'trillions upon trillions' of molecules: key idea 1, the O1 card, and, since round-1 review, Q02's explanation and evidence. No game text repeats 'billions of trillions'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            32
+          ],
+          "pdfPages": [
+            68
+          ],
+          "locator": "Section 1. Substances",
+          "supports": "A cup of water is said to hold billions of trillions of atoms, and trillions of trillions of molecules together make a sample you can see and handle."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 3.1 Formula Mass and the Mole Concept",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "accessed": "2026-10-14",
+          "supports": "One mole is 6.022 × 10²³ particles, and 1 mole of water has a mass of about 18 g; even a 0.03 g drop of water holds enough molecules to give each of about seven billion people more than 100 billion (about 10²¹ in all). From these values, a 250 g cupful (about 13.9 mol) works out to about 8.4 × 10²⁴ molecules."
+        }
+      ]
+    },
+    {
+      "id": "L03-RF10",
+      "issue": "Section 6 (p. 37) tells of a magnesium wire that burst into a bright white flame when a technician heated it to find its melting point. The game uses magnesium's melting point (about 650 °C, from PubChem) on the O5 card, in the O5 reference table and in Q25. Without a stated condition, a learner who read p. 37 could fairly object that hot magnesium in air burns instead of melting cleanly.",
+      "pages": {
+        "printed": [
+          37
+        ],
+        "pdf": [
+          73
+        ]
+      },
+      "resolution": "Every magnesium melting scenario states no-air conditions: Q25 says the strip was heated in argon gas so it cannot burn (in the prompt and in conditions), and O5 paragraph 3 says the comparison is measured without air. The O5 table lists the melting point only as a reference value. No question asks a learner to melt or burn magnesium, and no procedure is given.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability",
+          "supports": "A magnesium wire heated with a burner to identify it by its melting point burst into a bright white flame, because magnesium is flammable."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        },
+        {
+          "type": "external",
+          "title": "The change in mass when magnesium burns",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/balanced-chemical-equations/the-change-in-mass-when-magnesium-burns/718.article",
+          "accessed": "2026-10-14",
+          "supports": "Magnesium burns with a bright white light and combines with oxygen to form magnesium oxide: 2Mg + O₂ → 2MgO."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 18.12 Occurrence, Preparation, and Properties of the Noble Gases",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/18-12-occurrence-preparation-and-properties-of-the-noble-gases",
+          "accessed": "2026-10-14",
+          "supports": "Argon's chemical inertness makes it useful as a protective gas in light bulbs, and noble gases such as helium serve as an inert atmosphere for melting and welding metals that oxidize easily."
+        }
+      ]
+    }
+  ]
+}

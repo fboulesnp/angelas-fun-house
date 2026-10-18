@@ -1,0 +1,3836 @@
+{
+  "lessonId": "L03",
+  "questions": [
+    {
+      "id": "L03-Q01",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O1"
+      ],
+      "conceptTags": [
+        "substance",
+        "gases",
+        "invisible matter",
+        "chemical"
+      ],
+      "familyId": "L03-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Think about a glass of pure water, the oxygen gas you breathe in, and the carbon dioxide gas in car exhaust. Which statement about these three is true?",
+      "accessiblePrompt": "Think about three things: a glass of pure water; the oxygen gas you breathe in; and the carbon dioxide gas in car exhaust. Which statement about these three is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "All three are substances, because each has a single fixed makeup.",
+          "rationale": "Correct: each has one fixed makeup in an amount big enough to measure, and being invisible doesn't stop a gas from being a substance."
+        },
+        {
+          "id": "b",
+          "text": "Only the water is a substance, because a substance must be visible.",
+          "rationale": "Visibility isn't the test. Oxygen and carbon dioxide are invisible, yet each has one fixed makeup, so each is a substance."
+        },
+        {
+          "id": "c",
+          "text": "None of them are substances, because they are made of molecules.",
+          "rationale": "Substances are made of atoms or molecules; a large amount of one kind of molecule is exactly what a substance is."
+        },
+        {
+          "id": "e",
+          "text": "Only the two gases are substances, because water isn't a chemical.",
+          "rationale": "“Chemical” is simply another word for a substance; water, H₂O, is a chemical you drink every day."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A substance is matter with one fixed makeup, usually in an amount large enough to observe or measure. Pure water, oxygen gas and carbon dioxide each fit, even though only the water is visible. Gases are still matter: they take up space and have mass. “Chemical” is just another name for a substance, so water is a chemical too.",
+      "misconception": "Only things you can see can be substances.",
+      "hint": "Does a substance need to be visible, or does it need one fixed makeup?",
+      "followUpId": "L03-Q03",
+      "scope": {
+        "lessonId": "L03",
+        "section": "1. Substances",
+        "pages": {
+          "printed": [
+            31,
+            32
+          ],
+          "pdf": [
+            67,
+            68
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            32
+          ],
+          "pdfPages": [
+            68
+          ],
+          "locator": "Section 1. Substances",
+          "supports": "Oxygen gas, carbon dioxide from car exhaust and methane are substances even though they cannot be seen; water is a substance you can see."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            31
+          ],
+          "pdfPages": [
+            67
+          ],
+          "locator": "Introduction and Vocabulary",
+          "supports": "A substance is matter with a constant chemical composition and characteristics; water is one example."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            31,
+            32
+          ],
+          "pdfPages": [
+            67,
+            68
+          ],
+          "locator": "Introduction; Section 1. Substances",
+          "supports": "Water and table salt (sodium chloride) are chemicals that people drink and eat every day, and substances are often called chemicals."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 31-32. Carbon dioxide is named as the gas in exhaust, not the whole exhaust, because exhaust itself is a mixture. Round 1 (2026-10-14): Pedagogy fix: distractor d ('liquids are mixtures') replaced by the 'water isn't a chemical' misconception, new id e, so the Introduction's point that 'chemical' means a substance is now tested; p. 31-32 evidence added. Science lesson-level fix: scope now includes printed 31 / PDF 67, where the evidence already pointed. Round 2 (2026-10-14): Both reviewers found that 'a glass of water' conflicted with Q03's rule that water counts as pure only with nothing dissolved in it. The prompt and read-aloud prompt now say 'a glass of pure water', and a conditions line says nothing is dissolved in it. Pedagogy fix: key a now gives a reason, like every distractor. I wrote 'each has a single fixed makeup' rather than the reviewer's 'one fixed makeup', so the key is not the uniquely shortest choice. Science fix: the explanation now says a substance is 'usually' in an amount large enough to observe or measure (lesson-level finding: the textbook's p. 32 'usually' is a hedge, not part of the definition). Key, distractors and rationales unchanged. Verifier (2026-10-14): checked against the rendered pp. 31-32 (oxygen, car-exhaust carbon dioxide and methane are invisible substances; 'chemical' = substance). Key a is the single best answer; every distractor names a real misconception. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope.pages adds printed 31 / PDF 67 (lesson-level finding)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced by the water-isn't-a-chemical misconception (new id e); p. 31-32 evidence added"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'a glass of pure water' plus a nothing-dissolved condition; explanation hedged to 'usually' observable"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'pure water' in the prompt; key a now gives a reason and is no longer the shortest choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "The water has nothing dissolved in it."
+    },
+    {
+      "id": "L03-Q02",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O1"
+      ],
+      "conceptTags": [
+        "macroscopic",
+        "molecules",
+        "scale"
+      ],
+      "familyId": "L03-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "One water molecule is far too small to see, yet you can easily see the water in a cup. Which explanation fits best?",
+      "accessiblePrompt": "A single water molecule is far too small to see, but you can easily see the water in a cup. Which explanation fits best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each molecule swells to a visible size once enough of them collect.",
+          "rationale": "Molecules don't grow when they gather; each one stays tiny."
+        },
+        {
+          "id": "b",
+          "text": "So many molecules gather that together they form a visible sample.",
+          "rationale": "Correct: a visible sample is an enormous crowd of tiny particles."
+        },
+        {
+          "id": "e",
+          "text": "The molecules join into one giant molecule big enough to see.",
+          "rationale": "The molecules stay separate; a cupful is a huge crowd of separate tiny molecules, not one giant one."
+        },
+        {
+          "id": "d",
+          "text": "Single molecules are visible, but they move far too fast to notice.",
+          "rationale": "A single molecule is far below the size anyone can see, moving or not."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Atoms and molecules are far too small to see one at a time. A cupful of water holds trillions of trillions of water molecules, and together they make a macroscopic sample, one on the scale of everyday things. What you see belongs to that huge crowd, not to any one molecule.",
+      "misconception": "A sample is visible because its individual particles are big, grow when they gather, or merge into one giant particle.",
+      "hint": "Picture adding water molecules to an empty cup one at a time. As you add more, what changes: each molecule, or something else?",
+      "followUpId": "L03-Q05",
+      "scope": {
+        "lessonId": "L03",
+        "section": "1. Substances",
+        "pages": {
+          "printed": [
+            31,
+            32
+          ],
+          "pdf": [
+            67,
+            68
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            32
+          ],
+          "pdfPages": [
+            68
+          ],
+          "locator": "Section 1. Substances",
+          "supports": "When trillions of trillions of molecules come together, you can see and handle the sample."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            31
+          ],
+          "pdfPages": [
+            67
+          ],
+          "locator": "Introduction",
+          "supports": "Atoms and molecules are visible only at the atomic scale, but trillions together form samples that can be observed directly."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 3.1 Formula Mass and the Mole Concept",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+          "accessed": "2026-10-14",
+          "supports": "One mole is 6.022 × 10²³ particles, and 1 mole of water has a mass of about 18 g; even a 0.03 g drop of water holds enough molecules to give each of about seven billion people more than 100 billion (about 10²¹ in all). From these values, a 250 g cupful (about 13.9 mol) works out to about 8.4 × 10²⁴ molecules."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 31-32. Tests the micro-to-macro link stated in Section 1. Round 1 (2026-10-14): Science fix: the explanation and the first evidence line no longer repeat the textbook's 'billions of trillions of atoms' (p. 32), which is roughly 25 to 25,000 times too small for a cupful; they say 'trillions of trillions of water molecules' (L03-RF9, OpenStax 3.1). Pedagogy fix: the magnifying-cup distractor is replaced by the merge-into-one-giant-molecule misconception, new id e. Round 2 (2026-10-14): Pedagogy fix: the hint ('how many molecules fill a whole cup') pointed straight at the key, the only choice about numbers; it now pictures adding molecules one at a time. The science reviewer passed it. The round-1 note above now gives the RF9 shortfall as roughly 25 to 25,000 times, not 'about 10⁴' (science lesson-level finding on RF9). Verifier (2026-10-14): checked against the rendered pp. 31-32 and OpenStax 3.1 (re-opened: 6.022 × 10²³ per mole, about 18 g per mole of water, 0.03 g drop shared as more than 100 billion molecules each among about seven billion people). 'Trillions of trillions' is correct for a cupful. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and evidence now say trillions of trillions of molecules (L03-RF9)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: giant-molecule distractor (new id e) replaces the magnifying-cup choice; explanation figure corrected"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the number of molecules"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q03",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O1"
+      ],
+      "conceptTags": [
+        "pure substance",
+        "mixture",
+        "air",
+        "alloy",
+        "solution"
+      ],
+      "familyId": "L03-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each material as a pure substance or a mixture.",
+      "accessiblePrompt": "Sort each of these seven materials into one of two groups, pure substance or mixture. The materials are: air; wood; a coin made of a gold alloy; oxygen gas, O₂, made of pairs of oxygen atoms, with every other gas in air removed; water with nothing dissolved in it, H₂O, two hydrogen atoms and one oxygen atom; sodium chloride, the main ingredient of table salt; and salt water, which is sodium chloride dissolved in water.",
+      "answer": {
+        "i1": "mixture",
+        "i2": "mixture",
+        "i3": "mixture",
+        "i4": "pure",
+        "i5": "pure",
+        "i6": "pure",
+        "i7": "mixture"
+      },
+      "items": [
+        {
+          "id": "i1",
+          "text": "Air",
+          "rationale": "Air is nitrogen, oxygen, argon, carbon dioxide and other gases mingled together, so it is a mixture."
+        },
+        {
+          "id": "i2",
+          "text": "Wood",
+          "rationale": "Wood contains cellulose, lignin and other substances, so it is a mixture."
+        },
+        {
+          "id": "i3",
+          "text": "A coin made of a gold alloy",
+          "rationale": "An alloy is gold mixed with other metals, so the coin is a mixture."
+        },
+        {
+          "id": "i4",
+          "text": "Oxygen gas (O₂) with every other gas in air removed",
+          "rationale": "With all the other gases removed, only O₂ is left: one fixed makeup."
+        },
+        {
+          "id": "i5",
+          "text": "Water with nothing dissolved in it (H₂O)",
+          "rationale": "With nothing dissolved in it, the water is H₂O alone, one fixed makeup, so it is a pure substance."
+        },
+        {
+          "id": "i6",
+          "text": "Sodium chloride, the main ingredient of table salt",
+          "rationale": "Sodium chloride has one fixed makeup, sodium and chlorine in a 1 : 1 ratio in an extended structure, so it is a pure substance."
+        },
+        {
+          "id": "i7",
+          "text": "Salt water (sodium chloride dissolved in water)",
+          "rationale": "Two substances are mingled, and the amount of salt can vary, so salt water is a mixture even though each ingredient on its own is pure."
+        }
+      ],
+      "bins": [
+        {
+          "id": "pure",
+          "label": "Pure substance"
+        },
+        {
+          "id": "mixture",
+          "label": "Mixture"
+        }
+      ],
+      "explanation": "A pure substance has one fixed makeup, so every sample has the same properties. A mixture contains two or more substances whose amounts can vary. Separating air all the way into its individual gases gives nitrogen, oxygen, argon and others, and each of those is a pure substance. Salt water looks like one substance, but it is two substances mixed.",
+      "misconception": "Anything with a single everyday name, such as air or wood, must be one pure substance.",
+      "hint": "Ask whether each material is one kind of matter or several kinds mixed together.",
+      "followUpId": "L03-Q02",
+      "scope": {
+        "lessonId": "L03",
+        "section": "7. Mixtures",
+        "pages": {
+          "printed": [
+            31,
+            36,
+            39
+          ],
+          "pdf": [
+            67,
+            72,
+            75
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            39
+          ],
+          "pdfPages": [
+            75
+          ],
+          "locator": "Section 7. Mixtures",
+          "supports": "Air and wood are mixtures, most gold coins are gold alloys, and if air is separated into all of its component pieces, each one is a pure substance."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            31
+          ],
+          "pdfPages": [
+            67
+          ],
+          "locator": "Introduction",
+          "supports": "Sodium chloride is another name for table salt, and water is a substance."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "When one substance dissolves in another, it spreads through it and seems to disappear into it, as sugar does in water."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.2 Phases and Classification of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+          "accessed": "2026-10-17",
+          "supports": "A pure substance has a constant composition, and all specimens of it have the same makeup and properties; a homogeneous mixture, also called a solution, has a uniform composition and looks the same throughout, and a solution of salt in water and air are examples."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 39. Sodium chloride is described as an extended structure (brief guardrail). 'Oxygen gas separated from air' is treated as pure, as the textbook does for separated air components. Round 1 (2026-10-14): Science fix: i4 now says every other gas has been removed, because 'separated from air' can be partial (oxygen concentrators give about 90-95% O₂); conditions added. Both reviewers flagged 'Pure water' as cueing the 'Pure substance' bin. I used the science wording ('Water with nothing dissolved in it (H₂O)') rather than the pedagogy wording ('Distilled water'), because real distilled water still picks up dissolved gases from air, which would reopen the ambiguity just fixed in i4; the new wording removes the cue either way. My own matching change: i6 said 'the substance in table salt', and the word 'substance' also cued the bin, so it now says 'the main ingredient of table salt'. The explanation now says air is separated all the way (lesson-level fix to key idea 8). Answer key unchanged. Round 2 (2026-10-14): Pedagogy fix: every 'pure' item carried a formula, chemical name or purity qualifier while the 'mixture' items were plain everyday names, and five of the six materials copied the O1 Explorer table. Added i7 'Salt water (sodium chloride dissolved in water)', a mixture. It carries a chemical name yet belongs in the mixture bin, which breaks the cue and asks for transfer. The bins are now 3 pure and 4 mixture. The explanation adds one sentence, and scope and evidence add p. 36 (dissolving spreads one substance through another). I re-opened OpenStax 1.2 on 2026-10-17 (system clock): it names 'a solution of salt in water' as a homogeneous mixture, and its record was updated to say so. The key is otherwise unchanged. The science reviewer passed it. Verifier (2026-10-14): checked against the rendered pp. 31, 36 and 39 and OpenStax 1.2 (re-opened: pure substance has constant composition; 'a solution of salt in water' and air are homogeneous mixtures). Every item has one defensible bin under the stated condition; sodium chloride is described as an extended structure. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: items i4 and i5 reworded so each is clearly one substance; conditions added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'Pure water' cue removed (science wording used instead of 'Distilled water'; see notes); i6 'substance' cue removed"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: salt-water item i7 (mixture) added to break the name/formula cue and require transfer; p. 36 and OpenStax 1.2 support added"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Treat each named material as containing nothing else unless it says otherwise."
+    },
+    {
+      "id": "L03-Q04",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O1"
+      ],
+      "conceptTags": [
+        "alloy",
+        "mixture",
+        "gold"
+      ],
+      "familyId": "L03-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Pure gold is soft and dents easily, yet many gold coins stay hard enough to keep their stamped designs sharp through years of handling. What best explains this?",
+      "accessiblePrompt": "Pure gold is soft and dents easily. Yet many gold coins stay hard enough to keep their stamped designs sharp through years of handling. What best explains this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The coins are an alloy: gold mixed with harder metals.",
+          "rationale": "Correct: mixing harder metals into soft gold makes a mixture that keeps its shape better."
+        },
+        {
+          "id": "b",
+          "text": "Gold slowly hardens on its own as it ages.",
+          "rationale": "Pure gold doesn't turn hard just by getting old; hardness like this comes from harder metals mixed in."
+        },
+        {
+          "id": "c",
+          "text": "Coins are stamped from a harder kind of gold atom.",
+          "rationale": "There is no harder kind of gold atom; the hardness comes from other metals mixed in."
+        },
+        {
+          "id": "e",
+          "text": "Small pieces of gold are harder than big pieces of gold.",
+          "rationale": "The hardness of pure gold doesn't depend on the size of the piece; a coin-sized piece of pure gold is just as soft."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Most gold coins and jewelry are alloys, which are mixtures of gold with other metals. Gold on its own is so soft that it dents and wears easily, so harder metals are often mixed in. Because the coin is a mixture, its properties differ from those of pure gold. Size doesn't help either: a small piece of pure gold is just as soft as a big one.",
+      "misconception": "Anything called 'gold' is pure gold, so it must have pure gold's properties.",
+      "hint": "Not everything made with gold is only gold.",
+      "followUpId": "L03-Q01",
+      "scope": {
+        "lessonId": "L03",
+        "section": "7. Mixtures",
+        "pages": {
+          "printed": [
+            39
+          ],
+          "pdf": [
+            75
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            39
+          ],
+          "pdfPages": [
+            75
+          ],
+          "locator": "Section 7. Mixtures",
+          "supports": "Most gold coins and jewelry are gold alloys; harder metals are mixed with very soft gold to help it keep its shape."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 39. The 'bite test' from the textbook is not repeated. Round 1 (2026-10-14): Pedagogy fix: followUpId now L03-Q01, because Q28 no longer revisits alloys. My own matching change: the explanation no longer says pure gold is 'too soft to hold a crisp shape', in line with the science reviewer's lesson-level finding that some bullion coins are nearly pure gold. Round 2 (2026-10-14): Science fix: choice b's rationale no longer says gold's properties 'stay the same unless its makeup changes'. A metal's hardness also depends on how it is worked, and that absolute repeats the textbook claim flagged in L03-RF3. I used the science reviewer's wording without 'sitting in a chest for years', because the pedagogy fix removes the chest. Pedagogy fix: the stem no longer restages the textbook's p. 39 chest-of-coins question. Choice d ('soft only when warm') is replaced by a size-and-hardness distractor, new id e, tied to O2's size-independent properties. I lengthened e to '...than big pieces of gold' so that the key is neither the longest nor the shortest choice. The stem says 'through years of handling' because some nearly pure gold coins are made; pure gold's weakness is that it dents and wears easily. Key a and the follow-up are kept, and the explanation adds one sentence on size. Verifier (2026-10-14): checked against the rendered p. 39 (most gold coins and jewelry are alloys; harder metals help soft gold keep its shape). Key a unique; the 'years of handling' stem keeps it the single best answer even though some coins are nearly pure gold. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L03-Q01 (Q28 no longer revisits alloys)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale no longer claims properties change only when the makeup changes"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer restages the textbook's chest scene; implausible d replaced by a size-and-hardness distractor (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q05",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O2"
+      ],
+      "conceptTags": [
+        "property",
+        "mass",
+        "volume",
+        "density",
+        "melting point"
+      ],
+      "familyId": "L03-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "A giant statue and a tiny bead are both made of pure copper and sit side by side in the same room. Sort each property: is it different for the two objects, or the same for both?",
+      "accessiblePrompt": "A giant statue and a tiny bead are both made of pure copper. They sit side by side in the same room. Sort each property into one of two groups, different for the two objects or the same for both. The properties are: mass; volume; shape; density; melting point.",
+      "answer": {
+        "i1": "different",
+        "i2": "different",
+        "i3": "different",
+        "i4": "same",
+        "i5": "same"
+      },
+      "items": [
+        {
+          "id": "i1",
+          "text": "Mass",
+          "rationale": "The statue holds far more matter, so its mass is much larger."
+        },
+        {
+          "id": "i2",
+          "text": "Volume",
+          "rationale": "The statue takes up far more space."
+        },
+        {
+          "id": "i3",
+          "text": "Shape",
+          "rationale": "One is shaped like a person and the other like a bead; shape depends on how each object was made."
+        },
+        {
+          "id": "i4",
+          "text": "Density",
+          "rationale": "Both are pure copper, so each cubic centimeter has the same mass."
+        },
+        {
+          "id": "i5",
+          "text": "Melting point",
+          "rationale": "Pure copper melts at the same temperature no matter how big the piece is."
+        }
+      ],
+      "bins": [
+        {
+          "id": "different",
+          "label": "Different for statue and bead"
+        },
+        {
+          "id": "same",
+          "label": "Same for both"
+        }
+      ],
+      "conditions": "Both objects are pure copper at the same temperature and air pressure.",
+      "limitations": "Imagined pure-copper objects. The real Statue of Liberty has a green surface coating, and pennies are copper alloys or copper-plated zinc (see L03-RF4).",
+      "explanation": "Mass, volume and shape describe a particular object, so they can differ from one object to the next. Density and melting point belong to the substance itself, so every pure copper sample shares them under the same conditions. Only the second group can help identify what an object is made of.",
+      "misconception": "A bigger object has bigger values for every property, including density and melting point.",
+      "hint": "Which properties would change if you sawed the statue into pieces?",
+      "followUpId": "L03-Q10",
+      "scope": {
+        "lessonId": "L03",
+        "section": "2. Properties",
+        "pages": {
+          "printed": [
+            33,
+            34,
+            35
+          ],
+          "pdf": [
+            69,
+            70,
+            71
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            33
+          ],
+          "pdfPages": [
+            69
+          ],
+          "locator": "Section 2. Properties",
+          "supports": "Two copper objects differ in volume, mass and shape; these properties change and are not shared by all objects of a substance."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density does not depend on the shape or size of an object."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Melting point does not change with the amount you have."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 33-35. Uses imagined pure-copper objects because the textbook's statue and penny are not pure copper (L03-RF4). Round 1 (2026-10-14): Both reviewers passed it. The pedagogy reviewer noted that `limitations` is not shown to learners; nothing a learner needs sits only there. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered pp. 33-35. Cosmetic precision fix: the explanation said mass, volume and shape 'change with its size'; shape is specific to the object rather than set by its size, so it now says they 'can differ from one object to the next'. Key and items unchanged. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q06",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O2",
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "melting point",
+        "heat vs temperature",
+        "sample size"
+      ],
+      "familyId": "L03-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Mia says, “A huge block of pure silver would melt at a higher temperature than a small pure-silver earring, because it has so much more metal.” Which reply is best?",
+      "accessiblePrompt": "Mia says that a huge block of pure silver would melt at a higher temperature than a small pure-silver earring, because the block has so much more metal. Which reply is best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She's right: more metal always means a higher melting temperature.",
+          "rationale": "The amount of metal changes how much heating is needed, not the temperature at which silver melts."
+        },
+        {
+          "id": "b",
+          "text": "Both melt at the same temperature; the block just needs more heat.",
+          "rationale": "Correct: melting point belongs to silver itself, about 960 °C for a piece of any size, while the amount of heating needed grows with the amount of metal."
+        },
+        {
+          "id": "c",
+          "text": "The earring melts at a higher temperature, since small pieces hold heat.",
+          "rationale": "Size doesn't shift silver's melting temperature in either direction."
+        },
+        {
+          "id": "d",
+          "text": "Neither has a set melting point; metals just soften gradually.",
+          "rationale": "Pure silver melts at a definite temperature, about 960 °C, which is why melting point can identify it."
+        }
+      ],
+      "answer": "b",
+      "conditions": "Pure silver at ordinary air pressure.",
+      "explanation": "A melting point is the temperature where a solid becomes liquid, and it does not depend on how much you have. Silver melts at about 960 °C whether the piece is an earring or a giant block. The bigger block needs more energy, so it takes longer to heat and melt, but the temperature at which it melts is the same.",
+      "misconception": "Melting point depends on the amount of material, so more metal melts at a higher temperature.",
+      "hint": "Separate two ideas: the temperature at which melting happens, and how much heating it takes to get there.",
+      "followUpId": "L03-Q16",
+      "scope": {
+        "lessonId": "L03",
+        "section": "4. Melting and Boiling Point",
+        "pages": {
+          "printed": [
+            35,
+            38
+          ],
+          "pdf": [
+            71,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point, photo caption",
+          "supports": "All samples of silver, regardless of size, melt at about 960 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept, Test 4: Melting Point",
+          "supports": "A sample can take a long time to melt even though it melts at a definite temperature."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 35 and 38. Supports the brief guardrail that temperature and heat differ. Round 1 (2026-10-14): Science fix: the earring is now stated to be pure silver (ordinary silver earrings are usually sterling, which melts lower), and the scope adds printed 38 / PDF 74, which the evidence already cites. Round 2 (2026-10-14): Pedagogy fix: key b was the only choice with a number ('near 960 °C'). It now says 'at the same temperature' (same claim, id kept), and 960 °C stays in its rationale and in the explanation. I also dropped 'to melt fully' so that b is not the longest choice. The science reviewer passed it. Verifier (2026-10-14): checked against the rendered pp. 35 and 38 (all silver melts at about 960 °C regardless of size; a large sample takes a long time to melt). Separates heat needed from melting temperature, as the guardrails require. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: earring stated as pure silver; scope adds printed 38 / PDF 74"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key b no longer the only choice with a number"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q07",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O2",
+        "L03-O5"
+      ],
+      "conceptTags": [
+        "choosing a test",
+        "testing without damage",
+        "density",
+        "identifying a substance"
+      ],
+      "familyId": "L03-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A museum wants to know whether an old gray ring is silver or platinum, but the ring must not be damaged. Which test meets both needs?",
+      "accessiblePrompt": "A museum wants to know whether an old gray ring is made of silver or of platinum, but the ring must not be damaged in any way. Which test meets both needs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Find its density from its mass and volume.",
+          "rationale": "Correct: weighing the ring and measuring its volume leave it whole, and silver (about 10.5 g/cm³) and platinum (about 21.5 g/cm³) differ by about two times."
+        },
+        {
+          "id": "b",
+          "text": "Compare its color with a silver spoon.",
+          "rationale": "Comparing colors is harmless, but silver and platinum are both gray and shiny, so a match proves nothing."
+        },
+        {
+          "id": "e",
+          "text": "Melt it down and record its melting point.",
+          "rationale": "Melting points would tell them apart (silver near 960 °C, platinum near 1768 °C), but melting destroys the ring the museum wants to keep."
+        },
+        {
+          "id": "f",
+          "text": "Cut it in half and check the color inside.",
+          "rationale": "Cutting damages the ring, and both metals are gray inside too, so the color still wouldn't decide."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A good test has to fit the situation. Silver and platinum are both gray, so color can't decide, and melting or cutting the ring would ruin the very thing the museum wants to keep. Finding density needs only the ring's mass and volume, which leave it whole, and silver (about 10.5 g/cm³) and platinum (about 21.5 g/cm³) are far apart.",
+      "misconception": "Any test that can identify a metal is a good choice, even if it ruins the object.",
+      "hint": "Check each test against both needs: can it tell the metals apart, and does it leave the ring whole?",
+      "followUpId": "L03-Q25",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density; 4. Melting and Boiling Point; 5. Solubility",
+        "pages": {
+          "printed": [
+            34,
+            35,
+            36
+          ],
+          "pdf": [
+            70,
+            71,
+            72
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density; Figure 3",
+          "supports": "Many metals, including silver and platinum, are gray and shiny; density tells them apart, silver about 10.5 g/cm³ and platinum about 21.5 g/cm³."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Silver melts at about 960 °C, and a melting point is found by heating the metal until it melts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "A test that dissolves a piece of jewelry leaves you without the jewelry, and most people do not have a furnace hot enough to melt metal, so the test has to suit the situation."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 34. Covers the brief mission 'compare observations'. Round 1 (2026-10-14): Pedagogy fix: the stem asks which test, not which measurement, because density is calculated from two measurements. Round 2 (2026-10-14): Both reviewers asked for a fix. Science: 'look exactly alike' made the earrings' volumes equal, so weighing them (distractor c) would also decide, as in the textbook's own p. 34 earring example. Pedagogy: the item repeated Q05, Q08 and Q25, closely followed the p. 34 worked example, and left the p. 36 point that a test must not destroy the object untested. I applied the pedagogy rewrite (a museum ring that must not be damaged), which also removes the science problem: there is one ring, and mass alone is no longer a choice, so no distractor is defensible. The science reviewer's larger-earring version was not used, because it would keep the redundancy. Ids a (density) and b (color) keep their claims; the old c (mass) and d (shape) are gone; e (melt it) and f (cut it) are new. Difficulty is now 2 (was 1), and followUpId is now L03-Q25 (was L03-Q12, which is rejected). Platinum's melting point (about 1768 °C) comes from PubChem, not the textbook (L03-RF7). Re-checked against the rendered pp. 34 and 36. The question needs a fresh science check. Verifier (2026-10-14): checked against the rendered pp. 34-36 and PubChem (re-opened: Pt 21.46 g/cm³, melting point 2041.55 K = about 1768 °C; Ag 10.501, 1234.93 K). One ring and no mass-only choice, so density is the only choice that both decides and leaves the ring whole. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem asks which test, not which measurement"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: equal-size earring premise removed (resolved by the pedagogy rewrite: one ring, mass alone not offered)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a no-damage museum ring test (new ids e, f; follow-up L03-Q25)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "The ring is solid and made of one pure metal."
+    },
+    {
+      "id": "L03-Q08",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O2",
+        "L03-O5"
+      ],
+      "conceptTags": [
+        "color",
+        "observation",
+        "identifying a substance"
+      ],
+      "familyId": "L03-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Gold looks yellow and silver looks gray, so color can be a useful clue. Why can't color alone identify a metal?",
+      "accessiblePrompt": "Gold looks yellow and silver looks gray, so color can be a useful clue. Why can't color, by itself, identify a metal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many different metals share the same gray, shiny look.",
+          "rationale": "Correct: silver, platinum, palladium and aluminum all look gray and shiny, so color can't single one out."
+        },
+        {
+          "id": "b",
+          "text": "Color is not a property of matter at all.",
+          "rationale": "Color is a real property; the trouble is that many substances share the same color."
+        },
+        {
+          "id": "c",
+          "text": "A metal's color changes whenever the sample gets bigger.",
+          "rationale": "A bigger piece of a metal doesn't change color; size isn't the problem."
+        },
+        {
+          "id": "d",
+          "text": "Only properties measured with tools count as evidence.",
+          "rationale": "Careful observations made with your senses are real evidence; color just isn't enough on its own."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Color is a real property and can narrow the choices, but silver, platinum, palladium and aluminum all look gray and shiny. Different substances can share a color, so scientists add measurements such as density or melting point before naming a substance.",
+      "misconception": "If two samples look the same color, they must be the same substance.",
+      "hint": "Picture a gold ring, a silver ring and an aluminum ring side by side. Which could color pick out, and which could it mix up?",
+      "followUpId": "L03-Q25",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34,
+            38
+          ],
+          "pdf": [
+            70,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Gold and silver have distinct colors, but many metals are gray and shiny, such as silver and platinum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept, Test 1",
+          "supports": "The unknown ingot is shiny gray, so further tests were needed to identify it."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 34 and 38. Covers the brief rule that color alone cannot identify a substance. Round 2 (2026-10-14): Pedagogy fix: the hint asked a question whose answer was the key, and it referred to 'this lesson'. It now asks the learner to picture gold, silver and aluminum rings. The science reviewer passed it. Verifier (2026-10-14): checked against the rendered pp. 34 and 38 (many metals are gray and shiny; the ingot is shiny gray and needed further tests). Meets the brief's 'color alone cannot identify a substance' rule. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer answers itself or refers to 'this lesson'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q09",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "mass",
+        "volume"
+      ],
+      "familyId": "L03-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Two samples have the same volume, but Sample A has more mass than Sample B. Which sample is denser?",
+      "accessiblePrompt": "Two samples have the same volume. Sample A has more mass than Sample B. Which sample is denser?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sample A",
+          "rationale": "Correct: with equal volumes, more mass means more mass in each cubic centimeter."
+        },
+        {
+          "id": "b",
+          "text": "Sample B",
+          "rationale": "Sample B packs less mass into the same space, so it is less dense."
+        },
+        {
+          "id": "c",
+          "text": "Neither; equal volumes mean equal density",
+          "rationale": "Equal volume isn't enough; density compares mass with volume, and these masses differ."
+        },
+        {
+          "id": "d",
+          "text": "You can't tell without knowing their shapes",
+          "rationale": "Shape doesn't matter; density depends only on mass and volume."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Density = mass ÷ volume. When two volumes are equal, the sample with more mass gives the larger result, so Sample A is denser. This is the same idea as setting equal-size cubes of silver and platinum on a balance.",
+      "misconception": "Samples with the same volume must have the same density.",
+      "hint": "Use density = mass ÷ volume. The volumes are equal, so which part of the fraction is different?",
+      "followUpId": "L03-Q15",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34
+          ],
+          "pdf": [
+            70
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "If two objects have the same volume, the one with the higher density has more mass; density = mass / volume."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for Mystery Material Manor, polished. Drafted from rendered p. 34 (text and Figure 3). Round 1 (2026-10-14): Pedagogy fix: the hint no longer restates the answer, and followUpId now points to L03-Q15 (the mass-volume graph) instead of the rewritten, harder Q14. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): the brief's seed question; checked against the rendered p. 34 and Figure 3 (equal volumes, the denser one has more mass). Key a unique. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the answer; followUpId now L03-Q15"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q10",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "sample size",
+        "calculation"
+      ],
+      "familyId": "L03-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A metal block has a mass of 54 g and a volume of 20 cm³. You cut it into two equal halves. What is the density of one half, in g/cm³?",
+      "accessiblePrompt": "A metal block has a mass of 54 grams and a volume of 20 cubic centimeters. It is cut into two equal halves. What is the density of one half, in grams per cubic centimeter?",
+      "answer": 2.7,
+      "tolerance": 0.05,
+      "unit": "g/cm³",
+      "workedSolution": "Each half has 27 g and 10 cm³, so its density is 27 g ÷ 10 cm³ = 2.7 g/cm³, the same as the whole block (54 g ÷ 20 cm³ = 2.7 g/cm³).",
+      "conditions": "Both halves stay at the same temperature as the original block.",
+      "explanation": "Cutting a sample halves its mass and its volume together, so their ratio stays the same. Density belongs to the substance, not to the size of the piece, which is why a chip and a whole bar of the same metal share one density.",
+      "misconception": "Cutting a sample in half also cuts its density in half.",
+      "hint": "When you cut the block, what happens to its mass, and what happens to its volume?",
+      "followUpId": "L03-Q15",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34,
+            38
+          ],
+          "pdf": [
+            70,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density does not depend on the shape or size of an object; two samples of the same substance have the same density."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept: Using Tests to Identify a Substance",
+          "supports": "A density is found by dividing a measured mass by a measured volume: 135 g ÷ 50 cm³ = 2.7 g/cm³."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 34 and 38. Numbers are original (54 g, 20 cm³). Round 1 (2026-10-14): Pedagogy fix: the prompt no longer names aluminum or states the density, so typing back a given number no longer scores; the learner must find 2.7 g/cm³ and see that halving keeps it. Q24 no longer shares these numbers. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered pp. 34 and 38. 54 g ÷ 20 cm³ = 27 g ÷ 10 cm³ = 2.7 g/cm³; units, tolerance (0.05) and worked solution are clear; no answer is given in the stem. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt no longer names aluminum or gives the density; worked solution updated"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q11",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "mass",
+        "fair comparison"
+      ],
+      "familyId": "L03-F05",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "On a balance, a large block of silver outweighs a small block of platinum. Leo says this proves silver is denser than platinum. What is wrong with his reasoning?",
+      "accessiblePrompt": "On a balance, a large block of silver has more mass than a small block of platinum. Leo says this proves silver is denser than platinum. What is wrong with his reasoning?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing; the heavier block is always made of the denser metal.",
+          "rationale": "A heavier object can simply be bigger, so heavier doesn't mean denser."
+        },
+        {
+          "id": "b",
+          "text": "The blocks differ in size, so mass alone can't compare densities.",
+          "rationale": "Correct: to compare densities you need mass and volume together, or blocks of equal volume."
+        },
+        {
+          "id": "c",
+          "text": "Densities can be compared only for liquids, never for solid metals.",
+          "rationale": "Solids have densities too; silver's is about 10.5 g/cm³."
+        },
+        {
+          "id": "d",
+          "text": "A balance measures an object's volume, not its mass.",
+          "rationale": "A balance does measure mass; the missing information is each block's volume."
+        }
+      ],
+      "answer": "b",
+      "explanation": "To compare densities you need both mass and volume, or samples of equal volume. The silver block is heavier because it is much bigger. If the two blocks were the same size, the platinum one (about 21.5 g/cm³) would have about twice the mass of the silver one (about 10.5 g/cm³).",
+      "misconception": "A heavier object is always made of a denser material.",
+      "hint": "Besides the kind of metal, what else makes the silver block heavy?",
+      "followUpId": "L03-Q14",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34
+          ],
+          "pdf": [
+            70
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "A large block of silver will weigh more than a small block of platinum, but platinum is denser; same-size blocks show the difference."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 34. Misconception repair: heavier is not denser. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered p. 34 (a large silver block outweighs a small platinum block; equal-size blocks show platinum is denser). Key b unique. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q12",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3",
+        "L03-O5"
+      ],
+      "conceptTags": [
+        "density",
+        "calculation",
+        "identifying a substance"
+      ],
+      "familyId": "L03-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A gray ring has a mass of 31.5 g and a volume of 3.0 cm³. What is its density, in g/cm³?",
+      "accessiblePrompt": "A gray ring has a mass of 31.5 grams and a volume of 3.0 cubic centimeters. What is its density, in grams per cubic centimeter?",
+      "answer": 10.5,
+      "tolerance": 0.1,
+      "unit": "g/cm³",
+      "workedSolution": "Density = mass ÷ volume = 31.5 g ÷ 3.0 cm³ = 10.5 g/cm³. That matches silver's density of about 10.5 g/cm³.",
+      "limitations": "Assumes the ring is solid metal with no hollow space or stones.",
+      "explanation": "Divide the mass by the volume to find density. A result of 10.5 g/cm³ matches silver, though a careful scientist would back it up with a second test, because density alone can leave close calls.",
+      "misconception": "Density is found by multiplying mass and volume, or by subtracting one from the other.",
+      "hint": "Density tells how many grams are packed into each cubic centimeter.",
+      "followUpId": "L03-Q10",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34
+          ],
+          "pdf": [
+            70
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density = mass / volume, and silver has a density of about 10.5 g/cm³."
+        }
+      ],
+      "review": {
+        "status": "rejected",
+        "notes": "Drafted from rendered p. 34. Numbers are original. Round 2 (2026-10-14): REJECTED by the pedagogy review. It is a plain mass ÷ volume division, and Q10 (54 g ÷ 20 cm³) and Q24 (39 g ÷ 15 cm³) already require that same skill. Swapped numbers don't make a new question, and the density strand was already the bank's largest. The science reviewer passed it (the calculation is correct). I agree with the rejection. The replacement is L03-Q29 (flammability used to tell two substances apart, family F10). The followUpId moved from L03-Q24 to L03-Q10 only so that the validator's different-family rule still holds now that Q24 is in F06. Rejected questions never enter play.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: plain mass ÷ volume division already required by Q10 and Q24; slot given to a flammability item (L03-Q29)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q13",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "mass",
+        "calculation"
+      ],
+      "familyId": "L03-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "Palladium has a density of about 12.0 g/cm³. What is the mass of a 4.0 cm³ cube of palladium, in grams?",
+      "accessiblePrompt": "Palladium has a density of about 12.0 grams per cubic centimeter. What is the mass of a cube of palladium with a volume of 4.0 cubic centimeters, in grams?",
+      "answer": 48,
+      "tolerance": 0.5,
+      "unit": "g",
+      "workedSolution": "Density tells the mass of each cubic centimeter: 12.0 g. Mass = density × volume = 12.0 g/cm³ × 4.0 cm³ = 48 g.",
+      "explanation": "If each cubic centimeter of palladium has 12.0 g of mass, four cubic centimeters have four times as much, 48 g. Rearranging density = mass ÷ volume gives mass = density × volume.",
+      "misconception": "To find mass from density, you divide the density by the volume.",
+      "hint": "How many grams are in each cubic centimeter, and how many cubic centimeters are there?",
+      "followUpId": "L03-Q10",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34,
+            35
+          ],
+          "pdf": [
+            70,
+            71
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Palladium has a density of 12.0 g/cm³."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density = mass / volume."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 34-35. Rearranged-formula item, distinct from Q12 (divide) and Q10 (ratio unchanged by cutting). Round 1 (2026-10-14): Pedagogy fix: followUpId now L03-Q10 (density calculation) instead of Q17, a melting-point order item. Round 2 (2026-10-14): both reviewers passed it; no change. Family F06 now holds Q13 and Q24, after Q12's rejection. Verifier (2026-10-14): checked against the rendered pp. 34-35 (palladium 12.0 g/cm³; density = mass / volume). 12.0 g/cm³ × 4.0 cm³ = 48 g; tolerance 0.5 g is clear. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L03-Q10"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q14",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "equal mass",
+        "volume",
+        "comparison"
+      ],
+      "familyId": "L03-F07",
+      "category": "application",
+      "difficulty": 3,
+      "type": "order",
+      "prompt": "Four blocks each have a mass of exactly 100 g: one each of aluminum, silver, palladium and platinum. Using the density table, order the blocks from smallest volume to largest volume.",
+      "accessiblePrompt": "Four blocks each have a mass of exactly 100 grams: one each of aluminum, silver, palladium and platinum. Their densities are: aluminum, 2.7 grams per cubic centimeter; silver, 10.5; palladium, 12.0; platinum, 21.5. Order the blocks from smallest volume to largest volume.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Densities of four metals",
+        "alt": "Table of density in grams per cubic centimeter: aluminum 2.7, silver 10.5, palladium 12.0, platinum 21.5.",
+        "columns": [
+          "Metal",
+          "Density (g/cm³)"
+        ],
+        "rows": [
+          [
+            "Aluminum",
+            2.7
+          ],
+          [
+            "Silver",
+            10.5
+          ],
+          [
+            "Palladium",
+            12.0
+          ],
+          [
+            "Platinum",
+            21.5
+          ]
+        ]
+      },
+      "answer": [
+        "i6",
+        "i8",
+        "i7",
+        "i5"
+      ],
+      "items": [
+        {
+          "id": "i5",
+          "text": "Aluminum block",
+          "rationale": "100 g ÷ 2.7 g/cm³ ≈ 37 cm³: aluminum packs the least mass into each cubic centimeter, so it needs the most space."
+        },
+        {
+          "id": "i6",
+          "text": "Platinum block",
+          "rationale": "100 g ÷ 21.5 g/cm³ ≈ 4.7 cm³, the smallest block."
+        },
+        {
+          "id": "i7",
+          "text": "Silver block",
+          "rationale": "100 g ÷ 10.5 g/cm³ ≈ 9.5 cm³, third."
+        },
+        {
+          "id": "i8",
+          "text": "Palladium block",
+          "rationale": "100 g ÷ 12.0 g/cm³ ≈ 8.3 cm³, second."
+        }
+      ],
+      "ends": [
+        "Smallest volume",
+        "Largest volume"
+      ],
+      "explanation": "Volume = mass ÷ density, so when the masses are equal, the densest metal makes the smallest block. Platinum reaches 100 g in only about 4.7 cm³, palladium in about 8.3 cm³, silver in about 9.5 cm³ and aluminum in about 37 cm³.",
+      "misconception": "Blocks with the same mass take up the same space, or the denser block is the bigger one.",
+      "hint": "If each cubic centimeter holds more grams, do you need more or fewer cubic centimeters to reach 100 g?",
+      "followUpId": "L03-Q13",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34,
+            35,
+            38
+          ],
+          "pdf": [
+            70,
+            71,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density; Figure 3",
+          "supports": "Silver is about 10.5 g/cm³ and platinum about 21.5 g/cm³; density = mass / volume."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Palladium has a density of 12.0 g/cm³."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept",
+          "supports": "Aluminum has a density of 2.7 g/cm³."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 34, 35, 38 as an equal-volume mass order. Round 1 (2026-10-14): rewritten by the pedagogy review as an equal-mass item ordered by volume, because the draft was Q09 run backwards and the inverse relationship (equal mass, so the denser block is smaller) was tested nowhere; new item ids i5-i8; difficulty 3. All four volumes differ (about 4.7, 8.3, 9.5 and 37 cm³), so only one order is defensible. The science reviewer passed the earlier version. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): fresh science check of the round-1 rewrite against the rendered pp. 34, 35 and 38: 100 g ÷ 21.5 = 4.65, ÷ 12.0 = 8.33, ÷ 10.5 = 9.52, ÷ 2.7 = 37.0 cm³, so the only defensible order is platinum, palladium, silver, aluminum. Read-aloud prompt gives every value. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as an equal-mass item ordered by volume (new ids i5-i8); difficulty 3"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q15",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "density",
+        "graph",
+        "model"
+      ],
+      "familyId": "L03-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "The graph plots mass against volume for samples of two substances, X and Y. Which statements does the graph support? Select all that apply.",
+      "accessiblePrompt": "A graph shows mass in grams against volume in cubic centimeters for samples of two substances. Substance X: 1 cubic centimeter has 2.7 grams, 2 have 5.4 grams, and 4 have 10.8 grams. Substance Y: 1 cubic centimeter has 10.5 grams, 2 have 21 grams, and 4 have 42 grams. Which statements does the graph support? Select all that apply.",
+      "diagram": {
+        "kind": "curve",
+        "caption": "Mass and volume of samples of X and Y",
+        "alt": "Line graph of mass in grams against volume in cubic centimeters. Substance X: 0 cm³ has 0 g, 1 cm³ has 2.7 g, 2 cm³ has 5.4 g, 4 cm³ has 10.8 g. Substance Y: 0 cm³ has 0 g, 1 cm³ has 10.5 g, 2 cm³ has 21 g, 4 cm³ has 42 g. Both lines are straight and start at zero; Y's line is steeper.",
+        "xLabel": "Volume (cm³)",
+        "yLabel": "Mass (g)",
+        "series": [
+          {
+            "label": "Substance X",
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                2.7
+              ],
+              [
+                2,
+                5.4
+              ],
+              [
+                4,
+                10.8
+              ]
+            ]
+          },
+          {
+            "label": "Substance Y",
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                10.5
+              ],
+              [
+                2,
+                21
+              ],
+              [
+                4,
+                42
+              ]
+            ]
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Y has more mass in each cm³ than X, so Y is denser.",
+          "rationale": "Correct: Y has 10.5 g in every cm³ and X has 2.7 g, so Y is denser."
+        },
+        {
+          "id": "b",
+          "text": "Doubling the volume of a sample of X doubles its mass.",
+          "rationale": "Correct: 2 cm³ of X has 5.4 g, twice the 2.7 g in 1 cm³."
+        },
+        {
+          "id": "c",
+          "text": "Larger samples of X are denser than smaller samples of X.",
+          "rationale": "X has 2.7 g in each cm³ at every size, so its density never changes."
+        },
+        {
+          "id": "d",
+          "text": "A 4 cm³ sample of X is denser than a 1 cm³ sample of Y.",
+          "rationale": "The 4 cm³ X sample has slightly more mass (10.8 g versus 10.5 g), but its density is still 2.7 g/cm³, far below Y's 10.5 g/cm³."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "limitations": "Invented data chosen to match aluminum (X) and silver (Y).",
+      "explanation": "For each substance, mass rises in step with volume, so mass ÷ volume stays constant: 2.7 g/cm³ for X and 10.5 g/cm³ for Y. A steeper line means more mass in each cubic centimeter, so Y is denser. The 4 cm³ sample of X has a little more mass than 1 cm³ of Y only because it is four times bigger.",
+      "misconception": "A mass–volume line that climbs as volume grows means the density is growing too.",
+      "hint": "Work out mass ÷ volume for a few points on each line.",
+      "followUpId": "L03-Q13",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density",
+        "pages": {
+          "printed": [
+            34
+          ],
+          "pdf": [
+            70
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density = mass / volume and does not depend on the size of the sample; a larger block can weigh more without being denser."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Model-interpretation item drafted from rendered p. 34. Two of four correct; scored all-or-nothing. Round 2 (2026-10-14): Pedagogy fix: the misconception repeated Q11's ('heavier means denser'). It now names the graph-reading error that distractor c targets. The followUpId is now L03-Q13 (was L03-Q12, which is rejected). Prompt, choices and key unchanged. The science reviewer passed it. Verifier (2026-10-14): checked against the rendered p. 34. Graph data give 2.7 and 10.5 g/cm³ at every point; keys a and b are both supported and c and d are both false. Prompt ends 'Select all that apply.'; 2 of 4 correct. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: misconception now names the graph-reading error; followUpId L03-Q13"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q16",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "boiling point",
+        "identifying a substance",
+        "conditions"
+      ],
+      "familyId": "L03-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two clear, colorless liquids look exactly alike, and both are pure. At the same sea-level air pressure, Liquid 1 starts to boil at 100 °C and Liquid 2 at 82 °C. What can you conclude?",
+      "accessiblePrompt": "Two clear, colorless liquids look exactly alike, and both are pure. At the same sea-level air pressure, Liquid 1 starts to boil at 100 degrees Celsius and Liquid 2 starts to boil at 82 degrees Celsius. What can you conclude?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Different substances, because their boiling points differ.",
+          "rationale": "Correct: at the same air pressure, every sample of one pure substance boils at the same temperature, so an 18 °C gap means two different substances."
+        },
+        {
+          "id": "i",
+          "text": "You can't tell; an 18 °C gap could just be measuring error.",
+          "rationale": "A careful boiling-point reading may be off by a degree or two, not by 18 °C, so the gap is real."
+        },
+        {
+          "id": "g",
+          "text": "The same substance; Liquid 2 was just a smaller sample.",
+          "rationale": "The amount of liquid doesn't change the temperature at which a pure liquid boils."
+        },
+        {
+          "id": "h",
+          "text": "The same substance; Liquid 2 was just heated faster.",
+          "rationale": "Faster heating reaches the boiling point sooner, but it doesn't change the boiling point."
+        }
+      ],
+      "answer": "e",
+      "explanation": "At the same air pressure, every pure sample of a substance boils at one temperature, however big the sample is and however fast it is heated. These two liquids boil 18 °C apart, so they must be different substances even though they look identical. That is why boiling point, measured at a stated pressure, can help identify a liquid.",
+      "misconception": "Boiling temperature depends on how much liquid there is or how fast it is heated.",
+      "hint": "Which of these could actually change the temperature at which a pure liquid boils?",
+      "followUpId": "L03-Q06",
+      "scope": {
+        "lessonId": "L03",
+        "section": "4. Melting and Boiling Point",
+        "pages": {
+          "printed": [
+            35
+          ],
+          "pdf": [
+            71
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Boiling point is the temperature at which a substance changes from liquid to gas; it does not depend on the amount you have, and scientists use it to tell substances apart."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "A liquid's boiling point is the temperature at which its vapor pressure equals the pressure of its surroundings, and the normal boiling point is the boiling point at 1 atm (101.3 kPa); so boiling points are compared at one stated pressure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 35 as a silver/palladium melting-point test-choice item. Round 1 (2026-10-14): rewritten by the pedagogy review as a boiling-point identification item (new ids e-h), because the draft mirrored Q25, its key was the only choice with numbers, and two distractors were not real misconceptions; boiling point as an identifier was otherwise untested. The silver/palladium example stays on the O4 Explorer card. The two liquids are invented and not named; the pure and same-pressure conditions are in the prompt and in conditions. The science reviewer passed the earlier version. Round 2 (2026-10-14): Pedagogy fix: choice f (salt dissolved in Liquid 2) was ruled out by the stem's 'both are pure', so it tested reading, not science. It is replaced by a measuring-error choice, new id i, which keeps the balance of one 'different', one 'can't tell' and two 'same'. I wrote i as '...could just be measuring error' so that the key is not the longest choice. Its rationale says a careful reading 'may be off by a degree or two', not 'at most', to avoid an absolute. Key e, conditions and explanation unchanged. The science reviewer passed it. Verifier (2026-10-14): fresh science check of the round-1 rewrite against the rendered p. 35 and OpenStax 10.3 (re-opened: normal boiling point is the boiling point at 1 atm). Pure liquids at the same pressure, 18 °C apart, so key e is the single best answer. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a boiling-point identification item (new ids e-h)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-contradicted distractor f replaced by a measuring-error choice (new id i)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Both liquids are pure and are tested at the same air pressure."
+    },
+    {
+      "id": "L03-Q17",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "melting point",
+        "data table",
+        "prediction",
+        "sample size"
+      ],
+      "familyId": "L03-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A furnace slowly heats a tray holding four pure metal samples of very different sizes: a large aluminum block, a medium silver bar, a small gold cube and a tiny palladium bead. Using the table, put them in the order they would start to melt as the temperature rises.",
+      "accessiblePrompt": "A furnace slowly heats a tray holding four pure metal samples of very different sizes: a large aluminum block, a medium silver bar, a small gold cube, and a tiny palladium bead. Their melting points are: aluminum, about 660 degrees Celsius; silver, about 960; gold, about 1064; palladium, about 1550. Put the samples in the order they would start to melt as the temperature rises.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Melting points of four metals",
+        "alt": "Table of melting points in degrees Celsius: aluminum about 660, silver about 960, gold about 1064, palladium about 1550.",
+        "columns": [
+          "Metal",
+          "Melting point (°C)"
+        ],
+        "rows": [
+          [
+            "Aluminum",
+            "about 660"
+          ],
+          [
+            "Silver",
+            "about 960"
+          ],
+          [
+            "Gold",
+            "about 1064"
+          ],
+          [
+            "Palladium",
+            "about 1550"
+          ]
+        ]
+      },
+      "answer": [
+        "i3",
+        "i4",
+        "i1",
+        "i2"
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "text": "Small gold cube",
+          "rationale": "Gold melts near 1064 °C, so it melts third, after the bigger silver bar."
+        },
+        {
+          "id": "i2",
+          "text": "Tiny palladium bead",
+          "rationale": "Palladium melts near 1550 °C, the highest, so it melts last even though it is the smallest piece."
+        },
+        {
+          "id": "i3",
+          "text": "Large aluminum block",
+          "rationale": "Aluminum melts near 660 °C, the lowest, so it melts first even though it is the biggest piece."
+        },
+        {
+          "id": "i4",
+          "text": "Medium silver bar",
+          "rationale": "Silver melts near 960 °C, so it melts second, whatever the bar's size."
+        }
+      ],
+      "ends": [
+        "Melts first",
+        "Melts last"
+      ],
+      "conditions": "Pure metals heated slowly and evenly at ordinary air pressure, so every sample stays at the furnace temperature.",
+      "explanation": "As the furnace warms, each metal stays solid until the temperature reaches its own melting point. The lowest melting point is reached first: aluminum near 660 °C, then silver near 960 °C, gold near 1064 °C, and finally palladium near 1550 °C. Here the biggest piece melts first and the tiniest last, because the size of a sample doesn't change its melting temperature.",
+      "misconception": "All metals melt at about the same temperature, or the first to melt is simply the smallest piece.",
+      "hint": "Which melting temperature does a rising thermometer reach first?",
+      "followUpId": "L03-Q06",
+      "scope": {
+        "lessonId": "L03",
+        "section": "4. Melting and Boiling Point",
+        "pages": {
+          "printed": [
+            35,
+            38
+          ],
+          "pdf": [
+            71,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Silver melts at about 960 °C and palladium at about 1550 °C; melting points can be compared with a chart of known values."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept",
+          "supports": "Aluminum melts at about 660 °C."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 35 and 38. Gold's melting point is not in the textbook; it comes from PubChem (1337.33 K). All four values differ, so one order is defensible. Round 1 (2026-10-14): The pedagogy reviewer's optional idea of difficulty 1 was not applied: the item also asks the learner to see that melting order follows melting point, not sample size, so it stays at 2. Round 2 (2026-10-14): Pedagogy fix: all four samples were 'small', so the stated misconception (the smallest piece melts first) could never come up, and the round-1 note's claim that the item tested size independence was not true of the prompt. The samples now differ in size, and the key order (aluminum, silver, gold, palladium) is the exact reverse of a smallest-first order: the largest block melts first and the tiniest bead last. Item ids are kept; texts and rationales now name the sizes. Conditions say the heating is slow and even, so every sample stays at the furnace temperature. No coin is used, so nothing contradicts Q04. Melting points unchanged. The science reviewer passed it. Verifier (2026-10-14): fresh science check of the round-2 rewrite against the rendered pp. 35 and 38 and PubChem (re-opened: Au 1337.33 K = about 1064 °C, Al 933.44 K = 660.3 °C, Ag 961.78 °C, Pd 1828.05 K = about 1555 °C). All four values differ widely, so one order is defensible, and the size mix makes the size-first misconception testable. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: samples now differ in size (largest melts first, tiniest last); conditions say heating is slow and even"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q18",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4",
+        "L03-O2"
+      ],
+      "conceptTags": [
+        "boiling point",
+        "air pressure",
+        "conditions"
+      ],
+      "familyId": "L03-F08",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In Leadville, Colorado, about 3,100 m (10,200 ft) above sea level, pure water boils at about 90 °C instead of 100 °C. What does this show?",
+      "accessiblePrompt": "In the mountain town of Leadville, Colorado, about 3,100 meters, or 10,200 feet, above sea level, pure water boils at about 90 degrees Celsius instead of 100. What does this show?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The water there must have some other substance mixed in.",
+          "rationale": "The water is pure; the lower boiling temperature comes from lower air pressure, not from anything mixed in."
+        },
+        {
+          "id": "b",
+          "text": "Boiling points must be compared at the same air pressure.",
+          "rationale": "Correct: lower air pressure lowers the boiling point, so tables list boiling points at normal sea-level pressure."
+        },
+        {
+          "id": "c",
+          "text": "Boiling point is useless for identifying any substance at all.",
+          "rationale": "It is still a useful identifier when results are compared under the same conditions."
+        },
+        {
+          "id": "d",
+          "text": "Water molecules turn into a different substance up high.",
+          "rationale": "The molecules are still H₂O; only the air pressure around them changed."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Water boils when its vapor can push back against the air pressing down on it. High in the mountains the air pressure is lower, so water boils at a lower temperature. It is still pure water, which is why reference tables give a normal boiling point measured at sea-level pressure.",
+      "misconception": "A substance's boiling point never changes, so any different boiling temperature means a different substance.",
+      "hint": "What is different about the air high on a mountain?",
+      "followUpId": "L03-Q05",
+      "scope": {
+        "lessonId": "L03",
+        "section": "4. Melting and Boiling Point",
+        "pages": {
+          "printed": [
+            35,
+            39
+          ],
+          "pdf": [
+            71,
+            75
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Boiling point is the temperature at which a liquid changes to a gas and can be used to identify a substance."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            39
+          ],
+          "pdfPages": [
+            75
+          ],
+          "locator": "Lesson Summary",
+          "supports": "The summary says identifying properties change only if the substance changes, which needs the 'same conditions' qualifier."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "A liquid boils when its vapor pressure equals the surrounding pressure; the normal boiling point is measured at 1 atm; in Leadville, Colorado (elevation 10,200 ft, air pressure about 68 kPa) water boils at about 90 °C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the 'never changes' oversimplification (L03-RF3) with OpenStax Example 10.6 (Leadville, about 68 kPa, about 90 °C). Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered pp. 35 and 39 and OpenStax 10.3 (re-opened: Leadville, elevation 10,200 ft, typical pressure 68 kPa, water boils at about 90 °C). 10,200 ft is about 3,100 m. Key b unique. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q19",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "solubility",
+        "observation",
+        "white powders"
+      ],
+      "familyId": "L03-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A baker's jar has lost its label. She stirs a spoonful of its white powder into water, and lumps form and settle instead of disappearing. Is the jar more likely to hold flour or powdered sugar?",
+      "accessiblePrompt": "A baker's jar has lost its label. She stirs a spoonful of its white powder into water, and lumps form and settle instead of disappearing. Is the jar more likely to hold flour or powdered sugar?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flour, because flour does not dissolve in water.",
+          "rationale": "Correct: flour is not soluble in water, so it stays as visible clumps."
+        },
+        {
+          "id": "b",
+          "text": "Powdered sugar, because lumps show it dissolving.",
+          "rationale": "A dissolving solid seems to disappear into the water; lumps show the powder is not dissolving."
+        },
+        {
+          "id": "c",
+          "text": "Powdered sugar, because sugar won't dissolve in water.",
+          "rationale": "Sugar is soluble in water, so sugar would have seemed to vanish."
+        },
+        {
+          "id": "d",
+          "text": "Either one, since white powders can't be told apart.",
+          "rationale": "Their solubility in water differs, which is exactly what tells them apart."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sugar is soluble in water: stirred in, it spreads out among the water molecules and seems to vanish. Flour is not soluble in water, so it stays in visible lumps. A property the two powders don't share makes a good identifying test.",
+      "misconception": "Lumps or cloudiness mean a powder is dissolving.",
+      "hint": "What does a solid look like when it dissolves in water?",
+      "followUpId": "L03-Q27",
+      "scope": {
+        "lessonId": "L03",
+        "section": "5. Solubility",
+        "pages": {
+          "printed": [
+            36
+          ],
+          "pdf": [
+            72
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "Powdered sugar dissolves in water and seems to disappear; flour does not dissolve and forms white clumps."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 36. Kitchen observation only; no procedure beyond stirring a food into water. Round 1 (2026-10-14): Pedagogy fix: the stem no longer retells the textbook's unlabeled-jar and 'little white clumps' wording, and a condition says the powdered sugar is pure sugar (store-bought powdered sugar often contains cornstarch, which clouds water). Choice b says 'lumps' to match; key unchanged. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered p. 36 (sugar dissolves in water; flour forms clumps). The pure-sugar condition removes the cornstarch ambiguity; key a unique. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem reworded away from the textbook's jar example; pure-sugar condition added"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Assume the powdered sugar is pure sugar with nothing added."
+    },
+    {
+      "id": "L03-Q20",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "solubility",
+        "solvent",
+        "evidence"
+      ],
+      "familyId": "L03-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Plain water won't wash permanent-marker ink off a whiteboard, but isopropyl alcohol wipes it right off. Which conclusions does this evidence support? Select all that apply.",
+      "accessiblePrompt": "Plain water won't wash permanent-marker ink off a whiteboard, but isopropyl alcohol, also called rubbing alcohol, wipes it right off. Which conclusions does this evidence support? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Permanent-marker ink is not soluble in plain water.",
+          "rationale": "Correct: water doesn't remove it, so it doesn't dissolve in water."
+        },
+        {
+          "id": "e",
+          "text": "Whether the ink dissolves depends on the liquid.",
+          "rationale": "Correct: the same ink stays put in water but dissolves in isopropyl alcohol, so the result depends on the liquid as well as the ink."
+        },
+        {
+          "id": "c",
+          "text": "Permanent-marker ink cannot dissolve in any liquid.",
+          "rationale": "The alcohol result shows it does dissolve in at least one liquid."
+        },
+        {
+          "id": "f",
+          "text": "Isopropyl alcohol will dissolve any kind of ink.",
+          "rationale": "Only one ink was tested, and one result can't show what happens to every ink."
+        }
+      ],
+      "answer": [
+        "a",
+        "e"
+      ],
+      "explanation": "Solubility describes a pair: how well one material dissolves in another. Permanent-marker ink doesn't dissolve in water but does dissolve in isopropyl alcohol, so whether it dissolves depends on the liquid. One result about one ink also says nothing about every other ink, so report solubility by naming both the material and the liquid.",
+      "misconception": "One solubility result tells you how a material acts in every liquid, or how a liquid acts on every material.",
+      "hint": "Solubility always involves a pair. What is being dissolved, and in what, each time?",
+      "followUpId": "L03-Q27",
+      "scope": {
+        "lessonId": "L03",
+        "section": "5. Solubility",
+        "pages": {
+          "printed": [
+            36
+          ],
+          "pdf": [
+            72
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "Water-soluble marker ink dissolves in water; permanent-marker ink does not, but it dissolves in mineral oil or isopropyl alcohol."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 36. Two of four correct; scored all-or-nothing. Round 2 (2026-10-14): Pedagogy fix: the two keys restated the stem, and the stem gave away Q27's answer (water rinses washable ink). The stem now covers only permanent-marker ink on a whiteboard. Choice b is replaced by new id e ('Whether the ink dissolves depends on the liquid'), and d by new id f ('Isopropyl alcohol will dissolve any kind of ink'). Choice c is shortened and a now says 'plain water'; both keep their claims and ids, and neither key is the uniquely shortest choice. The misconception now names over-generalizing from one result. It says 'material' rather than 'substance', because ink is a mixture (science lesson-level finding on key idea 5), and the hint says 'a pair' for the same reason. The explanation adds that one result about one ink says nothing about every ink. followUpId stays L03-Q27. The science reviewer passed it. Verifier (2026-10-14): fresh science check of the round-2 rewrite against the rendered p. 36 (permanent-marker ink is not soluble in water but dissolves in isopropyl alcohol or mineral oil). Keys a and e are supported; c is contradicted by the alcohol result and f over-generalizes from one ink. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer gives away Q27; keys now need inference (new ids e, f)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q21",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4",
+        "L03-O1"
+      ],
+      "conceptTags": [
+        "dissolving",
+        "solubility",
+        "conservation",
+        "mixture",
+        "dissolving vs melting"
+      ],
+      "familyId": "L03-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sugar stirred into water seems to disappear. What has actually happened to the sugar?",
+      "accessiblePrompt": "Sugar stirred into water seems to disappear. What has actually happened to the sugar?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It has been destroyed, so it no longer exists at all.",
+          "rationale": "Dissolving doesn't destroy matter; the sugar is still there in the water."
+        },
+        {
+          "id": "b",
+          "text": "Its particles have spread out among the water particles.",
+          "rationale": "Correct: the sugar is still sugar, now spread through the water as a mixture."
+        },
+        {
+          "id": "e",
+          "text": "It has melted into a liquid, the way ice melts.",
+          "rationale": "Melting is a solid turning into its own liquid when heated; dissolving spreads sugar's particles through the water without turning the sugar into liquid sugar."
+        },
+        {
+          "id": "d",
+          "text": "It has sunk and is hiding somewhere at the bottom of the glass.",
+          "rationale": "Undissolved sugar at the bottom would still be visible; dissolved sugar is spread through all the water."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Dissolving spreads a substance's particles out through another substance, so the pieces become too small and scattered to see. The sugar is still sugar and still has mass; it is now part of a sugar-water mixture. That is why dissolving sugar is a physical change: the sugar keeps its identity. It hasn't melted either, because melting turns a solid into its own liquid when it is heated.",
+      "misconception": "Something that dissolves has disappeared, stopped existing, or melted.",
+      "hint": "Seeming to disappear isn't the same as being gone.",
+      "followUpId": "L03-Q03",
+      "scope": {
+        "lessonId": "L03",
+        "section": "5. Solubility",
+        "pages": {
+          "printed": [
+            36
+          ],
+          "pdf": [
+            72
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "When a substance dissolves, it seems to disappear into the second substance; sugar dissolves in water."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Density, melting point and boiling point are physical properties; flammability is a chemical property; sugar dissolving in coffee is a physical change with no change in composition; mass and volume are extensive properties that depend on the amount of matter."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 36; 'seems to disappear' is repaired with OpenStax 1.3 (dissolving sugar is a physical change). Round 1 (2026-10-14): Both reviewers asked to fix choice b's dangling possessive ('the water's'). I used the science wording ('among the water particles'), which keeps the particle picture and avoids claiming the spread is even at once; the pedagogy wording ('evenly through the water') says the same thing. Pedagogy fix: choice c ('changed into more water molecules') is replaced by the dissolving-vs-melting misconception, new id e. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered p. 36 and OpenStax 1.3 (re-opened: sugar dissolving in coffee is a physical change). Key b unique; the melting distractor is a real mix-up. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b no longer ends on a dangling possessive"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: melting-vs-dissolving distractor (new id e) replaces choice c; choice b reworded (science wording used)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q22",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "flammability",
+        "splint test",
+        "gases"
+      ],
+      "familyId": "L03-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A lit wooden splint is brought near a test tube holding a small amount of hydrogen gas mixed with air. The gas makes a quick, sharp “pop.” Which property is this test checking?",
+      "accessiblePrompt": "A lit wooden splint is brought near a test tube that holds a small amount of hydrogen gas mixed with air. The gas makes a quick, sharp pop sound. Which property is this test checking?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flammability",
+          "rationale": "Correct: the pop shows the gas burns."
+        },
+        {
+          "id": "b",
+          "text": "Solubility",
+          "rationale": "Solubility is about dissolving in another substance; nothing dissolves here."
+        },
+        {
+          "id": "c",
+          "text": "Density",
+          "rationale": "Density compares mass and volume, and the splint measures neither."
+        },
+        {
+          "id": "d",
+          "text": "Melting point",
+          "rationale": "Melting point is about a solid turning liquid; hydrogen is already a gas."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Flammability describes whether a substance burns. A small amount of hydrogen mixed with air burns so quickly near a flame that it makes a little pop, and the burning turns hydrogen and oxygen into water. Because you can only see it as new substances form, flammability is a chemical property.",
+      "misconception": "Any test that uses a flame must be measuring a melting point.",
+      "hint": "What did the gas do when the flame came close?",
+      "followUpId": "L03-Q28",
+      "scope": {
+        "lessonId": "L03",
+        "section": "6. Flammability",
+        "pages": {
+          "printed": [
+            37
+          ],
+          "pdf": [
+            73
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability",
+          "supports": "Holding a lit splint near a small amount of hydrogen gas makes a small popping sound; flammability can identify a substance."
+        },
+        {
+          "type": "external",
+          "title": "Combustion of hydrogen in air",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/combustion-of-hydrogen-in-air/438.article",
+          "accessed": "2026-10-14",
+          "supports": "Hydrogen and air mixtures ignite with pops of varying intensity; the best pop comes from about 20–40% hydrogen by volume; burning hydrogen forms water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 37. Hydrogen is described as already mixed with air (L03-RF5); no gas-making procedure is given. Round 1 (2026-10-14): Pedagogy fix: the stem no longer says the gas 'burns', which named the keyed property; the explanation still teaches that the pop is hydrogen burning. Round 2 (2026-10-14): both reviewers passed it; no change. Family F10 now also holds the replacement L03-Q29. Verifier (2026-10-14): checked against the rendered p. 37 and RSC 'Combustion of hydrogen in air' (re-opened: hydrogen-air mixtures pop, best at about 20-40% hydrogen; product is water vapor). The stem describes, never instructs; key a unique. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer says the gas burns"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q23",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4"
+      ],
+      "conceptTags": [
+        "chemical property",
+        "physical property",
+        "new substances"
+      ],
+      "familyId": "L03-F10",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "classify",
+      "prompt": "Sort each test by what happens to the substance being tested: does it stay the same substance, or does it turn into new substances?",
+      "accessiblePrompt": "Sort each test into one of two groups: the substance stays the same substance, or it turns into new substances. The tests are: finding a silver earring's density from its mass and volume; melting a silver bar in a furnace; stirring sugar into water until it dissolves; burning a magnesium ribbon, which leaves a white powder; and popping a little hydrogen gas with a lit splint.",
+      "answer": {
+        "i1": "same",
+        "i2": "same",
+        "i3": "same",
+        "i4": "new",
+        "i5": "new"
+      },
+      "items": [
+        {
+          "id": "i1",
+          "text": "Finding a silver earring's density from its mass and volume",
+          "rationale": "Measuring mass and volume leaves the earring exactly as it was."
+        },
+        {
+          "id": "i2",
+          "text": "Melting a silver bar in a furnace",
+          "rationale": "Liquid silver is still silver; only its state changed."
+        },
+        {
+          "id": "i3",
+          "text": "Stirring sugar into water until it dissolves",
+          "rationale": "Dissolved sugar is still sugar, spread through the water."
+        },
+        {
+          "id": "i4",
+          "text": "Burning a magnesium ribbon, which leaves a white powder",
+          "rationale": "The white powder is magnesium oxide, a new substance formed with oxygen."
+        },
+        {
+          "id": "i5",
+          "text": "Popping a little hydrogen gas with a lit splint",
+          "rationale": "Hydrogen and oxygen become water, a new substance."
+        }
+      ],
+      "bins": [
+        {
+          "id": "same",
+          "label": "Stays the same substance"
+        },
+        {
+          "id": "new",
+          "label": "Turns into new substances"
+        }
+      ],
+      "explanation": "Density, melting point and solubility in water can be measured while the substance keeps its identity: melted silver is still silver, and dissolved sugar is still sugar. Flammability shows up only as a substance burns into something new, such as magnesium becoming magnesium oxide or hydrogen becoming water. That is what makes flammability a chemical property.",
+      "misconception": "Any test that changes how a substance looks, such as melting or dissolving, makes a new substance.",
+      "hint": "After the test, could you still call the material by its old name?",
+      "followUpId": "L03-Q21",
+      "scope": {
+        "lessonId": "L03",
+        "section": "6. Flammability",
+        "pages": {
+          "printed": [
+            35,
+            36,
+            37
+          ],
+          "pdf": [
+            71,
+            72,
+            73
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability, photo caption",
+          "supports": "Flammability is a chemical property of magnesium, which burns in air with a bright white flame."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Silver melts at about 960 °C; melting point is a property used to identify a substance."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "Sugar dissolves in water."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Density, melting point and boiling point are physical properties; flammability is a chemical property; sugar dissolving in coffee is a physical change with no change in composition; mass and volume are extensive properties that depend on the amount of matter."
+        },
+        {
+          "type": "external",
+          "title": "The change in mass when magnesium burns",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/balanced-chemical-equations/the-change-in-mass-when-magnesium-burns/718.article",
+          "accessed": "2026-10-14",
+          "supports": "Magnesium burns with a bright white light and combines with oxygen to form magnesium oxide: 2Mg + O₂ → 2MgO."
+        },
+        {
+          "type": "external",
+          "title": "Combustion of hydrogen in air",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/combustion-of-hydrogen-in-air/438.article",
+          "accessed": "2026-10-14",
+          "supports": "Hydrogen and air mixtures ignite with pops of varying intensity; the best pop comes from about 20–40% hydrogen by volume; burning hydrogen forms water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "The physical/chemical split goes beyond the lesson text (L03-RF8), so OpenStax 1.3 and RSC sources carry it. Round 2 (2026-10-14): Pedagogy fix: i2 ('...into liquid silver') kept the name 'silver', which is exactly what the hint asks the learner to check, and i5 ('...which forms water') stated that a new substance forms. i2 is now 'Melting a silver bar in a furnace' and i5 'Popping a little hydrogen gas with a lit splint'. i4 keeps 'which leaves a white powder', an observation the learner must interpret. Rationales, bins, key and explanation unchanged. The science reviewer passed it. Verifier (2026-10-14): checked against the rendered pp. 35-37, OpenStax 1.3 (re-opened: density, melting and boiling points are physical properties; flammability is a chemical property) and RSC (re-opened: 2Mg + O₂ → 2MgO; white product). Each item has one defensible bin. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: items i2 and i5 no longer name their bin"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q24",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O5",
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "identifying a substance",
+        "density",
+        "data table",
+        "measurement error"
+      ],
+      "familyId": "L03-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A student measures a gray metal sample: 39 g in 15 cm³. Which metal in the table is it most likely to be?",
+      "accessiblePrompt": "A student measures a gray metal sample and finds a mass of 39 grams and a volume of 15 cubic centimeters. A table gives these densities in grams per cubic centimeter: magnesium 1.7; aluminum 2.7; silver 10.5; platinum 21.5. Which metal is the sample most likely to be?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Densities of four gray metals",
+        "alt": "Table of density in grams per cubic centimeter: magnesium 1.7, aluminum 2.7, silver 10.5, platinum 21.5.",
+        "columns": [
+          "Metal",
+          "Density (g/cm³)"
+        ],
+        "rows": [
+          [
+            "Magnesium",
+            1.7
+          ],
+          [
+            "Aluminum",
+            2.7
+          ],
+          [
+            "Silver",
+            10.5
+          ],
+          [
+            "Platinum",
+            21.5
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Magnesium",
+          "rationale": "Magnesium is 1.7 g/cm³, far below the sample's 2.6 g/cm³."
+        },
+        {
+          "id": "b",
+          "text": "Aluminum",
+          "rationale": "Correct: 39 g ÷ 15 cm³ = 2.6 g/cm³; aluminum's 2.7 g/cm³ is the only value within a small measuring error."
+        },
+        {
+          "id": "c",
+          "text": "Silver",
+          "rationale": "Silver is 10.5 g/cm³, about four times this sample's 2.6 g/cm³."
+        },
+        {
+          "id": "d",
+          "text": "Platinum",
+          "rationale": "Platinum is 21.5 g/cm³, about eight times this sample's 2.6 g/cm³."
+        }
+      ],
+      "answer": "b",
+      "explanation": "First turn the measurements into a density: 39 g ÷ 15 cm³ = 2.6 g/cm³. No metal in the table is exactly 2.6, but aluminum's 2.7 g/cm³ is within a small measuring error, while every other value is far away. A second test, such as melting point (aluminum melts near 660 °C), would make the identification stronger.",
+      "misconception": "A sample can be identified only when its measured value exactly matches a table value.",
+      "hint": "Turn the mass and volume into one number, then compare it with every value in the table.",
+      "followUpId": "L03-Q26",
+      "scope": {
+        "lessonId": "L03",
+        "section": "Key Science Concept: Using Tests to Identify a Substance",
+        "pages": {
+          "printed": [
+            34,
+            38
+          ],
+          "pdf": [
+            70,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept: Using Tests to Identify a Substance",
+          "supports": "Measured properties are compared with a table of known substances to identify a sample; aluminum has a density of 2.7 g/cm³ and melts at about 660 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density = mass / volume, and silver and platinum densities are given."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 34 and 38. Magnesium's density is from PubChem (1.74 g/cm³), not the textbook. Round 1 (2026-10-14): the reviewers proposed different fixes. The science reviewer wanted new numbers (81 g / 30 cm³) because the draft reused Q10's 54 g / 20 cm³; the pedagogy reviewer wanted a near-but-not-exact reading (52 g / 20 cm³) because the draft duplicated Q12. I used the pedagogy version, which fixes both, but with 39 g / 15 cm³ (2.6 g/cm³) so that no number is shared with Q10, which was the science reviewer's concern. Choices and key (b, aluminum) unchanged; rationales recomputed against 2.6 g/cm³. Round 2 (2026-10-14): Pedagogy fix (routing only): familyId L03-F11 → L03-F06, so that F06 (density calculations, now Q13 and Q24) survives Q12's rejection. Q24's core step, turning one mass and volume into a density, fits F06. followUpId L03-Q13 → L03-Q26, because Q13 is now in the same family. Text, choices and key unchanged. The science reviewer passed it. Verifier (2026-10-14): fresh science check against the rendered pp. 34 and 38 and PubChem (Mg 1.74 g/cm³). 39 g ÷ 15 cm³ = 2.6 g/cm³; only aluminum (2.7) lies within a small measuring error, as the conditions state. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: numbers no longer reuse Q10's 54 g / 20 cm³ (39 g / 15 cm³ used; see notes)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a near-but-not-exact match with a measuring-error condition (39 g / 15 cm³ instead of 52 g / 20 cm³; see notes)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: family L03-F11 → L03-F06; followUpId L03-Q26"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "The sample is one of the four metals in the table, and real measurements carry a small error."
+    },
+    {
+      "id": "L03-Q25",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O5"
+      ],
+      "conceptTags": [
+        "multiple tests",
+        "choosing a test",
+        "density",
+        "melting point"
+      ],
+      "familyId": "L03-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Heated in argon gas (so it can't burn), a thin gray metal strip melts at about 655 °C. The table lists magnesium (melts near 650 °C; 1.7 g/cm³) and aluminum (near 660 °C; 2.7 g/cm³). Which next step would best decide between them?",
+      "accessiblePrompt": "A thin gray metal strip is heated in argon gas, so it can't burn, and it melts at about 655 degrees Celsius. A table lists magnesium, which melts near 650 degrees and has a density of 1.7 grams per cubic centimeter, and aluminum, which melts near 660 degrees and has a density of 2.7. Which next step would best decide between them?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Measure the strip's density.",
+          "rationale": "Correct: 1.7 versus 2.7 g/cm³ is a large, easy-to-measure gap."
+        },
+        {
+          "id": "b",
+          "text": "Look closely at its color again.",
+          "rationale": "Both metals are silvery gray, so another look adds nothing."
+        },
+        {
+          "id": "c",
+          "text": "Weigh the strip on a balance.",
+          "rationale": "Mass alone depends on the strip's size; you'd also need its volume."
+        },
+        {
+          "id": "d",
+          "text": "Melt the strip a second time.",
+          "rationale": "Melting it again with the same equipment would likely give the same in-between reading; a property on which the two metals differ widely settles the case more surely."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When two candidates give nearly the same result on one test, choose a test where they differ a lot. Magnesium and aluminum melt only about 10 °C apart, but aluminum is about 1.6 times as dense as magnesium. Measuring mass and volume to find density settles the case.",
+      "misconception": "Repeating the same test, or looking more carefully, is enough to identify a substance.",
+      "hint": "On which property are the two metals farthest apart?",
+      "followUpId": "L03-Q08",
+      "scope": {
+        "lessonId": "L03",
+        "section": "6. Flammability",
+        "pages": {
+          "printed": [
+            37,
+            38
+          ],
+          "pdf": [
+            73,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability",
+          "supports": "Many substances have similar properties and cannot be identified by one test, so scientists perform several tests and compare the results; a magnesium wire heated to find its melting point burst into a bright white flame."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept",
+          "supports": "Aluminum has a density of 2.7 g/cm³ and melts at about 660 °C."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 18.12 Occurrence, Preparation, and Properties of the Noble Gases",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/18-12-occurrence-preparation-and-properties-of-the-noble-gases",
+          "accessed": "2026-10-14",
+          "supports": "Argon's chemical inertness makes it useful as a protective gas in light bulbs, and noble gases such as helium serve as an inert atmosphere for melting and welding metals that oxidize easily."
+        },
+        {
+          "type": "external",
+          "title": "The change in mass when magnesium burns",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/balanced-chemical-equations/the-change-in-mass-when-magnesium-burns/718.article",
+          "accessed": "2026-10-14",
+          "supports": "Magnesium burns with a bright white light and combines with oxygen to form magnesium oxide: 2Mg + O₂ → 2MgO."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Magnesium data from PubChem (1.74 g/cm³, 923 K = about 650 °C). A flammability test could also separate them but is not offered as a choice, so one best answer remains. Round 1 (2026-10-14): Science fix: the strip is heated in argon, because p. 37 shows a magnesium wire bursting into flame when heated in air to find its melting point, so a clean melt in air would itself argue against magnesium (L03-RF10); conditions and limitations added; choice d's rationale no longer claims a melting test can't separate values 10 °C apart, only that repeating it adds little. OpenStax 18.12 (argon's chemical inertness) and RSC (burning magnesium combines with oxygen) support the condition. Pedagogy fix: followUpId now L03-Q08, because Q16 is now a boiling-point item. Round 2 (2026-10-14): both reviewers passed it; no change. Family F11 now holds Q25 and Q26 (Q24 moved to F06). Verifier (2026-10-14): checked against the rendered pp. 37-38, PubChem (Mg 923 K = about 650 °C; Al 660.3 °C; 2.70 ÷ 1.74 ≈ 1.6), OpenStax 18.12 (re-opened: argon's chemical inertness; the inert-atmosphere-for-melting sentence names helium, and the record says so) and RSC. The argon condition removes the p. 37 burning conflict; key a unique. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: melting done in argon so magnesium cannot burn (L03-RF10); choice d rationale no longer overclaims"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L03-Q08"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Melting point measured in unreactive argon gas with no air, so the metal cannot burn.",
+      "limitations": "In air, hot magnesium tends to catch fire near its melting point (see p. 37)."
+    },
+    {
+      "id": "L03-Q26",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O5",
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "evidence",
+        "ruling out",
+        "density",
+        "melting point"
+      ],
+      "familyId": "L03-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "An unknown gray ingot is shiny, has no odor, has a density of 2.7 g/cm³ and melts at about 660 °C. Silver is also shiny gray with no odor, but it is about 10.5 g/cm³ and melts near 960 °C. Which results rule out silver? Select all that apply.",
+      "accessiblePrompt": "An unknown gray ingot is shiny, has no odor, has a density of 2.7 grams per cubic centimeter, and melts at about 660 degrees Celsius. Silver is also shiny gray with no odor, but its density is about 10.5 grams per cubic centimeter and it melts near 960 degrees. Which results rule out silver? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The density of 2.7 g/cm³",
+          "rationale": "Correct: that is far less dense than silver's 10.5 g/cm³, so the ingot can't be silver."
+        },
+        {
+          "id": "b",
+          "text": "The melting point of about 660 °C",
+          "rationale": "Correct: silver would still be solid at 660 °C; it melts near 960 °C."
+        },
+        {
+          "id": "c",
+          "text": "The ingot's shiny gray color",
+          "rationale": "Silver is also shiny gray, so color fits silver and can't rule it out."
+        },
+        {
+          "id": "d",
+          "text": "The ingot having no odor of any kind",
+          "rationale": "Silver has no odor either, so this result doesn't separate them."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A result rules out a candidate only when it disagrees with that candidate's known property. The ingot is much less dense than silver, and it melts about 300 °C lower. Its color and lack of odor match silver, so they can't rule it out; together, the measurements point to aluminum.",
+      "misconception": "A result that matches a candidate, such as its color, can still rule that candidate out.",
+      "hint": "For each result, ask whether silver would give the same result or a different one.",
+      "followUpId": "L03-Q09",
+      "scope": {
+        "lessonId": "L03",
+        "section": "Key Science Concept: Using Tests to Identify a Substance",
+        "pages": {
+          "printed": [
+            34,
+            35,
+            38
+          ],
+          "pdf": [
+            70,
+            71,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept: Using Tests to Identify a Substance",
+          "supports": "The ingot is shiny gray with no odor, has a density of 2.7 g/cm³, melts at about 660 °C, and is identified as aluminum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Silver has a density of about 10.5 g/cm³."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            35
+          ],
+          "pdfPages": [
+            71
+          ],
+          "locator": "Section 4. Melting and Boiling Point",
+          "supports": "Silver melts at about 960 °C."
+        },
+        {
+          "type": "external",
+          "title": "PubChem Periodic Table of Elements (data table)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+          "accessed": "2026-10-14",
+          "supports": "Density (g/cm³) and melting point (K): silver 10.501 and 1234.93 K (961.78 °C); platinum 21.46 and 2041.55 K (about 1768 °C); palladium 12.0 and 1828.05 K (about 1555 °C); aluminum 2.70 and 933.44 K (660.3 °C); magnesium 1.74 and 923 K (about 650 °C); gold 19.282 and 1337.33 K (about 1064 °C)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs L03-RF1: the textbook says the 2.7 g/cm³ sample is 'too dense' to be silver; it is far less dense. Two of four correct. Round 1 (2026-10-14): Pedagogy fix: the misconception field no longer mixes in the textbook's 'too dense' slip (L03-RF1), which is an error in the book, not something learners believe. Round 2 (2026-10-14): both reviewers passed it; no change. The O5 Explorer card's paragraph 2 now rules out palladium instead of silver, so the card no longer gives away this item (pedagogy lesson-level finding). Verifier (2026-10-14): checked against the rendered pp. 34, 35 and 38 (ingot 2.7 g/cm³, about 660 °C, shiny gray, no odor; silver about 10.5 g/cm³ and about 960 °C). Keys a and b rule silver out; c and d match silver. Correctly says 'less dense', repairing L03-RF1. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: misconception field no longer mixes in the textbook's 'too dense' slip"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q27",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O5"
+      ],
+      "conceptTags": [
+        "design",
+        "solubility",
+        "choosing a material"
+      ],
+      "familyId": "L03-F12",
+      "category": "application",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A toy company wants marker ink that kids can wash off hands and tables with plain water. Which property should the ink have?",
+      "accessiblePrompt": "A toy company wants marker ink that kids can wash off their hands and tables using only plain water. Which property should the ink have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It dissolves in water.",
+          "rationale": "Correct: water-soluble ink rinses away with plain water."
+        },
+        {
+          "id": "b",
+          "text": "It dissolves in alcohol but not in water.",
+          "rationale": "That describes permanent-marker ink; plain water couldn't remove it."
+        },
+        {
+          "id": "c",
+          "text": "It burns easily.",
+          "rationale": "Flammability has nothing to do with washing ink away, and burnable ink is a poor choice for kids."
+        },
+        {
+          "id": "e",
+          "text": "It is less dense than water.",
+          "rationale": "Floating or sinking doesn't decide whether water can carry dried ink away; the ink has to dissolve."
+        }
+      ],
+      "answer": "a",
+      "explanation": "To wash off with plain water, the ink must be soluble in water. Washable markers use water-soluble ink, while permanent markers use ink that dissolves only in liquids such as isopropyl alcohol. Choosing a material starts with naming the property the job needs.",
+      "misconception": "Any ink will wash off if you use enough water.",
+      "hint": "What has to happen to the ink when water touches it?",
+      "followUpId": "L03-Q20",
+      "scope": {
+        "lessonId": "L03",
+        "section": "5. Solubility",
+        "pages": {
+          "printed": [
+            36
+          ],
+          "pdf": [
+            72
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "Water-soluble marker ink dissolves in water and rinses off; permanent-marker ink does not dissolve in water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Covers the brief mission 'choose a material for a stated design need'. Drafted from rendered p. 36. Round 1 (2026-10-14): Pedagogy fix: the key was the only choice that mentioned water, echoing 'plain water' in the stem. Choice b now names water (same claim, reworded, so it keeps its id) and choice d is replaced by a density-versus-water distractor, new id e. Key unchanged. This is now the bank's one washable-ink design item. Round 2 (2026-10-14): both reviewers passed it; no change. Verifier (2026-10-14): checked against the rendered p. 36 (water-soluble marker ink rinses off with water; permanent ink does not dissolve in water). Key a unique; meets the brief's design-need mission. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key no longer the only choice mentioning water (b reworded; d replaced by new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q28",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O5",
+        "L03-O3"
+      ],
+      "conceptTags": [
+        "design",
+        "density",
+        "flammability",
+        "melting point",
+        "solubility"
+      ],
+      "familyId": "L03-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each design need to the property that matters most for it.",
+      "accessiblePrompt": "Match each design need to the property that matters most for it. The needs are: a bike part that must be as light as possible for its size; an old-time flash for photographs, before electronic flashes; paint for an outdoor sign that rain must not wash off once it is dry; and a pot that must stay solid while aluminum melts inside it. The properties are: low density; burns with a brilliant white light; does not dissolve in water; and a melting point well above 660 degrees Celsius.",
+      "answer": {
+        "e": "r5",
+        "b": "r2",
+        "f": "r6",
+        "d": "r4"
+      },
+      "left": [
+        {
+          "id": "e",
+          "text": "A bike part that must be as light as possible for its size",
+          "rationale": "A low-density material packs little mass into each cubic centimeter, so a part of a given size stays light."
+        },
+        {
+          "id": "b",
+          "text": "An old-time photo flash, before electronic flashes",
+          "rationale": "Magnesium burns with a dazzling white light, which early photographers used."
+        },
+        {
+          "id": "f",
+          "text": "Paint for an outdoor sign that rain must not wash off once dry",
+          "rationale": "Once dry, paint that does not dissolve in water stays on the sign when rain falls on it."
+        },
+        {
+          "id": "d",
+          "text": "A pot that must stay solid while aluminum melts inside it",
+          "rationale": "Aluminum melts near 660 °C, so the pot needs a much higher melting point."
+        }
+      ],
+      "right": [
+        {
+          "id": "r5",
+          "text": "Low density"
+        },
+        {
+          "id": "r2",
+          "text": "Burns with a brilliant white light"
+        },
+        {
+          "id": "r6",
+          "text": "Does not dissolve in water"
+        },
+        {
+          "id": "r4",
+          "text": "Melting point well above 660 °C"
+        }
+      ],
+      "explanation": "Good design starts by matching a material's properties to the job. A low-density material keeps a part light for its size, magnesium's flammability once lit up photographs, paint that does not dissolve in water survives the rain, and a pot for melting aluminum needs a melting point well above 660 °C.",
+      "misconception": "One property, such as strength, matters most for every design job.",
+      "hint": "For each job, ask what could go wrong: too heavy, no light, washing away, or melting?",
+      "followUpId": "L03-Q20",
+      "scope": {
+        "lessonId": "L03",
+        "section": "3. Density; 5. Solubility; 6. Flammability; Key Science Concept",
+        "pages": {
+          "printed": [
+            34,
+            36,
+            37,
+            38
+          ],
+          "pdf": [
+            70,
+            72,
+            73,
+            74
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            34
+          ],
+          "pdfPages": [
+            70
+          ],
+          "locator": "Section 3. Density",
+          "supports": "Density is mass per unit volume (density = mass / volume), so a less dense material has less mass in the same volume."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability, photo caption",
+          "supports": "Before digital flashes, photographers used burning magnesium for light."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            36
+          ],
+          "pdfPages": [
+            72
+          ],
+          "locator": "Section 5. Solubility",
+          "supports": "Permanent-marker ink is not soluble in water, so water does not rinse it away."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            38
+          ],
+          "pdfPages": [
+            74
+          ],
+          "locator": "Key Science Concept",
+          "supports": "Aluminum melts at about 660 °C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 36-39. Each need has one best property, so the pairing is one-to-one. Round 1 (2026-10-14): Science fix: the flash need says 'before electronic flashes', because flashbulbs were fired electrically but still burned metal; no date added. Pedagogy fix: the coin and washable-ink pairs repeated Q04 and Q27, so they are replaced by a low-density bike part and rain-proof sign paint (new left ids e, f; new right ids r5, r6), giving one pair per property; L03-O3 added; scope and evidence now cover pp. 34, 36, 37, 38; followUpId now L03-Q20. Each need still has exactly one best property. Round 2 (2026-10-14): Both reviewers passed it. I applied the science reviewer's optional note: the sign-paint need now says 'once dry', because many outdoor paints are water-based while wet. The one-to-one pairing is unchanged. Verifier (2026-10-14): fresh science check of the round-1 rewrite against the rendered pp. 34, 36, 37 and 38. Each need has one best property (low density; brilliant white burning; insoluble in water once dry; melting point well above aluminum's 660 °C), so the pairing is one-to-one. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: flash need reworded to 'before electronic flashes'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: coin and washable-ink pairs replaced by low-density and water-insoluble design pairs (new ids e, f, r5, r6); O3 added"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L03-Q29",
+      "lessonId": "L03",
+      "objectiveIds": [
+        "L03-O4",
+        "L03-O5"
+      ],
+      "conceptTags": [
+        "flammability",
+        "identifying a substance",
+        "evidence",
+        "chemical property"
+      ],
+      "familyId": "L03-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Two thin silver-gray wires of the same thickness are held in the same hot flame. Wire A bursts into a dazzling white flame and leaves a white powder. Wire B glows red-hot, then cools looking just as before. Which conclusions do these results support? Select all that apply.",
+      "accessiblePrompt": "Two thin silver-gray wires of the same thickness are held in the same hot flame. Wire A bursts into a dazzling white flame and leaves behind a white powder. Wire B glows red-hot, then cools down looking just as it did before. Which conclusions do these results support? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wire A is flammable, but Wire B did not burn in this flame.",
+          "rationale": "Correct: Wire A burned and turned into a new substance, the white powder, while Wire B came out unchanged."
+        },
+        {
+          "id": "b",
+          "text": "The two wires are made of different substances.",
+          "rationale": "Correct: the same flame affected the two wires in completely different ways, so they can't be the same substance."
+        },
+        {
+          "id": "c",
+          "text": "Wire B burned too, because it glowed red-hot.",
+          "rationale": "Glowing shows only that Wire B got very hot; it came out unchanged, so no new substance formed and it did not burn."
+        },
+        {
+          "id": "d",
+          "text": "They are the same substance, because they looked alike at first.",
+          "rationale": "Looks can't identify a substance, and the same flame affected the two wires very differently."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "conditions": "Each wire is one pure metal, and both have the same thickness, the same flame and the same heating time.",
+      "explanation": "Flammability can tell substances apart. Wire A burned: it gave off a dazzling light and turned into a new substance, the white powder, just as magnesium turns into white magnesium oxide. Wire B only got very hot and glowed, then came out unchanged, so it did not burn. Because the same flame treated the two wires so differently, they are made of different substances even though they looked alike.",
+      "misconception": "Anything that glows in a flame is burning.",
+      "hint": "In the same flame, did either wire turn into something new?",
+      "followUpId": "L03-Q16",
+      "scope": {
+        "lessonId": "L03",
+        "section": "6. Flammability",
+        "pages": {
+          "printed": [
+            37
+          ],
+          "pdf": [
+            73
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            37
+          ],
+          "pdfPages": [
+            73
+          ],
+          "locator": "Section 6. Flammability",
+          "supports": "A magnesium wire heated in a flame burst into a bright white flame because magnesium is flammable; some substances, such as water, are non-flammable; flammability can be used to tell different substances apart."
+        },
+        {
+          "type": "external",
+          "title": "The change in mass when magnesium burns",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/balanced-chemical-equations/the-change-in-mass-when-magnesium-burns/718.article",
+          "accessed": "2026-10-17",
+          "supports": "Magnesium burns with a bright white light, and fully burned magnesium leaves a white product, magnesium oxide (a grey product means some magnesium has not reacted)."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound record for magnesium oxide (CID 14792): Physical Description",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/14792/JSON?heading=Physical+Description",
+          "accessed": "2026-10-17",
+          "supports": "Magnesium oxide appears as a white solid, often found as a powder."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Replacement for the rejected L03-Q12, written in round 2 (2026-10-14) from the pedagogy reviewer's specification and checked against the rendered p. 37. It fills the gap the reviewer found: no question used flammability to tell two substances apart (Section 6 and the Lesson Summary). One departure: the reviewer's choice a read 'Wire A is flammable, but Wire B is not'. One flame test shows only that Wire B did not burn under these conditions, so a says 'did not burn in this flame', avoiding an unsupported absolute. A condition says each wire is one pure metal, so choice b has one defensible reading. Wire B is not named. The burning is described, never instructed, and no procedure is given. The white magnesium oxide is supported by RSC (a fully burned product is white) and PubChem (a white solid, often a powder), both opened on 2026-10-17 by the system clock. Needs a full science and pedagogy check. Verifier (2026-10-14): this replacement had no earlier science or pedagogy pass, so the verifier ran both checks. Science: checked against the rendered p. 37 (magnesium wire bursts into a bright white flame; flammability tells substances apart; water is non-flammable), RSC (re-opened: magnesium burns with a bright white light; a fully burned product is white, a grey one means unreacted magnesium) and the PubChem MgO record (re-opened: 'a white solid, often found as a powder'). Glowing without change is not burning, and the one-pure-metal condition makes 'different substances' the only reading. Pedagogy: distinct from Q22 (which property a pop tests) and Q23 (physical vs chemical sort); 2 of 4 correct; no key is uniquely longest or shortest; 273-character prompt; describes a result, gives no procedure. Pass.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

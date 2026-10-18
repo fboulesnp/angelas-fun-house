@@ -22,7 +22,7 @@
     },
     {
       "id": "L10-O2",
-      "text": "Explain how heating and cooling change a material's density and how, together with gravity, that drives convection cells in mantle rock, ocean water and air, and tell convection apart from conduction and radiation.",
+      "text": "Explain how heating and cooling change a material's density, and how gravity then sets up convection cells in mantle rock, ocean water and air. Tell convection apart from conduction and radiation.",
       "kind": "relate",
       "sections": ["Introduction", "1. The Geosphere", "2. The Hydrosphere", "3. The Atmosphere"],
       "pages": { "printed": [129, 131, 133, 135], "pdf": [165, 167, 169, 171] }
@@ -45,10 +45,10 @@
   "keyIdeas": [
     "Scientists model Earth as four overlapping systems: the geosphere (all the rock and metal from the surface to the center), the hydrosphere (all the water, including ice, groundwater and vapor), the atmosphere (the blanket of gases) and the biosphere (every living thing plus the places where life can survive).",
     "The geosphere has three main layers. The crust is thin, cool and rigid. The mantle is thick, hot rock that is solid yet creeps very slowly. The core is mostly iron and nickel. Each layer is denser than the one above it.",
-    "Warming usually makes a material spread out and become less dense, and cooling makes it denser. Gravity tugs harder on the denser material, so it sinks and shoves the less dense material upward. Warm at the bottom plus cool at the top keeps a convection cell turning.",
-    "Energy moves in three ways in this lesson: conduction between materials that touch, convection when a fluid or slowly flowing solid carries energy as it circulates, and radiation, which carries energy as light, even across empty space.",
-    "Two power sources run Earth's systems. Heat from the planet's hot interior drives convection in the mantle, while the sun supplies most of the energy that moves ocean water, air and living things.",
-    "Sunlight lands more directly near the equator than near the poles, so air and ocean water warm in the tropics and cool near the poles. That uneven heating keeps giant air and ocean convection loops moving around the globe.",
+    "Warming usually makes a material spread out and become less dense, and cooling makes it denser. Gravity pulls harder on each cupful of denser material than on a cupful of less dense material, so the denser material sinks and shoves the less dense material upward. Warm at the bottom plus cool at the top keeps a convection cell turning.",
+    "Energy moves in three ways in this lesson: conduction through a material or between materials that touch, convection when a fluid or slowly flowing solid carries energy as it circulates, and radiation, which carries energy as light, even across empty space.",
+    "Two main power sources run Earth's systems. Heat from the planet's hot interior drives convection in the mantle, while the sun supplies most of the energy that moves ocean water, air and living things.",
+    "Sunlight lands more directly near the equator than near the poles, so air and ocean water warm in the tropics and cool near the poles. That uneven heating keeps giant air and ocean convection loops moving around the globe. Saltier seawater is denser too, which helps cold polar water sink.",
     "Matter and energy cross system borders constantly: water evaporates into the air and falls back as rain, plants take carbon dioxide from the air, and eruptions throw rock into the sky. In the biosphere, matter cycles, but energy flows through and leaves as heat.",
     "Biosphere 2 was a sealed physical model of Earth's systems built in Arizona. Its data revealed falling oxygen, which scientists traced to soil bacteria, showing how testing a model exposes problems that the next design can fix."
   ],
@@ -60,10 +60,10 @@
     { "term": "crust", "definition": "The geosphere's thin, cool, stiff outer shell; it is the least dense of the three main layers.", "pages": { "printed": [129, 130], "pdf": [165, 166] } },
     { "term": "mantle", "definition": "The thick, hot layer of rock between the crust and the core. It is solid, yet hot enough to creep very slowly over long spans of time.", "pages": { "printed": [129, 130], "pdf": [165, 166] } },
     { "term": "core", "definition": "Earth's hot, very dense center, made mostly of the metals iron and nickel; it is the densest of the three main layers.", "pages": { "printed": [129, 130], "pdf": [165, 166] } },
-    { "term": "density", "definition": "How much mass is packed into a given volume of a material, such as grams per cubic centimeter. Less dense materials float on denser ones.", "pages": { "printed": [131], "pdf": [167] } },
-    { "term": "conduction", "definition": "Energy passing directly between materials that touch, always from the warmer one to the cooler one.", "pages": { "printed": [129, 131], "pdf": [165, 167] } },
+    { "term": "density", "definition": "How much mass is packed into a given volume of a material, such as grams per cubic centimeter. Less dense materials float on denser liquids or gases.", "pages": { "printed": [131], "pdf": [167] } },
+    { "term": "conduction", "definition": "Energy passing from particle to particle through a material, or between materials that touch, always from warmer to cooler, without the material itself flowing.", "pages": { "printed": [129, 131], "pdf": [165, 167] } },
     { "term": "convection", "definition": "Energy carried along by moving material: warmer, less dense material rises while cooler, denser material sinks, forming a loop called a convection cell.", "pages": { "printed": [129, 131], "pdf": [165, 167] } },
-    { "term": "radiation", "definition": "Energy traveling as light, which can cross empty space or pass through clear materials such as air and glass.", "pages": { "printed": [129, 133], "pdf": [165, 169] } },
+    { "term": "radiation", "definition": "Energy traveling as light, including invisible kinds such as infrared, which can cross empty space or pass through transparent materials such as air.", "pages": { "printed": [129, 133], "pdf": [165, 169] } },
     { "term": "physical model", "definition": "A real, built object or setup that copies how a system works, usually at a smaller scale, so it can be tested.", "pages": { "printed": [138], "pdf": [174] } },
     { "term": "conceptual model", "definition": "A drawing, diagram or equation that represents how a system works, rather than a built copy of it.", "pages": { "printed": [138], "pdf": [174] } },
     { "term": "closed system", "definition": "A system that matter cannot enter or leave. Energy, such as sunlight and heat, can still cross its boundary.", "pages": { "printed": [138], "pdf": [174] } }
@@ -98,9 +98,9 @@
       "title": "Convection: When Heat Sets Matter Moving",
       "paragraphs": [
         "Density means how much mass is packed into each bit of space. When a material warms up, its particles spread out a little, so the same mass takes up more room and the density drops. When it cools, it packs back together and gets denser.",
-        "Gravity pulls harder on denser material, so cool, dense stuff sinks and squeezes warmer, less dense stuff upward. Heat a fluid from below and cool it from above, and you get a loop: warm material rises, cools, sinks, warms again. That loop is a convection cell.",
-        "Convection happens in pots of water, in the oceans, in the air and even in the mantle, where solid rock creeps so slowly that one loop takes millions of years. In every case the material itself moves, carrying its energy along.",
-        "Convection is only one way energy travels. In conduction, energy passes between materials that touch, like a hot core warming the rock resting on it. In radiation, energy travels as light, which is how sunlight crosses empty space to reach Earth."
+        "Gravity pulls harder on each cupful of denser material than on a cupful of less dense material, so cool, dense stuff sinks and squeezes warmer, less dense stuff upward. Heat a fluid from below and cool it from above, and you get a loop: warm material rises, cools, sinks, warms again. That loop is a convection cell.",
+        "Convection happens in pots of water, in the oceans, in the air and even in the mantle, where solid rock creeps so slowly that one loop takes many millions of years. In every case the material itself moves, carrying its energy along.",
+        "Convection is only one way energy travels. In conduction, energy passes from particle to particle through a material or between materials that touch, like a hot core warming the rock resting on it. In radiation, energy travels as light, which is how sunlight crosses empty space to reach Earth."
       ],
       "diagram": {
         "kind": "network",
@@ -130,15 +130,15 @@
       "title": "Two Power Sources and Lots of Border Crossings",
       "paragraphs": [
         "Almost all the energy that moves things around on Earth comes from two places. Heat from the planet's hot interior travels outward and drives convection in the mantle, feeding volcanoes and geysers. The sun delivers far more energy to the surface, and it powers most of the motion in the oceans, the air and the living world.",
-        "Because Earth is round, sunlight hits the tropics nearly straight on and strikes the poles at a slant, spread over more ground. Air and water heat up near the equator and lose heat near the poles, which keeps huge convection loops of air and ocean water circling the globe.",
+        "Because Earth is round, sunlight hits the tropics nearly straight on and strikes the poles at a slant, spread over more ground. Most of the sunlight Earth absorbs is soaked up by the ground and sea, which then warm the air above them. Air and water heat up near the equator and lose heat near the poles, which keeps huge convection loops of air and ocean water circling the globe. Near the poles, forming sea ice leaves its salt behind, so the water left over is both colder and saltier, and that denser water sinks to feed deep ocean currents.",
         "Matter and energy cross from system to system all day long. Sunlight warms the sea and water evaporates into the air; the vapor cools, condenses into cloud droplets and falls as rain. Plants take carbon dioxide from the air. Eruptions toss rock and ash into the sky.",
-        "In the biosphere, producers such as plants capture sunlight and store its energy in food. That energy passes to herbivores, then carnivores, then decomposers, with some leaving as heat at every step. Decomposers return matter to the soil for plants to reuse, but they cannot send energy back. Matter cycles; energy flows through."
+        "In the biosphere, producers such as plants capture sunlight and store its energy in food. That energy passes to herbivores and then carnivores, and decomposers get theirs from the dead remains and wastes of every kind of organism, with some energy leaving as heat at every step. Decomposers return matter to the soil for plants to reuse, but they cannot send energy back. Matter cycles; energy flows through."
       ],
       "diagram": {
         "kind": "network",
         "layout": "web",
         "caption": "Energy sources and some border crossings between Earth's systems (arrows point from where something starts to where it goes)",
-        "alt": "A web of six boxes: the Sun, Earth's hot interior, and the four systems. Arrows: the Sun to the hydrosphere, labeled warms water by radiation; the Sun to the atmosphere, labeled warms air unevenly; the Sun to the biosphere, labeled captured by producers. Earth's interior to the geosphere, labeled conduction and convection. Geosphere to atmosphere, labeled eruptions throw rock and ash into the sky. Hydrosphere to atmosphere, labeled evaporation. Atmosphere to hydrosphere, labeled rain and snow. Atmosphere to biosphere, labeled carbon dioxide taken in by plants.",
+        "alt": "A web of six boxes: the Sun, Earth's hot interior, and the four systems. Arrows: the Sun to the hydrosphere, labeled warms water by radiation; the Sun to the atmosphere, labeled uneven heating drives air convection; the Sun to the biosphere, labeled captured by producers. Earth's interior to the geosphere, labeled conduction and convection. Geosphere to atmosphere, labeled eruptions throw rock and ash into the sky. Hydrosphere to atmosphere, labeled evaporation. Atmosphere to hydrosphere, labeled rain and snow. Atmosphere to biosphere, labeled carbon dioxide taken in by plants.",
         "nodes": [
           { "id": "sun", "label": "Sun", "group": "source" },
           { "id": "interior", "label": "Earth's hot interior", "group": "source" },
@@ -149,7 +149,7 @@
         ],
         "edges": [
           { "from": "sun", "to": "hydro", "label": "warms water by radiation" },
-          { "from": "sun", "to": "atmo", "label": "warms air unevenly" },
+          { "from": "sun", "to": "atmo", "label": "uneven heating drives air convection" },
           { "from": "sun", "to": "bio", "label": "captured by producers" },
           { "from": "interior", "to": "geo", "label": "conduction and convection" },
           { "from": "geo", "to": "atmo", "label": "eruptions throw rock and ash" },
@@ -167,39 +167,39 @@
       "paragraphs": [
         "Scientists use two kinds of models. A conceptual model is a drawing, diagram or equation, like a cutaway of Earth's layers or the rule density = mass ÷ volume. A physical model is something you actually build and test, like a tank of water warmed at one end and chilled at the other.",
         "Biosphere 2, built in the Arizona desert, was a giant physical model: a sealed glass building holding a small rainforest, desert, ocean, marsh, savanna and farm. Its builders wanted to learn whether people could someday live in a sealed habitat on another world.",
-        "Sealed meant closed to matter: air, water and soil stayed inside. Energy still crossed the walls, because sunlight poured in through the glass and heat escaped. Researchers measured the model for two years and used the data to keep adjusting it.",
-        "About sixteen months in, the data showed oxygen dropping and the crew felt tired. The culprit was bacteria in the very rich soil, which used oxygen as they broke down organic matter. Later research found that the carbon dioxide they released was partly soaking into the building's exposed concrete. A failed prediction like this is still useful: it shows what the next design has to fix."
+        "Sealed meant built to be closed to matter: air, water and soil stayed inside. Energy still crossed the walls, because sunlight poured in through the glass and heat escaped. Researchers measured the model for two years and used the data to keep adjusting it.",
+        "By about sixteen months in, the oxygen in the air had fallen from about 21% to about 14%, and the crew felt tired and weak. The culprit was bacteria in the very rich soil, which used oxygen as they broke down organic matter. There was a second mystery: the carbon dioxide in the air rose much less than expected, even though the building was built to keep matter in. Where could it have gone? Managers eventually pumped in extra oxygen. A failed prediction like this is still useful: it shows what the next design has to fix."
       ],
       "diagram": {
         "kind": "table",
         "caption": "Two kinds of models in this lesson",
-        "alt": "A table comparing two model types. Conceptual model: examples are a cutaway drawing of Earth's layers and the equation density equals mass divided by volume; it is good for explaining relationships quickly; its limit is that it cannot be run or measured like the real thing. Physical model: examples are Biosphere 2 and a water tank heated at one end; it is good for collecting real data and testing designs; its limit is that it is smaller and simpler than Earth, so some processes behave differently.",
+        "alt": "A table comparing two model types. Conceptual model: examples are a cutaway drawing of Earth's layers and the equation density equals mass divided by volume; it is good for explaining relationships quickly; its limit is that it shows only the relationships its makers put in, and it cannot produce new measurements of the real system on its own. Physical model: examples are Biosphere 2 and a water tank heated at one end; it is good for collecting real data and testing designs; its limit is that it is smaller and simpler than Earth, so some processes behave differently.",
         "columns": ["Model type", "Examples", "Good for", "Limit"],
         "rows": [
-          ["Conceptual", "Cutaway of Earth's layers; density = mass ÷ volume", "Explaining relationships quickly", "Cannot be run or measured like the real thing"],
+          ["Conceptual", "Cutaway of Earth's layers; density = mass ÷ volume", "Explaining relationships quickly", "Shows only the relationships its makers put in; it cannot produce new measurements of the real system on its own"],
           ["Physical", "Biosphere 2; a water tank heated at one end", "Collecting data and testing designs", "Smaller and simpler than Earth, so some processes behave differently"]
         ]
       },
-      "watchOut": "A model copies only selected parts of a real system. A pot of swirling water shows the idea of mantle convection, but mantle rock is solid and takes millions of years to complete a loop. And Biosphere 2 was \"closed\" only to matter: sunlight and heat crossed its walls the whole time.",
+      "watchOut": "A model copies only selected parts of a real system. A pot of swirling water shows the idea of mantle convection, but mantle rock is solid and takes many millions of years to complete a loop. And Biosphere 2 was \"closed\" only to matter: sunlight and heat crossed its walls the whole time.",
       "pages": { "printed": [131, 138, 139], "pdf": [167, 174, 175] }
     }
   ],
   "reviewFlags": [
     {
       "id": "L10-RF1",
-      "issue": "The vocabulary box and Section 1 call the core a 'rock layer' and say the core is the hottest layer because it is under intense pressure from the layers above. The core is mostly metal (iron and nickel) with a liquid outer part, and its heat comes mainly from heat left over from Earth's formation and from radioactive decay; the pressure is what keeps the inner core solid.",
+      "issue": "The vocabulary box and Section 1 call the core a 'rock layer' and say the core is the hottest layer because it is under intense pressure from the layers above. The core is mostly metal (iron and nickel) with a liquid outer part, and its heat comes mainly from heat left over from Earth's formation, from radioactive decay, and from heat released as the liquid outer core solidifies; the pressure is what keeps the inner core solid.",
       "pages": { "printed": [129, 130], "pdf": [165, 166] },
       "resolution": "Content describes the core as mostly iron and nickel metal and never says pressure causes its heat. The core-temperature-from-pressure claim is not used in any question. The density order of the layers (crust least dense, core densest), which the textbook gets right, is tested in L10-Q03.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [130], "pdfPages": [166], "locator": "Section 1. The Geosphere, The Layers of the Geosphere and Figure 1A", "supports": "The crust is the least dense layer, the core is made mostly of iron and nickel and is the densest layer, and the core lies about 3,470 km from the bottom of the mantle to the center." },
-        { "type": "external", "title": "Core", "publisher": "National Geographic Society (Education)", "url": "https://education.nationalgeographic.org/resource/core/", "accessed": "2026-10-14", "supports": "The core is almost entirely iron and nickel metal, the outer core is liquid, the inner core stays solid because of pressure, and the core's heat comes from radioactive decay and leftover heat from planetary formation." }
+        { "type": "external", "title": "Core", "publisher": "National Geographic Society (Education)", "url": "https://education.nationalgeographic.org/resource/core/", "accessed": "2026-10-17", "supports": "The core is almost entirely iron and nickel metal, the outer core is liquid, the inner core stays solid because of pressure, and the core's heat comes from radioactive decay, leftover heat from planetary formation, and heat released as the liquid outer core solidifies near its boundary with the inner core." }
       ]
     },
     {
       "id": "L10-RF2",
       "issue": "Section 2 and Figure 2 explain the global ocean loop with temperature alone (polar water cools and sinks). Real deep-water formation depends on temperature and salinity together: sea ice forming leaves salt behind, making cold polar water saltier and denser. Winds also drive the surface currents.",
       "pages": { "printed": [133, 139], "pdf": [169, 175] },
-      "resolution": "Content keeps the textbook's temperature-driven picture as a simplified model and adds that saltier water is also denser. L10-Q18 (multi) asks which changes make polar seawater sink and keys both cooling and becoming saltier, with the NOAA source for salinity.",
+      "resolution": "Content keeps the textbook's temperature-driven picture as a simplified model and adds that saltier water is also denser: key idea 6 says saltier seawater is denser and helps cold polar water sink, and the L10-O3 Science Explorer card says forming sea ice leaves its salt behind, so polar water becomes colder and saltier and sinks. L10-Q18 (multi) asks which changes make polar seawater sink and keys both cooling and becoming saltier, with the NOAA source for salinity; its meltwater distractor tests the reverse (fresher water is less dense).",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [133], "pdfPages": [169], "locator": "Section 2. The Hydrosphere, Energy and the Cycling of Matter in the Hydrosphere, Figure 2", "supports": "Polar air cools ocean surface water, which sinks to form deep currents that flow back toward the equator, while warm equatorial water stays near the surface." },
         { "type": "external", "title": "Currents Tutorial: The Global Conveyor Belt", "publisher": "NOAA National Ocean Service", "url": "https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html", "accessed": "2026-10-14", "supports": "Polar surface water is chilled and also gets saltier because salt is left behind when sea ice forms; the colder, saltier water is denser and sinks." },
@@ -210,7 +210,7 @@
       "id": "L10-RF3",
       "issue": "Section 4 says most of the energy and matter in the biosphere is 'cycled' from organism to organism, the Lesson Summary repeats this, and Figure 4 labels the arrow from decomposers back to producers 'energy and matter.' Energy does not cycle: it flows one way and leaves organisms as heat. Decomposers return matter (nutrients) to producers, not energy.",
       "pages": { "printed": [136, 139], "pdf": [172, 175] },
-      "resolution": "Content says matter cycles while energy flows through and leaves as heat (key idea 7, Science Explorer card for L10-O3 with a watch-out naming the Figure 4 arrow). L10-Q23 asks learners to repair that exact arrow label. No question uses 'energy cycles' as a fact.",
+      "resolution": "Content says matter cycles while energy flows through and leaves as heat (key idea 7, Science Explorer card for L10-O3 with a watch-out naming the Figure 4 arrow). L10-Q23 asks learners to repair that exact arrow label, and since review cycle 2 its explanation says that some diagrams, including one in the textbook lesson, use the 'energy and matter' shortcut. No question uses 'energy cycles' as a fact.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [136], "pdfPages": [172], "locator": "Section 4. The Biosphere, Figure 4 (Energy and Matter in the Biosphere)", "supports": "Producers capture solar energy; herbivores, carnivores and decomposers obtain energy by eating; decomposers break down dead organisms and wastes. The figure draws a loop of arrows each labeled energy and matter." },
         { "type": "external", "title": "Biology 2e, 46.2 Energy Flow through Ecosystems", "publisher": "OpenStax, Rice University", "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems", "accessed": "2026-10-14", "supports": "Energy flows directionally through ecosystems and is lost as metabolic heat at each transfer." },
@@ -231,7 +231,7 @@
       "id": "L10-RF5",
       "issue": "Section 3 says the atmosphere contains small amounts of other 'elements, including argon, carbon dioxide, and water vapor.' Carbon dioxide and water vapor are compounds, not elements. The photo panel's percentages (78% nitrogen, 21% oxygen, 0.9% argon, 0.04% carbon dioxide, 0.06% trace gases including water vapor) are dry-air values: water vapor varies from near zero to about 4%, and carbon dioxide keeps rising (NOAA lists about 0.042%).",
       "pages": { "printed": [134], "pdf": [170] },
-      "resolution": "Content names nitrogen and oxygen as the main gases and treats CO₂ and H₂O as compounds. L10-Q07 tests only that air is mostly nitrogen and oxygen and that weather happens in the lowest, densest air. No question tests the trace-gas percentages.",
+      "resolution": "Content names nitrogen and oxygen as the main gases and treats CO₂ and H₂O as compounds. L10-Q07 tests only that air is mostly nitrogen and oxygen and that nearly all weather happens in the lowest, densest air (the 'all weather' wording on the same page is handled in L10-RF13). No question tests the trace-gas percentages.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [134], "pdfPages": [170], "locator": "Section 3. The Atmosphere, The Parts of the Atmosphere and photo panel", "supports": "The atmosphere is mostly nitrogen and oxygen, has no sharp upper boundary, grows less dense with height, and its weather happens in the lowest, densest levels." },
         { "type": "external", "title": "JetStream: The Atmosphere", "publisher": "NOAA National Weather Service", "url": "https://www.noaa.gov/jetstream/atmosphere", "accessed": "2026-10-14", "supports": "Dry air is about 78.084% nitrogen, 20.946% oxygen, 0.934% argon and 0.042% carbon dioxide; water vapor varies and can reach about 4% of the volume; the atmosphere is rarely if ever dry." }
@@ -241,10 +241,10 @@
       "id": "L10-RF6",
       "issue": "Section 5 calls Biosphere 2 a closed system in which 'all the processes were contained within the model.' It was closed to matter but open to energy: sunlight entered through the glass and heat passed out. The oxygen story is also simplified: the carbon dioxide the soil microbes released was partly absorbed by exposed concrete, and managers eventually pumped in oxygen. The facility figures (3.14 acres, 3,800 species) and 'today it is a research facility' describe the time the textbook was written; the University of Arizona has run it since 2011.",
       "pages": { "printed": [138, 139], "pdf": [174, 175] },
-      "resolution": "Content defines a closed system as closed to matter but open to energy. L10-Q26 asks what could still cross the sealed walls (sunlight and heat). L10-Q27 keys soil bacteria using oxygen (textbook-supported); L10-Q28 asks for the best hypothesis about the missing carbon dioxide and cites the external source. Acreage and species counts are not tested.",
+      "resolution": "Content defines a closed system as closed to matter but open to energy. The L10-O4 Explorer card says the building was built to be closed to matter, that oxygen had fallen from about 21% to about 14% by about sixteen months in, and that managers eventually pumped in extra oxygen. Since review cycle 2 the card poses the missing-carbon-dioxide puzzle (CO₂ rose much less than expected) without answering it, so L10-Q28 stays a reasoning item; the concrete finding appears only in L10-Q28's choice b rationale and explanation and in this flag. L10-Q26 asks what could still cross the walls as designed (sunlight and heat) and its conditions name the small leak and the later oxygen injection. L10-Q27 keys soil bacteria using oxygen (textbook-supported); L10-Q28 asks for the best hypothesis about the missing carbon dioxide without naming the bacteria and cites the external sources; L10-Q29 asks what to do next with the test data. Acreage and species counts are not tested.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [138, 139], "pdfPages": [174, 175], "locator": "Section 5. Modeling Earth's Biosphere", "supports": "Biosphere 2 was a physical model of Earth's biosphere; researchers monitored it for two years; after about sixteen months oxygen had declined, and the cause was traced to bacteria using oxygen to decompose organic matter." },
-        { "type": "external", "title": "Benchmarks: September 26, 1991: Crew sealed inside Biosphere 2", "publisher": "EARTH Magazine (American Geosciences Institute)", "url": "https://www.earthmagazine.org/article/benchmarks-september-26-1991-crew-sealed-inside-biosphere-2/", "accessed": "2026-10-14", "supports": "Biosphere 2 was materially closed and energetically open, so only light and heat passed through its walls; oxygen fell from about 21% to about 14%; rich compost and peat soil drove high soil respiration; the gas reacted with exposed concrete; managers pumped in oxygen; the University of Arizona took over in 2011." },
+        { "type": "external", "title": "Benchmarks: September 26, 1991: Crew sealed inside Biosphere 2", "publisher": "EARTH Magazine (American Geosciences Institute)", "url": "https://www.earthmagazine.org/article/benchmarks-september-26-1991-crew-sealed-inside-biosphere-2/", "accessed": "2026-10-14", "supports": "Biosphere 2 was materially closed and energetically open, so only light and heat passed through its walls; it still leaked less than 10 percent of its atmosphere per year; oxygen fell from about 21% to about 14%; rich compost and peat soil drove high soil respiration; the gas reacted with exposed concrete; beginning about 16 months in, managers pumped in oxygen; the University of Arizona took over in 2011." },
         { "type": "external", "title": "Biosphere 2: The Once Infamous Live-In Terrarium Is Transforming Climate Research", "publisher": "Scientific American", "url": "https://www.scientificamerican.com/article/biosphere-2-the-once-infamous-live-in-terrarium-is-transforming-climate-research/", "accessed": "2026-10-14", "supports": "The soil's thriving bacteria used up too much oxygen and the missing carbon dioxide had bonded with the building's concrete; today the University of Arizona runs Biosphere 2 as a climate research facility." }
       ]
     },
@@ -261,19 +261,19 @@
     },
     {
       "id": "L10-RF8",
-      "issue": "Section 2 and its photo panel say about 97% of Earth's water is salty and 3% fresh, with fresh water split 69% glaciers, 30% groundwater and 1% lakes and rivers. USGS gives about 2.5% fresh water, and 68.7% / 30.1% / 1.2% for ice, groundwater and surface water: the same ranking, slightly different rounding.",
+      "issue": "Section 2 and its photo panel say about 97% of Earth's water is salty and 3% fresh, with fresh water split 69% glaciers, 30% groundwater and 1% lakes and rivers. USGS gives about 2.5% fresh water, split 68.7% ice caps and glaciers, 30.1% groundwater and 1.2% surface and other fresh water. Lakes and rivers are only part of that last share (about 0.26% of all fresh water), so the textbook's 1% for lakes and rivers is too high, though the ranking is the same.",
       "pages": { "printed": [132], "pdf": [168] },
-      "resolution": "Content says only a few percent of Earth's water is fresh. L10-Q06 asks only where most fresh water is found (glaciers and ice caps), a ranking both sources agree on; no question uses the exact percentages.",
+      "resolution": "Content says only a few percent of Earth's water is fresh. L10-Q06 asks only where most fresh water is found (glaciers and ice caps), a ranking both sources agree on; no question uses the exact percentages. Q06's rationale and explanation say lakes and rivers hold about 1 percent or less.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [132], "pdfPages": [168], "locator": "Section 2. The Hydrosphere, The Parts of the Hydrosphere and photo panel", "supports": "Most of Earth's water is salt water; the small share that is fresh is mostly glacial ice, then groundwater, with very little in lakes and rivers." },
-        { "type": "external", "title": "Where is Earth's Water?", "publisher": "U.S. Geological Survey, Water Science School", "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water", "accessed": "2026-10-14", "supports": "About 2.5% of Earth's water is fresh; of that, 68.7% is in ice caps and glaciers, 30.1% is groundwater and about 1.2% is surface water and other fresh water." }
+        { "type": "external", "title": "Where is Earth's Water?", "publisher": "U.S. Geological Survey, Water Science School", "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water", "accessed": "2026-10-17", "supports": "About 2.5% of Earth's water is fresh; of that, 68.7% is in ice caps and glaciers, 30.1% is groundwater and about 1.2% is surface water and other fresh water (ground ice and permafrost, lakes, soil moisture, the atmosphere, swamps and marshes, rivers and living things). Lakes hold about 20.9% and rivers about 0.49% of that surface share; the USGS table gives fresh lakes 0.26% and rivers 0.006% of all fresh water, so lakes and rivers together are only about a quarter of 1 percent." }
       ]
     },
     {
       "id": "L10-RF9",
       "issue": "Section 1 compares the mantle's flow to cake batter and describes energy leaving the core 'by conduction'. Mantle rock is solid and deforms plastically over millions of years, far slower than any batter; the analogy can suggest the mantle is liquid. Within the mantle, convection carries much of the heat, which the textbook does acknowledge in Figure 1B.",
       "pages": { "printed": [130, 131], "pdf": [166, 167] },
-      "resolution": "Content says the mantle is solid rock that creeps very slowly and that one convection loop takes millions of years. L10-Q04 repairs the 'liquid magma mantle' misconception, and L10-Q25 names the speed and state difference as the key limit of a pot-of-water convection model.",
+      "resolution": "Content says the mantle is solid rock that creeps very slowly and that one convection loop takes many millions of years. L10-Q04 repairs the 'liquid magma mantle' misconception, and L10-Q25 names the scale and speed difference (loops thousands of kilometers across that take millions of years) as a real limit of a pot-of-water convection model. L10-Q11's limitations say one trip takes many millions of years and real mantle flow is messier than one neat loop.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [130, 131], "pdfPages": [166, 167], "locator": "Section 1. The Geosphere, The Layers of the Geosphere and Figure 1B", "supports": "Mantle rock is solid but hot enough to flow very slowly; heated mantle rock rises and cooler, denser rock sinks in a convection cell." },
         { "type": "external", "title": "Mantle", "publisher": "National Geographic Society (Education)", "url": "https://education.nationalgeographic.org/resource/mantle/", "accessed": "2026-10-14", "supports": "The mantle is mostly solid rock that can move plastically over the course of millions of years; it is heated from below and cooled from above, and heat moves through it by convection." }
@@ -296,6 +296,45 @@
       "resolution": "Every page of the lesson (128-139) was rendered at 110 dpi and read from the image. Diagram facts used in content (Figure 1A layer thicknesses, Figure 1B labels, Figure 2 current labels, Figure 3 convection-cell labels, Figure 4 arrows, the Key Science Concept thickness labels and captions) were taken from the renders, not the OCR.",
       "evidence": [
         { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [131, 137], "pdfPages": [167, 173], "locator": "Figure 1B and Key Science Concept spread (rendered)", "supports": "Figure 1B labels: cooler material becomes denser and gravity pulls it toward Earth's center; warmer material becomes less dense and rises; internal energy flows outward by conduction. The spread says convection in the atmosphere and hydrosphere is driven by solar energy and gravity, and in the geosphere by internal energy and gravity." }
+      ]
+    },
+    {
+      "id": "L10-RF12",
+      "issue": "The Key Science Concept spread states, with no hedge, that all the energy in Earth's systems comes from the sun or from Earth's hot interior. Tidal energy from the Moon's gravity is a third, small source: tidal mixing in the deep ocean may supply about half the mechanical energy that keeps the ocean's large-scale circulation going.",
+      "pages": { "printed": [137], "pdf": [173] },
+      "resolution": "Content hedges: key idea 5 names 'two main power sources' and the L10-O3 Science Explorer card says 'Almost all' the energy comes from the sun and the interior. L10-Q15 keeps the lesson's two-bin model (the ocean loop is keyed to the sun, which is defensible against the only other bin, Earth's interior), but its limitations and its ocean-item rationale name sun-driven winds and tidal stirring; L10-Q16's choice d rationale names tidal stirring. No question states that all energy comes from the two sources.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [137], "pdfPages": [173], "locator": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems (rendered)", "supports": "The spread says all the energy in Earth's systems comes from the sun or Earth's hot interior, and that convection in the atmosphere and hydrosphere is driven by solar energy and gravity." },
+        { "type": "external", "title": "Dissipation of Tidal Energy", "publisher": "NASA Earth Observatory", "url": "https://science.nasa.gov/earth/earth-observatory/dissipation-of-tidal-energy-654/", "accessed": "2026-10-14", "supports": "The Moon's gravity gives energy to ocean tides. About 1 terawatt of tidal energy is dissipated in the deep ocean; about 2 terawatts are thought to be needed to maintain the ocean's large-scale circulation, winds supply about 1 terawatt, and tidal mixing may supply about half." }
+      ]
+    },
+    {
+      "id": "L10-RF13",
+      "issue": "Section 3 says all kinds of weather happen in the lowest levels of the atmosphere, and the photo caption says clouds like the ones shown occur only in the lowest levels. NOAA says almost all, not all, weather occurs in the troposphere, the lowest layer. The caption is fair for the weather clouds pictured but can read as a rule for every cloud.",
+      "pages": { "printed": [134], "pdf": [170] },
+      "resolution": "L10-Q07's keyed choice b now reads 'Nearly all weather happens in its lowest, densest part', and its rationale and explanation say 'almost all clouds' and 'nearly all weather'. No question or content says clouds form only in the lowest layer.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [134], "pdfPages": [170], "locator": "Section 3. The Atmosphere, The Parts of the Atmosphere and photo caption (rendered)", "supports": "All the familiar atmospheric conditions, including all kinds of weather, happen in the lowest levels of the atmosphere, where the gases are densest; the caption says clouds like those pictured occur only in the lowest levels." },
+        { "type": "external", "title": "JetStream: Layers of the Atmosphere", "publisher": "NOAA National Weather Service", "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere", "accessed": "2026-10-14", "supports": "Almost all weather occurs in the troposphere, the lowest layer of the atmosphere." }
+      ]
+    },
+    {
+      "id": "L10-RF14",
+      "issue": "Section 5 states several unsupported absolutes and overclaims: that all the other planets and moons are inhospitable to life, that Biosphere 2 was the first artificial biosphere, that every failure leads to new knowledge, and that Biosphere 2 brought scientists one big step closer to colonizing another planet. The lesson gives no evidence for any of them.",
+      "pages": { "printed": [138, 139], "pdf": [174, 175] },
+      "resolution": "Not used in any content or question. No correction is claimed here, because no outside source was opened for these points; a later author who wants to use any of them must check an authoritative source first. The iterative-design idea from the same pages is used only in the hedged form the page supports (testing, modifying and retesting a model; L10-Q29).",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [138, 139], "pdfPages": [174, 175], "locator": "Section 5. Modeling Earth's Biosphere and photo caption (rendered)", "supports": "The section says the other planets and moons are inhospitable to life, calls Biosphere 2 the first artificial biosphere, says every failure in science leads to new knowledge, and says the project brought colonizing another planet one big step closer." }
+      ]
+    },
+    {
+      "id": "L10-RF15",
+      "issue": "Section 3 says the concentrated solar energy at the equator causes the air there to become warm. Read quickly, this can suggest that sunlight mainly heats the air directly. Most of the sunlight Earth absorbs is taken up by the ground and sea (about 48% of incoming sunlight) rather than by the atmosphere (about 23%), and the surface then warms the air above it. The textbook's simplification is not wrong, but it can feed that idea.",
+      "pages": { "printed": [135], "pdf": [171] },
+      "resolution": "The L10-O3 Explorer card now says most of the sunlight Earth absorbs is soaked up by the ground and sea, which then warm the air above them, and its diagram edge from the Sun to the atmosphere is labeled 'uneven heating drives air convection' instead of 'warms air unevenly'. L10-Q30's stem says the sunshine heats the ground and the ground warms the air, so its key (the air rises, moves away from the equator, cools and sinks) does not depend on the direct-heating shortcut.",
+      "evidence": [
+        { "type": "textbook", "documentId": "BSA7-SE", "printedPages": [135], "pdfPages": [171], "locator": "Section 3. The Atmosphere, Energy and the Cycling of Matter in the Atmosphere, and Figure 3 (rendered)", "supports": "Because of Earth's round shape, solar energy is more concentrated at the equator; it warms the air there, which becomes less dense, rises, moves away from the equator, cools, becomes denser and sinks, forming convection cells." },
+        { "type": "external", "title": "Climate and Earth's Energy Budget", "publisher": "NASA Earth Observatory", "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget", "accessed": "2026-10-17", "supports": "The atmosphere absorbs about 23 percent of incoming sunlight and the surface about 48 percent; the surface passes energy to the atmosphere by evaporation, convection and thermal infrared radiation, and much of the atmosphere's energy comes from the surface below." }
       ]
     }
   ]

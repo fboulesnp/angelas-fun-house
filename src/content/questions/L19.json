@@ -1,0 +1,3497 @@
+{
+  "lessonId": "L19",
+  "questions": [
+    {
+      "id": "L19-Q01",
+      "lessonId": "L19",
+      "type": "classify",
+      "objectiveIds": [
+        "L19-O1"
+      ],
+      "conceptTags": [
+        "renewable",
+        "nonrenewable",
+        "classification"
+      ],
+      "familyId": "L19-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Using a human lifetime as the yardstick, sort each resource as renewable or nonrenewable.",
+      "accessiblePrompt": "Using a human lifetime as the yardstick, put each resource into one of two groups. Renewable means natural processes replace it within about a human lifetime. Nonrenewable means it takes far longer than a lifetime to form. The resources are: water in lakes and rivers; petroleum, also called crude oil; copper ore; heat from Earth's interior used by geothermal power plants; and fertile topsoil.",
+      "bins": [
+        {
+          "id": "ren",
+          "label": "Renewable: nature replaces it within a human lifetime"
+        },
+        {
+          "id": "non",
+          "label": "Nonrenewable: takes far longer than a human lifetime to form"
+        }
+      ],
+      "items": [
+        {
+          "id": "lake",
+          "text": "Water in lakes and rivers",
+          "rationale": "Rain and snow refill lakes and rivers through the water cycle within months to years, so this water counts as renewable."
+        },
+        {
+          "id": "geo",
+          "text": "Heat from Earth's interior used by geothermal plants",
+          "rationale": "Heat keeps flowing up from Earth's hot interior, and the cooled water is sent back underground, so geothermal energy is renewable."
+        },
+        {
+          "id": "oil",
+          "text": "Petroleum (crude oil)",
+          "rationale": "Oil forms from buried sea life over millions of years, far slower than people pump it, so it is nonrenewable."
+        },
+        {
+          "id": "cu",
+          "text": "Copper ore",
+          "rationale": "Copper ore deposits take millions of years to form, so mining uses them up much faster than nature makes more."
+        },
+        {
+          "id": "soil",
+          "text": "Fertile topsoil",
+          "rationale": "Building even one centimeter of fertile topsoil can take centuries, and up to a thousand years, while erosion from overgrazing or poor farming can strip it away far faster, so on a human timescale it is nonrenewable."
+        }
+      ],
+      "answer": {
+        "lake": "ren",
+        "geo": "ren",
+        "oil": "non",
+        "cu": "non",
+        "soil": "non"
+      },
+      "explanation": "Renewable or nonrenewable comes down to how long nature needs to replace a resource. Rain and snow refill lakes and rivers, and Earth's interior keeps supplying heat, both well within a lifetime. Petroleum and copper ore take millions of years to form, and even one centimeter of fertile topsoil can take centuries. Renewable resources can still run short if people use them faster than they are replaced.",
+      "misconception": "Anything that comes from nature, or from living things, must be renewable.",
+      "hint": "For each one, ask whether nature could rebuild a used-up supply within one person's lifetime.",
+      "followUpId": "L19-Q10",
+      "conditions": "Timescale: about a human lifetime.",
+      "limitations": "Groundwater is left out on purpose, because aquifers refill on very different timescales: an aquifer under a rainy region can refill quickly, while a deep one under a desert may hold water that soaked in more than a million years ago. Wood is left out because it depends on the kind of forest. Even renewable items can run short if they are overused.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "Key Science Concept: The Distribution of Natural Resources",
+        "pages": {
+          "printed": [
+            246,
+            254,
+            257
+          ],
+          "pdf": [
+            282,
+            290,
+            293
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            257
+          ],
+          "pdfPages": [
+            293
+          ],
+          "locator": "Key Science Concept: The Distribution of Natural Resources",
+          "supports": "The spread tags surface fresh water and geothermal energy as renewable and petroleum, soil and copper ore as nonrenewable."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            246
+          ],
+          "pdfPages": [
+            282
+          ],
+          "locator": "Section 1, Renewable Fresh Water",
+          "supports": "Surface fresh water is renewable because the water cycle keeps moving water through Earth's systems."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            245
+          ],
+          "pdfPages": [
+            281
+          ],
+          "locator": "Next Generation Science Standards box, Disciplinary Core Idea ESS3.A",
+          "supports": "Many natural resources are not renewable or replaceable over human lifetimes, which makes a human lifetime the yardstick for sorting."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            254
+          ],
+          "pdfPages": [
+            290
+          ],
+          "locator": "Section 5, Formation of Soil",
+          "supports": "Soil takes a long time to form from weathered rock and organic matter, so fertile soil is in limited supply and counted as nonrenewable."
+        },
+        {
+          "type": "external",
+          "title": "Soil preservation essential to ensure our sustainable future: FAO expert",
+          "publisher": "UN News (United Nations)",
+          "url": "https://news.un.org/en/audio/2017/12/638792",
+          "accessed": "2026-10-17",
+          "supports": "UN News, reporting on the FAO's Global Soil Partnership (December 2017), states that it can take up to 1,000 years to form a single centimetre of soil."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 246, 257 (renewable/nonrenewable tags read from the render) and 259. Groundwater deliberately excluded so every item has one defensible bin (L19-RF2). Reviser round 1 (2026-10-14): bins, prompt, read-aloud and conditions now use the human-lifetime yardstick from the science review (p. 245 NGSS box supports it). The soil rationale no longer starts at 'decades'; it uses the FAO figure of up to 1,000 years per centimeter (UN News) and the textbook's p. 254 statement. The pine item was dropped (pedagogy reviewer's option 5), so L19-Q03 alone tests wood and Q01 sorts 2 renewable and 3 nonrenewable items. I kept a lifetime hint instead of the pedagogy reviewer's rate-comparison hint: renewability is now defined by replacement time, and with the 'decades' lower bound gone the hint no longer pushes topsoil toward renewable. The read-aloud list is no longer grouped by bin or in strict alternation (with pine gone, the reviewer's suggested order would have alternated). Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 245, 246, 254, 257; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. External check: UN News page re-opened; it states up to 1,000 years per centimetre of soil.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bins and read-aloud define renewable as replaced within a human lifetime; soil rationale now says centuries per centimeter (FAO via UN News), not decades"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: pine item dropped so L19-Q03 owns wood; read-aloud list no longer grouped by bin; explanation timing made consistent; hint kept on the lifetime yardstick (see notes)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q02",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O1"
+      ],
+      "conceptTags": [
+        "renewable",
+        "rates",
+        "misconception-unlimited"
+      ],
+      "familyId": "L19-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Which statement best describes a renewable resource?",
+      "accessiblePrompt": "Which statement best describes a renewable resource?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Nature replaces it within about a human lifetime.",
+          "rationale": "Correct. Renewable resources are refilled or regrown on a human timescale, so they can last if people do not use them faster than they are replaced."
+        },
+        {
+          "id": "f",
+          "text": "It refills instantly, as soon as people use some of it.",
+          "rationale": "Renewable resources refill over time, not instantly. A lake drawn down in a drought needs seasons of rain and snow, and a cut forest needs years to regrow."
+        },
+        {
+          "id": "c",
+          "text": "It was made by living things, such as plants or sea life.",
+          "rationale": "Petroleum was made from living things, yet it is nonrenewable because it takes millions of years to form."
+        },
+        {
+          "id": "d",
+          "text": "It is found on Earth's surface, not deep underground.",
+          "rationale": "Location is not the test. Geothermal heat comes from underground and is renewable, while fertile topsoil lies at the surface and is nonrenewable."
+        }
+      ],
+      "answer": "e",
+      "explanation": "A resource is renewable when natural processes can replace it within about a human lifetime. That makes it refillable, not instant or limitless. If people take a lake's water or a geothermal reservoir's steam faster than nature refills it, that use is no longer sustainable and the local supply can run short, even though the resource is still renewable.",
+      "misconception": "A renewable resource is unlimited or refills instantly.",
+      "hint": "Lake water and petroleum both come from nature. What makes one renewable and the other not?",
+      "followUpId": "L19-Q13",
+      "scope": {
+        "lessonId": "L19",
+        "section": "1. Fresh Water",
+        "pages": {
+          "printed": [
+            245,
+            246
+          ],
+          "pdf": [
+            281,
+            282
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            245,
+            246
+          ],
+          "pdfPages": [
+            281,
+            282
+          ],
+          "locator": "Vocabulary box; Section 1, Renewable Fresh Water",
+          "supports": "The vocabulary box defines a renewable resource as one replenished faster than it is used up, with surface water as the example, and the NGSS box notes that many resources are not replaceable over human lifetimes."
+        },
+        {
+          "type": "external",
+          "title": "Renewable energy explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/renewable-sources/",
+          "accessed": "2026-10-14",
+          "supports": "EIA describes renewable sources as naturally replenishing but flow-limited, meaning they are limited in how much is available per unit of time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 245-246. The textbook's extra clause ('or exists in such great supply that it cannot be depleted') is deliberately not used (L19-RF1). Reviser round 1 (2026-10-14): the two reviews proposed different keys. I used the science reviewer's definition (replaced within about a human lifetime), which also removes the contradiction the pedagogy reviewer found; the pedagogy reviewer's own proposed explanation kept the rate wording and the contradiction. The pedagogy reviewer's 'refills instantly' distractor replaces b, which the textbook's 'cannot be depleted' clause made defensible; the brief names 'instantly replenished' as a misconception. Choices whose meaning changed got new ids (key e, distractor f). The 'never runs out' idea is now targeted by L19-Q13 c and L19-Q21 b (L19-RF1). Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 245-246; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key now 'replaced within about a human lifetime' (new id e); explanation separates renewability from sustainable use, so it no longer contradicts the key"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: textbook-defensible distractor b replaced by 'refills instantly' (new id f); hint no longer matches only the key; c and d lengthened so the key is not the longest choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q03",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O1",
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "wood",
+        "renewable",
+        "harvest-rate",
+        "forests"
+      ],
+      "familyId": "L19-F02",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "Two companies sell lumber. One harvests a pine plantation every 15 to 20 years and replants each time. The other cuts an old-growth forest of trees several centuries old. Which supply is renewable as it is being managed?",
+      "accessiblePrompt": "Two companies sell lumber. The first harvests a pine plantation every 15 to 20 years and replants it each time. The second cuts an old-growth forest made of trees that are several centuries old. Which lumber supply is renewable, the way it is being managed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The pine plantation, because regrowth keeps up with the cutting",
+          "rationale": "Correct. New pines are ready again within a couple of decades, so harvesting and regrowth stay in balance."
+        },
+        {
+          "id": "b",
+          "text": "The old-growth forest, because its huge trees hold far more wood",
+          "rationale": "A bigger supply is not the same as a renewable one. Trees that took centuries to grow cannot be replaced within many human lifetimes."
+        },
+        {
+          "id": "c",
+          "text": "Both, because trees are living things that can always grow back",
+          "rationale": "Trees regrow, but wood counts as renewable only when regrowth keeps pace with harvesting. Centuries-old forest cannot be replaced on a human timescale."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because cutting down any tree uses up wood for good",
+          "rationale": "A replanted plantation grows back within decades, so cutting it does not use up the supply for good."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Whether wood is renewable depends on how fast it is cut compared with how fast it grows back, not on whether trees are alive. A replanted pine plantation is ready to harvest again in a couple of decades. A forest of centuries-old trees cannot be replaced within many human lifetimes, so cutting it uses up the supply faster than nature restores it.",
+      "misconception": "All wood is renewable simply because trees are living things that grow back.",
+      "hint": "Compare how long each forest takes to grow back with how often it is cut.",
+      "followUpId": "L19-Q22",
+      "limitations": "Simplified: real forestry also depends on soil, climate and how much of a forest is cut at once. The point is the regrowth time, not the tree species.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "7. Wood",
+        "pages": {
+          "printed": [
+            259
+          ],
+          "pdf": [
+            295
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            259
+          ],
+          "pdfPages": [
+            295
+          ],
+          "locator": "Section 7, Wood",
+          "supports": "Pine can be harvested about 15 years after planting, while some trees take hundreds of years to grow, so some wood is renewable and some is not, depending on the forest type and the harvest rate."
+        },
+        {
+          "type": "external",
+          "title": "Coast Redwood",
+          "publisher": "National Park Service",
+          "url": "https://nps.gov/articles/000/coast-redwood.htm",
+          "accessed": "2026-10-14",
+          "supports": "Only about 4 percent of the original old-growth coast redwood forest remains, and some living redwoods are about 2,000 years old, so old growth cannot be replaced on a human timescale even though redwoods can resprout."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 259. Framed as old growth versus a replanted plantation rather than by species, because the textbook's redwood/cedar claim is questionable (L19-RF11). Reviser round 1 (2026-10-14): both reviewers passed it. The pedagogy reviewer's overlap note is resolved because L19-Q01 no longer has a pine item. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 259; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q04",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O1",
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "copper-ore",
+        "recycling",
+        "nonrenewable",
+        "sustainable-use"
+      ],
+      "familyId": "L19-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Copper ore is nonrenewable, yet recycling has become a major source of copper for new products. How does recycling old copper wire help?",
+      "accessiblePrompt": "Copper ore is nonrenewable, yet recycling has become a major source of copper for new products. How does recycling old copper wire help?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "It reuses copper that was already mined, so less new ore is dug up.",
+          "rationale": "Correct. Recycling keeps mined copper in use, which slows how fast ore deposits are emptied, even though it cannot rebuild them."
+        },
+        {
+          "id": "f",
+          "text": "It turns old wire back into ore deposits deep in the crust.",
+          "rationale": "Recycling happens in factories at the surface. New copper ore forms deep in the crust, mostly from hot fluids given off by magma, over millions of years."
+        },
+        {
+          "id": "g",
+          "text": "It changes copper ore from a nonrenewable resource into a renewable one.",
+          "rationale": "Ore in the ground still takes millions of years to form, so it stays nonrenewable. Recycling stretches the supply; it does not change how fast nature makes ore."
+        },
+        {
+          "id": "h",
+          "text": "It makes brand-new copper atoms, so Earth's total supply of copper grows.",
+          "rationale": "Recycling reuses existing copper atoms; it cannot create new ones."
+        }
+      ],
+      "answer": "e",
+      "explanation": "Recycling cannot make new ore. Ore deposits still take millions of years to form, so copper ore stays nonrenewable. What recycling does is keep already-mined copper in use, so fewer deposits must be mined and the remaining ore lasts longer.",
+      "misconception": "Recycling a material makes its ore renewable or creates new ore.",
+      "hint": "Think about where recycled copper comes from and what it saves.",
+      "followUpId": "L19-Q17",
+      "scope": {
+        "lessonId": "L19",
+        "section": "6. Copper Ore",
+        "pages": {
+          "printed": [
+            256
+          ],
+          "pdf": [
+            292
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore",
+          "supports": "Copper ore can take millions of years to form, so it is nonrenewable; as supplies decrease, recycling has become a major source of copper for new products."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 256. Reviser round 1 (2026-10-14): rebuilt as the pedagogy reviewer proposed: it now asks how recycling helps, so it no longer repeats L19-Q10's 'millions of years, far slower than use' key, and no choice contradicts the stem. New choice ids e-h, O1 + O3, difficulty 2, same family F02 and follow-up L19-Q17. The science reviewer's 'most' fix is applied in rationale f (the proposed rationale said ore forms 'only' from magma fluids, which would repeat the absolute). The partial overlap with L19-Q22's recycle item is accepted: Q04 asks how recycling works, Q22 asks whether it conserves. The rebuilt item has not been seen by the science reviewer and needs a science check before verification. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 256; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. This rebuilt item had no science-review pass; the verifier did the science check (recycling reuses mined copper; ore still nonrenewable).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute 'forms from magma' now 'mostly from hot fluids given off by magma' (carried into the rebuilt item's rationale f)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt around what recycling does, removing the L19-Q10 near-duplicate and the stem-contradicting distractors (new ids e-h); O1 + O3, relationship, difficulty 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q05",
+      "lessonId": "L19",
+      "type": "numeric",
+      "objectiveIds": [
+        "L19-O1"
+      ],
+      "conceptTags": [
+        "fresh-water",
+        "groundwater",
+        "percentages",
+        "data"
+      ],
+      "familyId": "L19-F03",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Shrink all of Earth's water down to 1,000 liters. Using the textbook's rounded values in the table, how many liters would be fresh groundwater?",
+      "accessiblePrompt": "Imagine all of Earth's water shrunk down to 1,000 liters. A table gives the textbook's rounded values: 97 percent of all water is salt water and 3 percent is fresh. Of that fresh water, 69 percent is ice, 30 percent is groundwater, and 1 percent is in lakes and rivers. How many liters would be fresh groundwater?",
+      "answer": 9,
+      "tolerance": 0.5,
+      "unit": "liters",
+      "workedSolution": "Fresh water = 3% of 1,000 L = 0.03 × 1,000 L = 30 L. Fresh groundwater = 30% of that fresh water = 0.30 × 30 L = 9 L. (For comparison, lakes and rivers would be 1% of 30 L = 0.3 L.)",
+      "explanation": "Fresh water is only a small slice of Earth's water, and most of that slice is frozen. Groundwater makes up most of the rest, which is why aquifers matter so much to farms and cities, while lakes and rivers hold only a sliver.",
+      "misconception": "Because so much of Earth is covered with water, fresh water that people can use must be plentiful.",
+      "hint": "First find the fresh water, then take a percentage of that, not of the whole 1,000 liters.",
+      "followUpId": "L19-Q21",
+      "units": "liters",
+      "conditions": "Uses the textbook's rounded percentages. USGS estimates fresh water at about 2.5 percent of Earth's water, which would give about 7.5 liters of fresh groundwater.",
+      "limitations": "A scaled-down model of global totals. It says nothing about how evenly that groundwater is spread or how much can be reached.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "1. Fresh Water",
+        "pages": {
+          "printed": [
+            246
+          ],
+          "pdf": [
+            282
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            246
+          ],
+          "pdfPages": [
+            282
+          ],
+          "locator": "Section 1, Distribution of Fresh Water and Figure 1A",
+          "supports": "About 3 percent of Earth's water is fresh; of the fresh water, about 69 percent is glacial ice, 30 percent groundwater and 1 percent surface water."
+        },
+        {
+          "type": "external",
+          "title": "Where is Earth's Water?",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water",
+          "accessed": "2026-10-14",
+          "supports": "USGS estimates about 2.5 percent of Earth's water is fresh, of which about 30.1 percent is groundwater."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 246 (Figure 1A values read from the render). Textbook rounding noted in conditions (L19-RF4). Reviser round 1 (2026-10-14): given a table diagram (pedagogy reviewer, lesson level: the bank had no diagram item). The prompt refers to the table; the alt text and read-aloud still state every value. Key, tolerance and worked solution unchanged. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 246 (Figure 1A); correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: table diagram of the textbook's rounded values added (lesson-level diagram finding); the item itself passed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "diagram": {
+        "kind": "table",
+        "caption": "Where Earth's water is (textbook's rounded values)",
+        "alt": "A table with two columns: where the water is, and its share. Salt water, mostly in the oceans: 97 percent of all water. Fresh water: 3 percent of all water. Ice: 69 percent of the fresh water. Groundwater: 30 percent of the fresh water. Lakes and rivers: 1 percent of the fresh water.",
+        "columns": [
+          "Where the water is",
+          "Share"
+        ],
+        "rows": [
+          [
+            "Salt water (mostly oceans)",
+            "97% of all water"
+          ],
+          [
+            "Fresh water",
+            "3% of all water"
+          ],
+          [
+            "Ice",
+            "69% of fresh water"
+          ],
+          [
+            "Groundwater",
+            "30% of fresh water"
+          ],
+          [
+            "Lakes and rivers",
+            "1% of fresh water"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L19-Q06",
+      "lessonId": "L19",
+      "type": "multi",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "groundwater",
+        "aquifer",
+        "recharge",
+        "uneven-distribution"
+      ],
+      "familyId": "L19-F03",
+      "category": "relationship",
+      "difficulty": 3,
+      "prompt": "An aquifer is underground rock that holds water. Which factors affect how quickly rain and melting snow can refill an aquifer? Select all that apply.",
+      "accessiblePrompt": "An aquifer is a layer of underground rock that holds water. Which factors affect how quickly rain and melting snow can refill an aquifer? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How much rain and snow falls where water can soak down into it",
+          "rationale": "Correct. More precipitation where water can soak in means more water is available to move down and refill the aquifer."
+        },
+        {
+          "id": "b",
+          "text": "The type of rock, which controls how easily water soaks in",
+          "rationale": "Correct. Rock properties control how much water can be stored and how quickly it can move in."
+        },
+        {
+          "id": "c",
+          "text": "How deep underground the aquifer lies",
+          "rationale": "Correct. Water must travel farther, through all the rock layers in between, to reach a deep aquifer, which is one reason deep ones like the Great Artesian Basin refill so slowly."
+        },
+        {
+          "id": "d",
+          "text": "How much water people pump out of it each year",
+          "rationale": "Pumping changes how fast water leaves the aquifer, not how fast rain and snowmelt refill it. The aquifer shrinks when pumping outpaces refilling."
+        },
+        {
+          "id": "f",
+          "text": "How close the aquifer is to the ocean, since seawater seeps in to top it up",
+          "rationale": "Fresh-water aquifers are refilled by rain and snowmelt soaking down from the land. Seawater that seeps into a coastal aquifer makes the water salty; it spoils the fresh supply instead of refilling it."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Refilling depends on how much water arrives from rain and snow, how easily the rock lets it in and stores it, and how far it has to travel to reach the aquifer. Pumping matters too, but it controls how fast water leaves, not how fast nature puts water back. When people pump faster than the aquifer refills, its water level falls.",
+      "misconception": "Every aquifer refills at the same rate no matter the climate, the rock or how deep it lies, or the ocean tops up fresh groundwater.",
+      "hint": "Think about where the water comes from and the path it takes to get underground.",
+      "followUpId": "L19-Q07",
+      "limitations": "Simplified model: refilling here means natural recharge from rain and snowmelt. Heavy pumping can sometimes pull in extra water from nearby rivers; that is not counted here.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "1. Fresh Water",
+        "pages": {
+          "printed": [
+            247
+          ],
+          "pdf": [
+            283
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247
+          ],
+          "pdfPages": [
+            283
+          ],
+          "locator": "Section 1, Nonrenewable Fresh Water and Figure 1B",
+          "supports": "Aquifers refill quickly where rain or snow is plentiful and slowly where it is scarce; rock type affects how much water is stored and how fast it is replenished; the deep Great Artesian Basin refills slowly."
+        },
+        {
+          "type": "external",
+          "title": "Water-Level Changes in the High Plains Aquifer, 1980 to 1998",
+          "publisher": "U.S. Geological Survey, Nebraska Water Science Center",
+          "url": "https://ne.water.usgs.gov/ogw/hpwlms/hpfs98.html",
+          "accessed": "2026-10-14",
+          "supports": "USGS reports that High Plains aquifer recharge comes primarily from precipitation and that water levels change when discharge and recharge are out of balance."
+        },
+        {
+          "type": "external",
+          "title": "Chlorine 36 Dating of Very Old Groundwater 3. Further Studies in the Great Artesian Basin, Australia (Torgersen et al., abstract)",
+          "publisher": "Purdue University PRIME Lab (research paper abstract page)",
+          "url": "https://www.physics.purdue.edu/primelab/research/papers/to91b.html",
+          "accessed": "2026-10-14",
+          "supports": "Dating of Great Artesian Basin groundwater shows water that has been underground for more than a million years, consistent with very slow refilling of a deep aquifer."
+        },
+        {
+          "type": "external",
+          "title": "Groundwater Decline and Depletion",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater-decline-and-depletion",
+          "accessed": "2026-10-17",
+          "supports": "USGS explains that pumping can cause saltwater to move inland and upward, contaminating a fresh water supply, and that pumping can increase the movement of water from a stream, lake or wetland into an aquifer."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 247. Three correct of five, all-or-nothing. Pumping is the recharge-versus-withdrawal distractor; the prompt limits 'refill' to rain and snowmelt. Reviser round 1 (2026-10-14): choice a reworded (same claim, id kept); c rationale adds the rock layers in between; distractor e (use of the pumped water) replaced by the ocean-refill idea (new id f). The misconception merges both reviews but drops 'pumping changes the refill rate', which the science reviewer showed is not simply wrong; the limitation now says heavy pumping can draw in river water (USGS record re-opened 2026-10-17). Key stays a, b, c. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 247; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a no longer says 'the land above it' (deep confined aquifers recharge where their rock reaches the surface); misconception no longer calls pumping-induced recharge a mistake; river-water limitation added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: weak distractor e replaced by the seawater-refill misconception (new id f)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q07",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "uneven-distribution",
+        "formation",
+        "petroleum",
+        "seed"
+      ],
+      "familyId": "L19-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Why are petroleum and many other natural resources plentiful in some parts of the world but scarce in others?",
+      "accessiblePrompt": "Why are petroleum and many other natural resources plentiful in some parts of the world but scarce in others?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The conditions that form them existed only in certain places, often for millions of years.",
+          "rationale": "Correct. Each resource needs particular conditions, such as warm, shallow seas for petroleum or sinking plates for copper ore, and those conditions occurred only in some places."
+        },
+        {
+          "id": "b",
+          "text": "Resources were once spread evenly, but only wealthy nations have searched hard enough to find them.",
+          "rationale": "Searching affects which deposits are known, but it cannot explain why the deposits themselves are concentrated in certain places."
+        },
+        {
+          "id": "c",
+          "text": "Resources form fastest wherever people need them most, so crowded regions end up with the most.",
+          "rationale": "Resources formed long before people existed, and their locations were set by geology and climate, not by human need."
+        },
+        {
+          "id": "d",
+          "text": "Resources drift around underground at random, so where they end up is mostly a matter of luck.",
+          "rationale": "Resources are not scattered at random. Their locations follow from the processes that formed them, which is why scientists can predict where to look."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Every resource has a formation story tied to place. Most petroleum formed where sea life piled up in warm, shallow seas and was buried; most copper ore formed above sinking plates; geothermal heat is strongest near plate boundaries; groundwater collects in rock that can store it wherever rain and snow soaked in, today or during wetter times long ago. Because those conditions existed only in certain places, the resources are uneven, and human use reshapes the pattern further.",
+      "misconception": "Natural resources are spread evenly, and differences between places come only from who has searched or mined.",
+      "hint": "Think about what it took to make petroleum, and whether that could happen everywhere.",
+      "followUpId": "L19-Q09",
+      "scope": {
+        "lessonId": "L19",
+        "section": "3. Petroleum",
+        "pages": {
+          "printed": [
+            245,
+            251,
+            257
+          ],
+          "pdf": [
+            281,
+            287,
+            293
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            251
+          ],
+          "pdfPages": [
+            287
+          ],
+          "locator": "Section 3, Distribution and Figure 3B",
+          "supports": "Petroleum reservoirs are distributed unevenly because petroleum formed where warm, shallow seas existed millions of years ago."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            245,
+            257
+          ],
+          "pdfPages": [
+            281,
+            293
+          ],
+          "locator": "Introduction; Key Science Concept: The Distribution of Natural Resources",
+          "supports": "The abundance of each resource depends on natural processes in Earth's systems, and these cause-and-effect relationships produce an uneven distribution across Earth."
+        },
+        {
+          "type": "external",
+          "title": "Four African nations agree to improve use of key water resource under UN-backed plan",
+          "publisher": "UN News (United Nations)",
+          "url": "https://news.un.org/en/story/2013/09/449252-four-african-nations-agree-improve-use-key-water-resource-under-un-backed-plan",
+          "accessed": "2026-10-17",
+          "supports": "UN News (September 2013) describes the Nubian Sandstone Aquifer System beneath Chad, Egypt, Libya and Sudan as the world's largest known 'fossil' water aquifer system, meaning its water is ancient and non-renewable."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for lesson 19, polished. Drafted from rendered pp. 245, 251 and 257. Reviser round 1 (2026-10-14): explanation no longer says groundwater collects only where rain and snow are plentiful; the p. 247 map itself marks aquifers under the Sahara and dry central Australia (L19-RF13, UN News record added). 'Most' added to the petroleum and copper clauses. Key, choices and rationales unchanged. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 245, 251, 257; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation says groundwater collects wherever rain and snow soaked in, today or in wetter times long ago (Sahara and Australian aquifers on the p. 247 map; L19-RF13)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q08",
+      "lessonId": "L19",
+      "type": "match",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "formation-evidence",
+        "petroleum",
+        "geothermal",
+        "copper-ore",
+        "groundwater",
+        "soil"
+      ],
+      "familyId": "L19-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Match each resource with the process that formed it or concentrated it. One process is left over.",
+      "accessiblePrompt": "Match each resource with the process that formed it or concentrated it. One process is left over. The resources are petroleum, geothermal energy, copper ore, groundwater and fertile soil. The processes are: hot rock close to the surface where plates pull apart or push together; lava that cooled quickly into dark rock on the surface; remains of tiny sea organisms buried under sediment where warm, shallow seas once lay; rain and snowmelt that soaked into rock able to store water; hot, metal-rich fluids from magma that cooled in the crust above a sinking plate; weathered rock bits mixed with decayed remains of plants and animals.",
+      "left": [
+        {
+          "id": "oil",
+          "text": "Petroleum",
+          "rationale": "Petroleum formed from tiny sea organisms buried under sediment in warm, shallow seas and changed by heat and pressure."
+        },
+        {
+          "id": "geo",
+          "text": "Geothermal energy",
+          "rationale": "Geothermal energy is concentrated where hot rock lies close to the surface, mostly along divergent and convergent plate boundaries."
+        },
+        {
+          "id": "cu",
+          "text": "Copper ore",
+          "rationale": "Most copper ore formed when hot, metal-rich fluids from magma above a sinking plate cooled in the crust. Lava cooling on the surface makes rock, not concentrated ore."
+        },
+        {
+          "id": "gw",
+          "text": "Groundwater",
+          "rationale": "Groundwater collects where rain and snowmelt soak into rock that can store water."
+        },
+        {
+          "id": "soil",
+          "text": "Fertile soil",
+          "rationale": "Fertile soil forms as weathered rock mixes with decayed plant and animal matter."
+        }
+      ],
+      "right": [
+        {
+          "id": "rain",
+          "text": "Rain and snowmelt that soaked down into rock able to store water"
+        },
+        {
+          "id": "magma",
+          "text": "Hot, metal-rich fluids from magma that cooled in the crust above a sinking plate"
+        },
+        {
+          "id": "decay",
+          "text": "Weathered rock bits mixed with decayed remains of plants and animals"
+        },
+        {
+          "id": "lava",
+          "text": "Lava that cooled quickly into dark rock on the surface"
+        },
+        {
+          "id": "sea",
+          "text": "Remains of tiny sea organisms buried under sediment where warm, shallow seas once lay"
+        },
+        {
+          "id": "heat",
+          "text": "Hot rock close to the surface where tectonic plates pull apart or push together"
+        }
+      ],
+      "answer": {
+        "oil": "sea",
+        "geo": "heat",
+        "cu": "magma",
+        "gw": "rain",
+        "soil": "decay"
+      },
+      "explanation": "Each resource carries a signature of how it formed. Buried sea life points to petroleum, hot rock near plate boundaries to geothermal energy, cooled magma fluids above a sinking plate to copper ore, water soaking into rock to groundwater, and weathered rock plus decayed matter to soil. Knowing the formation process tells you what kind of place to search.",
+      "misconception": "Resources that occur near plate boundaries, or underground, all form the same way.",
+      "hint": "Look for the key ingredient in each description: sea life, heat, magma fluids, rain or decay. One description fits none of the resources.",
+      "followUpId": "L19-Q11",
+      "scope": {
+        "lessonId": "L19",
+        "section": "Key Science Concept: The Distribution of Natural Resources",
+        "pages": {
+          "printed": [
+            247,
+            250,
+            253,
+            254,
+            256,
+            257
+          ],
+          "pdf": [
+            283,
+            286,
+            289,
+            290,
+            292,
+            293
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            257
+          ],
+          "pdfPages": [
+            293
+          ],
+          "locator": "Key Science Concept: The Distribution of Natural Resources",
+          "supports": "The spread summarizes how fresh water, copper ore, soil, geothermal energy and petroleum form and where each is concentrated."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            250
+          ],
+          "pdfPages": [
+            286
+          ],
+          "locator": "Section 3, Formation and Figure 3A",
+          "supports": "Petroleum formed from marine organisms buried under sediment and changed by heat and pressure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            253
+          ],
+          "pdfPages": [
+            289
+          ],
+          "locator": "Section 4, Distribution of Geothermal Energy",
+          "supports": "Geothermal energy is most commonly concentrated at divergent and convergent plate boundaries."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore",
+          "supports": "Copper ore forms from magma at convergent boundaries, where copper-rich fluids cool and solidify."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247,
+            254
+          ],
+          "pdfPages": [
+            283,
+            290
+          ],
+          "locator": "Section 1, Nonrenewable Fresh Water; Section 5, Formation of Soil",
+          "supports": "Groundwater is replenished by infiltration of rain and snow; soil forms from weathered rock and organic matter."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 247, 250, 253, 254, 256 and 257. Geothermal and copper descriptions differ by mechanism (heat versus magma fluids), so the one-to-one match is defensible. Reviser round 1 (2026-10-14): the copper process now reads 'Hot, metal-rich fluids from magma...' (same meaning, id kept) so it cannot be matched on the word copper; the read-aloud prompt lists all six processes in scrambled order; a decoy right item (lava, new id) means the last pair is no longer given by elimination. The prompt and hint say one process is left over. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 247, 250, 253, 254, 256, 257; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: copper description no longer starts with 'Copper'; read-aloud lists every process; decoy lava process added so the last pair is not free"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q09",
+      "lessonId": "L19",
+      "type": "order",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "petroleum",
+        "formation",
+        "sequence"
+      ],
+      "familyId": "L19-F05",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Put these steps in the order in which petroleum forms, from first to last.",
+      "accessiblePrompt": "Put these steps in the order in which petroleum forms, from first to last. The steps are: deeper burial raises the heat and pressure on the remains; tiny ocean organisms die and sink to the seafloor; the oil fills tiny spaces in rock, forming a reservoir; layer after layer of sediment buries the remains; the remains change chemically into thick, dark oil.",
+      "items": [
+        {
+          "id": "heat",
+          "text": "Deeper burial raises the heat and pressure on the remains",
+          "rationale": "Third: only after the remains are buried deeply do heat and pressure build up."
+        },
+        {
+          "id": "die",
+          "text": "Tiny ocean organisms die and sink to the seafloor",
+          "rationale": "First: the raw material is the remains of tiny sea plants and animals settling to the bottom."
+        },
+        {
+          "id": "pore",
+          "text": "The oil fills tiny spaces in rock, forming a reservoir",
+          "rationale": "Last: the oil that forms collects in the pore spaces of rock, making a reservoir that wells can reach."
+        },
+        {
+          "id": "bury",
+          "text": "Layer after layer of sediment buries the remains",
+          "rationale": "Second: new sediment piles on top, burying the remains deeper and deeper."
+        },
+        {
+          "id": "change",
+          "text": "The remains change chemically into thick, dark oil",
+          "rationale": "Fourth: once heat and pressure are high enough, the remains undergo chemical changes that produce oil."
+        }
+      ],
+      "answer": [
+        "die",
+        "bury",
+        "heat",
+        "change",
+        "pore"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Petroleum begins as tiny sea organisms that settle on the seafloor. Sediment buries them deeper and deeper, the heat and pressure rise, and over millions of years the remains change chemically into oil, which collects in the pore spaces of rock. Each step needs the one before it, which is why the whole process takes so long.",
+      "misconception": "Oil forms on the seafloor before the remains are buried, or heat and pressure act on the remains before they are buried deeply.",
+      "hint": "Nothing can be cooked by heat and pressure until it has been buried.",
+      "followUpId": "L19-Q08",
+      "scope": {
+        "lessonId": "L19",
+        "section": "3. Petroleum",
+        "pages": {
+          "printed": [
+            250
+          ],
+          "pdf": [
+            286
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            250
+          ],
+          "pdfPages": [
+            286
+          ],
+          "locator": "Section 3, Formation and Figure 3A, How Petroleum Forms",
+          "supports": "Marine organisms die and settle to the seafloor, are buried under layers of sediment, and over millions of years heat and pressure change them into oil that fills pore spaces in rock."
+        },
+        {
+          "type": "external",
+          "title": "Oil and petroleum products explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/",
+          "accessed": "2026-10-14",
+          "supports": "EIA describes crude oil forming from ancient marine organisms buried under layers of sand, silt and rock, whose heat and pressure turned the remains into oil found in tiny spaces within sedimentary rocks."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 250 (Figure 3A step captions read from the render). Items listed out of answer order; one defensible sequence. Reviser round 1 (2026-10-14): misconception rewritten to the burial-before-heat ordering error; the dinosaur idea stays with L19-Q10 b. Nothing else changed. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 250 (Figure 3A); correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: misconception now names the ordering error the item can detect"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q10",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O1",
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "petroleum",
+        "nonrenewable",
+        "timescale"
+      ],
+      "familyId": "L19-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Tiny sea organisms are still dying and settling on the seafloor today. Why is petroleum still called a nonrenewable resource?",
+      "accessiblePrompt": "Tiny sea organisms are still dying and settling on the seafloor today. So why is petroleum still called a nonrenewable resource?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Turning buried remains into oil takes millions of years, far slower than we pump it.",
+          "rationale": "Correct. The process still happens, but it is so slow that the supply cannot keep up with the rate people use oil."
+        },
+        {
+          "id": "b",
+          "text": "Oil forms only from dinosaur bones, and dinosaurs are extinct now.",
+          "rationale": "Petroleum formed mainly from tiny sea organisms, not dinosaurs, and those organisms still exist."
+        },
+        {
+          "id": "c",
+          "text": "It is called nonrenewable only because burning oil releases carbon dioxide.",
+          "rationale": "Pollution makes oil use unsustainable, but nonrenewable is about formation speed compared with use."
+        },
+        {
+          "id": "d",
+          "text": "Sediment no longer settles on the seafloor, so new remains never get buried these days.",
+          "rationale": "Sediment still piles up on the seafloor today. Burial continues; it is the slow change into oil that matters."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The ingredients for oil are still being laid down, but the recipe is extremely slow: remains must be buried deeply and changed by heat and pressure for millions of years. People pump oil far faster than that, so the supply shrinks. The carbon dioxide released by burning oil is a separate problem that makes its use unsustainable.",
+      "misconception": "If the raw ingredients of a resource are still around, the resource must be renewable.",
+      "hint": "Compare how long nature needs to make oil with how quickly people use it.",
+      "followUpId": "L19-Q03",
+      "scope": {
+        "lessonId": "L19",
+        "section": "3. Petroleum",
+        "pages": {
+          "printed": [
+            250,
+            251
+          ],
+          "pdf": [
+            286,
+            287
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            250,
+            251
+          ],
+          "pdfPages": [
+            286,
+            287
+          ],
+          "locator": "Section 3, Formation and Distribution",
+          "supports": "Petroleum formed over millions of years and is nonrenewable because it forms so slowly that it cannot be replenished as fast as it is used; burning it releases carbon dioxide, which is a separate reason its use is not sustainable."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 250-251. Distractor c separates 'nonrenewable' from 'unsustainable', a distinction the text itself makes on p. 251. Reviser round 1 (2026-10-14): both reviewers passed it; the pedagogy pass depended on the L19-Q04 rebuild, which was applied. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 250-251; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q11",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O2",
+        "L19-O4"
+      ],
+      "conceptTags": [
+        "petroleum",
+        "evidence",
+        "past-environments",
+        "maps"
+      ],
+      "familyId": "L19-F05",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "One of the world's largest oil fields lies beneath a sandy desert in Saudi Arabia. Based on how petroleum forms, what does this oil suggest about the region's distant past?",
+      "accessiblePrompt": "One of the world's largest oil fields lies beneath a sandy desert in Saudi Arabia. Based on how petroleum forms, what does this oil suggest about that region's distant past?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A warm, shallow sea covered it, where sea life collected and was buried.",
+          "rationale": "Correct. Petroleum formed where marine organisms settled in warm, shallow seas, so the oil is a clue that a sea once covered this land."
+        },
+        {
+          "id": "b",
+          "text": "It has always been a hot desert, and desert heat slowly turns sand into oil.",
+          "rationale": "Sand does not turn into oil. Petroleum comes from buried remains of sea organisms, and Earth's surface has changed greatly over millions of years."
+        },
+        {
+          "id": "c",
+          "text": "A thick forest once grew there, and its fallen trees became the oil.",
+          "rationale": "Buried land plants mainly become coal and natural gas. In this lesson's model, petroleum forms from marine organisms buried under sediment."
+        },
+        {
+          "id": "d",
+          "text": "Volcanoes there once poured out oil along with their lava.",
+          "rationale": "Volcanoes are linked to geothermal heat and copper ore, not to petroleum, which forms from buried sea life."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Because petroleum formed from sea organisms buried beneath warm, shallow seas, an oil field is evidence that a sea once covered that spot. Over millions of years, seas came and went, so a desert today can sit on top of rock laid down underwater. Geologists use this reasoning to decide where to search for oil.",
+      "misconception": "Today's landscape shows what a place has always been like.",
+      "hint": "What kind of environment does petroleum need in order to form?",
+      "followUpId": "L19-Q07",
+      "limitations": "Simplified to the textbook's model, in which petroleum forms from marine organisms in warm, shallow seas.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "3. Petroleum",
+        "pages": {
+          "printed": [
+            250,
+            251
+          ],
+          "pdf": [
+            286,
+            287
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            250
+          ],
+          "pdfPages": [
+            286
+          ],
+          "locator": "Section 3, Petroleum opener and Formation",
+          "supports": "The Ghawar Oil Field in Saudi Arabia sits on one of the largest oil deposits, and petroleum formed from buried marine organisms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            251
+          ],
+          "pdfPages": [
+            287
+          ],
+          "locator": "Section 3, Distribution and Figure 3B",
+          "supports": "Petroleum is found where warm, shallow seas existed millions of years ago; the map marks Ghawar among the major reservoirs."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 250-251 (Ghawar located on the Figure 3B map in the render). Reviser round 1 (2026-10-14): the science reviewer's optional rationale c edit was applied in a hedged form ('in this lesson's model') because no source was opened about Ghawar's own source rock. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 250-251 (Ghawar on Figure 3B); correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional edit applied: rationale c says buried land plants mainly become coal and natural gas"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q12",
+      "lessonId": "L19",
+      "type": "order",
+      "objectiveIds": [
+        "L19-O1"
+      ],
+      "conceptTags": [
+        "geothermal",
+        "power-plant",
+        "sequence",
+        "energy-transfer"
+      ],
+      "familyId": "L19-F06",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Put the steps of a flash steam geothermal power plant in order, starting with water in the aquifer and ending when the water is back underground.",
+      "accessiblePrompt": "Put the steps of a flash steam geothermal power plant in order. Start with water in the aquifer and end when the water is back underground. The steps are: at the plant, lower pressure makes the hot water flash into steam; the cooled water is pumped back down an injection well; hot rock heats water in the aquifer; the expanding steam spins a turbine, producing electricity; the hot water rises through a production well.",
+      "items": [
+        {
+          "id": "flash",
+          "text": "At the plant, lower pressure makes the hot water flash into steam",
+          "rationale": "Third: once the water reaches the plant, its pressure is lowered and it boils into steam."
+        },
+        {
+          "id": "inject",
+          "text": "The cooled water is pumped back down an injection well",
+          "rationale": "Last: after the steam does its work and cools, the water is returned to the aquifer to be heated again."
+        },
+        {
+          "id": "heat",
+          "text": "Hot rock heats water in the aquifer",
+          "rationale": "First: energy passes from hot rock into the groundwater."
+        },
+        {
+          "id": "turbine",
+          "text": "The expanding steam spins a turbine, producing electricity",
+          "rationale": "Fourth: steam takes up much more room than liquid water, and that expansion spins the turbine."
+        },
+        {
+          "id": "rise",
+          "text": "The hot water rises through a production well",
+          "rationale": "Second: the heated water travels up the production well to the plant."
+        }
+      ],
+      "answer": [
+        "heat",
+        "rise",
+        "flash",
+        "turbine",
+        "inject"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Energy moves from hot rock into groundwater, the hot water rises up a production well, and at the plant a drop in pressure turns it into steam. The expanding steam spins a turbine to make electricity, and the cooled water goes back underground through an injection well so it can be heated again.",
+      "misconception": "A geothermal plant burns fuel to boil its water, or uses up the water once and throws it away.",
+      "hint": "Follow one batch of water: where does it get its energy, and where does it end up?",
+      "followUpId": "L19-Q27",
+      "scope": {
+        "lessonId": "L19",
+        "section": "4. Geothermal Energy",
+        "pages": {
+          "printed": [
+            252
+          ],
+          "pdf": [
+            288
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            252
+          ],
+          "pdfPages": [
+            288
+          ],
+          "locator": "Section 4, Electricity from Geothermal Energy and Figure 4A",
+          "supports": "In a flash steam plant, hot groundwater rises through a production well, lowered pressure turns it to steam that spins a turbine, and an injection well returns the cooled water to the aquifer."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 252 (Figure 4A labels read from the render). The prompt fixes both ends of the loop so only one order is defensible. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 252 (Figure 4A); correct, single defensible answer, distinct, cited, original, accessible, guardrails met. Note: since O1 dropped \"how people obtain them\", this item fits O1 only through the water-return step that makes geothermal renewable. The alignment is loose but acceptable.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q13",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O1",
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "geothermal",
+        "renewable-not-unlimited",
+        "sustainability"
+      ],
+      "familyId": "L19-F06",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "In the 1980s, power plants at The Geysers in California drew steam from the underground reservoir much faster than water was put back, and steam output dropped. What does this show about geothermal energy?",
+      "accessiblePrompt": "In the 1980s, power plants at The Geysers in California drew steam from the underground reservoir much faster than water was put back, and the amount of steam dropped. What does this show about geothermal energy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Geothermal energy is renewable, but one reservoir can still be overused.",
+          "rationale": "Correct. The heat keeps coming, but a plant also needs water to carry it, and a reservoir refills only as fast as water returns to it."
+        },
+        {
+          "id": "b",
+          "text": "Geothermal energy is nonrenewable after all, because Earth's interior is running out of heat.",
+          "rationale": "Earth's interior still holds an enormous supply of heat. The problem was the water and steam in one reservoir, not the heat."
+        },
+        {
+          "id": "c",
+          "text": "A renewable resource never runs low, so the plants can safely take as much steam as they like.",
+          "rationale": "Renewable does not mean unlimited. This case shows a renewable resource being drawn down by overuse."
+        },
+        {
+          "id": "d",
+          "text": "The steam ran low because the plants sit far away from any active plate boundary.",
+          "rationale": "The Geysers lies inside one of the hottest-known geothermal regions on the world map. Location was not the cause."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Geothermal energy is called renewable because Earth's interior keeps supplying heat. But a power plant needs water to carry that heat to the surface, and an underground reservoir refills only as fast as water returns to it. At The Geysers, operators now pump treated wastewater underground to restore pressure, a good example of making a renewable resource's use sustainable.",
+      "misconception": "Because geothermal energy is renewable, a plant can draw on it at any rate forever.",
+      "hint": "A geothermal plant needs two things from underground: heat and water. Which one ran short?",
+      "followUpId": "L19-Q02",
+      "conditions": "A historical example from the 1970s and 1980s.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "4. Geothermal Energy",
+        "pages": {
+          "printed": [
+            252,
+            253
+          ],
+          "pdf": [
+            288,
+            289
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            252,
+            253
+          ],
+          "pdfPages": [
+            288,
+            289
+          ],
+          "locator": "Section 4, Electricity from Geothermal Energy and Distribution of Geothermal Energy",
+          "supports": "The Geysers is the world's largest complex of geothermal plants; injection wells return cooled water so the cycle can continue, and the textbook calls geothermal energy renewable."
+        },
+        {
+          "type": "external",
+          "title": "Recharging The Geysers",
+          "publisher": "Calpine Corporation (operator of The Geysers)",
+          "url": "https://geysers.com/about/recharging-the-geysers/",
+          "accessed": "2026-10-14",
+          "supports": "The Geysers' operator states that in the 1970s and 1980s far more steam was extracted than replaced, causing steam pressure drops by 1989, and that recycled wastewater is now injected to restore pressure."
+        },
+        {
+          "type": "external",
+          "title": "Geothermal FAQs",
+          "publisher": "U.S. Department of Energy, Geothermal Technologies Office",
+          "url": "https://www.energy.gov/eere/geothermal/geothermal-faqs",
+          "accessed": "2026-10-14",
+          "supports": "The Department of Energy notes pressure and production declines at some geothermal plants and describes Santa Rosa's treated wastewater being reinjected at The Geysers to extend the reservoir's life."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 252-253. Corrects the textbook's 'inexhaustible ... will always be available' framing (L19-RF1) with operator and DOE sources. Reviser round 1 (2026-10-14): key a reworded (same claim, id kept) so it can no longer be picked by matching the stem's 'faster than water was put back'. Difficulty 3 kept. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 252-253 (The Geysers inside a hottest-known region on Figure 4B); correct, single defensible answer, distinct, cited, original, accessible, guardrails met. External check: Calpine page re-opened; it confirms steam extracted far faster than replaced in the 1970s-80s, pressure and output falling by 1989, and wastewater injection now.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reworded so it no longer echoes the stem's cause"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q14",
+      "lessonId": "L19",
+      "type": "classify",
+      "objectiveIds": [
+        "L19-O1",
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "soil",
+        "composition",
+        "weathering",
+        "organic-matter"
+      ],
+      "familyId": "L19-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Soil is a mixture. Sort each item into the part of soil it belongs to.",
+      "accessiblePrompt": "Soil is a mixture. Sort each item into one of three parts of soil: weathered rock and mineral particles; living and once-living matter; or water and air in the spaces between particles. The items are: sand grains broken off a boulder; bits of rotting leaves; air in tunnels dug by earthworms; tiny clay particles from chemically weathered rock; rainwater clinging between grains; and bacteria and fungi.",
+      "bins": [
+        {
+          "id": "rock",
+          "label": "Weathered rock and mineral particles"
+        },
+        {
+          "id": "life",
+          "label": "Living and once-living matter"
+        },
+        {
+          "id": "space",
+          "label": "Water and air in the spaces"
+        }
+      ],
+      "items": [
+        {
+          "id": "leaves",
+          "text": "Bits of rotting leaves",
+          "rationale": "Rotting leaves are once-living matter that adds nutrients as it decomposes."
+        },
+        {
+          "id": "sand",
+          "text": "Sand grains broken off a boulder",
+          "rationale": "Sand comes from rock that has been physically broken apart by weathering."
+        },
+        {
+          "id": "water",
+          "text": "Rainwater clinging between grains",
+          "rationale": "Water fills some of the spaces between soil particles."
+        },
+        {
+          "id": "microbes",
+          "text": "Bacteria and fungi",
+          "rationale": "Bacteria and fungi are living organisms that decompose remains and help break down rock."
+        },
+        {
+          "id": "clay",
+          "text": "Tiny clay particles from chemically weathered rock",
+          "rationale": "Clay forms when rock is chemically changed and broken down, so it belongs with the mineral particles."
+        },
+        {
+          "id": "air",
+          "text": "Air in tunnels dug by earthworms",
+          "rationale": "Burrowing animals open spaces that fill with air, which helps plant roots and soil organisms."
+        }
+      ],
+      "answer": {
+        "sand": "rock",
+        "clay": "rock",
+        "leaves": "life",
+        "microbes": "life",
+        "water": "space",
+        "air": "space"
+      },
+      "explanation": "Soil is not just crushed rock. It mixes weathered rock and mineral particles with living and once-living matter, plus water and air in the spaces between. Decomposers release nutrients from dead plants and animals, and burrowing animals let air in, which is what makes soil able to support plant growth.",
+      "misconception": "Soil is just dirt made of tiny bits of rock.",
+      "hint": "Ask of each item: did it come from rock, from life, or is it filling the gaps?",
+      "followUpId": "L19-Q19",
+      "scope": {
+        "lessonId": "L19",
+        "section": "5. Soil",
+        "pages": {
+          "printed": [
+            254
+          ],
+          "pdf": [
+            290
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            254
+          ],
+          "pdfPages": [
+            290
+          ],
+          "locator": "Section 5, Formation of Soil and Figure 5A, How Soil Forms",
+          "supports": "Soil is a mixture of rock particles, minerals, water, air, and living and once-living matter; weathering makes sediment, bacteria and fungi add organic matter and nutrients, and burrowing animals add air."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 254 (Figure 5A panels read from the render). Each item has one defensible bin. Reviser round 1 (2026-10-14): read-aloud list reordered so position no longer gives the bin; objectives O1 + O2 because soil makeup is mainly identification. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 254 (Figure 5A); correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list no longer cycles through the bins; objectives now O1 + O2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q15",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "soil",
+        "weathering",
+        "rainfall",
+        "uneven-distribution"
+      ],
+      "familyId": "L19-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "In very rainy regions, soil is often thicker than in dry regions, yet it can be less fertile. What best explains why heavy rain tends to make soil thicker?",
+      "accessiblePrompt": "In very rainy regions, soil is often thicker than in dry regions, yet it can be less fertile. What best explains why heavy rain tends to make soil thicker?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water speeds up weathering, so rock breaks down into sediment faster.",
+          "rationale": "Correct. More rain means faster physical and chemical weathering, so sediment for soil builds up more quickly."
+        },
+        {
+          "id": "e",
+          "text": "Rain presses loose sediment down, so the soil layer grows thicker.",
+          "rationale": "Pressing sediment down packs it tighter and makes a layer thinner, not thicker. Soil thickens when more rock breaks down into new sediment."
+        },
+        {
+          "id": "c",
+          "text": "Rain is full of nutrients, and nutrients make up most of the soil.",
+          "rationale": "Most of soil's bulk is rock and mineral particles. Besides, the prompt says rainy soils can be less fertile, which does not fit nutrient-rich rain."
+        },
+        {
+          "id": "d",
+          "text": "Rain stops plants and decomposers from growing, so nothing disturbs the soil.",
+          "rationale": "Rainy places usually support more plant and decomposer activity, not less, and soil does not thicken by being left alone."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Water is a powerful weathering agent: it breaks rock apart physically and changes it chemically. Where rain is heavy, rock turns into sediment faster, so soil layers can build up thicker. Thickness and fertility are different measures, though: heavy rain can also wash dissolved nutrients down and out of the top layer, which is one reason thick soils in rainy places are not always fertile.",
+      "misconception": "Thicker soil is always more fertile soil.",
+      "hint": "What breaks rock down into the particles that make up soil?",
+      "followUpId": "L19-Q07",
+      "scope": {
+        "lessonId": "L19",
+        "section": "5. Soil",
+        "pages": {
+          "printed": [
+            254,
+            255
+          ],
+          "pdf": [
+            290,
+            291
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            255
+          ],
+          "pdfPages": [
+            291
+          ],
+          "locator": "Section 5, Distribution of Soil Resources",
+          "supports": "Where there is more rainfall, weathering and soil formation are generally faster, so the soil may be thicker but less fertile; fertility depends on nutrients and water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            254
+          ],
+          "pdfPages": [
+            290
+          ],
+          "locator": "Section 5, Formation of Soil",
+          "supports": "Water, ice, wind, sunlight and organisms break rock down physically and chemically into sediment that becomes part of soil."
+        },
+        {
+          "type": "external",
+          "title": "Leaching (geochemistry of soil)",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/leaching-geochemistry-of-soil",
+          "accessed": "2026-10-17",
+          "supports": "Britannica defines leaching as the loss of soluble substances from the top layer of soil by percolating precipitation, says its rate increases with the amount of rainfall, and notes that many plant nutrients are lost where leaching is extensive."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 254-255. Reviser round 1 (2026-10-14): distractor b (soil from clouds) replaced by rain packing sediment (new id e); difficulty lowered to 2. The prompt's 'less fertile' clause is kept and now explained: heavy rain leaches dissolved nutrients from the top layer (Britannica, opened 2026-10-17). The textbook states the outcome (p. 255) but not this mechanism. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 254-255; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. External check: Britannica again refused WebFetch (HTTP 403). A web search returned Britannica's summary: the leaching rate rises with rainfall and many plant nutrients are lost.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible distractor b replaced (new id e, rain packing sediment); difficulty 2; explanation now says why rainy soils can be less fertile (leaching, Britannica)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q16",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O1"
+      ],
+      "conceptTags": [
+        "ore",
+        "definition",
+        "copper-ore"
+      ],
+      "familyId": "L19-F08",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "A geologist says a rock is an ore. What does that tell you about the rock?",
+      "accessiblePrompt": "A geologist says a rock is an ore. What does that tell you about the rock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It holds enough of a valuable mineral that mining it can pay off.",
+          "rationale": "Correct. An ore is defined by having a valuable mineral concentrated enough to be worth mining."
+        },
+        {
+          "id": "b",
+          "text": "It contains at least a small trace of a metal somewhere inside it.",
+          "rationale": "Most rocks contain traces of metals. Only rock rich enough to mine profitably counts as ore."
+        },
+        {
+          "id": "c",
+          "text": "It is made of pure metal, like a shiny copper nugget.",
+          "rationale": "Ore is mostly rock with valuable minerals inside it; the metal has to be separated out."
+        },
+        {
+          "id": "d",
+          "text": "It formed from the remains of ancient sea creatures.",
+          "rationale": "That describes how petroleum formed, not what makes a rock an ore."
+        }
+      ],
+      "answer": "a",
+      "explanation": "An ore is part geology and part economics: the rock must hold a valuable mineral, such as one containing copper, in a high enough amount that digging it up and processing it pays off. Plenty of rocks contain traces of metal, but only rich, concentrated deposits are ores.",
+      "misconception": "Any rock with metal in it is an ore.",
+      "hint": "Think about why a mining company would dig up one rock but leave another alone.",
+      "followUpId": "L19-Q04",
+      "scope": {
+        "lessonId": "L19",
+        "section": "6. Copper Ore",
+        "pages": {
+          "printed": [
+            245,
+            256
+          ],
+          "pdf": [
+            281,
+            292
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            245,
+            256
+          ],
+          "pdfPages": [
+            281,
+            292
+          ],
+          "locator": "Vocabulary box; Section 6, Copper Ore",
+          "supports": "An ore is a rock containing large amounts of valuable minerals that can be mined for a profit."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 245 and 256. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 245, 256; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points to the money word"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q17",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "copper-ore",
+        "plate-boundaries",
+        "magma",
+        "uneven-distribution"
+      ],
+      "familyId": "L19-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Most of the world's copper ore formed above places where one tectonic plate was sinking beneath another. What is the main reason?",
+      "accessiblePrompt": "Most of the world's copper ore formed above places where one tectonic plate was sinking beneath another. What is the main reason?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Magma forms there, and hot fluids from it leave copper behind as they cool.",
+          "rationale": "Correct. Magma forms where one plate sinks under another; copper becomes concentrated in hot fluids from that magma and is deposited as they cool."
+        },
+        {
+          "id": "b",
+          "text": "The grinding plates scrape copper off the seafloor and pile it into heaps.",
+          "rationale": "Copper ore is not scraped together by friction. It is deposited from hot fluids that come from magma."
+        },
+        {
+          "id": "c",
+          "text": "Shallow seas once covered those places, and sea creatures built copper shells.",
+          "rationale": "This mixes up copper with petroleum, which formed from sea life in shallow seas."
+        },
+        {
+          "id": "d",
+          "text": "The sinking plate melts into pure liquid copper that rises to the surface.",
+          "rationale": "Magma is mostly molten rock, not liquid copper. Copper is a small part that becomes concentrated in fluids."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Where one plate is pushed beneath another, rock melts and magma rises into the crust. Hot fluids given off by that magma carry dissolved copper and other metals, and as the fluids cool, they deposit copper minerals in concentrated ore. That is why many copper deposits line up along convergent plate boundaries, past or present, such as the west coast of South America.",
+      "misconception": "Copper ore forms wherever there is friction between plates, or from melted plates turning into pure metal.",
+      "hint": "What forms where one plate sinks beneath another?",
+      "followUpId": "L19-Q28",
+      "scope": {
+        "lessonId": "L19",
+        "section": "6. Copper Ore",
+        "pages": {
+          "printed": [
+            256,
+            257
+          ],
+          "pdf": [
+            292,
+            293
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore and Figure 6",
+          "supports": "Most copper comes from magma that forms at convergent plate boundaries; magma can produce hot fluids in which copper is concentrated, and these form copper ore when they cool and solidify."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            257
+          ],
+          "pdfPages": [
+            293
+          ],
+          "locator": "Key Science Concept: The Distribution of Natural Resources",
+          "supports": "Most copper ore forms where magma intrudes into the crust near convergent plate boundaries."
+        },
+        {
+          "type": "external",
+          "title": "Porphyry Copper Deposit Model",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/publications/porphyry-copper-deposit-model",
+          "accessed": "2026-10-14",
+          "supports": "USGS identifies porphyry copper deposits, which form from magmatic fluids, as the world's largest source of copper, about 60 percent."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 256-257 (copper map read from the render). Reviser round 1 (2026-10-14): prompt moved to the past tense because the p. 256 map also shows major deposits across Central Asia and Mongolia, away from today's subduction zones. Key unchanged. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 256-257; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt now says the ore formed above places where a plate was sinking (past tense), so deposits at old plate boundaries fit; explanation says 'many' deposits, 'past or present'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q18",
+      "lessonId": "L19",
+      "type": "multi",
+      "objectiveIds": [
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "human-impact",
+        "changing-distribution",
+        "depletion"
+      ],
+      "familyId": "L19-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Which of these human activities change where a resource exists or how much of it is left? Select all that apply.",
+      "accessiblePrompt": "Which of these human activities change where a resource exists, or how much of it is left? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mining a copper deposit until it is used up",
+          "rationale": "Correct. Emptying a mine removes that deposit, so the world's copper distribution changes."
+        },
+        {
+          "id": "b",
+          "text": "Pumping an oil field until the wells run dry",
+          "rationale": "Correct. Extracting all the oil from a field takes that location off the petroleum map."
+        },
+        {
+          "id": "c",
+          "text": "Clearing a forest to make room for farmland",
+          "rationale": "Correct. Logging and clearing shrink forests and change where forests are found."
+        },
+        {
+          "id": "d",
+          "text": "Mapping where the hot springs occur in a region",
+          "rationale": "Mapping records where a resource is; it does not change the resource itself."
+        },
+        {
+          "id": "f",
+          "text": "Finding a new oil field by drilling a test well",
+          "rationale": "Discovering oil changes what people know, not the oil underground; it was already there. The field changes only once its oil is pumped out."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "People are now one of the forces that reshape the resource map. Emptying a mine, pumping an oil field dry and clearing forests all change where resources remain and how much is left. Studying or finding a resource, such as mapping hot springs or discovering a new oil field, changes what people know about it, not the resource itself.",
+      "misconception": "Resource maps are fixed by geology alone, and people cannot change them.",
+      "hint": "Which activities actually remove or destroy some of the resource?",
+      "followUpId": "L19-Q22",
+      "scope": {
+        "lessonId": "L19",
+        "section": "6. Copper Ore",
+        "pages": {
+          "printed": [
+            251,
+            256,
+            258
+          ],
+          "pdf": [
+            287,
+            292,
+            294
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore",
+          "supports": "As copper deposits are mined, the amount left decreases and the distribution of copper around the world changes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            251
+          ],
+          "pdfPages": [
+            287
+          ],
+          "locator": "Section 3, Distribution",
+          "supports": "Because so much petroleum has been extracted, its global distribution has changed, and some places have had all their available petroleum removed."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            258
+          ],
+          "pdfPages": [
+            294
+          ],
+          "locator": "Section 7, Wood and Figure 7",
+          "supports": "Forest distribution depends partly on human activities such as logging, and forest land has decreased as people harvest wood."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 251, 256 and 258. Three correct of five, all-or-nothing; examples chosen not to overlap L19-Q22. Reviser round 1 (2026-10-14): 'where a resource is found' became 'where a resource exists'; distractor e (soil carbon) replaced by discovering an oil field (new id f), which tests the idea that a map of known deposits is the same as the resource. Answer stays a, b, c. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 251, 256, 258; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says 'exists' rather than 'is found', so mapping cannot be read as finding; weak distractor e replaced by discovering an oil field (new id f)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q19",
+      "lessonId": "L19",
+      "type": "order",
+      "objectiveIds": [
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "soil",
+        "overgrazing",
+        "erosion",
+        "cause-effect"
+      ],
+      "familyId": "L19-F09",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A pasture holds more cattle than its plants can support. Put the chain of events in order, from first effect to final effect.",
+      "accessiblePrompt": "A pasture holds more cattle than its plants can support. Put the chain of events in order, from the first effect to the final effect. The events are: the soil left behind holds fewer nutrients; the cattle eat most of the plants, leaving bare ground; crops planted there later grow poorly; with fewer roots to hold it, wind and rain carry off the top layer of soil.",
+      "items": [
+        {
+          "id": "nutrients",
+          "text": "The soil left behind holds fewer nutrients",
+          "rationale": "Third: the eroded top layer was the most nutrient-rich, so what remains is poorer."
+        },
+        {
+          "id": "bare",
+          "text": "The cattle eat most of the plants, leaving bare ground",
+          "rationale": "First: overgrazing strips away the plant cover."
+        },
+        {
+          "id": "crops",
+          "text": "Crops planted there later grow poorly",
+          "rationale": "Last: with fewer nutrients, the soil can no longer support strong plant growth."
+        },
+        {
+          "id": "erode",
+          "text": "With fewer roots to hold it, wind and rain carry off the top layer of soil",
+          "rationale": "Second: bare ground is easily eroded, and the top layer goes first."
+        }
+      ],
+      "answer": [
+        "bare",
+        "erode",
+        "nutrients",
+        "crops"
+      ],
+      "ends": [
+        "First effect",
+        "Final effect"
+      ],
+      "explanation": "Overgrazing removes the plants whose roots hold soil in place. Wind and rain then strip away the top layer, which holds most of the nutrients, so the soil that remains is less fertile and crops struggle. This is how unsustainable farming degrades soil, and why soil restoration programs focus on protecting plant cover.",
+      "misconception": "Soil can be used as hard as people like because it is always there underfoot.",
+      "hint": "Start with what the cattle do to the plants.",
+      "followUpId": "L19-Q14",
+      "scope": {
+        "lessonId": "L19",
+        "section": "5. Soil",
+        "pages": {
+          "printed": [
+            255
+          ],
+          "pdf": [
+            291
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            255
+          ],
+          "pdfPages": [
+            291
+          ],
+          "locator": "Section 5, Distribution of Soil Resources",
+          "supports": "Overgrazing happens when livestock eat most of the vegetation, which increases erosion of the nutrient-rich top layer of soil and degrades it."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 255. Each step causes the next, so one sequence is defensible. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 255; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q20",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O3",
+        "L19-O4"
+      ],
+      "conceptTags": [
+        "dams",
+        "sediment",
+        "trade-offs",
+        "environmental-impact"
+      ],
+      "familyId": "L19-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Before Hoover Dam was built, the Colorado River carried sediment downstream, where it helped enrich the soil. How did the dam change that?",
+      "accessiblePrompt": "Before Hoover Dam was built, the Colorado River carried sediment downstream, where it helped enrich the soil. How did the dam change that?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sediment settles in the still water behind the dam, so less reaches land below.",
+          "rationale": "Correct. A river slows when it enters a reservoir and drops its sediment there, so far less of it reaches the land below the dam."
+        },
+        {
+          "id": "b",
+          "text": "The dam adds sediment to the river, so downstream fields get richer soil.",
+          "rationale": "Dams do the opposite: they trap sediment behind the wall."
+        },
+        {
+          "id": "c",
+          "text": "The dam's turbines grind the sediment into finer, richer soil for farms.",
+          "rationale": "Turbines turn moving water into electricity; they do not process sediment into soil."
+        },
+        {
+          "id": "e",
+          "text": "Water rushes faster through the dam's tunnels, so sediment is carried even farther downstream.",
+          "rationale": "The river slows down when it enters the still reservoir, so sediment settles behind the dam instead of speeding past it."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When a river flows into a reservoir it slows down and drops the sediment it was carrying, so mud and sand pile up behind the dam instead of enriching land downstream. That is one of several trade-offs: Hoover Dam stores water, makes electricity and controls floods, but it also blocks fish and changes the temperature of the river below.",
+      "misconception": "A dam affects only the water, not the sediment the river carries.",
+      "hint": "What happens to sand and mud when fast water suddenly slows down?",
+      "followUpId": "L19-Q24",
+      "scope": {
+        "lessonId": "L19",
+        "section": "2. Designing Hoover Dam",
+        "pages": {
+          "printed": [
+            249
+          ],
+          "pdf": [
+            285
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            249
+          ],
+          "pdfPages": [
+            285
+          ],
+          "locator": "Section 2, Impacts of the Dam",
+          "supports": "Dams trap sediment that otherwise would have been carried downstream to enrich the soil, and Hoover Dam also blocks fish and changes downstream water temperature."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 249. Temperature direction deliberately not tested (L19-RF6). Reviser round 1 (2026-10-14): distractor d ('Nothing changed') contradicted the stem and was replaced by a speeding-water idea (new id e). Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 249; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. Cosmetic fix: rationale a said sediment \"never\" reaches the land below, which contradicted the key's \"less\"; it now says \"far less of it\".",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-contradicting distractor d replaced (new id e, faster water through the tunnels)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q21",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "sustainable",
+        "definition",
+        "future-generations"
+      ],
+      "familyId": "L19-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "A town says its water use is sustainable. What should that mean?",
+      "accessiblePrompt": "A town says its water use is sustainable. What should that mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It uses water in a way that leaves enough for people in the future.",
+          "rationale": "Correct. Sustainable use keeps a resource available for future generations."
+        },
+        {
+          "id": "b",
+          "text": "It uses only renewable sources, no matter how much it takes.",
+          "rationale": "Even renewable sources can be overused. Sustainability depends on how much is used compared with how fast it is replaced."
+        },
+        {
+          "id": "c",
+          "text": "It uses as much water as it can right now, while the supply is cheap.",
+          "rationale": "Using as much as possible now is the opposite of saving enough for the future."
+        },
+        {
+          "id": "d",
+          "text": "It has stopped using water altogether, so none is ever lost.",
+          "rationale": "Sustainable use means using a resource carefully, not giving it up entirely."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Using a resource sustainably means using it in a way that keeps it available for future generations. For water, that usually means not taking more than rain, snow and rivers can replace. Choosing a renewable source helps, but only if the amount used stays within what nature can refill.",
+      "misconception": "Any use of a renewable resource is automatically sustainable.",
+      "hint": "The word comes from 'sustain', which means to keep something going.",
+      "followUpId": "L19-Q02",
+      "scope": {
+        "lessonId": "L19",
+        "section": "1. Fresh Water",
+        "pages": {
+          "printed": [
+            245,
+            247
+          ],
+          "pdf": [
+            281,
+            283
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            245,
+            247
+          ],
+          "pdfPages": [
+            281,
+            283
+          ],
+          "locator": "Vocabulary box; Section 1, Nonrenewable Fresh Water",
+          "supports": "Sustainable use of a natural resource ensures it remains available to future generations; the Great Artesian Basin can remain a water source if it is managed sustainably."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 245 and 247. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 245, 247; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q22",
+      "lessonId": "L19",
+      "type": "classify",
+      "objectiveIds": [
+        "L19-O3"
+      ],
+      "conceptTags": [
+        "sustainable-practices",
+        "conservation",
+        "depletion"
+      ],
+      "familyId": "L19-F10",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Sort each practice by its long-run effect on the resource it uses.",
+      "accessiblePrompt": "Sort each practice by its long-run effect on the resource it uses. One group is: helps keep the resource available. The other group is: uses it up faster than nature replaces it. The practices are: letting livestock graze a pasture until the plants are gone; planting new trees each year to replace those that are cut; pumping more water each year from a desert aquifer that rain refills by only a trickle; recycling old copper wiring into new products; sending cooled water back down an injection well at a geothermal plant; clear-cutting the same hillside every few years without planting new trees; limiting pumping from a deep aquifer to what it can safely supply.",
+      "bins": [
+        {
+          "id": "keep",
+          "label": "Helps keep the resource available"
+        },
+        {
+          "id": "drain",
+          "label": "Uses it up faster than nature replaces it"
+        }
+      ],
+      "items": [
+        {
+          "id": "graze",
+          "text": "Letting livestock graze a pasture until the plants are gone",
+          "rationale": "Overgrazing exposes soil to erosion, stripping fertile topsoil far faster than it forms."
+        },
+        {
+          "id": "plant",
+          "text": "Planting new trees each year to replace those that are cut",
+          "rationale": "Replanting lets regrowth keep pace with harvesting, so the forest stays renewable."
+        },
+        {
+          "id": "desert",
+          "text": "Pumping more water each year from a desert aquifer that rain refills by only a trickle",
+          "rationale": "Rain adds only a trickle, so pumping more every year takes out far more than comes back and the aquifer is depleted."
+        },
+        {
+          "id": "recycle",
+          "text": "Recycling old copper wiring into new products",
+          "rationale": "Recycling reuses copper already mined, so less ore has to be dug up."
+        },
+        {
+          "id": "inject",
+          "text": "Sending cooled water back down an injection well at a geothermal plant",
+          "rationale": "Returning water keeps the underground reservoir supplied so it can be heated and used again."
+        },
+        {
+          "id": "log",
+          "text": "Clear-cutting the same hillside every few years without planting new trees",
+          "rationale": "Trees cannot regrow in a few years, so cutting outpaces regrowth and the forest shrinks."
+        },
+        {
+          "id": "limit",
+          "text": "Limiting pumping from a deep aquifer to what it can safely supply",
+          "rationale": "Keeping pumping within the refill rate stops the water level from falling over time."
+        }
+      ],
+      "answer": {
+        "plant": "keep",
+        "recycle": "keep",
+        "inject": "keep",
+        "limit": "keep",
+        "graze": "drain",
+        "desert": "drain",
+        "log": "drain"
+      },
+      "explanation": "The practices that help all keep use in balance with replacement: replanting matches cutting, recycling reduces new mining, reinjection refills the geothermal reservoir, and limits on pumping protect a slow-to-refill aquifer. The harmful ones take more than nature can restore, whether it is topsoil, groundwater or trees.",
+      "misconception": "Only nonrenewable resources need careful management.",
+      "hint": "For each practice, ask whether use stays within what nature (or recycling) can replace.",
+      "followUpId": "L19-Q18",
+      "scope": {
+        "lessonId": "L19",
+        "section": "7. Wood",
+        "pages": {
+          "printed": [
+            247,
+            252,
+            255,
+            256,
+            259
+          ],
+          "pdf": [
+            283,
+            288,
+            291,
+            292,
+            295
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            259
+          ],
+          "pdfPages": [
+            295
+          ],
+          "locator": "Section 7, Wood",
+          "supports": "Sustainable forestry, such as planting new trees to replace those cut, keeps forests a renewable resource."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore",
+          "supports": "Recycling has become a major source of copper for new products."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            252
+          ],
+          "pdfPages": [
+            288
+          ],
+          "locator": "Section 4, Figure 4A",
+          "supports": "Injection wells return cooled water underground at geothermal plants."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247,
+            255
+          ],
+          "pdfPages": [
+            283,
+            291
+          ],
+          "locator": "Section 1, Nonrenewable Fresh Water; Section 5, Distribution of Soil Resources",
+          "supports": "Aquifers are depleted when pumped faster than they refill and the Great Artesian Basin is managed to last; overgrazing erodes fertile topsoil."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 247, 252, 255, 256 and 259. Each item has one defensible bin. Reviser round 1 (2026-10-14): both reviewers asked for the desert and logging items to stop echoing the bin label. I used the pedagogy reviewer's wording, because each item still needs a comparison of refill or regrowth with use; the science reviewer's 'centuries-old trees' version would repeat L19-Q03's old-growth idea. Item ids and the answer map are unchanged. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 247, 252, 255, 256, 259; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: desert and logging items no longer repeat the bin label's 'faster than ... replaces' wording"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: same two items reworded (pedagogy wording used); read-aloud list updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q23",
+      "lessonId": "L19",
+      "type": "numeric",
+      "objectiveIds": [
+        "L19-O3",
+        "L19-O4"
+      ],
+      "conceptTags": [
+        "groundwater",
+        "allocation",
+        "recharge",
+        "sustainable-use"
+      ],
+      "familyId": "L19-F10",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Rain and snow refill a valley's aquifer by 20 million cubic meters a year. The town pumps 8 million for drinking water, and farms pump 30 million. If the town's share stays the same, what is the most the farms can pump each year so the stored water stops shrinking?",
+      "accessiblePrompt": "Rain and snow refill a valley's aquifer by 20 million cubic meters of water each year. The town pumps 8 million cubic meters each year for drinking water, and farms pump 30 million cubic meters each year. If the town's share stays the same, what is the most the farms can pump each year, in million cubic meters, so that the stored water stops shrinking?",
+      "answer": 12,
+      "tolerance": 0,
+      "unit": "million cubic meters per year",
+      "workedSolution": "To stop the stored water from shrinking, total pumping can be at most the refill rate, 20 million m³ per year. The town keeps 8 million, so the farms can pump at most 20 − 8 = 12 million m³ per year, down from 30 million.",
+      "explanation": "An aquifer works like a savings account: if more goes out than comes in, the balance falls. Matching total pumping to the refill rate keeps the stored water steady, which is the heart of managing a slowly refilled aquifer like Australia's Great Artesian Basin. Here the town's drinking water is set first and the farms get what is left. Deciding who comes first is a choice people make; the refill rate sets the total everyone must share.",
+      "misconception": "An aquifer is safe as long as some water is still being added each year.",
+      "hint": "First find the most everyone together can pump, then subtract the town's share.",
+      "followUpId": "L19-Q05",
+      "units": "million cubic meters per year",
+      "conditions": "Assume the refill rate stays at 20 million cubic meters per year, the town keeps pumping 8 million, and pumping is the only way water leaves.",
+      "limitations": "Real aquifers also lose water to springs and rivers, and refilling changes from year to year with the weather.",
+      "scope": {
+        "lessonId": "L19",
+        "section": "1. Fresh Water",
+        "pages": {
+          "printed": [
+            247
+          ],
+          "pdf": [
+            283
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247
+          ],
+          "pdfPages": [
+            283
+          ],
+          "locator": "Section 1, Nonrenewable Fresh Water",
+          "supports": "When people remove groundwater faster than it is replenished, aquifers become depleted; the Great Artesian Basin's use is managed so it can remain a water source."
+        },
+        {
+          "type": "external",
+          "title": "Groundwater Decline and Depletion",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater-decline-and-depletion",
+          "accessed": "2026-10-14",
+          "supports": "USGS explains groundwater depletion as long-term water-level decline caused by pumping that outpaces long-term replenishment, comparing the aquifer to a bank account."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original allocation scenario (brief mission: allocate a limited resource in a stated scenario). Conditions state constant rates; worked solution given. Reviser round 1 (2026-10-14): rewritten as the pedagogy reviewer proposed: the farms get what is left after the town's fixed 8 million, answer 12, tolerance 0. Asking for 'the most the farms can pump' also meets the science reviewer's point that any cut of 18 or more would stop the decline. Family, objectives, limitations and evidence unchanged. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 247; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: now asks for a limit (the most the farms can pump), so one value answers it; the 'at least' concern is met by the allocation rewrite"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as an allocation item (farms' share = 12 million m³ per year) so the brief's allocation mission is tested"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q24",
+      "lessonId": "L19",
+      "type": "classify",
+      "objectiveIds": [
+        "L19-O4"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "criteria",
+        "constraints",
+        "Hoover-Dam"
+      ],
+      "familyId": "L19-F11",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Hoover Dam's designers weighed criteria (goals the dam had to meet) and constraints (limits the design had to work within). Sort each item the way the team grouped them.",
+      "accessiblePrompt": "Hoover Dam's designers weighed criteria, meaning goals the dam had to meet, and constraints, meaning limits the design had to work within. Sort each item into criteria or constraints, the way the team grouped them. The items are: amount of electricity produced; cost of building and maintaining the dam; fit with the shape of the canyon and surrounding land; protection of communities from floods; impact on the river's environment; amount of water stored for the growing Southwest.",
+      "bins": [
+        {
+          "id": "crit",
+          "label": "Criterion: a goal the dam must meet"
+        },
+        {
+          "id": "con",
+          "label": "Constraint: a limit on the design"
+        }
+      ],
+      "items": [
+        {
+          "id": "cost",
+          "text": "Cost of building and maintaining the dam",
+          "rationale": "Cost limits which designs are possible, so it is a constraint."
+        },
+        {
+          "id": "store",
+          "text": "Amount of water stored for the growing Southwest",
+          "rationale": "Storing water was one of the main goals of the project, so it is a criterion."
+        },
+        {
+          "id": "land",
+          "text": "Fit with the shape of the canyon and surrounding land",
+          "rationale": "The dam had to fit the landscape and topography, a limit on the design."
+        },
+        {
+          "id": "power",
+          "text": "Amount of electricity produced",
+          "rationale": "Generating electricity was a goal the design had to achieve."
+        },
+        {
+          "id": "env",
+          "text": "Impact on the river's environment",
+          "rationale": "The team treated environmental impact as a limit on what was acceptable, so it is a constraint."
+        },
+        {
+          "id": "flood",
+          "text": "Protection of communities from floods",
+          "rationale": "Flood protection was a goal, so it is a criterion."
+        }
+      ],
+      "answer": {
+        "store": "crit",
+        "power": "crit",
+        "flood": "crit",
+        "cost": "con",
+        "land": "con",
+        "env": "con"
+      },
+      "explanation": "Criteria describe what success looks like: for Hoover Dam, storing water, making electricity and controlling floods. Constraints are the limits any solution must work within: cost, the shape of the land and environmental impact. Engineers judge competing designs by how well each meets the criteria while respecting the constraints.",
+      "misconception": "Criteria and constraints are the same thing, or cost is a goal rather than a limit.",
+      "hint": "Criteria answer 'What must it do?' Constraints answer 'What holds it back?'",
+      "followUpId": "L19-Q20",
+      "scope": {
+        "lessonId": "L19",
+        "section": "2. Designing Hoover Dam",
+        "pages": {
+          "printed": [
+            248
+          ],
+          "pdf": [
+            284
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            248
+          ],
+          "pdfPages": [
+            284
+          ],
+          "locator": "Section 2, Evaluating the Design Options",
+          "supports": "The main criteria were water storage, electricity production and flood protection; the main constraints were cost to build and maintain, fit with the landscape and topography, and environmental impacts."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 248. Every item maps to the textbook's own criteria or constraints list. Reviser round 1 (2026-10-14): every item is now a noun phrase (same meaning, ids kept); a condition says to sort them as the Hoover Dam team did, because 'impact on the environment' could be a goal in other frameworks; read-aloud list reordered. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 248; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: all six items are noun phrases, so grammar no longer sorts them; condition added (the Hoover team's grouping); read-aloud order no longer alternates"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Sort them the way the Hoover Dam team grouped them."
+    },
+    {
+      "id": "L19-Q25",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O4"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "Hoover-Dam",
+        "arch-gravity",
+        "trade-offs"
+      ],
+      "familyId": "L19-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "The Hoover Dam team chose an arch-gravity dam, even though earth and rockfill dams cost less. What was the main reason?",
+      "accessiblePrompt": "The Hoover Dam team chose an arch-gravity dam, even though earth dams and rockfill dams cost less. What was the main reason?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The project needed the strongest option to hold back a huge reservoir.",
+          "rationale": "Correct. The growing Southwest needed enormous water storage and electricity, so strength mattered more than the extra cost."
+        },
+        {
+          "id": "b",
+          "text": "Arch-gravity dams are the cheapest type, so the cost constraint was met.",
+          "rationale": "The textbook says arch-gravity dams cost more to build than earth or rockfill dams."
+        },
+        {
+          "id": "e",
+          "text": "It would do the least harm of the five designs to the river's plants and animals.",
+          "rationale": "Environmental impact was a constraint the team weighed, but it was not why they chose this design; the finished dam blocked fish and trapped sediment."
+        },
+        {
+          "id": "f",
+          "text": "Earth and rockfill dams could not have been built at this canyon site.",
+          "rationale": "Earth and rockfill dams were among the five designs the team studied for this site. In the team's comparison they could not hold back as much water or make as much electricity, but they could have been built and could still make some."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The project's criteria called for storing a huge amount of water, making lots of electricity and controlling floods, and the team judged that only the strongest option could do that in this canyon. An arch-gravity dam combines a wall curved upstream, which steers part of the water's push into the canyon walls, with a wide, heavy concrete base. It cost more, but the criteria made strength worth the price.",
+      "misconception": "Engineers always choose the cheapest design, or the chosen design has no downsides.",
+      "hint": "Which criterion could the cheaper dams not meet?",
+      "followUpId": "L19-Q20",
+      "scope": {
+        "lessonId": "L19",
+        "section": "2. Designing Hoover Dam",
+        "pages": {
+          "printed": [
+            248,
+            249
+          ],
+          "pdf": [
+            284,
+            285
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            248,
+            249
+          ],
+          "pdfPages": [
+            284,
+            285
+          ],
+          "locator": "Section 2, Evaluating the Design Options and Choosing the Final Design",
+          "supports": "Earth and rockfill dams are cheaper but not as strong; the team chose the arch-gravity design because it was the strongest, despite the higher cost."
+        },
+        {
+          "type": "external",
+          "title": "Hoover Dam: Frequently Asked Questions",
+          "publisher": "U.S. Bureau of Reclamation",
+          "url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+          "accessed": "2026-10-14",
+          "supports": "Reclamation describes Hoover Dam as a concrete arch-gravity dam in which the water load is carried by both gravity action and horizontal arch action."
+        },
+        {
+          "type": "external",
+          "title": "Water Resources Data, North Dakota, Water Year 2004: station 06338000, Lake Sakakawea near Riverdale, ND",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/wdr/2004/wdr-nd-04-1/htdocs/Output/06338000.2004.sw.html",
+          "accessed": "2026-10-17",
+          "supports": "USGS states that Lake Sakakawea is formed by an earth-fill dam (Garrison Dam) and has a maximum capacity of 24,200,000 acre-feet."
+        },
+        {
+          "type": "external",
+          "title": "Hoover Dam: Lake Mead frequently asked questions",
+          "publisher": "U.S. Bureau of Reclamation",
+          "url": "https://www.usbr.gov/lc/hooverdam/faqs/lakefaqs.html",
+          "accessed": "2026-10-17",
+          "supports": "Reclamation states that Lake Mead, behind Hoover Dam, would contain 28,945,000 acre-feet at elevation 1,221.4 feet."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 248-249. Explanation describes the arch as redirecting load rather than 'reducing pressure' (L19-RF5). Reviser round 1 (2026-10-14): merged both reviews. Distractors c ('no harm at all') and d ('cannot produce any electricity at all') were replaced by the pedagogy reviewer's 'least harm' and 'could not be built' ideas (new ids e, f); the science reviewer's site-specific wording went into f's rationale, the explanation and a new limitation, with the USGS Lake Sakakawea and Reclamation Lake Mead records (L19-RF14). Key a reworded (same claim, id kept) so it is no longer the longest choice. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 248-249; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. External check: USGS Lake Sakakawea record re-opened (earth-fill dam, 24,200,000 acre-ft).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale and explanation present the weaker-dam judgment as the team's comparison for this site; limitation and USGS and Reclamation records added (L19-RF14)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute distractors c and d replaced (new ids e, f); key shortened so it is not the longest choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Follows the textbook's account of the comparison for this site; which dam type works best depends on the site."
+    },
+    {
+      "id": "L19-Q26",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O4"
+      ],
+      "conceptTags": [
+        "engineering-design",
+        "criteria",
+        "constraints",
+        "evaluate-solutions"
+      ],
+      "familyId": "L19-F11",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "A farming town needs a small dam across a wide, shallow valley to store a modest amount of irrigation water. Its budget is tight, and it doesn't need electricity. Which choice best fits these criteria and constraints?",
+      "accessiblePrompt": "A farming town needs a small dam across a wide, shallow valley to store a modest amount of water for irrigation. Its budget is tight, and it does not need to make electricity. Which choice best fits these criteria and constraints?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An earth or rockfill dam: cheaper, and strong enough for a small reservoir",
+          "rationale": "Correct. A modest reservoir does not need extreme strength, and an earth or rockfill dam meets the goal within a tight budget."
+        },
+        {
+          "id": "e",
+          "text": "An arch-gravity dam, since it is the strongest design available",
+          "rationale": "Strength the town does not need would break its tight budget. The best design is the one that fits this problem's criteria and constraints."
+        },
+        {
+          "id": "c",
+          "text": "An arch dam, since its curved wall works best braced across a wide, shallow valley",
+          "rationale": "An arch dam pushes part of the water's load into solid canyon walls. A wide, shallow valley has no close, steep walls to brace it."
+        },
+        {
+          "id": "f",
+          "text": "No dam at all, since dams can harm rivers",
+          "rationale": "Dams do have environmental costs, but the town's goal is to store irrigation water. That harm has to be weighed against the need, not assumed to win."
+        }
+      ],
+      "answer": "a",
+      "explanation": "There is no single best dam, only the best fit for a problem's criteria and constraints. Hoover Dam needed great strength to hold a giant reservoir, so its high cost was worth it. A small irrigation reservoir with a tight budget is a better match for a cheaper earth or rockfill dam, although the town would still need to weigh its environmental effects.",
+      "misconception": "The strongest or most advanced design is always the best solution.",
+      "hint": "Reread what this town needs and what limits it faces, then compare with what Hoover Dam needed.",
+      "followUpId": "L19-Q23",
+      "scope": {
+        "lessonId": "L19",
+        "section": "2. Designing Hoover Dam",
+        "pages": {
+          "printed": [
+            248,
+            249
+          ],
+          "pdf": [
+            284,
+            285
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            248,
+            249
+          ],
+          "pdfPages": [
+            284,
+            285
+          ],
+          "locator": "Section 2, Evaluating the Design Options, Figure 2 and Choosing the Final Design",
+          "supports": "The textbook says earth and rockfill dams are cheaper and easier to build and, in the team's comparison, could not store as much water; arch dams curve upstream so water pushes toward the canyon walls on either side."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            249
+          ],
+          "pdfPages": [
+            285
+          ],
+          "locator": "Section 2, Choosing the Final Design",
+          "supports": "The arch-gravity design was chosen for Hoover Dam because that project needed a dam strong enough to store a huge amount of water, despite its greater cost."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 248-249. Transfer item: same criteria-and-constraints reasoning applied to a new, smaller problem. Reviser round 1 (2026-10-14): distractors b and d no longer contain 'always' (new ids e, f). The key does not depend on the general weaker-dam claim (L19-RF14), because the town needs only a small reservoir. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 248-249; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. Citation fix: the first evidence record's claim that arch dams push water toward the canyon walls is on p. 249, not p. 248, so that record now cites pp. 248-249 / PDF 284-285.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'always' distractors b and d replaced (new ids e, f)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q27",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O4",
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "geothermal",
+        "prediction",
+        "plate-boundaries",
+        "evidence"
+      ],
+      "familyId": "L19-F12",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A country wants to build a new geothermal power plant. Which clue would point to the most promising site?",
+      "accessiblePrompt": "A country wants to build a new geothermal power plant. Which clue would point to the most promising site?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Active volcanoes and hot springs near a plate boundary",
+          "rationale": "Correct. Volcanoes and hot springs are surface signs of strong heat flow from Earth's interior, which is what a geothermal plant needs."
+        },
+        {
+          "id": "b",
+          "text": "Thick layers of rock that formed in an ancient shallow sea",
+          "rationale": "That is a clue for petroleum, which formed from sea life in warm, shallow seas."
+        },
+        {
+          "id": "c",
+          "text": "Deep, dark soil rich in decayed plant matter",
+          "rationale": "Rich soil is a clue to fertile farmland, not to heat from Earth's interior."
+        },
+        {
+          "id": "e",
+          "text": "Old, worn-down volcanic rock where magma cooled millions of years ago",
+          "rationale": "Old volcanic rock shows magma was there long ago, which can hint at copper ore, but a geothermal plant needs heat flowing now. Active volcanoes and hot springs show that heat is still near the surface."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Geothermal energy is concentrated where heat flows quickly from Earth's interior toward the surface, mostly along plate boundaries where magma forms. Active volcanoes and hot springs are visible signs that the heat is there now, so scientists use them to decide where to drill geothermal wells. Old volcanic rock alone is not enough: it shows where magma was long ago.",
+      "misconception": "Clues for one resource point to every kind of resource, or signs of ancient magma mean the heat is still there today.",
+      "hint": "A geothermal plant needs heat. Which clue shows heat close to the surface?",
+      "followUpId": "L19-Q12",
+      "scope": {
+        "lessonId": "L19",
+        "section": "4. Geothermal Energy",
+        "pages": {
+          "printed": [
+            253
+          ],
+          "pdf": [
+            289
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            253
+          ],
+          "pdfPages": [
+            289
+          ],
+          "locator": "Section 4, Distribution of Geothermal Energy and Figure 4B",
+          "supports": "Geothermal energy is most common at divergent and convergent plate boundaries where volcanoes occur; scientists use the link between active volcanoes and high heat flow to choose geothermal well sites; hot springs occur where geothermal energy near the surface meets water."
+        },
+        {
+          "type": "external",
+          "title": "Geothermal explained: Where geothermal energy is found",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/geothermal/where-geothermal-energy-is-found.php",
+          "accessed": "2026-10-14",
+          "supports": "EIA states that most major geothermal resources are found near the edges of Earth's major tectonic plates, where most volcanoes are located, with the Ring of Fire among the most active areas."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 253 (Figure 4B map read from the render). Reviser round 1 (2026-10-14): distractor d (rainy forest) replaced by old volcanic rock (new id e), so 'pick the volcano option' no longer answers both Q27 and Q28. p. 253 ties geothermal prediction to active volcanoes and high heat flow. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered p. 253; correct, single defensible answer, distinct, cited, original, accessible, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced by old, worn-down volcanic rock (new id e), so L19-Q27 and L19-Q28 need different reasoning (heat now vs magma long ago)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q28",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O4",
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "copper-ore",
+        "prediction",
+        "plate-boundaries",
+        "exploration"
+      ],
+      "familyId": "L19-F12",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "A mining company is choosing where to explore for new copper ore. Which region is the most promising?",
+      "accessiblePrompt": "A mining company is choosing where to explore for new copper ore. Which region is the most promising?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Old volcanic mountains above a place where an ocean plate sinks under a continent",
+          "rationale": "Correct. Copper ore forms from magma fluids above sinking plates, and old volcanic rock there is a sign that magma once rose into the crust."
+        },
+        {
+          "id": "b",
+          "text": "A flat plain lying over thick sedimentary rock laid down in an ancient shallow sea",
+          "rationale": "That setting fits petroleum, which formed from buried sea life, not copper ore."
+        },
+        {
+          "id": "c",
+          "text": "A rainy tropical lowland where weathering has built up very thick soil",
+          "rationale": "Thick soil reflects fast weathering, not the magma activity that concentrates copper."
+        },
+        {
+          "id": "d",
+          "text": "A desert above a deep aquifer filled with very old groundwater",
+          "rationale": "Old groundwater says something about water recharge, not about where copper ore formed."
+        }
+      ],
+      "answer": "a",
+      "explanation": "By understanding how copper ore forms, scientists can predict where to find it. Most copper ore formed where an ocean plate sank beneath another plate, magma rose into the crust, and hot fluids from it deposited copper. Mountain belts of volcanic rock along convergent boundaries, like the Andes along the west coast of South America, where Chile's Chuquicamata mine lies, are prime targets.",
+      "misconception": "Valuable minerals could turn up anywhere, so any region is as good a place to search as another.",
+      "hint": "Which region shows signs of the process that forms copper ore?",
+      "followUpId": "L19-Q17",
+      "scope": {
+        "lessonId": "L19",
+        "section": "6. Copper Ore",
+        "pages": {
+          "printed": [
+            256,
+            257
+          ],
+          "pdf": [
+            292,
+            293
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore and Figure 6",
+          "supports": "By studying how copper deposits form, scientists can predict where they are likely to be found; most copper comes from magma at convergent boundaries, and the map shows major deposits along western South America, including Chuquicamata, Chile."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            257
+          ],
+          "pdfPages": [
+            293
+          ],
+          "locator": "Key Science Concept: The Distribution of Natural Resources",
+          "supports": "Most copper ore forms from magma intruding into the crust near convergent plate boundaries."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 256-257 (copper map and Chuquicamata label read from the render). Reviser round 1 (2026-10-14): both reviewers passed it; the pedagogy pass depended on the L19-Q27 distractor change, which was applied. 'Best bet' became 'most promising' for clearer reading. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 256-257; correct, single defensible answer, distinct, cited, original, accessible, guardrails met. Cosmetic fix: the explanation now says the Andes along the west coast of South America; Chuquicamata is inland, not on the coast.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional wording edit applied ('best bet' is now 'most promising')"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L19-Q29",
+      "lessonId": "L19",
+      "type": "single",
+      "objectiveIds": [
+        "L19-O2"
+      ],
+      "conceptTags": [
+        "forests",
+        "climate",
+        "soil-fertility",
+        "uneven-distribution"
+      ],
+      "familyId": "L19-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Tropical rainforests and evergreen boreal forests grow in separate bands around the globe. What mainly decides which kind of forest grows in a region?",
+      "accessiblePrompt": "Tropical rainforests and mostly evergreen boreal forests grow in separate bands around the globe. What mainly decides which kind of forest grows in a region?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The local climate and soil, which decide which trees can survive",
+          "rationale": "Correct. Temperature, rainfall and soil decide which kinds of trees can survive and grow, so different forests grow in different climate bands."
+        },
+        {
+          "id": "b",
+          "text": "How close the region lies to a boundary between tectonic plates",
+          "rationale": "Plate boundaries are a clue for geothermal heat and copper ore. Forests grow on both sides of plate boundaries; climate and soil decide which trees survive."
+        },
+        {
+          "id": "c",
+          "text": "Whether a warm, shallow sea covered the land millions of years ago",
+          "rationale": "An ancient sea is a clue for petroleum underground, not for which trees grow at the surface today."
+        },
+        {
+          "id": "d",
+          "text": "How much wood people in the region have harvested over the years",
+          "rationale": "Harvesting changes how much forest is left, but climate and soil decide which kinds of trees can survive there."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Each kind of tree needs a certain range of temperature, rainfall and soil. Warm, wet regions near the equator support tropical rainforests, while cold northern lands support mostly evergreen boreal forests. People change how much forest remains by logging and planting, but climate and soil decide which kinds of trees can grow in the first place.",
+      "misconception": "Which kind of forest grows in a place depends mainly on how much people have cut, not on the climate and soil.",
+      "hint": "Think about what a young tree needs from its surroundings, year after year, to survive.",
+      "followUpId": "L19-Q27",
+      "scope": {
+        "lessonId": "L19",
+        "section": "7. Wood",
+        "pages": {
+          "printed": [
+            258
+          ],
+          "pdf": [
+            294
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            258
+          ],
+          "pdfPages": [
+            294
+          ],
+          "locator": "Section 7, Wood and Figure 7, Global Distribution of Forests",
+          "supports": "Where forests occur depends on climate, soil fertility and human activities; climate and soil fertility decide which types of trees can survive, and the map shows tropical rainforests and boreal forests in separate bands."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            259
+          ],
+          "pdfPages": [
+            295
+          ],
+          "locator": "Lesson Summary, Wood",
+          "supports": "Forest location depends on climate, soil fertility and human activity."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (2026-10-14) to close the pedagogy reviewer's coverage gap: forest distribution (Section 7, Figure 7) was untested. Drafted from rendered p. 258 (Figure 7 map: tropical rainforest near the equator, boreal forest across the far north) and p. 259. Distractors reuse other resources' formation clues and the harvesting idea. Key is not the longest choice. Needs science and pedagogy review before verification. Verifier (verify-agent; recorded 2026-10-14, performed 2026-10-18): checked against rendered pp. 258-259 (Figure 7); correct, single defensible answer, distinct, cited, original, accessible, guardrails met. This new item had no science or pedagogy pass; the verifier did both checks. The key matches p. 258 (climate and soil fertility decide which trees survive), each distractor fits one wrong bin, and the key is not the longest choice.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

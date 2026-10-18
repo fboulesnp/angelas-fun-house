@@ -1,0 +1,3650 @@
+{
+  "lessonId": "L14",
+  "questions": [
+    {
+      "id": "L14-Q01",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "system",
+        "surroundings",
+        "burning match"
+      ],
+      "familyId": "L14-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "A match is struck and burns in the air. Sort each item into the system (the matter that reacts and what it turns into) or the surroundings.",
+      "accessiblePrompt": "A match is struck and burns in the air. Sort each item into one of two groups: the system, meaning the matter that reacts and the new substances it turns into, or the surroundings, meaning everything else. The items are: the chemicals in the match head; nitrogen gas in the nearby air, which does not react; the wood of the matchstick that burns; the carbon dioxide and water vapor that form; a metal tray under the match; and oxygen gas from the air that reacts with the wood.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Chemicals in the match head",
+          "rationale": "They react as soon as the match is struck, so they are part of the system."
+        },
+        {
+          "id": "i5",
+          "text": "Nitrogen in the nearby air, which does not react",
+          "rationale": "It takes no part in the reaction, so it is surroundings; it simply warms up."
+        },
+        {
+          "id": "i2",
+          "text": "The wood that burns",
+          "rationale": "The burning wood is a reactant, so it is inside the system."
+        },
+        {
+          "id": "i4",
+          "text": "Carbon dioxide and water vapor that form",
+          "rationale": "Products are the same matter as the reactants, regrouped, so they stay in the system."
+        },
+        {
+          "id": "i6",
+          "text": "A metal tray under the match",
+          "rationale": "The tray does not react; it is surroundings that can take in energy from the flame."
+        },
+        {
+          "id": "i3",
+          "text": "Oxygen from the air that reacts",
+          "rationale": "This oxygen joins the reaction, so it counts as system even though it came from the air."
+        }
+      ],
+      "bins": [
+        {
+          "id": "b1",
+          "label": "System"
+        },
+        {
+          "id": "b2",
+          "label": "Surroundings"
+        }
+      ],
+      "answer": {
+        "i1": "b1",
+        "i2": "b1",
+        "i3": "b1",
+        "i4": "b1",
+        "i5": "b2",
+        "i6": "b2"
+      },
+      "explanation": "The system is every bit of matter that takes part: the match-head chemicals, the wood and the oxygen that reacts, plus the ash, carbon dioxide and water vapor they become. Nitrogen in the air and the tray don't react, so they are surroundings. They warm up as energy leaves the system.",
+      "misconception": "Only the starting substances count as the system, and anything that comes from the air, or forms later, is outside it.",
+      "hint": "For each item ask: does it take part in the reaction, either as a starting substance or as something that forms?",
+      "followUpId": "L14-Q08",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions",
+        "pages": {
+          "printed": [
+            174
+          ],
+          "pdf": [
+            210
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions",
+          "supports": "For a burning match the system is the match-head substances, the wooden splint and the oxygen that react, which become ash, carbon dioxide and water vapor; anything not in the system, including other substances in the air, is surroundings."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Item list follows p. 174's own match example; nitrogen and the tray are added as non-reacting surroundings. Six items, two bins, each with one defensible bin. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 174/210), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q02",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "system",
+        "surroundings",
+        "cold pack"
+      ],
+      "familyId": "L14-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A squeezed cold pack rests on your arm. Inside, ammonium chloride dissolves in the pack's water. Treat the dissolving ammonium chloride as the system. Which of these are part of the surroundings? Select all that apply.",
+      "accessiblePrompt": "A squeezed cold pack rests on your arm. Inside it, ammonium chloride dissolves in the pack's water. Treat the dissolving ammonium chloride as the system. Which of these are part of the surroundings? The options are: the ammonium chloride as it dissolves; the skin of your arm under the pack; ammonium chloride in a fresh, unused pack that is touching this one; the air around the pack; and the dissolved ammonium and chloride particles. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The ammonium chloride as it dissolves",
+          "rationale": "This is the system itself, the substance whose change we are tracking."
+        },
+        {
+          "id": "b",
+          "text": "The skin of your arm under the pack",
+          "rationale": "Correct: your skin doesn't take part in the dissolving, so it is surroundings, and it loses energy to the pack."
+        },
+        {
+          "id": "f",
+          "text": "Ammonium chloride in a fresh pack touching it",
+          "rationale": "Correct: it is the same kind of substance, and it touches this pack, so it can trade energy with it. But it isn't the matter changing in this pack, so it is outside this system, part of the surroundings."
+        },
+        {
+          "id": "d",
+          "text": "The air around the pack",
+          "rationale": "Correct: the air doesn't take part in the dissolving, so it is surroundings that can give energy to the pack."
+        },
+        {
+          "id": "e",
+          "text": "The dissolved ammonium and chloride particles",
+          "rationale": "These are the ammonium chloride after it dissolves, the same matter, so they are still the system."
+        }
+      ],
+      "answer": [
+        "b",
+        "d",
+        "f"
+      ],
+      "explanation": "The system is only the ammonium chloride changing in this pack, before and after it dissolves. Your skin and the air don't take part, so they are surroundings. So is the ammonium chloride in the fresh pack touching it: same kind of substance, but outside this boundary, and close enough to trade energy with the pack. Energy flows from your skin and the air into the system, which is why they cool.",
+      "misconception": "A substance stops being part of the system once it has changed, or any matter with the same name as the system must belong to it.",
+      "hint": "Which choices are the very matter changing in this pack, before or after it dissolves? Everything else is outside the boundary.",
+      "followUpId": "L14-Q05",
+      "scope": {
+        "lessonId": "L14",
+        "section": "2. Endothermic Reactions",
+        "pages": {
+          "printed": [
+            177
+          ],
+          "pdf": [
+            213
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs; Figure 2B",
+          "supports": "Ammonium chloride dissolving in a cold pack takes in energy from outside the pack, for example from nearby air; the figure draws energy arrows entering the pack from the air and the person's skin."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions",
+          "supports": "The system is the reacting matter, reactants and products; the surroundings are everything not in the system."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-17",
+          "supports": "The system is the substance or substances undergoing the change; the surroundings are all other matter, including the apparatus, that provides heat to or absorbs heat from the system."
+        }
+      ],
+      "limitations": "The pack's water is left out of the choices on purpose: chemists sometimes count it with the system and sometimes with the surroundings.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Three of five correct; all-or-nothing scoring. Water deliberately excluded (see L14-RF8). Uses 'ammonium and chloride particles' rather than 'ions' to stay at grade level; see L14-RF2. Round 1: the plastic-wall option was replaced by unreacted ammonium chloride in a second pack (new id f, correct), so the name 'ammonium chloride' no longer cues 'system'; the answer is b, d, f. The new option was shortened from the reviewer's wording so the correct option is not the longest by far. Review round 2: both reviewers asked that option f say where the second pack is. The science reviewer proposed 'Unsqueezed ammonium chloride in a pack touching it' (50 characters, which would make a key the longest choice) and the pedagogy reviewer 'Ammonium chloride in a fresh pack beside it'. The merged wording 'Ammonium chloride in a fresh pack touching it' (45 characters, the same as option e) keeps the science reviewer's point that the surroundings are matter that can exchange energy with the system. The OpenStax 5.2 supports text now gives the full definition, qualifier included (re-read 2026-10-17). Key unchanged: b, d, f. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 177/213), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. Figure 2B re-checked on a 200 dpi crop: every arrow points into the pack, from the air and from the head.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: plastic-wall option replaced by ammonium chloride in an unsqueezed second pack (new id f) to break word-matching; read-aloud, explanation, hint updated"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: option f places the fresh pack touching this one; OpenStax 5.2 supports text gives the full system/surroundings definition"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: option f says where the second pack is (a fresh pack touching this one); read-aloud and explanation updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q03",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "energy transfer",
+        "temperature evidence",
+        "exothermic"
+      ],
+      "familyId": "L14-F02",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A reaction runs inside a small sealed packet sitting in a cup of water. The water warms from 20 °C to 31 °C, and nothing else heats the cup. Which way did the net energy flow?",
+      "accessiblePrompt": "A reaction runs inside a small sealed packet sitting in a cup of water. The water warms from 20 degrees Celsius to 31 degrees Celsius, and nothing else heats the cup. Which way did the net energy flow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "From the packet into the water",
+          "rationale": "Correct: the water gained thermal energy, and the reaction was the only source, so energy left the system for the surroundings."
+        },
+        {
+          "id": "b",
+          "text": "From the water into the packet",
+          "rationale": "If the water had given energy to the reaction, the water would have cooled down, not warmed up."
+        },
+        {
+          "id": "c",
+          "text": "Nowhere; only the temperature changed",
+          "rationale": "Water can't warm up without gaining energy. The rising temperature is the evidence that energy arrived."
+        },
+        {
+          "id": "e",
+          "text": "Can't tell without measuring the packet",
+          "rationale": "The water is the surroundings. With nothing else heating the cup, its 11 °C rise is enough evidence that energy came out of the packet."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The water's rising temperature shows it gained thermal energy. With no heater, that energy had to come from the reacting substances in the packet. You don't have to measure the packet itself: the change in its surroundings is the evidence. Energy leaving the system for the surroundings is the mark of an exothermic reaction.",
+      "misconception": "A temperature change in the surroundings says nothing about energy moving, or you must measure the reacting substances themselves to tell which way energy flowed.",
+      "hint": "Did the water end up with more thermal energy or less? Where could the extra have come from?",
+      "followUpId": "L14-Q08",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions",
+        "pages": {
+          "printed": [
+            174
+          ],
+          "pdf": [
+            210
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions; Figure 1",
+          "supports": "In an exothermic reaction, energy moves from the reacting matter into its surroundings and warms them."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy",
+          "supports": "In an exothermic reaction the extra energy released flows to the surroundings as heat."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-14",
+          "supports": "When a reaction is exothermic, the heat it produces is absorbed by the surrounding solution, and the solution's temperature rises."
+        }
+      ],
+      "conditions": "Nothing else heats or cools the cup. The packet's contents are the system and the water is part of the surroundings.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Original scenario; numbers are made up. Review round 2: the energy-created distractor d (the fifth such distractor in the bank) was replaced by 'Can't tell without measuring the packet' (new id e), so the item also tests that a change in the surroundings is evidence on its own (observation versus evidence). That gives it a job that Q07 (reading cooling data) and Q04 option a don't do. Answer a and follow-up Q08 unchanged. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 174/210), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: energy-created distractor d replaced by 'Can't tell without measuring the packet' (new id e); explanation adds that the surroundings' change is the evidence"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q04",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "evidence",
+        "energy transfer",
+        "exothermic",
+        "signs of chemical change"
+      ],
+      "familyId": "L14-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A reaction is happening in a dish. Which observations are evidence that energy is leaving the reacting substances for the surroundings? Select all that apply.",
+      "accessiblePrompt": "A reaction is happening in a dish. Which observations are evidence that energy is leaving the reacting substances and going into the surroundings? The options are: the dish turns noticeably cold to the touch; the air just above the dish warms up; the mixture changes from clear to bright blue; the reaction gives off a bright glow; bubbles of a new gas rise out of the mixture. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The air just above the dish warms up",
+          "rationale": "Correct: warmer air has gained thermal energy, and it came from the reaction."
+        },
+        {
+          "id": "b",
+          "text": "The reaction gives off a bright glow",
+          "rationale": "Correct: light carries energy away from the reacting substances."
+        },
+        {
+          "id": "c",
+          "text": "The dish turns noticeably cold to the touch",
+          "rationale": "A dish that cools is losing energy to the reaction, so energy is flowing in, not out."
+        },
+        {
+          "id": "d",
+          "text": "The mixture changes from clear to bright blue",
+          "rationale": "A color change shows a new substance may have formed, but not which way energy is moving."
+        },
+        {
+          "id": "e",
+          "text": "Bubbles of a new gas rise out of the mixture",
+          "rationale": "Bubbles of a new gas show a substance forming; they say nothing about which way energy flows."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Warming nearby air and giving off light both carry energy away from the system, so they show an exothermic change. A color change or bubbles tell you a reaction may be happening, but not which way energy moves. A dish that turns cold points to energy flowing in.",
+      "misconception": "Any sign of a chemical change, such as bubbles or a color change, shows that energy is being released.",
+      "hint": "For each observation, ask whether it shows energy moving at all, and if it does, which way.",
+      "followUpId": "L14-Q06",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions",
+        "pages": {
+          "printed": [
+            174
+          ],
+          "pdf": [
+            210
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            173
+          ],
+          "pdfPages": [
+            209
+          ],
+          "locator": "Introduction",
+          "supports": "The bright flashes, loud booms and heat of fireworks are energy released by chemical reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions; Figure 1",
+          "supports": "A firework releases energy as light and sound, and a burning match releases energy that heats its surroundings."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "When a change absorbs energy from its surroundings, the surroundings feel cold."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two of five correct. Color change and bubbles are signs of chemical change from earlier lessons, used as distractors because they do not show energy direction. Round 1: option e now says 'a new gas' so it cannot be read as boiling driven by released heat; the hint no longer names the two keys. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 174/210), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice e says bubbles of a new gas, so it can't be read as boiling"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the two keys"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q05",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "cold pack",
+        "energy transfer",
+        "heat flow direction"
+      ],
+      "familyId": "L14-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "You hold a squeezed cold pack, and your fingers start to feel cold. What is actually happening?",
+      "accessiblePrompt": "You hold a squeezed cold pack, and your fingers start to feel cold. What is actually happening?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Energy flows from your fingers into the pack",
+          "rationale": "Correct: the dissolving inside keeps taking in energy, so the pack stays cooler than your fingers and energy flows from you into it."
+        },
+        {
+          "id": "b",
+          "text": "Cold flows out of the pack into your fingers",
+          "rationale": "Cold isn't a substance or a kind of energy that can flow. Your fingers feel cold because they are losing thermal energy."
+        },
+        {
+          "id": "c",
+          "text": "The pack destroys some energy in your fingers",
+          "rationale": "Energy isn't destroyed. It moves from your fingers into the pack, where the dissolving takes it in."
+        },
+        {
+          "id": "d",
+          "text": "The pack gives off energy that feels cold",
+          "rationale": "Energy given off into your fingers would warm them; that is how a hand warmer works."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Dissolving ammonium chloride takes in energy, so the pack's contents cool. Your warmer fingers then lose thermal energy to the cooler pack, and losing energy is what feels cold. The flow runs from you, part of the surroundings, into the pack.",
+      "misconception": "Cold is something that flows out of a cold object into warmer things.",
+      "hint": "Feeling cold means your fingers are losing something. What is it, and which way is it moving?",
+      "followUpId": "L14-Q07",
+      "scope": {
+        "lessonId": "L14",
+        "section": "2. Endothermic Reactions",
+        "pages": {
+          "printed": [
+            177
+          ],
+          "pdf": [
+            213
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs; Figure 2B",
+          "supports": "The cold pack absorbs energy from its surroundings as its contents dissolve, and Figure 2B's arrows point from the air and the person's skin into the pack."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-14",
+          "supports": "An instant cold pack's endothermic dissolving removes thermal energy from its water, and the pack then draws thermal energy from the user. (The page's example is ammonium nitrate.)"
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Targets the 'cold flows' misconception. Kept separate from Q02 (which items are surroundings) and Q15 (where absorbed energy ends up). Round 1: follow-up is now Q07 (reading energy direction from cooling data). Reviser's own change: the old hint asked which had 'less thermal energy', which mixes up temperature and thermal energy (guardrail), so it was rewritten. OpenStax 5.2 record notes its example is ammonium nitrate. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 177/213), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. Figure 2B re-checked on a 200 dpi crop: every arrow points into the pack.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId -> L14-Q07"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q06",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "exothermic",
+        "endothermic",
+        "classification",
+        "examples"
+      ],
+      "familyId": "L14-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each change by its net energy transfer: does energy mainly flow out of the reacting substances (exothermic) or into them (endothermic)?",
+      "accessiblePrompt": "Sort each change by its net energy transfer. Does energy mainly flow out of the reacting substances, which is exothermic, or into them, which is endothermic? The changes are: a firework bursting in the night sky; ammonium chloride dissolving in a squeezed cold pack; a struck match burning; raw food cooking over hot coals; an iron-powder pouch warming up in air; and a charcoal stick glowing in a hand-warmer case.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "A firework bursting in the night sky",
+          "rationale": "Its light, bang and heat all carry energy out to the surroundings."
+        },
+        {
+          "id": "i5",
+          "text": "Ammonium chloride dissolving in a squeezed cold pack",
+          "rationale": "The dissolving takes in energy from its surroundings, which is why the pack feels cold."
+        },
+        {
+          "id": "i2",
+          "text": "A struck match burning",
+          "rationale": "Once lit, it gives out more energy than it took to start, warming the air around it."
+        },
+        {
+          "id": "i6",
+          "text": "Raw food cooking over hot coals",
+          "rationale": "In the lesson's model, the cooking reactions keep taking in energy from the coals and stop when the food comes off."
+        },
+        {
+          "id": "i3",
+          "text": "An iron-powder pouch warming up in air",
+          "rationale": "Iron reacting with oxygen gives out energy that warms the pouch and your hands."
+        },
+        {
+          "id": "i4",
+          "text": "A charcoal stick glowing in a hand-warmer case",
+          "rationale": "Burning charcoal gives off a steady stream of thermal energy for hours."
+        }
+      ],
+      "bins": [
+        {
+          "id": "b1",
+          "label": "Exothermic: net energy out"
+        },
+        {
+          "id": "b2",
+          "label": "Endothermic: net energy in"
+        }
+      ],
+      "answer": {
+        "i1": "b1",
+        "i2": "b1",
+        "i3": "b1",
+        "i4": "b1",
+        "i5": "b2",
+        "i6": "b2"
+      },
+      "explanation": "Fireworks, matches and both kinds of hand warmer send energy out to their surroundings, so they are exothermic. The cold pack and the cooking food both take energy in: the pack pulls it from your skin and the air, and the food takes it from the coals. Those are endothermic.",
+      "misconception": "Anything involving fire or heat is exothermic, even when the heat is flowing into the reacting food.",
+      "hint": "For each one, ask whether the reacting substances are giving energy away or soaking it up.",
+      "followUpId": "L14-Q08",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions and 2. Endothermic Reactions",
+        "pages": {
+          "printed": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "pdf": [
+            210,
+            211,
+            212,
+            213
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions",
+          "supports": "Exploding fireworks and burning matches are exothermic reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "Charcoal and iron-powder hand warmers use exothermic reactions to release heat."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2, Endothermic Reactions Store Energy; Figure 2A",
+          "supports": "Cooking food involves endothermic reactions that take in energy from a flame or hot coals."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "Ammonium chloride dissolving in a cold pack is endothermic."
+        }
+      ],
+      "limitations": "Dissolving is often called a physical change rather than a reaction; either way it takes in energy. Cooking is sorted the way the lesson models it.",
+      "review": {
+        "status": "reviewed",
+        "notes": "All six examples come from the lesson. Cooking is the deliberate trap: fire is nearby, but the food's reactions take energy in. Round 1: the internal pointer to L14-RF5 was moved out of the learner-facing limitations; cooking follows the lesson's simplified model recorded in L14-RF5. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 174/210, 175/211, 176/212, 177/213), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: internal L14-RF5 pointer removed from learner-facing limitations (now in notes)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q07",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1"
+      ],
+      "conceptTags": [
+        "endothermic",
+        "data",
+        "temperature evidence"
+      ],
+      "familyId": "L14-F03",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Four different reactions each run in the same amount of water, which starts at 21 °C. The table shows where the water's temperature ended up. Which reaction is endothermic?",
+      "accessiblePrompt": "Four different reactions each run in the same amount of water, which starts at 21 degrees Celsius. Reaction W leaves the water at 35 degrees. Reaction X leaves it at 9 degrees. Reaction Y leaves it at 27 degrees. Reaction Z leaves it at 24 degrees. Which reaction is endothermic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reaction W",
+          "rationale": "W changed the water's temperature the most, but upward: the water gained energy, so W is exothermic."
+        },
+        {
+          "id": "b",
+          "text": "Reaction X",
+          "rationale": "Correct: the water dropped 12 °C, so it lost energy to the reaction. Energy flowed into the system."
+        },
+        {
+          "id": "c",
+          "text": "Reaction Y",
+          "rationale": "Y warmed the water by 6 °C, so energy flowed out of the reaction."
+        },
+        {
+          "id": "d",
+          "text": "Reaction Z",
+          "rationale": "Z's 3 °C rise is small, but it is still a rise: energy flowed out, so Z is mildly exothermic."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Here the water is the surroundings. Water that warms has gained energy from the reaction, which is exothermic. Only X left the water colder, so energy flowed from the water into reaction X: X is endothermic. The size of a rise tells you how much energy came out, not which way it went.",
+      "misconception": "The reaction with the smallest temperature rise, or with the biggest change, is the one absorbing energy.",
+      "hint": "If the water ends up cooler than it started, where did some of its thermal energy go?",
+      "followUpId": "L14-Q03",
+      "scope": {
+        "lessonId": "L14",
+        "section": "2. Endothermic Reactions",
+        "pages": {
+          "printed": [
+            177,
+            178
+          ],
+          "pdf": [
+            213,
+            214
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy",
+          "supports": "For an endothermic reaction the system takes in more energy than it gives out, so the net flow is from the surroundings into the system."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "When a reaction absorbs energy from its surroundings, the surroundings get colder."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-14",
+          "supports": "When a reaction in solution is endothermic, the heat it needs comes from the solution's thermal energy, and the solution's temperature falls."
+        }
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Water temperature before and after four reactions (made-up data)",
+        "alt": "Table. Each reaction starts with the same amount of water at 21 degrees Celsius. Reaction W ends at 35 degrees. Reaction X ends at 9 degrees. Reaction Y ends at 27 degrees. Reaction Z ends at 24 degrees.",
+        "columns": [
+          "Reaction",
+          "Water at start (°C)",
+          "Water at end (°C)"
+        ],
+        "rows": [
+          [
+            "W",
+            21,
+            35
+          ],
+          [
+            "X",
+            21,
+            9
+          ],
+          [
+            "Y",
+            21,
+            27
+          ],
+          [
+            "Z",
+            21,
+            24
+          ]
+        ]
+      },
+      "conditions": "The water is the surroundings. Each test uses the same amount of water, with no other heating or cooling.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical data. Distractor W (largest change) and Z (smallest rise) target size-versus-direction confusion. Round 1: the hint no longer tells learners to ignore the size of each change, so the size-versus-direction distractors still diagnose. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 177/213, 178/214), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer removes the size-versus-direction test"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q08",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O1",
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "exothermic",
+        "net energy transfer",
+        "system",
+        "surroundings"
+      ],
+      "familyId": "L14-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "What is the net direction of energy transfer in an exothermic reaction?",
+      "accessiblePrompt": "What is the net direction of energy transfer in an exothermic reaction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "From the reacting system to its surroundings",
+          "rationale": "Correct: an exothermic reaction gives out more energy than it takes in, so the overall flow is outward."
+        },
+        {
+          "id": "b",
+          "text": "From the surroundings into the reacting system",
+          "rationale": "That is the net direction for an endothermic reaction."
+        },
+        {
+          "id": "c",
+          "text": "Both ways equally, so there is no net direction",
+          "rationale": "Energy does move both ways, in to break bonds and out as bonds form, but in an exothermic reaction the outward flow is larger."
+        },
+        {
+          "id": "e",
+          "text": "From the reactants into the products",
+          "rationale": "Reactants and products are both inside the system. The energy an exothermic reaction releases leaves the system; the products end up with less stored energy than the reactants had."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The prefix exo- means out. An exothermic reaction takes in some energy and gives out more, so the net transfer runs from the system to the surroundings. The released energy doesn't go into the products; it leaves the system. That is why the air around a burning match warms up.",
+      "misconception": "An exothermic reaction pulls energy in from its surroundings, or the energy it releases goes into its own products.",
+      "hint": "Picture the air around a burning match. Does it warm up or cool down?",
+      "followUpId": "L14-Q03",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions",
+        "pages": {
+          "printed": [
+            174
+          ],
+          "pdf": [
+            210
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            173
+          ],
+          "pdfPages": [
+            209
+          ],
+          "locator": "Vocabulary",
+          "supports": "The vocabulary list defines an exothermic reaction as one that gives out more energy to the surroundings than it takes in."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions",
+          "supports": "In an exothermic reaction, energy moves out of the reacting matter and into its surroundings."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy",
+          "supports": "The spread states that in an exothermic reaction the system gives out more energy than it takes in."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (section 7, entry 14), polished. Choice c acknowledges two-way transfer so the key is about the net direction. Round 1: the hint no longer gives the prefix meaning; the explanation still teaches it after answering. Review round 2: the 'system makes energy and keeps it' distractor d was replaced by 'From the reactants into the products' (new id e), a real mix-up about where released energy goes; the explanation gained one sentence on it (reviser's addition). Follow-up changed from Q10 to Q03, so a learner who missed the net direction sees the evidence-based version before the bond mechanism. The seed's key (a) and wording are unchanged. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 174/210), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer states the meaning of exo-"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: energy-made distractor d replaced by 'From the reactants into the products' (new id e); followUpId -> L14-Q03"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q09",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "endothermic",
+        "net energy transfer",
+        "bond breaking",
+        "bond forming",
+        "cooking"
+      ],
+      "familyId": "L14-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "As food cooks, new bonds form in the cooked food. Why does the lesson still call the cooking reactions endothermic?",
+      "accessiblePrompt": "As food cooks, new bonds form in the cooked food. Why does the lesson still call the cooking reactions endothermic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In cooking, breaking bonds takes in more than forming bonds gives out",
+          "rationale": "Correct: the reactions give some energy back, but they take in more, so the net flow is into the food."
+        },
+        {
+          "id": "b",
+          "text": "Endothermic reactions never give out any energy, not even a little",
+          "rationale": "They do give out some energy as new bonds form; they just take in more than they give out."
+        },
+        {
+          "id": "f",
+          "text": "Forming the new bonds takes energy in too, like breaking them",
+          "rationale": "Forming a bond gives energy out. The reactions are endothermic because breaking bonds takes in more than forming the new ones gives back."
+        },
+        {
+          "id": "e",
+          "text": "Cooking is slow, and slow reactions take energy in rather than out",
+          "rationale": "Speed doesn't set the direction: the charcoal in a hand warmer burns slowly enough to last for hours, yet it still gives energy out. Only the net transfer decides."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Each cooking reaction takes in energy to break bonds and gives some out as new bonds form. Much more is taken in than given out, so the net flow is into the food from the heat source. That net direction, not how slow the cooking is, makes them endothermic.",
+      "misconception": "An endothermic reaction gives out no energy at all, forming a bond takes energy in, or a reaction's speed decides which way its energy flows.",
+      "hint": "Compare the energy going in with the energy coming out. Which total is bigger?",
+      "followUpId": "L14-Q11",
+      "scope": {
+        "lessonId": "L14",
+        "section": "Key Science Concept: Reactions Release and Absorb Energy (end of Section 2)",
+        "pages": {
+          "printed": [
+            178
+          ],
+          "pdf": [
+            214
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy (endothermic panels)",
+          "supports": "As food cooks, reactant bonds break and new product bonds form, but much more energy is absorbed than is released."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2, Endothermic Reactions Store Energy",
+          "supports": "An endothermic reaction takes in more energy from outside than it gives out."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "A charcoal hand warmer's burning is exothermic and gives off heat steadily for several hours."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 7.5 Strengths of Ionic and Covalent Bonds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "accessed": "2026-10-14",
+          "supports": "Breaking bonds requires energy and forming bonds releases it; when the products' bonds are weaker overall, the reaction absorbs heat."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Cooking used as the lesson models it (L14-RF5). The question is about net versus one-way transfer, not about cooking chemistry details. Round 1: the key is scoped to cooking ('In cooking, ...'), because 'breaking takes in more than forming gives out' stated generally is false for exothermic reactions. The science reviewer proposed 'In these reactions, ... more energy than forming new bonds gives out'; the shorter scoped form keeps the key from being the longest choice by a wide margin (69 characters against 57-66). Distractor d (energy destroyed) was replaced by a speed misconception (new id e), cutting a repeated conservation distractor; p. 181 evidence added for its rationale. Review round 2: the stem no longer says that forming bonds gives energy out, which had refuted distractor b before the learner thought. The straw-man 'anything that gets hot is endothermic' (c) was replaced by the documented misconception that forming a bond takes energy in (new id f). Option e's rationale now uses the charcoal hand warmer (p. 175, Section 1), which the learner meets before the thick-bag prototype; the p. 181 evidence record that supported the old rationale was swapped for a p. 175 record, since nothing in the item uses p. 181 now. Key 69 characters against 61-66. Answer a unchanged. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 178/214), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key scoped to the cooking reactions; explanation no longer claims every reaction breaks and forms bonds"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: energy-destroyed distractor replaced by a slow-means-endothermic misconception (new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer states that forming bonds gives energy out; straw-man c replaced by 'forming takes energy in too' (new id f); option e rationale uses the charcoal warmer, with p. 175 evidence"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q10",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "bond breaking",
+        "bond forming",
+        "exothermic",
+        "endothermic"
+      ],
+      "familyId": "L14-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each single step or whole reaction to what it means for energy.",
+      "accessiblePrompt": "Match each single step or whole reaction to what it means for energy. The items are: breaking a bond between two atoms; forming a new bond between two atoms; a reaction whose new bonds give out more energy than breaking the old bonds took in; and a reaction whose bond breaking takes in more energy than its new bonds give out. The meanings are: whole reaction, the surroundings lose energy overall, endothermic; one step that gives energy out; whole reaction, the surroundings gain energy overall, exothermic; and one step that takes energy in.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Breaking a bond between two atoms",
+          "rationale": "One step: pulling bonded atoms apart always costs energy, so breaking a bond takes energy in."
+        },
+        {
+          "id": "b",
+          "text": "Forming a new bond between two atoms",
+          "rationale": "One step: when atoms bond, energy is released, so forming a bond gives energy out."
+        },
+        {
+          "id": "c",
+          "text": "A reaction whose new bonds give out more energy than breaking the old bonds took in",
+          "rationale": "A whole reaction: its new bonds give out more than breaking the old ones took in, so the extra energy flows to the surroundings. That is exothermic."
+        },
+        {
+          "id": "d",
+          "text": "A reaction whose bond breaking takes in more energy than its new bonds give out",
+          "rationale": "A whole reaction: breaking its bonds takes in more than its new bonds give back, so the difference comes from the surroundings. That is endothermic."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "One step that takes energy in"
+        },
+        {
+          "id": "r2",
+          "text": "One step that gives energy out"
+        },
+        {
+          "id": "r3",
+          "text": "Whole reaction: the surroundings gain energy overall (exothermic)"
+        },
+        {
+          "id": "r4",
+          "text": "Whole reaction: the surroundings lose energy overall (endothermic)"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4"
+      },
+      "explanation": "Pulling bonded atoms apart always costs energy, and forming a bond always releases energy; each is a single step. A typical reaction does both, so for the whole reaction you compare the totals. Extra energy the system gives out ends up in the surroundings, and extra energy it takes in comes from them. More released than absorbed means exothermic; more absorbed than released means endothermic.",
+      "misconception": "Breaking bonds releases energy, the way snapping something seems to let energy out.",
+      "hint": "A bond holds atoms together. Does pulling them apart cost energy or pay it out?",
+      "followUpId": "L14-Q12",
+      "scope": {
+        "lessonId": "L14",
+        "section": "Key Science Concept: Reactions Release and Absorb Energy (end of Section 2)",
+        "pages": {
+          "printed": [
+            178
+          ],
+          "pdf": [
+            214
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy",
+          "supports": "Energy absorbed by reactants lets bonds break; as products form, bonds form and energy is released; the larger amount sets whether the reaction is exothermic or endothermic."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 7.5 Strengths of Ionic and Covalent Bonds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "accessed": "2026-10-14",
+          "supports": "Separating any pair of bonded atoms requires energy; energy is released when bonds form in the products."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Guardrail item: breaking bonds requires energy, forming bonds releases energy (brief section 8). Round 1: right-side labels now describe what the surroundings gain or lose, so items c and d take one inference across the boundary instead of word-matching. 'A whole reaction does both' became 'A typical reaction does both' to match the O2 card fix (not every process both breaks and forms bonds). Review round 2: the science reviewer found a second fully true mapping (breaking one bond is itself an endothermic step, so a -> r4 with c -> r2 used only true statements). The right side now labels single steps and whole reactions, and items c and d read 'A reaction whose ...', so only a->r1, b->r2, c->r3, d->r4 works. Reviser's matching changes: the prompt says 'single step or whole reaction' (the old 'event in a reaction' no longer fit items c and d), a/b rationales start 'One step', and the explanation names single steps. Right-side ids keep their meaning, so they were not renumbered. The pedagogy reviewer passed the old version; its minor note (labels r1/r2 also read as true of c/d) is resolved by the same change. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 178/214), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: right-side labels describe the surroundings, removing the echo of items c and d; explanation adds the boundary sentence"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: right side separates single steps from whole reactions; items c and d reworded as whole reactions, removing the second true mapping"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q11",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "bond energy",
+        "net energy transfer",
+        "exothermic",
+        "calculation"
+      ],
+      "familyId": "L14-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "The bar chart models a fuel burning: breaking the reactants' bonds takes in 1,800 energy units, and forming the products' bonds gives out 2,450 units. How many energy units flow out to the surroundings overall?",
+      "accessiblePrompt": "A bar chart models a fuel burning. One bar shows that breaking the reactants' bonds takes in 1,800 energy units. The other shows that forming the products' bonds gives out 2,450 energy units. How many energy units flow out to the surroundings overall?",
+      "answer": 650,
+      "tolerance": 0,
+      "unit": "energy units",
+      "workedSolution": "Energy given out minus energy taken in: 2,450 − 1,800 = 650 energy units. More is given out than taken in, so the extra 650 units flow out to the surroundings and the reaction is exothermic.",
+      "explanation": "Bond breaking costs 1,800 units and bond forming pays back 2,450. The difference, 650 units, is the net energy that leaves the system. Because the leftover is on the 'given out' side, the reaction is exothermic.",
+      "misconception": "The energy released to the surroundings is the whole amount given out by bond forming, ignoring the energy needed to break the old bonds.",
+      "hint": "Some of the energy given out just pays back what went in. How much is left over?",
+      "followUpId": "L14-Q09",
+      "scope": {
+        "lessonId": "L14",
+        "section": "Key Science Concept: Reactions Release and Absorb Energy (end of Section 2)",
+        "pages": {
+          "printed": [
+            178
+          ],
+          "pdf": [
+            214
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy (exothermic panels)",
+          "supports": "In a burning match more energy is released by forming bonds than is absorbed in breaking them, and the excess flows to the surroundings."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 7.5 Strengths of Ionic and Covalent Bonds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "accessed": "2026-10-14",
+          "supports": "A reaction's energy change is roughly the energy needed to break the reactants' bonds minus the energy released forming the products' bonds."
+        }
+      ],
+      "limitations": "The numbers are made-up model units, not measured bond energies, and the model counts only bonds.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Model arithmetic; answer 650 with tolerance 0. Bar chart in the O2 card uses different numbers (600/900/300) so it does not give this answer away. Round 1: a two-bar diagram (no net bar) was added so the item also reads a model, per the pedagogy reviewer's lesson-level finding; the O2 card's bars use different numbers (600/900/300). Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 178/214), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bars diagram added for model reading (lesson-level finding); no net bar, so the answer is not shown"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "caption": "Energy bookkeeping for a burning fuel (made-up model units)",
+        "alt": "Bar chart in made-up energy units for a model of a fuel burning. Energy taken in to break the reactants' bonds: 1,800 units. Energy given out as the products' bonds form: 2,450 units. The chart has no bar for the net amount.",
+        "yLabel": "Energy (model units)",
+        "bars": [
+          {
+            "label": "Taken in: breaking bonds",
+            "value": 1800
+          },
+          {
+            "label": "Given out: forming bonds",
+            "value": 2450
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q12",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "exothermic",
+        "starting energy",
+        "match",
+        "net energy transfer"
+      ],
+      "familyId": "L14-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A match won't burn until it is struck, which gives the match head a little energy. A student says that makes burning a match endothermic. Which response is best?",
+      "accessiblePrompt": "A match won't burn until it is struck, which gives the match head a little energy. A student says that makes burning a match endothermic. Which response is best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No. The strike just starts it; new bonds then release more than went in.",
+          "rationale": "Correct: the strike is a small starting push. Once bonds form in the products, more energy flows out than came in."
+        },
+        {
+          "id": "b",
+          "text": "Yes. Any reaction that needs energy to get started is an endothermic one.",
+          "rationale": "Many exothermic reactions need a small push to start. What counts is the net transfer once the reaction runs."
+        },
+        {
+          "id": "c",
+          "text": "Yes. The flame keeps pulling energy in from the air the whole time it burns.",
+          "rationale": "A burning match warms the air around it, so energy is flowing out, not in."
+        },
+        {
+          "id": "d",
+          "text": "No. Burning gives off its energy without breaking any bonds at all.",
+          "rationale": "'No' is right, but the reason is wrong: bonds in the wood and in oxygen must break before new ones can form."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The strike supplies a small amount of energy that breaks the first bonds. As new bonds form in carbon dioxide and water, they release more energy than was taken in, and that extra keeps the flame going and warms the surroundings. Needing a start does not make a reaction endothermic; the net transfer decides.",
+      "misconception": "If a reaction needs energy to get started, it must be endothermic.",
+      "hint": "Once the match is lit, does it keep pulling energy in, or does it give energy away?",
+      "followUpId": "L14-Q10",
+      "scope": {
+        "lessonId": "L14",
+        "section": "Key Science Concept: Reactions Release and Absorb Energy (end of Section 2)",
+        "pages": {
+          "printed": [
+            178
+          ],
+          "pdf": [
+            214
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy (exothermic panels)",
+          "supports": "Striking a match supplies energy that lets bonds break and starts the reaction; as products form, more energy is released than absorbed."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 12.5 Collision Theory",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "accessed": "2026-10-14",
+          "supports": "Reactants need a minimum energy, the activation energy, to react; the page's energy diagram shows this barrier for an exothermic reaction."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the p. 176 'continuous energy' rule of thumb (L14-RF4). Choice d is the right verdict with a wrong reason, explained in its rationale. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 178/214), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q13",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "bond breaking",
+        "bond forming",
+        "match",
+        "model sequence"
+      ],
+      "familyId": "L14-F06",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "order",
+      "prompt": "Put the steps of the lesson's model of a burning match in the order they happen.",
+      "accessiblePrompt": "Put the steps of the lesson's model of a burning match in the order they happen. The steps are: new bonds form in the products, giving out energy; striking adds a little energy to the match head; the fuel is used up, so no more energy is given out; bonds in the match chemicals and in oxygen break; the extra energy spreads into the air as heat and light.",
+      "items": [
+        {
+          "id": "i3",
+          "text": "New bonds form in the products, giving out energy",
+          "rationale": "Third: atoms from the broken bonds regroup into carbon dioxide and water, and forming these new bonds releases energy."
+        },
+        {
+          "id": "i1",
+          "text": "Striking adds a little energy to the match head",
+          "rationale": "First: the strike supplies the small starting energy."
+        },
+        {
+          "id": "i5",
+          "text": "The fuel is used up, so no more energy is given out",
+          "rationale": "Last: with no reactants left, the release of energy stops."
+        },
+        {
+          "id": "i2",
+          "text": "Bonds in the match chemicals and in oxygen break",
+          "rationale": "Second: the starting energy lets the first bonds break."
+        },
+        {
+          "id": "i4",
+          "text": "The extra energy spreads into the air as heat and light",
+          "rationale": "Fourth: more energy was given out than taken in, so the extra flows to the surroundings."
+        }
+      ],
+      "answer": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "ends": [
+        "Happens first",
+        "Happens last"
+      ],
+      "explanation": "The strike's small energy input breaks the first bonds. Atoms then form new bonds in carbon dioxide and water, which gives out more energy than went in, and the extra spreads into the surroundings. When the reactants run out, the release stops, and what is left has new properties.",
+      "misconception": "Energy is given out as the old bonds break, rather than when the new bonds form.",
+      "hint": "What has to happen to the old bonds before atoms can join new partners?",
+      "followUpId": "L14-Q10",
+      "scope": {
+        "lessonId": "L14",
+        "section": "Key Science Concept: Reactions Release and Absorb Energy (end of Section 2)",
+        "pages": {
+          "printed": [
+            178
+          ],
+          "pdf": [
+            214
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy (exothermic panels)",
+          "supports": "The three panels show the strike starting bond breaking, bonds forming with more energy released than absorbed, and no more energy released once the reaction stops."
+        }
+      ],
+      "limitations": "This is a step-by-step model. In a real flame, bonds break and form over and over at the same time as the flame moves along the match.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Order follows the three p. 178 panels, split into five steps. Items are stored out of answer order; display shuffles. Round 1: neutral end labels; the prompt no longer names the first and last steps (it said 'from the strike to the end', the same cue the old labels gave); the hint asks about the old bonds instead of giving the middle order; follow-up is now Q10 (breaking takes in, forming gives out). Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 178/214), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: step-three rationale says atoms from the broken bonds regroup, not 'freed' atoms"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: neutral end labels; prompt and hint no longer give the order; followUpId -> L14-Q10"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q14",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "conservation of energy",
+        "chemical energy",
+        "hand warmer"
+      ],
+      "familyId": "L14-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An iron-powder hand warmer heats up once its packet is opened to the air. Where does the energy that warms your hands come from?",
+      "accessiblePrompt": "An iron-powder hand warmer heats up once its packet is opened to the air. Where does the energy that warms your hands come from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Energy stored in the iron and oxygen, released as they react",
+          "rationale": "Correct: the reactants hold stored chemical energy, and forming iron oxide releases some of it as thermal energy."
+        },
+        {
+          "id": "b",
+          "text": "Friction from rubbing the pouch back and forth between your hands",
+          "rationale": "Rubbing may make it seem that way, but the lasting warmth comes from the iron reacting with oxygen."
+        },
+        {
+          "id": "c",
+          "text": "Your hands, which pass their own thermal energy to the iron",
+          "rationale": "That's backwards: the pouch warms your hands, so energy flows from the pouch to you."
+        },
+        {
+          "id": "d",
+          "text": "Brand-new energy that the reaction makes out of nothing",
+          "rationale": "Energy can't be made from nothing. The reaction releases energy that was already stored in the reactants."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Iron and oxygen hold stored chemical energy. When they react to form iron oxide, the product holds less, and the difference flows out as thermal energy into the pouch and your hands. Energy changes form and place, but none is created.",
+      "misconception": "A hand warmer gets warm from rubbing, or the reaction creates new energy.",
+      "hint": "Energy can't appear from nothing. What changes inside the pouch?",
+      "followUpId": "L14-Q11",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions",
+        "pages": {
+          "printed": [
+            175
+          ],
+          "pdf": [
+            211
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "Rubbing the iron-powder pouch may seem to warm it, but the warming comes from an exothermic reaction between iron and oxygen in the air."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            173
+          ],
+          "pdfPages": [
+            209
+          ],
+          "locator": "Next Generation Science Standards box (PS1.B)",
+          "supports": "Some chemical reactions release energy and others store energy."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.1 Energy Basics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+          "accessed": "2026-10-14",
+          "supports": "During a chemical or physical change, energy can be neither created nor destroyed, although it can change form."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-14",
+          "supports": "An iron hand warmer gives off heat when its iron is exposed to oxygen in the air, an exothermic reaction."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Supports the brief's note that bonuses in the attraction must never imply energy is created. Friction distractor comes straight from the p. 175 discussion. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 175/211), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q15",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O2"
+      ],
+      "conceptTags": [
+        "conservation of energy",
+        "endothermic",
+        "stored energy",
+        "energy is not matter"
+      ],
+      "familyId": "L14-F07",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Energy from hot coals keeps the cooking reactions in a kebab going. In the lesson's model, where does the energy absorbed by those reactions end up?",
+      "accessiblePrompt": "Energy from hot coals keeps the cooking reactions in a kebab going. In the lesson's model, where does the energy absorbed by those reactions end up?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stored in the new substances that form in the cooked food",
+          "rationale": "Correct: an endothermic reaction stores the energy it absorbs in its products."
+        },
+        {
+          "id": "b",
+          "text": "Destroyed for good once the kebab comes off the hot coals",
+          "rationale": "Energy is never destroyed. Taking the kebab off only stops more energy from flowing in."
+        },
+        {
+          "id": "c",
+          "text": "Turned into extra atoms that make the kebab heavier",
+          "rationale": "Energy is not made of atoms, so it can't turn into matter in a reaction like this."
+        },
+        {
+          "id": "d",
+          "text": "Sent straight back out to the coals as the food cooks",
+          "rationale": "If it all went straight back, the reactions would have no net energy taken in, and they wouldn't be endothermic."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Energy is never destroyed. The energy taken in by the cooking reactions is stored in the new substances that form, which is why the lesson says endothermic reactions store energy. The atoms stay the same in number; only their arrangement and stored energy change.",
+      "misconception": "Energy taken in by a reaction is used up and disappears, or turns into matter.",
+      "hint": "Energy can't vanish. If the reactions took it in, where in the system could it be?",
+      "followUpId": "L14-Q19",
+      "scope": {
+        "lessonId": "L14",
+        "section": "2. Endothermic Reactions",
+        "pages": {
+          "printed": [
+            176
+          ],
+          "pdf": [
+            212
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2, Endothermic Reactions Store Energy",
+          "supports": "The new molecules and extended structures in the cooked kebab store the energy that was required to make them."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations",
+          "supports": "Energy is not made of matter the way atoms are."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.1 Energy Basics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+          "accessed": "2026-10-14",
+          "supports": "During a chemical or physical change, energy can be neither created nor destroyed, although it can change form."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Asks only about energy absorbed by the reactions themselves, not all energy from the coals (L14-RF5). Round 1: both reviewers passed it; the science reviewer tied it to the O2 card, whose cooking sentence was rescoped to the lesson's model. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 176/212), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q16",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O3"
+      ],
+      "conceptTags": [
+        "chemical equation",
+        "energy term",
+        "exothermic"
+      ],
+      "familyId": "L14-F08",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "The hand-warmer equation is 4Fe + 3O₂ → 2Fe₂O₃ + energy. What does writing energy on the product side tell you?",
+      "accessiblePrompt": "The hand-warmer equation is 4 F e plus 3 O 2 yields 2 F e 2 O 3 plus energy: iron plus oxygen gas makes iron oxide, with the word energy written after the arrow, on the product side together with the iron oxide. What does writing energy on the product side tell you?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Energy leaves the system, so the reaction is exothermic",
+          "rationale": "Correct: energy written with the products is energy going out of the system."
+        },
+        {
+          "id": "b",
+          "text": "Energy enters the system, so the reaction is endothermic",
+          "rationale": "Energy entering the system would be written with the reactants, before the arrow."
+        },
+        {
+          "id": "c",
+          "text": "Energy is a new substance that the reaction makes",
+          "rationale": "Energy isn't matter, so it isn't a substance that a reaction produces."
+        },
+        {
+          "id": "d",
+          "text": "Energy must keep being added for the reaction to run",
+          "rationale": "Energy that must be supplied would be written with the reactants; this equation shows energy coming out."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Chemists write energy on the side where it belongs in the story. On the product side, it is leaving the system along with the new substances, so the reaction is exothermic. That matches the warmth a hand warmer gives your fingers.",
+      "misconception": "The word energy in an equation is a substance, or its side of the arrow doesn't matter.",
+      "hint": "Products are what the reaction ends up with. What does it mean when energy is listed among them?",
+      "followUpId": "L14-Q08",
+      "scope": {
+        "lessonId": "L14",
+        "section": "3. Showing Energy in Chemical Equations",
+        "pages": {
+          "printed": [
+            179
+          ],
+          "pdf": [
+            215
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations; Figure 3",
+          "supports": "For an exothermic reaction, energy is written on the right with the products because it goes out of the system, as in 4Fe + 3O₂ → 2Fe₂O₃ + energy."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the verified, balanced p. 179 iron equation (simplified model, L14-RF7). Round 1: hint and option b rationale no longer use left/right cues; an equation diagram was added for model reading, with no label on the energy term so it does not state the answer. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 179/215), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. Iron equation and subscripts read from the p. 179 render.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives a spatial cue; option b rationale says 'before the arrow'; equation diagram added"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "diagram": {
+        "kind": "equation",
+        "caption": "The hand-warmer equation",
+        "alt": "Equation: 4 Fe plus 3 O2 yields 2 Fe2O3 plus energy. Four iron atoms and three oxygen molecules react to form two units of iron oxide. The word energy is written after the arrow, among the products.",
+        "reactants": [
+          {
+            "formula": "Fe",
+            "coefficient": 4,
+            "label": "iron"
+          },
+          {
+            "formula": "O2",
+            "coefficient": 3,
+            "label": "oxygen gas"
+          }
+        ],
+        "products": [
+          {
+            "formula": "Fe2O3",
+            "coefficient": 2,
+            "label": "iron oxide"
+          },
+          {
+            "formula": "energy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q17",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O3"
+      ],
+      "conceptTags": [
+        "chemical equation",
+        "energy term",
+        "endothermic",
+        "electrolysis"
+      ],
+      "familyId": "L14-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Splitting water into hydrogen gas and oxygen gas takes in more energy than it gives out; the energy comes from an electric current. Which equation best shows the net energy transfer the way the lesson writes it?",
+      "accessiblePrompt": "Splitting water into hydrogen gas and oxygen gas takes in more energy than it gives out; the energy comes from an electric current. Which equation best shows the net energy transfer the way the lesson writes it? Every option has the same atoms: two water molecules, written 2 H 2 O (each water molecule has two hydrogen atoms and one oxygen atom), split into two hydrogen molecules, 2 H 2, and one oxygen molecule, O 2. The options differ only in where the word energy is written. The options are: energy written among the products only; energy written with the water and again among the products; energy written with the water only; and no energy written at all, because energy can't go in an equation.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2H₂O + energy → 2H₂ + O₂",
+          "rationale": "Correct: net energy flows into the system, so it is written with the reactant."
+        },
+        {
+          "id": "b",
+          "text": "2H₂O → 2H₂ + O₂ + energy",
+          "rationale": "Energy on the product side means energy leaving the system, the exothermic pattern."
+        },
+        {
+          "id": "c",
+          "text": "2H₂O + energy → 2H₂ + O₂ + energy",
+          "rationale": "Some energy does come out, but writing energy on both sides hides the net direction, which is the whole point of writing it in."
+        },
+        {
+          "id": "d",
+          "text": "2H₂O → 2H₂ + O₂, as energy can't go in an equation",
+          "rationale": "Chemists often write energy into equations to show which way it flows."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Splitting water is endothermic: the net energy flows into the system. Energy flowing in is written with the reactants, before the arrow. Some energy does come out, but writing it on both sides would hide the net direction. The atoms balance either way (4 H and 2 O on each side) because energy adds no atoms.",
+      "misconception": "Energy always goes on the product side of an equation, or it can't appear in an equation at all.",
+      "hint": "In the hand-warmer equation, energy leaving the system was written among the products. Which way does energy flow here?",
+      "followUpId": "L14-Q19",
+      "scope": {
+        "lessonId": "L14",
+        "section": "3. Showing Energy in Chemical Equations",
+        "pages": {
+          "printed": [
+            179
+          ],
+          "pdf": [
+            215
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations",
+          "supports": "When energy flows into the system (endothermic), energy is written on the left side, alongside the reactants."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            164,
+            165
+          ],
+          "pdfPages": [
+            200,
+            201
+          ],
+          "locator": "Lesson 13, Section 1. Atoms Regroup in Chemical Reactions",
+          "supports": "Passing an electric current through water splits it into hydrogen gas and oxygen gas."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.3 Enthalpy",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+          "accessed": "2026-10-14",
+          "supports": "Forming water from hydrogen and oxygen releases heat, and a process that is exothermic in one direction is endothermic in the reverse, so splitting water absorbs energy."
+        }
+      ],
+      "conditions": "The prompt states the net direction: splitting water takes in more energy than it gives out.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Transfers the p. 179 rule to a reaction met in Lesson 13 (pp. 164-165, read in the L13 OCR file). The prompt states the net direction instead of relying on the 'needs continuous energy' rule (L14-RF4). Round 1: the question now asks for the equation that best shows the net transfer, so option c (energy on both sides) is clearly second best rather than arguably correct. Read-aloud options are described in words instead of letter-by-letter formulas. The pedagogy reviewer's hint ended 'This reaction runs the other way'; it was softened to a question so it nudges without stating the direction. L13 p. 164 (PDF 200) electrolysis was re-confirmed by the science reviewer. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 179/215), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. L13 OCR for pp. 164-165 re-read (electric current splits water into hydrogen and oxygen gas); OpenStax 5.3 re-opened (reversing a reaction reverses the sign of its enthalpy change).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks which equation best shows the net energy transfer; choice c rationale concedes some energy comes out"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud options described in words; hint no longer states the rule; prompt tightened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q18",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O3"
+      ],
+      "conceptTags": [
+        "chemical equation",
+        "energy term",
+        "cold pack",
+        "ions",
+        "dissolving"
+      ],
+      "familyId": "L14-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In a cold pack, solid ammonium chloride (NH₄Cl) dissolves in water and separates into charged particles, and the process takes in energy. Which equation shows this best?",
+      "accessiblePrompt": "In a cold pack, solid ammonium chloride, written N H 4 C l, dissolves in water and separates into charged particles, and the process takes in energy. Which equation shows this best? In the options, N H 4 with a plus charge is an ammonium ion, C l with a minus charge is a chloride ion, C l 2 is chlorine gas, and H 2 O is water. The options are: ammonium chloride yields an ammonium ion and a chloride ion, with energy written on the product side; ammonium chloride plus energy yields an ammonium ion and chlorine gas, C l 2; ammonium chloride plus energy yields an ammonium ion and a chloride ion; and ammonium chloride plus energy yields an ammonium ion, a chloride ion and water, H 2 O.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "NH₄Cl + energy → NH₄⁺ + Cl⁻",
+          "rationale": "Correct: energy goes in, so it sits with the reactant, and the solid separates into ammonium ions and chloride ions with every atom accounted for."
+        },
+        {
+          "id": "b",
+          "text": "NH₄Cl → NH₄⁺ + Cl⁻ + energy",
+          "rationale": "This puts energy on the product side, which would mean the pack gives energy out and warms up."
+        },
+        {
+          "id": "c",
+          "text": "NH₄Cl + energy → NH₄⁺ + Cl₂",
+          "rationale": "Cl₂ is chlorine gas, a different substance, and it has two chlorine atoms when the left side has only one."
+        },
+        {
+          "id": "e",
+          "text": "NH₄Cl + energy → NH₄⁺ + Cl⁻ + H₂O",
+          "rationale": "Water appears among the products, but the left side has no oxygen atoms, so this can't balance. The water is where the particles spread out; dissolving doesn't make it."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Ammonium chloride is built from ammonium ions (NH₄⁺) and chloride ions (Cl⁻). Dissolving separates them and spreads them through the water; it doesn't make chlorine gas or make new water. Because the process takes energy in, energy is written on the reactant side. Both sides hold 1 N, 4 H and 1 Cl.",
+      "misconception": "Chloride particles are the same as chlorine gas, or the water a salt dissolves in is made by the dissolving.",
+      "hint": "Check two things: which side energy belongs on, and whether both sides have the same atoms in the same numbers.",
+      "followUpId": "L14-Q20",
+      "scope": {
+        "lessonId": "L14",
+        "section": "2. Endothermic Reactions and 3. Showing Energy in Chemical Equations",
+        "pages": {
+          "printed": [
+            177,
+            179
+          ],
+          "pdf": [
+            213,
+            215
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "Ammonium chloride dissolves in the cold pack's water, its particles separate and mix with the water, and the process absorbs energy."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations",
+          "supports": "Energy that goes into the system is written with the reactants."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 11.1 The Dissolution Process",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+          "accessed": "2026-10-14",
+          "supports": "Ionic compounds dissociate into separate ions when they dissolve in water, and cold packs work because certain salts dissolve endothermically. (The page's examples are potassium dichromate for dissociation and ammonium nitrate for cold packs.)"
+        },
+        {
+          "type": "external",
+          "title": "Ammonium Chloride (CID 25517), Solubility section of the compound record",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/25517/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "Dissolving ammonium chloride in water is described as strongly endothermic."
+        }
+      ],
+      "limitations": "The + and − marks show charged particles (ions). Different courses classify dissolving as a chemical change or a physical change; either way, it takes in energy.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Replaces the textbook's incorrect cold-pack equation (L14-RF1, L14-RF2). The key shows ions without (aq) labels to keep the reading level down; the prompt says they spread through the water. Round 1: the loose-atom distractor (N + H₄ + Cl) passed the old hint's atom check and needed knowledge beyond the lesson, so it was replaced by a water-product version (new id e) that fails a plain atom count (6 H and 1 O on the right, 4 H and no O on the left). The hint now compares whole atom counts. scope.section names Sections 2 and 3 (p. 177 is in Section 2). The science reviewer re-checked p. 179 (Figure 3 prints 2NH₄OH + HCl). Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 177/213, 179/215), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. p. 179 render shows the textbook's NH4OH + HCl equations (2NH4OH in Figure 3); the key avoids them. OpenStax 11.1 and the PubChem solubility record ('Strongly endothermic', Merck Index) re-opened.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope.section names Sections 2 and 3; limitation no longer calls the classification 'debated'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: loose-atom distractor replaced by a water-product version that fails the atom check (new id e); hint, explanation and limitation reworded"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q19",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O3"
+      ],
+      "conceptTags": [
+        "chemical equation",
+        "energy is not matter",
+        "balanced equation"
+      ],
+      "familyId": "L14-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why can chemists add the word energy to a balanced equation without making it unbalanced?",
+      "accessiblePrompt": "Why can chemists add the word energy to a balanced chemical equation without making it unbalanced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Balancing counts atoms, and energy is not made of atoms",
+          "rationale": "Correct: an equation balances when each element has the same atom count on both sides, and energy adds no atoms."
+        },
+        {
+          "id": "b",
+          "text": "Energy counts as one atom, so it is put on both sides",
+          "rationale": "Energy isn't an atom, and it is written on only one side, the side that shows its direction."
+        },
+        {
+          "id": "c",
+          "text": "Energy is written on whichever side has fewer atoms on it",
+          "rationale": "The side is chosen by the direction energy flows, not by atom counts."
+        },
+        {
+          "id": "d",
+          "text": "Energy turns into product atoms as the reaction runs",
+          "rationale": "Energy doesn't become atoms here; the products are made from the reactants' atoms, regrouped."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A balanced equation shows the same number of each kind of atom before and after, because ordinary reactions only regroup atoms. Energy is not made of matter, so writing it in changes no atom count. Its only job is to show which way energy flows.",
+      "misconception": "Energy counts as a particle or substance in an equation's atom bookkeeping.",
+      "hint": "What exactly do you count when you check whether an equation is balanced?",
+      "followUpId": "L14-Q16",
+      "scope": {
+        "lessonId": "L14",
+        "section": "3. Showing Energy in Chemical Equations",
+        "pages": {
+          "printed": [
+            179
+          ],
+          "pdf": [
+            215
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations",
+          "supports": "Energy is not matter the way atoms are, yet chemists write it into equations to show whether a reaction is exothermic or endothermic."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Links to Lesson 13's conservation of atoms; guardrail: reactions conserve atoms. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 179/215), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q20",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O3"
+      ],
+      "conceptTags": [
+        "counting atoms",
+        "energy is not matter",
+        "coefficient",
+        "subscript"
+      ],
+      "familyId": "L14-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "How many atoms are on the product side of the hand-warmer equation 4Fe + 3O₂ → 2Fe₂O₃ + energy?",
+      "accessiblePrompt": "How many atoms are on the product side of the hand-warmer equation, 4 F e plus 3 O 2 yields 2 F e 2 O 3 plus energy? On the product side there is 2 F e 2 O 3, meaning two units of iron oxide, each with 2 iron atoms and 3 oxygen atoms, followed by the word energy.",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "atoms",
+      "workedSolution": "One Fe₂O₃ unit has 2 Fe + 3 O = 5 atoms. The coefficient 2 makes 2 × 5 = 10 atoms (4 Fe and 6 O). The word energy adds no atoms, so the total is 10, matching the 4 Fe + 6 O on the reactant side.",
+      "explanation": "Count only atoms: two units of iron oxide hold 4 iron atoms and 6 oxygen atoms, which is 10. The reactant side also has 10 atoms, so the equation is balanced. If you got 11, you counted the word energy, which isn't made of atoms.",
+      "misconception": "Energy counts as one more particle in an equation's atom count, or the number in front multiplies only part of a formula.",
+      "hint": "Count the atoms in one Fe₂O₃, then use the 2 in front. Which parts of the product side are made of atoms?",
+      "followUpId": "L14-Q16",
+      "scope": {
+        "lessonId": "L14",
+        "section": "3. Showing Energy in Chemical Equations",
+        "pages": {
+          "printed": [
+            179
+          ],
+          "pdf": [
+            215
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations; Figure 3",
+          "supports": "The hand-warmer equation is 4Fe + 3O₂ → 2Fe₂O₃ + energy, and energy, unlike atoms, is not matter."
+        }
+      ],
+      "limitations": "Iron oxide is an extended structure, so 2Fe₂O₃ counts two formula units, not two separate molecules.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Atom count verified by hand: left 4 Fe + 6 O = 10; right 2 × (2 Fe + 3 O) = 10. Review round 2: the prompt no longer says a student counted 11 things, which let learners reach 10 by subtracting 1 and collapsed the item into Q19. It now asks for a plain count (coefficient x subscript, energy excluded); the explanation names the 11 error after answering, and the hint asks which parts are made of atoms. The misconception adds the partial-coefficient slip (reviser's addition). Follow-up changed from Q17 to Q16, whose option c repairs the energy-is-a-substance idea behind 11. Answer 10, tolerance 0, unit atoms and the worked solution unchanged. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 179/215), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. Atom count re-done: 4 Fe + 6 O = 10 on each side.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: '11 things' cue removed from the prompt; hint asks which parts are made of atoms; followUpId -> L14-Q16"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q21",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "design choice",
+        "exothermic",
+        "hand warmer",
+        "reactants used up"
+      ],
+      "familyId": "L14-F10",
+      "category": "application",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A skier wants warm fingers through a long, cold afternoon on the slopes. Which pack fits that need?",
+      "accessiblePrompt": "A skier wants warm fingers through a long, cold afternoon on the slopes. Which pack fits that need?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An iron-powder pack, where iron reacts with oxygen",
+          "rationale": "Correct: the iron reaction is exothermic, so energy flows out of the pack and into her fingers."
+        },
+        {
+          "id": "b",
+          "text": "An ammonium chloride pack, where the salt dissolves in water",
+          "rationale": "This pack is endothermic: it would pull energy out of her fingers and make them colder."
+        },
+        {
+          "id": "c",
+          "text": "Either pack, since every chemical change gives off warmth",
+          "rationale": "Some chemical changes take energy in. The direction of the energy flow is what matters here."
+        },
+        {
+          "id": "f",
+          "text": "A charcoal warmer whose charcoal has all burned",
+          "rationale": "Burning charcoal is exothermic, but once all the charcoal has reacted no more energy is released, so a spent warmer can't warm her fingers all afternoon."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Warming hands needs energy flowing out of the pack and into the fingers, which is an exothermic change. The iron-powder pack does that. The ammonium chloride cold pack runs the other way: its dissolving takes energy in, pulling energy out of her fingers. A warmer whose fuel has all reacted can't release any more energy.",
+      "misconception": "Every chemical change gives off heat, or a pack keeps warming after its reactants are used up.",
+      "hint": "Should energy flow into her fingers or out of them?",
+      "followUpId": "L14-Q06",
+      "scope": {
+        "lessonId": "L14",
+        "section": "1. Exothermic Reactions",
+        "pages": {
+          "printed": [
+            175
+          ],
+          "pdf": [
+            211
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "Skiers and campers use hand warmers whose exothermic reactions release heat to warm their hands; a charcoal warmer stops warming once all its charcoal has reacted, and a new stick must be lit."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "Cold packs absorb energy from their surroundings, making the surroundings feel cold."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief mission: choose a modeled pack for a stated need. Non-medical need chosen deliberately (L14-RF9). Round 1: options a and b now name only the pack and its process, so the learner must link the need to an energy direction; the 'neither pack' option, which matched no real misconception, was replaced by a cold-flows option (new id e). Review round 2: the 'cold pack draws the cold out' option (e) was implausible for warming fingers and repeated option b's pack, so it was replaced by a charcoal warmer whose charcoal has all burned (new id f). This uses the stem's long afternoon and tests the p. 175 point that an exothermic pack stops once its reactants are used up; the p. 175 evidence line now states that point. The cold-flows idea stays covered by Q05 b and Q25 d. No procedure for lighting charcoal appears (L14-RF9). Answer a unchanged. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 175/211), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices no longer state the energy direction; 'neither pack' replaced by a cold-flows misconception (new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: cold-pack-draws-cold distractor e replaced by a spent charcoal warmer (new id f); explanation ends on used-up reactants"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q22",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4",
+        "L14-O3"
+      ],
+      "conceptTags": [
+        "design choice",
+        "endothermic",
+        "cold pack",
+        "energy term",
+        "energy from surroundings"
+      ],
+      "familyId": "L14-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A picnic planner wants a pack that can cool a can of juice. Which features should the pack have? Select all that apply.",
+      "accessiblePrompt": "A picnic planner wants a pack that can cool a can of juice. Which features should the pack have? The options are: it contains iron powder that reacts with oxygen; its process takes in more energy than it gives out; it must be heated before use to start its reaction; and the equation for its process shows energy on the reactant side. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its process takes in more energy than it gives out",
+          "rationale": "Correct: a net energy flow into the pack lets it draw energy out of the can."
+        },
+        {
+          "id": "b",
+          "text": "The equation for its process shows energy on the reactant side",
+          "rationale": "Correct: energy written with the reactants marks an endothermic change, the kind that cools its surroundings."
+        },
+        {
+          "id": "c",
+          "text": "It contains iron powder that reacts with oxygen",
+          "rationale": "Iron reacting with oxygen is the hand-warmer reaction; it gives energy out and would warm the can."
+        },
+        {
+          "id": "e",
+          "text": "It must be heated before use to start its reaction",
+          "rationale": "A cooling pack needs no heater: its endothermic change takes energy from whatever touches it. Heating it first would add energy and warm the juice."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "To cool the juice, energy must flow out of the can and into the pack, so the pack needs an endothermic change. That means it takes in more energy than it gives out, and the equation for its process shows energy on the reactant side. No heater is needed: the pack takes the energy it needs from the can it touches. The iron-powder pack does the opposite.",
+      "misconception": "An endothermic pack has to be heated to work, or any reacting pack makes things colder.",
+      "hint": "For the juice to cool, which way must energy flow between the can and the pack?",
+      "followUpId": "L14-Q05",
+      "scope": {
+        "lessonId": "L14",
+        "section": "2. Endothermic Reactions and 3. Showing Energy in Chemical Equations",
+        "pages": {
+          "printed": [
+            177,
+            179
+          ],
+          "pdf": [
+            213,
+            215
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "Engineers design cold packs around an endothermic process that absorbs energy from the surroundings."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "An endothermic reaction can take in energy from its surroundings without being directly heated."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations",
+          "supports": "Cold packs absorb energy and their equations show energy on the reactant side; hand warmers release energy and show it on the product side."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "Iron-powder hand warmers release heat as iron reacts with oxygen."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two of four correct. Joins the design choice (O4) with equation reading (O3). Round 1: read-aloud options no longer list both keys first; option b refers to the equation for the pack's process (a pack itself has no equation; both reviewers asked for this, the science reviewer's wording was used); scope.section names Sections 2 and 3; follow-up is now Q05 (energy flows from the warmer object into the cold pack). Review round 2: distractor d ('gives off energy that flows into the can') only negated option a, so both wrong choices meant 'it warms things'. It was replaced by 'It must be heated before use to start its reaction' (new id e), which repairs the needs-a-heater idea the p. 176 continuous-energy wording invites (L14-RF4); p. 177 says plainly that a reaction can absorb energy without direct heating, and that record was added. The read-aloud list is ordered c, a, e, b (the reviewer's example c, e, a, b would group both keys at the end). Answer [a, b] and objectives [O4, O3] unchanged. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 177/213, 179/215), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope.section names Sections 2 and 3; option b refers to the equation for the pack's process"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud options no longer key-first; option b reworded; followUpId -> L14-Q05"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'gives off energy into the can' distractor d replaced by 'must be heated before use' (new id e); p. 177 no-heater evidence added"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q23",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "prototype",
+        "data",
+        "temperature"
+      ],
+      "familyId": "L14-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A first hand-warmer prototype peaked at 28 °C, just 3 °C above room temperature. With twice the iron, the next prototype peaked at 41 °C in the same room. How many degrees above room temperature was the new peak?",
+      "accessiblePrompt": "A first hand-warmer prototype peaked at 28 degrees Celsius, just 3 degrees above room temperature. With twice the iron, the next prototype peaked at 41 degrees Celsius in the same room. How many degrees Celsius above room temperature was the new peak?",
+      "answer": 16,
+      "tolerance": 0,
+      "unit": "°C",
+      "workedSolution": "Room temperature = 28 °C − 3 °C = 25 °C. New peak above room temperature = 41 °C − 25 °C = 16 °C.",
+      "explanation": "First find room temperature: 28 °C is 3 °C above it, so the room was 25 °C. The doubled-iron prototype reached 41 °C, which is 16 °C above room temperature. More iron meant more reacting material and a much warmer pack, though still short of the 45 °C goal.",
+      "misconception": "You can compare the new peak with the old peak (13 °C) and call that the rise above room temperature.",
+      "hint": "Work out the room's temperature first.",
+      "followUpId": "L14-Q07",
+      "scope": {
+        "lessonId": "L14",
+        "section": "4. Testing and Improving Hand Warmers",
+        "pages": {
+          "printed": [
+            180
+          ],
+          "pdf": [
+            216
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4, Testing Temperature",
+          "supports": "The first prototype's maximum was 28 °C, three degrees above room temperature, and the prototype with twice as much iron reached 41 °C."
+        }
+      ],
+      "units": "degrees Celsius (°C)",
+      "conditions": "Both tests ran in the same room. Values come from the lesson's written test report.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the written values; the p. 180 photo shows 31 °C for Prototype B (L14-RF6), so the item never refers to the photo. Round 1: follow-up is now Q07, which also reads a temperature change against a stated starting value. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 180/216), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. Written values on p. 180 used (28 °C, three degrees above room temperature; 41 °C); the photo's 31 °C is not referenced.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId -> L14-Q07"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q24",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "prototype",
+        "variables",
+        "reaction rate",
+        "data"
+      ],
+      "familyId": "L14-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Engineers tested four hand-warmer prototypes. Using what more iron does and what a slower oxygen supply does, match each prototype to its test result.",
+      "accessiblePrompt": "Engineers tested four hand-warmer prototypes. Using what more iron does and what a slower oxygen supply does, match each prototype to its test result. The prototypes are: a thin cotton bag with a small amount of iron; a thin cotton bag with twice as much iron; a thick bag that lets oxygen in slowly, holding the same iron as the second; and a thick slow-oxygen bag with even more iron. The results are: about 43 degrees Celsius, lasting about 4 hours; peaked at 41 degrees but cooled to room temperature within an hour; peaked at 28 degrees; and about 40 degrees, lasting about 4 hours.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Thin cotton bag, small amount of iron",
+          "rationale": "Least iron with no slowing: the lowest peak, 28 °C."
+        },
+        {
+          "id": "b",
+          "text": "Thin cotton bag, twice as much iron",
+          "rationale": "More iron gave a hotter peak, but oxygen got in fast, so the iron was used up within an hour."
+        },
+        {
+          "id": "c",
+          "text": "Thick slow-oxygen bag, same iron as the second",
+          "rationale": "Slower oxygen spread the same energy over about 4 hours, at a slightly lower 40 °C."
+        },
+        {
+          "id": "d",
+          "text": "Thick slow-oxygen bag, even more iron",
+          "rationale": "More iron in the slow bag raised the temperature to 43 °C while keeping the 4-hour time."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Peaked at 28 °C"
+        },
+        {
+          "id": "r2",
+          "text": "Peaked at 41 °C but cooled to room temperature within an hour"
+        },
+        {
+          "id": "r3",
+          "text": "About 40 °C, lasting about 4 hours"
+        },
+        {
+          "id": "r4",
+          "text": "About 43 °C, lasting about 4 hours"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4"
+      },
+      "explanation": "More iron means more stored energy to release, so peaks rise as iron is added (28 → 41 °C, and 40 → 43 °C). A bag that lets oxygen in slowly slows the reaction, stretching the warmth to about 4 hours at a slightly lower temperature. The two thick-bag prototypes are the two long-lasting ones.",
+      "misconception": "Slowing the oxygen supply makes a hand warmer hotter as well as longer-lasting.",
+      "hint": "Which feature changed how long the pack stayed warm, and which changed how hot it got?",
+      "followUpId": "L14-Q25",
+      "scope": {
+        "lessonId": "L14",
+        "section": "4. Testing and Improving Hand Warmers",
+        "pages": {
+          "printed": [
+            180,
+            181
+          ],
+          "pdf": [
+            216,
+            217
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4, Testing Temperature",
+          "supports": "Iron in a cotton bag peaked at 28 °C; twice as much iron reached 41 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            181
+          ],
+          "pdfPages": [
+            217
+          ],
+          "locator": "Section 4, Testing Time",
+          "supports": "The 41 °C prototype cooled to room temperature within an hour; a thick bag that lets oxygen in slowly gave 40 °C for 4 hours; more iron gave 43 °C for 4 hours."
+        }
+      ],
+      "conditions": "All tests ran at about the same room temperature (about 25 °C). Values come from the lesson's written report.",
+      "review": {
+        "status": "reviewed",
+        "notes": "One-to-one: duration splits thin from thick bags, then iron amount splits each pair. Written values used (L14-RF6). Review round 2: the hint no longer pairs the two thick-bag prototypes with the two long-lasting results, which gave away the oxygen-supply-to-time half of the item. Nothing else changed. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 180/216, 181/217), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed. Written values on pp. 180-181 re-checked (28, 41, 40 and 43 °C; under 1 h and 4 h).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer pairs the thick-bag prototypes with the long-lasting results"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q25",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "reaction rate",
+        "trade-off",
+        "prototype",
+        "oxygen supply",
+        "temperature vs thermal energy"
+      ],
+      "familyId": "L14-F12",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Switching to a thick bag that lets oxygen in slowly made a hand warmer last about 4 hours, but at only about 40 °C. What best explains the change?",
+      "accessiblePrompt": "Switching to a thick bag that lets oxygen in slowly made a hand warmer last about 4 hours, but at only about 40 degrees Celsius. What best explains the change?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The iron reacted more slowly, spreading its energy over more time",
+          "rationale": "Correct: with oxygen arriving slowly, the same stored energy came out over hours instead of minutes, so the peak was lower."
+        },
+        {
+          "id": "b",
+          "text": "The thick bag changed the reaction from exothermic to endothermic",
+          "rationale": "The pack still stayed well above room temperature, so energy was still flowing out: it is still exothermic."
+        },
+        {
+          "id": "e",
+          "text": "Less energy came out in total, so the pack ran cooler",
+          "rationale": "The pack held the same iron and stayed warm for about 4 hours instead of under 1, so it didn't give out less energy. The same stored energy came out more slowly, which kept the peak lower."
+        },
+        {
+          "id": "d",
+          "text": "The thick bag trapped cold air that canceled some of the heat",
+          "rationale": "Cold isn't something that cancels heat. The lower peak came from energy being released more slowly."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Iron needs oxygen to react. A bag that lets oxygen in slowly slows the reaction, so the same supply of stored energy comes out over hours instead of minutes. A lower peak doesn't mean less energy: temperature tells how hot the pack gets, not how much energy it gives out in total. Releasing energy more slowly gives a lower peak but a longer warm time: a trade-off.",
+      "misconception": "A lower peak temperature means less energy was released in total.",
+      "hint": "What does iron need from the air to react, and what happens if it arrives slowly?",
+      "followUpId": "L14-Q24",
+      "scope": {
+        "lessonId": "L14",
+        "section": "4. Testing and Improving Hand Warmers",
+        "pages": {
+          "printed": [
+            181
+          ],
+          "pdf": [
+            217
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            181
+          ],
+          "pdfPages": [
+            217
+          ],
+          "locator": "Section 4, Testing Time",
+          "supports": "A thick material that does not let oxygen in quickly made the prototype last 4 hours at 40 °C, too cool for the criteria."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "The iron-powder hand warmer heats up because iron reacts with oxygen in the air."
+        }
+      ],
+      "conditions": "The thick-bag prototype held the same amount of iron as the 41 °C prototype.",
+      "review": {
+        "status": "reviewed",
+        "notes": "The 'same iron' condition follows p. 181, where only the bag is changed in this step. Round 1: the created-energy distractor was replaced by 'less energy in total' (new id e), which tests the guardrail that temperature and amount of energy differ; difficulty raised to 3. A limitation now states the full-reaction idealization and the heat-loss effect the science reviewer noted (no key change needed). Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 181/217), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitation states the full-reaction idealization and sets aside slower heat loss through the thick bag"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: created-energy distractor replaced by a lower-peak-means-less-energy misconception (new id e); difficulty 2 -> 3"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Idealized model: the same iron is assumed to react fully in both packs. A thicker bag can also slow heat loss, which this question sets aside."
+    },
+    {
+      "id": "L14-Q26",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "design criteria",
+        "fair test",
+        "iteration",
+        "prototype"
+      ],
+      "familyId": "L14-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A thick-bag hand-warmer prototype stayed at about 40 °C for 4 hours, but the goal was about 45 °C for a long time. Which next step is the best test?",
+      "accessiblePrompt": "A thick-bag hand-warmer prototype stayed at about 40 degrees Celsius for 4 hours, but the goal was about 45 degrees for a long time. Which next step is the best test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add more iron, keep the thick bag, then retest temperature and time",
+          "rationale": "Correct: it targets the missing heat while keeping the feature that gave long warmth, and changes only one thing."
+        },
+        {
+          "id": "b",
+          "text": "Switch back to the thin cotton bag so the pack gets hotter",
+          "rationale": "The thin-bag version got hot but cooled to room temperature within an hour, so it failed the time goal."
+        },
+        {
+          "id": "c",
+          "text": "Add more iron, change the bag, and swap the thermometer all at once",
+          "rationale": "With three changes at once, the team couldn't tell which one caused any new result."
+        },
+        {
+          "id": "d",
+          "text": "Stop testing now, since 40 °C is already close enough to the goal",
+          "rationale": "The criteria call for about 45 °C; a design that misses a criterion needs another round."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The thick bag solved the time problem, so it stays. The pack is too cool, and more iron means more stored energy to release, so adding iron is the sensible single change. Then the team measures both temperature and time again; in the lesson's version this gave about 43 °C for 4 hours.",
+      "misconception": "Improving a design means changing many things at once, or stopping once a result is close enough.",
+      "hint": "Which criterion is already met, and which one still needs work?",
+      "followUpId": "L14-Q28",
+      "scope": {
+        "lessonId": "L14",
+        "section": "4. Testing and Improving Hand Warmers",
+        "pages": {
+          "printed": [
+            181
+          ],
+          "pdf": [
+            217
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            181
+          ],
+          "pdfPages": [
+            217
+          ],
+          "locator": "Section 4, Testing Time",
+          "supports": "The 40 °C, 4-hour prototype did not meet the criteria; adding more iron gave 43 °C for 4 hours, which met them much better."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4, Testing Temperature",
+          "supports": "The engineers' goal was about 45 °C, held for a long time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Fair-test idea from the ETS1.B/ETS1.C box on p. 173 and the p. 181 sequence. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 181/217), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q27",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "prototype",
+        "engineering design",
+        "models"
+      ],
+      "familyId": "L14-F13",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "An engineering team is improving a hand warmer. Using the lesson's meaning of the word, which of these is a prototype?",
+      "accessiblePrompt": "An engineering team is improving a hand warmer. Using the lesson's meaning of the word, which of these is a prototype?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A full-size, working pack the team can start and test",
+          "rationale": "Correct: this is a real, life-size pack that actually works, so the team can measure how it performs."
+        },
+        {
+          "id": "b",
+          "text": "A carefully labeled sketch of the pack drawn on paper",
+          "rationale": "A sketch is a useful model, but it isn't full-size and can't be tested for warmth."
+        },
+        {
+          "id": "c",
+          "text": "The finished packs that are already being sold in stores",
+          "rationale": "These are the final product. A prototype comes earlier, while the design is still being tested and changed."
+        },
+        {
+          "id": "d",
+          "text": "A list of the team's goals for temperature and time",
+          "rationale": "That list is the design criteria, the goals a prototype is tested against."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Engineers build a prototype as a real, life-size pack that actually works, so they can put it through tests. They measure how it performs, compare the results with the criteria, and change it. Sketches and goal lists help too, but they can't warm up and be measured.",
+      "misconception": "Any drawing or plan of a design counts as a prototype.",
+      "hint": "Could you actually measure this item's temperature over time?",
+      "followUpId": "L14-Q26",
+      "scope": {
+        "lessonId": "L14",
+        "section": "4. Testing and Improving Hand Warmers",
+        "pages": {
+          "printed": [
+            180
+          ],
+          "pdf": [
+            216
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4. Testing and Improving Hand Warmers",
+          "supports": "Engineers build and test prototypes, full-size versions of a design that actually work, and improve them using the test results."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            173
+          ],
+          "pdfPages": [
+            209
+          ],
+          "locator": "Vocabulary",
+          "supports": "The vocabulary list describes a prototype as a working, full-size model that engineers test while designing."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Definition item; distractors separate prototype from sketch model, final product and criteria. Round 1: rationale a and the explanation were reworded away from the textbook's prototype definition. Review round 2: both reviewers objected to 'heat up' in the key, which suggested outside heating against the lesson's point that the pack's own reaction makes the warmth. The science reviewer's wording 'can start and test' was used (p. 180 says the engineers start the reaction by opening the container); at 53 characters it ties the sketch option and is shorter than the stores option (56), while the pedagogy reviewer's 'can put through tests' (56) would tie the longest. The prompt now asks for the lesson's meaning of prototype, because real prototypes are not always full-size. The explanation uses the pedagogy reviewer's 'can't warm up and be measured'. Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 180/216), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale a and explanation no longer echo the textbook's prototype definition"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key says the team can start and test the pack (no outside heating); prompt asks for the lesson's meaning of prototype"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key no longer says the team heats the pack; explanation says sketches can't warm up and be measured"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L14-Q28",
+      "lessonId": "L14",
+      "objectiveIds": [
+        "L14-O4"
+      ],
+      "conceptTags": [
+        "engineering design",
+        "iteration",
+        "design criteria",
+        "testing"
+      ],
+      "familyId": "L14-F13",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put one round of the hand-warmer design cycle in order.",
+      "accessiblePrompt": "Put one round of the hand-warmer design cycle in order. The steps are: test it and record the temperature over time; change one feature and test again; decide the criteria, about 45 degrees Celsius for a long time; compare the results with the criteria; build a full-size prototype pack.",
+      "items": [
+        {
+          "id": "i3",
+          "text": "Test it and record the temperature over time",
+          "rationale": "Third: measurements come once there is a prototype to test."
+        },
+        {
+          "id": "i5",
+          "text": "Change one feature and test again",
+          "rationale": "Last in this round: the change starts the next round of testing."
+        },
+        {
+          "id": "i1",
+          "text": "Decide the criteria: about 45 °C for a long time",
+          "rationale": "First: the team needs goals before it can judge any design."
+        },
+        {
+          "id": "i4",
+          "text": "Compare the results with the criteria",
+          "rationale": "Fourth: the data show which goals are met and which are not."
+        },
+        {
+          "id": "i2",
+          "text": "Build a full-size prototype pack",
+          "rationale": "Second: a working version is needed before anything can be measured."
+        }
+      ],
+      "answer": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "ends": [
+        "First step",
+        "Last step"
+      ],
+      "explanation": "Engineers first set criteria, then build a prototype, then test it and record data. Comparing the data with the criteria shows what to fix, and they change one feature before testing again. The loop repeats until the design meets the criteria.",
+      "misconception": "Engineers build and change a design before deciding what it needs to do, or stop after a single test.",
+      "hint": "You can't judge results until you know the goals, and you can't test until something is built.",
+      "followUpId": "L14-Q26",
+      "scope": {
+        "lessonId": "L14",
+        "section": "4. Testing and Improving Hand Warmers",
+        "pages": {
+          "printed": [
+            180,
+            181
+          ],
+          "pdf": [
+            216,
+            217
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4, Testing Temperature",
+          "supports": "The engineers first decide the hand warmer should reach about 45 °C and stay warm, then build a prototype and record its temperature over time."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            181
+          ],
+          "pdfPages": [
+            217
+          ],
+          "locator": "Section 4, Testing Time",
+          "supports": "Each time they test, they collect temperature and time data and modify the prototype until it meets the criteria."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            173
+          ],
+          "pdfPages": [
+            209
+          ],
+          "locator": "Next Generation Science Standards box (ETS1.B, ETS1.C)",
+          "supports": "A solution is tested and then modified based on the results, and repeated testing and modification refines the design."
+        }
+      ],
+      "limitations": "This shows one pass through the loop; real design work repeats it many times.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Items stored out of answer order; display shuffles. One defensible order. Round 1: follow-up is now Q26 (compare results with the criteria and choose the next single change). Final verification (verify-agent): checked against the rendered textbook page(s) (printed/PDF 180/216, 181/217), the cited evidence and the guide's rules; key, distractor rationales, accessibility text and guardrails confirmed; no edits needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId -> L14-Q26"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

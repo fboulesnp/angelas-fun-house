@@ -1,0 +1,1116 @@
+{
+  "lessonId": "L20",
+  "guidingQuestion": "Where do living things find what they need to survive and grow, and what happens when those resources run short?",
+  "hook": "Horses graze freely on Mongolia's windswept grasslands but would be lost on Arctic sea ice, so what decides which living things can make a home in which place?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          262,
+          263
+        ],
+        "pdf": [
+          298,
+          299
+        ]
+      }
+    },
+    {
+      "title": "1. Living Things Need Resources",
+      "pages": {
+        "printed": [
+          264
+        ],
+        "pdf": [
+          300
+        ]
+      }
+    },
+    {
+      "title": "2. Competition for Resources Affects Populations",
+      "pages": {
+        "printed": [
+          265
+        ],
+        "pdf": [
+          301
+        ]
+      }
+    },
+    {
+      "title": "3. Competition for Resources Affects Ecosystems",
+      "pages": {
+        "printed": [
+          266
+        ],
+        "pdf": [
+          302
+        ]
+      }
+    },
+    {
+      "title": "Limited Resources Affect Populations (graph page)",
+      "pages": {
+        "printed": [
+          267
+        ],
+        "pdf": [
+          303
+        ]
+      }
+    },
+    {
+      "title": "4. Biomes are Shaped by Limited Resources",
+      "pages": {
+        "printed": [
+          268,
+          269
+        ],
+        "pdf": [
+          304,
+          305
+        ]
+      }
+    },
+    {
+      "title": "5. Organization of Earth's Biosphere",
+      "pages": {
+        "printed": [
+          270,
+          271
+        ],
+        "pdf": [
+          306,
+          307
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          271
+        ],
+        "pdf": [
+          307
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L20-O1",
+      "text": "Identify the living and nonliving resources an organism needs to survive, grow, and reproduce, and recognize that different species need different mixes of resources.",
+      "kind": "observe",
+      "sections": [
+        "Introduction",
+        "1. Living Things Need Resources"
+      ],
+      "pages": {
+        "printed": [
+          263,
+          264
+        ],
+        "pdf": [
+          299,
+          300
+        ]
+      }
+    },
+    {
+      "id": "L20-O2",
+      "text": "Explain how competition for a limited resource, among members of one species or between different species, changes how many individuals survive, and how using a resource in different ways can reduce competition.",
+      "kind": "relate",
+      "sections": [
+        "2. Competition for Resources Affects Populations",
+        "3. Competition for Resources Affects Ecosystems"
+      ],
+      "pages": {
+        "printed": [
+          265,
+          266
+        ],
+        "pdf": [
+          301,
+          302
+        ]
+      }
+    },
+    {
+      "id": "L20-O3",
+      "text": "Use data about a resource and a population to predict whether the population may grow or shrink, telling a data pattern apart from a cause-and-effect explanation and recognizing that growth always meets limits.",
+      "kind": "apply",
+      "sections": [
+        "2. Competition for Resources Affects Populations",
+        "3. Competition for Resources Affects Ecosystems",
+        "Limited Resources Affect Populations (graph page)"
+      ],
+      "pages": {
+        "printed": [
+          265,
+          266,
+          267
+        ],
+        "pdf": [
+          301,
+          302,
+          303
+        ]
+      }
+    },
+    {
+      "id": "L20-O4",
+      "text": "Predict which kinds of biomes and organisms can exist in a place from its rainfall, temperature, light, and nutrients, both on land and in water.",
+      "kind": "apply",
+      "sections": [
+        "Introduction",
+        "4. Biomes are Shaped by Limited Resources"
+      ],
+      "pages": {
+        "printed": [
+          263,
+          268,
+          269
+        ],
+        "pdf": [
+          299,
+          304,
+          305
+        ]
+      }
+    },
+    {
+      "id": "L20-O5",
+      "text": "Describe how organisms, populations, ecosystems, and the biosphere fit inside one another, and explain how human use of resources affects populations and ecosystems.",
+      "kind": "relate",
+      "sections": [
+        "5. Organization of Earth's Biosphere"
+      ],
+      "pages": {
+        "printed": [
+          270,
+          271
+        ],
+        "pdf": [
+          306,
+          307
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "A resource is any material or energy a living thing needs to stay alive, grow, and reproduce. Some resources are living, like the grass a horse eats, and some are nonliving, like water, oxygen, sunlight, and soil nutrients.",
+    "Each species needs its own mix of resources. A horse has to eat plants for food, while grass builds its own food using sunlight, water, and carbon dioxide and pulls nutrients from the soil.",
+    "When organisms need the same limited resource, they compete. Individuals that get more of it are more likely to survive and reproduce, so competition helps set how many can live in an area.",
+    "Different species can compete for the same resource, which holds down both populations. Using that resource in slightly different ways eases the competition and helps both species share an area.",
+    "More of a needed resource can let a population grow, and less can slow or shrink it. Measured data reveal these patterns, but other resources and conditions matter too, so no population grows forever.",
+    "Patterns of rainfall, temperature, light, and nutrients shape where biomes form, from grasslands and boreal forests on land to lakes, rivers, and coral reefs in water.",
+    "Life is organized in nested levels: organisms form populations, populations plus their nonliving surroundings form ecosystems, and all ecosystems together make up the biosphere, which people change as they use its resources."
+  ],
+  "glossary": [
+    {
+      "term": "resource",
+      "definition": "Any material or form of energy that a living thing needs to stay alive, grow, and reproduce, such as food, water, oxygen, or sunlight.",
+      "pages": {
+        "printed": [
+          263,
+          264
+        ],
+        "pdf": [
+          299,
+          300
+        ]
+      }
+    },
+    {
+      "term": "limited resource",
+      "definition": "A resource that an area holds only so much of, so the organisms that need it may not all get enough.",
+      "pages": {
+        "printed": [
+          265,
+          267
+        ],
+        "pdf": [
+          301,
+          303
+        ]
+      }
+    },
+    {
+      "term": "organism",
+      "definition": "One single living thing, such as one horse, one dandelion, or one grass plant.",
+      "pages": {
+        "printed": [
+          263,
+          264
+        ],
+        "pdf": [
+          299,
+          300
+        ]
+      }
+    },
+    {
+      "term": "species",
+      "definition": "A group of closely related organisms that can mate with one another and produce offspring that can also reproduce.",
+      "pages": {
+        "printed": [
+          263,
+          264
+        ],
+        "pdf": [
+          299,
+          300
+        ]
+      }
+    },
+    {
+      "term": "population",
+      "definition": "All the members of one species that live and reproduce in the same area.",
+      "pages": {
+        "printed": [
+          263,
+          265
+        ],
+        "pdf": [
+          299,
+          301
+        ]
+      }
+    },
+    {
+      "term": "competition",
+      "definition": "An interaction in which living things that need the same limited resource leave less of it for one another.",
+      "pages": {
+        "printed": [
+          263,
+          265,
+          266
+        ],
+        "pdf": [
+          299,
+          301,
+          302
+        ]
+      }
+    },
+    {
+      "term": "ecosystem",
+      "definition": "All the populations living in an area together with the nonliving things around them, such as soil, water, air, and sunlight, that support them.",
+      "pages": {
+        "printed": [
+          263,
+          266,
+          270
+        ],
+        "pdf": [
+          299,
+          302,
+          306
+        ]
+      }
+    },
+    {
+      "term": "biome",
+      "definition": "A large region of Earth, on land or in water, marked by a particular set of physical conditions and the kinds of living things those conditions support.",
+      "pages": {
+        "printed": [
+          263,
+          268,
+          271
+        ],
+        "pdf": [
+          299,
+          304,
+          307
+        ]
+      }
+    },
+    {
+      "term": "terrestrial biome",
+      "definition": "A biome on land, shaped mostly by its range of temperatures and how much rain or snow it gets each year.",
+      "pages": {
+        "printed": [
+          269
+        ],
+        "pdf": [
+          305
+        ]
+      }
+    },
+    {
+      "term": "aquatic biome",
+      "definition": "A biome of fresh water or salt water, where light and nutrients are often the main limits on life.",
+      "pages": {
+        "printed": [
+          269
+        ],
+        "pdf": [
+          305
+        ]
+      }
+    },
+    {
+      "term": "grassland",
+      "definition": "A biome with enough rain for grasses to grow well but usually too little for a forest. Prairies, steppes, pampas, and savannas are kinds of grassland.",
+      "pages": {
+        "printed": [
+          268
+        ],
+        "pdf": [
+          304
+        ]
+      }
+    },
+    {
+      "term": "boreal forest",
+      "definition": "A cold northern biome dominated by cone-bearing trees, most of them evergreen with needle leaves, that get enough water to grow but must survive long, snowy winters.",
+      "pages": {
+        "printed": [
+          269
+        ],
+        "pdf": [
+          305
+        ]
+      }
+    },
+    {
+      "term": "biosphere",
+      "definition": "Every part of Earth where life can exist, from the deep sea and the rock just under the ground up into the air above the tallest mountains: all ecosystems together.",
+      "pages": {
+        "printed": [
+          263,
+          270,
+          271
+        ],
+        "pdf": [
+          299,
+          306,
+          307
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L20-O1",
+      "title": "Every Living Thing Has a Shopping List",
+      "paragraphs": [
+        "A newborn foal gets almost everything it needs from its mother's milk. Its mother gets her own nourishment by grazing. Grass, milk, creek water, the oxygen in each breath: scientists call all of these resources, the materials and energy a living thing needs to survive, grow, and reproduce.",
+        "Some resources are living things, like the plants a horse eats. Others come from the nonliving environment, like water, air, sunlight, and minerals in soil. Every organism gets its resources from its surroundings, which is why where it lives matters so much.",
+        "Different species need different mixes. A horse cannot make its own food, so it eats plants. Grass makes its own food from water and carbon dioxide using energy from sunlight, and it takes in nutrients and minerals from the soil through its roots."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Two meadow neighbors, two shopping lists",
+        "alt": "A table comparing the resources of a wild horse and meadow grass. Food or energy: the horse eats grass and other plants; the grass makes its own food using sunlight. Water: the horse drinks from creeks and ponds; the grass takes up water from the soil through its roots. Gases: the horse breathes in oxygen; the grass takes in carbon dioxide to make food and also uses some oxygen for respiration. Minerals: the horse gets them mostly from the plants it eats; the grass takes nutrients and minerals from the soil.",
+        "columns": [
+          "Need",
+          "Wild horse",
+          "Meadow grass"
+        ],
+        "rows": [
+          [
+            "Food or energy",
+            "Eats grass and other plants",
+            "Makes its own food using sunlight"
+          ],
+          [
+            "Water",
+            "Drinks from creeks and ponds",
+            "Takes up soil water through roots"
+          ],
+          [
+            "Gases from the air",
+            "Breathes in oxygen",
+            "Takes in carbon dioxide; also uses some oxygen"
+          ],
+          [
+            "Minerals",
+            "Mostly from the plants it eats",
+            "Nutrients and minerals from the soil"
+          ]
+        ]
+      },
+      "watchOut": "There is no single recipe for life. Two organisms in the same meadow can share some needs, like water, and differ in others, like whether food is eaten or made. Plants use some oxygen too, because their cells carry out cellular respiration as well as photosynthesis.",
+      "pages": {
+        "printed": [
+          263,
+          264
+        ],
+        "pdf": [
+          299,
+          300
+        ]
+      }
+    },
+    {
+      "objectiveId": "L20-O2",
+      "title": "Competition: Not Enough to Go Around",
+      "paragraphs": [
+        "In everyday talk, competition means a race or a game. In ecology it means something quieter: two or more organisms need the same resource, and there is not enough of it for all of them. Every bite one horse takes is a bite another horse can't have.",
+        "Within one species, competition decides who gets enough. Horses that find and eat more grass are more likely to survive and raise foals, while those that get too little may go hungry or die. That is how the amount of a limited resource helps set how many horses an area can hold.",
+        "Different species compete too. Yaks and wild horses both eat grass, so in a dry year when grass is scarce, both populations are likely to shrink. When grass is plentiful, competition eases and both can grow.",
+        "Competing species often use a shared resource in slightly different ways. Yaks often wrap long grass with their tongues, while horses bite with front teeth in both jaws and can crop grass very short. Differences like these reduce competition, which helps the two species share a meadow."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "web",
+        "caption": "One resource, two grazers (arrows run from a resource to whatever uses it)",
+        "alt": "A small network. An arrow labeled water for growth runs from rainfall to grass. An arrow labeled food runs from grass to wild horses, and another arrow labeled food runs from grass to yaks. Both grazers depend on the same grass, so they compete for it.",
+        "nodes": [
+          {
+            "id": "rain",
+            "label": "Rainfall",
+            "group": "nonliving"
+          },
+          {
+            "id": "grass",
+            "label": "Grass",
+            "group": "producer"
+          },
+          {
+            "id": "horse",
+            "label": "Wild horses",
+            "group": "consumer"
+          },
+          {
+            "id": "yak",
+            "label": "Yaks",
+            "group": "consumer"
+          }
+        ],
+        "edges": [
+          {
+            "from": "rain",
+            "to": "grass",
+            "label": "water for growth"
+          },
+          {
+            "from": "grass",
+            "to": "horse",
+            "label": "food"
+          },
+          {
+            "from": "grass",
+            "to": "yak",
+            "label": "food"
+          }
+        ]
+      },
+      "watchOut": "Easing competition is not the same as ending it. Two species that feed in different ways still share the same meadow, so a drought can still squeeze both populations.",
+      "pages": {
+        "printed": [
+          265,
+          266
+        ],
+        "pdf": [
+          301,
+          302
+        ]
+      }
+    },
+    {
+      "objectiveId": "L20-O3",
+      "title": "Reading Resource and Population Graphs",
+      "paragraphs": [
+        "When a resource a population relies on becomes more plentiful, the population may grow. When it becomes scarcer, the population's growth may slow, or the population may shrink. Scientists collect measurements year after year to see how strong that link is.",
+        "On a graph of rainfall and grass, each dot is one measured year. Grass is often reported in kilograms per hectare: the mass of grass that grew on each hectare of land, not a count of plants. The trend line sums up the dots: wetter years tend to grow more grass.",
+        "A pattern in data is not, by itself, an explanation. The explanation adds what we know about how things work: grass needs water to grow, and zebras eat grass. Data plus explanation let scientists make a prediction, such as more zebras after a run of wet years.",
+        "Predictions have limits. A trend measured between two rainfall amounts may not hold far outside that range, and a growing population eventually runs short of something else, such as water, space, or the food itself. No population grows forever."
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "Model data (Grassland A): rainfall and grass grown",
+        "alt": "A line graph of model data for Grassland A. Annual rainfall in millimeters runs along the bottom and grass grown in kilograms per hectare runs up the side. The points rise steadily: 100 millimeters gives 800 kilograms per hectare, 200 gives 1,700, 300 gives 2,600, 400 gives 3,500, and 500 gives 4,400. Wetter years grow more grass.",
+        "xLabel": "Annual rainfall (mm)",
+        "yLabel": "Grass grown (kg per hectare)",
+        "series": [
+          {
+            "label": "Measured years (model)",
+            "points": [
+              [
+                100,
+                800
+              ],
+              [
+                200,
+                1700
+              ],
+              [
+                300,
+                2600
+              ],
+              [
+                400,
+                3500
+              ],
+              [
+                500,
+                4400
+              ]
+            ]
+          }
+        ]
+      },
+      "watchOut": "A line on a graph sums up the years that were measured; it is not a promise about every future year. Rainfall is not the only thing that matters: disease, predators, other grazers, and space can all change a population too.",
+      "pages": {
+        "printed": [
+          265,
+          266,
+          267
+        ],
+        "pdf": [
+          301,
+          302,
+          303
+        ]
+      }
+    },
+    {
+      "objectiveId": "L20-O4",
+      "title": "Why Biomes Sit Where They Do",
+      "paragraphs": [
+        "Wild horses do well on grassy steppes, and polar bears do well on Arctic ice, but neither would last long in the other's home. Which species can live in a place depends on the resources available there, such as water, light, and nutrients, and on physical conditions such as temperature.",
+        "Grasslands form where there is enough rain for grasses but usually not enough for a forest. Temperate grasslands such as prairies, steppes, and pampas lie at middle latitudes, while savannas are warm tropical grasslands with scattered trees and a long dry season.",
+        "Boreal forests get enough water for trees, but their mostly evergreen, needle-leaved conifers must make it through long, cold, snowy winters. In lakes and rivers, light and nutrients are usually the main limits. Sunlight fades as water gets deeper, so many water plants, like water lilies, spread their leaves at the surface."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Some biomes and what shapes them",
+        "alt": "A table of three biomes. Grassland (prairie, steppe, pampas, savanna): on land; enough rain for grass but usually too little for forest; life includes grasses, wild horses, zebras, and pronghorn. Boreal forest: on land; enough water for trees but long, cold, snowy winters; life includes mostly evergreen conifers such as spruce, fir, and pine. Lake or river: fresh water; light fades with depth and nutrients can run short; life includes reeds and water lilies.",
+        "columns": [
+          "Biome",
+          "Land or water",
+          "What limits life there",
+          "Examples of life"
+        ],
+        "rows": [
+          [
+            "Grassland (prairie, steppe, pampas, savanna)",
+            "Land",
+            "Enough rain for grass, usually too little for forest",
+            "Grasses, wild horses, zebras, pronghorn"
+          ],
+          [
+            "Boreal forest",
+            "Land",
+            "Enough water for trees; long, cold, snowy winters",
+            "Mostly evergreen conifers such as spruce, fir, and pine"
+          ],
+          [
+            "Lake or river",
+            "Fresh water",
+            "Light fades with depth; nutrients",
+            "Reeds, water lilies"
+          ]
+        ]
+      },
+      "watchOut": "Temperature shapes where things live, but it is a condition, not a resource that gets used up the way water or grass does. And grasslands are not only a middle-latitude biome: savannas are tropical.",
+      "pages": {
+        "printed": [
+          263,
+          268,
+          269
+        ],
+        "pdf": [
+          299,
+          304,
+          305
+        ]
+      }
+    },
+    {
+      "objectiveId": "L20-O5",
+      "title": "From One Foal to the Whole Planet",
+      "paragraphs": [
+        "Scientists sort life into levels that fit inside one another. One foal is an organism. The foal, its mother, and all the other wild horses living and breeding in that area make up a population.",
+        "Add the area's other populations, such as its grasses and yaks, plus its nonliving parts like soil, water, and air, and you have an ecosystem. All of Earth's ecosystems together make up the biosphere, which reaches from the deep ocean and the rock just below the ground up into the air above the highest peaks.",
+        "Humans are organisms in ecosystems too, even in cities. When people graze cattle, goats, and sheep on grasslands, plow them into farms, or build neighborhoods on them, less is left for wild species. As those populations decline, the ecosystem changes. People have also captured wild horses and tamed them."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "chain",
+        "caption": "Levels of organization, smallest to largest",
+        "alt": "A chain of four levels, each part of the next. Organism, for example one foal, is part of a population, all the wild horses in one area. The population, together with other populations and nonliving parts such as soil, water, and air, is part of an ecosystem. All ecosystems together make up the biosphere.",
+        "nodes": [
+          {
+            "id": "org",
+            "label": "Organism"
+          },
+          {
+            "id": "pop",
+            "label": "Population"
+          },
+          {
+            "id": "eco",
+            "label": "Ecosystem"
+          },
+          {
+            "id": "bio",
+            "label": "Biosphere"
+          }
+        ],
+        "edges": [
+          {
+            "from": "org",
+            "to": "pop",
+            "label": "many of one species form a"
+          },
+          {
+            "from": "pop",
+            "to": "eco",
+            "label": "with other populations and nonliving parts, form an"
+          },
+          {
+            "from": "eco",
+            "to": "bio",
+            "label": "all together form the"
+          }
+        ]
+      },
+      "watchOut": "This lesson uses four levels. Many biology books add a community level between population and ecosystem: all the populations in an area, without the nonliving parts.",
+      "pages": {
+        "printed": [
+          270,
+          271
+        ],
+        "pdf": [
+          306,
+          307
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L20-RF1",
+      "issue": "The Introduction (p. 263) and Section 4 (pp. 268-269) treat temperature and rainfall as 'limited resources' (for example, a terrestrial biome's temperature range and rainfall are called limited resources). Rainfall supplies water, a true resource, but temperature is a physical condition: organisms are affected by it without using it up.",
+      "pages": {
+        "printed": [
+          263,
+          268,
+          269
+        ],
+        "pdf": [
+          299,
+          304,
+          305
+        ]
+      },
+      "resolution": "Content separates resources (water, light, nutrients, food) from conditions (temperature), for example in the O4 Science Explorer card and its watchOut. No question asks learners to file temperature as a resource: Q02 sorts only true resources, Q20 frames grassland limits in terms of rainfall, and Q21 uses warmth only as a condition.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            268,
+            269
+          ],
+          "pdfPages": [
+            304,
+            305
+          ],
+          "locator": "Section 4. Biomes are Shaped by Limited Resources, Terrestrial Biomes",
+          "supports": "The text calls a biome's temperature range and rainfall amount the limited resources that decide which plants survive."
+        },
+        {
+          "type": "external",
+          "title": "Ecological niche",
+          "publisher": "University of Liège (Reflexions)",
+          "url": "https://www.reflexions.uliege.be/cms/c_343379/en/ecological-niche",
+          "accessed": "2026-10-14",
+          "supports": "A niche has resource dimensions (food, materials, space) and condition dimensions (temperature, precipitation, acidity); temperature is treated as a condition, not a resource."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.2 Biogeography",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-2-biogeography",
+          "accessed": "2026-10-14",
+          "supports": "Temperature, water, light, and inorganic nutrients all limit where organisms live; in lakes and oceans water absorbs sunlight, so light becomes scarce with depth."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF2",
+      "issue": "On the graph page (p. 267, read from the render because OCR lost the axes), the grass graph's vertical axis is labeled 'Annual Grass Population Size (kg/hectare)'. Kilograms per hectare measures the mass of grass grown per area (biomass), not a population count of individual plants.",
+      "pages": {
+        "printed": [
+          267
+        ],
+        "pdf": [
+          303
+        ]
+      },
+      "resolution": "Content calls the measure 'grass grown (kg per hectare)' and explains it as mass per area. Q15 teaches what the unit measures, and the model graphs in Q14 and the O3 card use the clearer label.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations, rainfall and grass graph",
+          "supports": "The grass graph reports grass in kilograms per hectare against annual rainfall in millimeters."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.2 Energy Flow through Ecosystems",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+          "accessed": "2026-10-14",
+          "supports": "Biomass is the total mass of living or previously living organisms in a unit area, reported per area (for example grams per square meter); counting individuals is a different measure."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF3",
+      "issue": "The graph page (p. 267) presents two scatter graphs as cause-and-effect relationships. The graphs themselves show correlations. The zebra caption says zebras increase when more grass is available, but that graph plots rainfall, not grass. The two graphs also cover different rainfall ranges (grass points about 100-550 mm; zebra points about 840-1,540 mm), so they come from different places or data sets and cannot be chained numerically.",
+      "pages": {
+        "printed": [
+          267
+        ],
+        "pdf": [
+          303
+        ]
+      },
+      "resolution": "Questions keep pattern, explanation, prediction, and assumption separate (Q17, Q18) and warn against predicting outside the measured range (Q19, now cited to OpenStax Introductory Statistics 2e 12.5 on extrapolation). Numeric items (Q14, Q16) and the Q17 table use original, clearly labeled model data rather than the textbook's figures, and no question combines numbers across the two textbook graphs. The cause-and-effect explanation is taught as data plus mechanism (grass needs water; zebras eat grass). The model datasets carry different labels (Grassland A on the O3 card, Grassland B in Q14, Grassland C in Q17) so they are not mistaken for one dataset.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations, both graphs and captions",
+          "supports": "The grass graph spans roughly 100-550 mm of annual rainfall, the zebra graph spans roughly 840-1,540 mm, and the zebra caption links zebras to grass availability."
+        },
+        {
+          "type": "external",
+          "title": "Psychology 2e, 2.2 Approaches to Research",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+          "accessed": "2026-10-14",
+          "supports": "Correlational data alone cannot support a cause-and-effect claim; establishing cause needs controlled testing or other evidence beyond the correlation."
+        },
+        {
+          "type": "external",
+          "title": "Introductory Statistics 2e, 12.5 Prediction",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-5-prediction",
+          "accessed": "2026-10-17",
+          "supports": "Predicting inside the range of observed x values is called interpolation and predicting outside it is called extrapolation; the page's worked example shows that a prediction outside the observed range is not reliable."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF4",
+      "issue": "Section 3 (p. 266) says yaks use tongue and gums to pull grass plants out by the roots while horses clip off only the tops. Sources found do not support this contrast: cattle wrap grass with the tongue and pull it against a pad on the upper jaw, staying a few centimeters above the soil (the Oregon State page describes cows); the yak review describes yaks taking tall grass with their long tongues and using lips and incisors on short grass, with no uprooting; horses have incisors in both jaws and can graze down to soil level.",
+      "pages": {
+        "printed": [
+          266
+        ],
+        "pdf": [
+          302
+        ]
+      },
+      "resolution": "The big idea (species that use a shared resource in different ways compete less) is kept. Q09 and the O2 card describe the difference as yaks wrapping long grass with their tongues and horses biting with front teeth in both jaws and cropping very short, and Q09 states its premise outright (each style works best on grass of a different height), because the cited feeding descriptions alone do not guarantee less overlap. No question says yaks uproot grass or horses take only the tops.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Grazers such as yaks and horses eat grass in slightly different ways, which can reduce competition and let them coexist."
+        },
+        {
+          "type": "external",
+          "title": "Regrowth: Animal habits, chewing",
+          "publisher": "Oregon State University, Forage Information System",
+          "url": "https://forages.oregonstate.edu/regrowth/animal-habits/chewing",
+          "accessed": "2026-10-17",
+          "supports": "Cattle wrap plants with the tongue and pull them against a pad on the upper jaw, and cannot easily graze closer than about 2 inches from the soil; horses have upper and lower incisors and can graze a pasture down to soil level."
+        },
+        {
+          "type": "external",
+          "title": "\"The Yak\" - A remarkable animal living in a harsh environment: an overview of its feeding, growth, production performance, and contribution to food security",
+          "publisher": "Frontiers in Veterinary Science (2023)",
+          "url": "https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1086985/full",
+          "accessed": "2026-10-14",
+          "supports": "Yaks use their long tongues to take in tall grass and their lips and incisor teeth on short grass; the review does not describe yaks pulling grass up by the roots."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF5",
+      "issue": "The Figure 4 caption (p. 268) says grasslands are usually found at middle latitudes, yet it lists savannas, which are tropical grasslands. The figure's own world map shows grassland across tropical Africa and South America, and its savanna photo is of East African wildebeest and zebras.",
+      "pages": {
+        "printed": [
+          268
+        ],
+        "pdf": [
+          304
+        ]
+      },
+      "resolution": "Content says temperate grasslands (prairies, steppes, pampas) lie at middle latitudes and savannas are warm tropical grasslands. Q21 asks learners to predict a savanna from warm, near-equator conditions with medium rain and a long dry season, and its explanation and misconception repair the 'grasslands only at middle latitudes' idea. The glossary and O4 card follow the corrected wording.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            268
+          ],
+          "pdfPages": [
+            304
+          ],
+          "locator": "Figure 4, Grassland Biomes from Around the World",
+          "supports": "The caption places grasslands mostly at middle latitudes while naming savannas as a grassland type; the map shows grassland in tropical regions."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.3 Terrestrial Biomes",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+          "accessed": "2026-10-14",
+          "supports": "Terrestrial biomes are distinguished by temperature and precipitation. Savannas are hot, tropical grasslands with scattered trees in Africa, South America, and northern Australia; temperate grasslands include North American prairies and Eurasian steppes. Boreal conifers keep needle-shaped leaves year-round, which warm quickly in spring and conserve nitrogen."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF6",
+      "issue": "Section 1 (p. 264) states that reproduction is possible only within a single species, and the vocabulary box (p. 263) defines a species as breeding successfully only inside its own group. This is too absolute: some different species can mate and produce hybrid offspring, though such hybrids are often infertile.",
+      "pages": {
+        "printed": [
+          263,
+          264
+        ],
+        "pdf": [
+          299,
+          300
+        ]
+      },
+      "resolution": "The glossary defines a species by members producing offspring that can also reproduce. No question claims that offspring between species are impossible. Some species also reproduce without mating: the common dandelion, the textbook's own species example, mostly sets seed from unfertilized egg cells (apomixis), so the interbreeding definition fits sexually reproducing organisms best. Content follows the textbook in treating the common dandelion as one species and never uses dandelions to illustrate mating.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            264
+          ],
+          "pdfPages": [
+            300
+          ],
+          "locator": "Section 1. Living Things Need Resources",
+          "supports": "A species is described as a group of closely related organisms whose members reproduce with one another."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 18.2 Formation of New Species",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species",
+          "accessed": "2026-10-14",
+          "supports": "A species is a group of organisms that interbreed and produce fertile, viable offspring; some different species can produce hybrid offspring, which are often infertile."
+        },
+        {
+          "type": "external",
+          "title": "Taraxacum officinale (Fire Effects Information System species account)",
+          "publisher": "U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station",
+          "url": "https://www.fs.usda.gov/database/feis/plants/forb/taroff/all.html",
+          "accessed": "2026-10-17",
+          "supports": "Common dandelion reproduces mainly from seed, and it does so apomictically: new plants develop from unfertilized egg cells."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF7",
+      "issue": "Section 5 and Figure 5 (p. 270) use four levels (organism, population, ecosystem, biosphere) and skip the community level that many biology references place between population and ecosystem.",
+      "pages": {
+        "printed": [
+          270
+        ],
+        "pdf": [
+          306
+        ]
+      },
+      "resolution": "Questions use only the textbook's four levels, so Q25 has one defensible order and Q26 one defensible matching (its extra choice is biome, not community). The O5 card's watchOut and Q25's limitations note mention the community level.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            270
+          ],
+          "pdfPages": [
+            306
+          ],
+          "locator": "Section 5 and Figure 5, Levels of Organization in Earth's Biosphere",
+          "supports": "The figure shows organism, population, ecosystem, and biosphere as nested levels."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 1.2 Themes and Concepts of Biology",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/1-2-themes-and-concepts-of-biology",
+          "accessed": "2026-10-14",
+          "supports": "Levels of organization include population, community (all populations in an area), ecosystem (living things plus nonliving parts), and biosphere (all ecosystems)."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF8",
+      "issue": "Section 4 (p. 269) explains boreal trees' needle-like leaves only as a way to let snow slide off. Needle leaves have other recognized advantages (they stay on all year, warm quickly in spring, and help conserve scarce nitrogen), so the single reason is an oversimplification. The p. 269 caption also calls boreal trees evergreen, and the first draft of this content repeated that; it is too absolute, because larches are cone-bearing trees that drop their needles each fall and they dominate much of the boreal forest of eastern Siberia.",
+      "pages": {
+        "printed": [
+          269
+        ],
+        "pdf": [
+          305
+        ]
+      },
+      "resolution": "Content says boreal forests are dominated by mostly evergreen, needle-leaved conifers (such as spruce, fir, and pine) that must survive long, snowy winters, without naming snow-shedding as the reason for needles. The word 'mostly' is deliberate: larch, a deciduous conifer, dominates the Larix zone of eastern Siberia, and tamarack, a North American larch, grows across boreal Canada. The glossary, the O4 card and table, and the Q22 rationale use this wording. No question tests why the leaves are needle-shaped.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            269
+          ],
+          "pdfPages": [
+            305
+          ],
+          "locator": "Section 4, Terrestrial Biomes and boreal forest photo caption",
+          "supports": "Boreal forests get enough water for trees, which must survive cold winters with heavy snow."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.3 Terrestrial Biomes",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+          "accessed": "2026-10-14",
+          "supports": "Terrestrial biomes are distinguished by temperature and precipitation. Savannas are hot, tropical grasslands with scattered trees in Africa, South America, and northern Australia; temperate grasslands include North American prairies and Eurasian steppes. Boreal conifers keep needle-shaped leaves year-round, which warm quickly in spring and conserve nitrogen."
+        },
+        {
+          "type": "external",
+          "title": "Factors promoting larch dominance in central Siberia: fire versus growth performance and implications for carbon dynamics at the boundary of evergreen and deciduous conifers (Schulze et al. 2012)",
+          "publisher": "Biogeosciences 9, 1405-1421 (Copernicus Publications, European Geosciences Union)",
+          "url": "https://bg.copernicus.org/articles/9/1405/2012/",
+          "accessed": "2026-10-17",
+          "supports": "Siberian boreal forest has a boundary between evergreen conifers (spruce and fir in the dark taiga of central Siberia) and deciduous conifers: larch (Larix) dominates the Larix zone of eastern Siberia."
+        },
+        {
+          "type": "external",
+          "title": "Larix laricina (Fire Effects Information System species account)",
+          "publisher": "U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station",
+          "url": "https://www.fs.usda.gov/database/feis/plants/tree/larlar/all.html",
+          "accessed": "2026-10-17",
+          "supports": "Tamarack, a North American larch that grows with balsam fir across much of boreal Canada, is a deciduous conifer whose needles turn yellow in fall and are shed."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF9",
+      "issue": "OCR condition: p. 262 (opener photo) has no text; the p. 263 title and NGSS box are garbled; on p. 267 the graph axes, data points, and labels are missing or garbled; the Figure 4 map legend and photo labels on p. 268 and the Figure 5 level labels on p. 270 are incomplete.",
+      "pages": {
+        "printed": [
+          262,
+          263,
+          267,
+          268,
+          270
+        ],
+        "pdf": [
+          298,
+          299,
+          303,
+          304,
+          306
+        ]
+      },
+      "resolution": "Every page (262-271) was rendered and read from the image; figures were also read at 250 dpi. Facts used from these pages (graph units and ranges, biome legend, level labels) come from the renders, not the OCR.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267,
+            268,
+            270
+          ],
+          "pdfPages": [
+            303,
+            304,
+            306
+          ],
+          "locator": "Graph page, Figure 4 and Figure 5 (rendered)",
+          "supports": "The rendered pages show the graph axes and units, the biome map legend, and the four labeled levels of organization."
+        }
+      ]
+    },
+    {
+      "id": "L20-RF10",
+      "issue": "The Introduction (p. 263) calls the horses in the opener photo (p. 262) wild horses that survive far from humans, but that photo shows a rider among the herd, and the p. 271 photo shows a herder riding among horses, captioned as using and caring for horses that came from wild populations. Mongolia's wild-type horse, Przewalski's horse (takhi), was last seen in the wild in the 1960s and today lives only at reintroduction sites. The textbook uses 'wild horses' loosely for free-ranging, herded horses, so a claim that wild horses thrive in Mongolia (the first-draft hook) is unsupported.",
+      "pages": {
+        "printed": [
+          262,
+          263,
+          271
+        ],
+        "pdf": [
+          298,
+          299,
+          307
+        ]
+      },
+      "resolution": "The hook now says horses graze freely on Mongolia's grasslands instead of saying wild horses thrive there. Content uses the textbook's 'wild horses' only as model grazers in examples about resources and competition, and makes no claim about wild-horse numbers or conservation status. No IUCN category is stated, because any status would be a dated figure.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            262,
+            263
+          ],
+          "pdfPages": [
+            298,
+            299
+          ],
+          "locator": "Lesson opener photo and Introduction",
+          "supports": "The Introduction describes the photographed horses as wild horses living on the Mongolian steppe; the opener photo shows a rider among the herd."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            271
+          ],
+          "pdfPages": [
+            307
+          ],
+          "locator": "Section 5. Organization of Earth's Biosphere, herder photo and caption",
+          "supports": "A photo of a herder riding among horses is captioned as people using and caring for horses that came from wild populations; the text says humans captured and domesticated wild horses."
+        },
+        {
+          "type": "external",
+          "title": "Przewalski's horse",
+          "publisher": "Smithsonian's National Zoo and Conservation Biology Institute",
+          "url": "https://nationalzoo.si.edu/animals/przewalskis-horse",
+          "accessed": "2026-10-17",
+          "supports": "Przewalski's horses were last seen in the wild in the 1960s in the Gobi Desert and became extinct in the wild; today they are found only at reintroduction sites in Mongolia, China, and Kazakhstan."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3862 @@
+{
+  "lessonId": "L02",
+  "questions": [
+    {
+      "id": "L02-Q01",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1"
+      ],
+      "conceptTags": [
+        "chemical formula",
+        "subscript",
+        "water",
+        "atom count"
+      ],
+      "familyId": "L02-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Water's formula is H₂O. What does this formula tell you about one water molecule?",
+      "accessiblePrompt": "Water's formula is H₂O, written as a capital H, a small 2, then a capital O. What does this formula tell you about one molecule of water?",
+      "explanation": "A formula is a parts list for one molecule. Each symbol names a kind of atom, and the small number written after a symbol says how many of those atoms there are; no number means one. So H₂O means every water molecule contains two hydrogen atoms and one oxygen atom. The formula counts the atoms; it does not show how they are connected.",
+      "misconception": "The small number in a formula counts whole molecules, or belongs to the symbol after it.",
+      "hint": "Which symbol is the small 2 written right after?",
+      "followUpId": "L02-Q04",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds; 2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            22,
+            24
+          ],
+          "pdf": [
+            58,
+            60
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Composition, Figure 2A)",
+          "supports": "Water is written H₂O to show two hydrogen atoms and one oxygen atom in one molecule."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            22
+          ],
+          "pdfPages": [
+            58
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds, Figure 1",
+          "supports": "Each water molecule is two hydrogen atoms and one oxygen atom held together by chemical bonds."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.4 Chemical Formulas",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+          "accessed": "2026-10-14",
+          "supports": "Subscripts give the number of atoms of each element and are used only when more than one atom is present; a number in front of a formula, as in 2H₂, counts molecules."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "It has one hydrogen atom and two oxygen atoms.",
+          "rationale": "This attaches the 2 to the wrong symbol. A small number counts the atoms of the element written just before it, so the 2 belongs to hydrogen."
+        },
+        {
+          "id": "b",
+          "text": "It has two hydrogen atoms and one oxygen atom.",
+          "rationale": "Correct. The small 2 after H counts hydrogen atoms, and O has no number, which means one oxygen atom."
+        },
+        {
+          "id": "c",
+          "text": "It is two water molecules stuck together.",
+          "rationale": "The small 2 counts hydrogen atoms inside one molecule; it doesn't count molecules. A number written in front of the whole formula, as in 2H₂O, would mean two molecules."
+        },
+        {
+          "id": "d",
+          "text": "It is hydrogen gas and oxygen gas mixed together.",
+          "rationale": "In water, hydrogen and oxygen atoms are joined by chemical bonds into one new particle with its own properties. It is not a mixture of the two gases."
+        }
+      ],
+      "answer": "b",
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (section 7, entry 2), polished. Pages rendered and checked: printed 22, 24 (subscripts read from the p. 24 render; OCR shows “H^O”). The distractor rationale about a number in front of a whole formula (2H₂O) is supported by OpenStax §2.4, not the textbook. Round 1 revision (2026-10-14): explanation's last sentence replaced so it no longer describes bonding, which a formula does not show (pedagogy review). Verify-agent (2026-10-14): Checked against the p. 22 (Figure 1) and p. 24 renders (the H₂O label; OCR reads \"H^O\"). Key b is the only defensible reading; this is the brief's seed question. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer says how the atoms are bonded (that is Q07's point)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q02",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1"
+      ],
+      "conceptTags": [
+        "chemical formula",
+        "model building",
+        "sucrose",
+        "atom count"
+      ],
+      "familyId": "L02-F01",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A model kit uses red spheres for oxygen atoms. You want to build 3 separate molecules of table sugar, sucrose, C₁₂H₂₂O₁₁. How many red spheres do you need?",
+      "accessiblePrompt": "A model kit uses red spheres for oxygen atoms. You want to build 3 separate molecules of table sugar, sucrose, C₁₂H₂₂O₁₁: each molecule has twelve carbon atoms, twenty-two hydrogen atoms and eleven oxygen atoms. How many red spheres do you need?",
+      "explanation": "A formula describes one molecule, so to build several you multiply. Each sucrose molecule has 11 oxygen atoms, so three molecules need 3 × 11 = 33. A model of a molecule must have exactly the atoms its formula lists, no more and no fewer.",
+      "misconception": "The small number is the total for any amount (11), the numbers are added (3 + 11 = 14), or the wrong subscript is read (12 or 22).",
+      "hint": "Find the small number that belongs to O. Then think about three molecules.",
+      "followUpId": "L02-Q09",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds; 2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            23,
+            25
+          ],
+          "pdf": [
+            59,
+            61
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Structure)",
+          "supports": "Each sucrose molecule has 12 carbon, 22 hydrogen and 11 oxygen atoms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            23
+          ],
+          "pdfPages": [
+            59
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds (models)",
+          "supports": "Models show each atom as a sphere; oxygen is often shown as a red sphere."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucrose's molecular formula is C12H22O11."
+        }
+      ],
+      "answer": 33,
+      "tolerance": 0,
+      "unit": "oxygen atoms",
+      "units": "oxygen atoms (red spheres)",
+      "workedSolution": "Each C₁₂H₂₂O₁₁ molecule has 11 oxygen atoms (the small 11 after O). Three molecules need 3 × 11 = 33 oxygen atoms, so 33 red spheres.",
+      "conditions": "Each molecule is built separately, with one sphere for every atom.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 23, 24 (earlier version), 25 (this version). Tolerance 0 because the answer is a whole-number count. Round 1 revision (2026-10-14): rewritten from 5 × H₂O₂ to 3 × sucrose (pedagogy review: same ×2 step as Q19, hydrogen peroxide over-used, 'balls' breaks game neutrality). Sucrose's 12 C, 22 H, 11 O re-read on the p. 25 render. The science pass above was given to the earlier hydrogen-peroxide version, so this text still needs verification. Verify-agent (2026-10-14): Checked the rewritten sucrose version against the p. 25 render (12 C, 22 H, 11 O) and p. 23 (red spheres for oxygen): 3 × 11 = 33, tolerance 0 is right for a whole-number count. This closes the earlier note that the science pass covered the hydrogen-peroxide version. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as 3 sucrose molecules (33 oxygen atoms) so it no longer repeats Q19's double-it step; 'spheres' replaces 'balls'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q03",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1"
+      ],
+      "conceptTags": [
+        "chemical formula",
+        "atom count",
+        "molecule size"
+      ],
+      "familyId": "L02-F01",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Use each formula to count the atoms in one molecule. Put the molecules in order from fewest atoms to most.",
+      "accessiblePrompt": "Use each formula to count the atoms in one molecule, then put the molecules in order from fewest atoms to most. Butane, C₄H₁₀, has 4 carbon and 10 hydrogen atoms. Water, H₂O, has 2 hydrogen and 1 oxygen. Sucrose, C₁₂H₂₂O₁₁, has 12 carbon, 22 hydrogen and 11 oxygen. Oxygen gas, O₂, has 2 oxygen atoms. Hydrogen peroxide, H₂O₂, has 2 hydrogen and 2 oxygen.",
+      "explanation": "Add the small numbers, counting 1 for any symbol without one. O₂ has 2 atoms, H₂O has 3, H₂O₂ has 4, C₄H₁₀ has 14, and C₁₂H₂₂O₁₁ has 45. Molecules range from just two atoms to thousands or more, so even table sugar is a fairly small one.",
+      "misconception": "You can rank molecules by counting the symbols in their formulas instead of adding up the atoms.",
+      "hint": "Add up all the small numbers in each formula, and count 1 for any symbol that has no number.",
+      "followUpId": "L02-Q04",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            24,
+            25,
+            28
+          ],
+          "pdf": [
+            60,
+            61,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Figure 2A)",
+          "supports": "Water is H₂O and hydrogen peroxide is H₂O₂; some molecules are small and some have thousands of atoms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Figure 2B; Structure)",
+          "supports": "Butane is C₄H₁₀; sucrose has 12 carbon, 22 hydrogen and 11 oxygen atoms."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Oxygen gas is a molecule of two oxygen atoms."
+        }
+      ],
+      "items": [
+        {
+          "id": "butane",
+          "text": "Butane, C₄H₁₀",
+          "rationale": "4 + 10 = 14 atoms."
+        },
+        {
+          "id": "water",
+          "text": "Water, H₂O",
+          "rationale": "2 + 1 = 3 atoms."
+        },
+        {
+          "id": "sucrose",
+          "text": "Sucrose, C₁₂H₂₂O₁₁",
+          "rationale": "12 + 22 + 11 = 45 atoms, the most here."
+        },
+        {
+          "id": "oxygen",
+          "text": "Oxygen gas, O₂",
+          "rationale": "2 atoms of one element, the fewest here."
+        },
+        {
+          "id": "peroxide",
+          "text": "Hydrogen peroxide, H₂O₂",
+          "rationale": "2 + 2 = 4 atoms."
+        }
+      ],
+      "answer": [
+        "oxygen",
+        "water",
+        "peroxide",
+        "butane",
+        "sucrose"
+      ],
+      "ends": [
+        "Fewest atoms",
+        "Most atoms"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 24, 25, 28 (subscripts read from renders). Totals: 2, 3, 4, 14, 45; one defensible order. Items are not listed in answer order. Round 1 revision (2026-10-14): last explanation sentence now says 'thousands or more' (science review: some molecules, such as DNA, are far larger). The p. 21 NGSS box gives two to thousands of atoms as the usual range. Verify-agent (2026-10-14): Checked against the p. 24, p. 25 (C₄H₁₀ figure label) and p. 28 renders: totals 2, 3, 4, 14 and 45 give exactly one order. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer caps molecule size at 'many thousands' of atoms"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q04",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1"
+      ],
+      "conceptTags": [
+        "ball-and-stick model",
+        "chemical formula",
+        "hydrogen peroxide"
+      ],
+      "familyId": "L02-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Read this ball-and-stick model of one molecule. Which formula matches it?",
+      "accessiblePrompt": "A ball-and-stick model of one molecule shows two oxygen atoms bonded to each other in the middle, with one hydrogen atom bonded to the outer side of each oxygen. Which formula matches this model?",
+      "explanation": "To turn a model into a formula, count each kind of atom: here 2 hydrogen and 2 oxygen, so H₂O₂. That is hydrogen peroxide, which differs from water by one oxygen atom.",
+      "misconception": "A formula only needs to list which elements are present, not how many atoms of each.",
+      "hint": "Count the hydrogen atoms. Then count the oxygen atoms.",
+      "followUpId": "L02-Q01",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            24
+          ],
+          "pdf": [
+            60
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2, Figure 2A (Molecules with Different Compositions)",
+          "supports": "The hydrogen peroxide model shows two oxygen atoms bonded together, each with one hydrogen atom; it is written H₂O₂."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            23
+          ],
+          "pdfPages": [
+            59
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds (models)",
+          "supports": "In ball-and-stick models, spheres stand for atoms and sticks stand for bonds."
+        }
+      ],
+      "diagram": {
+        "kind": "molecule",
+        "caption": "Ball-and-stick model of one molecule (each atom labeled with its symbol)",
+        "alt": "A ball-and-stick model of one molecule with four atoms. Two oxygen atoms (O) are bonded to each other in the middle. One hydrogen atom (H) is bonded to the first oxygen, and a second hydrogen atom is bonded to the other oxygen. In all: 2 hydrogen atoms and 2 oxygen atoms.",
+        "atoms": [
+          {
+            "id": "h1",
+            "element": "H",
+            "x": 1.5,
+            "y": 3.5
+          },
+          {
+            "id": "o1",
+            "element": "O",
+            "x": 3.8,
+            "y": 5
+          },
+          {
+            "id": "o2",
+            "element": "O",
+            "x": 6.2,
+            "y": 5
+          },
+          {
+            "id": "h2",
+            "element": "H",
+            "x": 8.5,
+            "y": 6.5
+          }
+        ],
+        "bonds": [
+          {
+            "a": "h1",
+            "b": "o1"
+          },
+          {
+            "a": "o1",
+            "b": "o2"
+          },
+          {
+            "a": "o2",
+            "b": "h2"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "H₂O",
+          "rationale": "This counts only one oxygen atom. The model has two oxygen atoms bonded together, which makes it a different molecule from water."
+        },
+        {
+          "id": "b",
+          "text": "HO",
+          "rationale": "A formula names each element once and counts all of its atoms. This model has two of each, so both symbols need a small 2."
+        },
+        {
+          "id": "c",
+          "text": "H₂O₂",
+          "rationale": "Correct. Two hydrogen atoms and two oxygen atoms make H₂O₂, hydrogen peroxide."
+        },
+        {
+          "id": "d",
+          "text": "O₂",
+          "rationale": "This counts the oxygen atoms but leaves out the two hydrogen atoms. Every atom in the model must appear in the formula."
+        }
+      ],
+      "answer": "c",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 23, 24 (the Figure 2A model was viewed). The diagram labels every atom with its symbol, so no color key is needed. Round 1 completion check (2026-10-14): the p. 23 evidence record now says “spheres” instead of “balls”, matching the game-neutrality fix in Q02 and Q05; no learner-facing text changed. Verify-agent (2026-10-14): The p. 24 Figure 2A hydrogen peroxide model (H–O–O–H) matches the diagram and its alt text; key c is unique and the diagram labels every atom. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q05",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1"
+      ],
+      "conceptTags": [
+        "ball-and-stick model",
+        "model limitations",
+        "color convention"
+      ],
+      "familyId": "L02-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Molecules are far too small to see, so scientists build ball-and-stick models. Which things can a ball-and-stick model of a molecule show you? Select all that apply.",
+      "accessiblePrompt": "Molecules are far too small to see, so scientists build ball-and-stick models. Which things can a ball-and-stick model of a molecule show you? Select all that apply.",
+      "explanation": "A ball-and-stick model is a tool for showing selected features: which atoms are present, how many of each, and how they connect in three dimensions. It is not a photograph. Sphere colors are a shared labeling habit, and the model is enormously enlarged.",
+      "misconception": "A model is a realistic picture, so its spheres show the atoms' true colors and the model shows the molecule's true size.",
+      "hint": "Think about what the spheres, the sticks and the color key each tell you. Then ask which features had to be changed so the model could be held in your hand.",
+      "followUpId": "L02-Q13",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds",
+        "pages": {
+          "printed": [
+            23
+          ],
+          "pdf": [
+            59
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            23
+          ],
+          "pdfPages": [
+            59
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds (models)",
+          "supports": "Models show atoms as spheres and bonds as sticks, with a different color for each element (hydrogen white or gray, oxygen red, carbon black), so scientists can see a molecule's shape and elements."
+        },
+        {
+          "type": "external",
+          "title": "Atom Colours",
+          "publisher": "Imperial College London, Department of Chemistry (H. S. Rzepa)",
+          "url": "https://www.ch.ic.ac.uk/rzepa/mim/domestic/html/atomcols.htm",
+          "accessed": "2026-10-14",
+          "supports": "Atom colors in molecular images follow a convention (hydrogen white, carbon grey, oxygen red, nitrogen blue); carbon's grey here differs from the textbook's black, showing the colors are assigned labels."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Which atoms are bonded to which",
+          "rationale": "Shown. Each stick joins two spheres, so you can trace exactly which atoms are connected."
+        },
+        {
+          "id": "b",
+          "text": "The real color of each kind of atom",
+          "rationale": "Not shown. Atoms don't come in these colors; people chose the colors as labels, and different kits even use different shades."
+        },
+        {
+          "id": "c",
+          "text": "How many atoms of each element there are",
+          "rationale": "Shown. Every atom gets its own sphere, so counting the spheres of each color gives the atom counts."
+        },
+        {
+          "id": "d",
+          "text": "Which element each sphere stands for, once you know the color key",
+          "rationale": "Shown. Model makers give each element its own color, commonly white for hydrogen and red for oxygen, so the key tells you which sphere is which."
+        },
+        {
+          "id": "e",
+          "text": "The molecule's actual size",
+          "rationale": "Not shown. A real molecule is far too small to see, so the model is blown up to a size you can hold. It shows arrangement, not true size."
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "limitations": "Real atoms are not hard spheres and real bonds are not sticks; the model shows selected features only.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 23. See L02-RF7 on the color convention. All-or-nothing scoring: 3 correct of 5. Round 1 revision (2026-10-14): standalone 'ball(s)' replaced with 'sphere(s)' (pedagogy review, game neutrality). Hint rewritten for the science reviewer's optional point that 'did the model maker choose it' could steer a careful reader away from d. The reviewer's suggested wording ('something the model changes, like color or size') was not used because it names distractors b and e outright; the new hint points at what each part of the model tells you instead. Verify-agent (2026-10-14): Checked against the p. 23 render: a, c and d are shown, b and e are not. The color convention follows L02-RF7. Key d is the longest choice but is one of three keys, so length gives no reliable cue. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: standalone 'ball(s)' changed to 'sphere(s)'; the term 'ball-and-stick model' kept"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q06",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1"
+      ],
+      "conceptTags": [
+        "molecule",
+        "element",
+        "chemical bond"
+      ],
+      "familyId": "L02-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each particle: is it a single atom, a molecule made of one element, or a molecule made of two or more elements?",
+      "accessiblePrompt": "Sort each particle into one of three groups: a single atom on its own; a molecule made of only one element; or a molecule made of two or more elements. The particles are: water, H₂O: two hydrogen atoms and one oxygen atom; one oxygen atom on its own; butane, C₄H₁₀, with four carbon and ten hydrogen atoms; hydrogen gas, H₂, two hydrogen atoms bonded together; oxygen gas, O₂, two oxygen atoms bonded together; and cholesterol, with 27 carbon, 46 hydrogen and 1 oxygen atom.",
+      "explanation": "A molecule is two or more atoms held together by chemical bonds. The atoms can all be the same element, as in oxygen gas (O₂) or hydrogen gas (H₂), or different elements, as in water (H₂O). A single atom with no bonds is not a molecule.",
+      "misconception": "A molecule must contain at least two different elements.",
+      "hint": "First ask whether there are bonded atoms at all. Then count how many different symbols the formula uses.",
+      "followUpId": "L02-Q15",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            22,
+            28
+          ],
+          "pdf": [
+            58,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            22
+          ],
+          "pdfPages": [
+            58
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds",
+          "supports": "A molecule is made of two or more atoms connected by chemical bonds; water has two hydrogen atoms and one oxygen atom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Oxygen gas is a molecule of two oxygen atoms bonded together; butane has 4 carbon and 10 hydrogen atoms; cholesterol has 27 carbon, 46 hydrogen and 1 oxygen atom."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.4 Chemical Formulas",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+          "accessed": "2026-10-14",
+          "supports": "H₂ is a molecule of diatomic hydrogen: the expression 2H₂ represents two molecules of diatomic hydrogen."
+        }
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "text": "Water, H₂O",
+          "rationale": "Two elements, hydrogen and oxygen, bonded into one molecule."
+        },
+        {
+          "id": "i2",
+          "text": "One oxygen atom on its own",
+          "rationale": "A lone atom has no chemical bonds to other atoms, so it is not a molecule; a molecule needs at least two bonded atoms."
+        },
+        {
+          "id": "i3",
+          "text": "Butane, C₄H₁₀",
+          "rationale": "Carbon and hydrogen bonded together: two elements."
+        },
+        {
+          "id": "i4",
+          "text": "Hydrogen gas, H₂",
+          "rationale": "Two hydrogen atoms bonded together: a molecule of a single element."
+        },
+        {
+          "id": "i6",
+          "text": "Oxygen gas, O₂",
+          "rationale": "Two oxygen atoms joined by a chemical bond make a molecule, even though only one element is involved."
+        },
+        {
+          "id": "i7",
+          "text": "Cholesterol (27 carbon, 46 hydrogen, 1 oxygen atom)",
+          "rationale": "Three elements in one large molecule of 74 atoms."
+        }
+      ],
+      "bins": [
+        {
+          "id": "atom",
+          "label": "A single atom (not a molecule)"
+        },
+        {
+          "id": "one",
+          "label": "Molecule of one element"
+        },
+        {
+          "id": "many",
+          "label": "Molecule of two or more elements"
+        }
+      ],
+      "answer": {
+        "i1": "many",
+        "i2": "atom",
+        "i3": "many",
+        "i4": "one",
+        "i6": "one",
+        "i7": "many"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 22, 24, 28. Hydrogen gas (H₂) is not in the textbook, so it carries OpenStax evidence. Brief: a molecule can contain one element. Round 1 revision (2026-10-14): item i5 (hydrogen peroxide) and its answer deleted, so bins hold 1 / 2 / 3 items; the p. 24 evidence record and scope page went with it. Water is spelled out in the accessiblePrompt. Verify-agent (2026-10-14): Checked against the p. 22 and p. 28 renders; H₂ rests on OpenStax §2.4, not the textbook, as recorded. Each item has exactly one defensible bin. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: redundant hydrogen peroxide item i5 removed; water's formula spelled out in read-aloud"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q07",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1",
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "chemical bond",
+        "water",
+        "structure",
+        "chemical formula"
+      ],
+      "familyId": "L02-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The formula H₂O tells you a water molecule has two hydrogen atoms and one oxygen atom. How are those three atoms joined?",
+      "accessiblePrompt": "The formula H₂O tells you a water molecule has two hydrogen atoms and one oxygen atom. How are those three atoms joined to each other?",
+      "explanation": "A formula like H₂O is a parts list: it counts the atoms but does not say how they connect. In a water molecule the oxygen atom sits in the middle, bonded to both hydrogen atoms, which gives the molecule a bent shape. To learn the connections, you need a model or a structural drawing.",
+      "misconception": "A formula shows the order in which atoms are connected, so H₂O means hydrogen, then hydrogen, then oxygen in a row.",
+      "hint": "The order of letters in a formula is not a map of the bonds. Think back to the water model in the lesson.",
+      "followUpId": "L02-Q10",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds",
+        "pages": {
+          "printed": [
+            22
+          ],
+          "pdf": [
+            58
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            22
+          ],
+          "pdfPages": [
+            58
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds, Figure 1",
+          "supports": "A chemical bond holds each hydrogen atom to the oxygen atom in a water molecule."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.4 Chemical Formulas",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+          "accessed": "2026-10-14",
+          "supports": "A molecular formula gives the number of each kind of atom; a structural formula also shows how the atoms connect, with lines for the bonds."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "The two hydrogens are bonded to each other, and one bonds to the oxygen.",
+          "rationale": "This follows the order the letters are written in. A formula lists atom counts, not the order of connections; in water, both hydrogens bond to the oxygen."
+        },
+        {
+          "id": "b",
+          "text": "All three atoms link to one another in a closed triangle.",
+          "rationale": "Water has only two bonds, each from a hydrogen to the oxygen. The hydrogens are not bonded to each other, so there is no closed loop."
+        },
+        {
+          "id": "c",
+          "text": "The three atoms sit next to each other with no bonds at all.",
+          "rationale": "Without chemical bonds there would be no molecule, just three separate atoms. Bonds are what hold a molecule together."
+        },
+        {
+          "id": "d",
+          "text": "Both hydrogen atoms bond to the oxygen atom, not to each other.",
+          "rationale": "Correct. Water's two bonds both run to the oxygen atom in the middle, like two arms."
+        }
+      ],
+      "answer": "d",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 22 (Figure 1 shows both bonds to oxygen). Choice lengths balanced. Round 1 revision (2026-10-14): hint replaced; the old one ('Which atom sits in the middle?') gave the answer. Verify-agent (2026-10-14): The p. 22 Figure 1 render shows both bonds running to the oxygen atom; key d is unique. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives away the central oxygen atom"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q08",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "composition",
+        "water",
+        "hydrogen peroxide",
+        "substance identity"
+      ],
+      "familyId": "L02-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Water (H₂O) and hydrogen peroxide (H₂O₂) are both made only of hydrogen and oxygen, yet they are very different substances. Why?",
+      "accessiblePrompt": "Water, H₂O, has two hydrogen atoms and one oxygen atom per molecule. Hydrogen peroxide, H₂O₂, has two hydrogen atoms and two oxygen atoms per molecule. Both are made only of hydrogen and oxygen, yet they are very different substances. Why?",
+      "explanation": "Composition means both which elements and how many atoms of each. Water has 2 hydrogen and 1 oxygen per molecule; hydrogen peroxide has 2 and 2. That one extra bonded oxygen atom makes a different substance with different properties: people drink and wash in water, but hydrogen peroxide is used as a disinfectant and never as a drink.",
+      "misconception": "Adding an atom to a molecule just gives a mixture of the old substance plus that element.",
+      "hint": "Compare the small numbers after O in the two formulas.",
+      "followUpId": "L02-Q01",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            24
+          ],
+          "pdf": [
+            60
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Composition, Figure 2A)",
+          "supports": "Water has two hydrogen atoms and one oxygen atom; hydrogen peroxide has two of each. Though they differ by one atom, they have very different characteristics, and people drink water but not hydrogen peroxide."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Hydrogen peroxide's molecular formula is H2O2."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hydrogen peroxide is water with some oxygen gas stirred in.",
+          "rationale": "Stirring oxygen gas into water would make a mixture of two substances. In hydrogen peroxide the second oxygen atom is bonded inside every molecule, which makes a new substance."
+        },
+        {
+          "id": "b",
+          "text": "Each hydrogen peroxide molecule has one more oxygen atom bonded in.",
+          "rationale": "Correct. Same elements, different numbers: one extra oxygen atom per molecule changes the composition, so it is a different substance."
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen peroxide contains an element that water does not have.",
+          "rationale": "Both formulas use only H and O. The difference is the number of oxygen atoms, not a new element."
+        },
+        {
+          "id": "d",
+          "text": "They're one substance; hydrogen peroxide is just more concentrated.",
+          "rationale": "Concentration changes how much of a substance is present, not what its molecules are. H₂O and H₂O₂ molecules are built differently, so they are different substances."
+        }
+      ],
+      "answer": "b",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 24. The textbook's first-aid remark about cuts is not used (L02-RF4). Choice lengths balanced. Verify-agent (2026-10-14): Checked against the p. 24 render; key b is unique. No first-aid use is repeated (L02-RF4). Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q09",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "composition",
+        "definition",
+        "hydrogen peroxide"
+      ],
+      "familyId": "L02-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Atomic composition includes two pieces of information. Which choice gives the complete atomic composition of hydrogen peroxide, H₂O₂?",
+      "accessiblePrompt": "Atomic composition includes two pieces of information. Which choice gives the complete atomic composition of hydrogen peroxide, H₂O₂, which has two hydrogen atoms and two oxygen atoms in each molecule?",
+      "explanation": "Composition answers two questions: which elements, and how many atoms of each (or in what ratio). For H₂O₂ that is hydrogen and oxygen, two of each per molecule. How those atoms are linked is a separate idea called structure.",
+      "misconception": "Naming the elements in a substance is enough to give its composition.",
+      "hint": "Would your choice also fit water, or some other four-atom molecule? A complete composition fits only hydrogen peroxide.",
+      "followUpId": "L02-Q13",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            24
+          ],
+          "pdf": [
+            60
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Composition)",
+          "supports": "Atomic composition includes the types of elements and the specific number or ratio of atoms of each; hydrogen peroxide has two hydrogen and two oxygen atoms."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hydrogen and oxygen",
+          "rationale": "This names the elements but leaves out how many atoms of each. Water is also just hydrogen and oxygen, so this can't tell the two apart."
+        },
+        {
+          "id": "b",
+          "text": "Four atoms in every molecule",
+          "rationale": "This gives a total but not which elements or how many of each. A different four-atom molecule could have a completely different composition."
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen and oxygen, with two atoms of each in every molecule",
+          "rationale": "Correct. It names the elements and gives how many atoms of each, the two parts of composition."
+        },
+        {
+          "id": "d",
+          "text": "Two oxygen atoms bonded in the middle, with a hydrogen on each end",
+          "rationale": "This describes how the atoms are arranged, which is the molecule's structure, not its composition."
+        }
+      ],
+      "answer": "c",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 24. The keyed answer is not the longest choice (the structure distractor is). Round 1 revision (2026-10-14): hint replaced (it plus the prompt gave the answer); the new one rules out a and b but leaves the composition-versus-structure choice between c and d. Difficulty lowered to 1 (science review's difficulty-spread suggestion): it is a definition item. Verify-agent (2026-10-14): Checked against the p. 24 composition definition; c is the only complete composition and d is structure. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names both parts of composition"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q10",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "structure",
+        "composition",
+        "butane",
+        "isobutane",
+        "data"
+      ],
+      "familyId": "L02-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A student records data about two models built from the same kit. Which conclusion do the data support?",
+      "accessiblePrompt": "A student records data about two models built from the same kit. Model A has 4 carbon atoms and 10 hydrogen atoms, with the carbon atoms joined in an unbranched chain, each to the next. Model B also has 4 carbon atoms and 10 hydrogen atoms, but one central carbon is joined to the other three. Which conclusion do the data support?",
+      "explanation": "Both models are C₄H₁₀, so their composition is identical. What differs is their structure: an unbranched chain versus a branched shape. Because structure matters, they stand for different substances, butane and isobutane. Butane fuels camping stoves, while isobutane, when very pure, serves as a refrigerant.",
+      "misconception": "Two molecules with the same atom counts must be the same substance.",
+      "hint": "Which facts about the two models are the same, and which fact is different?",
+      "followUpId": "L02-Q07",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            25
+          ],
+          "pdf": [
+            61
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2, Figure 2B (Molecules with the Same Composition but Different Structures)",
+          "supports": "Butane and isobutane both have four carbon and ten hydrogen atoms but different structures, so they have different characteristics and uses."
+        },
+        {
+          "type": "external",
+          "title": "Isobutane (CID 6360): descriptions",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360/description/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Isobutane is propane substituted by a methyl group at position 2, a branched arrangement of C₄H₁₀, and has a role as a refrigerant."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Butane and isobutane both have the molecular formula C4H10."
+        }
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Two models with the formula C₄H₁₀",
+        "alt": "A table of two models. Model A: carbon 4, hydrogen 10; its carbons form an unbranched chain, each joined to the next. Model B: carbon 4, hydrogen 10; its carbons branch, with one central carbon joined to the other three.",
+        "columns": [
+          "Model",
+          "Carbon atoms",
+          "Hydrogen atoms",
+          "How the carbon atoms connect"
+        ],
+        "rows": [
+          [
+            "A",
+            4,
+            10,
+            "Unbranched chain, each joined to the next"
+          ],
+          [
+            "B",
+            4,
+            10,
+            "Branched: one central carbon joined to the other three"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Same composition, different structure: two different substances",
+          "rationale": "Correct. Matching atom counts mean the same composition; different connections mean a different structure. These are butane (A) and isobutane (B)."
+        },
+        {
+          "id": "b",
+          "text": "Same atom counts, so the two models show the same substance",
+          "rationale": "Composition alone does not fix a molecule's identity. Rearranging the same atoms gives a different structure and a different substance."
+        },
+        {
+          "id": "c",
+          "text": "Model A is a polymer, because its carbon atoms form a chain",
+          "rationale": "A polymer is a very long chain of many repeating units. Model A is one small molecule with exactly 14 atoms."
+        },
+        {
+          "id": "d",
+          "text": "Model B has fewer atoms, because its branches make it more compact",
+          "rationale": "Both models have 14 atoms, 4 carbon and 10 hydrogen. Branching changes the shape, not the number of atoms."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 25. Branched wording follows L02-RF5 (not “triangle” or “pyramid”). Round 1 revision (2026-10-14): hint and choice d rationale reworded so read-aloud learners are not sent to table columns. Verify-agent (2026-10-14): Checked against the p. 25 Figure 2B render (both C₄H₁₀); the table alt holds everything needed; branched wording follows L02-RF5. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint and choice d rationale no longer refer to table columns"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q11",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "structure",
+        "sucrose",
+        "maltose",
+        "molecular shape",
+        "properties"
+      ],
+      "familyId": "L02-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sucrose (table sugar) and maltose (the sugar in malted milk) both have molecules with 12 carbon, 22 hydrogen and 11 oxygen atoms. Yet they taste different. Which explanation fits best?",
+      "accessiblePrompt": "Sucrose, which is table sugar, and maltose, the sugar in malted milk, both have molecules with 12 carbon atoms, 22 hydrogen atoms and 11 oxygen atoms. Yet they taste different. Which explanation fits best?",
+      "explanation": "Matching composition does not guarantee the same substance. In sucrose and maltose the same 45 atoms are linked in different ways, so the molecules have different shapes. A molecule's shape affects how it behaves, including how it tastes.",
+      "misconception": "If two molecules have identical atom counts, all of their properties must be identical.",
+      "hint": "The atom counts match exactly. What else about a molecule could be different?",
+      "followUpId": "L02-Q13",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            25
+          ],
+          "pdf": [
+            61
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Structure)",
+          "supports": "Sucrose and maltose both have 12 carbon, 22 hydrogen and 11 oxygen atoms, but different structures give them different shapes and tastes."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucrose and maltose both have the molecular formula C12H22O11."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "One of them must contain an element that its formula leaves out.",
+          "rationale": "Both are C₁₂H₂₂O₁₁, and a formula lists every element present. The difference lies in how the atoms are connected."
+        },
+        {
+          "id": "b",
+          "text": "They are one substance; taste only depends on how much you eat.",
+          "rationale": "The amount can change how strong a taste is, but these are two different substances even when equal amounts are compared, because their molecules are built differently."
+        },
+        {
+          "id": "c",
+          "text": "Maltose molecules contain more atoms in total than sucrose ones.",
+          "rationale": "The counts are identical: 12 + 22 + 11 = 45 atoms in each molecule."
+        },
+        {
+          "id": "d",
+          "text": "The same atoms are joined in a different arrangement in each.",
+          "rationale": "Correct. Same atoms, different connections: the molecules have different shapes, which gives them different properties such as taste."
+        }
+      ],
+      "answer": "d",
+      "conditions": "Compare equal amounts of the two pure sugars.",
+      "review": {
+        "status": "rejected",
+        "notes": "Pages rendered and checked: printed 25. Condition added so concentration cannot explain the difference. No tasting procedure is suggested. Round 1 revision (2026-10-14): REJECTED by pedagogy-review-agent: a near-paraphrase of L02-Q10 with the same single-choice form, mirrored distractors and a misconception that restates Q10's and Q14's. The science content was correct (science pass). Replaced by L02-Q29, which tests the guiding question. The sucrose–maltose pair stays in the bank through Q12 (choice c) and Q14 (key). followUpId moved from L02-Q14 to L02-Q13 only because Q14 joined this item's family F05; the item is out of play.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: near-paraphrase of L02-Q10 (same atom counts, different arrangement) with mirrored distractors; replaced by L02-Q29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q12",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2",
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "composition",
+        "structure",
+        "isomers",
+        "diamond",
+        "graphite"
+      ],
+      "familyId": "L02-F05",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Which pairs have the same atomic composition but different structures? Select all that apply.",
+      "accessiblePrompt": "Which pairs have the same atomic composition, meaning the same elements in the same numbers or ratio, but different structures, meaning their atoms are arranged differently? Select all that apply.",
+      "explanation": "Same composition means the same elements in the same numbers (or, for an extended structure, the same ratio). Butane and isobutane, and sucrose and maltose, are molecules with matching formulas but different bonding patterns. Diamond and graphite are both pure carbon arranged in different patterns. Water and hydrogen peroxide, and oxygen gas and water, differ in composition.",
+      "misconception": "Substances that look or behave differently must be made of different elements or different numbers of atoms.",
+      "hint": "For each pair, check the elements and the counts first. Only if they match, ask whether the arrangement differs.",
+      "followUpId": "L02-Q25",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules; Key Science Concept: Modeling Molecules and Extended Structures; 4. Patterns You Can See",
+        "pages": {
+          "printed": [
+            24,
+            25,
+            28,
+            29
+          ],
+          "pdf": [
+            60,
+            61,
+            64,
+            65
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2, Figure 2A",
+          "supports": "Water has one oxygen atom per molecule and hydrogen peroxide has two, so their compositions differ."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2, Figure 2B; Structure",
+          "supports": "Butane and isobutane share four carbon and ten hydrogen atoms; sucrose and maltose share 12 carbon, 22 hydrogen and 11 oxygen atoms; each pair differs in structure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "Diamond and graphite are both crystals made only of carbon, with different atomic-level structures."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Oxygen gas is two oxygen atoms."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water and hydrogen peroxide",
+          "rationale": "Different composition: H₂O has one oxygen atom per molecule and H₂O₂ has two."
+        },
+        {
+          "id": "b",
+          "text": "Butane and isobutane",
+          "rationale": "Same composition, different structure: both are C₄H₁₀, but butane's carbons form a chain and isobutane's branch from a central carbon."
+        },
+        {
+          "id": "c",
+          "text": "Sucrose and maltose",
+          "rationale": "Same composition, different structure: both are C₁₂H₂₂O₁₁, with the atoms linked in different ways."
+        },
+        {
+          "id": "d",
+          "text": "Oxygen gas and water",
+          "rationale": "Different composition: oxygen gas (O₂) contains only oxygen, while water (H₂O) also contains hydrogen."
+        },
+        {
+          "id": "e",
+          "text": "Diamond and graphite",
+          "rationale": "Same composition, different structure: both are pure carbon, but diamond's atoms form a rigid 3D network and graphite's form flat sheets."
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "e"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 24, 25, 28, 29. For diamond and graphite, “composition” is pure carbon (an extended structure's composition is its ratio of elements, p. 27). 3 correct of 5. Round 1 revision (2026-10-14): printed 28 / pdf 64 added to scope, because distractor d relies on oxygen gas being O₂, which p. 28 teaches (science reviewer's optional point). Verify-agent (2026-10-14): Checked against the p. 24, 25, 28 and 29 renders: b, c and e are correct, a and d are not; diamond and graphite share composition as an extended-structure ratio (p. 27). Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q13",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O1",
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "vocabulary",
+        "composition",
+        "structure",
+        "chemical bond",
+        "model"
+      ],
+      "familyId": "L02-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each term with what it describes.",
+      "accessiblePrompt": "Match each term with what it describes. The terms are: chemical bond; atomic composition; chemical structure; and model.",
+      "explanation": "These four ideas work together. Bonds hold atoms together; composition counts what is there; structure describes how it is put together; and models let us see composition and structure in particles far too small to view. The leftover description, a pattern that repeats in all three directions, fits a crystal.",
+      "misconception": "Composition and structure mean the same thing.",
+      "hint": "One description is left over; it describes something from the crystals part of the lesson. Start with the term you are surest of.",
+      "followUpId": "L02-Q09",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds; 2. Composition and Structure of Molecules",
+        "pages": {
+          "printed": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "pdf": [
+            58,
+            59,
+            60,
+            61
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            22
+          ],
+          "pdfPages": [
+            58
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds",
+          "supports": "Chemical bonds are the connections between atoms in more complex particles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            23
+          ],
+          "pdfPages": [
+            59
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds (models)",
+          "supports": "A model represents an object so its important aspects are easier to see."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2 (Composition)",
+          "supports": "Atomic composition is the types of elements plus the number or ratio of atoms of each."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2 (Structure)",
+          "supports": "Chemical structure is the way the bonds and atoms are arranged within a substance's molecules."
+        }
+      ],
+      "left": [
+        {
+          "id": "l1",
+          "text": "Chemical bond",
+          "rationale": "The link that holds two atoms together inside a particle such as a molecule."
+        },
+        {
+          "id": "l2",
+          "text": "Atomic composition",
+          "rationale": "Which elements a substance contains and how many atoms of each, or their ratio."
+        },
+        {
+          "id": "l3",
+          "text": "Chemical structure",
+          "rationale": "The way a substance's atoms and bonds are arranged."
+        },
+        {
+          "id": "l4",
+          "text": "Model",
+          "rationale": "A stand-in, like a ball-and-stick kit, that shows features too small or too complicated to see directly."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "The link that holds two atoms together"
+        },
+        {
+          "id": "r2",
+          "text": "Which elements are present, and how many atoms of each"
+        },
+        {
+          "id": "r3",
+          "text": "How the atoms and their bonds are arranged"
+        },
+        {
+          "id": "r4",
+          "text": "A simplified stand-in that helps you picture something hard to see"
+        },
+        {
+          "id": "r5",
+          "text": "A solid pattern that repeats in all three directions"
+        }
+      ],
+      "answer": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 22–25. Right-side r5 (a crystal) is an unmatched distractor. Descriptions reworded from the textbook definitions. Round 1 revision (2026-10-14): hint replaced; the old one stated two of the four matches. Verify-agent (2026-10-14): Checked against pp. 22–25 and the p. 21 vocabulary box; the matches are one-to-one and r5 (crystal) is the only leftover. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer hands over the composition and structure matches"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q14",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "evidence",
+        "counterexample",
+        "structure",
+        "sucrose",
+        "maltose"
+      ],
+      "familyId": "L02-F05",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Mia claims, “If two molecules have the same formula, they must be the same substance.” Which example from this lesson is evidence that her claim is wrong?",
+      "accessiblePrompt": "Mia claims: if two molecules have the same formula, they must be the same substance. Which example from this lesson is evidence that her claim is wrong?",
+      "explanation": "To show a claim is wrong, you need a counterexample that fits its “if” part but breaks its “then” part. Sucrose and maltose share the formula C₁₂H₂₂O₁₁, yet their atoms are linked differently, so their molecules have different shapes and tastes: they are different substances. A formula gives composition; identity also depends on structure.",
+      "misconception": "A chemical formula alone is enough to identify a substance.",
+      "hint": "A counterexample has to fit the “if” part of Mia's claim. Which choice does?",
+      "followUpId": "L02-Q07",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules; 3. Crystals and Polymers",
+        "pages": {
+          "printed": [
+            24,
+            25,
+            27
+          ],
+          "pdf": [
+            60,
+            61,
+            63
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Structure)",
+          "supports": "Sucrose and maltose both have 12 carbon, 22 hydrogen and 11 oxygen atoms, but their different structures give the molecules different shapes and tastes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2, Figure 2A",
+          "supports": "Water and hydrogen peroxide have different compositions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3 (Extended Structures)",
+          "supports": "Table salt keeps a 1:1 ratio whether a crystal has 100 or 10,000 of each atom."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucrose and maltose both have the molecular formula C12H22O11."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.4 Chemical Formulas",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+          "accessed": "2026-10-14",
+          "supports": "Isomers are compounds with the same chemical formula but different molecular structures, and their properties differ."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water and hydrogen peroxide: H₂O and H₂O₂, with different uses",
+          "rationale": "These two have different formulas, so they cannot test a claim about molecules that share a formula."
+        },
+        {
+          "id": "c",
+          "text": "Oxygen gas, O₂: made of one element, yet still a molecule",
+          "rationale": "True, but it describes only one kind of molecule, so it says nothing about two different molecules that share a formula."
+        },
+        {
+          "id": "d",
+          "text": "Small and large salt crystals: both are table salt in a 1:1 ratio",
+          "rationale": "This shows that crystal size doesn't change identity. Salt is an extended structure, not molecules, and the example involves only one substance."
+        },
+        {
+          "id": "e",
+          "text": "Sucrose and maltose: both C₁₂H₂₂O₁₁, yet they taste different",
+          "rationale": "Correct. Same formula, but the atoms are linked differently, so the molecules have different shapes and tastes. This fits the “if” part of the claim and breaks its “then” part."
+        }
+      ],
+      "answer": "e",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 24, 25, 27. Claim–evidence item; the salt-crystal distractor's size-does-not-change-identity point is from p. 27. Choice lengths balanced. Round 1 revision (2026-10-14): choice b (butane and isobutane, the exact example and conclusion of Q10) deleted and new key e (sucrose and maltose) added; explanation rewritten around sucrose and maltose; moved from F06 to F05 with Q10 and Q12; followUpId now L02-Q07 (F03); difficulty 3 for the counterexample logic; p. 25 sucrose/maltose evidence (re-read on the render) and PubChem formula added; scope adds p. 27 for the salt distractor. Choice c rationale reworded (science review). Key e is shorter than a and d, so length gives no cue. Verify-agent (2026-10-14): The new key e (sucrose and maltose) was checked on the p. 25 render; only e fits the claim's \"if\" part, and the salt distractor follows p. 27. This closes the fresh-verification note for the new key. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale now says 'one kind of molecule'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key changed from butane/isobutane (Q10's example) to sucrose/maltose; moved to F05; follow-up Q07; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q15",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "molecule",
+        "extended structure",
+        "crystal",
+        "classification"
+      ],
+      "familyId": "L02-F07",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each into a molecule (a set number of atoms) or an extended structure (a repeating pattern with a constant ratio).",
+      "accessiblePrompt": "Sort each item into one of two groups: a molecule, which has a set number of atoms, or an extended structure, which is a repeating pattern that keeps a constant ratio of atoms. The items are: an ice crystal; butane, C₄H₁₀, with four carbon and ten hydrogen atoms; a piece of quartz; one particle of water, H₂O, with two hydrogen atoms and one oxygen atom; a diamond; oxygen gas, O₂, two oxygen atoms bonded together; a grain of table salt, written capital N, small a, capital C, small l; and one particle of cholesterol, with twenty-seven carbon, forty-six hydrogen and one oxygen atom.",
+      "explanation": "A molecule has an exact count: every water molecule has 3 atoms and every cholesterol molecule has 74. An extended structure has no set size; it is built by repeating a subunit, so only the ratio is fixed. Ice is an extended structure even though it is made of water molecules, because the crystal is a repeating stack of them.",
+      "misconception": "Anything large or complicated, like cholesterol, is an extended structure, and anything made of molecules, like ice, must itself be a molecule.",
+      "hint": "Ask: does it have an exact number of atoms, or could you keep adding more of the same pattern?",
+      "followUpId": "L02-Q18",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            26,
+            27,
+            28
+          ],
+          "pdf": [
+            62,
+            63,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Oxygen gas, butane and cholesterol are molecules with a distinct composition; sodium chloride and ice are extended structures that can be very small or very large."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals)",
+          "supports": "Diamond, table salt and quartz are crystals built from repeating subunits; ice is a crystal of water molecules."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3 (Extended Structures)",
+          "supports": "An extended structure has repeating subunits and a constant ratio but no specific composition; a water molecule has exactly two hydrogen atoms and one oxygen atom."
+        }
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "text": "An ice crystal",
+          "rationale": "Extended structure: each water molecule is a molecule, but ice is a repeating pattern of many of them, a crystal of any size."
+        },
+        {
+          "id": "i2",
+          "text": "Butane, C₄H₁₀",
+          "rationale": "Molecule: every butane particle has exactly 14 atoms in a fixed arrangement."
+        },
+        {
+          "id": "i3",
+          "text": "A piece of quartz",
+          "rationale": "Extended structure: silicon and oxygen repeat in a 1:2 ratio throughout the crystal."
+        },
+        {
+          "id": "i4",
+          "text": "One particle of water, H₂O",
+          "rationale": "Molecule: exactly three atoms, two hydrogen and one oxygen."
+        },
+        {
+          "id": "i5",
+          "text": "A diamond",
+          "rationale": "Extended structure: carbon atoms repeat in one continuous network, and a diamond can be tiny or huge."
+        },
+        {
+          "id": "i6",
+          "text": "Oxygen gas, O₂",
+          "rationale": "Molecule: oxygen gas is made of separate particles of exactly two bonded oxygen atoms."
+        },
+        {
+          "id": "i7",
+          "text": "A grain of table salt, NaCl",
+          "rationale": "Extended structure: sodium and chlorine repeat in a 1:1 pattern, and a grain can be any size. NaCl gives the 1:1 ratio; it does not mean salt comes as molecules."
+        },
+        {
+          "id": "i8",
+          "text": "One particle of cholesterol, C₂₇H₄₆O",
+          "rationale": "Molecule: large, but still a set number of atoms (27 carbon, 46 hydrogen, 1 oxygen)."
+        }
+      ],
+      "bins": [
+        {
+          "id": "molecule",
+          "label": "Molecule"
+        },
+        {
+          "id": "extended",
+          "label": "Extended structure"
+        }
+      ],
+      "answer": {
+        "i1": "extended",
+        "i2": "molecule",
+        "i3": "extended",
+        "i4": "molecule",
+        "i5": "extended",
+        "i6": "molecule",
+        "i7": "extended",
+        "i8": "molecule"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 27, 28. Polymers are left out on purpose (see L02-RF8: a polymer chain can also be called a giant molecule), so every item has one defensible bin. Round 1 revision (2026-10-14): item texts no longer say 'molecule', which echoed the bin label; the salt item now shows NaCl as a deliberate trap; the read-aloud spells every formula (NaCl symbol by symbol). Deviation from the pedagogy reviewer: i8 reads 'One particle of cholesterol, C₂₇H₄₆O' rather than a bare 'Cholesterol, C₂₇H₄₆O', because solid cholesterol forms crystals of molecules (like sugar), so the bare substance name would have two defensible bins. Butane and oxygen gas are gases at room conditions, so their bare names stay. Difficulty kept at 2 (not lowered to 1 as the science reviewer suggested) because removing the word cues makes the sort harder. Verify-agent (2026-10-14): Checked the rewritten item texts against the p. 26, 27 and 28 renders: every item has one defensible bin, and the NaCl item reinforces the brief guardrail. This closes the fresh-verification note for the item texts. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: items no longer contain the word 'molecule'; NaCl formula added as a trap; formulas spelled in read-aloud"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q16",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "table salt",
+        "extended structure",
+        "NaCl",
+        "model limitations"
+      ],
+      "familyId": "L02-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A cartoon shows solid table salt as a pile of tiny separate pairs, each one sodium atom stuck to one chlorine atom, labeled “NaCl molecule.” What is wrong with this picture?",
+      "accessiblePrompt": "A cartoon shows solid table salt as a pile of tiny separate pairs. Each pair is one sodium atom stuck to one chlorine atom, and each is labeled as an N a C l molecule. What is wrong with this picture?",
+      "explanation": "Table salt is an extended structure. Its sodium and chlorine atoms alternate in a cube-like pattern that keeps going in all three directions, so each sodium atom has chlorine neighbors on several sides instead of one partner. The formula NaCl gives the 1:1 ratio; it does not mean salt comes in two-atom molecules.",
+      "misconception": "Table salt is made of separate NaCl molecules, each one sodium bonded to one chlorine.",
+      "hint": "Recall the salt crystal model in the lesson: how many chlorine atoms sit right next to each sodium atom?",
+      "followUpId": "L02-Q22",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            26,
+            28
+          ],
+          "pdf": [
+            62,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals, Figure 3A)",
+          "supports": "Table salt is a crystal whose repeating subunit is sodium and chlorine atoms alternating in a cube; it is called NaCl because of the 1:1 ratio."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Sodium chloride does not form molecules with a specific size; it is an extended structure."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.6 Ionic and Molecular Compounds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-6-ionic-and-molecular-compounds",
+          "accessed": "2026-10-14",
+          "supports": "An ionic compound such as sodium chloride is not made up of single, discrete molecules; its formula gives the 1:1 ratio of its particles."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing; each sodium atom pairs off with just one chlorine atom.",
+          "rationale": "This treats NaCl as a two-atom molecule. In a salt crystal, sodium and chlorine alternate throughout, with neighbors on several sides."
+        },
+        {
+          "id": "b",
+          "text": "Salt holds only one element, so chlorine should not be there.",
+          "rationale": "Table salt is sodium chloride, made of two elements, sodium and chlorine, in a 1:1 ratio."
+        },
+        {
+          "id": "c",
+          "text": "Salt isn't separate pairs; its atoms alternate in one big pattern.",
+          "rationale": "Correct. Sodium and chlorine alternate in a pattern that continues in every direction, so no sodium atom belongs to just one chlorine partner."
+        },
+        {
+          "id": "d",
+          "text": "The pairs are fine, but each should have two chlorines per sodium.",
+          "rationale": "Salt's ratio is 1:1, so the ratio isn't the problem; the separate pairs are. Salt is an extended structure, not a pile of molecules."
+        }
+      ],
+      "answer": "c",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 28. Brief guardrail: salt must not be depicted as discrete NaCl molecules. Lesson-level wording keeps “atoms” (L02-RF9). Round 1 revision (2026-10-14): hint replaced (the old one pointed straight at the key). Prompt now says 'solid table salt', closing the salt-vapor loophole the science reviewer raised as optional. Verify-agent (2026-10-14): Checked against the p. 26 Figure 3A and p. 28 renders; \"solid\" closes the vapor loophole and the salt guardrail is kept. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the key's contrast"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q17",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "extended structure",
+        "crystal",
+        "polymer",
+        "ratio"
+      ],
+      "familyId": "L02-F07",
+      "category": "foundational",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Which statements are true of every one of these extended structures: diamond, table salt, quartz, ice and polyester? Select all that apply.",
+      "accessiblePrompt": "Which statements are true of every one of these extended structures: diamond, table salt, quartz, ice and polyester? Select all that apply.",
+      "explanation": "Extended structures, crystals and polymers alike, are defined by repetition: a subunit repeats, so the makeup (which elements, in what ratio) stays the same while the size can vary. The subunit can be atoms of one element (diamond), atoms of several elements (salt, quartz), whole molecules (ice) or molecule-based units linked in a chain (polyester).",
+      "misconception": "Extended structures have a fixed size like molecules, must contain several elements, or are always crystals.",
+      "hint": "Test each statement against diamond, table salt, quartz, ice and polyester. A true statement must work for every one of them.",
+      "followUpId": "L02-Q21",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            26,
+            27,
+            28
+          ],
+          "pdf": [
+            62,
+            63,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals)",
+          "supports": "Crystals repeat subunits in three dimensions and can be one element (diamond) or several (salt, quartz); molecules such as sucrose and water also form crystals."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3 (Extended Structures)",
+          "supports": "An extended structure has repeating subunits and a constant ratio of atoms; it does not matter if salt has 100 or 10,000 of each atom."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Extended structures can be crystals or polymers; a crystal can be very small or very large."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "It always contains exactly the same number of atoms.",
+          "rationale": "False. That describes a molecule. Crystals can be tiny or huge; only the ratio is fixed."
+        },
+        {
+          "id": "b",
+          "text": "It is built from a subunit that repeats over and over.",
+          "rationale": "True. Repetition of a subunit is what makes something an extended structure."
+        },
+        {
+          "id": "f",
+          "text": "It is always a crystal, repeating its subunit in all three directions.",
+          "rationale": "False. Crystals are one kind of extended structure; polymers such as polyester repeat in a chain instead."
+        },
+        {
+          "id": "d",
+          "text": "Its makeup (same elements, same ratio) stays the same at any size.",
+          "rationale": "True. A salt crystal keeps 1 sodium to 1 chlorine whether it holds a hundred of each or ten thousand. Even diamond fits: it is all carbon whether it is a speck or a gem."
+        },
+        {
+          "id": "e",
+          "text": "It must contain more than one element.",
+          "rationale": "False. Diamond and graphite are extended structures made only of carbon."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 27, 28. 2 correct of 5; the one-element and atoms-only distractors are tested against diamond and ice. Round 1 revision (2026-10-14): visible prompt now names diamond, table salt, quartz, ice and polyester, so proteins and DNA (no constant ratio, L02-RF8) are outside it and it matches the read-aloud. Choice d reworded to 'makeup (same elements, same ratio)' so a one-element solid clearly fits; choice c replaced by new choice f; answer stays [b, d]; difficulty 3. Choice f is the longest, so the keyed d is not cued by length. A limitation notes that real polyester can be partly ordered. Verify-agent (2026-10-14): Checked against the p. 26, 27 and 28 renders: b and d hold for all five named structures; new choice f is false under the stated chain model of polymers (the limitation covers partly ordered polyester). Cosmetic fix by verify-agent: the hint named only four of the prompt's five structures; quartz added so the hint matches the prompt. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt names the five structures (excludes proteins and DNA); choice d reworded so one-element diamond fits"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt matches the read-aloud; choice c (duplicated Q21) replaced by 'always a crystal' (f)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Uses the lesson's model, in which a polymer is a chain. Real polyester chains can also line up side by side in places, but the material is still classed as a polymer."
+    },
+    {
+      "id": "L02-Q18",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "chemical formula",
+        "ratio",
+        "extended structure",
+        "quartz",
+        "table salt"
+      ],
+      "familyId": "L02-F08",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "match",
+      "prompt": "A formula means different things for molecules and extended structures. Match each substance with what its formula or ratio tells you.",
+      "accessiblePrompt": "A formula means different things for molecules and extended structures. Match each substance with what its formula or ratio tells you. The substances are: water, written capital H, small 2, capital O; oxygen gas, written capital O, small 2; table salt, written capital N, small a, capital C, small l; and quartz, which is made of silicon and oxygen.",
+      "explanation": "For a molecule, a formula is an exact count per particle: H₂O always means 2 hydrogen atoms and 1 oxygen atom. For an extended structure, the formula or ratio only says how the elements are balanced: NaCl means 1 sodium for every chlorine, and quartz has 1 silicon for every 2 oxygen, whether the crystal is a speck or a boulder; solid table salt is not made of separate one-sodium-one-chlorine particles. The textbook caption beside the salt picture gives quartz as 1:1, but that is a slip; the main text and chemistry references give 1 silicon to 2 oxygen.",
+      "misconception": "NaCl names a two-atom molecule, the same way H₂O names a three-atom molecule.",
+      "hint": "Which substances come as particles with a set size, and which are repeating patterns?",
+      "followUpId": "L02-Q16",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            26,
+            27,
+            28
+          ],
+          "pdf": [
+            62,
+            63,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (main text)",
+          "supports": "Table salt has sodium and chlorine in a 1:1 ratio; quartz has silicon and oxygen in a 1:2 ratio in crystals of any size."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3 (Extended Structures)",
+          "supports": "A molecule's composition is an exact count (water: two hydrogen, one oxygen); an extended structure's composition is a ratio of elements."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Oxygen gas is a molecule of two oxygen atoms bonded together."
+        },
+        {
+          "type": "external",
+          "title": "Silicon: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/14/silicon",
+          "accessed": "2026-10-14",
+          "supports": "Quartz is silica, silicon dioxide."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Silica has the formula O2Si (SiO₂), one silicon for every two oxygen."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 2.6 Ionic and Molecular Compounds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/2-6-ionic-and-molecular-compounds",
+          "accessed": "2026-10-14",
+          "supports": "Sodium chloride is not made of discrete molecules; its formula gives a 1:1 ratio."
+        }
+      ],
+      "left": [
+        {
+          "id": "l1",
+          "text": "Water, H₂O",
+          "rationale": "A molecule: the formula is an exact count for each particle."
+        },
+        {
+          "id": "l2",
+          "text": "Oxygen gas, O₂",
+          "rationale": "A molecule of one element: exactly two bonded oxygen atoms."
+        },
+        {
+          "id": "l3",
+          "text": "Table salt, NaCl",
+          "rationale": "An extended structure: the formula gives a 1:1 ratio that holds in a crystal of any size."
+        },
+        {
+          "id": "l4",
+          "text": "Quartz (silicon and oxygen)",
+          "rationale": "An extended structure with one silicon atom for every two oxygen atoms. The caption beside the salt picture in the textbook says 1:1, but that is a slip; the main text and chemistry references give 1 silicon to 2 oxygen."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Exactly 2 hydrogen atoms and 1 oxygen atom in each particle"
+        },
+        {
+          "id": "r2",
+          "text": "Exactly 2 atoms of a single element, bonded together"
+        },
+        {
+          "id": "r3",
+          "text": "Sodium and chlorine in a 1:1 ratio, in a crystal of any size"
+        },
+        {
+          "id": "r4",
+          "text": "1 silicon atom for every 2 oxygen atoms, in a crystal of any size"
+        },
+        {
+          "id": "r5",
+          "text": "Exactly 1 sodium atom bonded to 1 chlorine atom in each separate particle"
+        },
+        {
+          "id": "r6",
+          "text": "1 silicon atom for every 1 oxygen atom, in a crystal of any size"
+        }
+      ],
+      "answer": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 27, 28. Unmatched distractors: r5 (the NaCl-molecule misconception, brief guardrail) and r6 (the 1:1 quartz ratio from the Figure 3A caption error, L02-RF3). The 1:2 key rests on the p. 26 main text plus RSC and PubChem. Round 1 revision (2026-10-14): explanation now says solid table salt is not made of separate NaCl particles (NaCl ion pairs exist in hot vapor, science review) and explains the p. 26 caption slip that r6 uses (pedagogy review). The read-aloud now spells H₂O, O₂ and NaCl symbol by symbol, because reading the formula is the skill tested. Caption wording re-checked on the p. 26 render. Verify-agent (2026-10-14): Checked against the p. 26 render (main text 1 Si : 2 O; the Figure 3A caption's 1:1 slip confirmed), p. 27 and p. 28; RSC and PubChem support SiO₂. Matches are one-to-one with r5 and r6 unmatched. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation's absolute ('never forms') limited to solid table salt"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud spells formulas symbol by symbol; caption slip explained in l4 rationale and explanation"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q19",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3",
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "ratio",
+        "quartz",
+        "prediction",
+        "extended structure"
+      ],
+      "familyId": "L02-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "Quartz is a crystal with 1 silicon atom for every 2 oxygen atoms. A tiny quartz crystal contains 900 oxygen atoms. How many silicon atoms does it contain?",
+      "accessiblePrompt": "Quartz is a crystal with 1 silicon atom for every 2 oxygen atoms. A tiny quartz crystal contains 900 oxygen atoms. How many silicon atoms does it contain?",
+      "explanation": "An extended structure keeps its ratio no matter how big it grows. Quartz always has one silicon atom for every two oxygen atoms, so knowing one count lets you predict the other: 900 oxygen atoms means 450 silicon atoms.",
+      "misconception": "Doubling the given count (1,800) or using salt's 1:1 ratio (900).",
+      "hint": "Which kind of atom is more common in quartz? So should your answer be bigger or smaller than 900?",
+      "followUpId": "L02-Q17",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers",
+        "pages": {
+          "printed": [
+            26
+          ],
+          "pdf": [
+            62
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (main text)",
+          "supports": "Quartz has silicon and oxygen atoms in a 1:2 ratio, for example 100 silicon and 200 oxygen atoms."
+        },
+        {
+          "type": "external",
+          "title": "Silicon: element information, properties and uses",
+          "publisher": "Royal Society of Chemistry (Periodic Table)",
+          "url": "https://periodic-table.rsc.org/element/14/silicon",
+          "accessed": "2026-10-14",
+          "supports": "Silicon occurs chiefly as silica (silicon dioxide), found in nature as quartz."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: isobutane, butane, cholesterol, sucrose, maltose, caffeine, L-ascorbic acid, hydrogen peroxide, silica, ammonia",
+          "publisher": "National Library of Medicine, NIH (PubChem)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6360,7843,5997,5988,6255,2519,54670067,784,24261,222/property/Title,MolecularFormula,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Silica has the formula O2Si (SiO₂): one silicon for every two oxygen."
+        }
+      ],
+      "answer": 450,
+      "tolerance": 0,
+      "unit": "silicon atoms",
+      "units": "silicon atoms",
+      "workedSolution": "The ratio 1 silicon : 2 oxygen means there are half as many silicon atoms as oxygen atoms: 900 ÷ 2 = 450. Check: 450 : 900 simplifies to 1 : 2.",
+      "limitations": "Uses the ideal ratio; real crystals can have small flaws or impurities. Any quartz crystal you could see holds vastly more than 900 oxygen atoms.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26. The Figure 3A caption wrongly says 1:1 (L02-RF3); the prompt states the ratio and the key is supported by the main text, RSC and PubChem. Tolerance 0 for a whole-number count. Round 1 revision (2026-10-14): reversed so learners go from oxygen to silicon (the textbook's own examples and Q02's old step both went by doubling); followUpId now L02-Q17 (the ratio holds at any size). The 1:2 ratio was re-checked against the p. 26 main text. The science pass above was given to the earlier 350-silicon version. Verify-agent (2026-10-14): Checked the reversed version against the p. 26 main text (1:2): 900 oxygen → 450 silicon, tolerance 0. This closes the note that the science pass covered the 350-silicon version. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: direction reversed (900 oxygen → 450 silicon); misconception, hint and follow-up (Q17) updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q20",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3",
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "molecule",
+        "extended structure",
+        "prediction",
+        "model building"
+      ],
+      "familyId": "L02-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A student has two kit models: a water molecule (H₂O) and a small cube of table salt (sodium and chlorine alternating, 1:1). She wants to add atoms but still show the same substance. Which change does that?",
+      "accessiblePrompt": "A student has two kit models: a water molecule, H₂O, with two hydrogen atoms and one oxygen atom; and a small cube of table salt, with sodium and chlorine atoms alternating in a 1 to 1 ratio. She wants to add atoms but still show the same substance. Which change does that?",
+      "explanation": "Molecules and extended structures react differently to “adding more.” A molecule's identity depends on its exact atom count, so changing it makes a different particle: add an oxygen atom to H₂O and you get H₂O₂. An extended structure's identity depends on its repeating pattern and ratio, so it can grow as long as both continue.",
+      "misconception": "Molecules can grow bigger and stay the same substance, the way crystals can.",
+      "hint": "Which model is defined by an exact count, and which by a ratio?",
+      "followUpId": "L02-Q08",
+      "scope": {
+        "lessonId": "L02",
+        "section": "2. Composition and Structure of Molecules; 3. Crystals and Polymers",
+        "pages": {
+          "printed": [
+            24,
+            26,
+            27
+          ],
+          "pdf": [
+            60,
+            62,
+            63
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2, Figure 2A",
+          "supports": "Water has two hydrogen and one oxygen atom; adding one oxygen atom gives hydrogen peroxide, a substance with very different characteristics."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals, Figure 3A)",
+          "supports": "Table salt's repeating subunit is sodium and chlorine alternating in a cube, in a 1:1 ratio."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3 (Extended Structures)",
+          "supports": "An extended structure has a constant ratio and no specific composition: salt can have 100 or 10,000 of each atom."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add a third hydrogen atom to the water molecule",
+          "rationale": "A water molecule always has exactly 2 hydrogen atoms and 1 oxygen atom. A particle with three hydrogens is no longer water; a molecule can't grow and stay the same substance."
+        },
+        {
+          "id": "b",
+          "text": "Add a second oxygen atom to the water molecule",
+          "rationale": "That gives 2 hydrogen and 2 oxygen atoms: hydrogen peroxide, H₂O₂, a different substance."
+        },
+        {
+          "id": "c",
+          "text": "Add two more sodium atoms, but no chlorine atoms, to the salt cube",
+          "rationale": "This breaks the 1:1 ratio, so the model no longer shows table salt's composition."
+        },
+        {
+          "id": "d",
+          "text": "Add one sodium and one chlorine to the salt, keeping the pattern",
+          "rationale": "Correct. Salt is an extended structure, so adding atoms in the same alternating 1:1 pattern just makes a bigger piece of the same substance."
+        }
+      ],
+      "answer": "d",
+      "conditions": "Each added atom is placed so that it continues the model's existing pattern.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 24, 26, 27. Condition states that additions continue the existing pattern, so only one choice keeps the same substance. Verify-agent (2026-10-14): Checked against the p. 24, 26 and 27 renders; the stated condition leaves d as the only change that keeps the same substance. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q21",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "crystal",
+        "repeating subunit",
+        "diamond",
+        "ice",
+        "sugar"
+      ],
+      "familyId": "L02-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Crystals can repeat different kinds of building blocks. Sort each crystal by what repeats inside it.",
+      "accessiblePrompt": "Crystals can repeat different kinds of building blocks. Sort each crystal by what repeats inside it: atoms of one element; atoms of two or more elements, with no separate molecules; or whole molecules stacked together. The crystals are: ice, quartz, graphite, table sugar, diamond and table salt.",
+      "explanation": "All crystals repeat in three directions, but the repeating building block varies. Diamond and graphite repeat carbon atoms. Salt and quartz repeat atoms of two elements with no separate molecules. Ice and sugar crystals repeat entire molecules, held together by weaker attractions between the molecules.",
+      "misconception": "Crystals are always made of more than one element, or never contain molecules.",
+      "hint": "Ask two things: how many elements are there, and do separate molecules exist inside?",
+      "followUpId": "L02-Q17",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; 4. Patterns You Can See",
+        "pages": {
+          "printed": [
+            26,
+            29
+          ],
+          "pdf": [
+            62,
+            65
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals)",
+          "supports": "Diamond is a crystal of one element; table salt and quartz are crystals of several elements; table sugar is a crystal of sucrose molecules and ice a crystal of water molecules, held together by attractions between molecules."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "Diamond and graphite are crystals made only of carbon."
+        }
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "text": "Ice",
+          "rationale": "Whole water molecules stack into a repeating pattern."
+        },
+        {
+          "id": "i2",
+          "text": "Quartz",
+          "rationale": "Silicon and oxygen atoms repeat in a 1:2 ratio, with no separate molecules."
+        },
+        {
+          "id": "i3",
+          "text": "Graphite",
+          "rationale": "Only carbon atoms, arranged in stacked flat sheets."
+        },
+        {
+          "id": "i4",
+          "text": "Table sugar",
+          "rationale": "Whole sucrose molecules stack on and around one another."
+        },
+        {
+          "id": "i5",
+          "text": "Diamond",
+          "rationale": "Only carbon atoms, linked in a repeating network."
+        },
+        {
+          "id": "i6",
+          "text": "Table salt",
+          "rationale": "Sodium and chlorine atoms alternate; there are no separate salt molecules."
+        }
+      ],
+      "bins": [
+        {
+          "id": "one",
+          "label": "Atoms of one element"
+        },
+        {
+          "id": "several",
+          "label": "Atoms of two or more elements (no separate molecules)"
+        },
+        {
+          "id": "molecules",
+          "label": "Whole molecules stacked together"
+        }
+      ],
+      "answer": {
+        "i1": "molecules",
+        "i2": "several",
+        "i3": "one",
+        "i4": "molecules",
+        "i5": "one",
+        "i6": "several"
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 29. The bins follow the Lesson Summary's three kinds of crystals (p. 29); the middle bin says “no separate molecules” so ice and sugar have one defensible bin. Verify-agent (2026-10-14): Checked against the p. 26 render and the p. 29 Lesson Summary (three kinds of crystals); each crystal has one defensible bin. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q22",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3",
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "scale",
+        "repeating subunit",
+        "table salt",
+        "crystal"
+      ],
+      "familyId": "L02-F09",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Put these in order from smallest to largest to show how table salt is built up.",
+      "accessiblePrompt": "Put these four things in order from smallest to largest to show how table salt is built up: a spoonful of table salt; one sodium atom; one grain of table salt; and one repeating cube of 4 sodium and 4 chlorine atoms.",
+      "explanation": "Atoms join into a small repeating cube; that cube repeats over and over, an enormous number of times, to make a single grain you can see; and many grains fill a spoon. A grain is a crystal (or a few crystals grown together) with the same 1:1 pattern, not a giant molecule.",
+      "misconception": "A visible salt grain is about the size of a single subunit or molecule.",
+      "hint": "Which one can you see without help, and which are far too small to see?",
+      "followUpId": "L02-Q16",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers",
+        "pages": {
+          "printed": [
+            26
+          ],
+          "pdf": [
+            62
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals, Figure 3A)",
+          "supports": "Each repeating subunit of table salt is four sodium and four chlorine atoms alternating to form a cube; the subunit repeats to build the crystal."
+        }
+      ],
+      "items": [
+        {
+          "id": "spoon",
+          "text": "A spoonful of table salt",
+          "rationale": "Many grains together: the largest here."
+        },
+        {
+          "id": "atom",
+          "text": "One sodium atom",
+          "rationale": "A single atom: the smallest piece here."
+        },
+        {
+          "id": "grain",
+          "text": "One grain of table salt",
+          "rationale": "A visible crystal made of an enormous number of repeating cubes."
+        },
+        {
+          "id": "cube",
+          "text": "One repeating cube of 4 sodium and 4 chlorine atoms",
+          "rationale": "Eight atoms: the subunit that repeats through the crystal."
+        }
+      ],
+      "answer": [
+        "atom",
+        "cube",
+        "grain",
+        "spoon"
+      ],
+      "ends": [
+        "Smallest",
+        "Largest"
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26 (Figure 3A inset shows the 8-atom cube). Four sizes differ by huge factors, so only one order is defensible. Items are not listed in answer order. Round 1 revision (2026-10-14): explanation allows a grain to be a few crystals grown together (science review). The 4 Na + 4 Cl cube was re-checked on the p. 26 Figure 3A inset. Verify-agent (2026-10-14): Checked against the p. 26 Figure 3A inset (4 Na + 4 Cl cube); the four sizes give one defensible order. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer says a grain is always one crystal"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q23",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "polymer",
+        "natural polymer",
+        "synthetic polymer"
+      ],
+      "familyId": "L02-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Polyester in sports uniforms, PET in water bottles, PVC in water pipes and the proteins in your muscles all share one feature. What is it?",
+      "accessiblePrompt": "Polyester in sports uniforms, P E T plastic in water bottles, P V C in water pipes, and the proteins in your muscles all share one feature. What is it?",
+      "explanation": "A polymer is a long chain built from many smaller units that repeat. People invented polyester, PET and PVC, but living things build polymers too: the proteins in your muscles and the DNA that carries your traits are polymers.",
+      "misconception": "Polymers are only artificial plastics made in factories.",
+      "hint": "Think about how they are built, not where they come from.",
+      "followUpId": "L02-Q17",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers",
+        "pages": {
+          "printed": [
+            27
+          ],
+          "pdf": [
+            63
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3. Crystals and Polymers (Polymers, Figure 3B)",
+          "supports": "Polyester, PET and PVC are human-made polymers; the proteins in muscles and DNA are polymers too; all are chains of smaller repeating subunits."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 3.4 Proteins",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+          "accessed": "2026-10-14",
+          "supports": "Proteins are amino acid polymers arranged in a linear sequence."
+        },
+        {
+          "type": "external",
+          "title": "Organic Chemistry, 31.4 Step-Growth Polymers",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/organic-chemistry/pages/31-4-step-growth-polymers",
+          "accessed": "2026-10-14",
+          "supports": "PET is a polyester made from ethylene glycol and terephthalic acid and is used to make soft-drink bottles."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each is a polymer, a long chain of repeating units",
+          "rationale": "Correct. All four are built from many smaller units linked one after another into long chains."
+        },
+        {
+          "id": "b",
+          "text": "Each is a crystal that repeats in all three directions",
+          "rationale": "That describes a crystal. What these four share is a chain of repeating units linked end to end."
+        },
+        {
+          "id": "c",
+          "text": "Each is a human-made material from a factory",
+          "rationale": "Polyester, PET and PVC are invented materials, but proteins are polymers your own body builds, so polymers can be natural too."
+        },
+        {
+          "id": "d",
+          "text": "Each is a single small molecule of just a few atoms",
+          "rationale": "Polymers are huge: each chain links together many smaller units and can contain thousands of atoms."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 27. Proteins appear only as an example of a natural polymer (L02-RF8). Verify-agent (2026-10-14): Checked against the p. 27 render; proteins appear only as a natural polymer, as L02-RF8 requires. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q24",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "polymer",
+        "crystal",
+        "extended structure",
+        "model"
+      ],
+      "familyId": "L02-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In this lesson's model, crystals and polymers are both extended structures. What is the main difference in how they repeat?",
+      "accessiblePrompt": "In this lesson's model, crystals and polymers are both extended structures. What is the main difference in how they repeat?",
+      "explanation": "Both are built by repeating a subunit, so neither has a set size. A crystal stacks its subunit, atoms or molecules, in a regular pattern in all three directions, like bricks in a wall that can grow every way. A polymer links its molecule-based units end to end in a long chain, like beads on a string.",
+      "misconception": "A polymer is just another word for a crystal, a polymer is a small molecule, or crystals and polymers differ by hardness.",
+      "hint": "Test each choice against examples you know, such as salt, ice, PVC and proteins.",
+      "followUpId": "L02-Q21",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers",
+        "pages": {
+          "printed": [
+            26,
+            27
+          ],
+          "pdf": [
+            62,
+            63
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals)",
+          "supports": "A crystal's atoms or molecules are arranged in repeating three-dimensional subunits."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            27
+          ],
+          "pdfPages": [
+            63
+          ],
+          "locator": "Section 3 (Polymers; Extended Structures)",
+          "supports": "A polymer is smaller repeating subunits in a chain, and its subunit is always a molecule; crystals and polymers are both extended structures."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "A polymer is one small molecule; a crystal is one giant molecule",
+          "rationale": "Neither is right: a polymer is a long chain of many units, and crystals such as salt are not molecules at all."
+        },
+        {
+          "id": "b",
+          "text": "Polymer units link into a chain; crystals repeat in all three directions",
+          "rationale": "Correct. A crystal stacks atoms or molecules in 3D, while a polymer strings molecule-based units into a long chain."
+        },
+        {
+          "id": "d",
+          "text": "Crystals have a set number of atoms, while polymers keep a constant ratio",
+          "rationale": "In the lesson's model, both repeat a subunit with no set size; what differs is the shape of the repetition."
+        },
+        {
+          "id": "e",
+          "text": "Crystals are always hard, and polymers are always soft and bendy",
+          "rationale": "Hardness isn't the dividing line: graphite is a soft crystal and PVC pipes are stiff polymers. The difference is the shape the repetition makes."
+        }
+      ],
+      "answer": "b",
+      "limitations": "Real polymer chains can coil, branch, or line up into partly orderly regions; the lesson's model keeps to simple chains.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 27. Framed as “this lesson's model” because of L02-RF8; the limitation notes that real polymers can coil, branch or line up. Round 1 revision (2026-10-14): hint replaced (bricks versus beads was the key in picture form); choice c, which repeated Q23's natural-versus-human-made misconception and had a grammar slip, replaced by new choice e. Graphite is called a crystal on p. 29. Key b (72 characters) is not the longest; d is 73. Verify-agent (2026-10-14): Checked against the p. 26, 27 and 29 renders (p. 29 calls graphite a crystal, so new choice e is false); key b is unique under the lesson's model, which the prompt and limitation state. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: ungrammatical choice c removed (replaced by new choice e in the pedagogy fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint; choice c (duplicated Q23's misconception) replaced by a hardness distractor (e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q25",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "graphite",
+        "diamond",
+        "structure and properties",
+        "pencil"
+      ],
+      "familyId": "L02-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Graphite and diamond are both pure carbon. Why does the graphite in a pencil leave a gray line on paper when a diamond would not?",
+      "accessiblePrompt": "Graphite and diamond are both pure carbon. Why does the graphite in a pencil leave a gray line on paper when a diamond would not?",
+      "explanation": "Structure, not just composition, decides properties. In graphite, carbon atoms bond strongly within flat sheets of hexagons, but the sheets are only weakly held to one another, so friction peels thin layers onto the paper. In diamond, every carbon atom is bonded tightly to neighbors in all directions, so no layers can flake off.",
+      "misconception": "Pencil marks come from the metal lead, or different properties must mean different kinds of atoms.",
+      "hint": "Both are pure carbon, so the atoms themselves are identical. What else about them could be different?",
+      "followUpId": "L02-Q21",
+      "scope": {
+        "lessonId": "L02",
+        "section": "4. Patterns You Can See",
+        "pages": {
+          "printed": [
+            29
+          ],
+          "pdf": [
+            65
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "Graphite is thin sheets of carbon hexagons that scrape off onto paper; diamond's carbon atoms are held tightly in place, so no layer scrapes off."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.5 The Solid State of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Graphite's planar sheets are held in layers by weak forces, so it is soft enough to be used as pencil lead and rubs off onto paper; diamond is hard because of strong bonding in all directions."
+        },
+        {
+          "type": "external",
+          "title": "Pencils never contained lead",
+          "publisher": "McGill University Office for Science and Society",
+          "url": "https://mcgill.ca/oss/node/1523",
+          "accessed": "2026-10-14",
+          "supports": "Pencil “lead” is a mixture of graphite and clay (more graphite makes a softer, darker point), and pencils have never contained lead metal."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pencils hold the metal lead, not carbon, so they mark paper.",
+          "rationale": "Despite the old name “pencil lead,” a pencil's core is graphite, a form of carbon, mixed with clay; it contains no lead metal."
+        },
+        {
+          "id": "b",
+          "text": "Diamond's carbon atoms are smaller than graphite's carbon atoms.",
+          "rationale": "Carbon atoms are carbon atoms. The difference is how they are bonded together, not their size."
+        },
+        {
+          "id": "c",
+          "text": "Graphite's sheets rub off; diamond's atoms are locked in place.",
+          "rationale": "Correct. Weakly stacked sheets slide off onto paper, while diamond's tightly bonded network holds every atom in place."
+        },
+        {
+          "id": "d",
+          "text": "Diamond is see-through, so any line it drew would be invisible.",
+          "rationale": "Color isn't the reason. Diamond's tightly held atoms don't scrape off, so it wouldn't leave a layer of carbon behind at all."
+        }
+      ],
+      "answer": "c",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 29. OpenStax §10.5 supports only that graphite is soft enough to be used as pencil lead and rubs off onto paper; the graphite-plus-clay and no-lead-metal points in choice a's rationale rest on McGill University's Office for Science and Society. Round 1 revision (2026-10-14): choice a rationale now says the core is graphite mixed with clay (science review). The C&EN print URL the reviewer suggested now redirects to the C&EN home page and Britannica (Students) returned HTTP 403, so the McGill OSS page, which was opened and says the same, is cited. Earlier note's credit to OpenStax for the no-lead claim removed. Hint replaced (pedagogy review). Verify-agent (2026-10-14): Checked against the p. 29 render; the McGill OSS page was reopened (pencil \"lead\" is graphite plus clay and never held lead metal), as was OpenStax §10.5. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale says graphite mixed with clay; McGill OSS source added; review note corrected"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q26",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "diamond",
+        "graphite",
+        "design",
+        "hardness"
+      ],
+      "familyId": "L02-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An engineer needs a very hard edge for a saw blade that cuts steel. She can choose diamond or graphite. Based on their atomic structure, which should she pick?",
+      "accessiblePrompt": "An engineer needs a very hard edge for a saw blade that cuts steel. She can choose diamond or graphite. Based on their atomic structure, which should she pick?",
+      "explanation": "A cutting edge must be harder than the material it cuts. Diamond's carbon atoms are each bonded firmly to neighbors in every direction, making it one of the hardest materials known, so diamond-tipped blades can cut very hard materials, including steel. Graphite, with its weakly held layers, is soft.",
+      "misconception": "Two materials made of the same element will behave the same way, or being a crystal is by itself what makes a material hard.",
+      "hint": "Think about what a cutting edge must survive, and which structure could hold up.",
+      "followUpId": "L02-Q12",
+      "scope": {
+        "lessonId": "L02",
+        "section": "4. Patterns You Can See",
+        "pages": {
+          "printed": [
+            29
+          ],
+          "pdf": [
+            65
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "Diamond's carbon atoms are held tightly in place, which makes diamonds good cutting tools for materials such as steel."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.5 The Solid State of Matter",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+          "accessed": "2026-10-14",
+          "supports": "Diamond is one of the hardest substances known because of strong bonding between carbon atoms in all directions; graphite is very soft."
+        },
+        {
+          "type": "external",
+          "title": "Thermo-chemical wear model and worn tool shapes for single-crystal diamond tools cutting steel (Lane, Dow and Scattergood, Wear, 2013)",
+          "publisher": "National Institute of Standards and Technology (NIST)",
+          "url": "https://www.nist.gov/node/580286",
+          "accessed": "2026-10-14",
+          "supports": "The paper evaluates an Arrhenius-type (temperature-dependent) thermochemical wear model for predicting the wear of diamond tools when machining low carbon steel, and uses it to explain other researchers' results on the chemical wear of diamond."
+        },
+        {
+          "type": "external",
+          "title": "Development of ultra-fine-grain binderless cBN tool for precision cutting of ferrous materials (Fujisaki et al., Journal of Materials Processing Technology, 2009)",
+          "publisher": "Hokkaido University Collection of Scholarly and Academic Papers (HUSCAP)",
+          "url": "https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/39399/1/JMPT209-15-16_p5646-5652.pdf",
+          "accessed": "2026-10-14",
+          "supports": "Diamond tools are not suitable for precision cutting of ferrous materials because they wear markedly where the edge touches the metal, explained by thermal effects and chemical reactions as well as mechanical damage; cubic boron nitride, second in hardness only to diamond, is already used in tools for milling and grinding ferrous materials."
+        }
+      ],
+      "choices": [
+        {
+          "id": "b",
+          "text": "Graphite, because its sliding layers would give a smoother cut",
+          "rationale": "Layers that slide apart easily wear away quickly; that is why graphite rubs off onto paper. A cutting edge needs atoms that stay put."
+        },
+        {
+          "id": "c",
+          "text": "Either one, since both are made only of carbon",
+          "rationale": "Same element does not mean same properties. Graphite's sheets slide apart easily, which makes it soft, while diamond's firmly bonded network makes it extremely hard."
+        },
+        {
+          "id": "d",
+          "text": "Diamond, because its atoms are locked in a rigid 3D network",
+          "rationale": "Correct. Firm bonds in every direction make diamond extremely hard, which is what a cutting edge needs."
+        },
+        {
+          "id": "e",
+          "text": "Diamond, because it is a crystal and graphite is not",
+          "rationale": "Both are crystals of pure carbon. Being a crystal isn't what makes diamond hard; its atoms being bonded firmly in every direction is."
+        }
+      ],
+      "answer": "d",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 29. Design-choice item. The p. 29 claim that diamonds are good tools for cutting steel is qualified in the explanation and limitation; see L02-RF14. Round 1 revision (2026-10-14): prompt asks for a 'very hard' edge (toughness is a different property; diamond is hard but can cleave). Explanation says diamond-tipped blades can cut very hard materials, including steel, and a limitation names chemical wear on hot steel and cubic boron nitride (science review). The suggested NIST PDF did not render for me either, so the NIST publication page (abstract) and a Hokkaido University paper, both opened, are cited. Choices (pedagogy review): a deleted, c reworded, new e added; key d (59 characters) is shorter than b (62). Verify-agent (2026-10-14): Checked against the p. 29 render; new choice e is false because p. 29 calls graphite a crystal. Within the diamond-or-graphite, hardness-only frame, key d is unique, and the limitation carries the L02-RF14 caveat about steel. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'very hard' replaces 'tough'; steel claim qualified with a limitation, NIST and Hokkaido sources; cross-referenced to L02-RF14"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a deleted; new diamond distractor e; choice c reworded so two diamond options compete on the reason"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "This compares only diamond and graphite, and only hardness. Real tool makers also weigh heat and chemistry: when diamond rubs against hot steel, its carbon can react with the iron and wear away, so other superhard materials such as cubic boron nitride are often chosen for machining steel."
+    },
+    {
+      "id": "L02-Q27",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O4"
+      ],
+      "conceptTags": [
+        "ice",
+        "snow crystal",
+        "symmetry",
+        "pattern",
+        "scale"
+      ],
+      "familyId": "L02-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Many snow crystals have six-fold symmetry, like six-armed stars or flat hexagons. What best explains this pattern?",
+      "accessiblePrompt": "Many snow crystals have six-fold symmetry: they look like six-armed stars or flat six-sided plates. What best explains this pattern?",
+      "explanation": "When water freezes, its molecules arrange in a repeating pattern built on hexagons. As a snow crystal grows, it copies that hidden pattern, so its faces and arms tend to show six-fold symmetry. Weather changes how the arms grow, which is why snow crystals vary and not every one is a perfect six-armed star.",
+      "misconception": "A visible shape like a hexagon must exist inside each individual particle.",
+      "hint": "The same six-fold pattern shows up in snow from many different storms. What could produce it every time?",
+      "followUpId": "L02-Q15",
+      "scope": {
+        "lessonId": "L02",
+        "section": "Key Science Concept: Modeling Molecules and Extended Structures; 4. Patterns You Can See",
+        "pages": {
+          "printed": [
+            28,
+            29
+          ],
+          "pdf": [
+            64,
+            65
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Ice is a crystal of water molecules, which arrange themselves in hexagonal shapes when they form crystals."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "When water freezes it forms symmetrical crystals with six sides, seen in snowflakes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            22
+          ],
+          "pdfPages": [
+            58
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds, Figure 1",
+          "supports": "A water molecule is just three atoms: two hydrogen and one oxygen."
+        },
+        {
+          "type": "external",
+          "title": "How Do Snowflakes Form?",
+          "publisher": "NOAA National Environmental Satellite, Data, and Information Service (NESDIS)",
+          "url": "https://www.nesdis.noaa.gov/about/k-12-education/ice-snow/how-do-snowflakes-form",
+          "accessed": "2026-10-14",
+          "supports": "The crystal structure of frozen ice is six-sided, and that is where the symmetry in a snowflake comes from; temperature and humidity change how it grows."
+        },
+        {
+          "type": "external",
+          "title": "A Field Guide to Snowflakes",
+          "publisher": "Kenneth G. Libbrecht, Caltech (SnowCrystals.com)",
+          "url": "https://www.snowcrystals.com/guide/guide.html",
+          "accessed": "2026-10-14",
+          "supports": "Not all snowflakes look like six-pointed stars; columns and needles are also common."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Freezing water molecules stack in a six-sided repeating pattern.",
+          "rationale": "Correct. The six-fold shape you can see grows from the hexagon-based way water molecules stack in ice."
+        },
+        {
+          "id": "b",
+          "text": "Each snowflake is one single molecule made of exactly six atoms.",
+          "rationale": "A snowflake holds an enormous number of water molecules, and each water molecule has only three atoms. The shape comes from how the molecules stack."
+        },
+        {
+          "id": "c",
+          "text": "Each water molecule is itself shaped like a hexagon.",
+          "rationale": "A water molecule is a bent group of three atoms. Hexagons appear only when many molecules link into the ice pattern."
+        },
+        {
+          "id": "d",
+          "text": "Wind trims the falling crystals into the same six-sided shapes.",
+          "rationale": "Wind tumbles snow crystals, but it couldn't carve the same symmetry again and again. The pattern comes from inside the crystal."
+        }
+      ],
+      "answer": "a",
+      "limitations": "Not every snow crystal is a perfect six-armed star; many form as columns, needles or irregular bits.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 22, 28, 29. Prompt says “many” and the limitation covers irregular crystals (L02-RF11). Round 1 revision (2026-10-14): hint replaced; it now rules out the wind distractor and leaves the arrangement-versus-single-molecule decision. Verify-agent (2026-10-14): Checked against the p. 22, 28 and 29 renders; the NOAA NESDIS page was reopened (ice's six-sided structure is the source of snowflake symmetry). Key a is unique and the limitation covers L02-RF11. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer describes the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q28",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O4",
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "table salt",
+        "crystal shape",
+        "prediction",
+        "cleavage",
+        "extended structure"
+      ],
+      "familyId": "L02-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Table salt grains tend to be tiny cubes. Suppose one grain is crushed into much smaller bits. Under a microscope, what would the bits most likely look like?",
+      "accessiblePrompt": "Table salt grains tend to be tiny cubes. Suppose one grain is crushed into much smaller bits. Under a microscope, what would the bits most likely look like?",
+      "explanation": "The cube-like pattern of sodium and chlorine runs through the whole grain, so salt tends to split along flat faces that meet at right angles. Crushing only makes the pieces smaller: each bit is still table salt, with sodium and chlorine in a 1:1 ratio and the same repeating pattern inside.",
+      "misconception": "Breaking a crystal into smaller pieces destroys its atomic pattern or separates its elements.",
+      "hint": "Does crushing change what the substance is, or only the size of the pieces?",
+      "followUpId": "L02-Q16",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; Key Science Concept: Modeling Molecules and Extended Structures; 4. Patterns You Can See",
+        "pages": {
+          "printed": [
+            26,
+            28,
+            29
+          ],
+          "pdf": [
+            62,
+            64,
+            65
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "Grains of table salt seen under a microscope have a cube shape that reflects atomic-level structure."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "A sodium chloride crystal can be very small or big because it is an extended structure, not molecules of a set size."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals, Figure 3A)",
+          "supports": "Salt's repeating subunit is sodium and chlorine atoms alternating to form a cube, in a 1:1 ratio."
+        },
+        {
+          "type": "external",
+          "title": "14.4: Halide Minerals (Mineralogy, Perkins et al.)",
+          "publisher": "LibreTexts Geosciences",
+          "url": "https://geo.libretexts.org/Bookshelves/Geology/Mineralogy_(Perkins_et_al.)/14%3A_Mineral_Descriptions/14.04%3A_Halide_Minerals",
+          "accessed": "2026-10-14",
+          "supports": "Halite (rock salt) is a cubic mineral with pronounced cubic cleavage, so it breaks along flat faces at right angles; it also occurs in granular or massive forms and as hopper crystals."
+        }
+      ],
+      "choices": [
+        {
+          "id": "e",
+          "text": "Smooth, round specks, because crushing wipes out the atom pattern",
+          "rationale": "Crushing makes the pieces smaller, but it can't rearrange the sodium and chlorine inside each piece; the pattern is still there."
+        },
+        {
+          "id": "f",
+          "text": "Smaller cube-like bits, since the pattern runs all through the grain",
+          "rationale": "Correct. The cube-like arrangement repeats through the whole grain, so salt tends to break along flat faces at right angles, giving smaller cube-like bits."
+        },
+        {
+          "id": "g",
+          "text": "Separate specks of pure sodium and specks of pure chlorine",
+          "rationale": "Crushing changes only the size. Each bit is still table salt, sodium and chlorine at 1:1, because an extended structure can be any size."
+        },
+        {
+          "id": "h",
+          "text": "Six-sided bits like snow crystals, since all crystals share that shape",
+          "rationale": "Each crystal's shape reflects its own pattern: salt's is cube-like, while ice's is built on hexagons."
+        }
+      ],
+      "answer": "f",
+      "limitations": "Crushed salt also has chipped, irregular bits; cube-like is a tendency, not a rule.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Pages rendered and checked: printed 26, 28, 29. Retargeted in review round 1 (see below); the old item's choices a–d were retired and the new texts use fresh IDs e–h. Round 1 revision (2026-10-14): rewritten as a prediction because the old item repeated Q27's idea, distractors and misconception (pedagogy review). Objectives [O4, O3], category application, difficulty 3, followUpId L02-Q16 kept. The key (68 characters) is not the longest; h is 70. Evidence: p. 29 cube grains, p. 28 'very small or big' sodium chloride crystal, p. 26 cube subunit, LibreTexts halite cleavage (L02-RF11). The science pass above was given to the earlier version, so this text still needs verification. Verify-agent (2026-10-14): Checked the rewritten item against the p. 26, 28 and 29 renders; the LibreTexts halite page was reopened (cubic mineral, pronounced cubic cleavage, also granular, massive and hopper forms). Prediction f is the most likely outcome and the limitation states it as a tendency. This closes the fresh-verification note for the rewrite. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: retargeted from 'cube grains suggest a cube pattern' (same idea as Q27) to a crushed-salt prediction; new choices e–h; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q29",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O2"
+      ],
+      "conceptTags": [
+        "guiding question",
+        "chemical bond",
+        "composition",
+        "structure",
+        "variety of materials"
+      ],
+      "familyId": "L02-F06",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Fewer than a hundred kinds of atoms occur naturally, yet Earth holds millions of different materials. Which idea from this lesson best explains how that is possible?",
+      "accessiblePrompt": "Fewer than a hundred kinds of atoms occur naturally, yet Earth holds millions of different materials. Which idea from this lesson best explains how that is possible?",
+      "explanation": "Atoms are like letters: a small set can be combined into a huge number of words. The same few kinds of atoms bond in different numbers (H₂O versus H₂O₂) and different arrangements (butane versus isobutane), and some repeat into crystals and polymers, so a short list of elements can build millions of materials.",
+      "misconception": "Each different material needs its own kind of atom.",
+      "hint": "Think about how a small set of letters can spell an enormous number of words.",
+      "followUpId": "L02-Q08",
+      "scope": {
+        "lessonId": "L02",
+        "section": "1. Molecules and Chemical Bonds",
+        "pages": {
+          "printed": [
+            22
+          ],
+          "pdf": [
+            58
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            22
+          ],
+          "pdfPages": [
+            58
+          ],
+          "locator": "Section 1. Molecules and Chemical Bonds",
+          "supports": "A small number of elements makes up millions of materials, much as a few letters make up all the words in a language: each element is one kind of atom, and atoms join through chemical bonds into more complex particles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            24
+          ],
+          "pdfPages": [
+            60
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Composition, Figure 2A)",
+          "supports": "Water and hydrogen peroxide are made of the same two elements in different numbers, and they are different substances."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            25
+          ],
+          "pdfPages": [
+            61
+          ],
+          "locator": "Section 2. Composition and Structure of Molecules (Structure, Figure 2B)",
+          "supports": "Butane and isobutane have the same atoms arranged differently, and they have different characteristics and uses."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            65
+          ],
+          "locator": "Section 4. Patterns You Can See",
+          "supports": "Diamond and graphite are both made only of carbon, yet they are different materials."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Atoms bond in different numbers and arrangements",
+          "rationale": "Correct. Like letters spelling many words, a few kinds of atoms combine in different counts (H₂O and H₂O₂) and different arrangements (butane and isobutane), and they can also repeat into crystals and polymers."
+        },
+        {
+          "id": "b",
+          "text": "Every material has its own special kind of atom",
+          "rationale": "Water and hydrogen peroxide are built from the same two kinds of atoms, and diamond and graphite are both only carbon, so different materials can share the same kinds of atoms."
+        },
+        {
+          "id": "c",
+          "text": "Atoms turn into new kinds of atoms as materials form",
+          "rationale": "Bonding joins atoms without changing which element they are: the hydrogen and oxygen atoms in water are still hydrogen and oxygen atoms."
+        },
+        {
+          "id": "d",
+          "text": "Each element's atoms come in many sizes and shapes",
+          "rationale": "In this lesson each element is made of one kind of atom. The variety comes from how atoms combine, not from many versions of each atom."
+        }
+      ],
+      "answer": "a",
+      "review": {
+        "status": "reviewed",
+        "notes": "Replacement for rejected L02-Q11, written to the pedagogy-review-agent's round-1 specification. Tests the lesson's guiding question and key idea 1, which no other item tests. Pages rendered and checked: printed 22 (letters-and-words idea), 24, 25, 29. No natural-element count is stated (L02-RF1). Choice lengths 47–52 characters; the key is not the longest. Needs independent science and pedagogy review. Verify-agent (2026-10-14): This new item had no separate science-review or pedagogy-review pass, so verify-agent checked both. Science: p. 22 render (letters-and-words idea; each element is one kind of atom), p. 24, p. 25 and p. 29; no exact natural-element count is stated (L02-RF1). Pedagogy: it tests the guiding question, which no other item does; choices are parallel (47–52 characters); the hint points to the analogy without naming the key. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L02-Q30",
+      "lessonId": "L02",
+      "objectiveIds": [
+        "L02-O3"
+      ],
+      "conceptTags": [
+        "crystal",
+        "ice",
+        "chemical bond",
+        "attractions between molecules",
+        "melting"
+      ],
+      "familyId": "L02-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An ice crystal is built from water molecules. When ice melts, its regular pattern breaks down, but every particle is still a whole water molecule. What does this suggest about what holds ice together?",
+      "accessiblePrompt": "An ice crystal is built from water molecules, each made of two hydrogen atoms and one oxygen atom. When ice melts, its regular pattern breaks down, but every particle is still a whole water molecule. What does this suggest about what holds ice together?",
+      "explanation": "Inside each water molecule, strong chemical bonds hold the two hydrogen atoms to the oxygen atom. In an ice crystal, weaker attractions between molecules keep them in a regular pattern. Melting needs only enough energy to loosen those weaker attractions, so the pattern breaks down while every molecule stays whole.",
+      "misconception": "Ice is held together by the same bonds that hold each water molecule together, so melting must break water molecules apart.",
+      "hint": "Look closely at what melting changed and what it left the same.",
+      "followUpId": "L02-Q15",
+      "scope": {
+        "lessonId": "L02",
+        "section": "3. Crystals and Polymers; Key Science Concept: Modeling Molecules and Extended Structures",
+        "pages": {
+          "printed": [
+            26,
+            28
+          ],
+          "pdf": [
+            62,
+            64
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            26
+          ],
+          "pdfPages": [
+            62
+          ],
+          "locator": "Section 3. Crystals and Polymers (Crystals)",
+          "supports": "In a crystal made of molecules, strong chemical bonds hold the atoms inside each molecule together, while other attractions hold the molecules to one another; water forms such a crystal, ice, when it freezes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            64
+          ],
+          "locator": "Key Science Concept: Modeling Molecules and Extended Structures",
+          "supports": "Ice is a crystal of water molecules."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.1 Intermolecular Forces",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+          "accessed": "2026-10-14",
+          "supports": "Attractions between small molecules are usually weak compared with the bonds inside them, and intramolecular forces keep a molecule intact; for example, breaking the bonds inside one mole of HCl takes about 25 times more energy than overcoming the attractions between its molecules to boil it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "The bonds inside each molecule are stronger than the attractions between molecules",
+          "rationale": "Correct. Melting loosens the attractions between molecules but leaves the bonds inside each molecule unbroken, so the bonds inside must be the stronger ones."
+        },
+        {
+          "id": "b",
+          "text": "The attractions between molecules are stronger than the bonds inside each molecule",
+          "rationale": "If that were so, melting would split the molecules apart before freeing them from one another. The opposite happens: every molecule stays whole."
+        },
+        {
+          "id": "c",
+          "text": "Ice is one giant molecule, held together by the same kind of bond throughout",
+          "rationale": "Ice is a crystal of many separate water molecules. Melting frees them from their places but leaves each one whole, so the attractions between molecules must be a different, weaker kind of link."
+        },
+        {
+          "id": "d",
+          "text": "Nothing holds the molecules; they simply rest against one another",
+          "rationale": "Then ice could not hold a solid shape. Attractions between the molecules keep them locked in the crystal's regular pattern."
+        }
+      ],
+      "answer": "a",
+      "limitations": "Liquid water still has attractions between its molecules; melting loosens the ice pattern rather than freeing every molecule completely. The item compares only bonds inside molecules with attractions between them.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Coverage addition recommended by the pedagogy-review-agent (round 1): the p. 26 contrast between strong bonds inside molecules and weaker attractions between molecules in ice and sugar crystals was tested by no item. Pages rendered and checked: printed 26, 28. Conceptual only: no temperatures and no procedures. Distractors adjusted from the reviewer's draft: the reviewer's 'melting splits each water molecule' contradicted the stem, so it was replaced by the 'one giant molecule' misconception. Needs independent science and pedagogy review. Verify-agent (2026-10-14): This new item had no separate science-review or pedagogy-review pass, so verify-agent checked both. Science: p. 26 render (strong bonds inside molecules, other attractions between molecules in a molecular crystal such as ice) and p. 28; OpenStax §10.1 was reopened (HCl: about 17 kJ to overcome the attractions versus about 430 kJ, roughly 25 times more, to break the bonds). The stem describes ordinary melting; no temperatures or procedures. Pedagogy: distinct from Q21 (what repeats) and Q22 (scale); the key ties distractor b in length. Every cited printed/PDF pair checked (PDF = printed + 36); follow-up is in another family. Status set to reviewed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

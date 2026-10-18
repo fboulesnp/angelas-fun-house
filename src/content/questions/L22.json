@@ -1,0 +1,3661 @@
+{
+  "lessonId": "L22",
+  "questions": [
+    {
+      "id": "L22-Q01",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "dynamic system",
+        "gradual change",
+        "sudden change"
+      ],
+      "familyId": "L22-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each ecosystem change by how fast it happens: gradual (over many years) or sudden (within hours, days or weeks).",
+      "accessiblePrompt": "Sort each ecosystem change by how fast it happens: gradual, meaning over many years, or sudden, meaning within hours, days or weeks. The changes are: a pond fills with layers of dead plant matter; a glacier melts back, uncovering gravel; shrubs and young trees spread into a meadow as its soil thickens; a volcano buries a hillside in lava; an oil spill coats a coastal marsh; and bulldozers clear a forest to build a shopping center.",
+      "items": [
+        {
+          "id": "a",
+          "text": "A pond fills with layers of dead plant matter",
+          "rationale": "Dead matter piles up a little each year, so the pond turns shallow over centuries."
+        },
+        {
+          "id": "b",
+          "text": "A glacier melts back, uncovering gravel",
+          "rationale": "Glacier retreat exposes new ground slowly, over decades or longer."
+        },
+        {
+          "id": "c",
+          "text": "Shrubs and young trees spread into a meadow as its soil thickens",
+          "rationale": "Soil builds up and trees take hold over many years, so this is gradual succession."
+        },
+        {
+          "id": "d",
+          "text": "A volcano buries a hillside in lava",
+          "rationale": "An eruption can transform the land within hours or days."
+        },
+        {
+          "id": "e",
+          "text": "An oil spill coats a coastal marsh",
+          "rationale": "A spill is a human-caused event that harms a marsh within hours or days."
+        },
+        {
+          "id": "f",
+          "text": "Bulldozers clear a forest to build a shopping center",
+          "rationale": "Clearing land removes a whole habitat within weeks, a rapid human-caused change."
+        }
+      ],
+      "bins": [
+        {
+          "id": "g",
+          "label": "Gradual change"
+        },
+        {
+          "id": "s",
+          "label": "Sudden change"
+        }
+      ],
+      "answer": {
+        "a": "g",
+        "b": "g",
+        "c": "g",
+        "d": "s",
+        "e": "s",
+        "f": "s"
+      },
+      "explanation": "Ecosystems change at very different speeds. Ponds filling in, glaciers retreating and meadows turning into forest unfold over many years, while eruptions, spills and land clearing reshape an area almost at once. Sudden changes can be natural or caused by people.",
+      "misconception": "Ecosystems only change when a disaster strikes; slow change doesn't count.",
+      "hint": "Picture each change on a calendar: would you notice it within a week, or only after many years?",
+      "followUpId": "L22-Q07",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            285,
+            286,
+            287
+          ],
+          "pdf": [
+            321,
+            322,
+            323
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction",
+          "supports": "Some ecosystem changes are slow, such as a glacier receding; others are rapid; people also change ecosystems, for example by clearing forest."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            286
+          ],
+          "pdfPages": [
+            322
+          ],
+          "locator": "Section 1, Gradual Change",
+          "supports": "A pond can slowly fill in and turn into a wetland, a meadow and then a forest over many years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change",
+          "supports": "Eruptions, hurricanes, floods, oil spills and clearing land for farming or construction can change ecosystems rapidly."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 285-287. Land clearing is binned as sudden because p. 287 lists it among rapid human-caused changes; the prompt defines sudden as hours to weeks. Round 1 (2026-10-14): the gradual items no longer carry speed words ('slowly', 'bit by bit'), so the bins can't be sorted by adverb; the hint says 'many years' instead of 'many lifetimes', since glacier retreat and shrubs spreading can be seen within one lifetime; the 'human-caused change' tag moved to new L22-Q29, which tests natural versus human-caused change. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 285, 286, 287 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: speed words removed from the gradual items; hint says 'many years'; 'human-caused change' tag moved to new Q29"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q02",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "dynamic system",
+        "ecosystem change"
+      ],
+      "familyId": "L22-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Year after year, a pond looks almost the same to you. Why do ecologists still call the pond ecosystem a dynamic system?",
+      "accessiblePrompt": "Year after year, a pond looks almost the same to you. Why do ecologists still call the pond ecosystem a dynamic system?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its parts keep changing, even when the changes are small or slow",
+          "rationale": "Right. Water level, temperature, populations and the layer on the bottom shift constantly, even when you can't see it."
+        },
+        {
+          "id": "b",
+          "text": "It becomes dynamic only after a flood, fire or other disaster strikes it",
+          "rationale": "Disasters are one kind of change, but a dynamic system changes all the time, including slow, everyday changes."
+        },
+        {
+          "id": "c",
+          "text": "Its water moves, so it counts as dynamic, while a dry meadow would not",
+          "rationale": "Dynamic doesn't mean flowing water. A meadow is dynamic too, because its populations and resources keep changing."
+        },
+        {
+          "id": "d",
+          "text": "Its populations stay fixed while only the weather around it changes",
+          "rationale": "Pond populations rise and fall as resources change; they are part of what makes the system dynamic."
+        }
+      ],
+      "answer": "a",
+      "explanation": "'Dynamic' means constantly changing. Every ecosystem, from a pond to a forest, has populations rising and falling and nonliving conditions shifting, whether the changes are fast or slow. Looking the same from the shore doesn't mean nothing is changing.",
+      "misconception": "If an ecosystem looks the same, nothing in it is changing.",
+      "hint": "Think about what happens at the bottom of the pond each fall when leaves and dead plants sink.",
+      "followUpId": "L22-Q04",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            286
+          ],
+          "pdf": [
+            322
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "A dynamic system is a system characterized by constant change."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            286
+          ],
+          "pdfPages": [
+            322
+          ],
+          "locator": "Section 1, Ecosystems Change Over Time",
+          "supports": "The living and nonliving parts of a pond are always changing; changes can be small or large, gradual or sudden."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 285-286. Round 1 (2026-10-14): the science reviewer's optional scope change (add p. 285) was not applied: the p. 286 text also defines a dynamic system, and the evidence already cites the p. 285 vocabulary box. Final verification (verify-agent, 2026-10-14): checked against rendered p. 286 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q03",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "ecological succession",
+        "pond to forest",
+        "wetland"
+      ],
+      "familyId": "L22-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "A small pond has no stream flowing into it. Following the pattern of change in the lesson, put these stages of the area in order, from earliest to latest.",
+      "accessiblePrompt": "A small pond has no stream flowing into it. Following the pattern of change in the lesson, put these stages of the area in order, from earliest to latest. The stages are: a grassy meadow with voles, rabbits and foxes; an open pond with fish and ducks; a forest with tall trees, deer and nesting birds; and a shallow marsh with cattails, frogs and turtles.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Grassy meadow with voles, rabbits and foxes",
+          "rationale": "When the wetland fills in, grasses and shrubs spread and the area becomes a meadow."
+        },
+        {
+          "id": "b",
+          "text": "Open pond with fish and ducks",
+          "rationale": "The story starts with open water that supports aquatic animals."
+        },
+        {
+          "id": "c",
+          "text": "Forest with tall trees, deer and nesting birds",
+          "rationale": "Thicker soil built by meadow plants lets large trees grow, bringing forest animals."
+        },
+        {
+          "id": "d",
+          "text": "Shallow marsh with cattails, frogs and turtles",
+          "rationale": "As dead matter fills the pond, it turns shallow and wetland plants take over."
+        }
+      ],
+      "answer": [
+        "b",
+        "d",
+        "a",
+        "c"
+      ],
+      "ends": [
+        "Earliest",
+        "Latest"
+      ],
+      "conditions": "No stream refills the pond, and no major disturbance interrupts the change.",
+      "limitations": "This is one common pattern of ecological succession. Real places can follow different paths and take different amounts of time.",
+      "explanation": "As the pond fills with decayed matter it becomes a wetland, then a meadow, and then, as the soil thickens, a forest. Each stage changes the physical conditions, which lets new populations move in. The whole change can take thousands of years.",
+      "misconception": "An ecosystem jumps straight from one type to a very different one, such as pond to forest, in a single step.",
+      "hint": "Ask which stage has the most open water and which has the deepest soil.",
+      "followUpId": "L22-Q06",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            286
+          ],
+          "pdf": [
+            322
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            286
+          ],
+          "pdfPages": [
+            322
+          ],
+          "locator": "Section 1, Gradual Change and Figure 1 (rendered)",
+          "supports": "Without a stream, a pond fills in and becomes a wetland, then a meadow, then a forest; this pattern is ecological succession and can take thousands of years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 286 (Figure 1 panels Year 1, 500, 1000, 1500). Conditions rule out a stream or disturbance so only one order is defensible; limitations note succession is a pattern, not a timetable (L22-RF3). Final verification (verify-agent, 2026-10-14): checked against rendered p. 286 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q04",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "ecological succession",
+        "resources",
+        "population change"
+      ],
+      "familyId": "L22-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "As a pond slowly fills in with decayed plant and animal matter, its populations of fish and ducks shrink. What is the best explanation?",
+      "accessiblePrompt": "As a pond slowly fills in with decayed plant and animal matter, its populations of fish and ducks shrink. What is the best explanation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The open water they need shrinks as the bottom builds up",
+          "rationale": "Right. Fish need open water to live in, and ducks need it to swim, dabble and dive. As the pond fills with dead matter and plants, that resource shrinks, so their populations decline."
+        },
+        {
+          "id": "e",
+          "text": "The fish and ducks slowly change into frogs and turtles that suit the marsh",
+          "rationale": "Animals can't turn into other species. Fish and ducks decline as their open water shrinks, while frogs and turtles that already live in wetlands move in."
+        },
+        {
+          "id": "c",
+          "text": "Every population has a fixed time limit in a pond, and theirs runs out",
+          "rationale": "Populations don't follow a built-in timer. They change because the resources and conditions they need change."
+        },
+        {
+          "id": "d",
+          "text": "Fish and ducks leave on purpose so wetland species can have a turn",
+          "rationale": "Organisms don't move out to make room. They decline because the habitat no longer gives them what they need."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Populations rise and fall as resources change. When a pond fills in, it loses the open water fish and ducks need, while the shallow, wet ground suits wetland plants and animals. The change in conditions, not a schedule, drives the change in populations.",
+      "misconception": "Populations change on a set schedule rather than in response to changing resources.",
+      "hint": "What does a fish need that a muddy marsh has less of?",
+      "followUpId": "L22-Q15",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            286
+          ],
+          "pdf": [
+            322
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            286
+          ],
+          "pdfPages": [
+            322
+          ],
+          "locator": "Section 1, Gradual Change",
+          "supports": "As resources fluctuate, populations rise and fall; as the pond gets shallower, fish and duck populations decline while wetland plants thrive."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 286. Round 1 (2026-10-14): the key no longer says 'deep' open water, because dabbling ducks feed in shallow water; open water is the resource both groups lose (science fix). The plants-hunt-animals distractor was replaced with new choice e, the belief that animals turn into new kinds to fit a new habitat (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered p. 286 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key and explanation say 'open water', not 'deep, open water' (dabbling ducks feed in shallow water)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: throwaway plants-hunt-animals distractor replaced with an animals-change-species misconception (new choice e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q05",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "pioneer species",
+        "ecological succession",
+        "volcanic eruption"
+      ],
+      "familyId": "L22-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A lava flow has cooled into a field of hard, black rock with almost no soil. Which living things are most likely to settle and live there first?",
+      "accessiblePrompt": "A lava flow has cooled into a field of hard, black rock with almost no soil. Which living things are most likely to settle and live there first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Small, hardy plants and mosses growing in cracks in the rock",
+          "rationale": "Right. Pioneers like these need little soil and can grow in cracks and air pockets in cooled lava."
+        },
+        {
+          "id": "b",
+          "text": "Tall oak and pine trees whose deep roots need thick, rich soil",
+          "rationale": "Large trees need deep soil and plenty of water, which bare lava can't provide yet."
+        },
+        {
+          "id": "c",
+          "text": "Cattails and reeds that grow best in shallow standing water",
+          "rationale": "Cattails need wet, muddy ground; fresh lava is dry rock."
+        },
+        {
+          "id": "d",
+          "text": "Herds of deer and elk searching for fresh grass to graze on",
+          "rationale": "Deer and elk can't settle until enough plants have grown for them to eat."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The first settlers on bare ground are tough organisms that need little or no soil, such as small hardy plants and mosses. Their seeds and spores, along with small animals, arrive on the wind or with other animals. Bigger plants and animals come later, once soil and food build up.",
+      "misconception": "A mature forest community can move onto bare rock right away.",
+      "hint": "What would a newcomer need to survive on bare rock, and which of these could get by there?",
+      "followUpId": "L22-Q08",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            287
+          ],
+          "pdf": [
+            323
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change and photo caption",
+          "supports": "Seeds and small insects arrive on the wind or with animals; hardy plants that don't need soil can sprout in cracks and holes of cooled lava."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction",
+          "supports": "Small flowering plants and mosses are the first to grow on gravel left by a melting glacier."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 285 and 287. Round 1 (2026-10-14): the stem asks which living things will 'settle and live there first' instead of 'start growing', so the verb no longer rules out the deer and elk choice (both reviewers). Choice a says mosses grow 'in' cracks rather than 'rooted', since mosses have no true roots. The old hint ('almost no soil to grow in') assumed plants, so it was made neutral. Final verification (verify-agent, 2026-10-14): checked against rendered p. 287 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem asks what will 'settle and live there first', so deer and elk are a fair distractor"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: same stem change; mosses no longer called 'rooted'; hint no longer assumes plants"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q06",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "pioneer species",
+        "soil formation",
+        "ecological succession"
+      ],
+      "familyId": "L22-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Near a melting glacier, small plants and mosses are the first to grow on the newly uncovered ground. Years later, larger plants can grow there too. How did the first plants make that possible?",
+      "accessiblePrompt": "Near a melting glacier, small plants and mosses are the first to grow on the newly uncovered ground. Years later, larger plants can grow there too. How did the first plants make that possible?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As they grew and died, their remains helped build a layer of soil",
+          "rationale": "Right. Decaying plant matter forms soil that holds water and nutrients for larger plants."
+        },
+        {
+          "id": "b",
+          "text": "They pushed the glacier back by warming the ground with their leaves",
+          "rationale": "The ice melts because of climate, not because of plants; the plants arrive after the ice is gone."
+        },
+        {
+          "id": "e",
+          "text": "Nothing; the glacier left rich soil, and they just grew there first",
+          "rationale": "A retreating glacier leaves mostly bare rock and gravel. The rich soil builds up over years, largely from the remains of the first plants and mosses."
+        },
+        {
+          "id": "d",
+          "text": "They used up the gravel's minerals so later plants had no competition",
+          "rationale": "Using up resources would make it harder, not easier, for later plants to grow."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Early settlers change the ground itself. When they grow, die and decay, they add organic matter that becomes soil, which holds water and nutrients for bigger plants. Each community creates conditions that help the next one.",
+      "misconception": "Early organisms are just placeholders and don't change conditions for later ones.",
+      "hint": "What do dead leaves and stems turn into over time?",
+      "followUpId": "L22-Q10",
+      "scope": {
+        "lessonId": "L22",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            285,
+            287
+          ],
+          "pdf": [
+            321,
+            323
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction",
+          "supports": "As small plants and mosses grow and die near a melting glacier, they form layers of soil that can support larger plants."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change",
+          "supports": "On old lava, a layer of soil develops over time and more organisms move in as they find the resources they need."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 285 and 287. Round 1 (2026-10-14): choice c (tree seeds stored inside small plants) matched no real misconception and was replaced with new choice e, the idea that early organisms change nothing (pedagogy fix). The stem now says 'newly uncovered ground' instead of 'bare gravel', so the stem itself doesn't rule out choice e. The science reviewer's optional scope note (section 'Introduction' while p. 287 is cited) was left as is: the idea is taught on both pages. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 285, 287 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: unrealistic stored-seeds distractor replaced with a 'glacier left rich soil' misconception (new choice e); stem says 'newly uncovered ground'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q07",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "recovery",
+        "ecological succession",
+        "disturbance"
+      ],
+      "familyId": "L22-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A volcanic eruption has buried a forest under ash and rock. Which statements about how the area recovers are supported by evidence? Select all that apply.",
+      "accessiblePrompt": "A volcanic eruption has buried a forest under ash and rock. Which statements about how the area recovers are supported by evidence? Select all that apply. The statements are: recovery takes many years, as communities replace one another; the ecosystem that forms may resemble the old forest, or it may differ; large plant eaters such as elk settle first, and plants follow them; recovery follows a set timetable, with a full forest back after 100 years.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Recovery takes many years, as communities replace one another",
+          "rationale": "Correct. Soil and communities rebuild slowly, often over many decades or longer."
+        },
+        {
+          "id": "b",
+          "text": "The ecosystem that forms may resemble the old forest, or it may differ",
+          "rationale": "Correct. Sometimes the recovered ecosystem is like the old one and sometimes it ends up different."
+        },
+        {
+          "id": "e",
+          "text": "Large plant eaters such as elk settle first, and plants follow them",
+          "rationale": "Large plant eaters can't live in an area until plants have grown back for them to eat, so plants come first."
+        },
+        {
+          "id": "f",
+          "text": "Recovery follows a set timetable, with a full forest back after 100 years",
+          "rationale": "Timing depends on the site, the survivors and the new arrivals. Recovery can take centuries, or end in a different community."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "After a sudden disturbance, ecosystems usually recover slowly through ecological succession, with plants returning before the animals that eat them can stay. The timing and the result depend on the site, which organisms survive or arrive, and how the land has changed, so the new ecosystem may look like the old one or quite different.",
+      "misconception": "Recovery follows a fixed order and timetable and always restores the same ecosystem.",
+      "hint": "Rebuilding soil comes before rebuilding a forest. What has to be in place before each kind of newcomer can stay?",
+      "followUpId": "L22-Q03",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            287
+          ],
+          "pdf": [
+            323
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change",
+          "supports": "Ecosystems usually recover after long periods of gradual change; the result sometimes resembles the earlier ecosystem and sometimes differs."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Following a disturbance, a community may or may not return to its earlier equilibrium state."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 287. Brief: recovery is not instantaneous, guaranteed, or always a return to an identical state (L22-RF3). Round 1 (2026-10-14): the stem no longer says the eruption 'wiped out' the forest (that repeats the absolute claim L22-RF2 corrects). Both wrong choices used extreme words while both keys were hedged, so the old 'year or two' and 'exactly the same' distractors were replaced with new choices e (plant eaters settle before plants) and f (a fixed 100-year timetable), and key a no longer says 'usually' (pedagogy fix). The brief's point that recovery is not instant, guaranteed or identical is still tested by b and f. Final verification (verify-agent, 2026-10-14): checked against rendered p. 287 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'wiped out' removed from the stem; absolute-word distractors replaced (new choices e, f); key a unhedged so wording no longer cues the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q08",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1",
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "recovery",
+        "survivors",
+        "volcanic eruption",
+        "evidence"
+      ],
+      "familyId": "L22-F04",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "After Mount St. Helens erupted in 1980, scientists found that some pocket gophers, buried roots and seeds had survived under the ash. How would these survivors most likely affect the area's recovery?",
+      "accessiblePrompt": "After the Mount St. Helens volcano erupted in 1980, scientists found that some pocket gophers, buried roots and seeds had survived under the ash. How would these survivors most likely affect the area's recovery?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They could speed it up by acting as starting points from which life spreads",
+          "rationale": "Right. Survivors can regrow and spread right away, loosen soil and help newcomers settle."
+        },
+        {
+          "id": "b",
+          "text": "They would have no effect, since only organisms blown in from afar start recovery",
+          "rationale": "Newcomers matter, but survivors already on site can regrow and spread without waiting for wind-blown seeds."
+        },
+        {
+          "id": "c",
+          "text": "They would block recovery by using up the resources newcomers need",
+          "rationale": "Survivors added living material and loosened soil, helping rather than blocking new arrivals."
+        },
+        {
+          "id": "d",
+          "text": "They show the eruption didn't really change the ecosystem",
+          "rationale": "The eruption still destroyed huge areas; a few survivors don't mean nothing changed."
+        }
+      ],
+      "answer": "a",
+      "limitations": "Survivors are one factor; recovery speed also depends on how deep the ash is and what arrives from outside.",
+      "explanation": "Big eruptions can kill most living things nearby, but rarely every one. At Mount St. Helens, survivors under the ash, such as gophers, roots and seeds, became islands of life from which plants and animals spread. Recovery depends on both survivors and new arrivals.",
+      "misconception": "A catastrophe always wipes out every living thing, so recovery must start from nothing.",
+      "hint": "Think about where the first new plants could come from right after the ash settles.",
+      "followUpId": "L22-Q19",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            287
+          ],
+          "pdf": [
+            323
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change",
+          "supports": "After an eruption, the area recovers through ecological succession as organisms arrive and soil forms."
+        },
+        {
+          "type": "external",
+          "title": "Ecology - Mount St. Helens National Monument",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/geology-and-ecology-of-national-parks/ecology-mount-st-helens-national-monument",
+          "accessed": "2026-10-14",
+          "supports": "Seeds, spores, gophers, fungi, plants with underground buds and ground-dwelling insects survived the 1980 eruption and played a vital role in recovery."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 287 plus the USGS page. The textbook says an eruption can kill all living things (L22-RF2); this item corrects that with the external source. Round 1 (2026-10-14): the hint no longer compares the two sources of new life, which gave the answer away, and choice b is now a full sentence parallel with the others (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered p. 287 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives the answer; choice b made grammatically parallel"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q09",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "prairie dogs",
+        "interactions",
+        "resources",
+        "shelter"
+      ],
+      "familyId": "L22-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Prairie dogs help different members of a grassland in different ways. Match each organism to one way prairie dogs can help it.",
+      "accessiblePrompt": "Prairie dogs help different members of a grassland in different ways. Match each organism to one way prairie dogs can help it. The organisms are: burrowing owl; black-footed ferret; and grassland grasses. The ways are: food, eating prairie dogs almost exclusively; a home, nesting and sheltering in empty burrows; and soil, getting more water and air around the roots.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Burrowing owl",
+          "rationale": "Burrowing owls nest and hide in prairie dog burrows; they don't hunt prairie dogs."
+        },
+        {
+          "id": "b",
+          "text": "Black-footed ferret",
+          "rationale": "Ferrets eat prairie dogs as nearly their only prey; food is the link they can't do without."
+        },
+        {
+          "id": "d",
+          "text": "Grassland grasses",
+          "rationale": "Burrows let water soak in and air mix into the soil around grass roots."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Food: eats prairie dogs almost exclusively"
+        },
+        {
+          "id": "r2",
+          "text": "Home: nests and shelters in empty burrows"
+        },
+        {
+          "id": "r4",
+          "text": "Soil: gets more water and air around its roots"
+        }
+      ],
+      "answer": {
+        "a": "r2",
+        "b": "r1",
+        "d": "r4"
+      },
+      "explanation": "Prairie dogs affect other species in several ways at once: as prey, as burrow builders and as soil changers. That is why changes in prairie dog numbers ripple through the whole grassland.",
+      "misconception": "A species only matters to the animals that eat it.",
+      "hint": "For each organism, ask: does it eat prairie dogs, live in their holes, or grow roots in the soil they dig through?",
+      "followUpId": "L22-Q12",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288,
+            289
+          ],
+          "pdf": [
+            324,
+            325
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, Some Species Benefit from Prairie Dogs",
+          "supports": "Burrows let water soak into the ground and add air to the soil, which benefits grassland plants; burrowing owls, rattlesnakes and ferrets use burrows as shelter."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            289
+          ],
+          "pdfPages": [
+            325
+          ],
+          "locator": "Section 2",
+          "supports": "Black-footed ferrets prey almost exclusively on prairie dogs."
+        },
+        {
+          "type": "external",
+          "title": "Prairie Dogs: Pipsqueaks of the Prairie",
+          "publisher": "National Park Service (Badlands National Park)",
+          "url": "https://home.nps.gov/articles/prairie-dogs.htm",
+          "accessed": "2026-10-14",
+          "supports": "Burrowing owls nest in abandoned prairie dog burrows, and black-footed ferrets eat prairie dogs exclusively."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 288-289. Round 1 (2026-10-14): the prompt now asks for one way prairie dogs can help each organism instead of the 'main way', since on colony centers grasses are clipped back and 'main benefit' is arguable (science fix). The bison row and the Grazing option were removed (pedagogy fix): together with the grasses row they gave away L22-Q10's burrows-soil-grass-bison chain. That removal also takes out the 'plenty of grass' wording the science reviewer flagged, so the science reviewer's replacement Grazing text and bison rationale were not needed (see L22-RF10). Ferrets also shelter in burrows, but the burrowing owl can't take the Food option, so the one-to-one match is still unique. With three pairs the item is rated difficulty 1. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 288, 289 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks for 'one way prairie dogs can help it'; the 'plenty of grass' bison wording is gone with the bison row (pedagogy fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bison row and Grazing option removed so the item no longer gives away Q10; three pairs, difficulty 1"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q10",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "prairie dogs",
+        "indirect effects",
+        "soil",
+        "bison"
+      ],
+      "familyId": "L22-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Bison never go into prairie dog burrows. So how can prairie dog burrows still help bison?",
+      "accessiblePrompt": "Bison never go into prairie dog burrows. So how can prairie dog burrows still help bison?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Burrows let water and air into the soil, which helps fresh grass grow",
+          "rationale": "Right. Burrows improve the soil, the soil helps grass regrow, and bison graze that fresh growth."
+        },
+        {
+          "id": "e",
+          "text": "Rainwater pools in the burrows, giving bison ponds to drink from",
+          "rationale": "Burrows don't hold ponds; rain soaks into the soil around them. Bison benefit through the fresh grass the improved soil helps grow."
+        },
+        {
+          "id": "c",
+          "text": "Prairie dogs eat only shrubs, so they leave all of the grass for bison",
+          "rationale": "Prairie dogs eat and clip grass too; bison gain from the improved soil and fresh regrowth, not from grass being left alone."
+        },
+        {
+          "id": "d",
+          "text": "Bison eat the prairie dogs that wander too far from their burrows",
+          "rationale": "Bison are plant eaters; they don't prey on prairie dogs."
+        }
+      ],
+      "answer": "a",
+      "explanation": "One species can help another without ever touching it. Prairie dog tunnels let water and air into the soil, which helps grass grow, and bison graze that fresh growth. Prairie dogs' clipping also keeps the grass short and young, and young growth is more nutritious, so bison often prefer to graze on prairie dog towns. Effects often travel through a chain of resources.",
+      "misconception": "One species can only affect another through direct contact, such as eating it or sharing a home.",
+      "hint": "Follow a chain: burrows, then soil, then what, then bison?",
+      "followUpId": "L22-Q16",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288
+          ],
+          "pdf": [
+            324
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, Some Species Benefit from Prairie Dogs",
+          "supports": "Burrows let water soak into the ground and add air to the soil, which benefits grassland plants and, through them, bison."
+        },
+        {
+          "type": "external",
+          "title": "Black-tailed Prairie Dogs",
+          "publisher": "National Park Service (Scotts Bluff National Monument)",
+          "url": "https://www.nps.gov/articles/000/black-tailed-prairie-dogs.htm",
+          "accessed": "2026-10-17",
+          "supports": "Bison, bighorn sheep and pronghorn benefit from prairie dogs clipping the grass, because constant trimming produces growth that is higher in nutritional quality; prairie dogs probably clip vegetation to keep a clear view of approaching predators."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 288. Round 1 (2026-10-14): the key says burrows help fresh grass grow instead of 'more grass', and the explanation adds that bison favor the nutritious regrowth on prairie dog towns (science fix; L22-RF10; NPS 'Black-tailed Prairie Dogs', opened 2026-10-17). The reviewer's clause 'even though the towns hold less total grass' was left out: neither NPS page opened says how much grass colonies hold, and published studies of the amount differ, so only the better-supported quality claim is made. Choice b (bison calves in burrows) was ruled out by the stem and was replaced with new choice e, a water-pooling near miss (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered p. 288 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key says burrows help fresh grass grow (not 'more grass'); nutritious-regrowth sentence; choice c rationale; NPS record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-ruled distractor replaced with a rain-pooling near miss (new choice e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q11",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "interdependence",
+        "populations",
+        "feeding relationships",
+        "seed question"
+      ],
+      "familyId": "L22-F06",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Why can a change in just one population, such as a sharp drop in prairie dogs, change the sizes of many other populations in the same ecosystem?",
+      "accessiblePrompt": "Why can a change in just one population, such as a sharp drop in prairie dogs, change the sizes of many other populations in the same ecosystem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Living things are linked by resources, feeding relationships and other interactions",
+          "rationale": "Right. Because organisms depend on one another, a change in one population spreads along those links."
+        },
+        {
+          "id": "e",
+          "text": "The drop changes the local climate that the other species depend on",
+          "rationale": "Losing prairie dogs doesn't change the climate. It changes food, shelter and soil, which other species rely on."
+        },
+        {
+          "id": "c",
+          "text": "Only predators that eat prairie dogs can be affected, never plants or other animals",
+          "rationale": "Prairie dogs also change soil and plants and provide shelter, so effects reach far beyond their predators."
+        },
+        {
+          "id": "d",
+          "text": "Every population in an ecosystem rises and falls together by the same amount",
+          "rationale": "Some populations go up while others go down; they don't move in lockstep."
+        }
+      ],
+      "answer": "a",
+      "explanation": "No population lives alone. Organisms share and compete for resources, eat and are eaten, and provide shelter or other help for one another. Because of these links, a change in one population can push others up or down.",
+      "misconception": "Populations in an ecosystem are independent of one another.",
+      "hint": "List the ways prairie dogs connect to other organisms: food, homes, soil and more.",
+      "followUpId": "L22-Q13",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288,
+            289
+          ],
+          "pdf": [
+            324,
+            325
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, Changes to Living Parts of Ecosystems",
+          "supports": "Changes in prairie dog populations have caused changes in the populations of other species."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            289
+          ],
+          "pdfPages": [
+            325
+          ],
+          "locator": "Section 2, Prairie Dog Populations Change Prairie Ecosystems",
+          "supports": "Prairie dogs change the resources available, which changes other populations; some species are linked through interactions to many others."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            293
+          ],
+          "pdfPages": [
+            329
+          ],
+          "locator": "Lesson Summary",
+          "supports": "Changes in living parts of ecosystems change available resources, which increases or decreases other populations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L22 (Why can changing one population affect others? Organisms are connected by resources, feeding relationships and other interactions), polished with the lesson's prairie dog example. Drafted from rendered pp. 288-289, 293. Round 1 (2026-10-14): choice b simply denied the stem ('only the prairie dog population will change') and was replaced with new choice e, a wrong mechanism (climate) for the ripple (pedagogy fix). The seed-question wording and key are unchanged. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 288, 289 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-denying choice b replaced with a local-climate distractor (new choice e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q12",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2",
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "food web",
+        "prediction",
+        "black-footed ferret",
+        "prairie dogs"
+      ],
+      "familyId": "L22-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Use the food web. If prairie dogs disappeared from this grassland, which population would most likely suffer the biggest drop, and why?",
+      "accessiblePrompt": "Use the food web, described here in words. Grass is eaten by prairie dogs, rabbits and bison. Prairie dogs are eaten by black-footed ferrets and by coyotes. Rabbits are eaten by coyotes. If prairie dogs disappeared from this grassland, which population would most likely suffer the biggest drop, and why?",
+      "diagram": {
+        "kind": "network",
+        "layout": "web",
+        "caption": "A simplified grassland food web. Arrows point from the food to the eater.",
+        "alt": "Simplified grassland food web with arrows pointing from food to eater. Grass is eaten by prairie dogs, rabbits and bison. Prairie dogs are eaten by black-footed ferrets and by coyotes. Rabbits are eaten by coyotes. In this web, the ferret's only food is prairie dogs, while the coyote eats both prairie dogs and rabbits.",
+        "nodes": [
+          {
+            "id": "grass",
+            "label": "Grass",
+            "group": "producer"
+          },
+          {
+            "id": "pd",
+            "label": "Prairie dog",
+            "group": "herbivore"
+          },
+          {
+            "id": "rabbit",
+            "label": "Rabbit",
+            "group": "herbivore"
+          },
+          {
+            "id": "bison",
+            "label": "Bison",
+            "group": "herbivore"
+          },
+          {
+            "id": "ferret",
+            "label": "Black-footed ferret",
+            "group": "predator"
+          },
+          {
+            "id": "coyote",
+            "label": "Coyote",
+            "group": "predator"
+          }
+        ],
+        "edges": [
+          {
+            "from": "grass",
+            "to": "pd"
+          },
+          {
+            "from": "grass",
+            "to": "rabbit"
+          },
+          {
+            "from": "grass",
+            "to": "bison"
+          },
+          {
+            "from": "pd",
+            "to": "ferret"
+          },
+          {
+            "from": "pd",
+            "to": "coyote"
+          },
+          {
+            "from": "rabbit",
+            "to": "coyote"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Black-footed ferrets, since prairie dogs are their only food here",
+          "rationale": "Right. With their only food gone, ferrets have nothing to switch to."
+        },
+        {
+          "id": "b",
+          "text": "Coyotes, because they are the largest and strongest predator in the web",
+          "rationale": "Coyotes also eat rabbits here, so they have another food source to fall back on."
+        },
+        {
+          "id": "c",
+          "text": "Bison, because they eat the very same grass that prairie dogs eat",
+          "rationale": "Bison eat grass, not prairie dogs, so their food is not cut off; any effect on them would be smaller."
+        },
+        {
+          "id": "d",
+          "text": "Rabbits, because they lose the neighbors whose burrows they share",
+          "rationale": "Rabbits may lose burrow shelter, but they still have grass to eat. The ferret loses its only food."
+        }
+      ],
+      "answer": "a",
+      "limitations": "A food web shows only feeding links. Real grasslands have more species and other links, such as shelter in burrows.",
+      "explanation": "A species that depends on a single food source is hit hardest when that source disappears. Black-footed ferrets eat almost nothing but prairie dogs, which is a major reason their numbers fell as prairie dogs declined. Predators with several kinds of prey, like coyotes, can switch.",
+      "misconception": "The biggest or most powerful predator is always the one most affected by losing prey.",
+      "hint": "Count how many arrows lead into each predator.",
+      "followUpId": "L22-Q13",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288,
+            289
+          ],
+          "pdf": [
+            324,
+            325
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            289
+          ],
+          "pdfPages": [
+            325
+          ],
+          "locator": "Section 2",
+          "supports": "Black-footed ferrets prey almost exclusively on prairie dogs, and as prairie dogs declined, ferret populations also declined."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, figure caption",
+          "supports": "Prairie dogs are prey for black-footed ferrets and rattlesnakes and provide burrows for rabbits."
+        },
+        {
+          "type": "external",
+          "title": "Prairie Dogs: Pipsqueaks of the Prairie",
+          "publisher": "National Park Service (Badlands National Park)",
+          "url": "https://home.nps.gov/articles/prairie-dogs.htm",
+          "accessed": "2026-10-14",
+          "supports": "Black-footed ferrets eat prairie dogs exclusively; coyotes, badgers and birds of prey also hunt prairie dogs."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 288-289. Food web is simplified and original; the alt text carries every link. Rabbits and bison could also decline somewhat (lost shelter, grass changes), which rationales acknowledge, but the ferret loses its only food in this web. Round 1 (2026-10-14): the explanation says the ferret's diet is 'a major reason' its numbers fell, since disease also drove the decline (science reviewer's optional wording); followUpId changed from L22-Q17 to L22-Q13, which practices predicting several ripples after a prairie dog crash (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 288, 289 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional wording applied; explanation says 'a major reason' ferret numbers fell"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId Q17 to Q13"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q13",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2",
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "prediction",
+        "prairie dogs",
+        "population change",
+        "interdependence"
+      ],
+      "familyId": "L22-F07",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "In a grassland like the one in the lesson, the prairie dog population crashes. Based on the lesson's evidence, which predictions are supported? Select all that apply.",
+      "accessiblePrompt": "In a grassland like the one in the lesson, the prairie dog population crashes. Based on the lesson's evidence, which predictions are supported? Select all that apply. The predictions are: black-footed ferret numbers fall; burrowing owls decline as fewer burrows are available; rabbits increase because they no longer share grass with prairie dogs; shrubs that prairie dogs clip back disappear too.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Black-footed ferret numbers fall",
+          "rationale": "Correct. Ferrets depend almost entirely on prairie dogs as prey."
+        },
+        {
+          "id": "b",
+          "text": "Burrowing owls decline as fewer burrows are available",
+          "rationale": "Correct. Owls rely on prairie dog burrows; grasslands without prairie dogs have far fewer owls."
+        },
+        {
+          "id": "e",
+          "text": "Rabbits increase because they no longer share grass with prairie dogs",
+          "rationale": "Rabbits use prairie dog burrows for shelter, and the lesson's comparisons found far fewer rabbits where prairie dogs were missing."
+        },
+        {
+          "id": "d",
+          "text": "Shrubs that prairie dogs clip back disappear too",
+          "rationale": "With fewer prairie dogs clipping them, shrubs would more likely spread, not vanish."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "conditions": "Assume the rest of the grassland, such as rainfall and grazing by other animals, stays about the same.",
+      "explanation": "A crash in one population sends effects in different directions. Species that depend on prairie dogs for food or shelter, such as ferrets, owls and rabbits, decline, while shrubs that prairie dogs keep clipped may spread. Predicting ripples means following each link one at a time.",
+      "misconception": "When one population crashes, every other population in the ecosystem crashes too.",
+      "hint": "For each species, ask: does it need prairie dogs, or do prairie dogs hold it back?",
+      "followUpId": "L22-Q11",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288,
+            289
+          ],
+          "pdf": [
+            324,
+            325
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2",
+          "supports": "Where prairie dogs are absent, burrowing owls and rabbits are absent or much lower; owls and ferrets use burrows."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            289
+          ],
+          "pdfPages": [
+            325
+          ],
+          "locator": "Section 2",
+          "supports": "Ferret populations declined as prairie dogs declined; prairie dogs eat shrubs and reduce them."
+        },
+        {
+          "type": "external",
+          "title": "Interactive Effects of Black-Tailed Prairie Dogs and Cattle on Shrub Encroachment in a Desert Grassland Ecosystem",
+          "publisher": "PLOS ONE (Public Library of Science)",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154748",
+          "accessed": "2026-10-17",
+          "supports": "Prairie dogs limit shrubs by clipping them and eating their seedlings; after five years, mesquite was three to five times more abundant in plots where prairie dogs were removed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 288-289. Bison are left out of the choices because the bison response to fewer prairie dogs is debatable (less grazing competition versus poorer soil). Round 1 (2026-10-14): choice d now names only shrubs, because the NPS reports that clearing grass makes room for forbs and grass is itself a flowering plant; the explanation says shrubs that prairie dogs keep clipped may spread, and the PLOS ONE shrub experiment is cited (science fix; L22-RF10). Absolute choice c ('Every population ... falls') was replaced with new choice e, the tempting idea that grass-sharing rabbits gain (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 288, 289 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d limited to shrubs; explanation says clipped shrubs may spread; PLOS ONE record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute-word choice c replaced with a rabbits-gain-grass misconception (new choice e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q14",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "prairie dogs",
+        "competition",
+        "not every species benefits",
+        "resources"
+      ],
+      "familyId": "L22-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Prairie dogs clip and eat shrubs as well as grass. Suppose a grassland's prairie dogs multiply and those shrubs become scarce. What would most likely happen to an animal that feeds mainly on the shrubs?",
+      "accessiblePrompt": "Prairie dogs clip and eat shrubs as well as grass. Suppose a grassland's prairie dogs multiply and those shrubs become scarce. What would most likely happen to an animal that feeds mainly on the shrubs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its population would likely shrink, since its food is scarcer",
+          "rationale": "Right. Less food usually means fewer animals can survive and raise young."
+        },
+        {
+          "id": "e",
+          "text": "Its population would grow, since prairie dog burrows improve the soil for all plants",
+          "rationale": "Better soil can't save shrubs that prairie dogs keep clipping and eating; as stated, the shrubs are scarce, so the animal has less food."
+        },
+        {
+          "id": "c",
+          "text": "Nothing would change, because it never eats prairie dogs itself",
+          "rationale": "Species can be linked through shared food plants, not only as predator and prey."
+        },
+        {
+          "id": "d",
+          "text": "It would switch to hunting and eating prairie dogs instead",
+          "rationale": "A plant eater can't simply become a hunter; diets don't change that way."
+        }
+      ],
+      "answer": "a",
+      "conditions": "As stated, the shrubs become scarce and the animal has no other main food source.",
+      "limitations": "Real effects depend on the place and on what else an animal can eat.",
+      "explanation": "A change that helps some species can harm others. When prairie dogs cut back the shrubs, animals that depend on those plants have less food, so their numbers tend to fall. The same species can be good news for owls and ferrets and bad news for a shrub eater.",
+      "misconception": "A species that helps some members of an ecosystem must help all of them.",
+      "hint": "Follow the food: what happens to the shrub eater's meals?",
+      "followUpId": "L22-Q12",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            289
+          ],
+          "pdf": [
+            325
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            289
+          ],
+          "pdfPages": [
+            325
+          ],
+          "locator": "Section 2, Some Species Do Not Benefit from Prairie Dogs",
+          "supports": "When prairie dogs increase, they eat shrubs and reduce them, leaving less food for animals that eat those plants."
+        },
+        {
+          "type": "external",
+          "title": "Prairie Dogs: Pipsqueaks of the Prairie",
+          "publisher": "National Park Service (Badlands National Park)",
+          "url": "https://home.nps.gov/articles/prairie-dogs.htm",
+          "accessed": "2026-10-17",
+          "supports": "Changes in plant growth on prairie dog towns draw grazers such as bison and pronghorn."
+        },
+        {
+          "type": "external",
+          "title": "Interactive Effects of Black-Tailed Prairie Dogs and Cattle on Shrub Encroachment in a Desert Grassland Ecosystem",
+          "publisher": "PLOS ONE (Public Library of Science)",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154748",
+          "accessed": "2026-10-17",
+          "supports": "Prairie dogs limit shrubs by clipping them and eating their seedlings; after five years, mesquite was three to five times more abundant in plots where prairie dogs were removed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 289. The textbook's pronghorn example is disputed (L22-RF4), so the item uses an unnamed shrub eater under stated conditions. Round 1 (2026-10-14): the prompt no longer says prairie dogs eat 'flowering plants' (grass is a flowering plant and forbs increase on prairie dog towns), the explanation says prairie dogs cut back the shrubs, the NPS record now states a claim from the source, and the PLOS ONE shrub experiment is cited (science fix; L22-RF10). Absolute choice b was replaced with new choice e, a soil-helps-every-plant near miss; its rationale relies on the stated conditions rather than the reviewer's 'better soil mainly boosts grass', which no opened source states. The learner-facing limitations no longer discuss pronghorn (that note stays here and in L22-RF4); followUpId changed from L22-Q18 to L22-Q12 (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered p. 289 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says prairie dogs clip and eat shrubs (no 'flowering plants'); explanation and NPS supports reworded; PLOS ONE record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute choice b replaced (new choice e); limitations rewritten for learners; followUpId Q18 to Q12"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q15",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "beavers",
+        "nonliving factors",
+        "water flow",
+        "light"
+      ],
+      "familyId": "L22-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "A beaver dam changes nonliving parts of a stream ecosystem. Match each nonliving change to the population change it leads to.",
+      "accessiblePrompt": "A beaver dam changes nonliving parts of a stream ecosystem. Match each nonliving change to the population change it leads to. The nonliving changes are: water behind the dam becomes deep and slow; more sunlight reaches the ground where trees were cut; more water spreads into the soil far downstream. The population changes are: pond plants and animals that can't live in fast water move in; small plants on the forest floor near the dam grow faster and feed more moose and elk; plant communities well below the dam grow lush and support other organisms.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Water behind the dam becomes deep and slow",
+          "rationale": "Calm, deep water suits aquatic plants and animals that can't survive in a fast, shallow stream."
+        },
+        {
+          "id": "b",
+          "text": "More sunlight reaches the ground where trees were cut",
+          "rationale": "Extra light lets small plants grow faster, giving plant eaters like moose and elk more food."
+        },
+        {
+          "id": "c",
+          "text": "More water spreads into the soil far downstream",
+          "rationale": "Water is a resource for plants, so downstream plant communities grow thick and support other life."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Pond plants and animals that can't live in fast water move in"
+        },
+        {
+          "id": "r2",
+          "text": "Small plants on the forest floor near the dam grow faster and feed more moose and elk"
+        },
+        {
+          "id": "r3",
+          "text": "Plant communities well below the dam grow lush and support other organisms"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3"
+      },
+      "explanation": "Beavers are living things, but their dams work largely by changing nonliving conditions: water depth and speed, light, and how much water reaches the soil. Each of those changes decides which plants and animals can thrive.",
+      "misconception": "Only living things, like predators and food, can change populations; nonliving conditions don't matter.",
+      "hint": "Ask which living things would welcome each condition: calm water, extra sunlight or damp soil.",
+      "followUpId": "L22-Q04",
+      "scope": {
+        "lessonId": "L22",
+        "section": "3. Changes to Nonliving Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            290
+          ],
+          "pdf": [
+            326
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            290
+          ],
+          "pdfPages": [
+            326
+          ],
+          "locator": "Section 3, Changes to Nonliving Parts of Ecosystems",
+          "supports": "Deep, slow pond water attracts aquatic plants and animals; more light where trees were cut helps small plants that feed moose and elk; more water downstream promotes lush plant growth."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 290. Round 1 (2026-10-14): the right-side texts are tied to places (near the dam, well below the dam) so the light and downstream-water pairs can no longer be swapped (pedagogy fix). 'Well below the dam' was used instead of the reviewer's 'far downstream' so the option doesn't echo the left item word for word. Final verification (verify-agent, 2026-10-14): checked against rendered p. 290 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: right-side texts tied to places so no two pairs can be swapped"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q16",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "nonliving factors",
+        "living factors",
+        "soil",
+        "drought"
+      ],
+      "familyId": "L22-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which of these are changes to nonliving parts of an ecosystem? Select all that apply.",
+      "accessiblePrompt": "Which of these are changes to nonliving parts of an ecosystem? Select all that apply. The choices are: prairie dog burrows let more rainwater and air into the soil; a long drought lowers the water level in a marsh; cattails spread across the shallow edges of a pond; burrowing owls move into the empty burrows of a prairie dog town.",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Prairie dog burrows let more rainwater and air into the soil",
+          "rationale": "Correct. Soil water and air are nonliving, even though an animal caused the change."
+        },
+        {
+          "id": "f",
+          "text": "A long drought lowers the water level in a marsh",
+          "rationale": "Correct. Water level is a nonliving condition."
+        },
+        {
+          "id": "g",
+          "text": "Cattails spread across the shallow edges of a pond",
+          "rationale": "Cattails are living things; their spread is a population change, not a nonliving one."
+        },
+        {
+          "id": "h",
+          "text": "Burrowing owls move into the empty burrows of a prairie dog town",
+          "rationale": "Owls are living things responding to the shelter that burrows provide."
+        }
+      ],
+      "answer": [
+        "e",
+        "f"
+      ],
+      "explanation": "Nonliving parts of an ecosystem include water, light, soil, air and temperature. A drought lowers water levels, and burrows change how much water and air the soil holds. A living thing can cause a change to a nonliving part, as prairie dogs do to soil and beavers do to a stream; cattails and owls, by contrast, are living things responding to conditions.",
+      "misconception": "Anything caused by an animal counts as a living part of the ecosystem.",
+      "hint": "For each statement, ask what is actually changing. Is that thing alive, or is it a condition such as water, soil or light?",
+      "followUpId": "L22-Q10",
+      "scope": {
+        "lessonId": "L22",
+        "section": "3. Changes to Nonliving Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            287,
+            288,
+            290
+          ],
+          "pdf": [
+            323,
+            324,
+            326
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change",
+          "supports": "Droughts are among the natural events that can change ecosystems."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, Some Species Benefit from Prairie Dogs",
+          "supports": "Prairie dog burrows let water soak into the ground and add air to the soil."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            290
+          ],
+          "pdfPages": [
+            326
+          ],
+          "locator": "Section 3, Changes to Nonliving Parts of Ecosystems",
+          "supports": "Light and water are nonliving resources; when beaver dams change them, populations change in response."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 290. Round 1 (2026-10-14): rewritten (pedagogy fix) because the beaver version asked for the same two facts L22-Q15 already labels as nonliving, and its wrong answers were Q15's right column. The item now moves beyond the beaver example (burrows and soil, p. 288; drought, p. 287) and keeps its type, family, misconception and difficulty; choice IDs e-h are new. The cattail choice says 'across the shallow edges of a pond' instead of the reviewer's 'as it turns shallow', because that clause names a nonliving change and would make the choice ambiguous. Re-checked against rendered pp. 287, 288 and 290. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 287, 288, 290 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier beaver version; the item was then rewritten by the pedagogy fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten beyond the beaver example to end the overlap with Q15 (new choices e-h); scope pp. 287, 288, 290"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q17",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "data analysis",
+        "population change",
+        "human impact"
+      ],
+      "familyId": "L22-F09",
+      "category": "application",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "The table, estimated from a textbook illustration, compares populations in a Gulf of Mexico wetland before and after people changed the landscape. Sort each species by what happened to its population.",
+      "accessiblePrompt": "A table, estimated from a textbook illustration, compares populations in a Gulf of Mexico wetland before and after people changed the landscape. The table gives relative population sizes, on a scale where 4 is the largest, before and after the changes: American black bears, 1 before and 0 after; manatees, 2 before and one half after; raccoons, 1 before and 4 after; blue catfish, 2 before and 2 after; pocketbook mussels, 4 before and 0 after; cattle egrets, 0 before and 4 after. Sort each species by what happened to its population: increased, decreased, or stayed about the same. The species are American black bears, manatees, raccoons, blue catfish, pocketbook mussels and cattle egrets.",
+      "diagram": {
+        "kind": "table",
+        "caption": "A Gulf of Mexico wetland before and after people changed the landscape (relative sizes estimated from the textbook's illustrated graph; not real counts)",
+        "alt": "Table of relative population sizes before and after people changed a Gulf of Mexico wetland, on a scale where 4 is the largest. American black bears: 1 before, 0 after. Manatees: 2 before, 0.5 after. Raccoons: 1 before, 4 after. Blue catfish: 2 before, 2 after. Pocketbook mussels: 4 before, 0 after. Cattle egrets: 0 before, 4 after.",
+        "columns": [
+          "Species",
+          "Before changes",
+          "After changes"
+        ],
+        "rows": [
+          [
+            "American black bears",
+            1,
+            0
+          ],
+          [
+            "Manatees",
+            2,
+            0.5
+          ],
+          [
+            "Raccoons",
+            1,
+            4
+          ],
+          [
+            "Blue catfish",
+            2,
+            2
+          ],
+          [
+            "Pocketbook mussels",
+            4,
+            0
+          ],
+          [
+            "Cattle egrets",
+            0,
+            4
+          ]
+        ]
+      },
+      "items": [
+        {
+          "id": "a",
+          "text": "American black bears",
+          "rationale": "1 before and 0 after: decreased."
+        },
+        {
+          "id": "b",
+          "text": "Manatees",
+          "rationale": "2 before and one half after: decreased."
+        },
+        {
+          "id": "c",
+          "text": "Raccoons",
+          "rationale": "1 before and 4 after: increased."
+        },
+        {
+          "id": "d",
+          "text": "Blue catfish",
+          "rationale": "2 before and 2 after: about the same."
+        },
+        {
+          "id": "e",
+          "text": "Pocketbook mussels",
+          "rationale": "4 before and 0 after: decreased."
+        },
+        {
+          "id": "f",
+          "text": "Cattle egrets",
+          "rationale": "0 before and 4 after: increased."
+        }
+      ],
+      "bins": [
+        {
+          "id": "inc",
+          "label": "Increased"
+        },
+        {
+          "id": "dec",
+          "label": "Decreased"
+        },
+        {
+          "id": "same",
+          "label": "About the same"
+        }
+      ],
+      "answer": {
+        "a": "dec",
+        "b": "dec",
+        "c": "inc",
+        "d": "same",
+        "e": "dec",
+        "f": "inc"
+      },
+      "limitations": "The values are relative sizes read from an illustration, not real survey counts.",
+      "explanation": "Reading the comparison species by species shows a mixed pattern: raccoons and cattle egrets rose; black bears, manatees and pocketbook mussels fell; and blue catfish stayed about the same. A change to an ecosystem doesn't push every population the same way.",
+      "misconception": "A change to an ecosystem makes every population decrease.",
+      "hint": "For each species, compare the two numbers: is the after number bigger, smaller or equal?",
+      "followUpId": "L22-Q21",
+      "scope": {
+        "lessonId": "L22",
+        "section": "Key Science Concept: Ecosystem Changes Shift Populations",
+        "pages": {
+          "printed": [
+            291
+          ],
+          "pdf": [
+            327
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            291
+          ],
+          "pdfPages": [
+            327
+          ],
+          "locator": "Key Science Concept: Ecosystem Changes Shift Populations (graph, rendered at 250 dpi)",
+          "supports": "After people changed Gulf of Mexico landscapes, black bears, manatees and pocketbook mussels decreased, raccoons and cattle egrets increased, and blue catfish changed little."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from the rendered p. 291 graph (blue = before, gold = after, matching the panel frames; L22-RF1). Values are relative estimates; catfish bars are nearly equal, so the table gives 2 and 2. Round 1 (2026-10-14): the prompt says the values are estimated from a textbook illustration, so the bear and mussel losses aren't read as a real Gulf record (science reviewer's optional note; the real Louisiana black bear has recovered). Directions re-checked on the rendered p. 291 graph. Final verification (verify-agent, 2026-10-14): checked against rendered p. 291 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional framing applied; prompt says the values come from a textbook illustration"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q18",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "data analysis",
+        "observation versus explanation",
+        "evidence"
+      ],
+      "familyId": "L22-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Using the before-and-after table for the textbook's illustrated Gulf of Mexico wetland, which conclusions does the data support? Select all that apply.",
+      "accessiblePrompt": "Use the before-and-after table for the textbook's illustrated Gulf of Mexico wetland. The table gives relative population sizes, on a scale where 4 is the largest, before and after the changes: American black bears, 1 before and 0 after; manatees, 2 before and one half after; raccoons, 1 before and 4 after; blue catfish, 2 before and 2 after; pocketbook mussels, 4 before and 0 after; cattle egrets, 0 before and 4 after. Which conclusions does the data support? Select all that apply. The conclusions are: two species that were present before were missing afterward; manatees became much less common but were still present afterward; the table shows which resource change caused the raccoons to increase; the table shows the changes happened over about one year.",
+      "diagram": {
+        "kind": "table",
+        "caption": "A Gulf of Mexico wetland before and after people changed the landscape (relative sizes estimated from the textbook's illustrated graph; not real counts)",
+        "alt": "Table of relative population sizes before and after people changed a Gulf of Mexico wetland, on a scale where 4 is the largest. American black bears: 1 before, 0 after. Manatees: 2 before, 0.5 after. Raccoons: 1 before, 4 after. Blue catfish: 2 before, 2 after. Pocketbook mussels: 4 before, 0 after. Cattle egrets: 0 before, 4 after.",
+        "columns": [
+          "Species",
+          "Before changes",
+          "After changes"
+        ],
+        "rows": [
+          [
+            "American black bears",
+            1,
+            0
+          ],
+          [
+            "Manatees",
+            2,
+            0.5
+          ],
+          [
+            "Raccoons",
+            1,
+            4
+          ],
+          [
+            "Blue catfish",
+            2,
+            2
+          ],
+          [
+            "Pocketbook mussels",
+            4,
+            0
+          ],
+          [
+            "Cattle egrets",
+            0,
+            4
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "e",
+          "text": "Two species that were present before were missing afterward",
+          "rationale": "Correct. Black bears (1 to 0) and pocketbook mussels (4 to 0) both drop to zero."
+        },
+        {
+          "id": "f",
+          "text": "Manatees became much less common but were still present afterward",
+          "rationale": "Correct. Manatees fall from 2 to one half, not to zero."
+        },
+        {
+          "id": "c",
+          "text": "The table shows which resource change caused the raccoons to increase",
+          "rationale": "The table shows what changed, not why. Explaining the raccoon increase needs more evidence about resources."
+        },
+        {
+          "id": "g",
+          "text": "The table shows the changes happened over about one year",
+          "rationale": "The table gives no dates, so it can't show how long the changes took."
+        }
+      ],
+      "answer": [
+        "e",
+        "f"
+      ],
+      "limitations": "The values are relative sizes read from an illustration, not real survey counts.",
+      "explanation": "Data like this records a pattern: which populations went up or down, and which fell to zero rather than to a small number. It can't by itself tell you the cause of each change or how long the changes took; for that, scientists gather more evidence, such as which resources changed and when. Keeping 'what happened' separate from 'why it happened' is a key science skill.",
+      "misconception": "A before-and-after table by itself shows what caused each change and how fast it happened.",
+      "hint": "Check each statement against the numbers. Does the table say anything about causes or dates?",
+      "followUpId": "L22-Q20",
+      "scope": {
+        "lessonId": "L22",
+        "section": "Key Science Concept: Ecosystem Changes Shift Populations",
+        "pages": {
+          "printed": [
+            291
+          ],
+          "pdf": [
+            327
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            291
+          ],
+          "pdfPages": [
+            327
+          ],
+          "locator": "Key Science Concept: Ecosystem Changes Shift Populations (graph, rendered)",
+          "supports": "The graph shows black bears and pocketbook mussels only before the changes and manatees reduced to a small population after; the spread attributes the shifts to changes in limited resources without showing the cause for each species or a timescale for the changes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 291. Tests the observation/explanation distinction from the brief's guardrails. Round 1 (2026-10-14): choices a, b and d were replaced with new choices e, f and g (pedagogy fix): the old keys repeated L22-Q17's direction readings and d repeated Q17's misconception. The item now tests reading zero against a small value and the limits of the data (no cause, no timing), and is rated difficulty 3. Choice c is unchanged. The prompt says the wetland is the textbook's illustration (science reviewer's optional framing note). Re-checked on the rendered p. 291 graph: exactly two species (bears, mussels) have no after bar, and manatees keep a small one. Final verification (verify-agent, 2026-10-14): checked against rendered p. 291 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional framing applied; prompt says the wetland is the textbook's illustration"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices a, b, d replaced (new e, f, g) to test zero versus small values and the data's limits; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q19",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "evidence",
+        "comparison",
+        "patterns",
+        "prairie dogs"
+      ],
+      "familyId": "L22-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A scientist wants to test whether prairie dogs affect how many rabbits live in a grassland. Which evidence would be strongest?",
+      "accessiblePrompt": "A scientist wants to test whether prairie dogs affect how many rabbits live in a grassland. Which evidence would be strongest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rabbit counts from many grasslands with and without prairie dogs",
+          "rationale": "Right. A repeated comparison shows whether rabbits are consistently different where prairie dogs are missing."
+        },
+        {
+          "id": "b",
+          "text": "Rabbit counts from many grasslands, all of which have prairie dogs",
+          "rationale": "With no grasslands lacking prairie dogs, there is nothing to compare, so you can't tell whether prairie dogs make a difference."
+        },
+        {
+          "id": "c",
+          "text": "One afternoon when a rabbit was seen near a prairie dog burrow",
+          "rationale": "A single sighting can't reveal a pattern; it could be chance."
+        },
+        {
+          "id": "d",
+          "text": "A detailed drawing that shows a rabbit resting inside a burrow",
+          "rationale": "A drawing is a model of an idea, not data collected from real grasslands."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Strong evidence comes from comparisons repeated across many places. By counting rabbits in many grasslands with prairie dogs and many without, scientists can see whether a consistent pattern appears. That is how researchers found that rabbits and burrowing owls are scarce where prairie dogs are missing.",
+      "misconception": "One observation, or data with no comparison group, is enough to show a cause.",
+      "hint": "To see whether prairie dogs make a difference, what do you need to compare against?",
+      "followUpId": "L22-Q09",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288
+          ],
+          "pdf": [
+            324
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, Changes to Living Parts of Ecosystems",
+          "supports": "Scientists compare grasslands with and without prairie dogs; where prairie dogs are absent, rabbits and owls are absent or lower; comparing many grasslands reveals patterns."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 288. Final verification (verify-agent, 2026-10-14): checked against rendered p. 288 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q20",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "observation",
+        "explanation",
+        "prediction",
+        "scientific reasoning"
+      ],
+      "familyId": "L22-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "classify",
+      "prompt": "In a made-up study, scientists surveyed 40 grasslands and wrote these statements. Sort each one: is it an observation, an explanation, or a prediction?",
+      "accessiblePrompt": "In a made-up study, scientists surveyed 40 grasslands and wrote these statements. Sort each one as an observation, which records what was seen or measured; an explanation, which says why or how something happens; or a prediction, which says what should happen next. The statements are: burrowing owls were found in 18 of 20 grasslands with prairie dogs and in 2 of 20 without them; bison spent more of their grazing time on prairie dog colonies than off them; owls choose prairie dog towns for the ready-made nests in empty burrows; burrows help grass grow by letting rain soak in and air reach the roots; a grassland that loses its prairie dogs should have fewer owls a few years later; if prairie dogs settle in a new grassland, bison there will likely start grazing on the colony.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Burrowing owls were found in 18 of 20 grasslands with prairie dogs and in 2 of 20 without them",
+          "rationale": "This records counts the scientists made, so it is an observation."
+        },
+        {
+          "id": "g",
+          "text": "Bison spent more of their grazing time on prairie dog colonies than off them",
+          "rationale": "This records where bison were seen grazing, without saying why, so it is an observation."
+        },
+        {
+          "id": "c",
+          "text": "Owls choose prairie dog towns for the ready-made nests in empty burrows",
+          "rationale": "This gives a reason for the owl pattern, so it is an explanation."
+        },
+        {
+          "id": "d",
+          "text": "Burrows help grass grow by letting rain soak in and air reach the roots",
+          "rationale": "This describes how the effect happens, so it is an explanation."
+        },
+        {
+          "id": "e",
+          "text": "A grassland that loses its prairie dogs should have fewer owls a few years later",
+          "rationale": "This says what should happen later in a new situation, so it is a prediction that can be checked."
+        },
+        {
+          "id": "h",
+          "text": "If prairie dogs settle in a new grassland, bison there will likely start grazing on the colony",
+          "rationale": "This forecasts a result that can be checked later, so it is a prediction."
+        }
+      ],
+      "bins": [
+        {
+          "id": "obs",
+          "label": "Observation (what was recorded)"
+        },
+        {
+          "id": "expl",
+          "label": "Explanation (why or how it happens)"
+        },
+        {
+          "id": "pred",
+          "label": "Prediction (what will happen)"
+        }
+      ],
+      "answer": {
+        "a": "obs",
+        "g": "obs",
+        "c": "expl",
+        "d": "expl",
+        "e": "pred",
+        "h": "pred"
+      },
+      "explanation": "Observations record what scientists measured or saw. Explanations propose why or how a pattern happens. Predictions use an explanation to say what should happen in a new situation, so the explanation can be tested.",
+      "misconception": "Observations, explanations and predictions are all the same thing.",
+      "hint": "For each statement, ask: is it something already measured, a reason for a pattern, or a claim about what should happen next?",
+      "followUpId": "L22-Q18",
+      "scope": {
+        "lessonId": "L22",
+        "section": "2. Changes to Living Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            288
+          ],
+          "pdf": [
+            324
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2",
+          "supports": "Evidence is information obtained through observation or experimentation; patterns in evidence help scientists understand how prairie dogs affect grasslands."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction, Vocabulary and NGSS practices",
+          "supports": "Students construct arguments supported by evidence and scientific reasoning to support or refute an explanation."
+        },
+        {
+          "type": "external",
+          "title": "Black-tailed Prairie Dogs",
+          "publisher": "National Park Service (Scotts Bluff National Monument)",
+          "url": "https://www.nps.gov/articles/000/black-tailed-prairie-dogs.htm",
+          "accessed": "2026-10-17",
+          "supports": "Bison, bighorn sheep and pronghorn benefit from prairie dogs clipping the grass, because constant trimming produces growth that is higher in nutritional quality; prairie dogs probably clip vegetation to keep a clear view of approaching predators."
+        },
+        {
+          "type": "external",
+          "title": "Prairie Dogs: Pipsqueaks of the Prairie",
+          "publisher": "National Park Service (Badlands National Park)",
+          "url": "https://home.nps.gov/articles/prairie-dogs.htm",
+          "accessed": "2026-10-17",
+          "supports": "Trimming by prairie dogs produces more nutritious growth, and the change in plant growth brings more grazers, such as bison and pronghorn, to prairie dog towns."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 285 and 288. The survey numbers and the bison grazing pattern are invented for the item and labeled made-up; the bison pattern matches the NPS descriptions of grazers drawn to prairie dog towns. Guardrail: distinguish observation, evidence and explanation. Round 1 (2026-10-14): the invented 'taller grass near mounds' observation (prairie dogs clip vegetation short) and the 'bison will find more grass' prediction (L22-RF10) were replaced with new items g and h about where bison graze (science fix; NPS records added). The prompt no longer suggests scientists studied imaginary places, items c and e lost their 'because' and 'if ... will' clue words, the hint no longer names clue words, and followUpId changed from L22-Q12 to L22-Q18 (pedagogy fix). Items d ('by') and h ('if ... will') keep natural wording, so clue words no longer decide every bin. Final verification (verify-agent, 2026-10-14): checked against rendered p. 288 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed; cosmetic fix: the explanation bin label now reads \"why or how it happens\", matching the accessible prompt and item d (how burrows help grass).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: invented 'taller grass' and 'more grass' items replaced with bison-grazing observation and prediction (new items g, h); NPS records added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt reworded; clue words removed from items c and e; new hint; followUpId Q12 to Q18"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q21",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O3"
+      ],
+      "conceptTags": [
+        "fair comparison",
+        "variables",
+        "beavers",
+        "evidence"
+      ],
+      "familyId": "L22-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Stream A has a beaver pond upstream and lush plants downstream. Stream B has no pond and sparse plants downstream. Which extra fact would most strengthen the claim that the beaver pond caused the difference?",
+      "accessiblePrompt": "Stream A has a beaver pond upstream and lush plants downstream. Stream B has no pond and sparse plants downstream. Which extra fact would most strengthen the claim that the beaver pond caused the difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both streams get similar rainfall and have similar soil and slope",
+          "rationale": "Right. Matching the other conditions rules out other causes, leaving the beaver pond as the most likely one."
+        },
+        {
+          "id": "b",
+          "text": "Stream B lies in a much drier, hotter valley than Stream A does",
+          "rationale": "This would weaken the claim: the dry valley, not the missing pond, could explain the sparse plants."
+        },
+        {
+          "id": "c",
+          "text": "Scientists have studied Stream A for many more years than Stream B",
+          "rationale": "Study length doesn't explain the plant difference; a fair comparison still needs similar conditions."
+        },
+        {
+          "id": "d",
+          "text": "The plants along Stream A are a noticeably brighter shade of green",
+          "rationale": "This only restates that Stream A's plants look healthier; it doesn't rule out other causes."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A comparison is fair only if the places are alike in every important way except the factor being tested. If rainfall, soil and slope match, the beaver pond becomes the most likely reason for the difference. Repeating the comparison at many streams makes the evidence stronger still.",
+      "misconception": "Any difference between two places must be caused by the one feature you happened to notice.",
+      "hint": "Besides a beaver pond, what else could make one stream's plants grow better?",
+      "followUpId": "L22-Q15",
+      "scope": {
+        "lessonId": "L22",
+        "section": "3. Changes to Nonliving Parts of Ecosystems",
+        "pages": {
+          "printed": [
+            290
+          ],
+          "pdf": [
+            326
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            290
+          ],
+          "pdfPages": [
+            326
+          ],
+          "locator": "Section 3, Changes to Nonliving Parts of Ecosystems",
+          "supports": "Scientists observing ecosystems with and without beavers find that beaver ponds provide more water to plant communities downstream."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 290. Final verification (verify-agent, 2026-10-14): checked against rendered p. 290 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q22",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "engineering design",
+        "wetland restoration"
+      ],
+      "familyId": "L22-F11",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Engineers want to rebuild coastal wetlands near a city. Sort each item: is it a criterion (what success looks like) or a constraint (a limit the design must work within)?",
+      "accessiblePrompt": "Engineers want to rebuild coastal wetlands near a city. Sort each item as a criterion, meaning what success looks like, or a constraint, meaning a limit the design must work within. The items are: the marsh must be healthy enough to support fish and nesting birds; nearby neighborhoods suffer less damage from storms; budget: no more than the city can afford; the design must not cause extra flooding of homes; levees and buildings already take up much of the nearby low land.",
+      "items": [
+        {
+          "id": "a",
+          "text": "The marsh must be healthy enough to support fish and nesting birds",
+          "rationale": "It describes the outcome success is judged by, so it is a criterion."
+        },
+        {
+          "id": "b",
+          "text": "Nearby neighborhoods suffer less damage from storms",
+          "rationale": "Better storm protection is a goal of the wetland buffer, so it is a criterion."
+        },
+        {
+          "id": "c",
+          "text": "Budget: no more than the city can afford",
+          "rationale": "Budget is a limit on the design, so it is a constraint."
+        },
+        {
+          "id": "d",
+          "text": "The design must not cause extra flooding of homes",
+          "rationale": "Not flooding homes is a safety limit the design must stay within, so it is a constraint."
+        },
+        {
+          "id": "e",
+          "text": "Levees and buildings already take up much of the nearby low land",
+          "rationale": "Existing structures restrict where and how the design can be built, so it is a constraint."
+        }
+      ],
+      "bins": [
+        {
+          "id": "crit",
+          "label": "Criterion"
+        },
+        {
+          "id": "con",
+          "label": "Constraint"
+        }
+      ],
+      "answer": {
+        "a": "crit",
+        "b": "crit",
+        "c": "con",
+        "d": "con",
+        "e": "con"
+      },
+      "explanation": "Criteria describe what a successful solution must achieve, such as healthy marsh and better storm protection. Constraints are limits such as cost, safety and the space available. A design that meets the criteria but breaks a constraint, like causing new floods, isn't acceptable.",
+      "misconception": "Criteria and constraints are the same thing: any requirement placed on a design.",
+      "hint": "Goals the design should reach are criteria; limits it must not cross are constraints.",
+      "followUpId": "L22-Q24",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            292,
+            293
+          ],
+          "pdf": [
+            328,
+            329
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            292
+          ],
+          "pdfPages": [
+            328
+          ],
+          "locator": "Section 4, Rebuilding Wetland Buffers",
+          "supports": "Criteria are the standards for judging success, such as restoring healthy wetlands; being too expensive or causing additional flooding are constraints."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            293
+          ],
+          "pdfPages": [
+            329
+          ],
+          "locator": "Section 4, Protecting Local Communities from Flooding",
+          "supports": "Densely populated, low coastal land protected by levees limits which designs can be built."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 292-293. Flooding and cost are binned as constraints because p. 292 names them as constraints. Round 1 (2026-10-14): every constraint used 'must' or 'has to' and neither criterion did, so items a, c and e were reworded: a criterion now uses 'must' and two constraints don't (pedagogy fix). Item e avoids the reviewer's 'limit where it can go', since 'limit' echoes the hint's definition of a constraint. followUpId changed from L22-Q28 to L22-Q24. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 292, 293 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: modal-verb cue removed (items a, c, e reworded); followUpId Q28 to Q24"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q23",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "precise criteria",
+        "engineering design",
+        "testing designs"
+      ],
+      "familyId": "L22-F11",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two teams describe success for a marsh project. Team 1: \"Make the coast better.\" Team 2: \"Within ten years, healthy marsh covers most of the project area.\" Why is Team 2's version more useful?",
+      "accessiblePrompt": "Two teams describe success for a marsh project. Team 1 writes: make the coast better. Team 2 writes: within ten years, healthy marsh covers most of the project area. Why is Team 2's version more useful?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "It can be measured, so the team can check whether the design worked",
+          "rationale": "Right. A marsh target with a deadline can be checked, so engineers can tell whether a design succeeded."
+        },
+        {
+          "id": "f",
+          "text": "It is longer, so it must include more science and more detail",
+          "rationale": "Length isn't the point. Team 1's goal is too vague to check, while Team 2's names what to measure and by when."
+        },
+        {
+          "id": "g",
+          "text": "It guarantees that the whole project will stay within the city's budget",
+          "rationale": "Cost is a constraint, and Team 2's statement says nothing about money."
+        },
+        {
+          "id": "h",
+          "text": "It means the design won't need any testing once it is built",
+          "rationale": "A precise criterion is what makes testing possible; it doesn't replace testing."
+        }
+      ],
+      "answer": "e",
+      "explanation": "A criterion is most useful when it is precise enough to check. \"Make the coast better\" can't be measured, but a marsh target with a deadline can, so engineers can compare designs and test results against it.",
+      "misconception": "Any goal statement works as a criterion, however vague.",
+      "hint": "Ten years from now, how would each team know whether it had succeeded?",
+      "followUpId": "L22-Q24",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            285,
+            292
+          ],
+          "pdf": [
+            321,
+            328
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction, NGSS box (ETS1.A)",
+          "supports": "The more precisely a design task's criteria and constraints are defined, the more likely the designed solution is to succeed."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            292
+          ],
+          "pdfPages": [
+            328
+          ],
+          "locator": "Section 4, Rebuilding Wetland Buffers",
+          "supports": "Solving a complex problem includes setting the criteria precisely; criteria are the standards a solution's success is judged by, such as restoring healthy wetlands."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Originally drafted from rendered pp. 285 and 292 as a criterion-naming item. Round 1 (2026-10-14): rewritten (pedagogy fix) because it repeated L22-Q22 item a with the wording swapped and its explanation reused a run of p. 292 wording. It now tests the ETS1.A idea, untested elsewhere in the bank, that precisely defined criteria make success more likely (pp. 285, 292): foundational, difficulty 2, family F11, choice IDs e-h new. The ten-year target is a made-up example, not a real project's goal. The science pass was recorded on the earlier version. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 285, 292 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier criterion-naming version; the item was then rewritten by the pedagogy fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a precise-criteria (ETS1.A) item; new choices e-h; difficulty 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q24",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4"
+      ],
+      "conceptTags": [
+        "river diversion",
+        "levee",
+        "criteria",
+        "constraints",
+        "flood risk"
+      ],
+      "familyId": "L22-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Near New Orleans, a gated diversion can let Mississippi River water through a levee into nearby marshes. Which way of running the gates best meets both the wetland criterion and the flood-safety constraint?",
+      "accessiblePrompt": "Near New Orleans, a gated diversion can let Mississippi River water through a levee into nearby marshes. Which way of running the gates best meets both the wetland criterion and the flood-safety constraint?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Open when floods aren't a risk so river water feeds the marsh; close when they are",
+          "rationale": "Right. Opening serves the wetland criterion, and closing respects the flood-safety constraint."
+        },
+        {
+          "id": "b",
+          "text": "Stay open all year, so the marsh gets as much river water as possible",
+          "rationale": "Ignoring flood risk would break a key constraint, and nearby neighborhoods could flood."
+        },
+        {
+          "id": "c",
+          "text": "Stay closed all year, so neighborhoods are never at risk from river water",
+          "rationale": "Then little river water or sediment would reach the marsh, so the wetland criterion wouldn't be met."
+        },
+        {
+          "id": "e",
+          "text": "Open them wide during coastal storm floods, then close them again once the weather is calm",
+          "rationale": "This reverses the safe timing: river water added during a storm flood could reach neighborhoods, and closing in calm weather keeps sediment from the marsh."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A good design balances criteria and constraints. The gates let river water and sediment feed the wetland when conditions are safe, which supports the marsh, and they close when high water threatens, which respects the limit of not flooding neighborhoods. Operators also adjust the gates for other reasons, such as salt water in the river.",
+      "misconception": "A design can satisfy only one goal, so engineers must pick either the environment or safety.",
+      "hint": "When would letting river water in be dangerous?",
+      "followUpId": "L22-Q22",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            293
+          ],
+          "pdf": [
+            329
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            293
+          ],
+          "pdfPages": [
+            329
+          ],
+          "locator": "Section 4, Protecting Local Communities from Flooding",
+          "supports": "The diversion is built into a levee and acts as a door, opened when there is no flood risk and closed when there is one."
+        },
+        {
+          "type": "external",
+          "title": "2024 Caernarvon Freshwater Diversion Operations and Monitoring Summary",
+          "publisher": "Louisiana Coastal Protection and Restoration Authority (CPRA)",
+          "url": "https://coastal.la.gov/wp-content/uploads/2025/12/2024-Caernarvon-Freshwater-Diversion-Operations-and-Monitoring-Summary.pdf",
+          "accessed": "2026-10-14",
+          "supports": "Caernarvon is five gated culverts; it was closed on many days in 2024 for National Weather Service advisories, low river stage and saltwater intrusion."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 293. Tests only the gate logic; the textbook's framing of the project's purpose is flagged (L22-RF8). Round 1 (2026-10-14): the stem no longer asks how 'opening and closing' helps, which ruled out the always-open and always-closed choices; b and c lost their self-incriminating clauses; choice d (pumping sediment back) was replaced with new choice e (pedagogy fix). The reviewer's replacement ('Open the gates during floods, when the river carries the most sediment') was not used: real sediment diversions are designed to run during high river flow, so that choice would be partly defensible. New choice e reverses the timing around coastal storm floods, which the CPRA closure record (National Weather Service flood advisories) supports as unsafe. Final verification (verify-agent, 2026-10-14): checked against rendered p. 293 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer rules out b and c; giveaway wording removed; pump-back distractor replaced with a reversed-timing error (new choice e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q25",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4"
+      ],
+      "conceptTags": [
+        "engineering design",
+        "local conditions",
+        "river diversion"
+      ],
+      "familyId": "L22-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An open channel dug off the Atchafalaya River built new wetlands at Wax Lake, but engineers chose a gated diversion for crowded, low-lying land near New Orleans. What is the best lesson from this comparison?",
+      "accessiblePrompt": "An open channel dug off the Atchafalaya River built new wetlands at Wax Lake, but engineers chose a gated diversion for crowded, low-lying land near New Orleans. What is the best lesson from this comparison?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The best design depends on local conditions and constraints",
+          "rationale": "Right. Each site's people, land and flood risks shape which design is safe and effective."
+        },
+        {
+          "id": "b",
+          "text": "A design that worked once should be copied to every coastline",
+          "rationale": "A design that works in one place can be unsafe in another, such as an open channel next to crowded neighborhoods."
+        },
+        {
+          "id": "e",
+          "text": "Gates were chosen near New Orleans mainly because they cost less to build",
+          "rationale": "The lesson's reason is flood risk to crowded, low-lying neighborhoods, not lower cost."
+        },
+        {
+          "id": "f",
+          "text": "Wax Lake's channel stopped working, so engineers switched to gates",
+          "rationale": "The Wax Lake channel has kept building land for decades. The New Orleans design differs because local conditions differ."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Wax Lake's open channel worked where it led away from towns into an open bay, while near New Orleans a permanent opening could flood homes, so engineers built gates they can close. Engineers fit each solution to the criteria and constraints of its location.",
+      "misconception": "A solution that works in one place will work the same way everywhere.",
+      "hint": "What was different about the land around New Orleans?",
+      "followUpId": "L22-Q27",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            292,
+            293
+          ],
+          "pdf": [
+            328,
+            329
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            292
+          ],
+          "pdfPages": [
+            328
+          ],
+          "locator": "Section 4, Sediment Diversions Rebuild Wetlands",
+          "supports": "A channel dug off the Atchafalaya River in the early 1940s led to new wetlands forming at Wax Lake Delta."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            293
+          ],
+          "pdfPages": [
+            329
+          ],
+          "locator": "Section 4, Protecting Local Communities from Flooding",
+          "supports": "The Wax Lake solution would not work well near New Orleans; solutions that re-create wetlands differ with local conditions and constraints."
+        },
+        {
+          "type": "external",
+          "title": "World of Change: Growing Deltas in Atchafalaya Bay",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/world-of-change/wax-lake",
+          "accessed": "2026-10-14",
+          "supports": "The Wax Lake Outlet is a channel opened in 1941 that diverts part of the Atchafalaya River's flow into Atchafalaya Bay."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 292-293. Names the Atchafalaya River, not the Mississippi of the Figure 4 label (L22-RF7). Round 1 (2026-10-14): the two 'always' distractors were replaced with new choices e (cost) and f (Wax Lake stopped working), so absolute words no longer single out the key (pedagogy fix). Choice f says 'stopped working' rather than 'failed' and its rationale rests on the NASA image series (growth from 1984 to 2017). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 292, 293 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'always' distractors replaced (new choices e, f)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q26",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4"
+      ],
+      "conceptTags": [
+        "rates",
+        "delta growth",
+        "sediment",
+        "data"
+      ],
+      "familyId": "L22-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "One scientific estimate says that two young river deltas in Atchafalaya Bay, Louisiana, together gain about 2.8 km² of new land per year on average. At that average rate, how many years would it take them to add 14 km²?",
+      "accessiblePrompt": "One scientific estimate says that two young river deltas in Atchafalaya Bay, Louisiana, together gain about 2.8 square kilometers of new land per year on average. At that average rate, how many years would it take them to add 14 square kilometers?",
+      "answer": 5,
+      "tolerance": 0.2,
+      "unit": "years",
+      "workedSolution": "Time = total new land ÷ new land per year = 14 km² ÷ 2.8 km² per year = 5 years.",
+      "units": "square kilometers (km²) and years",
+      "conditions": "Assume the average rate stays the same every year.",
+      "limitations": "Real delta growth varies a lot from year to year with floods and hurricanes; this is an average-rate estimate.",
+      "explanation": "Dividing the total area by the yearly rate gives the time: 14 ÷ 2.8 = 5 years. Real deltas don't grow evenly; big floods deliver extra sediment and hurricanes can wash land away, so this is only an average-rate estimate.",
+      "misconception": "To find the time from a rate, you multiply the total by the rate.",
+      "hint": "How many groups of 2.8 fit into 14?",
+      "followUpId": "L22-Q25",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            292
+          ],
+          "pdf": [
+            328
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            292
+          ],
+          "pdfPages": [
+            328
+          ],
+          "locator": "Section 4, Sediment Diversions Rebuild Wetlands",
+          "supports": "After the diversion channel was dug, new wetlands formed at about 2.8 square kilometers per year."
+        },
+        {
+          "type": "external",
+          "title": "New Land on the Louisiana Coast",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/new-land-on-the-louisiana-coast-85261/",
+          "accessed": "2026-10-17",
+          "supports": "One estimate by Louisiana State University scientists, reported by NASA, says the Atchafalaya and Wax Lake Outlet deltas have combined to grow about 2.8 square kilometers per year; the Wax Lake delta alone grows about 1.2. The page does not say the estimate came from satellite studies."
+        },
+        {
+          "type": "external",
+          "title": "World of Change: Growing Deltas in Atchafalaya Bay",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/world-of-change/wax-lake",
+          "accessed": "2026-10-14",
+          "supports": "The deltas' growth rate has varied considerably with the timing of major floods and hurricanes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 292 and both NASA pages. The 2.8 figure is attributed to the two deltas together, correcting the textbook's attribution to Wax Lake alone (L22-RF7). Round 1 (2026-10-14): the prompt says 'One scientific estimate says' instead of 'Satellite studies estimate': NASA attributes the 2.8 km² per year combined figure to an estimate by Louisiana State University scientists and doesn't say it came from satellite studies (science fix; NASA page re-opened 2026-10-17). Moved from family F12 to F13 (sediment builds wetlands), with followUpId changed from L22-Q28 to L22-Q25 (pedagogy fix). Final verification (verify-agent, 2026-10-14): checked against rendered p. 292 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'Satellite studies estimate' changed to 'One scientific estimate says' (LSU estimate reported by NASA)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to family F13; followUpId Q28 to Q25"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q27",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4",
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "sediment",
+        "delta",
+        "wetland formation",
+        "storm buffer"
+      ],
+      "familyId": "L22-F13",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these steps in order to show how a river can build new coastal wetland.",
+      "accessiblePrompt": "Put these steps in order, from first to last, to show how a river can build new coastal wetland. The steps are: wetland plants such as reeds and willows take root on the highest new ground; the river picks up sand and mud from land far upstream; the growing marsh helps buffer nearby towns from storm surges; sediment settles in the shallow bay and builds sandbars and low islands; muddy river water flows out into a shallow coastal bay.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Wetland plants such as reeds and willows take root on the highest new ground",
+          "rationale": "Plants can colonize only after sediment has built land above the water."
+        },
+        {
+          "id": "b",
+          "text": "The river picks up sand and mud from land far upstream",
+          "rationale": "Everything starts with the river carrying sediment from far away."
+        },
+        {
+          "id": "c",
+          "text": "The growing marsh helps buffer nearby towns from storm surges",
+          "rationale": "Only an established marsh can soften storms, so this comes last."
+        },
+        {
+          "id": "d",
+          "text": "Sediment settles in the shallow bay and builds sandbars and low islands",
+          "rationale": "Once in shallow water, sediment settles out and piles up into new land."
+        },
+        {
+          "id": "e",
+          "text": "Muddy river water flows out into a shallow coastal bay",
+          "rationale": "The sediment-filled water must reach the coast before it can settle there."
+        }
+      ],
+      "answer": [
+        "b",
+        "e",
+        "d",
+        "a",
+        "c"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "limitations": "This is a simplified sequence; in real deltas, floods, storms and tides keep adding and removing sediment at the same time.",
+      "explanation": "Wetlands grow from the ground up: a river carries sediment to the coast, the sediment settles in shallow water and builds new land, plants colonize it and their roots hold it in place, and the marsh then helps protect nearby communities. Cut off the sediment and the process stops.",
+      "misconception": "Coastal wetlands are permanent and don't need a supply of river sediment.",
+      "hint": "Land has to exist before plants can grow on it.",
+      "followUpId": "L22-Q06",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            292
+          ],
+          "pdf": [
+            328
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            292
+          ],
+          "pdfPages": [
+            328
+          ],
+          "locator": "Section 4, Rebuilding Wetland Buffers and Figure 4 (rendered)",
+          "supports": "The river carries sediment from far away and deposits it where it enters the Gulf, forming wetlands; wetland plants grow on new islands, and healthy wetlands protect communities from storms."
+        },
+        {
+          "type": "external",
+          "title": "World of Change: Growing Deltas in Atchafalaya Bay",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/world-of-change/wax-lake",
+          "accessed": "2026-10-14",
+          "supports": "Sediment carried by the Atchafalaya River settles into shallow water; reeds and willows colonize the higher sandbars, and their roots stabilize the sediment."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 292 plus NASA. Only one order is defensible: land must form before plants, and the buffer comes from the grown marsh. Final verification (verify-agent, 2026-10-14): checked against rendered p. 292 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q28",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O4",
+        "L22-O2"
+      ],
+      "conceptTags": [
+        "sediment",
+        "levee",
+        "wetland loss",
+        "human impact"
+      ],
+      "familyId": "L22-F13",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Many coastal wetlands near New Orleans have been shrinking. Based on the lesson, what is one important reason?",
+      "accessiblePrompt": "Many coastal wetlands near New Orleans have been shrinking. Based on the lesson, what is one important reason?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Levees and a changed river path keep sediment from reaching them",
+          "rationale": "Right. Without new sediment, the marshes can't rebuild what they lose."
+        },
+        {
+          "id": "b",
+          "text": "The river now dumps far too much sediment and buries the marsh",
+          "rationale": "The problem near New Orleans is too little sediment reaching the marshes, not too much."
+        },
+        {
+          "id": "e",
+          "text": "The marshes are slowly filling in and turning into forest through succession",
+          "rationale": "Filling in would turn marsh into drier land, not shrink it; the lesson ties the loss of these marshes to river sediment that no longer reaches them."
+        },
+        {
+          "id": "d",
+          "text": "Wetland plants slowly use up the soil until nothing is left",
+          "rationale": "Plant roots actually help hold soil in place; plants don't consume the land."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Left alone, the Mississippi River spreads sediment that builds and refreshes coastal wetlands. Levees and a changed river path keep much of that sediment from reaching some marshes, so they can't keep up and they shrink. Diversions try to reconnect wetlands to river sediment.",
+      "misconception": "Wetlands stay the same size on their own without a fresh supply of sediment.",
+      "hint": "What did the river deliver to the coast before levees were built?",
+      "followUpId": "L22-Q24",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            292,
+            293
+          ],
+          "pdf": [
+            328,
+            329
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            292
+          ],
+          "pdfPages": [
+            328
+          ],
+          "locator": "Section 4, Rebuilding Wetland Buffers",
+          "supports": "The Mississippi River naturally deposits sediment that forms coastal wetlands, but people changed the river's path and some places no longer receive sediment."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            293
+          ],
+          "pdfPages": [
+            329
+          ],
+          "locator": "Section 4, Protecting Local Communities from Flooding",
+          "supports": "Levees prevent the natural flow of water and sediment that builds wetlands."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 292-293. Round 1 (2026-10-14): choice c (storms add land) couldn't explain shrinking and its rationale overstated storm erosion (both reviewers); it was replaced with new choice e, a succession misconception drawn from section 1 (pedagogy fix), so the storm rationale is gone. Real causes such as subsidence, canals and sea-level rise are not used as distractors because each would be defensible. The explanation no longer opens with p. 292's wording. Final verification (verify-agent, 2026-10-14): checked against rendered pp. 292, 293 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c replaced (pedagogy fix), so the overstated storm-erosion rationale is gone"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: logic-ruled choice c replaced with a succession misconception (new choice e); explanation opening reworded"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q29",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O1"
+      ],
+      "conceptTags": [
+        "natural change",
+        "human-caused change",
+        "introduced species"
+      ],
+      "familyId": "L22-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Ecosystem changes can start in nature or with people. Sort each change by what set it off: natural, or caused by people.",
+      "accessiblePrompt": "Ecosystem changes can start in nature or with people. Sort each change by what set it off: natural, or caused by people. The changes are: a hurricane's winds flatten a coastal forest; heavy rain loosens a steep slope, and a landslide buries a meadow; a long drought dries up a prairie pond; a tanker leaks oil into a coastal bay; farmers plow up a prairie to plant wheat; someone releases a new kind of fish into a lake where it never lived; and weed seeds stuck to hikers' boots sprout in a park far from home.",
+      "items": [
+        {
+          "id": "a",
+          "text": "A hurricane's winds flatten a coastal forest",
+          "rationale": "Hurricanes are storms that form over warm ocean water; no person sets them off."
+        },
+        {
+          "id": "b",
+          "text": "Heavy rain loosens a steep slope, and a landslide buries a meadow",
+          "rationale": "Rain and gravity set off this landslide, so it is a natural change."
+        },
+        {
+          "id": "c",
+          "text": "A long drought dries up a prairie pond",
+          "rationale": "A drought is a natural weather pattern, even though it can badly harm an ecosystem."
+        },
+        {
+          "id": "d",
+          "text": "A tanker leaks oil into a coastal bay",
+          "rationale": "The oil came from a ship people built and run, so people caused this change."
+        },
+        {
+          "id": "e",
+          "text": "Farmers plow up a prairie to plant wheat",
+          "rationale": "Clearing land for farming is a human activity."
+        },
+        {
+          "id": "f",
+          "text": "Someone releases a new kind of fish into a lake where it never lived",
+          "rationale": "A person moved this species on purpose, so it is an introduced species."
+        },
+        {
+          "id": "g",
+          "text": "Weed seeds stuck to hikers' boots sprout in a park far from home",
+          "rationale": "People carried these seeds by accident. A human-caused change doesn't have to be on purpose."
+        }
+      ],
+      "bins": [
+        {
+          "id": "nat",
+          "label": "Natural"
+        },
+        {
+          "id": "ppl",
+          "label": "Caused by people"
+        }
+      ],
+      "answer": {
+        "a": "nat",
+        "b": "nat",
+        "c": "nat",
+        "d": "ppl",
+        "e": "ppl",
+        "f": "ppl",
+        "g": "ppl"
+      },
+      "limitations": "Human activity can make some natural events, such as droughts, more likely or more severe; this sort asks only what directly set off each change. Wildfires are left out because they can start either way.",
+      "explanation": "Hurricanes, landslides and droughts are natural events. Oil spills, clearing land and moving species into new places are caused by people, whether on purpose or by accident. Both kinds of change can disrupt an ecosystem for a short time or for good.",
+      "misconception": "A change counts as caused by people only when someone does it on purpose.",
+      "hint": "Trace each change back to its starting point. Was a person's action part of how it began?",
+      "followUpId": "L22-Q17",
+      "scope": {
+        "lessonId": "L22",
+        "section": "1. Ecosystems Change Over Time",
+        "pages": {
+          "printed": [
+            285,
+            287
+          ],
+          "pdf": [
+            321,
+            323
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            287
+          ],
+          "pdfPages": [
+            323
+          ],
+          "locator": "Section 1, Sudden Change",
+          "supports": "Eruptions, hurricanes, droughts, fires, landslides and floods are natural events; people also change ecosystems suddenly by clearing land, causing oil spills and other pollution, and bringing new species into an area, sometimes by accident."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            285
+          ],
+          "pdfPages": [
+            321
+          ],
+          "locator": "Introduction",
+          "supports": "Ecosystems change naturally, as when an avalanche destroys a hillside of trees, and because of people, as when a forest is cleared for a field."
+        },
+        {
+          "type": "external",
+          "title": "introduced species (NAL Thesaurus concept)",
+          "publisher": "USDA National Agricultural Library Thesaurus (NALT)",
+          "url": "https://lod.nal.usda.gov/nalt/en/page/17460",
+          "accessed": "2026-10-17",
+          "supports": "Introduced species are species brought by humans, intentionally or unintentionally, into a new geographic area outside their native range."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted in round 1 (2026-10-14) from rendered pp. 285 and 287 to cover O1's natural-versus-human-caused distinction, which no item tested (pedagogy coverage finding). Wildfire is left out because it can start either way; the landslide item names rain as its trigger so it can't be read as human-caused. Item g tests that accidental introductions count as human-caused (USDA NALT definition). Final verification (verify-agent, 2026-10-14): checked against rendered pp. 285, 287 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L22-Q30",
+      "lessonId": "L22",
+      "objectiveIds": [
+        "L22-O3",
+        "L22-O4"
+      ],
+      "conceptTags": [
+        "evidence",
+        "evaluating designs",
+        "monitoring",
+        "river diversion"
+      ],
+      "familyId": "L22-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Engineers open a river diversion to rebuild a shrinking marsh. Which evidence would best show that the diversion is really building new marsh?",
+      "accessiblePrompt": "Engineers open a river diversion to rebuild a shrinking marsh. Which evidence would best show that the diversion is really building new marsh?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Satellite measurements taken every year, compared with a similar marsh with no diversion",
+          "rationale": "Right. Measurements repeated over many years show a trend, and the comparison marsh shows what would have happened without the diversion."
+        },
+        {
+          "id": "b",
+          "text": "A single photo of bright green marsh near the gates, taken after one especially wet spring",
+          "rationale": "One photo from one season can't show a long-term trend; marshes look greener in some seasons and years than in others."
+        },
+        {
+          "id": "c",
+          "text": "The project's design plan, which says that new marsh should form there within ten years",
+          "rationale": "A plan states a goal; it isn't evidence that the goal was met."
+        },
+        {
+          "id": "d",
+          "text": "A news story in which local leaders say the project has been a great success so far",
+          "rationale": "Praise is an opinion; it doesn't measure how much marsh formed."
+        }
+      ],
+      "answer": "a",
+      "limitations": "Real monitoring also uses ground surveys, and no two marshes are exactly alike, so a comparison marsh is matched as closely as possible.",
+      "explanation": "Strong evidence that a restoration works comes from measurements repeated over many years and compared with a similar place that got no help. Engineers keep collecting data after a project is built, because a stated goal or one hopeful photo can't show whether new land is really forming.",
+      "misconception": "A stated goal or one good-looking result proves that a design works.",
+      "hint": "Which evidence could tell a real, lasting change apart from a lucky season or a hopeful claim?",
+      "followUpId": "L22-Q19",
+      "scope": {
+        "lessonId": "L22",
+        "section": "4. Rebuilding Wetland Buffers",
+        "pages": {
+          "printed": [
+            293
+          ],
+          "pdf": [
+            329
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            293
+          ],
+          "pdfPages": [
+            329
+          ],
+          "locator": "Section 4, Protecting Local Communities from Flooding",
+          "supports": "Engineers have collected data on the diversion's effects on the surrounding ecosystem."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            288
+          ],
+          "pdfPages": [
+            324
+          ],
+          "locator": "Section 2, Changes to Living Parts of Ecosystems",
+          "supports": "Scientists compare places with and without a factor, and patterns across many places make the evidence stronger."
+        },
+        {
+          "type": "external",
+          "title": "World of Change: Growing Deltas in Atchafalaya Bay",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/world-of-change/wax-lake",
+          "accessed": "2026-10-17",
+          "supports": "A series of Landsat satellite images from 1984 to 2017 tracks how the Atchafalaya and Wax Lake deltas grew, and the growth rate varied considerably with the timing of major floods and hurricanes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted in round 1 (2026-10-14) from rendered pp. 288 and 293 plus the NASA World of Change image series, for the brief's 'evaluate recovery evidence' mission (pedagogy coverage finding). The marsh, plan and news story are made up for the item. Final verification (verify-agent, 2026-10-14): checked against rendered p. 293 and the guide; keyed answer uniquely defensible, citations accurate, no 7-word runs shared with the OCR text; external sources re-opened and confirmed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

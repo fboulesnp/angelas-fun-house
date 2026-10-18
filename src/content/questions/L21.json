@@ -1,0 +1,3967 @@
+{
+  "lessonId": "L21",
+  "questions": [
+    {
+      "id": "L21-Q01",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O1"
+      ],
+      "conceptTags": [
+        "carnivore",
+        "herbivore",
+        "omnivore",
+        "predator types"
+      ],
+      "familyId": "L21-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each animal by what it mainly eats.",
+      "accessiblePrompt": "Sort each animal into carnivore, herbivore or omnivore by what it mainly eats. The animals are: a raccoon that eats crayfish, frogs, berries and acorns; a manatee that grazes on seagrass; an orca that hunts seals, fish and squid; a crow that eats corn, berries, beetles and bird eggs; a barn owl that swallows mice and voles; and a giraffe that browses on acacia leaves.",
+      "items": [
+        {
+          "id": "a",
+          "text": "An orca that hunts seals, fish and squid",
+          "rationale": "Every food on its list is an animal, so it is a carnivore."
+        },
+        {
+          "id": "b",
+          "text": "A barn owl that swallows mice and voles",
+          "rationale": "Mice and voles are animals, so the owl is a carnivore."
+        },
+        {
+          "id": "c",
+          "text": "A manatee that grazes on seagrass",
+          "rationale": "Seagrass is a plant, so the manatee is an herbivore."
+        },
+        {
+          "id": "g",
+          "text": "A giraffe that browses on acacia leaves",
+          "rationale": "Acacia leaves are plant parts, so even this towering animal is an herbivore."
+        },
+        {
+          "id": "e",
+          "text": "A raccoon that eats crayfish, frogs, berries and acorns",
+          "rationale": "Crayfish and frogs are animals and berries and acorns are plant foods, so it is an omnivore."
+        },
+        {
+          "id": "f",
+          "text": "A crow that eats corn, berries, beetles and bird eggs",
+          "rationale": "Corn and berries come from plants while beetles and eggs come from animals, so it is an omnivore."
+        }
+      ],
+      "bins": [
+        {
+          "id": "carn",
+          "label": "Carnivore (mainly animals)"
+        },
+        {
+          "id": "herb",
+          "label": "Herbivore (mainly plants)"
+        },
+        {
+          "id": "omni",
+          "label": "Omnivore (both)"
+        }
+      ],
+      "answer": {
+        "a": "carn",
+        "b": "carn",
+        "c": "herb",
+        "g": "herb",
+        "e": "omni",
+        "f": "omni"
+      },
+      "explanation": "Look at the menu, not the size or fierceness of the animal. Mostly animals means carnivore, mostly plants means herbivore, and a regular mix of both means omnivore. A towering, gentle giraffe is still a predator of acacia trees in this lesson.",
+      "misconception": "An animal is grouped by how fierce or large it is rather than by what it mainly eats.",
+      "hint": "For each one, ask: does it eat animals, plants, or both on a regular basis?",
+      "followUpId": "L21-Q03",
+      "scope": {
+        "lessonId": "L21",
+        "section": "1. Predators",
+        "pages": {
+          "printed": [
+            274,
+            275
+          ],
+          "pdf": [
+            310,
+            311
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            274
+          ],
+          "pdfPages": [
+            310
+          ],
+          "locator": "1. Predators, Carnivores",
+          "supports": "A carnivore mainly eats other animals; eagle owls and panther chameleons are examples."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Herbivores",
+          "supports": "Scientists include plant eaters among predators; an herbivore mainly eats plants or plant parts, such as grazing cows and zebras."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Omnivores",
+          "supports": "An omnivore eats both plants and animals; raccoons, Mona monkeys and most humans are examples."
+        },
+        {
+          "type": "external",
+          "title": "Omnivore",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/omnivore/",
+          "accessed": "2026-10-14",
+          "supports": "An omnivore regularly eats both plants and animals; the proportions vary by species (black bears eat mostly nuts and berries)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 274-275. Omnivore bin follows the 'regularly eats both' definition (L21-RF2); all items are new examples, not the textbook's. Revision 2026-10-14: the prompt sorts 'animals', so it no longer leans on the lesson's broad meaning of 'predator' without saying so (L21-RF3); the explanation keeps 'in this lesson'. The caterpillar item was replaced by a giraffe (new item id g) because the revised predation glossary entry excludes feeders that live on the living thing they eat, and a caterpillar spends its life on its milkweed host plant; the giraffe also targets the 'large means carnivore' half of the retargeted misconception. The accessiblePrompt lists the animals in an order that is not grouped by bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says 'animal' instead of 'predator'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessiblePrompt list no longer grouped by bin; misconception retargeted to size/fierceness"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q02",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O1"
+      ],
+      "conceptTags": [
+        "omnivore",
+        "diet data",
+        "predator types"
+      ],
+      "familyId": "L21-F01",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Biologists studied what one fox population ate over a year (invented data shown in the bar graph). Which label fits this fox population best?",
+      "accessiblePrompt": "Biologists studied what one fox population ate over a year. The invented data: mice and rabbits made up 35 percent of the diet, insects 15 percent, fruits and berries 40 percent, and seeds and nuts 10 percent. Which label fits this fox population best?",
+      "diagram": {
+        "kind": "bars",
+        "caption": "Share of one fox population's diet over a year (invented data)",
+        "alt": "Bar graph of the share of the diet, in percent. Mice and rabbits: 35. Insects: 15. Fruits and berries: 40. Seeds and nuts: 10.",
+        "yLabel": "Share of diet (%)",
+        "bars": [
+          {
+            "label": "Mice and rabbits",
+            "value": 35
+          },
+          {
+            "label": "Insects",
+            "value": 15
+          },
+          {
+            "label": "Fruits and berries",
+            "value": 40
+          },
+          {
+            "label": "Seeds and nuts",
+            "value": 10
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carnivore",
+          "rationale": "Animal foods are only half the diet; the other half is fruit, berries, seeds and nuts, so the foxes do not mainly eat animals."
+        },
+        {
+          "id": "b",
+          "text": "Herbivore",
+          "rationale": "Plant foods are only half the diet, and the foxes regularly hunt mice, rabbits and insects."
+        },
+        {
+          "id": "c",
+          "text": "Omnivore",
+          "rationale": "Correct: the foxes regularly eat a lot of both animal foods (50 percent) and plant foods (50 percent)."
+        },
+        {
+          "id": "d",
+          "text": "Not a predator",
+          "rationale": "Hunting mice, rabbits and insects is predation, so the foxes are predators."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Add up the animal foods (35 + 15 = 50 percent) and the plant foods (40 + 10 = 50 percent). The foxes regularly eat a lot of both, so they are omnivores. Hunting some prey doesn't make an animal a carnivore if plants are a big, regular part of its diet.",
+      "misconception": "Any animal that hunts other animals must be a carnivore.",
+      "hint": "Group the bars into animal foods and plant foods. Is either group tiny, or are both a big, regular part of the diet?",
+      "followUpId": "L21-Q04",
+      "scope": {
+        "lessonId": "L21",
+        "section": "1. Predators",
+        "pages": {
+          "printed": [
+            274,
+            275
+          ],
+          "pdf": [
+            310,
+            311
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            274
+          ],
+          "pdfPages": [
+            310
+          ],
+          "locator": "1. Predators, Carnivores",
+          "supports": "A carnivore mainly eats other animals; eagle owls and panther chameleons are examples."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Omnivores",
+          "supports": "An omnivore eats both plants and animals; raccoons, Mona monkeys and most humans are examples."
+        },
+        {
+          "type": "external",
+          "title": "Omnivore",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/omnivore/",
+          "accessed": "2026-10-14",
+          "supports": "An omnivore regularly eats both plants and animals; the proportions vary by species (black bears eat mostly nuts and berries)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented data. Revision 2026-10-14: the diet is now an exact 50/50 split (animal foods 35 + 15, plant foods 40 + 10), so 'Carnivore' (a diet made up mostly of animals) cannot be defended, and the answer holds under both the textbook's 'similar amounts' wording and the broader 'regularly eats both' definition (L21-RF2). Following the pedagogy reviewer's alt-text rule, the alt and accessiblePrompt give the four bar values but not the totals (the science reviewer had suggested stating the totals); the totals appear in the rationales and explanation after answering. Rationale d no longer counts fruit eating as predation, and the hint no longer points toward comparing two unequal totals.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: diet made an exact 50/50 split; rationales rewritten"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint rewritten; derived totals removed from the alt text"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q03",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O1",
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "predation",
+        "herbivore",
+        "parasitism",
+        "commensalism"
+      ],
+      "familyId": "L21-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "As this lesson uses the word, which of these are examples of predation? Select all that apply.",
+      "accessiblePrompt": "As this lesson uses the word, which of these are examples of predation? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cow grazes on clover in a pasture",
+          "rationale": "Correct: the lesson counts herbivores as predators, so the cow is preying on clover."
+        },
+        {
+          "id": "b",
+          "text": "A heron spears a frog and swallows it",
+          "rationale": "Correct: the heron benefits by eating the frog, which is classic predation."
+        },
+        {
+          "id": "c",
+          "text": "Fleas drink a kitten's blood while living in its fur",
+          "rationale": "This is parasitism: the fleas live on a living host and take a little blood at a time instead of eating the kitten."
+        },
+        {
+          "id": "d",
+          "text": "Barnacles ride on a whale and catch floating food",
+          "rationale": "This is commensalism: the barnacles eat bits of food from the water, not the whale, which is not helped or harmed."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "In this lesson, predation means one organism benefits by eating another, and that includes eating plants. So the grazing cow and the frog-catching heron are both predators. Fleas living on a host are parasites, and barnacles that only ride on a whale are commensals.",
+      "misconception": "Only animals that hunt and kill other animals count as predators.",
+      "hint": "For each choice, ask: is one organism making a meal of the other, or living on it and taking a little at a time?",
+      "followUpId": "L21-Q15",
+      "scope": {
+        "lessonId": "L21",
+        "section": "1. Predators",
+        "pages": {
+          "printed": [
+            274,
+            275,
+            281
+          ],
+          "pdf": [
+            310,
+            311,
+            317
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            274
+          ],
+          "pdfPages": [
+            310
+          ],
+          "locator": "1. Predators",
+          "supports": "Predation is a relationship in which the predator benefits by eating the prey; predators are grouped by what they eat."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Herbivores",
+          "supports": "Scientists include plant eaters among predators; an herbivore mainly eats plants or plant parts, such as grazing cows and zebras."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Parasitism",
+          "supports": "A parasite lives on or in a living host and takes small amounts of resources over time, usually weakening rather than killing it; fleas on a kitten are an example."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Commensalism",
+          "supports": "In commensalism one species benefits and the other is unaffected, as with barnacles riding on a whale."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Many biology texts name herbivory, the eating of plants, as an interaction alongside predation; this lesson groups it under predation."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Prompt says 'as this lesson uses the word' because some texts treat herbivory separately (L21-RF3). Revision 2026-10-14: choice list removed from the accessiblePrompt (narration reads the shuffled choices itself, and the authored list put both keys first); the hint now separates predation from parasitism.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice list removed from accessiblePrompt; hint separates predation from parasitism"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q04",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O1",
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "herbivore",
+        "predator effect on prey",
+        "prediction"
+      ],
+      "familyId": "L21-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Lions usually kill each zebra they eat. Cows spend hours each day grazing on grass. Why is it harder to predict how cows will change the size of a grass population?",
+      "accessiblePrompt": "Lions usually kill each zebra they eat. Cows spend hours each day grazing on grass. Why is it harder to predict how cows will change the size of a grass population?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grazed plants often survive and regrow instead of being killed",
+          "rationale": "Correct: herbivores often leave their food plant alive, unlike a lion that kills each zebra, so the effect on population size is less predictable."
+        },
+        {
+          "id": "b",
+          "text": "Grass isn't prey, so cows have no effect on grass populations",
+          "rationale": "The lesson calls grass the cows' prey, and grazing does change grass populations; the effect is just harder to predict."
+        },
+        {
+          "id": "c",
+          "text": "Cows are omnivores, so their diet keeps changing",
+          "rationale": "Cows mainly eat grasses and other plants, which makes them herbivores, not omnivores."
+        },
+        {
+          "id": "d",
+          "text": "Grass plants have no defenses, so cows eat all of them",
+          "rationale": "If cows ate whole fields bare, the effect would be easy to predict; the real reason is that grazed plants often survive."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Each zebra a lion eats is one fewer zebra, so the effect on the zebra population is easy to count. A grazed grass plant is often still alive and can regrow, so grazing doesn't remove plants one by one. Herbivores still affect plant populations, but the size of the effect is harder to predict.",
+      "misconception": "Herbivores don't really affect plant populations because plants aren't true prey.",
+      "hint": "Think about what is left of the prey after each meal.",
+      "followUpId": "L21-Q05",
+      "scope": {
+        "lessonId": "L21",
+        "section": "2. Interacting Populations Affect One Another",
+        "pages": {
+          "printed": [
+            275,
+            276
+          ],
+          "pdf": [
+            311,
+            312
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            276
+          ],
+          "pdfPages": [
+            312
+          ],
+          "locator": "2. Interacting Populations Affect One Another, Predators Affect Prey Populations",
+          "supports": "Carnivores usually kill their prey, but herbivores often eat only part of a plant, which makes their effect on prey populations harder to predict."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Herbivores",
+          "supports": "Scientists include plant eaters among predators; an herbivore mainly eats plants or plant parts, such as grazing cows and zebras."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 276 (Predators Affect Prey Populations). Revision 2026-10-14: the stem no longer says the cows bite off only part of each plant, which the key restated, so the learner has to bring that idea from p. 276. Scope also cites p. 275 for the herbivore definition the item uses. Rationale a now says 'food plant' rather than calling grass 'prey' without the lesson qualifier (L21-RF3).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer restates the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q05",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "predator-prey cycle",
+        "cause and effect",
+        "population change"
+      ],
+      "familyId": "L21-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A few years with plenty of food plants let an island's moose population grow quickly. Put the events that follow in order.",
+      "accessiblePrompt": "A few years with plenty of food plants let an island's moose population grow quickly. Put the events that follow in order, from first to last. The events are: with moose now scarce, many wolves can't find enough food and the wolf population falls; with plenty of moose to hunt, more wolf pups survive and the wolf population grows; with fewer wolves hunting, more moose survive and the moose population climbs again; with more wolves hunting, more moose are eaten and the moose population falls.",
+      "conditions": "Simplified model: wolves are the only predator of the moose, moose are the wolves' main food, and nothing else changes.",
+      "limitations": "Real populations are also pushed around by weather, food plants, disease and parasites (L21-RF5).",
+      "items": [
+        {
+          "id": "c",
+          "text": "With moose now scarce, many wolves can't find enough food and the wolf population falls",
+          "rationale": "Third: this happens only after the wolves have eaten the moose population down."
+        },
+        {
+          "id": "a",
+          "text": "With plenty of moose to hunt, more wolf pups survive and the wolf population grows",
+          "rationale": "First: the extra moose are extra food, so the wolf population responds next."
+        },
+        {
+          "id": "d",
+          "text": "With fewer wolves hunting, more moose survive and the moose population climbs again",
+          "rationale": "Last: once wolves are scarce, the moose recover and the cycle can start over."
+        },
+        {
+          "id": "b",
+          "text": "With more wolves hunting, more moose are eaten and the moose population falls",
+          "rationale": "Second: a larger wolf population eats more moose, pushing the moose numbers down."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "ends": [
+        "First (right after the moose increase)",
+        "Last"
+      ],
+      "explanation": "More prey feeds more predators; more predators eat down the prey; scarce prey starves down the predators; fewer predators let the prey recover. Each step causes the next, which is why the pattern can repeat like a wave.",
+      "misconception": "Predator and prey populations rise and fall at the same moment instead of one change causing the next.",
+      "hint": "Start with the wolves: what does a big supply of moose do for them first?",
+      "followUpId": "L21-Q07",
+      "scope": {
+        "lessonId": "L21",
+        "section": "2. Interacting Populations Affect One Another",
+        "pages": {
+          "printed": [
+            276,
+            277
+          ],
+          "pdf": [
+            312,
+            313
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            276,
+            277
+          ],
+          "pdfPages": [
+            312,
+            313
+          ],
+          "locator": "2. Interacting Populations Affect One Another, Isle Royale",
+          "supports": "On Isle Royale, a shrinking moose population left less food for wolves and the wolf population later decreased; when wolves became scarce, moose increased."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            277
+          ],
+          "pdfPages": [
+            313
+          ],
+          "locator": "Figure 2, Predator and Prey Population Sizes Change Together",
+          "supports": "The graph shows repeating waves in which each rise in prey is followed a little later by a rise in predators."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Start condition fixed in the prompt so only one sequence is defensible. Revision 2026-10-14: trigger changed from 'a run of mild winters' to 'a few years with plenty of food plants' (science reviewer's optional suggestion, since warm winters can bring heavier winter tick loads on moose); the accessiblePrompt lists the events in the items-array order (c, a, d, b), so none sits at its answer position.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessiblePrompt lists the events out of answer order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q06",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "Isle Royale",
+        "scarce prey",
+        "evidence"
+      ],
+      "familyId": "L21-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In the early 2000s, ticks weakened and killed many moose on Isle Royale, and the moose population shrank. The island's wolves depend mainly on moose. According to the lesson, what happened to the wolf population over the next several years, and why?",
+      "accessiblePrompt": "In the early 2000s, ticks weakened and killed many moose on Isle Royale, an island in Lake Superior, and the moose population shrank. The island's wolves depend mainly on moose for food. According to the lesson, what happened to the wolf population over the next several years, and why?",
+      "limitations": "Isle Royale's populations are also affected by winter food supply, weather, disease and inbreeding; the lesson focuses on the predator-prey link.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It shrank, because fewer moose meant less food for the wolves",
+          "rationale": "Correct: the lesson reports that the wolf population had decreased by 2007 because there were too few moose to support so many wolves."
+        },
+        {
+          "id": "b",
+          "text": "It grew, because tick-weakened moose were easier to catch",
+          "rationale": "Weak moose may be easier to catch for a while, but a much smaller herd is less food overall, and the wolf counts went down."
+        },
+        {
+          "id": "c",
+          "text": "It stayed the same, because wolves switched to eating mostly plants",
+          "rationale": "Wolves are carnivores that rarely eat plants, and the counts showed the wolf population falling."
+        },
+        {
+          "id": "e",
+          "text": "It shrank, because the ticks spread to the wolves and killed them",
+          "rationale": "In the lesson's account the ticks weakened the moose; the wolves declined because they had less to eat."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Once moose were in short supply, the wolves that relied on them had less to eat, so fewer wolves could survive and raise pups, and by 2007 there were clearly fewer wolves. Weak prey can be easier to catch, but a much smaller herd still means less food overall. The ticks harmed the moose, not the wolves.",
+      "misconception": "A predator population doesn't depend on how much prey is available.",
+      "hint": "Weaker moose and fewer moose would push the wolves in different directions. Which matters more for feeding a whole wolf population?",
+      "followUpId": "L21-Q08",
+      "scope": {
+        "lessonId": "L21",
+        "section": "2. Interacting Populations Affect One Another",
+        "pages": {
+          "printed": [
+            276,
+            277
+          ],
+          "pdf": [
+            312,
+            313
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            276,
+            277
+          ],
+          "pdfPages": [
+            312,
+            313
+          ],
+          "locator": "2. Interacting Populations Affect One Another, Isle Royale",
+          "supports": "On Isle Royale, a shrinking moose population left less food for wolves and the wolf population later decreased; when wolves became scarce, moose increased."
+        },
+        {
+          "type": "external",
+          "title": "Wolves (Isle Royale National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/isro/learn/nature/wolves.htm",
+          "accessed": "2026-10-14",
+          "supports": "Isle Royale's wolf numbers track the availability of the moose they hunt."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Asks for the lesson's account to keep one defensible answer; real Isle Royale numbers also depend on other factors (L21-RF5). Revision 2026-10-14: choice d ('stayed the same, because predators don't depend on how many prey there are') was replaced by a new choice e with the right effect and the wrong cause (ticks killing the wolves), so the 'why' half of the question is tested; the hint no longer gives the answer away, and the explanation no longer copies a six-word run from p. 277.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: right-effect, wrong-cause distractor (new e) replaces d; hint and explanation rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q07",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "predator-prey graph",
+        "time lag",
+        "model"
+      ],
+      "familyId": "L21-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The graph shows a simple model of a prey population and its main predator over 20 years. Which statement best describes the pattern?",
+      "accessiblePrompt": "A line graph shows a simple model of a prey population and its main predator over 20 years. The prey line waves between about 30 and 98 and peaks between years 2 and 3 and again between years 12 and 13. The predator line is always lower, waving between about 15 and 35, and peaks between years 4 and 5 and again between years 14 and 15. Which statement best describes the pattern?",
+      "limitations": "This is an idealized model; real population counts are bumpier and less regular.",
+      "diagram": {
+        "kind": "curve",
+        "caption": "A simple model of a prey population and its main predator",
+        "alt": "Line graph of population size against time from 0 to 20 years. The prey line waves between about 30 and 98, peaking between years 2 and 3 and again between years 12 and 13. The predator line is always lower, waving between about 15 and 35, and peaks between years 4 and 5 and again between years 14 and 15.",
+        "xLabel": "Time (years)",
+        "yLabel": "Population size",
+        "series": [
+          {
+            "label": "Prey",
+            "points": [
+              [
+                0,
+                60
+              ],
+              [
+                1,
+                84
+              ],
+              [
+                2,
+                98
+              ],
+              [
+                3,
+                98
+              ],
+              [
+                4,
+                84
+              ],
+              [
+                5,
+                60
+              ],
+              [
+                6,
+                36
+              ],
+              [
+                7,
+                30
+              ],
+              [
+                8,
+                30
+              ],
+              [
+                9,
+                36
+              ],
+              [
+                10,
+                60
+              ],
+              [
+                11,
+                84
+              ],
+              [
+                12,
+                98
+              ],
+              [
+                13,
+                98
+              ],
+              [
+                14,
+                84
+              ],
+              [
+                15,
+                60
+              ],
+              [
+                16,
+                36
+              ],
+              [
+                17,
+                30
+              ],
+              [
+                18,
+                30
+              ],
+              [
+                19,
+                36
+              ],
+              [
+                20,
+                60
+              ]
+            ]
+          },
+          {
+            "label": "Predator",
+            "points": [
+              [
+                0,
+                15
+              ],
+              [
+                1,
+                19
+              ],
+              [
+                2,
+                25
+              ],
+              [
+                3,
+                31
+              ],
+              [
+                4,
+                35
+              ],
+              [
+                5,
+                35
+              ],
+              [
+                6,
+                31
+              ],
+              [
+                7,
+                25
+              ],
+              [
+                8,
+                19
+              ],
+              [
+                9,
+                15
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                19
+              ],
+              [
+                12,
+                25
+              ],
+              [
+                13,
+                31
+              ],
+              [
+                14,
+                35
+              ],
+              [
+                15,
+                35
+              ],
+              [
+                16,
+                31
+              ],
+              [
+                17,
+                25
+              ],
+              [
+                18,
+                19
+              ],
+              [
+                19,
+                15
+              ],
+              [
+                20,
+                15
+              ]
+            ]
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each predator peak comes a little after a prey peak",
+          "rationale": "Correct: the predator line tops out about two years after each prey peak, because predators need time to multiply on the extra food."
+        },
+        {
+          "id": "b",
+          "text": "Both populations peak at exactly the same time",
+          "rationale": "The peaks are offset: prey top out between years 2 and 3 while predators top out between years 4 and 5."
+        },
+        {
+          "id": "c",
+          "text": "Each prey peak comes right after a predator peak, so predators help prey grow",
+          "rationale": "This reverses cause and effect: prey peaks come first, and rising predators then push the prey down."
+        },
+        {
+          "id": "d",
+          "text": "The predator population is larger than the prey population at all times",
+          "rationale": "The predator line stays between about 15 and 35 and is below the prey line at every point, so in this model predators are always fewer."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Each predator peak comes about two years after a prey peak. Plenty of prey means more food, and it takes time for predators to raise more young, so the predator rise trails the prey rise. The predators then eat the prey down, and the predator line falls after the prey line does.",
+      "misconception": "Predator and prey populations peak at exactly the same time.",
+      "hint": "Find the top of each prey wave, then look for the next top of the predator wave.",
+      "followUpId": "L21-Q05",
+      "scope": {
+        "lessonId": "L21",
+        "section": "2. Interacting Populations Affect One Another",
+        "pages": {
+          "printed": [
+            277
+          ],
+          "pdf": [
+            313
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            277
+          ],
+          "pdfPages": [
+            313
+          ],
+          "locator": "Figure 2, Predator and Prey Population Sizes Change Together",
+          "supports": "The graph shows repeating waves in which each rise in prey is followed a little later by a rise in predators."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "In predator-prey cycles such as lynx and snowshoe hares, the predator population lags the prey by about one to two years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Model curve drawn from rendered Figure 2 (p. 277, also viewed at 220 dpi); lag stated as the pattern rather than 'together' (L21-RF6). Revision 2026-10-14: prey troughs (years 7, 8, 17 and 18) raised from 22 to 30, so the predator line is below the prey line at every point (closest: year 7, 30 vs 25) and 'always lower' in the alt text and accessiblePrompt is true; the textbook's schematic Figure 2 draws the curves crossing at the prey troughs, which nothing in this item depends on. The derived lag ('about two years after each prey peak') was removed from the alt; the peak years stay. The series is identical to the O3 Explorer card's.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prey troughs raised to 30 so the predator line is always lower; alt and rationale d corrected"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: derived lag removed from the diagram alt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q08",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "predator-prey data",
+        "time lag",
+        "data table"
+      ],
+      "familyId": "L21-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "The table shows invented spring counts of rabbits and foxes on an island. How many years after the rabbit population peaks does the fox population peak?",
+      "accessiblePrompt": "A table shows invented spring counts on an island. Year 1: 400 rabbits, 20 foxes. Year 2: 650 rabbits, 22 foxes. Year 3: 900 rabbits, 28 foxes. Year 4: 1,100 rabbits, 36 foxes. Year 5: 800 rabbits, 44 foxes. Year 6: 450 rabbits, 48 foxes. Year 7: 300 rabbits, 38 foxes. Year 8: 350 rabbits, 26 foxes. Year 9: 600 rabbits, 19 foxes. Year 10: 950 rabbits, 21 foxes. How many years after the rabbit population peaks does the fox population peak?",
+      "units": "years",
+      "conditions": "Invented counts for a simple island with one main predator and one main prey.",
+      "limitations": "Real data are noisier, and the lag can vary from cycle to cycle.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Spring counts on an island (invented data)",
+        "alt": "Table of spring counts on an island (invented data), with columns for year, rabbits and foxes. Year 1: 400 rabbits, 20 foxes. Year 2: 650 rabbits, 22 foxes. Year 3: 900 rabbits, 28 foxes. Year 4: 1,100 rabbits, 36 foxes. Year 5: 800 rabbits, 44 foxes. Year 6: 450 rabbits, 48 foxes. Year 7: 300 rabbits, 38 foxes. Year 8: 350 rabbits, 26 foxes. Year 9: 600 rabbits, 19 foxes. Year 10: 950 rabbits, 21 foxes.",
+        "columns": [
+          "Year",
+          "Rabbits",
+          "Foxes"
+        ],
+        "rows": [
+          [
+            1,
+            400,
+            20
+          ],
+          [
+            2,
+            650,
+            22
+          ],
+          [
+            3,
+            900,
+            28
+          ],
+          [
+            4,
+            1100,
+            36
+          ],
+          [
+            5,
+            800,
+            44
+          ],
+          [
+            6,
+            450,
+            48
+          ],
+          [
+            7,
+            300,
+            38
+          ],
+          [
+            8,
+            350,
+            26
+          ],
+          [
+            9,
+            600,
+            19
+          ],
+          [
+            10,
+            950,
+            21
+          ]
+        ]
+      },
+      "answer": 2,
+      "tolerance": 0,
+      "unit": "years",
+      "workedSolution": "Rabbits are highest in year 4 (1,100 rabbits). Foxes are highest in year 6 (48 foxes). The lag is 6 − 4 = 2 years. The low points agree: rabbits are lowest in year 7 (300 rabbits) and foxes in year 9 (19 foxes), also 2 years apart.",
+      "explanation": "The rabbits peak first and the foxes follow. That delay is the time it takes for a well-fed predator population to grow, and the same delay shows up at the low points: rabbits bottom out in year 7 and foxes in year 9.",
+      "misconception": "Predator numbers rise at the same time as prey numbers.",
+      "hint": "Find the year with the most rabbits, then the year with the most foxes.",
+      "followUpId": "L21-Q06",
+      "scope": {
+        "lessonId": "L21",
+        "section": "2. Interacting Populations Affect One Another",
+        "pages": {
+          "printed": [
+            277
+          ],
+          "pdf": [
+            313
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            277
+          ],
+          "pdfPages": [
+            313
+          ],
+          "locator": "Figure 2, Predator and Prey Population Sizes Change Together",
+          "supports": "The graph shows repeating waves in which each rise in prey is followed a little later by a rise in predators."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "In predator-prey cycles such as lynx and snowshoe hares, the predator population lags the prey by about one to two years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented data with a consistent 2-year lag at both peak and trough. Revision 2026-10-14: the year-9 fox count changed from 20 to 19 so the fox low point is unique (year 1 also had 20); the accessiblePrompt and alt now read the counts year by year, and the alt no longer names the peak years.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: year-9 fox count set to 19 so the fox low point is unique"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: year-by-year accessiblePrompt and alt; derived peaks removed from the alt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q09",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "interaction ratings",
+        "mutualism",
+        "commensalism",
+        "parasitism",
+        "competition"
+      ],
+      "familyId": "L21-F05",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each interaction to its pair of effects on the two species (+ helped, − harmed, 0 no effect).",
+      "accessiblePrompt": "Match each interaction to its pair of effects on the two species. Plus means helped, minus means harmed, zero means no effect. The interactions are mutualism, commensalism, parasitism and competition. The effect pairs are: minus and minus, both harmed; plus and minus, one helped and one harmed; plus and plus, both helped; plus and zero, one helped and one unaffected.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Mutualism",
+          "rationale": "Both species benefit, so both get a plus."
+        },
+        {
+          "id": "b",
+          "text": "Commensalism",
+          "rationale": "One partner gains while the other feels no effect, so plus and zero."
+        },
+        {
+          "id": "c",
+          "text": "Parasitism",
+          "rationale": "The parasite benefits and the host is harmed, so plus and minus."
+        },
+        {
+          "id": "d",
+          "text": "Competition",
+          "rationale": "Both species lose some of a limited resource, so both get a minus."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "+ and + (both helped)"
+        },
+        {
+          "id": "r2",
+          "text": "+ and 0 (one helped, one unaffected)"
+        },
+        {
+          "id": "r3",
+          "text": "+ and − (one helped, one harmed)"
+        },
+        {
+          "id": "r4",
+          "text": "− and − (both harmed)"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4"
+      },
+      "explanation": "Mutualism helps both partners (+ +). Commensalism helps one and leaves the other unaffected (+ 0). Parasitism helps the parasite and harms the host (+ −). Competition harms both species, because each gets less of what it needs (− −).",
+      "misconception": "An interaction is just good or bad overall, so there is no need to rate each partner separately.",
+      "hint": "Think about whether each partner ends up better off, worse off, or the same.",
+      "followUpId": "L21-Q11",
+      "scope": {
+        "lessonId": "L21",
+        "section": "Key Science Concept: Interactions in Ecosystems",
+        "pages": {
+          "printed": [
+            282
+          ],
+          "pdf": [
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "Scientists rate each interaction as beneficial (+), harmful (−) or no effect (0) on a population's growth and use these patterns to predict and manage populations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Symbols read from the rendered spread (p. 282); OCR lost them (L21-RF1). Predation omitted so the match stays one-to-one. Revision 2026-10-14: the right-hand options now carry labels as well as symbols (science reviewer's optional suggestion, so the review record's 'symbols plus labels' claim holds); the accessiblePrompt reads the effect pairs in an order where none sits at its matching interaction's position; the misconception was changed so it no longer repeats Q17's.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: effect pairs read out of matching order; misconception retargeted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q10",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "interaction ratings",
+        "classify interactions",
+        "new examples",
+        "pollination"
+      ],
+      "familyId": "L21-F05",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each pair of species by how their interaction affects both partners.",
+      "accessiblePrompt": "Sort each pair of species by how their interaction affects both partners. The bins are: both helped; one helped and one unaffected; one helped and one harmed; both harmed. The pairs are: a hawk swoops down and eats a field mouse; a robin builds its nest in the branches of a tall maple tree; European starlings and native bluebirds both try to nest in the same few tree holes; a honeybee drinks nectar from apple blossoms and carries their pollen to other blossoms; a tapeworm lives in a dog's intestine and absorbs some of its digested food.",
+      "conditions": "Assume each description tells the whole story of the interaction.",
+      "items": [
+        {
+          "id": "f",
+          "text": "A honeybee drinks nectar from apple blossoms and carries their pollen to other blossoms",
+          "rationale": "The bee gets food and the tree gets its flowers pollinated so it can make fruit and seeds, so + +."
+        },
+        {
+          "id": "b",
+          "text": "A robin builds its nest in the branches of a tall maple tree",
+          "rationale": "The robin gains a nest site and the tree is neither helped nor harmed, so + 0."
+        },
+        {
+          "id": "c",
+          "text": "A tapeworm lives in a dog's intestine and absorbs some of its digested food",
+          "rationale": "The tapeworm gains food from a living host that is harmed, so + −."
+        },
+        {
+          "id": "d",
+          "text": "A hawk swoops down and eats a field mouse",
+          "rationale": "The hawk gains a meal and the mouse is killed, so + −."
+        },
+        {
+          "id": "e",
+          "text": "European starlings and native bluebirds both try to nest in the same few tree holes",
+          "rationale": "Each species loses some nest holes to the other, so − −."
+        }
+      ],
+      "bins": [
+        {
+          "id": "pp",
+          "label": "Both helped (+ +)"
+        },
+        {
+          "id": "p0",
+          "label": "One helped, one unaffected (+ 0)"
+        },
+        {
+          "id": "pm",
+          "label": "One helped, one harmed (+ −)"
+        },
+        {
+          "id": "mm",
+          "label": "Both harmed (− −)"
+        }
+      ],
+      "answer": {
+        "f": "pp",
+        "b": "p0",
+        "c": "pm",
+        "d": "pm",
+        "e": "mm"
+      },
+      "explanation": "Rate each partner separately. The honeybee gets food and the apple tree gets its flowers pollinated, so both gain (+ +). The robin gains a nest site while the tree is not helped or harmed (+ 0). The tapeworm and the hawk each gain at another organism's expense (+ −). Starlings and bluebirds fighting over scarce nest holes both lose out (− −).",
+      "misconception": "If two species live close together, they must be helping each other.",
+      "hint": "For each pair, decide separately whether each species is better off, worse off, or the same.",
+      "followUpId": "L21-Q14",
+      "scope": {
+        "lessonId": "L21",
+        "section": "Key Science Concept: Interactions in Ecosystems",
+        "pages": {
+          "printed": [
+            280,
+            281,
+            282
+          ],
+          "pdf": [
+            316,
+            317,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "In a mutualism both species benefit, as with cleaner fish and green sea turtles or clown fish and sea anemones."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Commensalism",
+          "supports": "In commensalism one species benefits and the other is unaffected, as with barnacles riding on a whale."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Parasitism",
+          "supports": "A parasite lives on or in a living host and takes small amounts of resources over time, usually weakening rather than killing it; fleas on a kitten are an example."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Birds nesting in trees are a commensal example; tapeworms live in the host's intestine and benefit from the food the host eats; European starlings may compete with native birds for nest holes."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 32.2 Pollination and Fertilization",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization",
+          "accessed": "2026-10-17",
+          "supports": "Bees collect pollen or nectar for food, and pollen sticking to their hairs is carried to other flowers; bees are the most important pollinators of most commercial fruit trees, and flowers left unpollinated do not bear seed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New examples verified against OpenStax; descriptions are complete so each item has one bin. Revision 2026-10-14: the termite gut-microbe item (a) was replaced by a honeybee pollinating apple blossoms (new item id f), so this item no longer overlaps Q12's 'lives inside but is a mutualist' idea; the bee example was checked against OpenStax Biology 2e 32.2 (opened 2026-10-17), and the OpenStax 45.6 record was re-opened and trimmed to what that page says. The accessiblePrompt lists the pairs in an order that is not grouped by bin. Verify 2026-10-14 (verify-agent): cosmetic fix only; the accessiblePrompt's robin item now reads 'in the branches of a tall maple tree', matching item b's on-screen text.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: termite item replaced by honeybee and apple blossoms (new item f); list order mixed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q11",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "mutualism",
+        "definition",
+        "seed question"
+      ],
+      "familyId": "L21-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Clown fish shelter among a sea anemone's stinging tentacles, which don't harm them, and they chase off animals that would eat the anemone. Their interaction is called mutualism. What is mutualism?",
+      "accessiblePrompt": "Clown fish shelter among a sea anemone's stinging tentacles, which don't harm them, and the clown fish chase off animals that would eat the anemone. Their interaction is called mutualism. What is mutualism?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An interaction in which both species benefit",
+          "rationale": "Correct: the clown fish gets protection and the anemone gets a guard, so both benefit."
+        },
+        {
+          "id": "b",
+          "text": "An interaction in which one species benefits but the other is unaffected",
+          "rationale": "That describes commensalism, where one partner is unaffected."
+        },
+        {
+          "id": "c",
+          "text": "An interaction in which one species benefits but the other is harmed",
+          "rationale": "That describes predation or parasitism, not an interaction that helps both."
+        },
+        {
+          "id": "d",
+          "text": "An interaction in which both species are harmed",
+          "rationale": "That describes competition, where both species get less of a shared resource."
+        }
+      ],
+      "answer": "a",
+      "explanation": "In a mutualism, both participating species benefit. The clown fish gets a safe home guarded by stinging tentacles, and the anemone gets a defender. Interactions where only one side gains are commensalism, parasitism or predation, and competition harms both sides.",
+      "misconception": "Any interaction in which two species spend time together is a mutualism.",
+      "hint": "Check what the clown fish gets and what the anemone gets.",
+      "followUpId": "L21-Q21",
+      "scope": {
+        "lessonId": "L21",
+        "section": "4. Mutually Beneficial Interactions",
+        "pages": {
+          "printed": [
+            273,
+            280
+          ],
+          "pdf": [
+            309,
+            316
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            273
+          ],
+          "pdfPages": [
+            309
+          ],
+          "locator": "Introduction",
+          "supports": "Clown fish are protected among the anemone's tentacles, and the anemone benefits because clown fish chase away animals that might eat it."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "In a mutualism both species benefit, as with cleaner fish and green sea turtles or clown fish and sea anemones."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for lesson 21 ('What is mutualism?' answer: both participating species benefit), framed with the lesson's opener example. Revision 2026-10-14: the four choices are now parallel definitions in the seed answer's form, and the stem says 'interaction', so only the key no longer echoes the stem's 'partnership'. 'But' (not 'and') keeps choices b and c from sharing a nine-word run with the textbook's vocabulary box.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices made parallel; 'partnership' echo removed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q12",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "mutualism",
+        "new example",
+        "coral and algae"
+      ],
+      "familyId": "L21-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Tiny algae live inside a reef coral's tissues. They use sunlight to make food and pass much of it to the coral. The coral gives the algae a sheltered home and some materials they need. Which interaction is this?",
+      "accessiblePrompt": "Tiny algae live inside the tissues of a reef-building coral. The algae use sunlight to make food and pass much of it to the coral. The coral gives the algae a sheltered home and some of the raw materials they need. Which kind of interaction is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mutualism",
+          "rationale": "Correct: the coral gets food and the algae get shelter and materials, so both benefit."
+        },
+        {
+          "id": "b",
+          "text": "Parasitism",
+          "rationale": "The algae live inside the coral but feed it rather than harming it, so this is not parasitism."
+        },
+        {
+          "id": "c",
+          "text": "Commensalism",
+          "rationale": "The coral is clearly helped by the food it receives, so it is not an unaffected partner."
+        },
+        {
+          "id": "d",
+          "text": "Predation",
+          "rationale": "Neither partner eats the other; they trade food for shelter."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Both partners gain: the coral gets food, and the algae get shelter and materials. That two-way benefit makes it a mutualism. Living inside another organism doesn't automatically make something a parasite; what matters is whether the partner is harmed.",
+      "misconception": "Any organism that lives inside another organism must be a parasite.",
+      "hint": "List what each partner gets out of the arrangement.",
+      "followUpId": "L21-Q15",
+      "scope": {
+        "lessonId": "L21",
+        "section": "4. Mutually Beneficial Interactions",
+        "pages": {
+          "printed": [
+            280,
+            282
+          ],
+          "pdf": [
+            316,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "In a mutualism both species benefit, as with cleaner fish and green sea turtles or clown fish and sea anemones."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Corals harbor photosynthesizing symbionts in their tissues in a mutualistic relationship."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New example (coral and photosynthetic algae) verified against OpenStax 45.6. Revision 2026-10-14: followUpId changed from Q17 (competition) to Q15 (features of a parasite), which addresses this item's misconception; after Q10's item swap this is the bank's only 'lives inside but is a mutualist' item.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L21-Q15"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q13",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "commensalism",
+        "barnacles",
+        "whale"
+      ],
+      "familyId": "L21-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Barnacles glue themselves to a humpback whale's skin. As the whale swims, they sweep bits of food from the passing water. As far as scientists can tell, the whale is not helped or harmed. Which interaction is this?",
+      "accessiblePrompt": "Barnacles glue themselves to a humpback whale's skin. As the whale swims, the barnacles sweep bits of food from the passing water. As far as scientists can tell, the whale is not helped or harmed. Which kind of interaction is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Commensalism",
+          "rationale": "Correct: the barnacles benefit and the whale is neither helped nor harmed, so + 0."
+        },
+        {
+          "id": "b",
+          "text": "Mutualism",
+          "rationale": "The whale gets nothing from the barnacles in this description, so it isn't a two-way benefit."
+        },
+        {
+          "id": "c",
+          "text": "Parasitism",
+          "rationale": "The barnacles catch food from the water rather than feeding on the whale, and the whale isn't harmed."
+        },
+        {
+          "id": "d",
+          "text": "Competition",
+          "rationale": "The whale and barnacles aren't fighting over a shared, limited resource."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The barnacles gain a moving ride to fresh food, and the whale is unaffected, so the rating is + 0: commensalism. The barnacles eat food floating in the water, not the whale itself, which is why this isn't parasitism.",
+      "misconception": "Any small creature living on a bigger animal is a parasite.",
+      "hint": "Is the whale helped, harmed or neither? Are the barnacles eating the whale?",
+      "followUpId": "L21-Q10",
+      "scope": {
+        "lessonId": "L21",
+        "section": "5. Other Kinds of Interactions",
+        "pages": {
+          "printed": [
+            281,
+            282
+          ],
+          "pdf": [
+            317,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Commensalism",
+          "supports": "In commensalism one species benefits and the other is unaffected, as with barnacles riding on a whale."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "external",
+          "title": "Gray Whales (Point Reyes National Seashore)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://nps.gov/pore/learn/nature/gray_whales.htm",
+          "accessed": "2026-10-14",
+          "supports": "Whales and the barnacles living on them are a standard example of commensalism."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Wording 'as far as scientists can tell' reflects L21-RF11.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q14",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "commensalism",
+        "cattle egret",
+        "misconception repair"
+      ],
+      "familyId": "L21-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Cattle egrets follow grazing cows and snap up insects the cows kick up from the grass. A classmate says, \"Both animals are getting food, so it's a mutualism.\" What is wrong with that reasoning?",
+      "accessiblePrompt": "Cattle egrets are white birds that follow grazing cows and snap up insects the cows kick up from the grass. Assume the egrets eat only those insects and never pick ticks or flies off the cows. A classmate says: both animals are getting food, so it is a mutualism. What is wrong with that reasoning?",
+      "conditions": "Assume the egrets eat only insects stirred up from the grass and never pick ticks or flies off the cows' bodies.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cows aren't helped by the egrets, so it is really commensalism",
+          "rationale": "Correct: the egrets benefit (+) while the cows are not helped or harmed, as far as scientists can tell (0), which is the commensalism pattern."
+        },
+        {
+          "id": "b",
+          "text": "Nothing is wrong; any time two species eat side by side it's a mutualism",
+          "rationale": "Eating side by side says nothing about whether each partner helps the other; the cow gets no benefit from the egrets."
+        },
+        {
+          "id": "c",
+          "text": "It's parasitism, because the egrets steal insects that belong to the cows",
+          "rationale": "The cows don't eat insects, so the egrets aren't taking the cows' food or harming them."
+        },
+        {
+          "id": "d",
+          "text": "It's competition, because cows and egrets eat the same food",
+          "rationale": "Cows eat grass and egrets eat insects, so they aren't competing for the same food."
+        }
+      ],
+      "answer": "a",
+      "explanation": "An interaction is rated by what it does for each partner. The cow eats grass whether or not the egrets are there, so as far as scientists can tell the egrets neither help nor harm the cow (0), while the egrets clearly gain (+). That makes it commensalism. Two animals both eating nearby doesn't mean they're helping each other.",
+      "misconception": "If both species are doing well during an interaction, it must be a mutualism.",
+      "hint": "Would the cow get any less grass if the egrets flew away?",
+      "followUpId": "L21-Q22",
+      "scope": {
+        "lessonId": "L21",
+        "section": "Key Science Concept: Interactions in Ecosystems",
+        "pages": {
+          "printed": [
+            282
+          ],
+          "pdf": [
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Commensalism",
+          "supports": "In commensalism one species benefits and the other is unaffected, as with barnacles riding on a whale."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Example taken from the rendered spread (p. 282), where cows are rated 0. Revision 2026-10-14: conditions rule out egrets picking ticks or flies off the cows (real cattle egrets sometimes do, which could make 'mutualism' defensible), and the key and explanation hedge the cows' 0 with 'as far as scientists can tell' (L21-RF11). The assumption is also in the accessiblePrompt because narration does not read the conditions line.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions rule out egrets picking pests off cows; key hedged 'as far as scientists can tell'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: condition added ruling out egrets taking anything from the cows' bodies"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q15",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "parasitism",
+        "parasite",
+        "host"
+      ],
+      "familyId": "L21-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which statements describe a typical parasite? Select all that apply.",
+      "accessiblePrompt": "Which statements describe a typical parasite? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It lives on or inside another living organism, called its host",
+          "rationale": "Correct: fleas live in a kitten's fur and tapeworms live in an intestine; a parasite needs a living host."
+        },
+        {
+          "id": "b",
+          "text": "It takes small amounts of food or other resources from its host over time",
+          "rationale": "Correct: a parasite takes a little at a time, which can weaken the host."
+        },
+        {
+          "id": "c",
+          "text": "It usually kills its host right away to eat it",
+          "rationale": "That describes a hunting predator such as an owl; a parasite usually keeps its host alive because it depends on it."
+        },
+        {
+          "id": "d",
+          "text": "It gives its host something useful in return",
+          "rationale": "A two-way exchange would make the relationship a mutualism; a parasite's host is harmed."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A parasite makes its home on or inside a living host and feeds on it a little at a time, so it usually weakens the host rather than killing it quickly. A partner that gives something back would make the relationship a mutualism.",
+      "misconception": "Parasites are just small predators that kill their hosts.",
+      "hint": "Think of fleas on a kitten: where do they live, and what happens to the kitten?",
+      "followUpId": "L21-Q03",
+      "scope": {
+        "lessonId": "L21",
+        "section": "5. Other Kinds of Interactions",
+        "pages": {
+          "printed": [
+            281
+          ],
+          "pdf": [
+            317
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Parasitism",
+          "supports": "A parasite lives on or in a living host and takes small amounts of resources over time, usually weakening rather than killing it; fleas on a kitten are an example."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax (Rice University)",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Parasites benefit while harming the host and usually avoid killing the host quickly."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 281. Revision 2026-10-14: rationale c says 'hunting predator', since grazers are predators that usually leave the plant alive (Q04); choice list removed from the accessiblePrompt.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale c says 'hunting predator such as an owl'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice list removed from accessiblePrompt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q16",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2",
+        "L21-O1"
+      ],
+      "conceptTags": [
+        "parasitism",
+        "predation",
+        "comparing interactions"
+      ],
+      "familyId": "L21-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Predation and parasitism both earn the rating + − (one species helped, the other harmed). Which important difference between them does that rating leave out?",
+      "accessiblePrompt": "Predation and parasitism both earn the rating plus and minus: one species is helped and the other is harmed. Which important difference between them does that rating leave out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hunting predator usually kills its prey; a parasite usually keeps its host alive",
+          "rationale": "Correct: the rating shows who gains and who loses, but not that hunting predators usually kill while a parasite stays on or inside one living host and usually leaves it alive."
+        },
+        {
+          "id": "b",
+          "text": "A parasite helps its host in return, while a predator only harms its prey",
+          "rationale": "A host is harmed in parasitism; a partner that helps in return would make it a mutualism."
+        },
+        {
+          "id": "c",
+          "text": "Predators are always animals, while parasites are always insects",
+          "rationale": "Venus flytraps catch insects, and parasites include tapeworms (worms), fleas (insects) and ticks (arachnids, not insects)."
+        },
+        {
+          "id": "d",
+          "text": "In predation both species are harmed, while in parasitism only one is",
+          "rationale": "In predation the predator benefits; only the prey is harmed."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The + − rating says who gains and who loses, but not how. A hunting predator such as an owl usually kills its prey to eat it, while a parasite stays on or inside a host that is still alive and takes small amounts over time; that's why a flea can live on one cat for weeks. Grazers also count as predators in this lesson but often leave the plant alive, so the sharpest contrast is with hunting predators.",
+      "misconception": "Predation and parasitism are the same thing because they have the same rating.",
+      "hint": "Compare what happens to a mouse eaten by an owl with what happens to a kitten with fleas.",
+      "followUpId": "L21-Q09",
+      "scope": {
+        "lessonId": "L21",
+        "section": "5. Other Kinds of Interactions",
+        "pages": {
+          "printed": [
+            281,
+            282
+          ],
+          "pdf": [
+            317,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Parasitism",
+          "supports": "A parasite lives on or in a living host and takes small amounts of resources over time, usually weakening rather than killing it; fleas on a kitten are an example."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            274
+          ],
+          "pdfPages": [
+            310
+          ],
+          "locator": "1. Predators",
+          "supports": "Predation is a relationship in which the predator benefits by eating the prey; predators are grouped by what they eat."
+        },
+        {
+          "type": "external",
+          "title": "Tick Biology and Ecology",
+          "publisher": "University of Maine Cooperative Extension Tick Lab",
+          "url": "https://extension.umaine.edu/ticks/tick-biology/",
+          "accessed": "2026-10-14",
+          "supports": "Ticks are arachnids with eight legs as adults, not insects."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Distractor c rationale corrects the p. 281 caption that calls ticks insects (L21-RF9). Revision 2026-10-14: the key now contrasts a hunting predator with a parasite, because in this lesson grazers are predators that usually leave the plant alive (p. 276, Q04). 'Lives on or in its host' sits in the rationale and explanation rather than the choice text, so the key is not the longest choice by far. The prompt now pairs the + − symbols with words, as the brief asks.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key contrasts hunting predators with parasites"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q17",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2"
+      ],
+      "conceptTags": [
+        "competition",
+        "limited resources",
+        "interaction ratings"
+      ],
+      "familyId": "L21-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two kinds of hummingbirds sip nectar from the same small patch of flowers, and there isn't enough nectar for all of them. How does this interaction between the two hummingbird species affect each of them?",
+      "accessiblePrompt": "Two kinds of hummingbirds sip nectar from the same small patch of flowers, and there isn't enough nectar for all of them. How does this interaction between the two hummingbird species affect each of them?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both are harmed, because each gets less nectar",
+          "rationale": "Correct: competing for a limited resource leaves both species with less, so the rating is − −."
+        },
+        {
+          "id": "b",
+          "text": "Both are helped, because sharing a patch is a partnership",
+          "rationale": "Neither species gives the other anything; they only take nectar the other could have used."
+        },
+        {
+          "id": "c",
+          "text": "The stronger species is helped and the weaker one is harmed",
+          "rationale": "Even the stronger species gets less nectar than it would alone, so the lesson rates competition as harmful to both."
+        },
+        {
+          "id": "d",
+          "text": "Neither is affected, because each species simply eats less",
+          "rationale": "Eating less of a food you need is a harm, and the prompt says there isn't enough for all of them."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When two species need the same limited resource, each gets less than it would without the other, so the lesson rates competition − − for both. Even the species that wins more fights over flowers would have more nectar if its rival weren't there.",
+      "misconception": "Competition always has a winner who benefits from it.",
+      "hint": "Imagine one hummingbird species disappeared. Would the other be better or worse off?",
+      "followUpId": "L21-Q09",
+      "scope": {
+        "lessonId": "L21",
+        "section": "Key Science Concept: Interactions in Ecosystems",
+        "pages": {
+          "printed": [
+            273,
+            282
+          ],
+          "pdf": [
+            309,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            273
+          ],
+          "pdfPages": [
+            309
+          ],
+          "locator": "Introduction",
+          "supports": "Competition for limited resources between species can harm both species."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Interaction is between the two hummingbird species only; hummingbird-flower pollination is not asked about.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q18",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2",
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "predicting population change",
+        "mutualism",
+        "competition",
+        "predator-prey",
+        "parasitism"
+      ],
+      "familyId": "L21-F09",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "classify",
+      "prompt": "A disease suddenly shrinks the population of species A. Sort each kind of partner, B, by how B's population will most likely change.",
+      "accessiblePrompt": "A disease suddenly shrinks the population of species A; assume the disease harms only A and nothing else changes. Sort each kind of partner, called species B, into one of two groups: B's population likely grows, or B's population likely shrinks. The partners are: B is a plant that A mainly eats; B is A's mutualist partner; B is a parasite that can live only on A; B competes with A for the same food; B is a predator that mainly eats A.",
+      "conditions": "Assume the disease harms only species A and nothing else changes; these are the likely tendencies the lesson describes, not guarantees.",
+      "items": [
+        {
+          "id": "a",
+          "text": "B is A's mutualist partner",
+          "rationale": "B loses help it was getting from A: a mutualist depends on A's help, so losing many A's tends to shrink B."
+        },
+        {
+          "id": "b",
+          "text": "B competes with A for the same food",
+          "rationale": "There is less competition for the food they share: with fewer A's eating it, more is left for B, so B tends to grow."
+        },
+        {
+          "id": "c",
+          "text": "B is a predator that mainly eats A",
+          "rationale": "B's main food supply has dropped: A is B's main food, so a smaller A population tends to shrink B."
+        },
+        {
+          "id": "d",
+          "text": "B is a plant that A mainly eats",
+          "rationale": "Fewer of the plants are being eaten: with fewer A's grazing, the plant population tends to grow."
+        },
+        {
+          "id": "e",
+          "text": "B is a parasite that can live only on A",
+          "rationale": "Fewer A's means fewer hosts, so there are fewer places for the parasite to live and feed, and B tends to shrink."
+        }
+      ],
+      "bins": [
+        {
+          "id": "grow",
+          "label": "B's population likely grows"
+        },
+        {
+          "id": "shrink",
+          "label": "B's population likely shrinks"
+        }
+      ],
+      "answer": {
+        "a": "shrink",
+        "b": "grow",
+        "c": "shrink",
+        "d": "grow",
+        "e": "shrink"
+      },
+      "explanation": "The same event ripples differently depending on the relationship. A mutualist loses help, a predator loses food and a parasite loses hosts, so all three tend to shrink. A competitor and a plant that A eats are freed from pressure, so both tend to grow. This is how scientists use interaction patterns to predict population changes.",
+      "misconception": "When one species declines, every species connected to it declines too.",
+      "hint": "For each partner, ask: was species A helping it or harming it?",
+      "followUpId": "L21-Q20",
+      "scope": {
+        "lessonId": "L21",
+        "section": "6. Scientists Predict Interactions",
+        "pages": {
+          "printed": [
+            277,
+            280,
+            281,
+            282,
+            283
+          ],
+          "pdf": [
+            313,
+            316,
+            317,
+            318,
+            319
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "Because mutualists depend on each other, if disease or more predators shrink one partner's population, the other may shrink too."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            276,
+            277
+          ],
+          "pdfPages": [
+            312,
+            313
+          ],
+          "locator": "2. Interacting Populations Affect One Another, Isle Royale",
+          "supports": "On Isle Royale, a shrinking moose population left less food for wolves and the wolf population later decreased; when wolves became scarce, moose increased."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "Scientists rate each interaction as beneficial (+), harmful (−) or no effect (0) on a population's growth and use these patterns to predict and manage populations."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            278
+          ],
+          "pdfPages": [
+            314
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, photo caption",
+          "supports": "When wolves eat elk, the plant populations that elk prey on increase."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            281
+          ],
+          "pdfPages": [
+            317
+          ],
+          "locator": "5. Other Kinds of Interactions, Parasitism",
+          "supports": "A parasite lives on or in a living host and takes small amounts of resources over time, usually weakening rather than killing it; fleas on a kitten are an example."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pattern-based predictions from pp. 276-283; conditions state they are likely tendencies. Revision 2026-10-14: converted from a match item, whose right-hand outcomes repeated each relationship's own words, to a two-bin classify item (grows / shrinks); the old 'because' reasons now open the item rationales; a fifth item (a parasite that can live only on A) was added, and the conditions say the disease harms only A, so the parasite item can't be read as the disease itself. The accessiblePrompt lists the items as d, a, e, b, c, not grouped by bin. The accessiblePrompt repeats the key assumption because narration does not read the conditions line.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: converted from match to a two-bin classify item with a parasite row; reasons moved to rationales"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q19",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O4",
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "Yellowstone",
+        "wolves",
+        "elk",
+        "ripple effects"
+      ],
+      "familyId": "L21-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these events in Yellowstone's wolf story in order, from earliest to latest.",
+      "accessiblePrompt": "Put these events in Yellowstone's wolf story in order, from earliest to latest. The events are: scientists bring wolves back to Yellowstone in the 1990s; wolves, along with other factors, help keep elk numbers in check, and some plant communities begin to recover; with no wolves hunting them, elk numbers climb; people kill off the area's wolves to protect livestock; large elk herds overgraze, and plants such as willows suffer.",
+      "items": [
+        {
+          "id": "d",
+          "text": "Scientists bring wolves back to Yellowstone in the 1990s",
+          "rationale": "Fourth: wolves were brought back in the 1990s, starting in 1995, after the overgrazing problem."
+        },
+        {
+          "id": "b",
+          "text": "With no wolves hunting them, elk numbers climb",
+          "rationale": "Second: removing their predator let the elk population grow."
+        },
+        {
+          "id": "e",
+          "text": "Wolves, along with other factors, help keep elk numbers in check, and some plant communities begin to recover",
+          "rationale": "Last: this is the result of the wolves' return over the following years."
+        },
+        {
+          "id": "a",
+          "text": "People kill off the area's wolves to protect livestock",
+          "rationale": "First: wolves were killed in the late 1800s and early 1900s."
+        },
+        {
+          "id": "c",
+          "text": "Large elk herds overgraze, and plants such as willows suffer",
+          "rationale": "Third: the growing elk herds ate too many plants."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ends": [
+        "Earliest",
+        "Latest"
+      ],
+      "explanation": "Removing a predator let its prey multiply, and the extra elk then harmed the plants they eat. Returning the predator reversed part of that chain. The plants were never eaten by wolves, yet the wolves still affected them through the elk.",
+      "misconception": "A predator only affects the species it eats directly.",
+      "hint": "Start with what people did to the wolves, then follow the effect down to the plants.",
+      "followUpId": "L21-Q07",
+      "scope": {
+        "lessonId": "L21",
+        "section": "3. Using Predators to Manage Ecosystems",
+        "pages": {
+          "printed": [
+            278,
+            279
+          ],
+          "pdf": [
+            314,
+            315
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            278
+          ],
+          "pdfPages": [
+            314
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems",
+          "supports": "Wolves were killed off in Yellowstone, elk increased and overgrazed plants, and wolves were reintroduced in the late 1990s (the textbook's date; NPS gives 1995) to control elk."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Design Solution",
+          "supports": "With wolves restored, elk no longer eat plants as heavily, and species that rely on those plants are recovering."
+        },
+        {
+          "type": "external",
+          "title": "Wolf Management (Yellowstone National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/yell/learn/management/wolf.htm",
+          "accessed": "2026-10-14",
+          "supports": "Wolves were reintroduced in 1995; early elk declines were mostly due to climate and human hunting; wolves are one of several predators that affect elk and have played a role in changes in some vegetation communities, including willow and aspen."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Final item says 'along with other factors' (L21-RF7). History is in one defensible order. Revision 2026-10-14: rationale d gives 1995 (NPS) instead of repeating the textbook's 'late 1990s', while matching the item's 'in the 1990s'; the NPS evidence now follows the page's own wording (no 'mostly indirect'). The accessiblePrompt lists the events as d, e, b, a, c so none sits at its answer position (the reviewer's suggested d, b, e, a, c would have left b in its answer slot).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale d gives 1995; NPS evidence reworded to the page's wording"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessiblePrompt lists the events out of answer order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q20",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "ripple effects",
+        "kelp forest",
+        "prediction"
+      ],
+      "familyId": "L21-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In a simple kelp forest model, sea otters eat sea urchins, and sea urchins graze on kelp. Otters do not eat kelp. If most otters disappeared from the area, what would most likely happen to the kelp?",
+      "accessiblePrompt": "In a simple kelp forest model, sea otters eat sea urchins, and sea urchins graze on kelp, a large seaweed. Otters do not eat kelp. If most otters disappeared from the area, what would most likely happen to the kelp?",
+      "conditions": "Use only the feeding links in this simple model.",
+      "limitations": "Real kelp forests have more species, and the size of the effect varies from place to place.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The kelp would decline, because more urchins would survive and eat more kelp",
+          "rationale": "Correct: with fewer otters eating them, urchins increase and graze down the kelp."
+        },
+        {
+          "id": "b",
+          "text": "The kelp would stay the same, because otters never eat kelp",
+          "rationale": "Otters affect kelp indirectly by controlling the urchins that eat kelp."
+        },
+        {
+          "id": "c",
+          "text": "The kelp would increase, because otters would no longer disturb it",
+          "rationale": "In this model otters don't harm kelp at all; removing them helps the urchins, which eat kelp."
+        },
+        {
+          "id": "d",
+          "text": "The kelp would increase, because the urchins would also disappear",
+          "rationale": "Urchins are the otters' prey, so losing otters makes urchins more common, not less."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Losing a predator lets its prey increase, and the extra prey eat more of their own food. Fewer otters means more urchins, and more urchins means more kelp gets eaten. Like Yellowstone's wolves, otters affect a species they never eat.",
+      "misconception": "A predator can only affect the species it eats directly.",
+      "hint": "Follow the chain one step at a time: otters, then urchins, then kelp.",
+      "followUpId": "L21-Q18",
+      "scope": {
+        "lessonId": "L21",
+        "section": "3. Using Predators to Manage Ecosystems",
+        "pages": {
+          "printed": [
+            278,
+            283
+          ],
+          "pdf": [
+            314,
+            319
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            278
+          ],
+          "pdfPages": [
+            314
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems",
+          "supports": "Without wolves, elk grew in number and overgrazed plants; when wolves eat elk, the plants elk eat increase."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "Scientists rate each interaction as beneficial (+), harmful (−) or no effect (0) on a population's growth and use these patterns to predict and manage populations."
+        },
+        {
+          "type": "external",
+          "title": "Sea Otters (Southeast Alaska Network)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/im/sean/seaotters.htm",
+          "accessed": "2026-10-14",
+          "supports": "Where sea otters are present they eat sea urchins, urchin density decreases, and lower urchin density reduces grazing on kelp."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New system verified with NPS; conditions limit the answer to the stated model.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q21",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "mutualism",
+        "ants and aphids",
+        "prediction"
+      ],
+      "familyId": "L21-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "On a rosebush, ants guard aphids from ladybugs and collect sweet droplets the aphids make. A spray that harms only the ants wipes out most of them. What will most likely happen to the aphid population over the next few weeks?",
+      "accessiblePrompt": "On a rosebush, ants guard small insects called aphids from ladybugs, which eat aphids, and the ants collect sweet droplets the aphids make. A spray that harms only the ants wipes out most of them. What will most likely happen to the aphid population over the next few weeks?",
+      "conditions": "Assume the spray does not harm the aphids or the ladybugs.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It will most likely shrink, because ladybugs can now eat more aphids",
+          "rationale": "Correct: the aphids lose their bodyguards, so more of them are eaten."
+        },
+        {
+          "id": "b",
+          "text": "It will most likely grow, because ants no longer take the aphids' sweet droplets",
+          "rationale": "The droplets are what the aphids trade for protection; losing the protection costs them far more."
+        },
+        {
+          "id": "c",
+          "text": "It will stay the same, because aphids and ants only share a bush",
+          "rationale": "The ants actively guard the aphids, so the two species depend on each other."
+        },
+        {
+          "id": "d",
+          "text": "It will most likely grow, because the ladybugs will leave along with the ants",
+          "rationale": "The spray harms only ants; nothing makes the ladybugs leave, and they now have easier prey."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Ants and aphids are mutualists, so the aphids depend on the ants' protection. Without guards, ladybugs and other predators can eat more aphids, so the aphid population will most likely shrink. When one mutualist partner declines, the other often declines too.",
+      "misconception": "In a mutualism, losing your partner frees you from a cost, so you do better.",
+      "hint": "What were the ants doing for the aphids?",
+      "followUpId": "L21-Q18",
+      "scope": {
+        "lessonId": "L21",
+        "section": "4. Mutually Beneficial Interactions",
+        "pages": {
+          "printed": [
+            280,
+            282
+          ],
+          "pdf": [
+            316,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "Because mutualists depend on each other, if disease or more predators shrink one partner's population, the other may shrink too."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems, mutualism",
+          "supports": "Ants get sugary food from aphids, and aphids benefit because ants protect them from predators."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Ant-aphid example from the rendered spread (p. 282); population reasoning from p. 280.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q22",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O2",
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "mutualism",
+        "evidence",
+        "correlation"
+      ],
+      "familyId": "L21-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Scientists suspect two species, X and Y, are mutualists. Which observation would be the strongest evidence that each species benefits from the other?",
+      "accessiblePrompt": "Scientists suspect that two species, called X and Y, are mutualists. Which observation would be the strongest evidence that each species benefits from the other?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Removing either species made the other's population grow more slowly",
+          "rationale": "Correct: this tests each species without its partner and shows that both populations do worse alone."
+        },
+        {
+          "id": "b",
+          "text": "X and Y are usually found living side by side in the same places",
+          "rationale": "Living together also happens in commensalism and parasitism, so it doesn't show that both benefit."
+        },
+        {
+          "id": "c",
+          "text": "Y regularly takes some of its food from X's body",
+          "rationale": "Taking food from a partner could be parasitism; it says nothing about whether X benefits."
+        },
+        {
+          "id": "d",
+          "text": "X's population grew in the same years that Y's population grew",
+          "rationale": "Rising together is a correlation; good weather or plentiful food could cause both rises without any partnership."
+        }
+      ],
+      "answer": "a",
+      "explanation": "To show that each species benefits, you need evidence of what happens to each one without the other. A removal test that shows both species doing worse alone is direct evidence of a two-way benefit. Living side by side, or rising in the same years, could also happen in commensalism, parasitism, or because of a shared cause like good weather.",
+      "misconception": "If two species are often seen together or rise and fall together, they must be helping each other.",
+      "hint": "For each choice, ask: could this also be true if only one species benefited, or if both simply liked the same conditions?",
+      "followUpId": "L21-Q14",
+      "scope": {
+        "lessonId": "L21",
+        "section": "4. Mutually Beneficial Interactions",
+        "pages": {
+          "printed": [
+            280,
+            282
+          ],
+          "pdf": [
+            316,
+            318
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "In a mutualism both species benefit, as with cleaner fish and green sea turtles or clown fish and sea anemones."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            280
+          ],
+          "pdfPages": [
+            316
+          ],
+          "locator": "4. Mutually Beneficial Interactions",
+          "supports": "Because mutualists depend on each other, if disease or more predators shrink one partner's population, the other may shrink too."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            282
+          ],
+          "pdfPages": [
+            318
+          ],
+          "locator": "Key Science Concept: Interactions in Ecosystems",
+          "supports": "Interactions are rated + (helped), − (harmed) or 0 (unaffected) for each species: mutualism + +, commensalism + 0, competition − −, predation and parasitism + −."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Targets correlation vs evidence (brief guardrail); answer rests on the definition of mutualism, pp. 280 and 282. Revision 2026-10-14: choice a says 'population' so 'grow' can't be read as body size (science reviewer's optional suggestion); the hint no longer names the removal test.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the removal test"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q23",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "snow leopards",
+        "management",
+        "interaction ratings"
+      ],
+      "familyId": "L21-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A mountain preserve protects snow leopards, but their numbers are falling. Using this lesson's interaction patterns, which actions would most likely help the snow leopards? Select all that apply.",
+      "accessiblePrompt": "A mountain preserve protects snow leopards, but their numbers are falling. Using this lesson's interaction patterns, which actions would most likely help the snow leopards? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Protect the wild sheep and ibex that snow leopards hunt",
+          "rationale": "Correct: prey are a + interaction, so a larger prey population means more food for the leopards."
+        },
+        {
+          "id": "b",
+          "text": "Treat a parasite that is spreading among the snow leopards",
+          "rationale": "Correct: a parasite is a − interaction, so reducing it removes a harm."
+        },
+        {
+          "id": "c",
+          "text": "Bring in another big cat that hunts the same sheep and ibex",
+          "rationale": "A new competitor is a − interaction that would leave less prey for the snow leopards."
+        },
+        {
+          "id": "d",
+          "text": "Clear away the grasses that the sheep and ibex graze on",
+          "rationale": "Less food for the prey means fewer prey, which means less food for the snow leopards."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Strengthen the interactions that help (+) and weaken the ones that harm (−). More prey means more food for the leopards, and fewer parasites means healthier cats. Adding a competitor or starving the prey would push the snow leopard population down.",
+      "misconception": "Any change to a protected area's wildlife helps the species you are trying to protect.",
+      "hint": "Label each partner + or − for the snow leopards first.",
+      "followUpId": "L21-Q18",
+      "scope": {
+        "lessonId": "L21",
+        "section": "6. Scientists Predict Interactions",
+        "pages": {
+          "printed": [
+            283
+          ],
+          "pdf": [
+            319
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "To help declining snow leopards, managers can increase the prey population, reduce competitors or reduce the harm from a parasite."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "Scientists rate each interaction as beneficial (+), harmful (−) or no effect (0) on a population's growth and use these patterns to predict and manage populations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 283. Revision 2026-10-14: choice list removed from the accessiblePrompt; followUpId changed from Q16 to Q18, which practises predicting population change from + and − interactions.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice list removed from accessiblePrompt; followUpId now L21-Q18"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q24",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "management",
+        "data table",
+        "evidence",
+        "snow leopards"
+      ],
+      "familyId": "L21-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Snow leopards in a preserve have declined over 10 years. A ranger listed their main interactions and how each partner changed (invented data in the table). Which step best targets the most likely cause of the decline?",
+      "accessiblePrompt": "Snow leopards in a preserve have declined over 10 years. A ranger listed their main interactions and how each partner changed, in invented data. Blue sheep, prey, a plus for the leopards: about the same. Ibex, prey, a plus: fell by more than half after drought dried their grazing meadows. Wolves, which compete for the same prey, a minus: about the same. Fleas, a parasite, a minus: about the same. Which step best targets the most likely cause of the decline?",
+      "conditions": "Invented data; assume the table lists the snow leopards' main interactions.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Snow leopard interactions in one preserve (invented data)",
+        "alt": "Table with three columns: partner, effect on snow leopards, and change over 10 years. Blue sheep, prey, plus (helps): about the same. Ibex, prey, plus (helps): fell by more than half after drought dried their grazing meadows. Wolves, competitor for the same prey, minus (harms): about the same. Fleas, parasite, minus (harms): about the same.",
+        "columns": [
+          "Partner",
+          "Effect on snow leopards",
+          "Change over 10 years"
+        ],
+        "rows": [
+          [
+            "Blue sheep (prey)",
+            "+ (helps)",
+            "About the same"
+          ],
+          [
+            "Ibex (prey)",
+            "+ (helps)",
+            "Fell by more than half after drought dried their meadows"
+          ],
+          [
+            "Wolves (compete for the same prey)",
+            "− (harms)",
+            "About the same"
+          ],
+          [
+            "Fleas (parasite)",
+            "− (harms)",
+            "About the same"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Help the ibex recover by protecting their meadows",
+          "rationale": "Correct: the ibex are the only partner that changed, and losing a helpful prey interaction best explains the decline."
+        },
+        {
+          "id": "b",
+          "text": "Remove the wolves that compete for the same prey",
+          "rationale": "Wolf numbers stayed about the same, so they are not what changed; the sharp drop in ibex is the more likely cause, and removing all the wolves could set off other ripple effects."
+        },
+        {
+          "id": "c",
+          "text": "Move the blue sheep to another preserve",
+          "rationale": "Blue sheep are prey (+), so moving them away would take away even more of the leopards' food."
+        },
+        {
+          "id": "d",
+          "text": "Wait, since protected populations recover on their own",
+          "rationale": "Nothing in the data shows a recovery on its own; the decline happened inside the preserve."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Look for the interaction that changed when the leopards declined. Only the ibex, a helpful prey interaction, dropped sharply, so the leopards lost a big part of their food. Helping the ibex recover targets that cause. Partners that didn't change are less likely to explain a new decline.",
+      "misconception": "A protected population will always recover on its own, so managers don't need to act.",
+      "hint": "Which partner changed over the same 10 years that the leopards declined?",
+      "followUpId": "L21-Q22",
+      "scope": {
+        "lessonId": "L21",
+        "section": "6. Scientists Predict Interactions",
+        "pages": {
+          "printed": [
+            283
+          ],
+          "pdf": [
+            319
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "To help declining snow leopards, managers can increase the prey population, reduce competitors or reduce the harm from a parasite."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "Scientists rate each interaction as beneficial (+), harmful (−) or no effect (0) on a population's growth and use these patterns to predict and manage populations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented data; guardrail against unsupported absolutes (choice d). Revision 2026-10-14: choices made parallel in length and form (the key no longer carries the only example, and d no longer says 'always'); rationale b and the explanation no longer claim unchanged wolves can't matter, since the same number of wolves sharing a smaller prey base can sharpen competition. The table's effect column now shows each symbol with a word label ('+ (helps)', '− (harms)').",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale b and explanation no longer absolute"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices made parallel; rationale d rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q25",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O5"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "engineering design"
+      ],
+      "familyId": "L21-F13",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Scientists planning to track Yellowstone's returning wolves listed these needs. Sort each one as a criterion or a constraint.",
+      "accessiblePrompt": "Scientists planning to track Yellowstone's returning wolves listed some needs. Sort each one as a criterion, meaning something the solution must do to count as a success, or a constraint, meaning a limit on money, people or side effects that narrows the choices. The needs are: cost no more than the project's budget allows; reveal whether each released wolf is still alive; show whether wolves stay in Yellowstone or move to other areas; only a small field crew is available to run the equipment; the method can't interfere with how wolves normally hunt and travel; follow wolves across an area of thousands of square miles.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Reveal whether each released wolf is still alive",
+          "rationale": "A job the solution must do, so it is a criterion."
+        },
+        {
+          "id": "b",
+          "text": "Show whether wolves stay in Yellowstone or move to other areas",
+          "rationale": "A job the solution must do, so it is a criterion."
+        },
+        {
+          "id": "c",
+          "text": "Follow wolves across an area of thousands of square miles",
+          "rationale": "Wolves roam huge areas, so covering them is something the solution must do: a criterion."
+        },
+        {
+          "id": "d",
+          "text": "Cost no more than the project's budget allows",
+          "rationale": "Money limits which solutions can be chosen, so it is a constraint."
+        },
+        {
+          "id": "e",
+          "text": "Only a small field crew is available to run the equipment",
+          "rationale": "A limit on available people narrows the choices, so it is a constraint."
+        },
+        {
+          "id": "f",
+          "text": "The method can't interfere with how wolves normally hunt and travel",
+          "rationale": "This limits which methods are allowed because of their side effects, so the lesson treats it as a constraint."
+        }
+      ],
+      "bins": [
+        {
+          "id": "crit",
+          "label": "Criterion: something the solution must do to succeed"
+        },
+        {
+          "id": "cons",
+          "label": "Constraint: a limit on money, people or side effects"
+        }
+      ],
+      "answer": {
+        "a": "crit",
+        "b": "crit",
+        "c": "crit",
+        "d": "cons",
+        "e": "cons",
+        "f": "cons"
+      },
+      "explanation": "Criteria describe what the tracking must accomplish: survival, staying or leaving, and coverage of a huge area. Constraints limit which solutions are allowed: the money, the people available, and the rule that the method can't change how wolves behave.",
+      "misconception": "Criteria and constraints are the same thing: both are just rules for a design.",
+      "hint": "Ask: is this a job the device must do, or a limit on which devices are allowed?",
+      "followUpId": "L21-Q27",
+      "scope": {
+        "lessonId": "L21",
+        "section": "3. Using Predators to Manage Ecosystems",
+        "pages": {
+          "printed": [
+            278,
+            279
+          ],
+          "pdf": [
+            314,
+            315
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            278
+          ],
+          "pdfPages": [
+            314
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Criteria",
+          "supports": "Criteria are requirements for success: the tracking had to show whether wolves survived, whether they stayed in Yellowstone, and work over large areas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Constraints",
+          "supports": "Constraints are limits on a solution: the tracking could not be too costly or hard to use and could not interfere with the wolves' natural behavior."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Bins are defined in the labels so each item has one bin; behavior item placed as a constraint as on p. 279. Revision 2026-10-14: item f is worded as a limit ('can't interfere with'), matching p. 279's constraint; the accessiblePrompt lists the needs in a mixed order (constraint, criterion, criterion, constraint, constraint, criterion) rather than the reviewer's strictly alternating order, which is itself a guessable pattern.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: item f worded as a limit; accessiblePrompt list mixed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q26",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O5"
+      ],
+      "conceptTags": [
+        "engineering design",
+        "criteria",
+        "constraints",
+        "radio tracking"
+      ],
+      "familyId": "L21-F13",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A team must choose a way to follow reintroduced wolves. It must show whether each wolf is alive and where it goes anywhere in the park. Yearly cost must be low or medium, and it must not disturb the wolves. Which option in the table meets every need?",
+      "accessiblePrompt": "A team must choose a way to follow reintroduced wolves. Criteria: it must show whether each wolf is alive and where it goes anywhere in the park. Constraints: the yearly cost must be low or medium, and it must not disturb the wolves. Options, from an invented planning table: ear tags read with binoculars, which can't show whether a wolf is alive or cover the park, low cost, no disturbance; radio collars tracked from a distance with antennas, which show alive and location parkwide, medium cost, no disturbance; daily low helicopter flights over each pack, which show alive and location parkwide, very high cost, and disturb wolves; radio collars followed up close on snowmobiles, which show alive and location parkwide, medium cost, and disturb wolves. Which option meets every need?",
+      "limitations": "Simplified planning estimates invented for this question; real projects often combine several methods.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Tracking options (invented planning table)",
+        "alt": "Table of four options with four columns. Ear tags read with binoculars: shows if a wolf is alive, no; shows where it goes parkwide, no; yearly cost low; disturbs wolves, no. Radio collars tracked from a distance with antennas: alive, yes; parkwide, yes; cost medium; disturbs, no. Daily low helicopter flights over each pack: alive, yes; parkwide, yes; cost very high; disturbs, yes. Radio collars followed up close on snowmobiles: alive, yes; parkwide, yes; cost medium; disturbs, yes.",
+        "columns": [
+          "Option",
+          "Shows if a wolf is alive",
+          "Shows where it goes, parkwide",
+          "Yearly cost",
+          "Disturbs wolves"
+        ],
+        "rows": [
+          [
+            "Ear tags read with binoculars",
+            "No",
+            "No",
+            "Low",
+            "No"
+          ],
+          [
+            "Radio collars tracked from a distance with antennas",
+            "Yes",
+            "Yes",
+            "Medium",
+            "No"
+          ],
+          [
+            "Daily low helicopter flights over each pack",
+            "Yes",
+            "Yes",
+            "Very high",
+            "Yes"
+          ],
+          [
+            "Radio collars followed up close on snowmobiles",
+            "Yes",
+            "Yes",
+            "Medium",
+            "Yes"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ear tags read with binoculars",
+          "rationale": "Cheap and gentle, but it fails both criteria: it can't tell whether a wolf is alive or follow it across the park."
+        },
+        {
+          "id": "b",
+          "text": "Radio collars tracked from a distance with antennas",
+          "rationale": "Correct: it meets both criteria and stays within both constraints (medium cost, no disturbance)."
+        },
+        {
+          "id": "c",
+          "text": "Daily low helicopter flights over each pack",
+          "rationale": "It meets both criteria but breaks both constraints: very high cost, and it disturbs the wolves."
+        },
+        {
+          "id": "e",
+          "text": "Radio collars followed up close on snowmobiles",
+          "rationale": "It would follow every wolf at a medium cost, but chasing packs up close disturbs them, so it breaks one constraint."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A good design has to pass every criterion and every constraint. Ear tags are cheap and gentle but can't follow each wolf across the park. Helicopter flights and snowmobile chases collect the data but disturb the wolves, and the flights also cost too much. Only radio collars tracked from a distance meet the whole list.",
+      "misconception": "Any design that collects the data is good enough, whatever it costs or does to the animals.",
+      "hint": "Cross out any option that fails even one criterion or one constraint.",
+      "followUpId": "L21-Q27",
+      "scope": {
+        "lessonId": "L21",
+        "section": "3. Using Predators to Manage Ecosystems",
+        "pages": {
+          "printed": [
+            278,
+            279
+          ],
+          "pdf": [
+            314,
+            315
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            278
+          ],
+          "pdfPages": [
+            314
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Criteria",
+          "supports": "Criteria are requirements for success: the tracking had to show whether wolves survived, whether they stayed in Yellowstone, and work over large areas."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Constraints",
+          "supports": "Constraints are limits on a solution: the tracking could not be too costly or hard to use and could not interfere with the wolves' natural behavior."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Design Solution",
+          "supports": "Each collar sends a unique radio signal that researchers pick up with handheld antennas to learn where a wolf hunts, which wolves it meets and whether it is alive."
+        },
+        {
+          "type": "external",
+          "title": "Wolf Management (Yellowstone National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/yell/learn/management/wolf.htm",
+          "accessed": "2026-10-14",
+          "supports": "Yellowstone biologists follow wolves with radio collars tracked from the ground or air."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Invented, simplified planning table (L21-RF8); does not claim GPS or aircraft were rejected in reality. Revision 2026-10-14: the trail-camera row, identical to the ear-tag row, was replaced by a near miss that fails only one requirement (radio collars followed up close on snowmobiles, which disturb the wolves; new choice id e), so the learner has to weigh a single constraint; the helicopter option is now 'daily low helicopter flights over each pack' rather than a strawman 'chase'. The pedagogy reviewer proposed a 'collar beacons heard only from one tower' row; I used a disturbance-only near miss instead, because a beacon heard from one tower could not show whether a far-away wolf is alive, so its 'alive: yes' entry would be arguable. The key's label now says the collars are tracked 'from a distance' (p. 279: handheld antennas, no interference with natural behavior). Limitations line and the L21-RF8 caveat kept.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: identical distractor row replaced by a one-constraint near miss (new e); helicopter option renamed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q27",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O5"
+      ],
+      "conceptTags": [
+        "observer effect",
+        "constraints",
+        "reliable data"
+      ],
+      "familyId": "L21-F14",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Yellowstone scientists wanted a tracking method that would not change how wolves normally hunt, travel or live. Why did that matter for their study?",
+      "accessiblePrompt": "Yellowstone scientists wanted a tracking method that would not change how wolves normally hunt, travel or live. Why did that matter for their study?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Otherwise the data would show disturbed wolves, not natural behavior",
+          "rationale": "Correct: the goal was data about natural wolf behavior, so the method must not change that behavior."
+        },
+        {
+          "id": "b",
+          "text": "So that the wolves would be forced to stay inside the park",
+          "rationale": "The goal was to observe whether wolves stayed or left, not to force them to stay."
+        },
+        {
+          "id": "c",
+          "text": "Because any method that changes behavior always costs more money",
+          "rationale": "Cost is a separate constraint; the concern here is the accuracy of the data."
+        },
+        {
+          "id": "d",
+          "text": "So the wolves would get used to people and be easier to find",
+          "rationale": "Getting wolves used to people would itself change their behavior, the very thing the scientists wanted to avoid."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Scientists wanted to learn how wolves really live in Yellowstone. If the tracking itself changed the wolves' behavior, the data would describe disturbed wolves, and conclusions about survival or movement could be wrong. That's why a light, removable collar was a better fit than methods that stress the animals.",
+      "misconception": "How you observe animals doesn't affect what you find out about them.",
+      "hint": "Think about what the scientists were trying to learn about wolves in the first place.",
+      "followUpId": "L21-Q26",
+      "scope": {
+        "lessonId": "L21",
+        "section": "3. Using Predators to Manage Ecosystems",
+        "pages": {
+          "printed": [
+            279
+          ],
+          "pdf": [
+            315
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Constraints",
+          "supports": "Constraints are limits on a solution: the tracking could not be too costly or hard to use and could not interfere with the wolves' natural behavior."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Design Solution",
+          "supports": "Each collar sends a unique radio signal that researchers pick up with handheld antennas to learn where a wolf hunts, which wolves it meets and whether it is alive."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 279 (constraint that observation must not affect the outcome). Revision 2026-10-14: hint no longer answers the question.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q28",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O5",
+        "L21-O4"
+      ],
+      "conceptTags": [
+        "radio tracking",
+        "monitoring data",
+        "Yellowstone"
+      ],
+      "familyId": "L21-F14",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "A wolf wears a collar that gives off its own radio signal, which researchers pick up with antennas. Which questions could signals like these help scientists answer? Select all that apply.",
+      "accessiblePrompt": "A wolf wears a collar that gives off its own radio signal, which researchers pick up with antennas. Which questions could signals like these help scientists answer? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Where does this wolf travel and hunt?",
+          "rationale": "Correct: the signal lets researchers locate the wolf and follow its movements."
+        },
+        {
+          "id": "b",
+          "text": "Is this wolf still alive?",
+          "rationale": "Correct: the lesson says the signal can show whether the wolf is still alive."
+        },
+        {
+          "id": "c",
+          "text": "How many elk calves were born in the park this spring?",
+          "rationale": "The collar tracks one wolf; counting elk calves needs a survey of the elk themselves."
+        },
+        {
+          "id": "d",
+          "text": "Are the willows along the rivers growing back?",
+          "rationale": "Plant recovery has to be measured by studying the plants; a wolf's signal can't show it."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A wolf's collar reports on that wolf: where it goes, which wolves it meets, and whether it is still alive. Questions about elk calves or willows need their own surveys of elk or plants, even though wolves affect both.",
+      "misconception": "One tracking device on a predator can measure everything happening in its ecosystem.",
+      "hint": "Think about what a signal from one collar can and can't tell you.",
+      "followUpId": "L21-Q19",
+      "scope": {
+        "lessonId": "L21",
+        "section": "3. Using Predators to Manage Ecosystems",
+        "pages": {
+          "printed": [
+            279
+          ],
+          "pdf": [
+            315
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            279
+          ],
+          "pdfPages": [
+            315
+          ],
+          "locator": "3. Using Predators to Manage Ecosystems, Design Solution",
+          "supports": "Each collar sends a unique radio signal that researchers pick up with handheld antennas to learn where a wolf hunts, which wolves it meets and whether it is alive."
+        },
+        {
+          "type": "external",
+          "title": "Wolf Management (Yellowstone National Park)",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/yell/learn/management/wolf.htm",
+          "accessed": "2026-10-14",
+          "supports": "Collars let biologists study wolf survival, mortality, movement and pack territories."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 279. Revision 2026-10-14: choice list removed from the accessiblePrompt; hint no longer points at the two keys.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice list removed from accessiblePrompt; hint rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L21-Q29",
+      "lessonId": "L21",
+      "objectiveIds": [
+        "L21-O4",
+        "L21-O3"
+      ],
+      "conceptTags": [
+        "patterns across ecosystems",
+        "prediction",
+        "predator-prey"
+      ],
+      "familyId": "L21-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "An African savanna and a northern forest share no species. Why can scientists use what they learned about lions and zebras to predict how wolves and moose will affect each other?",
+      "accessiblePrompt": "An African savanna and a northern forest share no species. Why can scientists use what they learned about lions and zebras to predict how wolves and moose will affect each other?",
+      "limitations": "A shared pattern supports a likely prediction, not a guarantee; local factors such as weather, food plants and disease still matter.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Predator-prey interactions follow similar patterns across ecosystems",
+          "rationale": "Correct: the species differ, but the cause-and-effect pattern between a predator population and its prey repeats in ecosystems around the world."
+        },
+        {
+          "id": "b",
+          "text": "Wolves and lions are the same species, so they hunt in the same way",
+          "rationale": "Wolves belong to the dog family and lions are big cats; the prediction rests on a shared pattern, not a shared species."
+        },
+        {
+          "id": "c",
+          "text": "Every ecosystem holds exactly the same number of predators and prey",
+          "rationale": "Ecosystems hold very different numbers of predators and prey; what repeats is how the two populations affect each other."
+        },
+        {
+          "id": "d",
+          "text": "The two places share the same weather, so their animals behave alike",
+          "rationale": "A hot savanna and a cold northern forest have very different weather, yet the pattern holds in both."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Interaction patterns repeat even when the species change. Lions and zebras, wolves and moose, and stray cats and mice are different animals in different places, but in each pair plenty of prey feeds more predators, and more predators eat the prey down. That shared pattern lets scientists predict what is likely to happen in an ecosystem with species they haven't studied as closely.",
+      "misconception": "What scientists learn about one ecosystem can't help them in an ecosystem with different species.",
+      "hint": "Compare the role each animal plays in its own ecosystem, not the animals themselves.",
+      "followUpId": "L21-Q05",
+      "scope": {
+        "lessonId": "L21",
+        "section": "6. Scientists Predict Interactions",
+        "pages": {
+          "printed": [
+            275,
+            277,
+            283
+          ],
+          "pdf": [
+            311,
+            313,
+            319
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            275
+          ],
+          "pdfPages": [
+            311
+          ],
+          "locator": "1. Predators, Predators in Ecosystems",
+          "supports": "The species that fill predator roles differ between ecosystems, but feeding patterns are similar, so scientists can predict a population's changes from its feeding relationships."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            277
+          ],
+          "pdfPages": [
+            313
+          ],
+          "locator": "2. Interacting Populations Affect One Another",
+          "supports": "Scientists see the same rise-and-fall pattern between carnivore and prey populations all over the world."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            283
+          ],
+          "pdfPages": [
+            319
+          ],
+          "locator": "6. Scientists Predict Interactions",
+          "supports": "Patterns in how interactions affect populations are found in ecosystems everywhere on Earth, which lets scientists predict and manage population changes."
+        }
+      ],
+      "review": {
+        "status": "needs-review",
+        "notes": "Added 2026-10-14 in reviser round 1 for the pedagogy reviewer's coverage gap: the lesson's idea that interaction patterns repeat across ecosystems with different species (pp. 273, 275, 277, 282, 283) was stated in the O1 Explorer card but never tested. Third member of F10; placed on O4/O3 rather than O2. Choices kept close in length so the key is not cued. Not yet seen by any reviewer. Verify 2026-10-14 (verify-agent): FAIL, left needs-review. The key (a) is correct and supported by pp. 275, 277 and 283 (the textbook says the species in each role differ between ecosystems while the patterns are similar, which is not the same as saying they share no species). But the stem states as fact that the two ecosystems share no species, which breaks the guide's no-unsupported-absolutes guardrail and is not true. Suggested repair: 'An African savanna and a northern forest have very different species.' Distractors b and d are weak (b is an obvious falsehood); a reviser may want to strengthen one. The item still needs its science-review and pedagogy-review passes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "fail: the stem's premise 'An African savanna and a northern forest share no species' is an unsupported absolute and not true (migratory birds such as willow warblers breed in northern forests and winter in African savannas, and many microbes occur in both); reword to something like 'have very different species', then give it the science and pedagogy review passes it has never had"
+          }
+        ]
+      }
+    }
+  ]
+}

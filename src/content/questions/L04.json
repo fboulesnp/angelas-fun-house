@@ -1,0 +1,3667 @@
+{
+  "lessonId": "L04",
+  "questions": [
+    {
+      "id": "L04-Q01",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1"
+      ],
+      "conceptTags": [
+        "photosynthesis-inputs",
+        "light-energy"
+      ],
+      "familyId": "L04-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A leaf needs energy to build sugar during photosynthesis. Where does that energy come from?",
+      "accessiblePrompt": "A leaf needs energy to build sugar during photosynthesis. Where does that energy come from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Light, usually from the Sun",
+          "rationale": "Correct. Chlorophyll absorbs light energy, and that energy drives the reaction. The light nearly always comes from the Sun, though a grow lamp works too."
+        },
+        {
+          "id": "b",
+          "text": "Water pulled up from the soil",
+          "rationale": "Water is a matter input. Its atoms end up in the products, but it does not power the reaction."
+        },
+        {
+          "id": "c",
+          "text": "Carbon dioxide taken in from the air",
+          "rationale": "Carbon dioxide is a matter input that supplies carbon atoms. It does not supply the energy that runs the reaction."
+        },
+        {
+          "id": "d",
+          "text": "Nutrients absorbed from the soil",
+          "rationale": "Soil minerals are needed in small amounts for growth, but they are not an energy source for photosynthesis."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Photosynthesis has one energy input and two matter inputs. Light, usually from the Sun, is absorbed by chlorophyll and powers the reaction. Carbon dioxide and water supply the atoms that are rearranged into sugar and oxygen.",
+      "misconception": "Plants get their energy from soil or water, the way animals get energy from food.",
+      "hint": "Two of the inputs of photosynthesis bring atoms. Which one brings only energy?",
+      "followUpId": "L04-Q11",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            46,
+            47
+          ],
+          "pdf": [
+            82,
+            83
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            46
+          ],
+          "pdfPages": [
+            82
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Photosynthesis Takes Place in Chloroplasts",
+          "supports": "Photosynthesis uses energy from the sun and matter from the surroundings to make sugar; in most producers it happens in chloroplasts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction and Figure 2B",
+          "supports": "Photosynthesis begins when chlorophyll absorbs light energy; the balanced equation is 6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂, with reactants on the left and products on the right."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L04 (what supplies the energy used in photosynthesis; answer: light, usually from the Sun), polished. Drafted from printed pp. 46-47 (rendered). Verifier (2026-10-14): PASS. p. 46-47 rendered: chlorophyll absorbs light energy that drives the reaction; CO2 and water are matter inputs. Brief seed present; key a unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q02",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1",
+        "L04-O2"
+      ],
+      "conceptTags": [
+        "photosynthesis-inputs",
+        "energy-vs-matter",
+        "reactants-products"
+      ],
+      "familyId": "L04-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each item by the role it plays in photosynthesis.",
+      "accessiblePrompt": "Sort each item into one of three groups: energy input, which is not matter; matter input; or product made by photosynthesis. The items are sunlight; carbon dioxide from the air, C O 2, with one carbon atom and two oxygen atoms; water from the soil, H 2 O, with two hydrogen atoms and one oxygen atom; sugar, C 6 H 12 O 6, with six carbon, twelve hydrogen and six oxygen atoms; and oxygen gas, O 2, with two oxygen atoms.",
+      "items": [
+        {
+          "id": "sun",
+          "text": "Sunlight",
+          "rationale": "Energy input: light carries energy but has no atoms, so it cannot be a matter input."
+        },
+        {
+          "id": "co2",
+          "text": "Carbon dioxide (CO₂) from the air",
+          "rationale": "Matter input: its carbon and oxygen atoms are rearranged into sugar."
+        },
+        {
+          "id": "h2o",
+          "text": "Water (H₂O) from the soil",
+          "rationale": "Matter input: its atoms end up in the products."
+        },
+        {
+          "id": "sugar",
+          "text": "Sugar (C₆H₁₂O₆)",
+          "rationale": "Product: built from the atoms of carbon dioxide and water, and it holds stored chemical energy."
+        },
+        {
+          "id": "o2",
+          "text": "Oxygen gas (O₂)",
+          "rationale": "Product: released into the air or water as the reaction runs. Over billions of years, oxygen from producers built up in Earth's atmosphere."
+        }
+      ],
+      "bins": [
+        {
+          "id": "energy",
+          "label": "Energy input (not matter)"
+        },
+        {
+          "id": "matter",
+          "label": "Matter input"
+        },
+        {
+          "id": "product",
+          "label": "Product"
+        }
+      ],
+      "answer": {
+        "sun": "energy",
+        "co2": "matter",
+        "h2o": "matter",
+        "sugar": "product",
+        "o2": "product"
+      },
+      "explanation": "Photosynthesis takes in one energy input, light, and two matter inputs, carbon dioxide and water. The atoms of those two inputs are rearranged into the products, sugar and oxygen. Light adds energy to the reaction but no atoms.",
+      "misconception": "Sunlight is one of the ingredients that becomes part of the sugar.",
+      "hint": "A matter input has mass and is made of atoms.",
+      "followUpId": "L04-Q09",
+      "scope": {
+        "lessonId": "L04",
+        "section": "Key Science Concept: Matter and Energy in Photosynthesis",
+        "pages": {
+          "printed": [
+            48
+          ],
+          "pdf": [
+            84
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction and Figure 2B",
+          "supports": "Photosynthesis begins when chlorophyll absorbs light energy; the balanced equation is 6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂, with reactants on the left and products on the right."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            48
+          ],
+          "pdfPages": [
+            84
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Photosynthesis",
+          "supports": "Photosynthesis transforms the matter in carbon dioxide and water into sugar and oxygen, and stores energy captured from sunlight in the sugar."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            51
+          ],
+          "pdfPages": [
+            87
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Ecosystems",
+          "supports": "The atmosphere holds oxygen at today's levels because producers released it through photosynthesis over billions of years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 47-48 (rendered; Figure 2B and the Key Science Concept art). Each item has one defensible bin. Reviser round 1 (2026-10-14): read-aloud prompt spells each formula with its atoms; the O₂ rationale adds the oxygen-rich atmosphere from p. 51 (optional coverage point). Reviser round 2 (2026-10-14): scope narrowed to printed p. 48 (PDF 84), because the Key Science Concept section is that one page (re-rendered 2026-10-17); the p. 47 Figure 2B record stays in evidence. Verifier (2026-10-14): PASS. p. 48 (Key Science Concept) and p. 47 Figure 2B rendered: each item has one bin under the textbook's net equation; O2 rationale matches p. 51.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud prompt spells each formula with its atoms; O₂ rationale adds the oxygen-rich atmosphere (p. 51)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope printed [48], pdf [84] (Key Science Concept is p. 48 only); p. 47 record kept in evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q03",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1"
+      ],
+      "conceptTags": [
+        "producer",
+        "producer-diversity"
+      ],
+      "familyId": "L04-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each organism: is it a producer that makes its own food, or not?",
+      "accessiblePrompt": "Sort each organism into one of two groups: a producer, which makes its own food, or not a producer, which takes in food made by other organisms. The organisms are eelgrass in a bay, a diatom near the ocean surface, cyanobacteria in a pond, moss on a rock, a Volvox colony in a lake, a cow eating grass, and a caterpillar eating a leaf.",
+      "items": [
+        {
+          "id": "eel",
+          "text": "Eelgrass growing in a shallow bay",
+          "rationale": "Producer: an aquatic plant that photosynthesizes."
+        },
+        {
+          "id": "diatom",
+          "text": "A diatom drifting near the ocean surface",
+          "rationale": "Producer: a single-celled alga, one of the phytoplankton."
+        },
+        {
+          "id": "cyano",
+          "text": "Cyanobacteria in a pond",
+          "rationale": "Producer: single-celled organisms that capture light energy, even though they are not plants."
+        },
+        {
+          "id": "moss",
+          "text": "Moss on a shady rock",
+          "rationale": "Producer: mosses are plants with chlorophyll."
+        },
+        {
+          "id": "volvox",
+          "text": "A Volvox colony in a lake",
+          "rationale": "Producer: a sphere-shaped colony of single-celled green algae."
+        },
+        {
+          "id": "cow",
+          "text": "A cow eating grass",
+          "rationale": "Not a producer: it gets its matter and energy by eating grass."
+        },
+        {
+          "id": "cat",
+          "text": "A caterpillar eating a leaf",
+          "rationale": "Not a producer: it takes in food that the plant made."
+        }
+      ],
+      "bins": [
+        {
+          "id": "producer",
+          "label": "Producer (makes its own food)"
+        },
+        {
+          "id": "not",
+          "label": "Not a producer (takes in food made by others)"
+        }
+      ],
+      "answer": {
+        "eel": "producer",
+        "diatom": "producer",
+        "cyano": "producer",
+        "moss": "producer",
+        "volvox": "producer",
+        "cow": "not",
+        "cat": "not"
+      },
+      "explanation": "Producers capture light energy and build sugar from carbon dioxide and water. They include plants, but also algae such as diatoms and Volvox, and single-celled cyanobacteria. Animals such as cows and caterpillars get their matter and energy from food made by other organisms.",
+      "misconception": "Only plants are producers.",
+      "hint": "Ask whether the organism can make sugar using light.",
+      "followUpId": "L04-Q23",
+      "scope": {
+        "lessonId": "L04",
+        "section": "1. Producers Capture Energy and Matter",
+        "pages": {
+          "printed": [
+            44,
+            45
+          ],
+          "pdf": [
+            80,
+            81
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            44
+          ],
+          "pdfPages": [
+            80
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter",
+          "supports": "Producers make their own food; most capture energy from sunlight and get matter from gases in air and from water, and without sunlight, air and water they cannot make food."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            45
+          ],
+          "pdfPages": [
+            81
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter, Producers in Terrestrial and Aquatic Ecosystems",
+          "supports": "Producers include plants such as trees, mosses and eelgrass, algae such as Volvox and diatoms, and single-celled cyanobacteria."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 44-45 (rendered; producer photos and captions). Every item has one defensible bin. Reviser round 1 (2026-10-14): follow-up now L04-Q23 (grass is the one organism in that chain that makes its own food); 'sphere-shaped' replaces 'ball-shaped' (game neutrality). Verifier (2026-10-14): PASS. pp. 44-45 rendered (producer photos and captions): eelgrass, diatom, cyanobacteria, moss and Volvox are producers; cow and caterpillar are not. One bin each.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId -> L04-Q23; Volvox rationale says sphere-shaped"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q04",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1"
+      ],
+      "conceptTags": [
+        "producer",
+        "algae"
+      ],
+      "familyId": "L04-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A small pond has no plants at all. Its water is green with millions of single-celled algae, and snails and fish live there too. Which statement about this pond is accurate?",
+      "accessiblePrompt": "A small pond has no plants at all. Its water is green with millions of single-celled algae, and snails and fish live there too. Which statement about this pond is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It has no producers, since only plants make food",
+          "rationale": "Algae and cyanobacteria are producers too; being a plant is not required."
+        },
+        {
+          "id": "b",
+          "text": "The snails are producers, since they eat the algae",
+          "rationale": "Eating other organisms makes the snails consumers, not producers."
+        },
+        {
+          "id": "c",
+          "text": "The fish are producers, since they live in green water",
+          "rationale": "Living in green water does not let fish make food; they cannot photosynthesize."
+        },
+        {
+          "id": "d",
+          "text": "The algae are producers that make food using light",
+          "rationale": "Correct. Algae capture light energy and build sugar, so they feed the pond even without plants."
+        }
+      ],
+      "answer": "d",
+      "explanation": "A producer is any organism that captures light energy and makes its own sugar, not only a plant. Single-celled algae do this, and in many ponds and in the open ocean they are the main producers. The snails and fish are consumers that rely on the food the algae make.",
+      "misconception": "Only plants can be producers, so a pond without plants has no producers.",
+      "hint": "What does an organism have to do to count as a producer?",
+      "followUpId": "L04-Q01",
+      "scope": {
+        "lessonId": "L04",
+        "section": "1. Producers Capture Energy and Matter",
+        "pages": {
+          "printed": [
+            45
+          ],
+          "pdf": [
+            81
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            45
+          ],
+          "pdfPages": [
+            81
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter, Producers in Terrestrial and Aquatic Ecosystems",
+          "supports": "Producers include plants such as trees, mosses and eelgrass, algae such as Volvox and diatoms, and single-celled cyanobacteria."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            45
+          ],
+          "pdfPages": [
+            81
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter, Producers in Aquatic Ecosystems",
+          "supports": "Phytoplankton are the main producers of the open ocean and survive only in the top layer where sunlight reaches."
+        }
+      ],
+      "review": {
+        "status": "rejected",
+        "notes": "Drafted from printed p. 45 (rendered). Choices rebalanced so the key is not the longest. Reviser round 1 (2026-10-14): REJECTED on the pedagogy review. It duplicates L04-Q03: the same fact and the same 'only plants are producers' misconception, which Q03 already tests by sorting single-celled algae as producers and plant-eaters as non-producers. Its snail and fish distractors are not real misconceptions. The science review passed it. Replaced by L04-Q29 (what counts as biomass). L04-Q06 no longer follows up to it. Rejected questions never enter play. Reviser round 2 (2026-10-14): both round-2 reviews confirmed the rejection (it duplicates L04-Q03, and the snail and fish distractors are not real misconceptions). It stays rejected, and no follow-up points to it. Its replacement, L04-Q29, was written in round 1, so the bank still has 28 live questions and no second replacement was added.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: duplicates L04-Q03 (same 'only plants are producers' idea); snail and fish distractors are not real misconceptions; replaced by L04-Q29"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: duplicates L04-Q03 (only-plants-are-producers idea); snail and fish distractors are not real misconceptions; keep rejected"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: agrees with round 1, duplicates L04-Q03; keep rejected"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q05",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1",
+        "L04-O3"
+      ],
+      "conceptTags": [
+        "phytoplankton",
+        "light-requirement"
+      ],
+      "familyId": "L04-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Diatoms and other phytoplankton grow only in the top layer of the ocean. Which explanation fits best?",
+      "accessiblePrompt": "Diatoms and other phytoplankton, tiny drifting producers, grow only in the top layer of the ocean. Which explanation fits best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deep water is too cold for photosynthesis to work",
+          "rationale": "Producers make food even in icy water; the lesson mentions cyanobacteria in frozen lakes. What runs out with depth is light, not warmth."
+        },
+        {
+          "id": "b",
+          "text": "They rise to the surface to hide from animals that hunt deeper",
+          "rationale": "Phytoplankton drift; their limit is set by the light they need, not by hiding from predators."
+        },
+        {
+          "id": "c",
+          "text": "Only the top layer gets enough light for them to make food",
+          "rationale": "Correct. Without enough light, photosynthesis cannot run, so phytoplankton grow only where sunlight reaches."
+        },
+        {
+          "id": "d",
+          "text": "Carbon dioxide is found only at the very surface of the ocean",
+          "rationale": "Carbon dioxide is dissolved throughout ocean water. The input that runs out with depth is light."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Photosynthesis needs light energy. Sunlight fades quickly as it passes down through seawater, so producers like diatoms can make food only in the sunlit layer near the surface. Deeper down there is water and carbon dioxide, but not enough light.",
+      "misconception": "Producers can make food anywhere as long as they have water and carbon dioxide.",
+      "hint": "Which input of photosynthesis runs out as you go deeper into the sea?",
+      "followUpId": "L04-Q18",
+      "scope": {
+        "lessonId": "L04",
+        "section": "1. Producers Capture Energy and Matter",
+        "pages": {
+          "printed": [
+            45
+          ],
+          "pdf": [
+            81
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            45
+          ],
+          "pdfPages": [
+            81
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter, Producers in Aquatic Ecosystems",
+          "supports": "Phytoplankton are the main producers of the open ocean and survive only in the top layer where sunlight reaches."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 45 (rendered; diatom photo and caption). Reviser round 1 (2026-10-14): distractor a now targets 'too cold for photosynthesis' instead of an obviously false absolute; its rationale rests on p. 45 (cyanobacteria in frozen lakes). Verifier (2026-10-14): PASS. p. 45 rendered: phytoplankton survive only in the sunlit top layer; distractor a rests on the frozen-lake cyanobacteria on the same page.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor a is now 'too cold for photosynthesis', rationale cites cyanobacteria in frozen lakes (p. 45)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q06",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1"
+      ],
+      "conceptTags": [
+        "chloroplast",
+        "chlorophyll",
+        "levels-of-organization"
+      ],
+      "familyId": "L04-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Zoom in on where photosynthesis happens. Put these in order from largest to smallest.",
+      "accessiblePrompt": "Zoom in on where photosynthesis happens. Put these five things in order from largest to smallest: a chloroplast, a whole plant, a leaf cell, a chlorophyll molecule, and a leaf.",
+      "items": [
+        {
+          "id": "chloro",
+          "text": "Chloroplast",
+          "rationale": "Fourth: a chloroplast is a structure inside a cell, packed with chlorophyll."
+        },
+        {
+          "id": "plant",
+          "text": "Whole plant",
+          "rationale": "Largest: the plant holds many leaves."
+        },
+        {
+          "id": "cell",
+          "text": "Leaf cell",
+          "rationale": "Third: each leaf cell holds many chloroplasts."
+        },
+        {
+          "id": "molecule",
+          "text": "Chlorophyll molecule",
+          "rationale": "Smallest: chlorophyll is a single molecule, the pigment that absorbs light."
+        },
+        {
+          "id": "leaf",
+          "text": "Leaf",
+          "rationale": "Second: a leaf is built from many cells."
+        }
+      ],
+      "answer": [
+        "plant",
+        "leaf",
+        "cell",
+        "chloro",
+        "molecule"
+      ],
+      "ends": [
+        "Largest",
+        "Smallest"
+      ],
+      "explanation": "Each level sits inside the one before it. A plant has leaves, leaves are made of cells, each leaf cell holds many chloroplasts, and each chloroplast holds a great many chlorophyll molecules that absorb light. Photosynthesis takes place inside the chloroplasts.",
+      "misconception": "Chlorophyll and chloroplasts are the same thing, or a chloroplast is bigger than the cell that holds it.",
+      "hint": "Ask which of these is found inside which.",
+      "followUpId": "L04-Q01",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            46
+          ],
+          "pdf": [
+            82
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            46
+          ],
+          "pdfPages": [
+            82
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Figure 2A",
+          "supports": "Chlorophyll is found in chloroplasts, chloroplasts are found in leaf cells, and leaf cells make up leaves."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 46 (rendered; Figure 2A shows producer, producer cells and chloroplasts in cells). Nesting gives one defensible order. Reviser round 1 (2026-10-14): follow-up now L04-Q01, because L04-Q04 was rejected. Verifier (2026-10-14): PASS. p. 46 Figure 2A rendered (producer, producer cells, chloroplasts in cells; chlorophyll in chloroplasts): nesting gives one order. 'Each leaf cell holds many chloroplasts' follows the textbook's simplified model of a food-making leaf cell; the order does not depend on it.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId -> L04-Q01 (L04-Q04 rejected)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q07",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1"
+      ],
+      "conceptTags": [
+        "chlorophyll",
+        "light-absorption",
+        "leaf-color"
+      ],
+      "familyId": "L04-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why do most leaves look green to us?",
+      "accessiblePrompt": "Why do most leaves look green to us?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chlorophyll glows with its own green light while the leaf makes sugar",
+          "rationale": "Chlorophyll does not give off green light. The green you see is sunlight that has scattered back out of the leaf or passed through it."
+        },
+        {
+          "id": "b",
+          "text": "Chlorophyll absorbs green light better than it absorbs any other color",
+          "rationale": "This is backward. The color we see is the light that is absorbed least, not most."
+        },
+        {
+          "id": "c",
+          "text": "The sugar the leaf stores inside its cells has a bright green color",
+          "rationale": "Sugar is colorless. A leaf's green color comes from chlorophyll in its chloroplasts."
+        },
+        {
+          "id": "d",
+          "text": "Chlorophyll absorbs less green than red or blue, so more green escapes",
+          "rationale": "Correct. Red and blue light are absorbed strongly; more of the green light escapes the leaf and reaches your eyes."
+        }
+      ],
+      "answer": "d",
+      "explanation": "We see the light that comes back to our eyes from an object. Chlorophyll absorbs red and blue light strongly and green light much less, so a larger share of the green light scatters back out of the leaf. Leaves still absorb a good deal of green light, just less of it than red or blue.",
+      "misconception": "Leaves look green because they absorb green light, or because chlorophyll gives off green light.",
+      "hint": "Think of a red shirt in white light. Which color reaches your eyes from it, and why?",
+      "followUpId": "L04-Q02",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            46
+          ],
+          "pdf": [
+            82
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            46
+          ],
+          "pdfPages": [
+            82
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Chlorophyll Absorbs Energy from Light",
+          "supports": "Chlorophyll is a green pigment that absorbs energy from light; it absorbs only certain colors, and the light that leaves the leaf makes it look green."
+        },
+        {
+          "type": "external",
+          "title": "Why are leaves green?",
+          "publisher": "The University of Tokyo (feature by Ichiro Terashima)",
+          "url": "https://www.u-tokyo.ac.jp/focus/en/features/z1304_00243.html",
+          "accessed": "2026-10-14",
+          "supports": "An ordinary leaf absorbs around 90 percent of red and blue light and around 70 to 80 percent of green light; once absorbed, green light drives photosynthesis about as well as red light."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 46 (rendered). Key worded as 'absorbs green light poorly' rather than the textbook's 'does not absorb' (see L04-RF3). Reviser round 1 (2026-10-14): choice a's rationale no longer says chlorophyll does not glow (it fluoresces faintly red); it now says only that chlorophyll does not give off green light, so no new source is needed. New hint no longer states the rule. Key reworded to 'absorbs less green than red or blue'. Verifier (2026-10-14): PASS. p. 46 rendered; University of Tokyo page re-opened by the verifier (about 90 percent of red and blue, 70-80 percent of green absorbed). Key d matches; no choice length cue.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale no longer says chlorophyll does not glow"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new red-shirt hint no longer states the rule; key reworded 'absorbs less green than red or blue'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q08",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O1",
+        "L04-O3"
+      ],
+      "conceptTags": [
+        "chlorophyll",
+        "light-color",
+        "prediction"
+      ],
+      "familyId": "L04-F03",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Two identical leaves on the same kind of plant each get the same amount of light energy for one hour. One gets only red light; the other gets only green light. Predict which leaf makes more sugar during that hour.",
+      "accessiblePrompt": "Two identical leaves on the same kind of plant each get the same amount of light energy for one hour. One gets only red light. The other gets only green light. Predict which leaf makes more sugar during that hour.",
+      "conditions": "Same kind of plant, same water, carbon dioxide and temperature. The only difference is the color of the lamp. Both lamps are fairly dim, so neither leaf gets more light than it can use.",
+      "limitations": "Real plants usually grow in white sunlight, which mixes all colors. Exact amounts depend on the plant and how thick its leaves are. Plants grown for days under a single color can develop differently, so this asks only about a short test.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both make the same amount, since every color of light works equally well",
+          "rationale": "Chlorophyll absorbs red light more strongly than green, so the two lamps are not equally useful."
+        },
+        {
+          "id": "b",
+          "text": "The red-lit leaf makes more, but the green-lit leaf still makes some",
+          "rationale": "Correct. Red light is absorbed more strongly, yet leaves still absorb most of the green light that reaches them and use it."
+        },
+        {
+          "id": "c",
+          "text": "The green-lit leaf makes more, because leaves look green",
+          "rationale": "Looking green means green light is the color absorbed least, so green light is the weaker choice here."
+        },
+        {
+          "id": "d",
+          "text": "Only the red-lit leaf makes sugar, since leaves absorb no green light",
+          "rationale": "The textbook puts it this way, but measurements show that a typical leaf absorbs roughly 70 to 80 percent of green light, and that absorbed light drives photosynthesis."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Chlorophyll absorbs red light strongly and green light more weakly, so the red-lit leaf captures more of the energy it receives and makes more sugar. Absorbed green light still drives photosynthesis, so the green-lit leaf makes some sugar too, just less of it. Your textbook says chlorophyll does not absorb green light; that is a simplification, because a typical leaf absorbs about 70 to 80 percent of the green light that reaches it, compared with about 90 percent of red.",
+      "misconception": "Plants cannot use green light at all, because they look green.",
+      "hint": "Which color makes up more of the light that comes back out of a leaf? What does that say about the light the leaf keeps?",
+      "followUpId": "L04-Q18",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            46
+          ],
+          "pdf": [
+            82
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            46
+          ],
+          "pdfPages": [
+            82
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Chlorophyll Absorbs Energy from Light",
+          "supports": "Chlorophyll is a green pigment that absorbs energy from light; it absorbs only certain colors, and the light that leaves the leaf makes it look green."
+        },
+        {
+          "type": "external",
+          "title": "Why are leaves green?",
+          "publisher": "The University of Tokyo (feature by Ichiro Terashima)",
+          "url": "https://www.u-tokyo.ac.jp/focus/en/features/z1304_00243.html",
+          "accessed": "2026-10-14",
+          "supports": "An ordinary leaf absorbs around 90 percent of red and blue light and around 70 to 80 percent of green light; once absorbed, green light drives photosynthesis about as well as red light."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 46 (rendered). The textbook says chlorophyll does not absorb green light; the key follows the external source (L04-RF3), and the textbook record is used only for chlorophyll absorbing some colors more than others. Reviser round 1 (2026-10-14): reframed from a several-day seedling comparison to a one-hour test on two leaves, because plants grown for days under one color develop differently (science review). The d rationale and the explanation now tell learners that the textbook's 'does not absorb green light' is a simplification (pedagogy review). Key b unchanged. Reviser round 2 (2026-10-14): added the dim-light condition. The science review pointed out that under very strong light, red light is absorbed mostly by the upper cells and can saturate them while green reaches deeper, so the comparison could narrow or flip; at low light the key holds. Key b, the rationales and the explanation are unchanged. New hint (pedagogy review): the old one told learners that green is absorbed less but not zero, which left only b. Verifier (2026-10-14): PASS. p. 46 rendered; University of Tokyo page re-opened (green absorbed at 70-80 percent and, once absorbed, about as effective as red). At equal energy and dim light, red gives more photons and stronger absorption, so key b holds; the correction of the textbook is explained to the learner.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: one-hour test on two leaves; d rationale says 'a typical leaf'; limitation on multi-day growth"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and d rationale name the textbook's 'does not absorb green' as a simplification"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions say both lamps are fairly dim, so neither leaf gets more light than it can use"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint asks which color comes back out of a leaf instead of giving away 'less but not none'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q09",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O2"
+      ],
+      "conceptTags": [
+        "chemical-equation",
+        "conservation-of-atoms",
+        "subscripts-coefficients"
+      ],
+      "familyId": "L04-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "The balanced equation for photosynthesis is 6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂. How many oxygen atoms are on the reactant side, before the arrow?",
+      "accessiblePrompt": "The balanced equation for photosynthesis is: six molecules of carbon dioxide, C O 2, each with one carbon atom and two oxygen atoms, plus six molecules of water, H 2 O, each with two hydrogen atoms and one oxygen atom, plus energy, make one molecule of sugar, C 6 H 12 O 6, with six carbon, twelve hydrogen and six oxygen atoms, plus six molecules of oxygen gas, O 2, each with two oxygen atoms. How many oxygen atoms are on the reactant side, before the arrow?",
+      "answer": 18,
+      "tolerance": 0,
+      "unit": "oxygen atoms",
+      "units": "oxygen atoms",
+      "workedSolution": "Each CO₂ has 2 oxygen atoms, so 6CO₂ has 6 × 2 = 12. Each H₂O has 1 oxygen atom, so 6H₂O has 6 × 1 = 6. Reactant side: 12 + 6 = 18 oxygen atoms. Check the products: C₆H₁₂O₆ has 6 and 6O₂ has 6 × 2 = 12, also 18. Energy adds no atoms.",
+      "explanation": "A coefficient, the big number in front, tells how many molecules there are. A subscript, the small number, tells how many atoms of that element are in one molecule. Counting this way gives 18 oxygen atoms before the arrow and 18 after it, which is what balanced means: atoms are rearranged, never gained or lost.",
+      "misconception": "The small subscript numbers can be ignored, or a coefficient applies only to the first element in a formula.",
+      "hint": "Multiply each coefficient by the number of oxygen atoms in one molecule, then add.",
+      "followUpId": "L04-Q11",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            47
+          ],
+          "pdf": [
+            83
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction and Figure 2B",
+          "supports": "Photosynthesis begins when chlorophyll absorbs light energy; the balanced equation is 6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂, with reactants on the left and products on the right."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            48
+          ],
+          "pdfPages": [
+            84
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Photosynthesis",
+          "supports": "Photosynthesis transforms the matter in carbon dioxide and water into sugar and oxygen, and stores energy captured from sunlight in the sugar."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 47-48; equation confirmed on the Figure 2B render at 220 dpi (OCR garbled the subscripts, see L04-RF1). Reviser round 1 (2026-10-14): read-aloud prompt states the atoms in each molecule, which is what a sighted learner reads from the subscripts; the multiply-and-add task is unchanged. Follow-up now L04-Q11 because L04-Q12 was rewritten to track energy. Verifier (2026-10-14): PASS. p. 47 Figure 2B rendered: 6CO2 + 6H2O + energy -> C6H12O6 + 6O2; 12 + 6 = 18 oxygen atoms, worked solution checks the product side too.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud prompt states each molecule's atoms; followUpId -> L04-Q11 (L04-Q12 rewritten)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q10",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O2"
+      ],
+      "conceptTags": [
+        "chemical-equation",
+        "conservation-of-atoms",
+        "carbon"
+      ],
+      "familyId": "L04-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In the balanced equation, six carbon dioxide molecules are needed to make one sugar molecule, C₆H₁₂O₆. Why six?",
+      "accessiblePrompt": "In the balanced equation for photosynthesis, six carbon dioxide molecules, C O 2, each with one carbon atom and two oxygen atoms, are needed to make one sugar molecule, C 6 H 12 O 6, which has six carbon, twelve hydrogen and six oxygen atoms. Why six?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Sugar has six oxygen atoms, and each carbon dioxide brings one",
+          "rationale": "Each carbon dioxide brings two oxygen atoms, and water brings oxygen too. The six follows carbon, the one element that comes only from carbon dioxide."
+        },
+        {
+          "id": "b",
+          "text": "Light energy creates six extra carbon atoms for the sugar",
+          "rationale": "Light adds energy, not atoms. Ordinary chemical reactions never create new atoms."
+        },
+        {
+          "id": "f",
+          "text": "Each side must have the same number of molecules",
+          "rationale": "Molecules are not conserved: 12 go in and 7 come out. The atoms of each element are what must match."
+        },
+        {
+          "id": "d",
+          "text": "Sugar has six carbon atoms, and each carbon dioxide brings one",
+          "rationale": "Correct. Carbon is conserved: six carbon atoms out means six carbon atoms in, one per carbon dioxide molecule."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Atoms are rearranged in a chemical reaction, not created or destroyed. A sugar molecule contains six carbon atoms, and the only carbon on the reactant side is in carbon dioxide, one carbon atom per molecule. So six carbon dioxide molecules must react for each sugar molecule made.",
+      "misconception": "Light energy or the plant itself can create new atoms during photosynthesis, or balancing means equal numbers of molecules.",
+      "hint": "Sugar contains three elements. For each one, which reactants could supply it? Look for the element that has only one possible source.",
+      "followUpId": "L04-Q11",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            47
+          ],
+          "pdf": [
+            83
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction and Figure 2B",
+          "supports": "Photosynthesis begins when chlorophyll absorbs light energy; the balanced equation is 6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂, with reactants on the left and products on the right."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 47 (rendered); the textbook makes the same six-carbon point. Reviser round 1 (2026-10-14): distractors a and c replaced with real misconceptions (new ids e and f): CO₂ brings one oxygen atom, and balancing means equal molecules. Key d reworded in parallel with e ('carbon dioxide' instead of 'CO₂' for read-aloud) and is not the longest choice. Reviser round 2 (2026-10-14): new hint (pedagogy review). The old hint named carbon, and key d and distractor e differ only in 'carbon' versus 'oxygen', so it picked the key outright. Verifier (2026-10-14): PASS. p. 47 rendered: the text makes the same six-carbon argument; 12 molecules in and 7 out (f rationale) is correct.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new distractors e (oxygen per CO₂) and f (equal molecules); misconception extended; formulas spelled for read-aloud"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint no longer names carbon"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q11",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O2"
+      ],
+      "conceptTags": [
+        "energy-vs-matter",
+        "light-energy",
+        "chemical-energy"
+      ],
+      "familyId": "L04-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A classmate writes: \"Photosynthesis turns sunlight into sugar.\" Which rewrite is the most accurate?",
+      "accessiblePrompt": "A classmate writes: Photosynthesis turns sunlight into sugar. Which rewrite of that sentence is the most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chlorophyll is used up and becomes sugar each time light strikes it in the leaf",
+          "rationale": "Chlorophyll absorbs light and is used again and again; it is not a reactant that turns into sugar."
+        },
+        {
+          "id": "b",
+          "text": "Light energy powers the rearranging of carbon dioxide and water into sugar",
+          "rationale": "Correct. Light brings the energy; carbon dioxide and water bring every atom; the energy ends up stored in the sugar."
+        },
+        {
+          "id": "c",
+          "text": "Bits of light stick together inside the leaf and then become the atoms of the sugar",
+          "rationale": "Light carries energy but no atoms. All of the sugar's atoms come from carbon dioxide and water."
+        },
+        {
+          "id": "e",
+          "text": "Sunlight only warms the leaf while the roots pull sugar from the soil",
+          "rationale": "Sugar is built in the leaves from carbon dioxide and water. Light supplies the energy to build it, not just warmth, and plants do not get their sugar from the soil."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Sunlight is energy, not matter, so it cannot become the atoms of sugar. Every atom in the sugar came from carbon dioxide and water. Light supplies the energy that drives the rearranging, and that energy ends up stored as chemical energy in the sugar.",
+      "misconception": "A shorthand such as \"photosynthesis turns sunlight into sugar\" is literally true, so light (or chlorophyll, or soil) must supply the sugar's material.",
+      "hint": "Check each rewrite for two things: where it says the sugar's atoms come from, and what job it gives light.",
+      "followUpId": "L04-Q16",
+      "scope": {
+        "lessonId": "L04",
+        "section": "Key Science Concept: Matter and Energy in Photosynthesis",
+        "pages": {
+          "printed": [
+            48
+          ],
+          "pdf": [
+            84
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            48
+          ],
+          "pdfPages": [
+            84
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Photosynthesis",
+          "supports": "Photosynthesis transforms the matter in carbon dioxide and water into sugar and oxygen, and stores energy captured from sunlight in the sugar."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction and Figure 2B",
+          "supports": "Photosynthesis begins when chlorophyll absorbs light energy; the balanced equation is 6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂, with reactants on the left and products on the right."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 47-48 (rendered). Targets the brief's guardrail that sunlight does not become atoms. Reviser round 1 (2026-10-14): the science review asked to scope choice d's rationale ('light cannot become matter'); the pedagogy review replaced d itself, which removes that absolute, so the replacement (new id e, soil-sugar misconception) carries the fix. Key b says 'carbon dioxide' instead of 'CO₂' and is still not the longest choice. Reviser round 2 (2026-10-14): scope narrowed to printed p. 48 (the Key Science Concept is one page); the p. 47 record stays in evidence (science review). New hint, so it no longer repeats L04-Q01's (similarity 0.63). The misconception now names what this item adds, misreading a shorthand statement, so F05 no longer repeats F01's 'sunlight becomes sugar' target from L04-Q02 (pedagogy review). Choices and key b unchanged. Verifier (2026-10-14): PASS. p. 48 rendered: matter of CO2 and water becomes sugar and oxygen; light supplies energy. Key b unique; guardrail 'sunlight does not become atoms' kept.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d with the unscoped 'light cannot become matter' absolute is replaced"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: d replaced by the soil-sugar misconception (new id e); key says 'carbon dioxide'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope printed [48], pdf [84]; p. 47 record kept in evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint (no longer duplicates L04-Q01); misconception is about misreading the shorthand"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q12",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O2"
+      ],
+      "conceptTags": [
+        "energy-transformation",
+        "chemical-energy",
+        "light-energy"
+      ],
+      "familyId": "L04-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A leaf absorbs light energy and uses it to make sugar. What happens to that energy? Select all that apply.",
+      "accessiblePrompt": "A leaf absorbs light energy and uses it to make sugar. What happens to that energy? Select all that apply.",
+      "choices": [
+        {
+          "id": "f",
+          "text": "Some of it ends up stored as chemical energy in the sugar",
+          "rationale": "Correct. Light energy changes form and is stored as chemical energy in the sugar the leaf builds."
+        },
+        {
+          "id": "j",
+          "text": "The stored part can be released later, when sugar reacts with oxygen",
+          "rationale": "Correct. Plant and animal cells release the stored chemical energy when sugar reacts with oxygen, and use it for their work."
+        },
+        {
+          "id": "k",
+          "text": "It is used up and disappears while the leaf builds the sugar molecules",
+          "rationale": "Energy is never destroyed. It changes form, from light energy to chemical energy in the sugar, with some given off as heat."
+        },
+        {
+          "id": "i",
+          "text": "It stays stored inside the chlorophyll until the leaf dies",
+          "rationale": "Chlorophyll absorbs light energy and passes it into the reaction that builds sugar. It is used again and again; it is not a storage tank."
+        }
+      ],
+      "answer": [
+        "f",
+        "j"
+      ],
+      "explanation": "Chlorophyll absorbs light energy and passes it into the reaction that builds sugar. Some of that energy ends up stored as chemical energy in the sugar, and some is given off as heat. A cell can release the stored energy later, when the sugar reacts with oxygen, so the energy changes form but is never destroyed.",
+      "misconception": "Energy absorbed for photosynthesis is used up, or stays in the chlorophyll.",
+      "hint": "Energy can change form or move, but it does not vanish.",
+      "followUpId": "L04-Q19",
+      "scope": {
+        "lessonId": "L04",
+        "section": "Key Science Concept: Matter and Energy in Photosynthesis",
+        "pages": {
+          "printed": [
+            48
+          ],
+          "pdf": [
+            84
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction",
+          "supports": "Chlorophyll absorbs light energy and, through a chemical reaction, transfers it to the sugar being made; the reaction needs an energy input that passes to the products."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            48
+          ],
+          "pdfPages": [
+            84
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Photosynthesis",
+          "supports": "Photosynthesis transforms the matter in carbon dioxide and water into sugar and oxygen, and stores energy captured from sunlight in the sugar."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Organisms",
+          "supports": "Producers' cells carry out reactions that release the energy stored in sugar to survive, grow and reproduce."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 6.3 The Laws of Thermodynamics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/6-3-the-laws-of-thermodynamics",
+          "accessed": "2026-10-15",
+          "supports": "Energy can change form but cannot be created or destroyed; in every energy transfer some energy becomes unusable, usually as heat; plants convert light energy into chemical energy stored in organic molecules."
+        },
+        {
+          "type": "external",
+          "title": "Chemical energetics: words matter",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/cpd/chemical-energetics-words-matter/2000004.article",
+          "accessed": "2026-10-14",
+          "supports": "Students often wrongly believe breaking bonds releases stored energy; energy changes make sense only when the whole reaction, including the oxygen reactant and the bonds formed in the products, is considered."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 47-48 (rendered). The first draft had five choices; the rewrite has four, two correct. Reviser round 1 (2026-10-14): REWRITTEN on the pedagogy review (same id, family F05, type multi, objective O2). The old version restated Q02, Q11 and Q16 (which atoms come from where); no item asked what happens to the absorbed light energy, half of O2. New choices use unused ids f-i so no id names two claims. Follows L04-RF2: says 'stored as chemical energy' and 'released when the sugar reacts with oxygen', never that breaking bonds releases energy. The heat point rests on OpenStax 6.3 (opened 2026-10-15). Follow-up now L04-Q19 (stored food energy released for growth). Reviser round 2 (2026-10-14): scope narrowed to printed p. 48; the p. 47 and p. 50 records stay in evidence (science review). Pedagogy review: g's 'it' could mean all the absorbed energy, which contradicts f, so g became j ('The stored part can be released later...'); h's double absolute ('all used up and gone for good') cued it as wrong, so h became k with h's rationale. Answer is now [f, j]; ids g and h are retired. Two departures from the reviewer's wording: j says 'can be released' rather than 'is released', because some stored energy stays locked in cellulose for a long time; k adds 'and disappears', so 'used up' cannot be read as 'used to build the sugar', which a careful learner could call true. Lengths: f 57, j 68, k 70, i 58, so no key is the longest. Verifier (2026-10-14): PASS. pp. 47, 48 and 50 rendered: energy stored in sugar and released by cells later. Keys f and j correct; k and i false; never says breaking bonds releases energy (RF2).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten to track where absorbed light energy goes (O2 energy half); new choice ids f-i; followUpId -> L04-Q19"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope printed [48], pdf [84]; p. 47 and p. 50 records kept in evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: g replaced by j (the stored part can be released later); h replaced by k (no absolute cue); answer [f, j]"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q13",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3"
+      ],
+      "conceptTags": [
+        "experiment-evidence",
+        "oxygen",
+        "light-requirement"
+      ],
+      "familyId": "L04-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Ingenhousz kept potted plants under glass jars, some in sunlight and some in the dark, and tested the gas in each jar. The plants in sunlight gave off oxygen. The plants in the dark gave off none. Which conclusion do these results support best?",
+      "accessiblePrompt": "Ingenhousz kept potted plants under glass jars, some in sunlight and some in the dark, and tested the gas in each jar. The plants in sunlight gave off oxygen. The plants in the dark gave off none. Which conclusion do these results support best?",
+      "choices": [
+        {
+          "id": "d",
+          "text": "Light is needed for the plants to give off oxygen",
+          "rationale": "Correct. Light was the one difference, and oxygen appeared only with light, so the results link the oxygen to light."
+        },
+        {
+          "id": "e",
+          "text": "Light is the only thing a plant needs to give off oxygen",
+          "rationale": "This over-claims. Carbon dioxide and water were never varied, so the results cannot show that light is all a plant needs."
+        },
+        {
+          "id": "f",
+          "text": "The plants in the dark jar died during the test",
+          "rationale": "Not supported. Giving off no oxygen does not show that the plants died; nobody checked whether they were alive."
+        },
+        {
+          "id": "b",
+          "text": "The soil in the pots produced the oxygen",
+          "rationale": "Soil was in both jars, but oxygen appeared only with light, so the soil cannot explain the difference."
+        }
+      ],
+      "answer": "d",
+      "explanation": "The only planned difference between the setups was light, and only the plants in light gave off oxygen. That supports the conclusion that the plants need light to give off oxygen. It does not show that light is the only thing they need, because nothing else was changed. Today we know the oxygen is a product of photosynthesis.",
+      "misconception": "A result shows more than it does (over-claiming), or it shows something nobody measured.",
+      "hint": "What was different between the two setups, and which result changed?",
+      "followUpId": "L04-Q17",
+      "scope": {
+        "lessonId": "L04",
+        "section": "3. Discovering Photosynthesis",
+        "pages": {
+          "printed": [
+            49
+          ],
+          "pdf": [
+            85
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            49
+          ],
+          "pdfPages": [
+            85
+          ],
+          "locator": "Section 3. Discovering Photosynthesis, Figure 3",
+          "supports": "Ingenhousz placed plants under glass jars in light and in darkness; green parts gave off oxygen only when exposed to light."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 49 (rendered; Figure 3). Reviser round 1 (2026-10-14): REWRITTEN on the pedagogy review: the old key restated the stem. Distractors now test over-claiming (e), an unsupported conclusion (f) and the soil as a source (b). Kept the textbook's Figure 3 setup (potted plants under glass jars, bubbles on the green parts) instead of the reviewer's 'two jars'. Ids d and b keep their earlier claims (light needed; oxygen from soil); e and f are new. Reviser round 2 (2026-10-14): both reviews found the setup physically impossible. Visible gas bubbles form only on plants under water, and Figure 3's 'oxygen bubbles' (p. 49, re-rendered 2026-10-17) are drawn molecule symbols on potted plants in air (see L04-RF11). Kept the textbook's potted-plant setup and dropped the bubbles: the stem now says he tested the gas in each jar (pedagogy wording) and that the plants gave off oxygen (science wording). Key d says 'the plants' instead of 'the green parts', because a gas test of the whole jar cannot single out the green parts. b's text and rationale and f's rationale no longer mention bubbles. Ids and answer unchanged; key d (49 characters) is not the longest. Verifier (2026-10-14): PASS. p. 49 Figure 3 rendered: the potted-plants-under-jars setup is the textbook's depiction; the Le Moyne excerpt (re-opened) describes submerged leaves, but the conclusion tested (light needed for oxygen release) is the same. Key d unique; e over-claims.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten so the key no longer restates the stem; distractors test over-claiming and unsupported conclusions"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bubbles dropped from the potted-plant setup; key d says 'the plants'; b and f rationales speak of oxygen"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem says he tested the gas in each jar; no bubbles on plants in air; b reads 'produced the oxygen'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q14",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3"
+      ],
+      "conceptTags": [
+        "experiment-design",
+        "fair-test",
+        "variables"
+      ],
+      "familyId": "L04-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why did it matter that Ingenhousz kept some plants in light and similar plants in the dark, instead of testing plants in light only?",
+      "accessiblePrompt": "Why did it matter that Ingenhousz kept some plants in light and similar plants in the dark, instead of testing plants in light only?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "The extra jars gave him more plants to measure",
+          "rationale": "More plants in the same conditions would not show what light does. The dark jars changed light, the one condition being tested."
+        },
+        {
+          "id": "f",
+          "text": "The dark jars showed how much water the plants needed",
+          "rationale": "Water was the same in both setups; only light differed."
+        },
+        {
+          "id": "c",
+          "text": "It showed whether light caused the oxygen release",
+          "rationale": "Correct. A comparison with light as the only difference lets you link the result to light."
+        },
+        {
+          "id": "g",
+          "text": "The dark plants were spares in case the lit plants died",
+          "rationale": "A comparison group is not a backup. Its result, no oxygen, is what shows light's effect."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A fair test changes one condition and compares the results. With light as the only difference, Ingenhousz could link the oxygen to light. Testing plants in light only would show that oxygen is given off, but not whether light is the reason.",
+      "misconception": "One setup is enough to show what causes a result.",
+      "hint": "Imagine he had tested only plants in light. What question could that setup never answer?",
+      "followUpId": "L04-Q18",
+      "scope": {
+        "lessonId": "L04",
+        "section": "3. Discovering Photosynthesis",
+        "pages": {
+          "printed": [
+            49
+          ],
+          "pdf": [
+            85
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            49
+          ],
+          "pdfPages": [
+            85
+          ],
+          "locator": "Section 3. Discovering Photosynthesis, Figure 3",
+          "supports": "Ingenhousz placed plants under glass jars in light and in darkness; green parts gave off oxygen only when exposed to light."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 49 (rendered). Experimental-design item; no procedure is given to learners. Reviser round 1 (2026-10-14): distractors a, b and d replaced with real misconceptions (new ids e, f, g); the old d rationale ('plants cannot make food in the dark') is gone. Key shortened and no longer the longest. Added a condition that the setups differed only in light, which the water rationale relies on. Reviser round 2 (2026-10-14): the key and explanation no longer have bubbles forming on potted plants in air (both reviews; see L04-RF11). Key c uses the science wording, 'caused the oxygen release' (49 characters, not the longest); the pedagogy wording 'light itself caused the oxygen' was equally sound. New hint (pedagogy review): the old one restated key c. c's rationale is unchanged. Verifier (2026-10-14): PASS. p. 49 rendered: light vs dark comparison; key c is the control-group reasoning, condition states the setups differ only in light.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: three distractors replaced (more plants, water, spares; new ids e-g); key shortened; condition added"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key c says 'the oxygen release', not bubbles; explanation links the oxygen to light"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint no longer restates key c; key and explanation drop the bubbles"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "The two setups were alike in every way except light."
+    },
+    {
+      "id": "L04-Q15",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3",
+        "L04-O4"
+      ],
+      "conceptTags": [
+        "plant-respiration",
+        "gas-exchange",
+        "photosynthesis-and-respiration"
+      ],
+      "familyId": "L04-F06",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In a dark jar, a plant gives off carbon dioxide. In a sunny jar, the same kind of plant gives off oxygen. A student concludes, \"Plants only break down sugar for energy at night.\" Which response is most accurate?",
+      "accessiblePrompt": "In a dark jar, a plant gives off carbon dioxide. In a sunny jar, the same kind of plant gives off oxygen. A student concludes: plants only break down sugar for energy at night. Which response is most accurate?",
+      "limitations": "This describes the plant's overall (net) gas exchange. In very dim light, the two processes can balance so that no gas is given off overall.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Disagree: plants never break down sugar; only animals use food for energy",
+          "rationale": "Producers' own cells release the energy in sugar to survive, grow and reproduce."
+        },
+        {
+          "id": "b",
+          "text": "Disagree: cells use sugar nonstop; lit leaves make more than the plant uses",
+          "rationale": "Correct. Breaking down sugar never stops; in light, photosynthesis makes sugar faster than the cells break it down, so the plant takes in carbon dioxide and gives off oxygen overall."
+        },
+        {
+          "id": "c",
+          "text": "Agree: in daylight, plant cells need no energy, so they stop breaking down sugar",
+          "rationale": "Living cells need energy at every moment, so they keep breaking down sugar in daylight too."
+        },
+        {
+          "id": "d",
+          "text": "Agree: sunlight gives every cell energy directly, so no sugar is needed",
+          "rationale": "Sunlight cannot power every cell directly: roots in dark soil get none. Green cells use light to make sugar, and every cell, roots included, runs on sugar."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Plant cells break down sugar for energy day and night, giving off carbon dioxide. In bright light, photosynthesis takes in carbon dioxide and gives off oxygen faster than that, so the plant's overall gas exchange shows oxygen leaving. In the dark, photosynthesis stops, so only the carbon dioxide from using sugar shows up.",
+      "misconception": "Plants photosynthesize instead of using food for energy, and use sugar only at night.",
+      "hint": "Do a plant's cells stop needing energy when the sun comes up?",
+      "followUpId": "L04-Q20",
+      "scope": {
+        "lessonId": "L04",
+        "section": "3. Discovering Photosynthesis",
+        "pages": {
+          "printed": [
+            49
+          ],
+          "pdf": [
+            85
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            49
+          ],
+          "pdfPages": [
+            85
+          ],
+          "locator": "Section 3. Discovering Photosynthesis, Figure 3",
+          "supports": "Ingenhousz placed plants under glass jars in light and in darkness; green parts gave off oxygen only when exposed to light."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Organisms",
+          "supports": "Producers use some sugar right away for energy, combine sugar into starch and cellulose, and store food in roots, fruits, nuts and seeds for later growth."
+        },
+        {
+          "type": "external",
+          "title": "Plant resistance to stress: role of respiration?",
+          "publisher": "Encyclopedia of the Environment (Pierre Dizengremel, Université de Lorraine)",
+          "url": "https://encyclopedie-environnement.org/?p=19453",
+          "accessed": "2026-10-14",
+          "supports": "Plant respiration takes place day and night, unlike photosynthesis; respiration continues in the light, though more weakly."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 49-50 (rendered). Repairs the reading of Figure 3 flagged in L04-RF4 (guardrail: plants photosynthesize and respire). Reviser round 1 (2026-10-14): both reviews found the format cue (only the key lacked a verdict label). Used the pedagogy version, two 'Agree' and two 'Disagree' lead-ins, rather than the science review's 'No:' label on b; both remove the cue. Key reworded 'make more than they use' to avoid the unclear 'it'; choice c lengthened so the key is not the longest. Prompt now says 'the same kind of plant'. Scope limited to p. 49 (Section 3); p. 50 stays as a Section 4 evidence record. Reviser round 2 (2026-10-14): science review: d's rationale said light energy is captured 'only by photosynthesis', an unscoped absolute (leaves also absorb light as heat). I scoped it to roots in dark soil instead of the reviewer's 'Cells cannot run directly on sunlight', because chloroplasts use light energy directly to make some of the cell's energy carriers, so that sentence would be a new absolute. Pedagogy review: the key's 'they' said every cell makes sugar in light, which clashes with L04-Q20 (only the lit leaf cell makes sugar). The key now says lit leaves make more than the plant uses, which is what the net gas exchange shows. I did not use the reviewer's 'lit leaves make it faster', because 'faster' with no comparison reads as 'faster than in the dark'. Lengths: a 73, b 75, c 80, d 71, so the key is not the longest. Rationale and explanation unchanged. Verifier (2026-10-14): PASS. pp. 49-50 rendered; Encyclopedia of the Environment page re-opened (respiration day and night, weaker by day). Key b correct net-exchange reasoning; Agree/Disagree lead-ins balanced.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: all four choices now carry parallel verdict lead-ins; scope limited to p. 49"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: two Agree / two Disagree lead-ins; prompt says 'the same kind of plant'; key avoids the unclear 'it'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: d rationale no longer says light energy is captured 'only by photosynthesis'; scoped to roots in dark soil"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key b says lit leaves (not every cell) make more sugar than the plant uses"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q16",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3",
+        "L04-O2"
+      ],
+      "conceptTags": [
+        "plant-mass",
+        "carbon-dioxide",
+        "experiment-evidence"
+      ],
+      "familyId": "L04-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A sequoia seedling grows into a giant tree over centuries. Where did most of the tree's dry mass come from?",
+      "accessiblePrompt": "A sequoia seedling grows into a giant tree over centuries. Where did most of the tree's dry mass, its mass with all the water removed, come from?",
+      "conditions": "Dry mass means the mass left after all the water is dried out of the tree.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carbon dioxide taken in from the air",
+          "rationale": "Correct. Most of a plant's dry mass is built from carbon and oxygen that came from carbon dioxide."
+        },
+        {
+          "id": "b",
+          "text": "Minerals absorbed from the soil",
+          "rationale": "Soil minerals make up only about 4 percent of a plant's dry mass."
+        },
+        {
+          "id": "c",
+          "text": "Sunlight absorbed by its needles",
+          "rationale": "Sunlight is energy, not matter, so it adds no mass to the tree."
+        },
+        {
+          "id": "d",
+          "text": "Water drawn up from the soil by its roots",
+          "rationale": "Water supplies the hydrogen atoms, only about 6 percent of the dry mass. Most of the dry mass is carbon and oxygen from carbon dioxide."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A tree's dry mass is mostly carbon-based molecules such as cellulose, and that carbon comes from carbon dioxide in the air. Saussure's sealed-jar experiments showed that most of a plant's matter comes from carbon dioxide, with water supplying a smaller share. Soil minerals add only a few percent, and sunlight adds energy, not matter.",
+      "misconception": "Plants get most of their mass from the soil.",
+      "hint": "Think about what wood is made of, then ask which input could carry those atoms in.",
+      "followUpId": "L04-Q22",
+      "scope": {
+        "lessonId": "L04",
+        "section": "3. Discovering Photosynthesis",
+        "pages": {
+          "printed": [
+            49
+          ],
+          "pdf": [
+            85
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            49
+          ],
+          "pdfPages": [
+            85
+          ],
+          "locator": "Section 3. Discovering Photosynthesis",
+          "supports": "Saussure sealed plants in jars to track the carbon dioxide they used and found that most of a plant's matter comes from carbon dioxide, with much of the rest from water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            43
+          ],
+          "pdfPages": [
+            79
+          ],
+          "locator": "Introduction",
+          "supports": "Plants capture energy from the sun and get the matter for their bodies from air and from water absorbed from soil."
+        },
+        {
+          "type": "external",
+          "title": "Plants Lesson 3 Background Information",
+          "publisher": "Carbon TIME, Michigan State University",
+          "url": "https://carbontime.create4stem.msu.edu/node/1758",
+          "accessed": "2026-10-15",
+          "supports": "A plant's dry mass is carbon-based and its carbon comes from carbon dioxide in the air, not soil or water; carbon and oxygen from carbon dioxide are each about 45 percent of dry mass, hydrogen from water about 6 percent, and soil minerals about 4 percent."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 43 and 49 (rendered). Does not test the textbook's 70 percent figure (L04-RF5). Addresses the brief's guardrail that soil does not supply most plant mass. Reviser round 1 (2026-10-14): removed 'while the soil around its roots changes very little' (not true of a forest tree over centuries; it borrowed van Helmont's potted willow). Choice d no longer contradicts 'dry mass': used a short source-only wording close to the pedagogy proposal, 'Water drawn up from the soil by its roots' (parallel with the other choices, and long enough that the key is not the longest), instead of the science wording '...which supplies nearly all of it', which would have been the longest choice; the rationale uses the science review's 6 percent figure. The pedagogy review's proposed hint began 'The soil barely changed', the clause the science fix removed, so a new hint was written. Carbon TIME re-opened 2026-10-15 (45/45/6/4 percent). Follow-up now L04-Q22. Verifier (2026-10-14): PASS. p. 49 and p. 43 rendered; Carbon TIME re-opened (45/45/6/4 percent, hydrogen from water). Dry mass defined; key a; textbook 70 percent figure not tested (RF5).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: soil-barely-changes clause removed; b rationale 4 percent; d no longer contradicts dry mass (6 percent)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at Saussure's CO₂ tracking; d reworded; followUpId -> L04-Q22"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q17",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3"
+      ],
+      "conceptTags": [
+        "observation-vs-conclusion",
+        "experiment-evidence"
+      ],
+      "familyId": "L04-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "A student wrote notes on a study of a water plant sealed in a jar of water under a lamp. Sort each note: is it an observation (something seen or measured) or a conclusion (an explanation drawn from evidence)?",
+      "accessiblePrompt": "A student wrote notes on a study of a water plant sealed in a jar of water under a lamp. Sort each note into one of two groups: an observation, which is something seen or measured, or a conclusion, which is an explanation drawn from evidence.",
+      "conditions": "The notes describe a simple study of a water plant, modeled on the experiments in this section, not exact historical records.",
+      "items": [
+        {
+          "id": "mass",
+          "text": "The plant weighed more at the end than at the start.",
+          "rationale": "Observation: a reading on a scale."
+        },
+        {
+          "id": "co2",
+          "text": "The amount of carbon dioxide in the jar went down.",
+          "rationale": "Observation: a measured change in the gas."
+        },
+        {
+          "id": "bubbles",
+          "text": "Bubbles formed on the leaves while the lamp was on.",
+          "rationale": "Observation: something seen directly."
+        },
+        {
+          "id": "dark",
+          "text": "No bubbles formed after the lamp was switched off.",
+          "rationale": "Observation: something seen directly."
+        },
+        {
+          "id": "carbon",
+          "text": "The new plant matter was built from carbon taken from the carbon dioxide.",
+          "rationale": "Conclusion: it explains how two measurements are linked; nobody watched the atoms move."
+        },
+        {
+          "id": "light",
+          "text": "Light caused the bubbles to form.",
+          "rationale": "Conclusion: a cause worked out by comparing the lamp-on and lamp-off results."
+        }
+      ],
+      "bins": [
+        {
+          "id": "obs",
+          "label": "Observation"
+        },
+        {
+          "id": "concl",
+          "label": "Conclusion"
+        }
+      ],
+      "answer": {
+        "mass": "obs",
+        "co2": "obs",
+        "bubbles": "obs",
+        "dark": "obs",
+        "carbon": "concl",
+        "light": "concl"
+      },
+      "explanation": "Observations are direct records: a reading on a scale, a gas measurement, bubbles you can see. A conclusion explains why those results happened and goes beyond what was directly seen, such as what caused the bubbles or which atoms ended up where. Strong conclusions rest on several observations.",
+      "misconception": "A conclusion is just another observation, or a single observation proves an explanation on its own.",
+      "hint": "Could someone see or measure it directly, or does it explain a pattern?",
+      "followUpId": "L04-Q13",
+      "scope": {
+        "lessonId": "L04",
+        "section": "3. Discovering Photosynthesis",
+        "pages": {
+          "printed": [
+            49
+          ],
+          "pdf": [
+            85
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            49
+          ],
+          "pdfPages": [
+            85
+          ],
+          "locator": "Section 3. Discovering Photosynthesis, Figure 3",
+          "supports": "Ingenhousz placed plants under glass jars in light and in darkness; green parts gave off oxygen only when exposed to light."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            49
+          ],
+          "pdfPages": [
+            85
+          ],
+          "locator": "Section 3. Discovering Photosynthesis",
+          "supports": "Saussure sealed plants in jars to track the carbon dioxide they used and found that most of a plant's matter comes from carbon dioxide, with much of the rest from water."
+        },
+        {
+          "type": "external",
+          "title": "Jan Ingenhousz, Experiments upon Vegetables (1779), excerpt",
+          "publisher": "Le Moyne College, Classic Chemistry website (excerpt from Leicester and Klickstein, A Source Book in Chemistry 1400-1900)",
+          "url": "https://web.lemoyne.edu/GIUNTA/Ingenhousz.html",
+          "accessed": "2026-10-17",
+          "supports": "Ingenhousz plunged leaves into a clear jar filled with water and set it in the sunshine; bubbles of air gathered on the leaves in sunshine, hardly any formed after sunset, and leaves kept in shade gave air worse than common air."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 49 (rendered). An original sealed-jar scenario modeled on the two historical experiments; no procedure is given. Every note has one defensible bin. Reviser round 1 (2026-10-14): the mass note is now a weighing (a living plant's dry mass cannot be measured at the start). The light note no longer assumes the bubbles were oxygen: used the pedagogy wording 'Light caused the bubbles to form'; the science wording ('needs light to make the gas in the bubbles') was equally sound. Bubbles on leaves imply the plant is under water, so the co2 and carbon notes no longer say 'air'. Bins and answer map unchanged. Reviser round 2 (2026-10-14): both reviews found that the bubble notes only make sense for a plant under water, which the prompt never said; a learner picturing Figure 3's potted plant in air would be confused (see L04-RF11). The prompt (science wording, which keeps the lamp the notes refer to) and conditions now say it is a water plant sealed in a jar of water. Added the Le Moyne excerpt of Ingenhousz (opened 2026-10-17) as evidence that leaves under water in sunlight gather bubbles. Items, bins and answer unchanged. The O3 Science Explorer card now teaches observation versus conclusion. Verifier (2026-10-14): PASS. p. 49 rendered: original water-plant scenario; four observations and two conclusions, each with one defensible bin. Le Moyne excerpt re-opened: submerged leaves gather bubbles in light.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: mass note is a weighing; light note no longer assumes oxygen; co2 note says 'in the jar'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: mass and light notes reworded as proposed; bins unchanged"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt and conditions say a water plant sealed in a jar of water, so the bubble notes make physical sense"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt states a water plant in a jar of water; items, bins and answer unchanged"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q18",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3"
+      ],
+      "conceptTags": [
+        "limiting-input",
+        "carbon-dioxide",
+        "prediction",
+        "aquatic-producers"
+      ],
+      "familyId": "L04-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pondweed grows in a sealed tank of water under a bright lamp. Over time, it uses up nearly all the carbon dioxide dissolved in the water. The lamp stays on. Predict what happens to its sugar production.",
+      "accessiblePrompt": "Pondweed grows in a sealed tank of water under a bright lamp. Over time, it uses up nearly all the carbon dioxide dissolved in the water. The lamp stays on. Predict what happens to the pondweed's sugar production.",
+      "conditions": "The tank is sealed, so no new carbon dioxide can enter from the air. Assume the water holds no other form of carbon the pondweed can use.",
+      "limitations": "Real pondweed keeps giving off a little carbon dioxide as its own cells break down sugar, and animals and microbes add some too, so production slows almost, but not completely, to a stop. Some water plants can also take carbon from other dissolved forms.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It speeds up, because the lamp now supplies everything needed",
+          "rationale": "Light supplies only energy. Sugar also needs the atoms that carbon dioxide provides."
+        },
+        {
+          "id": "b",
+          "text": "It stays the same, because extra light energy replaces the gas",
+          "rationale": "Energy cannot stand in for atoms; a missing matter input cannot be made up with more light."
+        },
+        {
+          "id": "e",
+          "text": "It keeps going, because the pondweed can use the water's atoms instead",
+          "rationale": "Water has no carbon atoms, so it cannot stand in for carbon dioxide as the carbon source."
+        },
+        {
+          "id": "d",
+          "text": "It slows almost to a stop, because a matter input has run out",
+          "rationale": "Correct. Without carbon dioxide there are no carbon atoms to build sugar, however bright the lamp."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Sugar is built from the atoms of carbon dioxide and water, so light alone is not enough. When the dissolved carbon dioxide runs out, the pondweed runs short of carbon atoms, and sugar production slows almost to a stop even with the lamp on. Water plants rely on carbon dissolved in the water around them.",
+      "misconception": "Light is all a plant needs to make food.",
+      "hint": "Which atoms in sugar can come only from carbon dioxide?",
+      "followUpId": "L04-Q10",
+      "scope": {
+        "lessonId": "L04",
+        "section": "2. Producers Use Photosynthesis",
+        "pages": {
+          "printed": [
+            47
+          ],
+          "pdf": [
+            83
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Producers Get Matter from Air and Water",
+          "supports": "Photosynthesis needs water and carbon dioxide; aquatic plants use carbon dioxide dissolved in water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            44
+          ],
+          "pdfPages": [
+            80
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter",
+          "supports": "Producers make their own food; most capture energy from sunlight and get matter from gases in air and from water, and without sunlight, air and water they cannot make food."
+        },
+        {
+          "type": "external",
+          "title": "Plant resistance to stress: role of respiration?",
+          "publisher": "Encyclopedia of the Environment (Pierre Dizengremel, Université de Lorraine)",
+          "url": "https://encyclopedie-environnement.org/?p=19453",
+          "accessed": "2026-10-14",
+          "supports": "Plant respiration takes place day and night, unlike photosynthesis; respiration continues in the light, though more weakly."
+        },
+        {
+          "type": "external",
+          "title": "The metabolic cost of bicarbonate use in the submerged plant Elodea nuttallii (Aquatic Botany 83, 2005)",
+          "publisher": "NERC Open Research Archive, UK Natural Environment Research Council (J. Iwan Jones)",
+          "url": "https://nora.nerc.ac.uk/id/eprint/5358/",
+          "accessed": "2026-10-15",
+          "supports": "When less carbon dioxide is available, the submerged pondweed Elodea nuttallii increases its use of bicarbonate, another dissolved form of carbon, for photosynthesis."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 44 and 47 (rendered). Prediction of a condition change (brief mission 3). Reviser round 1 (2026-10-14): added the condition ruling out other dissolved carbon, and a limitation naming the pondweed's own carbon dioxide release (plants photosynthesize and respire) and bicarbonate use by some water plants (NERC record, opened 2026-10-15). 'Has no source of carbon atoms' became 'runs short of carbon atoms'. Distractor c replaced (new id e). Scope limited to p. 47 (Section 2); p. 44 stays as a Section 1 evidence record. Key d unchanged. Verifier (2026-10-14): PASS. p. 47 rendered: aquatic plants use dissolved CO2. Condition rules out other carbon; limitation covers respiration and bicarbonate. Key d unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: condition rules out other dissolved carbon; limitation names own CO₂ release and bicarbonate use; scope p. 47"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c replaced (water's atoms, new id e); followUpId -> L04-Q10"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q19",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O3",
+        "L04-O4"
+      ],
+      "conceptTags": [
+        "stored-food",
+        "seed",
+        "light-requirement"
+      ],
+      "familyId": "L04-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A bean seed buried in dark soil sprouts a stem before any green leaves open. Where does the energy for that first growth come from?",
+      "accessiblePrompt": "A bean seed buried in dark soil sprouts a stem before any green leaves open. Where does the energy for that first growth come from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Warmth from the soil, which the seed turns directly into sugar",
+          "rationale": "Warmth can speed growth, but it cannot be turned into sugar or used as food."
+        },
+        {
+          "id": "b",
+          "text": "Food the parent plant stored in the seed, such as starch",
+          "rationale": "Correct. The seedling breaks down stored food for energy until its leaves can photosynthesize."
+        },
+        {
+          "id": "e",
+          "text": "Sugar the seed makes from water it soaks up from the soil",
+          "rationale": "Water is a matter input, but making sugar needs light energy, and a buried seed has none."
+        },
+        {
+          "id": "d",
+          "text": "Minerals in the soil, which the seed breaks down for energy",
+          "rationale": "Soil minerals are not an energy source; the seedling's energy comes from stored food."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Seeds come packed with sugars and starch that the parent plant made by photosynthesis. The sprouting seedling breaks down this stored food for energy until its leaves reach light and start making new sugar. Stored food is also how a plant gets through nights and cloudy days.",
+      "misconception": "Seeds get their energy from the soil, or can photosynthesize underground in the dark.",
+      "hint": "What can a seed in dark soil not do yet? Rule out any choice that would need it.",
+      "followUpId": "L04-Q20",
+      "scope": {
+        "lessonId": "L04",
+        "section": "4. Storing Energy and Matter",
+        "pages": {
+          "printed": [
+            50
+          ],
+          "pdf": [
+            86
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Organisms",
+          "supports": "Producers use some sugar right away for energy, combine sugar into starch and cellulose, and store food in roots, fruits, nuts and seeds for later growth."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 50 (rendered). Reviser round 1 (2026-10-14): distractor c (light in the soil, ruled out by the stem's 'dark soil') replaced with a water-to-sugar misconception (new id e). Key shortened so it is not the longest choice after the swap. Follow-up now L04-Q20 (what plants do with sugar, including storing it). Reviser round 2 (2026-10-14): new hint (pedagogy review); the old one pointed straight at key b. Verifier (2026-10-14): PASS. p. 50 rendered: seeds store sugars that support growth before leaves can photosynthesize. Key b unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c replaced (sugar from soaked-up water, new id e); followUpId -> L04-Q20; key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new hint no longer points straight at the stored food"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q20",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O4"
+      ],
+      "conceptTags": [
+        "sugar-uses",
+        "starch",
+        "cellulose",
+        "storage"
+      ],
+      "familyId": "L04-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Producers put the sugar they make to different uses. Match each plant part with the description that fits it best. Use each description once.",
+      "accessiblePrompt": "Producers put the sugar they make to different uses. Match each of four plant parts with the description that fits it best, using each description once. The parts are a leaf cell in sunlight, a carrot root, a plant cell wall, and a leaf cell at midnight. The descriptions are: makes new sugar by photosynthesis; stores sugar and starch for later; is built mainly from cellulose; and breaks sugar down to release energy for its work.",
+      "left": [
+        {
+          "id": "leaf",
+          "text": "A leaf cell in sunlight",
+          "rationale": "Its chloroplasts build new sugar from carbon dioxide and water. It uses sugar too, but it is the only one of these that can make it."
+        },
+        {
+          "id": "root",
+          "text": "A carrot root",
+          "rationale": "Root vegetables hold sugar and starch the plant can use when light is short."
+        },
+        {
+          "id": "wall",
+          "text": "A plant cell wall",
+          "rationale": "Its main material is cellulose, which the plant builds from sugar units."
+        },
+        {
+          "id": "night",
+          "text": "A leaf cell at midnight",
+          "rationale": "No light, so it cannot make sugar; it keeps breaking sugar down for energy."
+        }
+      ],
+      "right": [
+        {
+          "id": "make",
+          "text": "Makes new sugar by photosynthesis"
+        },
+        {
+          "id": "store",
+          "text": "Stores sugar and starch for later"
+        },
+        {
+          "id": "build",
+          "text": "Is built mainly from cellulose"
+        },
+        {
+          "id": "use",
+          "text": "Breaks sugar down to release energy for its work"
+        }
+      ],
+      "answer": {
+        "leaf": "make",
+        "root": "store",
+        "wall": "build",
+        "night": "use"
+      },
+      "explanation": "Sugar made in the leaves has three main fates. It is broken down right away to power the cells' work, stored (often as starch) in places like roots and seeds, or linked into cellulose to build the plant's body. Every living cell uses sugar day and night, but only green cells in light can make it.",
+      "misconception": "Plants make sugar only to store it, or sugar is used only for energy and never for building.",
+      "hint": "Start with the one part that is not a living, working cell. Then ask which leaf cell has light to work with.",
+      "followUpId": "L04-Q19",
+      "scope": {
+        "lessonId": "L04",
+        "section": "4. Storing Energy and Matter",
+        "pages": {
+          "printed": [
+            50
+          ],
+          "pdf": [
+            86
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Organisms",
+          "supports": "Producers use some sugar right away for energy, combine sugar into starch and cellulose, and store food in roots, fruits, nuts and seeds for later growth."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Figure 4",
+          "supports": "Simple sugars are combined into more complex molecules such as starch and cellulose; cellulose forms the rigid walls of plant cells and makes up the bulk of plant bodies."
+        },
+        {
+          "type": "external",
+          "title": "Plant resistance to stress: role of respiration?",
+          "publisher": "Encyclopedia of the Environment (Pierre Dizengremel, Université de Lorraine)",
+          "url": "https://encyclopedie-environnement.org/?p=19453",
+          "accessed": "2026-10-14",
+          "supports": "Plant respiration takes place day and night, unlike photosynthesis; respiration continues in the light, though more weakly."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 50 (rendered; carrot and beet photo, Figure 4). One-to-one matching. Reviser round 1 (2026-10-14): 'Any working plant cell, day or night' fitted two right-hand options, so it became 'A leaf cell at midnight' (new id night). The right-hand options no longer echo 'day or night' and no longer state Q21's answer (sugar units). 'Is built mainly from cellulose' was used instead of 'made mostly of cellulose' to match the wording of L04-Q21 and L04-RF10. The Figure 4 record now uses the textbook's 'the bulk of plant bodies'. Reviser round 2 (2026-10-14): both reviews: 'what happens to sugar there' left room for a second matching (a carrot root also breaks sugar down; a leaf cell in sunlight does too). The prompt now asks for the description that fits each part best, and says to use each once. I used the science review's 'description' instead of the pedagogy review's 'sugar job', because 'Is built mainly from cellulose' is not a job done with sugar. The read-aloud prompt lists the four descriptions, and the hint is new (pedagogy review). Pairs and rationales unchanged. Verifier (2026-10-14): PASS. p. 50 rendered (carrot and beet photo, Figure 4): with best fit and one-to-one matching, only the sunlit leaf cell can make sugar and only the wall is a non-living structure, so the pairing is unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Figure 4 record says 'the bulk of plant bodies' (minor note applied)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'any cell' replaced by 'a leaf cell at midnight' (new id); right options no longer cue each other or reveal Q21"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks for the description that fits each part best ('built mainly from cellulose' is not something that happens to sugar)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says best fit and use each once; read-aloud lists the four descriptions; new hint"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q21",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O4"
+      ],
+      "conceptTags": [
+        "cellulose",
+        "sugar-as-building-block"
+      ],
+      "familyId": "L04-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Cellulose is the main material in plant cell walls. What is cellulose built from?",
+      "accessiblePrompt": "Cellulose is the main material in plant cell walls. What is cellulose built from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many sugar units linked into long chains",
+          "rationale": "Correct. Cellulose is made of sugar units from photosynthesis, joined one after another."
+        },
+        {
+          "id": "b",
+          "text": "Minerals pulled up from the soil",
+          "rationale": "Soil minerals are a small part of a plant; they are not what cellulose is made of."
+        },
+        {
+          "id": "c",
+          "text": "Chlorophyll molecules joined together",
+          "rationale": "Chlorophyll is the pigment that absorbs light; it is not the plant's building material."
+        },
+        {
+          "id": "e",
+          "text": "Water molecules pressed tightly together",
+          "rationale": "Water lends hydrogen atoms when sugar is made, but cellulose is a chain of sugar units, not packed water."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Producers link sugar made by photosynthesis into long chains of cellulose, which forms stiff cell walls. Each link leaves out the atoms of one water molecule, so cellulose is a chain of sugar units rather than whole sugar molecules glued together. Cotton is nearly pure cellulose, and cellulose is the largest single ingredient of wood.",
+      "misconception": "A plant's stiff body is made of something other than the sugar it makes, such as soil or water.",
+      "hint": "Starch and cellulose are made from the same building block.",
+      "followUpId": "L04-Q16",
+      "scope": {
+        "lessonId": "L04",
+        "section": "4. Storing Energy and Matter",
+        "pages": {
+          "printed": [
+            50
+          ],
+          "pdf": [
+            86
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Figure 4",
+          "supports": "Simple sugars are combined into more complex molecules such as starch and cellulose; cellulose forms the rigid walls of plant cells and makes up the bulk of plant bodies."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 3.2 Carbohydrates",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+          "accessed": "2026-10-14",
+          "supports": "Cellulose is made of long chains of linked glucose units, and each link forms by a dehydration reaction that releases a water molecule; cellulose makes up most of the plant cell wall."
+        },
+        {
+          "type": "external",
+          "title": "Cell wall chemistry (Handbook of Wood Chemistry and Wood Composites)",
+          "publisher": "USDA Forest Service, Forest Products Laboratory (Rowell, Pettersen et al.)",
+          "url": "https://research.fs.usda.gov/treesearch/22043",
+          "accessed": "2026-10-15",
+          "supports": "Cellulose makes up about 40 to 45 percent of softwood and 38 to 49 percent of hardwood."
+        },
+        {
+          "type": "external",
+          "title": "Cotton fiber: a powerful single-cell model for cell wall and cellulose research",
+          "publisher": "Frontiers in Plant Science (Haigler, Betancur, Stiff and Tuttle, 2012)",
+          "url": "https://www.frontiersin.org/articles/10.3389/fpls.2012.00104/full",
+          "accessed": "2026-10-15",
+          "supports": "A mature cotton fiber is more than 90 percent cellulose by weight."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 50 (rendered; Figure 4 molecular models). Explanation adds the water released at each link (L04-RF9). Reviser round 1 (2026-10-14): prompt no longer says cellulose makes up most of a plant's body (a living plant is mostly water, and dry wood is about 38 to 49 percent cellulose; USDA Forest Service record opened 2026-10-15). Explanation: cotton is nearly pure cellulose (Frontiers in Plant Science record, opened 2026-10-15) and cellulose is the largest single ingredient of wood. I left out the reviewer's 'paper is mostly cellulose' because I opened no source for it and paper varies. Distractor d replaced (new id e); new hint and misconception. See L04-RF10. Reviser round 2 (2026-10-14): applied the science review's optional precision. 'A small water molecule is given off' at each link is the classroom dehydration model; the explanation now says only that each link leaves out the atoms of one water molecule, which is exact about composition and says nothing about how the cell forms the link (see L04-RF9). Verifier (2026-10-14): PASS. p. 50 Figure 4 rendered: cellulose drawn as linked sugar units; explanation's composition wording matches RF9. Key a unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says main material of cell walls; explanation 'largest single ingredient of wood'; USDA and cotton records"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d replaced (packed water, new id e); new hint and misconception"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation uses the mechanism-neutral wording (each link leaves out the atoms of one water molecule), the optional precision from this review"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q22",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O4"
+      ],
+      "conceptTags": [
+        "biomass",
+        "matter-transfer",
+        "carbon-path"
+      ],
+      "familyId": "L04-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Follow one carbon atom from the air into your body. Put these steps in order.",
+      "accessiblePrompt": "Follow one carbon atom from the air into your body. Put these five steps in order from first to last.",
+      "conditions": "This is one possible route. The atom could also return to the air at many points, for example when a cell breaks down sugar for energy.",
+      "items": [
+        {
+          "id": "bread",
+          "text": "The grain is ground into flour and baked into bread that you eat.",
+          "rationale": "Fourth: eating moves the plant's matter into you."
+        },
+        {
+          "id": "air",
+          "text": "The atom is part of a carbon dioxide molecule in the air.",
+          "rationale": "First: the route starts in the air."
+        },
+        {
+          "id": "body",
+          "text": "Your body uses the atom to build part of one of your cells.",
+          "rationale": "Last: the atom becomes part of your body."
+        },
+        {
+          "id": "leaf",
+          "text": "A wheat leaf uses the atom to build a sugar molecule.",
+          "rationale": "Second: photosynthesis brings carbon from the air into a producer."
+        },
+        {
+          "id": "seed",
+          "text": "The sugar is linked into starch stored in a wheat grain.",
+          "rationale": "Third: the plant stores food in its seeds."
+        }
+      ],
+      "answer": [
+        "air",
+        "leaf",
+        "seed",
+        "bread",
+        "body"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Producers pull carbon out of the air and build it into sugar, then into storage molecules like starch. When you eat plant foods, some of those same atoms become part of your own body. Much of the carbon in your cells was once carbon dioxide in the air.",
+      "misconception": "The matter in our bodies comes from somewhere other than food that starts with producers.",
+      "hint": "The atom has to enter a producer before it can reach anyone who eats.",
+      "followUpId": "L04-Q16",
+      "scope": {
+        "lessonId": "L04",
+        "section": "4. Storing Energy and Matter",
+        "pages": {
+          "printed": [
+            50,
+            51
+          ],
+          "pdf": [
+            86,
+            87
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            50
+          ],
+          "pdfPages": [
+            86
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Organisms",
+          "supports": "Producers use some sugar right away for energy, combine sugar into starch and cellulose, and store food in roots, fruits, nuts and seeds for later growth."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            51
+          ],
+          "pdfPages": [
+            87
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Ecosystems",
+          "supports": "Other organisms get energy stored by producers by eating producers or eating organisms that eat producers, turning that matter and energy into their own."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 50-51 (rendered). One stated route, so only one order is defensible; branching noted in conditions. Reviser round 1 (2026-10-14): follow-up now L04-Q16, because L04-Q12 was rewritten to track energy. Reviser round 2 (2026-10-14): pedagogy review: the leaf step's 'it' had nothing to refer to when items are shuffled or read one at a time, so it says 'the atom'; the explanation's last sentence over-claimed ('the matter in your cells'), because the route follows carbon only. Order and answer unchanged. Verifier (2026-10-14): PASS. pp. 50-51 rendered: one stated route, branching noted in conditions; one defensible order.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId -> L04-Q16 (L04-Q12 rewritten)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: leaf step says 'the atom'; explanation follows carbon only ('Much of the carbon in your cells...')"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q23",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O4"
+      ],
+      "conceptTags": [
+        "energy-flow",
+        "food-chain",
+        "producer"
+      ],
+      "familyId": "L04-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A lion eats only zebras, and the zebras eat only grass. Where did the energy in the lion's muscles first enter this food chain?",
+      "accessiblePrompt": "A lion eats only zebras, and the zebras eat only grass. Where did the energy in the lion's muscles first enter this food chain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soil minerals that the grass absorbed through its roots",
+          "rationale": "Soil minerals are not an energy source; the grass's energy came from light."
+        },
+        {
+          "id": "b",
+          "text": "Sunlight that the grass captured during photosynthesis",
+          "rationale": "Correct. Grass stored light energy in sugar, and that energy passed to zebras and then to the lion."
+        },
+        {
+          "id": "c",
+          "text": "The zebras' muscles, which made the energy on their own",
+          "rationale": "Animals cannot make energy; zebras got theirs from the grass they ate."
+        },
+        {
+          "id": "d",
+          "text": "Water that the zebras drank at the river each day",
+          "rationale": "Drinking water does not supply food energy to an animal."
+        }
+      ],
+      "answer": "b",
+      "explanation": "The energy started as sunlight. Grass captured it by photosynthesis and stored it in sugar and other molecules. Zebras took in that stored energy by eating grass, and the lion took in some of it by eating zebras. Nearly every food chain on Earth begins this way.",
+      "misconception": "Animals at the top of a food chain get their energy from their prey alone, with no link to the Sun.",
+      "hint": "Go back to the start of the chain. Which organism does not eat anything?",
+      "followUpId": "L04-Q01",
+      "scope": {
+        "lessonId": "L04",
+        "section": "4. Storing Energy and Matter",
+        "pages": {
+          "printed": [
+            51
+          ],
+          "pdf": [
+            87
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            51
+          ],
+          "pdfPages": [
+            87
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Ecosystems",
+          "supports": "Other organisms get energy stored by producers by eating producers or eating organisms that eat producers, turning that matter and energy into their own."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            44
+          ],
+          "pdfPages": [
+            80
+          ],
+          "locator": "Section 1. Producers Capture Energy and Matter",
+          "supports": "Producers make their own food; most capture energy from sunlight and get matter from gases in air and from water, and without sunlight, air and water they cannot make food."
+        },
+        {
+          "type": "external",
+          "title": "What is the difference between photosynthesis and chemosynthesis?",
+          "publisher": "NOAA Ocean Exploration",
+          "url": "https://oceanexplorer.noaa.gov/facts/photochemo.html",
+          "accessed": "2026-10-14",
+          "supports": "Photosynthesis is powered by sunlight while chemosynthesis runs on chemical energy, supporting deep-sea communities where no light reaches."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 44 and 51 (rendered). Explanation says 'nearly every' food chain (L04-RF6). Reviser round 1 (2026-10-14): scope limited to p. 51 (Section 4); p. 44 stays as a Section 1 evidence record. Verifier (2026-10-14): PASS. p. 51 rendered: other organisms get energy by eating producers or their eaters; 'nearly every food chain' respects RF6.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope limited to Section 4 (p. 51); p. 44 kept as evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q24",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O5"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "engineering-design",
+        "biofuel"
+      ],
+      "familyId": "L04-F11",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each term from the jet-fuel design problem with its meaning.",
+      "accessiblePrompt": "Match each of four terms from the jet-fuel design problem with its meaning. The terms are criterion, constraint, biofuel, and fossil fuel.",
+      "left": [
+        {
+          "id": "crit",
+          "text": "Criterion",
+          "rationale": "A criterion is a goal to meet as well as possible, like lots of energy per kilogram."
+        },
+        {
+          "id": "cons",
+          "text": "Constraint",
+          "rationale": "A constraint is a limit any solution must stay within, like coming from a renewable resource."
+        },
+        {
+          "id": "bio",
+          "text": "Biofuel",
+          "rationale": "A biofuel is made from biomass, recently living material such as cellulose from yard waste."
+        },
+        {
+          "id": "fossil",
+          "text": "Fossil fuel",
+          "rationale": "Fossil fuels have been used for decades but are not renewable."
+        }
+      ],
+      "right": [
+        {
+          "id": "goal",
+          "text": "A goal the fuel should meet as well as possible, such as lots of energy per kilogram"
+        },
+        {
+          "id": "limit",
+          "text": "A limit the solution must stay within, such as coming from a renewable resource"
+        },
+        {
+          "id": "biomass",
+          "text": "A fuel made from material that living things built recently, such as yard waste"
+        },
+        {
+          "id": "nonrenew",
+          "text": "A long-used fuel that is not replaced as fast as people use it"
+        }
+      ],
+      "answer": {
+        "crit": "goal",
+        "cons": "limit",
+        "bio": "biomass",
+        "fossil": "nonrenew"
+      },
+      "explanation": "Engineers judge designs against criteria, the goals a good solution meets well, and constraints, the limits it must respect. For jet fuel, packing lots of energy into little mass is a criterion, and coming from a renewable resource was added as a constraint. Biofuels can meet both; fossil fuels fail the renewable constraint.",
+      "misconception": "Criteria and constraints mean the same thing.",
+      "hint": "Planning a class trip: \"must cost under $20\" is one kind of rule and \"the more fun, the better\" is the other. Which term names each kind?",
+      "followUpId": "L04-Q28",
+      "scope": {
+        "lessonId": "L04",
+        "section": "5. Biomass Is a Source of Energy for Humans",
+        "pages": {
+          "printed": [
+            52
+          ],
+          "pdf": [
+            88
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            52
+          ],
+          "pdfPages": [
+            88
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Choosing a Fuel for Jets",
+          "supports": "Jet fuel must store as much energy as possible in the lowest possible mass; in the 2000s engineers added the constraint that fuel should come from renewable resources."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 52 (rendered). Reviser round 1 (2026-10-14): new hint no longer repeats the right-hand definitions. Reviser round 2 (2026-10-14): pedagogy review: the term 'Biofuel' matched the only definition containing 'biomass', which made the four-way match a 50/50. That definition now describes biomass in plain words (material living things built recently), and the Lbio rationale matches. Pairs unchanged. Verifier (2026-10-14): PASS. p. 52 rendered: criterion (energy in little mass) and constraint (renewable) as the text describes; one-to-one match with no word-echo cue.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new class-trip hint no longer repeats the definitions"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: biofuel definition no longer echoes 'bio-' through the word 'biomass'; Lbio rationale matches"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q25",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O5"
+      ],
+      "conceptTags": [
+        "energy-per-mass",
+        "criteria",
+        "engineering-design"
+      ],
+      "familyId": "L04-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "Two fuel samples are tested. Fuel A: a 400 kg batch releases 10,800 MJ (megajoules). Fuel B: a 200 kg batch releases 8,600 MJ. Which fuel better meets the energy-per-kilogram goal? Enter that fuel's energy per kilogram.",
+      "accessiblePrompt": "Two fuel samples are tested. Fuel A: a 400 kilogram batch releases 10,800 megajoules of energy. Fuel B: a 200 kilogram batch releases 8,600 megajoules. Which fuel better meets the energy-per-kilogram goal? Enter that fuel's energy, in megajoules per kilogram.",
+      "answer": 43,
+      "tolerance": 0.5,
+      "unit": "MJ/kg",
+      "units": "Energy in megajoules (MJ), mass in kilograms (kg)",
+      "conditions": "Assume each sample burns completely.",
+      "workedSolution": "Fuel A: 10,800 MJ ÷ 400 kg = 27 MJ/kg. Fuel B: 8,600 MJ ÷ 200 kg = 43 MJ/kg. Fuel B packs more energy into each kilogram, so it better meets the goal, even though Fuel A releases more energy in total. Answer: 43 MJ/kg.",
+      "explanation": "Energy per kilogram is a fair way to compare fuels for flight, because a jet has to lift its own fuel. Fuel A releases more energy in total only because its batch is twice as heavy; per kilogram, Fuel B wins, 43 MJ to 27 MJ. The textbook calls fuels that pack lots of energy into little mass 'efficient'.",
+      "misconception": "The best jet fuel is simply whichever releases the most total energy, however heavy it is.",
+      "hint": "Work out the energy in one kilogram of each fuel before choosing.",
+      "followUpId": "L04-Q26",
+      "scope": {
+        "lessonId": "L04",
+        "section": "5. Biomass Is a Source of Energy for Humans",
+        "pages": {
+          "printed": [
+            52
+          ],
+          "pdf": [
+            88
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            52
+          ],
+          "pdfPages": [
+            88
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Choosing a Fuel for Jets",
+          "supports": "Jet fuel must store as much energy as possible in the lowest possible mass; in the 2000s engineers added the constraint that fuel should come from renewable resources."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 52 (rendered). Numbers are an invented example; no real-fuel value is claimed. Reviser round 1 (2026-10-14): REWRITTEN on the pedagogy review as a two-fuel comparison, so the targeted misconception (most total energy wins) is actually tested; Fuel A releases more in total but only 27 MJ/kg. Verifier (2026-10-14): PASS. p. 52 rendered: energy per unit mass is the textbook criterion. 8,600 / 200 = 43 MJ/kg and 10,800 / 400 = 27 MJ/kg checked; units and tolerance clear.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: two-fuel comparison so the total-energy misconception is tested; answer 43 MJ/kg"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q26",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O5"
+      ],
+      "conceptTags": [
+        "biofuel",
+        "constraints",
+        "renewable-resource",
+        "urban-waste"
+      ],
+      "familyId": "L04-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "In the textbook's design story, engineers chose city waste, like grass clippings, food scraps and cardboard, as biomass for jet biofuel. Which reasons support that choice? Select all that apply.",
+      "accessiblePrompt": "In the textbook's design story, engineers chose city waste, like grass clippings, food scraps and cardboard, as biomass for making jet biofuel. Which reasons support that choice? Select all that apply.",
+      "limitations": "This is the textbook's design example. As of 2026, IATA reports that aviation biofuels cost several times more than ordinary jet fuel and expects them to be under 1 percent of jet fuel use.",
+      "choices": [
+        {
+          "id": "g",
+          "text": "It can go into a jet's tank with no processing",
+          "rationale": "Biomass has to be processed into fuel first (the textbook describes breaking it down into sugars and turning those into fuel), so waste was not picked for skipping that step."
+        },
+        {
+          "id": "b",
+          "text": "Cities produce a steady new supply of it",
+          "rationale": "Correct. A source that keeps being replaced meets the renewable constraint."
+        },
+        {
+          "id": "c",
+          "text": "It does not take farmland away from food crops",
+          "rationale": "Correct. Fuel crops that push out food crops can drive up prices; waste avoids that."
+        },
+        {
+          "id": "f",
+          "text": "Its supply can never run out, however much fuel is made",
+          "rationale": "Renewable means replaced as fast as it is used, not unlimited; a city makes only so much waste."
+        },
+        {
+          "id": "e",
+          "text": "It reuses waste that might go to landfills",
+          "rationale": "Correct. Turning waste into fuel can keep material out of landfills."
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "e"
+      ],
+      "explanation": "The textbook's engineers favored city waste because it is renewable (cities keep making more), it does not take farmland from food crops and push prices up, and it reuses trash that might otherwise be buried in landfills. Renewable does not mean unlimited, though: a city makes only so much waste, so the supply lasts only if fuel is made no faster than new waste appears.",
+      "misconception": "Renewable means unlimited.",
+      "hint": "For each reason, ask: is it true of city waste, and does it help the fuel meet a goal or limit?",
+      "followUpId": "L04-Q24",
+      "scope": {
+        "lessonId": "L04",
+        "section": "5. Biomass Is a Source of Energy for Humans",
+        "pages": {
+          "printed": [
+            53
+          ],
+          "pdf": [
+            89
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            53
+          ],
+          "pdfPages": [
+            89
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Constraints Help Identify the Best Source of Biomass",
+          "supports": "Biomass for jet fuel must be renewable within a reasonable time and affordable; energy crops that displace food crops can drive up prices; urban waste is a renewable source that still releases carbon dioxide when burned."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            52
+          ],
+          "pdfPages": [
+            88
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Fossil Fuels as Jet Fuel",
+          "supports": "Fossil fuels are not renewable resources; renewable resources are not used up if used at a low enough rate."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            52
+          ],
+          "pdfPages": [
+            88
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Biomass as Jet Fuel",
+          "supports": "Manufacturers make biofuel by using chemical reactions to break plant biomass such as cellulose back down into sugars and then turning those sugars into fuel."
+        },
+        {
+          "type": "external",
+          "title": "Sustainable Aviation Fuel (SAF)",
+          "publisher": "International Air Transport Association (IATA)",
+          "url": "https://www.iata.org/en/programs/sustainability/sustainable-aviation-fuels/",
+          "accessed": "2026-10-15",
+          "supports": "As of 2026, SAF is several times more expensive than conventional aviation fuel and makes up less than 1 percent of global aviation fuel use (2026 estimate: about 0.8 percent)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 53 (rendered). Five choices, three correct. Limitation records the cost and share (L04-RF8). Reviser round 1 (2026-10-14): limitation and IATA record are now dated (IATA page re-opened 2026-10-15: about 2.4 Mt, 0.8 percent of jet fuel expected in 2026; several times the cost). Choice d (no carbon dioxide) duplicated L04-Q27, so it became 'never run out' (new id f), targeting renewable ≠ unlimited; explanation updated to match, and p. 52's definition of renewable added as evidence. New hint covers the landfill reason. Key b, c, e unchanged. Reviser round 2 (2026-10-14): science review: key e and the explanation said the waste 'would fill landfills', stronger than the textbook's 'might otherwise enter a landfill' (p. 53), so both are hedged; the prompt now says this is the textbook's design story, since much of today's real aviation biofuel is made from waste fats and oils (L04-RF8). Pedagogy review: both wrong choices were sweeping absolutes while all three keys were moderate, so absolute choice a ('more energy per kilogram than any fuel') became g ('no processing'; id a retired), with a p. 52 textbook record; f stays because it targets renewable is not unlimited. I shortened the reviewer's g wording so the two wrong choices are not both the longest (lengths: g 46, b 40, c 46, f 55, e 42). Difficulty raised to 3 (all-or-nothing, three of five correct; lesson-level difficulty spread). The IATA limitation stands; the science reviewer re-checked it on 2026-10-17. Answer still [b, c, e]. Verifier (2026-10-14): PASS. pp. 52-53 rendered: renewable, food-crop and landfill reasons are in the text (landfill hedge kept); g contradicts p. 52 processing. IATA page re-opened: several times the cost, 2.4 Mt and 0.8 percent expected in 2026, matching the limitation.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitation and IATA record dated (as of 2026, about 0.8 percent)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d (duplicated Q27) replaced by 'never run out' (new id f); misconception renewable ≠ unlimited; new hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: e says waste that might go to landfills (the textbook's hedge); prompt frames the textbook's design story; explanation hedged"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute distractor a replaced by g (no processing needed), with p. 52 evidence; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q27",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O5"
+      ],
+      "conceptTags": [
+        "biofuel",
+        "carbon-dioxide",
+        "conservation-of-atoms"
+      ],
+      "familyId": "L04-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A classmate says, \"Biofuel is clean because burning it releases no carbon dioxide.\" Which response is most accurate?",
+      "accessiblePrompt": "A classmate says: biofuel is clean because burning it releases no carbon dioxide. Which response is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Agree: biofuel gives off only oxygen and water vapor when it burns",
+          "rationale": "Any carbon-based fuel gives off carbon dioxide when it burns, biofuel included."
+        },
+        {
+          "id": "b",
+          "text": "Agree: the carbon atoms in biofuel are destroyed by the flame",
+          "rationale": "Atoms are never destroyed in burning; the carbon leaves as carbon dioxide."
+        },
+        {
+          "id": "c",
+          "text": "Disagree: it gives off carbon dioxide, but only because sunlight trapped in it turns to gas",
+          "rationale": "Sunlight is energy, not matter, so it cannot turn into a gas. The carbon comes from the fuel's molecules."
+        },
+        {
+          "id": "d",
+          "text": "Disagree: it does release carbon dioxide; plants pulled that carbon from the air recently",
+          "rationale": "Correct. Burning releases carbon dioxide, but that carbon was taken from the air by producers not long ago."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Biofuels are made of carbon-based molecules, so burning them releases carbon dioxide, just like fossil fuels; the carbon atoms are rearranged, not destroyed. The difference is where the carbon came from: producers pulled it from the air recently, and new plants or waste can replace the supply.",
+      "misconception": "Biofuels give off no carbon dioxide when they burn.",
+      "hint": "What happens to the carbon atoms in any fuel when it burns?",
+      "followUpId": "L04-Q10",
+      "scope": {
+        "lessonId": "L04",
+        "section": "5. Biomass Is a Source of Energy for Humans",
+        "pages": {
+          "printed": [
+            53
+          ],
+          "pdf": [
+            89
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            53
+          ],
+          "pdfPages": [
+            89
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Constraints Help Identify the Best Source of Biomass",
+          "supports": "Biomass for jet fuel must be renewable within a reasonable time and affordable; energy crops that displace food crops can drive up prices; urban waste is a renewable source that still releases carbon dioxide when burned."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            52
+          ],
+          "pdfPages": [
+            88
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Fossil Fuels as Jet Fuel",
+          "supports": "Fossil fuels are not renewable resources; renewable resources are not used up if used at a low enough rate."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 52-53 (rendered); the textbook states that biofuels from urban waste release carbon dioxide when burned. Reviser round 1 (2026-10-14): choice text says 'carbon dioxide' instead of 'CO₂' for read-aloud (lesson-level finding); the key is not the longest choice. Reviser round 2 (2026-10-14): both reviews: choices a and b began with 'Correct:' (meaning the classmate is correct), which on a quiz screen reads like the game marking the right answer. All four choices now carry Agree/Disagree lead-ins, matching L04-Q15. Lengths: a 66, b 61, c 91, d 89, so the key is not the longest. Rationales and answer unchanged. Verifier (2026-10-14): PASS. p. 53 rendered: biofuels from urban waste release CO2 when burned. Key d correct; atoms conserved in the a/b rationales.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice text says 'carbon dioxide' instead of 'CO₂' (read-aloud)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'Correct:' lead-ins replaced by Agree/Disagree on all four choices"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Agree/Disagree lead-ins (no choice begins with 'Correct:')"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04-Q28",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O5"
+      ],
+      "conceptTags": [
+        "trade-offs",
+        "constraints",
+        "food-crops",
+        "biofuel"
+      ],
+      "familyId": "L04-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A proposed jet biofuel is made from corn grown on farmland that now grows food for people. How does it measure up against the design's goals and limits?",
+      "accessiblePrompt": "A proposed jet biofuel is made from corn grown on farmland that now grows food for people. How does it measure up against the design's goals and limits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It fails the energy goal, because plant-based fuels are too weak for flight",
+          "rationale": "The textbook's engineers found that biofuels store enough energy to power flight."
+        },
+        {
+          "id": "b",
+          "text": "It fails the renewable limit, because harvesting the crop uses it up",
+          "rationale": "A new crop can be planted each year, so this fuel does count as renewable."
+        },
+        {
+          "id": "c",
+          "text": "It is renewable, but competing with food crops can push prices up",
+          "rationale": "Correct. It stores enough energy and is renewable, but taking farmland from food crops raises crop prices, which makes its biomass costlier and food more expensive."
+        },
+        {
+          "id": "d",
+          "text": "It meets every requirement, because a new crop can be planted every year",
+          "rationale": "Being renewable is only one constraint; the fuel must also stay affordable and not crowd out food."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A good design has to pass every criterion and constraint at once. This fuel stores enough energy and is renewable, but energy crops that push out food crops compete for farmland and can drive up crop and food prices, which strains the affordability constraint. That trade-off is why the textbook's engineers looked to city waste instead.",
+      "misconception": "If a fuel is renewable, it automatically meets every design requirement.",
+      "hint": "Check the fuel against each requirement, not just one.",
+      "followUpId": "L04-Q24",
+      "scope": {
+        "lessonId": "L04",
+        "section": "5. Biomass Is a Source of Energy for Humans",
+        "pages": {
+          "printed": [
+            53
+          ],
+          "pdf": [
+            89
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            53
+          ],
+          "pdfPages": [
+            89
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Constraints Help Identify the Best Source of Biomass",
+          "supports": "Biomass for jet fuel must be renewable within a reasonable time and affordable; energy crops that displace food crops can drive up prices; urban waste is a renewable source that still releases carbon dioxide when burned."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 53 (rendered). Reviser round 1 (2026-10-14): stem no longer states the facts the distractors deny (pedagogy); distractors a and b lose their giveaway absolutes; requirements listed in conditions. Key c uses the pedagogy wording (not the longest choice), and its rationale uses the science review's wording, so crop prices (the fuel's cost) and food prices are no longer run together. The science review's optional shortening of a is superseded by the new a. Difficulty stays 3. Verifier (2026-10-14): PASS. p. 53 rendered: energy crops that displace food crops can drive up prices; requirements listed in conditions. Key c unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key no longer mixes food prices with the cost limit; rationale explains crop prices"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer gives away the facts; distractors without giveaway absolutes; requirements in conditions"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Requirements from the textbook's design problem: enough energy per kilogram for flight, a renewable source, and an affordable supply."
+    },
+    {
+      "id": "L04-Q29",
+      "lessonId": "L04",
+      "objectiveIds": [
+        "L04-O4",
+        "L04-O5"
+      ],
+      "conceptTags": [
+        "biomass",
+        "stored-energy",
+        "biofuel"
+      ],
+      "familyId": "L04-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Engineers need material that holds chemical energy stored by producers. Sort each item: biomass that could become a biofuel, or not biomass.",
+      "accessiblePrompt": "Engineers need material that holds chemical energy stored by producers. Sort each item into one of two groups: biomass that could become a biofuel, or not biomass. The items are grass clippings from a park, food scraps from a cafeteria, old cardboard boxes, carbon dioxide gas in the air, clean tap water, and empty aluminum cans.",
+      "items": [
+        {
+          "id": "grass",
+          "text": "Grass clippings from a park",
+          "rationale": "Biomass: the grass built this matter by photosynthesis, and it still holds the energy the grass stored."
+        },
+        {
+          "id": "co2",
+          "text": "Carbon dioxide gas in the air",
+          "rationale": "Not biomass: it is a raw material producers take in, not matter they built, and it cannot be burned for energy."
+        },
+        {
+          "id": "food",
+          "text": "Food scraps from a cafeteria",
+          "rationale": "Biomass: food comes from producers or from animals that ate them, so it holds stored chemical energy."
+        },
+        {
+          "id": "cans",
+          "text": "Empty aluminum cans",
+          "rationale": "Not biomass: aluminum metal was never part of a living thing and holds no energy stored by producers."
+        },
+        {
+          "id": "cardboard",
+          "text": "Old cardboard boxes",
+          "rationale": "Biomass: cardboard is made from wood fibers that trees built from sugar, a ready source of cellulose."
+        },
+        {
+          "id": "water",
+          "text": "Clean tap water",
+          "rationale": "Not biomass: water is a raw material for photosynthesis, not matter a living thing built, and it cannot be burned for energy."
+        }
+      ],
+      "bins": [
+        {
+          "id": "biomass",
+          "label": "Biomass (could become a biofuel)"
+        },
+        {
+          "id": "not",
+          "label": "Not biomass"
+        }
+      ],
+      "answer": {
+        "grass": "biomass",
+        "co2": "not",
+        "food": "biomass",
+        "cans": "not",
+        "cardboard": "biomass",
+        "water": "not"
+      },
+      "explanation": "Biomass is matter built by living things, such as grass, food and the wood fibers in cardboard. Producers stored light energy in it as chemical energy, which is why it can be made into fuel. Carbon dioxide and water are the low-energy raw materials producers start from, so they cannot be burned for energy, and aluminum was never part of a living thing.",
+      "misconception": "Carbon dioxide and water, the raw materials of plant matter, can themselves be burned for energy.",
+      "hint": "Plant matter is built mostly from carbon dioxide and water. Is a raw material the same thing as what gets built from it?",
+      "followUpId": "L04-Q26",
+      "scope": {
+        "lessonId": "L04",
+        "section": "5. Biomass Is a Source of Energy for Humans",
+        "pages": {
+          "printed": [
+            52,
+            53
+          ],
+          "pdf": [
+            88,
+            89
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            52
+          ],
+          "pdfPages": [
+            88
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Biomass as Jet Fuel",
+          "supports": "A biofuel is made from biomass, such as plant cellulose, and releases energy when it is burned."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            53
+          ],
+          "pdfPages": [
+            89
+          ],
+          "locator": "Section 5. Biomass Is a Source of Energy for Humans, Constraints Help Identify the Best Source of Biomass",
+          "supports": "Grass cuttings, food scraps, cardboard and wood scraps all come from producers and are a ready source of cellulose for biofuel."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            51
+          ],
+          "pdfPages": [
+            87
+          ],
+          "locator": "Section 4. Storing Energy and Matter, Stored Energy and Matter in Ecosystems",
+          "supports": "Biomass is the combined mass of organisms' bodies and represents stored energy; producers create it by capturing matter and energy from nonliving sources."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            47
+          ],
+          "pdfPages": [
+            83
+          ],
+          "locator": "Section 2. Producers Use Photosynthesis, Light Causes a Chemical Reaction",
+          "supports": "Turning carbon dioxide and water into sugar needs an input of energy, which ends up in the products."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (2026-10-14), replacing rejected L04-Q04, from the pedagogy review's coverage finding: no item asked why biomass can be a fuel at all (the bridge from Section 4 to Section 5). Drafted from printed pp. 47 and 51-53 (rendered 2026-10-15). Scope is Section 5 only (pp. 52-53), with p. 51 as evidence, so it stays inside one numbered section. Changes from the reviewer's sketch: sand became aluminum cans, because much beach sand is broken shell and coral, which would give that item two defensible bins; carbon dioxide and water are separate items; 'water from a river' is not part of a living body. Every item has one defensible bin. Brings F10 to three questions. Reviser round 2 (2026-10-14): first independent reviews. Science: pass (every item has one defensible bin; matches the p. 51 definition and the p. 53 city-waste list). Pedagogy: river water can carry algae and leaf bits, so a careful learner could argue it holds some biomass; the item is now 'Clean tap water'. The hint restated the prompt, so the new hint targets the actual misconception (raw materials counted as biomass or fuel). I wrote 'Plant matter is built mostly from...' instead of the reviewer's 'Plants are built from...', because soil minerals add a few percent (L04-RF5). Difficulty lowered to 1 (four of six items are easy; lesson-level difficulty spread). Verifier (2026-10-14): PASS. pp. 51-53 rendered: biomass definition (p. 51) and city-waste list (p. 53); every item has one defensible bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'Water from a river' became 'Clean tap water' (river water can carry living matter); new hint targets the raw-material misconception; difficulty 1"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

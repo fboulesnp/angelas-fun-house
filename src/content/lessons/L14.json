@@ -1,0 +1,1073 @@
+{
+  "lessonId": "L14",
+  "guidingQuestion": "What role does energy play in chemical reactions?",
+  "hook": "A firework bursts into light and noise while a squeezed cold pack turns cold in your hand, so how can two changes push energy in opposite directions?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          172,
+          173
+        ],
+        "pdf": [
+          208,
+          209
+        ]
+      }
+    },
+    {
+      "title": "1. Exothermic Reactions",
+      "pages": {
+        "printed": [
+          174,
+          175
+        ],
+        "pdf": [
+          210,
+          211
+        ]
+      }
+    },
+    {
+      "title": "2. Endothermic Reactions",
+      "pages": {
+        "printed": [
+          176,
+          177,
+          178
+        ],
+        "pdf": [
+          212,
+          213,
+          214
+        ]
+      }
+    },
+    {
+      "title": "3. Showing Energy in Chemical Equations",
+      "pages": {
+        "printed": [
+          179
+        ],
+        "pdf": [
+          215
+        ]
+      }
+    },
+    {
+      "title": "4. Testing and Improving Hand Warmers",
+      "pages": {
+        "printed": [
+          180,
+          181
+        ],
+        "pdf": [
+          216,
+          217
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L14-O1",
+      "text": "Identify a reaction's system and surroundings, and use warming, cooling or light to tell which way energy flows and whether the change is exothermic or endothermic.",
+      "kind": "observe",
+      "sections": [
+        "1. Exothermic Reactions",
+        "2. Endothermic Reactions"
+      ],
+      "pages": {
+        "printed": [
+          174,
+          175,
+          176,
+          177,
+          178
+        ],
+        "pdf": [
+          210,
+          211,
+          212,
+          213,
+          214
+        ]
+      }
+    },
+    {
+      "id": "L14-O2",
+      "text": "Use bonds to explain the net energy transfer: breaking bonds takes energy in, forming bonds gives energy out, and energy is moved or stored, never created or destroyed.",
+      "kind": "relate",
+      "sections": [
+        "1. Exothermic Reactions",
+        "2. Endothermic Reactions"
+      ],
+      "pages": {
+        "printed": [
+          174,
+          175,
+          176,
+          178
+        ],
+        "pdf": [
+          210,
+          211,
+          212,
+          214
+        ]
+      }
+    },
+    {
+      "id": "L14-O3",
+      "text": "Show energy in a chemical equation, writing it with the reactants when it flows into the system and with the products when it flows out, and explain why the word energy adds no atoms to the count.",
+      "kind": "relate",
+      "sections": [
+        "3. Showing Energy in Chemical Equations"
+      ],
+      "pages": {
+        "printed": [
+          179
+        ],
+        "pdf": [
+          215
+        ]
+      }
+    },
+    {
+      "id": "L14-O4",
+      "text": "Choose a warming or cooling pack for a stated need, and use prototype temperature and time data to judge a hand-warmer design and pick the next change to test.",
+      "kind": "apply",
+      "sections": [
+        "1. Exothermic Reactions",
+        "2. Endothermic Reactions",
+        "4. Testing and Improving Hand Warmers"
+      ],
+      "pages": {
+        "printed": [
+          175,
+          177,
+          180,
+          181
+        ],
+        "pdf": [
+          211,
+          213,
+          216,
+          217
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Chemical reactions involve energy changes, which we track across a boundary: the system is the matter that reacts (reactants and the products they become), and the surroundings are everything else.",
+    "In an exothermic reaction the system gives out more energy than it takes in, so the net flow is outward and the surroundings warm up or light shines out. Burning matches, fireworks and iron hand warmers are examples.",
+    "In an endothermic change the system takes in more energy than it gives out, so the net flow is inward and the surroundings lose energy, often cooling down. Instant cold packs and, in the lesson's model, cooking food are examples.",
+    "Breaking a bond takes energy in and forming a bond gives energy out. Comparing the two totals decides the net direction. Even an exothermic reaction may need a small push of energy to get started.",
+    "Energy is moved and stored, never created or destroyed. An exothermic reaction releases stored chemical energy; an endothermic reaction stores the energy it absorbs in its products.",
+    "In a chemical equation, energy is written with the reactants when it flows in and with the products when it flows out. Energy is not made of atoms, so it never changes the atom count.",
+    "Engineers set criteria, build a prototype, test it, and often change one main feature at a time so they can tell what made the difference. In the hand-warmer tests, more iron made the pack hotter and a slower oxygen supply made it last longer."
+  ],
+  "glossary": [
+    {
+      "term": "system",
+      "definition": "The matter you are tracking in a reaction: the substances that react plus the new substances they turn into, set off by an imaginary boundary so you can follow energy crossing it.",
+      "pages": {
+        "printed": [
+          174
+        ],
+        "pdf": [
+          210
+        ]
+      }
+    },
+    {
+      "term": "surroundings",
+      "definition": "Everything outside the system, such as nearby air that does not react, the container, or a hand touching it. Energy moves between the surroundings and the system.",
+      "pages": {
+        "printed": [
+          174,
+          181
+        ],
+        "pdf": [
+          210,
+          217
+        ]
+      }
+    },
+    {
+      "term": "exothermic reaction",
+      "definition": "A reaction in which the system gives out more energy than it takes in, so the net energy flow is out to the surroundings, which usually warm up. From exo-, meaning out.",
+      "pages": {
+        "printed": [
+          173,
+          174
+        ],
+        "pdf": [
+          209,
+          210
+        ]
+      }
+    },
+    {
+      "term": "endothermic reaction",
+      "definition": "A reaction in which the system takes in more energy than it gives out, so the net energy flow is in from the surroundings. The same word describes other changes that absorb energy, such as some salts dissolving. From endo-, meaning in.",
+      "pages": {
+        "printed": [
+          173,
+          176
+        ],
+        "pdf": [
+          209,
+          212
+        ]
+      }
+    },
+    {
+      "term": "net energy transfer",
+      "definition": "The overall amount and direction of energy movement between a system and its surroundings once everything taken in and everything given out has been counted.",
+      "pages": {
+        "printed": [
+          178
+        ],
+        "pdf": [
+          214
+        ]
+      }
+    },
+    {
+      "term": "chemical bond",
+      "definition": "The attraction that holds atoms together. Pulling bonded atoms apart costs energy, and forming a new bond releases energy.",
+      "pages": {
+        "printed": [
+          178
+        ],
+        "pdf": [
+          214
+        ]
+      }
+    },
+    {
+      "term": "thermal energy",
+      "definition": "The energy a sample of matter has because its particles are moving. On its own, it moves from warmer things to cooler ones; that moving energy is called heat.",
+      "pages": {
+        "printed": [
+          175,
+          177
+        ],
+        "pdf": [
+          211,
+          213
+        ]
+      }
+    },
+    {
+      "term": "temperature",
+      "definition": "A measure of how hot or cold something is, linked to how fast its particles move on average. A thermometer or probe reads temperature, which is not the same thing as the amount of thermal energy.",
+      "pages": {
+        "printed": [
+          180,
+          181
+        ],
+        "pdf": [
+          216,
+          217
+        ]
+      }
+    },
+    {
+      "term": "ion",
+      "definition": "An atom or group of atoms with an electric charge. Ammonium chloride is built from ammonium ions (NH₄⁺) and chloride ions (Cl⁻), which separate and spread through water when it dissolves.",
+      "pages": {
+        "printed": [
+          177
+        ],
+        "pdf": [
+          213
+        ]
+      }
+    },
+    {
+      "term": "prototype",
+      "definition": "As this lesson uses the word, a full-size, working version of a design that engineers build so they can test it and improve it.",
+      "pages": {
+        "printed": [
+          173,
+          180
+        ],
+        "pdf": [
+          209,
+          216
+        ]
+      }
+    },
+    {
+      "term": "design criteria",
+      "definition": "The measurable goals a design must meet, such as a hand warmer reaching about 45 °C and staying warm for a long time.",
+      "pages": {
+        "printed": [
+          180,
+          181
+        ],
+        "pdf": [
+          216,
+          217
+        ]
+      }
+    },
+    {
+      "term": "iteration",
+      "definition": "One round of the test-and-change cycle. Engineers repeat it, using each round's data to decide what to change in the next prototype.",
+      "pages": {
+        "printed": [
+          180,
+          181
+        ],
+        "pdf": [
+          216,
+          217
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L14-O1",
+      "title": "Drawing the Line: System and Surroundings",
+      "paragraphs": [
+        "To follow energy in a reaction, chemists draw an imaginary boundary. Inside it is the system: the substances that react and the new substances they become. Everything outside it, such as air that does not react, the table or your hand, is the surroundings.",
+        "For a burning match, the system is the match-head chemicals, the wood that burns and the oxygen that joins in, along with the ash, carbon dioxide and water vapor they turn into. Nitrogen in the nearby air takes no part, so it belongs to the surroundings.",
+        "Your best evidence comes from the surroundings. If they warm up, or light and sound burst out, energy is leaving the system: the change is exothermic. If they cool down, energy is entering the system: the change is endothermic.",
+        "When a flame or heater is involved, needing heat to get started does not settle it; compare the energy going in with the energy coming out. The lesson models food cooking over coals as endothermic, because the food keeps taking in energy while its cooking reactions run.",
+        "A cold pack feels cold because energy flows out of your skin and into the pack. Nothing called cold travels the other way."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Reading the direction of energy flow from the surroundings",
+        "alt": "Table with four columns: example, what you notice, net energy direction, and type. Burning match: nearby air warms and light shines; energy goes from system to surroundings; exothermic. Firework: light, sound and heat burst out; system to surroundings; exothermic. Iron-powder hand warmer: hands warm up; system to surroundings; exothermic. Ammonium chloride cold pack: skin touching it cools; surroundings to system; endothermic. Food cooking over coals: the food takes in energy from the coals as it changes; surroundings to system; endothermic in the lesson's model.",
+        "columns": [
+          "Example",
+          "What you notice",
+          "Net energy direction",
+          "Type"
+        ],
+        "rows": [
+          [
+            "Burning match",
+            "Nearby air warms; light shines",
+            "System → surroundings",
+            "Exothermic"
+          ],
+          [
+            "Firework",
+            "Light, sound and heat burst out",
+            "System → surroundings",
+            "Exothermic"
+          ],
+          [
+            "Iron-powder hand warmer",
+            "Hands warm up",
+            "System → surroundings",
+            "Exothermic"
+          ],
+          [
+            "Ammonium chloride cold pack",
+            "Skin touching it cools",
+            "Surroundings → system",
+            "Endothermic"
+          ],
+          [
+            "Food cooking over coals",
+            "Food takes in energy from the coals as it changes",
+            "Surroundings → system",
+            "Endothermic (lesson's model)"
+          ]
+        ]
+      },
+      "watchOut": "The products are still part of the system: the same matter, just regrouped. And cold is not a substance that flows; only energy moves, and heat flows on its own from the warmer object to the cooler one.",
+      "pages": {
+        "printed": [
+          174,
+          175,
+          176,
+          177,
+          178
+        ],
+        "pdf": [
+          210,
+          211,
+          212,
+          213,
+          214
+        ]
+      }
+    },
+    {
+      "objectiveId": "L14-O2",
+      "title": "Bonds: Pay In, Pay Out",
+      "paragraphs": [
+        "Breaking a bond always takes energy in. Forming a bond always gives energy out. Most reactions do both: old bonds in the reactants break, and new bonds in the products form.",
+        "Compare the two totals. If forming the new bonds gives out more than breaking the old ones took in, the extra flows to the surroundings and the reaction is exothermic. If breaking takes in more than forming gives back, the difference must come from the surroundings and the reaction is endothermic.",
+        "No energy is created or destroyed along the way. An exothermic reaction releases chemical energy that was stored in its reactants. An endothermic reaction stores the energy it absorbs in its products. In the lesson's cooking model, the energy the cooking reactions take in is stored in the new substances in the cooked food.",
+        "Many exothermic reactions still need a small push to get going, like the scrape that lights a match. That push breaks the first bonds; after that, the energy released keeps the reaction running on its own."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "caption": "Energy bookkeeping for an exothermic reaction (made-up model numbers)",
+        "alt": "Bar chart in made-up energy units. Energy taken in to break the reactants' bonds: 600. Energy given out as the products' bonds form: 900. Net energy flowing out to the surroundings: 300, because 900 minus 600 is 300. More is given out than taken in, so the reaction is exothermic.",
+        "yLabel": "Energy (model units)",
+        "bars": [
+          {
+            "label": "Taken in: breaking bonds",
+            "value": 600
+          },
+          {
+            "label": "Given out: forming bonds",
+            "value": 900
+          },
+          {
+            "label": "Net flow out",
+            "value": 300
+          }
+        ]
+      },
+      "watchOut": "Needing energy to get started does not make a reaction endothermic. Judge by the net transfer once the whole reaction is counted. Real bond energies vary; these bars are a model, not measurements.",
+      "pages": {
+        "printed": [
+          174,
+          176,
+          178
+        ],
+        "pdf": [
+          210,
+          212,
+          214
+        ]
+      }
+    },
+    {
+      "objectiveId": "L14-O3",
+      "title": "Writing Energy Into the Equation",
+      "paragraphs": [
+        "Energy is not made of atoms, so it never changes the atom count in an equation. Chemists still write it in, because its position shows which way it flows.",
+        "When energy flows out of the system, it is written on the product side. The iron-powder hand warmer is a good example: 4Fe + 3O₂ → 2Fe₂O₃ + energy. Both sides hold 4 iron atoms and 6 oxygen atoms; the word energy adds none.",
+        "When energy flows into the system, it is written with the reactants. In a cold pack, solid ammonium chloride takes in energy as it dissolves and separates into ions spread through the water: NH₄Cl + energy → NH₄⁺ + Cl⁻.",
+        "A quick check: energy on the right means exothermic, and energy on the left means endothermic."
+      ],
+      "diagram": {
+        "kind": "equation",
+        "caption": "The hand-warmer reaction gives energy out",
+        "alt": "Equation: 4 Fe plus 3 O2 yields 2 Fe2O3 plus energy. Four iron atoms and three oxygen molecules react to form two units of iron oxide, and energy is written on the product side because it leaves the system. Each side has 4 iron atoms and 6 oxygen atoms.",
+        "reactants": [
+          {
+            "formula": "Fe",
+            "coefficient": 4,
+            "label": "iron"
+          },
+          {
+            "formula": "O2",
+            "coefficient": 3,
+            "label": "oxygen gas"
+          }
+        ],
+        "products": [
+          {
+            "formula": "Fe2O3",
+            "coefficient": 2,
+            "label": "iron oxide"
+          },
+          {
+            "formula": "energy",
+            "label": "released to the surroundings"
+          }
+        ]
+      },
+      "watchOut": "Some printed cold-pack equations show ammonium hydroxide and hydrochloric acid forming. That is not what happens: dissolving mainly separates the ammonium ions and chloride ions into the water. Chloride ions are not chlorine gas (Cl₂).",
+      "pages": {
+        "printed": [
+          177,
+          179
+        ],
+        "pdf": [
+          213,
+          215
+        ]
+      }
+    },
+    {
+      "objectiveId": "L14-O4",
+      "title": "Prototype Lab: Building a Better Hand Warmer",
+      "paragraphs": [
+        "To pick a pack, match the energy direction to the need. Warming hands calls for an exothermic pack, such as iron powder reacting with oxygen. Cooling something calls for an endothermic one, such as ammonium chloride dissolving in water.",
+        "Engineers designing a hand warmer first set criteria: reach about 45 °C and stay warm for a long time. Their first prototype, iron grains in a thin cotton bag, only reached 28 °C, about 3 °C above room temperature.",
+        "Doubling the iron raised the peak to 41 °C, but the pack cooled back to room temperature within an hour. A thick bag that lets oxygen in slowly slowed the reaction: about 40 °C for 4 hours. Adding still more iron gave about 43 °C for 4 hours.",
+        "Each round changed one main feature and then measured temperature and time again. Repeating that test-and-change loop is how a design creeps toward its criteria."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Hand-warmer prototype results from the lesson's written report",
+        "alt": "Table of four prototypes with columns for the design, peak temperature and how long it stayed warm. Prototype 1, iron in a thin cotton bag: 28 degrees Celsius peak; time not reported. Prototype 2, twice the iron in a thin cotton bag: 41 degrees peak, back to room temperature within one hour. Prototype 3, the same iron in a thick bag that lets oxygen in slowly: about 40 degrees for about 4 hours. Prototype 4, a thick bag with even more iron: about 43 degrees for about 4 hours. The goal was about 45 degrees for a long time; room temperature was about 25 degrees.",
+        "columns": [
+          "Prototype",
+          "Design",
+          "Peak temperature (°C)",
+          "Time warm"
+        ],
+        "rows": [
+          [
+            "1",
+            "Iron in a thin cotton bag",
+            28,
+            "Not reported"
+          ],
+          [
+            "2",
+            "Twice the iron, thin cotton bag",
+            41,
+            "Under 1 hour"
+          ],
+          [
+            "3",
+            "Same iron, thick slow-oxygen bag",
+            40,
+            "About 4 hours"
+          ],
+          [
+            "4",
+            "More iron, thick slow-oxygen bag",
+            43,
+            "About 4 hours"
+          ]
+        ]
+      },
+      "watchOut": "Slowing the reaction spreads the same stored energy over more time, so the pack lasts longer but runs a little cooler. Getting both a high temperature and a long time took more reactant, not just a different bag.",
+      "pages": {
+        "printed": [
+          175,
+          177,
+          180,
+          181
+        ],
+        "pdf": [
+          211,
+          213,
+          216,
+          217
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L14-RF1",
+      "issue": "Brief-flagged page (p. 179). The cold-pack equation is written as NH₄Cl + H₂O + energy → NH₄OH + HCl in the text, and as NH₄Cl + H₂O + Energy → 2NH₄OH + HCl in Figure 3 (rendered at 250 dpi to confirm the coefficient 2). The figure version is not balanced (1 N against 2 N, 6 H against 11 H, and 1 O against 2 O). More importantly, neither version describes a cold pack: dissolving ammonium chloride does not produce ammonium hydroxide and hydrochloric acid; it separates the ionic solid into ammonium ions and chloride ions in the water, an endothermic process. The hand-warmer equation on the same page, 4Fe + 3O₂ → 2Fe₂O₃ + energy, is balanced (4 Fe, 6 O on each side) and is a fair simplified model. The page's rule (energy with the reactants when it flows in, with the products when it flows out) is sound.",
+      "pages": {
+        "printed": [
+          179
+        ],
+        "pdf": [
+          215
+        ]
+      },
+      "resolution": "Keep the page's placement rule and the iron equation. Never show the NH₄OH + HCl equation. The cold pack is written as NH₄Cl + energy → NH₄⁺ + Cl⁻ (ions spread through the water) in the O3 Explorer card and in L14-Q18, which asks the learner to pick that equation over versions with the energy on the wrong side, chlorine gas, or water listed as a product. (Review round 1 replaced a loose-atom version, which passed a simple atom count and needed knowledge beyond the lesson to rule out.) The O3 card's watchOut tells the learner that some printed cold-pack equations are wrong.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3. Showing Energy in Chemical Equations; Figure 3",
+          "supports": "Gives the placement rule for energy in equations, the iron hand-warmer equation, and the ammonium chloride cold-pack equation (with a coefficient 2 on NH₄OH in the figure)."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "Ammonium chloride absorbs energy from its surroundings as it dissolves in the cold pack's water."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 11.1 The Dissolution Process",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+          "accessed": "2026-10-14",
+          "supports": "Instant cold packs work because certain salts dissolve endothermically, and ionic compounds dissociate into separate ions dispersed among water molecules when they dissolve. (The page's cold-pack example is ammonium nitrate, and its dissociation example is potassium dichromate.)"
+        },
+        {
+          "type": "external",
+          "title": "Ammonium Chloride (CID 25517), Solubility section of the compound record",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine (NIH)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/25517/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "The record's solubility section (from HSDB, citing The Merck Index) describes the dissolving of ammonium chloride as strongly endothermic."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF2",
+      "issue": "p. 177 says the 'ammonium and chlorine particles break apart and mix with the water'. The particles are chloride ions; chlorine (Cl₂) is a different, toxic gas. The page also calls dissolving a chemical reaction, while many middle-school courses treat dissolving as a physical change.",
+      "pages": {
+        "printed": [
+          177
+        ],
+        "pdf": [
+          213
+        ]
+      },
+      "resolution": "Game text says ammonium ions and chloride ions, and the glossary defines ion. L14-Q18 has a distractor that makes chlorine gas, with a rationale that explains the difference. Questions describe the cold pack as a dissolving process that takes in energy and never ask whether dissolving is chemical or physical. Where the word endothermic is applied to it, the glossary notes that the same word covers any change that absorbs energy.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "The text names the separating particles as ammonium and chlorine particles and calls the dissolving an endothermic reaction."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 11.1 The Dissolution Process",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+          "accessed": "2026-10-14",
+          "supports": "When an ionic compound dissolves, it dissociates into its separate ions, which stay dispersed among the water molecules. (The page shows this with potassium dichromate.)"
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.1 Energy Basics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+          "accessed": "2026-10-14",
+          "supports": "A reaction or change that absorbs heat is called endothermic; the page gives the ammonium nitrate cold pack as an example of an endothermic process."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF3",
+      "issue": "p. 174 says that at the peak of a firework's flight, tiny metal particles react with the oxygen in the air. Fireworks carry their own oxidizer (such as nitrates, chlorates or perchlorates) mixed with the fuel, so their burning is self-sustaining and does not rely mainly on oxygen from the air. Colors come from metal compounds that give off light when heated.",
+      "pages": {
+        "printed": [
+          174
+        ],
+        "pdf": [
+          210
+        ]
+      },
+      "resolution": "Game text uses fireworks only as an example of energy leaving a system as light, sound and heat. No question claims where a firework's oxygen comes from.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            174
+          ],
+          "pdfPages": [
+            210
+          ],
+          "locator": "Section 1. Exothermic Reactions",
+          "supports": "The text describes a firework's metal particles reacting with oxygen in the air and releasing energy as light and sound."
+        },
+        {
+          "type": "external",
+          "title": "The chemistry of fireworks (supporting material for Smoke is in the air: how fireworks affect air quality, Issue 21)",
+          "publisher": "Science in School (EIROforum)",
+          "url": "https://www.scienceinschool.org/wp-content/uploads/2011/11/issue21_fireworks_bgd.doc",
+          "accessed": "2026-10-14",
+          "supports": "Pyrotechnic reactions are self-sustaining exothermic reactions that do not rely on oxygen from outside; an oxidiser in the mixture supplies the oxygen for the fuel."
+        },
+        {
+          "type": "external",
+          "title": "Lighting Up The Sky: The Chemistry Behind America's Birthday",
+          "publisher": "Texas A&M University at Galveston Newsroom",
+          "url": "https://news.galveston.tamu.edu/2025/07/03/lighting-up-the-sky-the-chemistry-behind-americas-birthday/",
+          "accessed": "2026-10-14",
+          "supports": "All fireworks share three components: an oxidizer, a fuel, and metal salts whose heated atoms give off colored light."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF4",
+      "issue": "p. 176 states that any reaction needing a continuous energy supply to keep going is endothermic. As an absolute rule this is unsafe: whether a reaction is endothermic depends on the net transfer, and exothermic reactions can also need an energy input to start (the lesson's own match example on p. 178) or may die out if they lose heat too fast. The p. 178 spread, rendered and checked, correctly says that bond breaking absorbs energy and bond forming releases it, and classifies by which is larger.",
+      "pages": {
+        "printed": [
+          176,
+          178
+        ],
+        "pdf": [
+          212,
+          214
+        ]
+      },
+      "resolution": "Game text classifies by net energy transfer only. L14-Q12 repairs the idea that needing a start makes a reaction endothermic, and L14-Q13 models the match from strike to burnout. Questions don't use 'it needs continuous heating' as the deciding clue; L14-Q17 states the net energy direction in its prompt instead. Review round 1 removed the continued-heating test from the O1 Explorer card, its table and keyIdeas[2]: the card now tells learners to compare the energy going in with the energy coming out, and labels cooking as the lesson's model. Review round 2: L14-Q22 now has a distractor saying a cooling pack must be heated before use, which repairs the needs-a-heater reading of the p. 176 rule using p. 177's statement that a reaction can absorb energy without direct heating.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2, Endothermic Reactions Store Energy",
+          "supports": "The text states the continuous-energy rule and uses cooking as its example."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy",
+          "supports": "Striking a match supplies energy that breaks bonds and starts the reaction; bond forming then releases more energy than was absorbed."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 12.5 Collision Theory",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+          "accessed": "2026-10-14",
+          "supports": "Reactants need a minimum energy, the activation energy, to react; the page's energy diagram shows this barrier for an exothermic reaction."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 7.5 Strengths of Ionic and Covalent Bonds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "accessed": "2026-10-14",
+          "supports": "Separating bonded atoms requires energy, and energy is released when bonds form; the balance of the two sets whether a reaction is exothermic or endothermic."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF5",
+      "issue": "pp. 176 and 178 treat cooking a kebab as a set of endothermic reactions and say that the cooked food stores the energy that was required. Cooking is a simplified example: some of the energy from the coals also warms the food and its surroundings rather than driving reactions.",
+      "pages": {
+        "printed": [
+          176,
+          178
+        ],
+        "pdf": [
+          212,
+          214
+        ]
+      },
+      "resolution": "Cooking is used as the textbook models it. L14-Q15 asks only where the energy absorbed by the cooking reactions themselves ends up, and L14-Q06 sorts cooking as the lesson does. No question asks how much of the coals' energy goes into reactions or claims every change in cooking is a chemical reaction. Review round 1 scoped the O2 Explorer card: the absorbed energy is said to be stored in the cooked food's new substances only within the lesson's cooking model, and the card no longer suggests that cooking adds food energy.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2, Endothermic Reactions Store Energy; Figure 2A",
+          "supports": "Energy from hot coals moves into the kebab, and the new substances in cooked food store the energy their formation required."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            178
+          ],
+          "pdfPages": [
+            214
+          ],
+          "locator": "Key Science Concept: Reactions Release and Absorb Energy",
+          "supports": "While food cooks, the system takes in far more energy than it gives back, and the reactions stop once the food is off the flames."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF6",
+      "issue": "p. 180 says the redesigned prototype (twice the iron) reached 41 °C, and p. 181 repeats 41 °C. The photo on p. 180 labels Prototype B's thermometer 31 °C (confirmed on a 220 dpi render). Room temperature is not stated, but 28 °C is described as only three degrees above room temperature, which gives about 25 °C.",
+      "pages": {
+        "printed": [
+          180,
+          181
+        ],
+        "pdf": [
+          216,
+          217
+        ]
+      },
+      "resolution": "Use the written values (28, 41, 40 and 43 °C, and about 25 °C room temperature), which agree on both pages. Questions state that the numbers come from the written report and never ask learners to read the photo.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4. Testing and Improving Hand Warmers, Testing Temperature and photo of Prototypes A and B",
+          "supports": "The text gives peaks of 28 °C and 41 °C and says 28 °C is three degrees above room temperature; the photo's thermometers read 28 °C and 31 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            181
+          ],
+          "pdfPages": [
+            217
+          ],
+          "locator": "Section 4, Testing Time",
+          "supports": "The text says the doubled-iron prototype reached 41 °C, then gives about 40 °C for 4 hours with a thick bag and 43 °C for 4 hours with more iron."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF7",
+      "issue": "p. 175 explains the iron hand warmer as iron mixing with oxygen in the air, and p. 179 models it as 4Fe + 3O₂ → 2Fe₂O₃. Real iron hand warmers also contain water and other helpers, and their product is a hydrated iron oxide; the equation is a simplified model.",
+      "pages": {
+        "printed": [
+          175,
+          179
+        ],
+        "pdf": [
+          211,
+          215
+        ]
+      },
+      "resolution": "The equation is used only as the lesson's simplified model, in L14-Q16, L14-Q20 and the O3 card; none of them claims it lists every ingredient. L14-Q14 keeps the textbook's point that the warming comes from the reaction rather than from rubbing.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "Rubbing an iron-powder pouch may seem to warm it, but the warming comes from iron reacting with oxygen in the air."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-14",
+          "supports": "A common hand warmer heats up when opened because iron and water inside are exposed to oxygen in the air; the page calls its iron-to-iron-oxide equation a simplified version of this exothermic reaction."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF8",
+      "issue": "p. 177 says that as the cold pack works, the temperature of the air around it decreases. Strictly, the dissolving first draws thermal energy from the pack's own water, which cools; the cold pack then takes in energy from whatever touches it, such as skin or air.",
+      "pages": {
+        "printed": [
+          177
+        ],
+        "pdf": [
+          213
+        ]
+      },
+      "resolution": "Game text says energy flows from the surroundings (skin, air) into the pack and avoids claiming the room's air temperature drops noticeably. Q02 leaves the pack's water out of the system-or-surroundings choices because chemists treat it either way.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs; Figure 2B",
+          "supports": "As the ammonium chloride dissolves it takes in energy from outside the pack, for example from nearby air; the figure shows arrows entering the pack from the air and the person's skin."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-14",
+          "supports": "In an instant cold pack the endothermic dissolving removes thermal energy from the water, and the cold pack then draws thermal energy from the user. (The page's example is ammonium nitrate.)"
+        }
+      ]
+    },
+    {
+      "id": "L14-RF9",
+      "issue": "Safety framing. The lesson describes lighting charcoal for a hand warmer (p. 175), an injured ankle and a cold pack (p. 176), and a prototype stored in a sealed nitrogen container (p. 180).",
+      "pages": {
+        "printed": [
+          175,
+          176,
+          180
+        ],
+        "pdf": [
+          211,
+          212,
+          216
+        ]
+      },
+      "resolution": "Packs and prototypes appear only as conceptual examples and data. There are no procedures for making or lighting packs, no first-aid advice and no injury scenarios. Q21 and Q22 frame pack choice around warming hands and cooling a can of juice. Review round 2: Q21's new distractor names a charcoal warmer whose charcoal has all burned; it says nothing about how to light one.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            175
+          ],
+          "pdfPages": [
+            211
+          ],
+          "locator": "Section 1, Engineers Use Exothermic Reactions in Hand Warmers",
+          "supports": "A charcoal hand warmer is lit with a flame before it is put in its pouch."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2. Endothermic Reactions",
+          "supports": "The section opens with a twisted ankle and a cold pack."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            180
+          ],
+          "pdfPages": [
+            216
+          ],
+          "locator": "Section 4, Testing Temperature",
+          "supports": "The prototype is kept in a sealed container of nitrogen until the test starts."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF10",
+      "issue": "OCR problems. p. 172 is a full-page fireworks photo with no OCR text; the p. 173 title is garbled ('Reactii emBca'); the p. 177 figure title reads '3to(M9BScks'; both equations on p. 179 lost their subscripts and arrows ('NH.,C1 + u p', '4Fe + 30^'); and the p. 178 Key Science Concept spread lost its images and labels.",
+      "pages": {
+        "printed": [
+          172,
+          173,
+          177,
+          178,
+          179
+        ],
+        "pdf": [
+          208,
+          209,
+          213,
+          214,
+          215
+        ]
+      },
+      "resolution": "All ten pages were rendered at 110 dpi and read from the images. p. 179 was also rendered at 250 dpi (both equations) and p. 180 at 220 dpi (thermometer photo). Formulas in the game come from the renders: 4Fe + 3O₂ → 2Fe₂O₃, NH₄Cl.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            172,
+            173
+          ],
+          "pdfPages": [
+            208,
+            209
+          ],
+          "locator": "Lesson opener and Introduction",
+          "supports": "The opener is a fireworks photo; p. 173 gives the title, guiding question, introduction and vocabulary."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            179
+          ],
+          "pdfPages": [
+            215
+          ],
+          "locator": "Section 3; Figure 3",
+          "supports": "The rendered page shows the subscripts and arrows that the OCR text dropped."
+        }
+      ]
+    },
+    {
+      "id": "L14-RF11",
+      "issue": "p. 176 opens with a cold pack on a twisted ankle, says the pack's gel feels cool, and says that the chemicals in 'many ice packs' react endothermically. That blurs two kinds of pack: reusable ice or gel packs, which are chilled in a freezer beforehand and cool you without any reaction, and instant cold packs, which cool when a salt dissolves after the pack is squeezed (p. 177).",
+      "pages": {
+        "printed": [
+          176
+        ],
+        "pdf": [
+          212
+        ]
+      },
+      "resolution": "Game text says 'cold pack' or 'instant cold pack' only for the squeeze-activated kind, in which ammonium chloride dissolves in the pack's water, and never calls a frozen gel or ice pack a reaction (keyIdeas[2] now says 'Instant cold packs'). No question depends on the p. 176 ice-pack sentence; Q02, Q05, Q06 and Q21 name a squeezed or ammonium chloride pack. Added in review round 2.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            176
+          ],
+          "pdfPages": [
+            212
+          ],
+          "locator": "Section 2. Endothermic Reactions (opening paragraph and Endothermic Reactions Store Energy)",
+          "supports": "The section opens with a cold pack whose gel feels cool on a swollen ankle, then says that the chemicals in many ice packs react endothermically."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            177
+          ],
+          "pdfPages": [
+            213
+          ],
+          "locator": "Section 2, Engineers Use Endothermic Reactions in Cold Packs",
+          "supports": "Pressing the cold pack breaks a small container of ammonium chloride, which then dissolves in the pack's water and absorbs energy."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.2 Calorimetry",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+          "accessed": "2026-10-17",
+          "supports": "An instant cold pack is a bag of solid salt plus a separate bag of water; breaking the water bag lets the salt dissolve, an endothermic process that cools the water, and the pack then draws thermal energy from the user. (The page's salt is ammonium nitrate.)"
+        },
+        {
+          "type": "external",
+          "title": "US 4,967,573 A, Thermal pack (U.S. patent, 1990), Background section",
+          "publisher": "Google Patents",
+          "url": "https://patents.google.com/patent/US4967573A/en",
+          "accessed": "2026-10-17",
+          "supports": "Gel packs are a flexible package of gel that is cooled by placing it in a freezer, unlike packs whose separated ingredients are combined so they chemically react and absorb heat."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3626 @@
+{
+  "lessonId": "L28",
+  "questions": [
+    {
+      "id": "L28-Q01",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1"
+      ],
+      "conceptTags": [
+        "ecosystem-service",
+        "definition",
+        "pest-control"
+      ],
+      "familyId": "L28-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Barn owls nesting at the edge of a farm catch many mice each year, so fewer mice reach the farmer's stored grain. What is this an example of?",
+      "accessiblePrompt": "Barn owls nest at the edge of a farm and catch many mice each year, so fewer mice reach the farmer's stored grain. What is this an example of?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An ecosystem service, a natural process people rely on",
+          "rationale": "Correct. The owls do useful work for the farmer, controlling pests, simply by hunting as part of a healthy ecosystem."
+        },
+        {
+          "id": "e",
+          "text": "A service people perform to keep the owls healthy",
+          "rationale": "This flips the direction. An ecosystem service is what the ecosystem does for people, not a chore people do for nature."
+        },
+        {
+          "id": "f",
+          "text": "A pest-control technology that engineers built and run",
+          "rationale": "No machine or poison is involved here. The owls do the work on their own."
+        },
+        {
+          "id": "g",
+          "text": "A food chain that has no effect on people",
+          "rationale": "It is a predator-prey link, but because it protects the farmer's grain it is also a service people rely on."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When owls eat mice that would spoil a farmer's grain, a natural process is doing a job for people. That job, pest control, is one of the services on the lesson's wheel, alongside pollination, water purification, and flood control.",
+      "misconception": "Ecosystem services are chores people do for nature, or a natural food chain has nothing to do with people.",
+      "hint": "Who is doing the work here: people, or the owls?",
+      "followUpId": "L28-Q05",
+      "scope": {
+        "lessonId": "L28",
+        "section": "Key Science Concept: Humans Rely on Ecosystem Services",
+        "pages": {
+          "printed": [
+            375,
+            378
+          ],
+          "pdf": [
+            411,
+            414
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Vocabulary box",
+          "supports": "An ecosystem service is a natural process that healthy ecosystems provide and that people rely on."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            378
+          ],
+          "pdfPages": [
+            414
+          ],
+          "locator": "Key Science Concept: Humans Rely on Ecosystem Services (services wheel)",
+          "supports": "A wheel of sixteen ecosystem services: pollination, erosion or flood control, water purification, carbon storage, photosynthesis, decomposition, soil formation, medicine, pest control, scientific discovery, appreciation, nutrient recycling, air purification, recreation, biodiversity, and food."
+        },
+        {
+          "type": "external",
+          "title": "Barn owl conservation efforts in South Florida — a soaring success for species, growers, environment",
+          "publisher": "University of Florida IFAS (Blogs.IFAS News)",
+          "url": "https://blogs.ifas.ufl.edu/news/2021/02/24/barn-owl-conservation-efforts-in-south-florida-a-soaring-success-for-species-growers-environment",
+          "accessed": "2026-10-17",
+          "supports": "Growers put up nest boxes so barn owls breed and hunt on their farms; the owls' diet is about 90 percent rodents, so they reduce crop damage and the need for chemical rodenticides."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Rebuilt on pest control (pedagogy review) so it no longer repeats the wetland water-cleaning idea or hands over Q11's key. Original barn-owl scenario; owls as farm rodent control backed by UF/IFAS. New choice IDs e, f, g; key a unchanged. The science reviewer passed the earlier marsh version, so the rebuilt item needs a fresh science check. Verify-agent (2026-10-14): checked against pp. 375 (render: Vocabulary box) and 378 (render: pest control is on the services wheel); UF/IFAS barn-owl record re-opened (90 percent rodent diet, fewer rodenticides). Fresh science check of the rebuilt item: correct. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt on pest control (barn owls); new distractors e-g; new explanation, misconception, tags and p. 378 evidence"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q02",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1"
+      ],
+      "conceptTags": [
+        "ecosystem-service",
+        "technology",
+        "classify"
+      ],
+      "familyId": "L28-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each example. Is it an ecosystem service carried out by nature, or a technology that people build and run?",
+      "accessiblePrompt": "Sort each of six examples into one of two groups: an ecosystem service carried out by nature, or a technology that people build and run.",
+      "items": [
+        {
+          "id": "bees",
+          "text": "Wild bees carrying pollen between apple blossoms",
+          "rationale": "Pollination happens as wild bees feed; nature does the work."
+        },
+        {
+          "id": "pump",
+          "text": "A pump that adds chlorine at a water treatment plant",
+          "rationale": "People build, power, and run this machine."
+        },
+        {
+          "id": "marsh",
+          "text": "A salt marsh slowing storm waves before they reach houses",
+          "rationale": "The marsh's plants and mud slow waves on their own: flood and erosion control."
+        },
+        {
+          "id": "seawall",
+          "text": "A concrete seawall built along a beach",
+          "rationale": "A seawall is a human-made structure, not a living system."
+        },
+        {
+          "id": "fungi",
+          "text": "Fungi turning fallen leaves into soil nutrients",
+          "rationale": "Decomposition by fungi is a natural process that builds soil."
+        },
+        {
+          "id": "filter",
+          "text": "A filter cartridge inside a kitchen faucet",
+          "rationale": "People manufacture and replace this filter; it is technology."
+        }
+      ],
+      "bins": [
+        {
+          "id": "service",
+          "label": "Ecosystem service (done by nature)"
+        },
+        {
+          "id": "tech",
+          "label": "Technology (built and run by people)"
+        }
+      ],
+      "answer": {
+        "bees": "service",
+        "pump": "tech",
+        "marsh": "service",
+        "seawall": "tech",
+        "fungi": "service",
+        "filter": "tech"
+      },
+      "explanation": "Ecosystem services come from living things and natural processes: pollinators, marshes, and decomposers do their work just by being part of a healthy ecosystem. Pumps, seawalls, and faucet filters can do some similar jobs, but people have to build, power, and maintain them.",
+      "misconception": "Anything that cleans water or protects a coast counts as an ecosystem service, even a machine.",
+      "hint": "Ask whether the job would still get done if no person built or switched on anything.",
+      "followUpId": "L28-Q11",
+      "scope": {
+        "lessonId": "L28",
+        "section": "Key Science Concept: Humans Rely on Ecosystem Services",
+        "pages": {
+          "printed": [
+            376,
+            378
+          ],
+          "pdf": [
+            412,
+            414
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            376
+          ],
+          "pdfPages": [
+            412
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Healthy ecosystems provide services for people, such as purifying water, cycling nutrients, creating and protecting soil, and keeping populations healthy to protect biodiversity."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            378
+          ],
+          "pdfPages": [
+            414
+          ],
+          "locator": "Key Science Concept: Humans Rely on Ecosystem Services (services wheel)",
+          "supports": "A wheel of sixteen ecosystem services: pollination, erosion or flood control, water purification, carbon storage, photosynthesis, decomposition, soil formation, medicine, pest control, scientific discovery, appreciation, nutrient recycling, air purification, recreation, biodiversity, and food."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Six items, two bins; every item has one defensible bin. Drafted from rendered pp. 376 and 378. Verify-agent (2026-10-14): checked against pp. 376 (OCR) and 378 (render); each of the six items has one defensible bin. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q03",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1",
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "ecosystem-service",
+        "meadow",
+        "soil",
+        "pollinators"
+      ],
+      "familyId": "L28-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Wild meadows and other healthy ecosystems near farms provide services that help farmers grow food. Which of these are real examples? Select all that apply.",
+      "accessiblePrompt": "Wild meadows and other healthy ecosystems near farms provide services that help farmers grow food. Which of these are real examples? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pollinators, such as bees, that also visit the crops",
+          "rationale": "Correct. Bees that live in and around the meadow fly over to the farm, pollinate crop flowers, and help them make fruit."
+        },
+        {
+          "id": "b",
+          "text": "Decomposers that recycle nutrients and build fertile soil",
+          "rationale": "Correct. As plants and animals die and decompose, nutrients return to the soil and a fertile layer builds up; the same process keeps farm soil rich season after season."
+        },
+        {
+          "id": "d",
+          "text": "Sunlight energy that the meadow plants make and pass to the crops",
+          "rationale": "Plants capture energy from sunlight; they do not produce it. The sun supplies it."
+        },
+        {
+          "id": "e",
+          "text": "Soil nutrients that can never run out",
+          "rationale": "Renewable does not mean unlimited. Nutrients can be used up faster than decomposers replace them."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Wild areas near farms support pollinator populations that also visit crops, and decomposers recycle nutrients into fertile soil, in the meadow and in the farm's own fields. Plants capture sunlight rather than make it, and soil nutrients can be used up faster than they are replaced.",
+      "misconception": "Ecosystems provide unlimited resources, or plants make the sunlight energy they use.",
+      "hint": "Look for the choices that come from living things in the meadow doing their normal jobs.",
+      "followUpId": "L28-Q06",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of four (pollinators; decomposers building soil). Distractors target plants making sunlight energy and renewable = unlimited. Science review: the soil choice no longer says the meadow hands its soil to the farm (see L28-RF11 on the p. 377 caption). Pedagogy review: the weather distractor c was removed. The reviser dropped 'over time' from the reviewer's choice b and added 'and pass to the crops' to d, so the keyed b is not the longest choice. Drafted from rendered p. 377. Verify-agent (2026-10-14): checked against p. 377 (render): bees from the meadow visit crops; decomposers build soil. Two keys correct, both distractors wrong. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks about services from healthy ecosystems near farms; choice b says decomposers build fertile soil"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: weather distractor c removed; explanation and misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q04",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1"
+      ],
+      "conceptTags": [
+        "natural-resource",
+        "medicine",
+        "natural-not-safe"
+      ],
+      "familyId": "L28-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Many medicines started as chemicals that scientists first found in plants, fungi, or other living things. What does this show about ecosystems?",
+      "accessiblePrompt": "Many medicines started as chemicals that scientists first found in plants, fungi, or other living things. What does this show about ecosystems?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They supply natural resources that people use as raw materials",
+          "rationale": "Correct. Chemicals made by living things are natural resources, and some become the starting point for medicines."
+        },
+        {
+          "id": "b",
+          "text": "They make chemicals that are automatically safe for people to take",
+          "rationale": "Natural does not mean safe. Many natural chemicals are poisonous; medicines are tested and carefully dosed."
+        },
+        {
+          "id": "c",
+          "text": "They are only useful to people living in the wilderness",
+          "rationale": "People everywhere use foods, wood, water, and medicines that depend on ecosystems, including people in big cities."
+        },
+        {
+          "id": "d",
+          "text": "They provide services only when people pay for them",
+          "rationale": "Ecosystems do their work whether or not anyone pays, and price is not the only way to measure their value."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A natural resource is a material or energy source from nature that people use. Foods, wood, and the chemicals behind many medicines come from Earth's ecosystems, which is one reason healthy, varied ecosystems matter even to people who live far from wild places. Stone and metals are natural resources too, but they are dug from rocks formed by geology, not grown by living ecosystems.",
+      "misconception": "Products from nature are automatically safe, or ecosystems only matter to people who live near wild areas.",
+      "hint": "Think about where the starting material for the medicine came from.",
+      "followUpId": "L28-Q03",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            378
+          ],
+          "pdfPages": [
+            414
+          ],
+          "locator": "Key Science Concept: Humans Rely on Ecosystem Services (services wheel)",
+          "supports": "A wheel of sixteen ecosystem services: pollination, erosion or flood control, water purification, carbon storage, photosynthesis, decomposition, soil formation, medicine, pest control, scientific discovery, appreciation, nutrient recycling, air purification, recreation, biodiversity, and food."
+        },
+        {
+          "type": "external",
+          "title": "Mineral Resource Science—Supporting Informed Decisionmaking (Fact Sheet 2016–3034)",
+          "publisher": "U.S. Geological Survey, Mineral Resources Program",
+          "url": "https://pubs.usgs.gov/fs/2016/3034/fs20163034.pdf",
+          "accessed": "2026-10-17",
+          "supports": "People use mineral resources to build homes and cities; mineral deposits form in Earth's crust, where regional geologic processes control where they form and how they are distributed, often buried beneath rocks and sediments."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Distractor b targets the natural = safe misconception named in the guide. Science review: choice c's rationale and the explanation no longer say stone, minerals or metals come from ecosystems (L28-RF11, USGS). The reviser wrote 'dug from rocks formed by geology, not grown by living ecosystems' rather than 'rocks and geology make them, not living things', because some rock, such as limestone or coal, began as the remains of living things long ago. Drafted from rendered pp. 377-378. Verify-agent (2026-10-14): checked against pp. 377-378 (renders). The USGS fact-sheet PDF came back as unreadable binary through the verifier's fetch tool; its claim (stone and metals form by geologic processes) is basic geology, appears only in the explanation, and the key does not depend on it. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale and explanation separate ecosystem products from geological stone and metals; USGS record; see L28-RF11"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b reworded to match the stem; followUpId now L28-Q03"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q05",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1",
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "ecosystem-service",
+        "services-wheel",
+        "examples"
+      ],
+      "familyId": "L28-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "The lesson's services wheel names many ecosystem services. Match each example to the service it shows.",
+      "accessiblePrompt": "The lesson's services wheel names many ecosystem services. Match each of six examples to the service it shows: carbon storage, decomposition, erosion or flood control, pollination, recreation, or water purification.",
+      "left": [
+        {
+          "id": "squash",
+          "text": "A bumblebee carries pollen from one squash flower to another",
+          "rationale": "Moving pollen between flowers is pollination."
+        },
+        {
+          "id": "runoff",
+          "text": "Wetland plants and mud trap dirt and germs from runoff",
+          "rationale": "Removing dirt and germs from water is water purification."
+        },
+        {
+          "id": "log",
+          "text": "Mushrooms slowly break down a fallen log",
+          "rationale": "Breaking down dead material is decomposition."
+        },
+        {
+          "id": "hill",
+          "text": "Tree roots on a steep hillside hold soil in place during heavy rain",
+          "rationale": "Keeping soil from washing away is erosion control."
+        },
+        {
+          "id": "forest",
+          "text": "A forest keeps carbon locked in its wood for decades",
+          "rationale": "Holding carbon in wood is carbon storage."
+        },
+        {
+          "id": "lake",
+          "text": "A family hikes and swims at a mountain lake",
+          "rationale": "Enjoying nature for fun is recreation."
+        }
+      ],
+      "right": [
+        {
+          "id": "pollination",
+          "text": "Pollination"
+        },
+        {
+          "id": "purify",
+          "text": "Water purification"
+        },
+        {
+          "id": "decomp",
+          "text": "Decomposition"
+        },
+        {
+          "id": "erosion",
+          "text": "Erosion or flood control"
+        },
+        {
+          "id": "carbon",
+          "text": "Carbon storage"
+        },
+        {
+          "id": "recreation",
+          "text": "Recreation"
+        }
+      ],
+      "answer": {
+        "squash": "pollination",
+        "runoff": "purify",
+        "log": "decomp",
+        "hill": "erosion",
+        "forest": "carbon",
+        "lake": "recreation"
+      },
+      "explanation": "Each service is a job an ecosystem does that people benefit from. Notice the range: some services keep food growing, some protect homes and health, and some, like recreation, matter because people enjoy and value nature.",
+      "misconception": "Ecosystem services are only about food and water, so things like recreation or carbon storage do not count.",
+      "hint": "For each example, ask what job the living things are doing.",
+      "followUpId": "L28-Q10",
+      "scope": {
+        "lessonId": "L28",
+        "section": "Key Science Concept: Humans Rely on Ecosystem Services",
+        "pages": {
+          "printed": [
+            378
+          ],
+          "pdf": [
+            414
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            378
+          ],
+          "pdfPages": [
+            414
+          ],
+          "locator": "Key Science Concept: Humans Rely on Ecosystem Services (services wheel)",
+          "supports": "A wheel of sixteen ecosystem services: pollination, erosion or flood control, water purification, carbon storage, photosynthesis, decomposition, soil formation, medicine, pest control, scientific discovery, appreciation, nutrient recycling, air purification, recreation, biodiversity, and food."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Six one-to-one pairs drawn from the wheel's labels, read from the 200-dpi render of p. 378. Pedagogy review: the dune item was replaced by a hillside tree-roots item so Q05 no longer gives away Q23's key; the read-aloud lists the services alphabetically so a listener cannot match by position. Verify-agent (2026-10-14): checked against p. 378 (render): all six right-hand services are wheel labels; one-to-one pairing is unique. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: dune item replaced by hillside tree roots (no Q23 leak); read-aloud lists services alphabetically"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q06",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "nutrient-cycling",
+        "decomposers",
+        "soil",
+        "sequence"
+      ],
+      "familyId": "L28-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Follow nitrogen through a meadow. Put these events in order, starting when a wildflower dies.",
+      "accessiblePrompt": "Follow nitrogen through a meadow. Put five events in order, starting when a wildflower dies and ending when the nitrogen is part of a new plant.",
+      "items": [
+        {
+          "id": "release",
+          "text": "Nitrogen compounds are released into the soil",
+          "rationale": "Third: decomposition frees nitrogen into the soil."
+        },
+        {
+          "id": "grow",
+          "text": "The new plant uses the nitrogen to build its body",
+          "rationale": "Last: the recycled nitrogen becomes part of a living plant again."
+        },
+        {
+          "id": "die",
+          "text": "A wildflower dies and falls to the ground",
+          "rationale": "First: the dead plant still holds nitrogen in its tissues."
+        },
+        {
+          "id": "roots",
+          "text": "Roots of a new plant take up the nitrogen",
+          "rationale": "Fourth: roots can only absorb the nitrogen once it is in the soil."
+        },
+        {
+          "id": "fungi",
+          "text": "Fungi and bacteria break down the dead tissues",
+          "rationale": "Second: decomposers must break the plant down before its nitrogen is released."
+        }
+      ],
+      "answer": [
+        "die",
+        "fungi",
+        "release",
+        "roots",
+        "grow"
+      ],
+      "ends": [
+        "Wildflower dies",
+        "Nitrogen in a new plant"
+      ],
+      "explanation": "Decomposers feed on dead organisms and break their large molecules into simpler nutrients that end up in the soil. Plant roots absorb those nutrients and reuse them to grow. This nutrient cycling is how meadow soil keeps rebuilding its fertility season after season.",
+      "misconception": "Nutrients in dead plants are lost forever, or roots can take nutrients straight from dead leaves without decomposers.",
+      "hint": "Before roots can use the nitrogen, something has to break the dead plant down.",
+      "followUpId": "L28-Q03",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.3 Biogeochemical Cycles",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "accessed": "2026-10-14",
+          "supports": "Energy flows through ecosystems and leaves as heat while matter is recycled; respiration returns organic carbon to the air as carbon dioxide; decomposers convert nitrogen in wastes and dead matter into ammonium in soil."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible sequence: death, decomposition, release to soil, uptake, growth. Drafted from rendered p. 377. Verify-agent (2026-10-14): checked against p. 377 (render) and OpenStax record; one defensible sequence. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L28-Q03 (decomposers building soil)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q07",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "matter-cycles",
+        "energy-flow",
+        "decomposers"
+      ],
+      "familyId": "L28-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Fungi in a meadow break down a dead grasshopper. Which statement correctly describes what happens to its matter and its energy?",
+      "accessiblePrompt": "Fungi in a meadow break down a dead grasshopper. Which statement correctly describes what happens to the grasshopper's matter and to its stored energy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its matter gets reused by other living things; its energy leaves as heat.",
+          "rationale": "Correct. Atoms are recycled into soil and air for other organisms, while the stored energy is passed along and changed, ending up as heat that leaves the ecosystem."
+        },
+        {
+          "id": "b",
+          "text": "Its matter and its energy both go into the soil for plants to reuse.",
+          "rationale": "Energy is not recycled. Plants get their energy from sunlight, not from energy stored in the soil."
+        },
+        {
+          "id": "c",
+          "text": "Its matter is destroyed, but its energy is stored in the soil for later.",
+          "rationale": "Decomposition does not destroy matter; the atoms are rearranged and reused. And plants cannot take in energy from soil. Decomposers use the stored energy, and it ends up as heat."
+        },
+        {
+          "id": "d",
+          "text": "Its matter and its energy are both used up, so nothing at all gets reused.",
+          "rationale": "The matter is not used up. Nutrients from the grasshopper return to the soil and air and can be used again."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Matter cycles: decomposers break the grasshopper's molecules into simpler substances, returning nutrients like nitrogen to the soil and carbon to the air as CO₂. Energy flows: decomposers use the stored energy to live, and it ends up as heat. Plants get new energy from sunlight, not from soil.",
+      "misconception": "Decomposers recycle energy back into the soil the same way they recycle nutrients.",
+      "hint": "Which one can go around in a cycle, and which one gets used and spreads out as heat?",
+      "followUpId": "L28-Q03",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.3 Biogeochemical Cycles",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "accessed": "2026-10-14",
+          "supports": "Energy flows through ecosystems and leaves as heat while matter is recycled; respiration returns organic carbon to the air as carbon dioxide; decomposers convert nitrogen in wastes and dead matter into ammonium in soil."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Guardrail item (energy flows, matter cycles); see L28-RF7. Drafted from rendered p. 377. Science review: rationales a and c say the energy is passed along and changed, ending as heat, rather than 'used up', and no longer claim soil holds no energy. Verify-agent (2026-10-14): checked against p. 377 (render); guardrail-compliant (matter cycles, energy leaves as heat); see L28-RF7. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationales a and c say energy is passed along and changed, ending as heat; no absolute about soil energy"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q08",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1",
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "pollination",
+        "pollinators",
+        "food-crops",
+        "seed-question"
+      ],
+      "familyId": "L28-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "How can pollinators, such as bees, butterflies, and moths, help people?",
+      "accessiblePrompt": "How can pollinators, such as bees, butterflies, and moths, help people?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They help many plants reproduce, including many food crops.",
+          "rationale": "Correct. By carrying pollen between flowers, pollinators let many plants, including many crops, form fruits and seeds."
+        },
+        {
+          "id": "b",
+          "text": "They break down dead leaves to make soil richer for crops.",
+          "rationale": "That is the job of decomposers such as fungi and bacteria, not pollinators."
+        },
+        {
+          "id": "c",
+          "text": "They make the nectar that flowers need in order to grow.",
+          "rationale": "Flowers make nectar; pollinators drink it. The help pollinators give is moving pollen."
+        },
+        {
+          "id": "d",
+          "text": "They are needed by every crop, so no food grows without them.",
+          "rationale": "Too absolute. Grains such as wheat, rice, and corn are pollinated by wind or by themselves."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Pollinators visit flowers for food and carry pollen from flower to flower. That transfer lets many plants make fruits and seeds, including many crops people eat. Some important foods, such as wheat, rice, and corn, are pollinated mostly by wind or by themselves.",
+      "misconception": "Pollinators help by feeding plants or building soil, or every single food crop depends on them.",
+      "hint": "What do bees carry from one flower to the next?",
+      "followUpId": "L28-Q05",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        },
+        {
+          "type": "external",
+          "title": "Status of Pollinators in North America, Chapter 4: Effects of Variations in Pollinator Populations on Pollination Services",
+          "publisher": "National Research Council, The National Academies Press (2007)",
+          "url": "https://www.nationalacademies.org/read/11761/chapter/6",
+          "accessed": "2026-10-14",
+          "supports": "Staple grains such as rice, wheat and maize are self-pollinating or wind-pollinated, while crops such as almonds, apples, blueberries and cucurbit squashes depend heavily or completely on animal pollination."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L28 (How can pollinators help people? They help many plants reproduce, including many food crops). 'Many', not 'all': see L28-RF1. Drafted from rendered p. 377. Verify-agent (2026-10-14): checked against p. 377 (render); the brief's seed question with the brief's answer; NRC chapter 4 re-opened (grains are wind- or self-pollinated). Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q09",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "pollination",
+        "crops",
+        "wind-pollination",
+        "prediction"
+      ],
+      "familyId": "L28-F04",
+      "category": "application",
+      "difficulty": 3,
+      "type": "classify",
+      "prompt": "Suppose all bees, both wild bees and honey bees kept in hives, disappeared from a farming region. Sort each crop by how its harvest would most likely be affected.",
+      "accessiblePrompt": "Suppose all bees, both wild bees and honey bees kept in hives, disappeared from a farming region. Sort each of seven crops by how its harvest would most likely be affected: drops a lot because it relies on animal pollinators, or mostly unaffected because it is pollinated by wind or by itself.",
+      "conditions": "Assume no bees of any kind remain, no one pollinates by hand, and nothing else about the farms changes.",
+      "limitations": "Simplified: some crops that can pollinate themselves still yield a bit more when bees visit, and a few other insects do a small share of crop pollination.",
+      "items": [
+        {
+          "id": "apple",
+          "text": "Apples",
+          "rationale": "Most apple varieties need pollen from a tree of a different apple variety, carried by insects such as bees."
+        },
+        {
+          "id": "wheat",
+          "text": "Wheat",
+          "rationale": "Wheat is a grain crop pollinated by wind or by its own flowers, so bees are not needed."
+        },
+        {
+          "id": "squash",
+          "text": "Squash",
+          "rationale": "Squash depends on animals such as bees to carry pollen before it can set fruit."
+        },
+        {
+          "id": "corn",
+          "text": "Corn (maize)",
+          "rationale": "Corn is a grain crop whose pollen is carried by wind, not by bees."
+        },
+        {
+          "id": "almond",
+          "text": "Almonds",
+          "rationale": "Almond orchards depend on bees to set nuts."
+        },
+        {
+          "id": "rice",
+          "text": "Rice",
+          "rationale": "Rice is a grain crop pollinated by wind or by its own flowers, so losing bees barely matters."
+        },
+        {
+          "id": "blueberry",
+          "text": "Blueberries",
+          "rationale": "Blueberries are pollinated mainly by bees, including wild bumble bees."
+        }
+      ],
+      "bins": [
+        {
+          "id": "drop",
+          "label": "Harvest likely drops a lot (relies on animal pollinators)"
+        },
+        {
+          "id": "little",
+          "label": "Harvest mostly unaffected (pollinated by wind or by itself)"
+        }
+      ],
+      "answer": {
+        "apple": "drop",
+        "wheat": "little",
+        "squash": "drop",
+        "corn": "little",
+        "almond": "drop",
+        "rice": "little",
+        "blueberry": "drop"
+      },
+      "explanation": "Many fruits, nuts, and vegetables, such as apples, almonds, blueberries, and squash, need animals to move pollen before they can set fruit. The big staple grains, wheat, rice, and corn, are pollinated by wind or pollinate themselves, so losing bees would hit fruit and vegetable harvests much harder than grain harvests.",
+      "misconception": "Every crop, including grains, depends on bees to produce food.",
+      "hint": "Grains are grasses. Think about how grass pollen travels.",
+      "followUpId": "L28-Q13",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        },
+        {
+          "type": "external",
+          "title": "Status of Pollinators in North America, Chapter 4: Effects of Variations in Pollinator Populations on Pollination Services",
+          "publisher": "National Research Council, The National Academies Press (2007)",
+          "url": "https://www.nationalacademies.org/read/11761/chapter/6",
+          "accessed": "2026-10-17",
+          "supports": "Staple grains such as rice, wheat and maize are self-pollinating or wind-pollinated, while crops such as almonds, apples, blueberries and cucurbit squashes depend heavily or completely on animal pollination; apples are self-incompatible and need cross-pollination between cultivars, not just between trees."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the textbook's 'grains' wording (L28-RF1) with the National Research Council report. Seven items, two bins. Science review: the prompt and conditions now remove hive honey bees as well as wild bees, so almonds have one defensible bin; the apple rationale says the pollen must come from a different variety (NRC, re-opened). The limitation adds that a few other insects pollinate a little. Verify-agent (2026-10-14): checked against p. 377 (render); NRC chapter 4 re-opened (rice, wheat, maize self- or wind-pollinated; almonds, apples, squash fully dependent on animals; blueberry 100 percent insect-reliant; apples need cross-pollination between cultivars). Cosmetic fix: the prompt now reads \"all bees, both wild bees and honey bees kept in hives,\" to match the read-aloud. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt and conditions cover hive honey bees as well as wild bees; apple rationale says a different variety"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q10",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "pollination",
+        "sequence",
+        "reproduction"
+      ],
+      "familyId": "L28-F04",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Put the steps of animal pollination in order, starting when a moth lands on the first flower.",
+      "accessiblePrompt": "Put five steps of animal pollination in order, starting when a moth lands on the first flower and ending when seeds and fruit form.",
+      "items": [
+        {
+          "id": "fly",
+          "text": "The moth flies to another flower of the same kind",
+          "rationale": "Third: the moth carries the pollen to a new flower."
+        },
+        {
+          "id": "seed",
+          "text": "The second flower can now make seeds and fruit",
+          "rationale": "Last: with pollen delivered, the plant can reproduce."
+        },
+        {
+          "id": "land",
+          "text": "A moth lands on a flower to sip nectar",
+          "rationale": "First: the moth visits for food."
+        },
+        {
+          "id": "rub",
+          "text": "Pollen rubs off onto the second flower",
+          "rationale": "Fourth: the pollen is delivered."
+        },
+        {
+          "id": "stick",
+          "text": "Pollen sticks to the moth's body",
+          "rationale": "Second: the moth picks up pollen while feeding."
+        }
+      ],
+      "answer": [
+        "land",
+        "stick",
+        "fly",
+        "rub",
+        "seed"
+      ],
+      "ends": [
+        "Moth lands on the first flower",
+        "Seeds and fruit form"
+      ],
+      "explanation": "Pollinators come for food such as nectar, and pollen hitches a ride on their bodies. When they visit another flower of the same kind, some pollen rubs off, and that transfer lets the plant reproduce by forming seeds, often inside a fruit.",
+      "misconception": "Pollinators help plants by bringing them food, or seeds form before any pollen arrives.",
+      "hint": "The pollen has to get onto the moth before it can come off.",
+      "followUpId": "L28-Q03",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            377
+          ],
+          "pdf": [
+            413
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            377
+          ],
+          "pdfPages": [
+            413
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Natural resources such as wood, stone, minerals, water, foods and medicine chemicals come from ecosystems; decomposers such as fungi break down dead organisms and release nutrients, building soil that farms need season after season; pollinators such as bees, butterflies and moths carry pollen between flowers, many plants depend on them, and bees supported by a meadow also visit crops such as apples and squash."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible sequence. Drafted from rendered p. 377. Verify-agent (2026-10-14): checked against p. 377 (render); one defensible sequence. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q11",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1",
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "water-purification",
+        "wetlands",
+        "soil",
+        "runoff"
+      ],
+      "familyId": "L28-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Rain soaks through a forest's soil and then flows slowly through a wetland into a lake. Why is the lake water usually cleaner than rain that runs straight off a parking lot?",
+      "accessiblePrompt": "Rain soaks through a forest's soil and then flows slowly through a wetland into a lake. Why is that lake water usually cleaner than rain that runs straight off a paved parking lot?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soil and wetland plants trap particles and help break down some wastes.",
+          "rationale": "Correct. Slow movement through soil and wetlands lets dirt settle out and lets living things remove some pollutants."
+        },
+        {
+          "id": "b",
+          "text": "Forest trees release chlorine into the water, which kills the germs in it.",
+          "rationale": "Trees do not add chlorine. Chlorine is added by people at treatment plants."
+        },
+        {
+          "id": "e",
+          "text": "Rain that falls on a forest starts out cleaner than rain on pavement.",
+          "rationale": "The same rain falls on both places. What differs is what the water passes through after it lands."
+        },
+        {
+          "id": "f",
+          "text": "The wetland speeds the water up, so dirt has no time to mix in.",
+          "rationale": "Wetlands do the opposite: they slow water down, which gives particles time to settle out."
+        }
+      ],
+      "answer": "a",
+      "explanation": "As water moves slowly through soil and wetlands, particles settle and get trapped, and plants and microbes help remove or break down some pollutants. Pavement offers none of this, so runoff carries oil, dirt, and germs straight into streams. Nature does much of the cleaning, but not all of it.",
+      "misconception": "Water cleans itself just by flowing, or rain over forests starts out cleaner than rain over towns.",
+      "hint": "What does the water pass through on the forest route that it skips on the parking lot route?",
+      "followUpId": "L28-Q26",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            375,
+            376
+          ],
+          "pdf": [
+            411,
+            412
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "An ecosystem service is a natural process of healthy ecosystems that people rely on; water moving through soil, clouds and wetlands is naturally filtered of impurities and many disease-causing organisms, and people usually add filtering and chemical treatment before calling it safe to drink."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            376
+          ],
+          "pdfPages": [
+            412
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "Healthy ecosystems provide services for people, such as purifying water, cycling nutrients, creating and protecting soil, and keeping populations healthy to protect biodiversity."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original forest-versus-parking-lot comparison. Pedagogy review: the implausible 'moving water never picks up dirt' distractor and the repeated 'never needs any treatment' distractor were replaced by new choices e (rain starts cleaner over forests) and f (wetlands speed water up); Q12 is now the bank's dedicated item for 'naturally filtered means safe'. Drafted from rendered pp. 375-376. Verify-agent (2026-10-14): checked against pp. 375-376 (renders/OCR); key uniquely correct. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors c and d replaced by new choices e and f; misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q12",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1"
+      ],
+      "conceptTags": [
+        "water-purification",
+        "natural-not-safe",
+        "drinking-water"
+      ],
+      "familyId": "L28-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Mia says, \"Stream water that has flowed through a healthy wetland is filtered by nature, so it is always safe to drink straight from the stream.\" Which response is most accurate?",
+      "accessiblePrompt": "Mia says that stream water which has flowed through a healthy wetland is filtered by nature, so it is always safe to drink straight from the stream. Which response is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nature does much of the cleaning, but water is usually still treated before drinking.",
+          "rationale": "Correct. Wetlands and soil remove a lot, and communities add filtering or disinfection before water is considered safe."
+        },
+        {
+          "id": "b",
+          "text": "She is right, because water that has passed through a healthy wetland is always safe to drink.",
+          "rationale": "Too absolute. Water can still carry germs or chemicals that a wetland did not remove."
+        },
+        {
+          "id": "c",
+          "text": "Wetlands make water dirtier, so only treatment plants ever clean it.",
+          "rationale": "This reverses the science: wetlands remove sediment and some pollutants from water."
+        },
+        {
+          "id": "d",
+          "text": "Water is safe whenever it looks clear and feels cold to the touch.",
+          "rationale": "Clear, cold water can still hold germs and dissolved chemicals that are invisible."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Healthy ecosystems remove a lot of dirt and many disease-causing organisms, which is why they matter so much for drinking water. Still, water can carry germs or chemicals you cannot see, so communities usually filter or disinfect it before calling it safe. Even New York City, famous for protecting its watersheds, adds chlorine.",
+      "misconception": "Natural means safe: water filtered by nature can always be drunk untreated.",
+      "hint": "Think about what could be in water that a wetland might miss and your eyes cannot see.",
+      "followUpId": "L28-Q26",
+      "scope": {
+        "lessonId": "L28",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            375
+          ],
+          "pdf": [
+            411
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "An ecosystem service is a natural process of healthy ecosystems that people rely on; water moving through soil, clouds and wetlands is naturally filtered of impurities and many disease-causing organisms, and people usually add filtering and chemical treatment before calling it safe to drink."
+        },
+        {
+          "type": "external",
+          "title": "History of New York City's Drinking Water",
+          "publisher": "New York City Department of Environmental Protection",
+          "url": "https://www.nyc.gov/site/dep/water/history-of-new-york-citys-drinking-water.page",
+          "accessed": "2026-10-14",
+          "supports": "Chlorine is added to New York City's water to kill bacteria; the Croton system normally supplies about 10 percent of the city's water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Misconception repair (natural is not automatically safe). No drinking or treatment procedure is given. Drafted from rendered p. 375. Pedagogy review: new hint that does not answer itself. This is the bank's one dedicated item for the 'naturally filtered means safe to drink' misconception. Verify-agent (2026-10-14): checked against p. 375 (render: people usually add filters and chemicals); NYC DEP history page re-opened (chlorine added). Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer answers itself"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q13",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2",
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "biodiversity",
+        "monoculture",
+        "disease-resistance",
+        "bananas"
+      ],
+      "familyId": "L28-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Most bananas sold in stores are one seedless variety, grown from pieces of other plants, so the plants are genetic copies. Why does this make the supply of these store bananas risky?",
+      "accessiblePrompt": "Most bananas sold in stores are one seedless variety, grown from pieces of other plants, so the plants are genetic copies of each other. Why does this make the supply of these store bananas risky?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A disease that can infect one plant can likely infect them all.",
+          "rationale": "Correct. Identical plants share identical weaknesses, so nothing in the population is ready to resist a new disease."
+        },
+        {
+          "id": "b",
+          "text": "Seedless plants cannot be infected by any kind of fungus.",
+          "rationale": "Being seedless does not protect a plant. Fungal diseases have destroyed seedless banana crops before."
+        },
+        {
+          "id": "c",
+          "text": "Growing one variety everywhere raises the crop's overall biodiversity.",
+          "rationale": "More plants of one variety is not more variety. Biodiversity means differences, and copies have almost none."
+        },
+        {
+          "id": "d",
+          "text": "Plant copies are always tougher than plants grown from seed.",
+          "rationale": "Copies are not automatically tougher; they simply all share the same strengths and the same weaknesses."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Variety in traits is what lets some members of a population survive a new disease. When every plant is a genetic copy, they all share the same weaknesses, so a fungus that can attack one can spread through whole plantations. That is why newer fungal diseases worry banana growers.",
+      "misconception": "Having lots of plants is the same as having lots of variety.",
+      "hint": "If every plant has identical traits, which plants could resist a new disease?",
+      "followUpId": "L28-Q09",
+      "scope": {
+        "lessonId": "L28",
+        "section": "2. Ecosystem Change Impacts Human Food Supplies—Bananas",
+        "pages": {
+          "printed": [
+            379
+          ],
+          "pdf": [
+            415
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            379
+          ],
+          "pdfPages": [
+            415
+          ],
+          "locator": "2. Ecosystem Change Impacts Human Food Supplies—Bananas",
+          "supports": "Individuals in natural populations differ in traits, and some traits help them survive a disease; disease resistance makes infection less likely; crops grown as one variety over large areas (Cavendish bananas) have low diversity, so scientists search wild bananas for disease-resistant traits."
+        },
+        {
+          "type": "external",
+          "title": "New Geographical Insights of the Latest Expansion of Fusarium oxysporum f.sp. cubense Tropical Race 4 Into the Greater Mekong Subregion (Zheng et al., 2018)",
+          "publisher": "Frontiers in Plant Science",
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2018.00457/full",
+          "accessed": "2026-10-14",
+          "supports": "Cavendish replaced Gros Michel because it resisted Race 1 of Fusarium wilt (Panama disease), but Cavendish clones are susceptible to Tropical Race 4; clonal propagation and low diversity raise the crop's genetic vulnerability."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Tests the supported principle only; no specific banana disease is named (L28-RF2). Clonal propagation backed by Zheng et al. 2018. Science review: the prompt asks about the supply of store bananas, not the world's banana supply, because many other bananas and plantains are grown and eaten locally. Verify-agent (2026-10-14): checked against p. 379 (render); Zheng et al. 2018 re-opened (Cavendish clones susceptible to TR4; vegetative propagation raises genetic vulnerability); no disease named, consistent with L28-RF2. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks about the supply of store bananas, not the world's"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q14",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2"
+      ],
+      "conceptTags": [
+        "biodiversity",
+        "wild-relatives",
+        "breeding",
+        "bananas"
+      ],
+      "familyId": "L28-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A new fungus is spreading through farms that all grow the same banana variety. Which plan uses biodiversity to protect future banana harvests?",
+      "accessiblePrompt": "A new fungus is spreading through farms that all grow the same banana variety. Which plan uses biodiversity to protect future banana harvests?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Use disease-resisting traits from wild bananas to develop new bananas",
+          "rationale": "Correct. Wild relatives carry natural resistance traits that scientists can use to develop new, disease-resistant crop bananas."
+        },
+        {
+          "id": "e",
+          "text": "Plant more fields of the same variety to replace the sick plants",
+          "rationale": "More copies add numbers, not variety. The fungus can infect the new fields too."
+        },
+        {
+          "id": "d",
+          "text": "Clear wild banana forests to plant more of the store variety",
+          "rationale": "Clearing destroys the wild variety of bananas that the plan depends on."
+        },
+        {
+          "id": "b",
+          "text": "Collect wild bananas that are as alike as possible, to keep tests simple",
+          "rationale": "Alike plants would not help here. The value of wild populations is that their traits differ, so some may resist the fungus."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Wild populations in healthy ecosystems hold a huge range of traits. Some wild bananas can withstand diseases that harm the store variety, and scientists can use those traits to develop new, disease-resistant bananas, sometimes improving size or flavor too. Protecting wild biodiversity keeps that library of traits available.",
+      "misconception": "More plants of one variety protect a crop as well as many varieties do.",
+      "hint": "What do wild bananas have that plantation bananas lack?",
+      "followUpId": "L28-Q04",
+      "scope": {
+        "lessonId": "L28",
+        "section": "2. Ecosystem Change Impacts Human Food Supplies—Bananas",
+        "pages": {
+          "printed": [
+            379
+          ],
+          "pdf": [
+            415
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            379
+          ],
+          "pdfPages": [
+            415
+          ],
+          "locator": "2. Ecosystem Change Impacts Human Food Supplies—Bananas",
+          "supports": "Individuals in natural populations differ in traits, and some traits help them survive a disease; disease resistance makes infection less likely; crops grown as one variety over large areas (Cavendish bananas) have low diversity, so scientists search wild bananas for disease-resistant traits."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pedagogy review: rebuilt as a plan-choice item so it is genuine application (category application and difficulty 2 unchanged). New distractor e (more fields of the same variety); b and d keep their ideas in plan form; the fungus-spray distractor was removed. The key says 'develop new bananas' rather than 'breed into crop bananas', applying the science reviewer's optional note (Cavendish is sterile, so wild resistance goes into new varieties). Choice b avoids the reviewer's 'always match' so no absolute word cues it as wrong, and the key was trimmed so it is not the longest choice. Supported by the p. 379 caption (wild varieties used to develop new, disease-resistant bananas). Verify-agent (2026-10-14): checked against p. 379 (render: caption says wild varieties are used to develop new resistant bananas). Fresh science check of the rebuilt item: correct. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt as a plan-choice application item; new distractor e; spray distractor removed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q15",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O2",
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "biodiversity",
+        "disease-resistance",
+        "model",
+        "percent"
+      ],
+      "familyId": "L28-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A model farm grows 800 banana plants: 200 each of four different varieties. A new fungus kills every plant of one variety, but the other three varieties resist it. What percent of the farm's plants survive?",
+      "accessiblePrompt": "A model farm grows 800 banana plants, 200 of each of four different varieties. A new fungus kills every plant of one variety, but the other three varieties resist it. What percent of the farm's plants survive?",
+      "conditions": "Model farm: each variety either fully resists the fungus or is fully killed by it, and nothing else harms the plants.",
+      "limitations": "Real resistance is often partial, and diseases can change over time.",
+      "answer": 75,
+      "tolerance": 0,
+      "unit": "%",
+      "workedSolution": "Plants killed = 200 (one variety). Plants surviving = 800 − 200 = 600. Percent surviving = 600 ÷ 800 × 100 = 75%. If all 800 plants had been the vulnerable variety, 0% would have survived.",
+      "explanation": "Growing several varieties spreads the risk: a disease that wipes out one variety leaves the others standing. A farm planted with only the vulnerable variety would have no backup, which is why variety in traits works as a kind of insurance.",
+      "misconception": "A disease outbreak affects all crop plants the same way no matter how many varieties are grown.",
+      "hint": "How many of the 800 plants belong to the variety that dies?",
+      "followUpId": "L28-Q09",
+      "scope": {
+        "lessonId": "L28",
+        "section": "2. Ecosystem Change Impacts Human Food Supplies—Bananas",
+        "pages": {
+          "printed": [
+            379
+          ],
+          "pdf": [
+            415
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            379
+          ],
+          "pdfPages": [
+            415
+          ],
+          "locator": "2. Ecosystem Change Impacts Human Food Supplies—Bananas",
+          "supports": "Individuals in natural populations differ in traits, and some traits help them survive a disease; disease resistance makes infection less likely; crops grown as one variety over large areas (Cavendish bananas) have low diversity, so scientists search wild bananas for disease-resistant traits."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original model with stated conditions and limitations. Drafted from rendered p. 379. Verify-agent (2026-10-14): checked against p. 379 (render); arithmetic re-done: 600 / 800 = 75 percent. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId now L28-Q09"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q16",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "vultures",
+        "cause-effect",
+        "rabies",
+        "sequence"
+      ],
+      "familyId": "L28-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these events from India in cause-and-effect order, from the first cause to the final effect on people.",
+      "accessiblePrompt": "Put five events from India in cause-and-effect order, starting with the first cause and ending with the final effect on people.",
+      "items": [
+        {
+          "id": "dogs",
+          "text": "Feral dog populations grow",
+          "rationale": "Fourth: more food and less competition let dog numbers rise."
+        },
+        {
+          "id": "drug",
+          "text": "Farmers treat cattle with a drug that is harmful to vultures",
+          "rationale": "First: a human choice starts the chain."
+        },
+        {
+          "id": "rabies",
+          "text": "More people are bitten by dogs and catch rabies",
+          "rationale": "Last: more dogs means more bites, and dogs spread rabies."
+        },
+        {
+          "id": "carc",
+          "text": "More carcasses are left for other scavengers",
+          "rationale": "Third: with few vultures, carcasses are left for other scavengers."
+        },
+        {
+          "id": "vult",
+          "text": "Vultures that eat treated carcasses die, and their numbers crash",
+          "rationale": "Second: the drug in carcasses poisons the vultures."
+        }
+      ],
+      "answer": [
+        "drug",
+        "vult",
+        "carc",
+        "dogs",
+        "rabies"
+      ],
+      "ends": [
+        "First cause",
+        "Final effect on people"
+      ],
+      "explanation": "The drug seemed like a small change, but it removed the main scavengers. Food they used to eat went to feral dogs instead, dog numbers climbed, and because dogs spread most human rabies, more people were bitten and infected. Each link sets up the next.",
+      "misconception": "Losing one bird species could not affect human health, or the dogs caused the vultures to decline.",
+      "hint": "Start with what people did, then follow the leftover food.",
+      "followUpId": "L28-Q20",
+      "scope": {
+        "lessonId": "L28",
+        "section": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+        "pages": {
+          "printed": [
+            380,
+            381
+          ],
+          "pdf": [
+            416,
+            417
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            381
+          ],
+          "pdfPages": [
+            417
+          ],
+          "locator": "Section 3. Vultures and Rabies, including Figure 3",
+          "supports": "A veterinary drug used on cattle was linked to vulture deaths and the near-loss of three vulture species; more carcasses went to feral dogs, dog numbers rose, and because dogs carry rabies more people were infected; Figure 3 plots vulture numbers falling and feral dog numbers rising from 1992 to 2004; the lost, unrecognized service was disease prevention."
+        },
+        {
+          "type": "external",
+          "title": "Counting the cost of vulture decline: An appraisal of the human health and other benefits of vultures in India (Markandya et al., Ecological Economics, 2008)",
+          "publisher": "University of Bath Research Portal",
+          "url": "https://researchportal.bath.ac.uk/en/publications/counting-the-cost-of-vulture-declinean-appraisal-of-the-human-hea/",
+          "accessed": "2026-10-14",
+          "supports": "Livestock use of the drug diclofenac caused sharp vulture declines in India; dogs, the main source of human rabies there, also eat carcasses and increased alongside the decline; the authors estimate a significant rabies-related health cost."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible chain, as in the text and Markandya et al. Drafted from rendered pp. 380-381. Science review: the carcass step no longer says carcasses are left 'uneaten', which contradicted the next step where dogs eat them. Verify-agent (2026-10-14): checked against pp. 380-381 (renders); one defensible chain matching the text. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: carcass step now says carcasses are left for other scavengers, not uneaten"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q17",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "scavenger",
+        "vocabulary",
+        "feeding-roles"
+      ],
+      "familyId": "L28-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Which animal is acting as a scavenger?",
+      "accessiblePrompt": "Which of these animals is acting as a scavenger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A vulture feeding on a cow that died of old age",
+          "rationale": "Correct. The cow was already dead, so the vulture is scavenging."
+        },
+        {
+          "id": "b",
+          "text": "A hawk swooping down to catch and eat a live mouse",
+          "rationale": "The hawk hunts and kills its prey, which makes it a predator, not a scavenger."
+        },
+        {
+          "id": "c",
+          "text": "A deer nibbling clover in a sunny field",
+          "rationale": "The deer eats living plants, so it is an herbivore, not a scavenger."
+        },
+        {
+          "id": "d",
+          "text": "A bee sipping nectar from an open flower",
+          "rationale": "The bee takes food from a living plant; it is not eating dead organisms."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A scavenger eats animals that are already dead instead of hunting and killing its food. Vultures are classic scavengers, and by cleaning up carcasses they remove food that could otherwise feed disease-carrying animals.",
+      "misconception": "Any animal that eats meat is a scavenger.",
+      "hint": "Was the food alive or already dead when the animal found it?",
+      "followUpId": "L28-Q01",
+      "scope": {
+        "lessonId": "L28",
+        "section": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+        "pages": {
+          "printed": [
+            375,
+            380
+          ],
+          "pdf": [
+            411,
+            416
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Vocabulary box",
+          "supports": "Defines ecosystem service, disease resistance, and scavenger (an organism that eats organisms that are already dead)."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            380
+          ],
+          "pdfPages": [
+            416
+          ],
+          "locator": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+          "supports": "Vultures are scavengers that eat carcasses rather than hunting; by removing dead animals they remove potential sources of disease and food for disease-carrying animals."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 375 and 380. Verify-agent (2026-10-14): checked against pp. 375 and 380 (render/OCR); key uniquely correct. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q18",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1",
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "vultures",
+        "disease-prevention",
+        "hidden-service"
+      ],
+      "familyId": "L28-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Before their numbers crashed, what important but unnoticed service were India's vultures providing to people?",
+      "accessiblePrompt": "Before their numbers crashed, what important but unnoticed service were the vultures of India providing to people?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Disease prevention, by clearing away carcasses",
+          "rationale": "Correct. Removing carcasses kept disease sources and food for disease carriers in check."
+        },
+        {
+          "id": "b",
+          "text": "Pest control, by hunting live rats in fields",
+          "rationale": "Vultures do not hunt live prey; they eat animals that are already dead."
+        },
+        {
+          "id": "c",
+          "text": "Pollination of crops while they searched for food",
+          "rationale": "Vultures do not move pollen between flowers; insects such as bees do most pollination."
+        },
+        {
+          "id": "e",
+          "text": "Decomposition, by turning carcasses straight into soil nutrients",
+          "rationale": "Vultures eat and digest flesh, but turning dead matter into soil nutrients is the work of decomposers such as fungi and bacteria. The service people missed was disease prevention."
+        }
+      ],
+      "answer": "a",
+      "explanation": "By quickly eating dead animals, vultures removed food that would otherwise rot or feed disease carriers such as feral dogs and rats. Few people thought of this as a service until it disappeared, and then human health suffered.",
+      "misconception": "Only animals that hunt or produce food provide useful services, or scavengers and decomposers do the same job.",
+      "hint": "What happens to a carcass if no vulture eats it?",
+      "followUpId": "L28-Q02",
+      "scope": {
+        "lessonId": "L28",
+        "section": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+        "pages": {
+          "printed": [
+            380,
+            381
+          ],
+          "pdf": [
+            416,
+            417
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            380
+          ],
+          "pdfPages": [
+            416
+          ],
+          "locator": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+          "supports": "Vultures are scavengers that eat carcasses rather than hunting; by removing dead animals they remove potential sources of disease and food for disease-carrying animals."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            381
+          ],
+          "pdfPages": [
+            417
+          ],
+          "locator": "Section 3. Vultures and Rabies, including Figure 3",
+          "supports": "A veterinary drug used on cattle was linked to vulture deaths and the near-loss of three vulture species; more carcasses went to feral dogs, dog numbers rose, and because dogs carry rabies more people were infected; Figure 3 plots vulture numbers falling and feral dog numbers rising from 1992 to 2004; the lost, unrecognized service was disease prevention."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 380-381. Pedagogy review: the flood-control distractor was replaced by the scavenger-versus-decomposer mix-up (new id e). Verify-agent (2026-10-14): checked against pp. 380-381 (renders: the unrecognized service was disease prevention). Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: flood-control distractor replaced by the scavenger-versus-decomposer mix-up (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q19",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "data",
+        "graph",
+        "pattern",
+        "vultures"
+      ],
+      "familyId": "L28-F08",
+      "category": "application",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "The graph shows model data for one region, with each animal's 1992 level set to 100. What pattern does it show?",
+      "accessiblePrompt": "A graph shows model data for one region, with each animal's 1992 level set to 100. Vultures go from 100 in 1992 to 45, 18, 8, and then 4 in 2004. Feral dogs go from 100 in 1992 to 108, 122, 140, and then 165 in 2004. What pattern does it show?",
+      "conditions": "Index values are model numbers made for this question; 100 means the 1992 level.",
+      "diagram": {
+        "kind": "curve",
+        "caption": "Model data: vultures and feral dogs in one region (not real measurements)",
+        "alt": "A line graph of model data with years on the horizontal axis and a population index on the vertical axis, where 100 means the 1992 level. Vultures: 100 in 1992, 45 in 1995, 18 in 1998, 8 in 2001, 4 in 2004. Feral dogs: 100 in 1992, 108 in 1995, 122 in 1998, 140 in 2001, 165 in 2004.",
+        "xLabel": "Year",
+        "yLabel": "Population index (1992 = 100)",
+        "series": [
+          {
+            "label": "Vultures",
+            "points": [
+              [
+                1992,
+                100
+              ],
+              [
+                1995,
+                45
+              ],
+              [
+                1998,
+                18
+              ],
+              [
+                2001,
+                8
+              ],
+              [
+                2004,
+                4
+              ]
+            ]
+          },
+          {
+            "label": "Feral dogs",
+            "points": [
+              [
+                1992,
+                100
+              ],
+              [
+                1995,
+                108
+              ],
+              [
+                1998,
+                122
+              ],
+              [
+                2001,
+                140
+              ],
+              [
+                2004,
+                165
+              ]
+            ]
+          }
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As vulture numbers fell, feral dog numbers rose.",
+          "rationale": "Correct. Vultures drop from 100 to 4 while dogs climb from 100 to 165."
+        },
+        {
+          "id": "b",
+          "text": "Vulture and feral dog numbers both fell together.",
+          "rationale": "Only the vulture line falls; the dog line rises every year shown."
+        },
+        {
+          "id": "c",
+          "text": "Feral dogs fell at first, and then vultures recovered.",
+          "rationale": "Dogs never fall in this data, and vultures keep declining through 2004."
+        },
+        {
+          "id": "d",
+          "text": "Both populations stayed about the same over time.",
+          "rationale": "Both change a lot: vultures lose about 96 percent and dogs gain 65 percent."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The vulture line drops from 100 to 4 while the dog line climbs from 100 to 165, so the two move in opposite directions over the same years. A graph like this shows a pattern; deciding what caused it takes more evidence.",
+      "misconception": "Related populations always rise and fall together, or a pattern alone proves what caused it.",
+      "hint": "Follow each line from 1992 to 2004: which goes up and which goes down?",
+      "followUpId": "L28-Q16",
+      "scope": {
+        "lessonId": "L28",
+        "section": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+        "pages": {
+          "printed": [
+            381
+          ],
+          "pdf": [
+            417
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            381
+          ],
+          "pdfPages": [
+            417
+          ],
+          "locator": "Section 3. Vultures and Rabies, including Figure 3",
+          "supports": "A veterinary drug used on cattle was linked to vulture deaths and the near-loss of three vulture species; more carcasses went to feral dogs, dog numbers rose, and because dogs carry rabies more people were infected; Figure 3 plots vulture numbers falling and feral dog numbers rising from 1992 to 2004; the lost, unrecognized service was disease prevention."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original model data; the textbook's Figure 3 values are not reused (L28-RF3). Verify-agent (2026-10-14): checked against p. 381 (render: Figure 3 values are not reused; model data only); diagram alt holds every value needed. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q20",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3",
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "correlation",
+        "causation",
+        "evidence",
+        "vultures"
+      ],
+      "familyId": "L28-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A class notices that, over the same years, vultures declined while feral dogs and rabies cases rose. Which extra evidence would best support the claim that losing vultures caused the rise in dogs?",
+      "accessiblePrompt": "A class notices that, over the same years, vultures declined while feral dogs and rabies cases rose. Which extra evidence would best support the claim that losing vultures caused the rise in dogs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A comparison of similar places: dogs rose only where vultures vanished",
+          "rationale": "Correct. A comparison with places that kept their vultures helps rule out other causes of the dog increase."
+        },
+        {
+          "id": "b",
+          "text": "A second graph showing that both trends happened during the very same decade in India.",
+          "rationale": "That only repeats the correlation. Happening at the same time does not show which caused which."
+        },
+        {
+          "id": "c",
+          "text": "A survey showing that most people find vultures unpleasant to look at.",
+          "rationale": "Opinions about how vultures look say nothing about what made dog numbers change."
+        },
+        {
+          "id": "d",
+          "text": "A count of how many vultures lived in India long before 1950.",
+          "rationale": "Old counts do not test whether losing vultures changed dog numbers in the 1990s and 2000s."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Two trends that happen together are a correlation. Comparing places that lost vultures with otherwise similar places that did not helps rule out other explanations, such as changes in garbage or farming. Researchers studying India later made this kind of comparison for human health: death rates rose in places that had been home to many vultures but not in places where vultures had been rare.",
+      "misconception": "If two things change at the same time, one must have caused the other.",
+      "hint": "Two trends at the same time could both come from some other cause. Which evidence could help rule that out?",
+      "followUpId": "L28-Q16",
+      "scope": {
+        "lessonId": "L28",
+        "section": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+        "pages": {
+          "printed": [
+            381
+          ],
+          "pdf": [
+            417
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            381
+          ],
+          "pdfPages": [
+            417
+          ],
+          "locator": "Section 3. Vultures and Rabies, including Figure 3",
+          "supports": "A veterinary drug used on cattle was linked to vulture deaths and the near-loss of three vulture species; more carcasses went to feral dogs, dog numbers rose, and because dogs carry rabies more people were infected; Figure 3 plots vulture numbers falling and feral dog numbers rising from 1992 to 2004; the lost, unrecognized service was disease prevention."
+        },
+        {
+          "type": "external",
+          "title": "New research: The cost of species extinction – Evidence from the collapse of vultures in India",
+          "publisher": "University of Warwick, Department of Economics",
+          "url": "https://warwick.ac.uk/fac/soc/economics/news/2022/11/new_research_the_cost_of_species_extinction__evidence_from_the_collapse_of_vultures_in_india",
+          "accessed": "2026-10-17",
+          "supports": "Comparing data from before and after diclofenac was widely adopted, in areas where vultures had previously thrived, researchers found human death rates rose by more than 4 percent; extra dogs and rats spreading disease and rabies are suggested as one possible pathway."
+        },
+        {
+          "type": "external",
+          "title": "Counting the cost of vulture decline: An appraisal of the human health and other benefits of vultures in India (Markandya et al., Ecological Economics, 2008)",
+          "publisher": "University of Bath Research Portal",
+          "url": "https://researchportal.bath.ac.uk/en/publications/counting-the-cost-of-vulture-declinean-appraisal-of-the-human-hea/",
+          "accessed": "2026-10-14",
+          "supports": "Livestock use of the drug diclofenac caused sharp vulture declines in India; dogs, the main source of human rabies there, also eat carcasses and increased alongside the decline; the authors estimate a significant rabies-related health cost."
+        },
+        {
+          "type": "external",
+          "title": "The Social Costs of Keystone Species Collapse: Evidence from the Decline of Vultures in India (Frank and Sudarshan, American Economic Review 114(10), 2024)",
+          "publisher": "American Economic Association",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230016",
+          "accessed": "2026-10-17",
+          "supports": "The functional extinction of India's vultures, after a cheap painkiller came into wide use on livestock, was a large negative shock to sanitation that raised human mortality by over 4 percent."
+        },
+        {
+          "type": "external",
+          "title": "How does the loss of vultures lead to 500,000 people dying?",
+          "publisher": "Anthropocene Magazine",
+          "url": "https://www.anthropocenemagazine.org/2024/08/how-does-the-loss-of-vultures-lead-to-500000-people-dying/",
+          "accessed": "2026-10-17",
+          "supports": "Economists compared human death statistics in districts that had been vulture habitat with districts where vultures were not previously found: death rates rose in the former after diclofenac spread in the mid-1990s but not in the latter. Rabies-vaccine sales rose from 1996, and more feral dogs feeding on carcasses is offered as a possible, not proven, pathway."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Correlation versus cause (guide guardrail). The keyed comparison is the kind Frank and Sudarshan (AER 2024) made for human death rates; they did not count dogs, so the explanation no longer implies the dog rise was shown this way. The Warwick record now describes only its before/after comparison in former vulture areas. Key a reworded to name a kind of evidence like the other choices. The hint follows the pedagogy reviewer's wording; the science reviewer's hint makes the same point. Verify-agent (2026-10-14): checked against p. 381 (render); Warwick, AER abstract and Anthropocene records re-opened and match their supports text. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and Warwick record match what the comparison study measured (human deaths, not dogs); AER and Anthropocene records added; new hint"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reworded to name a kind of evidence like the other choices; new hint"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q21",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "scavengers",
+        "competition",
+        "model",
+        "ratio",
+        "small-change-big-effect"
+      ],
+      "familyId": "L28-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "In a model village, vultures used to eat 90 out of every 100 livestock carcasses. After the drug spread, they ate only 20 out of every 100. How many times as many carcasses are now left for dogs and other scavengers?",
+      "accessiblePrompt": "In a model village, vultures used to eat 90 out of every 100 livestock carcasses. After the drug spread, they ate only 20 out of every 100. How many times as many carcasses, out of every 100, are now left for dogs and other scavengers?",
+      "conditions": "Model numbers; every carcass the vultures do not eat is available to other scavengers.",
+      "limitations": "A simplified model: in reality some carcasses are buried, burned, or eaten by many different animals.",
+      "answer": 8,
+      "tolerance": 0,
+      "unit": "times as many",
+      "workedSolution": "Before: 100 − 90 = 10 carcasses per 100 left for other scavengers. After: 100 − 20 = 80 left. 80 ÷ 10 = 8, so eight times as many carcasses are left.",
+      "explanation": "When a main scavenger disappears, the food it used to eat does not vanish. It becomes available to other scavengers, which eases competition and lets populations such as feral dogs grow. One change for the vultures meant eight times as much food for dogs, a small change in one part of a system causing a large change in another.",
+      "misconception": "When vultures disappear, the carcasses they used to eat simply disappear too.",
+      "hint": "First work out how many carcasses per 100 were left for other animals before and after.",
+      "followUpId": "L28-Q18",
+      "scope": {
+        "lessonId": "L28",
+        "section": "3. Ecosystem Change Impacts Human Health—Vultures and Rabies",
+        "pages": {
+          "printed": [
+            381
+          ],
+          "pdf": [
+            417
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            381
+          ],
+          "pdfPages": [
+            417
+          ],
+          "locator": "Section 3. Vultures and Rabies, including Figure 3",
+          "supports": "A veterinary drug used on cattle was linked to vulture deaths and the near-loss of three vulture species; more carcasses went to feral dogs, dog numbers rose, and because dogs carry rabies more people were infected; Figure 3 plots vulture numbers falling and feral dog numbers rising from 1992 to 2004; the lost, unrecognized service was disease prevention."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Next Generation Science Standards box (Crosscutting Concepts: Stability and Change)",
+          "supports": "Small changes in one part of a system might cause large changes in another part."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original model numbers. Pedagogy review: now asks for a ratio instead of a plain subtraction and teaches the crosscutting idea that a small change in one part of a system can cause a large change in another (p. 375). The reviser used 20 (not the reviewer's 10) for the after value: with 90 and 10 the answer 9 equals 90 ÷ 10, so dividing the two prompt numbers would score without any reasoning. With 90 and 20 the answer is 8; the shortcuts give 4.5 (90 ÷ 20) or 70 (90 − 20). Verify-agent (2026-10-14): checked against pp. 375 (render: Stability and Change) and 381; arithmetic re-done: 80 / 10 = 8. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: asks for a ratio (answer 8 times as many); explanation adds the small-change, large-effect idea; new hint"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q22",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "dunes",
+        "flood-control",
+        "development",
+        "prediction"
+      ],
+      "familyId": "L28-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A beach town bulldozes its sand dunes and dune grass to build a row of hotels. What is most likely to happen during the next strong coastal storm?",
+      "accessiblePrompt": "A beach town bulldozes its sand dunes and dune grass to build a row of hotels. What is most likely to happen during the next strong coastal storm?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Waves and floodwater reach farther inland, causing more erosion and damage.",
+          "rationale": "Correct. Without the dune barrier and its plants, storm water travels farther and carries away more sand and soil."
+        },
+        {
+          "id": "e",
+          "text": "Flooding decreases, because the hotels now block waves the way the dunes did.",
+          "rationale": "Buildings are not built to take storm waves the way dunes and grass do. Water flows around and between them, and the buildings themselves are damaged."
+        },
+        {
+          "id": "c",
+          "text": "Nothing changes, since storm damage depends only on the weather.",
+          "rationale": "Storm damage also depends on what stands in the water's way, such as dunes and marshes."
+        },
+        {
+          "id": "d",
+          "text": "The beach grows wider because the storm waves pile up all the sand that was lost.",
+          "rationale": "Storms without dunes usually carry sand away, so beaches and shorelines erode."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Dunes and their grasses act as a natural barrier: they take the force of waves, hold sand in place, and slow water moving inland. Remove them and storms reach buildings and roads more easily, so erosion and flood damage increase, a problem made worse as sea level rises.",
+      "misconception": "Buildings can replace the protection dunes provide, or storm damage depends only on how strong the storm is.",
+      "hint": "What stood between the ocean and the town before the bulldozers came?",
+      "followUpId": "L28-Q16",
+      "scope": {
+        "lessonId": "L28",
+        "section": "4. Ecosystem Change Impacts Human Environments—Flooding",
+        "pages": {
+          "printed": [
+            382
+          ],
+          "pdf": [
+            418
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            382
+          ],
+          "pdfPages": [
+            418
+          ],
+          "locator": "4. Ecosystem Change Impacts Human Environments—Flooding",
+          "supports": "Coastal marshes, swamps and dunes reduce flooding risk; healthy beach grasses reduce storm impact and erosion; building towns and roads destroys these ecosystems so they can no longer provide the service, and rising sea level adds to the threat."
+        },
+        {
+          "type": "external",
+          "title": "What is a living shoreline?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/living-shoreline.html",
+          "accessed": "2026-10-14",
+          "supports": "Marshes and oyster reefs act as natural barriers to waves (15 feet of marsh can absorb about half of incoming wave energy), and living shorelines are more resilient in storms than bulkheads."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 382. Pedagogy review: the hotels-soak-up-seawater distractor was replaced by hotels blocking waves like dunes (new id e), which tests the named misconception. Verify-agent (2026-10-14): checked against p. 382 (OCR, clean) and NOAA record; key uniquely correct. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hotels-soak-up-seawater distractor replaced by hotels-block-waves (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q23",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3"
+      ],
+      "conceptTags": [
+        "dunes",
+        "beach-grass",
+        "erosion",
+        "roots"
+      ],
+      "familyId": "L28-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "How do beach grasses help protect a coastal dune?",
+      "accessiblePrompt": "How do beach grasses help protect a coastal dune?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their roots grip the sand and help slow water flowing over it.",
+          "rationale": "Correct. Roots hold the sand together and the plants slow moving water, reducing erosion."
+        },
+        {
+          "id": "b",
+          "text": "They soak up all of the ocean water that a storm pushes onto the beach.",
+          "rationale": "Plants cannot absorb a storm's worth of seawater. Their main help is holding sand and slowing water."
+        },
+        {
+          "id": "c",
+          "text": "They lower the sea level around the beach during storms.",
+          "rationale": "Plants have no effect on sea level; it rises and falls for other reasons."
+        },
+        {
+          "id": "d",
+          "text": "They shade the sand and keep it cool on hot summer days.",
+          "rationale": "Shade has nothing to do with protecting a dune from storm erosion."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Beach grass roots form a dense net that grips sand, and the plants slow water moving across the dune, so storms wash away less. Between storms, the stiff leaves also trap wind-blown sand, helping the dune grow. That is why restoring dunes usually means replanting beach grass, not just piling up sand.",
+      "misconception": "Dune plants protect coasts by soaking up all of the floodwater.",
+      "hint": "Picture storm water rushing over bare sand, then over sand covered in grass. What is different?",
+      "followUpId": "L28-Q05",
+      "scope": {
+        "lessonId": "L28",
+        "section": "4. Ecosystem Change Impacts Human Environments—Flooding",
+        "pages": {
+          "printed": [
+            383
+          ],
+          "pdf": [
+            419
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            383
+          ],
+          "pdfPages": [
+            419
+          ],
+          "locator": "4. Ecosystem Change Impacts Human Environments—Flooding",
+          "supports": "Communities restore flood protection by restoring dunes, planting beach grasses whose roots hold soil and slow water, using river diversions to rebuild natural buffers, and limiting development on coasts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            382
+          ],
+          "pdfPages": [
+            418
+          ],
+          "locator": "4. Ecosystem Change Impacts Human Environments—Flooding",
+          "supports": "Coastal marshes, swamps and dunes reduce flooding risk; healthy beach grasses reduce storm impact and erosion; building towns and roads destroys these ecosystems so they can no longer provide the service, and rising sea level adds to the threat."
+        },
+        {
+          "type": "external",
+          "title": "Battling Beach Erosion with a Blade of Grass",
+          "publisher": "University of New Hampshire",
+          "url": "https://www.unh.edu/news/battling-beach-erosion-blade-grass",
+          "accessed": "2026-10-17",
+          "supports": "The stiff leaves of beachgrass catch wind-blown sand and help dunes grow, while deep roots and sideways-spreading rhizomes give the dune structure against erosion."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "See L28-RF8 on the 'absorb water' wording. Drafted from rendered pp. 382-383. Pedagogy review: new hint that does not point at the only roots choice. The explanation applies the science reviewer's optional note that the leaves trap wind-blown sand (UNH record); the key is unchanged. Verify-agent (2026-10-14): checked against pp. 382-383 (render of p. 383: beach-grass roots hold soil and slow water); UNH record re-opened (leaves trap wind-blown sand, roots and rhizomes give structure). Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the only roots choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q24",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O3",
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "restoration",
+        "dunes",
+        "flood-control",
+        "solutions"
+      ],
+      "familyId": "L28-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A coastal town near the mouth of a large river lost dunes and marshes to development. Which actions would help restore and protect the shoreline's natural flood defenses? Select all that apply.",
+      "accessiblePrompt": "A coastal town near the mouth of a large river lost its dunes and marshes to development. Which of these actions would help restore and protect the shoreline's natural flood defenses? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Plant native beach grasses on damaged dunes",
+          "rationale": "Correct. Grass roots hold sand and rebuild the dune's protection."
+        },
+        {
+          "id": "b",
+          "text": "Limit new building on dunes and coastal wetlands",
+          "rationale": "Correct. Keeping construction off these areas lets them keep working as buffers."
+        },
+        {
+          "id": "c",
+          "text": "Use river diversions to help rebuild coastal marshes",
+          "rationale": "Correct. Sending river water and sediment back into marshes helps restore natural buffers against storms. This works where a river can carry sediment into the marshes."
+        },
+        {
+          "id": "f",
+          "text": "Replace the damaged dunes with a tall concrete seawall",
+          "rationale": "A seawall is built technology, not natural protection. It may block some waves, but it does not bring back the dune ecosystem or the service it provided."
+        },
+        {
+          "id": "g",
+          "text": "Pave the beach so its sand cannot wash away",
+          "rationale": "Paving destroys the beach and dune ecosystem instead of restoring it, removing the living buffer the town wants back."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Restoring an ecosystem restores its service. Replanting beach grass, keeping new construction off dunes and wetlands, and steering river water and sediment back into marshes all rebuild living buffers. A seawall or pavement may look sturdy, but neither brings back the dunes and marshes that slowed storms and held sand.",
+      "misconception": "Any action that hardens or clears a shore brings back natural flood protection.",
+      "hint": "Which actions rebuild living buffers, and which replace them with something built?",
+      "followUpId": "L28-Q26",
+      "scope": {
+        "lessonId": "L28",
+        "section": "4. Ecosystem Change Impacts Human Environments—Flooding",
+        "pages": {
+          "printed": [
+            383
+          ],
+          "pdf": [
+            419
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            383
+          ],
+          "pdfPages": [
+            419
+          ],
+          "locator": "4. Ecosystem Change Impacts Human Environments—Flooding",
+          "supports": "Communities restore flood protection by restoring dunes, planting beach grasses whose roots hold soil and slow water, using river diversions to rebuild natural buffers, and limiting development on coasts."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct of five, all from the text's list of restoration steps (p. 383). Science review: the town now sits near a large river mouth, so river diversions clearly apply, and the stem says restore and protect, which covers limiting new building. Pedagogy review: the obviously harmful distractors were replaced by hardening options a learner might pick (seawall f, paving g). 'Tall' was added to f so the keyed c is not the longest choice. Verify-agent (2026-10-14): checked against p. 383 (render): all three keys are on the page's list of restoration steps; both distractors are hardening, not restoration. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: town placed near a large river mouth; stem says restore and protect; c rationale notes where diversions work"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors replaced by seawall (f) and paving (g); stem asks about natural defenses; misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q25",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "engineering-design",
+        "new-york-city"
+      ],
+      "familyId": "L28-F10",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Engineers planning New York City's water supply listed what a solution had to achieve and the limits it had to stay within. Sort each item as a criterion or a constraint.",
+      "accessiblePrompt": "Engineers planning New York City's water supply listed what a solution had to achieve and the limits it had to stay within. Sort each of five items as a criterion or a constraint.",
+      "limitations": "In other projects, protecting the environment is sometimes written as a criterion; here it is worded as a limit, as in the lesson's list.",
+      "items": [
+        {
+          "id": "clean",
+          "text": "The water must be clean and safe to drink",
+          "rationale": "Criterion: it describes what success requires."
+        },
+        {
+          "id": "afford",
+          "text": "Its cost must stay within what the city can pay over time",
+          "rationale": "Constraint: cost limits which solutions are possible."
+        },
+        {
+          "id": "enough",
+          "text": "There must be enough water for millions of people",
+          "rationale": "Criterion: supplying enough water is part of the job."
+        },
+        {
+          "id": "env",
+          "text": "It must not harm the forests, streams, and wetlands near the city",
+          "rationale": "Constraint: a limit on how the problem may be solved."
+        },
+        {
+          "id": "future",
+          "text": "The supply must keep up as the city grows",
+          "rationale": "Criterion: the solution must keep working in the future."
+        }
+      ],
+      "bins": [
+        {
+          "id": "criterion",
+          "label": "Criterion (what success requires)"
+        },
+        {
+          "id": "constraint",
+          "label": "Constraint (a limit to work within)"
+        }
+      ],
+      "answer": {
+        "clean": "criterion",
+        "afford": "constraint",
+        "enough": "criterion",
+        "env": "constraint",
+        "future": "criterion"
+      },
+      "explanation": "Criteria describe what a successful solution must accomplish: clean water, enough of it, and room to grow. Constraints are limits the solution must respect, such as cost and impact on the environment. Defining both precisely makes it easier to compare possible solutions fairly.",
+      "misconception": "Criteria and constraints mean the same thing, or cost is a goal rather than a limit.",
+      "hint": "Is the item describing the job the solution must do, or a boundary it must stay inside?",
+      "followUpId": "L28-Q27",
+      "scope": {
+        "lessonId": "L28",
+        "section": "5. Clean Drinking Water for New York City",
+        "pages": {
+          "printed": [
+            384
+          ],
+          "pdf": [
+            420
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            384
+          ],
+          "pdfPages": [
+            420
+          ],
+          "locator": "Section 5. Clean Drinking Water for New York City (Engineering Design)",
+          "supports": "Engineers defined criteria (clean water, enough for the population, meets future growth) and constraints (economical over time, protects the environment) for New York City's water supply."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Follows the textbook's split for New York City (p. 384). Pedagogy review: the cost and environment items are now worded as limits, so each bin follows from the definitions rather than from remembering the textbook's list. Verify-agent (2026-10-14): checked against p. 384 (render): criteria and constraints match the textbook split; the limitation covers the criterion/constraint fuzziness. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: cost and environment items worded as limits; prompt no longer asks learners to recall the lesson's sort"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q26",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "watershed",
+        "ecosystem-service",
+        "engineering-design",
+        "new-york-city"
+      ],
+      "familyId": "L28-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why did protecting upstate watersheds fit New York City's criteria and constraints better than building a huge new filtration plant?",
+      "accessiblePrompt": "Why did protecting upstate watersheds fit New York City's criteria and constraints better than building a huge new water filtration plant?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It kept water clean at lower long-term cost and protected ecosystems.",
+          "rationale": "Correct. It met the clean-water and supply criteria and fit both constraints: cost and the environment."
+        },
+        {
+          "id": "b",
+          "text": "It meant the water would never need to be tested or monitored again.",
+          "rationale": "Scientists keep monitoring the watersheds; a natural system only works while it stays healthy."
+        },
+        {
+          "id": "c",
+          "text": "It meant the city's water would no longer need any disinfection at all.",
+          "rationale": "The water is still disinfected. Watershed protection lets most of it skip filtration, not all treatment."
+        },
+        {
+          "id": "e",
+          "text": "It cost more than a new plant, but it protected the environment better.",
+          "rationale": "The lesson says protecting the watersheds saved money. It fit the cost constraint as well as the environmental one; the city did not trade money for nature."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A huge new filtration plant would have been costly to build and run, and the lesson argues it might still fall behind a growing city. Protecting the watersheds let forests, soils, streams, and wetlands keep cleaning the water naturally, meeting the needs for clean, plentiful water while staying affordable and protecting the environment. The water is still disinfected and monitored.",
+      "misconception": "Using an ecosystem service means no further treatment, testing, or upkeep is ever needed, or a nature-based plan must cost more.",
+      "hint": "Check each choice against the city's list: clean, enough, growing, affordable, protects the environment.",
+      "followUpId": "L28-Q12",
+      "scope": {
+        "lessonId": "L28",
+        "section": "5. Clean Drinking Water for New York City",
+        "pages": {
+          "printed": [
+            385
+          ],
+          "pdf": [
+            421
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            385
+          ],
+          "pdfPages": [
+            421
+          ],
+          "locator": "Section 5. Use Ecosystems to Clean Water",
+          "supports": "Larger treatment plants were expensive and unlikely to meet long-term needs; engineers instead protected the watersheds that naturally clean the city's water, which saves money and protects ecosystems; scientists monitor the water quality."
+        },
+        {
+          "type": "external",
+          "title": "Filtration Avoidance Determination",
+          "publisher": "New York City Department of Environmental Protection",
+          "url": "https://www.nyc.gov/site/dep/about/filtration-avoidance-determination.page",
+          "accessed": "2026-10-14",
+          "supports": "Since January 1993 the Catskill/Delaware supply has met the criteria for waivers from federal filtration requirements, kept in place through source-water (watershed) protection programs."
+        },
+        {
+          "type": "external",
+          "title": "History of New York City's Drinking Water",
+          "publisher": "New York City Department of Environmental Protection",
+          "url": "https://www.nyc.gov/site/dep/water/history-of-new-york-citys-drinking-water.page",
+          "accessed": "2026-10-14",
+          "supports": "Chlorine is added to New York City's water to kill bacteria; the Croton system normally supplies about 10 percent of the city's water."
+        },
+        {
+          "type": "external",
+          "title": "History of the New York City Watershed Filtration Avoidance Determination",
+          "publisher": "U.S. Environmental Protection Agency, Region 2 (archived document)",
+          "url": "https://archive.epa.gov/region02/water/nycshed/web/pdf/fadhistory.pdf",
+          "accessed": "2026-10-17",
+          "supports": "Under the Surface Water Treatment Rule a surface supply must be filtered unless it qualifies for filtration avoidance, which requires meeting water-quality limits, keeping disinfection in place and running a watershed control program. EPA found in 1993 that New York City met the criteria, so the Catskill/Delaware system is an unfiltered supply protected by land acquisition, watershed rules and farm programs, while the Croton system must be filtered."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Distractors b and c repair the 'no treatment or monitoring' overreading (L28-RF6). Pedagogy review: the absolute 'treatment plants cannot remove any dirt' distractor was replaced by a hedged cost misconception (new id e), so the key is no longer the only choice without absolute wording. The prompt names a huge new filtration plant, applying the science reviewer's optional historical note (the Catskill/Delaware supply had no filtration plant; EPA record). Key a was shortened so it is not the longest choice. Drafted from rendered pp. 384-385. Verify-agent (2026-10-14): checked against p. 385 (OCR, clean) and p. 384 (render); NYC DEP filtration-avoidance and history pages re-opened. The archived EPA PDF came back as unreadable binary through the verifier's fetch tool; the NYC DEP pages alone support the key's corrections (waiver since 1993, chlorine still added). Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute distractor d replaced by the costs-more misconception (new id e); key shortened"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q27",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "cost-benefit",
+        "fictional-values",
+        "engineering-design",
+        "calculation"
+      ],
+      "familyId": "L28-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "In the made-up town of Fernbrook (all money values are invented), Plan A builds a filtration plant for 60 million coins plus 5 million coins a year to run. Plan B protects the upstream wetlands for 25 million coins plus 2 million coins a year. Over 10 years, how much less does Plan B cost?",
+      "accessiblePrompt": "In the made-up town of Fernbrook, where all money values are invented, Plan A builds a filtration plant for 60 million coins, plus 5 million coins a year to run it. Plan B protects the upstream wetlands for 25 million coins, plus 2 million coins a year. Over 10 years, how much less does Plan B cost?",
+      "conditions": "All values are fictional. Yearly costs stay the same for all 10 years, and both plans supply enough clean water.",
+      "limitations": "A price comparison leaves out values that are hard to put in money, such as wildlife, recreation, and beauty, and real costs change over time.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Fernbrook's two water plans (made-up money)",
+        "alt": "A table of two fictional plans. Plan A, build a filtration plant: up-front cost 60 million coins, yearly cost 5 million coins. Plan B, protect the upstream wetlands: up-front cost 25 million coins, yearly cost 2 million coins.",
+        "columns": [
+          "Plan",
+          "Up-front cost (million coins)",
+          "Yearly cost (million coins)"
+        ],
+        "rows": [
+          [
+            "A: build a filtration plant",
+            60,
+            5
+          ],
+          [
+            "B: protect upstream wetlands",
+            25,
+            2
+          ]
+        ]
+      },
+      "answer": 65,
+      "tolerance": 0,
+      "unit": "million coins (made-up money)",
+      "workedSolution": "Plan A: 60 + (5 × 10) = 110 million coins. Plan B: 25 + (2 × 10) = 45 million coins. Difference: 110 − 45 = 65 million coins less for Plan B.",
+      "explanation": "Comparing total costs over time, not just the up-front price, is part of judging a design against a cost constraint. Here the wetland plan costs less over 10 years, but the numbers are only one piece of evidence: a full decision also weighs how well each plan meets the criteria and what else the wetlands provide.",
+      "misconception": "Only the up-front price matters when comparing solutions.",
+      "hint": "Add each plan's up-front cost to ten years of its yearly cost.",
+      "followUpId": "L28-Q25",
+      "scope": {
+        "lessonId": "L28",
+        "section": "5. Clean Drinking Water for New York City",
+        "pages": {
+          "printed": [
+            384,
+            385
+          ],
+          "pdf": [
+            420,
+            421
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            384
+          ],
+          "pdfPages": [
+            420
+          ],
+          "locator": "Section 5. Clean Drinking Water for New York City (Engineering Design)",
+          "supports": "Engineers defined criteria (clean water, enough for the population, meets future growth) and constraints (economical over time, protects the environment) for New York City's water supply."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            385
+          ],
+          "pdfPages": [
+            421
+          ],
+          "locator": "Section 5. Use Ecosystems to Clean Water",
+          "supports": "Larger treatment plants were expensive and unlikely to meet long-term needs; engineers instead protected the watersheds that naturally clean the city's water, which saves money and protects ecosystems; scientists monitor the water quality."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Fictional town and money as the brief requires (L28-RF10). No real costs implied. Pedagogy review: Plan A's yearly cost is now 5 and Plan B's up-front cost 25 million coins, so the answer (65) matches no number in the prompt; comparing up-front costs only gives 35. Verify-agent (2026-10-14): checked against pp. 384-385; arithmetic re-done: (60 + 50) - (25 + 20) = 65 million coins. Cosmetic fix: the prompt now says \"2 million coins a year\" to match the read-aloud and table. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new numbers so the answer (65) matches no value in the prompt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q28",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O4",
+        "L28-O1"
+      ],
+      "conceptTags": [
+        "stakeholders",
+        "values",
+        "wetlands",
+        "decision-making"
+      ],
+      "familyId": "L28-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Fernbrook's council must decide about a marsh. A builder offers 5 million coins (made-up money) to fill it for houses. Downstream families rely on it to slow floods, birdwatchers visit it, and the water department counts on it to clean water. Which response best weighs these needs?",
+      "accessiblePrompt": "Fernbrook's council must decide about a marsh. A builder offers 5 million coins, which is made-up money, to fill the marsh for houses. Downstream families rely on the marsh to slow floods, birdwatchers visit it, and the water department counts on it to clean water. Which response best weighs all these needs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Weigh the marsh's flood control, clean water, and wildlife alongside the builder's offer.",
+          "rationale": "Correct. It keeps every stakeholder's needs in view and counts values that a sale price leaves out."
+        },
+        {
+          "id": "b",
+          "text": "The builder's offer is the marsh's full value, because money is the only real way to measure worth.",
+          "rationale": "A sale price misses flood protection, clean water, and recreation that many other people rely on."
+        },
+        {
+          "id": "c",
+          "text": "Only the birdwatchers' wishes matter, because wildlife lived in the marsh first.",
+          "rationale": "This ignores the families and the water department, who also depend on the marsh."
+        },
+        {
+          "id": "e",
+          "text": "Accept the offer, since a treatment plant could take over the marsh's water cleaning.",
+          "rationale": "A plant costs money to build and run, and it would not slow floods or support birds, so the families and birdwatchers would still lose out."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stakeholders are the people affected by a decision. A sale price captures what one buyer will pay, but not the flood protection, cleaner water, and recreation the marsh gives everyone else, now and in the future. A treatment plant could clean some water, but it would cost money to run and would not slow floods or shelter birds. Weighing all of these with evidence leads to fairer, longer-lasting decisions.",
+      "misconception": "Nature's value equals its price, or one group's interests should decide for everyone.",
+      "hint": "List who depends on the marsh and what each group would lose if it were filled.",
+      "followUpId": "L28-Q01",
+      "scope": {
+        "lessonId": "L28",
+        "section": "Key Science Concept: Humans Rely on Ecosystem Services",
+        "pages": {
+          "printed": [
+            378,
+            382
+          ],
+          "pdf": [
+            414,
+            418
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            378
+          ],
+          "pdfPages": [
+            414
+          ],
+          "locator": "Key Science Concept: Humans Rely on Ecosystem Services (services wheel)",
+          "supports": "A wheel of sixteen ecosystem services: pollination, erosion or flood control, water purification, carbon storage, photosynthesis, decomposition, soil formation, medicine, pest control, scientific discovery, appreciation, nutrient recycling, air purification, recreation, biodiversity, and food."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            382
+          ],
+          "pdfPages": [
+            418
+          ],
+          "locator": "4. Ecosystem Change Impacts Human Environments—Flooding",
+          "supports": "Coastal marshes, swamps and dunes reduce flooding risk; healthy beach grasses reduce storm impact and erosion; building towns and roads destroys these ecosystems so they can no longer provide the service, and rising sea level adds to the threat."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Weighs stakeholder needs and non-price values (brief mission). Fictional money. Pedagogy review: the key no longer opens with the cue 'A fair choice', and the straw-man 'loudest group' distractor was replaced by the treatment-plant substitute idea (new id e); the stem now says 'response' so the advice-style choices fit it. The hint follows the pedagogy reviewer's wording; the science reviewer's hint (who else depends on the marsh) makes the same nudge. Verify-agent (2026-10-14): checked against pp. 378 (render: recreation, appreciation, water purification and flood control on the wheel) and 382; money labelled as made up; does not imply price is nature's only value. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the key's wording"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key reworded; straw-man d replaced by the treatment-plant idea (new id e); new hint"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q29",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O1"
+      ],
+      "conceptTags": [
+        "healthy-ecosystem",
+        "biodiversity",
+        "decomposers",
+        "observation"
+      ],
+      "familyId": "L28-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which observations would suggest that a meadow is a healthy ecosystem, able to build soil and support pollinators? Select all that apply.",
+      "accessiblePrompt": "Which of these observations would suggest that a meadow is a healthy ecosystem, able to build soil and support pollinators? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many different kinds of plants, insects, and birds live there",
+          "rationale": "Correct. A wide variety of species is one of the main signs of a healthy ecosystem, and it includes the pollinators that crops need."
+        },
+        {
+          "id": "b",
+          "text": "Fungi and bacteria are steadily breaking down fallen leaves",
+          "rationale": "Correct. Decomposers at work mean nutrients are being returned to the soil, which keeps building it."
+        },
+        {
+          "id": "c",
+          "text": "One kind of grass covers the meadow in a neat carpet with no weeds",
+          "rationale": "A tidy carpet of one grass has very little variety. Biodiversity is often used to judge an ecosystem's health, and one species supports few pollinators or other animals."
+        },
+        {
+          "id": "d",
+          "text": "Hardly any insects live there, so the flower leaves stay unchewed",
+          "rationale": "Insects include pollinators and food for birds and other animals. Very few insects is usually a warning sign, not a sign of health."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A healthy ecosystem is busy. Many kinds of producers and consumers live there, and decomposers break down dead material, returning nutrients to the soil. Scientists often use an ecosystem's variety of life as a measure of its health, so a neat one-grass meadow or one with hardly any insects suggests parts of the system are not working.",
+      "misconception": "A healthy ecosystem looks tidy, with one kind of plant and nothing eating it.",
+      "hint": "Would a meadow with fewer kinds of living things be better or worse at building soil and feeding pollinators?",
+      "followUpId": "L28-Q13",
+      "scope": {
+        "lessonId": "L28",
+        "section": "1. Healthy Ecosystems Provide Services",
+        "pages": {
+          "printed": [
+            375,
+            376
+          ],
+          "pdf": [
+            411,
+            412
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            376
+          ],
+          "pdfPages": [
+            412
+          ],
+          "locator": "1. Healthy Ecosystems Provide Services",
+          "supports": "A healthy meadow is bustling rather than still: producers photosynthesize, predators hunt, decomposers break down wastes and organisms of many kinds carry out cellular respiration; healthy ecosystems maintain populations that protect biodiversity."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Next Generation Science Standards box (LS2.C, ETS1.A, MS-LS2-5, Stability and Change)",
+          "supports": "The standards box says the completeness of an ecosystem's biodiversity is often used as a measure of its health, that small changes in one part of a system might cause large changes in another, that the more precisely a design task's criteria and constraints are defined the more likely the solution is to succeed, and asks students to evaluate competing design solutions for maintaining biodiversity and ecosystem services."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (pedagogy review coverage finding): no item tested what makes an ecosystem healthy, which the introduction promises. Two correct of four; distractors target 'tidy means healthy' and 'no insects means healthy'. Drafted from rendered pp. 375-376 (meadow description, LS2.C box). Keys are not the longest choices. Verify-agent (2026-10-14): checked against pp. 375 (render: LS2.C says biodiversity is often used to measure ecosystem health) and 376. This item had no separate science or pedagogy pass, so the verifier checked both: keys correct, distractors are real misconceptions, keys not the longest choices. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q30",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "competing-designs",
+        "flood-control",
+        "fictional-values"
+      ],
+      "familyId": "L28-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The made-up town of Gullport (all money is invented) needs a flood plan. It must protect homes in typical storms and keep the beach open, cost no more than 30 million coins over 10 years, and not harm nesting shorebirds. Based on the table, which design fits?",
+      "accessiblePrompt": "The made-up town of Gullport, where all money is invented, needs a flood plan. The plan must protect homes in typical storms, keep the beach open to visitors, cost no more than 30 million coins over 10 years, and not harm nesting shorebirds. A table rates four designs. A concrete seawall protects homes, but the beach narrows and closes, it costs 45 million coins, and the nesting beach is lost. Rebuilding dunes and planting beach grass protects homes, keeps the beach open, costs 25 million coins, and does not harm the birds. Doing nothing does not protect homes, keeps the beach open, costs 0 coins, and does not harm the birds. Trucking in new sand every spring protects homes, keeps the beach open, and costs 28 million coins, but the spring work disturbs nesting birds. Which design fits all of these requirements?",
+      "conditions": "All designs, ratings, and money values are made up for this town. Judge each design only on the four requirements in the table.",
+      "limitations": "Real designs are compared using engineering studies and monitoring, and no design stops every storm; the biggest storms can still overtop dunes.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Gullport's four flood designs (made-up ratings and money)",
+        "alt": "A table of four made-up flood designs for Gullport, rated on four requirements. Concrete seawall: protects homes in typical storms, yes; beach stays open, no, the beach narrows; cost over 10 years 45 million coins; nesting shorebirds harmed because the nesting beach is lost. Rebuild dunes and plant beach grass: protects homes, yes; beach open, yes; cost 25 million coins; birds not harmed. Do nothing: protects homes, no; beach open, yes; cost 0; birds not harmed. Truck in new sand every spring: protects homes, yes; beach open, yes; cost 28 million coins; birds harmed because spring work disturbs nests.",
+        "columns": [
+          "Design",
+          "Protects homes in typical storms",
+          "Beach stays open",
+          "Cost over 10 years (million coins)",
+          "Nesting shorebirds"
+        ],
+        "rows": [
+          [
+            "Concrete seawall",
+            "Yes",
+            "No: the beach narrows",
+            45,
+            "Harmed: nesting beach lost"
+          ],
+          [
+            "Rebuild dunes and plant beach grass",
+            "Yes",
+            "Yes",
+            25,
+            "Not harmed"
+          ],
+          [
+            "Do nothing",
+            "No",
+            "Yes",
+            0,
+            "Not harmed"
+          ],
+          [
+            "Truck in new sand every spring",
+            "Yes",
+            "Yes",
+            28,
+            "Harmed: spring work disturbs nests"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dunes and beach grass: it meets both criteria and both limits",
+          "rationale": "Correct. It protects homes and keeps the beach open (both criteria), costs 25 million coins, under the 30 million limit, and does not harm the birds."
+        },
+        {
+          "id": "b",
+          "text": "Concrete seawall: it protects homes, the most important need",
+          "rationale": "Protecting homes matters, but a design must meet all the criteria and constraints. The seawall closes the beach, costs 45 million coins, over the limit, and removes nesting beach."
+        },
+        {
+          "id": "c",
+          "text": "Do nothing: it is the cheapest, and cost is a limit",
+          "rationale": "Staying under budget is required, but a solution must also do its job. Doing nothing leaves homes unprotected, so it fails a criterion."
+        },
+        {
+          "id": "d",
+          "text": "Spring sand trucking: it protects homes and stays under budget",
+          "rationale": "It meets both criteria and the cost limit, but the spring work disturbs nesting shorebirds, so it breaks the environmental constraint."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A design succeeds only if it meets all of the criteria while staying inside all of the constraints. Here the seawall and the sand trucking each break a limit, and doing nothing fails the main job, so restoring dunes and beach grass is the one design that fits. Checking every design against the same list is how engineers evaluate competing solutions.",
+      "misconception": "The design that does the most important job best, or costs the least, is automatically the right choice.",
+      "hint": "Check each design against all four requirements, not just one.",
+      "followUpId": "L28-Q25",
+      "scope": {
+        "lessonId": "L28",
+        "section": "4. Ecosystem Change Impacts Human Environments—Flooding",
+        "pages": {
+          "printed": [
+            383,
+            384
+          ],
+          "pdf": [
+            419,
+            420
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            383
+          ],
+          "pdfPages": [
+            419
+          ],
+          "locator": "4. Ecosystem Change Impacts Human Environments—Flooding",
+          "supports": "Communities restore flood protection by restoring dunes, planting beach grasses whose roots hold soil and slow water, using river diversions to rebuild natural buffers, and limiting development on coasts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            384
+          ],
+          "pdfPages": [
+            420
+          ],
+          "locator": "Section 5. Clean Drinking Water for New York City (Engineering Design)",
+          "supports": "Engineers defined criteria (clean water, enough for the population, meets future growth) and constraints (economical over time, protects the environment) for New York City's water supply."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Next Generation Science Standards box (LS2.C, ETS1.A, MS-LS2-5, Stability and Change)",
+          "supports": "The standards box says the completeness of an ecosystem's biodiversity is often used as a measure of its health, that small changes in one part of a system might cause large changes in another, that the more precisely a design task's criteria and constraints are defined the more likely the solution is to succeed, and asks students to evaluate competing design solutions for maintaining biodiversity and ecosystem services."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (pedagogy review O4 coverage finding): compares made-up competing shoreline designs against stated criteria and constraints (MS-LS2-5, p. 375). Made-up town, ratings and money, labelled in the prompt, conditions and caption. Each distractor is a one-requirement shortcut. Drafted from rendered pp. 375, 383-384. Verify-agent (2026-10-14): checked against pp. 375 (render: MS-LS2-5 competing designs), 383 (render) and 384 (render). This item had no separate science or pedagogy pass, so the verifier checked both: exactly one design meets all four requirements; every value is labelled made up; no disaster advice. Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L28-Q31",
+      "lessonId": "L28",
+      "objectiveIds": [
+        "L28-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "precision",
+        "engineering-design"
+      ],
+      "familyId": "L28-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A team is designing a new water supply for a town. Why does it help to write down the criteria and constraints precisely before choosing a design?",
+      "accessiblePrompt": "A team is designing a new water supply for a town. Why does it help to write down the criteria and the constraints precisely before the team chooses a design?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The team can check each design against one clear list and drop weak ones.",
+          "rationale": "Correct. Clear, precise requirements give a fair standard for comparing designs, so ones that would fail can be spotted early. That makes success more likely."
+        },
+        {
+          "id": "b",
+          "text": "A precise list guarantees that the first design the team tries will work.",
+          "rationale": "Precise criteria make success more likely, not certain. Designs still have to be tested and often improved."
+        },
+        {
+          "id": "c",
+          "text": "Once the list is written, the chosen design will not need any testing.",
+          "rationale": "Designs are still tested and monitored after they are chosen. New York City, for example, keeps checking the quality of its water."
+        },
+        {
+          "id": "d",
+          "text": "It speeds up the work, so the team can simply go with the cheapest design.",
+          "rationale": "Cost is one constraint, not the whole decision. A precise list keeps all the criteria and constraints in view, so the cheapest design loses if it fails the others."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When criteria and constraints are vague, it is hard to tell which design is better. Writing them precisely, including limits set by science, cost, and effects on people and nature, gives a clear checklist for comparing designs. That makes a successful solution more likely, though designs still need testing.",
+      "misconception": "Precise criteria guarantee success, so a chosen design needs no testing, or the cheapest design should win.",
+      "hint": "How would the team decide between two designs if no one had agreed on what success means?",
+      "followUpId": "L28-Q30",
+      "scope": {
+        "lessonId": "L28",
+        "section": "5. Clean Drinking Water for New York City",
+        "pages": {
+          "printed": [
+            375,
+            384,
+            385
+          ],
+          "pdf": [
+            411,
+            420,
+            421
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            375
+          ],
+          "pdfPages": [
+            411
+          ],
+          "locator": "Next Generation Science Standards box (LS2.C, ETS1.A, MS-LS2-5, Stability and Change)",
+          "supports": "The standards box says the completeness of an ecosystem's biodiversity is often used as a measure of its health, that small changes in one part of a system might cause large changes in another, that the more precisely a design task's criteria and constraints are defined the more likely the solution is to succeed, and asks students to evaluate competing design solutions for maintaining biodiversity and ecosystem services."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            384
+          ],
+          "pdfPages": [
+            420
+          ],
+          "locator": "Section 5. Clean Drinking Water for New York City (Engineering Design)",
+          "supports": "Engineers defined criteria (clean water, enough for the population, meets future growth) and constraints (economical over time, protects the environment) for New York City's water supply."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            385
+          ],
+          "pdfPages": [
+            421
+          ],
+          "locator": "Section 5. Use Ecosystems to Clean Water",
+          "supports": "Larger treatment plants were expensive and unlikely to meet long-term needs; engineers instead protected the watersheds that naturally clean the city's water, which saves money and protects ecosystems; scientists monitor the water quality."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (pedagogy review's optional F10 item): why defining criteria and constraints precisely makes success more likely (ETS1.A, p. 375; pp. 384-385 describe the engineers defining them precisely). Distractors: precision guarantees success, no testing needed, cheapest wins (non-absolute). Key is not the longest choice. Drafted from rendered pp. 375, 384-385. Verify-agent (2026-10-14): checked against pp. 375 (render: ETS1.A), 384 (render) and 385. This item had no separate science or pedagogy pass, so the verifier checked both: key matches ETS1.A, and each distractor targets a real mix-up (precision guarantees success, no testing needed, cheapest wins). Validator, length-cue, follow-up-family and 9-word OCR-overlap checks clean.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

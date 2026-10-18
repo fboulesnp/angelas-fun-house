@@ -1,0 +1,3566 @@
+{
+  "lessonId": "L24",
+  "questions": [
+    {
+      "id": "L24-Q01",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "temperature",
+        "thermal energy",
+        "amount of matter"
+      ],
+      "familyId": "L24-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Two pots of water are boiling side by side at normal sea-level air pressure. One pot is small, and the other is much larger. Which statement is correct?",
+      "accessiblePrompt": "Two pots of water are boiling side by side at normal sea-level air pressure. One pot is small, and the other is much larger. Which statement about the two pots is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The larger pot is at a higher temperature because it holds more water.",
+          "rationale": "Temperature is an average, so adding more molecules does not raise it; both pots are boiling at the same temperature."
+        },
+        {
+          "id": "b",
+          "text": "They are at the same temperature, but the larger pot has more thermal energy.",
+          "rationale": "Correct: both read 100 °C, so their molecules have the same average energy of motion, but the larger pot has many more molecules adding to its total."
+        },
+        {
+          "id": "c",
+          "text": "They have the same thermal energy because they are at the same temperature.",
+          "rationale": "Equal temperatures mean equal averages, not equal totals; the larger pot's extra molecules give it more thermal energy."
+        },
+        {
+          "id": "d",
+          "text": "The small pot has more thermal energy because its water came to a boil sooner.",
+          "rationale": "Boiling sooner only means there was less water to warm; the small pot holds less total energy, not more."
+        }
+      ],
+      "answer": "b",
+      "conditions": "Normal sea-level air pressure; both pots hold pure water that is boiling.",
+      "explanation": "Temperature tells the average energy of motion of the particles, and both pots boil at the same temperature. Thermal energy is a total, so it grows with the number of particles. The larger pot has the same average but many more molecules, so it holds more thermal energy.",
+      "misconception": "A larger amount of a substance must be at a higher temperature, or equal temperatures mean equal thermal energy.",
+      "hint": "One of these quantities is an average, and one is a total.",
+      "followUpId": "L24-Q04",
+      "scope": {
+        "lessonId": "L24",
+        "section": "Spread: Comparing Heat, Thermal Energy, and Temperature",
+        "pages": {
+          "printed": [
+            312
+          ],
+          "pdf": [
+            348
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            312
+          ],
+          "pdfPages": [
+            348
+          ],
+          "locator": "Spread: Comparing Heat, Thermal Energy, and Temperature (Heating)",
+          "supports": "Two differently sized pots of boiling water both read 100 °C, so they have the same temperature; the larger pot holds more water and more thermal energy."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Temperature measures an average, so more particles do not mean a higher temperature, while a sample with more particles has more thermal energy."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Built on the pp. 312-313 spread; the spread's cut-off last line (L24-RF1) is not relied on, and the same claim is cited from p. 310. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 312; evidence pp. 310, 312) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q02",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "temperature",
+        "thermal energy",
+        "average versus total"
+      ],
+      "familyId": "L24-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A large pitcher holds 5 liters of water at 25 °C. A mug holds 0.25 liters of water at 90 °C. Which comparison is correct?",
+      "accessiblePrompt": "A large pitcher holds 5 liters of water at 25 degrees Celsius. A mug holds 0.25 liters, a quarter of a liter, of water at 90 degrees Celsius. Which comparison of the two samples is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mug holds more thermal energy because it is at the higher temperature.",
+          "rationale": "A higher temperature means a higher average for each molecule, but the mug has only one-twentieth as many molecules, so its total is smaller."
+        },
+        {
+          "id": "e",
+          "text": "The pitcher's molecules move faster on average, but the mug holds more thermal energy.",
+          "rationale": "This swaps the two ideas: the 90 °C mug has the faster molecules on average, and the pitcher, with 20 times as much water, has the bigger total."
+        },
+        {
+          "id": "c",
+          "text": "Their molecules move at the same average speed, because both samples are water.",
+          "rationale": "Being the same substance does not fix the speed; the hotter water's molecules move faster on average."
+        },
+        {
+          "id": "d",
+          "text": "The mug's molecules move faster on average, but the pitcher holds more thermal energy.",
+          "rationale": "Correct: the mug has the higher temperature, but the pitcher has 20 times as much water, so its total thermal energy is much larger."
+        }
+      ],
+      "answer": "d",
+      "limitations": "Thermal energy here means the total energy of particle motion, as in the lesson. The comparison is safe because the pitcher holds 20 times as much water (see L24-RF6).",
+      "explanation": "Temperature compares the average energy of motion of the molecules, so the 90 °C mug is ahead there. Thermal energy adds up the energy of every molecule. The pitcher has 20 times as many molecules, so its total thermal energy is far larger even though each one moves more slowly on average.",
+      "misconception": "The hotter sample always has more thermal energy.",
+      "hint": "Compare the averages first, then think about how many molecules add to each total.",
+      "followUpId": "L24-Q13",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310,
+            311
+          ],
+          "pdf": [
+            346,
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "A large amount of cooler water holds more thermal energy than a small cup of much hotter water because it has far more molecules, though the hotter water's molecules are faster on average."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Figure 1",
+          "supports": "The mixing bowl of room-temperature water has more thermal energy than the cup of boiling water because it has more water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New numbers in reviser round 1 (5 L at 25 °C vs 0.25 L at 90 °C), so the item no longer echoes the textbook's own 23 °C bowl and 100 °C cup (p. 310); the 20:1 amounts are stated. New choice e swaps the two ideas, so the keyed choice d is no longer the only two-part statement; it replaces the old 'bowl is hotter' distractor (choice b, retired), which repeated Q01 choice a. Choice a now says 'one-twentieth as many'. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310, 311; evidence pp. 310, 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a ratio phrasing ('one-twentieth as many')"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new pitcher/mug numbers; swapped-concept distractor e replaces b"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q03",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "thermal energy",
+        "amount of matter",
+        "temperature"
+      ],
+      "familyId": "L24-F01",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A pot holds 2 liters of water at 20 °C. Which changes would give the water in the pot more thermal energy? The water stays liquid. Select all that apply.",
+      "accessiblePrompt": "A pot holds 2 liters of water at 20 degrees Celsius. Which changes would give the water in the pot more thermal energy? The water stays liquid. Select all that apply. The choices are: warming the same water to 50 degrees Celsius; pouring out half of the water; adding another liter of water that is also at 20 degrees Celsius; cooling the water to 10 degrees Celsius; and checking it with a thermometer that reads in degrees Fahrenheit.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Warming the same water to 50 °C",
+          "rationale": "Correct: the same molecules now move faster on average, so the total energy of their motion rises."
+        },
+        {
+          "id": "b",
+          "text": "Pouring out half of the water",
+          "rationale": "Fewer molecules at the same temperature means less thermal energy, not more."
+        },
+        {
+          "id": "c",
+          "text": "Adding another liter of water that is also at 20 °C",
+          "rationale": "Correct: more molecules with the same average energy make a bigger total."
+        },
+        {
+          "id": "d",
+          "text": "Cooling the water to 10 °C",
+          "rationale": "Slower molecules carry less energy of motion, so the total drops."
+        },
+        {
+          "id": "e",
+          "text": "Checking it with a thermometer that reads in degrees Fahrenheit",
+          "rationale": "A different scale changes the number on the display, not the energy of the water."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ],
+      "conditions": "The water stays liquid the whole time.",
+      "explanation": "In this lesson, thermal energy depends on how many particles there are and how fast they move on average. Raising the temperature or adding more water at the same temperature both increase it. Removing water or cooling it lowers it, and a different temperature scale changes nothing about the water itself.",
+      "misconception": "Only temperature, not the amount of matter, affects thermal energy.",
+      "hint": "A total depends on how many particles there are and how energetic each one is on average.",
+      "followUpId": "L24-Q06",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310
+          ],
+          "pdf": [
+            346
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Thermal energy depends partly on the total number of particles and also on how quickly they move, which is related to temperature."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            319
+          ],
+          "pdfPages": [
+            355
+          ],
+          "locator": "Lesson Summary",
+          "supports": "The summary ties thermal energy both to how many particles an object has and to its temperature."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of five. The Fahrenheit choice targets confusing a measurement scale with the quantity measured. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310; evidence pp. 310, 319) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q04",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "temperature",
+        "thermal energy",
+        "heat",
+        "kinetic energy",
+        "vocabulary"
+      ],
+      "familyId": "L24-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each science word to what it means.",
+      "accessiblePrompt": "Match each science word to what it means. The words are temperature, thermal energy, heat and kinetic energy. The meanings are: energy that something has because it is moving; the average energy of motion of a sample's particles; the total energy of motion of all the particles in a sample; and energy passing from a warmer object to a cooler one.",
+      "answer": {
+        "w1": "m2",
+        "w2": "m3",
+        "w3": "m4",
+        "w4": "m1"
+      },
+      "left": [
+        {
+          "id": "w1",
+          "text": "Temperature",
+          "rationale": "A temperature reading reports the average energy of motion of the particles."
+        },
+        {
+          "id": "w2",
+          "text": "Thermal energy",
+          "rationale": "Thermal energy adds up the motion energy of every particle, so it depends on how much matter there is."
+        },
+        {
+          "id": "w3",
+          "text": "Heat",
+          "rationale": "In science, heat is energy moving from a warmer object to a cooler one."
+        },
+        {
+          "id": "w4",
+          "text": "Kinetic energy",
+          "rationale": "Kinetic energy is the energy any moving object or particle has."
+        }
+      ],
+      "right": [
+        {
+          "id": "m1",
+          "text": "Energy that something has because it is moving"
+        },
+        {
+          "id": "m2",
+          "text": "The average energy of motion of a sample's particles"
+        },
+        {
+          "id": "m3",
+          "text": "The total energy of motion of all the particles in a sample"
+        },
+        {
+          "id": "m4",
+          "text": "Energy passing from a warmer object to a cooler one"
+        }
+      ],
+      "explanation": "Kinetic energy is the energy of motion. Temperature is the average of that energy across a sample's particles, and thermal energy is the total for all of them. Heat is the name for energy while it is moving from a warmer object to a cooler one.",
+      "misconception": "Heat, temperature and thermal energy are three names for the same thing.",
+      "hint": "Look for the clue words average, total and passing.",
+      "followUpId": "L24-Q09",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310,
+            311
+          ],
+          "pdf": [
+            346,
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            309
+          ],
+          "pdfPages": [
+            345
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "Vocabulary box gives the lesson's meanings for thermal energy, temperature (an average of particle kinetic energy) and heat (thermal energy passed from warmer to cooler)."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Reminds readers that kinetic energy is the energy an object or particle has from moving."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One-to-one, four pairs; definitions are paraphrased, not copied from the vocabulary box. Reviser round 1: scope trimmed to the section 1 pages (pp. 310-311); the p. 309 vocabulary box stays as evidence. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310, 311; evidence pp. 309, 310) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: scope trimmed to section 1 pages (optional tidy); content passed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q05",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "heat",
+        "everyday versus scientific language",
+        "thermal energy"
+      ],
+      "familyId": "L24-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Scientists use the word heat only for energy that is moving from warmer to cooler. Which sentences use heat the way a scientist would? Select all that apply.",
+      "accessiblePrompt": "Scientists use the word heat only for energy that is moving from warmer to cooler. Which sentences use heat the way a scientist would? Select all that apply. The sentences are: this mug of cocoa has a lot of heat stored in it; heat flowed from the hot soup into the cold metal spoon; the heat outside today is 35 degrees; the burner transferred heat to the pan because the burner was hotter; and the ice cube's heat flowed into my hand and made it feel cold.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This mug of cocoa has a lot of heat stored in it.",
+          "rationale": "What the cocoa stores is thermal energy; it becomes heat only when it moves into something cooler."
+        },
+        {
+          "id": "b",
+          "text": "Heat flowed from the hot soup into the cold metal spoon.",
+          "rationale": "Correct: energy is moving from a warmer object to a cooler one, which is exactly what heat means."
+        },
+        {
+          "id": "c",
+          "text": "The heat outside today is 35 degrees.",
+          "rationale": "A reading in degrees is a temperature, not heat."
+        },
+        {
+          "id": "d",
+          "text": "The burner transferred heat to the pan because the burner was hotter.",
+          "rationale": "Correct: energy passes from the hotter burner to the cooler pan because of their temperature difference."
+        },
+        {
+          "id": "f",
+          "text": "The ice cube's heat flowed into my hand and made it feel cold.",
+          "rationale": "Heat flows from warmer to cooler, so energy flowed from your hand into the ice; your hand feels cold because it is losing energy."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ],
+      "explanation": "In everyday speech, heat can mean temperature or the energy something holds. In science, heat is only the energy moving from a warmer object to a cooler one. The soup and burner sentences describe energy in transit. The cocoa sentence describes stored thermal energy, the weather sentence describes temperature, and heat never flows from the cold ice into a warmer hand.",
+      "misconception": "Objects contain heat, heat and temperature mean the same thing, or heat can flow out of a colder object.",
+      "hint": "For each sentence, ask whether it describes energy on the move from something warmer to something cooler.",
+      "followUpId": "L24-Q10",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            311
+          ],
+          "pdf": [
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "People may use heat for the thermal energy an object has, or treat heat and temperature as the same, but scientists use heat only for the transfer of thermal energy between objects or the energy transferred."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            309
+          ],
+          "pdfPages": [
+            345
+          ],
+          "locator": "Introduction, NGSS Disciplinary Core Ideas box",
+          "supports": "In science, heat refers only to energy transferred because of a temperature difference."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two correct of five; each wrong choice is a distinct everyday misuse (stored heat, heat as temperature, heat flowing out of the colder ice). Reviser round 1: choice f replaces the old 'cold seeped' sentence (choice e, retired), which never used the word heat and repeated Q10's cold-flow distractor; f also uses a transfer verb, so the keyed sentences are no longer the only ones with 'flowed' or 'transferred'. Relabeled foundational (vocabulary in use). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 311; evidence pp. 309, 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice f (ice's 'heat' flowing to the hand) replaces e; relabeled foundational"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q06",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "temperature",
+        "thermal energy",
+        "heat",
+        "classification"
+      ],
+      "familyId": "L24-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each clue by the idea it describes: temperature, thermal energy or heat.",
+      "accessiblePrompt": "Sort each clue by the idea it describes: temperature, thermal energy or heat. The clues are: a thermometer in a bath reads 38 degrees Celsius; a swimming pool has far more of it than a teacup of water at the same warmth; energy moves from a campfire into your chilly hands; it is the same for a spoonful of soup and the whole pot it came from; it happens only when two objects are at different temperatures; and a huge iceberg has more of it than a mug of hot cocoa.",
+      "answer": {
+        "i1": "temp",
+        "i2": "thermal",
+        "i3": "heat",
+        "i4": "temp",
+        "i6": "heat",
+        "i7": "thermal"
+      },
+      "items": [
+        {
+          "id": "i1",
+          "text": "A thermometer in a bath reads 38 °C.",
+          "rationale": "A thermometer reading is a temperature."
+        },
+        {
+          "id": "i2",
+          "text": "A swimming pool has far more of it than a teacup of water at the same warmth.",
+          "rationale": "Same temperature but many more molecules means a bigger total: thermal energy."
+        },
+        {
+          "id": "i3",
+          "text": "Energy moves from a campfire into your chilly hands.",
+          "rationale": "Energy moving from something warmer to something cooler is heat."
+        },
+        {
+          "id": "i4",
+          "text": "It is the same for a spoonful of soup and the whole pot it came from.",
+          "rationale": "An average does not depend on sample size, so a spoonful and the pot share the same temperature."
+        },
+        {
+          "id": "i6",
+          "text": "It happens only when two objects are at different temperatures.",
+          "rationale": "Without a temperature difference there is no net transfer, so no heat."
+        },
+        {
+          "id": "i7",
+          "text": "A huge iceberg has more of it than a mug of hot cocoa.",
+          "rationale": "The iceberg is far colder, but it has vastly more molecules, all still vibrating, so its total is much bigger: thermal energy."
+        }
+      ],
+      "bins": [
+        {
+          "id": "temp",
+          "label": "Temperature"
+        },
+        {
+          "id": "thermal",
+          "label": "Thermal energy"
+        },
+        {
+          "id": "heat",
+          "label": "Heat"
+        }
+      ],
+      "explanation": "Temperature is an average, so it is the same for a spoonful or a whole pot, and it is what a thermometer reads. Thermal energy is a total, so a pool beats a teacup, and an iceberg beats a mug of cocoa. Heat is energy in transit, and it only flows when there is a temperature difference.",
+      "misconception": "Thermal energy and temperature both just mean how hot something is.",
+      "hint": "Average, total or moving: which one fits each clue?",
+      "followUpId": "L24-Q01",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310,
+            311
+          ],
+          "pdf": [
+            346,
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Temperature measures an average, so more particles do not mean a higher temperature; a sample with more particles has more thermal energy."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "A temperature difference is needed for thermal energy to pass between objects, and scientists name that passing energy heat."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Two items per bin; each item has one defensible bin. Reviser round 1: item i7 (iceberg vs mug of cocoa) replaces i5 (retired), which restated Q03 choice c; the amounts differ enormously, so the comparison stays within L24-RF6. Follow-up retargeted to Q01 (average vs total). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310, 311; evidence pp. 310, 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: iceberg clue i7 replaces i5; follow-up to Q01"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q07",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "temperature",
+        "particle motion",
+        "kinetic energy"
+      ],
+      "familyId": "L24-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "A thermometer in a glass of water climbs from 20 °C to 40 °C. Which statements about the water molecules are now true? Select all that apply.",
+      "accessiblePrompt": "A thermometer in a glass of water climbs from 20 degrees Celsius to 40 degrees Celsius. Which statements about the water molecules are now true? Select all that apply. The choices are: each molecule has grown larger; on average they are moving faster than before; there are more water molecules in the glass now; their average kinetic energy is greater than before; and every molecule now moves at exactly the same speed.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each molecule has grown larger.",
+          "rationale": "Warming makes molecules move faster; it does not change their size."
+        },
+        {
+          "id": "b",
+          "text": "On average, they are moving faster than before.",
+          "rationale": "Correct: for the same substance, a higher temperature means a higher average speed."
+        },
+        {
+          "id": "c",
+          "text": "There are more water molecules in the glass now.",
+          "rationale": "Warming adds energy, not molecules; the amount of water stayed the same."
+        },
+        {
+          "id": "d",
+          "text": "Their average kinetic energy is greater than before.",
+          "rationale": "Correct: temperature measures average kinetic energy, so a rise means a bigger average."
+        },
+        {
+          "id": "e",
+          "text": "Every molecule now moves at exactly the same speed.",
+          "rationale": "Molecules always have a spread of speeds; temperature reports their average."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ],
+      "conditions": "Same glass of water, which stays liquid.",
+      "explanation": "Temperature measures the average kinetic energy of a substance's particles. When the reading rises, the water molecules are moving faster on average. They do not get bigger or multiply, and they still move at many different speeds.",
+      "misconception": "Warming makes particles grow, or every particle in a sample moves at the same speed.",
+      "hint": "Temperature is about how the particles move, not about their size or number.",
+      "followUpId": "L24-Q04",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310
+          ],
+          "pdf": [
+            346
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature (margin note and text)",
+          "supports": "When a thermometer shows the water's temperature has increased, its molecules have sped up; temperature measures the average kinetic energy of the particles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            315
+          ],
+          "pdfPages": [
+            351
+          ],
+          "locator": "Section 2, Evaporating",
+          "supports": "Particles in a liquid are not all struck the same way; some are hit harder and gain extra energy, so speeds vary."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Compares one substance at two temperatures, so 'faster on average' is accurate (see L24-RF3). Reviser round 1: follow-up retargeted to Q04 (temperature as average energy of motion). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310; evidence pp. 310, 315) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up retargeted to Q04"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q08",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O1",
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "solids",
+        "particle motion",
+        "vibration",
+        "temperature"
+      ],
+      "familyId": "L24-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Ice cubes are moved from a −18 °C freezer into a −5 °C freezer. They warm to −5 °C but do not melt. What changed for their water molecules?",
+      "accessiblePrompt": "Ice cubes are moved from a freezer at minus 18 degrees Celsius into a freezer at minus 5 degrees Celsius. They warm to minus 5 degrees but do not melt. What changed for their water molecules?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They vibrate harder, but stay in their fixed positions.",
+          "rationale": "Correct: a higher temperature means more energetic vibration, and the ice is still solid, so the molecules stay locked in place."
+        },
+        {
+          "id": "b",
+          "text": "They started moving for the first time, after being perfectly still.",
+          "rationale": "Solid particles were already vibrating at −18 °C; colder ice has gentler vibrations, not none."
+        },
+        {
+          "id": "c",
+          "text": "They now slide past one another, even though the ice has not melted.",
+          "rationale": "Sliding past one another is how particles move in a liquid; the cubes are still solid ice."
+        },
+        {
+          "id": "e",
+          "text": "Nothing changed, because all ice below 0 °C is the same inside.",
+          "rationale": "A temperature rise always means more energetic particle motion, even in a solid that stays below its melting point."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Water molecules in ice are locked in fixed positions, but they always vibrate. When the ice warms from −18 °C to −5 °C, its molecules gain energy and vibrate more strongly in the same spots. They break free and slide past one another only once the ice reaches its melting point and keeps taking in energy.",
+      "misconception": "Particles in a cold solid do not move, or a solid's particles cannot change their motion unless it melts.",
+      "hint": "What does a rising temperature tell you about how particles move, even in a solid?",
+      "followUpId": "L24-Q15",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            314
+          ],
+          "pdf": [
+            350
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            314
+          ],
+          "pdfPages": [
+            350
+          ],
+          "locator": "Section 2, Melting",
+          "supports": "As ice gains thermal energy, its water molecules vibrate faster and faster within their fixed positions and the ice's temperature rises before it melts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            317
+          ],
+          "pdfPages": [
+            353
+          ],
+          "locator": "Section 3, Freezing; Figure 3B",
+          "supports": "In a solid, particles are locked in place and move only by vibrating within the fixed arrangement."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature (margin note)",
+          "supports": "A rise in temperature means the molecules have sped up."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief guardrail: solid particles still move. Re-angled in reviser round 1: the earlier version (a −18 °C tray; 'vibrating, not perfectly still') nearly duplicated L23-Q02 and overlapped L23-Q01. This version links a temperature rise (O1) to stronger vibration in a solid that does not melt (O3). It compares one substance at two temperatures, so comparing particle motion is safe (L24-RF3). Choice e replaces the old gas distractor (choice d, retired); scope moved to p. 314, where the ice's molecules vibrate harder as it warms. The science-review pass below was given to the earlier version. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 314; evidence pp. 310, 314, 317) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: re-angled to ice warming from −18 °C to −5 °C (was a near-duplicate of L23-Q02)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Normal air pressure; both freezers are below water's melting point, 0 °C, so the ice stays solid."
+    },
+    {
+      "id": "L24-Q09",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O2"
+      ],
+      "conceptTags": [
+        "heat",
+        "direction of energy transfer",
+        "temperature difference"
+      ],
+      "familyId": "L24-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Two objects at different temperatures are touching. On its own, in which overall direction does energy move between them as heat?",
+      "accessiblePrompt": "Two objects at different temperatures are touching. On its own, in which overall direction does energy move between them as heat?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "From the cooler object to the warmer object",
+          "rationale": "This is the 'cold flows' idea; cold is not a substance, and the net energy flow goes the other way."
+        },
+        {
+          "id": "b",
+          "text": "From the bigger object to the smaller object, whatever their temperatures",
+          "rationale": "Size does not set the direction; a small hot nail dropped in a big bucket of cool water still warms the water."
+        },
+        {
+          "id": "c",
+          "text": "From the warmer object to the cooler object",
+          "rationale": "Correct: on average the warmer object's particles have more energy of motion, so collisions pass more energy to the cooler object's particles than comes back."
+        },
+        {
+          "id": "d",
+          "text": "From the object with more thermal energy to the one with less",
+          "rationale": "A lukewarm bathtub has more thermal energy than a hot cup of tea, yet a cup set in the bath still loses energy to the bath water; temperature decides the direction."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Heat flows from warmer to cooler on its own. Particles in the warmer object have more energy of motion on average, so in collisions they hand more energy to the cooler object's particles than they get back. The flow continues until the temperatures are equal.",
+      "misconception": "Cold flows into warm objects, or energy flows from the object with more thermal energy.",
+      "hint": "Which object's particles have more energy of motion on average?",
+      "followUpId": "L24-Q11",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            311
+          ],
+          "pdf": [
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "Collisions between particles move thermal energy out of the warmer object into the cooler one, and this continues until their temperatures match."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.1 Energy Basics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+          "accessed": "2026-10-14",
+          "supports": "Thermal energy flows spontaneously from a hotter substance to a cooler one until both reach the same temperature (thermal equilibrium)."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 9.5 The Kinetic-Molecular Theory",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/9-5-the-kinetic-molecular-theory",
+          "accessed": "2026-10-17",
+          "supports": "Average kinetic energy is proportional to temperature; at a given temperature, lighter molecules move faster on average than heavier ones, so temperature tracks average kinetic energy, not one speed for every substance."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (section 7, lesson 24), polished. 'Overall' and 'on its own' keep the net, spontaneous direction the only defensible answer. Reviser round 1: rationale c, the explanation and the hint compare average energy of motion, not speed, because the two objects may be different substances (L24-RF3; OpenStax 9.5). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 311; evidence pp. 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: energy of motion replaces cross-substance speed wording (RF3)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q10",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O2"
+      ],
+      "conceptTags": [
+        "heat",
+        "cooling",
+        "room temperature",
+        "cold is not a substance"
+      ],
+      "familyId": "L24-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A covered mug of cocoa at 70 °C sits on a table in a room that stays at 20 °C. Which statements are correct? Select all that apply.",
+      "accessiblePrompt": "A covered mug of cocoa at 70 degrees Celsius sits on a table in a room that stays at 20 degrees Celsius. Which statements are correct? Select all that apply. The choices are: cold moves from the room into the cocoa; energy moves as heat from the cocoa into the cooler air and table; the cocoa keeps cooling until it is colder than the room; the cocoa's temperature drops toward 20 degrees Celsius; and on average, the cocoa's particles slow down as it cools.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cold moves from the room into the cocoa.",
+          "rationale": "Nothing called cold flows; the cocoa cools because energy leaves it."
+        },
+        {
+          "id": "b",
+          "text": "Energy moves as heat from the cocoa into the cooler air and table.",
+          "rationale": "Correct: the cocoa is warmer, so the net flow of energy is out of it."
+        },
+        {
+          "id": "c",
+          "text": "The cocoa keeps cooling until it is colder than the room.",
+          "rationale": "With evaporation ruled out, once the cocoa matches the room's temperature there is no net transfer, so it stops cooling at 20 °C."
+        },
+        {
+          "id": "d",
+          "text": "The cocoa's temperature drops toward 20 °C.",
+          "rationale": "Correct: it keeps losing energy until it reaches room temperature."
+        },
+        {
+          "id": "f",
+          "text": "On average, the cocoa's particles slow down as it cools.",
+          "rationale": "Correct: a falling temperature means the particles' average energy of motion is dropping, so the same cocoa's particles move more slowly on average."
+        }
+      ],
+      "answer": [
+        "b",
+        "d",
+        "f"
+      ],
+      "conditions": "The mug has a lid, so ignore evaporation; the room stays at 20 °C; the cocoa neither freezes nor boils.",
+      "explanation": "The warmer cocoa loses energy as heat to the cooler air and table, so its temperature falls toward 20 °C and its particles slow down on average. Once it matches the room, energy passes equally both ways and its temperature stays put. With the lid on, no evaporation cools it further.",
+      "misconception": "Cold flows into warm things, and objects keep cooling past the temperature of their surroundings.",
+      "hint": "Where does the energy go, and when does the net flow stop?",
+      "followUpId": "L24-Q12",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            311
+          ],
+          "pdf": [
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "Energy transfers from the warm object to the cool one until they reach the same temperature; then equal amounts pass each way and the temperatures stop changing."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            313
+          ],
+          "pdfPages": [
+            349
+          ],
+          "locator": "Spread: Comparing Heat, Thermal Energy, and Temperature (Cooling)",
+          "supports": "Cooling panel: heat, drawn as red arrows, leaves the warmer pot and enters the colder ice packed around it."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Particles move more slowly, with less kinetic energy, when the temperature is lower."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Wrong choices are cold-flow and overshoot ideas. Reviser round 1: the mug is now covered and the conditions rule out evaporation, which could cool an open mug slightly below room temperature and make choice c arguable. Choice f (particles slow down on average; one substance at a falling temperature, L24-RF3) replaces choice e (retired), which duplicated Q11. Three correct of five, so the multi items are no longer all two of five. Scope trimmed to p. 311; p. 313 stays as evidence. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 311; evidence pp. 310, 311, 313) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: covered mug, evaporation ruled out; rationale c reworded; scope trimmed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: covered mug; third correct choice f replaces e (3 of 5)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q11",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O2"
+      ],
+      "conceptTags": [
+        "thermal equilibrium",
+        "particle collisions",
+        "no net transfer"
+      ],
+      "familyId": "L24-F05",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A small stone rests at the bottom of a sealed, insulated tank of water. The stone and the water have both reached 8 °C. What is happening between their particles now?",
+      "accessiblePrompt": "A small stone rests at the bottom of a sealed, insulated tank of water. The stone and the water have both reached 8 degrees Celsius. What is happening between their particles now?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every particle has stopped moving, so no energy is traded.",
+          "rationale": "Particles at 8 °C are still moving quickly; equal temperatures do not freeze their motion."
+        },
+        {
+          "id": "b",
+          "text": "They still collide and trade energy, but equal amounts go each way.",
+          "rationale": "Correct: collisions continue, but the trades balance, so there is no net transfer and both temperatures stay at 8 °C."
+        },
+        {
+          "id": "c",
+          "text": "Energy keeps flowing into the stone because the water has more thermal energy.",
+          "rationale": "More thermal energy does not set the direction; with equal temperatures there is no net flow."
+        },
+        {
+          "id": "d",
+          "text": "The stone's particles keep speeding up until the stone is warmer than the water.",
+          "rationale": "Energy does not pile up in one object on its own; with equal temperatures nothing drives a net transfer."
+        }
+      ],
+      "answer": "b",
+      "conditions": "Sealed, insulated tank: no energy enters from or leaves to the outside; the water stays liquid.",
+      "explanation": "Once two objects reach the same temperature, their particles keep moving and colliding. In those collisions, as much energy passes from stone to water as from water to stone. With no net transfer, both temperatures stay at 8 °C.",
+      "misconception": "When objects reach the same temperature, all particle motion and energy exchange stop.",
+      "hint": "Particles at 8 °C are far from still. What happens each time two moving particles bump?",
+      "followUpId": "L24-Q14",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            311
+          ],
+          "pdf": [
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "When the objects are the same temperature, equal amounts of energy transfer to and from each object, so their temperatures do not change."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.1 Energy Basics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+          "accessed": "2026-10-14",
+          "supports": "Objects reach thermal equilibrium when both are at the same temperature, and the net heat flow between them stops."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Insulation removes losses to the air, so the only defensible answer is the balanced exchange the textbook describes. Reviser round 1: re-skinned from a spoon in cocoa to a stone in a tank of water, because cocoa and spoons recur in Q05, Q06, Q10, Q12 and Explorer O2; the four choice ideas are unchanged, so the choice IDs are kept. The new hint no longer paraphrases choice b. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 311; evidence pp. 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives the answer; re-skinned as a stone in a tank"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q12",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O2"
+      ],
+      "conceptTags": [
+        "particle collisions",
+        "heat transfer mechanism",
+        "cause and effect"
+      ],
+      "familyId": "L24-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A hot metal spoon is dropped into cool water in an insulated cup. Put the steps of the particle explanation in cause-and-effect order.",
+      "accessiblePrompt": "A hot metal spoon is dropped into cool water in an insulated cup. Put the steps of the particle explanation in cause-and-effect order, from the first cause to the final result. The steps are: the spoon's temperature falls while the water's temperature rises; more energetic spoon particles bump into less energetic water molecules; spoon and water reach the same temperature, and the net transfer stops; and spoon particles hand some of their energy to the water molecules they hit.",
+      "answer": [
+        "s2",
+        "s4",
+        "s1",
+        "s3"
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "The spoon's temperature falls while the water's temperature rises.",
+          "rationale": "Losing energy cools the spoon and gaining it warms the water, so the temperature changes are a result of the transfer."
+        },
+        {
+          "id": "s2",
+          "text": "More energetic spoon particles bump into less energetic water molecules.",
+          "rationale": "Collisions begin as soon as the spoon and water touch; they are where the transfer happens."
+        },
+        {
+          "id": "s3",
+          "text": "Spoon and water reach the same temperature, and the net transfer stops.",
+          "rationale": "The changes continue until the temperatures match; then the energy trades balance."
+        },
+        {
+          "id": "s4",
+          "text": "Spoon particles hand some of their energy to the water molecules they hit.",
+          "rationale": "On average, each bump passes energy from the more energetic particle to the less energetic one; this is the transfer itself."
+        }
+      ],
+      "ends": [
+        "First cause",
+        "Final result"
+      ],
+      "conditions": "Insulated cup: ignore energy lost to the air.",
+      "explanation": "Heat transfer works through collisions. Spoon particles, with more energy of motion on average, hit water molecules and pass on energy, so the spoon cools and the water warms. When their temperatures match, energy still moves both ways, but evenly, so there is no net transfer.",
+      "misconception": "Heat is a fluid that pours from one object into another, or temperatures change before any energy moves.",
+      "hint": "Start with what the particles do the moment the spoon and water touch.",
+      "followUpId": "L24-Q13",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            311
+          ],
+          "pdf": [
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "Particles of touching objects collide constantly; fast particles transfer energy to slow ones, so energy moves from warmer to cooler until both are the same temperature."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 9.5 The Kinetic-Molecular Theory",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/9-5-the-kinetic-molecular-theory",
+          "accessed": "2026-10-17",
+          "supports": "Average kinetic energy is proportional to temperature; at a given temperature, lighter molecules move faster on average than heavier ones, so temperature tracks average kinetic energy, not one speed for every substance."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Collisions, transfer and temperature change overlap in time, so the prompt asks for cause-and-effect order, which has one defensible sequence: the collisions carry the transfer, the transfer changes the temperatures, and the changes end at equal temperature. Reviser round 1: s2, s4 and the explanation compare energy of motion, not speed. An iron atom is about three times heavier than a water molecule, so even at 80 °C it moves more slowly on average than a 20 °C water molecule while carrying more kinetic energy (L24-RF3; OpenStax 9.5). s4 no longer opens with 'In those bumps', so the order is not cued by grammar. Relabeled relationship (a cause-and-effect particle model). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 311; evidence pp. 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: s2, s4 and explanation say more/less energetic, not faster/slower (RF3)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: s4 no longer cues order by pronoun; relabeled relationship"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q13",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O2",
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "thermal energy",
+        "amount of matter",
+        "heat transfer",
+        "melting snow"
+      ],
+      "familyId": "L24-F06",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "You want to melt as much of a 0 °C snowbank as you can by pouring liquid water on it. You can use one mug (0.3 L) of 100 °C water, a tub (100 L) of 30 °C water, or a tank (300 L) of 0 °C meltwater. Which will melt the most snow?",
+      "accessiblePrompt": "You want to melt as much of a snowbank at 0 degrees Celsius as you can by pouring liquid water on it. You can use one mug holding 0.3 liters of water at 100 degrees Celsius, a tub holding 100 liters of water at 30 degrees Celsius, or a tank holding 300 liters of meltwater at 0 degrees Celsius. Which will melt the most snow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mug, because the hottest water always gives away the most energy",
+          "rationale": "The mug's molecules are faster on average, but it has less than 1/300 as many of them as the tub, so it can give much less energy before cooling to 0 °C."
+        },
+        {
+          "id": "b",
+          "text": "The mug and the tub melt the same, because both are warmer than the snow",
+          "rationale": "Being warmer only sets the direction of heat flow; it does not say how much energy can flow."
+        },
+        {
+          "id": "c",
+          "text": "The tub, because it is warmer than the snow and holds so much water",
+          "rationale": "Correct: the tub's water is warmer than the snow, so energy flows into the snow, and it has so many molecules that it can give far more energy than the mug as it cools to 0 °C."
+        },
+        {
+          "id": "e",
+          "text": "The tank, because it holds the most thermal energy of all three",
+          "rationale": "The tank does hold the most thermal energy, but at 0 °C it is no warmer than the snow, so no net energy flows into the snow and it melts none."
+        }
+      ],
+      "answer": "c",
+      "conditions": "Normal air pressure; all the water poured on the snow ends up at 0 °C, and no energy is lost to the air.",
+      "limitations": "Amounts are chosen so the answer does not depend on fine details: the tub can give roughly 100 times as much energy as the mug, and the 0 °C tank gives none. The tank has the most thermal energy because it has the most molecules (L24-RF6).",
+      "explanation": "Energy flows into the snow as heat only from water that is warmer than it, so the 0 °C tank melts nothing, even though it holds the most thermal energy. The mug and the tub are both warmer. How much snow each melts depends on how much energy it gives up while cooling to 0 °C, and the tub's huge amount of 30 °C water can give about 100 times as much as the mug.",
+      "misconception": "The hottest sample, or the sample with the most thermal energy, always transfers the most energy as heat.",
+      "hint": "For each sample, ask two things: will energy flow into the snow at all, and how much can it give before it cools to 0 °C?",
+      "followUpId": "L24-Q02",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310,
+            311
+          ],
+          "pdf": [
+            346,
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "To thaw food, the water must be warmer than the food and must also have plenty of thermal energy to give; only the large amount of room-temperature water had enough."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, opening question",
+          "supports": "A cook knows it is easier to defrost frozen food with a large bowl of room-temperature water than with a cup of boiling water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            313
+          ],
+          "pdfPages": [
+            349
+          ],
+          "locator": "Spread: Comparing Heat, Thermal Energy, and Temperature (Cooling)",
+          "supports": "Pots of water that read 0 °C still hold thermal energy; the spread asks which of the two 0 °C pots has more."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New scenario for the textbook's peas idea; asks about the energy each sample gives while cooling to 0 °C rather than its total thermal energy (L24-RF6). Reviser round 1: a third sample, a 300 L tank of 0 °C meltwater, has the most thermal energy but no temperature difference, so the item now tests the textbook's two-part condition (the water must be warmer than the food AND have plenty of thermal energy, p. 311) instead of repeating Q02's small-hot vs large-lukewarm comparison. Raised to difficulty 3; the new hint no longer states the answer. Choice d ('30 °C is too cool') retired; new choice e is the tank. Choice a now says 'less than 1/300 as many'. The conditions now also state normal air pressure for the 0 °C melting point (L24-RF4). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310, 311; evidence pp. 310, 311, 313) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a ratio phrasing ('less than 1/300 as many')"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 0 °C tank added (warmer AND enough thermal energy); new hint; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q14",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O2",
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "temperature",
+        "thermal energy",
+        "sharing energy",
+        "prediction"
+      ],
+      "familyId": "L24-F06",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Two identical small iron blocks are heated to 80 °C. One goes into a cup of 0.1 L of 20 °C water; the other goes into a bathtub of 100 L of 20 °C water. Once each block and its water reach the same temperature, which water is warmer?",
+      "accessiblePrompt": "Two identical small iron blocks are heated to 80 degrees Celsius. One goes into a cup holding 0.1 liters of water at 20 degrees Celsius; the other goes into a bathtub holding 100 liters of water at 20 degrees Celsius. Once each block and its water reach the same temperature, which water is warmer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cup's water, because the block's energy is shared among far fewer molecules",
+          "rationale": "Correct: in the cup, the energy the block gives up is spread over few molecules, so their average energy rises far more than in the bathtub."
+        },
+        {
+          "id": "b",
+          "text": "The bathtub's water, because the bathtub holds more thermal energy",
+          "rationale": "The bathtub does hold more thermal energy, but temperature is an average; spread over so many molecules, the block's energy barely raises it."
+        },
+        {
+          "id": "c",
+          "text": "Both end at 50 °C, halfway between the two starting temperatures",
+          "rationale": "The result depends on how much matter is on each side; with such different amounts of water, the two cannot end at the same temperature."
+        },
+        {
+          "id": "d",
+          "text": "Both stay at 20 °C, because one small block cannot warm any water",
+          "rationale": "Any warmer object passes energy to cooler water; the bathtub warms only a tiny bit, and the cup warms much more."
+        }
+      ],
+      "answer": "a",
+      "conditions": "No energy is lost to the air or the containers.",
+      "limitations": "The lesson does not calculate final temperatures; this question asks only which water ends warmer.",
+      "explanation": "Each block gives energy to its water until the two match in temperature. In the cup, that energy is shared among relatively few molecules, so their average energy rises far more than in the bathtub. In the bathtub, it is spread over a thousand times more water, so the temperature barely changes and the block cools almost to 20 °C.",
+      "misconception": "A sample with more thermal energy must end up at a higher temperature.",
+      "hint": "Picture the same gift of energy shared by a small group versus a huge crowd.",
+      "followUpId": "L24-Q11",
+      "scope": {
+        "lessonId": "L24",
+        "section": "1. Thermal Energy, Temperature, and Heat",
+        "pages": {
+          "printed": [
+            310,
+            311
+          ],
+          "pdf": [
+            346,
+            347
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            311
+          ],
+          "pdfPages": [
+            347
+          ],
+          "locator": "Section 1, Transferring Thermal Energy as Heat",
+          "supports": "Energy keeps passing from the warmer object to the cooler one until both share one temperature."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Temperature is an average; a sample's total energy grows with how much matter it contains."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 5.1 Energy Basics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+          "accessed": "2026-10-14",
+          "supports": "A larger mass has more atoms, so more energy is needed to raise its temperature by the same amount."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Application beyond the textbook's worked example; conclusion follows from 'average versus total' and is supported by OpenStax. Reviser round 1: 'rises a lot' and 'warms noticeably' became comparisons with the bathtub, because the block's size is not stated. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 310, 311; evidence pp. 310, 311) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made. The keyed choice is about 13 characters longer than the others; judged too small to cue the answer, left unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale a, d and explanation compare cup with bathtub instead of 'a lot'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q15",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "melting",
+        "particle model",
+        "solid to liquid"
+      ],
+      "familyId": "L24-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "In a particle model, the particles of a solid gain energy, break free of their fixed positions, and begin to flow past one another. Which change of state is this?",
+      "accessiblePrompt": "In a particle model, the particles of a solid gain energy, break free of their fixed positions, and begin to flow past one another. Which change of state is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Freezing",
+          "rationale": "Freezing runs the other way: liquid particles lose energy and lock into place."
+        },
+        {
+          "id": "b",
+          "text": "Evaporating",
+          "rationale": "Evaporating turns a liquid into a gas; this sample starts as a solid and ends as a flowing liquid."
+        },
+        {
+          "id": "c",
+          "text": "Subliming",
+          "rationale": "Subliming takes a solid straight to a gas, with particles flying apart rather than flowing past each other."
+        },
+        {
+          "id": "d",
+          "text": "Melting",
+          "rationale": "Correct: a solid whose particles break loose and flow is turning into a liquid."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Melting is the change from solid to liquid. Particles in a solid vibrate in fixed positions; as they gain energy they vibrate harder until they can break free and slide past each other, which is how a liquid's particles move.",
+      "misconception": "Any change in which particles gain energy is called melting.",
+      "hint": "Flowing past one another describes particles in a liquid.",
+      "followUpId": "L24-Q19",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            314
+          ],
+          "pdf": [
+            350
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            314
+          ],
+          "pdfPages": [
+            350
+          ],
+          "locator": "Section 2, Melting; Figure 2A",
+          "supports": "Figure 2A shows solid particles gaining energy, breaking out of their fixed spots, and flowing as a liquid: melting."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Particle-level identification; L24-Q20 tests the same names through the model's arrows instead. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 314; evidence pp. 314) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q16",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "subliming",
+        "dry ice",
+        "energy direction"
+      ],
+      "familyId": "L24-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A chunk of dry ice (solid carbon dioxide, CO₂) sits on a plate in a room at ordinary air pressure. It slowly shrinks, and no puddle ever forms. What is happening?",
+      "accessiblePrompt": "A chunk of dry ice sits on a plate in a room at ordinary air pressure. Dry ice is solid carbon dioxide, C O two: each molecule has one carbon atom and two oxygen atoms. The chunk slowly shrinks, and no puddle ever forms. What is happening?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It loses energy to the room and sublimes straight into a gas.",
+          "rationale": "The direction is backward: the room is warmer, so energy flows into the dry ice."
+        },
+        {
+          "id": "b",
+          "text": "It gains energy from the warmer room and sublimes straight into a gas.",
+          "rationale": "Correct: energy flows in from the warmer room, and the solid turns directly into gas without becoming liquid."
+        },
+        {
+          "id": "c",
+          "text": "It melts, and the liquid soaks into the plate too fast to see.",
+          "rationale": "At ordinary air pressure, carbon dioxide cannot exist as a liquid, so it skips the liquid state."
+        },
+        {
+          "id": "d",
+          "text": "It deposits, changing from a solid into a gas.",
+          "rationale": "Depositing is the reverse change, from gas straight to solid."
+        }
+      ],
+      "answer": "b",
+      "conditions": "Ordinary (sea-level) air pressure.",
+      "explanation": "Dry ice is far colder than the room, so energy flows into it as heat. Its particles gain enough energy to escape straight into the gas state, skipping the liquid. Changing directly from solid to gas is called subliming, and it takes energy in.",
+      "misconception": "A substance that turns into a gas must be losing energy, or every solid melts before it becomes a gas.",
+      "hint": "Which is warmer, the room or the dry ice? That tells you which way the energy flows.",
+      "followUpId": "L24-Q20",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            315
+          ],
+          "pdf": [
+            351
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            315
+          ],
+          "pdfPages": [
+            351
+          ],
+          "locator": "Section 2, Subliming; photo caption",
+          "supports": "Solid carbon dioxide (dry ice) gains thermal energy and sublimes, going from solid to gas without becoming a liquid."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.4 Phase Diagrams",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-4-phase-diagrams",
+          "accessed": "2026-10-14",
+          "supports": "Solid carbon dioxide does not melt at 1 atm but sublimes to gaseous CO₂; its triple point lies well above 1 atm, so liquid CO₂ cannot form at ordinary pressure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pressure stated per L24-RF4. No handling instructions for dry ice are given. Reviser round 1: the accessible prompt spells the formula (C O two: one carbon atom and two oxygen atoms). L23-Q22 already tests that dry ice skips the liquid at 101 kPa; this item's distinct value is the energy direction (choices a and b). The fog that dry ice makes is not mentioned (L24-RF8). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 315; evidence pp. 315) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessible prompt spells CO₂ out"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q17",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "condensing",
+        "particle model",
+        "energy loss"
+      ],
+      "familyId": "L24-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "You set a cool glass lid over a pot of bubbling water, and drops of water gather on its underside. Where do the drops come from?",
+      "accessiblePrompt": "You set a cool glass lid over a pot of bubbling water, and drops of water gather on the inside surface of the lid, the side facing the water. Where do the drops come from?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water seeps out of the glass itself once the lid gets warm from the steam",
+          "rationale": "Glass does not release water; the drops come from vapor that rose out of the pot."
+        },
+        {
+          "id": "b",
+          "text": "Nitrogen and oxygen from the kitchen air turn into water on the cool glass",
+          "rationale": "Air's nitrogen and oxygen do not become water; the drops are water that left the pot as vapor."
+        },
+        {
+          "id": "c",
+          "text": "Water vapor gives energy to the cooler lid, slows down, and sticks together as liquid",
+          "rationale": "Correct: the vapor loses thermal energy to the cooler glass, and its slowed molecules cling together as drops."
+        },
+        {
+          "id": "d",
+          "text": "Water vapor takes in energy from the lid and melts into liquid drops on the glass",
+          "rationale": "The lid is cooler, so the vapor loses energy to it; and melting means solid to liquid, not gas to liquid."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Water vapor rising from the pot hits the cooler lid. In those collisions it loses thermal energy to the glass, so its molecules slow down. Slow molecules stick together when they collide instead of bouncing apart, and they collect as liquid drops. This change from gas to liquid is condensing.",
+      "misconception": "Condensation drops come out of the surface they form on, or condensing needs energy to be added.",
+      "hint": "Follow the water that left the pot. Is the lid warmer or cooler than that water vapor?",
+      "followUpId": "L24-Q19",
+      "scope": {
+        "lessonId": "L24",
+        "section": "3. Objects Lose Thermal Energy",
+        "pages": {
+          "printed": [
+            316
+          ],
+          "pdf": [
+            352
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            316
+          ],
+          "pdfPages": [
+            352
+          ],
+          "locator": "Section 3, Condensing; Figure 3A",
+          "supports": "Water vapor transfers thermal energy to the cooler lid, its particles slow down and stick together when they collide, and the water condenses into liquid."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Does not claim a condensation temperature (L24-RF5). Reviser round 1: follow-up retargeted to Q19 (which changes take in or give off energy). The p. 316 lid scenario is kept: the other everyday condensation scenes are used in L18, and this item's particle-level mechanism is lesson-specific. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 316; evidence pp. 316) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up retargeted to Q19"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q18",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "depositing",
+        "gas to solid",
+        "gold coating"
+      ],
+      "familyId": "L24-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "To view an insect under a powerful microscope, scientists coat it with a very thin film of gold. Gold atoms in the gas state land on the insect and become solid gold without ever being liquid. What is this change called?",
+      "accessiblePrompt": "To view an insect under a powerful microscope, scientists coat it with a very thin film of gold. Gold atoms in the gas state land on the insect and become solid gold without ever being liquid. What is this change of state called?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Depositing",
+          "rationale": "Correct: depositing is the change straight from gas to solid, as the gold atoms lose energy and settle into a solid film."
+        },
+        {
+          "id": "b",
+          "text": "Condensing",
+          "rationale": "Condensing ends in a liquid, but this gold never becomes liquid."
+        },
+        {
+          "id": "c",
+          "text": "Freezing",
+          "rationale": "Freezing starts with a liquid; this gold starts as a gas."
+        },
+        {
+          "id": "d",
+          "text": "Subliming",
+          "rationale": "Subliming is the reverse change, from solid straight to gas."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Depositing is the change from a gas directly to a solid, skipping the liquid. The gold atoms lose energy and lock into a thin solid layer on the insect. Water vapor does the same thing when it forms ice crystals in very cold air.",
+      "misconception": "Any change that ends in a solid is freezing.",
+      "hint": "Check the starting state, the ending state, and whether a liquid ever appears in between.",
+      "followUpId": "L24-Q20",
+      "scope": {
+        "lessonId": "L24",
+        "section": "3. Objects Lose Thermal Energy",
+        "pages": {
+          "printed": [
+            317
+          ],
+          "pdf": [
+            353
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            317
+          ],
+          "pdfPages": [
+            353
+          ],
+          "locator": "Section 3, Depositing",
+          "supports": "Depositing is changing from a gas to a solid; scientists use deposition to put a thin film of pure solid gold on insects to study them under powerful microscopes, and water vapor in cold air can deposit as ice crystals."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the textbook's gold-film example; avoids the frost scenario already used in L18. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 317; evidence pp. 317) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q19",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "changes of state",
+        "energy in or out",
+        "state-change model"
+      ],
+      "familyId": "L24-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort the six changes of state: during each one, does the substance take in thermal energy or give it off?",
+      "accessiblePrompt": "Sort the six changes of state: during each one, does the substance take in thermal energy or give it off? The changes are condensing, melting, depositing, evaporating, freezing and subliming.",
+      "answer": {
+        "c1": "out",
+        "c2": "in",
+        "c3": "out",
+        "c4": "in",
+        "c5": "out",
+        "c6": "in"
+      },
+      "items": [
+        {
+          "id": "c1",
+          "text": "Condensing",
+          "rationale": "Gas particles lose energy, slow down and stick together as a liquid."
+        },
+        {
+          "id": "c2",
+          "text": "Melting",
+          "rationale": "Solid particles need extra energy to break out of their fixed positions."
+        },
+        {
+          "id": "c3",
+          "text": "Depositing",
+          "rationale": "Gas particles lose energy and lock straight into a solid."
+        },
+        {
+          "id": "c4",
+          "text": "Evaporating",
+          "rationale": "Particles at a liquid's surface need enough energy to escape into the gas."
+        },
+        {
+          "id": "c5",
+          "text": "Freezing",
+          "rationale": "Liquid particles lose energy and lock into fixed positions."
+        },
+        {
+          "id": "c6",
+          "text": "Subliming",
+          "rationale": "Solid particles need enough energy to escape straight into the gas."
+        }
+      ],
+      "bins": [
+        {
+          "id": "in",
+          "label": "Takes in thermal energy"
+        },
+        {
+          "id": "out",
+          "label": "Gives off thermal energy"
+        }
+      ],
+      "explanation": "Changes that loosen particles, moving from solid toward gas, take energy in: melting, evaporating and subliming. Changes that let particles settle together, moving from gas toward solid, give energy off: condensing, freezing and depositing. Each change has a partner running the opposite way with the energy flowing the opposite direction.",
+      "misconception": "Condensing and freezing need energy added, because something new is being formed.",
+      "hint": "Is the change pulling particles apart, or letting them settle together?",
+      "followUpId": "L24-Q17",
+      "scope": {
+        "lessonId": "L24",
+        "section": "Key Science Concept: Gaining or Losing Thermal Energy Causes State Changes",
+        "pages": {
+          "printed": [
+            318
+          ],
+          "pdf": [
+            354
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            318
+          ],
+          "pdfPages": [
+            354
+          ],
+          "locator": "Key Science Concept diagram",
+          "supports": "The melting, evaporating and subliming arrows are labeled + Heat; the freezing, condensing and depositing arrows are labeled − Heat."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            319
+          ],
+          "pdfPages": [
+            355
+          ],
+          "locator": "Lesson Summary",
+          "supports": "Gaining enough energy can make an object melt, evaporate or sublime; losing enough can make it condense, freeze or deposit."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three items per bin, matching the + Heat / − Heat labels read from the p. 318 render. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 318; evidence pp. 318, 319) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q20",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "state-change model",
+        "changes of state",
+        "model interpretation"
+      ],
+      "familyId": "L24-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "In a state-change model, six numbered arrows join solid, liquid and gas; the table shows where each one starts and ends. Match each arrow to the change of state it stands for.",
+      "accessiblePrompt": "A state-change model joins three states, solid, liquid and gas, with six numbered arrows. Arrow 1 starts as solid and ends as liquid. Arrow 2 goes from liquid to gas. Arrow 3 goes from gas to solid. Arrow 4 goes from liquid to solid. Arrow 5 goes from gas to liquid. Arrow 6 goes from solid to gas. Match each arrow to the change of state it stands for: condensing, depositing, evaporating, freezing, melting or subliming.",
+      "answer": {
+        "a1": "n5",
+        "a2": "n3",
+        "a3": "n2",
+        "a4": "n4",
+        "a5": "n1",
+        "a6": "n6"
+      },
+      "left": [
+        {
+          "id": "a1",
+          "text": "Arrow 1 (solid to liquid)",
+          "rationale": "Solid particles breaking loose to flow as a liquid is melting."
+        },
+        {
+          "id": "a2",
+          "text": "Arrow 2 (liquid to gas)",
+          "rationale": "Liquid particles escaping into the gas state is evaporating."
+        },
+        {
+          "id": "a3",
+          "text": "Arrow 3 (gas to solid)",
+          "rationale": "Gas going straight to solid, skipping the liquid, is depositing."
+        },
+        {
+          "id": "a4",
+          "text": "Arrow 4 (liquid to solid)",
+          "rationale": "Liquid particles locking into place is freezing."
+        },
+        {
+          "id": "a5",
+          "text": "Arrow 5 (gas to liquid)",
+          "rationale": "Gas particles slowing and sticking together as a liquid is condensing."
+        },
+        {
+          "id": "a6",
+          "text": "Arrow 6 (solid to gas)",
+          "rationale": "Solid going straight to gas, skipping the liquid, is subliming."
+        }
+      ],
+      "right": [
+        {
+          "id": "n1",
+          "text": "Condensing"
+        },
+        {
+          "id": "n2",
+          "text": "Depositing"
+        },
+        {
+          "id": "n3",
+          "text": "Evaporating"
+        },
+        {
+          "id": "n4",
+          "text": "Freezing"
+        },
+        {
+          "id": "n5",
+          "text": "Melting"
+        },
+        {
+          "id": "n6",
+          "text": "Subliming"
+        }
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "State-change model: where each numbered arrow starts and ends",
+        "alt": "Table of six numbered arrows in a state-change model. Arrow 1 starts as solid and ends as liquid. Arrow 2: liquid to gas. Arrow 3: gas to solid. Arrow 4: liquid to solid. Arrow 5: gas to liquid. Arrow 6: solid to gas.",
+        "columns": [
+          "Arrow",
+          "Starts as",
+          "Ends as"
+        ],
+        "rows": [
+          [
+            "Arrow 1",
+            "Solid",
+            "Liquid"
+          ],
+          [
+            "Arrow 2",
+            "Liquid",
+            "Gas"
+          ],
+          [
+            "Arrow 3",
+            "Gas",
+            "Solid"
+          ],
+          [
+            "Arrow 4",
+            "Liquid",
+            "Solid"
+          ],
+          [
+            "Arrow 5",
+            "Gas",
+            "Liquid"
+          ],
+          [
+            "Arrow 6",
+            "Solid",
+            "Gas"
+          ]
+        ]
+      },
+      "explanation": "Read each arrow from its starting state to its ending state. Solid to liquid is melting, and liquid to solid is freezing. Liquid to gas is evaporating, and gas to liquid is condensing. Solid straight to gas is subliming, and gas straight to solid is depositing.",
+      "misconception": "Subliming and depositing are the same change, or condensing goes from liquid to gas.",
+      "hint": "Name the starting state and the ending state of each arrow first.",
+      "followUpId": "L24-Q16",
+      "scope": {
+        "lessonId": "L24",
+        "section": "Key Science Concept: Gaining or Losing Thermal Energy Causes State Changes",
+        "pages": {
+          "printed": [
+            318
+          ],
+          "pdf": [
+            354
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            318
+          ],
+          "pdfPages": [
+            354
+          ],
+          "locator": "Key Science Concept diagram",
+          "supports": "The model joins solid, liquid and gas with six arrows: melting, freezing, evaporating, condensing, subliming and depositing."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            309
+          ],
+          "pdfPages": [
+            345
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "Defines evaporate (liquid to gas), sublime (solid to gas), condense (gas to liquid) and deposit (gas to solid)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Mirrors the p. 318 model without its labels. Reviser round 1: the network diagram was replaced by a table, because the renderer (src/app/components/Diagram.tsx) draws opposite-direction edges on one straight line with overlapping labels, so arrows 1/4, 2/5 and 3/6 could not be told apart. The pedagogy reviewer suggested dropping the diagram; the science reviewer's table was used instead, so the item still asks the learner to read a state-change model and the picture is readable. Arrow directions are still repeated in the left items, the alt text and the accessible prompt, so the item works without seeing the table. The renderer limitation is outside this lesson's files and is reported to the orchestrator. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 318; evidence pp. 309, 318) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: unreadable network diagram replaced by a table"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt and accessible prompt no longer rely on the broken diagram"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q21",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3",
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "melting",
+        "constant temperature during a change of state",
+        "energy and attractions"
+      ],
+      "familyId": "L24-F10",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A thermometer sits in a stirred cup of ice and water in a warm room at normal air pressure. Energy keeps flowing in, yet the reading stays at 0 °C until the last ice melts. Where is the incoming energy going?",
+      "accessiblePrompt": "A thermometer sits in a stirred cup of ice and water in a warm room at normal air pressure. Energy keeps flowing in, yet the reading stays at 0 degrees Celsius until the last of the ice melts. Where is the incoming energy going?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nowhere, because the ice blocks energy from entering the cup",
+          "rationale": "Energy does enter: the ice keeps melting, and melting takes energy in."
+        },
+        {
+          "id": "b",
+          "text": "Into speeding up the molecules, but the thermometer is too slow to show it",
+          "rationale": "If the molecules sped up on average, the temperature would rise; the steady reading means their average energy of motion is not changing."
+        },
+        {
+          "id": "c",
+          "text": "Into making brand-new water molecules out of the ice",
+          "rationale": "Melting does not create molecules; the same water molecules change how they are arranged."
+        },
+        {
+          "id": "d",
+          "text": "Into freeing molecules from their fixed places in the ice",
+          "rationale": "Correct: during melting the energy goes into breaking molecules loose from the solid, so the temperature holds at 0 °C."
+        }
+      ],
+      "answer": "d",
+      "conditions": "Normal sea-level air pressure; the cup is stirred so ice and water stay mixed.",
+      "explanation": "While ice melts, the incoming energy goes into breaking water molecules out of their fixed positions in the solid. Their average energy of motion stays the same, so the temperature stays at 0 °C. Only after all the ice has melted does added energy warm the water.",
+      "misconception": "Adding energy always raises the temperature.",
+      "hint": "Think about what must happen to the ice's molecules before the ice can become liquid.",
+      "followUpId": "L24-Q15",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            314
+          ],
+          "pdf": [
+            350
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            314
+          ],
+          "pdfPages": [
+            350
+          ],
+          "locator": "Section 2, Melting",
+          "supports": "Ice held at its melting point, 0 °C, keeps taking in energy from the hot pan until all of it has turned to liquid."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            312
+          ],
+          "pdfPages": [
+            348
+          ],
+          "locator": "Spread: Comparing Heat, Thermal Energy, and Temperature (Heating)",
+          "supports": "Pots of boiling water keep receiving heat from the flame while their thermometers read 100 °C."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "While a substance is undergoing a change in state its temperature remains constant; the energy changes the attractions between molecules rather than their motion."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief check pp. 318-319 (L24-RF2): corrects the impression that added energy always raises temperature. Reviser round 1: choice d shortened (it was the longest and the only contrast clause) and the hint no longer mirrors it. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 314; evidence pp. 312, 314) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d shortened; hint no longer mirrors d"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q22",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "heating curve",
+        "melting",
+        "reading a graph"
+      ],
+      "familyId": "L24-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "The graph shows the temperature of a sample of ice heated steadily and stirred at normal sea-level air pressure. For how many minutes did the sample contain both ice and liquid water?",
+      "accessiblePrompt": "A line graph shows the temperature of a sample of ice heated steadily and stirred at normal sea-level air pressure. At 0 minutes the sample is at minus 20 degrees Celsius. The temperature rises to 0 degrees at 1 minute, stays at 0 degrees until 9 minutes, rises steadily to 100 degrees at 19 minutes, then stays at 100 degrees until the graph ends at 30 minutes. For how many minutes did the sample contain both ice and liquid water?",
+      "answer": 8,
+      "tolerance": 0.5,
+      "unit": "minutes",
+      "workedSolution": "The flat stretch at 0 °C is when ice and liquid water exist together. It starts at 1 minute, when the ice reaches its melting point, and ends at 9 minutes, when the last ice has melted and the line starts climbing again. 9 minutes − 1 minute = 8 minutes.",
+      "diagram": {
+        "kind": "curve",
+        "caption": "Heating curve for a sample of ice (normal sea-level air pressure)",
+        "alt": "Line graph of temperature in degrees Celsius against time in minutes. At 0 minutes the sample is at minus 20 degrees. The line rises to 0 degrees at 1 minute, stays flat at 0 degrees until 9 minutes, rises steadily to 100 degrees at 19 minutes, then stays flat at 100 degrees until the graph ends at 30 minutes. The ends of the flat stretch at 0 degrees are labeled 1 min and 9 min.",
+        "xLabel": "Time (minutes)",
+        "yLabel": "Temperature (°C)",
+        "series": [
+          {
+            "label": "Water sample",
+            "points": [
+              [
+                0,
+                -20
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                19,
+                100
+              ],
+              [
+                30,
+                100
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": 1.6,
+            "y": 14,
+            "text": "1 min"
+          },
+          {
+            "x": 8.4,
+            "y": 14,
+            "text": "9 min"
+          }
+        ]
+      },
+      "units": "minutes",
+      "conditions": "Steady heating, stirred sample, normal sea-level air pressure.",
+      "limitations": "Invented, idealized data; real heating curves have slightly rounded corners, so the time ice and water coexist is read from the idealized flat stretch.",
+      "explanation": "A flat stretch on a heating curve means the substance is changing state. Here the line is flat at 0 °C from minute 1 to minute 9, so ice and liquid water were together for 8 minutes while the ice melted. Energy was flowing in the whole time; it went into freeing molecules from the solid instead of raising the temperature.",
+      "misconception": "A flat line on a heating curve means no energy was being added.",
+      "hint": "While ice and liquid water exist together, what does the temperature do?",
+      "followUpId": "L24-Q19",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            314,
+            315
+          ],
+          "pdf": [
+            350,
+            351
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            314
+          ],
+          "pdfPages": [
+            350
+          ],
+          "locator": "Section 2, Melting",
+          "supports": "Ice melts completely when it gains enough thermal energy at water's melting point, 0 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            315
+          ],
+          "pdfPages": [
+            351
+          ],
+          "locator": "Section 2, Evaporating",
+          "supports": "As the water gains more thermal energy its temperature rises until it reaches its boiling point, 100 °C, where it boils."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "On a heating curve, the temperature of a melting solid stops rising despite continual heat input and remains constant until all of the solid has melted."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Plateau lengths are roughly in proportion to real energies (warming ice : melting : warming water = 1 : 8 : 10); the 30-minute end does not imply boiling finished. Reviser round 1: the prompt no longer names the plateau, so the learner must recognize the flat 0 °C stretch as the time ice and water coexist, and the hint no longer points straight at it. The curve renderer labels only three ticks per axis, so annotations '1 min' and '9 min' now mark the ends of the flat stretch for sighted learners (checked in a replica render). Follow-up retargeted to Q19. Same −20 °C ice at sea level as L23-Q14, but the task differs (reading the graph, not ordering stages). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 314, 315; evidence pp. 314, 315) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: annotations mark the plateau ends at 1 and 9 min"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt asks when ice and water coexist; new hint; follow-up to Q19"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q23",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4",
+        "L24-O3"
+      ],
+      "conceptTags": [
+        "cooling curve",
+        "freezing",
+        "constant temperature during a change of state"
+      ],
+      "familyId": "L24-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "The graph shows a liquid pure substance, Sample X, cooling in a 20 °C room. Its temperature falls to 44 °C, holds there for 10 minutes, and then falls again. What is happening during those 10 minutes?",
+      "accessiblePrompt": "A line graph shows a liquid pure substance, called Sample X, cooling in a room at 20 degrees Celsius. Its temperature starts at 70 degrees, falls to 44 degrees at 5 minutes, stays at 44 degrees until 15 minutes, then falls to 30 degrees at 20 minutes and 24 degrees at 25 minutes. What is happening during the 10 minutes when it stays at 44 degrees Celsius?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It has stopped losing energy to the room for a while.",
+          "rationale": "It is still warmer than the 20 °C room, so energy is still flowing out; that energy comes from particles locking together."
+        },
+        {
+          "id": "b",
+          "text": "It is freezing, still giving off energy as it turns solid.",
+          "rationale": "Correct: at its freezing point, the liquid loses energy as particles settle into fixed positions, so the temperature holds until it is all solid."
+        },
+        {
+          "id": "c",
+          "text": "Its particles have stopped moving, so nothing about it changes.",
+          "rationale": "Particles never stop; they are settling into fixed positions where they will keep vibrating."
+        },
+        {
+          "id": "d",
+          "text": "It is boiling, which holds its temperature steady.",
+          "rationale": "Boiling needs energy added, but this liquid is losing energy as it cools."
+        }
+      ],
+      "answer": "b",
+      "diagram": {
+        "kind": "curve",
+        "caption": "Cooling curve for Sample X in a 20 °C room",
+        "alt": "Line graph of temperature in degrees Celsius against time in minutes. The sample starts at 70 degrees at 0 minutes, falls to 44 degrees at 5 minutes, stays flat at 44 degrees until 15 minutes, then falls to 30 degrees at 20 minutes and 24 degrees at 25 minutes.",
+        "xLabel": "Time (minutes)",
+        "yLabel": "Temperature (°C)",
+        "series": [
+          {
+            "label": "Sample X",
+            "points": [
+              [
+                0,
+                70
+              ],
+              [
+                5,
+                44
+              ],
+              [
+                15,
+                44
+              ],
+              [
+                20,
+                30
+              ],
+              [
+                25,
+                24
+              ]
+            ]
+          }
+        ]
+      },
+      "conditions": "The room stays at 20 °C and normal air pressure; Sample X is a single pure substance.",
+      "limitations": "Invented data for an unnamed substance; real cooling curves can dip slightly before freezing starts.",
+      "explanation": "A flat step on a cooling curve means a change of state. The liquid has cooled to its freezing point, 44 °C, and as energy keeps flowing out to the cooler room, its particles lock into fixed positions. Until all of it is solid the temperature holds steady; then the solid cools further.",
+      "misconception": "If the temperature is not changing, no energy is moving.",
+      "hint": "Is the sample still warmer than the room? Then energy is still leaving it.",
+      "followUpId": "L24-Q19",
+      "scope": {
+        "lessonId": "L24",
+        "section": "3. Objects Lose Thermal Energy",
+        "pages": {
+          "printed": [
+            317
+          ],
+          "pdf": [
+            353
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            317
+          ],
+          "pdfPages": [
+            353
+          ],
+          "locator": "Section 3, Freezing; Figure 3B",
+          "supports": "A liquid that has cooled to its melting point and keeps losing energy freezes, with its particles locking into fixed positions."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "While a substance is undergoing a change in state its temperature remains constant; heat lost during freezing comes from strengthening the attractions between molecules."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Mirror image of L24-Q22 (cooling instead of heating), asking for interpretation rather than a reading. Reviser round 1: choice b shortened and choice a lengthened so the keyed choice is not cued by length or by its colon. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 317; evidence pp. 317) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made. OpenStax 10.3 says lost heat on a plateau comes from enhancing intermolecular attractions, which supports the evidence paraphrase.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice lengths balanced (b shortened, a lengthened)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q24",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4",
+        "L24-O1"
+      ],
+      "conceptTags": [
+        "evaporating",
+        "temperature",
+        "range of particle speeds",
+        "evaporation rate"
+      ],
+      "familyId": "L24-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two identical bowls of water sit side by side in the same still room. One is kept at 15 °C and the other at 30 °C. Which loses water to evaporation faster, and why?",
+      "accessiblePrompt": "Two identical bowls of water sit side by side in the same still room. One is kept at 15 degrees Celsius and the other at 30 degrees Celsius. Which loses water to evaporation faster, and why?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Neither bowl loses water, because water must reach 100 °C to become a gas",
+          "rationale": "Evaporation happens below the boiling point: some surface molecules escape at ordinary temperatures, which is why puddles dry."
+        },
+        {
+          "id": "e",
+          "text": "The 15 °C bowl, because cooler molecules cling to each other less tightly",
+          "rationale": "Cooling does not loosen the attractions; cooler molecules move more slowly on average, so fewer are fast enough to escape."
+        },
+        {
+          "id": "c",
+          "text": "The 30 °C bowl, because more surface molecules are fast enough to escape",
+          "rationale": "Correct: warmer water has a higher average energy of motion, so a larger share of its surface molecules move fast enough to break away."
+        },
+        {
+          "id": "f",
+          "text": "Both at the same rate, because temperature does not affect evaporation",
+          "rationale": "A higher average energy of motion means more molecules fast enough to escape each second, so the warmer bowl evaporates faster."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Water molecules move at many different speeds, and only those near the surface that are moving fast enough can escape into the air. In the 30 °C bowl the average energy of motion is higher, so a larger share of surface molecules are fast enough at any moment. Both bowls evaporate, but the warmer one loses water faster.",
+      "misconception": "Water must reach its boiling point to evaporate, or temperature does not affect how fast it evaporates.",
+      "hint": "Not every molecule moves at the average speed.",
+      "followUpId": "L24-Q07",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            315
+          ],
+          "pdf": [
+            351
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            315
+          ],
+          "pdfPages": [
+            351
+          ],
+          "locator": "Section 2, Evaporating; Figure 2B",
+          "supports": "Particles in a liquid are not struck uniformly, so some gain extra energy; surface particles moving fast enough escape into the gas state, which is evaporation."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            310
+          ],
+          "pdfPages": [
+            346
+          ],
+          "locator": "Section 1, Thermal Energy and Temperature",
+          "supports": "Particles move faster, with more kinetic energy, when the temperature is higher."
+        },
+        {
+          "type": "external",
+          "title": "Evaporation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Water evaporates at temperatures below its boiling point, only more slowly; evaporation moves water from surfaces into the air."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-17",
+          "supports": "As temperature increases, a liquid's vapor pressure increases because the average kinetic energy of its molecules is higher, so more molecules escape per unit of time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Re-angled in reviser round 1: the earlier puddle version overlapped L18-Q10 (surface molecules gain energy and escape), and its keyed clause 'though the average is lower' was ambiguous. This version links temperature as average energy of motion (O1) to the spread of speeds and the rate of evaporation (O4). It compares one substance at two temperatures, so comparing speeds is safe (L24-RF3). Choices b and d retired; new choices e and f. Still repairs the p. 315 'speed it past the boiling point' wording (L24-RF5). Follow-up Q07 (choice e: molecules have a spread of speeds). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 315; evidence pp. 310, 315) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: re-angled to two bowls at 15 °C and 30 °C (overlapped L18-Q10)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Same room air, same surface area, no wind; each bowl is held at its temperature, and neither boils."
+    },
+    {
+      "id": "L24-Q25",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "evaporating",
+        "boiling",
+        "boiling point",
+        "evidence"
+      ],
+      "familyId": "L24-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each clue: is it a sign of evaporation without boiling, or of boiling?",
+      "accessiblePrompt": "Sort each clue: is it a sign of evaporation without boiling, or of boiling? The clues are: bubbles of vapor form deep inside the liquid, not just at its top; a wet swimsuit dries on a cool, breezy afternoon; a pot of water at sea level stays at 100 degrees Celsius while it bubbles hard; only molecules at the liquid's surface escape into the air; a glass of water on a shelf is a little lower a week later; and a liquid turns to gas all through itself once it reaches a certain temperature.",
+      "answer": {
+        "o1": "boil",
+        "o2": "evap",
+        "o3": "boil",
+        "o4": "evap",
+        "o5": "evap",
+        "o6": "boil"
+      },
+      "items": [
+        {
+          "id": "o1",
+          "text": "Bubbles of vapor form deep inside the liquid, not just at its top.",
+          "rationale": "Vapor forming throughout the liquid is the mark of boiling."
+        },
+        {
+          "id": "o2",
+          "text": "A wet swimsuit dries on a cool, breezy afternoon.",
+          "rationale": "The water escapes from the surface far below 100 °C: evaporation."
+        },
+        {
+          "id": "o3",
+          "text": "A pot of water at sea level stays at 100 °C while it bubbles hard.",
+          "rationale": "Bubbling at water's boiling point, with the temperature holding steady, is boiling."
+        },
+        {
+          "id": "o4",
+          "text": "Only molecules at the liquid's surface escape into the air.",
+          "rationale": "Escape from the surface alone, with no bubbles inside, is evaporation."
+        },
+        {
+          "id": "o5",
+          "text": "A glass of water on a shelf is a little lower a week later.",
+          "rationale": "Room-temperature water slowly leaving from the surface is evaporation."
+        },
+        {
+          "id": "o6",
+          "text": "A liquid turns to gas all through itself once it reaches a certain temperature.",
+          "rationale": "A change throughout the liquid at one temperature, its boiling point, is boiling."
+        }
+      ],
+      "bins": [
+        {
+          "id": "evap",
+          "label": "Evaporation without boiling"
+        },
+        {
+          "id": "boil",
+          "label": "Boiling"
+        }
+      ],
+      "explanation": "Evaporation happens only at a liquid's surface and can happen at almost any temperature, which is why swimsuits dry and water in a glass slowly disappears. Boiling happens at the boiling point, when vapor forms throughout the liquid as bubbles. While water boils at sea level, its temperature stays at 100 °C.",
+      "misconception": "Evaporation and boiling are the same thing, or any liquid turning into gas is boiling.",
+      "hint": "Look for clues about where the gas forms and how hot the liquid is.",
+      "followUpId": "L24-Q27",
+      "scope": {
+        "lessonId": "L24",
+        "section": "2. Objects Gain Thermal Energy",
+        "pages": {
+          "printed": [
+            315
+          ],
+          "pdf": [
+            351
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            315
+          ],
+          "pdfPages": [
+            351
+          ],
+          "locator": "Section 2, Evaporating; Figure 2B",
+          "supports": "Evaporation is surface particles breaking away; at the boiling point (100 °C for water) bubbles form throughout the liquid and it boils."
+        },
+        {
+          "type": "external",
+          "title": "Evaporation and the Water Cycle",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+          "accessed": "2026-10-14",
+          "supports": "Evaporation moves water from surfaces into the air and happens at temperatures below the boiling point."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "A liquid boils when its vapor pressure equals the pressure on it; the normal boiling point is the boiling temperature at 1 atm."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Each observation names a feature unique to one process; the boiling-pot item keeps the 100 °C claim at sea level (L24-RF4). Reviser round 1: 'observation' became 'clue', because items o4 (molecules escaping) and o6 (a definition) are explanations, not observations. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 315; evidence pp. 315) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'observation' renamed 'clue'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q26",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "boiling point",
+        "air pressure",
+        "conditions"
+      ],
+      "familyId": "L24-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In Leadville, Colorado, about 3 kilometers above sea level, a pot of water boils at about 90 °C instead of 100 °C. What best explains the difference?",
+      "accessiblePrompt": "In Leadville, Colorado, a town about 3 kilometers above sea level, a pot of water boils at about 90 degrees Celsius instead of 100 degrees Celsius. What best explains the difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The air pressure there is lower, and a boiling point depends on the pressure",
+          "rationale": "Correct: water boils at 100 °C at normal sea-level pressure; with less air pressing on it, it boils at a lower temperature."
+        },
+        {
+          "id": "b",
+          "text": "Thermometers read several degrees too low when they are high on a mountain",
+          "rationale": "The thermometer is fine; water really does boil at a lower temperature there."
+        },
+        {
+          "id": "c",
+          "text": "Water molecules high on a mountain attract one another more strongly",
+          "rationale": "Stronger attractions would raise the boiling point, not lower it; the molecules are the same as at sea level."
+        },
+        {
+          "id": "d",
+          "text": "Water always boils near 90 °C, and 100 °C is just a rounded textbook number",
+          "rationale": "At normal sea-level pressure water boils at 100 °C; the value changes only because the pressure changes."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A boiling point is not one fixed number for every place. It depends on the pressure on the liquid. Water boils at 100 °C at normal sea-level air pressure; high in the mountains, where the air pressure is lower, it boils at a lower temperature.",
+      "misconception": "A substance's boiling point is the same under all conditions.",
+      "hint": "What is different about the air high on a mountain?",
+      "followUpId": "L24-Q22",
+      "scope": {
+        "lessonId": "L24",
+        "section": "4. Attractions Between Particles",
+        "pages": {
+          "printed": [
+            319
+          ],
+          "pdf": [
+            355
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            319
+          ],
+          "pdfPages": [
+            355
+          ],
+          "locator": "Section 4, Attractions Between Particles",
+          "supports": "Substances change state at differing temperatures and pressures."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-14",
+          "supports": "At 1 atm water boils at 100 °C; in Leadville, Colorado (elevation 10,200 feet), typical air pressure is 68 kPa and water boils at about 90 °C."
+        }
+      ],
+      "review": {
+        "status": "rejected",
+        "notes": "Rejected in reviser round 1 (pedagogy review). It nearly duplicates L23-Q17 and L23-Q18 (lower mountain air pressure lowers water's boiling point). Those belong to L23, which teaches pressure and phase conditions; the L24 pages mention pressure in a single clause (p. 319) and never teach this relationship. Its hint also pointed straight at choice a, the only choice about air. The science review had passed its content. Replaced by L24-Q29 (family F08). Pressure is still stated as a condition in every L24 melting or boiling claim (L24-RF4).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "rejected: near-duplicate of L23-Q17/L23-Q18; pressure is L23's topic; hint gives the answer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q27",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "attractions between particles",
+        "boiling point",
+        "helium",
+        "water"
+      ],
+      "familyId": "L24-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "At normal air pressure, helium boils at about −269 °C, but water boils at 100 °C. What does this difference tell you about their particles?",
+      "accessiblePrompt": "At normal air pressure, helium boils at about minus 269 degrees Celsius, but water boils at 100 degrees Celsius. What does this difference tell you about their particles?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Helium atoms move too slowly to cling together, so they spread apart",
+          "rationale": "Slow particles stick together more easily, not less; the difference lies in how strongly the particles pull on each other."
+        },
+        {
+          "id": "b",
+          "text": "Helium atoms are bigger and heavier than water molecules",
+          "rationale": "A helium atom is much lighter than a water molecule and no bigger; the boiling points reflect how strongly the particles attract, not their size or mass."
+        },
+        {
+          "id": "c",
+          "text": "Helium holds more thermal energy than water at any temperature",
+          "rationale": "Thermal energy depends on the amount and temperature of a sample; it does not explain why helium boils at a far lower temperature."
+        },
+        {
+          "id": "d",
+          "text": "Helium atoms attract one another far more weakly than water molecules do",
+          "rationale": "Correct: weak attractions are overcome with very little energy, so helium boils at an extremely low temperature."
+        }
+      ],
+      "answer": "d",
+      "conditions": "Normal atmospheric pressure.",
+      "explanation": "A boiling point shows how much energy particles need to pull away from each other. Helium atoms attract one another very weakly, so even at −269 °C they have enough energy to escape into a gas. Water molecules attract strongly, so water must reach 100 °C (at normal air pressure) to boil.",
+      "misconception": "Boiling point depends only on how fast particles move, not on how strongly they attract each other.",
+      "hint": "Ask what a boiling point measures: how much energy particles need to get away from one another.",
+      "followUpId": "L24-Q17",
+      "scope": {
+        "lessonId": "L24",
+        "section": "4. Attractions Between Particles",
+        "pages": {
+          "printed": [
+            319
+          ],
+          "pdf": [
+            355
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            319
+          ],
+          "pdfPages": [
+            355
+          ],
+          "locator": "Section 4, Attractions Between Particles",
+          "supports": "Water molecules attract strongly and helium atoms weakly; helium boils at −269 °C and water at 100 °C, and boiling and melting points show how strongly particles attract."
+        },
+        {
+          "type": "external",
+          "title": "Periodic Table of Elements: Helium",
+          "publisher": "Los Alamos National Laboratory",
+          "url": "https://www.lanl.gov/science-engineering/periodic-table/element/helium",
+          "accessed": "2026-10-14",
+          "supports": "Helium's boiling point is 4.222 K (about −269 °C), and it cannot be solidified at normal atmospheric pressure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Textbook helium figure checked against LANL (L24-RF4). Reviser round 1: new hint no longer points at choice d; choice d shortened (it was the longest). Rationale b now answers both 'bigger' and 'heavier'. It says 'no bigger' rather than the reviewer's 'smaller', because the sizes of a helium atom and a water molecule depend on how they are measured and are similar. Follow-up moved from Q24, which was re-angled, to Q17 (slowed particles stick together because they attract). Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 319; evidence pp. 319) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at d; rationale b covers size and mass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q28",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "attractions between particles",
+        "boiling point",
+        "data table",
+        "ranking"
+      ],
+      "familyId": "L24-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "The table lists boiling points measured at the same air pressure. Order the substances from weakest to strongest attractions between their particles.",
+      "accessiblePrompt": "A table lists boiling points measured at the same air pressure: helium, minus 269 degrees Celsius; Substance X, minus 40 degrees Celsius; Substance Y, 65 degrees Celsius; and water, 100 degrees Celsius. Order the substances from weakest to strongest attractions between their particles.",
+      "answer": [
+        "b3",
+        "b2",
+        "b4",
+        "b1"
+      ],
+      "items": [
+        {
+          "id": "b1",
+          "text": "Water",
+          "rationale": "Highest boiling point in the table (100 °C), so the strongest attractions."
+        },
+        {
+          "id": "b2",
+          "text": "Substance X",
+          "rationale": "Boils at −40 °C: higher than helium, so stronger attractions, but weaker than Substance Y."
+        },
+        {
+          "id": "b3",
+          "text": "Helium",
+          "rationale": "Lowest boiling point (−269 °C): its particles barely attract each other."
+        },
+        {
+          "id": "b4",
+          "text": "Substance Y",
+          "rationale": "Boils at 65 °C: stronger attractions than Substance X, weaker than water."
+        }
+      ],
+      "ends": [
+        "Weakest attractions",
+        "Strongest attractions"
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Boiling points measured at the same air pressure",
+        "alt": "Table of four substances and their boiling points at the same air pressure: helium, minus 269 degrees Celsius; Substance X, minus 40 degrees Celsius; Substance Y, 65 degrees Celsius; water, 100 degrees Celsius.",
+        "columns": [
+          "Substance",
+          "Boiling point (°C)"
+        ],
+        "rows": [
+          [
+            "Helium",
+            -269
+          ],
+          [
+            "Substance X",
+            -40
+          ],
+          [
+            "Substance Y",
+            65
+          ],
+          [
+            "Water",
+            100
+          ]
+        ]
+      },
+      "conditions": "All boiling points measured at the same air pressure.",
+      "limitations": "Substances X and Y are invented. Particle size and shape also affect boiling points, mostly by changing how strongly the particles attract; this lesson's model links boiling points to the strength of attractions.",
+      "explanation": "The more strongly particles attract each other, the more energy they need to pull apart into a gas, so the higher the boiling point. Ranking boiling points from lowest to highest ranks the attractions from weakest to strongest: helium, Substance X, Substance Y, then water. In this lesson's model, melting points are the same kind of evidence.",
+      "misconception": "A low boiling point means a substance's particles cling together tightly.",
+      "hint": "A low boiling point means little energy is needed to pull the particles apart.",
+      "followUpId": "L24-Q21",
+      "scope": {
+        "lessonId": "L24",
+        "section": "4. Attractions Between Particles",
+        "pages": {
+          "printed": [
+            319
+          ],
+          "pdf": [
+            355
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            319
+          ],
+          "pdfPages": [
+            355
+          ],
+          "locator": "Section 4, Attractions Between Particles",
+          "supports": "A substance's boiling and melting points reveal how strongly its particles attract; overcoming strong attractions needs more energy."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Helium and water values from p. 319; X and Y invented to avoid unsourced data. One defensible order under the stated model. Reviser round 1: the prompt no longer states the rule, so the learner must supply the link between boiling point and attraction (the hint still nudges). The optional melting-point column was not added: helium has no melting point at normal air pressure, and a second column of invented values would add a second ranking to reconcile without testing anything new. The explanation now says melting points are the same kind of evidence (p. 319). Follow-up moved from rejected Q26 to Q21. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 319; evidence pp. 319) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitations say size and shape act mostly through attractions (optional)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt no longer states the rule; follow-up off rejected Q26"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L24-Q29",
+      "lessonId": "L24",
+      "objectiveIds": [
+        "L24-O3",
+        "L24-O4"
+      ],
+      "conceptTags": [
+        "freezing",
+        "melting point",
+        "energy given off",
+        "molten metal"
+      ],
+      "familyId": "L24-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Molten aluminum is poured into a room-temperature mold. It turns solid while it is still hotter than 600 °C. Which statement is correct?",
+      "accessiblePrompt": "Molten aluminum is poured into a mold that is at room temperature. The aluminum turns solid while it is still hotter than 600 degrees Celsius. Which statement is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is freezing, giving off energy as its particles lock in place.",
+          "rationale": "Correct: the liquid metal has cooled to its melting point, about 660 °C, and as it keeps giving off energy to the cooler mold, its atoms lock into fixed positions."
+        },
+        {
+          "id": "b",
+          "text": "It cannot be freezing, because freezing happens only at 0 °C or below.",
+          "rationale": "Freezing happens at a substance's own melting point; water's is 0 °C, but pure aluminum's is about 660 °C."
+        },
+        {
+          "id": "c",
+          "text": "It is depositing, because it hardens without cooling to room temperature.",
+          "rationale": "Depositing starts with a gas; this aluminum starts as a liquid, so turning solid is freezing."
+        },
+        {
+          "id": "d",
+          "text": "It is taking in energy from the mold, which locks its particles in place.",
+          "rationale": "Energy flows from the hotter metal into the cooler mold; freezing gives energy off."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Pure aluminum at normal air pressure.",
+      "explanation": "Freezing is the change from liquid to solid, and it happens at a substance's melting point, not at 0 °C. Pure aluminum melts and freezes at about 660 °C, so it turns solid while still far too hot to touch. As it gives off energy to the cooler mold, its atoms lock into fixed positions, where they keep vibrating.",
+      "misconception": "Freezing means getting cold, or it happens only at 0 °C.",
+      "hint": "Freezing names a change from liquid to solid. Does that name say anything about a particular temperature?",
+      "followUpId": "L24-Q19",
+      "scope": {
+        "lessonId": "L24",
+        "section": "3. Objects Lose Thermal Energy",
+        "pages": {
+          "printed": [
+            317
+          ],
+          "pdf": [
+            353
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            317
+          ],
+          "pdfPages": [
+            353
+          ],
+          "locator": "Section 3, Freezing",
+          "supports": "A substance freezes when it has cooled to its melting point and keeps losing energy; molten metal poured into a mold freezes into a solid shape."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            318
+          ],
+          "pdfPages": [
+            354
+          ],
+          "locator": "Key Science Concept diagram",
+          "supports": "The freezing arrow, from liquid to solid, is labeled − Heat: freezing gives off thermal energy."
+        },
+        {
+          "type": "external",
+          "title": "Periodic Table of Elements: Aluminum",
+          "publisher": "Los Alamos National Laboratory",
+          "url": "https://www.lanl.gov/science-engineering/periodic-table/element/aluminum",
+          "accessed": "2026-10-17",
+          "supports": "Aluminum's melting point is 933.47 K, about 660 °C."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 10.3 Phase Transitions",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+          "accessed": "2026-10-17",
+          "supports": "The temperature at which a substance's solid and liquid are in equilibrium is both the melting point of the solid and the freezing point of the liquid."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Replacement for rejected L24-Q26, written in reviser round 1 from the pedagogy reviewer's outline. Fills a gap from p. 317: freezing happens at the substance's melting point, which for aluminum is about 660 °C, not at 0 °C. It also corrects the p. 317 wording that molten metal 'cools to room temperature and forms a solid' (L24-RF4): the metal freezes at its melting point and then cools as a solid. The aluminum melting point comes from LANL, not the textbook. No casting procedure is described. Verify-agent (2026-10-14): checked against the rendered textbook pages (scope p. 317; evidence pp. 317, 318) and the guide's rules and guardrails; key, distractor rationales, citations and accessible wording confirmed; no changes made. Its only review after drafting is this verifier pass, which covered both science (LANL aluminum 933.47 K, about 660 °C; OpenStax 10.3 melting point = freezing point; p. 317 freezing at the melting point) and pedagogy (single defensible key, real misconception distractors, hint does not give the answer).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

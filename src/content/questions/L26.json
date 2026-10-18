@@ -1,0 +1,3368 @@
+{
+  "lessonId": "L26",
+  "questions": [
+    {
+      "id": "L26-Q01",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O1"
+      ],
+      "conceptTags": [
+        "mass-wasting",
+        "gravity",
+        "seed"
+      ],
+      "familyId": "L26-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "In mass wasting, soil and rock move down a slope, sometimes slowly and sometimes in a rush. Which force drives that downhill movement every time?",
+      "accessiblePrompt": "In mass wasting, soil and rock move down a slope, sometimes slowly and sometimes in a rush. Which force drives that downhill movement every time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rainwater",
+          "rationale": "Rainwater makes slopes heavier and weaker, and it is part of a mudflow, but creep and rock falls also happen on dry slopes. Water is a trigger, not the force that drives every event."
+        },
+        {
+          "id": "b",
+          "text": "Gravity",
+          "rationale": "Correct. Gravity pulls earth material toward lower ground in every kind of mass wasting, from slow creep to sudden rock falls."
+        },
+        {
+          "id": "c",
+          "text": "Wind",
+          "rationale": "Wind can move dust and sand, but it cannot shove a hillside of soil and rock downhill."
+        },
+        {
+          "id": "d",
+          "text": "Friction",
+          "rationale": "Friction does the opposite job: it helps hold soil and rock in place until gravity overcomes it."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Gravity is the engine of all mass wasting: it constantly pulls soil and rock toward lower ground. Water, earthquakes and digging can make a slope weaker or give it a jolt, but they act as triggers. Gravity is what actually moves the material downhill.",
+      "misconception": "Water or wind is what pushes soil and rock downhill; gravity only matters for things that fall through the air.",
+      "hint": "Ask what would still pull on a boulder sitting on a perfectly dry, windless hillside.",
+      "followUpId": "L26-Q03",
+      "scope": {
+        "lessonId": "L26",
+        "section": "1. Causes of Mass Wasting",
+        "pages": {
+          "printed": [
+            343,
+            344
+          ],
+          "pdf": [
+            379,
+            380
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            343,
+            344
+          ],
+          "pdfPages": [
+            379,
+            380
+          ],
+          "locator": "Vocabulary box; Section 1, Causes of Mass Wasting",
+          "supports": "Gravity is named as the cause of mass wasting, the downhill motion of earth materials."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (answer: gravity), reworded. Drafted from rendered pp. 343-344. Verify-agent (2026-10-14): checked against rendered pp. 343-344; the vocabulary box and Section 1 both name gravity as the cause of mass wasting. Seed answer correct and unique; all four choices are one-word nouns, so there is no length cue.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: all four choices are now one-word nouns, removing the length cue on the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q02",
+      "lessonId": "L26",
+      "type": "multi",
+      "objectiveIds": [
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "mass-wasting",
+        "slope",
+        "water",
+        "earthquake-trigger"
+      ],
+      "familyId": "L26-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Which conditions make a hillside more likely to have a fast mass-wasting event? Select all that apply.",
+      "accessiblePrompt": "Which conditions make a hillside more likely to have a fast mass-wasting event? Select all that apply. The choices are: a steep slope; soil soaked by several days of heavy rain; strong shaking from an earthquake; a long dry spell with no rain for several months; gentle, nearly flat ground.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A steep slope",
+          "rationale": "Correct. The steeper the slope, the more of gravity's pull acts down the slope, so material moves more readily and faster."
+        },
+        {
+          "id": "b",
+          "text": "Soil soaked by several days of heavy rain",
+          "rationale": "Correct. Water adds weight and weakens the soil, and the lesson ties earthflows and mudflows to heavy rain."
+        },
+        {
+          "id": "c",
+          "text": "Strong shaking from an earthquake",
+          "rationale": "Correct. Shaking can break loose material on steep ground; the 2016 slide in Japan followed a strong earthquake."
+        },
+        {
+          "id": "d",
+          "text": "A long dry spell with no rain for several months",
+          "rationale": "On its own, a dry spell lowers the chance of a fast earthflow or mudflow, because dry soil is lighter and holds together better than soaked soil."
+        },
+        {
+          "id": "e",
+          "text": "Gentle, nearly flat ground",
+          "rationale": "With almost no slope, gravity has little downhill pull to work with, so flat ground has low mass-wasting potential."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Steep slopes give gravity a better angle, soaked soil is heavier and weaker, and earthquake shaking can jar loose material that was barely holding on. Dry weather and gentle slopes work the other way, which is why mapped landslide risk is low on flat, dry ground.",
+      "misconception": "Only the steepness of a slope matters; rain and earthquakes do not change the odds of a landslide.",
+      "hint": "Think about what helps gravity win against the soil's grip, and what helps the soil hold on.",
+      "followUpId": "L26-Q05",
+      "scope": {
+        "lessonId": "L26",
+        "section": "1. Causes of Mass Wasting",
+        "pages": {
+          "printed": [
+            344,
+            345
+          ],
+          "pdf": [
+            380,
+            381
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            344
+          ],
+          "pdfPages": [
+            380
+          ],
+          "locator": "Section 1, Causes of Mass Wasting",
+          "supports": "Steep, wet slopes shed rock and soil faster than gentle, dry ones, and quakes in steep terrain commonly set off landslides."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            345
+          ],
+          "pdfPages": [
+            381
+          ],
+          "locator": "Section 2, Planning for Mass Wasting Events",
+          "supports": "Slope steepness, earth material, weathering rate, earthquakes and human activity affect the chance of mass wasting."
+        },
+        {
+          "type": "external",
+          "title": "Landslide Types and Processes (Fact Sheet 2004-3072)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html",
+          "accessed": "2026-10-14",
+          "supports": "Slope saturation by water is a primary cause of landslides, and earthquakes in steep, landslide-prone areas greatly increase the likelihood that landslides will occur."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 344-345. Reviser round 1 (2026-10-14): the science reviewer's optional wildfire caveat was reduced to 'on its own', because wildfire-driven debris flows are not taught in this lesson and no source for them was opened. Verify-agent (2026-10-14): checked against rendered pp. 344-345 (steep, wet slopes move faster; quakes on steep slopes cause landslides; slope and earthquakes raise the chance). USGS FS 2004-3072 reopened: saturation is a primary cause, and quakes in steep areas greatly raise the likelihood. Key a, b, c is the only defensible set.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud text now matches choice d; choice d rationale says 'on its own'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud mismatch; rationale b says 'the lesson' instead of 'the textbook'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q03",
+      "lessonId": "L26",
+      "type": "match",
+      "objectiveIds": [
+        "L26-O1"
+      ],
+      "conceptTags": [
+        "creep",
+        "earthflow",
+        "mudflow",
+        "rock-fall",
+        "classification"
+      ],
+      "familyId": "L26-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Match each kind of mass wasting with the description that fits it.",
+      "accessiblePrompt": "Match each kind of mass wasting with the description that fits it. The kinds are: mudflow, creep, rock fall, and earthflow. The descriptions are: rock drops very rapidly from a cliff or very steep slope, in wet or dry weather; soil and rock inch downhill so slowly that the change shows only over months or years; soil and rock mixed with lots of water rush very rapidly down a steep slope; a large mass of soggy soil and rock flows down a hillside, often after heavy rain or fast snowmelt.",
+      "left": [
+        {
+          "id": "mud",
+          "text": "Mudflow",
+          "rationale": "A mudflow is soil and rock mixed with lots of water, moving very rapidly down a steep slope."
+        },
+        {
+          "id": "creep",
+          "text": "Creep",
+          "rationale": "Creep is so gradual that it shows up only over months or years, in wet or dry conditions."
+        },
+        {
+          "id": "fall",
+          "text": "Rock fall",
+          "rationale": "A rock fall is rock dropping very rapidly from a cliff or very steep slope, wet or dry."
+        },
+        {
+          "id": "earth",
+          "text": "Earthflow",
+          "rationale": "An earthflow is a large mass of wet soil and rock flowing downhill, usually after heavy rain or fast snowmelt."
+        }
+      ],
+      "right": [
+        {
+          "id": "drop",
+          "text": "Rock drops very rapidly from a cliff or very steep slope, in wet or dry weather"
+        },
+        {
+          "id": "slow",
+          "text": "Soil and rock inch downhill so slowly that the change shows only over months or years"
+        },
+        {
+          "id": "soup",
+          "text": "Soil and rock mixed with lots of water rush very rapidly down a steep slope"
+        },
+        {
+          "id": "mass",
+          "text": "A large mass of soggy soil and rock flows down a hillside, often after heavy rain or fast snowmelt"
+        }
+      ],
+      "answer": {
+        "mud": "soup",
+        "creep": "slow",
+        "fall": "drop",
+        "earth": "mass"
+      },
+      "limitations": "This lesson's four types are a simplified scheme; real slope failures can blend types. The lesson's earthflow examples were fast, but real earthflows range from very slow to rapid.",
+      "explanation": "The four types differ in speed and in how much water is involved. Creep is the slowest and happens wet or dry, while earthflows are large masses of soggy soil and rock, usually set moving when the ground is soaked. Mudflows mix soil and rock with lots of water and move very fast, and rock falls drop from cliffs or very steep slopes in any weather.",
+      "misconception": "All landslides are the same kind of event, and they are always sudden.",
+      "hint": "Look for the one clue in each description: very slow, lots of water, a cliff, or a large soggy mass.",
+      "followUpId": "L26-Q01",
+      "scope": {
+        "lessonId": "L26",
+        "section": "1. Causes of Mass Wasting",
+        "pages": {
+          "printed": [
+            344
+          ],
+          "pdf": [
+            380
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            344
+          ],
+          "pdfPages": [
+            380
+          ],
+          "locator": "Section 1 and Figure 1, Four Types of Mass Wasting",
+          "supports": "Creep is very slow and gradual in wet or dry conditions; earthflows are described as fast and linked to heavy rain or fast snowmelt; mudflows are very fast mixes of water, soil and rock; rock falls are very fast drops from steep slopes or cliffs in wet or dry conditions."
+        },
+        {
+          "type": "external",
+          "title": "The Landslide Handbook: A Guide to Understanding Landslides (Circular 1325), Section 1, Part B: Basic Landslide Types",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/circ/1325/pdf/Sections/Section1.pdf",
+          "accessed": "2026-10-17",
+          "supports": "Earthflows range from very slow, creep-like movement to rapid and catastrophic flows (velocity of travel: slow to very rapid); soil saturated by long or intense rain or snowmelt is a common trigger."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 344 (Figure 1 panel text read from the render). Reviser round 1 (2026-10-14): the reviewer's suggested source, USGS 'Slow-Motion Landslides', could not be opened (CloudFront 403/504 on 2026-10-17), so the earthflow-speed correction cites the USGS Landslide Handbook (Circular 1325), which was opened and says earthflows range from very slow to rapid. Limitation worded with 'the lesson' rather than 'the textbook' because learners see it. Verify-agent (2026-10-14): checked against rendered p. 344 (Figure 1 panel text and the Section 1 definitions). The one-to-one pairing is unique. The earthflow speed limitation rests on the Landslide Handbook record; that PDF exceeded the fetch size this pass, but a USGS slow-moving-landslides result in a search corroborated that many earthflows move slowly.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: earthflow description and rationale no longer use speed as the defining trait; limitation and USGS record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q04",
+      "lessonId": "L26",
+      "type": "multi",
+      "objectiveIds": [
+        "L26-O1",
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "earthflow",
+        "mudflow",
+        "water",
+        "triggers"
+      ],
+      "familyId": "L26-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "A steep hillside gets a week of heavy rain on top of fast-melting snow. Which kinds of mass wasting does this lesson link most directly to that kind of soaking? Select all that apply.",
+      "accessiblePrompt": "A steep hillside gets a week of heavy rain on top of fast-melting snow. Which kinds of mass wasting does this lesson link most directly to that kind of soaking? Select all that apply. The choices are: rock fall, earthflow, creep, and mudflow.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rock fall",
+          "rationale": "Rock falls happen in wet or dry weather; what defines them is rock dropping from a cliff or very steep slope."
+        },
+        {
+          "id": "b",
+          "text": "Earthflow",
+          "rationale": "Correct. The lesson links earthflows to heavy rain or fast-melting snow."
+        },
+        {
+          "id": "c",
+          "text": "Creep",
+          "rationale": "The lesson describes creep as very slow movement in wet or dry conditions, so water is not its defining cause."
+        },
+        {
+          "id": "d",
+          "text": "Mudflow",
+          "rationale": "Correct. A mudflow is soil and rock mixed with lots of water from heavy rain or fast-melting snow."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ],
+      "limitations": "This follows the lesson's simplified four-type scheme. In nature, water can also speed up creep, and a few flows happen in dry, loose material.",
+      "explanation": "The lesson ties earthflows and mudflows to heavy rain or quickly melting snow, because soaked ground loses its grip and can flow. Creep and rock falls happen in wet or dry conditions, so water is not what defines them.",
+      "misconception": "Every kind of landslide needs rain to happen.",
+      "hint": "Think about which kinds need soaked ground to get going, and which can happen whatever the weather.",
+      "followUpId": "L26-Q02",
+      "scope": {
+        "lessonId": "L26",
+        "section": "1. Causes of Mass Wasting",
+        "pages": {
+          "printed": [
+            344
+          ],
+          "pdf": [
+            380
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            344
+          ],
+          "pdfPages": [
+            380
+          ],
+          "locator": "Figure 1, Four Types of Mass Wasting",
+          "supports": "Earthflows and mudflows are caused by heavy rains or fast-melting snow; creep and rock falls occur in wet or dry conditions."
+        },
+        {
+          "type": "external",
+          "title": "Landslide Types and Processes (Fact Sheet 2004-3072)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html",
+          "accessed": "2026-10-14",
+          "supports": "Earthflows usually form in saturated fine-grained material, though dry flows of granular material can also occur; creep includes a seasonal type driven by changes in soil moisture and temperature."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 344; panel text confirmed on the render because the OCR splits the panel captions. Verify-agent (2026-10-14): checked against rendered p. 344: Figure 1 ties earthflows and mudflows to heavy rain or fast-melting snow, and creep and rock falls to wet or dry conditions. The prompt is anchored to the lesson and the limitations name the simplification.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a soaked-hillside scenario; book references and the count-giving hint removed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q05",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "mass-wasting",
+        "hazard-data",
+        "prediction"
+      ],
+      "familyId": "L26-F03",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A planning team compares four hillside towns (see the table). The towns have the same earthquake activity. Which town has the highest potential for mass wasting?",
+      "accessiblePrompt": "A planning team compares four hillside towns. All four have the same earthquake activity. Alder has gentle slopes, light winter rain, solid rock near the surface, and no slides in the past 50 years. Birch has steep slopes, moderate winter rain, loose weathered soil, and 3 slides in the past 50 years. Cedar has moderate slopes, light winter rain, loose weathered soil, and 1 slide in the past 50 years. Dogwood has gentle slopes, heavy winter rain, loose weathered soil, and no slides. Which town has the highest potential for mass wasting?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Four hillside towns",
+        "alt": "Alder: gentle slopes, light winter rain, solid rock near the surface, 0 slides in the past 50 years. Birch: steep slopes, moderate winter rain, loose weathered soil, 3 slides. Cedar: moderate slopes, light winter rain, loose weathered soil, 1 slide. Dogwood: gentle slopes, heavy winter rain, loose weathered soil, 0 slides. All four towns have the same earthquake activity.",
+        "columns": [
+          "Town",
+          "Slopes",
+          "Winter rain",
+          "Ground material",
+          "Slides in past 50 years"
+        ],
+        "rows": [
+          [
+            "Alder",
+            "Gentle",
+            "Light",
+            "Solid rock near surface",
+            0
+          ],
+          [
+            "Birch",
+            "Steep",
+            "Moderate",
+            "Loose, weathered soil",
+            3
+          ],
+          [
+            "Cedar",
+            "Moderate",
+            "Light",
+            "Loose, weathered soil",
+            1
+          ],
+          [
+            "Dogwood",
+            "Gentle",
+            "Heavy",
+            "Loose, weathered soil",
+            0
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alder",
+          "rationale": "Alder has gentle slopes, light rain, solid rock and no past slides, so it has the lowest potential of the four."
+        },
+        {
+          "id": "b",
+          "text": "Birch",
+          "rationale": "Correct. Birch has the steepest slopes, loose weathered soil and the most past slides. Even with only moderate rain, its evidence points to the highest potential."
+        },
+        {
+          "id": "c",
+          "text": "Cedar",
+          "rationale": "Cedar has loose soil and one past slide, but its slopes are only moderate and its rain is light, so it ranks below Birch."
+        },
+        {
+          "id": "d",
+          "text": "Dogwood",
+          "rationale": "Dogwood has the heaviest rain on loose soil, but its gentle slopes give gravity little to work with and it has no record of slides, so heavy rain alone does not make it the riskiest."
+        }
+      ],
+      "answer": "b",
+      "conditions": "All four towns have the same earthquake activity and the same amount of building on their slopes.",
+      "explanation": "Scientists combine several kinds of evidence: how steep the slopes are, what the ground is made of, how wet it gets, and where slides have happened before. Birch's steep slopes, loose ground and record of past slides outweigh Dogwood's heavier rain on gentle ground, so Birch has the highest potential and the strongest case for slope-stabilizing work.",
+      "misconception": "One factor, such as heavy rain, is enough by itself to decide which place is riskiest.",
+      "hint": "List the factors that raise mass-wasting potential, then check how each town does on all of them, not just one.",
+      "followUpId": "L26-Q02",
+      "scope": {
+        "lessonId": "L26",
+        "section": "2. Planning for Mass Wasting Events",
+        "pages": {
+          "printed": [
+            345
+          ],
+          "pdf": [
+            381
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            345
+          ],
+          "pdfPages": [
+            381
+          ],
+          "locator": "Section 2, Planning for Mass Wasting Events, and Figure 2",
+          "supports": "Scientists use slope steepness, type of earth material, weathering rate and the history of past events to predict where mass wasting can happen."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            344
+          ],
+          "pdfPages": [
+            380
+          ],
+          "locator": "Section 1, Causes of Mass Wasting",
+          "supports": "Rock and soil travel faster down steep, soaked slopes than down gentle, dry ones."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 344-345. Invented towns; no figure values are used. Verify-agent (2026-10-14): checked against rendered pp. 344-345. Birch beats Cedar on every factor and beats Dogwood on slope and slide history, so the key is unique; the table alt text carries every value; same-quake and same-building conditions are shown to learners.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Birch's rain set to moderate so Dogwood is a real heavy-rain trap; hint and explanation no longer give the method or use scoring language"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q06",
+      "lessonId": "L26",
+      "type": "classify",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "mitigation",
+        "slope-stabilization",
+        "engineering"
+      ],
+      "familyId": "L26-F13",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Engineers have several ways to reduce mass-wasting damage. Sort each measure by what it mainly does.",
+      "accessiblePrompt": "Engineers have several ways to reduce mass-wasting damage. Sort each measure into one of two groups: measures that keep water from weakening the slope, and measures that hold back or catch earth material. The measures are: a strong wall built at the foot of a steep hill; a waterproof covering spread over a steep slope; channels that steer rainwater around the slope; pipes that drain groundwater out of the hillside; barriers that hold back loose dirt left above homes after a slide.",
+      "bins": [
+        {
+          "id": "water",
+          "label": "Keeps water from weakening the slope"
+        },
+        {
+          "id": "hold",
+          "label": "Holds back or catches earth material"
+        }
+      ],
+      "items": [
+        {
+          "id": "wall",
+          "text": "A strong wall built at the foot of a steep hill",
+          "rationale": "A wall at the bottom stops rock and soil that start moving, so it holds material back rather than dealing with water."
+        },
+        {
+          "id": "cover",
+          "text": "A waterproof covering spread over a steep slope",
+          "rationale": "A waterproof cover keeps rain from seeping in, so the soil stays lighter and stronger."
+        },
+        {
+          "id": "channel",
+          "text": "Channels that steer rainwater around the slope",
+          "rationale": "Channels carry water away before it can soak into the slope, which keeps the slope more stable."
+        },
+        {
+          "id": "drain",
+          "text": "Pipes that drain groundwater out of the hillside",
+          "rationale": "Draining groundwater lowers the water inside the slope, which helps it keep its strength."
+        },
+        {
+          "id": "barrier",
+          "text": "Barriers that hold back loose dirt left above homes after a slide",
+          "rationale": "These barriers physically hold back loose material, like the ones built at La Conchita."
+        }
+      ],
+      "answer": {
+        "wall": "hold",
+        "cover": "water",
+        "channel": "water",
+        "drain": "water",
+        "barrier": "hold"
+      },
+      "limitations": "Real projects often combine both kinds of measures; each item is sorted by its main job.",
+      "explanation": "Mitigation works in two main ways. Keeping water out of a slope, by covering it, steering water around it, or draining it, helps the soil keep its strength so it is less likely to fail. Walls and barriers work at the other end: they hold back or stop soil and rock that is already loose or moving.",
+      "misconception": "All slope protection works the same way, by building a wall.",
+      "hint": "Ask whether each measure deals with water getting into the slope, or with the soil and rock themselves.",
+      "followUpId": "L26-Q02",
+      "scope": {
+        "lessonId": "L26",
+        "section": "2. Planning for Mass Wasting Events",
+        "pages": {
+          "printed": [
+            344,
+            345
+          ],
+          "pdf": [
+            380,
+            381
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            345
+          ],
+          "pdfPages": [
+            381
+          ],
+          "locator": "Section 2, Planning for Mass Wasting Events",
+          "supports": "Three slope measures are named: coverings that block water from soaking in, channels that route water around the slope, and walls at the base that stop sliding material."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            344
+          ],
+          "pdfPages": [
+            380
+          ],
+          "locator": "Section 1, Causes of Mass Wasting",
+          "supports": "After the La Conchita slide, barriers were built to hold back dirt remaining in the area."
+        },
+        {
+          "type": "external",
+          "title": "Landslide Types and Processes (Fact Sheet 2004-3072)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html",
+          "accessed": "2026-10-14",
+          "supports": "Slope stability improves when ground water is kept from rising in the slide mass, including by draining it away, and when a retaining structure is placed at the toe of the slope."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 344-345. The groundwater-drain item rests on the USGS fact sheet. Verify-agent (2026-10-14): checked against rendered p. 345 (covers, channels, walls at the foot) and p. 344 (La Conchita barriers). USGS FS 2004-3072 reopened: it lists draining ground water away and a retaining structure at the toe. Each item has one defensible bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to family F13 (fit the mitigation to the threat), follow-up now Q02, hint no longer splits by timing"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q07",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O1"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "earthquake",
+        "causes"
+      ],
+      "familyId": "L26-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Several kinds of events can start a tsunami. Which one causes tsunamis most often?",
+      "accessiblePrompt": "Several kinds of events can start a tsunami. Which one causes tsunamis most often?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A volcanic eruption at sea",
+          "rationale": "Eruptions can cause tsunamis, but they do so much less often than undersea earthquakes."
+        },
+        {
+          "id": "b",
+          "text": "An earthquake beneath the seafloor",
+          "rationale": "Correct. Undersea earthquakes, especially where one plate slides beneath another, cause most tsunamis."
+        },
+        {
+          "id": "c",
+          "text": "An asteroid striking the ocean",
+          "rationale": "An impact could start a tsunami, but such strikes are extremely rare."
+        },
+        {
+          "id": "d",
+          "text": "Strong, steady winds blowing over the open sea",
+          "rationale": "Wind makes ordinary surface waves and helps drive storm surges. It is not how most tsunamis begin."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Earthquakes under the seafloor are the most common cause of tsunamis. When a fault beneath the ocean slips, the seafloor can jump up or down, and the whole column of water above it moves too. Volcanic eruptions, underwater landslides and asteroid impacts can also start tsunamis, but far less often.",
+      "misconception": "Tsunamis are mostly caused by storms or strong winds.",
+      "hint": "Think about which event can suddenly move a huge area of seafloor.",
+      "followUpId": "L26-Q13",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            346
+          ],
+          "pdf": [
+            382
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            346
+          ],
+          "pdfPages": [
+            382
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "Earthquakes, volcanic eruptions, underwater landslides and asteroid impacts can cause tsunamis; earthquakes are the most common cause."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "Tsunamis are usually generated by earthquakes at or near subduction zones; volcanic activity, landslides and near-earth objects can also generate them."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 346. Verify-agent (2026-10-14): checked against rendered p. 346 (four triggers; earthquakes most common). NOAA Tsunami FAQ reopened: tsunamis are usually generated by earthquakes at or near subduction zones.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up changed to Q13 because Q09 joined family F04"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q08",
+      "lessonId": "L26",
+      "type": "classify",
+      "objectiveIds": [
+        "L26-O1"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "tides",
+        "wind-waves",
+        "classification"
+      ],
+      "familyId": "L26-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Each event moves ocean water. Sort each one by the kind of water movement it produces.",
+      "accessiblePrompt": "Each event moves ocean water. Sort each one into one of three groups: can set off a tsunami; causes tides; causes ordinary wind waves. The events are: the Moon's and Sun's gravity pulling on the oceans; a large earthquake under the seafloor; wind blowing across the sea surface; an underwater landslide; a volcanic eruption in the ocean; an asteroid striking the ocean.",
+      "bins": [
+        {
+          "id": "tsu",
+          "label": "Can set off a tsunami"
+        },
+        {
+          "id": "tide",
+          "label": "Causes tides"
+        },
+        {
+          "id": "wind",
+          "label": "Causes ordinary wind waves"
+        }
+      ],
+      "items": [
+        {
+          "id": "moon",
+          "text": "The Moon's and Sun's gravity pulling on the oceans",
+          "rationale": "Gravity from the Moon and Sun raises and lowers sea level in a regular rhythm: that is the tide."
+        },
+        {
+          "id": "quake",
+          "text": "A large earthquake under the seafloor",
+          "rationale": "A sudden seafloor shift lifts or drops the water above it, the most common way tsunamis start."
+        },
+        {
+          "id": "breeze",
+          "text": "Wind blowing across the sea surface",
+          "rationale": "Wind dragging across the water makes the everyday waves that roll onto beaches."
+        },
+        {
+          "id": "slide",
+          "text": "An underwater landslide",
+          "rationale": "A mass of sediment slumping down an underwater slope suddenly shoves water aside and can start a tsunami."
+        },
+        {
+          "id": "volcano",
+          "text": "A volcanic eruption in the ocean",
+          "rationale": "An eruption can suddenly displace a large volume of water and start a tsunami."
+        },
+        {
+          "id": "rock",
+          "text": "An asteroid striking the ocean",
+          "rationale": "An impact suddenly displaces a huge amount of water, so it can start a tsunami, though such strikes are very rare."
+        }
+      ],
+      "answer": {
+        "moon": "tide",
+        "quake": "tsu",
+        "breeze": "wind",
+        "slide": "tsu",
+        "volcano": "tsu",
+        "rock": "tsu"
+      },
+      "explanation": "Tsunamis come from events that suddenly push a huge amount of water up or aside: undersea earthquakes, underwater landslides, eruptions and impacts. Tides are the slow, regular rise and fall caused by the Moon's and Sun's gravity. Everyday waves come from wind rubbing across the surface. Different causes, different kinds of water motion.",
+      "misconception": "A tsunami is just a giant tide or an extra-large wind wave.",
+      "hint": "Ask whether the event is sudden and violent, steady and regular, or driven by moving air.",
+      "followUpId": "L26-Q10",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            346,
+            347
+          ],
+          "pdf": [
+            382,
+            383
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            346
+          ],
+          "pdfPages": [
+            382
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "Earthquakes, volcanic eruptions, underwater landslides and asteroid impacts can cause tsunamis."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis, and Figure 3",
+          "supports": "Tsunamis differ from ocean waves caused by wind."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "Tsunamis are not related to tides, which result from the gravitational attraction of the Sun and Moon; most ocean waves are generated by wind."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 346-347. Weather-driven items are limited to plain wind waves because NOAA notes certain weather can generate meteotsunamis. Verify-agent (2026-10-14): checked against rendered pp. 346-347. NOAA Tsunami FAQ reopened: tsunamis are not related to tides, which come from the Sun and Moon, and most ocean waves are generated by wind. Each item has one bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q09",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O1",
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "tides",
+        "misconception-tidal-wave"
+      ],
+      "familyId": "L26-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Some people call a tsunami a “tidal wave.” Which statement about that nickname is correct?",
+      "accessiblePrompt": "Some people call a tsunami a tidal wave. Which statement about that nickname is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It fits: a tsunami is really just an extra-high tide raised by the Moon",
+          "rationale": "Tides are the regular rise and fall of the sea caused by the Moon's and Sun's gravity, and no tide ever grows into a tsunami, so the nickname does not fit."
+        },
+        {
+          "id": "b",
+          "text": "It misleads: tides come from the Moon, tsunamis from sudden shoves of water",
+          "rationale": "Correct. Tides are driven by the gravity of the Moon and Sun, while tsunamis start when an event such as an earthquake suddenly displaces water."
+        },
+        {
+          "id": "c",
+          "text": "It fits: tsunamis strike only when the tide is at its very highest point",
+          "rationale": "A tsunami can arrive at any stage of the tide; the tide does not cause it."
+        },
+        {
+          "id": "d",
+          "text": "It misleads: tsunamis are really just giant waves whipped up by powerful winds",
+          "rationale": "The nickname does mislead, but not for this reason. Wind builds ordinary surface waves; a tsunami starts when something like an undersea earthquake suddenly moves a huge amount of water."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Tides are the regular rise and fall of the sea, once or twice a day depending on the coast, caused by the Moon's and Sun's gravity. A tsunami has nothing to do with that pull; it starts when a sudden event such as an undersea earthquake shoves a huge amount of water up or down. Calling it a tidal wave hides its real cause.",
+      "misconception": "Tsunamis are caused by tides, so 'tidal wave' is just another name for them.",
+      "hint": "Think about what causes tides and what causes a tsunami.",
+      "followUpId": "L26-Q11",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            346
+          ],
+          "pdf": [
+            382
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            346
+          ],
+          "pdfPages": [
+            382
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "Tsunamis start when a big volume of seawater is abruptly displaced up or down, for example by an earthquake."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "Tsunamis are not related to tides, which result from the gravitational attraction of the Sun and Moon on the oceans."
+        },
+        {
+          "type": "external",
+          "title": "Tides and Water Levels: Tidal Cycles",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html",
+          "accessed": "2026-10-17",
+          "supports": "Coasts have semidiurnal, mixed semidiurnal or diurnal tides; some areas, such as the Gulf of Mexico, get only one high and one low tide each day."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 346. The textbook does not use the term 'tidal wave'; the misconception is named in the project brief. Verify-agent (2026-10-14): checked against rendered p. 346 plus NOAA records. The FAQ (tides unrelated to tsunamis) and NOAA tidal-cycles page (Gulf of Mexico: one high and one low tide a day) were reopened. Choice b shortens tides to \"from the Moon\"; the explanation names the Sun too. Accepted as a simplification, and lengthening b would make it the longest choice.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer says tides are always twice a day; NOAA tidal-cycles record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: restructured into two 'fits' and two 'misleads' choices so it cannot be answered by elimination; moved to family F04, follow-up Q11"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q10",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "deep-ocean",
+        "wave-height",
+        "wavelength"
+      ],
+      "familyId": "L26-F06",
+      "category": "relationship",
+      "difficulty": 3,
+      "prompt": "A cruise ship is far out over very deep ocean when a tsunami passes beneath it. What would people on board most likely notice?",
+      "accessiblePrompt": "A cruise ship is far out over very deep ocean when a tsunami passes underneath it. What would people on board most likely notice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A towering wall of water crashing over the deck",
+          "rationale": "Tsunamis only grow tall when they reach shallow water near the coast; out at sea they are low."
+        },
+        {
+          "id": "b",
+          "text": "Hardly anything: a slow, gentle rise and fall",
+          "rationale": "Correct. The wave is less than about a meter tall and extremely long there, so the ship rises and sinks too slowly to notice."
+        },
+        {
+          "id": "c",
+          "text": "The ship being carried toward land at jet speed",
+          "rationale": "The wave's energy travels at jet speed, but the water and the ship are not carried along with it across the ocean."
+        },
+        {
+          "id": "d",
+          "text": "Nothing at all, because tsunamis move only along the seafloor",
+          "rationale": "A tsunami moves the whole depth of water, surface included; it is just very low at the surface in deep water."
+        }
+      ],
+      "answer": "b",
+      "conditions": "The ship is over very deep ocean water, far from any coast.",
+      "explanation": "In deep water a tsunami is usually less than a meter tall, but its crests can be dozens or hundreds of kilometers apart. The ship is lifted and lowered so gradually that passengers would hardly feel it. The danger comes later, when the same waves reach shallow water near shore and pile up.",
+      "misconception": "A tsunami is a towering wall of water everywhere it travels, including the open ocean.",
+      "hint": "Compare how tall the wave is out at sea with how far apart its crests are.",
+      "followUpId": "L26-Q18",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            347
+          ],
+          "pdf": [
+            383
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis, and Figure 3, How Tsunamis Form",
+          "supports": "In the deep ocean tsunami wave heights are less than 1 m and the waves can be dozens or hundreds of kilometers long, so people on a ship might not feel them."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "In the deep ocean a tsunami's wavelength may be hundreds of miles; the wave moves through the entire water column rather than only the surface."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 347 (Figure 3 labels read from the render). Verify-agent (2026-10-14): checked against rendered p. 347 and Figure 3: heights under 1 m in deep water, waves dozens or hundreds of km long, and people on a ship might not feel them. NOAA FAQ reopened: tsunamis move through the entire water column.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to family F06 (deep water to shore), follow-up now Q18"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q11",
+      "lessonId": "L26",
+      "type": "order",
+      "objectiveIds": [
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "formation",
+        "sequence",
+        "shoaling"
+      ],
+      "familyId": "L26-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Put these stages of an earthquake-caused tsunami in order, from the seafloor event to the waves reaching land.",
+      "accessiblePrompt": "Put these stages of an earthquake-caused tsunami in order, from the seafloor event to the waves reaching land. The stages are: in shallower water near the coast, the waves slow down and their crests crowd closer together; low, very long waves race outward across the deep ocean; the wave height builds sharply and water surges onto the land; the seafloor suddenly shifts up or down during an undersea earthquake; the whole column of water above the moved seafloor is lifted or dropped.",
+      "items": [
+        {
+          "id": "slow",
+          "text": "In shallower water near the coast, the waves slow down and their crests crowd closer together",
+          "rationale": "Fourth: only as the seafloor rises toward land do the waves slow and bunch up."
+        },
+        {
+          "id": "race",
+          "text": "Low, very long waves race outward across the deep ocean",
+          "rationale": "Third: the displaced water spreads out as low, fast waves in deep water."
+        },
+        {
+          "id": "surge",
+          "text": "The wave height builds sharply and water surges onto the land",
+          "rationale": "Last: the crowded waves grow tall and flood the coast."
+        },
+        {
+          "id": "shift",
+          "text": "The seafloor suddenly shifts up or down during an undersea earthquake",
+          "rationale": "First: the earthquake moves the seafloor, which starts everything."
+        },
+        {
+          "id": "lift",
+          "text": "The whole column of water above the moved seafloor is lifted or dropped",
+          "rationale": "Second: the water above moves with the seafloor, creating the disturbance that becomes the tsunami."
+        }
+      ],
+      "answer": [
+        "shift",
+        "lift",
+        "race",
+        "slow",
+        "surge"
+      ],
+      "ends": [
+        "Seafloor event",
+        "Waves reach land"
+      ],
+      "explanation": "First the seafloor jumps, then the water above it is pushed out of place. Gravity pulls that water back toward level, sending low, long waves outward at high speed across deep water. As the water gets shallower near land, the waves slow, their crests bunch up, and their height grows until they surge ashore.",
+      "misconception": "Tsunamis are already huge when they form and simply travel unchanged until they hit land.",
+      "hint": "Nothing can happen to the water until the seafloor moves, and nothing grows tall until the water gets shallow.",
+      "followUpId": "L26-Q07",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            346,
+            347
+          ],
+          "pdf": [
+            382,
+            383
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            346
+          ],
+          "pdfPages": [
+            382
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "A sudden vertical shift of the seafloor moves the water above it and sends waves out in all directions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Figure 3, How Tsunamis Form",
+          "supports": "The figure shows low, quick waves offshore turning into slower, much taller waves as they near the coast."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "As the ocean floor rises or drops, so does the water above it; in shallow water tsunami wavelengths decrease and the waves grow in height."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 346-347. 'Up or down' avoids the textbook's subducting-plate-down wording (L26-RF3). Verify-agent (2026-10-14): checked against rendered pp. 346-347 and Figure 3. The causal chain allows only one sequence, and the up-or-down wording avoids the textbook plate-direction issue (L26-RF3).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up changed to Q07 because Q10 joined family F06"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q12",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "speed",
+        "wave-height",
+        "shallow-water"
+      ],
+      "familyId": "L26-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "As a tsunami moves from the deep ocean into shallow water near a coast, what happens to its speed and its height?",
+      "accessiblePrompt": "As a tsunami moves from the deep ocean into shallow water near a coast, what happens to its speed and its height?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It speeds up and grows taller",
+          "rationale": "It does grow taller, but it slows down: tsunamis move fastest over deep water."
+        },
+        {
+          "id": "b",
+          "text": "It slows down and grows taller",
+          "rationale": "Correct. Shallow water slows the waves, the crests bunch together, and the height builds."
+        },
+        {
+          "id": "c",
+          "text": "It speeds up and gets shorter",
+          "rationale": "Both parts are reversed: near shore a tsunami loses speed and gains height."
+        },
+        {
+          "id": "d",
+          "text": "It keeps the same speed and height",
+          "rationale": "A tsunami changes a great deal near shore; that change is what makes it dangerous on the coast."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A tsunami's speed depends on water depth: it is fastest over deep ocean and slows as the water shallows. As the front of the wave slows, the water behind catches up, the crests crowd together, and the wave grows taller. That is why a barely noticeable wave at sea can become dangerous at the shore.",
+      "misconception": "A tsunami gets faster and taller the closer it gets to land, or stays the same size all the way across the ocean.",
+      "hint": "Think about what shallow water does to the front of the wave, and what the water behind it does next.",
+      "followUpId": "L26-Q15",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            347
+          ],
+          "pdf": [
+            383
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis, and Figure 3",
+          "supports": "Nearing the coast, tsunamis slow down, the distance between waves shortens and wave heights increase."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "The deeper the water, the faster the tsunami; near land the waves slow to about the speed of a car and grow in height."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 347. Verify-agent (2026-10-14): checked against rendered p. 347 (near the coast speed lessens, spacing shortens, height increases). NOAA FAQ reopened: speed depends on depth, and near land the waves slow to about the speed of a car.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points to the book or nearly gives the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q13",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "ring-of-fire",
+        "plate-boundaries",
+        "patterns"
+      ],
+      "familyId": "L26-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "About four out of every five tsunamis happen around the Pacific Ring of Fire. Which explanation best fits this pattern?",
+      "accessiblePrompt": "About four out of every five tsunamis happen around the Pacific Ring of Fire. Which explanation best fits this pattern?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Pacific is so wide that wind can build waves to tsunami size",
+          "rationale": "Wind makes ordinary waves, however wide the ocean is; tsunamis come from sudden displacement of water, not from wind."
+        },
+        {
+          "id": "b",
+          "text": "The Pacific has the strongest tides on Earth, and big tides grow into tsunamis",
+          "rationale": "Tides are caused by the Moon's and Sun's gravity and do not turn into tsunamis."
+        },
+        {
+          "id": "c",
+          "text": "Colliding plates around the Pacific cause frequent earthquakes and eruptions",
+          "rationale": "Correct. Most tsunamis start with undersea earthquakes, and the Ring of Fire is where plates collide and most earthquakes happen."
+        },
+        {
+          "id": "d",
+          "text": "Pacific seawater is warmer than other oceans, and warm water forms bigger waves",
+          "rationale": "Water temperature does not set off tsunamis; seafloor movement does."
+        }
+      ],
+      "answer": "c",
+      "explanation": "The Ring of Fire traces the edges of the Pacific where plates collide and one plate slides beneath another. Those boundaries produce most of Earth's earthquakes and many volcanic eruptions, the events that most often start tsunamis. The pattern in where tsunamis happen comes from the pattern in where those geologic forces act.",
+      "misconception": "Tsunamis happen where the ocean is biggest, windiest or has the strongest tides.",
+      "hint": "Think about what usually starts a tsunami, then about where that happens most.",
+      "followUpId": "L26-Q07",
+      "scope": {
+        "lessonId": "L26",
+        "section": "3. Causes of Tsunamis",
+        "pages": {
+          "printed": [
+            347,
+            349
+          ],
+          "pdf": [
+            383,
+            385
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "About 80 percent of tsunamis occur around the Pacific Ring of Fire, where most of Earth's earthquake and volcanic activity happens."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            349
+          ],
+          "pdfPages": [
+            385
+          ],
+          "locator": "Section 4, Mitigating Tsunamis, and Figure 4B",
+          "supports": "The pattern of U.S. tsunamis is due mainly to earthquakes caused by plate movements."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "About 78 percent of tsunamis from 1900 to 2015 occurred in the Pacific Ocean around the geologically active Ring of Fire, usually generated at or near subduction zones."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 347 and 349. Verify-agent (2026-10-14): checked against rendered p. 347 (about 80 percent around the Ring of Fire, where most earthquake and volcanic activity occurs) and p. 349 (U.S. pattern due mainly to plate-movement earthquakes). NOAA FAQ reopened: about 78 percent from 1900 to 2015.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q14",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "evidence",
+        "misconception-pacific-only"
+      ],
+      "familyId": "L26-F07",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A student claims, 'Only coasts on the Pacific Ocean can be hit by tsunamis.' Which piece of evidence from the lesson best shows that this claim is wrong?",
+      "accessiblePrompt": "A student claims that only coasts on the Pacific Ocean can be hit by tsunamis. Which piece of evidence from the lesson best shows that this claim is wrong?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The 2011 tsunami devastated the Pacific coast of Japan",
+          "rationale": "This is a Pacific example, so it fits the student's claim instead of challenging it."
+        },
+        {
+          "id": "b",
+          "text": "In 2004 a tsunami struck many countries around the Indian Ocean",
+          "rationale": "Correct. A tsunami in the Indian Ocean is a direct counterexample to 'only the Pacific.'"
+        },
+        {
+          "id": "c",
+          "text": "Many towns all around the Pacific post tsunami warning signs by the shore",
+          "rationale": "Warning signs on Pacific coasts show that the risk there is high, not that other oceans are safe."
+        },
+        {
+          "id": "d",
+          "text": "A DART test buoy was placed in the Pacific off Oregon",
+          "rationale": "Where a test buoy sat says nothing about where tsunamis can happen."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Evidence that disproves a claim has to show a case the claim says cannot happen. The 2004 tsunami struck countries around the Indian Ocean, so tsunamis are not limited to the Pacific. Pacific coasts are hit most often because the Ring of Fire has the most earthquakes, but any ocean coastline can be hit.",
+      "misconception": "Because most tsunamis happen in the Pacific, tsunamis can only happen in the Pacific.",
+      "hint": "Look for an example that happened somewhere the claim says is impossible.",
+      "followUpId": "L26-Q16",
+      "scope": {
+        "lessonId": "L26",
+        "section": "4. Planning for Tsunamis",
+        "pages": {
+          "printed": [
+            347,
+            349
+          ],
+          "pdf": [
+            383,
+            385
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            349
+          ],
+          "pdfPages": [
+            385
+          ],
+          "locator": "Section 4, Mitigating Tsunamis",
+          "supports": "The 2004 Indian Ocean tsunami struck as many as 14 nations."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "No ocean coastline is immune to tsunamis, although some coasts face them more often."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 347 and 349. Death toll deliberately not used (L26-RF6). Verify-agent (2026-10-14): checked against rendered p. 349 (2004 Indian Ocean tsunami, up to 14 countries) and p. 347 (any coastline can be hit). The counterexample logic is sound and no death toll is used.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q15",
+      "lessonId": "L26",
+      "type": "numeric",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "tsunami",
+        "travel-time",
+        "warning-time",
+        "speed-distance"
+      ],
+      "familyId": "L26-F08",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A tsunami crosses deep ocean at about 800 km/h. Town A is 400 km from the earthquake; Town B is 4,000 km away. Assuming that speed the whole way, how many more hours of warning time does Town B get than Town A?",
+      "accessiblePrompt": "A tsunami crosses deep ocean at about 800 kilometers per hour. Town A is 400 kilometers from the earthquake. Town B is 4,000 kilometers away. Assuming the tsunami keeps that speed the whole way, how many more hours of warning time does Town B get than Town A?",
+      "answer": 4.5,
+      "tolerance": 0.1,
+      "unit": "hours",
+      "workedSolution": "Town A: 400 km ÷ 800 km/h = 0.5 h. Town B: 4,000 km ÷ 800 km/h = 5 h. Difference: 5 h − 0.5 h = 4.5 h. Shortcut: the extra distance is 3,600 km, and 3,600 km ÷ 800 km/h = 4.5 h.",
+      "units": "hours",
+      "conditions": "Both towns lie along deep-ocean paths, and the tsunami keeps a steady speed of 800 km/h the whole way. Both towns receive the warning at the same moment, so the difference in warning time equals the difference in arrival time.",
+      "limitations": "Real tsunamis slow down in shallow water near shore, and the real speed depends on ocean depth along each path, so actual arrival times come from detailed models.",
+      "explanation": "Travel time equals distance divided by speed, so a coast ten times farther away gets ten times longer to prepare. That is how warning centers turn a tsunami's speed and its distance from the source into arrival times for coasts across the ocean. A town close to the source, like Town A, gets only about half an hour.",
+      "misconception": "Every coast gets about the same warning time, because a tsunami reaches everywhere at once.",
+      "hint": "Find each town's travel time first (distance divided by speed), then subtract.",
+      "followUpId": "L26-Q12",
+      "scope": {
+        "lessonId": "L26",
+        "section": "4. Planning for Tsunamis",
+        "pages": {
+          "printed": [
+            347,
+            348
+          ],
+          "pdf": [
+            383,
+            384
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            347
+          ],
+          "pdfPages": [
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis",
+          "supports": "In the deep ocean tsunamis can travel at over 800 kilometers per hour."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            348
+          ],
+          "pdfPages": [
+            384
+          ],
+          "locator": "Section 4, Predicting Tsunamis, and Figure 4A",
+          "supports": "Knowing a tsunami's speed and its distance from the source lets scientists calculate arrival times; places farther from the epicenter have more time to prepare."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 347-348. Uses the textbook's 800 km/h figure; constant speed stated as a condition. Verify-agent (2026-10-14): checked against rendered pp. 347-348. Arithmetic rechecked: 400 km / 800 km/h = 0.5 h, 4,000 km / 800 km/h = 5 h, difference 4.5 h, tolerance 0.1 h. The constant-speed and same-moment conditions are shown to learners.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions now state both towns are warned at the same moment"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q16",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "warning-systems",
+        "distance",
+        "2011-tsunami"
+      ],
+      "familyId": "L26-F08",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "In 2011, Japan's tsunami warning system was among the best anywhere, yet many coastal towns there were still devastated. Which is the best explanation?",
+      "accessiblePrompt": "In 2011, Japan's tsunami warning system was among the best anywhere, yet many coastal towns there were still devastated. Which is the best explanation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The warning system missed the earthquake completely",
+          "rationale": "The earthquake was detected; the problem was how little time there was between the quake and the waves arriving."
+        },
+        {
+          "id": "b",
+          "text": "The source was so close that the waves arrived very soon",
+          "rationale": "Correct. The earthquake was just offshore, so the waves reached Japan's coast quickly, leaving little time even with a fast warning."
+        },
+        {
+          "id": "c",
+          "text": "The tsunami slowed down in deep water and caught people by surprise",
+          "rationale": "Tsunamis are fastest in deep water, not slowest; that speed is part of the problem for nearby coasts."
+        },
+        {
+          "id": "d",
+          "text": "Tsunami warnings in Japan are sent out only after the waves reach land",
+          "rationale": "Warnings are issued from earthquake and sea-level data before the waves arrive."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Warning time depends on distance. The 2011 earthquake struck very close to Japan's coast, so the waves arrived soon after the shaking and many people had too little time to reach safety. Coasts across the Pacific had many hours of warning from the same event. A warning system can only buy as much time as the distance allows.",
+      "misconception": "A good enough warning system can always give everyone enough time to escape.",
+      "hint": "Compare how far the earthquake was from Japan with how far it was from the far side of the Pacific.",
+      "followUpId": "L26-Q28",
+      "scope": {
+        "lessonId": "L26",
+        "section": "4. Planning for Tsunamis",
+        "pages": {
+          "printed": [
+            348
+          ],
+          "pdf": [
+            384
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            348
+          ],
+          "pdfPages": [
+            384
+          ],
+          "locator": "Section 4, Predicting Tsunamis, and Figure 4A",
+          "supports": "Because the 2011 source lay just off Japan, its excellent warning system could not give people enough time, while distant coasts had hours to prepare."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "Local tsunamis can strike a coast within minutes of generation with little or no warning."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 348 (Figure 4A travel-time contours read from the render). Reviser round 1 (2026-10-14): the science reviewer's optional additions (waves taller than many walls; early underestimates of the quake's size) were not added, because no source for the underestimate claim was opened in this pass. Verify-agent (2026-10-14): checked against rendered p. 348 and the Figure 4A travel-time map: a source very close to Japan left too little time despite an advanced system, and farther places got more time.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q17",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "forecast-vs-prediction",
+        "warning-systems",
+        "evidence"
+      ],
+      "familyId": "L26-F08",
+      "category": "relationship",
+      "difficulty": 3,
+      "prompt": "Which statement best describes what tsunami warning centers can and cannot do?",
+      "accessiblePrompt": "Which statement best describes what tsunami warning centers can and cannot do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They can name the date of the next tsunami months ahead by tracking its early warning signs",
+          "rationale": "No one can forecast when the next tsunami-causing earthquake will happen, so no one can name the date of the next tsunami."
+        },
+        {
+          "id": "b",
+          "text": "They can stop a tsunami from forming by detecting the earthquake quickly enough",
+          "rationale": "Detection gives people time to prepare; it cannot stop the water that the seafloor has already moved."
+        },
+        {
+          "id": "c",
+          "text": "They can forecast when waves will arrive, but only once a trigger like a quake happens",
+          "rationale": "Correct. Warning centers use seismic and sea-level data after an event to forecast arrival times; they cannot say when the next event will occur."
+        },
+        {
+          "id": "d",
+          "text": "They can confirm a tsunami only after its waves have already reached a coastline",
+          "rationale": "Seafloor pressure sensors and buoys detect tsunamis out in the deep ocean, well before they reach most coasts."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Nobody can say ahead of time when the next tsunami-causing earthquake will strike. Once one does, warning centers react fast: seismic networks detect the quake within minutes, sea-level sensors confirm whether waves formed, and speed and distance give arrival times. When the lesson says tsunamis have “precursor events,” it means triggers like that earthquake, which make a forecast possible after they happen, not a prediction weeks ahead.",
+      "misconception": "Because tsunamis follow earthquakes, scientists can predict the date of the next tsunami long before it happens.",
+      "hint": "Ask whether the centers are watching for something that has already happened or something that hasn't happened yet.",
+      "followUpId": "L26-Q26",
+      "scope": {
+        "lessonId": "L26",
+        "section": "4. Planning for Tsunamis",
+        "pages": {
+          "printed": [
+            348
+          ],
+          "pdf": [
+            384
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            348
+          ],
+          "pdfPages": [
+            384
+          ],
+          "locator": "Section 4, Predicting Tsunamis",
+          "supports": "Seismic networks detect earthquake activity and ocean sensors measure passing waves; speed and distance give arrival times."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "Scientists cannot predict when and where the next tsunami will strike; warning centers base initial messages on preliminary earthquake information and confirm tsunamis with water-level data."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 348. Corrects the textbook's 'can be accurately predicted' line (L26-RF2). Verify-agent (2026-10-14): checked against rendered p. 348. NOAA FAQ reopened: scientists cannot predict when and where the next tsunami will strike; initial messages use preliminary earthquake information; water-level data follow. The key correctly repairs the \"accurately predicted\" line (L26-RF2).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key now starts 'They can...' like the distractors; meta-comment removed from rationale a; explanation squares the answer with the 'precursor events' line"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q18",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "DART",
+        "engineering-design",
+        "sensors"
+      ],
+      "familyId": "L26-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "When NOAA's team designed the DART system, why did they put the tsunami sensor on the seafloor instead of on the ocean surface?",
+      "accessiblePrompt": "When NOAA's team designed the DART system, why did they put the tsunami sensor on the seafloor instead of on the ocean surface?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The seafloor is still, so small pressure changes from a passing tsunami stand out",
+          "rationale": "Correct. Away from the constant motion of the surface, the sensor can detect the slight pressure change a tsunami causes."
+        },
+        {
+          "id": "b",
+          "text": "Tsunami waves are tallest down at the seafloor, so they are easiest to measure there",
+          "rationale": "Wave height is measured at the surface; the sensor instead senses pressure, which changes when the surface height above it changes."
+        },
+        {
+          "id": "c",
+          "text": "The seafloor is closer to the earthquake, so the sensor can feel the shaking",
+          "rationale": "DART measures water pressure, not ground shaking; seismic networks detect earthquakes."
+        },
+        {
+          "id": "d",
+          "text": "Sound travels from the seafloor straight up to satellites in space",
+          "rationale": "Sound waves only carry the data up to the buoy; the buoy uses radio waves to reach the satellite."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Earlier warning systems used only earthquake data, so they often gave false alarms; DART had to catch the tsunami itself, a wave less than a meter tall in deep water. At the surface, wind waves and the bobbing of the sea keep the water moving all the time, which would bury that tiny signal. Deep on the seafloor, below the reach of wind waves, a pressure sensor can pick up the small change in the weight of water above it as a tsunami passes. The slow, predictable tide still shows up there, but the system subtracts it.",
+      "misconception": "A tsunami sensor works best where the water is moving the most.",
+      "hint": "Think about what would make a tiny signal hard to notice.",
+      "followUpId": "L26-Q10",
+      "scope": {
+        "lessonId": "L26",
+        "section": "5. Designing a Tsunami Early Warning System",
+        "pages": {
+          "printed": [
+            350
+          ],
+          "pdf": [
+            386
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            350
+          ],
+          "pdfPages": [
+            386
+          ],
+          "locator": "Section 5, Designing the DART System, and Figure 5A",
+          "supports": "Earlier systems that used only earthquake data often gave false alarms; because the ocean surface is in constant motion, the best place for the sensor was the solid, relatively still seafloor, where it detects small changes in water pressure as tsunamis pass."
+        },
+        {
+          "type": "external",
+          "title": "Deep-ocean Assessment and Reporting of Tsunamis (DART) Description",
+          "publisher": "NOAA National Data Buoy Center",
+          "url": "https://www.ndbc.noaa.gov/dart/dart.shtml",
+          "accessed": "2026-10-14",
+          "supports": "DART stations use an anchored seafloor bottom pressure recorder that measures pressure every 15 seconds and converts it to an estimated sea-surface height."
+        },
+        {
+          "type": "external",
+          "title": "DART Tsunami Detection Algorithm",
+          "publisher": "NOAA National Data Buoy Center",
+          "url": "https://www.ndbc.noaa.gov/dart/algorithm.shtml",
+          "accessed": "2026-10-17",
+          "supports": "The DART gauge predicts the tides and other slow signals to within a few millimeters and subtracts those predicted pressures from its observations to isolate the tsunami signal."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 350. Verify-agent (2026-10-14): checked against rendered p. 350: earlier quake-only systems gave false alarms; the surface is in constant motion; the seafloor is solid and relatively still; the sensor detects pressure changes. NDBC DART description and detection-algorithm pages reopened: tides are predicted within a few millimeters and subtracted.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer implies the seafloor escapes tides; NOAA DART algorithm record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: folded the quake-only false-alarm motivation into the explanation (lesson-level coverage note)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q19",
+      "lessonId": "L26",
+      "type": "order",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "DART",
+        "data-path",
+        "sequence"
+      ],
+      "familyId": "L26-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "prompt": "Put the steps in order to show how a DART reading travels from the ocean floor to scientists on land.",
+      "accessiblePrompt": "Put the steps in order to show how a DART reading travels from the ocean floor to scientists on land. The steps are: a satellite passes the data on to a tsunami warning center; an acoustic modem sends the reading upward through the water as sound waves; scientists at the warning center analyze the data to make a tsunami forecast; a sensor on the seafloor detects a tiny change in water pressure; a buoy floating at the surface receives the sound signal and sends the data on by radio.",
+      "items": [
+        {
+          "id": "sat",
+          "text": "A satellite passes the data on to a tsunami warning center",
+          "rationale": "Fourth: the satellite relays the buoy's radio signal down to the warning center."
+        },
+        {
+          "id": "modem",
+          "text": "An acoustic modem sends the reading upward through the water as sound waves",
+          "rationale": "Second: sound carries the reading through the water to the surface."
+        },
+        {
+          "id": "analyze",
+          "text": "Scientists at the warning center analyze the data to make a tsunami forecast",
+          "rationale": "Last: people on land turn the data into a forecast."
+        },
+        {
+          "id": "sense",
+          "text": "A sensor on the seafloor detects a tiny change in water pressure",
+          "rationale": "First: everything starts when the pressure sensor notices a passing tsunami."
+        },
+        {
+          "id": "buoy",
+          "text": "A buoy floating at the surface receives the sound signal and sends the data on by radio",
+          "rationale": "Third: the buoy catches the sound signal and switches to radio to reach the satellite."
+        }
+      ],
+      "answer": [
+        "sense",
+        "modem",
+        "buoy",
+        "sat",
+        "analyze"
+      ],
+      "ends": [
+        "Ocean floor",
+        "Scientists on land"
+      ],
+      "explanation": "The reading starts as a pressure change on the seafloor. Sound can carry a signal a long way through water, so the acoustic modem beams the reading up through kilometers of water to the buoy. Above the surface, radio takes over: the buoy sends the data to a satellite, which forwards it to the warning center for analysis.",
+      "misconception": "Seafloor sensors send their data straight to satellites, or the buoy itself measures the tsunami.",
+      "hint": "Data has to cross the water before it can travel through the air.",
+      "followUpId": "L26-Q20",
+      "scope": {
+        "lessonId": "L26",
+        "section": "5. Designing a Tsunami Early Warning System",
+        "pages": {
+          "printed": [
+            350
+          ],
+          "pdf": [
+            386
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            350
+          ],
+          "pdfPages": [
+            386
+          ],
+          "locator": "Section 5, Designing the DART System, and Figure 5A, The DART System",
+          "supports": "The seafloor sensor's data go by sound waves from an acoustic modem to a surface buoy, which sends them by radio waves to a satellite that forwards them to a tsunami warning center."
+        },
+        {
+          "type": "external",
+          "title": "Deep-ocean Assessment and Reporting of Tsunamis (DART) Description",
+          "publisher": "NOAA National Data Buoy Center",
+          "url": "https://www.ndbc.noaa.gov/dart/dart.shtml",
+          "accessed": "2026-10-14",
+          "supports": "A DART station consists of a seafloor bottom pressure recorder, an acoustic link and a moored surface buoy that communicates through the Iridium satellite system with the Tsunami Warning Centers."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 350 (Figure 5A labels, including 'Radio waves' and 'Sound waves', read from the render). Reviser round 1 (2026-10-14): the reviewer's replacement sentence ('Radio waves fade out quickly in seawater') was not used. No authoritative page stating it could be opened in this pass, so the new sentence rests on p. 350 (the acoustic modem's sound waves travel long distances through water). The absolute is gone either way. Verify-agent (2026-10-14): checked against rendered p. 350 and Figure 5A labels (sound waves from the acoustic modem to the surface buoy, radio waves to the satellite and the warning center, 1,000-6,000 m depth). NDBC DART description reopened. Only one order is defensible.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the 'only practical way' absolute from the explanation"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q20",
+      "lessonId": "L26",
+      "type": "match",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "DART",
+        "data-dropouts",
+        "design-improvements"
+      ],
+      "familyId": "L26-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Testing an early DART prototype revealed 'data dropouts.' Match each improvement with the problem it was designed to solve. One problem does not match any improvement.",
+      "accessiblePrompt": "Testing an early DART prototype revealed data dropouts, times when the seafloor data never reached the buoy. Match each improvement with the problem it was designed to solve. One problem does not match any improvement. The improvements are: improved communications software; a tiltmeter on the tsunami sensor; a wider acoustic beam. The problems are: no one could tell whether the sensor had settled at a bad angle; a narrow sound beam could easily miss the buoy; data that failed to arrive could not be sent again; the ocean surface moves too much for a sensor to work there.",
+      "left": [
+        {
+          "id": "soft",
+          "text": "Improved communications software",
+          "rationale": "With the updated software, the buoy can ask the modem to send lost data a second time."
+        },
+        {
+          "id": "tilt",
+          "text": "A tiltmeter on the tsunami sensor",
+          "rationale": "The tiltmeter measures the sensor's angle, so a badly tilted sensor can be spotted and repositioned."
+        },
+        {
+          "id": "beam",
+          "text": "A wider acoustic beam",
+          "rationale": "A wider beam is more likely to reach the buoy even when the aim is slightly off."
+        }
+      ],
+      "right": [
+        {
+          "id": "lean",
+          "text": "No one could tell whether the sensor had settled at a bad angle"
+        },
+        {
+          "id": "miss",
+          "text": "A narrow sound beam could easily miss the buoy"
+        },
+        {
+          "id": "lost",
+          "text": "Data that failed to arrive could not be sent again"
+        },
+        {
+          "id": "surface",
+          "text": "The ocean surface moves too much for a sensor to work there"
+        }
+      ],
+      "answer": {
+        "soft": "lost",
+        "tilt": "lean",
+        "beam": "miss"
+      },
+      "explanation": "The team traced the dropouts to two likely causes: a sound signal that could miss the buoy, and software limits. The tiltmeter and the wider beam attacked the first cause in different ways: one reveals a bad angle so the sensor can be reset, and the other spreads the sound so it is harder to miss the buoy. The new software attacked the second cause by letting the buoy ask for lost data again. The moving ocean surface was the reason for putting the sensor on the seafloor in the first place, not one of the three later fixes.",
+      "misconception": "Each improvement was a general upgrade rather than a fix aimed at a specific way the data could get lost.",
+      "hint": "For each improvement, ask what would go wrong without it.",
+      "followUpId": "L26-Q18",
+      "scope": {
+        "lessonId": "L26",
+        "section": "5. Designing a Tsunami Early Warning System",
+        "pages": {
+          "printed": [
+            351,
+            352
+          ],
+          "pdf": [
+            387,
+            388
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            351
+          ],
+          "pdfPages": [
+            387
+          ],
+          "locator": "Testing Designs and Optimizing Designs; Figure 5B, Improvements to the DART System",
+          "supports": "Data dropouts were traced to a sound beam that might miss the buoy and to software problems; the fixes were a wider acoustic beam, a tiltmeter to check sensor tilt for repositioning, and software letting the buoy request missing data."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            352
+          ],
+          "pdfPages": [
+            388
+          ],
+          "locator": "Key Science Concept: Using the Engineering Process to Improve Tsunami Warnings",
+          "supports": "The two possible causes were misalignment of the modem and software limitations; the three solutions were a tiltmeter, a wider beam and improved software."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 351-352 (Figure 5B bullet labels read from the render). Reviser round 1 (2026-10-14): where the two reviewers proposed different wordings, the science reviewer's problem statements were used, because they make the one-to-one key unique and also remove the word echo the pedagogy reviewer flagged. Verify-agent (2026-10-14): checked against rendered pp. 351-352 (Figure 5B bullets; two causes; three fixes). The one-to-one key is unique, and the decoy problem (surface motion) is the reason for seafloor placement on p. 350, not one of the later fixes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: problem statements reworded so each matches only one fix ('bad angle' needs the tiltmeter, 'narrow beam' needs the wider beam); explanation now gives two causes for three fixes"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the 'tilted'/'tiltmeter' word echo; explanation matches the source's two causes"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q21",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "optimization",
+        "combining-solutions",
+        "criteria-constraints",
+        "engineering-design"
+      ],
+      "familyId": "L26-F10",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "Engineers found that any one of three fixes would reduce DART's data dropouts. Why did they build all three into the improved design?",
+      "accessiblePrompt": "Engineers found that any one of three fixes would reduce data dropouts in the DART system. Why did they build all three into the improved design?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adding more parts always improves any design, no matter what each part does",
+          "rationale": "More parts can add cost, weight and new ways to fail. Each fix was kept because it attacked a likely cause of the dropouts, not just because it was extra."
+        },
+        {
+          "id": "b",
+          "text": "Together they covered both likely causes, making the system more reliable",
+          "rationale": "Correct. The tiltmeter and the wider beam both helped the sound signal reach the buoy, and the new software let lost data be sent again. Combining them gave more reliable warnings than any single fix."
+        },
+        {
+          "id": "c",
+          "text": "They could not tell which fix worked, so they kept all three just in case",
+          "rationale": "The team traced the dropouts to likely causes and chose each fix for a reason; each helped on its own, and together they worked best."
+        },
+        {
+          "id": "d",
+          "text": "Using all three meant the new design no longer needed any testing",
+          "rationale": "The team kept testing new versions; combining fixes does not replace testing."
+        }
+      ],
+      "answer": "b",
+      "explanation": "The dropouts had two likely causes: a sound signal that could miss the buoy and software limits. The tiltmeter and the wider beam tackled the first cause in two different ways, and the new software tackled the second. Together they made the system more reliable than any one fix. This is optimizing a design: keeping the best features from several tested solutions while still meeting the problem's criteria and constraints.",
+      "misconception": "Adding more parts always makes a design better, so engineers should include every idea they test.",
+      "hint": "Remember that the team found two likely causes of the dropouts.",
+      "followUpId": "L26-Q28",
+      "scope": {
+        "lessonId": "L26",
+        "section": "Key Science Concept: Using the Engineering Process to Improve Tsunami Warnings",
+        "pages": {
+          "printed": [
+            351,
+            352
+          ],
+          "pdf": [
+            387,
+            388
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            352
+          ],
+          "pdfPages": [
+            388
+          ],
+          "locator": "Key Science Concept: Using the Engineering Process to Improve Tsunami Warnings",
+          "supports": "While any one improvement would help solve the data dropout problem, engineers used all three, and the system gave more reliable warnings."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            351
+          ],
+          "pdfPages": [
+            387
+          ],
+          "locator": "Optimizing Designs and Figure 5B",
+          "supports": "Combining three different solutions resolved the data dropouts and produced a more reliable warning system."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 351-352. Reviser round 1 (2026-10-14): the pedagogy reviewer's key wording ('Each fix closed a different gap') was not used, because three fixes for two causes would still read as three separate gaps; the science reviewer's key wording was used instead. Verify-agent (2026-10-14): checked against rendered pp. 351-352: two possible causes (misalignment, software limits); any one improvement would help; engineers used all three, and warnings became more reliable. The key follows from two causes and three fixes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key and explanation now match the source's two likely causes for three fixes"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c replaced (old one was ruled out by the prompt and echoed the book); follow-up now Q28"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q22",
+      "lessonId": "L26",
+      "type": "classify",
+      "objectiveIds": [
+        "L26-O1"
+      ],
+      "conceptTags": [
+        "floods",
+        "runoff",
+        "storm-surge",
+        "classification"
+      ],
+      "familyId": "L26-F11",
+      "category": "foundational",
+      "difficulty": 1,
+      "prompt": "Floods have two main causes: runoff and storm surge. Sort each flood by its main cause.",
+      "accessiblePrompt": "Floods have two main causes: runoff and storm surge. Sort each flood into one of the two groups. The floods are: hurricane winds pile ocean water onto a low-lying coastal town; a hurricane stalls over an inland city and drops a week of record rain; a tropical storm raises the sea level along a long stretch of shoreline as it comes ashore; days of steady rain fill a river until it spills over its banks; a thunderstorm drops a month's worth of rain on a town in one afternoon.",
+      "bins": [
+        {
+          "id": "runoff",
+          "label": "Runoff from rain"
+        },
+        {
+          "id": "surge",
+          "label": "Storm surge from the sea"
+        }
+      ],
+      "items": [
+        {
+          "id": "hurricane",
+          "text": "Hurricane winds pile ocean water onto a low-lying coastal town",
+          "rationale": "The water comes from the sea, pushed ashore by storm winds: a storm surge."
+        },
+        {
+          "id": "week",
+          "text": "A hurricane stalls over an inland city and drops a week of record rain",
+          "rationale": "A hurricane brought it, but this water fell as rain on land faster than the ground could absorb it: runoff, like Hurricane Harvey's rain on Houston in 2017."
+        },
+        {
+          "id": "shore",
+          "text": "A tropical storm raises the sea level along a long stretch of shoreline as it comes ashore",
+          "rationale": "A storm raising the sea along the coast is a storm surge, which can cover hundreds of kilometers of coastline."
+        },
+        {
+          "id": "river",
+          "text": "Days of steady rain fill a river until it spills over its banks",
+          "rationale": "Long-lasting rain that the ground cannot hold runs off into the river until it overflows."
+        },
+        {
+          "id": "downpour",
+          "text": "A thunderstorm drops a month's worth of rain on a town in one afternoon",
+          "rationale": "Rain arriving faster than the ground can soak it up flows over the land as runoff."
+        }
+      ],
+      "answer": {
+        "hurricane": "surge",
+        "week": "runoff",
+        "shore": "surge",
+        "river": "runoff",
+        "downpour": "runoff"
+      },
+      "explanation": "Runoff floods start with rain: when rain arrives faster or longer than soil and plants can absorb it, the extra water flows over the land into low places and rivers. Storm surges start at sea: hurricane or tropical-storm winds push ocean water toward shore, raising the sea level over low coastal land. A hurricane can cause either kind, so the question is always where the water came from.",
+      "misconception": "Any flood caused by a hurricane must be a storm surge.",
+      "hint": "Ask where the flood water came from: rain falling on land, or seawater pushed ashore.",
+      "followUpId": "L26-Q25",
+      "scope": {
+        "lessonId": "L26",
+        "section": "6. Causes of Floods",
+        "pages": {
+          "printed": [
+            353
+          ],
+          "pdf": [
+            389
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            353
+          ],
+          "pdfPages": [
+            389
+          ],
+          "locator": "Section 6, Causes of Floods, and Figure 6, Two Causes of Flooding",
+          "supports": "Runoff floods happen when heavy or long-lasting rain cannot all soak into the ground; storm surges are unusually high sea levels pushed onto low coasts by hurricane or tropical-storm winds."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 353-354 (Figure 6 labels read from the render). Verify-agent (2026-10-14): checked against rendered p. 353 and Figure 6 (runoff from heavy or long rain; storm surge from hurricane or tropical-storm winds; surges can cover hundreds of km of coastline). Each item has one bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: thin-soil item (which gave away Q25) replaced; new stalled-hurricane runoff item targets 'hurricane flood = storm surge'; p. 354 dropped from scope and evidence"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q23",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O2"
+      ],
+      "conceptTags": [
+        "runoff",
+        "storm-surge",
+        "cause-and-effect"
+      ],
+      "familyId": "L26-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "Which statement correctly compares how the two main kinds of floods begin?",
+      "accessiblePrompt": "Which statement correctly compares how the two main kinds of floods begin?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both begin when an undersea earthquake suddenly lifts the ocean water",
+          "rationale": "An undersea earthquake causes a tsunami, which is a different hazard from either kind of flood in this section."
+        },
+        {
+          "id": "b",
+          "text": "Runoff is rain the ground can't absorb; surge is seawater pushed by storm winds",
+          "rationale": "Correct. Runoff floods start with rain on land, and storm surges start with wind-driven seawater rising onto the coast."
+        },
+        {
+          "id": "c",
+          "text": "Both start with heavy rain; a surge is just rain flooding near the coast",
+          "rationale": "A storm surge is seawater, not rain: the storm's winds push the ocean itself up onto low coastal land."
+        },
+        {
+          "id": "d",
+          "text": "Surge comes from rain overfilling the ocean; runoff comes from waves breaking ashore",
+          "rationale": "The causes are swapped: rain on land makes runoff, and wind over the sea makes a surge."
+        }
+      ],
+      "answer": "b",
+      "explanation": "The two causes start in different places. Runoff begins on land, when rain falls faster or longer than the soil and plants can take in. Storm surge begins at sea, when a hurricane's or tropical storm's strong winds push the ocean surface toward shore and raise the water level over low coasts.",
+      "misconception": "Floods all have the same cause, or storm surges are made by rain and runoff by the ocean.",
+      "hint": "Where does the water start in each case: falling from the sky, or already in the ocean?",
+      "followUpId": "L26-Q09",
+      "scope": {
+        "lessonId": "L26",
+        "section": "6. Causes of Floods",
+        "pages": {
+          "printed": [
+            353
+          ],
+          "pdf": [
+            389
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            353
+          ],
+          "pdfPages": [
+            389
+          ],
+          "locator": "Section 6, Causes of Floods, and Figure 6",
+          "supports": "Runoff is extra rainwater that is not absorbed into the ground; storm surges are unusually high sea levels caused by the high winds of hurricanes and tropical storms."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 353. Verify-agent (2026-10-14): checked against rendered p. 353 and Figure 6. The key matches both mechanisms and each distractor names a real confusion.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c replaced with the real 'surge is just coastal rain flooding' confusion"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q24",
+      "lessonId": "L26",
+      "type": "numeric",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "flood-risk",
+        "frequency",
+        "data-analysis"
+      ],
+      "familyId": "L26-F12",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "Flood maps can rate counties by how often they flooded in the past. Suppose a county recorded 45 flood events in the 18 years from 1996 through 2013. What was its average number of flood events per year?",
+      "accessiblePrompt": "Flood maps can rate counties by how often they flooded in the past. Suppose a county recorded 45 flood events in the 18 years from 1996 through 2013. What was its average number of flood events per year?",
+      "answer": 2.5,
+      "tolerance": 0.05,
+      "unit": "flood events per year",
+      "workedSolution": "Average rate = number of flood events ÷ number of years = 45 ÷ 18 = 2.5 flood events per year.",
+      "units": "flood events per year",
+      "conditions": "The 18-year record from 1996 through 2013 is complete, and every flood event was counted.",
+      "limitations": "An average rate describes the past. Real floods cluster in wet years and storm seasons, so a county averaging 2.5 floods a year might have none one year and several the next.",
+      "explanation": "Dividing the number of past floods by the number of years gives a flood rate, one of the ways scientists compare risk between places. A county averaging several floods a year would be shaded as higher risk than one that averaged one flood every few years. A rate describes the past and the chance going forward; it does not schedule the next flood.",
+      "misconception": "A county's flood record tells you exactly when its next flood will happen.",
+      "hint": "Divide the total number of floods by the number of years in the record.",
+      "followUpId": "L26-Q05",
+      "scope": {
+        "lessonId": "L26",
+        "section": "7. Planning for Floods",
+        "pages": {
+          "printed": [
+            354
+          ],
+          "pdf": [
+            390
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            354
+          ],
+          "pdfPages": [
+            390
+          ],
+          "locator": "Section 7, Making Flood Predictions, and Figure 7, Flood Events by County: 1996-2013",
+          "supports": "Flood risk can be estimated from the frequency of past floods in each county; counties with the most floods have a high flood risk."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 354. The county count is invented (not a Figure 7 value) because the map gives risk classes, not counts. Verify-agent (2026-10-14): checked against rendered p. 354 (Figure 7, Flood Events by County: 1996-2013). Arithmetic rechecked: 1996 through 2013 inclusive is 18 years, and 45 / 18 = 2.5 flood events per year. The count is invented, not a figure value.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q25",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "flood-risk",
+        "soil",
+        "vegetation",
+        "misconception-dry-means-safe"
+      ],
+      "familyId": "L26-F03",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "Dry Gulch gets little rain but has thin soil over rock and few plants. Greenvale gets lots of rain but has deep soil and thick forest. Both get an occasional heavy storm. A student says Dry Gulch cannot be high flood risk because it is so dry. Which response is best supported?",
+      "accessiblePrompt": "Dry Gulch gets little rain but has thin soil over rock and few plants. Greenvale gets lots of rain but has deep soil and thick forest. Both get an occasional heavy storm. A student says Dry Gulch cannot be high flood risk because it is so dry. Which response is best supported?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The student is right: dry towns almost never get floods",
+          "rationale": "Low yearly rain does not guarantee safety; a single big storm on ground that absorbs little can cause a serious flood."
+        },
+        {
+          "id": "b",
+          "text": "Dry Gulch could still be high risk, since its land soaks up little rain",
+          "rationale": "Correct. Thin soil and sparse plants absorb little water, so storm rain quickly becomes runoff."
+        },
+        {
+          "id": "c",
+          "text": "Greenvale must be the riskier town, because yearly rain is the only factor",
+          "rationale": "Rain matters, but Greenvale's deep soil and forest soak up a lot of it, and absorption is a key factor too."
+        },
+        {
+          "id": "d",
+          "text": "Neither town can flood, because floods happen only on ocean coasts",
+          "rationale": "Runoff floods happen inland too, along rivers and in low-lying areas, not just on coasts."
+        }
+      ],
+      "answer": "b",
+      "conditions": "Both towns have similar terrain and occasionally get heavy storms.",
+      "explanation": "Total yearly rain is only one factor. How much water the land can absorb matters just as much. Thin soil and few plants soak up very little, so when a big storm does come to Dry Gulch, most of the rain runs straight off the land. That is why some dry places still carry a high flood risk.",
+      "misconception": "Places that get little rain always have a low flood risk.",
+      "hint": "Think about where the rain goes after it hits the ground in each town.",
+      "followUpId": "L26-Q23",
+      "scope": {
+        "lessonId": "L26",
+        "section": "7. Planning for Floods",
+        "pages": {
+          "printed": [
+            354
+          ],
+          "pdf": [
+            390
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            354
+          ],
+          "pdfPages": [
+            390
+          ],
+          "locator": "Section 7, Making Flood Predictions",
+          "supports": "Scientists analyze topography, seasonal precipitation, soil moisture and vegetation; even places with low precipitation can have a high flood risk because they lack deep soils or enough plant cover to absorb storm runoff."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 354. Invented towns. Verify-agent (2026-10-14): checked against rendered p. 354: even places with low precipitation can have high flood risk without deep soils or enough plant cover. The key is unique under the stated conditions.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: the occasional-heavy-storm condition is now in the prompt and read-aloud text; moved to family F03 with Q05 (weigh terrain and rain evidence)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q26",
+      "lessonId": "L26",
+      "type": "multi",
+      "objectiveIds": [
+        "L26-O3"
+      ],
+      "conceptTags": [
+        "flood-risk",
+        "risk-vs-prediction",
+        "evidence"
+      ],
+      "familyId": "L26-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "prompt": "A county is shaded 'high flood risk' on a map because it had many floods from 1996 to 2013. Which conclusions does this evidence support? Select all that apply.",
+      "accessiblePrompt": "A county is shaded high flood risk on a map because it had many floods from 1996 to 2013. Assume conditions in these counties stay about the same as during those years. Which conclusions does this evidence support? Select all that apply. The choices are: the county's next flood will come at about the same time of year as the last one; floods happened often in this county during those years; a county shaded low risk on the same map will never flood; future floods are more likely here than in a county that had few floods.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The county's next flood will come at about the same time of year as the last one",
+          "rationale": "Past frequency gives a chance, not a calendar; floods depend on when heavy storms arrive."
+        },
+        {
+          "id": "b",
+          "text": "Floods happened often in this county during those years",
+          "rationale": "Correct. That is exactly what the map measured: how many floods each county had from 1996 to 2013."
+        },
+        {
+          "id": "c",
+          "text": "A county shaded low risk on the same map will never flood",
+          "rationale": "Low risk means floods were less frequent, not impossible; a rare flood can happen anywhere conditions allow."
+        },
+        {
+          "id": "d",
+          "text": "Future floods are more likely here than in a county that had few floods",
+          "rationale": "Correct. As long as conditions stay similar, scientists use the frequency of past floods to estimate the chance of future ones."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ],
+      "explanation": "A flood-frequency map tells you two things: where floods have been common, and where they are therefore more likely in the future. It cannot give a date or a season for the next flood, and a low-risk rating means floods are less likely, not impossible. Risk is a chance, not a schedule.",
+      "misconception": "A risk map predicts exactly when floods will happen, and low risk means no risk.",
+      "hint": "Separate what the map measured (past floods) from what nobody can know (the date of the next one).",
+      "followUpId": "L26-Q17",
+      "scope": {
+        "lessonId": "L26",
+        "section": "7. Planning for Floods",
+        "pages": {
+          "printed": [
+            354
+          ],
+          "pdf": [
+            390
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            354
+          ],
+          "pdfPages": [
+            390
+          ],
+          "locator": "Section 7, Making Flood Predictions, and Figure 7",
+          "supports": "Individual floods are difficult to predict, but flood chances can be estimated from patterns of past floods; counties with the most past floods have a high flood risk."
+        },
+        {
+          "type": "external",
+          "title": "The 100-Year Flood",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood",
+          "accessed": "2026-10-14",
+          "supports": "Flood probabilities come from frequency analysis of past records; a '100-year flood' has a 1 percent chance in any year and can happen in consecutive years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 354. Addresses L26-RF9. Verify-agent (2026-10-14): checked against rendered p. 354 and Figure 7. Keys b and d are supported; the conditions field (shown to learners) supplies the steady-conditions assumption key d needs; a and c are clearly unsupported.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: added the 'conditions stay about the same' assumption so key d stands; mirrored in the read-aloud text"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Assume the land, rivers, flood-control structures and climate in these counties stay about the same as they were from 1996 to 2013."
+    },
+    {
+      "id": "L26-Q27",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "flood-mitigation",
+        "storm-surge-barrier",
+        "design-fit"
+      ],
+      "familyId": "L26-F13",
+      "category": "application",
+      "difficulty": 2,
+      "prompt": "A city sits around a harbor that opens to the sea. Its biggest flood threat is storm surge pushed in from the ocean during strong storms. Which structure fits this problem best?",
+      "accessiblePrompt": "A city sits around a harbor that opens to the sea. Its biggest flood threat is storm surge pushed in from the ocean during strong storms. Which structure fits this problem best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A dam on a river far upstream to store extra rainwater",
+          "rationale": "A dam can hold back river floodwater from rain, but it does nothing to stop seawater surging in through the harbor."
+        },
+        {
+          "id": "b",
+          "text": "A movable barrier across the harbor mouth, shut during big storms",
+          "rationale": "Correct. Closing the harbor mouth blocks the seawater a storm pushes in, which is the city's main threat."
+        },
+        {
+          "id": "c",
+          "text": "Forests planted on the hills around the harbor to soak up more rain",
+          "rationale": "Plants and deep soil help absorb rain and cut runoff, but the city's main threat is seawater pushed in through the harbor."
+        },
+        {
+          "id": "d",
+          "text": "A deep-ocean buoy that detects tsunamis passing far offshore",
+          "rationale": "A DART buoy helps warn of tsunamis; it neither blocks water nor addresses storm surge."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A good mitigation design matches the hazard and the place. Here the water comes from the sea through the harbor mouth, so a movable barrier that can close that opening when a surge is coming targets the real threat, as the Netherlands has done. A river dam, hillside forests or a warning buoy each tackles a different problem.",
+      "misconception": "Any flood-control structure works against any kind of flood.",
+      "hint": "Where does the dangerous water enter this city?",
+      "followUpId": "L26-Q23",
+      "scope": {
+        "lessonId": "L26",
+        "section": "7. Planning for Floods",
+        "pages": {
+          "printed": [
+            354,
+            355
+          ],
+          "pdf": [
+            390,
+            391
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            355
+          ],
+          "pdfPages": [
+            391
+          ],
+          "locator": "Section 7, Mitigating Damage from Floods",
+          "supports": "A movable storm-surge barrier built across a harbor in the Netherlands protects homes from storm-surge flooding; dams reduce flood impacts by storing excess water."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            354
+          ],
+          "pdfPages": [
+            390
+          ],
+          "locator": "Section 7, Making Flood Predictions",
+          "supports": "Places without deep soils or enough plant cover absorb little storm runoff, so soil and plants help limit runoff flooding."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 345 and 355 (Netherlands barrier photo and caption read from the render). Verify-agent (2026-10-14): checked against rendered p. 355 (dams store excess water; movable Netherlands storm-surge barrier across a harbor) and p. 354 (soil and plant cover limit runoff). Only the harbor-mouth barrier targets seawater entering through the harbor.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d no longer says the buoy detects 'any' tsunami (optional edit applied)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key no longer echoes 'surge'; slope-cover distractor replaced by a runoff measure; evidence and scope moved from p. 345 to p. 354"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q28",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "sea-walls",
+        "mitigation-limits",
+        "layered-defense",
+        "tsunami"
+      ],
+      "familyId": "L26-F13",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "A coastal town's only tsunami defense is a sea wall built to stop waves up to 8 meters tall. Which evaluation of this plan is best?",
+      "accessiblePrompt": "A coastal town's only tsunami defense is a sea wall built to stop waves up to 8 meters tall. Which evaluation of this plan is best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wall makes the town safe from tsunamis, so nothing more is needed",
+          "rationale": "A wall protects only up to its design height; in 2011 waves overtopped many walls in Japan, so a wall alone is not enough."
+        },
+        {
+          "id": "b",
+          "text": "The wall is a waste, since big tsunamis pour right over sea walls",
+          "rationale": "Big tsunamis can top a wall, but walls do reduce damage from smaller tsunamis, and in 2011 even the damaged Kamaishi breakwater lowered the flooding behind it."
+        },
+        {
+          "id": "c",
+          "text": "It helps, but a bigger wave could top it, so add warnings and plans",
+          "rationale": "Correct. A wall lowers risk up to its design limit, so the town also needs warnings and an emergency response plan."
+        },
+        {
+          "id": "d",
+          "text": "The wall should replace the warning system to save the town money",
+          "rationale": "Dropping warnings would leave people with no time to act when a wave exceeds the wall's limit."
+        }
+      ],
+      "answer": "c",
+      "limitations": "This is a simplified planning scenario. Real coastal defenses also depend on the shape of the coast, the strength of the wall's foundation and land-use choices.",
+      "explanation": "Every structure has a design limit. A sea wall can cut damage from tsunamis smaller than it was built for, and even a damaged wall can reduce flooding behind it. But a bigger tsunami can pour over the top, as happened at many places in Japan in 2011. That is why towns pair walls with warning systems and emergency response plans.",
+      "misconception": "A sea wall either makes a town completely safe or is completely useless.",
+      "hint": "Think about what happens when a wave is taller than the wall was designed for.",
+      "followUpId": "L26-Q21",
+      "scope": {
+        "lessonId": "L26",
+        "section": "4. Planning for Tsunamis",
+        "pages": {
+          "printed": [
+            349
+          ],
+          "pdf": [
+            385
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            349
+          ],
+          "pdfPages": [
+            385
+          ],
+          "locator": "Section 4, Mitigating Tsunamis",
+          "supports": "Sea walls can block rising water and reduce wave impact; communities also need early warning systems and emergency response plans, because there is not always much warning time."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Resilient Ports on the Basis of Lessons from the 2011 Great East Japan Earthquake and Tsunami (Tomita, Arikawa and Takahashi, UJNR 44 presentation, 2013)",
+          "publisher": "Port and Airport Research Institute (Japan), hosted by the U.S. National Earthquake Hazards Reduction Program",
+          "url": "https://www.nehrp.gov/pdf/ujnr_2013_tomita.pdf",
+          "accessed": "2026-10-14",
+          "supports": "In 2011 the first tsunami wave overtopped the Kamaishi bay-mouth breakwater and some breakwaters were destroyed, yet the damaged breakwater still reduced inundation height by about 40 percent; the largest tsunamis can exceed defense heights."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 349. Corrects the textbook's oversimplified view of sea walls (L26-RF5). Verify-agent (2026-10-14): checked against rendered p. 349 (sea walls, warning systems and response plans; not always much warning time). The PARI/NEHRP UJNR slides were reopened: the first wave overtopped the Kamaishi bay-mouth breakwater, some breakwaters were destroyed, and the damaged breakwater still cut inundation height by about 40 percent. No personal emergency advice.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale now names the Kamaishi breakwater instead of generalizing to all damaged walls"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: strawman wording softened in choices a and b; key shortened so it is not the longest choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L26-Q29",
+      "lessonId": "L26",
+      "type": "single",
+      "objectiveIds": [
+        "L26-O4"
+      ],
+      "conceptTags": [
+        "optimization",
+        "test-data",
+        "criteria-constraints",
+        "combining-solutions"
+      ],
+      "familyId": "L26-F10",
+      "category": "application",
+      "difficulty": 3,
+      "prompt": "Engineers test three prototype warning buoys at sea (see the table). The final design must deliver at least 95% of its data and run for at least 12 months. What is the best next step?",
+      "accessiblePrompt": "Engineers test three prototype warning buoys at sea. Prototype X delivered 99 percent of its data, and its battery lasted 3 months. Prototype Y delivered 82 percent of its data, and its battery lasted 24 months. Prototype Z delivered 88 percent of its data, and its battery lasted 8 months. The final design must deliver at least 95 percent of its data and run for at least 12 months. What is the best next step?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Test results for three prototype buoys",
+        "alt": "Prototype X delivered 99 percent of its data and its battery lasted 3 months. Prototype Y delivered 82 percent of its data and its battery lasted 24 months. Prototype Z delivered 88 percent of its data and its battery lasted 8 months. The requirements are at least 95 percent of data delivered and at least 12 months of running time.",
+        "columns": [
+          "Prototype",
+          "Data delivered",
+          "Battery life"
+        ],
+        "rows": [
+          [
+            "X",
+            "99%",
+            "3 months"
+          ],
+          [
+            "Y",
+            "82%",
+            "24 months"
+          ],
+          [
+            "Z",
+            "88%",
+            "8 months"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build X as it is, because it delivered the most data of the three",
+          "rationale": "X delivers 99% of its data, but its battery lasts only 3 months, far short of the 12 months required."
+        },
+        {
+          "id": "b",
+          "text": "Build Y as it is, because its battery outlasted the other two",
+          "rationale": "Y runs for 24 months, but it delivers only 82% of its data, well below the 95% required."
+        },
+        {
+          "id": "c",
+          "text": "Combine X's data link with Y's power system, then test it again",
+          "rationale": "Correct. X has the best data link and Y the best power system, so a design combining them could meet both requirements, and testing again checks that it really does."
+        },
+        {
+          "id": "d",
+          "text": "Build Z as it is, because it landed in the middle on both tests",
+          "rationale": "Z fails both requirements, with 88% of its data and 8 months of running time. Landing in the middle is not the same as meeting the criteria."
+        },
+        {
+          "id": "e",
+          "text": "Combine Z's data link with X's power system, then test it again",
+          "rationale": "Neither of these parts passed its requirement: Z's data link delivered 88% and X's power system lasted 3 months, so this design would likely fail both tests."
+        }
+      ],
+      "answer": "c",
+      "conditions": "Each prototype's data delivery depends on its data link and its running time depends on its power system, and parts from different prototypes can be fitted together.",
+      "limitations": "Parts that worked well separately can affect each other once they are joined, so a combined design must be tested again before it is trusted.",
+      "explanation": "None of the three prototypes meets both requirements: X passes the data test but its battery dies too soon, and Y lasts long enough but loses too much data. Because X's best feature and Y's best feature come from different parts, engineers can combine them into a new design, much as the DART team combined its best fixes. They still have to test it, because parts that worked separately can affect each other once they are joined.",
+      "misconception": "The prototype that wins one test is the best design overall, so engineers should just pick one prototype as it is.",
+      "hint": "Check each prototype against both requirements. Does any one of them pass both?",
+      "followUpId": "L26-Q28",
+      "scope": {
+        "lessonId": "L26",
+        "section": "5. Designing a Tsunami Early Warning System",
+        "pages": {
+          "printed": [
+            351,
+            352
+          ],
+          "pdf": [
+            387,
+            388
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            351
+          ],
+          "pdfPages": [
+            387
+          ],
+          "locator": "Testing Designs and Optimizing Designs",
+          "supports": "Engineers compare tested designs against the problem's criteria and constraints, change components and test again, and combining different solutions gave a more reliable DART system."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            352
+          ],
+          "pdfPages": [
+            388
+          ],
+          "locator": "Key Science Concept: Using the Engineering Process to Improve Tsunami Warnings",
+          "supports": "Each improvement helped on its own, but engineers used all three together to get more reliable warnings."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            343
+          ],
+          "pdfPages": [
+            379
+          ],
+          "locator": "Next Generation Science Standards box (MS-ETS1-3; ETS1.B; ETS1.C)",
+          "supports": "Test data from several designs can show the best characteristics of each, which can be combined into a new design that better meets the criteria; one design may not perform best in every test."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Added in reviser round 1 at the pedagogy reviewer's request: the lesson's MS-ETS1-3 expectation (analyze test data from several designs and combine their best traits) had no data-based item. Invented prototypes and numbers. A fifth choice (e, a combination of the wrong parts) was added to the reviewer's four so that the key is not the only 'combine' choice. Drafted from rendered pp. 343, 351 and 352. Verify-agent (2026-10-14): this item had only its author pass; no separate science or pedagogy pass is on record, so this check was done in full. Checked against rendered p. 343 (NGSS box: MS-ETS1-3, ETS1.B, ETS1.C) and pp. 351-352. None of X (99%, 3 months), Y (82%, 24 months) or Z (88%, 8 months) meets both the 95% and 12-month requirements; c is the only choice whose parts each passed their own test; e has the same form, so there is no structure cue; the conditions make combining parts fair and the limitations require retesting. The table alt text carries every value.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

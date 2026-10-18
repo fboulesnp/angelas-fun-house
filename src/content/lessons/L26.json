@@ -1,0 +1,1146 @@
+{
+  "lessonId": "L26",
+  "guidingQuestion": "How can scientists tell where landslides, tsunamis and floods are most likely to happen?",
+  "hook": "One spring night in 2016 an earthquake rattled a mountainside in southern Japan until a whole slope of soil let go, and the slide carried a highway bridge down into the gorge 80 meters below.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          342,
+          343
+        ],
+        "pdf": [
+          378,
+          379
+        ]
+      }
+    },
+    {
+      "title": "1. Causes of Mass Wasting",
+      "pages": {
+        "printed": [
+          344
+        ],
+        "pdf": [
+          380
+        ]
+      }
+    },
+    {
+      "title": "2. Planning for Mass Wasting Events",
+      "pages": {
+        "printed": [
+          345
+        ],
+        "pdf": [
+          381
+        ]
+      }
+    },
+    {
+      "title": "3. Causes of Tsunamis",
+      "pages": {
+        "printed": [
+          346,
+          347
+        ],
+        "pdf": [
+          382,
+          383
+        ]
+      }
+    },
+    {
+      "title": "4. Planning for Tsunamis",
+      "pages": {
+        "printed": [
+          348,
+          349
+        ],
+        "pdf": [
+          384,
+          385
+        ]
+      }
+    },
+    {
+      "title": "5. Designing a Tsunami Early Warning System",
+      "pages": {
+        "printed": [
+          350,
+          351
+        ],
+        "pdf": [
+          386,
+          387
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Using the Engineering Process to Improve Tsunami Warnings",
+      "pages": {
+        "printed": [
+          352
+        ],
+        "pdf": [
+          388
+        ]
+      }
+    },
+    {
+      "title": "6. Causes of Floods",
+      "pages": {
+        "printed": [
+          353
+        ],
+        "pdf": [
+          389
+        ]
+      }
+    },
+    {
+      "title": "7. Planning for Floods",
+      "pages": {
+        "printed": [
+          354,
+          355
+        ],
+        "pdf": [
+          390,
+          391
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          355
+        ],
+        "pdf": [
+          391
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L26-O1",
+      "text": "Tell apart the lesson's hazards: creep, earthflows, mudflows, rock falls, tsunamis, and floods from runoff or storm surge, and explain why a tsunami is not a tide or a wind wave.",
+      "kind": "observe",
+      "sections": [
+        "Introduction",
+        "1. Causes of Mass Wasting",
+        "3. Causes of Tsunamis",
+        "6. Causes of Floods"
+      ],
+      "pages": {
+        "printed": [
+          343,
+          344,
+          346,
+          347,
+          353
+        ],
+        "pdf": [
+          379,
+          380,
+          382,
+          383,
+          389
+        ]
+      }
+    },
+    {
+      "id": "L26-O2",
+      "text": "Explain what causes each hazard: gravity on steep, soaked or shaken slopes; a sudden seafloor shift; a tsunami slowing and growing in shallow water; and more water than the land can hold.",
+      "kind": "relate",
+      "sections": [
+        "1. Causes of Mass Wasting",
+        "2. Planning for Mass Wasting Events",
+        "3. Causes of Tsunamis",
+        "6. Causes of Floods"
+      ],
+      "pages": {
+        "printed": [
+          344,
+          345,
+          346,
+          347,
+          353
+        ],
+        "pdf": [
+          380,
+          381,
+          382,
+          383,
+          389
+        ]
+      }
+    },
+    {
+      "id": "L26-O3",
+      "text": "Use maps, past records, terrain, rainfall and travel times to judge where a hazard is likely and how much warning a place gets, without mistaking a risk estimate for an exact prediction.",
+      "kind": "apply",
+      "sections": [
+        "2. Planning for Mass Wasting Events",
+        "3. Causes of Tsunamis",
+        "4. Planning for Tsunamis",
+        "7. Planning for Floods"
+      ],
+      "pages": {
+        "printed": [
+          345,
+          347,
+          348,
+          349,
+          354
+        ],
+        "pdf": [
+          381,
+          383,
+          384,
+          385,
+          390
+        ]
+      }
+    },
+    {
+      "id": "L26-O4",
+      "text": "Judge ways to reduce hazard damage, from slope walls and sea walls to surge barriers and the DART warning system, against criteria and constraints, and explain why fitted, combined solutions beat any single fix.",
+      "kind": "apply",
+      "sections": [
+        "2. Planning for Mass Wasting Events",
+        "4. Planning for Tsunamis",
+        "5. Designing a Tsunami Early Warning System",
+        "Key Science Concept: Using the Engineering Process to Improve Tsunami Warnings",
+        "7. Planning for Floods"
+      ],
+      "pages": {
+        "printed": [
+          345,
+          349,
+          350,
+          351,
+          352,
+          355
+        ],
+        "pdf": [
+          381,
+          385,
+          386,
+          387,
+          388,
+          391
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Mass wasting is earth material moving downhill under the pull of gravity. Creep is so slow you would need months or years to see it, while earthflows, mudflows and rock falls can move fast enough to bury roads and homes.",
+    "Steepness, water and shaking change the odds. Soaked, steep slopes fail more often and faster than dry, gentle ones, and an earthquake can set off landslides wherever the ground is steep.",
+    "A tsunami is a series of waves made when a huge volume of ocean water is suddenly shoved up or down, most often by an undersea earthquake but also by underwater landslides, volcanic eruptions or asteroid impacts. It is not a tide, and it is not a wind-driven wave.",
+    "In deep water a tsunami is low, extremely long and about as fast as a jet airliner. As the seafloor rises toward land it slows down, its crests crowd together and its height can build to many meters.",
+    "Nobody can say when the next tsunami-causing earthquake will strike. Once one happens, though, seismic networks and seafloor sensors let warning centers forecast whether waves formed and when they will arrive, and coasts farther from the source get more time.",
+    "Engineers improved the DART warning system step by step: they tested a prototype, traced its data dropouts to two likely causes, and combined a wider sound beam, a tiltmeter and smarter software into a more reliable design.",
+    "Floods come mainly from runoff, when rain arrives faster or longer than the ground can soak it up, and from storm surge, when storm winds push seawater onto low coasts. Records of past floods show where flooding is likely, but not the date of the next one.",
+    "No single defense suits every place. Slope walls, drains, sea walls, dams and surge barriers each target certain threats and cost a great deal, so communities weigh how well a design works in that spot, what it protects and its price, and they pair structures with warnings and plans."
+  ],
+  "glossary": [
+    {
+      "term": "mass wasting",
+      "definition": "Any downhill movement of soil, rock or other earth material that is driven by gravity.",
+      "pages": {
+        "printed": [
+          343,
+          344
+        ],
+        "pdf": [
+          379,
+          380
+        ]
+      }
+    },
+    {
+      "term": "landslide",
+      "definition": "A common name for a slope failure in which soil and rock break loose and go sliding toward lower ground; people often use it for any fast mass-wasting event.",
+      "pages": {
+        "printed": [
+          344
+        ],
+        "pdf": [
+          380
+        ]
+      }
+    },
+    {
+      "term": "creep",
+      "definition": "Mass wasting so gradual that soil and rock inch downhill over months or years; leaning fence posts and bent tree trunks are common clues.",
+      "pages": {
+        "printed": [
+          344
+        ],
+        "pdf": [
+          380
+        ]
+      }
+    },
+    {
+      "term": "earthflow",
+      "definition": "A large mass of soggy soil and rock flowing down a hillside, usually after heavy rain or fast snowmelt. The ones in this lesson moved fast, but many earthflows inch along slowly, and soaking rain can set them moving faster.",
+      "pages": {
+        "printed": [
+          344
+        ],
+        "pdf": [
+          380
+        ]
+      }
+    },
+    {
+      "term": "mudflow",
+      "definition": "A very fast, soupy mix of soil, rock and plenty of water rushing down a steep slope.",
+      "pages": {
+        "printed": [
+          344
+        ],
+        "pdf": [
+          380
+        ]
+      }
+    },
+    {
+      "term": "rock fall",
+      "definition": "Rock breaking away from a cliff or very steep slope and dropping very rapidly, in wet or dry weather.",
+      "pages": {
+        "printed": [
+          344
+        ],
+        "pdf": [
+          380
+        ]
+      }
+    },
+    {
+      "term": "mitigate",
+      "definition": "To lessen the harm a hazard can do, for example with walls, drains, barriers or warning systems.",
+      "pages": {
+        "printed": [
+          345,
+          349
+        ],
+        "pdf": [
+          381,
+          385
+        ]
+      }
+    },
+    {
+      "term": "tsunami",
+      "definition": "A series of ocean waves set off when a huge amount of seawater is suddenly pushed up or down, usually by a sudden shift of the seafloor.",
+      "pages": {
+        "printed": [
+          343,
+          346
+        ],
+        "pdf": [
+          379,
+          382
+        ]
+      }
+    },
+    {
+      "term": "Pacific Ring of Fire",
+      "definition": "The belt circling the Pacific Ocean's edges, home to most of the planet's earthquakes and volcanoes and to about four out of five tsunamis.",
+      "pages": {
+        "printed": [
+          347
+        ],
+        "pdf": [
+          383
+        ]
+      }
+    },
+    {
+      "term": "DART system",
+      "definition": "NOAA's deep-ocean tsunami detection network: a seafloor pressure sensor sends readings by sound to a floating buoy, which passes them by satellite to a warning center.",
+      "pages": {
+        "printed": [
+          350,
+          351
+        ],
+        "pdf": [
+          386,
+          387
+        ]
+      }
+    },
+    {
+      "term": "acoustic modem",
+      "definition": "A device that carries data through water as sound waves, linking a sensor on the seafloor with a buoy at the surface.",
+      "pages": {
+        "printed": [
+          350
+        ],
+        "pdf": [
+          386
+        ]
+      }
+    },
+    {
+      "term": "runoff",
+      "definition": "Rainwater the ground cannot soak up, so it flows over the land surface and gathers in low places and rivers.",
+      "pages": {
+        "printed": [
+          353
+        ],
+        "pdf": [
+          389
+        ]
+      }
+    },
+    {
+      "term": "storm surge",
+      "definition": "A rise in sea level as the powerful winds of a hurricane or tropical storm drive ocean water toward and onto the coast.",
+      "pages": {
+        "printed": [
+          353
+        ],
+        "pdf": [
+          389
+        ]
+      }
+    },
+    {
+      "term": "sea wall",
+      "definition": "A massive concrete wall along a shoreline that holds back rising water and takes some of the force out of waves.",
+      "pages": {
+        "printed": [
+          349
+        ],
+        "pdf": [
+          385
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L26-O1",
+      "title": "Telling the Hazards Apart",
+      "paragraphs": [
+        "Every mass-wasting event runs on the same engine: gravity pulling earth material downhill. What changes is the speed and the mix. Creep is the slowpoke, shifting soil and rock so gradually that you only notice after months or years, when fence posts lean or tree trunks bend. Earthflows move big masses of soggy soil and rock, usually after soaking rain or fast snowmelt; this lesson's examples were fast, though some earthflows inch along for years.",
+        "Mudflows are wetter and faster still: soil and rock mixed with lots of water racing down a steep slope. Rock falls are the free-fall version, with rock breaking off a cliff or very steep slope and dropping very rapidly, whether the weather is wet or dry.",
+        "A tsunami is a different kind of hazard: a series of waves made when a huge volume of ocean water is suddenly shoved up or down. Undersea earthquakes cause most of them, but underwater landslides, volcanic eruptions and even asteroid impacts can too. Tides come from the pull of the Moon and Sun, and everyday waves come from wind, so neither one is a tsunami.",
+        "This lesson's floods have two main sources. Runoff floods happen when rain falls harder or longer than the ground can soak it up. Storm surges happen when hurricane or tropical-storm winds pile seawater onto a low coast."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "What moves, and what usually sets it off (gravity drives all four slope hazards)",
+        "alt": "A table comparing seven hazards; gravity drives all four slope hazards. Creep: soil and rock move very slowly; it is not tied to rain and happens in wet or dry conditions. Earthflow: a large mass of soggy soil and rock flows downhill, usually after heavy rain or fast snowmelt; earthflows range from slow to fast, and this lesson's examples were fast. Mudflow: soil and rock mixed with lots of water move very fast down a steep slope, after heavy rain or fast snowmelt. Rock fall: rock drops very fast from a cliff or very steep slope; it is not tied to rain and happens in wet or dry conditions. Tsunami: a huge volume of ocean water moves after a sudden up-or-down shift of the seafloor, usually from an undersea earthquake; in deep water it can reach jet speed. Runoff flood: rainwater moves over land when rain arrives faster or longer than the ground can absorb; how fast it rises depends on the storm. Storm surge: seawater is pushed onto the coast by hurricane or tropical-storm winds; how fast it rises depends on the storm.",
+        "columns": [
+          "Hazard",
+          "What moves",
+          "What usually sets it off",
+          "How fast"
+        ],
+        "rows": [
+          [
+            "Creep",
+            "Soil and rock",
+            "Not tied to rain; wet or dry",
+            "Very slow"
+          ],
+          [
+            "Earthflow",
+            "A large mass of soggy soil and rock",
+            "Heavy rain or fast snowmelt",
+            "Slow to fast (lesson examples: fast)"
+          ],
+          [
+            "Mudflow",
+            "Soil and rock soaked with water",
+            "Heavy rain or fast snowmelt",
+            "Very fast"
+          ],
+          [
+            "Rock fall",
+            "Rock from a cliff or steep slope",
+            "Not tied to rain; wet or dry",
+            "Very fast"
+          ],
+          [
+            "Tsunami",
+            "A huge volume of ocean water",
+            "Sudden seafloor shift, usually an undersea earthquake",
+            "Up to jet speed in deep water"
+          ],
+          [
+            "Runoff flood",
+            "Rainwater over land",
+            "More rain than the ground can absorb",
+            "Depends on the storm"
+          ],
+          [
+            "Storm surge",
+            "Seawater onto the coast",
+            "Hurricane or tropical-storm winds",
+            "Depends on the storm"
+          ]
+        ]
+      },
+      "watchOut": "People often call a tsunami a 'tidal wave', but tides have nothing to do with it. And the four mass-wasting types are a simplified sorting scheme: real slopes can blend types, and geologists use more detailed categories.",
+      "pages": {
+        "printed": [
+          343,
+          344,
+          346,
+          353
+        ],
+        "pdf": [
+          379,
+          380,
+          382,
+          389
+        ]
+      }
+    },
+    {
+      "objectiveId": "L26-O2",
+      "title": "Cause and Effect: Slopes, Seafloors and Storms",
+      "paragraphs": [
+        "On a hillside gravity never takes a break. Soil and rock stay put only while their own strength and grip can resist it. A steep slope gives gravity a better angle, and water soaking in adds weight and weakens the material, so soaked, steep slopes fail more often and faster than dry, gentle ones. Earthquake shaking can be the final shove that sets a steep slope sliding.",
+        "In a big subduction-zone earthquake, the edge of the upper plate can spring upward, lifting the seafloor and all the water above it while nearby areas drop. Gravity pulls that hump of water back down, and waves spread out in every direction.",
+        "In deep water those waves are less than a meter tall but can stretch hundreds of kilometers from crest to crest, and they can race along at 800 kilometers per hour or more over the deepest water. As the seafloor rises toward land, the waves slow, their crests bunch up, and the water piles higher, in rare cases more than 30 meters.",
+        "Floods follow the same cause-and-effect logic. If rain arrives faster than soil and plants can take it in, the extra water runs off into low ground. If a hurricane's winds shove the ocean surface toward shore for hours, the sea itself rises and spills over low coastland."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "One tsunami, two very different places",
+        "alt": "A table comparing a tsunami in the deep ocean with the same tsunami near the coast. In the deep ocean its speed depends on the depth and can reach about 800 kilometers per hour or more, its height is less than about 1 meter, and its crests can be tens to hundreds of kilometers apart. Near the coast it slows to roughly the speed of a car, its crests crowd closer together, and its height can build to many meters, in rare cases over 30 meters.",
+        "columns": [
+          "Feature",
+          "Deep ocean",
+          "Near the coast"
+        ],
+        "rows": [
+          [
+            "Speed",
+            "Can reach 800 km/h or more, like a jet",
+            "Slows to about car speed"
+          ],
+          [
+            "Wave height",
+            "Less than about 1 m",
+            "Many meters; rarely over 30 m"
+          ],
+          [
+            "Crest to crest",
+            "Tens to hundreds of km",
+            "Much shorter"
+          ]
+        ]
+      },
+      "watchOut": "Gravity is what moves the material in mass wasting; water and earthquakes are triggers that make a slope easier to fail. Also, some explanations say the sinking plate drags the water down, but in a big subduction quake much of the push comes from the upper plate springing up. Either way, the key is a sudden up-or-down shift of the seafloor.",
+      "pages": {
+        "printed": [
+          344,
+          345,
+          346,
+          347,
+          353
+        ],
+        "pdf": [
+          380,
+          381,
+          382,
+          383,
+          389
+        ]
+      }
+    },
+    {
+      "objectiveId": "L26-O3",
+      "title": "Reading the Clues: Maps, Records and Warning Time",
+      "paragraphs": [
+        "Scientists cannot schedule a landslide, a tsunami or a flood, but they can map where each is more likely. For mass wasting they weigh slope steepness, the kind of earth material, how fast rock is weathering, earthquakes and human digging, along with the history of past slides. The resulting map shades mountain regions such as the Appalachians and the Pacific coast ranges as very high potential and broad flat plains as low.",
+        "For tsunamis the big clue is plate tectonics. About four out of five tsunamis happen around the Pacific Ring of Fire, where plates collide and earthquakes are common. Even so, any ocean coast can be hit, as the 2004 Indian Ocean tsunami showed.",
+        "Once an earthquake happens, distance turns into time. Seismic networks spot the quake, sea-level sensors confirm the waves, and warning centers turn speed and distance into arrival times. A coast close to the source may get only minutes, as northeastern Japan did in 2011, while the far side of the Pacific gets most of a day.",
+        "Flood risk comes from patterns too: terrain, seasonal rain, soil moisture, plant cover, climate trends and the count of past floods. A county with many past floods is rated high risk, but a risk rating is a chance, not a calendar. It cannot tell anyone when the next flood will come."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "What each kind of evidence can and cannot tell you",
+        "alt": "A table of four kinds of hazard evidence. A mass-wasting potential map, built from slope, earth material, weathering and past slides, shows which regions are more likely to have landslides but not when one will happen. A tsunami travel-time map, built from wave speed and distance from the source, shows how many hours waves need to reach each coast from a source, but not whether or when a tsunami-causing event will happen. Seismic networks and seafloor pressure sensors show that an earthquake struck and whether tsunami waves formed, but they cannot tell in advance when the next earthquake will strike. A map of flood events by county, built from counts of past floods, shows where flooding has been frequent and is likely again, but not the date of the next flood.",
+        "columns": [
+          "Evidence",
+          "Built from",
+          "Tells you",
+          "Cannot tell you"
+        ],
+        "rows": [
+          [
+            "Mass-wasting potential map",
+            "Slope, material, weathering, past slides",
+            "Which regions are more likely to have landslides",
+            "When the next slide will happen"
+          ],
+          [
+            "Tsunami travel-time map",
+            "Wave speed and distance from the source",
+            "Hours until waves reach each coast",
+            "Whether or when the next triggering event will happen"
+          ],
+          [
+            "Seismic and seafloor sensors",
+            "Live earthquake and water-pressure readings",
+            "That a quake struck and whether waves formed",
+            "When the next quake will strike"
+          ],
+          [
+            "Flood events by county",
+            "Counts of past floods",
+            "Where floods have been frequent and are likely again",
+            "The date of the next flood"
+          ]
+        ]
+      },
+      "watchOut": "A hazard map estimates risk; it does not predict an exact date. A low-risk place can still have a flood or a landslide, and a high-risk place can go years without one.",
+      "pages": {
+        "printed": [
+          345,
+          347,
+          348,
+          349,
+          354
+        ],
+        "pdf": [
+          381,
+          383,
+          384,
+          385,
+          390
+        ]
+      }
+    },
+    {
+      "objectiveId": "L26-O4",
+      "title": "Designing Defenses That Work Together",
+      "paragraphs": [
+        "Mitigation means shrinking the harm a hazard can do. A slope can be sealed so rain cannot soak in, channels can steer water around it, and a wall at its foot can catch moving rock and soil. Coasts can build sea walls, dams can hold back extra river water, and a harbor can be shut off by a movable storm-surge barrier like the ones in the Netherlands.",
+        "Each structure fits a particular threat in a particular place, and each is expensive, so communities weigh how many lives and homes it would protect, how well engineers expect it to work there, and what it costs. No single defense handles everything: in 2011 many of Japan's sea walls were overtopped by waves bigger than they were built for, even though some damaged defenses, such as the Kamaishi breakwater, still reduced the flooding behind them.",
+        "The DART tsunami warning system shows engineering design in action. Because the sea surface never stops moving, NOAA's team put a pressure sensor on the calm seafloor. An acoustic modem sends its readings up as sound to a buoy, and the buoy relays them by satellite to a warning center on land.",
+        "Months of testing a prototype off Oregon revealed data dropouts. The team traced them to two likely causes, a sound beam that could miss the buoy and software limits, and built three fixes: a wider beam, a tiltmeter to check the sensor's alignment, and software that asks for lost data to be sent again. Any one fix helped; all three together made the warnings more reliable."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "chain",
+        "caption": "How a DART reading travels from the seafloor to a warning center",
+        "alt": "A chain of five steps, each arrow pointing to the next. A pressure sensor on the seafloor detects a tiny change in water pressure as a tsunami passes. It hands the reading to an acoustic modem, which sends it upward through the water as sound waves. A surface buoy anchored above receives the sound signal. The buoy sends the data by radio to a communications satellite. The satellite forwards the data to a tsunami warning center on land, where scientists issue forecasts.",
+        "nodes": [
+          {
+            "id": "sensor",
+            "label": "Seafloor pressure sensor",
+            "group": "seafloor"
+          },
+          {
+            "id": "modem",
+            "label": "Acoustic modem",
+            "group": "seafloor"
+          },
+          {
+            "id": "buoy",
+            "label": "Surface buoy",
+            "group": "surface"
+          },
+          {
+            "id": "sat",
+            "label": "Satellite",
+            "group": "space"
+          },
+          {
+            "id": "center",
+            "label": "Tsunami warning center",
+            "group": "land"
+          }
+        ],
+        "edges": [
+          {
+            "from": "sensor",
+            "to": "modem",
+            "label": "pressure reading"
+          },
+          {
+            "from": "modem",
+            "to": "buoy",
+            "label": "sound waves"
+          },
+          {
+            "from": "buoy",
+            "to": "sat",
+            "label": "radio waves"
+          },
+          {
+            "from": "sat",
+            "to": "center",
+            "label": "radio waves"
+          }
+        ]
+      },
+      "watchOut": "Combining solutions is not the same as piling on parts. The DART team kept each fix because it attacked one of the two likely causes of the dropouts in its own way: two helped the sound signal reach the buoy, and one let lost data be resent. All of this still had to fit the design's criteria and constraints. And a sea wall or barrier lowers risk; it never removes it.",
+      "pages": {
+        "printed": [
+          345,
+          349,
+          350,
+          351,
+          352,
+          355
+        ],
+        "pdf": [
+          381,
+          385,
+          386,
+          387,
+          388,
+          391
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L26-RF1",
+      "issue": "OCR text is empty or garbled on image-heavy pages: p. 342 is a full-page photo with no text; the NGSS box on p. 343 is spaced out and misspelled; figure titles and labels are mangled or missing for Figure 2 (p. 345), Figure 3 (p. 347), the Figure 4A travel-time map (p. 348, only scattered hour labels survive), the Figure 4B earthquake table (p. 349, absent from the OCR), Figure 5A (p. 350), Figure 5B (p. 351), the Key Science Concept spread (p. 352), Figure 6 (p. 353) and the Figure 7 legend (p. 354).",
+      "pages": {
+        "printed": [
+          342,
+          343,
+          345,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "pdf": [
+          378,
+          379,
+          381,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ]
+      },
+      "resolution": "Every page from 342 to 355 was rendered at 110 dpi and read. Map patterns, the Figure 4B table, the DART diagram labels (including the 1,000-6,000 m depth range), the three Figure 5B improvements and the Figure 7 risk legend were all taken from the renders, not the OCR.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            342,
+            343,
+            345,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354
+          ],
+          "pdfPages": [
+            378,
+            379,
+            381,
+            383,
+            384,
+            385,
+            386,
+            387,
+            388,
+            389,
+            390
+          ],
+          "locator": "Rendered page images for the lesson",
+          "supports": "The figures, tables and labels used in this content were read from rendered pages."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF2",
+      "issue": "The text says tsunamis can be 'accurately predicted' because they have precursor events. That overstates it: warning centers cannot predict when or where the next tsunami will strike. They forecast arrival times and sizes only after a triggering earthquake has happened, and near-source tsunamis can arrive within minutes, before a detailed forecast is possible.",
+      "pages": {
+        "printed": [
+          348
+        ],
+        "pdf": [
+          384
+        ]
+      },
+      "resolution": "Content and questions separate forecasting (after a triggering event, using seismic and sea-level data) from predicting when the next event will happen. L26-Q17 targets the overstatement directly, and L26-Q16 uses Japan in 2011 to show that a nearby source leaves little time even with an excellent system.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            348
+          ],
+          "pdfPages": [
+            384
+          ],
+          "locator": "Section 4, Predicting Tsunamis",
+          "supports": "Warning networks watch for tsunami-causing events, and arrival times come from speed and distance; a nearby source leaves little time."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "Scientists cannot predict when and where the next tsunami will strike; warning centers base initial messages on preliminary earthquake information and confirm tsunamis with water-level data; local tsunamis can strike within minutes with little or no warning."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF3",
+      "issue": "The text explains tsunami formation by saying the subducting plate 'moves suddenly downward' and the water above 'moves with it'. In a large subduction-zone earthquake the leading edge of the overriding plate springs up, raising the seafloor and the water above it, while other areas drop. Figure 3 itself draws an upward arrow.",
+      "pages": {
+        "printed": [
+          346,
+          347
+        ],
+        "pdf": [
+          382,
+          383
+        ]
+      },
+      "resolution": "Content says the seafloor suddenly shifts up or down and displaces the whole water column, and the O2 card names the upper plate springing upward. No question asks which plate moves or in which direction; L26-Q11 uses 'shifts up or down'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            346,
+            347
+          ],
+          "pdfPages": [
+            382,
+            383
+          ],
+          "locator": "Section 3, Causes of Tsunamis, and Figure 3, How Tsunamis Form",
+          "supports": "The textbook links tsunamis to sudden vertical movement of the seafloor at convergent boundaries."
+        },
+        {
+          "type": "external",
+          "title": "Earthquake starts tsunami",
+          "publisher": "U.S. Geological Survey, Pacific Coastal and Marine Science Center",
+          "url": "https://www.usgs.gov/media/images/earthquake-starts-tsunami",
+          "accessed": "2026-10-14",
+          "supports": "A subduction-zone earthquake happens when the leading edge of the overriding plate breaks free and springs seaward, raising the sea floor and the water above it; this uplift starts a tsunami."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Frequently Asked Questions",
+          "publisher": "NOAA National Weather Service, U.S. Tsunami Warning Centers",
+          "url": "https://www.tsunami.gov/?page=tsunamiFAQ",
+          "accessed": "2026-10-14",
+          "supports": "As the ocean floor rises or drops, so too does the water above it."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF4",
+      "issue": "Hurricane Harvey figures are inflated or dated: the text says 'hundreds of billions of dollars' of damage and about 60 deaths. NOAA's estimate is $125 billion (90% range $90-160 billion), with at least 68 direct deaths plus about 35 indirect ones. The text calls storm surge the greatest threat during a hurricane, which matches NHC's general guidance, but Harvey itself was an exception: all but three direct deaths came from freshwater flooding and none were linked to storm surge.",
+      "pages": {
+        "printed": [
+          353
+        ],
+        "pdf": [
+          389
+        ]
+      },
+      "resolution": "No Harvey dollar or death figure is tested. Harvey appears only as a runoff example, including L26-Q22's stalled-hurricane item (rain totals above 50 inches are consistent with NWS records of up to 56 inches near Houston and NHC's 60.58-inch peak). Content describes storm surge as a major coastal danger without ranking it above rain flooding.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            353
+          ],
+          "pdfPages": [
+            389
+          ],
+          "locator": "Section 6, Causes of Floods",
+          "supports": "The textbook uses Harvey's week of extreme rain over Houston as its example of runoff flooding."
+        },
+        {
+          "type": "external",
+          "title": "Tropical Cyclone Report: Hurricane Harvey (AL092017)",
+          "publisher": "NOAA National Hurricane Center",
+          "url": "https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf",
+          "accessed": "2026-10-14",
+          "supports": "NOAA's damage estimate is $125 billion (90% confidence range $90-160 billion); at least 68 direct deaths, all but three from freshwater flooding and none linked to storm surge; storm totals above 60 inches in southeastern Texas."
+        },
+        {
+          "type": "external",
+          "title": "Hurricane Harvey Info",
+          "publisher": "NOAA National Weather Service, Houston/Galveston forecast office",
+          "url": "https://www.weather.gov/hgx/hurricaneharvey",
+          "accessed": "2026-10-14",
+          "supports": "Harvey rainfall across the Houston/Galveston area ranged from about 4.6 to 56 inches, with 54 inches at Bunker Hill Village in Harris County."
+        },
+        {
+          "type": "external",
+          "title": "Storm Surge Overview",
+          "publisher": "NOAA National Hurricane Center",
+          "url": "https://www.nhc.noaa.gov/surge/",
+          "accessed": "2026-10-17",
+          "supports": "Storm surge is a significant threat to life and property along the coast and is currently the leading cause of fatalities from hurricanes."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF5",
+      "issue": "The text presents sea walls as structures that 'can block waves', which oversimplifies. In 2011 many breakwaters and sea walls built for smaller design tsunamis were overtopped or destroyed, although even damaged structures reduced inundation behind them, and prepared people who knew to evacuate were what saved many lives.",
+      "pages": {
+        "printed": [
+          349
+        ],
+        "pdf": [
+          385
+        ]
+      },
+      "resolution": "Content treats a sea wall as one layer of protection that lowers risk but has a design limit. L26-Q28 asks learners to evaluate a wall-only plan; the keyed answer pairs structures with warnings and planning, and the distractors cover both 'completely safe' and 'useless'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            349
+          ],
+          "pdfPages": [
+            385
+          ],
+          "locator": "Section 4, Mitigating Tsunamis",
+          "supports": "Coastal towns build sea walls to block rising water and reduce wave impact, alongside warning systems and emergency response plans."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Resilient Ports on the Basis of Lessons from the 2011 Great East Japan Earthquake and Tsunami (Tomita, Arikawa and Takahashi, UJNR 44 presentation, 2013)",
+          "publisher": "Port and Airport Research Institute (Japan), hosted by the U.S. National Earthquake Hazards Reduction Program",
+          "url": "https://www.nehrp.gov/pdf/ujnr_2013_tomita.pdf",
+          "accessed": "2026-10-14",
+          "supports": "Some breakwaters were destroyed and the first wave overtopped the Kamaishi bay-mouth breakwater; even the damaged breakwater reduced tsunami inundation height by about 40 percent; the largest (Level 2) tsunamis can exceed defense heights; disaster education and evacuation drills saved lives."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF6",
+      "issue": "Event figures are dated estimates: 2011 waves of '3 to 38 meters', 'up to 300,000 buildings' and 'up to 20,000 deaths'; over 200,000 deaths in 14 countries in 2004; 185,000 homes in Houston; 13 deaths and 60,000 homes in Baton Rouge in 2016; and the 1996-2013 county flood counts in Figure 7. Later surveys differ (for example, about 40 m maximum run-up and about 19,000 casualties for 2011).",
+      "pages": {
+        "printed": [
+          346,
+          349,
+          353,
+          354
+        ],
+        "pdf": [
+          382,
+          385,
+          389,
+          390
+        ]
+      },
+      "resolution": "None of these totals is tested. Content uses the events only qualitatively, as 'at the time the textbook was written' examples. L26-Q24 uses an invented county count, not a Figure 7 value.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            346,
+            349,
+            353,
+            354
+          ],
+          "pdfPages": [
+            382,
+            385,
+            389,
+            390
+          ],
+          "locator": "Sections 3, 4, 6 and 7",
+          "supports": "The textbook cites these event totals and the 1996-2013 flood-count map."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Resilient Ports on the Basis of Lessons from the 2011 Great East Japan Earthquake and Tsunami (Tomita, Arikawa and Takahashi, UJNR 44 presentation, 2013)",
+          "publisher": "Port and Airport Research Institute (Japan), hosted by the U.S. National Earthquake Hazards Reduction Program",
+          "url": "https://www.nehrp.gov/pdf/ujnr_2013_tomita.pdf",
+          "accessed": "2026-10-14",
+          "supports": "For the 2011 tsunami: highest run-up about 40 m; about 19,000 casualties; about 400,000 fully or partly destroyed houses."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF7",
+      "issue": "The Figure 4B table lists the 1700 earthquake's epicenter as 'Near Portland, Oregon'. The 1700 event was a megathrust rupture along the roughly 1,000 km offshore Cascadia Subduction Zone (magnitude estimates around 9), not a quake centered near Portland, which lies well inland. The table also lists the 1946 earthquake as 'Central Aleutian Islands', but NOAA places that magnitude 8.6 quake off Unimak Island, at the Alaska Peninsula end of the Aleutian chain rather than its center. The 900 'Near Puget Sound' entry is an estimate for a prehistoric event.",
+      "pages": {
+        "printed": [
+          349
+        ],
+        "pdf": [
+          385
+        ]
+      },
+      "resolution": "None of the table's epicenter labels (1700, 1946 or 900) is tested or repeated. Content uses Figure 4B only for its broad pattern: West Coast tsunamis come mainly from subduction-zone earthquakes.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            349
+          ],
+          "pdfPages": [
+            385
+          ],
+          "locator": "Figure 4B, Map of Tsunami Hazards in the United States",
+          "supports": "The figure links five U.S. tsunamis to the earthquakes that caused them."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Historical Series: Cascadia - 1700",
+          "publisher": "NOAA Science On a Sphere",
+          "url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-cascadia-1700/",
+          "accessed": "2026-10-14",
+          "supports": "The 1700 earthquake ruptured the roughly 1,000 km long Cascadia Subduction Zone fault, perhaps as large as magnitude 9.2, and its tsunami reached Japan in about 9 hours."
+        },
+        {
+          "type": "external",
+          "title": "Tsunami Historical Series: Aleutian Islands - 1946",
+          "publisher": "NOAA Science On a Sphere",
+          "url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-aleutian-islands-1946/",
+          "accessed": "2026-10-17",
+          "supports": "The 1946 earthquake, moment magnitude 8.6, struck off the coast of Unimak Island in Alaska's Aleutian Islands; its tsunami did the greatest damage and caused the most deaths in Hawaii's history."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF8",
+      "issue": "The mass-wasting scheme is simplified. Figure 1 assigns each of the four types a fixed speed and trigger, and the text says creep happens 'on all slopes'. Geologists classify landslides in more detail (falls, topples, slides, spreads and flows), and saturation, earthquakes and human activity such as excavation all act as triggers. Figure 1 and the text also call earthflows fast, but many earthflows move slowly: USGS describes them as ranging from very slow to rapid.",
+      "pages": {
+        "printed": [
+          344,
+          345
+        ],
+        "pdf": [
+          380,
+          381
+        ]
+      },
+      "resolution": "Questions test only the textbook's clear contrasts: creep is the slowest, earthflows and mudflows are tied to heavy rain or fast snowmelt, and rock falls drop from cliffs or very steep slopes. No question asks for an exact speed or uses 'all slopes', and content no longer defines earthflows by speed: the glossary, the O1 card and table, and L26-Q03 describe earthflows as soggy masses that range from slow to fast. The O1 watch-out names the simplification.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            344
+          ],
+          "pdfPages": [
+            380
+          ],
+          "locator": "Section 1 and Figure 1, Four Types of Mass Wasting",
+          "supports": "The textbook describes creep, earthflow, mudflow and rock fall by speed and by wet or dry conditions."
+        },
+        {
+          "type": "external",
+          "title": "Landslide Types and Processes (Fact Sheet 2004-3072)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html",
+          "accessed": "2026-10-14",
+          "supports": "Creep is imperceptibly slow (curved trunks and tilted poles or fences are indicators); mudflows are wet enough to flow rapidly; slope saturation by water is a primary cause of landslides; earthquakes on steep slopes greatly raise the likelihood of landslides; excavation and other human activities are causes."
+        },
+        {
+          "type": "external",
+          "title": "The Landslide Handbook: A Guide to Understanding Landslides (Circular 1325), Section 1, Part B: Basic Landslide Types",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/circ/1325/pdf/Sections/Section1.pdf",
+          "accessed": "2026-10-17",
+          "supports": "Earthflows range from very slow, creep-like movement to rapid and catastrophic flows (velocity of travel: slow to very rapid); soil saturated by long or intense rain or snowmelt is a common trigger."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF9",
+      "issue": "'Individual floods are difficult to predict' can be read as 'flood risk tells you when floods will come' or as 'floods can never be forecast'. Neither is right: a risk rating is a probability per year, and a rare flood can happen in back-to-back years.",
+      "pages": {
+        "printed": [
+          354
+        ],
+        "pdf": [
+          390
+        ]
+      },
+      "resolution": "Content states that risk maps estimate a chance, not a date. L26-Q26 asks which conclusions a high-risk rating supports and rejects 'never floods' and 'same time each year'; L26-Q24 lists in its limitations that an average rate does not schedule floods.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            354
+          ],
+          "pdfPages": [
+            390
+          ],
+          "locator": "Section 7, Making Flood Predictions, and Figure 7",
+          "supports": "Overall flood chances are estimated from environmental data and from the frequency of past floods."
+        },
+        {
+          "type": "external",
+          "title": "The 100-Year Flood",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood",
+          "accessed": "2026-10-14",
+          "supports": "A '100-year flood' means a 1 percent chance in any year; such events can occur in consecutive years; frequency analysis of ten or more years of records is used to estimate probabilities."
+        }
+      ]
+    },
+    {
+      "id": "L26-RF10",
+      "issue": "The text includes a personal emergency instruction for tsunamis (where to go when one threatens). The project brief rules out disaster or emergency advice in the game.",
+      "pages": {
+        "printed": [
+          349
+        ],
+        "pdf": [
+          385
+        ]
+      },
+      "resolution": "Content mentions only that communities keep emergency response plans and warning systems. No question asks what an individual should do in an emergency.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            349
+          ],
+          "pdfPages": [
+            385
+          ],
+          "locator": "Section 4, Mitigating Tsunamis",
+          "supports": "The textbook says communities need an emergency response plan in addition to an early warning system."
+        }
+      ]
+    }
+  ]
+}

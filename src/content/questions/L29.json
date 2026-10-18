@@ -1,0 +1,3911 @@
+{
+  "lessonId": "L29",
+  "questions": [
+    {
+      "id": "L29-Q01",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O1"
+      ],
+      "conceptTags": [
+        "human population growth",
+        "graph reading",
+        "rapid growth"
+      ],
+      "familyId": "L29-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "The graph shows estimated world population over the last 2,000 years. Which description best fits its shape?",
+      "accessiblePrompt": "A line graph shows estimated world population, in billions of people, over the last 2,000 years. Approximate values: year 0, 0.25; year 500, 0.25; year 1000, 0.3; year 1500, 0.45; year 1800, 1; year 1927, 2; year 1974, 4; year 2022, 8. Which description best fits the shape of the graph?",
+      "diagram": {
+        "kind": "curve",
+        "caption": "Estimated world population, year 0 to 2022 (approximate)",
+        "alt": "Line graph of estimated world population, in billions of people, from year 0 to 2022. Approximate values: year 0, 0.25; year 500, 0.25; year 1000, 0.3; year 1500, 0.45; year 1800, 1; year 1927, 2; year 1974, 4; year 2022, 8.",
+        "xLabel": "Year",
+        "yLabel": "World population (billions)",
+        "series": [
+          {
+            "label": "World population (approximate)",
+            "points": [
+              [
+                0,
+                0.25
+              ],
+              [
+                500,
+                0.25
+              ],
+              [
+                1000,
+                0.3
+              ],
+              [
+                1500,
+                0.45
+              ],
+              [
+                1800,
+                1
+              ],
+              [
+                1927,
+                2
+              ],
+              [
+                1974,
+                4
+              ],
+              [
+                2022,
+                8
+              ]
+            ]
+          }
+        ]
+      },
+      "limitations": "Values before 1800 are rough estimates; the graph shows only the overall pattern. The total is still rising, but the UN reports that the growth rate is slowing: going from 7 to 8 billion took 12 years, and reaching 9 billion is expected to take about 15.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nearly flat for most of the time, then rising very steeply in about the last 200 years",
+          "rationale": "Correct: the line barely moves until about 1800, then climbs steeply."
+        },
+        {
+          "id": "b",
+          "text": "Rising by about the same amount every century for the whole 2,000 years",
+          "rationale": "A steady rise would be a straight sloping line, but this line is nearly flat for centuries and then shoots up."
+        },
+        {
+          "id": "c",
+          "text": "Climbing quickly in the early centuries, then leveling off and flattening out in recent years",
+          "rationale": "This reverses the graph: the slow part is early and the steep part is recent."
+        },
+        {
+          "id": "d",
+          "text": "Going up and down in waves with no clear overall direction",
+          "rationale": "The line has no waves; it stays low and then climbs steeply to its highest point today."
+        }
+      ],
+      "answer": "a",
+      "explanation": "For about 1,800 years the human population grew very slowly. Since 1800 it has doubled three times, and each doubling took far less time than the first one. Growth is now slowing, but the total is still rising, and more people means more need for water, food, shelter and energy drawn from ecosystems.",
+      "misconception": "Human population has always grown at a steady, even pace.",
+      "hint": "Compare how much the line climbs between year 0 and 1500 with how much it climbs between 1800 and today.",
+      "followUpId": "L29-Q04",
+      "scope": {
+        "lessonId": "L29",
+        "section": "1. Predicting the Impact of Human Populations on Ecosystems",
+        "pages": {
+          "printed": [
+            388
+          ],
+          "pdf": [
+            424
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            388
+          ],
+          "pdfPages": [
+            424
+          ],
+          "locator": "Section 1 and Figure 1 (rendered)",
+          "supports": "Population stayed relatively stable for most of 2,000 years, then rose from about 1 billion in 1800 to 2 billion in 1927 and 4 billion in 1974."
+        },
+        {
+          "type": "external",
+          "title": "Day of Eight Billion",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/dayof8billion",
+          "accessed": "2026-10-14",
+          "supports": "The world's population was projected to reach 8 billion people on 15 November 2022."
+        },
+        {
+          "type": "external",
+          "title": "Population (Global Issues)",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/global-issues/population",
+          "accessed": "2026-10-14",
+          "supports": "Population growth is slowing: going from 7 to 8 billion took 12 years, reaching 9 billion is expected to take about 15 years (to 2037), and population is projected to peak at about 10.3 billion in the mid-2080s."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 388 (Figure 1). The 2022 point uses the UN date instead of the textbook's dated forecast (L29-RF3). Early values are rough estimates and are described as approximate. Round 1: read-aloud text and alt now give only the eight data values, so a screen-reader user must read the shape from the data (pedagogy); 'more and more steeply' and the 'exponential growth' tag were removed and the limitations note that growth is slowing, citing the UN population page (science; see L29-RF14). The limitations wording follows what the UN page actually says ('slowing', 12 vs about 15 years) rather than the reviewer's 'for decades', which that page does not state. Verify (2026-10-14): Rendered p. 388 Figure 1 re-viewed and both UN pages re-opened: the eight data values, the three doublings (127, 47 and 48 years) and the slowing-growth limitation are correct; one defensible key. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed 'more and more steeply' and the exponential tag; added the slowing-growth limitation and UN source (RF14)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud text and alt list data values only, no shape words that echo the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q02",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O1"
+      ],
+      "conceptTags": [
+        "per capita",
+        "rates",
+        "units"
+      ],
+      "familyId": "L29-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Which of these is a per capita measurement?",
+      "accessiblePrompt": "Which of these is a per capita measurement? The choices are: the total water a city uses in one year; the average amount of water each resident of a city uses in one year; the number of people living in a city; and the kilograms of fertilizer spread on each hectare of farmland.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The total water a city uses in one year",
+          "rationale": "This is a total for the whole city; it has not been divided by the number of residents."
+        },
+        {
+          "id": "b",
+          "text": "The average water each resident of a city uses in one year",
+          "rationale": "Correct: the city's total is divided by the number of people, giving an amount per person."
+        },
+        {
+          "id": "c",
+          "text": "The number of people who live in a city",
+          "rationale": "This is a population count, not an amount of something used per person."
+        },
+        {
+          "id": "d",
+          "text": "The kilograms of fertilizer spread on each hectare of farmland",
+          "rationale": "This is a rate per area of land, not per person."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Per capita means per person. You get it by dividing a group's total by the number of people in the group. Other rates divide by something else, such as farmland area, so they are not per capita, even though they also use the word 'per'.",
+      "misconception": "Any rate with the word 'per' in it is a per capita measurement.",
+      "hint": "Capita comes from the Latin word for 'heads'. Which choice divides by the number of heads?",
+      "followUpId": "L29-Q05",
+      "scope": {
+        "lessonId": "L29",
+        "section": "1. Predicting the Impact of Human Populations on Ecosystems",
+        "pages": {
+          "printed": [
+            387,
+            389
+          ],
+          "pdf": [
+            423,
+            425
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            389
+          ],
+          "pdfPages": [
+            425
+          ],
+          "locator": "Section 1, per capita",
+          "supports": "Per capita is a measure of something per person, such as total energy use divided by the number of people."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Vocabulary box",
+          "supports": "Per capita means a measure of something per person."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            390
+          ],
+          "pdfPages": [
+            426
+          ],
+          "locator": "Key Science Concept, first graph (rendered)",
+          "supports": "One graph's axis is fertilizer consumption in kilograms per hectare of arable land."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from pp. 387 and 389. Choice d uses the per-hectare axis of the p. 390 graph (L29-RF4) as a realistic distractor. Verify (2026-10-14): pp. 387 and 389 definitions and the p. 390 per-hectare axis re-checked; only choice b divides by people. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q03",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O1"
+      ],
+      "conceptTags": [
+        "per capita",
+        "population size",
+        "total resource use"
+      ],
+      "familyId": "L29-F01",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Town A keeps the same number of people, but each person starts using twice as much electricity. Town B doubles its population, but each person uses the same amount as before. How does each town's TOTAL electricity use change?",
+      "accessiblePrompt": "Two towns change in different ways. Town A keeps the same number of people, but each person starts using twice as much electricity. Town B doubles its population, but each person uses the same amount as before. How does each town's total electricity use change?",
+      "conditions": "Assume nothing else changes in either town.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both towns now use twice as much electricity in total",
+          "rationale": "Correct: total = people × use per person, so doubling either factor doubles the total."
+        },
+        {
+          "id": "b",
+          "text": "Only Town B's total doubles, since only the number of people matters",
+          "rationale": "Per person use matters too: in Town A the same people each use twice as much, so the total doubles."
+        },
+        {
+          "id": "c",
+          "text": "Only Town A's total doubles, since use per person matters more than population",
+          "rationale": "Population matters too: twice as many people each using the same amount doubles Town B's total."
+        },
+        {
+          "id": "d",
+          "text": "Neither total changes, since each town kept one of its numbers the same",
+          "rationale": "Keeping one factor the same does not keep the product the same when the other factor doubles."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Total use equals the number of people times the average use per person. Doubling either factor doubles the total. The lesson's point is that Earth has seen both factors rise at once, which multiplies the pressure on ecosystems.",
+      "misconception": "Only population size affects how much a society uses in total.",
+      "hint": "Write total use as (number of people) × (use per person), then double one factor at a time.",
+      "followUpId": "L29-Q05",
+      "scope": {
+        "lessonId": "L29",
+        "section": "1. Predicting the Impact of Human Populations on Ecosystems",
+        "pages": {
+          "printed": [
+            389
+          ],
+          "pdf": [
+            425
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            389
+          ],
+          "pdfPages": [
+            425
+          ],
+          "locator": "Section 1",
+          "supports": "Both human population size and per capita use of natural resources have increased, and the lesson asks what happens when a larger population is multiplied by greater per capita use."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 389. Conditions state that nothing else changes, so only one answer is defensible. Verify (2026-10-14): p. 389 re-read; total = people x use per person, and the condition leaves one answer. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q04",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O1"
+      ],
+      "conceptTags": [
+        "resource trends",
+        "graph reading",
+        "per capita"
+      ],
+      "familyId": "L29-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "The table gives approximate values read from the lesson's graphs. Sort each quantity by whether it went up or went down over the years shown.",
+      "accessiblePrompt": "A table gives approximate values read from the lesson's graphs. Energy used per person each year: about 30 gigajoules in 1900 and about 68 gigajoules in 2014. Fertilizer spread on each hectare of farmland each year: about 108 kilograms in 2002 and about 138 kilograms in 2014. World population: about 1 billion in 1800 and about 4 billion in 1974. Renewable fresh water available per person each year: about 13,500 cubic meters in 1960 and about 6,000 cubic meters in 2014. Sort each quantity by whether it went up or went down.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Approximate values read from the lesson's graphs",
+        "alt": "Table with three columns: quantity, earlier value and later value. Energy used per person each year: about 30 gigajoules in 1900 and about 68 gigajoules in 2014. Fertilizer spread on each hectare of farmland each year: about 108 kilograms in 2002 and about 138 kilograms in 2014. World population: about 1 billion in 1800 and about 4 billion in 1974. Renewable fresh water available per person each year: about 13,500 cubic meters in 1960 and about 6,000 cubic meters in 2014.",
+        "columns": [
+          "Quantity",
+          "Earlier value",
+          "Later value"
+        ],
+        "rows": [
+          [
+            "Energy used per person each year",
+            "about 30 gigajoules (1900)",
+            "about 68 gigajoules (2014)"
+          ],
+          [
+            "Fertilizer spread per hectare of farmland each year",
+            "about 108 kg (2002)",
+            "about 138 kg (2014)"
+          ],
+          [
+            "World population",
+            "about 1 billion (1800)",
+            "about 4 billion (1974)"
+          ],
+          [
+            "Renewable fresh water available per person each year",
+            "about 13,500 cubic meters (1960)",
+            "about 6,000 cubic meters (2014)"
+          ]
+        ]
+      },
+      "limitations": "Values are approximate readings from textbook graphs, and world averages hide large differences between places.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Energy used per person each year",
+          "rationale": "It rose from about 30 to about 68 gigajoules, more than doubling."
+        },
+        {
+          "id": "b",
+          "text": "Fertilizer spread per hectare of farmland",
+          "rationale": "It rose from about 108 to about 138 kilograms per hectare."
+        },
+        {
+          "id": "c",
+          "text": "World population",
+          "rationale": "It rose from about 1 billion to about 4 billion people."
+        },
+        {
+          "id": "d",
+          "text": "Renewable fresh water available per person",
+          "rationale": "It fell from about 13,500 to about 6,000 cubic meters per person."
+        }
+      ],
+      "bins": [
+        {
+          "id": "up",
+          "label": "Went up"
+        },
+        {
+          "id": "down",
+          "label": "Went down"
+        }
+      ],
+      "answer": {
+        "a": "up",
+        "b": "up",
+        "c": "up",
+        "d": "down"
+      },
+      "explanation": "Energy use per person, fertilizer use per hectare and the number of people all rose, while the fresh water available to each person fell. Together these trends show people drawing more and more from ecosystems.",
+      "misconception": "Because more resources are being used, every resource measure on the graphs must be going up.",
+      "hint": "Each row covers different years. Read each row from its earlier year to its later year before you sort it.",
+      "followUpId": "L29-Q03",
+      "scope": {
+        "lessonId": "L29",
+        "section": "Key Science Concept: Human Populations Are Changing Natural Resources",
+        "pages": {
+          "printed": [
+            388,
+            390
+          ],
+          "pdf": [
+            424,
+            426
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            390
+          ],
+          "pdfPages": [
+            426
+          ],
+          "locator": "Key Science Concept graphs (rendered at 250 dpi)",
+          "supports": "Per capita energy use, fertilizer use per hectare and land under cultivation rise; per capita fresh water falls."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            388
+          ],
+          "pdfPages": [
+            424
+          ],
+          "locator": "Section 1",
+          "supports": "About 1 billion people in 1800 and 4 billion in 1974."
+        },
+        {
+          "type": "external",
+          "title": "Fertilizer consumption (kilograms per hectare of arable land): metadata",
+          "publisher": "World Bank",
+          "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/AG.CON.FERT.ZS",
+          "accessed": "2026-10-14",
+          "supports": "This indicator measures plant nutrients from nitrogen, potash and phosphate fertilizers used per unit of arable land."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Values read from rendered p. 390 graphs at 250 dpi and from p. 388 text. The fertilizer graph is described by its axis, not by its 'Mineral Consumption' title (L29-RF4). Round 1: hint no longer describes the whole task, and the category is now foundational (table reading at difficulty 1), per the pedagogy review. Science review re-checked the readings against the rendered p. 390 graphs. Verify (2026-10-14): Re-read the cropped p. 390 graphs (energy about 28-30 to 68 GJ, fertilizer about 108 to 138 kg/ha, fresh water about 13,700 to 6,000 cubic meters) and p. 388 population text; values are labeled approximate and each item has one bin. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: softer hint; category application -> foundational"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q05",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O1"
+      ],
+      "conceptTags": [
+        "per capita",
+        "fresh water",
+        "division",
+        "renewable resources"
+      ],
+      "familyId": "L29-F02",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "Rain and snow refill a region's rivers and groundwater with about 8 billion cubic meters of fresh water each year, and that total stays about the same. The population grows from 1 million to 2 million. How many cubic meters per person per year are available after the growth?",
+      "accessiblePrompt": "Rain and snow refill a region's rivers and groundwater with about 8 billion cubic meters of fresh water each year, and that yearly total stays about the same. The region's population grows from 1 million people to 2 million people. How many cubic meters of fresh water per person per year are available after the growth?",
+      "units": "cubic meters per person per year",
+      "conditions": "Assume the yearly renewable supply stays the same and all of it is counted as available.",
+      "limitations": "Real supplies vary from year to year and place to place, and not all renewable water can be captured for use.",
+      "answer": 4000,
+      "tolerance": 0,
+      "unit": "cubic meters per person per year",
+      "workedSolution": "Water per person = total supply ÷ number of people = 8,000,000,000 m³ ÷ 2,000,000 people = 4,000 m³ per person per year. Before the growth it was 8,000,000,000 ÷ 1,000,000 = 8,000 m³ per person, so doubling the population halved each person's share.",
+      "explanation": "Water available per person is the total supply divided by the number of people. The supply stayed the same, so doubling the population cut each person's share in half, from 8,000 to 4,000 cubic meters. That is why the lesson's fresh-water-per-person graph slopes downward even though rain has not stopped.",
+      "misconception": "Water available per person falls only because rain is decreasing or because water is destroyed when people use it.",
+      "hint": "Per person means divide the total by the number of people.",
+      "followUpId": "L29-Q02",
+      "scope": {
+        "lessonId": "L29",
+        "section": "Key Science Concept: Human Populations Are Changing Natural Resources",
+        "pages": {
+          "printed": [
+            390
+          ],
+          "pdf": [
+            426
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            390
+          ],
+          "pdfPages": [
+            426
+          ],
+          "locator": "Key Science Concept, Available Fresh Water graph (rendered)",
+          "supports": "Per capita fresh water fell from about 13,500 to about 6,000 cubic meters between 1960 and 2014 as population grew."
+        },
+        {
+          "type": "external",
+          "title": "Renewable internal freshwater resources per capita (cubic meters): metadata",
+          "publisher": "World Bank",
+          "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/ER.H2O.INTR.PC",
+          "accessed": "2026-10-14",
+          "supports": "Renewable internal freshwater per capita is the country's internal renewable river flow and groundwater from rainfall, calculated per person using population estimates."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical round numbers chosen to mirror the p. 390 graph. The World Bank definition confirms the indicator is a renewable supply divided by population (L29-RF4). Verify (2026-10-14): Arithmetic checked (8,000,000,000 / 2,000,000 = 4,000); World Bank ER.H2O.INTR.PC metadata re-opened (renewable supply calculated per person from population estimates). No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q06",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O2"
+      ],
+      "conceptTags": [
+        "six disruptions",
+        "over-exploitation",
+        "pollution",
+        "emerging disease",
+        "habitat degradation",
+        "invasive species",
+        "climate change"
+      ],
+      "familyId": "L29-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each case from the lesson to the kind of ecosystem disruption it shows.",
+      "accessiblePrompt": "Match each case from the lesson to the kind of ecosystem disruption it shows. The cases are: fishers remove so many fish from Lake Malawi that fish populations shrink; plastic bags and bottles build up in the ocean, where sea turtles swallow them; a virus carried by fruit bats starts infecting pig farmers; tropical forest is cut down to plant rows of coffee; carp from another continent spread through rivers toward the Great Lakes; and rising seas make coastal streets in Miami Beach flood more often. The kinds of disruption are over-exploitation, pollution, emerging disease, habitat degradation, invasive species and climate change.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Fishers remove so many fish from Lake Malawi that fish populations shrink",
+          "rationale": "Taking fish faster than populations can rebuild is over-exploitation."
+        },
+        {
+          "id": "b",
+          "text": "Plastic bags and bottles build up in the ocean, where sea turtles swallow them",
+          "rationale": "Adding harmful material to an ecosystem is pollution."
+        },
+        {
+          "id": "c",
+          "text": "A virus carried by fruit bats starts infecting pig farmers",
+          "rationale": "A disease newly reaching people through new contact with wildlife is an emerging disease."
+        },
+        {
+          "id": "d",
+          "text": "Tropical forest is cut down to plant rows of coffee",
+          "rationale": "Destroying a natural habitat so it no longer works as a forest is habitat degradation."
+        },
+        {
+          "id": "e",
+          "text": "Carp from another continent spread through rivers toward the Great Lakes",
+          "rationale": "A species moved by people to a new place where it causes harm is an invasive species."
+        },
+        {
+          "id": "f",
+          "text": "Rising seas make coastal streets in Miami Beach flood more often",
+          "rationale": "Sea-level rise from long-term warming is part of climate change."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Over-exploitation"
+        },
+        {
+          "id": "r2",
+          "text": "Pollution"
+        },
+        {
+          "id": "r3",
+          "text": "Emerging disease"
+        },
+        {
+          "id": "r4",
+          "text": "Habitat degradation"
+        },
+        {
+          "id": "r5",
+          "text": "Invasive species"
+        },
+        {
+          "id": "r6",
+          "text": "Climate change"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4",
+        "e": "r5",
+        "f": "r6"
+      },
+      "explanation": "Each case shows a different way people can upset an ecosystem. Naming the kind of problem points toward the kind of solution, such as changing fishing gear for over-exploitation or blocking the spread of an invasive species.",
+      "misconception": "All human damage to ecosystems is the same kind of problem, usually called pollution.",
+      "hint": "Ask what people did in each case: took too much, added something harmful, made new contact with wildlife, destroyed a habitat, moved a species, or changed the climate.",
+      "followUpId": "L29-Q09",
+      "scope": {
+        "lessonId": "L29",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            387,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396
+          ],
+          "pdf": [
+            423,
+            427,
+            428,
+            429,
+            430,
+            431,
+            432
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "The lesson covers six important ways humans disrupt ecosystems, with definitions of over-exploitation, emerging disease, habitat degradation, invasive species and climate change."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391,
+            392,
+            393
+          ],
+          "pdfPages": [
+            427,
+            428,
+            429
+          ],
+          "locator": "Sections 2-4",
+          "supports": "Overfishing at Lake Malawi, plastics harming sea turtles, and Nipah virus from fruit bats via pigs."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            394,
+            395,
+            396
+          ],
+          "pdfPages": [
+            430,
+            431,
+            432
+          ],
+          "locator": "Sections 5-7",
+          "supports": "Forest cleared for coffee, Asian carp spreading toward the Great Lakes, and rising seas flooding Miami Beach."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 387 and 391-396. One case per section, so each pairing is one-to-one. Verify (2026-10-14): Rendered pp. 387 and 391-396 viewed; one case per section, so the matching is one-to-one. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q07",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O2"
+      ],
+      "conceptTags": [
+        "habitat degradation",
+        "wetlands",
+        "classifying disruptions"
+      ],
+      "familyId": "L29-F03",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A growing town drains a marsh at its edge and builds houses and parking lots where the marsh used to be. The herons and frogs that lived there disappear from the area. Which kind of disruption is this mainly?",
+      "accessiblePrompt": "A growing town drains a marsh at its edge and builds houses and parking lots where the marsh used to be. The herons and frogs that lived there disappear from the area. Which kind of ecosystem disruption is this mainly: habitat degradation, invasive species, over-exploitation, or emerging disease?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Habitat degradation",
+          "rationale": "Correct: the marsh itself was destroyed, so the animals lost the place they need to live."
+        },
+        {
+          "id": "b",
+          "text": "Invasive species",
+          "rationale": "No species was brought in from somewhere else; the native animals lost their home."
+        },
+        {
+          "id": "c",
+          "text": "Over-exploitation",
+          "rationale": "Nobody harvested the herons or frogs; they disappeared because the marsh was replaced."
+        },
+        {
+          "id": "d",
+          "text": "Emerging disease",
+          "rationale": "Nothing in the scenario involves a new disease reaching people."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The animals vanished because their home was destroyed, not because they were caught or because a new species or disease arrived. Changing or wrecking a natural area so it stops working as an ecosystem is habitat degradation, the same problem the lesson shows when forest is cleared for coffee.",
+      "misconception": "Whenever animals disappear, it must be because people hunted or harvested too many of them.",
+      "hint": "Ask what happened to the place the animals lived, rather than to the animals themselves.",
+      "followUpId": "L29-Q17",
+      "scope": {
+        "lessonId": "L29",
+        "section": "5. Habitat Degradation: Coffee Agriculture",
+        "pages": {
+          "printed": [
+            387,
+            394
+          ],
+          "pdf": [
+            423,
+            430
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            394
+          ],
+          "pdfPages": [
+            430
+          ],
+          "locator": "Section 5, Habitat Degradation",
+          "supports": "Habitat degradation changes or destroys natural ecosystems so they no longer function well, as when forest is cleared for coffee and forest animals are displaced."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Vocabulary box",
+          "supports": "Definitions of habitat degradation, over-exploitation, invasive species and emerging disease."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New transfer scenario (not in the textbook) judged with the p. 394 definition. Verify (2026-10-14): p. 394 definition re-read; destroying the marsh is habitat degradation and no other listed category fits. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q08",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O2"
+      ],
+      "conceptTags": [
+        "invasive species",
+        "non-native species",
+        "definitions"
+      ],
+      "familyId": "L29-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which of these fit the lesson's definition of an invasive species? Select all that apply.",
+      "accessiblePrompt": "Which of these fit the lesson's definition of an invasive species? Select all that apply. The choices are: a fish people brought from another continent that eats the plankton native fish need and keeps spreading; a water plant people carried in from overseas that spreads quickly and clogs boat channels and fish habitat; a vegetable people brought from another continent that grows in gardens but does not spread or cause harm; and a native songbird that has always lived there, whose numbers rise after several mild winters.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fish people brought from another continent that eats the plankton native fish need and keeps spreading",
+          "rationale": "Correct: people brought it, and it harms native fish by taking their food."
+        },
+        {
+          "id": "b",
+          "text": "A water plant people carried in from overseas that spreads quickly and clogs boat channels and fish habitat",
+          "rationale": "Correct: people introduced it, and it causes both ecological and economic harm."
+        },
+        {
+          "id": "c",
+          "text": "A vegetable people brought from another continent that grows in gardens but does not spread or cause harm",
+          "rationale": "People brought it, but without harm it does not meet the definition of invasive."
+        },
+        {
+          "id": "d",
+          "text": "A native songbird that has always lived there, whose numbers rise after several mild winters",
+          "rationale": "It already lives there naturally; a growing native population is not an introduced species."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "An invasive species needs two things: people brought it to a place where it does not naturally live, and it causes ecological or economic harm there. The plankton-eating fish and the channel-clogging plant meet both. A harmless garden crop is non-native but not invasive, and a native bird is not introduced at all.",
+      "misconception": "Any species from somewhere else, or any population that grows fast, is invasive.",
+      "hint": "Check two things for each choice: did people bring it from elsewhere, and does it cause harm?",
+      "followUpId": "L29-Q31",
+      "scope": {
+        "lessonId": "L29",
+        "section": "6. Invasive Species: Asian Carp and the Great Lakes",
+        "pages": {
+          "printed": [
+            387,
+            395
+          ],
+          "pdf": [
+            423,
+            431
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            395
+          ],
+          "pdfPages": [
+            431
+          ],
+          "locator": "Section 6, Invasive Species",
+          "supports": "An invasive species was introduced to a place where it is not naturally found and causes ecological or economic harm; Asian carp eat plankton native fish need."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Vocabulary box",
+          "supports": "Definition of invasive species."
+        },
+        {
+          "type": "external",
+          "title": "Silver carp (Hypophthalmichthys molitrix)",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://www.fws.gov/species/silver-carp-hypophthalmichthys-molitrix",
+          "accessed": "2026-10-14",
+          "supports": "Silver carp were brought to the United States in the 1970s and 1980s for aquaculture and wastewater treatment as a biological control for algae, escaped into the Mississippi River during floods, and filter-feed on plankton."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 395. Choice a is described without the textbook's 'released on purpose' claim (L29-RF8). Choice b is a hypothetical that meets both parts of the definition. Round 1: all three non-native choices now say people brought the species, so harm is the only thing separating the garden vegetable from the keys and no choice is cued (both reviews). The songbird choice was lengthened to stay parallel. The follow-up now points to L29-Q31 (why Asian carp thrive), a new item in another family that revisits invasive species; the pedagogy review's per-question suggestion (Q09) was replaced by its own lesson-level request to route Q08 to a carp-mechanism item. Verify (2026-10-14): p. 395 definition (introduced by people AND harmful) and FWS silver carp page re-checked; exactly two keys. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'people brought' added to choices a, b and c so both parts of the definition are visible"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices state who brought each species without cueing the keys; follow-up -> L29-Q31"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q09",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O2"
+      ],
+      "conceptTags": [
+        "over-exploitation",
+        "overfishing",
+        "sustainable harvest"
+      ],
+      "familyId": "L29-F04",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Families around Lake Malawi depend on fishing for food and income. What made the heavy fishing described in the lesson over-exploitation rather than ordinary fishing?",
+      "accessiblePrompt": "Families around Lake Malawi depend on fishing for food and income. What made the heavy fishing described in the lesson count as over-exploitation rather than ordinary fishing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fish were caught faster than their populations could replace the fish taken",
+          "rationale": "Correct: harvesting that outpaces reproduction makes populations decline, which is over-exploitation."
+        },
+        {
+          "id": "b",
+          "text": "Any amount of fishing counts, because it removes animals from the wild",
+          "rationale": "Fishing at a pace populations can keep up with does not make them decline, so it is not over-exploitation."
+        },
+        {
+          "id": "c",
+          "text": "Some of the fish were sold at market instead of all being eaten at home",
+          "rationale": "Selling fish is not the issue; the problem is how fast fish are removed compared with how fast they reproduce."
+        },
+        {
+          "id": "d",
+          "text": "The fish being caught were an invasive species that people had brought into the lake",
+          "rationale": "The lesson never says the fish were introduced; over-exploitation is about the rate of harvest, not where a species came from."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Harvesting becomes over-exploitation when animals are taken faster than their populations can replace them, so the populations shrink. As the number of people near Lake Malawi doubled, fishing pressure rose past that point.",
+      "misconception": "Using any wild resource at all counts as over-exploitation.",
+      "hint": "Compare how fast fish were being caught with how fast fish populations can rebuild.",
+      "followUpId": "L29-Q06",
+      "scope": {
+        "lessonId": "L29",
+        "section": "2. Over-Exploitation: Overfishing Changes Ecosystems",
+        "pages": {
+          "printed": [
+            387,
+            391
+          ],
+          "pdf": [
+            423,
+            427
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391
+          ],
+          "pdfPages": [
+            427
+          ],
+          "locator": "Section 2, Over-Exploitation",
+          "supports": "Over-exploitation is harvesting wild species faster than their populations can replace the individuals taken; the population near Lake Malawi doubled and overfishing followed."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Vocabulary box",
+          "supports": "Definition of over-exploitation."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 391. Round 1: the unsourced opening ('fished for a very long time') was replaced with the p. 391 statement that these communities rely on the lake's fish for food and livelihoods (pedagogy). Verify (2026-10-14): p. 391 definition re-read; only choice a states the harvest-outpaces-replacement idea. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: opening sentence now sourced to p. 391"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q10",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3"
+      ],
+      "conceptTags": [
+        "trophic cascade",
+        "overfishing",
+        "bilharzia",
+        "cause and effect"
+      ],
+      "familyId": "L29-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put the steps of the Lake Malawi chain in order, from the first cause to the final effect on people.",
+      "accessiblePrompt": "Put the steps of the Lake Malawi chain in order, from the first cause to the final effect on people. The steps are: snail populations grow; many more people live near the lake and fish it heavily; more people who wade in the lake become infected with bilharzia; snail-eating fish become much less common; and more parasitic worms develop in the growing snail populations.",
+      "conditions": "Follow the chain as the lesson describes it, with no other changes in the lake.",
+      "limitations": "Real lakes have many more species and links than this simple chain.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Snail populations grow",
+          "rationale": "With fewer predators eating them, snails survive and reproduce in larger numbers."
+        },
+        {
+          "id": "b",
+          "text": "Many more people live near the lake and fish it heavily",
+          "rationale": "The human population boom is the first cause in the lesson's chain."
+        },
+        {
+          "id": "c",
+          "text": "More people who wade in the lake become infected with bilharzia",
+          "rationale": "The parasites reach people last, as they wade in the water."
+        },
+        {
+          "id": "d",
+          "text": "Snail-eating fish become much less common",
+          "rationale": "Heavy fishing removes the snail-eating fish, so this comes right after the fishing increases."
+        },
+        {
+          "id": "e",
+          "text": "More parasitic worms develop in the growing snail populations",
+          "rationale": "The worms live in snails for part of their life, so more snails means more worms."
+        }
+      ],
+      "ends": [
+        "First cause",
+        "Final effect on people"
+      ],
+      "answer": [
+        "b",
+        "d",
+        "a",
+        "e",
+        "c"
+      ],
+      "explanation": "Heavy fishing removed many of the fish that eat snails, so snails multiplied. Snails host parasitic worms for part of the worms' life, so more snails meant more worms, and more people wading in the water caught bilharzia. A change at one level of a food web can ripple to other species and back to people.",
+      "misconception": "Removing fish only affects the fish; it can't change other species or people's health.",
+      "hint": "Start with the human change, then follow who eats whom.",
+      "followUpId": "L29-Q13",
+      "scope": {
+        "lessonId": "L29",
+        "section": "2. Over-Exploitation: Overfishing Changes Ecosystems",
+        "pages": {
+          "printed": [
+            391
+          ],
+          "pdf": [
+            427
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391
+          ],
+          "pdfPages": [
+            427
+          ],
+          "locator": "Section 2, Over-Exploitation",
+          "supports": "As humans removed more fish, their prey, freshwater snails, increased; snails carry parasitic worms transmitted to people wading in the water, so bilharzia increased."
+        },
+        {
+          "type": "external",
+          "title": "Schistosomiasis in Lake Malawi: relationship of fish and intermediate host density to prevalence of human infection (Stauffer et al., EcoHealth 3, 2006)",
+          "publisher": "Penn State University research portal (Pure)",
+          "url": "https://pure.psu.edu/en/publications/schistosomiasis-in-lake-malawi-relationship-of-fish-and-intermedi/",
+          "accessed": "2026-10-14",
+          "supports": "Infection prevalence was negatively correlated with density of snail-eating fish; where these fish were more abundant snails were fewer; at Chembe Village snail-eating fish increased and schistosomiasis in children declined."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 391. Conditions fix the chain as the lesson describes it, so only one order is defensible (L29-RF6). Round 1: item d now says 'snail-eating fish' rather than 'small fish' (the science review's optional robustness edit, since the main snail-eater in the research is also a food fish). Follow-up now L29-Q13, another chain item (pedagogy). Added the Stauffer et al. 2006 EcoHealth abstract: the field evidence for this chain is correlational (fewer snail-eating fish went with more infection in children), which the 'as the lesson describes it' condition and the limitations line cover; see L29-RF6. Verify (2026-10-14): p. 391 chain re-read; order is unique because item e depends on item a. Stauffer et al. 2006 abstract re-opened: correlational support only, as the notes say. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional item-d wording (snail-eating fish); Stauffer 2006 added as correlational support"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up -> L29-Q13 (another cause-and-effect chain)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q11",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3"
+      ],
+      "conceptTags": [
+        "nutrient pollution",
+        "algae",
+        "decomposition",
+        "dissolved oxygen"
+      ],
+      "familyId": "L29-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these events in Long Island Sound in order, starting when the pollution enters the water.",
+      "accessiblePrompt": "Put these events in Long Island Sound in order, starting when the pollution enters the water. The events are: algae grow quickly in the nitrogen-rich water; lobsters, fish and oysters struggle to get enough oxygen and their numbers drop; sewage treatment plants release water carrying extra nitrogen; bacteria breaking down the dead algae use up dissolved oxygen; and large amounts of algae die and sink.",
+      "conditions": "Follow the chain as described for Long Island Sound, starting with the pollution.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Algae grow quickly in the nitrogen-rich water",
+          "rationale": "Nitrogen is a nutrient, so algae grow fast once it enters the water."
+        },
+        {
+          "id": "b",
+          "text": "Lobsters, fish and oysters struggle to get enough oxygen and their numbers drop",
+          "rationale": "Animals suffer last, once the oxygen has been used up."
+        },
+        {
+          "id": "c",
+          "text": "Sewage treatment plants release water carrying extra nitrogen",
+          "rationale": "The chain starts when the pollution enters the sound."
+        },
+        {
+          "id": "d",
+          "text": "Bacteria breaking down the dead algae use up dissolved oxygen",
+          "rationale": "Decomposers use oxygen as they break down the large mass of dead algae."
+        },
+        {
+          "id": "e",
+          "text": "Large amounts of algae die and sink",
+          "rationale": "A huge bloom of algae eventually dies and settles toward the bottom."
+        }
+      ],
+      "ends": [
+        "Pollution enters",
+        "Effect on wildlife"
+      ],
+      "answer": [
+        "c",
+        "a",
+        "e",
+        "d",
+        "b"
+      ],
+      "explanation": "Extra nitrogen acts like fertilizer for algae, so they grow fast. When the algae die and sink, bacteria decompose them and use up oxygen in the water, especially near the bottom. Animals that need dissolved oxygen, such as lobsters, fish and oysters, then decline.",
+      "misconception": "Nitrogen harms sea animals directly, like a poison, rather than through a chain of effects.",
+      "hint": "Nitrogen feeds producers. Ask what happens when a huge crop of producers dies.",
+      "followUpId": "L29-Q25",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            398
+          ],
+          "pdf": [
+            434
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            398
+          ],
+          "pdfPages": [
+            434
+          ],
+          "locator": "Section 8, Comparing Ecosystem Conditions to the Model",
+          "supports": "Sewage treatment plants are the biggest nitrogen source; high nitrogen increases algae growth; decomposition of algae lowers oxygen; low oxygen reduces lobsters, fish and oysters."
+        },
+        {
+          "type": "external",
+          "title": "Hypoxia (ecosystem target indicator)",
+          "publisher": "Long Island Sound Partnership",
+          "url": "https://lispartnership.org/ecosystem-target-indicators/hypoxia/",
+          "accessed": "2026-10-14",
+          "supports": "Bacterial respiration while decomposing sunken algae is the largest cause of low oxygen in the Sound's bottom water; after nitrogen cuts at wastewater plants, the hypoxic area fell from a 1987-1999 average of 208 square miles to a 2021-2025 average of 83 square miles, about a 60 percent reduction."
+        },
+        {
+          "type": "external",
+          "title": "What is a dead zone?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/deadzone.html",
+          "accessed": "2026-10-14",
+          "supports": "Excess nutrients from runoff and wastewater feed algae overgrowth; when the algae die and decompose, the decomposition consumes oxygen."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 398. The chain leaves out the textbook's incorrect photosynthesis step (L29-RF2) and follows NOAA and the Long Island Sound Partnership. Verify (2026-10-14): p. 398 re-read; chain follows NOAA dead-zone and LISP hypoxia pages (both re-opened) and omits the textbook photosynthesis error; order unique. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q12",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3"
+      ],
+      "conceptTags": [
+        "photosynthesis",
+        "dissolved oxygen",
+        "decomposition",
+        "misconception repair"
+      ],
+      "familyId": "L29-F05",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A classmate says: \"Algae cause low oxygen because they pull oxygen out of the water while they photosynthesize.\" Which is the best correction?",
+      "accessiblePrompt": "A classmate says that algae cause low oxygen because they pull oxygen out of the water while they photosynthesize. Which is the best correction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Photosynthesis adds oxygen; the big drain comes when bacteria break down huge amounts of dead algae",
+          "rationale": "Correct: algae release oxygen when they photosynthesize, and decomposing a dead bloom uses it up."
+        },
+        {
+          "id": "b",
+          "text": "The classmate is right: photosynthesis uses up dissolved oxygen, which is why algae blooms are harmful",
+          "rationale": "Photosynthesis releases oxygen; it does not use it up."
+        },
+        {
+          "id": "c",
+          "text": "Algae have nothing to do with it; low oxygen is caused only by warm weather",
+          "rationale": "Warm water holds less oxygen, but the lesson and NOAA both tie low oxygen to algae blooms fed by nitrogen."
+        },
+        {
+          "id": "d",
+          "text": "Nitrogen reacts directly with the dissolved oxygen and destroys it, so algae are not involved",
+          "rationale": "In Long Island Sound most of the oxygen loss comes from decomposing the algae that the nitrogen fed, so algae are central to the problem."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Photosynthesis takes in carbon dioxide and releases oxygen, so it adds oxygen to the water. Living algae also use some oxygen for cellular respiration, but the big drain comes when a huge bloom dies and bacteria use oxygen to decompose it. The textbook page gets the photosynthesis step backward.",
+      "misconception": "Photosynthesis removes oxygen from water.",
+      "hint": "Recall which gas plants and algae give off when they use light to make food.",
+      "followUpId": "L29-Q21",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            398
+          ],
+          "pdf": [
+            434
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            398
+          ],
+          "pdfPages": [
+            434
+          ],
+          "locator": "Section 8, Comparing Ecosystem Conditions to the Model (contains the error)",
+          "supports": "High nitrogen boosts algae, decomposition of algae lowers oxygen, and low oxygen harms wildlife; the page wrongly says producers extract oxygen during photosynthesis."
+        },
+        {
+          "type": "external",
+          "title": "How much oxygen comes from the ocean?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+          "accessed": "2026-10-14",
+          "supports": "Ocean plankton, including algae, photosynthesize and produce much of the ocean's oxygen."
+        },
+        {
+          "type": "external",
+          "title": "Indicators: Dissolved Oxygen",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/national-aquatic-resource-surveys/indicators-dissolved-oxygen",
+          "accessed": "2026-10-14",
+          "supports": "Water bodies receive oxygen from the atmosphere and from aquatic plants; when excess organic material such as large algal blooms is decomposed by microorganisms, dissolved oxygen is consumed."
+        },
+        {
+          "type": "external",
+          "title": "Hypoxia (ecosystem target indicator)",
+          "publisher": "Long Island Sound Partnership",
+          "url": "https://lispartnership.org/ecosystem-target-indicators/hypoxia/",
+          "accessed": "2026-10-14",
+          "supports": "Bacterial respiration while decomposing sunken algae is the largest cause of low oxygen in the Sound's bottom water; after nitrogen cuts at wastewater plants, the hypoxic area fell from a 1987-1999 average of 208 square miles to a 2021-2025 average of 83 square miles, about a 60 percent reduction."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Misconception repair for the p. 398 error (L29-RF2). The keyed answer rests on the external sources, not on the textbook's sentence. Round 1: choice d's rationale no longer says nitrogen itself uses no oxygen (bacteria converting sewage ammonium do use some); it now says most of the loss comes from decomposing algae (science review's optional precision edit). The key is unchanged. Verify (2026-10-14): Key rests on the external sources, all re-opened (NOAA ocean oxygen, EPA dissolved-oxygen indicator, LISP hypoxia); p. 398 error correctly flagged as L29-RF2. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional precision edit to choice d's rationale"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q13",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O2",
+        "L29-O3"
+      ],
+      "conceptTags": [
+        "emerging disease",
+        "Nipah virus",
+        "spillover",
+        "wildlife contact"
+      ],
+      "familyId": "L29-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Nipah virus had probably lived in fruit bats for a very long time before it began making people sick in Malaysia in the late 1990s. Which change best explains how it reached people?",
+      "accessiblePrompt": "Nipah virus had probably lived in fruit bats for a very long time before it began making people sick in Malaysia in the late 1990s. Which change best explains how it reached people?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pigs kept under trees where infected bats fed caught it and passed it on to farmworkers",
+          "rationale": "Correct: the pigs bridged the gap between the bats and the farmworkers."
+        },
+        {
+          "id": "b",
+          "text": "The virus first formed inside pigs, which people in the area had only just started raising",
+          "rationale": "Pigs spread the virus but were not its source, and people there had raised pigs for generations."
+        },
+        {
+          "id": "c",
+          "text": "Farmworkers began keeping fruit bats as pets and were bitten by them",
+          "rationale": "The lesson describes no pet bats; the virus reached people through infected pigs."
+        },
+        {
+          "id": "d",
+          "text": "Fruit bats moved into crowded city centers and spread the virus to people through the air",
+          "rationale": "The lesson places the outbreak on pig farms, with pigs as the link to people."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Nipah counts as an emerging disease because it newly reached people through new contact with wildlife. The bridge was pigs: they were kept under trees where infected bats fed, ate fruit the bats dropped, and then passed the virus to farmworkers.",
+      "misconception": "The animal that passes a disease to people must be where the disease came from.",
+      "hint": "Trace the virus's path: where did it live, which animal picked it up, and who handled that animal?",
+      "followUpId": "L29-Q10",
+      "scope": {
+        "lessonId": "L29",
+        "section": "4. Emerging Diseases: New Viral Infections",
+        "pages": {
+          "printed": [
+            393
+          ],
+          "pdf": [
+            429
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            393
+          ],
+          "pdfPages": [
+            429
+          ],
+          "locator": "Section 4, Emerging Diseases",
+          "supports": "Fruit bats were the original source; pigs raised under trees where bats roost and eat fruit ate contaminated leftovers and passed the virus to farmworkers; pigs had been raised in the area for generations."
+        },
+        {
+          "type": "external",
+          "title": "Nipah virus (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/nipah-virus",
+          "accessed": "2026-10-14",
+          "supports": "Fruit bats of the family Pteropodidae are the natural host of Nipah virus; the virus was first identified in 1998 among pig farmers in Malaysia; advice includes protecting pig feed and sheds from bats and wearing gloves and protective clothing when handling sick animals."
+        },
+        {
+          "type": "external",
+          "title": "About Nipah Virus",
+          "publisher": "U.S. Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/nipah-virus/about/index.html",
+          "accessed": "2026-10-14",
+          "supports": "The Malaysia and Singapore outbreak started in pigs and then spread to people; more than 300 people became sick and more than 100 died; Nipah is carried by Pteropus fruit bats."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 393. The keyed answer uses the pig-and-tree bridge, not the textbook's 'moved into the forest' framing (L29-RF7). Round 1: category now relationship (it asks for a causal pathway) and follow-up now L29-Q10, another chain item (pedagogy). Verify (2026-10-14): p. 393 rendered; WHO and CDC pages re-opened; distractor b is contradicted by p. 393 (pigs raised for generations); single key. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: category foundational -> relationship; follow-up -> L29-Q10"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q14",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3",
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "emerging disease",
+        "disease prevention",
+        "breaking the chain"
+      ],
+      "familyId": "L29-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A pig farm sits in an area where fruit bats carry Nipah virus. Which steps fit the lesson's advice for keeping the virus from reaching the farm's workers? Select all that apply.",
+      "accessiblePrompt": "A pig farm sits in an area where fruit bats carry Nipah virus. Which steps fit the lesson's advice for keeping the virus from reaching the farm's workers? Select all that apply. The choices are: keep pig pens and pig feed away from trees where bats roost and feed; have workers wear protective gear when handling sick animals; move the workers' homes away from the bat trees but leave the pig pens where they are; and have workers wear protective gear only when handling bats, not pigs.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep pig pens and pig feed away from trees where bats roost and feed",
+          "rationale": "Correct: this keeps pigs from eating fruit or other material contaminated by bats."
+        },
+        {
+          "id": "b",
+          "text": "Have workers wear protective gear when handling sick animals",
+          "rationale": "Correct: this blocks the step where the virus passes from infected pigs to people."
+        },
+        {
+          "id": "c",
+          "text": "Move the workers' homes away from the bat trees but leave the pig pens where they are",
+          "rationale": "Workers caught the virus from infected pigs, so pigs kept under bat trees would still catch it and pass it on."
+        },
+        {
+          "id": "d",
+          "text": "Have workers wear protective gear only when handling bats, not pigs",
+          "rationale": "The virus reached workers through infected pigs, so gear matters most when handling pigs."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "The virus travels from bats to pigs to people, so good steps break a link in that chain. Keeping pigs and their feed away from bat trees blocks the bat-to-pig step, and protective gear blocks the pig-to-person step. Moving only the workers' homes, or guarding workers only around bats, misses the pigs, which are the bridge that carries the virus to people.",
+      "misconception": "To avoid a disease that comes from wildlife, people only need to stay away from the wild animal itself, not from the animals that pass it on.",
+      "hint": "Each good step should break one link in the chain from bats to pigs to people.",
+      "followUpId": "L29-Q16",
+      "scope": {
+        "lessonId": "L29",
+        "section": "4. Emerging Diseases: New Viral Infections",
+        "pages": {
+          "printed": [
+            393
+          ],
+          "pdf": [
+            429
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            393
+          ],
+          "pdfPages": [
+            429
+          ],
+          "locator": "Section 4, Emerging Diseases",
+          "supports": "Scientists recommend keeping farm animals away from trees bats use for roosting and having farmworkers wear protective gear when handling animals."
+        },
+        {
+          "type": "external",
+          "title": "Nipah virus (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/nipah-virus",
+          "accessed": "2026-10-14",
+          "supports": "Fruit bats of the family Pteropodidae are the natural host of Nipah virus; the virus was first identified in 1998 among pig farmers in Malaysia; advice includes protecting pig feed and sheds from bats and wearing gloves and protective clothing when handling sick animals."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 393; the two keyed steps match WHO advice (protect pig feed and sheds from bats; protective clothing). Round 1: the two obviously harmful distractors were replaced with plausible ones that target the source-versus-bridge mix-up from L29-Q13, the misconception was updated to match, and the hint no longer uses arrow symbols that a screen reader reads aloud (pedagogy). Verify (2026-10-14): p. 393 and the WHO fact sheet re-opened (protect pig feed and sheds from bats; gloves and protective clothing when handling sick animals such as pigs); exactly two keys. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors c and d now target the source-vs-bridge mix-up; hint without arrow symbols"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q15",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "defining the problem",
+        "Lake Malawi"
+      ],
+      "familyId": "L29-F07",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "For the Lake Malawi problem, sort each design requirement as a criterion (something the solution must achieve) or a constraint (a limit the solution must work within).",
+      "accessiblePrompt": "For the Lake Malawi problem, sort each design requirement as a criterion, meaning something the solution must achieve, or a constraint, meaning a limit the solution must work within. The requirements are: lower the number of snails in the lake; protect the small fish species that eat snails; cost very little, since many families have no other income; be simple enough for local fishers to put into practice; and reduce the number of bilharzia infections.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Lower the number of snails in the lake",
+          "rationale": "Fewer snails is a result the solution is trying to achieve, so it is a criterion."
+        },
+        {
+          "id": "b",
+          "text": "Protect the small fish species that eat snails",
+          "rationale": "Keeping snail-eaters alive is a goal of the design, so it is a criterion."
+        },
+        {
+          "id": "c",
+          "text": "Cost very little, since many families have no other income",
+          "rationale": "Cost limits which solutions are possible, so it is a constraint."
+        },
+        {
+          "id": "d",
+          "text": "Be simple enough for local fishers to put into practice",
+          "rationale": "Ease of use limits which designs can work in these communities, so it is a constraint."
+        },
+        {
+          "id": "e",
+          "text": "Reduce the number of bilharzia infections",
+          "rationale": "Fewer infections is the main outcome the solution is meant to produce, so it is a criterion."
+        }
+      ],
+      "bins": [
+        {
+          "id": "crit",
+          "label": "Criterion (what it must achieve)"
+        },
+        {
+          "id": "cons",
+          "label": "Constraint (a limit it works within)"
+        }
+      ],
+      "answer": {
+        "a": "crit",
+        "b": "crit",
+        "c": "cons",
+        "d": "cons",
+        "e": "crit"
+      },
+      "explanation": "Criteria describe success: fewer snails, safe snail-eating fish and fewer infections. Constraints are the limits any solution had to respect: the lesson says low cost and ease of use mattered because these communities depend on the lake for food and income.",
+      "misconception": "Criteria and constraints are the same thing, or cost is one of the goals a design is trying to achieve.",
+      "hint": "Ask whether each requirement is a result the design is trying to produce or a limit on how it can be done.",
+      "followUpId": "L29-Q24",
+      "scope": {
+        "lessonId": "L29",
+        "section": "2. Over-Exploitation: Overfishing Changes Ecosystems",
+        "pages": {
+          "printed": [
+            387,
+            391
+          ],
+          "pdf": [
+            423,
+            427
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391
+          ],
+          "pdfPages": [
+            427
+          ],
+          "locator": "Section 2, Over-Exploitation",
+          "supports": "Solutions had to promote a healthy ecosystem and reduce snails while being inexpensive and easy to implement, which the lesson calls important constraints."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "NGSS box, ETS1.B",
+          "supports": "Solutions are evaluated by how well they meet the criteria and constraints of a problem."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 391; p. 391 itself names low cost and ease as constraints (L29-RF12). Verify (2026-10-14): p. 391 names low cost and ease of use as constraints; under the prompt's own definitions each item has one bin. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q16",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "constraints",
+        "criteria",
+        "invasive species",
+        "electric barrier"
+      ],
+      "familyId": "L29-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Engineers are planning a barrier to keep invasive carp from swimming through a canal into Lake Michigan. Which statement is a constraint on the design?",
+      "accessiblePrompt": "Engineers are planning a barrier to keep invasive carp from swimming through a canal into Lake Michigan. Which statement is a constraint on the design?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The project must be built with the money the agencies have available",
+          "rationale": "Correct: a budget limit restricts which designs are possible, so it is a constraint."
+        },
+        {
+          "id": "b",
+          "text": "The barrier must stop carp from getting past it",
+          "rationale": "This describes what success looks like, so it is a criterion."
+        },
+        {
+          "id": "c",
+          "text": "Native fish in Lake Michigan must stay healthy",
+          "rationale": "This is a desired result of the design, so it is a criterion."
+        },
+        {
+          "id": "d",
+          "text": "Carp eat huge amounts of the plankton that the lake's native fish need",
+          "rationale": "This explains why the carp are a problem, but it does not limit the design."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A constraint is a limit the design must work within, such as money, time, materials or safety. Stopping carp and keeping native fish healthy are criteria, the results that count as success. A fact about carp diets explains the problem but is neither.",
+      "misconception": "A constraint is the goal the design is trying to reach, or any requirement worded with 'must' is a constraint.",
+      "hint": "Ask which statement limits how the barrier can be built, rather than describing what success looks like.",
+      "followUpId": "L29-Q19",
+      "scope": {
+        "lessonId": "L29",
+        "section": "6. Invasive Species: Asian Carp and the Great Lakes",
+        "pages": {
+          "printed": [
+            387,
+            395
+          ],
+          "pdf": [
+            423,
+            431
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            395
+          ],
+          "pdfPages": [
+            431
+          ],
+          "locator": "Section 6 and Figure 6",
+          "supports": "Engineers built electric barriers across canals to keep Asian carp out of Lake Michigan; carp eat large amounts of plankton."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "NGSS box, ETS1.B",
+          "supports": "Solutions are judged against the criteria and constraints of a problem."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "The budget constraint is a general engineering example applied to the p. 395 barrier; the textbook gives no budget figure. Round 1: choices b and c now say 'must' like the key, removing the grammatical cue, and the hint no longer names money, which only the key mentioned (pedagogy). The misconception now also names the 'must means constraint' mix-up that b and c catch. Verify (2026-10-14): Budget is the only limit on how the barrier can be built; b and c describe success, d is background. Single best answer. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: removed the 'must'/'should' cue and the hint that named money"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q17",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "tradeoffs",
+        "shade-grown coffee",
+        "habitat degradation",
+        "biodiversity"
+      ],
+      "familyId": "L29-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A coffee farmer is choosing between growing coffee alone in full sun or growing it under taller trees. According to the lesson, what is the main tradeoff of the shaded farm?",
+      "accessiblePrompt": "A coffee farmer is choosing between growing coffee alone in full sun or growing it under taller trees. According to the lesson, what is the main tradeoff of the shaded farm?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fewer coffee beans, but it keeps forest habitat, protects soil and shelters pollinators",
+          "rationale": "Correct: the farmer gives up some harvest to gain habitat and other benefits."
+        },
+        {
+          "id": "b",
+          "text": "More beans and more forest habitat at the same time, so nothing has to be given up",
+          "rationale": "The lesson says shaded farms produce fewer beans, so something is given up."
+        },
+        {
+          "id": "c",
+          "text": "More coffee beans, but the birds and other wildlife lose their forest habitat",
+          "rationale": "This reverses the tradeoff: the sun farm gives more beans, and the shaded farm keeps habitat."
+        },
+        {
+          "id": "d",
+          "text": "Fewer coffee beans, while the shade trees give nothing back to the farmer or to the forest",
+          "rationale": "Shaded farms keep forest habitat, help conserve and fertilize soil, shelter pollinators and can sell for a higher price, so something is gained."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A tradeoff means gaining one thing by giving up some of another. Shaded farms produce fewer beans, but they keep forest habitat for birds and other species, help conserve and fertilize soil, and shelter pollinators. Some buyers pay extra for forest-friendly coffee, which can help make up the difference.",
+      "misconception": "A good environmental solution never costs anything, or helping nature always means losing everything else.",
+      "hint": "Look for the choice that names something gained AND something given up.",
+      "followUpId": "L29-Q26",
+      "scope": {
+        "lessonId": "L29",
+        "section": "5. Habitat Degradation: Coffee Agriculture",
+        "pages": {
+          "printed": [
+            394
+          ],
+          "pdf": [
+            430
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            394
+          ],
+          "pdfPages": [
+            430
+          ],
+          "locator": "Section 5, Habitat Degradation, and photo captions",
+          "supports": "Coffee under taller trees yields fewer beans but protects forest habitat, soil and pollinators; buyers may pay more for forest-friendly coffee."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 394. No question claims how much coffee is sun-grown (L29-RF10). Round 1: the illogical 'clear the forest to get shade' distractor was replaced with one that tests the second half of the misconception (helping nature means losing everything else), per the pedagogy review. Choice d is worded at a similar length so the key is not the only longest choice. Verify (2026-10-14): Rendered p. 394 re-read: fewer beans, but soil, pollinators and forest habitat are kept, and buyers may pay more. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d now tests the 'nothing gained' half of the misconception"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q18",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "biodegradable",
+        "plastic pollution",
+        "evaluating claims",
+        "microplastics"
+      ],
+      "familyId": "L29-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A company switches to a plastic bottle labeled \"biodegradable\" and says it is now harmless to sea turtles. Which response best evaluates that claim?",
+      "accessiblePrompt": "A company switches to a plastic bottle labeled biodegradable and says the bottle is now harmless to sea turtles. Which response best evaluates that claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It needs testing: many 'biodegradable' plastics break down only in industrial composters",
+          "rationale": "Correct: whether the bottle is harmless depends on how it behaves in the ocean, which must be tested."
+        },
+        {
+          "id": "b",
+          "text": "It is correct: biodegradable plastic starts breaking down as soon as it reaches the ocean",
+          "rationale": "NOAA says these materials are not designed to break down quickly in marine environments."
+        },
+        {
+          "id": "c",
+          "text": "It is correct: sea turtles can digest biodegradable plastic, unlike ordinary plastic bottles",
+          "rationale": "Nothing in the lesson or NOAA's guidance says turtles can digest it; swallowed plastic can injure or kill them."
+        },
+        {
+          "id": "d",
+          "text": "It is wrong: 'biodegradable' plastic is just ordinary plastic with a new label",
+          "rationale": "Biodegradable materials really can be broken down by living things under the right conditions; rejecting the claim without evidence is as hasty as accepting it, because whether those conditions exist in the ocean needs testing."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The lesson says engineers are developing biodegradable plastic-like materials, which is a promising idea. But NOAA warns that many plastics labeled biodegradable break down only in industrial composting facilities and not quickly in seawater. A claim like this needs evidence from ocean conditions, and using less plastic still matters.",
+      "misconception": "Anything labeled biodegradable disappears quickly wherever it ends up, so it is harmless.",
+      "hint": "Ask where, and under what conditions, the material actually breaks down.",
+      "followUpId": "L29-Q20",
+      "scope": {
+        "lessonId": "L29",
+        "section": "3. Pollution: Plastics in the Oceans",
+        "pages": {
+          "printed": [
+            392
+          ],
+          "pdf": [
+            428
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            392
+          ],
+          "pdfPages": [
+            428
+          ],
+          "locator": "Section 3, Pollution: Plastics in the Oceans",
+          "supports": "Sea turtles eat or get trapped in plastic; engineers are developing biodegradable materials similar to plastic that break down through natural processes."
+        },
+        {
+          "type": "external",
+          "title": "Plastic (What is marine debris?)",
+          "publisher": "NOAA Marine Debris Program",
+          "url": "https://marinedebris.noaa.gov/what-marine-debris/plastic",
+          "accessed": "2026-10-14",
+          "supports": "Plastic does not break down like other materials; it fragments into smaller pieces that may never fully go away; plastics labeled biodegradable may break down in industrial composting facilities but are not designed to break down quickly in soil, home compost or marine environments."
+        },
+        {
+          "type": "external",
+          "title": "What are microplastics?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/microplastics.html",
+          "accessed": "2026-10-14",
+          "supports": "Larger plastic debris degrades into smaller and smaller pieces; microplastics are pieces less than five millimeters long."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Evaluates the p. 392 solution with NOAA's caution about biodegradable labels (L29-RF9). Round 1: the absolute distractor d was replaced with a plausible 'it's just a new label' dismissal, so the key is no longer the only hedged choice (pedagogy). Its rationale says that dismissing the claim without evidence is the error, since some products sold as biodegradable do differ from ordinary plastic. Verify (2026-10-14): p. 392 and NOAA Marine Debris \"Plastic\" re-opened: biodegradable-labeled plastics are not designed to break down quickly in soil, home compost or marine environments. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d is no longer an absolute; it now targets dismissing a claim without evidence"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q19",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "selective fishing net",
+        "prototype testing",
+        "criteria",
+        "data table"
+      ],
+      "familyId": "L29-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A class builds a model lake with 40 large fish and 40 small snail-eating fish, then tests three nets. A good design must catch at least 30 large fish AND no more than 5 small fish. Which net meets both criteria?",
+      "accessiblePrompt": "A class builds a model lake with 40 large fish and 40 small snail-eating fish, then tests three nets. A good design must catch at least 30 large fish and no more than 5 small fish. The net with small holes caught 38 large fish and 31 small fish. The net with medium holes caught 35 large fish and 12 small fish. The net with large holes caught 31 large fish and 3 small fish. Which net meets both criteria?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Results from one test of three model nets (40 large and 40 small fish in the model lake)",
+        "alt": "Table of model net results. The small-hole net caught 38 large fish and 31 small snail-eating fish. The medium-hole net caught 35 large fish and 12 small fish. The large-hole net caught 31 large fish and 3 small fish. The model lake held 40 large and 40 small fish.",
+        "columns": [
+          "Net",
+          "Large fish caught (of 40)",
+          "Small snail-eating fish caught (of 40)"
+        ],
+        "rows": [
+          [
+            "Small holes",
+            38,
+            31
+          ],
+          [
+            "Medium holes",
+            35,
+            12
+          ],
+          [
+            "Large holes",
+            31,
+            3
+          ]
+        ]
+      },
+      "conditions": "Numbers come from one test of a classroom model, not from Lake Malawi.",
+      "limitations": "A model lake leaves out real fish behavior, currents and the lake's many species, so a real net would still need field testing.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Small holes: it catches the most large fish (38)",
+          "rationale": "It also catches 31 small fish, far above the limit of 5, so it fails the second criterion."
+        },
+        {
+          "id": "b",
+          "text": "Medium holes: it balances the two catches (35 large, 12 small)",
+          "rationale": "Being a middle-ground compromise is not enough: its 12 small fish break the limit of 5, so it fails the second criterion."
+        },
+        {
+          "id": "c",
+          "text": "Large holes: it catches 31 large and 3 small fish",
+          "rationale": "Correct: 31 meets 'at least 30', and 3 meets 'no more than 5', so it passes both criteria."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Only the large-hole net meets both criteria: it still catches 31 large fish (at least 30) while catching just 3 small fish (no more than 5). The other nets catch plenty of large fish but too many small snail-eaters. This mirrors the lesson's idea that larger holes protect the small fish that keep snails in check.",
+      "misconception": "A design that does well on one requirement, or sits in the middle, must be good enough without checking every criterion.",
+      "hint": "Check every net against BOTH requirements; a net has to pass the two tests.",
+      "followUpId": "L29-Q15",
+      "scope": {
+        "lessonId": "L29",
+        "section": "2. Over-Exploitation: Overfishing Changes Ecosystems",
+        "pages": {
+          "printed": [
+            387,
+            391
+          ],
+          "pdf": [
+            423,
+            427
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391
+          ],
+          "pdfPages": [
+            427
+          ],
+          "locator": "Section 2, Over-Exploitation",
+          "supports": "Nets with larger holes catch only larger fish and protect the smaller fish species that mainly eat snails."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "NGSS box, MS-ETS1-4 and ETS1.B",
+          "supports": "Models generate data for testing a design, and solutions are evaluated against criteria and constraints."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical classroom-model data (the brief's selective fishing-net model). The table numbers are invented for the model and labeled as such. Round 1: distractor b no longer rests on a false reading of the table; it is now a real 'middle-ground compromise' choice (science). All three choices are parallel 'net: data' statements, so the key no longer echoes the prompt's 'meets both criteria' (pedagogy). Misconception updated to match. Key unchanged (c). Verify (2026-10-14): Hypothetical table checked: only the large-hole net meets both thresholds (31 >= 30 and 3 <= 5). No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor b now a true-to-table middle-ground choice; misconception updated"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: parallel choices; key no longer repeats 'passes both tests'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q20",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4",
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "models",
+        "testing designs",
+        "model limitations"
+      ],
+      "familyId": "L29-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Before handing new nets to every fishing family on a lake, why might scientists first test several net designs in a model?",
+      "accessiblePrompt": "Before handing new nets to every fishing family on a lake, why might scientists first test several net designs in a model?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A model gives quick, cheap data for comparing designs before costly real-world changes",
+          "rationale": "Correct: testing in a model first saves time and money and reveals weak designs early."
+        },
+        {
+          "id": "b",
+          "text": "A model shows exactly how many snails will be living in the real lake for years to come",
+          "rationale": "Models are simplified, so they give estimates and comparisons, not exact futures."
+        },
+        {
+          "id": "c",
+          "text": "A model is more accurate than the real lake because it leaves out messy details",
+          "rationale": "Leaving out details makes testing faster and cheaper, not more accurate, so results must still be checked in the lake."
+        },
+        {
+          "id": "d",
+          "text": "A model can stand in for asking fishing families what they need",
+          "rationale": "Constraints such as cost and ease of use come from the community; a model cannot supply them."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A model lets people collect data quickly and cheaply, compare designs against the criteria, and spot problems before making costly changes in the real world. A model is simpler than nature, so its results are a guide, and the real lake still has to be monitored afterward.",
+      "misconception": "A model gives exact, better-than-real answers, so it can replace checking the real lake or asking the people who use it.",
+      "hint": "Think about cost, speed, and what a model can and cannot tell you.",
+      "followUpId": "L29-Q27",
+      "scope": {
+        "lessonId": "L29",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            387,
+            391
+          ],
+          "pdf": [
+            423,
+            427
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "NGSS box, MS-ETS1-4, ETS1.B and ETS1.C",
+          "supports": "Models of all kinds are important for testing solutions; a model can generate data for iterative testing and modification of a design."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391
+          ],
+          "pdfPages": [
+            427
+          ],
+          "locator": "Section 2",
+          "supports": "Communities needed a solution that was inexpensive and easy to implement."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from the p. 387 standards box and p. 391. Round 1: distractors c and d no longer use absolutes ('never', 'only'), and c no longer repeats L29-Q24's 'one test is enough' idea; d now targets the idea that a model can replace community input (pedagogy). Misconception updated to match. Verify (2026-10-14): p. 387 standards box (models for testing solutions) and p. 391 constraints re-read; model limits stated correctly. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors c and d rewritten without absolutes; no overlap with Q24"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q21",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "ecosystem health model",
+        "dissolved nitrogen",
+        "dissolved oxygen",
+        "monitoring"
+      ],
+      "familyId": "L29-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "To judge the health of Long Island Sound, scientists compared measurements with a model of a healthy sound. Which measurements did they use? Select all that apply.",
+      "accessiblePrompt": "To judge the health of Long Island Sound, scientists compared measurements with a model of a healthy sound. Which measurements did they use? Select all that apply. The choices are: dissolved nitrogen levels in the water; dissolved oxygen levels in the water; populations of wildlife species caught in nets; how clear and beautiful the water looks from the shore; and pieces of plastic trash washed up on the shore.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dissolved nitrogen levels in the water",
+          "rationale": "Correct: nitrogen was one of the three parts measured and compared with the model."
+        },
+        {
+          "id": "b",
+          "text": "Dissolved oxygen levels in the water",
+          "rationale": "Correct: oxygen in water samples was measured at different depths."
+        },
+        {
+          "id": "c",
+          "text": "Populations of wildlife species caught in nets",
+          "rationale": "Correct: animals caught in a large net were counted, weighed and measured."
+        },
+        {
+          "id": "d",
+          "text": "How clear and beautiful the water looks from the shore",
+          "rationale": "The lesson points out that looking beautiful does not show that an ecosystem is healthy."
+        },
+        {
+          "id": "e",
+          "text": "Pieces of plastic trash washed up on the shore",
+          "rationale": "Trash is real pollution, but the sound's health model tracked nitrogen, oxygen and wildlife; the main pollution problem the lesson describes there is nitrogen from sewage."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "The model described normal levels of nonliving parts (dissolved nitrogen and oxygen) and normal populations of living things. Scientists sampled water at different depths and counted, weighed and measured animals caught in a net. How pretty the water looks does not reveal its health, and beach trash, though real pollution, was not one of the model's measures.",
+      "misconception": "If an ecosystem looks beautiful, it must be healthy, and pollution always means visible trash.",
+      "hint": "The model covered both nonliving parts of the water and living things in it.",
+      "followUpId": "L29-Q11",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            397
+          ],
+          "pdf": [
+            433
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            397
+          ],
+          "pdfPages": [
+            433
+          ],
+          "locator": "Section 8, Developing a Model of Ecosystem Health",
+          "supports": "Scientists measured dissolved nitrogen, dissolved oxygen and wildlife populations and compared them with a model of a healthy ecosystem; beauty does not necessarily indicate health."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 397. Three of five choices are keyed. Round 1: the beach-visitor distractor, which no learner would pick, was replaced with beach trash, which targets the 'pollution means trash' idea (pedagogy). Read-aloud list, explanation and misconception updated. Verify (2026-10-14): Rendered p. 397: the three measured parts and \"beautiful does not mean healthy\"; three keys of five. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor e now targets 'pollution means visible trash'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q22",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "monitoring data",
+        "percent change",
+        "hypoxia",
+        "evaluating a solution"
+      ],
+      "familyId": "L29-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "From 1987 to 1999, low-oxygen zones in Long Island Sound averaged about 208 square miles each summer. From 2021 to 2025, after years of nitrogen cuts, they averaged about 83 square miles. By about what percent did the average low-oxygen area shrink? Round to the nearest whole percent.",
+      "accessiblePrompt": "From 1987 to 1999, low-oxygen zones in Long Island Sound averaged about 208 square miles each summer. From 2021 to 2025, after years of cuts to nitrogen pollution, they averaged about 83 square miles. By about what percent did the average low-oxygen area shrink? Round to the nearest whole percent.",
+      "diagram": {
+        "kind": "bars",
+        "caption": "Average summer low-oxygen area in Long Island Sound",
+        "alt": "Bar chart of the average summer area of low oxygen in Long Island Sound: about 208 square miles for 1987 to 1999, and about 83 square miles for 2021 to 2025.",
+        "yLabel": "Low-oxygen area (square miles)",
+        "bars": [
+          {
+            "label": "1987–1999 average",
+            "value": 208
+          },
+          {
+            "label": "2021–2025 average",
+            "value": 83
+          }
+        ]
+      },
+      "units": "percent",
+      "conditions": "Areas are averages for each period, as reported by the Long Island Sound Partnership. The yearly size also depends on weather and water temperature.",
+      "answer": 60,
+      "tolerance": 1,
+      "unit": "%",
+      "workedSolution": "Change = 208 − 83 = 125 square miles. Percent decrease = 125 ÷ 208 × 100 ≈ 60.1%, which rounds to 60%.",
+      "explanation": "The multi-year average shrank by about 60 percent after nitrogen limits, which fits the lesson's chain: less nitrogen, less algae to decompose, more oxygen. Scientists compare averages over several years because summer weather also changes how much low-oxygen water forms. Monitoring continues because warmer water holds less oxygen, so the gains have to be protected, and lobsters have still not recovered.",
+      "misconception": "Percent change is found by dividing the change by the newer, smaller value.",
+      "hint": "Find the change, divide it by the starting value, then multiply by 100.",
+      "followUpId": "L29-Q05",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            398
+          ],
+          "pdf": [
+            434
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            398
+          ],
+          "pdfPages": [
+            434
+          ],
+          "locator": "Section 8, Using the Model to Restore Ecosystem Health",
+          "supports": "After communities limited nitrogen from sewage treatment plants in the 1990s, areas of low oxygen in the sound were greatly reduced."
+        },
+        {
+          "type": "external",
+          "title": "Hypoxia (ecosystem target indicator)",
+          "publisher": "Long Island Sound Partnership",
+          "url": "https://lispartnership.org/ecosystem-target-indicators/hypoxia/",
+          "accessed": "2026-10-14",
+          "supports": "Bacterial respiration while decomposing sunken algae is the largest cause of low oxygen in the Sound's bottom water; after nitrogen cuts at wastewater plants, the hypoxic area fell from a 1987-1999 average of 208 square miles to a 2021-2025 average of 83 square miles, about a 60 percent reduction."
+        },
+        {
+          "type": "external",
+          "title": "Long Island Sound Partnership Releases 2026 Hypoxia Forecast",
+          "publisher": "Long Island Sound Partnership",
+          "url": "https://lispartnership.org/2026/05/long-island-sound-partnership-releases-2026-hypoxia-forecast-predicting-another-year-of-improving-conditions/",
+          "accessed": "2026-10-14",
+          "supports": "Besides nitrogen, water temperature, rainfall, wind and storm activity influence how much hypoxia forms each year, and observed conditions often differ from the forecast by as much as plus or minus 50 percent; reducing nutrient inputs remains the most effective long-term way to lower the risk of severe hypoxia."
+        },
+        {
+          "type": "external",
+          "title": "American Lobster (species directory)",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/american-lobster",
+          "accessed": "2026-10-14",
+          "supports": "The Southern New England lobster stock is considered severely depleted; a combination of warmer water, hypoxia and other stresses caused lobster die-offs in western Long Island Sound in 1999 and 2002, and warming may be pushing lobsters offshore and disrupting larval settlement."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Numbers from the Long Island Sound Partnership hypoxia indicator (opened 2026-10-14); the textbook supports the direction of change but gives no areas (L29-RF11). Round 1: the explanation no longer states the textbook's 2016 'targets not yet reached' status as a current fact or calls a before/after comparison 'strong evidence'; it now says the drop fits the lesson's chain and that weather also changes the yearly area (both reviews). Re-checked 2026-10-14: the LISP hypoxia page still gives 208 to 83 square miles (60 percent), rates hypoxia 'Fair' and decreasing, and says further nitrogen cuts are needed because warmer water lowers oxygen. That page does not itself name weather, so the LISP 2026 hypoxia forecast (water temperature, rainfall, wind and storms; plus or minus 50 percent swings) was added for the weather sentence, and NOAA Fisheries for the lobster sentence. Verify (2026-10-14): LISP hypoxia indicator re-opened (1987-1999 average 208 sq mi, 2021-2025 average 83 sq mi, 60 percent); 125 / 208 = 60.1 percent; 2026 forecast page re-opened for the weather condition; NOAA Fisheries re-opened for lobsters. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer presents the 2016 status as current; correlation kept separate; weather condition added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer calls a before/after drop 'strong evidence'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q23",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "partial recovery",
+        "model limitations",
+        "multiple causes",
+        "lobsters"
+      ],
+      "familyId": "L29-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "After nitrogen pollution was limited, Long Island Sound's low-oxygen zones shrank and many fish populations recovered, but lobsters did not recover as much as hoped. What is the most reasonable conclusion?",
+      "accessiblePrompt": "After nitrogen pollution was limited, Long Island Sound's low-oxygen zones shrank and many fish populations recovered, but lobsters did not recover as much as hoped. What is the most reasonable conclusion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The plan helped, but something else, like warmer water, may hold lobsters back; keep monitoring",
+          "rationale": "Correct: it fits all the evidence, including both the improvements and the lagging lobsters."
+        },
+        {
+          "id": "b",
+          "text": "The nitrogen plan failed completely, so it should be stopped right away and replaced",
+          "rationale": "Smaller low-oxygen zones and recovering fish show the plan did help."
+        },
+        {
+          "id": "c",
+          "text": "Since many fish have recovered, lobsters will catch up soon, so monitoring can be scaled back now",
+          "rationale": "Nothing in the evidence shows lobsters catching up; less monitoring would hide whether they do."
+        },
+        {
+          "id": "d",
+          "text": "The lobster counts were probably mistakes, since fish and lobsters should recover together",
+          "rationale": "Different species respond to different conditions; an unexpected result is a clue to investigate, not data to throw out."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The evidence shows real improvement, so the plan is not a failure, but one species lagging means something else may be limiting it. NOAA Fisheries links lobster die-offs in western Long Island Sound to warmer water, low oxygen and other stresses. Scientists keep monitoring and adjusting rather than declaring the job done.",
+      "misconception": "A solution either fixes everything or is a failure, and every part of an ecosystem recovers at the same speed.",
+      "hint": "Weigh all the evidence: what improved, what didn't, and what else might affect lobsters.",
+      "followUpId": "L29-Q20",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            398
+          ],
+          "pdf": [
+            434
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            398
+          ],
+          "pdfPages": [
+            434
+          ],
+          "locator": "Section 8, Using the Model to Restore Ecosystem Health",
+          "supports": "By 2016 the sound's health had improved and many fish recovered, but lobsters had not recovered as much as hoped; monitoring and modifications continue."
+        },
+        {
+          "type": "external",
+          "title": "American Lobster (species directory)",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/american-lobster",
+          "accessed": "2026-10-14",
+          "supports": "The Southern New England lobster stock is considered severely depleted; a combination of warmer water, hypoxia and other stresses caused lobster die-offs in western Long Island Sound in 1999 and 2002, and warming may be pushing lobsters offshore and disrupting larval settlement."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 398, with NOAA Fisheries supporting the 'other factors such as warmer water' reasoning (L29-RF11). Round 1: distractors c and d no longer use absolutes ('certain', 'no effect at all'); they now target 'lobsters will catch up' and 'throw out unexpected data', so the hedged key no longer stands out on wording alone (pedagogy). Choice c is worded at a similar length so the key is not the only longest choice. Verify (2026-10-14): p. 398 and NOAA Fisheries re-opened (warmer water, hypoxia and other stresses behind western Sound die-offs; stock severely depleted); key fits all evidence. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors c and d rewritten without absolutes"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q24",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5",
+        "L29-O4"
+      ],
+      "conceptTags": [
+        "iterative design",
+        "testing",
+        "criteria and constraints",
+        "tradeoffs"
+      ],
+      "familyId": "L29-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why do scientists and engineers test environmental solutions and then revise them, instead of choosing one design and stopping?",
+      "accessiblePrompt": "Why do scientists and engineers test environmental solutions and then revise them, instead of choosing one design and stopping?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tests show how a design fits its criteria, constraints and tradeoffs, guiding changes",
+          "rationale": "Correct: evidence from testing shows how well the design fits its criteria, constraints and tradeoffs, and that guides each revision."
+        },
+        {
+          "id": "b",
+          "text": "Testing is mainly a way to prove that the first design was right all along",
+          "rationale": "Tests are meant to expose weaknesses, as Long Island Sound's lagging lobsters did."
+        },
+        {
+          "id": "c",
+          "text": "Each revision adds more parts to a design, and designs with more parts work better",
+          "rationale": "Changes are guided by evidence about criteria and constraints, not by adding complexity."
+        },
+        {
+          "id": "d",
+          "text": "Revising lets engineers change the goals until the design they built counts as a success",
+          "rationale": "Revision changes the design to meet the agreed criteria better; quietly moving the goals so any design counts as a success skips the evidence."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Testing produces evidence about how well a design meets its criteria and constraints, and it often reveals tradeoffs or side effects nobody predicted. Using that evidence to modify the design, then testing again, gradually improves it. Long Island Sound shows the cycle: measure, act, compare with the model, adjust.",
+      "misconception": "A good design is right the first time, so needing to revise means the engineers failed.",
+      "hint": "Think about what test results tell you that you couldn't know beforehand.",
+      "followUpId": "L29-Q17",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            387,
+            398
+          ],
+          "pdf": [
+            423,
+            434
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "NGSS box, ETS1.B and ETS1.C",
+          "supports": "A solution needs to be tested and then modified based on the results; iterative testing and modification lead to greater refinement."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            398
+          ],
+          "pdfPages": [
+            434
+          ],
+          "locator": "Section 8, Using the Model to Restore Ecosystem Health",
+          "supports": "Scientists use the healthy-ecosystem model to monitor solutions and make adjustments over time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "This is the brief's seed question for L29, polished and anchored to the p. 387 standards and the p. 398 example. Round 1: the key now names tradeoffs, matching the brief's seed answer, and all three distractors were rewritten without absolutes; b no longer repeats L29-Q20's 'one test is enough' idea, and d now answers 'why revise' (pedagogy). Choice lengths were kept close so the key is not the longest. Choice d's rationale avoids the reviewer's absolute 'the criteria stay fixed', since real criteria are sometimes renegotiated openly; the error it names is moving the goals to declare success. Verify (2026-10-14): Brief seed question; p. 387 ETS1.B/C and p. 398 re-read; key matches the seed answer. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key names tradeoffs (seed); distractors rewritten without absolutes"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q25",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "iterative design",
+        "monitoring",
+        "Long Island Sound",
+        "restoration"
+      ],
+      "familyId": "L29-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put the steps of the Long Island Sound restoration in the order the lesson describes them.",
+      "accessiblePrompt": "Put the steps of the Long Island Sound restoration in the order the lesson describes them. The steps are: communities limit the nitrogen that sewage treatment plants release; ongoing monitoring shows smaller low-oxygen zones and recovering fish, but lobsters lagging; measurements show low oxygen and high nitrogen across large areas of the sound; scientists use the gaps that remain, such as slow lobster recovery, to plan further changes; and scientists trace the high nitrogen to its biggest source, sewage treatment plants.",
+      "conditions": "Use the sequence the lesson describes.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Communities limit the nitrogen that sewage treatment plants release",
+          "rationale": "Action follows once the main source is known (the 1990s)."
+        },
+        {
+          "id": "b",
+          "text": "Ongoing monitoring shows smaller low-oxygen zones and recovering fish, but lobsters lagging",
+          "rationale": "Results can only be seen after the limits have had time to work."
+        },
+        {
+          "id": "c",
+          "text": "Measurements show low oxygen and high nitrogen across large areas of the sound",
+          "rationale": "The 1987 measurements, compared with the model, revealed the problem first."
+        },
+        {
+          "id": "d",
+          "text": "Scientists use the gaps that remain, such as slow lobster recovery, to plan further changes",
+          "rationale": "This step responds to the monitoring results, so it has to come after them."
+        },
+        {
+          "id": "e",
+          "text": "Scientists trace the high nitrogen to its biggest source: sewage treatment plants",
+          "rationale": "The search for a source starts once measurements reveal high nitrogen, and finding it comes before deciding what to limit."
+        }
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "answer": [
+        "c",
+        "e",
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "First, measurements compared with the healthy model revealed the problem. Next, scientists traced the nitrogen to its biggest source and communities limited it. Then monitoring showed which parts improved and which lagged, and those gaps guide the next changes. Restoration is a cycle, not a single action.",
+      "misconception": "Restoring an ecosystem is a single action, not a cycle of measuring, acting and checking.",
+      "hint": "You can't fix a source you haven't found, and you can't judge a fix until it has had time to work.",
+      "followUpId": "L29-Q22",
+      "scope": {
+        "lessonId": "L29",
+        "section": "8. Restoring Long Island Sound's Ecosystem",
+        "pages": {
+          "printed": [
+            398
+          ],
+          "pdf": [
+            434
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            398
+          ],
+          "pdfPages": [
+            434
+          ],
+          "locator": "Section 8, Comparing Ecosystem Conditions to the Model and Using the Model to Restore Ecosystem Health",
+          "supports": "1987 measurements showed low oxygen and high nitrogen; sewage treatment plants were the biggest nitrogen source; nitrogen was limited in the 1990s; by 1997 low-oxygen areas shrank; monitoring and modifications continue."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 398. Each step logically depends on the previous one, so only one order is defensible. Round 1: item e now refers to 'the high nitrogen', tying it to the finding in item c, so the order rests on logic as well as recall (pedagogy). Verify (2026-10-14): p. 398 sequence re-read (1987 measurements, sewage plants as main source, 1990s limits, later monitoring); order unique by dependency. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: item e now depends on item c's finding"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q26",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O4",
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "revising a design",
+        "tradeoffs",
+        "criteria and constraints",
+        "selective fishing net"
+      ],
+      "familyId": "L29-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Suppose that after a lake switches to nets with larger holes, snail numbers fall, but some families say they now catch too few fish to feed themselves. What is the best next step in the engineering process?",
+      "accessiblePrompt": "Suppose that after a lake switches to nets with larger holes, snail numbers fall, but some families say they now catch too few fish to feed themselves. What is the best next step in the engineering process?",
+      "conditions": "This is a made-up follow-up to the lesson's example.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Collect data on catches and snails, then test other hole sizes against both needs",
+          "rationale": "Correct: it keeps both the health goal and the food need, and uses new evidence to revise."
+        },
+        {
+          "id": "b",
+          "text": "Switch every family back to small-hole nets right away, since feeding families comes first",
+          "rationale": "Going straight back would let snail-eating fish be caught again, so snails and infections could rise."
+        },
+        {
+          "id": "c",
+          "text": "Keep the large-hole nets unchanged, since lowering snail numbers was the reason for switching",
+          "rationale": "Families' food is a real constraint in the lesson; ignoring it can make the solution fail for the people using it."
+        },
+        {
+          "id": "d",
+          "text": "Close the lake to fishing until snail numbers have fallen further",
+          "rationale": "Families depend on the lake for food and income, so closing it to fishing breaks a key constraint."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A tradeoff has appeared between two needs: fewer snails and enough food. Good engineering gathers data on both and tests adjusted designs, such as different hole sizes or fishing areas, to find a better balance. Abandoning one need entirely, or banning fishing, ignores a criterion or a constraint.",
+      "misconception": "When a tradeoff appears, you must pick one side and give up on the other.",
+      "hint": "Ask what the engineers still don't know about the new nets, and how they could find out.",
+      "followUpId": "L29-Q15",
+      "scope": {
+        "lessonId": "L29",
+        "section": "2. Over-Exploitation: Overfishing Changes Ecosystems",
+        "pages": {
+          "printed": [
+            387,
+            391
+          ],
+          "pdf": [
+            423,
+            427
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            391
+          ],
+          "pdfPages": [
+            427
+          ],
+          "locator": "Section 2, Over-Exploitation",
+          "supports": "Communities rely on fish for food and livelihoods; solutions had to allow fishing while reducing snails, using nets with larger holes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "NGSS box, ETS1.B and ETS1.C",
+          "supports": "Solutions are tested and modified based on results to better meet criteria and constraints."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical follow-up to the lesson's example (the brief's 'revise after a tradeoff appears' mission); it does not claim this happened at Lake Malawi (L29-RF6). Round 1: the hint no longer describes the key, distractors c and d no longer use absolutes ('exactly', 'only', 'completely gone'), and the key was shortened so it is not the longest choice (pedagogy). Verify (2026-10-14): Hypothetical follow-up, labeled as made up; only choice a keeps both the health criterion and the food constraint and uses evidence. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer describes the key; distractors c and d without absolutes"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q27",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "climate models",
+        "sea-level rise",
+        "uncertainty",
+        "graph reading"
+      ],
+      "familyId": "L29-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The graph shows a computer-model prediction of sea-level change, with a shaded band around the main line. Why does the band get wider toward 2100?",
+      "accessiblePrompt": "A graph shows a computer-model prediction of sea-level change from 1950 to about 2095. The main line rises slowly at first and then faster and faster. A shaded band around the line is very narrow up to about 2030, then widens: around 2095 it spans from about 88 to about 137 centimeters, around a middle value of about 112 centimeters. Why does the band get wider toward 2100?",
+      "diagram": {
+        "kind": "curve",
+        "caption": "One model's predicted sea-level change, with a shaded range (values read from the textbook graph)",
+        "alt": "Line graph of predicted sea-level change in centimeters from 1950 to about 2095. The middle line starts near minus 8 centimeters in 1950, passes 0 around 1980, about 22 in 2030, about 43 in 2050, about 70 in 2070 and about 112 around 2095, rising faster and faster. The upper and lower estimates are almost the same as the middle line until about 2030, then spread apart: about 38 to 48 centimeters in 2050, 60 to 80 in 2070, and 88 to 137 around 2095.",
+        "xLabel": "Year",
+        "yLabel": "Sea-level change (cm)",
+        "series": [
+          {
+            "label": "Middle estimate",
+            "points": [
+              [
+                1950,
+                -8
+              ],
+              [
+                1970,
+                -4
+              ],
+              [
+                1990,
+                2
+              ],
+              [
+                2010,
+                10
+              ],
+              [
+                2030,
+                22
+              ],
+              [
+                2050,
+                43
+              ],
+              [
+                2070,
+                70
+              ],
+              [
+                2095,
+                112
+              ]
+            ]
+          },
+          {
+            "label": "Upper estimate",
+            "points": [
+              [
+                2030,
+                23
+              ],
+              [
+                2050,
+                48
+              ],
+              [
+                2070,
+                80
+              ],
+              [
+                2095,
+                137
+              ]
+            ]
+          },
+          {
+            "label": "Lower estimate",
+            "points": [
+              [
+                2030,
+                21
+              ],
+              [
+                2050,
+                38
+              ],
+              [
+                2070,
+                60
+              ],
+              [
+                2095,
+                88
+              ]
+            ]
+          }
+        ]
+      },
+      "limitations": "Numbers come from the textbook's graph and are dated; current NOAA and IPCC projections differ. Only the widening of the range is being tested.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Predictions further ahead are less certain; they depend on future emissions and ice melt",
+          "rationale": "Correct: the range grows because the far future depends on choices and processes not yet known."
+        },
+        {
+          "id": "b",
+          "text": "Scientists have been measuring sea level less carefully in recent years than back in the 1950s",
+          "rationale": "The band is narrow for past years and widens only for the future, so it is not about old measurements."
+        },
+        {
+          "id": "c",
+          "text": "The band shows daily tides, which are expected to get much bigger in the future",
+          "rationale": "The band shows a range of predictions for average sea level, not the daily rise and fall of tides."
+        },
+        {
+          "id": "d",
+          "text": "The band shows that the sea will rise for a while and then fall again before 2100",
+          "rationale": "Every part of the band keeps rising; it shows uncertainty about how much, not a fall."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The band shows the range of likely outcomes. Predictions further in the future are less certain, because sea-level rise depends on how much greenhouse gas people emit and on how fast ice sheets melt. Planners use the whole range, not one exact number.",
+      "misconception": "A model prediction should be one exact number, so a range means the scientists know nothing.",
+      "hint": "Think about which is harder to predict: next decade or the end of the century.",
+      "followUpId": "L29-Q23",
+      "scope": {
+        "lessonId": "L29",
+        "section": "7. Climate Change: Sea Level and Temperature Changes Affect Coastal Communities",
+        "pages": {
+          "printed": [
+            396
+          ],
+          "pdf": [
+            432
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            396
+          ],
+          "pdfPages": [
+            432
+          ],
+          "locator": "Section 7 and Figure 7 (rendered at 250 dpi)",
+          "supports": "Computer models fed with past and present climate data produce a range of estimates of future sea-level rise, shown as a band that widens toward 2100."
+        },
+        {
+          "type": "external",
+          "title": "Climate Change: Global Sea Level",
+          "publisher": "NOAA Climate.gov",
+          "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level",
+          "accessed": "2026-10-14",
+          "supports": "Global average sea level has risen about 21-24 cm since 1880, mainly from melting land ice and thermal expansion of warming seawater; contiguous U.S. coasts are expected to rise 10-12 inches between 2020 and 2050; long-range projections depend mostly on future emissions and on uncertain ice-sheet behavior."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Values read from the rendered Figure 7 at 250 dpi; only the band's shape is tested because the figure's numbers are dated (L29-RF5). Verify (2026-10-14): Figure 7 crop re-read (about -8 cm in 1950, 43 cm with band 38-48 in 2050, 112 cm with band 88-137 near 2095); NOAA Climate.gov re-opened; only the widening band is tested. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q28",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O5"
+      ],
+      "conceptTags": [
+        "science and society",
+        "evidence",
+        "values",
+        "decision making"
+      ],
+      "familyId": "L29-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Science can test what is likely to happen, but people decide what they value. Sort each question by who can answer it.",
+      "accessiblePrompt": "Science can test what is likely to happen, but people decide what they value. Sort each question by who can answer it: science, using evidence, or people deciding based on values and needs. The questions are: if nitrogen pollution drops, will oxygen levels in the sound rise; do shaded coffee farms support more bird species than sun-grown coffee farms; how much might sea level rise near a city by 2050 under different emissions paths; should a town spend its budget on a seawall or on a new school; and is it worth paying extra for forest-friendly coffee?",
+      "items": [
+        {
+          "id": "a",
+          "text": "If nitrogen pollution drops, will oxygen levels in the sound rise?",
+          "rationale": "This can be tested by measuring nitrogen and oxygen over time."
+        },
+        {
+          "id": "b",
+          "text": "Do shaded coffee farms support more bird species than sun-grown farms?",
+          "rationale": "Bird species can be counted on both kinds of farms and compared."
+        },
+        {
+          "id": "c",
+          "text": "How much might sea level rise near a city by 2050 under different emissions paths?",
+          "rationale": "Climate models and data can estimate this range."
+        },
+        {
+          "id": "d",
+          "text": "Should a town spend its budget on a seawall or on a new school?",
+          "rationale": "Science can inform it, but choosing depends on what the town values most."
+        },
+        {
+          "id": "e",
+          "text": "Is it worth paying extra for forest-friendly coffee?",
+          "rationale": "Whether a benefit is worth its price is a personal or community value judgment."
+        }
+      ],
+      "bins": [
+        {
+          "id": "sci",
+          "label": "Science can answer with evidence"
+        },
+        {
+          "id": "val",
+          "label": "People decide based on values and needs"
+        }
+      ],
+      "answer": {
+        "a": "sci",
+        "b": "sci",
+        "c": "sci",
+        "d": "val",
+        "e": "val"
+      },
+      "explanation": "Questions about what will happen, or what is true about nature, can be tested with evidence. Questions about what people should do, or what is worth paying for, depend on values and needs, even though science can inform them. As the lesson notes, science can't make the choice for you, but it can show whether the evidence backs a plan.",
+      "misconception": "Science can decide what a society should do.",
+      "hint": "Does the question ask what is true or likely, or what people should choose?",
+      "followUpId": "L29-Q24",
+      "scope": {
+        "lessonId": "L29",
+        "section": "9. Science, Society, and You",
+        "pages": {
+          "printed": [
+            399
+          ],
+          "pdf": [
+            435
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            399
+          ],
+          "pdfPages": [
+            435
+          ],
+          "locator": "Section 9, Science, Society, and You",
+          "supports": "Science cannot tell people what to do, but it can show whether evidence supports a decision and predict the impacts of human actions on ecosystems."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from p. 399. Each item has one defensible bin: three testable questions about nature and two value choices. Verify (2026-10-14): p. 399 re-read (science cannot tell you what to do but can test whether evidence supports a plan); each item has one bin. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q29",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3"
+      ],
+      "conceptTags": [
+        "ecosystem services",
+        "wetlands",
+        "flood protection"
+      ],
+      "familyId": "L29-F13",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "An ecosystem service is a benefit that a healthy ecosystem gives people. Which of these is an ecosystem service?",
+      "accessiblePrompt": "An ecosystem service is a benefit that a healthy ecosystem gives people. Which of these is an ecosystem service? The choices are: a coastal marsh soaking up storm floodwater before it reaches nearby homes; a city building a concrete seawall to hold back storm waves; a water-treatment plant using filters and chemicals to clean a city's drinking water; and volunteers picking up plastic trash along a beach.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A coastal marsh soaking up storm floodwater before it reaches nearby homes",
+          "rationale": "Correct: the marsh itself provides the benefit, so this is a service from a healthy ecosystem."
+        },
+        {
+          "id": "b",
+          "text": "A city building a concrete seawall to hold back storm waves",
+          "rationale": "A seawall can protect people, but people built it; an ecosystem service is a benefit that nature provides."
+        },
+        {
+          "id": "c",
+          "text": "A water-treatment plant using filters and chemicals to clean a city's drinking water",
+          "rationale": "This is an engineered service; healthy wetlands clean water naturally, but a treatment plant is a human-built system."
+        },
+        {
+          "id": "d",
+          "text": "Volunteers picking up plastic trash along a beach",
+          "rationale": "This helps an ecosystem, which is the opposite direction: an ecosystem service is a benefit flowing from nature to people."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Ecosystem services flow from nature to people: wetlands store floodwater and improve water quality, and ecosystems supply food and medicines. Seawalls and treatment plants are human-built ways to get similar benefits, often at a high cost. A beach cleanup is people helping an ecosystem, which is the reverse.",
+      "misconception": "An ecosystem service is something people do for an ecosystem, or any service that protects people.",
+      "hint": "Ask who or what is providing the benefit: nature, or something people built or did?",
+      "followUpId": "L29-Q07",
+      "scope": {
+        "lessonId": "L29",
+        "section": "1. Predicting the Impact of Human Populations on Ecosystems",
+        "pages": {
+          "printed": [
+            387,
+            389,
+            396
+          ],
+          "pdf": [
+            423,
+            425,
+            432
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Next Generation Science Standards box (LS4.D)",
+          "supports": "Changes in biodiversity can affect ecosystem services that humans rely on, such as water purification and recycling."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            389
+          ],
+          "pdfPages": [
+            425
+          ],
+          "locator": "Section 1",
+          "supports": "When ecosystems are disrupted faster than they can replace resources, they lose the ability to provide ecosystem services."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            396
+          ],
+          "pdfPages": [
+            432
+          ],
+          "locator": "Section 7, Climate Change",
+          "supports": "Restoring coastal wetlands protects inland communities from flooding."
+        },
+        {
+          "type": "external",
+          "title": "Why are wetlands important?",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/wetlands/why-are-wetlands-important",
+          "accessed": "2026-10-14",
+          "supports": "Wetlands act as natural sponges that trap and slowly release surface water, reducing flood peaks and offsetting runoff from pavement and buildings; they provide natural water quality improvement and shoreline erosion control; most commercial and game fish breed and raise their young in coastal marshes and estuaries, and shellfish need these wetlands for food, shelter and breeding."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted in reviser round 1 (2026-10-14) to fill the pedagogy review's coverage gap: ecosystem services were a glossary term but untested. Sourced to the p. 387 standards box (LS4.D), p. 389 and p. 396, with the EPA wetlands page for flood storage and water quality. Verify (2026-10-14): First independent review of this item. Rendered pp. 387 (LS4.D), 389 and 396 viewed; EPA \"Why are wetlands important?\" re-opened (natural sponges that lower flood peaks, water quality). Only the marsh is a benefit provided by nature; single key. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q30",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3"
+      ],
+      "conceptTags": [
+        "ecosystem services",
+        "habitat degradation",
+        "wetlands",
+        "consequences for people"
+      ],
+      "familyId": "L29-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A coastal town fills in its salt marsh to build a large parking lot. Based on the lesson, which effects on people are likely? Select all that apply.",
+      "accessiblePrompt": "A coastal town fills in its salt marsh to build a large parking lot. Based on the lesson, which effects on people are likely? Select all that apply. The choices are: storm floodwater can reach homes farther inland more easily; local fishers may catch less, since many young fish and shellfish grow up in marshes; people are not affected, since only wild animals were using the marsh; and the town gets cleaner water, since pavement filters rain better than marsh plants do.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Storm floodwater can reach homes farther inland more easily",
+          "rationale": "Correct: marshes soak up and slowly release floodwater, and the lesson says coastal wetlands protect inland communities from flooding."
+        },
+        {
+          "id": "b",
+          "text": "Local fishers may catch less, since many young fish and shellfish grow up in marshes",
+          "rationale": "Correct: coastal marshes are nurseries for many fish and shellfish, so losing one can shrink the catch that feeds people."
+        },
+        {
+          "id": "c",
+          "text": "People are not affected, since only wild animals were using the marsh",
+          "rationale": "Marshes give people services such as flood protection and food, so losing one affects people too."
+        },
+        {
+          "id": "d",
+          "text": "The town gets cleaner water, since pavement filters rain better than marsh plants do",
+          "rationale": "Wetlands improve water quality; pavement sends rain runoff straight into nearby water instead of slowing and cleaning it."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Filling in a marsh is habitat degradation, and the harm loops back to people through lost ecosystem services. Without the marsh to soak up storm water, flooding reaches farther inland, and the young fish and shellfish that grew up there are no longer there to feed future catches. Replacing a free natural service usually means paying for a human-built one, such as a seawall.",
+      "misconception": "Damaging a natural area only matters to the wildlife that lived there, not to people.",
+      "hint": "List what the marsh was doing for the town before it was filled in.",
+      "followUpId": "L29-Q10",
+      "conditions": "Assume the marsh was healthy before it was filled in and nothing is built to replace what it did.",
+      "scope": {
+        "lessonId": "L29",
+        "section": "7. Climate Change: Sea Level and Temperature Changes Affect Coastal Communities",
+        "pages": {
+          "printed": [
+            387,
+            389,
+            396
+          ],
+          "pdf": [
+            423,
+            425,
+            432
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            396
+          ],
+          "pdfPages": [
+            432
+          ],
+          "locator": "Section 7, Climate Change",
+          "supports": "Restoring coastal wetlands protects inland communities from flooding; flooding destroys dune and marsh plants and disrupts animal populations."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            389
+          ],
+          "pdfPages": [
+            425
+          ],
+          "locator": "Section 1",
+          "supports": "Disrupted ecosystems lose the ability to provide ecosystem services."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            387
+          ],
+          "pdfPages": [
+            423
+          ],
+          "locator": "Next Generation Science Standards box (LS4.D)",
+          "supports": "Changes in biodiversity can influence natural resources such as food, and ecosystem services such as water purification."
+        },
+        {
+          "type": "external",
+          "title": "Why are wetlands important?",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/wetlands/why-are-wetlands-important",
+          "accessed": "2026-10-14",
+          "supports": "Wetlands act as natural sponges that trap and slowly release surface water, reducing flood peaks and offsetting runoff from pavement and buildings; they provide natural water quality improvement and shoreline erosion control; most commercial and game fish breed and raise their young in coastal marshes and estuaries, and shellfish need these wetlands for food, shelter and breeding."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted in reviser round 1 (2026-10-14) for the pedagogy review's ecosystem-services gap (predict a consequence for people when a coastal marsh is lost). The reviewer's suggested 'more water-treatment cost' key was not used because neither the lesson nor the EPA page opened ties marsh loss to treatment costs; the fish-nursery key is supported by the EPA wetlands page. Verify (2026-10-14): First independent review of this item. p. 396 (coastal wetlands protect inland communities from flooding) and EPA wetlands page (most commercial fish raise young in coastal marshes) re-opened. Choice b states the nursery fact itself, so the item is answerable from the prompt plus the lesson; conditions rule out a replacement; exactly two keys. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q31",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3",
+        "L29-O2"
+      ],
+      "conceptTags": [
+        "invasive species",
+        "Asian carp",
+        "predators",
+        "competition for food"
+      ],
+      "familyId": "L29-F14",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Asian carp populations keep growing in U.S. rivers. Which facts from the lesson help explain why? Select all that apply.",
+      "accessiblePrompt": "Asian carp populations keep growing in United States rivers. Which facts from the lesson help explain why? Select all that apply. The choices are: they have few predators in their new home; they eat huge amounts of plankton, a food found throughout the rivers; they are a native species that has always lived in these rivers; and they feed on weeds that native fish ignore, so they face no competition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They have few predators in their new home",
+          "rationale": "Correct: with little to eat them, more carp survive to reproduce each year."
+        },
+        {
+          "id": "b",
+          "text": "They eat huge amounts of plankton, a food found throughout the rivers",
+          "rationale": "Correct: a large, widespread food supply lets their numbers climb, and it leaves less for native fish."
+        },
+        {
+          "id": "c",
+          "text": "They are a native species that has always lived in these rivers",
+          "rationale": "People brought them from Eurasia, so they are not native; that is part of what makes them invasive."
+        },
+        {
+          "id": "d",
+          "text": "They feed on weeds that native fish ignore, so they face no competition",
+          "rationale": "The lesson says they eat plankton that native fish also need, so they do compete, and native fish lose out."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "In their new home, Asian carp have few predators and plenty of plankton to eat, so more of them survive and reproduce. Native fish need that same plankton, so the carp's success comes at the native fishes' expense. That is why engineers work to keep them from spreading into new waters such as Lake Michigan.",
+      "misconception": "An invasive species takes over by filling an empty spot, without competing with native species or benefiting from a lack of predators.",
+      "hint": "Think about what usually keeps a population in check: what eats it, and how much food it can find.",
+      "followUpId": "L29-Q08",
+      "conditions": "Use the lesson's description of Asian carp.",
+      "limitations": "'Asian carp' is a group of several species with somewhat different diets, and federal agencies now call them invasive carp.",
+      "scope": {
+        "lessonId": "L29",
+        "section": "6. Invasive Species: Asian Carp and the Great Lakes",
+        "pages": {
+          "printed": [
+            395
+          ],
+          "pdf": [
+            431
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            395
+          ],
+          "pdfPages": [
+            431
+          ],
+          "locator": "Section 6, Invasive Species",
+          "supports": "People brought Asian carp from Eurasia; they eat large amounts of plankton, reducing the prey native fish need, and have few predators, so their populations keep growing."
+        },
+        {
+          "type": "external",
+          "title": "Silver carp (Hypophthalmichthys molitrix)",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://www.fws.gov/species/silver-carp-hypophthalmichthys-molitrix",
+          "accessed": "2026-10-14",
+          "supports": "Silver carp were brought to the United States in the 1970s and 1980s for aquaculture and wastewater treatment as a biological control for algae, escaped into the Mississippi River during floods, and filter-feed on plankton."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted in reviser round 1 (2026-10-14) for the pedagogy review's gap: why invasive species thrive was untested. No choice says the carp were released on purpose (L29-RF8). L29-Q08 now follows up to this item. Verify (2026-10-14): First independent review of this item. Rendered p. 395 (few predators; large amounts of plankton that native fish need) and FWS silver carp page (plankton filter feeder, escaped from ponds) re-opened. Distractor d plays on the textbook's weed-control hope; exactly two keys; limitation covers the group's mixed diets. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L29-Q32",
+      "lessonId": "L29",
+      "objectiveIds": [
+        "L29-O3",
+        "L29-O2"
+      ],
+      "conceptTags": [
+        "habitat connections",
+        "migration",
+        "habitat degradation",
+        "black-and-white warbler"
+      ],
+      "familyId": "L29-F14",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Black-and-white warblers nest every summer in a well-protected park in North America, yet their numbers there keep falling. Which explanation fits the lesson best?",
+      "accessiblePrompt": "Black-and-white warblers nest every summer in a well-protected park in North America, yet their numbers there keep falling. Which explanation fits the lesson best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tropical forest where they spend the winter is being cleared to grow sun coffee",
+          "rationale": "Correct: migrating birds need healthy habitat in both places they live, so losing winter forest can shrink the population even if the summer park is safe."
+        },
+        {
+          "id": "b",
+          "text": "Something in the park must be wrong, since nesting sites decide a bird's numbers",
+          "rationale": "The park is well protected and unchanged; migrating birds also depend on habitat far away where they spend the winter."
+        },
+        {
+          "id": "c",
+          "text": "The warblers are an invasive species, so the park is pushing them out",
+          "rationale": "Black-and-white warblers are native summer birds in North America; nothing suggests people moved them there."
+        },
+        {
+          "id": "d",
+          "text": "People in the park are catching too many of the warblers each year",
+          "rationale": "A well-protected park does not allow catching them, and the threat the lesson names for these birds is habitat loss."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Migrating birds need healthy ecosystems in every place they live. Black-and-white warblers spend summers in North America and winters in tropical forests of Central and South America, where some forest is being cut down to grow coffee. Protecting habitat in one place cannot make up for losing it in another, which is one reason shade-grown coffee helps.",
+      "misconception": "A species is safe as long as the one place where people see it is protected.",
+      "hint": "Where do these birds go when they leave the park each fall?",
+      "followUpId": "L29-Q17",
+      "conditions": "This is a made-up park; assume the park itself has not changed.",
+      "scope": {
+        "lessonId": "L29",
+        "section": "5. Habitat Degradation: Coffee Agriculture",
+        "pages": {
+          "printed": [
+            394
+          ],
+          "pdf": [
+            430
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            394
+          ],
+          "pdfPages": [
+            430
+          ],
+          "locator": "Section 5, Habitat Degradation, and photo caption",
+          "supports": "Black-and-white warblers summer in North America and winter in Central and South America; migrating birds need healthy ecosystems in both places, and some of their tropical forest is being cut down to grow coffee."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted in reviser round 1 (2026-10-14) for the pedagogy review's gap: the brief's 'habitat connections' route and the p. 394 migratory-warbler idea were untested. Hypothetical park; sourced to rendered p. 394. Verify (2026-10-14): First independent review of this item. Rendered p. 394 (summers in North America, winters in Central and South America, need healthy ecosystems in both places, forest cut for coffee). Conditions rule out choice b; single key. No cosmetic edits were needed.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

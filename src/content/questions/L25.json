@@ -1,0 +1,3632 @@
+{
+  "lessonId": "L25",
+  "questions": [
+    {
+      "id": "L25-Q01",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O1"
+      ],
+      "conceptTags": [
+        "plate boundaries",
+        "geographic pattern",
+        "volcanoes",
+        "earthquakes",
+        "Ring of Fire"
+      ],
+      "familyId": "L25-F01",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Volcanoes and earthquakes often line up along the same belts on a world map, such as the ring around the Pacific Ocean. Why do many of them occur in related regions?",
+      "accessiblePrompt": "On a world map, volcanoes and earthquakes often line up along the same belts, such as the ring around the edge of the Pacific Ocean. Why do many of them occur in related regions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both are linked to tectonic plates interacting, with some exceptions far from plate edges.",
+          "rationale": "Correct: plate interactions both make magma and build stress, so the two hazards share belts; hot spots and faults inside plates are the exceptions."
+        },
+        {
+          "id": "b",
+          "text": "Most earthquakes are set off by erupting volcanoes, so the shaking clusters around them.",
+          "rationale": "Most strong earthquakes come from plates or faults slipping, not from eruptions; the San Andreas transform boundary shakes with no volcanoes nearby."
+        },
+        {
+          "id": "c",
+          "text": "Those belts lie close to the equator, where sunshine heats the rock enough to melt it.",
+          "rationale": "The Pacific belt reaches far from the equator, up to Alaska, and the sun's warmth reaches only the top of the ground, not the deep rock that melts."
+        },
+        {
+          "id": "d",
+          "text": "Strong shaking cracks the ground open, and each crack soon grows into a new volcano.",
+          "rationale": "Shaking does not create magma. Magma forms only where added material, lower pressure or a rising plume lets rock melt."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Where plates collide, spread apart or grind past each other, rock can melt into magma and stress can build until rock slips. That is why both hazards trace many of the same belts, such as the Pacific Ring of Fire. The pattern has exceptions: hot spots like Hawaii and faults inside plates, like the New Madrid zone, are active far from any boundary.",
+      "misconception": "Volcanoes and earthquakes are found together because one always causes the other.",
+      "hint": "Which choice gives one cause that could both melt rock and build up stress in it?",
+      "followUpId": "L25-Q05",
+      "scope": {
+        "lessonId": "L25",
+        "section": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+        "pages": {
+          "printed": [
+            338,
+            339
+          ],
+          "pdf": [
+            374,
+            375
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338,
+            339
+          ],
+          "pdfPages": [
+            374,
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+          "supports": "The spread ties most eruptions and quakes to colliding, separating or sliding plates, and notes that a few occur inside a plate."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Section 1, Formation of Volcanoes; Figure 1A",
+          "supports": "Most volcanoes form at convergent and divergent boundaries; others form over hot spots."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes; Figure 3A",
+          "supports": "Most major earthquakes happen at convergent or transform boundaries; some happen on faults within a plate."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            337
+          ],
+          "pdfPages": [
+            373
+          ],
+          "locator": "Section 4, Mapping Earthquakes",
+          "supports": "Japan sits where several plates meet, along the Pacific Ring of Fire."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (Why do many volcanoes and earthquakes occur in related regions? Plate boundaries and interactions, with exceptions), polished. Drafted from rendered pp. 330, 334, 337, 338-339. Choice lengths balanced so the key is not cued. Round 1 (reviser, 2026-10-14): distractor b no longer uses an absolute, so the hedged key is not the only qualified choice; the hint no longer mentions plates, which only the key names. Choice b keeps its id because it states the same misconception. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 330, 334, 337 and 338-339: the spread ties most eruptions and quakes to colliding, separating or sliding plates, with some inside a plate. Brief seed question present; key unique; no length cue.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor b now says 'most earthquakes' instead of an absolute; hint no longer names plates"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q02",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O1"
+      ],
+      "conceptTags": [
+        "convergent boundary",
+        "divergent boundary",
+        "transform boundary",
+        "hot spot",
+        "fault"
+      ],
+      "familyId": "L25-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each setting on Earth to what the plates or rock are doing there.",
+      "accessiblePrompt": "Match each setting on Earth to what the plates or rock are doing there. The settings are: a convergent boundary; a divergent boundary; a transform boundary; a hot spot; and a fault inside a plate. The descriptions are: hot material rises from deep in the mantle; two plates slide past each other sideways; blocks of rock shift along a crack within one plate; one plate sinks beneath another; and two plates move apart.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Convergent boundary",
+          "rationale": "Plates come together here, and one sinks (subducts) beneath the other."
+        },
+        {
+          "id": "b",
+          "text": "Divergent boundary",
+          "rationale": "Plates move away from each other here, opening a gap that magma can fill."
+        },
+        {
+          "id": "c",
+          "text": "Transform boundary",
+          "rationale": "Plates grind past each other side by side here, without one sinking."
+        },
+        {
+          "id": "d",
+          "text": "Hot spot",
+          "rationale": "A column of unusually hot material rises from deep in the mantle, often far from any boundary."
+        },
+        {
+          "id": "e",
+          "text": "Fault inside a plate",
+          "rationale": "Rock on either side of a crack in the middle of a plate suddenly shifts."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "One plate sinks beneath another"
+        },
+        {
+          "id": "r2",
+          "text": "Two plates move apart"
+        },
+        {
+          "id": "r3",
+          "text": "Two plates slide past each other sideways"
+        },
+        {
+          "id": "r4",
+          "text": "Hot material rises from deep in the mantle"
+        },
+        {
+          "id": "r5",
+          "text": "Rock blocks shift along a crack within one plate"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4",
+        "e": "r5"
+      },
+      "explanation": "Each setting is named for what is moving. Convergent means coming together, with one plate subducting; divergent means spreading apart; transform means sliding past. Hot spots and faults inside a plate are the two settings in this lesson that can be active far from a plate edge.",
+      "misconception": "Every plate boundary is the same kind of head-on collision.",
+      "hint": "Picture two hands pushing together, pulling apart, or sliding past each other. Which motion does each boundary's name describe? Then find the two settings that don't need a plate edge.",
+      "followUpId": "L25-Q06",
+      "scope": {
+        "lessonId": "L25",
+        "section": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+        "pages": {
+          "printed": [
+            330,
+            334,
+            338,
+            339
+          ],
+          "pdf": [
+            366,
+            370,
+            374,
+            375
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Figure 1A, Places Where Volcanoes Form",
+          "supports": "At convergent boundaries one plate subducts; at divergent boundaries plates pull apart; at hot spots magma rises from deep in the mantle."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes; Figure 3A",
+          "supports": "At transform boundaries plates slide past each other horizontally; stress can also build on faults within a plate."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338,
+            339
+          ],
+          "pdfPages": [
+            374,
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+          "supports": "The spread labels hot spots, transform, divergent and convergent boundaries, and faults within a tectonic plate."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 330, 334, 338-339. One-to-one match; each description fits exactly one setting. Round 1 (reviser, 2026-10-14): 'setting on Earth' replaces 'setting in Earth's crust' (a plume rises through the mantle); read-aloud descriptions scrambled so they no longer follow the pairing order; hint no longer states three definitions. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 330, 334 and 338-339: each of the five settings has exactly one matching description.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (optional suggestion applied: 'setting on Earth' replaces 'setting in Earth's crust')"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud descriptions scrambled out of pairing order; hint no longer states the boundary definitions"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q03",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O1"
+      ],
+      "conceptTags": [
+        "hot spot",
+        "Hawaii",
+        "exceptions to the pattern",
+        "volcanoes"
+      ],
+      "familyId": "L25-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Hawaii's active volcanoes rise from the middle of the Pacific Plate, more than 3,000 km from the nearest plate boundary. Which explanation fits best?",
+      "accessiblePrompt": "Hawaii's active volcanoes rise from the middle of the Pacific Plate, more than 3,000 kilometers from the nearest plate boundary. Which explanation fits best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hot spot, where hot material rising from deep in the mantle melts and feeds volcanoes",
+          "rationale": "Correct: hot spots can build volcanoes far from any plate edge, which is exactly Hawaii's situation."
+        },
+        {
+          "id": "b",
+          "text": "A hidden convergent boundary under the islands, where one plate sinks below another",
+          "rationale": "The plate edges are mapped, and none runs beneath Hawaii; the islands are thousands of kilometers from the nearest one."
+        },
+        {
+          "id": "c",
+          "text": "Seawater soaking into the seafloor, which heats up and melts the rock beneath",
+          "rationale": "Seawater is cool and does not supply heat to melt rock; the heat comes from deep inside Earth."
+        },
+        {
+          "id": "e",
+          "text": "Magma flowing sideways under the plate from Ring of Fire volcanoes at the Pacific's edges",
+          "rationale": "Magma rises from below where it forms; it does not travel thousands of kilometers sideways through a plate from distant boundaries."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hot spots are the lesson's main exception to the boundary pattern. A plume of unusually hot rock rises from deep in the mantle and partly melts, feeding volcanoes in the plate above it. Hawaii is so active that scientists monitor its volcanoes closely, and the U.S. volcanic hazard map marks several noteworthy volcanoes on the island of Hawaii.",
+      "misconception": "Volcanoes can only form at plate boundaries.",
+      "hint": "The lesson names one way volcanoes form that doesn't need a plate edge at all.",
+      "followUpId": "L25-Q06",
+      "scope": {
+        "lessonId": "L25",
+        "section": "1. Causes of Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            330
+          ],
+          "pdf": [
+            366
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Section 1, Formation of Volcanoes; Figure 1A",
+          "supports": "Hot spots are places where magma rising from far down in the mantle builds volcanoes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338
+          ],
+          "pdfPages": [
+            374
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Hot Spots box)",
+          "supports": "Columns of magma rising from deep in the mantle can form volcanoes at the surface."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332,
+            333
+          ],
+          "pdfPages": [
+            368,
+            369
+          ],
+          "locator": "Section 2 photo caption and Figure 2 hazard map",
+          "supports": "Scientists monitor the Hawaiian volcano Pu'u 'Ō'ō, and Figure 2 marks noteworthy volcanoes (red triangles) on the island of Hawaii."
+        },
+        {
+          "type": "external",
+          "title": "Hotspots: Mantle thermal plumes (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/hotspots.html",
+          "accessed": "2026-10-14",
+          "supports": "The Hawaiian Islands formed in the middle of the Pacific Ocean, more than 3,200 km from the nearest plate boundary; most hotspots lie under plate interiors."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 330, 332, 333, 338. Hot-spot wording follows L25-RF3 (plume partly melts; depth of origin not claimed). Round 1 (reviser, 2026-10-14): re-rendered the Figure 2 Hawaii inset at 400 dpi; the island of Hawaii carries only red 'noteworthy volcanoes' triangles, no orange 'higher volcanic hazard' shading (the pink Big Island is on the Figure 4 earthquake map). Explanation and the pp. 332-333 evidence corrected. Old distractor d ('no longer erupt') contradicted the stem's 'active volcanoes' and carried the hazard-map claim; it was replaced by a sideways-magma misconception with the new id e, so the science reviewer's reworded d rationale was not needed. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 330, 332, 333 (the Figure 2 Hawaii inset carries red noteworthy-volcano triangles) and 338. The USGS This Dynamic Earth hotspots page was reopened during verification and gives more than 3,200 km to the nearest boundary, so the prompt's 'more than 3,000 km' holds.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and pp. 332-333 evidence now say Figure 2 marks noteworthy volcanoes on the island of Hawaii, not higher-hazard shading; the d rationale carrying the claim went with old d"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d, which the stem ruled out, replaced with a sideways-magma misconception (new id e); explanation no longer over-reads Figure 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q04",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O1",
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "fault inside a plate",
+        "New Madrid",
+        "hazard map",
+        "exceptions to the pattern"
+      ],
+      "familyId": "L25-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "On the U.S. earthquake hazard map, one of the highest-hazard zones surrounds the New Madrid area in the Mississippi River Valley, deep inside the North American Plate. What does this zone show about the plate-boundary pattern?",
+      "accessiblePrompt": "On the United States earthquake hazard map, one of the highest-hazard zones surrounds the New Madrid area in the Mississippi River Valley, deep inside the North American Plate and far from its edges. What does this zone show about the plate-boundary pattern?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stress can build and release on faults inside a plate, not only at plate boundaries.",
+          "rationale": "Correct: New Madrid is an intraplate fault zone, one of the lesson's exceptions to the boundary pattern."
+        },
+        {
+          "id": "b",
+          "text": "The map must contain an error, because earthquakes happen only where two plates meet.",
+          "rationale": "The lesson says quakes also occur on faults within a plate, and the high rating comes from real past quakes there."
+        },
+        {
+          "id": "c",
+          "text": "The river's moving water wears away rock so quickly that the riverbanks collapse and shake.",
+          "rationale": "River erosion does not store the huge stress that a large earthquake releases; slipping rock along a fault does."
+        },
+        {
+          "id": "d",
+          "text": "A volcano must be hidden there, because strong earthquakes only happen next to volcanoes.",
+          "rationale": "Strong quakes happen without volcanoes, for example along transform boundaries and faults inside plates."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Most strong earthquakes happen at plate boundaries, but stress can also build on faults inside a plate and be released in large quakes. The New Madrid zone is one of the best-known examples of this intraplate activity. The hazard map reflects the area's past earthquakes, not a mistake.",
+      "misconception": "Earthquakes happen only at plate boundaries.",
+      "hint": "The lesson lists three places where major earthquakes happen. Only two of them are plate boundaries.",
+      "followUpId": "L25-Q10",
+      "scope": {
+        "lessonId": "L25",
+        "section": "4. Planning for Earthquakes",
+        "pages": {
+          "printed": [
+            337
+          ],
+          "pdf": [
+            373
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            337
+          ],
+          "pdfPages": [
+            373
+          ],
+          "locator": "Section 4, Mapping Earthquakes; Figure 4 hazard map",
+          "supports": "Figure 4 rates the New Madrid area of the Mississippi River Valley as a high-hazard zone."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes; Figure 3A",
+          "supports": "Earthquakes can occur along faults within a tectonic plate, not only at boundaries."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            339
+          ],
+          "pdfPages": [
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Within a Tectonic Plate box)",
+          "supports": "Stress can build on faults within a plate and be released as an earthquake."
+        },
+        {
+          "type": "external",
+          "title": "Seismic hazard and risk assessment in the intraplate environment: The New Madrid seismic zone of the central United States",
+          "publisher": "Geological Society of America Special Paper (Wang, 2007), catalogued in the USGS Publications Warehouse",
+          "url": "https://pubs.usgs.gov/publication/70035282",
+          "accessed": "2026-10-14",
+          "supports": "The New Madrid seismic zone is an intraplate setting with large, rare earthquakes (magnitude 7 or more) that pose significant hazard."
+        },
+        {
+          "type": "external",
+          "title": "Earthquake Hazard in the New Madrid Seismic Zone Remains a Concern (Fact Sheet 2009-3071)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/fs/2009/3071/pdf/FS09-3071.pdf",
+          "accessed": "2026-10-17",
+          "supports": "The New Madrid region lies in the middle of the North American Plate, unlike plate-boundary settings such as coastal California or Alaska, and has repeatedly produced major earthquakes, several of magnitude 7 to 8, over the past 4,500 years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 334, 337, 339. The textbook does not itself say New Madrid is far from a boundary; that fact is from the USGS source. Round 1 (reviser, 2026-10-14): the Wang (2007) record's publisher now names the Geological Society of America Special Paper it is (USGS only catalogues it). Added USGS Fact Sheet 2009-3071, opened 2026-10-17, for the plate-interior setting; its 'most seismically active area east of the Rockies' line dates from 2009 and is not used. Verify (verify-agent, 2026-10-14): Verified against rendered p. 337: Figure 4 shows the highest-hazard (pink) colour at the New Madrid Fault; pp. 334 and 339 teach faults inside plates. The plate-interior setting rests on the USGS fact sheet, as noted.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: Wang (2007) publisher relabelled as a GSA Special Paper catalogued by USGS; USGS Fact Sheet 2009-3071 added for the plate-interior setting"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q05",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O1"
+      ],
+      "conceptTags": [
+        "transform boundary",
+        "different hazards",
+        "shallow earthquakes",
+        "no volcanoes"
+      ],
+      "familyId": "L25-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A town sits beside a transform boundary, where two plates slide past each other sideways. Based on the lesson's model, which hazard should its planners focus on most?",
+      "accessiblePrompt": "A town sits beside a transform boundary, where two plates slide past each other sideways. Based on the lesson's model, which hazard should the town's planners focus on most?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shallow earthquakes, since little magma forms where plates slide sideways",
+          "rationale": "Correct: sliding plates stick and slip near the surface, but nothing there makes much magma."
+        },
+        {
+          "id": "b",
+          "text": "Explosive eruptions, since magma rises at every kind of plate boundary",
+          "rationale": "Magma forms where a plate sinks, where plates separate or over a hot spot; sideways sliding does neither."
+        },
+        {
+          "id": "c",
+          "text": "Very deep earthquakes, since one plate is sinking far into the mantle there",
+          "rationale": "That describes a convergent boundary. Transform quakes stay in the shallow crust."
+        },
+        {
+          "id": "d",
+          "text": "No hazard at all, since plates sliding sideways past each other never get stuck",
+          "rationale": "Rough plate edges catch and lock as they slide, which is exactly what builds stress for earthquakes."
+        }
+      ],
+      "answer": "a",
+      "explanation": "At a transform boundary, no plate sinks and no gap opens, so little or no magma forms. But the rough plate edges stick and slip, so shallow earthquakes, some of them strong, are the main hazard. Different boundaries bring different hazards; that is why planners need to know which kind they live near.",
+      "misconception": "Every plate boundary produces the same hazards, including volcanoes.",
+      "hint": "Ask what makes magma: a sinking plate, plates pulling apart, or a hot spot. Does a transform boundary have any of those?",
+      "followUpId": "L25-Q12",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            334,
+            338
+          ],
+          "pdf": [
+            370,
+            374
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes; Figure 3A",
+          "supports": "At transform boundaries the plates stick and snap free, causing shallow earthquakes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Section 1, Formation of Volcanoes; Figure 1A",
+          "supports": "Volcanoes form at convergent and divergent boundaries and hot spots; transform boundaries are not among the places listed."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338
+          ],
+          "pdfPages": [
+            374
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Transform Boundaries box)",
+          "supports": "The transform box carries the earthquake symbol and describes a shallow earthquake."
+        },
+        {
+          "type": "external",
+          "title": "At what depth do earthquakes occur? What is the significance of the depth?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-depth-do-earthquakes-occur-what-significance-depth",
+          "accessed": "2026-10-14",
+          "supports": "Continental transform faults such as the San Andreas are active only in the shallow crust, to about 20 km."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 330, 334, 338. Targets the brief's guardrail that boundaries do not all cause the same hazard. Round 1 (reviser, 2026-10-14): key drops 'Frequent', which tied the hazard to how often quakes happen and worked against Q21; the key is now parallel with b-d. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 330, 334 and 338: the transform box carries only the earthquake-ring icon and describes a shallow quake; Figure 1A names no transform volcanoes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key no longer says 'frequent' (works against Q21); explanation says shallow quakes, some strong, are the main hazard"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q06",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "magma formation",
+        "subduction",
+        "decompression",
+        "hot spot",
+        "melting temperature"
+      ],
+      "familyId": "L25-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Rock deep underground is mostly solid. Match each setting to the reason some of its rock melts into magma. One reason will not be used.",
+      "accessiblePrompt": "Rock deep underground is mostly solid. Match each setting to the reason some of its rock melts into magma. The settings are: a subduction zone at a convergent boundary; a divergent boundary; and a hot spot. The reasons are: friction from the two plates rubbing together heats the rock until it melts; plates pulling apart lower the pressure on hot mantle rock beneath them, so it can start to melt; water and other material from the sinking plate lower the melting temperature of the rock above it; and a plume of rock hotter than its surroundings rises from deep in the mantle and partly melts as it nears the surface. One reason will not be used.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Subduction zone at a convergent boundary",
+          "rationale": "Water and other material released by the sinking plate lower the temperature at which the rock above it melts."
+        },
+        {
+          "id": "b",
+          "text": "Divergent boundary",
+          "rationale": "As the plates pull apart, the pressure on the hot rock beneath drops, and lower pressure lets it melt."
+        },
+        {
+          "id": "c",
+          "text": "Hot spot",
+          "rationale": "A plume of rock hotter than its surroundings rises from deep in the mantle and partly melts as it nears the surface, helped by the drop in pressure as it rises."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Water and other material from the sinking plate lower the melting temperature of the rock above it"
+        },
+        {
+          "id": "r2",
+          "text": "Plates pulling apart lower the pressure on hot mantle rock beneath them, so it can start to melt"
+        },
+        {
+          "id": "r3",
+          "text": "A plume of rock hotter than its surroundings rises from deep in the mantle and partly melts as it nears the surface"
+        },
+        {
+          "id": "r5",
+          "text": "Friction from the two plates rubbing together heats the rock until it melts"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3"
+      },
+      "explanation": "Rock can melt in more than one way. Adding water lowers the temperature at which rock melts, and lowering the pressure lets already-hot rock melt without extra heating. At a hot spot, rock hotter than its surroundings rises, and it also melts partly because the pressure on it drops as it rises. Friction between moving plates is not what makes this magma; at a subduction zone, water from the sinking plate does the main work.",
+      "misconception": "Rock melts only when something heats it, such as friction between moving plates.",
+      "hint": "One reason adds material, one comes from plates moving apart, and one needs rock that is hotter than its surroundings.",
+      "followUpId": "L25-Q08",
+      "scope": {
+        "lessonId": "L25",
+        "section": "1. Causes of Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            330,
+            338,
+            339
+          ],
+          "pdf": [
+            366,
+            374,
+            375
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Section 1, Formation of Volcanoes; Figure 1A",
+          "supports": "Subducted material lowers the melting temperature of mantle rock; lower pressure at divergent boundaries lets mantle rock melt; magma rises at hot spots."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338,
+            339
+          ],
+          "pdfPages": [
+            374,
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+          "supports": "Divergent box: lower pressure lowers the melting point; convergent box: subducted crust mixing with mantle material melts; hot spots: magma rises from deep in the mantle."
+        },
+        {
+          "type": "external",
+          "title": "Magma's Role in the Rock Cycle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/magma-role-rock-cycle/",
+          "accessed": "2026-10-14",
+          "supports": "Decompression melting happens at divergent boundaries and in mantle plumes; flux melting happens when water from the subducting seafloor lowers the mantle's melting temperature."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to Subduction Zones: Amazing Events in Subduction Zones",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/subduction-zone-science/science/introduction-subduction-zones-amazing-events",
+          "accessed": "2026-10-14",
+          "supports": "Water carried down by the subducting plate enables melting at high temperature and pressure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 330, 338-339. Subduction wording names water per L25-RF2; hot-spot wording per L25-RF3. Extra right-hand option r4 is a distractor. Round 1 (reviser, 2026-10-14): hot-spot melting is mainly decompression melting, so the old r2 ('pressure on hot mantle rock drops') also fit hot spots; r2 now ties the pressure drop to plates pulling apart and r3 names a plume hotter than its surroundings that melts as it nears the surface. The hint no longer implies plumes melt by added heat. The sunlight decoy r4 (the bank's third sunlight decoy) was replaced by a friction misconception with the new id r5; the USGS subduction-zone record supports water as the main cause. Read-aloud reasons are scrambled. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 330 and 338-339; the water (L25-RF2) and plume (L25-RF3) corrections are sourced. Each setting has one reason; r5 is the unused decoy (the 'r4' wording in the drafting note is historical).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: r2 ties decompression to plates pulling apart and r3 to a hotter-than-surroundings plume, so r2 no longer also fits hot spots; hint no longer implies plumes melt by added heat; explanation adds decompression in plumes"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: sunlight decoy replaced with a friction misconception (new id r5); read-aloud reasons scrambled out of answer order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q07",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "mantle",
+        "magma formation",
+        "solid rock",
+        "misconception repair"
+      ],
+      "familyId": "L25-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A classmate says, \"There's an ocean of liquid magma under the whole crust, so any crack in the ground lets lava out.\" Which reply is most accurate?",
+      "accessiblePrompt": "A classmate says: there is an ocean of liquid magma under the whole crust, so any crack in the ground lets lava out. Which reply is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mantle is mostly solid rock; magma forms only where conditions let some of it melt.",
+          "rationale": "Correct: magma is made in particular places, such as subduction zones, spreading boundaries and hot spots."
+        },
+        {
+          "id": "b",
+          "text": "That's right, which is why volcanoes are spread evenly over every part of every continent.",
+          "rationale": "Volcanoes gather in belts and clusters. An ocean of magma everywhere would put them everywhere."
+        },
+        {
+          "id": "c",
+          "text": "Not quite: the magma comes straight up from Earth's liquid core through very deep cracks.",
+          "rationale": "In this lesson's model, magma forms in the mantle where rock partly melts, not in the core."
+        },
+        {
+          "id": "e",
+          "text": "Not quite: magma forms wherever rock is squeezed hardest, deep under mountain ranges.",
+          "rationale": "Squeezing rock harder makes it harder to melt. Lowering the pressure on hot rock is one of the ways magma forms."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The mantle is mostly solid rock. Magma forms only in particular places where conditions let some rock melt, such as subduction zones, spreading boundaries and hot spots. That is why volcanoes gather in belts and clusters instead of popping up wherever the ground cracks.",
+      "misconception": "A layer of liquid magma lies under the whole crust.",
+      "hint": "If magma were everywhere under the crust, where would you expect to find volcanoes?",
+      "followUpId": "L25-Q01",
+      "scope": {
+        "lessonId": "L25",
+        "section": "1. Causes of Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            330
+          ],
+          "pdf": [
+            366
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            330
+          ],
+          "pdfPages": [
+            366
+          ],
+          "locator": "Section 1, Formation of Volcanoes",
+          "supports": "Under the right conditions, rock below the surface can melt to form magma, which rises through cracks in the crust."
+        },
+        {
+          "type": "external",
+          "title": "Magma's Role in the Rock Cycle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/magma-role-rock-cycle/",
+          "accessed": "2026-10-14",
+          "supports": "Most of the mantle and crust are solid; magma forms by decompression, by added water, or by heat transfer in particular settings."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 330 plus National Geographic Education (mantle mostly solid). Misconception repair item. Round 1 (reviser, 2026-10-14): the sunlight decoy d was replaced with a squeezed-rock misconception (new id e) that ties back to decompression melting; National Geographic Education's decompression-melting record supports its rationale. Verify (verify-agent, 2026-10-14): Verified against rendered p. 330; the National Geographic Education record supports a mostly solid mantle. Key unique.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: sunlight decoy replaced with a squeezed-rock misconception tied to decompression melting (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q08",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "explosive eruption",
+        "thick magma",
+        "dissolved gas",
+        "pressure"
+      ],
+      "familyId": "L25-F04",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Why does thick, sticky magma tend to cause explosive eruptions?",
+      "accessiblePrompt": "Why does thick, sticky magma tend to cause explosive eruptions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It flows poorly and traps gas, so pressure builds until the rock above gives way.",
+          "rationale": "Correct: trapped gas pressure, not speed or heat, drives the explosion."
+        },
+        {
+          "id": "b",
+          "text": "It is hotter than runny magma, so it boils up and over the top of the volcano.",
+          "rationale": "The lesson links explosions to thickness and trapped gas, not to boiling over. In fact, thick magmas are usually cooler than runny ones; the explosion comes from gas trapped in the sticky magma."
+        },
+        {
+          "id": "c",
+          "text": "It holds less gas than runny magma, so nothing slows the eruption down.",
+          "rationale": "It is the other way around: thick magma holds more dissolved gas."
+        },
+        {
+          "id": "d",
+          "text": "It moves faster than runny magma, so it shoots out of the vent at high speed.",
+          "rationale": "Thick magma moves slowly. That sluggishness is what lets pressure build up."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Thick magma holds more dissolved gas and doesn't flow easily, so the gas can't escape as it rises. Pressure builds until the rock above can no longer hold it, and the eruption bursts out as ash, rock fragments and pyroclastic flows. Runny magma lets gas bubble away, so it usually pours out as lava instead.",
+      "misconception": "Explosive eruptions happen because magma is hotter or faster, not because gas pressure is trapped.",
+      "hint": "Picture blowing bubbles through a straw into honey and into water. In which liquid do the bubbles escape easily, and in which do they get stuck?",
+      "followUpId": "L25-Q06",
+      "scope": {
+        "lessonId": "L25",
+        "section": "1. Causes of Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            331
+          ],
+          "pdf": [
+            367
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            331
+          ],
+          "pdfPages": [
+            367
+          ],
+          "locator": "Section 1, Types of Volcanic Eruptions",
+          "supports": "Thick magma contains more dissolved gas and does not flow easily, so pressure builds until the overlying rock can no longer contain it."
+        },
+        {
+          "type": "external",
+          "title": "Magma's Role in the Rock Cycle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/magma-role-rock-cycle/",
+          "accessed": "2026-10-14",
+          "supports": "Thick, viscous magma can trap gas bubbles, which can cause explosive and destructive eruptions; low-viscosity magma erupts as fluid lava."
+        },
+        {
+          "type": "external",
+          "title": "Volcanoes, Magma, and Volcanic Eruptions (EENS 3050 Natural Disasters course notes)",
+          "publisher": "Tulane University (Prof. Stephen A. Nelson)",
+          "url": "https://www2.tulane.edu/~sanelson/Natural_Disasters/volcan&magma.htm",
+          "accessed": "2026-10-17",
+          "supports": "Rhyolitic magma erupts at about 650-800 °C and basaltic magma at about 1000-1200 °C; cooler, silica-rich magma is more viscous and holds more gas, which favors explosive eruptions."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 331 (text and Figure 1B). Round 1 (reviser, 2026-10-14): new bubbles-in-honey hint; choice b's rationale now corrects its premise (thick magma is usually cooler), with a Tulane University course page as the external record because the USGS pages timed out. Verify (verify-agent, 2026-10-14): Verified against rendered p. 331 (text and Figure 1B caption): thick magma holds more gas and flows poorly, so pressure builds.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (optional suggestion applied: choice b's rationale says thick magmas are usually cooler, with a Tulane University source)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint replaced with a bubbles-in-honey-versus-water analogy"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q09",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "explosive eruption",
+        "nonexplosive eruption",
+        "lava flow",
+        "pyroclastic flow",
+        "ash"
+      ],
+      "familyId": "L25-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each feature by the type of volcanic eruption it goes with.",
+      "accessiblePrompt": "Sort each feature by the type of volcanic eruption it goes with: explosive or nonexplosive. The features are: thin, runny magma; thick, sticky magma packed with gas; runny lava pouring out gently and spreading across the land in streams; a tall column of ash blasted into the sky; a pyroclastic flow racing down the volcano's side; and gas bubbling out gently as the magma reaches the surface.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Thin, runny magma",
+          "rationale": "Runny magma lets gas escape, so it erupts without exploding."
+        },
+        {
+          "id": "i2",
+          "text": "Thick, sticky magma packed with gas",
+          "rationale": "Trapped gas builds pressure until it bursts out explosively."
+        },
+        {
+          "id": "i3",
+          "text": "Runny lava pouring out gently and spreading across the land in streams",
+          "rationale": "Lava that pours out gently and spreads in streams comes from runny magma in a nonexplosive eruption."
+        },
+        {
+          "id": "i4",
+          "text": "A tall column of ash blasted into the sky",
+          "rationale": "Ash is pyroclastic material thrown out by an explosive eruption."
+        },
+        {
+          "id": "i5",
+          "text": "A pyroclastic flow racing down the volcano's side",
+          "rationale": "Pyroclastic flows come from explosive eruptions of thick magma."
+        },
+        {
+          "id": "i7",
+          "text": "Gas bubbling out gently as the magma reaches the surface",
+          "rationale": "Runny magma lets gas escape easily, so it doesn't build explosive pressure."
+        }
+      ],
+      "bins": [
+        {
+          "id": "explosive",
+          "label": "Explosive eruption"
+        },
+        {
+          "id": "nonexplosive",
+          "label": "Nonexplosive eruption"
+        }
+      ],
+      "answer": {
+        "i1": "nonexplosive",
+        "i2": "explosive",
+        "i3": "nonexplosive",
+        "i4": "explosive",
+        "i5": "explosive",
+        "i7": "nonexplosive"
+      },
+      "explanation": "Thin magma lets gas escape gently and pours out as lava flows. Thick, gas-rich magma bursts out explosively, throwing ash high into the air and sending pyroclastic flows racing downhill. Explosive eruptions can send out some lava too, so the clue is whether it pours out gently. Lava flows rarely kill people but still destroy what lies in their path.",
+      "misconception": "Every eruption is a violent explosion.",
+      "hint": "Ask: does the gas escape gently, or is it trapped until it bursts out?",
+      "followUpId": "L25-Q23",
+      "scope": {
+        "lessonId": "L25",
+        "section": "1. Causes of Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            331
+          ],
+          "pdf": [
+            367
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            331
+          ],
+          "pdfPages": [
+            367
+          ],
+          "locator": "Section 1, Types of Volcanic Eruptions; Figure 1B",
+          "supports": "Nonexplosive eruptions release thin magma as lava flows; explosive eruptions of thick magma release ash, rock fragments and pyroclastic flows. The Figure 1B inset also labels a lava flow on the same volcano as the ash and the pyroclastic flow."
+        },
+        {
+          "type": "external",
+          "title": "Lava flows destroy everything in their path",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/programs/VHP/lava-flows-destroy-everything-their-path",
+          "accessed": "2026-10-14",
+          "supports": "Lava flows usually move slowly; deaths caused directly by them are uncommon, though they destroy property in their path."
+        },
+        {
+          "type": "external",
+          "title": "Pyroclastic flows move fast and destroy everything in their path",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/programs/VHP/pyroclastic-flows-move-fast-and-destroy-everything-their-path",
+          "accessed": "2026-10-14",
+          "supports": "Pyroclastic flows are fast-moving mixtures of hot rock and gas that typically travel faster than 80 km/h."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 331 (Figure 1B inset labels ash, vent, lava flow, pyroclastic flow, magma). See L25-RF9 on damage wording. Round 1 (reviser, 2026-10-14): item i6 ('the most common type of eruption') keyed a contestable statistic from p. 331 (see L25-RF12) and was replaced by gentle gas escape (new id i7). Item i3 now says the lava pours out gently, because the Figure 1B inset and the p. 328 opener show lava flows alongside explosive activity, and the explanation says so. 'Most common type' was dropped from the explanation and from the first evidence record. Verify (verify-agent, 2026-10-14): Verified against rendered p. 331 (Figure 1B caption and inset). Each item has one bin under the lesson's two-type model, and the explanation notes that explosive eruptions can also send out lava (L25-RF12).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'most common type' item replaced with gentle gas escape (new id i7); lava item now says the lava pours out gently, since explosive eruptions can also make lava; 'most common' dropped from explanation and evidence (L25-RF12)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q10",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "stress",
+        "plate boundary",
+        "earthquake cause",
+        "stick and slip"
+      ],
+      "familyId": "L25-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these steps in order to show how stress along a plate boundary turns into an earthquake.",
+      "accessiblePrompt": "Put these steps in order to show how stress along a plate boundary turns into an earthquake. The steps are: the rock suddenly slips, and the stored energy spreads out as seismic waves; the plates keep moving, but their rough edges catch and lock; the edges lock again, and stress begins to build once more; stress builds in the rock along the stuck boundary; the stress grows greater than the locked edges can hold.",
+      "items": [
+        {
+          "id": "d",
+          "text": "The rock suddenly slips, and the stored energy spreads out as seismic waves",
+          "rationale": "Slip happens only after the stress has grown too great; the waves are its result."
+        },
+        {
+          "id": "a",
+          "text": "The plates keep moving, but their rough edges catch and lock",
+          "rationale": "Locking comes first: without stuck edges, no stress could build."
+        },
+        {
+          "id": "e",
+          "text": "The edges lock again, and stress begins to build once more",
+          "rationale": "After the slip, the edges catch again, restarting the cycle, so this is last."
+        },
+        {
+          "id": "b",
+          "text": "Stress builds in the rock along the stuck boundary",
+          "rationale": "While the edges are locked and the plates keep moving, stress accumulates."
+        },
+        {
+          "id": "c",
+          "text": "The stress grows greater than the locked edges can hold",
+          "rationale": "Stress must keep building until it exceeds what the lock can resist."
+        }
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "explanation": "Plate edges are rough, so they lock while the plates keep moving. The rock bends and stores stress until it can't hold any more, then it slips all at once, sending out seismic waves. Afterward the edges catch again, and the cycle repeats. This stick-build-slip cycle is why earthquakes keep returning to the same faults.",
+      "misconception": "Earthquakes happen the moment two plates touch, with no build-up beforehand.",
+      "hint": "The stress has to build before it can be too much, and the rock has to slip before it can lock again.",
+      "followUpId": "L25-Q14",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            334
+          ],
+          "pdf": [
+            370
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes",
+          "supports": "Rough plate edges get stuck, stress builds, the plates snap free causing the quake, then they can get stuck again and stress builds again."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            339
+          ],
+          "pdfPages": [
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Convergent and Within a Tectonic Plate boxes)",
+          "supports": "Stress builds along the boundary or fault; when the rock suddenly moves, the stress is released."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to Subduction Zones: Amazing Events in Subduction Zones",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/subduction-zone-science/science/introduction-subduction-zones-amazing-events",
+          "accessed": "2026-10-14",
+          "supports": "Where the plate interface is locked, stress builds until the fault slips, producing the largest earthquakes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 334, 339. One defensible sequence; the final step is the restart of the cycle, worded 'again' so it cannot be placed first. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 334 and 339: one defensible order; the restart item says 'again' and 'once more', so it can only go last.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q11",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "stress",
+        "sudden slip",
+        "plate motion",
+        "transform boundary"
+      ],
+      "familyId": "L25-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Two plates grind past each other a few centimeters every year. Why does the ground there jolt in sudden earthquakes instead of sliding smoothly all the time?",
+      "accessiblePrompt": "Two plates grind past each other a few centimeters every year. Why does the ground there jolt in sudden earthquakes instead of sliding smoothly all the time?",
+      "limitations": "Some sections of real faults creep slowly with few large quakes; this question is about sections that lock.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rough edges stick, so stress stores up for years and is released all at once.",
+          "rationale": "Correct: the steady motion loads stress into locked rock, and the rock lets go suddenly."
+        },
+        {
+          "id": "b",
+          "text": "The plates stand still between quakes and move only while the ground is shaking.",
+          "rationale": "The plates keep moving the whole time; only their locked edges lag behind, storing stress."
+        },
+        {
+          "id": "c",
+          "text": "Magma squeezes in between the plates and shoves them apart in sudden bursts.",
+          "rationale": "Little magma forms where plates slide past each other; the jolt comes from stuck rock letting go."
+        },
+        {
+          "id": "d",
+          "text": "Seismic waves pile up underground until they finally burst out at the surface.",
+          "rationale": "Seismic waves are the result of the slip, not its cause."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The plates keep moving, but their rough edges stick. Stress stores up in the locked rock for years and is released in seconds when the rock slips. Slow, steady plate motion plus sticking edges equals sudden earthquakes.",
+      "misconception": "Plates stand still between earthquakes and move only while the ground shakes.",
+      "hint": "Think of pushing a heavy box across a rough floor: it doesn't budge, doesn't budge, then lurches.",
+      "followUpId": "L25-Q04",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            334
+          ],
+          "pdf": [
+            370
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes",
+          "supports": "Plate edges are rough and get stuck; stress builds until the plates snap free in a sudden jolt."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to Subduction Zones: Amazing Events in Subduction Zones",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/subduction-zone-science/science/introduction-subduction-zones-amazing-events",
+          "accessed": "2026-10-14",
+          "supports": "A locked plate interface builds stress until the fault slips."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 334. Limitation notes fault creep so the 'smoothly' contrast is fair. Verify (verify-agent, 2026-10-14): Verified against rendered p. 334 (stick, stress, snap free, stick again). The item is fair without its limitations line, which QuestionPanel does not currently display.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q12",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O1",
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "earthquake depth",
+        "focus",
+        "subduction",
+        "convergent boundary"
+      ],
+      "familyId": "L25-F06",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Seismologists locate an earthquake whose focus is about 500 km below the surface. In which setting from the lesson could a quake start that deep?",
+      "accessiblePrompt": "Seismologists locate an earthquake whose focus, the point where the rock first slipped, is about 500 kilometers below the surface. In which setting from the lesson could a quake start that deep?",
+      "conditions": "Focus depth about 500 km below the surface.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A convergent boundary, where a cold plate has sunk into the mantle",
+          "rationale": "Correct: the sinking slab is the only place where rock can break hundreds of kilometers down."
+        },
+        {
+          "id": "b",
+          "text": "A transform boundary, where two plates slide past each other sideways",
+          "rationale": "Transform quakes stay in the shallow crust, roughly the top 20 km."
+        },
+        {
+          "id": "c",
+          "text": "A divergent boundary, where two plates are slowly spreading apart",
+          "rationale": "Quakes where plates spread apart are shallow and usually minor."
+        },
+        {
+          "id": "d",
+          "text": "A fault inside a plate, far away from any of the plate's edges",
+          "rationale": "Faults inside plates break in the crust, much shallower than 500 km."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Only a sinking plate carries cold, brittle rock hundreds of kilometers down into the mantle, so only subduction zones at convergent boundaries can produce quakes that deep. Transform, divergent and within-plate quakes start in the shallow crust. Subduction zones have shallow quakes too; they are just the only place where very deep ones also happen.",
+      "misconception": "Earthquakes can start at any depth in any setting.",
+      "hint": "Which setting carries a slab of rock far down into the mantle?",
+      "followUpId": "L25-Q02",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            334,
+            339
+          ],
+          "pdf": [
+            370,
+            375
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes; Figure 3A",
+          "supports": "Transform quakes start close to the surface; convergent-boundary quakes can be much deeper because the subducting plate moves downward; divergent quakes are shallow and minor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            339
+          ],
+          "pdfPages": [
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Convergent Boundaries box)",
+          "supports": "Where one plate subducts, stress release causes a deep earthquake."
+        },
+        {
+          "type": "external",
+          "title": "At what depth do earthquakes occur? What is the significance of the depth?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-depth-do-earthquakes-occur-what-significance-depth",
+          "accessed": "2026-10-14",
+          "supports": "The deepest earthquakes occur within subducting slabs, to about 700 km; continental faults such as the San Andreas are active only in the shallow crust."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 334, 339. Prompt asks where a deep quake can start, not whether convergent quakes are always deep (L25-RF6). Verify (verify-agent, 2026-10-14): Verified against rendered pp. 334 and 339 (Figure 3A: convergent deep, transform shallow; divergent shallow and minor). usgs.gov returned HTTP 403/504 during verification, so the 500-km and 20-km figures rest on the authors' reading of the USGS depth FAQ; the key itself follows from p. 334.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q13",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "earthquake depth",
+        "subduction",
+        "evidence",
+        "pattern in data"
+      ],
+      "familyId": "L25-F06",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Along one coast, earthquakes near an ocean trench start only a few kilometers deep. Farther inland, the points where they start (their foci) get deeper and deeper, forming a sloping band hundreds of kilometers long. What does this pattern most likely reveal?",
+      "accessiblePrompt": "Along one coast, earthquakes near an ocean trench start only a few kilometers deep. Farther inland, the points where they start get deeper and deeper, forming a sloping band hundreds of kilometers long. What does this pattern most likely reveal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A plate sinking at an angle beneath the plate the coast sits on",
+          "rationale": "Correct: quakes follow the sinking slab, so they deepen with distance from the trench."
+        },
+        {
+          "id": "b",
+          "text": "Two plates pulling apart from each other beneath the coastline",
+          "rationale": "Spreading boundaries make shallow quakes, not a band reaching hundreds of kilometers down."
+        },
+        {
+          "id": "c",
+          "text": "Two plates sliding past each other sideways along the shore",
+          "rationale": "Sideways sliding makes shallow quakes in a line along the fault, not a deepening slope."
+        },
+        {
+          "id": "d",
+          "text": "A plume of hot rock rising straight up from deep beneath the coast",
+          "rationale": "A rising plume feeds volcanoes; it would not line quakes up along a sloping band."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A sloping band of quakes traces a plate sinking at an angle. Near the trench, the plates are locked at shallow depth; farther inland, the sinking slab is deeper, so the quakes inside it start deeper too. The depth pattern is evidence for subduction that no one can see directly.",
+      "misconception": "Earthquake depth is random and tells nothing about what the plates are doing.",
+      "hint": "Which plate motion could carry breaking rock steadily deeper the farther you go from the trench?",
+      "followUpId": "L25-Q05",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            334,
+            339
+          ],
+          "pdf": [
+            370,
+            375
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            334
+          ],
+          "pdfPages": [
+            370
+          ],
+          "locator": "Section 3, The Origins of Earthquakes",
+          "supports": "At convergent boundaries the earthquake source is deeper because the subducting plate is moving downward."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            339
+          ],
+          "pdfPages": [
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (rendered drawing)",
+          "supports": "The drawing shows one plate sinking at an angle beneath another, with an earthquake marked along it."
+        },
+        {
+          "type": "external",
+          "title": "Introduction to Subduction Zones: Amazing Events in Subduction Zones",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/subduction-zone-science/science/introduction-subduction-zones-amazing-events",
+          "accessed": "2026-10-14",
+          "supports": "The locked interface is shallower than about 25 km; earthquakes within the subducting plate are often deeper than about 30 km."
+        },
+        {
+          "type": "external",
+          "title": "At what depth do earthquakes occur? What is the significance of the depth?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/what-depth-do-earthquakes-occur-what-significance-depth",
+          "accessed": "2026-10-14",
+          "supports": "The deepest earthquakes occur within subducting slabs."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 334, 339. Extends the lesson's 'deeper because the plate moves down' idea to a depth pattern; USGS sources support the inference. Round 1 (reviser, 2026-10-14): the visible prompt glosses 'foci', which the lesson never teaches in the plural. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 334 and 339: the spread's drawing shows a slab sinking at an angle with an earthquake ring along it. The depth-band inference is a fair extension.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: visible prompt glosses 'foci' as the points where the quakes start"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q14",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "focus",
+        "epicenter",
+        "body waves",
+        "surface waves"
+      ],
+      "familyId": "L25-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each earthquake term to its description.",
+      "accessiblePrompt": "Match each earthquake term to its description. The terms are: focus; epicenter; body waves; and surface waves. The descriptions are: slower waves that travel along the ground, making it roll and sway; the point underground where the rock first slips; fast waves that travel through Earth's interior; and the spot on the surface straight above where the slip began.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Focus",
+          "rationale": "The focus is underground, where the slip begins."
+        },
+        {
+          "id": "b",
+          "text": "Epicenter",
+          "rationale": "The epicenter is on the surface, directly above the focus."
+        },
+        {
+          "id": "c",
+          "text": "Body waves",
+          "rationale": "Body waves pass through Earth's interior and are the faster kind."
+        },
+        {
+          "id": "d",
+          "text": "Surface waves",
+          "rationale": "Surface waves move along the ground and are slower, with large up-and-down or side-to-side motion."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "The point underground where the rock first slips"
+        },
+        {
+          "id": "r2",
+          "text": "The spot on the surface straight above where the slip began"
+        },
+        {
+          "id": "r3",
+          "text": "Fast waves that travel through Earth's interior"
+        },
+        {
+          "id": "r4",
+          "text": "Slower waves that travel along the ground, making it roll and sway"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3",
+        "d": "r4"
+      },
+      "explanation": "An earthquake starts at its focus underground; the epicenter is the point on the map straight above it. Body waves race out through the interior and arrive first. Surface waves travel along the ground more slowly, heaving it up and down or swaying it side to side.",
+      "misconception": "The focus and the epicenter are the same place.",
+      "hint": "One of the two places is underground, and the other is on the surface.",
+      "followUpId": "L25-Q10",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            335
+          ],
+          "pdf": [
+            371
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            335
+          ],
+          "pdfPages": [
+            371
+          ],
+          "locator": "Section 3, Types of Earthquake Waves; Figure 3B",
+          "supports": "The focus is where the quake starts below the surface; the epicenter is directly above it; body waves travel through the interior faster; surface waves travel along the surface, moving it vertically and horizontally."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 335 (Figure 3B labels fault, epicenter, focus, vertical and horizontal surface waves). Surface-wave description avoids the 'most destruction' claim (L25-RF7). Round 1 (reviser, 2026-10-14): read-aloud descriptions scrambled out of pairing order. Verify (verify-agent, 2026-10-14): Verified against rendered p. 335: Figure 3B labels the fault, epicenter, focus, and vertical and horizontal surface waves. One-to-one match.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud descriptions scrambled out of pairing order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q15",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O2"
+      ],
+      "conceptTags": [
+        "body waves",
+        "surface waves",
+        "wave speed",
+        "seismometer record"
+      ],
+      "familyId": "L25-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A seismometer 2,000 km from an earthquake first records quick, small wiggles. Several minutes later, much larger, slower rolling motions arrive. Which explanation fits best?",
+      "accessiblePrompt": "A seismometer 2,000 kilometers from an earthquake first records quick, small wiggles. Several minutes later, much larger, slower rolling motions arrive. Which explanation fits best?",
+      "conditions": "One earthquake; the station is 2,000 km from it.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Faster body waves came through Earth's interior first; slower surface waves arrived later.",
+          "rationale": "Correct: the waves left together but travel at different speeds, so they arrive in order."
+        },
+        {
+          "id": "b",
+          "text": "Two separate earthquakes happened, a small one first and then a large one minutes later.",
+          "rationale": "One quake produces both kinds of waves; the gap comes from their different speeds."
+        },
+        {
+          "id": "c",
+          "text": "The surface waves arrived first, because traveling along the ground is the shortest path.",
+          "rationale": "Surface waves are the slow ones, so they arrive after the body waves."
+        },
+        {
+          "id": "d",
+          "text": "The body waves grew larger and slower as they traveled farther from the earthquake.",
+          "rationale": "Waves don't turn into bigger, slower waves on the way; the later motions are a different wave type."
+        }
+      ],
+      "answer": "a",
+      "explanation": "One earthquake sends out waves that travel at different speeds. Body waves cut through Earth's interior faster, so they arrive first. Surface waves travel more slowly along the ground but move it much more, so they show up later as bigger motions.",
+      "misconception": "All seismic waves from one earthquake arrive at the same time.",
+      "hint": "Different kinds of waves leave the focus together. What would make them arrive at different times?",
+      "followUpId": "L25-Q12",
+      "scope": {
+        "lessonId": "L25",
+        "section": "3. Causes of Earthquakes",
+        "pages": {
+          "printed": [
+            335
+          ],
+          "pdf": [
+            371
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            335
+          ],
+          "pdfPages": [
+            371
+          ],
+          "locator": "Section 3, Types of Earthquake Waves",
+          "supports": "Body waves travel faster than surface waves and arrive first; surface waves are slower, have longer wavelengths and move the ground more."
+        },
+        {
+          "type": "external",
+          "title": "Earthquake Early Warning - Overview",
+          "publisher": "U.S. Geological Survey, Earthquake Hazards Program",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview",
+          "accessed": "2026-10-14",
+          "supports": "P waves travel about 3.7 miles per second; S waves and surface waves travel about 2.5 miles per second and arrive later."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 335. Several-minute gap is realistic at 2,000 km (USGS wave speeds). Verify (verify-agent, 2026-10-14): Verified against rendered p. 335: body waves are faster and arrive first; surface waves are slower and move the ground more. A gap of several minutes at 2,000 km is realistic.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q16",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "precursor events",
+        "volcano monitoring",
+        "gas",
+        "ground swelling",
+        "small earthquakes"
+      ],
+      "familyId": "L25-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Scientists are watching a volcano that has been quiet for years. Which observations are precursor signals that an eruption may be coming? Select all that apply.",
+      "accessiblePrompt": "Scientists are watching a volcano that has been quiet for years. Which observations are precursor signals that an eruption may be coming? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A swarm of small earthquakes beneath the volcano",
+          "rationale": "Correct: rising magma cracks rock under the volcano and sets off small quakes."
+        },
+        {
+          "id": "b",
+          "text": "More volcanic gas escaping from its vents",
+          "rationale": "Correct: magma moving upward releases more gas."
+        },
+        {
+          "id": "c",
+          "text": "One side of the volcano bulging outward",
+          "rationale": "Correct: magma pushing in from below can make the ground swell."
+        },
+        {
+          "id": "d",
+          "text": "A large earthquake on another continent",
+          "rationale": "A quake far away is not caused by magma under this volcano, so it doesn't signal its eruption."
+        },
+        {
+          "id": "e",
+          "text": "Forest growing back over old lava flows",
+          "rationale": "Regrowth shows how long ago lava flowed, not that new magma is on the move."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Rising magma breaks rock, which causes small quakes beneath the volcano. It releases gas, and it pushes the ground up so the volcano swells. Scientists track all three. Events far away, or slow changes on old lava, say nothing about the magma under this volcano.",
+      "misconception": "Any unusual event anywhere is a warning sign for a particular volcano.",
+      "hint": "Ask whether each observation could be caused by magma moving beneath this volcano.",
+      "followUpId": "L25-Q19",
+      "scope": {
+        "lessonId": "L25",
+        "section": "2. Planning for Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            332
+          ],
+          "pdf": [
+            368
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Predicting Volcanic Eruptions",
+          "supports": "Small quakes beneath a volcano, gas being given off and a change in the volcano's shape are listed as precursors."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338
+          ],
+          "pdfPages": [
+            374
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Forecasting Volcanic Eruptions box)",
+          "supports": "Instruments detect increased gas, earthquakes and changes in shape before an eruption."
+        },
+        {
+          "type": "external",
+          "title": "How can we tell when a volcano will erupt?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/how-can-we-tell-when-a-volcano-will-erupt",
+          "accessed": "2026-10-14",
+          "supports": "Warning signs include more frequent felt earthquakes, subtle swelling of the ground and changes in gases."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 332, 338. Three correct of five; all-or-nothing scoring. Round 1 (reviser, 2026-10-14): the choice list was removed from the read-aloud prompt; the panel already reads the shuffled choices, and the old list put the three keys first. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 332 and 338: the three keys are exactly the precursors the lesson lists; the two decoys are clearly unrelated to this volcano's magma.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice list removed from the read-aloud prompt (it listed the keys first)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q17",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "monitoring data",
+        "forecast",
+        "precursor events",
+        "data interpretation"
+      ],
+      "familyId": "L25-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Scientists monitored the volcano in the table for eight weeks. Which conclusion do their data support best?",
+      "accessiblePrompt": "Scientists monitored a volcano for eight weeks. In week 1 they counted 2 small earthquakes per day beneath it, measured 150 tonnes of sulfur dioxide gas per day, and found no ground uplift. In week 4: 9 small earthquakes per day, 400 tonnes of gas per day, and 12 millimeters of uplift. In week 8: 35 small earthquakes per day, 1,200 tonnes of gas per day, and 48 millimeters of uplift. Which conclusion do their data support best?",
+      "conditions": "Same instruments and locations each week; uplift is measured relative to week 1.",
+      "limitations": "Invented practice data. Real forecasts weigh many more measurements and the volcano's history.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Monitoring a volcano (invented practice data)",
+        "alt": "Table of three weeks of monitoring. Week 1: 2 small earthquakes per day, 150 tonnes of sulfur dioxide gas per day, 0 millimeters of ground uplift. Week 4: 9 small earthquakes per day, 400 tonnes of gas per day, 12 millimeters of uplift. Week 8: 35 small earthquakes per day, 1,200 tonnes of gas per day, 48 millimeters of uplift.",
+        "columns": [
+          "Week",
+          "Small earthquakes per day",
+          "Sulfur dioxide gas (tonnes per day)",
+          "Ground uplift since week 1 (mm)"
+        ],
+        "rows": [
+          [
+            1,
+            2,
+            150,
+            0
+          ],
+          [
+            4,
+            9,
+            400,
+            12
+          ],
+          [
+            8,
+            35,
+            1200,
+            48
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Magma is probably rising, so an eruption is growing more likely, but the data can't give a date.",
+          "rationale": "Correct: all three precursors rose together, which raises the likelihood of an eruption without fixing its timing."
+        },
+        {
+          "id": "b",
+          "text": "The volcano will erupt in week 9, because every number has been climbing week after week.",
+          "rationale": "Precursors can keep building, level off or fade; a rising trend is not a countdown to a set week."
+        },
+        {
+          "id": "c",
+          "text": "The volcano is calming down, because a rising ground surface means the rock is settling.",
+          "rationale": "Uplift means the ground is being pushed up from below, a sign of magma moving in, not settling."
+        },
+        {
+          "id": "e",
+          "text": "A large earthquake, not an eruption, is the main danger, because the small quakes keep increasing.",
+          "rationale": "Small quakes rising together with gas output and uplift point to magma moving under the volcano, not to stress building toward one big fault rupture."
+        }
+      ],
+      "answer": "a",
+      "explanation": "All three signals climbed together: more small quakes, more gas and a rising ground surface. That pattern suggests magma is moving up, so an eruption is becoming more likely. But precursors don't come with a countdown; unrest can continue for months or fade without an eruption, so the data cannot name a date.",
+      "misconception": "Precursor data tell scientists the exact day an eruption will begin.",
+      "hint": "Look at all three columns together, then ask what the data can and cannot tell you about timing.",
+      "followUpId": "L25-Q18",
+      "scope": {
+        "lessonId": "L25",
+        "section": "2. Planning for Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            332
+          ],
+          "pdf": [
+            368
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Predicting Volcanic Eruptions",
+          "supports": "Scientists look for patterns of change in quakes, gas and shape; before Eyjafjallajökull erupted, rising magma caused small quakes and swelling."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338
+          ],
+          "pdfPages": [
+            374
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Forecasting Volcanic Eruptions box)",
+          "supports": "Increased gas and earthquakes and changes in shape come before an eruption."
+        },
+        {
+          "type": "external",
+          "title": "How can we tell when a volcano will erupt?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/how-can-we-tell-when-a-volcano-will-erupt",
+          "accessed": "2026-10-14",
+          "supports": "Precursors can last weeks, months or years before an eruption, or subside without one."
+        },
+        {
+          "type": "external",
+          "title": "VHP uses monitoring data and volcanic history to forecast eruptions",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/natural-hazards/volcano-hazards/eruption-forecast",
+          "accessed": "2026-10-14",
+          "supports": "Eruption forecasts are probabilistic and compare monitoring data with a volcano's background activity."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 332, 338. Invented data; keyed answer avoids an exact date (L25-RF4). Round 1 (reviser, 2026-10-14): strawman distractor d ('only the gas readings matter') replaced with a real misreading of quake swarms (new id e). Verify (verify-agent, 2026-10-14): Verified against rendered pp. 332 and 338. Invented data are labelled in the caption; the key avoids a date (L25-RF4); the table alt and read-aloud carry every number.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: strawman distractor d replaced with a quake-swarm misreading (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q18",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "earthquake prediction",
+        "forecast",
+        "evaluating claims",
+        "probability"
+      ],
+      "familyId": "L25-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A post online claims that scientists have predicted a major earthquake will hit a certain city next Tuesday at 3 p.m. Based on what scientists can and cannot do, how should you judge this claim?",
+      "accessiblePrompt": "A post online claims that scientists have predicted a major earthquake will hit a certain city next Tuesday at 3 in the afternoon. Based on what scientists can and cannot do, how should you judge this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Doubt it: scientists can estimate where and how likely, but not the exact time.",
+          "rationale": "Correct: forecasts give chances for regions over years; no method names a day and hour."
+        },
+        {
+          "id": "b",
+          "text": "Trust it: earthquakes always follow odd animal behavior, which scientists track.",
+          "rationale": "Scientists have studied animal behavior, but no reliable link to coming quakes has been found."
+        },
+        {
+          "id": "c",
+          "text": "Trust it: earthquakes, like eruptions, have clear precursors that reveal their timing.",
+          "rationale": "Eruptions often have precursors; earthquakes have none that scientists can rely on."
+        },
+        {
+          "id": "d",
+          "text": "Doubt it: scientists have no way to tell which places are more likely to have quakes.",
+          "rationale": "Scientists do map earthquake hazard from plate knowledge and past quakes. They just can't set a time."
+        }
+      ],
+      "answer": "a",
+      "explanation": "No reliable warning sign is known to come before earthquakes, so no one can name the day and hour of one. What scientists can do is estimate where quakes are likely and how likely a strong one is over years or decades. Estimating risk is useful for planning, but it is not predicting an exact time.",
+      "misconception": "Scientists can predict the date and time of an earthquake, just as they can see an eruption building.",
+      "hint": "Think about the difference between 'likely somewhere in the next 30 years' and 'Tuesday at 3 p.m.'",
+      "followUpId": "L25-Q21",
+      "scope": {
+        "lessonId": "L25",
+        "section": "4. Planning for Earthquakes",
+        "pages": {
+          "printed": [
+            336
+          ],
+          "pdf": [
+            372
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            336
+          ],
+          "pdfPages": [
+            372
+          ],
+          "locator": "Section 4, Earthquake Predictability",
+          "supports": "Earthquakes have no known precursor events; animal behavior, groundwater and electrical currents have been studied with no certain link; scientists can identify where quakes are most likely."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            339
+          ],
+          "pdfPages": [
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Forecasting Earthquakes box)",
+          "supports": "Regional earthquake probabilities are forecast from historical records plus an understanding of how plates move."
+        },
+        {
+          "type": "external",
+          "title": "Can you predict earthquakes?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+          "accessed": "2026-10-14",
+          "supports": "No scientist has ever predicted a major earthquake; USGS can only calculate the probability of a significant quake in an area within a number of years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 336, 339. Distractor d over-corrects (no knowledge at all) so the key needs the full idea (L25-RF5). Verify (verify-agent, 2026-10-14): Verified against rendered pp. 336 and 339. Distractor d over-corrects, so only the key states both halves of the idea.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q19",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "forecast",
+        "prediction",
+        "hazard map",
+        "probability",
+        "precursor events"
+      ],
+      "familyId": "L25-F09",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each task by whether scientists can or cannot do it today.",
+      "accessiblePrompt": "Sort each task by whether scientists can or cannot do it today. The tasks are: map which regions face higher earthquake hazard; estimate the chance of a strong quake in a region over the next 30 years; name the exact day and hour of the next big earthquake; warn that an eruption is getting more likely as gas, small quakes and swelling increase; and point to one warning sign that reliably comes before every earthquake.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Map which regions face higher earthquake hazard",
+          "rationale": "Hazard maps are built from past quakes, faults and plate knowledge."
+        },
+        {
+          "id": "i2",
+          "text": "Estimate the chance of a strong quake in a region over the next 30 years",
+          "rationale": "Probabilities over years or decades are exactly what forecasts provide."
+        },
+        {
+          "id": "i3",
+          "text": "Name the exact day and hour of the next big earthquake",
+          "rationale": "No method can time an earthquake."
+        },
+        {
+          "id": "i4",
+          "text": "Warn that an eruption is getting more likely as gas, small quakes and swelling increase",
+          "rationale": "Volcano precursors let scientists forecast rising likelihood."
+        },
+        {
+          "id": "i5",
+          "text": "Point to one warning sign that reliably comes before every earthquake",
+          "rationale": "No reliable earthquake precursor has been found."
+        }
+      ],
+      "bins": [
+        {
+          "id": "can",
+          "label": "Scientists can do this today"
+        },
+        {
+          "id": "cannot",
+          "label": "Scientists cannot do this today"
+        }
+      ],
+      "answer": {
+        "i1": "can",
+        "i2": "can",
+        "i3": "cannot",
+        "i4": "can",
+        "i5": "cannot"
+      },
+      "explanation": "Scientists can map hazard, estimate chances over decades and read a volcano's warning signs. They cannot name the time of an earthquake or point to any sign that reliably comes before one. Knowing where and how likely is different from knowing exactly when.",
+      "misconception": "If scientists can map where earthquakes are likely, they must also know when they will happen.",
+      "hint": "Separate 'where' and 'how likely' from 'exactly when'.",
+      "followUpId": "L25-Q16",
+      "scope": {
+        "lessonId": "L25",
+        "section": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards",
+        "pages": {
+          "printed": [
+            338,
+            339
+          ],
+          "pdf": [
+            374,
+            375
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            338
+          ],
+          "pdfPages": [
+            374
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Forecasting Volcanic Eruptions box)",
+          "supports": "Instruments detect gas, earthquakes and shape changes that come before an eruption."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            339
+          ],
+          "pdfPages": [
+            375
+          ],
+          "locator": "Key Science Concept: Understanding Volcanic Eruptions and Earthquake Hazards (Forecasting Earthquakes box)",
+          "supports": "Earthquakes have no known precursors; scientists forecast probability for a region from historical data and plate motion."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            337
+          ],
+          "pdfPages": [
+            373
+          ],
+          "locator": "Section 4, Mapping Earthquakes; Figure 4",
+          "supports": "Hazard maps show where earthquakes are likely, but scientists cannot predict when one will occur."
+        },
+        {
+          "type": "external",
+          "title": "Can you predict earthquakes?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+          "accessed": "2026-10-14",
+          "supports": "USGS calculates the probability of a significant quake in an area within a set number of years and maps those probabilities; it cannot predict earthquakes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 337-339. Each task has one defensible bin. Round 1 (reviser, 2026-10-14): 'yet' dropped from the bin, prompt, rationale and explanation; USGS does not expect earthquake timing to be possible in the foreseeable future, so 'yet' hinted otherwise. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 337-339: each task has one defensible bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (optional suggestion applied: bin reads 'Scientists cannot do this today'; 'yet' dropped from prompt, rationale and explanation)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q20",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "frequency",
+        "rate",
+        "earthquake records"
+      ],
+      "familyId": "L25-F10",
+      "category": "application",
+      "difficulty": 1,
+      "type": "numeric",
+      "prompt": "Over 20 years, a seismic network recorded 50 earthquakes strong enough for people to feel in one valley. What was the average frequency of these earthquakes, in earthquakes per year?",
+      "accessiblePrompt": "Over 20 years, a seismic network recorded 50 earthquakes strong enough for people to feel in one valley. What was the average frequency of these earthquakes, in earthquakes per year?",
+      "units": "earthquakes per year",
+      "conditions": "The network recorded every felt earthquake in the valley during the 20 years.",
+      "limitations": "An average from past records describes the past; future years can have more or fewer quakes.",
+      "answer": 2.5,
+      "tolerance": 0.05,
+      "unit": "earthquakes per year",
+      "workedSolution": "Frequency = number of earthquakes ÷ time = 50 earthquakes ÷ 20 years = 2.5 earthquakes per year.",
+      "explanation": "Frequency tells how often events happen in a set amount of time, so divide the number of events by the time. Fifty quakes in 20 years averages 2.5 quakes per year. An average describes the past record, not a schedule: some years will have more and some fewer.",
+      "misconception": "Frequency means how strong an event is, or an average frequency is a fixed timetable.",
+      "hint": "Frequency = number of events ÷ length of time.",
+      "followUpId": "L25-Q19",
+      "scope": {
+        "lessonId": "L25",
+        "section": "2. Planning for Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            332
+          ],
+          "pdf": [
+            368
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Predicting Volcanic Eruptions",
+          "supports": "Frequency is defined as how many times an event occurs within a set period."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Section 5, Assessing Local Risk",
+          "supports": "Engineers use historical data on how common earthquakes are in a region, given as quakes per year."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 332, 340. Invented data; tolerance 0.05 per year. Verify (verify-agent, 2026-10-14): Verified: 50 earthquakes / 20 years = 2.5 earthquakes per year. Frequency is defined on rendered p. 332; units, tolerance and worked solution are present.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q21",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "frequency",
+        "magnitude",
+        "hazard",
+        "data interpretation"
+      ],
+      "familyId": "L25-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Planners compare two regions' earthquake records from the same 300 years. Which conclusion about the hazard of damaging shaking is best supported?",
+      "accessiblePrompt": "Planners compare two regions' earthquake records from the same 300 years. North Ridge has about 40 small earthquakes each year, below magnitude 4, and had no earthquakes of magnitude 7 or more. South Basin has about 6 small earthquakes each year and had 9 earthquakes of magnitude 7 or more. Higher magnitude numbers mean stronger earthquakes. Which conclusion about the hazard of damaging shaking is best supported?",
+      "conditions": "Both records cover the same 300 years; higher magnitude numbers mean stronger earthquakes.",
+      "limitations": "Invented practice data. Real hazard maps also use faults, rock and soil information.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Earthquake records for two regions over 300 years (invented practice data)",
+        "alt": "Table comparing two regions. North Ridge: about 40 small earthquakes per year, below magnitude 4; 0 earthquakes of magnitude 7 or more in 300 years. South Basin: about 6 small earthquakes per year; 9 earthquakes of magnitude 7 or more in 300 years.",
+        "columns": [
+          "Region",
+          "Small quakes per year (below magnitude 4)",
+          "Strong quakes in 300 years (magnitude 7 or more)"
+        ],
+        "rows": [
+          [
+            "North Ridge",
+            40,
+            0
+          ],
+          [
+            "South Basin",
+            6,
+            9
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "South Basin's hazard is higher: it has had many strong quakes, though fewer quakes overall.",
+          "rationale": "Correct: damaging shaking comes from strong quakes, and South Basin has a long record of them."
+        },
+        {
+          "id": "b",
+          "text": "North Ridge's hazard is higher, since it has far more earthquakes in a typical year.",
+          "rationale": "North Ridge's many quakes are tiny; a high count of small quakes is not the same as high hazard."
+        },
+        {
+          "id": "c",
+          "text": "The two regions have equal hazard, since both of them have earthquakes every single year.",
+          "rationale": "Having quakes every year doesn't make the hazards equal; their magnitudes are very different."
+        },
+        {
+          "id": "e",
+          "text": "Neither region can be judged yet, because 300 years of records is too short to compare.",
+          "rationale": "Both regions were measured over the same 300 years, and 9 strong quakes against none is a clear difference; hazard maps are built from records like these, along with fault and rock data."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hazard depends on both how often quakes happen and how strong they are. North Ridge has many tiny quakes that rarely cause damage, while South Basin has repeatedly had strong ones. More quakes overall does not mean more danger; the record of strong quakes matters most for damaging shaking.",
+      "misconception": "The place with the most earthquakes is always the most dangerous.",
+      "hint": "Ask which matters more for damaging shaking: how many quakes a place has, or how strong they are.",
+      "followUpId": "L25-Q24",
+      "scope": {
+        "lessonId": "L25",
+        "section": "4. Planning for Earthquakes",
+        "pages": {
+          "printed": [
+            337
+          ],
+          "pdf": [
+            373
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            332
+          ],
+          "pdfPages": [
+            368
+          ],
+          "locator": "Section 2, Predicting Volcanic Eruptions",
+          "supports": "Predictions need both the frequencies and the magnitudes of past events; magnitude is strength on a numerical scale."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            337
+          ],
+          "pdfPages": [
+            373
+          ],
+          "locator": "Section 4, Mapping Earthquakes; Figure 4",
+          "supports": "Figure 4's hazard levels come from where earlier quakes struck and how strong they were."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Section 5, Assessing Local Risk",
+          "supports": "Engineers draw on research about the strength and frequency of a region's earthquakes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 332, 337, 340. Invented data with one defensible answer. Round 1 (reviser, 2026-10-14): the hint no longer names the deciding column. The 'no one can say when' decoy d, repeated in Q22 and Q25, was replaced with a record-too-short misconception (new id e); its rationale adds that hazard maps also use fault and rock data, so it does not claim records alone build them. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 332, 337 and 340. Invented data are labelled; only the key fits nine strong quakes against none.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the deciding column; repeated timing decoy replaced with a record-too-short misconception (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q22",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3",
+        "L25-O4"
+      ],
+      "conceptTags": [
+        "mitigate",
+        "earthquake-resistant structures",
+        "Kobe 1995",
+        "engineering"
+      ],
+      "familyId": "L25-F11",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "A city near a major fault is rebuilding after a strong earthquake. Which plans would mitigate damage in future quakes? Select all that apply.",
+      "accessiblePrompt": "A city near a major fault is rebuilding after a strong earthquake. Which plans would mitigate damage in future quakes? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reinforce existing bridges and roads so they hold up during shaking",
+          "rationale": "Correct: strengthening old structures reduces the damage a quake can do."
+        },
+        {
+          "id": "b",
+          "text": "Set new tall buildings on large rubber shock absorbers",
+          "rationale": "Correct: the absorbers reduce how much shaking reaches the building."
+        },
+        {
+          "id": "c",
+          "text": "Hold the plates still so stress can never build up",
+          "rationale": "Plate motion is driven by forces far beyond human control; mitigation reduces harm instead."
+        },
+        {
+          "id": "e",
+          "text": "Rebuild the collapsed roadway exactly as it was before",
+          "rationale": "That repairs the damage but keeps the same weakness, so the next strong quake could do the same harm."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "To mitigate means to reduce the harm an event causes. Nobody can stop plates from moving, and rebuilding a structure exactly as it was keeps its old weakness. Reinforcing old structures and isolating new ones from the ground both lower the damage; Japan did both after the 1995 Kobe earthquake.",
+      "misconception": "Mitigation means stopping the hazard itself, or simply putting things back the way they were.",
+      "hint": "Mitigation changes what the earthquake does to people and buildings, not whether the earthquake happens.",
+      "followUpId": "L25-Q25",
+      "scope": {
+        "lessonId": "L25",
+        "section": "4. Planning for Earthquakes",
+        "pages": {
+          "printed": [
+            337
+          ],
+          "pdf": [
+            373
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            337
+          ],
+          "pdfPages": [
+            373
+          ],
+          "locator": "Section 4, Mitigating the Effects of Earthquakes",
+          "supports": "After 1995, Japan engineered earthquake-resistant buildings, roads and bridges, reinforced existing ones, and set new high-rises on large rubber shock absorbers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            329
+          ],
+          "pdfPages": [
+            365
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "To mitigate is to reduce the impact of an event."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 329, 336, 337. Two correct of four; Kobe death toll not tested (L25-RF10). Round 1 (reviser, 2026-10-14): new rebuilding-city stem so a plausible rebuild-as-before decoy (new id e) can replace the exact-hour timing decoy; the choice list was removed from the read-aloud prompt. The explanation names Kobe's two plans in words rather than as 'a and b', because the panel letters the choices in shuffled order. The p. 336 timing record was dropped and the scope narrowed to p. 337, since no choice now relies on it. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 329 (vocabulary: mitigate) and 337 (Japan's reinforcement and rubber shock absorbers after 1995). Two keys of four.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier Kobe-stem version)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilding-city stem; timing decoy replaced with a rebuild-as-before misconception (new id e); choice list removed from the read-aloud prompt; explanation names Kobe"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q23",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O3"
+      ],
+      "conceptTags": [
+        "mitigate",
+        "prevention",
+        "volcanic hazard map",
+        "land use"
+      ],
+      "familyId": "L25-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A volcanic hazard map shows that pyroclastic flows from a nearby volcano have swept down one valley many times in the past. Which choice reduces future harm by prevention?",
+      "accessiblePrompt": "A volcanic hazard map shows that pyroclastic flows, fast avalanches of hot gas and rock, have swept down one valley many times in the past. Which choice reduces future harm by prevention?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keeping new homes and schools out of that valley",
+          "rationale": "Correct: preventing building in the flow path removes people and property from harm's way."
+        },
+        {
+          "id": "b",
+          "text": "Building a dam across the summit to stop eruptions",
+          "rationale": "No structure can stop a volcano from erupting; mitigation reduces impact instead."
+        },
+        {
+          "id": "e",
+          "text": "Building homes in the valley with extra-strong walls and roofs",
+          "rationale": "Pyroclastic flows knock down, bury or burn nearly everything in their path, so stronger buildings would not keep people safe there, and building in the path is not prevention."
+        },
+        {
+          "id": "d",
+          "text": "Building there anyway, since the last flow was long ago",
+          "rationale": "Rare events still recur. A long quiet spell doesn't mean the valley is safe."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The surest way to prevent loss in a high-hazard zone is to avoid building there. Pyroclastic flows destroy nearly everything in their path, so even extra-strong buildings would not be safe in that valley. Hazard maps turn the history of past eruptions into planning guidance. A long quiet spell doesn't erase the hazard, and nothing people build can switch a volcano off.",
+      "misconception": "A long quiet period means a hazard zone has become safe.",
+      "hint": "Think about what the map shows has happened in that valley again and again. What would that mean for anything built there?",
+      "followUpId": "L25-Q09",
+      "scope": {
+        "lessonId": "L25",
+        "section": "2. Planning for Volcanic Eruptions",
+        "pages": {
+          "printed": [
+            333
+          ],
+          "pdf": [
+            369
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            333
+          ],
+          "pdfPages": [
+            369
+          ],
+          "locator": "Section 2, Mapping Volcanic Hazards; Mitigating the Effects of Volcanic Eruptions",
+          "supports": "Hazard maps use past eruptions to show risk; avoiding building near an active volcano is the most obvious way to prevent loss."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            333
+          ],
+          "pdfPages": [
+            369
+          ],
+          "locator": "Figure 2",
+          "supports": "Volcanic hazard maps are built from the locations, frequencies and magnitudes of past eruptions."
+        },
+        {
+          "type": "external",
+          "title": "Pyroclastic flows move fast and destroy everything in their path",
+          "publisher": "U.S. Geological Survey, Volcano Hazards Program",
+          "url": "https://www.usgs.gov/programs/VHP/pyroclastic-flows-move-fast-and-destroy-everything-their-path",
+          "accessed": "2026-10-14",
+          "supports": "Pyroclastic flows can knock down, bury or carry away nearly all structures in their path."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 333. Land-use planning concept from the textbook, not personal emergency advice (L25-RF11). Round 1 (reviser, 2026-10-14): the wait-to-plan decoy c was replaced with an extra-strong-buildings misconception (new id e), supported by the existing USGS pyroclastic-flow record; the hint no longer restates the key. Verify (verify-agent, 2026-10-14): Verified against rendered p. 333: prevention means not building near an active volcano, and the Figure 2 caption covers hazard maps. This is land-use planning, not personal emergency advice (L25-RF11).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier version with the wait-to-plan decoy)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: weak decoy c replaced with an extra-strong-buildings misconception (new id e); hint no longer restates the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q24",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O4"
+      ],
+      "conceptTags": [
+        "structural performance",
+        "earthquake hazard risk",
+        "design chart",
+        "importance"
+      ],
+      "familyId": "L25-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Engineers use a chart linking earthquake hazard to how well each type of structure must perform. Using the chart, match each structure to the performance it needs in a strong, rare earthquake. One performance level will not be used.",
+      "accessiblePrompt": "Engineers use a chart linking earthquake hazard to how well each type of structure must perform. In the chart's column for moderate, occasional earthquakes: essential structures must be fully operational, and basic structures must be operational. In the column for strong, rare earthquakes: safety-critical structures must be fully operational, essential structures must be operational, and basic structures must be partly operational. The chart's key says safety-critical structures include hospitals and major bridges, essential structures include fire stations and minor bridges, and basic structures include homes and grocery stores. Match each structure to the performance it needs in a strong, rare earthquake: a major bridge, a fire station and a grocery store. The performance levels are: partly operational; near collapse; fully operational; and operational. One will not be used.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Part of an engineers' performance chart (adapted from the lesson's Figure 5). Key: safety critical = hospitals, major bridges; essential = fire stations, minor bridges; basic = homes, grocery stores.",
+        "alt": "Table with performance levels as rows and two earthquake columns. Fully operational row: moderate, occasional quakes, essential structures; strong, rare quakes, safety-critical structures. Operational row: moderate, basic structures; strong, rare, essential structures. Partly operational row: moderate, unacceptable; strong, rare, basic structures. Near collapse row: unacceptable in both columns. Safety-critical examples: hospitals and major bridges. Essential: fire stations and minor bridges. Basic: homes and grocery stores.",
+        "columns": [
+          "Performance level",
+          "Moderate, occasional quakes",
+          "Strong, rare quakes"
+        ],
+        "rows": [
+          [
+            "Fully operational",
+            "Essential",
+            "Safety critical"
+          ],
+          [
+            "Operational",
+            "Basic",
+            "Essential"
+          ],
+          [
+            "Partly operational",
+            "Unacceptable",
+            "Basic"
+          ],
+          [
+            "Near collapse",
+            "Unacceptable",
+            "Unacceptable"
+          ]
+        ]
+      },
+      "left": [
+        {
+          "id": "a",
+          "text": "A major bridge",
+          "rationale": "A major bridge is safety critical; in the strong, rare column, safety critical sits in the fully operational row."
+        },
+        {
+          "id": "b",
+          "text": "A fire station",
+          "rationale": "A fire station is essential; in the strong, rare column, essential sits in the operational row."
+        },
+        {
+          "id": "c",
+          "text": "A grocery store",
+          "rationale": "A grocery store is basic; in the strong, rare column, basic sits in the partly operational row."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Fully operational"
+        },
+        {
+          "id": "r2",
+          "text": "Operational"
+        },
+        {
+          "id": "r3",
+          "text": "Partly operational"
+        },
+        {
+          "id": "r4",
+          "text": "Near collapse"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r3"
+      },
+      "explanation": "Use the key to find each structure's type: a major bridge is safety critical, a fire station is essential and a grocery store is basic. Then read down the strong, rare column. The more important a structure is, the higher the performance it must keep in the same earthquake, so the bridge has to stay fully working while the store only has to stay partly usable.",
+      "misconception": "Every structure in an area must meet the same performance level, whatever its importance.",
+      "hint": "First use the chart's key to find each structure's type, then look for that type in the 'Strong, rare' column.",
+      "followUpId": "L25-Q26",
+      "scope": {
+        "lessonId": "L25",
+        "section": "5. Designing Earthquake-Resistant Bridges",
+        "pages": {
+          "printed": [
+            340
+          ],
+          "pdf": [
+            376
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Figure 5, Structural Performance Objectives and Earthquake Risks",
+          "supports": "In the strong, rare column, safety-critical structures sit at fully operational, essential at operational and basic at partly operational; the legend gives hospitals and major bridges, fire stations and minor bridges, and homes and grocery stores as examples."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            341
+          ],
+          "pdfPages": [
+            377
+          ],
+          "locator": "Section 5, Choosing an Appropriate Design",
+          "supports": "Following a column down the chart lists acceptable damage for earthquakes of a given strength."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from Figure 5 rendered at 220 dpi (p. 340). Only the moderate and strong-rare columns are shown, where each type has one cell (L25-RF8). Round 1 (reviser, 2026-10-14): the left items no longer name each structure's type, so the learner must use the chart's key. Because a table's alt text sits behind a 'Text description' toggle, the key was also added to the visible caption so sighted players can use it. Rationales start with the key step, and the read-aloud levels are scrambled. Verify (verify-agent, 2026-10-14): Verified cell by cell against Figure 5 (p. 340; the 110-dpi render and the 220-dpi crop). Moderate column: Essential, Basic, Unacceptable, Unacceptable. Strong, rare column: Safety critical, Essential, Basic, Unacceptable. The p. 341 body text allows the Bay Bridge to be only operational in rare strong quakes, which departs from Figure 5. Because the prompt says 'Using the chart' and supplies it, the key is unique; the conflict is recorded in L25-RF8.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: structure types removed from the left items so the chart's key must be used (key added to the visible caption); rationales start with the key step; read-aloud levels scrambled"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q25",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O4"
+      ],
+      "conceptTags": [
+        "importance",
+        "earthquake hazard risk",
+        "trade-offs",
+        "bridge design"
+      ],
+      "familyId": "L25-F12",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Two new bridges will cross the same fault. One carries a quiet farm road; the other is the main ambulance route to the region's hospital. Which design plan best follows the engineers' approach in this lesson?",
+      "accessiblePrompt": "Two new bridges will cross the same fault. One carries a quiet farm road. The other is the main ambulance route to the region's hospital. Which design plan best follows the engineers' approach in this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Make the ambulance route stay usable in stronger, rarer quakes than the farm-road bridge.",
+          "rationale": "Correct: same hazard, higher importance, so the ambulance route needs the higher performance goal."
+        },
+        {
+          "id": "b",
+          "text": "Build both bridges to exactly the same standard, since they face the same earthquake hazard.",
+          "rationale": "The chart also weighs importance; losing the hospital route would matter far more than losing a farm road."
+        },
+        {
+          "id": "c",
+          "text": "Make both bridges survive every possible earthquake undamaged, no matter what it costs.",
+          "rationale": "Designing everything for every quake is too expensive and slow; that is why engineers match effort to risk."
+        },
+        {
+          "id": "d",
+          "text": "Skip earthquake design for both, since no one knows when the next quake will strike.",
+          "rationale": "Unknown timing doesn't mean unknown risk; hazard maps and records show that strong quakes are likely there."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Engineers match design effort to both the hazard and the structure's importance. The two bridges face the same hazard, but losing the hospital route would be far more serious, so it must keep working through stronger, rarer quakes. Designing every bridge to survive every quake untouched would cost too much and take too long.",
+      "misconception": "Structures that face the same hazard must all be built to the same standard.",
+      "hint": "The hazard is the same for both bridges. What else does the chart take into account?",
+      "followUpId": "L25-Q22",
+      "scope": {
+        "lessonId": "L25",
+        "section": "5. Designing Earthquake-Resistant Bridges",
+        "pages": {
+          "printed": [
+            340,
+            341
+          ],
+          "pdf": [
+            376,
+            377
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Section 5, Determining Bridge Importance",
+          "supports": "It is too expensive, slow and difficult to design every bridge for every earthquake; some bridges are so important that damage is not acceptable, and importance levels run diagonally across the chart."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            341
+          ],
+          "pdfPages": [
+            377
+          ],
+          "locator": "Section 5 photo caption",
+          "supports": "A critically important span must be designed to stay fully operational in the strongest, rarest quakes."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 340-341. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 340-341. Cosmetic fix: choice d's rationale now says hazard maps and records show that strong quakes 'are likely there' instead of 'will come', which avoids an unsupported absolute.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q26",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "engineering design",
+        "bridge"
+      ],
+      "familyId": "L25-F13",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "A state is planning a new bridge in an earthquake zone. Sort each requirement as a criterion or a constraint.",
+      "accessiblePrompt": "A state is planning a new bridge in an earthquake zone. Sort each requirement as a criterion or a constraint. The requirements are: total cost must stay within the state's budget; must carry four lanes of traffic; construction must be finished within six years; must stay open to emergency vehicles after a strong, rare earthquake; and must last at least 100 years.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Must stay open to emergency vehicles after a strong, rare earthquake",
+          "rationale": "This is a performance goal the design must meet: a criterion."
+        },
+        {
+          "id": "i2",
+          "text": "Must carry four lanes of traffic",
+          "rationale": "This says what the bridge must do to succeed: a criterion."
+        },
+        {
+          "id": "i3",
+          "text": "Must last at least 100 years",
+          "rationale": "This is a required outcome for a successful design: a criterion."
+        },
+        {
+          "id": "i4",
+          "text": "Total cost must stay within the state's budget",
+          "rationale": "Money limits which designs are possible: a constraint."
+        },
+        {
+          "id": "i5",
+          "text": "Construction must be finished within six years",
+          "rationale": "Time limits which designs are possible: a constraint."
+        }
+      ],
+      "bins": [
+        {
+          "id": "criterion",
+          "label": "Criterion"
+        },
+        {
+          "id": "constraint",
+          "label": "Constraint"
+        }
+      ],
+      "answer": {
+        "i1": "criterion",
+        "i2": "criterion",
+        "i3": "criterion",
+        "i4": "constraint",
+        "i5": "constraint"
+      },
+      "explanation": "Criteria describe what a successful design must do: stay open after a strong quake, carry enough traffic, last long enough. Constraints limit which solutions are possible, such as money and time. Defining both precisely is what lets engineers compare designs fairly.",
+      "misconception": "Criteria and constraints are the same thing, or any requirement involving money is a criterion.",
+      "hint": "Criteria: what must the bridge do? Constraints: what limits the choices?",
+      "followUpId": "L25-Q24",
+      "scope": {
+        "lessonId": "L25",
+        "section": "5. Designing Earthquake-Resistant Bridges",
+        "pages": {
+          "printed": [
+            340,
+            341
+          ],
+          "pdf": [
+            376,
+            377
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            341
+          ],
+          "pdfPages": [
+            377
+          ],
+          "locator": "Section 5, Choosing an Appropriate Design",
+          "supports": "Engineers define precise criteria and constraints before comparing bridge designs."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Section 5, Determining Bridge Importance",
+          "supports": "Constraints such as expense, time and difficulty limit how strong every bridge can be made."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            329
+          ],
+          "pdfPages": [
+            365
+          ],
+          "locator": "Introduction, Next Generation Science Standards box",
+          "supports": "Design problems are defined by criteria and constraints that may limit possible solutions."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 329, 340, 341. Each requirement has one defensible bin under the stated definitions. Round 1 (reviser, 2026-10-14): read-aloud requirements are no longer grouped by bin, and the two definitions were removed from the read-aloud prompt so it matches the visible prompt (they stay in the hint). Verify (verify-agent, 2026-10-14): Verified against rendered pp. 329 (MS-ETS1-1 box), 340 (expense, time and difficulty as limits) and 341. Explorer O4 defines criteria and constraints, and each requirement has one bin.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud requirements no longer grouped by bin; definitions removed so read-aloud matches the visible prompt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q27",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O4"
+      ],
+      "conceptTags": [
+        "comparing designs",
+        "criteria",
+        "constraints",
+        "test data"
+      ],
+      "familyId": "L25-F13",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A team tested three model bridge designs on the same shake table. The bridge must stay usable after the strong-shaking test (a criterion) and cost no more than 8 budget units (a constraint). Which design should the team choose?",
+      "accessiblePrompt": "A team tested three model bridge designs on the same shake table with the same strong-shaking setting. Design A costs 5 budget units; after the test its deck cracked through and it had to close. Design B costs 7 units; after the test it had minor cracks and was still usable. Design C costs 12 units; after the test it had no damage and was fully usable. The bridge must stay usable after the strong-shaking test, which is a criterion, and cost no more than 8 budget units, which is a constraint. Which design should the team choose?",
+      "conditions": "All three models were tested on the same shake table with the same strong-shaking setting.",
+      "limitations": "Invented practice data. A small model test only approximates how a full-size bridge would behave.",
+      "diagram": {
+        "kind": "table",
+        "caption": "Shake-table results for three model bridges (invented practice data)",
+        "alt": "Table of three designs. Design A: cost 5 budget units; after the strong-shaking test the deck cracked through and the bridge closed. Design B: cost 7 units; minor cracks, still usable. Design C: cost 12 units; no damage, fully usable.",
+        "columns": [
+          "Design",
+          "Cost (budget units)",
+          "Condition after strong-shaking test"
+        ],
+        "rows": [
+          [
+            "A",
+            5,
+            "Deck cracked through; closed"
+          ],
+          [
+            "B",
+            7,
+            "Minor cracks; still usable"
+          ],
+          [
+            "C",
+            12,
+            "No damage; fully usable"
+          ]
+        ]
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Design A: 5 units, closed after the test",
+          "rationale": "Design A costs the least, but it fails the criterion: it was not usable after the strong shaking."
+        },
+        {
+          "id": "b",
+          "text": "Design B: 7 units, still usable after the test",
+          "rationale": "Correct: it stayed usable, which meets the criterion, and 7 units is within the 8-unit limit."
+        },
+        {
+          "id": "c",
+          "text": "Design C: 12 units, no damage after the test",
+          "rationale": "Design C came through undamaged, but 12 units breaks the 8-unit budget constraint."
+        },
+        {
+          "id": "d",
+          "text": "Design C rebuilt with fewer supports to lower its cost",
+          "rationale": "That would be a new, untested design; the removed supports may be what kept it undamaged."
+        }
+      ],
+      "answer": "b",
+      "explanation": "The best design is the one that meets every criterion within every constraint, not the cheapest or the strongest. Design A is affordable but fails the usability criterion. Design C performs best but breaks the budget. Design B meets both requirements, so it is the best fit.",
+      "misconception": "The strongest or the cheapest design is automatically the best choice.",
+      "hint": "Cross out any design that fails a criterion or breaks a constraint. What is left?",
+      "followUpId": "L25-Q25",
+      "scope": {
+        "lessonId": "L25",
+        "section": "5. Designing Earthquake-Resistant Bridges",
+        "pages": {
+          "printed": [
+            341
+          ],
+          "pdf": [
+            377
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            341
+          ],
+          "pdfPages": [
+            377
+          ],
+          "locator": "Section 5, Choosing an Appropriate Design",
+          "supports": "Engineers compare the candidate designs and pick the one that best satisfies the criteria and constraints."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 341. Invented data; one design meets both requirements. Round 1 (reviser, 2026-10-14): choices rewritten in parallel, data-based form so the key no longer repeats the prompt's 'criterion and constraint' wording. Ids kept: each choice still names the same design. Verify (verify-agent, 2026-10-14): Verified against rendered p. 341. Invented data are labelled; only Design B meets both the criterion and the constraint.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices rewritten in parallel data form so the key no longer echoes the prompt's 'criterion and constraint'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L25-Q28",
+      "lessonId": "L25",
+      "objectiveIds": [
+        "L25-O4"
+      ],
+      "conceptTags": [
+        "fair test",
+        "controlled variables",
+        "comparing designs",
+        "shake table"
+      ],
+      "familyId": "L25-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A team tested a cable bridge model with gentle shaking for 10 seconds and an arch bridge model with strong shaking for 30 seconds, then concluded the cable design is stronger. Which changes would make their comparison fair? Select all that apply.",
+      "accessiblePrompt": "A team tested a cable bridge model with gentle shaking for 10 seconds and an arch bridge model with strong shaking for 30 seconds, then concluded that the cable design is stronger. Which changes would make their comparison fair? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Use the same shaking strength for both models",
+          "rationale": "Correct: equal shaking removes one difference that had nothing to do with design."
+        },
+        {
+          "id": "b",
+          "text": "Shake both models for the same length of time",
+          "rationale": "Correct: equal time removes a second unfair difference."
+        },
+        {
+          "id": "c",
+          "text": "Give the arch model a heavier load, since it looked sturdier",
+          "rationale": "That adds a new difference, making the test less fair, not more."
+        },
+        {
+          "id": "d",
+          "text": "Test only the cable model again, since it already did well",
+          "rationale": "Retesting one model leaves the unfair comparison in place."
+        },
+        {
+          "id": "e",
+          "text": "Let each model use whichever shaking setting it handles best",
+          "rationale": "Different settings for each model is the very problem the team needs to fix."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A fair test changes only the thing being compared, here the bridge design, and keeps everything else the same. The original test gave the arch bridge stronger and longer shaking, so its worse result could come from the test rather than the design. Giving both models the same shaking strength and the same shaking time, while keeping everything else, such as the load, equal, makes the comparison fair.",
+      "misconception": "Any test that produces numbers is a fair comparison.",
+      "hint": "If the two bridges get different tests, can you tell whether the design or the test caused the difference?",
+      "followUpId": "L25-Q21",
+      "scope": {
+        "lessonId": "L25",
+        "section": "5. Designing Earthquake-Resistant Bridges",
+        "pages": {
+          "printed": [
+            341
+          ],
+          "pdf": [
+            377
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            341
+          ],
+          "pdfPages": [
+            377
+          ],
+          "locator": "Section 5, Choosing an Appropriate Design",
+          "supports": "Once criteria are clear, engineers compare different designs to decide which best meets the criteria and constraints."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            340
+          ],
+          "pdfPages": [
+            376
+          ],
+          "locator": "Section 5, Designing Earthquake-Resistant Bridges",
+          "supports": "Engineers use standard approaches when designing structures such as bridges."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 340-341. Fair-test reasoning applied to the lesson's bridge comparison; the brief asks for comparing structures with an explicit test. Round 1 (reviser, 2026-10-14): choice list removed from the read-aloud prompt (it listed the keys first); follow-up now L25-Q21, which compares two records over the same 300-year window. Verify (verify-agent, 2026-10-14): Verified against rendered pp. 340-341: two keys, three decoys, and sound fair-test logic for the brief's 'compare structures with an explicit test'.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice list removed from the read-aloud prompt; follow-up now L25-Q21 (same-window comparison)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

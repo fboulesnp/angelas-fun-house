@@ -1,0 +1,1522 @@
+{
+  "lessonId": "L15",
+  "guidingQuestion": "Why do chemicals and chemical reactions matter so much to society?",
+  "hook": "A handful of corn kernels can end up as a clear, sturdy cup, so how do engineers turn something grown in a field into a material no farm could ever grow?",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          182,
+          183
+        ],
+        "pdf": [
+          218,
+          219
+        ]
+      }
+    },
+    {
+      "title": "1. Synthetic Materials Come from Natural Ones",
+      "pages": {
+        "printed": [
+          184,
+          185
+        ],
+        "pdf": [
+          220,
+          221
+        ]
+      }
+    },
+    {
+      "title": "2. Fuels and Society: Biofuels",
+      "pages": {
+        "printed": [
+          186,
+          187
+        ],
+        "pdf": [
+          222,
+          223
+        ]
+      }
+    },
+    {
+      "title": "3. Food and Society: Sucralose",
+      "pages": {
+        "printed": [
+          188,
+          189
+        ],
+        "pdf": [
+          224,
+          225
+        ]
+      }
+    },
+    {
+      "title": "4. Medicines and Society: Paclitaxel",
+      "pages": {
+        "printed": [
+          190,
+          191
+        ],
+        "pdf": [
+          226,
+          227
+        ]
+      }
+    },
+    {
+      "title": "5. Engineering and Improving Plastics",
+      "pages": {
+        "printed": [
+          192,
+          193
+        ],
+        "pdf": [
+          228,
+          229
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L15-O1",
+      "kind": "observe",
+      "text": "Tell natural resources apart from synthetic materials, and trace a synthetic material back to the natural resource and the chemical process it comes from.",
+      "sections": [
+        "Introduction",
+        "1. Synthetic Materials Come from Natural Ones",
+        "2. Fuels and Society: Biofuels"
+      ],
+      "pages": {
+        "printed": [
+          183,
+          184,
+          185,
+          187
+        ],
+        "pdf": [
+          219,
+          220,
+          221,
+          223
+        ]
+      }
+    },
+    {
+      "id": "L15-O2",
+      "kind": "relate",
+      "text": "Explain how the structure of a material's molecules gives it the properties that make it useful, using plastics' long chains and sucralose's sugar-like shape as examples.",
+      "sections": [
+        "1. Synthetic Materials Come from Natural Ones",
+        "3. Food and Society: Sucralose",
+        "5. Engineering and Improving Plastics"
+      ],
+      "pages": {
+        "printed": [
+          184,
+          185,
+          188,
+          192,
+          193
+        ],
+        "pdf": [
+          220,
+          221,
+          224,
+          228,
+          229
+        ]
+      }
+    },
+    {
+      "id": "L15-O3",
+      "kind": "apply",
+      "text": "Weigh the benefits and drawbacks of synthetic materials in fuels, foods and medicines, judging each choice by evidence instead of by a 'natural' or 'synthetic' label.",
+      "sections": [
+        "2. Fuels and Society: Biofuels",
+        "3. Food and Society: Sucralose",
+        "4. Medicines and Society: Paclitaxel"
+      ],
+      "pages": {
+        "printed": [
+          186,
+          187,
+          188,
+          189,
+          190,
+          191
+        ],
+        "pdf": [
+          222,
+          223,
+          224,
+          225,
+          226,
+          227
+        ]
+      }
+    },
+    {
+      "id": "L15-O4",
+      "kind": "apply",
+      "text": "Define the criteria and constraints of a design problem, and use test evidence to explain why engineers revise a solution, using plastics as the example.",
+      "sections": [
+        "Introduction",
+        "5. Engineering and Improving Plastics"
+      ],
+      "pages": {
+        "printed": [
+          183,
+          192,
+          193
+        ],
+        "pdf": [
+          219,
+          228,
+          229
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Every synthetic material starts out as natural resources. Chemical processes change those resources into new materials with useful properties.",
+    "'Synthetic' describes how a material was made. It does not mean fake, and it does not mean nature never makes the same substance: lab-grown sapphire matches mined sapphire.",
+    "Petroleum is a mixture of many carbon-and-hydrogen substances. Its parts become fuels, plastics, polyester, food dyes, flavorings, rubber and medicines.",
+    "A material's properties come from the structure of its particles. Plastics are made of long, tangled chains that make them strong and let thin pieces flex; sucralose's sugar-like shape tastes sweet, but its three chlorine atoms stop the body from using it for energy.",
+    "Choosing a material means weighing tradeoffs. Corn ethanol comes from a crop that can be grown again every year, but it uses farmland, competes with food and feed, and takes a lot of energy to make.",
+    "A renewable resource can still run out if it is used faster than it is replaced. Stripping slow-growing yew bark killed the trees; clipping needles that regrow made the cancer drug paclitaxel easier to supply.",
+    "Engineers state criteria (what a solution must do) and constraints (limits such as cost, materials and time). When evidence shows a solution has caused new problems, they revise the criteria and test new designs.",
+    "Natural does not automatically mean safe, and synthetic does not automatically mean harmful. Each substance has to be judged by evidence about its own properties and effects."
+  ],
+  "glossary": [
+    {
+      "term": "natural resource",
+      "definition": "A useful material or substance that people take from nature, such as gold, wood, fish oil, nitrogen from the air or crude oil. Mining, pumping or harvesting it does not turn it into a new substance.",
+      "pages": {
+        "printed": [
+          183,
+          184
+        ],
+        "pdf": [
+          219,
+          220
+        ]
+      }
+    },
+    {
+      "term": "synthetic material",
+      "definition": "A material people make from natural resources by chemical processes. Some are brand-new substances; others, like lab-grown sapphire, match a natural one.",
+      "pages": {
+        "printed": [
+          183,
+          184
+        ],
+        "pdf": [
+          219,
+          220
+        ]
+      }
+    },
+    {
+      "term": "alloy",
+      "definition": "A metal mixed with one or more other elements to change its properties. Bronze and brass are copper alloys that are harder than pure copper.",
+      "pages": {
+        "printed": [
+          184
+        ],
+        "pdf": [
+          220
+        ]
+      }
+    },
+    {
+      "term": "petroleum",
+      "definition": "Crude oil: an underground liquid made of many different substances built from carbon and hydrogen. It took millions of years to form from the buried remains of ancient, mostly ocean-dwelling, living things.",
+      "pages": {
+        "printed": [
+          184,
+          186
+        ],
+        "pdf": [
+          220,
+          222
+        ]
+      }
+    },
+    {
+      "term": "fossil fuel",
+      "definition": "A fuel such as coal, petroleum or natural gas that formed from the remains of long-dead organisms. It is used far faster than nature makes more.",
+      "pages": {
+        "printed": [
+          186
+        ],
+        "pdf": [
+          222
+        ]
+      }
+    },
+    {
+      "term": "polymer",
+      "definition": "A substance whose molecules are long chains of repeating units. Many plastics, including PLA, are polymers.",
+      "pages": {
+        "printed": [
+          184,
+          185
+        ],
+        "pdf": [
+          220,
+          221
+        ]
+      }
+    },
+    {
+      "term": "biofuel",
+      "definition": "A fuel made from recently living things, such as corn or algae, instead of from fossil fuels. Ethanol is one example.",
+      "pages": {
+        "printed": [
+          186,
+          187
+        ],
+        "pdf": [
+          222,
+          223
+        ]
+      }
+    },
+    {
+      "term": "ethanol fermentation",
+      "definition": "A chemical process in which yeast break glucose down through a series of reactions, producing ethanol and carbon dioxide.",
+      "pages": {
+        "printed": [
+          187
+        ],
+        "pdf": [
+          223
+        ]
+      }
+    },
+    {
+      "term": "renewable resource",
+      "definition": "A resource that nature replaces in a fairly short time, such as a crop grown each year. Renewable does not mean unlimited: if people use it faster than it is replaced, it can still run short.",
+      "pages": {
+        "printed": [
+          187,
+          191
+        ],
+        "pdf": [
+          223,
+          227
+        ]
+      }
+    },
+    {
+      "term": "food additive",
+      "definition": "Any substance added to food to improve its taste, color, freshness, nutrition or safety. Additives can be natural, like salt and sugar, or synthetic, like sucralose.",
+      "pages": {
+        "printed": [
+          183,
+          188
+        ],
+        "pdf": [
+          219,
+          224
+        ]
+      }
+    },
+    {
+      "term": "biodegradable",
+      "definition": "Describes a material that living things, mainly bacteria and fungi, can break apart into simpler, smaller substances. How fast this happens depends on conditions like heat and moisture.",
+      "pages": {
+        "printed": [
+          183,
+          193
+        ],
+        "pdf": [
+          219,
+          229
+        ]
+      }
+    },
+    {
+      "term": "criteria",
+      "definition": "The things a design must do to count as a success, such as holding a drink without leaking or breaking down quickly after use.",
+      "pages": {
+        "printed": [
+          183,
+          192
+        ],
+        "pdf": [
+          219,
+          228
+        ]
+      }
+    },
+    {
+      "term": "constraint",
+      "definition": "A limit that a design must work within, such as a budget, the materials or equipment available, or a deadline.",
+      "pages": {
+        "printed": [
+          183
+        ],
+        "pdf": [
+          219
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L15-O1",
+      "title": "From field, forest and underground to factory",
+      "paragraphs": [
+        "A natural resource is something useful that people get from nature without chemically changing it into a new substance, such as gold dug from a mine, nitrogen collected from the air, wood, fish oil, corn, or crude oil pumped from underground.",
+        "A synthetic material is made when chemical processes change natural resources into new materials. Every synthetic material has a natural starting point, so you can always trace it back.",
+        "Petroleum is the starting point for a huge family of products. Substances made from it lead to plastics, polyester cloth, the food dye Blue No. 1, a synthetic version of vanillin, glove rubber and many medicines.",
+        "Living things are starting points too. Corn kernels store starch, which is first broken into glucose; yeast then ferment the glucose into ethanol fuel. Corn can also become PLA plastic, and a substance from European yew needles is turned into the cancer drug paclitaxel.",
+        "The word 'synthetic' tells how something was made, not whether nature makes it too. A lab-grown sapphire has the same makeup as a mined one; it counts as synthetic only because people produced it."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "web",
+        "caption": "Tracing products back to natural resources",
+        "alt": "Arrows point from each natural resource to products made from it by chemical processes. Crude oil (petroleum) leads to plastics, polyester fabric, Blue No. 1 food coloring and many medicines. Corn leads to ethanol fuel (by yeast fermentation) and to PLA plastic. European yew needles lead to the cancer medicine paclitaxel.",
+        "nodes": [
+          {
+            "id": "oil",
+            "label": "Crude oil (petroleum)",
+            "group": "natural resource"
+          },
+          {
+            "id": "corn",
+            "label": "Corn",
+            "group": "natural resource"
+          },
+          {
+            "id": "yew",
+            "label": "European yew needles",
+            "group": "natural resource"
+          },
+          {
+            "id": "plastic",
+            "label": "Plastics",
+            "group": "synthetic material"
+          },
+          {
+            "id": "polyester",
+            "label": "Polyester fabric",
+            "group": "synthetic material"
+          },
+          {
+            "id": "dye",
+            "label": "Blue No. 1 food coloring",
+            "group": "synthetic material"
+          },
+          {
+            "id": "medicine",
+            "label": "Many medicines",
+            "group": "synthetic material"
+          },
+          {
+            "id": "ethanol",
+            "label": "Ethanol fuel",
+            "group": "synthetic material"
+          },
+          {
+            "id": "pla",
+            "label": "PLA plastic",
+            "group": "synthetic material"
+          },
+          {
+            "id": "taxol",
+            "label": "Paclitaxel (cancer medicine)",
+            "group": "synthetic material"
+          }
+        ],
+        "edges": [
+          {
+            "from": "oil",
+            "to": "plastic"
+          },
+          {
+            "from": "oil",
+            "to": "polyester"
+          },
+          {
+            "from": "oil",
+            "to": "dye"
+          },
+          {
+            "from": "oil",
+            "to": "medicine"
+          },
+          {
+            "from": "corn",
+            "to": "ethanol",
+            "label": "fermentation"
+          },
+          {
+            "from": "corn",
+            "to": "pla"
+          },
+          {
+            "from": "yew",
+            "to": "taxol",
+            "label": "chemical steps"
+          }
+        ]
+      },
+      "watchOut": "Synthetic does not mean fake, and it does not mean the substance never occurs in nature. It means people made it by chemical processes, always starting from natural resources.",
+      "pages": {
+        "printed": [
+          183,
+          184,
+          185,
+          187,
+          191
+        ],
+        "pdf": [
+          219,
+          220,
+          221,
+          223,
+          227
+        ]
+      }
+    },
+    {
+      "objectiveId": "L15-O2",
+      "title": "Structure decides the job",
+      "paragraphs": [
+        "A material's properties come from the particles it is made of and how they are arranged. Engineers choose or design structures that give a product the properties it needs.",
+        "PLA and other plastics are polymers: each molecule is a long chain, and the chains tangle together. That makes plastics strong, and thin pieces can flex. How stiff a plastic is also depends on how its chains are arranged and on temperature: PLA is fairly stiff and can crack, while some other plastics stretch much farther before they break.",
+        "What the chains are built from matters too. PLA's chains are made from different units than plastics made from ethylene, so in hot, moist compost they can be split apart and digested by microbes, while plastics made from ethylene last for years.",
+        "Sucralose is built almost like sucrose, table sugar: two rings linked by an oxygen atom. That shape fits the sweet sensors on the tongue, so sucralose tastes sweet. But three chlorine atoms sit where sucrose has three oxygen-hydrogen groups, and that small change means the body cannot digest it for energy.",
+        "Thousands of years ago, mixing copper with other metals made bronze and brass, which were harder than pure copper. New structure, new property, new kinds of tools."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Sucrose and sucralose side by side",
+        "alt": "A table comparing two molecules. Sucrose (table sugar) has the formula C 12 H 22 O 11: 12 carbon, 22 hydrogen and 11 oxygen atoms, and no chlorine atoms. Sucralose has the formula C 12 H 19 C l 3 O 8: 12 carbon, 19 hydrogen, 3 chlorine and 8 oxygen atoms. Both have two rings joined by an oxygen atom, and both taste sweet. The body gets energy from sucrose but almost none from sucralose.",
+        "columns": [
+          "Feature",
+          "Sucrose (table sugar)",
+          "Sucralose"
+        ],
+        "rows": [
+          [
+            "Formula",
+            "C₁₂H₂₂O₁₁",
+            "C₁₂H₁₉Cl₃O₈"
+          ],
+          [
+            "Chlorine atoms",
+            0,
+            3
+          ],
+          [
+            "Two rings joined by an oxygen atom",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Tastes sweet",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Body gets energy from it",
+            "Yes",
+            "Almost none"
+          ]
+        ]
+      },
+      "watchOut": "Molecules that look alike can behave very differently: swapping three small groups of atoms keeps sucralose sweet but makes it useless as food energy. Molecule models show how atoms connect, not their real sizes or colors.",
+      "pages": {
+        "printed": [
+          184,
+          185,
+          188,
+          192,
+          193
+        ],
+        "pdf": [
+          220,
+          221,
+          224,
+          228,
+          229
+        ]
+      }
+    },
+    {
+      "objectiveId": "L15-O3",
+      "title": "Every material choice has tradeoffs",
+      "paragraphs": [
+        "Fuels: corn ethanol comes from a crop that can be planted and harvested every year, while petroleum took millions of years to form. But corn for fuel uses farmland and competes with food and animal feed (although leftover distillers grains from ethanol plants are fed to livestock), and farming and processing it take a lot of energy.",
+        "Foods: zero-calorie sweeteners such as sucralose let people enjoy sweet tastes while limiting sugar and calories. During World War I, when sugar was scarce, many people switched to saccharin, then went back to sugar after the war.",
+        "Medicines: the cancer drug paclitaxel was first taken from Pacific yew bark, but stripping the bark kills trees that need about a century to grow. Switching to needles from the European yew, which grow back, made the supply easier to sustain. By 2004, one drug company was making paclitaxel from yew cells grown in tanks instead of from harvested trees.",
+        "Renewable is not the same as unlimited. Even a renewable resource can run short if people use it faster than it is replaced, which is why the way something is harvested matters."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Benefits and costs of three choices",
+        "alt": "A table with three rows. Corn ethanol: benefit, a new crop can be grown every year; drawback, it uses farmland, competes with food and feed, and takes a lot of energy to make. Zero-calorie sweetener: benefit, sweet taste with little or no sugar or calories; limit, it supplies no food energy. Paclitaxel from European yew needles instead of Pacific yew bark: benefit, trees stay alive and needles regrow; limit, chemists must still convert a starting substance from the needles into the drug.",
+        "columns": [
+          "Choice",
+          "Benefit",
+          "Drawback or limit"
+        ],
+        "rows": [
+          [
+            "Corn ethanol instead of gasoline",
+            "A new crop can be grown every year",
+            "Uses farmland and competes with food and feed; takes a lot of energy to make"
+          ],
+          [
+            "Zero-calorie sweetener instead of sugar",
+            "Sweet taste with little or no sugar or calories",
+            "Supplies no food energy"
+          ],
+          [
+            "Paclitaxel from yew needles instead of bark",
+            "Trees stay alive; needles regrow",
+            "Chemists must still convert a substance from the needles into the drug"
+          ]
+        ]
+      },
+      "watchOut": "Natural is not automatically safe, and synthetic is not automatically harmful. Judge each substance by evidence about its own properties, amounts and uses, not by its label.",
+      "pages": {
+        "printed": [
+          186,
+          187,
+          189,
+          190,
+          191
+        ],
+        "pdf": [
+          222,
+          223,
+          225,
+          226,
+          227
+        ]
+      }
+    },
+    {
+      "objectiveId": "L15-O4",
+      "title": "Criteria, constraints and second drafts",
+      "paragraphs": [
+        "Criteria are what a design must do to succeed. Constraints are the limits it must fit within, such as cost, available materials and time. The more precisely both are stated, the more likely it is that the chosen design will succeed.",
+        "Plastics met their first criteria well: sturdy, flexible, light and long-lasting, and they were cheap to make. Then studies found many plastic items were used once and thrown out, often could not be recycled, filled landfills for years, and were sometimes eaten by wildlife.",
+        "So engineers added a new criterion: break down quickly after use. That rules out many materials, but a material that meets every criterion would solve the real problem better.",
+        "PLA, a plant-based plastic that bacteria can break down, was one answer. Tests showed it breaks down quickly only when kept hot for weeks at an industrial composting facility, so engineers are still working on a plastic that breaks down quickly in an ordinary landfill. Breakdown in a landfill has its own cost, though: without oxygen, the bacteria that break waste down there give off methane, a greenhouse gas."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "The design cycle in the plastics story",
+        "alt": "A loop of five steps with arrows. Define criteria and constraints, then design a solution (plastic containers), then use it and gather evidence, then find new problems (full landfills, harm to wildlife), then revise the criteria (break down quickly), and an arrow leads back to designing and testing a new solution such as PLA.",
+        "nodes": [
+          {
+            "id": "define",
+            "label": "Define criteria and constraints"
+          },
+          {
+            "id": "design",
+            "label": "Design a solution"
+          },
+          {
+            "id": "use",
+            "label": "Use it and gather evidence"
+          },
+          {
+            "id": "problem",
+            "label": "Find new problems"
+          },
+          {
+            "id": "revise",
+            "label": "Revise the criteria"
+          }
+        ],
+        "edges": [
+          {
+            "from": "define",
+            "to": "design"
+          },
+          {
+            "from": "design",
+            "to": "use"
+          },
+          {
+            "from": "use",
+            "to": "problem"
+          },
+          {
+            "from": "problem",
+            "to": "revise"
+          },
+          {
+            "from": "revise",
+            "to": "design",
+            "label": "test a new design, such as PLA"
+          }
+        ]
+      },
+      "watchOut": "'Biodegradable' depends on conditions. A material that breaks down in a hot industrial composter can last for years in a landfill or a backyard compost pile.",
+      "pages": {
+        "printed": [
+          183,
+          192,
+          193
+        ],
+        "pdf": [
+          219,
+          228,
+          229
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L15-RF1",
+      "issue": "p. 187 says petroleum 'takes hundreds of years to form', which contradicts p. 184 ('formed over millions of years'). p. 186 also says fossil fuels formed from decayed plants and animals; for oil, the source organisms were mainly tiny marine plants and animals.",
+      "pages": {
+        "printed": [
+          184,
+          186,
+          187
+        ],
+        "pdf": [
+          220,
+          222,
+          223
+        ]
+      },
+      "resolution": "Game text says petroleum formed over millions of years from the buried remains of ancient (mostly marine) living things. Since reviser round 1 no question uses 'hundreds of years', even as a distractor; Q15's explanation states millions of years.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, petroleum paragraph",
+          "supports": "Petroleum formed underground over millions of years from the remains of living things."
+        },
+        {
+          "type": "external",
+          "title": "Oil and petroleum products explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/",
+          "accessed": "2026-10-14",
+          "supports": "Crude oil formed from the remains of marine plants and animals (diatoms) buried and transformed over millions of years; it is grouped with nonrenewable sources."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF2",
+      "issue": "p. 187 states as a general fact that making ethanol takes more energy than the ethanol releases. Published USDA studies found corn ethanol returns more energy than it uses, and the balance depends on farming and processing methods.",
+      "pages": {
+        "printed": [
+          187
+        ],
+        "pdf": [
+          223
+        ]
+      },
+      "resolution": "No question asserts either side as fact. Q16 asks which measurement would test the claim (energy in versus energy out), and its explanation dates the 1995 USDA estimate and notes that a later study found a larger net gain. Q14's drawback item says only that farming and processing use a lot of energy, which DOE supports.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, why ethanol is not yet widespread",
+          "supports": "The textbook lists inefficiency, farmland use and competition with food and feed as reasons ethanol is not more widely used."
+        },
+        {
+          "type": "external",
+          "title": "Estimating the Net Energy Balance of Corn Ethanol (AER-721, 1995)",
+          "publisher": "USDA Economic Research Service",
+          "url": "https://www.ers.usda.gov/publications/40674",
+          "accessed": "2026-10-14",
+          "supports": "A 1995 USDA study estimated an energy ratio of 1.24 for corn ethanol (more energy out than in) and said its net energy value had become positive."
+        },
+        {
+          "type": "external",
+          "title": "ABC's of Biofuels (archived Bioenergy Technologies page)",
+          "publisher": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+          "url": "https://www1.eere.energy.gov/bioenergy/pdfs/Archive/abcs_biofuels.html",
+          "accessed": "2026-10-14",
+          "supports": "Modern high-yield corn production is relatively energy intensive, and the fossil energy used to grow and process the feedstock must be counted."
+        },
+        {
+          "type": "external",
+          "title": "2015 Energy Balance for the Corn-Ethanol Industry (Gallagher, Yee and Baumes, 2016)",
+          "publisher": "Iowa State University, Department of Economics (ISU General Staff Papers), indexed by RePEc IDEAS",
+          "url": "https://ideas.repec.org/p/isu/genstf/201602010800001042.html",
+          "accessed": "2026-10-14",
+          "supports": "Corn ethanol moved from an energy sink to a moderate net energy gain in the 1990s, and to a substantial net energy gain by 2008."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF3",
+      "issue": "p. 187 simplifies fermentation: it says scientists perform it and that glucose 'in corn' becomes ethanol. Corn kernels store mostly starch, which is first broken into glucose; yeast (living microbes) carry out the fermentation, which also releases carbon dioxide.",
+      "pages": {
+        "printed": [
+          187
+        ],
+        "pdf": [
+          223
+        ]
+      },
+      "resolution": "The O1 card and Q17 say the starch in corn is first broken down into glucose; the glossary, the O1 card, Q17 and Q18 say yeast ferment the glucose into ethanol and carbon dioxide. Q18's balanced equation (C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂) was checked by atom counting: 6 C, 12 H and 6 O on each side.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, ethanol fermentation paragraph",
+          "supports": "Glucose (C₆H₁₂O₆) molecules from corn undergo a series of reactions that turn them into ethanol."
+        },
+        {
+          "type": "external",
+          "title": "ABC's of Biofuels (archived Bioenergy Technologies page)",
+          "publisher": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+          "url": "https://www1.eere.energy.gov/bioenergy/pdfs/Archive/abcs_biofuels.html",
+          "accessed": "2026-10-14",
+          "supports": "U.S. fuel ethanol is based mainly on the starch in corn kernels; hydrolysis turns polysaccharides into simple sugars, and yeast or bacteria feed on the sugars, producing ethanol and carbon dioxide."
+        },
+        {
+          "type": "external",
+          "title": "Fermentation of glucose using yeast",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/fermentation-of-glucose-using-yeast-14-16-years/470.article",
+          "accessed": "2026-10-14",
+          "supports": "Yeast contains enzymes that catalyse the breakdown of glucose to ethanol and carbon dioxide."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF4",
+      "issue": "The Lesson Summary (p. 193) defines a synthetic material as one that 'does not occur in nature', but p. 184 says synthetic sapphires are identical to mined ones and the vocabulary box (p. 183) defines synthetic by how it is produced.",
+      "pages": {
+        "printed": [
+          183,
+          184,
+          193
+        ],
+        "pdf": [
+          219,
+          220,
+          229
+        ]
+      },
+      "resolution": "Game defines 'synthetic' by how a material is made (chemical processes from natural resources), never by whether nature makes the same substance. Q02's stem and explanation carry this repair (a material can be synthetic even when nature makes the same substance); since reviser round 2 its distractors target 'synthetic means fake' and 'synthetic means made from petroleum'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, synthetic sapphire paragraph",
+          "supports": "Synthetic sapphires made in laboratories cannot be told apart from mined sapphires and are used in lasers."
+        },
+        {
+          "type": "external",
+          "title": "An Introduction to Synthetic Gem Materials",
+          "publisher": "Gemological Institute of America (GIA)",
+          "url": "https://www.gia.edu/gem-synthetic",
+          "accessed": "2026-10-14",
+          "supports": "A synthetic gem material is made in a laboratory yet shares virtually all chemical, optical and physical characteristics of its natural counterpart; synthetic corundum includes sapphire."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF5",
+      "issue": "The printed Lesson Summary entry for 'Engineering and Improving Plastics' (p. 193) is missing words, so the sentence does not make sense. This is a print error, not an OCR error (confirmed on the render).",
+      "pages": {
+        "printed": [
+          193
+        ],
+        "pdf": [
+          229
+        ]
+      },
+      "resolution": "Game uses its own summary (key idea 7): a solution that once worked can create new problems, so engineers revise the criteria and develop new solutions.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192,
+            193
+          ],
+          "pdfPages": [
+            228,
+            229
+          ],
+          "locator": "Section 5, Revising Criteria and Developing New Engineering Solutions",
+          "supports": "Plastics solved one problem but created new ones, leading engineers to set new criteria and look for new materials."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF6",
+      "issue": "p. 189 says a person with diabetes can use sucralose 'without having to worry about high blood sugar and other medical problems'. That is an overstatement and health advice; regulators say only that such sweeteners generally will not raise blood sugar.",
+      "pages": {
+        "printed": [
+          189
+        ],
+        "pdf": [
+          225
+        ]
+      },
+      "resolution": "Game says zero-calorie sweeteners let people enjoy sweet tastes while limiting sugar and calories. No question gives diet or medical advice; Q20 uses a sports-drink company scenario.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            189
+          ],
+          "pdfPages": [
+            225
+          ],
+          "locator": "Section 3, why people choose zero-calorie sweeteners",
+          "supports": "People who want to limit sugar can still enjoy sweet foods by using sweeteners like sucralose."
+        },
+        {
+          "type": "external",
+          "title": "Aspartame and Other Sweeteners in Food",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+          "accessed": "2026-10-14",
+          "supports": "High-intensity sweeteners contribute only a few or no calories and generally will not raise blood sugar levels; FDA approved sucralose in 1998 after reviewing studies including people with diabetes."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF7",
+      "issue": "pp. 190-191 call paclitaxel a 'synthetic material' made from substances in Pacific yew bark. Paclitaxel itself is a natural compound first extracted from the bark. The needle-based method extracts a related starting compound, which chemists then convert into paclitaxel (semisynthesis).",
+      "pages": {
+        "printed": [
+          190,
+          191
+        ],
+        "pdf": [
+          226,
+          227
+        ]
+      },
+      "resolution": "Game says paclitaxel was first found in Pacific yew bark, and the needle method turns a substance from European yew needles into the drug by chemical steps. Q21 has a distractor that repairs the idea that needles contain the finished drug. Today's methods are covered in L15-RF19.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            190,
+            191
+          ],
+          "pdfPages": [
+            226,
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from Pacific Yew Bark / European Yew Needles",
+          "supports": "Paclitaxel was found through a plant survey and first came from Pacific yew bark; a later method used European yew needles."
+        },
+        {
+          "type": "external",
+          "title": "A Story of Discovery: Natural Compound Helps Treat Breast and Ovarian Cancers",
+          "publisher": "National Cancer Institute (NIH)",
+          "url": "https://www.cancer.gov/research/progress/discovery/taxol",
+          "accessed": "2026-10-14",
+          "supports": "Pacific yew bark was collected in 1962 during an NCI plant-screening program; harvesting the bark kills the tree, and Bristol-Myers Squibb later made Taxol from a semisynthetic form of the compound."
+        },
+        {
+          "type": "external",
+          "title": "Taxol",
+          "publisher": "Florida State University, Office of Research",
+          "url": "https://research.magnet.fsu.edu/research-offices/oc/taxol/",
+          "accessed": "2026-10-14",
+          "supports": "Holton's group developed a semisynthetic process (1989) that makes Taxol from 10-deacetylbaccatin III, a compound more readily available from renewable sources."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF8",
+      "issue": "p. 191 gives figures (bark of as many as six mature trees per patient; trees take 100 years to mature) and says Pacific yews grow only along the Pacific coast. The figures are rough historical estimates, and the species also grows inland on the western slopes of the Rocky Mountains.",
+      "pages": {
+        "printed": [
+          191
+        ],
+        "pdf": [
+          227
+        ]
+      },
+      "resolution": "Q22 labels the six-tree number as the textbook's estimate for the original bark method. Game text says the trees grow slowly and mature over about a century, and avoids any claim about the tree's range.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "The textbook estimates up to six mature trees' bark per patient and says the trees take about 100 years to mature."
+        },
+        {
+          "type": "external",
+          "title": "Plant Data Sheet: Taxus brevifolia (Pacific yew), compiled by L. Seebacher, 2003",
+          "publisher": "University of Washington (depts.washington.edu)",
+          "url": "https://depts.washington.edu/propplnt/Plants/Taxus%20brevifolia.htm",
+          "accessed": "2026-10-14",
+          "supports": "Pacific yew grows slowly; its range runs along the coast from southeast Alaska to northern California and inland on the western slopes of the Rockies south to western Montana."
+        },
+        {
+          "type": "external",
+          "title": "A Story of Discovery: Natural Compound Helps Treat Breast and Ovarian Cancers",
+          "publisher": "National Cancer Institute (NIH)",
+          "url": "https://www.cancer.gov/research/progress/discovery/taxol",
+          "accessed": "2026-10-14",
+          "supports": "Pacific yew trees grow slowly, and large amounts of bark were needed for therapeutic doses."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF9",
+      "issue": "p. 190 says aspirin 'is made from a substance found in' willow trees. Aspirin was developed by chemically changing salicylic acid, a relative of willow's salicin, and its building block can be synthesized from smaller molecules.",
+      "pages": {
+        "printed": [
+          190
+        ],
+        "pdf": [
+          226
+        ]
+      },
+      "resolution": "Game text does not mention aspirin; Q30 uses penicillin and paclitaxel as its nature-first medicine examples.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            190
+          ],
+          "pdfPages": [
+            226
+          ],
+          "locator": "Section 4, opening paragraphs",
+          "supports": "Many medicines were first discovered in nature; the textbook names aspirin and penicillin."
+        },
+        {
+          "type": "external",
+          "title": "The Story of Aspirin",
+          "publisher": "U.S. National Library of Medicine (NIH)",
+          "url": "https://www.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+          "accessed": "2026-10-14",
+          "supports": "Willow bark was used for pain and fever; salicin was isolated from it in 1829; chemists synthesized acetylsalicylic acid, which Bayer named aspirin, and Kolbe found a way to synthesize salicylic acid from smaller molecules."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF10",
+      "issue": "The opener (p. 183) calls PLA cups biodegradable without conditions, and p. 193 ends by advising readers to recycle their plastics. PLA breaks down quickly only in commercial composting, does not biodegrade in backyard compost or the environment, and can cause problems if put in recycling bins.",
+      "pages": {
+        "printed": [
+          183,
+          193
+        ],
+        "pdf": [
+          219,
+          229
+        ]
+      },
+      "resolution": "Game says 'biodegradable' depends on conditions (O4 card watch-out; Q08; Q28). The game gives no disposal or recycling instructions. Composting time is covered in L15-RF17 and the bio-based versus biodegradable mix-up in L15-RF18.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "PLA did not break down quickly in a landfill; the textbook says it needs a facility that keeps it heated for several days."
+        },
+        {
+          "type": "external",
+          "title": "Bioplastics: a better option for the environment? (FOR349)",
+          "publisher": "UF/IFAS Extension, University of Florida",
+          "url": "https://ask.ifas.ufl.edu/publication/FR418",
+          "accessed": "2026-10-14",
+          "supports": "PLA will only readily break down in a commercial composting facility; it will not biodegrade in the environment or a backyard compost pile, and it should not go in recycling bins."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF11",
+      "issue": "Brief guardrail: students may conclude that natural means safe and synthetic means harmful. The lesson's balanced examples do not state this directly.",
+      "pages": {
+        "printed": [
+          183,
+          184,
+          189
+        ],
+        "pdf": [
+          219,
+          220,
+          225
+        ]
+      },
+      "resolution": "Key idea 8 and the O3 card state it. Q07 and Q08 repair the label-based thinking, and Q05, Q19, Q20, Q29, Q30 and Q31 have distractors for 'synthetic is cheaper, safer or healthier', 'natural is always better', 'synthetic can't break down', 'additives are artificial' or 'natural means safe'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "People debate natural versus man-made materials, so they need to research and evaluate information before forming opinions."
+        },
+        {
+          "type": "external",
+          "title": "6 Commonly Misunderstood Words About Complementary Health Approaches",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "url": "https://www.nccih.nih.gov/health/know-science/quiz/quiz-results",
+          "accessed": "2026-10-14",
+          "supports": "'Natural' does not always mean safe; some herbs considered natural can seriously harm the liver."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF12",
+      "issue": "p. 186 calls gasoline 'a synthetic material refined from petroleum' and speaks of 'mining' petroleum. Refining separates crude oil into fractions by boiling point and also cracks heavy molecules into lighter ones, so gasoline is a processed blend; crude oil is mostly drilled and pumped. The p. 185 spread similarly says ethylene is 'separated out' of heated petroleum.",
+      "pages": {
+        "printed": [
+          185,
+          186
+        ],
+        "pdf": [
+          221,
+          222
+        ]
+      },
+      "resolution": "Game describes gasoline as a fuel refined from petroleum and keeps it (and ethylene) out of natural-or-synthetic sorting questions. Q01 says crude oil is pumped from underground. Since reviser round 2, the natural-resource glossary entry and Q01's explanation no longer say a resource stays unchanged 'even if it is refined later', because refining also cracks heavy molecules into new ones.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            186
+          ],
+          "pdfPages": [
+            222
+          ],
+          "locator": "Section 2, opening paragraphs",
+          "supports": "Gasoline is refined from petroleum and used as a vehicle fuel."
+        },
+        {
+          "type": "external",
+          "title": "Oil and petroleum products explained: The refining process",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/refining-crude-oil-the-refining-process.php",
+          "accessed": "2026-10-14",
+          "supports": "Refineries separate crude oil into fractions by boiling point, then crack heavy hydrocarbon molecules into lighter ones and blend streams into gasoline."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF13",
+      "issue": "OCR garbled the chemical formulas on pp. 187-188 (glucose, sucrose and sucralose lost their subscripts), and the Key Science Concept spread (p. 185) and opener photo (p. 182) are image-only.",
+      "pages": {
+        "printed": [
+          182,
+          185,
+          187,
+          188
+        ],
+        "pdf": [
+          218,
+          221,
+          223,
+          224
+        ]
+      },
+      "resolution": "Formulas read from the 110 dpi renders: glucose C₆H₁₂O₆ (p. 187), sucrose C₁₂H₂₂O₁₁ and sucralose C₁₂H₁₉Cl₃O₈ (p. 188). The sucrose and sucralose formulas match PubChem.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187,
+            188
+          ],
+          "pdfPages": [
+            223,
+            224
+          ],
+          "locator": "Section 2 fermentation paragraph; Section 3 Figure 3",
+          "supports": "The rendered pages print C₆H₁₂O₆, C₁₂H₂₂O₁₁ and C₁₂H₁₉Cl₃O₈."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: sucralose (CID 71485)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucralose/property/MolecularFormula,MolecularWeight,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucralose (CID 71485) has molecular formula C12H19Cl3O8."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: sucrose",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucrose has molecular formula C12H22O11."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF14",
+      "issue": "p. 192 lists 'inexpensive' among the new criteria for container materials, while the NGSS standards printed on p. 183 and NGSS wording elsewhere treat cost as a constraint (a limit), separate from criteria for success.",
+      "pages": {
+        "printed": [
+          183,
+          192
+        ],
+        "pdf": [
+          219,
+          228
+        ]
+      },
+      "resolution": "Game defines criteria as what a design must do and constraints as limits such as budget, materials, equipment and time. Q06 and Q23 state cost as a fixed budget limit; the O4 card, Q24 and Q25 no longer list cheapness among the criteria.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, Revising Criteria",
+          "supports": "Engineers need a sturdy, inexpensive material that breaks down quickly; the text calls these the new criteria."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "NGSS box (MS-ETS1-1, ETS1.A)",
+          "supports": "Design problems are defined by both criteria and constraints."
+        },
+        {
+          "type": "external",
+          "title": "3-5-ETS1-1 Engineering Design",
+          "publisher": "NGSS Lead States (nextgenscience.org)",
+          "url": "https://www.nextgenscience.org/pe/3-5-ets1-1-engineering-design",
+          "accessed": "2026-10-14",
+          "supports": "Design problems include specified criteria for success and constraints on materials, time or cost."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF15",
+      "issue": "p. 184 says PLA's long, flexible chains let PLA objects be bent or squeezed without breaking, and gives a plastic water bottle as the example. PLA itself is a stiff, glassy and fairly brittle polymer at room temperature: about 6% elongation at break versus about 130% for PET, with a glass transition near 55-65 °C.",
+      "pages": {
+        "printed": [
+          184
+        ],
+        "pdf": [
+          220
+        ]
+      },
+      "resolution": "Game text says long chains give plastics strength and let thin pieces flex, and notes that PLA is fairly stiff and can crack (key idea 4, O2 card). The hook no longer calls a PLA cup bendable. Q09 was recast to plastics in general, with a limitation about PLA.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, PLA paragraph",
+          "supports": "The textbook says PLA's long flexible chains give it strength and flexibility, so PLA objects can be bent or squeezed without breaking."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Plastic panel",
+          "supports": "Many plastics are polymers of long chains, which makes them strong but flexible."
+        },
+        {
+          "type": "external",
+          "title": "Recent advances in high performance poly(lactide): from \"green\" plasticization to super-tough materials via (reactive) compounding (Kfoury et al., 2013)",
+          "publisher": "Frontiers in Chemistry (Frontiers Media)",
+          "url": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2013.00032/full",
+          "accessed": "2026-10-14",
+          "supports": "PLA has an inherent brittleness: elongation at break is about 6% for PLA versus about 130% for PET, and its glass transition temperature is about 55-65 °C."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF16",
+      "issue": "p. 187 says corn converted into ethanol cannot be used as feed for livestock or as food. Ethanol plants return part of the corn as dried distillers grains, a major livestock feed that substitutes roughly 1-to-1 for corn grain in feed rations.",
+      "pages": {
+        "printed": [
+          187
+        ],
+        "pdf": [
+          223
+        ]
+      },
+      "resolution": "Game says corn grown for fuel competes with food and animal feed (key idea 5, O3 card, Q14 item i3), and the O3 card notes that leftover distillers grains from ethanol plants are fed to livestock.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, why ethanol is not yet widespread",
+          "supports": "The textbook lists farmland use and the loss of corn for food and feed among ethanol's drawbacks."
+        },
+        {
+          "type": "external",
+          "title": "Dried Distillers Grains (DDGs) Have Emerged as a Key Ethanol Coproduct (Amber Waves, October 2019)",
+          "publisher": "USDA Economic Research Service",
+          "url": "https://www.ers.usda.gov/amber-waves/2019/october/dried-distillers-grains-ddgs-have-emerged-as-a-key-ethanol-coproduct",
+          "accessed": "2026-10-14",
+          "supports": "DDGs are fed to cattle, dairy cows, swine and some poultry, and substitute roughly 1-to-1 for corn grain in feed rations."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF17",
+      "issue": "p. 193 says PLA needs a facility that keeps it heated 'for several days' to break down in a timely way. Industrial composting of PLA takes weeks to months: the industrial standard UF/IFAS cites is 90% of the carbon converted to carbon dioxide within 180 days.",
+      "pages": {
+        "printed": [
+          193
+        ],
+        "pdf": [
+          229
+        ]
+      },
+      "resolution": "Game says PLA breaks down quickly only when kept hot for weeks at an industrial composting facility (O4 card, Q08, Q28). 'Several days' appears only in evidence records, attributed to the textbook.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "The textbook says PLA does not break down quickly in a landfill and needs a facility that keeps it heated for several days."
+        },
+        {
+          "type": "external",
+          "title": "Bioplastics: a better option for the environment? (FOR349)",
+          "publisher": "UF/IFAS Extension, University of Florida",
+          "url": "https://ask.ifas.ufl.edu/publication/FR418",
+          "accessed": "2026-10-14",
+          "supports": "PLA only readily breaks down in a commercial composting facility with high heat, water and air; the industrial standard is 90% of the product's carbon converted to carbon dioxide within 180 days."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF18",
+      "issue": "p. 193 contrasts traditional plastics made from petroleum with biodegradable plastics, which suggests that plant-based means biodegradable. Bio-based plastics are not necessarily biodegradable, and certain petroleum-based plastics can biodegrade.",
+      "pages": {
+        "printed": [
+          193
+        ],
+        "pdf": [
+          229
+        ]
+      },
+      "resolution": "Game defines biodegradable by breakdown by living things, not by where a material comes from (glossary). Q27 choice a targets the mix-up.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "The textbook contrasts petroleum-based traditional plastics with biodegradable plastics such as plant-based PLA."
+        },
+        {
+          "type": "external",
+          "title": "Bioplastics: a better option for the environment? (FOR349)",
+          "publisher": "UF/IFAS Extension, University of Florida",
+          "url": "https://ask.ifas.ufl.edu/publication/FR418",
+          "accessed": "2026-10-14",
+          "supports": "Bio-based plastics are not necessarily biodegradable, and certain petroleum-based plastics can biodegrade."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF19",
+      "issue": "p. 191 presents the European yew needle method as an even better way to make paclitaxel. That was true at the time, but Bristol-Myers Squibb later replaced the leaves and twigs with yew cells grown in plant cell culture, which won a 2004 EPA Green Chemistry award.",
+      "pages": {
+        "printed": [
+          191
+        ],
+        "pdf": [
+          227
+        ]
+      },
+      "resolution": "Game calls the needle route 'the needle method' (Q03 rationale) and never says it is today's main source. The O3 card says that by 2004 one drug company was making paclitaxel from yew cells grown in tanks, a claim tied to the date of the EPA award page rather than stated as a timeless fact.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "Scientists found a way to make the drug from European yew needles, which can be harvested without killing the trees."
+        },
+        {
+          "type": "external",
+          "title": "Presidential Green Chemistry Challenge: 2004 Greener Synthetic Pathways Award",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/node/18097",
+          "accessed": "2026-10-14",
+          "supports": "Stripping yew bark killed the trees; a starting compound (10-DAB) from the leaves and twigs of the European yew was converted into paclitaxel by chemical steps, and Bristol-Myers Squibb later replaced the leaves and twigs with yew cells grown in plant cell culture."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF20",
+      "issue": "p. 184 lists coal among 'minerals like gold and coal', but coal is an organic sedimentary rock formed from plant remains, not a mineral. The same paragraph's wording also suggests that water is obtained from the air.",
+      "pages": {
+        "printed": [
+          184
+        ],
+        "pdf": [
+          220
+        ]
+      },
+      "resolution": "The game never calls coal a mineral and never says water comes from the air. Its natural-resource examples are gold, nitrogen from the air, wood, fish oil, corn and crude oil.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, natural resource paragraph",
+          "supports": "The textbook's natural-resource examples include mined gold and coal, water and nitrogen gas, wood, animal hide and fish oil."
+        },
+        {
+          "type": "external",
+          "title": "6.3: Organic Sedimentary Rocks (Physical Geology, adapted from BCcampus Open Education)",
+          "publisher": "Geosciences LibreTexts",
+          "url": "https://geo.libretexts.org/Courses/Sierra_College/Physical_Geology_-_Stevens/06%3A_Sedimentary_Rocks/6.03%3A_Organic_Sedimentary_Rocks",
+          "accessed": "2026-10-14",
+          "supports": "Coal is an important organic sedimentary rock that forms from plant matter piling up in swampy, oxygen-poor water."
+        }
+      ]
+    },
+    {
+      "id": "L15-RF21",
+      "issue": "pp. 192-193 set the new criterion as a plastic that breaks down quickly in a landfill. Landfills soon become oxygen-poor, and the bacteria that break waste down there give off methane, a greenhouse gas, so fast breakdown in a landfill is not a plain environmental good. The textbook's landfill goal is oversimplified.",
+      "pages": {
+        "printed": [
+          192,
+          193
+        ],
+        "pdf": [
+          228,
+          229
+        ]
+      },
+      "resolution": "The Q28 limitation and explanation and the O4 card note that breakdown in an oxygen-poor landfill releases methane. No question rewards landfill breakdown as an environmental benefit beyond the lesson's stated design criterion.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192,
+            193
+          ],
+          "pdfPages": [
+            228,
+            229
+          ],
+          "locator": "Section 5, Revising Criteria and Developing New Engineering Solutions",
+          "supports": "Engineers want a sturdy, inexpensive material that breaks down quickly so it takes up little landfill space, and hope to develop a biodegradable plastic that breaks down quickly in a landfill."
+        },
+        {
+          "type": "external",
+          "title": "Basic Information about Landfill Gas",
+          "publisher": "U.S. Environmental Protection Agency, Landfill Methane Outreach Program",
+          "url": "https://www.epa.gov/lmop/basic-information-about-landfill-gas",
+          "accessed": "2026-10-17",
+          "supports": "Landfill gas is a natural byproduct of the decomposition of organic material; typically within less than a year oxygen-free (anaerobic) conditions develop and methane-producing bacteria decompose the waste; the gas is roughly 50 percent methane, a potent greenhouse gas."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1251 @@
+{
+  "lessonId": "L05",
+  "guidingQuestion": "How do organisms use energy and matter?",
+  "hook": "When a squirrel cracks open an acorn, tiny engines inside its cells will soon be turning the energy an oak tree stored from sunlight into the power for its next leap.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          54,
+          55
+        ],
+        "pdf": [
+          90,
+          91
+        ]
+      }
+    },
+    {
+      "title": "1. Consumers",
+      "pages": {
+        "printed": [
+          56
+        ],
+        "pdf": [
+          92
+        ]
+      }
+    },
+    {
+      "title": "2. Sources of Matter and Energy",
+      "pages": {
+        "printed": [
+          57
+        ],
+        "pdf": [
+          93
+        ]
+      }
+    },
+    {
+      "title": "3. Cellular Respiration",
+      "pages": {
+        "printed": [
+          58,
+          59
+        ],
+        "pdf": [
+          94,
+          95
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: Matter and Energy in Cellular Respiration",
+      "pages": {
+        "printed": [
+          60
+        ],
+        "pdf": [
+          96
+        ]
+      }
+    },
+    {
+      "title": "4. How You Get Energy and Matter",
+      "pages": {
+        "printed": [
+          61,
+          62
+        ],
+        "pdf": [
+          97,
+          98
+        ]
+      }
+    },
+    {
+      "title": "5. Comparing Photosynthesis and Cellular Respiration",
+      "pages": {
+        "printed": [
+          63
+        ],
+        "pdf": [
+          99
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          63
+        ],
+        "pdf": [
+          99
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L05-O1",
+      "kind": "observe",
+      "text": "Identify producers and consumers by where they get their matter and energy, and recognize food as stored chemical energy that both kinds of organisms use.",
+      "sections": [
+        "Introduction",
+        "1. Consumers",
+        "2. Sources of Matter and Energy"
+      ],
+      "pages": {
+        "printed": [
+          55,
+          56,
+          57
+        ],
+        "pdf": [
+          91,
+          92,
+          93
+        ]
+      }
+    },
+    {
+      "id": "L05-O2",
+      "kind": "relate",
+      "text": "Use the cellular respiration model, C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy, to trace how atoms are rearranged and conserved while stored chemical energy is released, mostly inside mitochondria.",
+      "sections": [
+        "3. Cellular Respiration",
+        "Key Science Concept: Matter and Energy in Cellular Respiration"
+      ],
+      "pages": {
+        "printed": [
+          58,
+          59,
+          60
+        ],
+        "pdf": [
+          94,
+          95,
+          96
+        ]
+      }
+    },
+    {
+      "id": "L05-O3",
+      "kind": "apply",
+      "text": "Use evidence to show that producers, including plants, carry out cellular respiration just as consumers do, and tell breathing apart from cellular respiration.",
+      "sections": [
+        "3. Cellular Respiration",
+        "Key Science Concept: Matter and Energy in Cellular Respiration"
+      ],
+      "pages": {
+        "printed": [
+          58,
+          59,
+          60
+        ],
+        "pdf": [
+          94,
+          95,
+          96
+        ]
+      }
+    },
+    {
+      "id": "L05-O4",
+      "kind": "relate",
+      "text": "Explain how your body breaks food down and uses carbohydrates, fats and proteins both as fuel and as building blocks for its own molecules.",
+      "sections": [
+        "4. How You Get Energy and Matter"
+      ],
+      "pages": {
+        "printed": [
+          61,
+          62
+        ],
+        "pdf": [
+          97,
+          98
+        ]
+      }
+    },
+    {
+      "id": "L05-O5",
+      "kind": "apply",
+      "text": "Compare photosynthesis and cellular respiration, and use their paired equations to predict how matter cycles and energy moves between organisms.",
+      "sections": [
+        "Introduction",
+        "5. Comparing Photosynthesis and Cellular Respiration"
+      ],
+      "pages": {
+        "printed": [
+          55,
+          63
+        ],
+        "pdf": [
+          91,
+          99
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "Consumers can't make their own food. A squirrel, a dolphin and a single-celled amoeba all take in other living things, by eating or absorbing them, to get matter and energy.",
+    "Producers and consumers run their cells on the same fuel: chemical energy stored in sugar. Plants and other photosynthetic producers build that sugar from carbon dioxide and water using light; consumers get it, and their building materials, from the organisms they eat.",
+    "Cellular respiration releases the energy in food: sugar + oxygen → carbon dioxide + water + energy, or C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Most of it happens inside mitochondria.",
+    "Atoms are rearranged, never created or destroyed: 6 carbon, 12 hydrogen and 18 oxygen atoms go in and the same atoms come out, so the mass of the products equals the mass of the reactants.",
+    "Plants respire too, in their living cells, day and night. Breathing moves air or water through an animal's lungs or gills, bringing oxygen in and taking carbon dioxide out; cellular respiration is the reaction inside cells.",
+    "Digestion breaks food into small molecules. Sugars fuel cellular respiration, and other pieces are rebuilt into the body's own carbohydrates such as glycogen, its fats, and its proteins.",
+    "Photosynthesis and cellular respiration mirror each other: the products of one are the reactants of the other, so atoms keep cycling, while energy arrives as sunlight and leaves living things mostly as heat."
+  ],
+  "glossary": [
+    {
+      "term": "consumer",
+      "definition": "An organism that can't make its own food, so it eats or absorbs other living things to get matter and energy.",
+      "pages": {
+        "printed": [
+          55,
+          56
+        ],
+        "pdf": [
+          91,
+          92
+        ]
+      }
+    },
+    {
+      "term": "producer",
+      "definition": "An organism that makes its own food. Most producers, such as plants and algae, build sugar from carbon dioxide and water using energy captured from sunlight.",
+      "pages": {
+        "printed": [
+          55,
+          57
+        ],
+        "pdf": [
+          91,
+          93
+        ]
+      }
+    },
+    {
+      "term": "photosynthesis",
+      "definition": "The process plants, algae and some bacteria use to capture light energy and store it as chemical energy in sugar, built from carbon dioxide and water, giving off oxygen.",
+      "pages": {
+        "printed": [
+          55,
+          63
+        ],
+        "pdf": [
+          91,
+          99
+        ]
+      }
+    },
+    {
+      "term": "chemical energy",
+      "definition": "Energy held in the way atoms are joined together in molecules such as sugar; chemical reactions can store it or release it.",
+      "pages": {
+        "printed": [
+          57,
+          59
+        ],
+        "pdf": [
+          93,
+          95
+        ]
+      }
+    },
+    {
+      "term": "cellular respiration",
+      "definition": "The chemical reaction in which cells combine sugar with oxygen, making carbon dioxide and water and releasing energy the cell can use.",
+      "pages": {
+        "printed": [
+          55,
+          58,
+          59
+        ],
+        "pdf": [
+          91,
+          94,
+          95
+        ]
+      }
+    },
+    {
+      "term": "mitochondria",
+      "definition": "Tiny structures inside plant cells, animal cells and many single-celled organisms where most of cellular respiration takes place.",
+      "pages": {
+        "printed": [
+          55,
+          58
+        ],
+        "pdf": [
+          91,
+          94
+        ]
+      }
+    },
+    {
+      "term": "reactant",
+      "definition": "A substance that goes into a chemical reaction. In cellular respiration the reactants are sugar and oxygen.",
+      "pages": {
+        "printed": [
+          59
+        ],
+        "pdf": [
+          95
+        ]
+      }
+    },
+    {
+      "term": "product",
+      "definition": "A substance that comes out of a chemical reaction. In cellular respiration the products are carbon dioxide and water.",
+      "pages": {
+        "printed": [
+          59
+        ],
+        "pdf": [
+          95
+        ]
+      }
+    },
+    {
+      "term": "carbohydrate",
+      "definition": "A molecule made of carbon, hydrogen and oxygen that stores energy or builds structure. Sugars are simple carbohydrates; starch, glycogen and cellulose are complex ones built from many sugars.",
+      "pages": {
+        "printed": [
+          55,
+          62
+        ],
+        "pdf": [
+          91,
+          98
+        ]
+      }
+    },
+    {
+      "term": "starch",
+      "definition": "A complex carbohydrate that plants use to store sugar; potatoes and corn are full of it.",
+      "pages": {
+        "printed": [
+          62
+        ],
+        "pdf": [
+          98
+        ]
+      }
+    },
+    {
+      "term": "glycogen",
+      "definition": "A complex carbohydrate that animals build from spare sugar and keep in the liver and muscles as an energy reserve.",
+      "pages": {
+        "printed": [
+          62
+        ],
+        "pdf": [
+          98
+        ]
+      }
+    },
+    {
+      "term": "cellulose",
+      "definition": "A complex carbohydrate that plants build from sugars into the tough walls of their cells; your body can't make it.",
+      "pages": {
+        "printed": [
+          62
+        ],
+        "pdf": [
+          98
+        ]
+      }
+    },
+    {
+      "term": "fat",
+      "definition": "An energy-rich molecule used for long-term energy storage and for building cell membranes. Fats that are liquid at room temperature are called oils.",
+      "pages": {
+        "printed": [
+          55,
+          62
+        ],
+        "pdf": [
+          91,
+          98
+        ]
+      }
+    },
+    {
+      "term": "protein",
+      "definition": "A large molecule assembled from smaller pieces that forms muscles and other body parts and does jobs such as moving materials into and out of cells and helping reactions happen.",
+      "pages": {
+        "printed": [
+          55,
+          62
+        ],
+        "pdf": [
+          91,
+          98
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L05-O1",
+      "title": "Who Makes Food, Who Takes Food",
+      "paragraphs": [
+        "Every living thing needs two things from food: matter to build and repair its body, and energy to power its work. Producers such as oak trees and grass make their own food. Using energy from sunlight, they assemble sugar out of carbon dioxide and water.",
+        "Consumers can't pull off that trick. A squirrel, a dolphin and a single-celled amoeba all take in other living things, by eating or absorbing them, to get matter and energy. When a squirrel eats an acorn, the matter and energy the oak packed into its seed don't vanish. Some of them become squirrel.",
+        "Here is the surprise: producers and consumers run their cells on the same fuel. Most of a plant's cells, including every root cell and every cell at night, run on chemical energy stored in sugar, and that stored energy is exactly what a consumer gets from a meal."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Where producers and consumers get what they need",
+        "alt": "A table comparing a producer, such as an oak tree, with a consumer, such as a squirrel. Energy for cells: the producer uses sugar it makes with sunlight; the consumer uses sugar and other molecules from the food it eats. Main source of building matter: the producer uses carbon dioxide and water, plus small amounts of minerals from soil; the consumer uses molecules from the organisms it eats. Carries out cellular respiration: yes for both.",
+        "columns": [
+          "Need",
+          "Producer (oak tree)",
+          "Consumer (squirrel)"
+        ],
+        "rows": [
+          [
+            "Energy for its cells",
+            "Sugar it makes using sunlight",
+            "Sugar and other molecules from food it eats"
+          ],
+          [
+            "Main source of building matter",
+            "Carbon dioxide and water (plus small amounts of soil minerals)",
+            "Molecules from the organisms it eats"
+          ],
+          [
+            "Carries out cellular respiration?",
+            "Yes",
+            "Yes"
+          ]
+        ]
+      },
+      "watchOut": "A plant doesn't run most of its everyday cell work directly on sunlight. Light is used to build sugar, and the plant's cells then get most of their energy from that sugar, just as ours do. Also, the textbook's table lists soil as a source of plant matter: soil supplies only small amounts of minerals, and most of a plant's mass comes from carbon dioxide and water.",
+      "pages": {
+        "printed": [
+          55,
+          56,
+          57
+        ],
+        "pdf": [
+          91,
+          92,
+          93
+        ]
+      }
+    },
+    {
+      "objectiveId": "L05-O2",
+      "title": "Inside the Station: The Respiration Equation",
+      "paragraphs": [
+        "Cellular respiration is the chemical reaction that unlocks the energy stored in food for a cell's use. In words: sugar + oxygen → carbon dioxide + water + energy. In symbols: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy.",
+        "Count the atoms and they match. One sugar molecule carries 6 carbon, 12 hydrogen and 6 oxygen atoms, and the six O₂ molecules add 12 more oxygen atoms. Afterward the 6 carbons sit in six CO₂ molecules, the 12 hydrogens sit in six H₂O molecules, and all 18 oxygens are shared between them. Nothing is lost; the atoms just change partners.",
+        "Energy is written on the products side because the reaction gives energy off. Pulling sugar and oxygen apart actually costs energy, but forming the stronger bonds of carbon dioxide and water releases more, so the reaction comes out ahead. Cells capture part of that energy for their work, and the rest becomes heat.",
+        "Most of this reaction happens inside mitochondria, tiny structures found in plant cells, animal cells and many single-celled organisms such as amoebas."
+      ],
+      "diagram": {
+        "kind": "equation",
+        "caption": "The cellular respiration equation",
+        "alt": "Equation: one molecule of sugar, C six H twelve O six, plus six molecules of oxygen, O two, react to form six molecules of carbon dioxide, C O two, and six molecules of water, H two O, and energy is released. Each side has 6 carbon atoms, 12 hydrogen atoms and 18 oxygen atoms.",
+        "reactants": [
+          {
+            "formula": "C6H12O6",
+            "label": "sugar (glucose)"
+          },
+          {
+            "formula": "O2",
+            "coefficient": 6,
+            "label": "oxygen"
+          }
+        ],
+        "products": [
+          {
+            "formula": "CO2",
+            "coefficient": 6,
+            "label": "carbon dioxide"
+          },
+          {
+            "formula": "H2O",
+            "coefficient": 6,
+            "label": "water"
+          }
+        ],
+        "arrowNote": "energy released"
+      },
+      "watchOut": "\"Energy stored in sugar's bonds\" is a handy shortcut, not a literal picture. No bond holds a packet of energy that pops out when it breaks: breaking bonds always costs energy, and the payoff comes from forming stronger new ones. And respiration doesn't create energy; it converts stored chemical energy into forms the cell can use, plus heat.",
+      "pages": {
+        "printed": [
+          58,
+          59,
+          60
+        ],
+        "pdf": [
+          94,
+          95,
+          96
+        ]
+      }
+    },
+    {
+      "objectiveId": "L05-O3",
+      "title": "Plants Respire Too (and Breathing Isn't Respiration)",
+      "paragraphs": [
+        "Plants make sugar, but they also have to use it. Living plant cells, from leaf to root tip, carry out cellular respiration in their mitochondria, day and night. Underground roots and sprouting seeds can't photosynthesize, so respiration is how they get energy out of sugar.",
+        "Gas measurements show it. Picture a plant growing in sterile sand, sealed in a clear box with a carbon dioxide sensor. With the lamp on, photosynthesis uses carbon dioxide faster than respiration releases it, so the level drops. When the lamp goes off, photosynthesis stops, but respiration keeps going, so carbon dioxide climbs.",
+        "Breathing is a different process: animals with lungs or gills move air or water over them so gases can be exchanged. Your lungs bring oxygen into your body and carry carbon dioxide out, delivering the supplies and removing the waste of cellular respiration. Plants have no lungs or gills, but their living cells still trade gases with their surroundings. Roots take oxygen from air pockets in the soil, which is why soil flooded for a long time can kill them."
+      ],
+      "diagram": {
+        "kind": "curve",
+        "caption": "Carbon dioxide in a sealed box with one plant (model data)",
+        "alt": "A line graph of carbon dioxide in a sealed box holding one plant rooted in sterile sand, in parts per million, over 6 hours. With the lamp on from hour 0 to hour 3 the level falls from 700 to 600, 500 and 400. With the lamp off from hour 3 to hour 6 it rises to 450, 500 and 550. Photosynthesis outpaces respiration in the light; only respiration runs in the dark.",
+        "xLabel": "Time (hours)",
+        "yLabel": "Carbon dioxide in the box (ppm)",
+        "series": [
+          {
+            "label": "Plant in sealed box",
+            "points": [
+              [
+                0,
+                700
+              ],
+              [
+                1,
+                600
+              ],
+              [
+                2,
+                500
+              ],
+              [
+                3,
+                400
+              ],
+              [
+                4,
+                450
+              ],
+              [
+                5,
+                500
+              ],
+              [
+                6,
+                550
+              ]
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": 1.5,
+            "y": 560,
+            "text": "Lamp on: photosynthesis outpaces respiration"
+          },
+          {
+            "x": 4.5,
+            "y": 560,
+            "text": "Lamp off: respiration continues alone"
+          }
+        ]
+      },
+      "watchOut": "\"Respiration\" sounds like breathing, but here it names a chemical reaction inside cells. A plant has no lungs or gills and doesn't breathe the way animals do, yet its living cells respire all the time. The textbook says plants already have the oxygen they need from photosynthesis; that holds for a sunlit leaf, but not for roots, seeds or any plant cell at night.",
+      "pages": {
+        "printed": [
+          58,
+          59,
+          60
+        ],
+        "pdf": [
+          94,
+          95,
+          96
+        ]
+      }
+    },
+    {
+      "objectiveId": "L05-O4",
+      "title": "From Lunch to Living Cells",
+      "paragraphs": [
+        "Sugar is fuel, but nobody can live on sugar alone, because your body is built from many kinds of molecules. Your digestive system breaks food into small molecules, and your blood delivers them to every cell.",
+        "Many carbohydrates are energy molecules. Simple sugars are small; complex carbohydrates are long chains of sugars. Plants store starch (think potatoes and corn) and build cellulose for their structure. Your body can't make cellulose, but it links spare sugar into glycogen, kept in your liver and muscles and split back into sugar when you need it.",
+        "Fats store energy for the long haul and help build healthy cell membranes. Proteins form much of your body: they build muscle, ferry molecules in and out of cells, and help reactions happen. Your body takes food proteins apart and reassembles the pieces into its own proteins.",
+        "So food has two jobs. Some molecules are broken down for energy by cellular respiration, and others are rebuilt into you. Either way, the atoms are conserved; they just change partners."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Three kinds of food molecules",
+        "alt": "A table of three kinds of food molecules. Carbohydrates, such as sugar and starch, are found in fruit, bread, potatoes and corn; they give quick energy and are stored in the body as glycogen in the liver and muscles. Fats and oils are found in avocados, nuts, olives and fatty fish; they store energy for the long term, help build cell membranes and help make some chemical messengers. Proteins are found in beans, nuts, eggs, fish and meat; they build muscles, ferry molecules in and out of cells and help reactions happen.",
+        "columns": [
+          "Food molecule",
+          "Found in foods such as",
+          "Main jobs in your body"
+        ],
+        "rows": [
+          [
+            "Carbohydrates (sugar, starch)",
+            "Fruit, bread, potatoes, corn",
+            "Quick energy; stored as glycogen in liver and muscles"
+          ],
+          [
+            "Fats and oils",
+            "Avocados, nuts, olives, fatty fish",
+            "Long-term energy storage; cell membranes; some chemical messengers"
+          ],
+          [
+            "Proteins",
+            "Beans, nuts, eggs, fish, meat",
+            "Muscles; moving molecules in and out of cells; helping reactions happen"
+          ]
+        ]
+      },
+      "watchOut": "Digestion isn't finished in the stomach. It starts in your mouth, continues in your stomach, and is mostly completed in the small intestine, which passes the small molecules into your blood. And fats and oils belong to the same family of molecules; oils are simply the ones that are liquid at room temperature.",
+      "pages": {
+        "printed": [
+          61,
+          62
+        ],
+        "pdf": [
+          97,
+          98
+        ]
+      }
+    },
+    {
+      "objectiveId": "L05-O5",
+      "title": "Two Reactions, One Round Trip",
+      "paragraphs": [
+        "Line up the two equations and they mirror each other. Photosynthesis turns carbon dioxide + water + light energy into sugar + oxygen. Cellular respiration takes that sugar + oxygen and turns it back into carbon dioxide + water + energy. Whatever one reaction produces, the other uses.",
+        "The same carbon, hydrogen and oxygen atoms pass back and forth, rearranged into different molecules each time. A carbon atom can ride from the air into an oak leaf's sugar, into an acorn, into a squirrel, and back into the air when the squirrel breathes out. Matter cycles.",
+        "Energy doesn't make the round trip. It arrives as sunlight, is stored as chemical energy in sugar, and is released by cellular respiration to power life, with much of it ending up as heat. That's why living things need a constant supply of new energy, usually sunlight, while their atoms get reused again and again."
+      ],
+      "diagram": {
+        "kind": "network",
+        "layout": "cycle",
+        "caption": "Matter cycles; energy passes through",
+        "alt": "A cycle diagram. Sunlight, the energy input, points to photosynthesis in producers. Photosynthesis points to sugar plus oxygen. Sugar plus oxygen points to cellular respiration in producers and consumers. Cellular respiration points to carbon dioxide plus water, which points back to photosynthesis, closing the matter loop. Cellular respiration also points to energy for life, which ends up as heat, the energy output.",
+        "nodes": [
+          {
+            "id": "sun",
+            "label": "Sunlight (energy in)",
+            "group": "energy"
+          },
+          {
+            "id": "ps",
+            "label": "Photosynthesis (producers)",
+            "group": "process"
+          },
+          {
+            "id": "so",
+            "label": "Sugar + oxygen",
+            "group": "matter"
+          },
+          {
+            "id": "cr",
+            "label": "Cellular respiration (producers and consumers)",
+            "group": "process"
+          },
+          {
+            "id": "cw",
+            "label": "Carbon dioxide + water",
+            "group": "matter"
+          },
+          {
+            "id": "heat",
+            "label": "Energy for life, then heat (energy out)",
+            "group": "energy"
+          }
+        ],
+        "edges": [
+          {
+            "from": "sun",
+            "to": "ps",
+            "label": "light energy"
+          },
+          {
+            "from": "ps",
+            "to": "so"
+          },
+          {
+            "from": "so",
+            "to": "cr"
+          },
+          {
+            "from": "cr",
+            "to": "cw"
+          },
+          {
+            "from": "cw",
+            "to": "ps"
+          },
+          {
+            "from": "cr",
+            "to": "heat",
+            "label": "energy released"
+          }
+        ]
+      },
+      "watchOut": "The paired equations are summaries, not one reaction running backward. Photosynthesis happens in chloroplasts through its own series of steps, and respiration happens in the cell fluid and mitochondria through different steps. Even the oxygen that photosynthesis gives off comes from splitting water, not from carbon dioxide.",
+      "pages": {
+        "printed": [
+          55,
+          63
+        ],
+        "pdf": [
+          91,
+          99
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L05-RF1",
+      "issue": "OCR garbles every formula: p. 59 reads \"CgHj^O^\", \"O^\", \"CO^\" and \"H^O\", and the arrows on pp. 59 and 63 come out as \"^\" or \"->\". Rendered pp. 59, 60 and 63 show the real equation, C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. The p. 59 Figure 3B art also prints a stray \"+\" just before the arrow on both lines (\"sugar + oxygen + →\"); the p. 60 spread has no stray plus.",
+      "pages": {
+        "printed": [
+          59,
+          60,
+          63
+        ],
+        "pdf": [
+          95,
+          96,
+          99
+        ]
+      },
+      "resolution": "Every formula in the game was taken from the renders and hand-checked: 6 C, 12 H and 18 O atoms on each side. The stray plus is treated as a printing slip and never reproduced. Q09 traces the sugar's 12 hydrogen atoms into water, Q10 uses the ratio of 6 O₂ per sugar molecule, and Q11 checks conservation of mass, all from the correct equation.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            60
+          ],
+          "pdfPages": [
+            96
+          ],
+          "locator": "Key Science Concept: Matter and Energy in Cellular Respiration",
+          "supports": "The spread prints C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy with the word equation beneath it."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 3.2 Carbohydrates",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+          "accessed": "2026-10-14",
+          "supports": "The chemical formula for glucose is C6H12O6."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 8.1 Overview of Photosynthesis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+          "accessed": "2026-10-14",
+          "supports": "Six carbon dioxide and six water molecules make one sugar and six oxygen molecules, the same atom counts as the respiration equation run in reverse."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF2",
+      "issue": "p. 59 says producers needn't take in oxygen for cellular respiration, since photosynthesis already supplies their cells with it, so they need no lungs or gills. This is wrong for roots, sprouting seeds and every plant cell at night: none of them are photosynthesizing, and they take oxygen from their surroundings. Roots in waterlogged soil can die from lack of oxygen. Plants lack lungs, but their cells still exchange gases.",
+      "pages": {
+        "printed": [
+          59
+        ],
+        "pdf": [
+          95
+        ]
+      },
+      "resolution": "Content teaches that plants respire day and night in every living cell and take in oxygen when and where photosynthesis isn't supplying it. Q20 repairs the claim with flooded-root evidence; Q17 uses the dark readings to show respiration continuing and, since review round 2, asks how much carbon dioxide photosynthesis alone removed in the light, which works only if respiration kept running there too (a plant rooted in sterile sand, so soil microbes add no carbon dioxide); the O3 card names the issue. No question uses the textbook sentence as a fact. The Ohio State page is cited only for what it says (non-green parts respire, and green parts respire at night). Verify-agent (2026-10-14): the Encyclopedia of the Environment article that Q17 already cites was added here too, so the content's \"day and night\" wording (key idea 5, the O3 card) has a source.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration",
+          "supports": "Both producers and consumers carry out cellular respiration."
+        },
+        {
+          "type": "external",
+          "title": "Too much moisture can hinder root development",
+          "publisher": "University of Missouri Extension",
+          "url": "https://extension.missouri.edu/news/too-much-moisture-can-hinder-root-development",
+          "accessed": "2026-10-14",
+          "supports": "Plant roots need oxygen to respire; when water fills the soil pores, roots become oxygen-deprived, at times to the point of death."
+        },
+        {
+          "type": "external",
+          "title": "PlantFacts: Respiration (HCS 300)",
+          "publisher": "The Ohio State University",
+          "url": "https://plantfacts.osu.edu/resources/hcs300/respire.htm",
+          "accessed": "2026-10-14",
+          "supports": "Non-green plant parts get their energy from respiration and green parts also respire at night; roots in flooded or compacted soil are deprived of the oxygen respiration needs."
+        },
+        {
+          "type": "external",
+          "title": "Pierre Dizengremel, Plant resistance to stress: role of respiration?",
+          "publisher": "Encyclopedia of the Environment (Association des Encyclopédies de l'Environnement et de l'Énergie, Université Grenoble Alpes)",
+          "url": "https://encyclopedie-environnement.org/?p=19453",
+          "accessed": "2026-10-17",
+          "supports": "Plant respiration takes place day and night, unlike photosynthesis, which needs light; during the dark period only respiration operates."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF3",
+      "issue": "p. 58 and the Figure 3A caption overstate mitochondria: \"every cell in the body\" has them (mature red blood cells don't), \"most unicellular organisms\" have them (bacteria and archaea, which are single-celled, have none), and cellular respiration is said to take place in them (its first stage, glycolysis, happens in the cytoplasm).",
+      "pages": {
+        "printed": [
+          58
+        ],
+        "pdf": [
+          94
+        ]
+      },
+      "resolution": "Content says most of cellular respiration happens in mitochondria, found in plant cells, animal cells and many single-celled organisms such as amoebas. No question says every cell or most single-celled organisms have mitochondria; Q14 asks which structure does most of the energy release, and its explanation mentions the first steps outside the mitochondria. Since review round 1, Q23 says cellular respiration happens mostly in the mitochondria, and Q24 names cellular respiration without placing all of it inside them.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            58
+          ],
+          "pdfPages": [
+            94
+          ],
+          "locator": "Section 3. Cellular Respiration, Figure 3A",
+          "supports": "Mitochondria in producer and consumer cells convert energy in sugar into energy the cell can use."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.2 Glycolysis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+          "accessed": "2026-10-14",
+          "supports": "Glycolysis, the first stage of breaking down glucose, takes place in the cytoplasm of both prokaryotic and eukaryotic cells, outside the mitochondria."
+        },
+        {
+          "type": "external",
+          "title": "Anatomy and Physiology 2e, 18.3 Erythrocytes",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes",
+          "accessed": "2026-10-14",
+          "supports": "Mature human red blood cells lack mitochondria, so not every cell in the body has them."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 4.2 Prokaryotic Cells",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+          "accessed": "2026-10-14",
+          "supports": "Prokaryotes (bacteria and archaea), which are mostly single-celled, lack a nucleus and any other membrane-bound organelle, so they have no mitochondria."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF4",
+      "issue": "Energy wording is simplified throughout: energy is \"stored in the bonds\" of sugar and \"released as that molecule is broken down\" (pp. 59, 63); respiration \"generates energy\" (p. 59 and the p. 61 caption). Breaking bonds requires energy; the net release comes from forming the stronger bonds of CO₂ and H₂O, and energy is converted, not generated. p. 57 also says producers can't use captured light energy directly, though chloroplasts do use it directly to build sugar.",
+      "pages": {
+        "printed": [
+          57,
+          59,
+          61,
+          63
+        ],
+        "pdf": [
+          93,
+          95,
+          97,
+          99
+        ]
+      },
+      "resolution": "Game text says chemical energy stored in sugar is released or converted, never created. Q12 repairs \"creates energy\"; Q13 explains the net release with bond breaking and bond forming; the O2 card's watchOut names the shortcut. No question claims that breaking a bond releases energy. The p. 57 idea is used only in a defensible form: light energy is stored in sugar so it can travel to, and power, cells that aren't capturing light, such as roots and every cell at night (Q07's explanation and the O1 card, both reworded in review round 1). Q16's choice b rationale says photosynthesis can't fuel the roots or most of a cell's work, not that it powers none, and since review round 2 the O1 watchOut says a plant doesn't run most of its cell work directly on sunlight.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            59
+          ],
+          "pdfPages": [
+            95
+          ],
+          "locator": "Section 3. Cellular Respiration, The Process of Cellular Respiration",
+          "supports": "The energy released by respiration was stored during photosynthesis, and matter is not lost in the reaction."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 7.5 Strengths of Ionic and Covalent Bonds",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+          "accessed": "2026-10-14",
+          "supports": "Separating bonded atoms always requires energy, energy is released when bonds form, and a reaction releases energy overall when the bonds in the products are stronger than those in the reactants."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 6.3 The Laws of Thermodynamics",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/6-3-the-laws-of-thermodynamics",
+          "accessed": "2026-10-14",
+          "supports": "Energy can be transferred or transformed but cannot be created or destroyed, and cellular metabolic reactions release part of their energy as heat."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF5",
+      "issue": "pp. 55-56 call herbivores predators: the Introduction calls the acorn-eating squirrel a predator, and Section 1 lists herbivores, carnivores and omnivores as kinds of predators. In standard usage predation means consuming prey, and herbivory is treated as a separate interaction.",
+      "pages": {
+        "printed": [
+          55,
+          56
+        ],
+        "pdf": [
+          91,
+          92
+        ]
+      },
+      "resolution": "Content calls every eater a consumer and never calls the acorn-eating squirrel a predator. No question asks whether herbivores are predators.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "A consumer takes in other organisms, by eating or absorbing them, for matter and energy; some feed on producers and others on consumers."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 45.6 Community Ecology",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "accessed": "2026-10-14",
+          "supports": "Predation is the consumption of prey by a predator; herbivory, the consumption of plants by animals, is described as a separate interaction."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF6",
+      "issue": "The Figure 2 table (p. 57) says producers obtain matter from \"the air, water, and soil\". The p. 57 text names carbon dioxide and water. Soil supplies only small amounts of minerals; most of a plant's dry mass is carbon taken in as carbon dioxide (the guide's \"soil is not the main source of plant mass\").",
+      "pages": {
+        "printed": [
+          57
+        ],
+        "pdf": [
+          93
+        ]
+      },
+      "resolution": "Q03 item s6 (producers get the carbon atoms for their bodies from carbon dioxide) carries the point, and the O1 card table says \"plus small amounts of soil minerals\" with its watchOut explaining it. Q04, the original plant-mass item, was rejected in review round 1 as a duplicate of L04-Q16; plant mass is taught in L04.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy",
+          "supports": "Producers take carbon dioxide and water from their surroundings and turn them into sugars and their own bodies."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 31.1 Nutritional Requirements of Plants",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+          "accessed": "2026-10-14",
+          "supports": "Plants take in carbon as carbon dioxide from the atmosphere, carbon makes up the majority of the dry mass of most plants, and the soil supplies mineral nutrients such as nitrogen and potassium."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF7",
+      "issue": "p. 57 says consumers take in air and water but do not use that matter to build cells. Water makes up as much as 60 percent of an adult human body and is part of every cell, so this is oversimplified. The textbook's real point holds for carbon-containing building molecules: consumers can't make them from carbon dioxide and water.",
+      "pages": {
+        "printed": [
+          57
+        ],
+        "pdf": [
+          93
+        ]
+      },
+      "resolution": "Content says consumers get their carbon-containing building molecules from food. Q05 asks specifically about the carbon atoms in new muscle; its drinking-water distractor and its limitations both say that water a squirrel drinks also becomes part of its cells.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            57
+          ],
+          "pdfPages": [
+            93
+          ],
+          "locator": "Section 2. Sources of Matter and Energy",
+          "supports": "Consumers obtain the matter for building their cells by eating other organisms."
+        },
+        {
+          "type": "external",
+          "title": "The Water in You: Water and the Human Body",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body",
+          "accessed": "2026-10-14",
+          "supports": "Up to 60 percent of the adult human body is water, and water acts as a building material of every cell."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF8",
+      "issue": "p. 61 says food is \"digested into smaller molecules\" in the stomach and then travels through the bloodstream. Digestion starts in the mouth, continues in the stomach and is mostly completed in the small intestine, which absorbs most nutrients into the blood.",
+      "pages": {
+        "printed": [
+          61
+        ],
+        "pdf": [
+          97
+        ]
+      },
+      "resolution": "Game text says the digestive system breaks food into small molecules that enter the blood, without naming the stomach as the place. Q23 (a baked potato powering a bike ride) orders chewing, then digestion finishing the job, then transport in the blood, but tests no organ. The O4 card's watchOut gives the corrected sequence.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            61
+          ],
+          "pdfPages": [
+            97
+          ],
+          "locator": "Section 4. How You Get Energy and Matter",
+          "supports": "Food is broken into smaller particles and molecules that travel through the bloodstream to every cell."
+        },
+        {
+          "type": "external",
+          "title": "Your Digestive System & How It Works",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+          "accessed": "2026-10-14",
+          "supports": "Digestion starts in the mouth, continues in the stomach and finishes in the small intestine, which absorbs most of the digested nutrients into the bloodstream."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF9",
+      "issue": "p. 62 says the bodies of animals cannot carry out the reactions that make cellulose. Tunicates (sea squirts) are animals that do make cellulose.",
+      "pages": {
+        "printed": [
+          62
+        ],
+        "pdf": [
+          98
+        ]
+      },
+      "resolution": "Content says \"your body can't make cellulose\" (glossary and O4 card) and makes no claim about all animals. Since review round 1, Q21 matches cellulose to \"forms the tough walls of plant cells\", so the item no longer depends on the claim; only its cellulose rationale says your body can't make it.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates",
+          "supports": "Plants combine sugars to make cellulose; the human body cannot make cellulose."
+        },
+        {
+          "type": "external",
+          "title": "Kun-Lung Li, A Hydrolase Gene in an Animal that Makes Cellulose",
+          "publisher": "Okinawa Institute of Science and Technology (OIST)",
+          "url": "https://groups.oist.jp/node/26007",
+          "accessed": "2026-10-14",
+          "supports": "Tunicates, the sister group of vertebrates, are the only animal group known to synthesize cellulose."
+        },
+        {
+          "type": "external",
+          "title": "Inoue, Nakashima and Satoh (2019), ORTHOSCOPE Analysis Reveals the Presence of the Cellulose Synthase Gene in All Tunicate Genomes but Not in Other Animal Genomes, Genes 10(4): 294 (repository record)",
+          "publisher": "Okinawa Institute of Science and Technology (OIST) Institutional Repository",
+          "url": "https://oist.repo.nii.ac.jp/records/1018",
+          "accessed": "2026-10-15",
+          "supports": "Tunicates are the only animals known to make cellulose: the cellulose synthase gene is present in every sequenced tunicate genome and absent from other animal genomes."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF10",
+      "issue": "p. 62 defines a fat as a molecule that stores energy \"in the form of oils\". Fats and oils are both lipids; oils are the ones that are liquid at room temperature, and solid fats are not oils.",
+      "pages": {
+        "printed": [
+          62
+        ],
+        "pdf": [
+          98
+        ]
+      },
+      "resolution": "The glossary defines fat as an energy-rich molecule for long-term storage and cell membranes and notes that liquid fats are called oils. No question asks whether fats are oils. Cell membranes are built mainly from phospholipids, close relatives of fats made partly from fatty acids, so 'fats help build membranes' is kept as a grade-level simplification and no question says membranes are made of fat (review round 2).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Fats",
+          "supports": "Fats store energy for the long term and become part of healthy cells; avocados, nuts and oily fish supply them."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 3.3 Lipids",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+          "accessed": "2026-10-14",
+          "supports": "Fats and oils are both lipids; unsaturated fats that are liquid at room temperature are called oils; cells store energy for long-term use as fat; phospholipids are major parts of cell membranes."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF11",
+      "issue": "p. 63 presents the two word equations as exact mirror images whose reactants and products swap. This is right for the overall equations, but it can suggest one reaction running backward. In reality the two are different multistep pathways in different places (chloroplasts versus the cytoplasm and mitochondria), and the oxygen released by photosynthesis comes from splitting water.",
+      "pages": {
+        "printed": [
+          63
+        ],
+        "pdf": [
+          99
+        ]
+      },
+      "resolution": "Q25 and Q26 compare the overall equations as summaries (Q25 by gases and by who carries out each process, Q26 by energy); the O5 card's watchOut says they are not one reaction run in reverse. No question claims the steps are the same.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            63
+          ],
+          "pdfPages": [
+            99
+          ],
+          "locator": "Section 5. Comparing Photosynthesis and Cellular Respiration",
+          "supports": "The reactants of each process are the products of the other, and the atoms are rearranged rather than lost."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 8.2 The Light-Dependent Reactions of Photosynthesis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "accessed": "2026-10-14",
+          "supports": "The oxygen released by photosynthesis comes from splitting water molecules, and the light-dependent reactions supply energy to a separate set of reactions that assemble sugar."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 7.2 Glycolysis",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+          "accessed": "2026-10-14",
+          "supports": "Glycolysis, the first stage of breaking down glucose, takes place in the cytoplasm of both prokaryotic and eukaryotic cells, outside the mitochondria."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF12",
+      "issue": "pp. 56 and 63 (Section 1 and the Lesson Summary) decide whether an organism is a consumer by whether it can make its own food by photosynthesis, and describe producers only as capturing sunlight. Chemosynthetic producers, such as bacteria at deep-sea hydrothermal vents, make food from chemical energy without light and are not consumers, so the definition is oversimplified.",
+      "pages": {
+        "printed": [
+          56,
+          63
+        ],
+        "pdf": [
+          92,
+          99
+        ]
+      },
+      "resolution": "Game text defines a consumer as an organism that can't make its own food (glossary, key idea 1, Q01) and a producer as an organism that makes its own food, most of them using sunlight (glossary). Questions use plants, algae and animals, where the photosynthesis wording holds, and Q03 states that it is about typical producers and consumers. No question claims that every producer uses light. Added in review round 1. In review round 2, key idea 2 and the photosynthesis glossary entry were narrowed to photosynthetic producers (plants, algae and some bacteria), and Q02's read-aloud prompt no longer says producers make food by photosynthesis.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            56
+          ],
+          "pdfPages": [
+            92
+          ],
+          "locator": "Section 1. Consumers",
+          "supports": "The textbook sorts organisms as consumers when they can't make food by photosynthesis, and says a consumer eats or absorbs other organisms to get matter and energy."
+        },
+        {
+          "type": "external",
+          "title": "What is the difference between photosynthesis and chemosynthesis?",
+          "publisher": "NOAA Ocean Exploration",
+          "url": "https://oceanexplorer.noaa.gov/facts/photochemo.html",
+          "accessed": "2026-10-15",
+          "supports": "Where there is no sunlight, some organisms make food by chemosynthesis, using energy released by chemical reactions; this is primary production, so these organisms are producers."
+        }
+      ]
+    },
+    {
+      "id": "L05-RF13",
+      "issue": "p. 62 oversimplifies carbohydrates twice. It explains the name 'simple carbohydrate' by saying sugars contain few atoms; sugars are called simple because each is a single sugar unit (or two joined), while complex carbohydrates are long chains of those units. It also defines a carbohydrate as a molecule used to store energy, but cellulose, a carbohydrate the same page names, is structural: it forms plant cell walls.",
+      "pages": {
+        "printed": [
+          62
+        ],
+        "pdf": [
+          98
+        ]
+      },
+      "resolution": "The glossary defines a carbohydrate as a molecule that stores energy or builds structure, and calls starch, glycogen and cellulose complex carbohydrates built from many sugars. The O4 card calls complex carbohydrates long chains of sugars and, since review round 2, says many (not all) carbohydrates are energy molecules. No question uses either textbook wording; Q21 matches cellulose to plant cell walls. Added in review round 2.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            62
+          ],
+          "pdfPages": [
+            98
+          ],
+          "locator": "Section 4. How You Get Energy and Matter, Carbohydrates",
+          "supports": "The textbook calls sugars simple carbohydrates and describes cellulose, starch and glycogen as complex carbohydrates assembled from them."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 3.2 Carbohydrates",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+          "accessed": "2026-10-17",
+          "supports": "Monosaccharides are the simple sugars, two joined form a disaccharide, and a long chain of them is a polysaccharide such as starch, glycogen or cellulose; cellulose makes up most of a plant cell wall and gives structural support."
+        }
+      ]
+    }
+  ]
+}

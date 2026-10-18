@@ -1,0 +1,3924 @@
+{
+  "lessonId": "L12",
+  "questions": [
+    {
+      "id": "L12-Q01",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O1"
+      ],
+      "conceptTags": [
+        "reactants",
+        "products",
+        "baking soda and vinegar"
+      ],
+      "familyId": "L12-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Vinegar and baking soda fizz when they are mixed. Sort each substance in this reaction: was it a reactant or a product?",
+      "accessiblePrompt": "Vinegar and baking soda fizz when they are mixed. Sort each of four substances in this reaction as a reactant or a product. The substances are: acetic acid, found in vinegar; sodium bicarbonate, which is baking soda; sodium acetate; and carbon dioxide gas.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Acetic acid, found in vinegar",
+          "rationale": "It is in the vinegar before anything happens and is changed by the reaction (some or all of it reacts), so it is a reactant."
+        },
+        {
+          "id": "i2",
+          "text": "Sodium bicarbonate, which is baking soda",
+          "rationale": "This is the baking soda itself, a starting substance that changes, so it is a reactant."
+        },
+        {
+          "id": "i3",
+          "text": "Sodium acetate",
+          "rationale": "It was not in either ingredient; the reaction makes it, so it is a product."
+        },
+        {
+          "id": "i4",
+          "text": "Carbon dioxide gas",
+          "rationale": "The gas in the bubbles is made by the reaction from atoms of the reactants, so it is a product."
+        }
+      ],
+      "bins": [
+        {
+          "id": "reactant",
+          "label": "Reactant"
+        },
+        {
+          "id": "product",
+          "label": "Product"
+        }
+      ],
+      "answer": {
+        "i1": "reactant",
+        "i2": "reactant",
+        "i3": "product",
+        "i4": "product"
+      },
+      "conditions": "Sort by each substance's role in the vinegar and baking soda reaction.",
+      "explanation": "Reactants are the substances present at the start that get changed by the reaction. Products are the new substances the reaction makes. Acetic acid and sodium bicarbonate react, and sodium acetate, water and the bubbly carbon dioxide are what they turn into.",
+      "misconception": "The carbon dioxide bubbles were already inside the baking soda and simply escaped.",
+      "hint": "Which substances were in the vinegar and the baking soda to begin with, and which ones did the reaction make?",
+      "followUpId": "L12-Q06",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            154
+          ],
+          "pdf": [
+            190
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances",
+          "supports": "Acetic acid in vinegar and sodium bicarbonate in baking soda are the reactants; water, sodium acetate and carbon dioxide gas are the products."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Water is left out on purpose: vinegar is mostly water, so sorting water would have two defensible bins. Round 1: the prompt no longer says which substances react, and the items name where each one comes from (pedagogy). The acetic acid rationale no longer says it 'gets used up', because how much reacts depends on the amounts (science; see Q12 and Q13). Second review cycle: follow-up changed from Q12 to Q06, whose sort repairs the 'the bubbles were already inside the baking soda' idea this item targets (pedagogy).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: acetic acid rationale no longer says it gets used up"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt no longer names the two reactants; items say where each substance comes from"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L12-Q06"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q02",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O1"
+      ],
+      "conceptTags": [
+        "products",
+        "precipitate",
+        "solubility"
+      ],
+      "familyId": "L12-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Clear solutions of lead nitrate and potassium iodide are mixed. Yellow lead iodide settles out, and the liquid above it stays clear. The reaction's other product is potassium nitrate. Where is it?",
+      "accessiblePrompt": "Two clear solutions are mixed: lead nitrate dissolved in water, and potassium iodide dissolved in water. Yellow lead iodide settles out, and the liquid above it stays clear. The reaction's other product is potassium nitrate. Where is the potassium nitrate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mixed into the yellow solid, which holds both products.",
+          "rationale": "The yellow solid is lead iodide. Potassium nitrate dissolves easily in water, so it doesn't settle out with it."
+        },
+        {
+          "id": "b",
+          "text": "Dissolved in the clear liquid, where you can't see it.",
+          "rationale": "Correct: potassium nitrate is a product that dissolves easily in water, so it stays spread through the clear liquid, out of sight."
+        },
+        {
+          "id": "c",
+          "text": "Nowhere; if it had formed, you would be able to see it.",
+          "rationale": "Products don't have to be visible. Potassium nitrate did form, but it stays dissolved in the liquid."
+        },
+        {
+          "id": "d",
+          "text": "Floating above the liquid as a colorless gas.",
+          "rationale": "No gas forms in this reaction; potassium nitrate stays in the liquid because it dissolves easily."
+        }
+      ],
+      "answer": "b",
+      "limitations": "A very small amount of lead iodide does dissolve, but far too little to keep it from forming a visible solid.",
+      "explanation": "Both lead iodide and potassium nitrate are new substances. Lead iodide barely dissolves in water, so it comes out as the yellow solid. Potassium nitrate dissolves easily, so it stays spread through the clear liquid where you can't see it. A product doesn't have to be visible to be there.",
+      "misconception": "If a reaction made a product, you would always be able to see it.",
+      "hint": "If you stir sugar into water, where does the sugar go?",
+      "followUpId": "L12-Q08",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            155
+          ],
+          "pdf": [
+            191
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, lead nitrate and potassium iodide reaction and photo caption",
+          "supports": "Both reactants are white solids that dissolve to give colorless mixtures; the products are bright yellow lead iodide, which settles out as a solid, and potassium nitrate, which stays dissolved."
+        },
+        {
+          "type": "external",
+          "title": "Lead iodide (CID 24931), Solubility section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24931/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "Lead iodide dissolves only very slightly in water (about 0.076 g per 100 cm³ at 20 °C)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Lead iodide is described as barely dissolving rather than insoluble (L12-RF1). Round 1: rewritten as statement choices so the distractors carry the 'products are always visible' idea or a wrong location, instead of recall of substance names (pedagogy). This also removes the old choice d rationale that said potassium iodide 'gets used up' (science).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: the 'gets used up' rationale is gone (that choice was replaced in the pedagogy rewrite)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as where-is-the-hidden-product statement choices; new hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q03",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O1"
+      ],
+      "conceptTags": [
+        "evidence of a reaction",
+        "property change",
+        "physical change",
+        "rust",
+        "transfer"
+      ],
+      "familyId": "L12-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "Which observations are clues that a new substance may have formed? Select all that apply.",
+      "accessiblePrompt": "Which observations are clues that a new substance may have formed? Select all that apply. The choices describe: an iron nail in damp air growing a flaky orange crust; heated white sugar turning brown with a caramel smell; an ice cube shrinking into a puddle; salt seeming to vanish when stirred into water; and a brown gas in a sealed tube turning nearly colorless when cooled.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An iron nail in damp air grows a flaky orange crust.",
+          "rationale": "Correct: a flaky orange solid that the gray nail didn't have is a new color and a new solid; it is rust, made when iron reacts with oxygen and water."
+        },
+        {
+          "id": "b",
+          "text": "Heated white sugar turns brown and smells like caramel.",
+          "rationale": "Correct: a new color and a new odor suggest the sugar broke down into different substances."
+        },
+        {
+          "id": "c",
+          "text": "An ice cube shrinks into a puddle on a warm counter.",
+          "rationale": "Melting changes water's state, not its identity; the puddle is still water."
+        },
+        {
+          "id": "d",
+          "text": "Salt seems to vanish when it is stirred into water.",
+          "rationale": "Dissolving spreads the salt through the water; if the water evaporated, the salt would be left behind."
+        },
+        {
+          "id": "e",
+          "text": "A brown gas in a sealed tube turns nearly colorless when cooled.",
+          "rationale": "Correct: the color change comes from brown nitrogen dioxide reacting to form a colorless gas."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "e"
+      ],
+      "explanation": "A new color, a new solid and a new smell are clues that a property changed, which hints at a new substance. Melting and dissolving change how things look, but the water is still water and the salt is still salt. Clues are reasons to test further, not final proof.",
+      "misconception": "Any change you can see, such as melting or dissolving, means a new substance formed.",
+      "hint": "For each one, ask: is it the same substance in a new form, or something with new properties?",
+      "followUpId": "L12-Q05",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            156,
+            158
+          ],
+          "pdf": [
+            192,
+            194
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions, heated sugar and photo caption",
+          "supports": "Heated white sugar breaks down into brown caramel with a new taste and a new odor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Cooling",
+          "supports": "Cooled brown nitrogen dioxide reacts to form colorless dinitrogen tetroxide, and heating runs the reverse reaction, bringing the brown gas back."
+        },
+        {
+          "type": "external",
+          "title": "3.6: Changes in Matter - Physical and Chemical Changes (Introductory Chemistry)",
+          "publisher": "Chemistry LibreTexts (Marisa Alviar-Agnew and Henry Agnew, Sacramento City College)",
+          "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03:_Matter_and_Energy/3.06:_Changes_in_Matter_-_Physical_and_Chemical_Changes",
+          "accessed": "2026-10-17",
+          "supports": "Melting and dissolving are physical changes; a new color, a solid or a new odor can indicate a chemical change, and other observations are needed to confirm one. A dark gray nail that forms an orange, flaky substance (rust) has undergone a chemical change."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-17",
+          "supports": "Iron combines with oxygen in the presence of water to form rust, and forming rust is a chemical change because rust is a different kind of matter from the iron, oxygen and water present before."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Dissolving salt and melting ice are treated as physical changes, the standard school-level classification. Second review cycle: choice a moved from the lesson's yellow-solid example (also used in Q02, Q04 and Q08) to a fresh everyday observation, a rusting iron nail, so an O1 item tests transfer (pedagogy lesson-level recommendation; both item verdicts were pass). The choice describes only what is seen; the rationale names rust. Sources: LibreTexts 3.6 and OpenStax 1.3. The p. 155 evidence record went with the old choice.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier yellow-solid version of choice a)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a moved to a fresh everyday observation, a rusting nail (lesson-level transfer recommendation; item verdict was pass)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q04",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O1"
+      ],
+      "conceptTags": [
+        "property change",
+        "color",
+        "odor",
+        "solubility",
+        "melting point"
+      ],
+      "familyId": "L12-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Each observation comes from this lesson. Match it to the property that changed. Two properties are not used.",
+      "accessiblePrompt": "Each observation comes from this lesson. Match it to the property that changed. The observations are: a brown gas turns nearly colorless; a solid forms that barely dissolves in water; heated sugar gives off a smell it didn't have before; and a white powder made in a lab turns from a solid into a liquid at 136 degrees Celsius instead of 159. The properties are: color, solubility, odor, melting point, density, and boiling point. Two properties are not used.",
+      "left": [
+        {
+          "id": "l1",
+          "text": "A brown gas turns nearly colorless.",
+          "rationale": "Going from brown to colorless is a change in color."
+        },
+        {
+          "id": "l2",
+          "text": "A solid forms that barely dissolves in water.",
+          "rationale": "How much of a substance dissolves in water is its solubility."
+        },
+        {
+          "id": "l3",
+          "text": "Heated sugar gives off a smell it didn't have before.",
+          "rationale": "A new smell is a change in odor."
+        },
+        {
+          "id": "l4",
+          "text": "A lab powder turns from a solid into a liquid at 136 °C instead of 159 °C.",
+          "rationale": "A solid turning into a liquid is melting, so the temperature where it happens is the melting point, not the boiling point."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Color"
+        },
+        {
+          "id": "r2",
+          "text": "Solubility"
+        },
+        {
+          "id": "r3",
+          "text": "Odor"
+        },
+        {
+          "id": "r4",
+          "text": "Melting point"
+        },
+        {
+          "id": "r5",
+          "text": "Density"
+        },
+        {
+          "id": "r6",
+          "text": "Boiling point"
+        }
+      ],
+      "answer": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each clue is a change in a property you can notice or measure. Color and odor you notice with your senses, and solubility is how much dissolves in a liquid. The temperature where a solid turns into a liquid is its melting point, not its boiling point. In the aspirin example, density was one of the properties that did not show a difference.",
+      "misconception": "Only a change in color counts as a change in properties.",
+      "hint": "For each one, what would a scientist write down: a color, a smell, an amount that dissolves, or the temperature of a change of state? If it is a change of state, which one?",
+      "followUpId": "L12-Q10",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            155,
+            157,
+            158,
+            159
+          ],
+          "pdf": [
+            191,
+            193,
+            194,
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, lead nitrate and potassium iodide reaction and photo caption",
+          "supports": "Both reactants are white solids that dissolve to give colorless mixtures; the products are bright yellow lead iodide, which settles out as a solid, and potassium nitrate, which stays dissolved."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions, heated sugar and photo caption",
+          "supports": "Heated white sugar breaks down into brown caramel with a new taste and a new odor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Density is an unused option; p. 159 shows it did not change in the aspirin example. Round 1: lead iodide now 'barely dissolves' (RF1). Difficulty lowered to 1 because each observation names its property. Second review cycle: every observation used to contain its own property's word, so the item could be solved by word-matching. Boiling point was added as a second unused property, and l4 now describes a solid turning into a liquid instead of saying 'melts', so the learner must pick melting point over boiling point. The hint no longer pairs each observation with a sense or tool (pedagogy). l1 to l3, the answer map and difficulty 1 are unchanged. Verifier (2026-10-14): cosmetic fix only. The explanation's last sentence said density was 'the' property that showed no difference in the aspirin example; appearance did not differ either (p. 159), so it now says 'one of the properties'. Answer map unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'won't dissolve' changed to 'barely dissolves' (RF1)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: same wording fix; solubility rationale reworded; difficulty 2 to 1 (vocabulary-level match)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: boiling point added as a second unused property; l4 no longer says 'melts'; new hint"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q05",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O2",
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "evidence of a reaction",
+        "bubbles",
+        "boiling",
+        "physical change"
+      ],
+      "familyId": "L12-F03",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Bubbles appear in a liquid. Why are bubbles alone not enough evidence that a chemical reaction happened?",
+      "accessiblePrompt": "Bubbles appear in a liquid. Why are bubbles alone not enough evidence that a chemical reaction happened?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A gas has no mass, so it can't count as a new substance.",
+          "rationale": "Gases are matter and have mass; the carbon dioxide from baking soda and vinegar is a real product."
+        },
+        {
+          "id": "b",
+          "text": "Reactions make solids or liquids, so bubbles point to a physical change.",
+          "rationale": "Reactions can make gases; vinegar and baking soda produce carbon dioxide."
+        },
+        {
+          "id": "c",
+          "text": "Boiling makes bubbles too, and boiling makes nothing new.",
+          "rationale": "Correct: boiling water makes bubbles of water vapor, which is still water, so bubbles can appear with no new substance."
+        },
+        {
+          "id": "d",
+          "text": "Bubbles are something you see, and evidence has to be measured.",
+          "rationale": "Things you see, such as bubbles or a color change, count as evidence too; the trouble is that bubbles also come from changes that make nothing new."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Bubbles only tell you a gas is there. Boiling water bubbles too, but the bubbles hold water vapor, so the substance is still water and nothing new formed. To claim a reaction, you need evidence that a substance with different properties appeared.",
+      "misconception": "Bubbles always mean a chemical reaction is happening.",
+      "hint": "Think about other everyday times you see bubbles. Is something new being made every time?",
+      "followUpId": "L12-Q08",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            154
+          ],
+          "pdf": [
+            190
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances (opening scenario)",
+          "supports": "The fizzing of vinegar and baking soda is contrasted with boiling and sublimation, which are changes of state rather than reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances",
+          "supports": "Acetic acid in vinegar and sodium bicarbonate in baking soda are the reactants; water, sodium acetate and carbon dioxide gas are the products."
+        },
+        {
+          "type": "external",
+          "title": "3.6: Changes in Matter - Physical and Chemical Changes (Introductory Chemistry)",
+          "publisher": "Chemistry LibreTexts (Marisa Alviar-Agnew and Henry Agnew, Sacramento City College)",
+          "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03:_Matter_and_Energy/3.06:_Changes_in_Matter_-_Physical_and_Chemical_Changes",
+          "accessed": "2026-10-14",
+          "supports": "Bubbles suggest a chemical change only when the substance is not boiling; boiling turns liquid water into water vapor, a physical change, so other observations are needed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L12 (Why are bubbles alone insufficient evidence? Bubbles also occur in a physical change such as boiling). Round 1: distractors rewritten without always/never/only so the key can't be found by elimination; key shortened; hint no longer names boiling (pedagogy). The key still matches the brief's seed answer.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors without absolute words; key shortened; hint no longer names boiling"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q06",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "bubbles",
+        "physical change",
+        "chemical reaction",
+        "gas"
+      ],
+      "familyId": "L12-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Each event makes bubbles of gas. Sort them: did a reaction make a new gas, or is the gas a substance that was already there?",
+      "accessiblePrompt": "Each event makes bubbles of gas. Sort them into two groups: a reaction made a new gas, or the gas is a substance that was already there. The events are: water bubbling at a full boil; baking soda fizzing in vinegar; an aquarium pump blowing air into a fish tank; and a freshly opened bottle of soda water fizzing.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Water bubbling at a full boil",
+          "rationale": "The bubbles are water vapor: the same substance in a different state."
+        },
+        {
+          "id": "i2",
+          "text": "Baking soda fizzing in vinegar",
+          "rationale": "Acetic acid and sodium bicarbonate react to make carbon dioxide, a gas that wasn't there before."
+        },
+        {
+          "id": "i3",
+          "text": "An aquarium pump blowing air into a fish tank",
+          "rationale": "The pump pushes existing air into the water; no substance changes."
+        },
+        {
+          "id": "i4",
+          "text": "A freshly opened bottle of soda water fizzing",
+          "rationale": "The carbon dioxide was dissolved in the drink under pressure and escapes when the bottle opens."
+        }
+      ],
+      "bins": [
+        {
+          "id": "new",
+          "label": "A reaction made a new gas"
+        },
+        {
+          "id": "same",
+          "label": "The gas was already there in some form"
+        }
+      ],
+      "answer": {
+        "i1": "same",
+        "i2": "new",
+        "i3": "same",
+        "i4": "same"
+      },
+      "explanation": "Only the baking soda and vinegar make a gas that wasn't there before: carbon dioxide formed from the reactants. Boiling turns water into water vapor, the pump just pushes air into the tank, and the soda's carbon dioxide was dissolved in it before the bottle was opened.",
+      "misconception": "Fizzing or bubbling always means a reaction is making something new.",
+      "hint": "For each one, ask where the gas came from: was it made from the starting substances, or was it there all along in some form?",
+      "followUpId": "L12-Q03",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            154
+          ],
+          "pdf": [
+            190
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances (opening scenario)",
+          "supports": "The fizzing of vinegar and baking soda is contrasted with boiling and sublimation, which are changes of state rather than reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances",
+          "supports": "Acetic acid in vinegar and sodium bicarbonate in baking soda are the reactants; water, sodium acetate and carbon dioxide gas are the products."
+        },
+        {
+          "type": "external",
+          "title": "3.6: Changes in Matter - Physical and Chemical Changes (Introductory Chemistry)",
+          "publisher": "Chemistry LibreTexts (Marisa Alviar-Agnew and Henry Agnew, Sacramento City College)",
+          "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03:_Matter_and_Energy/3.06:_Changes_in_Matter_-_Physical_and_Chemical_Changes",
+          "accessed": "2026-10-14",
+          "supports": "Boiling turns liquid water into water vapor, a physical change; bubbles point to a chemical change only when they are not from boiling."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Second review cycle: the soda-water condition was deleted because it stated item i4's answer before the learner sorted it (pedagogy). The bin label 'The gas was already there in some form' covers carbon dioxide dissolved in the drink, so every item still has one defensible bin, and the i4 rationale and the explanation teach this after the answer. The science reviewer raised no carbonic-acid concern, so the reviewer's dry-ice alternative was not used.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions line removed because it gave away item i4"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q07",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4",
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "temperature change",
+        "evidence",
+        "claim",
+        "physical change"
+      ],
+      "familyId": "L12-F03",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In a lab, two liquids are mixed and the beaker gets colder. Noah writes, \"It got colder, so a chemical reaction must have happened.\" Which example best shows why Noah needs more evidence?",
+      "accessiblePrompt": "In a lab, two liquids are mixed and the beaker gets colder. Noah writes: It got colder, so a chemical reaction must have happened. Which example best shows why Noah needs more evidence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A burning match gets hotter, and burning makes new substances.",
+          "rationale": "This shows a reaction with a temperature change; it doesn't show a temperature change without a reaction."
+        },
+        {
+          "id": "b",
+          "text": "Ice melting in juice cools it, yet nothing new forms.",
+          "rationale": "Correct: here the temperature drops with only a change of state, so a temperature change alone can't prove a reaction."
+        },
+        {
+          "id": "c",
+          "text": "Lead nitrate and potassium iodide react without being heated.",
+          "rationale": "This is about what starts a reaction, not about whether a temperature change proves one."
+        },
+        {
+          "id": "d",
+          "text": "Cooling brown nitrogen dioxide makes a colorless gas form.",
+          "rationale": "This is a reaction started by cooling; it doesn't show a temperature change with no reaction."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Temperature can change when no new substance forms. Melting ice takes in energy from the juice around it, so the juice cools even though only water's state changes. To support his claim, Noah needs evidence of a substance with new properties, such as a new solid, a new odor or a different melting point.",
+      "misconception": "Any temperature change during mixing proves a chemical reaction.",
+      "hint": "Noah's rule is 'colder means a reaction.' What kind of example would break that rule?",
+      "followUpId": "L12-Q22",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            158
+          ],
+          "pdf": [
+            194
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions",
+          "supports": "Scientific evidence is data that supports a claim; a change in properties such as color or odor is a clue that new substances are forming."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions",
+          "supports": "Because not every change is easy to see, scientists test properties known to differ between particular reactants and products, such as density, melting point, boiling point, solubility, flammability and odor."
+        },
+        {
+          "type": "external",
+          "title": "3.6: Changes in Matter - Physical and Chemical Changes (Introductory Chemistry)",
+          "publisher": "Chemistry LibreTexts (Marisa Alviar-Agnew and Henry Agnew, Sacramento City College)",
+          "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03:_Matter_and_Energy/3.06:_Changes_in_Matter_-_Physical_and_Chemical_Changes",
+          "accessed": "2026-10-14",
+          "supports": "Temperature change is listed as an indicator, but other observations are needed to show a chemical change happened."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Extends the seed idea from bubbles to temperature change, as the brief's lesson entry asks. Round 1: key shortened and hint no longer describes the key (pedagogy). Temperature change and melting ice are now taught on the O1 card and in key idea 3 (science lesson-level fix).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shortened; hint no longer describes the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q08",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O1",
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "new substance",
+        "properties",
+        "solubility",
+        "color"
+      ],
+      "familyId": "L12-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Lead nitrate and potassium iodide are white solids that dissolve easily in water. When their solutions are mixed, a yellow solid forms that barely dissolves. What best shows that the yellow solid is a new substance?",
+      "accessiblePrompt": "Lead nitrate and potassium iodide are white solids that dissolve easily in water. When their solutions are mixed, a yellow solid forms that barely dissolves. What best shows that the yellow solid is a new substance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It sinks to the bottom, so it is denser than the liquid.",
+          "rationale": "Sand sinks in water too; being denser than water says nothing about whether a substance is new."
+        },
+        {
+          "id": "b",
+          "text": "It appears within seconds of the two liquids meeting.",
+          "rationale": "Speed isn't a property of a substance; dissolving can be quick too, and it makes nothing new."
+        },
+        {
+          "id": "c",
+          "text": "It stands out clearly against the colorless liquid.",
+          "rationale": "That compares the solid with the liquid around it, not with the starting substances; white sand would stand out too."
+        },
+        {
+          "id": "d",
+          "text": "Its color and solubility differ from both reactants.",
+          "rationale": "Correct: neither reactant is yellow, and both dissolve easily, while this solid barely dissolves, so it has properties of its own."
+        }
+      ],
+      "answer": "d",
+      "explanation": "A new substance is recognized by its properties. Neither reactant is yellow, and both dissolve easily, while the new solid is bright yellow and barely dissolves. That combination of a new color and a new solubility points to lead iodide, a substance that wasn't there before.",
+      "misconception": "You can recognize a new substance by how fast it appears or whether it sinks, rather than by its properties.",
+      "hint": "Would sand dropped into water pass the same test? If so, that test can't show something new.",
+      "followUpId": "L12-Q02",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            155
+          ],
+          "pdf": [
+            191
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, lead nitrate and potassium iodide reaction and photo caption",
+          "supports": "Both reactants are white solids that dissolve to give colorless mixtures; the products are bright yellow lead iodide, which settles out as a solid, and potassium nitrate, which stays dissolved."
+        },
+        {
+          "type": "external",
+          "title": "Lead iodide (CID 24931), Solubility section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24931/JSON?heading=Solubility",
+          "accessed": "2026-10-14",
+          "supports": "Lead iodide dissolves only very slightly in water (about 0.076 g per 100 cm³ at 20 °C)."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Pairs with L12-Q02 (same reaction, different idea: identity from properties rather than where a product ends up). Round 1: lead iodide 'barely dissolves' throughout (RF1, science); distractors rewritten without absolute words, key shortened and a new hint (pedagogy).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'won't dissolve', 'refuses to dissolve' and 'stays undissolved' now say 'barely dissolves'; PubChem lead iodide record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors without absolute words; key shortened; new hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q09",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O2",
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "new substance",
+        "properties",
+        "density",
+        "melting point",
+        "misconception repair"
+      ],
+      "familyId": "L12-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Partway through the aspirin investigation, only two results are in: both powders are white, and both measure about 1.4 g/cm³. Mia says these results prove no new substance formed. What is the best response?",
+      "accessiblePrompt": "Partway through the aspirin investigation, only two results are in: both powders are white, and both measure about 1.4 grams per cubic centimeter. Mia says these results prove no new substance formed. What is the best response?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not so fast: test other properties, such as melting point or solubility.",
+          "rationale": "Correct: matching color and density can't rule out a new substance, so the next step is to test properties expected to differ."
+        },
+        {
+          "id": "b",
+          "text": "She's right: a new substance would differ from its reactant in every property.",
+          "rationale": "A new substance can match its reactant in a few properties; it needs to differ in only some of them."
+        },
+        {
+          "id": "c",
+          "text": "She's right: substances with the same density are the same substance.",
+          "rationale": "Different substances can have nearly the same density, and a packed powder's density is hard to measure precisely."
+        },
+        {
+          "id": "d",
+          "text": "Not so fast: repeat the density test until the two results differ.",
+          "rationale": "Re-running a test until it gives the answer you want isn't a fair test, and a property that barely differs can't settle the question."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Only the appearance and density results are known so far.",
+      "explanation": "A new substance has its own set of characteristic properties but can match its starting substance in a few. Two matching results can't rule out a new substance, so the next step is to test properties expected to differ. In the textbook's example, the melting point and solubility tests did show differences.",
+      "misconception": "A new substance must differ from its reactants in every property.",
+      "hint": "Could two different substances happen to match in one or two properties? If so, what would you still need to find out?",
+      "followUpId": "L12-Q20",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            159
+          ],
+          "pdf": [
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Melting temperature is a physical property, and a chemical change always produces one or more types of matter that differ from the matter present before the change."
+        },
+        {
+          "type": "external",
+          "title": "6.1B: Uses of Melting Points (Organic Chemistry Lab Techniques)",
+          "publisher": "Chemistry LibreTexts (Lisa Nichols, Butte College; SUNY Oneonta course copy)",
+          "url": "https://chem.libretexts.org/Courses/SUNY_Oneonta/Chem_221%3A_Organic_Chemistry_I_(Bennett)/2%3ALab_Textbook_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point/6.1B%3A_Uses_of_Melting_Points",
+          "accessed": "2026-10-14",
+          "supports": "Two different compounds can coincidentally have similar or identical melting points, so one property is only one piece of data in an identification."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the textbook's 'entirely different properties' overstatement (L12-RF5) using the first two p. 159 results. Round 1: rewritten so only appearance and density are known, so it no longer duplicates Q20 (pedagogy). The OpenStax supports text was corrected and LibreTexts 6.1B added (science). The reviser kept the pedagogy key and distractors but first answered with 'Not proven yet' / 'She's right', because 'Not yet' / 'Yes' read awkwardly as answers to 'Is she right?'. The reviser also wrote a hint that does not name the key, since 'Are color and density the only properties a scientist can test?' points straight at it. Second review cycle: the lead-ins of a and d changed from 'Not proven yet:' to 'Not so fast:', because after Mia's claim that no new substance formed, 'not proven yet' could be read as agreeing with her (pedagogy). Choices b and c, the key (a), the rationales, the hint and the explanation are unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: OpenStax supports text corrected; LibreTexts 6.1B record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten around the first two results only (no longer duplicates Q20); balanced choice forms; new hint"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: lead-ins of choices a and d now 'Not so fast:'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q10",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "physical property",
+        "chemical property",
+        "flammability"
+      ],
+      "familyId": "L12-F05",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each property of a substance: is it a physical property or a chemical property?",
+      "accessiblePrompt": "Sort each property of a substance as a physical property or a chemical property. The properties are: color; melting point; whether it dissolves in water; flammability, or how easily it burns; and whether it reacts with vinegar.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Color",
+          "rationale": "You can see color without changing the substance."
+        },
+        {
+          "id": "i2",
+          "text": "Melting point",
+          "rationale": "Melting changes only the state; the substance is the same before and after."
+        },
+        {
+          "id": "i3",
+          "text": "Whether it dissolves in water",
+          "rationale": "Dissolved salt or sugar is still salt or sugar, so solubility is physical."
+        },
+        {
+          "id": "i4",
+          "text": "Flammability, or how easily it burns",
+          "rationale": "Burning turns the substance into new substances, so flammability is a chemical property."
+        },
+        {
+          "id": "i5",
+          "text": "Whether it reacts with vinegar",
+          "rationale": "Finding out means trying the reaction to see whether new substances form, so this is chemical."
+        }
+      ],
+      "bins": [
+        {
+          "id": "physical",
+          "label": "Physical property"
+        },
+        {
+          "id": "chemical",
+          "label": "Chemical property"
+        }
+      ],
+      "answer": {
+        "i1": "physical",
+        "i2": "physical",
+        "i3": "physical",
+        "i4": "chemical",
+        "i5": "chemical"
+      },
+      "explanation": "A physical property can be observed or measured while the substance stays the same substance. A chemical property describes whether and how a substance can change into new substances, so you find out by trying a reaction, for example trying to burn it or mixing it with vinegar.",
+      "misconception": "Solubility is a chemical property because the dissolving substance seems to disappear.",
+      "hint": "To find out this property, would you have to try changing the substance into something new?",
+      "followUpId": "L12-Q03",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            155
+          ],
+          "pdf": [
+            191
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, chemical and physical properties",
+          "supports": "Flammability and the ability to react with another substance are chemical properties, noticed only when a substance reacts."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            154
+          ],
+          "pdfPages": [
+            190
+          ],
+          "locator": "Section 1, Chemical Reactions Change Substances",
+          "supports": "Scientists check for a new substance by characterizing properties such as density, odor, solubility and flammability."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 1.3 Physical and Chemical Properties",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "accessed": "2026-10-14",
+          "supports": "Color, melting temperature and similar traits are physical properties; the ability to change from one type of matter into another (or the inability to change), such as flammability, is a chemical property."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Garbled p. 155 sentence on chemical vs physical properties resolved with OpenStax definitions (L12-RF6). Round 1: a chemical property is described as whether and how a substance can change, because OpenStax 1.3 includes the inability to change, which Q11 relies on (science). Item wording now mixes noun phrases and 'whether' clauses so sentence form no longer cues the bin (pedagogy). The hint was reworded to match. Second review cycle: follow-up changed from Q04 to Q03, whose salt-dissolving choice repairs the 'solubility is chemical because the solid seems to vanish' idea this item targets (pedagogy).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: i5 rationale and explanation say a chemical property is whether and how a substance can change"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: item wording mixed so sentence form no longer cues the bin"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L12-Q03"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q11",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "chemical property",
+        "new substance",
+        "baking soda and vinegar"
+      ],
+      "familyId": "L12-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Baking soda fizzes in vinegar. When more vinegar is poured onto the reaction's products (carbon dioxide, sodium acetate and water), nothing fizzes and there is no other sign of a reaction. What does this difference tell you?",
+      "accessiblePrompt": "Baking soda fizzes in vinegar. When more vinegar is poured onto the reaction's products, which are carbon dioxide, sodium acetate and water, nothing fizzes and there is no other sign of a reaction. What does this difference tell you?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The products are just baking soda in a new state, the way ice is still water.",
+          "rationale": "A change of state keeps the same substance and its chemical properties; these products behave differently."
+        },
+        {
+          "id": "b",
+          "text": "Nothing about identity: only physical properties, like color, can identify a substance.",
+          "rationale": "Chemical properties identify substances too: baking soda reacts with vinegar and the products show no reaction, so they can't be the same substance."
+        },
+        {
+          "id": "c",
+          "text": "The products have different chemical properties, so they are new substances.",
+          "rationale": "Correct: unlike baking soda, the products show no reaction with vinegar, a chemical-property difference that shows they are different substances."
+        },
+        {
+          "id": "d",
+          "text": "The products are leftover reactants that have used up their energy.",
+          "rationale": "Products aren't worn-out reactants; they are new substances whose own chemical properties mean they show no reaction with vinegar."
+        }
+      ],
+      "answer": "c",
+      "explanation": "How a substance reacts, or doesn't, is one of its chemical properties. Baking soda reacts with vinegar, but its products show no sign of reacting with it, so they have different chemical properties. Because the products behave differently with vinegar, they can't be baking soda in disguise; they are new substances.",
+      "misconception": "Chemical properties can't be used to tell one substance from another.",
+      "hint": "Reacting with vinegar is a property. Do the products share that property with baking soda?",
+      "followUpId": "L12-Q12",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            155
+          ],
+          "pdf": [
+            191
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, baking soda and vinegar continued",
+          "supports": "The reaction stops once all the baking soda is consumed; the products do not react with vinegar, a chemical-property difference showing they are new substances."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, chemical and physical properties",
+          "supports": "Flammability and the ability to react with another substance are chemical properties, noticed only when a substance reacts."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Distinct from Q12/Q13: this item uses the products' chemical property as identity evidence. Round 1: 'Its' clarified as the reaction's products; choice a reworded; choice d no longer relies on 'only once' (pedagogy). Second review cycle: the stem now reports what anyone can observe (nothing fizzes, no other sign of a reaction) instead of the unsupported absolute 'don't react at all', and the key rationale and explanation follow (science). Choice b now carries the stated misconception that only physical properties identify a substance, and the explanation's last sentence was rewritten to remove a 7-word run shared with p. 155 (pedagogy). The reviser also changed choice d's rationale from 'keep them from reacting' to 'show no reaction', for the same reason as the stem. Key, choices a and d, hint and evidence are unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: unclear 'Its' fixed; choice a reworded; choice d no longer uses 'only once'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem reports the observation (no fizzing or other sign of a reaction) instead of 'don't react at all'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b now targets the stated misconception; explanation's last sentence rewritten"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q12",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O1",
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "reactants used up",
+        "reaction stops"
+      ],
+      "familyId": "L12-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A small spoonful of baking soda is dropped into a large glass of vinegar. It fizzes hard, then slows and stops, though the glass is still mostly vinegar. What best explains why the fizzing stopped?",
+      "accessiblePrompt": "A small spoonful of baking soda is dropped into a large glass of vinegar. It fizzes hard, then slows and stops, though the glass is still mostly vinegar. What best explains why the fizzing stopped?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The carbon dioxide formed a layer that seals off the liquid.",
+          "rationale": "The gas escapes into the air as bubbles; it doesn't seal the vinegar."
+        },
+        {
+          "id": "b",
+          "text": "The baking soda ran out, so the acid had nothing to react with.",
+          "rationale": "Correct: with no baking soda left, the leftover acetic acid has nothing to react with."
+        },
+        {
+          "id": "c",
+          "text": "The reaction ran out of energy and would need heat to restart.",
+          "rationale": "This reaction starts on mixing with no heating; it stopped because the baking soda was gone, not because energy ran out."
+        },
+        {
+          "id": "d",
+          "text": "The products slowly turned back into baking soda and vinegar.",
+          "rationale": "These products show no reaction with vinegar and don't turn back into the reactants; the reaction simply ran out of baking soda."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A reaction keeps going only while every reactant is still available. Here the baking soda ran out first, so there was nothing left for the remaining acetic acid to react with. The reaction stops when one reactant is used up, even if plenty of the other is left.",
+      "misconception": "A reaction stops because it gets tired or runs out of energy, not because a reactant runs out.",
+      "hint": "What does a reaction need in order to keep going?",
+      "followUpId": "L12-Q01",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            155
+          ],
+          "pdf": [
+            191
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, baking soda and vinegar continued",
+          "supports": "The reaction stops once all the baking soda is consumed; the products do not react with vinegar, a chemical-property difference showing they are new substances."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "The stem's 'small spoonful' and 'large glass' make baking soda the reactant that runs out (a large glass of household vinegar holds more acetic acid than a small spoonful of baking soda can use). Round 1: choice c now targets the stated 'runs out of energy' misconception instead of contradicting the stem; key shortened (pedagogy). Second review cycle: the conditions line and the old hint were removed because both named the reactant that ran out (pedagogy); no choice says the acetic acid ran out, so b stays the single best answer. The reviser also reworded choice d's rationale to say the products 'show no reaction' with vinegar, matching the Q11 science fix.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c targets the 'ran out of energy' misconception; key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (reviser reworded choice d's rationale to match the Q11 fix)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions removed; hint no longer names the reactant that ran out"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q13",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O2",
+        "L12-O3"
+      ],
+      "conceptTags": [
+        "reactants used up",
+        "prediction",
+        "mixing",
+        "conditions"
+      ],
+      "familyId": "L12-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Thought experiment: A spoonful of baking soda fizzes in a glass of vinegar until the fizzing stops. A test shows the liquid still holds plenty of acetic acid. Which addition would most likely start the fizzing again?",
+      "accessiblePrompt": "This is a thought experiment. A spoonful of baking soda fizzes in a glass of vinegar until the fizzing stops. A test shows the liquid still holds plenty of acetic acid. Which addition would most likely start the fizzing again?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More vinegar",
+          "rationale": "The liquid already has plenty of acid; the baking soda is what ran out, so more vinegar has nothing new to react with."
+        },
+        {
+          "id": "b",
+          "text": "A fresh pinch of baking soda",
+          "rationale": "Correct: the acid is still there, so adding the reactant that ran out lets the reaction start again."
+        },
+        {
+          "id": "c",
+          "text": "Nothing; once stopped, these substances can't react again",
+          "rationale": "It stopped only because the baking soda ran out; the leftover acid can still react."
+        },
+        {
+          "id": "d",
+          "text": "A little heat, to give the reaction new energy",
+          "rationale": "This reaction starts as soon as its reactants mix; it stopped because a reactant ran out, not because energy did."
+        }
+      ],
+      "answer": "b",
+      "conditions": "This is a thought experiment only.",
+      "explanation": "The fizzing stopped because the baking soda ran out, not because the vinegar stopped working or the reaction ran out of energy. The leftover acetic acid can still react, and this reaction starts as soon as its reactants meet, so a fresh pinch of baking soda would start the fizzing again until that pinch is used up. More vinegar or a little heat wouldn't help, because neither replaces the reactant that ran out.",
+      "misconception": "Once a reaction stops in a container, those substances can never react again.",
+      "hint": "A reaction needs every one of its reactants. Which one does the test say is still in the glass?",
+      "followUpId": "L12-Q14",
+      "scope": {
+        "lessonId": "L12",
+        "section": "1. Chemical Reactions Change Substances",
+        "pages": {
+          "printed": [
+            155,
+            156
+          ],
+          "pdf": [
+            191,
+            192
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, baking soda and vinegar continued",
+          "supports": "The reaction stops once all the baking soda is consumed; the products do not react with vinegar, a chemical-property difference showing they are new substances."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Mixing",
+          "supports": "Lead nitrate with potassium iodide, and baking soda with vinegar, begin reacting as soon as they meet."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Framed as a thought experiment; no procedure is given or implied (L12-RF9). Second review cycle: rewritten as a self-contained choice of which addition restarts the reaction, so it no longer depends on Q12's scenario ('the glass where the fizzing stopped') or repeats Q12 as a yes-or-no prediction (pedagogy). Choice d tests 'needs heat to restart' against 'mixing alone starts this reaction' (p. 156), so L12-O3 was added to objectiveIds. The misconception and family F06 are unchanged; the explanation was rewritten to match the new choices.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices a and c no longer turn on 'only'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier yes-or-no version)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a self-contained which-addition item; L12-O3 added"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q14",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O3"
+      ],
+      "conceptTags": [
+        "conditions",
+        "heating",
+        "cooling",
+        "mixing"
+      ],
+      "familyId": "L12-F07",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each reaction from the lesson to the condition that gets it going.",
+      "accessiblePrompt": "Match each reaction from the lesson to the condition that gets it going. The reactions are: a strike-anywhere match head flaring when rubbed on a rough surface; brown nitrogen dioxide gas in a sealed tube fading toward colorless; and clear lead nitrate and potassium iodide solutions forming a yellow solid the moment they meet. The conditions are heating, cooling, and mixing.",
+      "left": [
+        {
+          "id": "l1",
+          "text": "A strike-anywhere match head flares when rubbed on a rough surface.",
+          "rationale": "Friction raises the temperature of the match head, so heating starts this reaction."
+        },
+        {
+          "id": "l2",
+          "text": "Brown nitrogen dioxide gas in a sealed tube fades toward colorless.",
+          "rationale": "Lowering the temperature favors forming colorless dinitrogen tetroxide, so cooling drives it."
+        },
+        {
+          "id": "l3",
+          "text": "Clear lead nitrate and potassium iodide solutions form a yellow solid at once.",
+          "rationale": "These react the moment they meet, so mixing alone starts this reaction."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Heating"
+        },
+        {
+          "id": "r2",
+          "text": "Cooling"
+        },
+        {
+          "id": "r3",
+          "text": "Mixing"
+        }
+      ],
+      "answer": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Different reactions need different conditions. Friction heats the match head enough to start its reaction. Lowering the temperature lets brown nitrogen dioxide turn into colorless dinitrogen tetroxide. Lead nitrate and potassium iodide need nothing extra; they react as soon as they mix.",
+      "misconception": "Every chemical reaction needs heat to get started.",
+      "hint": "For each one, what changed just before the reaction began: the temperature went up, it went down, or two substances met?",
+      "followUpId": "L12-Q17",
+      "scope": {
+        "lessonId": "L12",
+        "section": "2. Conditions that Cause Chemical Reactions",
+        "pages": {
+          "printed": [
+            156,
+            157
+          ],
+          "pdf": [
+            192,
+            193
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Conditions that Cause Chemical Reactions",
+          "supports": "Whether a reaction happens depends on the chemical properties of the reactants and on the conditions; heating, cooling and mixing are examples."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three pairs, all taken from the p. 157 Key Science Concept spread.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q15",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O3"
+      ],
+      "conceptTags": [
+        "heating",
+        "conditions",
+        "energy to start a reaction"
+      ],
+      "familyId": "L12-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The head of a strike-anywhere match already holds every substance its reaction needs, yet a match sitting in its box doesn't light. Why not?",
+      "accessiblePrompt": "The head of a strike-anywhere match already holds every substance its reaction needs, yet a match sitting in its box doesn't light. Why not?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rubbing is needed to mix the reactants, which sit apart in the head.",
+          "rationale": "In a strike-anywhere match the reactants are already mixed together in the head; rubbing adds energy as heat from friction, not mixing."
+        },
+        {
+          "id": "b",
+          "text": "The substances in the head have already finished reacting with each other.",
+          "rationale": "If they had already reacted, the match couldn't flare when struck."
+        },
+        {
+          "id": "c",
+          "text": "The reactants must first get a little energy, such as heat from friction.",
+          "rationale": "Correct: friction heats the match head, supplying the energy that starts the reaction."
+        },
+        {
+          "id": "d",
+          "text": "The box is sealed so tightly that no reaction can happen inside it.",
+          "rationale": "Match boxes aren't airtight; the missing ingredient is energy to start the reaction."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Having the right reactants together isn't always enough. Many reactions need a small amount of energy to get started. Rubbing the match head on a rough surface creates friction, which heats the head and gives the reaction that start; after that, the reaction keeps itself going.",
+      "misconception": "If all the reactants are together, the reaction must happen right away.",
+      "hint": "What does rubbing the match on a rough surface add that the box doesn't?",
+      "followUpId": "L12-Q16",
+      "scope": {
+        "lessonId": "L12",
+        "section": "2. Conditions that Cause Chemical Reactions",
+        "pages": {
+          "printed": [
+            156,
+            157
+          ],
+          "pdf": [
+            192,
+            193
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Heating",
+          "supports": "A strike-anywhere match head already holds all its reactants, but friction against a rough surface supplies the energy that starts the reaction."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions, Heating",
+          "supports": "The reactants of a strike-anywhere match are already mixed together in its head, but they must be heated before their reaction starts."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Strike-anywhere match chosen by the textbook because all reactants are in the head; no procedure is described (L12-RF9). Round 1: follow-up changed from Q10 to Q16, which also asks why a reaction runs under some conditions and not others (both reviewers). The key now carries a justified 'must': p. 156 says these reactants do not react without a little energy. Second review cycle: choice a, which the stem already ruled out ('already holds every substance'), became the 'rubbing mixes the reactants' misconception (pedagogy). The reviewer's '(p. 157)' was kept out of the learner-facing rationale and recorded as a p. 157 evidence record instead.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (follow-up suggestion applied: now L12-Q16)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L12-Q16; key carries the justified 'must'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a now the 'rubbing mixes the reactants' misconception"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q16",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O3"
+      ],
+      "conceptTags": [
+        "conditions",
+        "cooling",
+        "reactants and conditions"
+      ],
+      "familyId": "L12-F08",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Two sealed tubes hold the same amount of the same brown gas, nitrogen dioxide. One sits in ice water and turns pale; the other sits in warm water and stays dark brown. What best explains the difference?",
+      "accessiblePrompt": "Two sealed tubes hold the same amount of the same brown gas, nitrogen dioxide. One tube sits in ice water and turns pale; the other sits in warm water and stays dark brown. What best explains the difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cold favors a reaction that turns brown gas into a colorless gas.",
+          "rationale": "Correct: only the temperature differs, and cooling favors the reaction that turns brown nitrogen dioxide into colorless dinitrogen tetroxide."
+        },
+        {
+          "id": "b",
+          "text": "Cold slows the gas particles down, and slower particles look paler.",
+          "rationale": "Particle speed doesn't set a gas's color; the tube pales because a different, colorless substance forms."
+        },
+        {
+          "id": "c",
+          "text": "Cold squeezes the gas into less space, so less brown color shows.",
+          "rationale": "The sealed tube's gas still fills the whole tube; the color fades because brown gas changes into a colorless gas."
+        },
+        {
+          "id": "d",
+          "text": "The warm tube is reacting, and the cold tube is too cold to react.",
+          "rationale": "The pale cold tube is where the reaction that makes the colorless gas has gone furthest; warmth favors the reverse reaction, which keeps the brown gas."
+        }
+      ],
+      "answer": "a",
+      "conditions": "Both tubes are sealed and start with the same amount of nitrogen dioxide; only the temperature differs.",
+      "explanation": "Two things decide whether a reaction runs: which substances are present and the conditions around them. Both tubes start with the same gas, so the only difference is temperature. Cold conditions favor the reaction that turns brown nitrogen dioxide into colorless dinitrogen tetroxide, so the cold tube grows pale. Slower particles don't make a gas paler; forming a colorless new substance does.",
+      "misconception": "Cooling only changes how a gas's particles move or how much space they take, not which substance is present.",
+      "hint": "Is the pale color the same gas behaving differently, or a different gas?",
+      "followUpId": "L12-Q15",
+      "scope": {
+        "lessonId": "L12",
+        "section": "2. Conditions that Cause Chemical Reactions",
+        "pages": {
+          "printed": [
+            156,
+            157
+          ],
+          "pdf": [
+            192,
+            193
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Cooling",
+          "supports": "Cooled brown nitrogen dioxide reacts to form colorless dinitrogen tetroxide, and heating runs the reverse reaction, bringing the brown gas back."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Conditions that Cause Chemical Reactions",
+          "supports": "Whether a reaction happens depends on the chemical properties of the reactants and on the conditions; heating, cooling and mixing are examples."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "external",
+          "title": "Temperature Effect on the Equilibrium Between Two Gases (lecture demonstration)",
+          "publisher": "Rutgers University, Department of Chemistry and Chemical Biology, Chemistry Lecture Demonstration Facility",
+          "url": "https://chem.rutgers.edu/cldf-demos/1033-cldf-demo-temperature-effect",
+          "accessed": "2026-10-14",
+          "supports": "Brown NO₂ and colorless N₂O₄ exist together in a closed tube; cooling favors the reaction that forms N₂O₄."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Conditions-matter idea, now in F08 with the other nitrogen dioxide temperature items. Round 1 (pedagogy): distractors the stem already ruled out were replaced with particle-motion and squeezing misconceptions; new hint and misconception; moved from F07 to F08. The reviser did not use the suggested phrase 'shrinking a gas doesn't change its color', because compressing nitrogen dioxide would deepen its color; the explanation says slower particles don't make a gas paler instead.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: misconception-based distractors; new hint and misconception; moved to F08; follow-up L12-Q15"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q17",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O3",
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "cooling",
+        "color",
+        "nitrogen dioxide",
+        "colorless product",
+        "reversible reaction"
+      ],
+      "familyId": "L12-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Four sealed tubes hold identical samples of nitrogen dioxide gas, each kept at a different temperature. Use their colors to put the tubes in order from the most dinitrogen tetroxide, a colorless gas, to the least.",
+      "accessiblePrompt": "Four sealed tubes hold identical samples of nitrogen dioxide gas, each kept at a different temperature. Use their colors to put the tubes in order from the most dinitrogen tetroxide, a colorless gas, to the least. The tube colors are: medium brown; dark orange-brown; almost colorless; and pale yellow-brown.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Medium brown",
+          "rationale": "Third: only some of the brown gas has changed, so this tube holds less dinitrogen tetroxide than the two paler tubes."
+        },
+        {
+          "id": "b",
+          "text": "Dark orange-brown",
+          "rationale": "Least: most of the gas is still brown nitrogen dioxide, so little dinitrogen tetroxide has formed; this is the warmest tube."
+        },
+        {
+          "id": "c",
+          "text": "Almost colorless",
+          "rationale": "Most: nearly all the brown gas has turned into colorless dinitrogen tetroxide, so this is also the coldest tube."
+        },
+        {
+          "id": "d",
+          "text": "Pale yellow-brown",
+          "rationale": "Second: much of the brown gas has turned into dinitrogen tetroxide, but a little more brown nitrogen dioxide remains than in the almost colorless tube."
+        }
+      ],
+      "answer": [
+        "c",
+        "d",
+        "a",
+        "b"
+      ],
+      "ends": [
+        "Most dinitrogen tetroxide",
+        "Least dinitrogen tetroxide"
+      ],
+      "conditions": "Each tube is sealed and starts with the same amount of gas; only the temperature differs.",
+      "limitations": "Real colors shift smoothly with temperature; the four color names are a simplified scale.",
+      "explanation": "Only nitrogen dioxide is brown; dinitrogen tetroxide is colorless. The paler a tube, the more of its brown gas has turned into the colorless gas, so the palest tube holds the most dinitrogen tetroxide. Nothing has escaped from the sealed tubes; the same atoms are just arranged differently. Cooling favors this change, so the palest tube is also the coldest.",
+      "misconception": "A paler tube has lost some of its gas, as if the brown gas had escaped or disappeared.",
+      "hint": "Which of the two gases gives the tubes their brown color?",
+      "followUpId": "L12-Q14",
+      "scope": {
+        "lessonId": "L12",
+        "section": "2. Conditions that Cause Chemical Reactions",
+        "pages": {
+          "printed": [
+            157
+          ],
+          "pdf": [
+            193
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Cooling",
+          "supports": "Cooled brown nitrogen dioxide reacts to form colorless dinitrogen tetroxide, and heating runs the reverse reaction, bringing the brown gas back."
+        },
+        {
+          "type": "external",
+          "title": "Temperature Effect on the Equilibrium Between Two Gases (lecture demonstration)",
+          "publisher": "Rutgers University, Department of Chemistry and Chemical Biology, Chemistry Lecture Demonstration Facility",
+          "url": "https://chem.rutgers.edu/cldf-demos/1033-cldf-demo-temperature-effect",
+          "accessed": "2026-10-14",
+          "supports": "On cooling, the forward reaction is favored and more colorless N₂O₄ forms; a yellowish tint comes from traces of brown NO₂ left in the mixture."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Order mirrors the p. 157 tube figure (five tubes growing paler as temperature decreases); listed out of answer order. Round 1: follow-up changed to Q14 because Q16 joined F08 (pedagogy). Second review cycle: the old warmest-to-coldest order restated the relationship Q16's stem already gives, so it came down to one binary choice. The learner now uses the visible color to order the tubes by the amount of the invisible, colorless product (pedagogy). L12-O2 was added. The reviewer's 'the most colorless dinitrogen tetroxide' was written as 'the most dinitrogen tetroxide, a colorless gas' so 'most colorless' isn't misread as a color. The misconception says the paler tube 'lost some of its gas' rather than 'holds less gas', because two NO₂ molecules joining into one N₂O₄ does leave fewer molecules; what never happens in a sealed tube is gas escaping or atoms disappearing.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L12-Q14 (Q16 joined F08)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier warmest-to-coldest version)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: now ordered by amount of colorless dinitrogen tetroxide; L12-O2 added; new misconception, hint and explanation"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q18",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O3",
+        "L12-O2"
+      ],
+      "conceptTags": [
+        "reversible reaction",
+        "heating",
+        "chemical vs physical change"
+      ],
+      "familyId": "L12-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A cooled tube of nitrogen dioxide has turned pale. When it warms back up to room temperature, the dark brown color returns. What does the returning color show?",
+      "accessiblePrompt": "A cooled tube of nitrogen dioxide gas has turned pale. When it warms back up to room temperature, the dark brown color returns. What does the returning color show?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No reaction ever happened, because real reactions can't be undone.",
+          "rationale": "Some reactions can run both ways; this one runs forward when cooled and backward when warmed."
+        },
+        {
+          "id": "b",
+          "text": "The reaction ran in reverse, re-forming brown nitrogen dioxide.",
+          "rationale": "Correct: warming drives the reverse reaction, re-forming the brown gas."
+        },
+        {
+          "id": "c",
+          "text": "The brown gas was hiding at the bottom of the tube and rose back up.",
+          "rationale": "Gases spread through their whole container; the brown gas had changed into a colorless one."
+        },
+        {
+          "id": "d",
+          "text": "Warming made a third gas that also happens to be brown.",
+          "rationale": "The tube is sealed and holds only these two gases; the brown gas that returns is nitrogen dioxide, re-formed by the reverse reaction."
+        }
+      ],
+      "answer": "b",
+      "conditions": "The tube stays sealed the whole time.",
+      "explanation": "Warming runs this reaction backward: colorless dinitrogen tetroxide turns back into brown nitrogen dioxide. Some chemical reactions can run both ways, so being able to undo a change doesn't make it a physical change. The color returns because the brown substance forms again.",
+      "misconception": "A change that can be reversed must be a physical change.",
+      "hint": "Which substance is brown? Where could it come from inside a sealed tube?",
+      "followUpId": "L12-Q03",
+      "scope": {
+        "lessonId": "L12",
+        "section": "2. Conditions that Cause Chemical Reactions",
+        "pages": {
+          "printed": [
+            156,
+            157
+          ],
+          "pdf": [
+            192,
+            193
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            156
+          ],
+          "pdfPages": [
+            192
+          ],
+          "locator": "Section 2, Cooling",
+          "supports": "Cooled brown nitrogen dioxide reacts to form colorless dinitrogen tetroxide, and heating runs the reverse reaction, bringing the brown gas back."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            157
+          ],
+          "pdfPages": [
+            193
+          ],
+          "locator": "Key Science Concept: Characterizing Conditions that Cause Chemical Reactions",
+          "supports": "The spread pairs heating with the match, cooling with nitrogen dioxide in tubes that grow paler as temperature decreases, and mixing with lead nitrate and potassium iodide."
+        },
+        {
+          "type": "external",
+          "title": "Temperature Effect on the Equilibrium Between Two Gases (lecture demonstration)",
+          "publisher": "Rutgers University, Department of Chemistry and Chemical Biology, Chemistry Lecture Demonstration Facility",
+          "url": "https://chem.rutgers.edu/cldf-demos/1033-cldf-demo-temperature-effect",
+          "accessed": "2026-10-14",
+          "supports": "The NO₂/N₂O₄ system is an equilibrium between two gases in a closed system; at room temperature and above the mixture is brown."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Targets the 'reversible means physical' misconception; textbook p. 156 explicitly calls the warming direction the reverse chemical reaction. Round 1: choice d replaced, since the sealed-tube stem already ruled out a leak (pedagogy). Second review cycle: follow-up changed from Q14 to Q03, which makes the learner separate the cooled brown gas (a reaction clue) from melting and dissolving (physical changes), revisiting the 'reversible means physical' idea (pedagogy).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d no longer contradicted by the sealed-tube stem"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now L12-Q03"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q19",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "solubility",
+        "data analysis",
+        "amount of liquid",
+        "before and after"
+      ],
+      "familyId": "L12-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "In the textbook's aspirin example, 2.4 g of salicylic acid, or 3.3 g of the new powder, dissolves in 1 L of water. At the same temperature, how many more grams of the new powder than of salicylic acid would dissolve in 2 L of water?",
+      "accessiblePrompt": "In the textbook's aspirin example, 2.4 grams of salicylic acid, or 3.3 grams of the new powder, dissolves in 1 liter of water. At the same temperature, how many more grams of the new powder than of salicylic acid would dissolve in 2 liters of water?",
+      "answer": 1.8,
+      "tolerance": 0.05,
+      "unit": "g",
+      "workedSolution": "In 2 L of water, salicylic acid: 2 × 2.4 g = 4.8 g; new powder: 2 × 3.3 g = 6.6 g. Difference: 6.6 g − 4.8 g = 1.8 g. (Or: the gap is 3.3 g − 2.4 g = 0.9 g per liter, and 2 L × 0.9 g per liter = 1.8 g.)",
+      "units": "grams (g)",
+      "explanation": "Solubility tells how much can dissolve in a given amount of liquid at a given temperature, so twice as much water can hold twice as much. Per liter the new powder dissolves 0.9 g more than salicylic acid, so in 2 L the gap doubles to 1.8 g. A solubility number only means something when you know how much liquid it is for.",
+      "misconception": "Solubility is a fixed number of grams, no matter how much liquid there is.",
+      "hint": "A solubility is always for a certain amount of water. What happens to how much can dissolve when there is twice as much water?",
+      "followUpId": "L12-Q24",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            159
+          ],
+          "pdf": [
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        },
+        {
+          "type": "external",
+          "title": "Chemistry 2e, 11.3 Solubility",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+          "accessed": "2026-10-17",
+          "supports": "The solubility of a solute in a solvent is the maximum concentration that can be reached under given conditions, and temperature is one of the factors that affects it."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Second review cycle: rewritten from a one-step melting-point subtraction, which overlapped Q20's row comparison on the same table, into a solubility item that scales the textbook's per-liter figures to 2 L. This probes the glossary's 'given amount of liquid' idea, which no item tested (pedagogy lesson-level optional suggestion; both item verdicts were pass). The tempting wrong answer, 0.9 g, is the stated misconception. Difficulty raised from 1 to 2 for the two-step reasoning. The textbook's solubility figures give no temperature and differ somewhat from reference values (L12-RF4), so the item calls them the textbook's example and states a same-temperature condition. The 23 °C melting point gap is still taught on the O4 card and used in Q20 and Q23. The earlier PubChem melting point records went with the old version.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer calls one gap repeatable or strong evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation, misconception and follow-up (now L12-Q24)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier melting-point version)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a solubility-per-amount-of-water numeric item (lesson-level optional suggestion; item verdict was pass)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Every solubility test, in 1 L or in 2 L, uses water at the same temperature.",
+      "limitations": "These are the textbook's example numbers; measured solubilities of these substances change with temperature and differ somewhat from them."
+    },
+    {
+      "id": "L12-Q20",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "data analysis",
+        "solubility",
+        "melting point",
+        "density",
+        "before and after"
+      ],
+      "familyId": "L12-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A scientist compares salicylic acid with the powder she made from it. Using the table, which tests give evidence that the powder is a different substance? Select all that apply.",
+      "accessiblePrompt": "A scientist compares salicylic acid with the powder she made from it. A table gives four test results, before and after. Appearance: white powder before and after. Density: 1.4 grams per cubic centimeter before and after. Mass that dissolves in 1 liter of water: 2.4 grams before, 3.3 grams after. Melting point: 159 degrees Celsius before, 136 degrees Celsius after. Which tests give evidence that the powder is a different substance? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Appearance",
+          "rationale": "Both are white powders, so appearance can't tell them apart."
+        },
+        {
+          "id": "b",
+          "text": "Density",
+          "rationale": "Both measured 1.4 g/cm³, so this test shows no difference."
+        },
+        {
+          "id": "c",
+          "text": "Solubility in water",
+          "rationale": "Correct: 3.3 g of the new powder dissolves per liter compared with 2.4 g of salicylic acid."
+        },
+        {
+          "id": "d",
+          "text": "Melting point",
+          "rationale": "Correct: the new powder melts at 136 °C, well below salicylic acid's 159 °C."
+        }
+      ],
+      "answer": [
+        "c",
+        "d"
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Before and after: the textbook's aspirin example",
+        "alt": "Table comparing salicylic acid (before) with the powder made from it (after). Appearance: white powder before, white powder after. Density: 1.4 g/cm³ before, 1.4 g/cm³ after. Mass that dissolves in 1 liter of water: 2.4 g before, 3.3 g after. Melting point: 159 °C before, 136 °C after.",
+        "columns": [
+          "Test",
+          "Salicylic acid (before)",
+          "New powder (after)"
+        ],
+        "rows": [
+          [
+            "Appearance",
+            "White powder",
+            "White powder"
+          ],
+          [
+            "Density",
+            "1.4 g/cm³",
+            "1.4 g/cm³"
+          ],
+          [
+            "Dissolves in 1 L of water",
+            "2.4 g",
+            "3.3 g"
+          ],
+          [
+            "Melting point",
+            "159 °C",
+            "136 °C"
+          ]
+        ]
+      },
+      "conditions": "Assume both samples were tested the same way, with both solubility tests at the same temperature.",
+      "explanation": "Only tests whose results changed can show a new substance. Appearance and density came out the same, so they can't tell the powders apart. Solubility rose from 2.4 g to 3.3 g per liter and the melting point fell from 159 °C to 136 °C, so those two tests give the evidence.",
+      "misconception": "If a substance still looks the same, no reaction could have happened.",
+      "hint": "Compare the before and after columns row by row. Which rows show a difference?",
+      "followUpId": "L12-Q09",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            159
+          ],
+          "pdf": [
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Table built from the rendered p. 159 Key Science Concept spread.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q21",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "density",
+        "measurement limits",
+        "choosing a test"
+      ],
+      "familyId": "L12-F13",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In the aspirin example, the density test gave 1.4 g/cm³ for both salicylic acid and the new powder. Why couldn't this test reveal a difference?",
+      "accessiblePrompt": "In the aspirin example, the density test gave 1.4 grams per cubic centimeter for both salicylic acid and the new powder. Why couldn't this test reveal a difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both powders are white, and powders of one color share a density.",
+          "rationale": "Color says nothing about density; the real densities are close, and the powder measurement is too rough to separate them."
+        },
+        {
+          "id": "b",
+          "text": "Density is a chemical property, which a finished powder doesn't show.",
+          "rationale": "Density is a physical property that can be measured without changing the sample."
+        },
+        {
+          "id": "c",
+          "text": "The scientist probably mixed up the two samples on the balance.",
+          "rationale": "Nothing suggests a mix-up; the real densities of the two substances are simply very similar."
+        },
+        {
+          "id": "d",
+          "text": "Their real densities are close, and powder volume is hard to measure.",
+          "rationale": "Correct: the real densities differ by less than a tenth of a g/cm³, which is smaller than the error in packing and measuring a powder."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Measured carefully, the two substances have very similar densities, about 1.44 and 1.40 g/cm³. Packing a powder into a measured volume leaves air gaps that vary, so a difference that small gets lost in the measurement. A test only helps when the expected difference is bigger than the measurement's uncertainty.",
+      "misconception": "If a test shows no difference, the substances are the same or the scientist made a mistake.",
+      "hint": "Think about how exactly you could measure the volume of a heap of powder.",
+      "followUpId": "L12-Q20",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            159
+          ],
+          "pdf": [
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes, Step 2",
+          "supports": "Both powders gave a density of 1.4 g/cm³, and the spread notes that the volume of a powder is hard to measure accurately."
+        },
+        {
+          "type": "external",
+          "title": "Salicylic acid (CID 338), Density section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/338/JSON?heading=Density",
+          "accessed": "2026-10-14",
+          "supports": "Salicylic acid has a density of about 1.44 g/cm³."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (CID 2244), Density section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2244/JSON?heading=Density",
+          "accessed": "2026-10-14",
+          "supports": "PubChem lists aspirin's density at about 1.35 to 1.40 g/cm³."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Reference densities from PubChem added to explain why the p. 159 test could not separate the powders. Round 1: absolute-word distractors rewritten, key shortened, new misconception; moved to new family F13 with Q24 (pedagogy). The aspirin density evidence now gives PubChem's 1.35–1.40 range (RF4), and the key rationale says 'less than a tenth' instead of 'a few hundredths' to match.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors without absolutes; key shortened; new misconception; moved to F13, follow-up L12-Q20"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q22",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "observation",
+        "conclusion",
+        "scientific evidence",
+        "lab notes"
+      ],
+      "familyId": "L12-F10",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Jordan's lab notes describe two clear, colorless solutions being mixed. Sort each statement: is it an observation (something seen or measured) or a conclusion (an idea drawn from the evidence)?",
+      "accessiblePrompt": "Jordan's lab notes describe two clear, colorless solutions being mixed. Sort each statement as an observation, meaning something seen or measured, or a conclusion, meaning an idea drawn from the evidence. The statements are: the mixture turned cloudy as soon as the solutions met; a white solid settled to the bottom of the tube; the dried solid had a mass of 0.4 grams; the white solid is a new substance; and the two dissolved substances reacted with each other.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "The mixture turned cloudy as soon as the solutions met.",
+          "rationale": "Cloudiness is seen directly, so this is an observation."
+        },
+        {
+          "id": "i2",
+          "text": "A white solid settled to the bottom of the tube.",
+          "rationale": "Jordan could watch the solid settle, so this is an observation."
+        },
+        {
+          "id": "i3",
+          "text": "The dried solid had a mass of 0.4 g.",
+          "rationale": "This is a reading from a balance, so it is an observation."
+        },
+        {
+          "id": "i4",
+          "text": "The white solid is a new substance.",
+          "rationale": "Nobody can see a substance's identity directly; it is inferred from clues like the new solid, so it is a conclusion."
+        },
+        {
+          "id": "i5",
+          "text": "The two dissolved substances reacted with each other.",
+          "rationale": "This explains why the solid appeared, so it is a conclusion drawn from the evidence."
+        }
+      ],
+      "bins": [
+        {
+          "id": "obs",
+          "label": "Observation"
+        },
+        {
+          "id": "concl",
+          "label": "Conclusion"
+        }
+      ],
+      "answer": {
+        "i1": "obs",
+        "i2": "obs",
+        "i3": "obs",
+        "i4": "concl",
+        "i5": "concl"
+      },
+      "explanation": "Observations are what Jordan saw or measured: the cloudiness, the settled solid and the balance reading. Conclusions go beyond the data to explain them: that a new substance formed and that a reaction made it. Keeping the two apart lets others check whether the evidence really supports the claim.",
+      "misconception": "A conclusion is just a more important observation.",
+      "hint": "Could you check the statement directly with your eyes or an instrument, or does it explain what the data mean?",
+      "followUpId": "L12-Q07",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            158,
+            159
+          ],
+          "pdf": [
+            194,
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions",
+          "supports": "Scientific evidence is data that supports a claim; a change in properties such as color or odor is a clue that new substances are forming."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes (introduction)",
+          "supports": "Scientists draw conclusions about whether a reaction has taken place from tests of the properties of the matter involved."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            155
+          ],
+          "pdfPages": [
+            191
+          ],
+          "locator": "Section 1, lead nitrate and potassium iodide photo caption",
+          "supports": "A solid forming when two liquid mixtures combine is evidence that a chemical reaction is taking place."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief mission: separate observation from conclusion. Round 1: the statements moved from the aspirin story to a fresh scenario with unnamed solutions, so the skill is tested on transfer (pedagogy lesson-level recommendation). Both reviewers had passed the earlier aspirin version, so this wording still needs the verifier's check. No procedure or substance names are given (RF9).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (on the earlier aspirin-statement version)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten around a fresh lab-notes scenario (lesson-level transfer recommendation; item verdict was pass)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "The two solutions are not named. Sort each statement only by what kind of statement it is."
+    },
+    {
+      "id": "L12-Q23",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "strength of evidence",
+        "melting point",
+        "impurities",
+        "multiple tests"
+      ],
+      "familyId": "L12-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A classmate notes that salicylic acid with a little impurity mixed in can also melt below 159 °C. Which extra evidence would best support the claim that a new substance, aspirin, formed?",
+      "accessiblePrompt": "A classmate notes that salicylic acid with a little impurity mixed in can also melt below 159 degrees Celsius. Which extra evidence would best support the claim that a new substance, aspirin, formed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It melts at 136 °C again when the same test is repeated.",
+          "rationale": "Repeating makes the reading more trustworthy, but impure salicylic acid would also melt low every time, so this can't rule out an impure sample."
+        },
+        {
+          "id": "b",
+          "text": "A second batch melts even lower, at about 120 °C, and looks just as white.",
+          "rationale": "A different, lower result points to an impure or inconsistent sample, and matching color can't tell the two substances apart; a bigger change isn't automatically better evidence."
+        },
+        {
+          "id": "c",
+          "text": "It melts in a narrow range at aspirin's melting point, and its solubility differs.",
+          "rationale": "Correct: an impure sample melts lower and over a spread of temperatures, so melting within a degree or two of aspirin's melting point, plus a second changed property, is hard to explain as impure salicylic acid."
+        },
+        {
+          "id": "d",
+          "text": "The scientist is confident that she followed each step of the procedure exactly.",
+          "rationale": "Confidence isn't data; the claim needs measurements that rule out other explanations."
+        }
+      ],
+      "answer": "c",
+      "explanation": "An impure sample usually starts melting lower and melts over a spread of several degrees. A product that melts within a degree or two of aspirin's known melting point, and whose solubility also differs from salicylic acid's, fits a new substance better than an impure reactant. Claims grow stronger when independent tests agree.",
+      "misconception": "Repeating the same measurement rules out other explanations, such as an impure sample.",
+      "hint": "Which choice gives new data that an impure sample of salicylic acid would be unlikely to match?",
+      "followUpId": "L12-Q20",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            158,
+            159
+          ],
+          "pdf": [
+            194,
+            195
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            159
+          ],
+          "pdfPages": [
+            195
+          ],
+          "locator": "Key Science Concept: Testing Properties to Confirm Chemical Changes",
+          "supports": "Salicylic acid and the product are both white powders measured at 1.4 g/cm³; 2.4 g of the reactant and 3.3 g of the product dissolve in 1 L of water; the reactant melts at 159 °C and the product at 136 °C."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions",
+          "supports": "Because not every change is easy to see, scientists test properties known to differ between particular reactants and products, such as density, melting point, boiling point, solubility, flammability and odor."
+        },
+        {
+          "type": "external",
+          "title": "6.1B: Uses of Melting Points (Organic Chemistry Lab Techniques)",
+          "publisher": "Chemistry LibreTexts (Lisa Nichols, Butte College; SUNY Oneonta course copy)",
+          "url": "https://chem.libretexts.org/Courses/SUNY_Oneonta/Chem_221%3A_Organic_Chemistry_I_(Bennett)/2%3ALab_Textbook_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point/6.1B%3A_Uses_of_Melting_Points",
+          "accessed": "2026-10-17",
+          "supports": "Impurities lower and broaden a melting range; a melting point should be used as one piece of data to support an identification. Its table lists pure benzoic acid melting over 120–122 °C, a narrow range."
+        },
+        {
+          "type": "external",
+          "title": "5.3: Melting Point Analysis - Identity and Purity (How to be a Successful Organic Chemist)",
+          "publisher": "Chemistry LibreTexts (Alexander Sandtorv)",
+          "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Book%3A_How_to_be_a_Successful_Organic_Chemist_(Sandtorv)/05%3A_HOW_TO_INTERPRET_YOUR_RESULTS/5.03%3A_MELTING_POINT_ANALYSIS-_IDENTITY_AND_PURITY",
+          "accessed": "2026-10-17",
+          "supports": "Impurities lead to wider and depressed melting point ranges, and a measured melting point more than about 1 °C away from the expected value usually means the sample is not pure enough; its worked example lists a literature melting range of 121–123 °C for 2-naphthol."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (CID 2244), Melting Point section (PUG-View record)",
+          "publisher": "PubChem, National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2244/JSON?heading=Melting+Point",
+          "accessed": "2026-10-14",
+          "supports": "Aspirin's known melting point is about 135 °C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Based on L12-RF4: the textbook's 'She has created a new substance!' rests on one lower melting point; this item teaches why more evidence strengthens the claim. Round 1: distractors a and b now test repeating a measurement and a bigger but inconsistent change, instead of repeating Q20/Q21's no-difference rows; 'melts sharply' became 'melts all at once' (pedagogy). The reviser wrote 'aspirin's melting point' for the suggested 'aspirin's temperature' for clarity. Choice d reworded so the key is not the longest choice and d carries no absolute word. Second review cycle: the key no longer says a pure product melts 'all at once', which could read as melting instantly; it says 'in a narrow range', because even pure substances melt over a degree or two (LibreTexts 6.1B lists pure benzoic acid at 120–122 °C; Sandtorv 5.3 added) (science). The explanation now says the solubility differs from salicylic acid's. Distractor b now also offers two pieces of evidence (a lower melting point and matching color), so the key is no longer the only two-part choice (pedagogy). The key is still c.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: new distractors a and b; key without 'sharply'; new misconception; follow-up L12-Q20"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'melts all at once' became a narrow melting range; benzoic acid range added to the LibreTexts record"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor b made two-part so the key is not the only compound choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q24",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "choosing a test",
+        "solubility",
+        "characteristic properties",
+        "boiling point"
+      ],
+      "familyId": "L12-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A chemist hopes to turn white substance A into white substance B. Using the table, which single test would best show whether B formed?",
+      "accessiblePrompt": "A chemist hopes to turn white substance A into white substance B. A table compares them. Color: white for both. Odor: none for both. Melting point: 82 degrees Celsius for A and 81 degrees Celsius for B. Boiling point at normal air pressure: 230 degrees Celsius for A and 231 degrees Celsius for B. Mass that dissolves in 1 liter of water at 20 degrees Celsius: 35 grams for A and 0.2 grams for B. Which single test would best show whether B formed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A color test",
+          "rationale": "Both substances are white, so color can't show which one is present."
+        },
+        {
+          "id": "b",
+          "text": "An odor test",
+          "rationale": "Neither has an odor, so an odor test can't tell them apart."
+        },
+        {
+          "id": "c",
+          "text": "A melting point test",
+          "rationale": "A 1 °C gap is too small: a little impurity or measurement error could shift the reading that much."
+        },
+        {
+          "id": "d",
+          "text": "A solubility test",
+          "rationale": "Correct: A dissolves well while B barely dissolves, a large difference that is easy to detect."
+        },
+        {
+          "id": "e",
+          "text": "A boiling point test",
+          "rationale": "A 1 °C gap in boiling point is too small to rely on; a small measuring error could shift the reading that much."
+        }
+      ],
+      "answer": "d",
+      "diagram": {
+        "kind": "table",
+        "caption": "Properties of two hypothetical white substances",
+        "alt": "Table comparing substance A and substance B. Color: white for both. Odor: none for both. Melting point: 82 °C for A, 81 °C for B. Boiling point at normal air pressure: 230 °C for A, 231 °C for B. Mass that dissolves in 1 liter of water at 20 °C: 35 g for A, 0.2 g for B.",
+        "columns": [
+          "Property",
+          "Substance A",
+          "Substance B"
+        ],
+        "rows": [
+          [
+            "Color",
+            "White",
+            "White"
+          ],
+          [
+            "Odor",
+            "None",
+            "None"
+          ],
+          [
+            "Melting point",
+            "82 °C",
+            "81 °C"
+          ],
+          [
+            "Boiling point (normal air pressure)",
+            "230 °C",
+            "231 °C"
+          ],
+          [
+            "Dissolves in 1 L of water at 20 °C",
+            "35 g",
+            "0.2 g"
+          ]
+        ]
+      },
+      "limitations": "A and B are made-up substances used to model how scientists choose a test.",
+      "explanation": "Scientists choose a test for a property that is known to differ a lot between the expected reactant and product. Color and odor are identical here, and melting and boiling points 1 °C apart are too close to tell apart reliably, since a small impurity or measuring error could shift the result that much. Solubility differs enormously, so it gives a clear answer.",
+      "misconception": "Any property test works equally well for detecting a new substance.",
+      "hint": "For each property, how big is the gap between A and B, compared with what a small mistake in measuring could cause?",
+      "followUpId": "L12-Q19",
+      "scope": {
+        "lessonId": "L12",
+        "section": "3. Evidence of Chemical Reactions",
+        "pages": {
+          "printed": [
+            158
+          ],
+          "pdf": [
+            194
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            158
+          ],
+          "pdfPages": [
+            194
+          ],
+          "locator": "Section 3, Evidence of Chemical Reactions",
+          "supports": "Because not every change is easy to see, scientists test properties known to differ between particular reactants and products, such as density, melting point, boiling point, solubility, flammability and odor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Lesson Summary, Evidence of Chemical Reactions",
+          "supports": "Melting point, boiling point and solubility are three properties that can show products are different substances from reactants."
+        },
+        {
+          "type": "external",
+          "title": "6.1B: Uses of Melting Points (Organic Chemistry Lab Techniques)",
+          "publisher": "Chemistry LibreTexts (Lisa Nichols, Butte College; SUNY Oneonta course copy)",
+          "url": "https://chem.libretexts.org/Courses/SUNY_Oneonta/Chem_221%3A_Organic_Chemistry_I_(Bennett)/2%3ALab_Textbook_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point/6.1B%3A_Uses_of_Melting_Points",
+          "accessed": "2026-10-14",
+          "supports": "Impurities lower and broaden melting ranges, and many compounds have similar melting points, so a melting point alone should not be the only basis for identification."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical substances A and B; values chosen so only one test is decisive. Round 1: a boiling-point row (230 °C vs 231 °C) and a boiling-point choice were added, so the property named on pp. 158 and 161 appears in the bank (pedagogy coverage gap); moved to F13 with Q21, follow-up Q19. The key is unchanged. Second review cycle: choice b renamed from 'A smell test' to 'An odor test' to match the table's Odor row and avoid seeming to endorse sniffing unknown lab chemicals (science, optional suggestion). Difficulty lowered from 3 to 2 because the 35 g vs 0.2 g gap stands out (pedagogy, optional suggestion). The key is unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: moved to F13 (follow-up L12-Q19); boiling-point row and choice added (lesson-level coverage fix)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (optional suggestion applied: 'An odor test')"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (optional suggestion applied: difficulty 3 to 2)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q25",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O5"
+      ],
+      "conceptTags": [
+        "clinical trial",
+        "criteria",
+        "side effect",
+        "data"
+      ],
+      "familyId": "L12-F11",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each word from the medicine story to its meaning. One meaning is not used.",
+      "accessiblePrompt": "Match each word from the medicine story to its meaning. The words are: criteria; side effect; clinical trial; and data. The meanings are: the goals a successful medicine must meet; an unwanted problem a medicine can cause; a careful test of how well a medicine works in people; records such as patients' body temperatures; and a guess about what a test will show. One meaning is not used.",
+      "left": [
+        {
+          "id": "l1",
+          "text": "Criteria",
+          "rationale": "Criteria are the goals a design is judged against, such as lowering fever."
+        },
+        {
+          "id": "l2",
+          "text": "Side effect",
+          "rationale": "A side effect is an unwanted problem a medicine causes, such as nausea."
+        },
+        {
+          "id": "l3",
+          "text": "Clinical trial",
+          "rationale": "A clinical trial tests a medicine in people to see how well it works."
+        },
+        {
+          "id": "l4",
+          "text": "Data",
+          "rationale": "Data are recorded measurements, such as body temperatures."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "The goals a successful medicine must meet"
+        },
+        {
+          "id": "r2",
+          "text": "An unwanted problem a medicine can cause"
+        },
+        {
+          "id": "r3",
+          "text": "A careful test of how well a medicine works in people"
+        },
+        {
+          "id": "r4",
+          "text": "Records such as patients' body temperatures"
+        },
+        {
+          "id": "r5",
+          "text": "A guess about what a test will show"
+        }
+      ],
+      "answer": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Criteria are the goals a design must meet. Clinical trials are careful tests in people that collect data, such as body temperatures and how patients feel. Those data show whether a medicine meets its criteria, including whether its side effects are few and mild. A guess about what a test will show is a prediction, not a criterion.",
+      "misconception": "A clinical trial and the criteria it checks are the same thing.",
+      "hint": "Which word names the goals, and which names the test that checks them?",
+      "followUpId": "L12-Q27",
+      "scope": {
+        "lessonId": "L12",
+        "section": "4. Evaluating Medicines in Clinical Trials",
+        "pages": {
+          "printed": [
+            160
+          ],
+          "pdf": [
+            196
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            160
+          ],
+          "pdfPages": [
+            196
+          ],
+          "locator": "Section 4, Evaluating Salicin and Salicylic Acid",
+          "supports": "Doctors judged medicines by giving them to patients and recording body temperature and how patients felt; the criteria were to reduce fever and headaches with as few side effects as possible."
+        },
+        {
+          "type": "external",
+          "title": "Clinical Trials (health topic)",
+          "publisher": "MedlinePlus, U.S. National Library of Medicine",
+          "url": "https://medlineplus.gov/clinicaltrials.html",
+          "accessed": "2026-10-14",
+          "supports": "Clinical trials are research studies that test how well new medical approaches work in people."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Vocabulary item for O5; meanings written fresh rather than from the p. 153 vocabulary box. Second review cycle: an unused meaning, 'A guess about what a test will show', was added so the last pair is no longer forced, and 'An unwanted effect' became 'An unwanted problem' so the meaning no longer echoes 'Side effect' (pedagogy). 'Works in patients' became 'works in people', matching the glossary and MedlinePlus, since many trials enroll healthy volunteers (science, optional suggestion). The answer map is unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass (optional suggestion applied: 'in people')"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: unused meaning r5 added; r2 reworded to drop the 'effect' echo"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q26",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O5",
+        "L12-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "evaluating designs",
+        "clinical trial",
+        "side effects"
+      ],
+      "familyId": "L12-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Doctors wanted a medicine that lowers fever and pain with as few side effects as possible. Using the table of results described in the lesson, which choice best meets these criteria?",
+      "accessiblePrompt": "Doctors wanted a medicine that lowers fever and pain with as few side effects as possible. A table summarizes results described in the lesson. Salicylic acid: lowered fever and pain; reported side effects were nausea, dizziness, and breathing problems. Aspirin: lowered fever and pain; no dizziness or breathing problems were reported in those tests. Which choice best meets these criteria?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aspirin, because it eased fever and pain with fewer reported side effects",
+          "rationale": "Correct: aspirin met the fever and pain goal and did better on the side-effect goal."
+        },
+        {
+          "id": "b",
+          "text": "Salicylic acid, because it was the most widely used fever drug of its time",
+          "rationale": "Being popular isn't a criterion; salicylic acid caused several unpleasant side effects."
+        },
+        {
+          "id": "c",
+          "text": "Willow bark, because natural remedies never cause side effects",
+          "rationale": "Natural doesn't mean safe, and willow bark wasn't among the tested results in the table."
+        },
+        {
+          "id": "d",
+          "text": "Neither one, because a good medicine must have zero side effects",
+          "rationale": "The criteria asked for as few side effects as possible, not zero; almost every medicine can cause some side effects."
+        }
+      ],
+      "answer": "a",
+      "diagram": {
+        "kind": "table",
+        "caption": "Historical test results described in the lesson",
+        "alt": "Table of two medicines. Salicylic acid: lowered fever and pain, yes; side effects reported: nausea, dizziness and breathing problems. Aspirin: lowered fever and pain, yes; side effects reported in those tests: no dizziness or breathing problems.",
+        "columns": [
+          "Medicine",
+          "Lowered fever and pain?",
+          "Side effects reported in those tests"
+        ],
+        "rows": [
+          [
+            "Salicylic acid",
+            "Yes",
+            "Nausea, dizziness, breathing problems"
+          ],
+          [
+            "Aspirin",
+            "Yes",
+            "No dizziness or breathing problems reported"
+          ]
+        ]
+      },
+      "limitations": "These are historical test results as the lesson describes them; early tests were simpler than modern clinical trials. This is not advice about taking any medicine.",
+      "explanation": "Both medicines met the first criterion by lowering fever and pain, but salicylic acid failed the second one with several unpleasant side effects. Aspirin did the job with fewer of the reported side effects, so it met the criteria better. Better is not perfect: doctors now know aspirin can still cause side effects, such as stomach irritation, and in some people it can trigger breathing problems.",
+      "misconception": "A medicine meets its criteria only if it has no side effects at all.",
+      "hint": "Check each medicine against both parts of the goal, not just one.",
+      "followUpId": "L12-Q28",
+      "scope": {
+        "lessonId": "L12",
+        "section": "4. Evaluating Medicines in Clinical Trials",
+        "pages": {
+          "printed": [
+            160,
+            161
+          ],
+          "pdf": [
+            196,
+            197
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            160
+          ],
+          "pdfPages": [
+            196
+          ],
+          "locator": "Section 4, Evaluating Salicin and Salicylic Acid",
+          "supports": "Doctors judged medicines by giving them to patients and recording body temperature and how patients felt; the criteria were to reduce fever and headaches with as few side effects as possible."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Section 4, Evaluating Aspirin",
+          "supports": "Salicylic acid reduced fever and pain but caused nausea, dizziness and breathing problems; aspirin, made from salicylic acid, was tested on patients and judged a better solution."
+        },
+        {
+          "type": "external",
+          "title": "Aspirin (drug information)",
+          "publisher": "MedlinePlus, U.S. National Library of Medicine",
+          "url": "https://medlineplus.gov/druginfo/meds/a682878.html",
+          "accessed": "2026-10-14",
+          "supports": "Aspirin can still cause side effects, including stomach pain and heartburn, and serious ones such as wheezing or difficulty breathing; it carries a warning for children and teenagers."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "No medical advice; table restates the historical results the lesson describes (L12-RF8). 'Natural means safe' distractor follows the brief's guardrail. Round 1: the absolute 'no medicine is perfectly free of them' was removed, and the explanation now says aspirin can trigger breathing problems in some people, so the table's 'no breathing problems reported' stays a historical report (RF8, science).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d rationale no longer absolute; explanation adds that aspirin can trigger breathing problems"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q27",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O5"
+      ],
+      "conceptTags": [
+        "design improvement",
+        "reactants and products",
+        "aspirin history"
+      ],
+      "familyId": "L12-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "In the aspirin story, each step started from the one before it. Put these in order, from the natural source to the final medicine.",
+      "accessiblePrompt": "In the aspirin story, each step started from the one before it. Put these in order, from the natural source to the final medicine. The four are: salicylic acid; willow bark; aspirin; and salicin.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Salicylic acid",
+          "rationale": "Third: made from salicin by chemical reactions, then used to make aspirin."
+        },
+        {
+          "id": "b",
+          "text": "Willow bark",
+          "rationale": "First: the natural source people chewed or brewed long before chemists studied it."
+        },
+        {
+          "id": "c",
+          "text": "Aspirin",
+          "rationale": "Last: made from salicylic acid as the improved medicine."
+        },
+        {
+          "id": "d",
+          "text": "Salicin",
+          "rationale": "Second: the substance chemists found in willow bark."
+        }
+      ],
+      "answer": [
+        "b",
+        "d",
+        "a",
+        "c"
+      ],
+      "ends": [
+        "Natural source",
+        "Final medicine"
+      ],
+      "limitations": "Dates are left out on purpose because historical accounts of the early steps differ. The order shows how each substance was first discovered or made. Within a few decades chemists could also make salicylic acid in factories from other chemicals, so later aspirin did not have to come from willow bark at all.",
+      "explanation": "Salicin was separated from willow bark. Chemists then used salicin as a reactant to make salicylic acid, and later used salicylic acid as a reactant to make aspirin. Each product became the starting point for the next improvement.",
+      "misconception": "Aspirin is simply ground-up willow bark.",
+      "hint": "Which substance did chemists find inside the bark, and which one was made from it?",
+      "followUpId": "L12-Q25",
+      "scope": {
+        "lessonId": "L12",
+        "section": "4. Evaluating Medicines in Clinical Trials",
+        "pages": {
+          "printed": [
+            160,
+            161
+          ],
+          "pdf": [
+            196,
+            197
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            160
+          ],
+          "pdfPages": [
+            196
+          ],
+          "locator": "Section 4, Evaluating Medicines in Clinical Trials",
+          "supports": "Salicin was found in willow bark, and chemists later made salicylic acid using salicin as a reactant."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Section 4, Evaluating Aspirin",
+          "supports": "Salicylic acid reduced fever and pain but caused nausea, dizziness and breathing problems; aspirin, made from salicylic acid, was tested on patients and judged a better solution."
+        },
+        {
+          "type": "external",
+          "title": "The Story of Aspirin (online exhibition)",
+          "publisher": "U.S. National Library of Medicine, National Institutes of Health",
+          "url": "https://www.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+          "accessed": "2026-10-14",
+          "supports": "Salicin was isolated from willow bark, salicylic acid was obtained from salicin, and acetylsalicylic acid (aspirin) was later made from salicylic acid."
+        },
+        {
+          "type": "external",
+          "title": "Felix Hoffmann (scientific biography)",
+          "publisher": "Science History Institute",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/felix-hoffmann/",
+          "accessed": "2026-10-17",
+          "supports": "Kolbe synthesized salicylic acid in 1859, and from 1874 the Heyden Company manufactured and sold synthetic salicylic acid, cheaper than willow bark extract."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Ordered by chemical lineage, not by dates, because the textbook's dates are partly inaccurate (L12-RF7). Round 1: willow bark is no longer called a substance; it is a material that contains salicin (science). Second review cycle: a limitation and a Science History Institute record now say the chain shows the order of discovery: salicylic acid was synthesized in 1859 and sold as a synthetic product from 1874 (science). The reviser softened the suggested 'the aspirin first sold as a medicine was not made from willow bark' to 'later aspirin did not have to come from willow bark at all', because the Science History Institute page says synthetic salicylic acid was on the market but does not say which source Bayer used. The answer order (b, d, a, c) is unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt no longer calls willow bark a substance"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitation and Science History Institute record say the chain is the order of discovery"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q28",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O5"
+      ],
+      "conceptTags": [
+        "design improvement",
+        "criteria",
+        "testing",
+        "natural is not always safe"
+      ],
+      "familyId": "L12-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Salicylic acid lowered fever but caused unpleasant side effects. Thinking like an engineer, what was the most sensible next step?",
+      "accessiblePrompt": "Salicylic acid lowered fever but caused unpleasant side effects. Thinking like an engineer, what was the most sensible next step?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep it unchanged, since lowering fever is the only goal that counts.",
+          "rationale": "The criteria also asked for few side effects, so ignoring them means the design hasn't met its goals."
+        },
+        {
+          "id": "b",
+          "text": "Make a new version and start using it right away, skipping the tests.",
+          "rationale": "A changed substance can bring new problems, so it must be tested against every criterion before anyone can call it better."
+        },
+        {
+          "id": "c",
+          "text": "Go back to salicin, because a substance from nature must be gentler.",
+          "rationale": "Natural isn't automatically gentler, and going back to the older design skips what matters: changing the substance and retesting it against every criterion."
+        },
+        {
+          "id": "d",
+          "text": "Use a reaction to change it, then retest it against every criterion.",
+          "rationale": "Correct: a modified design must be retested on every criterion; this is how aspirin was developed and judged."
+        }
+      ],
+      "answer": "d",
+      "explanation": "When a design meets one criterion but fails another, engineers change the design and test the new version against all the criteria again. That is what happened: chemists used a reaction to turn salicylic acid into aspirin, and tests on patients showed aspirin met the goals better.",
+      "misconception": "Once a design solves the main problem, its other problems don't matter.",
+      "hint": "What do engineers do after a design passes one goal but fails another?",
+      "followUpId": "L12-Q26",
+      "scope": {
+        "lessonId": "L12",
+        "section": "4. Evaluating Medicines in Clinical Trials",
+        "pages": {
+          "printed": [
+            160,
+            161
+          ],
+          "pdf": [
+            196,
+            197
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Section 4, Evaluating Aspirin",
+          "supports": "Salicylic acid reduced fever and pain but caused nausea, dizziness and breathing problems; aspirin, made from salicylic acid, was tested on patients and judged a better solution."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            160
+          ],
+          "pdfPages": [
+            196
+          ],
+          "locator": "Section 4, Evaluating Salicin and Salicylic Acid",
+          "supports": "Doctors judged medicines by giving them to patients and recording body temperature and how patients felt; the criteria were to reduce fever and headaches with as few side effects as possible."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Distractor c is answered with 'natural isn't automatically gentler' plus the change-and-retest reasoning. The p. 160 finding that salicin becomes salicylic acid in the body is no longer used, because aspirin is also converted to salicylic acid in the body (L12-RF8). The item gives no medical advice. Round 1: choice c rationale and evidence fixed (science); choice b made plausible and the hint no longer echoes the key (pedagogy); the key was reworded slightly so it is not the longest choice.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale no longer uses the salicin-to-salicylic-acid finding; that evidence record removed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: plausible choice b; hint no longer echoes the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L12-Q29",
+      "lessonId": "L12",
+      "objectiveIds": [
+        "L12-O5"
+      ],
+      "conceptTags": [
+        "clinical trial",
+        "criteria",
+        "data",
+        "side effects"
+      ],
+      "familyId": "L12-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Doctors testing salicylic acid kept notes like these. Sort each note by the goal it tells them about: easing fever or pain, or causing few side effects.",
+      "accessiblePrompt": "Doctors testing salicylic acid kept notes like these. Sort each note by the goal it tells them about: easing fever or pain, or causing few side effects. The notes are: a patient's temperature fell from 39.5 degrees Celsius to 37.5 degrees Celsius after a dose; a patient said his headache had faded; a patient said she felt sick to her stomach after each dose; and a patient felt dizzy after taking the medicine.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "A patient's temperature fell from 39.5 °C to 37.5 °C after a dose.",
+          "rationale": "A falling body temperature shows the fever easing, so this measurement is about the first goal."
+        },
+        {
+          "id": "i2",
+          "text": "A patient said his headache had faded.",
+          "rationale": "Less pain is what the medicine was meant to bring, so this report is about easing pain, even though it is what the patient said rather than a measurement."
+        },
+        {
+          "id": "i3",
+          "text": "A patient said she felt sick to her stomach after each dose.",
+          "rationale": "Feeling sick to the stomach is nausea, a new problem the medicine caused, so it is about side effects."
+        },
+        {
+          "id": "i4",
+          "text": "A patient felt dizzy after taking the medicine.",
+          "rationale": "Dizziness is an unwanted problem the medicine caused, so it is about side effects."
+        }
+      ],
+      "bins": [
+        {
+          "id": "relief",
+          "label": "About easing fever or pain"
+        },
+        {
+          "id": "side",
+          "label": "About side effects"
+        }
+      ],
+      "answer": {
+        "i1": "relief",
+        "i2": "relief",
+        "i3": "side",
+        "i4": "side"
+      },
+      "limitations": "These notes are made-up examples of the kinds of records the lesson describes. One patient's notes can't show by themselves whether a medicine works; doctors look at many patients.",
+      "explanation": "Doctors judged salicylic acid against two goals, and each note gives evidence about one of them. A falling temperature and a fading headache show the medicine easing fever and pain, while feeling sick or dizzy are side effects. What patients say about how they feel counts as data too, and it can point either way.",
+      "misconception": "Only measurements show whether a medicine works; what patients say about how they feel is only about side effects.",
+      "hint": "For each note, ask: is this the problem the medicine was meant to fix, or a new problem it caused?",
+      "followUpId": "L12-Q28",
+      "scope": {
+        "lessonId": "L12",
+        "section": "4. Evaluating Medicines in Clinical Trials",
+        "pages": {
+          "printed": [
+            160,
+            161
+          ],
+          "pdf": [
+            196,
+            197
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            160
+          ],
+          "pdfPages": [
+            196
+          ],
+          "locator": "Section 4, Evaluating Salicin and Salicylic Acid",
+          "supports": "Doctors judged medicines by giving them to patients and recording body temperature and how patients felt; the criteria were to reduce fever and headaches with as few side effects as possible."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            161
+          ],
+          "pdfPages": [
+            197
+          ],
+          "locator": "Section 4, Evaluating Aspirin",
+          "supports": "Salicylic acid reduced fever and pain but caused nausea, dizziness and breathing problems; aspirin, made from salicylic acid, was tested on patients and judged a better solution."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Standby O5 item drafted in the second review cycle, as the pedagogy review asked, so O5 stays above the 4-question floor if one of Q25–Q28 fails verification. It asks which criterion each trial record speaks to (p. 160: doctors recorded body temperature and how patients felt, and the criteria were relief with few side effects; p. 161: salicylic acid's side effects included nausea and dizziness). The two report items split across both bins, so the sort tests the misconception that only measurements show whether a medicine works. The notes are invented examples, and the item gives no dosing or medical advice (L12-RF8). Family F11 now has three questions. Verifier (2026-10-14): checked against rendered pp. 160–161 (doctors recorded body temperature and how patients felt; salicylic acid caused nausea, dizziness and breathing problems). Each note has one defensible bin; no dosing or medical advice.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

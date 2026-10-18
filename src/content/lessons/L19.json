@@ -1,0 +1,1402 @@
+{
+  "lessonId": "L19",
+  "guidingQuestion": "Why are there different natural resources in different parts of Earth?",
+  "hook": "A single cell phone is a tiny treasure map: its plastic case began as ancient sea life, its copper most likely came from ore that formed above a sinking tectonic plate, its box came from a forest, and making it took a surprising amount of water.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "pages": {
+        "printed": [
+          244,
+          245
+        ],
+        "pdf": [
+          280,
+          281
+        ]
+      }
+    },
+    {
+      "title": "1. Fresh Water",
+      "pages": {
+        "printed": [
+          246,
+          247
+        ],
+        "pdf": [
+          282,
+          283
+        ]
+      }
+    },
+    {
+      "title": "2. Designing Hoover Dam",
+      "pages": {
+        "printed": [
+          248,
+          249
+        ],
+        "pdf": [
+          284,
+          285
+        ]
+      }
+    },
+    {
+      "title": "3. Petroleum",
+      "pages": {
+        "printed": [
+          250,
+          251
+        ],
+        "pdf": [
+          286,
+          287
+        ]
+      }
+    },
+    {
+      "title": "4. Geothermal Energy",
+      "pages": {
+        "printed": [
+          252,
+          253
+        ],
+        "pdf": [
+          288,
+          289
+        ]
+      }
+    },
+    {
+      "title": "5. Soil",
+      "pages": {
+        "printed": [
+          254,
+          255
+        ],
+        "pdf": [
+          290,
+          291
+        ]
+      }
+    },
+    {
+      "title": "6. Copper Ore",
+      "pages": {
+        "printed": [
+          256
+        ],
+        "pdf": [
+          292
+        ]
+      }
+    },
+    {
+      "title": "Key Science Concept: The Distribution of Natural Resources",
+      "pages": {
+        "printed": [
+          257
+        ],
+        "pdf": [
+          293
+        ]
+      }
+    },
+    {
+      "title": "7. Wood",
+      "pages": {
+        "printed": [
+          258,
+          259
+        ],
+        "pdf": [
+          294,
+          295
+        ]
+      }
+    },
+    {
+      "title": "Lesson Summary",
+      "pages": {
+        "printed": [
+          259
+        ],
+        "pdf": [
+          295
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "L19-O1",
+      "text": "Identify the lesson's natural resources and sort each as renewable or nonrenewable by how long nature takes to replace it compared with a human lifetime.",
+      "kind": "observe",
+      "sections": [
+        "Introduction",
+        "1. Fresh Water",
+        "3. Petroleum",
+        "4. Geothermal Energy",
+        "5. Soil",
+        "6. Copper Ore",
+        "Key Science Concept: The Distribution of Natural Resources",
+        "7. Wood"
+      ],
+      "pages": {
+        "printed": [
+          245,
+          246,
+          247,
+          250,
+          252,
+          253,
+          254,
+          256,
+          257,
+          259
+        ],
+        "pdf": [
+          281,
+          282,
+          283,
+          286,
+          288,
+          289,
+          290,
+          292,
+          293,
+          295
+        ]
+      }
+    },
+    {
+      "id": "L19-O2",
+      "text": "Explain how past and present Earth processes formed each resource, and use those processes to explain why each one is concentrated in some places and scarce in others.",
+      "kind": "relate",
+      "sections": [
+        "1. Fresh Water",
+        "3. Petroleum",
+        "4. Geothermal Energy",
+        "5. Soil",
+        "6. Copper Ore",
+        "Key Science Concept: The Distribution of Natural Resources",
+        "7. Wood"
+      ],
+      "pages": {
+        "printed": [
+          247,
+          250,
+          251,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ],
+        "pdf": [
+          283,
+          286,
+          287,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294
+        ]
+      }
+    },
+    {
+      "id": "L19-O3",
+      "text": "Explain how human use changes where resources are found and how much remains, and describe practices that keep a resource available for future generations.",
+      "kind": "relate",
+      "sections": [
+        "1. Fresh Water",
+        "2. Designing Hoover Dam",
+        "3. Petroleum",
+        "5. Soil",
+        "6. Copper Ore",
+        "7. Wood"
+      ],
+      "pages": {
+        "printed": [
+          247,
+          249,
+          251,
+          255,
+          256,
+          258,
+          259
+        ],
+        "pdf": [
+          283,
+          285,
+          287,
+          291,
+          292,
+          294,
+          295
+        ]
+      }
+    },
+    {
+      "id": "L19-O4",
+      "text": "Use evidence such as geologic clues, rates and data, and a problem's criteria and constraints to predict where a resource is likely to be found, plan the use of a limited resource, and evaluate competing design solutions, using Hoover Dam as a case.",
+      "kind": "apply",
+      "sections": [
+        "2. Designing Hoover Dam",
+        "3. Petroleum",
+        "4. Geothermal Energy",
+        "6. Copper Ore",
+        "Key Science Concept: The Distribution of Natural Resources"
+      ],
+      "pages": {
+        "printed": [
+          248,
+          249,
+          251,
+          253,
+          256,
+          257
+        ],
+        "pdf": [
+          284,
+          285,
+          287,
+          289,
+          292,
+          293
+        ]
+      }
+    }
+  ],
+  "keyIdeas": [
+    "A natural resource is any useful material or energy source that nature provides. Even one phone draws on several: petroleum for its plastic, copper for its circuits, wood fiber for its box, and a large amount of water to manufacture it.",
+    "Renewable means nature can replace a resource within about a human lifetime; nonrenewable means replacement takes far longer. Whether a particular use is sustainable is a race between two rates: how fast nature replaces the resource and how fast people use it. Renewable does not mean unlimited; a lake, a forest or a geothermal reservoir can still run low if it is overused.",
+    "Only a few percent of Earth's water is fresh, and most of that is frozen in ice. Lakes and rivers are refilled by the water cycle, while an aquifer refills at a rate set by local rain and snow, the type of rock, and how deep it lies. Deep aquifers in dry regions can take extremely long to refill, and some hold water that soaked in during wetter climates long ago.",
+    "Each resource formed under particular conditions, which is why resources are spread unevenly. Most petroleum formed from sea life buried beneath warm, shallow seas; most copper ore formed from hot, metal-rich fluids given off by magma above sinking plates; geothermal heat is strongest near plate boundaries; soil builds up as rock weathers and organic matter collects; forests grow where climate and soil suit trees.",
+    "People reshape the map of resources by using them. Pumping drains aquifers, wells empty oil fields, mines exhaust copper deposits, overgrazing strips fertile topsoil, and logging shrinks forests.",
+    "Sustainable use leaves enough of a resource for future generations. Examples include limiting pumping from slow-to-refill aquifers, returning water to geothermal reservoirs, recycling copper, restoring farmland soil, and replanting forests.",
+    "Engineers compare competing designs against criteria (what the solution must achieve) and constraints (the limits it must work within). Hoover Dam's team chose a costly arch-gravity design because the project needed great strength, and the dam brought both benefits and lasting environmental costs."
+  ],
+  "glossary": [
+    {
+      "term": "natural resource",
+      "definition": "Any useful material or source of energy that people obtain from nature, such as water, oil, metal ores, soil or wood.",
+      "pages": {
+        "printed": [
+          245,
+          246
+        ],
+        "pdf": [
+          281,
+          282
+        ]
+      }
+    },
+    {
+      "term": "renewable resource",
+      "definition": "A resource that natural processes replace within about a human lifetime, such as lake water or a replanted forest. It can still run short in places where people use it faster than it is replaced.",
+      "pages": {
+        "printed": [
+          245,
+          246,
+          257
+        ],
+        "pdf": [
+          281,
+          282,
+          293
+        ]
+      }
+    },
+    {
+      "term": "nonrenewable resource",
+      "definition": "A resource that takes far longer than a human lifetime to form, such as petroleum or copper ore, so the supply shrinks as people use it.",
+      "pages": {
+        "printed": [
+          245,
+          247,
+          257
+        ],
+        "pdf": [
+          281,
+          283,
+          293
+        ]
+      }
+    },
+    {
+      "term": "sustainable",
+      "definition": "Describes using a resource in a way that leaves enough of it for people in the future.",
+      "pages": {
+        "printed": [
+          245,
+          247
+        ],
+        "pdf": [
+          281,
+          283
+        ]
+      }
+    },
+    {
+      "term": "groundwater",
+      "definition": "Water that has soaked into the ground and fills the tiny spaces and cracks in soil and rock below the surface.",
+      "pages": {
+        "printed": [
+          246,
+          247
+        ],
+        "pdf": [
+          282,
+          283
+        ]
+      }
+    },
+    {
+      "term": "aquifer",
+      "definition": "A body of underground rock or sediment that holds groundwater and lets it move through, so water can be pumped out from wells.",
+      "pages": {
+        "printed": [
+          246,
+          247
+        ],
+        "pdf": [
+          282,
+          283
+        ]
+      }
+    },
+    {
+      "term": "petroleum",
+      "definition": "Crude oil, a liquid fuel that formed over millions of years as the buried remains of mostly tiny sea organisms were changed by heat and pressure.",
+      "pages": {
+        "printed": [
+          245,
+          250
+        ],
+        "pdf": [
+          281,
+          286
+        ]
+      }
+    },
+    {
+      "term": "geothermal energy",
+      "definition": "Energy from the heat of Earth's interior, used to warm buildings directly or to make electricity.",
+      "pages": {
+        "printed": [
+          245,
+          252
+        ],
+        "pdf": [
+          281,
+          288
+        ]
+      }
+    },
+    {
+      "term": "soil",
+      "definition": "The loose surface layer made of weathered rock and mineral bits, decaying and living organisms, water and air.",
+      "pages": {
+        "printed": [
+          245,
+          254
+        ],
+        "pdf": [
+          281,
+          290
+        ]
+      }
+    },
+    {
+      "term": "soil fertility",
+      "definition": "How well a soil can support plant growth, which depends mostly on the nutrients and water it holds.",
+      "pages": {
+        "printed": [
+          255
+        ],
+        "pdf": [
+          291
+        ]
+      }
+    },
+    {
+      "term": "ore",
+      "definition": "Rock that contains a valuable mineral in a high enough amount that mining it can earn a profit.",
+      "pages": {
+        "printed": [
+          245,
+          256
+        ],
+        "pdf": [
+          281,
+          292
+        ]
+      }
+    },
+    {
+      "term": "criteria",
+      "definition": "The goals a design must meet to count as a success, such as how much water a dam must store.",
+      "pages": {
+        "printed": [
+          248
+        ],
+        "pdf": [
+          284
+        ]
+      }
+    },
+    {
+      "term": "constraints",
+      "definition": "The limits a design must work within, such as cost, the shape of the land, or harm to the environment.",
+      "pages": {
+        "printed": [
+          248
+        ],
+        "pdf": [
+          284
+        ]
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "objectiveId": "L19-O1",
+      "title": "Renewable or Not? Watch Nature's Clock",
+      "paragraphs": [
+        "Two clocks matter for every resource in this lesson. The first is nature's clock: how long it takes to refill or rebuild the resource. If nature can refill or regrow it within a human lifetime, it is renewable; if nature needs centuries to millions of years, it is nonrenewable. The second is a race between nature and us: a renewable resource lasts only as long as people do not use it faster than nature refills it.",
+        "Lake and river water is refilled again and again by rain and snow. Geothermal heat keeps flowing up from Earth's hot interior. A replanted pine forest can be ready to harvest again in about fifteen years. Those are renewable, and they last when they are used carefully.",
+        "Petroleum and copper ore take millions of years to form. Building a single centimeter of fertile topsoil can take up to a thousand years, yet overgrazing and poor farming can let erosion strip it away far faster. Nature needs far longer than a human lifetime to replace all three, so they are nonrenewable.",
+        "Some resources land on either side of the line. An aquifer under a rainy region can refill fairly quickly, but a deep aquifer under a desert may hold water that soaked in more than a million years ago. Wood from a fast-growing planted forest is renewable, while a forest of trees that are centuries old cannot be replaced on a human timescale."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "How each resource is replaced, and how the lesson classifies it",
+        "alt": "A table with three columns: resource, how nature makes more, and classification on a human timescale. Lake and river water: refilled continually by rain and snow; renewable. Groundwater: rain and snow soaking into rock, from years to more than a million years depending on the aquifer; depends on the aquifer, because the rain and snow, the rock and the depth set how fast it refills, and pumping any aquifer faster than it refills is not sustainable. Geothermal energy: heat keeps flowing from Earth's interior, but each reservoir needs water returned; renewable. Petroleum: buried sea life changed by heat and pressure over millions of years; nonrenewable. Fertile soil: weathered rock plus organic matter, where a single centimeter can take up to a thousand years to build; nonrenewable. Copper ore: metal-rich fluids from magma, over millions of years; nonrenewable. Wood: trees regrow, from about 15 years for planted pine to centuries for old-growth forest; renewable or not depending on the forest and the harvest rate.",
+        "columns": [
+          "Resource",
+          "How nature makes more",
+          "On a human timescale"
+        ],
+        "rows": [
+          [
+            "Lake and river water",
+            "Refilled continually by rain and snow",
+            "Renewable"
+          ],
+          [
+            "Groundwater",
+            "Rain and snow soak into rock; years to over a million years",
+            "Depends on the aquifer: rain, rock and depth set how fast it refills"
+          ],
+          [
+            "Geothermal energy",
+            "Heat keeps flowing from Earth's interior; water must be returned",
+            "Renewable"
+          ],
+          [
+            "Petroleum",
+            "Buried sea life changed by heat and pressure; millions of years",
+            "Nonrenewable"
+          ],
+          [
+            "Fertile soil",
+            "Weathered rock plus organic matter; one centimeter can take up to a thousand years",
+            "Nonrenewable"
+          ],
+          [
+            "Copper ore",
+            "Metal-rich fluids from magma; millions of years",
+            "Nonrenewable"
+          ],
+          [
+            "Wood",
+            "Trees regrow; about 15 years (planted pine) to centuries (old growth)",
+            "Depends on the forest and the harvest rate"
+          ]
+        ]
+      },
+      "watchOut": "Renewable does not mean unlimited. A lake in a drought, an overcut forest or an overworked geothermal reservoir can all run low. The textbook also says 'most groundwater is nonrenewable', which is a generalization: an aquifer under a rainy region can refill quickly, while a deep one under a desert may hold water that soaked in more than a million years ago. Either way, pumping faster than an aquifer refills is not sustainable.",
+      "pages": {
+        "printed": [
+          246,
+          247,
+          250,
+          253,
+          254,
+          256,
+          257,
+          259
+        ],
+        "pdf": [
+          282,
+          283,
+          286,
+          289,
+          290,
+          292,
+          293,
+          295
+        ]
+      }
+    },
+    {
+      "objectiveId": "L19-O2",
+      "title": "Why the Treasure Is Where It Is",
+      "paragraphs": [
+        "Natural resources are not sprinkled evenly over the planet. Each one formed only where the right ingredients and conditions came together, often over millions of years, so the world map of resources is really a map of Earth's history.",
+        "Most petroleum formed where tiny sea organisms piled up on the floors of warm, shallow seas and were buried deep under sediment. That is why giant oil fields can lie beneath today's deserts: the sea that made them is long gone. Most copper ore formed where one plate sank beneath another, magma rose into the crust, and hot fluids from that magma left copper minerals behind as they cooled.",
+        "Geothermal energy is strongest where heat escapes quickly from Earth's interior, mostly along plate boundaries where magma forms and volcanoes rise. Groundwater collects in rock that can store water, wherever rain and snow have soaked in, either today or during wetter climates long ago. That is why huge aquifers lie under parts of the Sahara and dry central Australia, holding water that is refilled very slowly or hardly at all today.",
+        "Soil builds up as rock weathers into sediment and decomposers add organic matter. In rainy places weathering runs faster, so soil can be thicker, though not always more fertile. Forests grow where the climate and soil suit trees, which is why tropical rainforests and evergreen boreal forests sit in different bands around the globe."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "From formation clue to where to look",
+        "alt": "A table with three columns: resource, how it formed, and where to look. Petroleum: mostly the remains of tiny sea organisms buried and changed by heat and pressure over millions of years; look in thick sedimentary rock laid down in ancient warm, shallow seas. Copper ore: mostly hot fluids from magma above a sinking plate, which deposited copper as they cooled; look near convergent plate boundaries, past or present. Geothermal energy: heat flowing up from Earth's interior; look near plate boundaries with volcanoes and hot springs. Groundwater: rain and snow soaking into rock that can hold water, either now or in wetter times long ago; look in rock that stores water, fed by rain and snow today or in the past, even under some deserts. Fertile soil: weathered rock mixed with organic matter; depends on rainfall, weathering, erosion and farming practices. Forests: trees suited to the local climate and soil; look where climate and soil support tree growth.",
+        "columns": [
+          "Resource",
+          "How it formed",
+          "Where to look"
+        ],
+        "rows": [
+          [
+            "Petroleum",
+            "Mostly buried sea life changed by heat and pressure",
+            "Rock laid down in ancient warm, shallow seas"
+          ],
+          [
+            "Copper ore",
+            "Mostly hot fluids from magma above a sinking plate, which cooled and left copper",
+            "Near convergent plate boundaries, past or present"
+          ],
+          [
+            "Geothermal energy",
+            "Heat flowing up from Earth's interior",
+            "Plate boundaries with volcanoes and hot springs"
+          ],
+          [
+            "Groundwater",
+            "Rain and snow soaking into rock, now or in wetter times long ago",
+            "Rock that stores water, fed by rain and snow today or in the past (even under some deserts)"
+          ],
+          [
+            "Fertile soil",
+            "Weathered rock plus organic matter",
+            "Depends on rainfall, weathering, erosion and farming"
+          ],
+          [
+            "Forests",
+            "Trees suited to local conditions",
+            "Where climate and soil support trees"
+          ]
+        ]
+      },
+      "watchOut": "A resource map shows where resources are concentrated today, which mixes where they formed long ago with where people have already used them up. Some deposits also formed under conditions that are gone now, such as seas over today's deserts or wetter climates that filled desert aquifers.",
+      "pages": {
+        "printed": [
+          247,
+          250,
+          251,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ],
+        "pdf": [
+          283,
+          286,
+          287,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294
+        ]
+      }
+    },
+    {
+      "objectiveId": "L19-O3",
+      "title": "Using the Treasure Without Emptying the Chest",
+      "paragraphs": [
+        "Humans are now one of the forces that move resources around the map. When people pump an aquifer faster than it refills, its water level falls. When an oil field or a copper mine is emptied, that spot drops off the resource map, and companies search elsewhere.",
+        "Using resources can also damage what is left. Too many grazing animals can strip a pasture bare, and then wind and rain carry away the nutrient-rich top layer of soil. Clearing forests can harm land, water and wildlife. Abandoned open-pit mines can fill with polluted water.",
+        "Sustainable use means using a resource so that enough remains for the future. Australia manages pumping from its deep Great Artesian Basin aquifer. Geothermal plants send cooled water back underground. Recycled copper now supplies much of the metal for new products. Ethiopia began a program to restore worn-out farmland, and Canada replants forests after harvesting.",
+        "Even a helpful project has trade-offs. Hoover Dam supplies water and electricity to millions of people, but it blocks fish, traps sediment that once enriched land downstream, and changes the temperature of the river below it."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "How use changes a resource, and a practice that helps",
+        "alt": "A table with three columns: resource, what overuse does, and a practice that helps. Groundwater: pumping faster than refilling lowers the water level until the aquifer is depleted; limit pumping to match refilling. Geothermal reservoir: drawing out steam faster than water returns lowers pressure and output; inject water back underground. Copper ore: mining empties deposits and can leave polluted pits; recycle copper. Fertile soil: overgrazing strips plants and lets topsoil erode; sustainable farming and land restoration. Forests: cutting faster than regrowth shrinks forests and harms habitats; replant and manage harvests.",
+        "columns": [
+          "Resource",
+          "What overuse does",
+          "A practice that helps"
+        ],
+        "rows": [
+          [
+            "Groundwater",
+            "Water level falls until the aquifer is depleted",
+            "Limit pumping to match refilling"
+          ],
+          [
+            "Geothermal reservoir",
+            "Pressure and steam output drop",
+            "Inject water back underground"
+          ],
+          [
+            "Copper ore",
+            "Deposits are emptied; pits can collect polluted water",
+            "Recycle copper"
+          ],
+          [
+            "Fertile soil",
+            "Overgrazing strips plants and topsoil erodes",
+            "Sustainable farming and land restoration"
+          ],
+          [
+            "Forests",
+            "Forests shrink and habitats are lost",
+            "Replant and manage harvests"
+          ]
+        ]
+      },
+      "watchOut": "Several numbers in the textbook are snapshots from when it was written, such as oil's share of world energy in 2017, the Ghawar field's daily output, Canada's yearly planting total, and the yearly area of forest cut worldwide. Treat them as dated examples, not current facts.",
+      "pages": {
+        "printed": [
+          247,
+          249,
+          251,
+          255,
+          256,
+          258,
+          259
+        ],
+        "pdf": [
+          283,
+          285,
+          287,
+          291,
+          292,
+          294,
+          295
+        ]
+      }
+    },
+    {
+      "objectiveId": "L19-O4",
+      "title": "Choosing a Design: The Hoover Dam Challenge",
+      "paragraphs": [
+        "In the early 1900s the fast-growing American Southwest needed water, electricity and protection from floods. A large team of engineers and scientists compared five kinds of dams for a site on the Colorado River. They judged each design against criteria, the goals it had to meet, and constraints, the limits it had to fit within, such as cost, the shape of the canyon and harm to the river.",
+        "In the team's comparison for this canyon site, the earth and rockfill options were cheaper and simpler but were judged not strong enough to hold the giant reservoir. (Elsewhere, very large earth-fill dams do hold huge reservoirs, so the best type depends on the site.) The team picked an arch-gravity dam. Its concrete wall curves upstream, which steers part of the water's push sideways into the canyon walls, and it is very wide at the base, so its own enormous weight helps hold the water back.",
+        "The strongest design is not automatically the best. It won here because this project needed to store a huge amount of water. A small town irrigating a few fields would weigh the same criteria and constraints and likely choose a cheaper design.",
+        "The same evidence-based thinking helps predict where to look for resources: volcanoes and hot springs hint at geothermal heat, mountain belts above sinking plates hint at copper ore, and thick rock from ancient shallow seas hints at petroleum."
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "The five dam designs the Hoover Dam team compared",
+        "alt": "A table with three columns: dam type, what it is built from, and how the Hoover Dam team rated it for this site. Earth dam: compacted layers of soil; judged less strong for this site, cheaper and easier to build. Rockfill dam: pieces of rock and large boulders; judged less strong for this site, cheaper and easier to build. Arch dam: a concrete wall curved upstream that sends part of the water's push into the canyon walls; strong. Gravity dam: a massive concrete wall, wide at the base, held in place by its weight; strong. Arch-gravity dam: concrete, curved like an arch dam and wide at the base like a gravity dam; strongest of the options and more expensive; chosen for Hoover Dam.",
+        "columns": [
+          "Dam type",
+          "Built from",
+          "Team's rating for this site"
+        ],
+        "rows": [
+          [
+            "Earth",
+            "Compacted layers of soil",
+            "Judged less strong for this site; cheaper and easier to build"
+          ],
+          [
+            "Rockfill",
+            "Rock pieces and large boulders",
+            "Judged less strong for this site; cheaper and easier to build"
+          ],
+          [
+            "Arch",
+            "Concrete wall curved upstream",
+            "Strong; pushes load into canyon walls"
+          ],
+          [
+            "Gravity",
+            "Massive concrete, wide at the base",
+            "Strong; held in place by its weight"
+          ],
+          [
+            "Arch-gravity",
+            "Concrete, curved and wide at the base",
+            "Strongest option; costs more; chosen for Hoover Dam"
+          ]
+        ]
+      },
+      "watchOut": "An arch does not make the water push any less. It redirects part of the push into the solid canyon walls. And the textbook says dams release warmer water downstream, but big Colorado River dams such as Glen Canyon Dam draw water from deep in their reservoirs, which has left parts of the river below too cold for some native fish to spawn; when the reservoir is low, warmer surface water can pass through instead. Either way, changing a river's temperature can harm fish adapted to it.",
+      "pages": {
+        "printed": [
+          248,
+          249,
+          253,
+          256,
+          257
+        ],
+        "pdf": [
+          284,
+          285,
+          289,
+          292,
+          293
+        ]
+      }
+    }
+  ],
+  "reviewFlags": [
+    {
+      "id": "L19-RF1",
+      "issue": "The vocabulary box and Section 1 define a renewable resource partly as one that 'exists in such great supply that it cannot be depleted', and Section 4 calls Earth's interior an 'inexhaustible' supply that 'will always be available'. Taken alone, this suggests renewable means unlimited, which the brief's guardrails reject. Geothermal reservoirs, for example, can be drawn down. The definition's other clause ('replenished faster than it is used up') ties the label to the rate of use, so an overused lake would stop being renewable; the round-1 science review found the draft content mixing that rate definition with 'renewable resources can be overused'.",
+      "pages": {
+        "printed": [
+          245,
+          246,
+          253
+        ],
+        "pdf": [
+          281,
+          282,
+          289
+        ]
+      },
+      "resolution": "Content defines renewable by how long nature takes to replace a resource, judged against a human lifetime (supported by the p. 245 NGSS box), and treats sustainable use as a separate comparison between the rate of use and the rate of replacement (glossary, key ideas, O1 card). It states in the glossary, key ideas and the O1 watch-out that renewable resources can still run low. L19-Q02 targets the 'refills instantly' idea, and the 'never runs out' idea is targeted by L19-Q13 c and L19-Q21 b. L19-Q13 uses The Geysers, where steam output fell in the 1980s because more steam was withdrawn than water was returned, to show that a renewable resource can be overused.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            246,
+            253
+          ],
+          "pdfPages": [
+            282,
+            289
+          ],
+          "locator": "Section 1, Renewable Fresh Water; Section 4, Distribution of Geothermal Energy",
+          "supports": "The textbook classifies surface water and geothermal energy as renewable and explains that cooled water is pumped back underground at geothermal plants."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            245
+          ],
+          "pdfPages": [
+            281
+          ],
+          "locator": "Next Generation Science Standards box, Disciplinary Core Idea ESS3.A",
+          "supports": "Many natural resources are limited and not renewable or replaceable over human lifetimes."
+        },
+        {
+          "type": "external",
+          "title": "Renewable energy explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/renewable-sources/",
+          "accessed": "2026-10-14",
+          "supports": "EIA describes renewable energy sources as naturally replenishing but flow-limited: nearly inexhaustible over time, but limited in how much is available per unit of time."
+        },
+        {
+          "type": "external",
+          "title": "Geothermal FAQs",
+          "publisher": "U.S. Department of Energy, Geothermal Technologies Office",
+          "url": "https://www.energy.gov/eere/geothermal/geothermal-faqs",
+          "accessed": "2026-10-14",
+          "supports": "The Department of Energy notes that some geothermal plants have seen pressure and production declines, and that treated wastewater from Santa Rosa is sent to The Geysers as reinjection fluid to extend the reservoir's life."
+        },
+        {
+          "type": "external",
+          "title": "Recharging The Geysers",
+          "publisher": "Calpine Corporation (operator of The Geysers)",
+          "url": "https://geysers.com/about/recharging-the-geysers/",
+          "accessed": "2026-10-14",
+          "supports": "The Geysers' operator states that in the 1970s and 1980s far more steam was extracted from the reservoir than was replaced, causing steam pressure to drop by 1989, and that treated wastewater is now injected to restore pressure."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF2",
+      "issue": "Section 1 states that 'most of Earth's groundwater is nonrenewable', the Figure 1B caption says groundwater is generally not replenished faster than humans use it, and the Key Science Concept spread and the Lesson Summary repeat the idea. Read as a rule, this becomes the absolute that the brief forbids ('groundwater is always nonrenewable'). Whether an aquifer is renewable depends on its recharge rate compared with the pumping rate.",
+      "pages": {
+        "printed": [
+          247,
+          257,
+          259
+        ],
+        "pdf": [
+          283,
+          293,
+          295
+        ]
+      },
+      "resolution": "Content never says groundwater is always nonrenewable. Groundwater is left out of the renewable sorting item (L19-Q01; its limitations say why). L19-Q06 asks which factors control how fast an aquifer refills, and L19-Q23 asks how much the farms can pump if total pumping must stay within recharge. The O1 card's table says groundwater 'depends on the aquifer', because rain and snow, rock type and depth make aquifers refill on very different timescales.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247
+          ],
+          "pdfPages": [
+            283
+          ],
+          "locator": "Section 1, Nonrenewable Fresh Water and Figure 1B",
+          "supports": "Uneven groundwater supplies are explained by differences in rain and snow and in rock type, and aquifers become depleted when people remove water faster than it is replaced."
+        },
+        {
+          "type": "external",
+          "title": "Groundwater Decline and Depletion",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater-decline-and-depletion",
+          "accessed": "2026-10-14",
+          "supports": "USGS explains that groundwater starts as precipitation and that depletion is a long-term decline caused when pumping outpaces long-term replenishment; its effects depend on aquifer properties and recharge rates."
+        },
+        {
+          "type": "external",
+          "title": "Water-Level Changes in the High Plains Aquifer, 1980 to 1998",
+          "publisher": "U.S. Geological Survey, Nebraska Water Science Center",
+          "url": "https://ne.water.usgs.gov/ogw/hpwlms/hpfs98.html",
+          "accessed": "2026-10-14",
+          "supports": "USGS reports that recharge to the High Plains aquifer comes primarily from precipitation and that water-level changes result from an imbalance between discharge and recharge."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF3",
+      "issue": "Section 1 says it 'can take at least 2 million years' for surface water to seep back into the Great Artesian Basin. The dating literature shows water in parts of the basin has been underground for more than a million years, with recharge still entering at the basin's margins. A two-million-year minimum overstates it.",
+      "pages": {
+        "printed": [
+          247
+        ],
+        "pdf": [
+          283
+        ]
+      },
+      "resolution": "Content says only that water in parts of this deep aquifer has been underground for more than a million years and that natural refilling is extremely slow. No question uses the two-million-year figure.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247
+          ],
+          "pdfPages": [
+            283
+          ],
+          "locator": "Section 1, Nonrenewable Fresh Water",
+          "supports": "The Great Artesian Basin is a very deep aquifer that refills slowly and is being managed so it can last."
+        },
+        {
+          "type": "external",
+          "title": "Chlorine 36 Dating of Very Old Groundwater 3. Further Studies in the Great Artesian Basin, Australia (Torgersen et al., abstract)",
+          "publisher": "Purdue University PRIME Lab (research paper abstract page)",
+          "url": "https://www.physics.purdue.edu/primelab/research/papers/to91b.html",
+          "accessed": "2026-10-14",
+          "supports": "Chlorine-36 dating of Great Artesian Basin groundwater agrees broadly with hydrologic ages and indicates flow conditions largely unchanged for more than one million years, with recharge areas at the basin margins."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF4",
+      "issue": "Figure 1A gives fresh water as 3 percent of Earth's water (69 percent ice, 30 percent groundwater, 1 percent surface water). USGS gives about 2.5 percent fresh, split about 68.7, 30.1 and 1.2 percent. The textbook's values are rounded rather than wrong.",
+      "pages": {
+        "printed": [
+          246
+        ],
+        "pdf": [
+          282
+        ]
+      },
+      "resolution": "L19-Q05 states that it uses the textbook's rounded values and gives the USGS figure in its conditions. The key ideas say only 'a few percent'.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            246
+          ],
+          "pdfPages": [
+            282
+          ],
+          "locator": "Section 1, Distribution of Fresh Water and Figure 1A",
+          "supports": "About 3 percent of Earth's water is fresh; of that, about 69 percent is glacial ice, 30 percent groundwater and 1 percent surface water."
+        },
+        {
+          "type": "external",
+          "title": "Where is Earth's Water?",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water",
+          "accessed": "2026-10-14",
+          "supports": "USGS estimates fresh water at about 2.5 percent of Earth's water, of which about 68.7 percent is ice caps, glaciers and permanent snow, 30.1 percent groundwater and 1.2 percent surface and other fresh water."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF5",
+      "issue": "Section 2 says the arch curve 'reduces the pressure on the dam'. In fact the curve transfers part of the water's load into the canyon walls, and the water pressure itself is unchanged. The text also says about 21,000 workers 'and their families' moved to the area. Reclamation reports 21,000 workers in total over the project, with about 3,500 on an average day.",
+      "pages": {
+        "printed": [
+          249
+        ],
+        "pdf": [
+          285
+        ]
+      },
+      "resolution": "Content says the curve steers part of the water's push into the canyon walls while the wide base uses the dam's weight. This matches Reclamation's description of an arch-gravity dam whose load is carried by both arch action and gravity action. L19-Q25 and L19-Q26 rely on that wording. Worker numbers and dates are not tested.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            248,
+            249
+          ],
+          "pdfPages": [
+            284,
+            285
+          ],
+          "locator": "Section 2, Evaluating the Design Options, Figure 2 and Choosing the Final Design",
+          "supports": "The team compared five dam types and chose a concrete arch-gravity dam because it was the strongest, even though it cost more than earth or rockfill dams."
+        },
+        {
+          "type": "external",
+          "title": "Hoover Dam: Frequently Asked Questions",
+          "publisher": "U.S. Bureau of Reclamation",
+          "url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+          "accessed": "2026-10-14",
+          "supports": "Reclamation describes Hoover Dam as a concrete arch-gravity type in which the water load is carried by both gravity action and horizontal arch action, and reports 21,000 men worked on it in total, with an average of 3,500 a day."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF6",
+      "issue": "Section 2 says water stored behind Hoover Dam is warmer than the river below and that releasing it warms the river. Large Colorado River dams draw water from deep in their reservoirs, which has left parts of the river below too cold for some native fish to spawn. When a reservoir is low, as Lake Powell has been during the recent drought, warmer surface water is drawn through the dam instead. The direction of the change depends on where, and how deep, the water is drawn from.",
+      "pages": {
+        "printed": [
+          249
+        ],
+        "pdf": [
+          285
+        ]
+      },
+      "resolution": "Content says only that dams change the temperature of the river below, which can harm fish and plants adapted to it. The O4 watch-out notes Glen Canyon Dam's cold deep releases and that warmer surface water passes through when the reservoir is low. No question asks whether the water gets warmer or colder.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            249
+          ],
+          "pdfPages": [
+            285
+          ],
+          "locator": "Section 2, Impacts of the Dam",
+          "supports": "Dams block fish movement, change the temperature of the river downstream, and trap sediment that would have enriched soil downstream."
+        },
+        {
+          "type": "external",
+          "title": "Grand Canyon's Native Fish",
+          "publisher": "National Park Service, Grand Canyon National Park",
+          "url": "https://home.nps.gov/grca/learn/nature/fish-native.htm",
+          "accessed": "2026-10-17",
+          "supports": "The National Park Service explains that Glen Canyon Dam draws water from deep beneath the surface of Lake Powell, leaving parts of the Colorado River too cold for native humpback chub to spawn, and that with Lake Powell lowered by drought, warmer surface water is now being drawn through the dam."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF7",
+      "issue": "Section 3 opens by saying most of the energy people use for electricity and transportation comes from oil. Petroleum dominates transportation, but it produces a very small share of electricity (about 0.7 percent of U.S. utility-scale generation in 2025, according to EIA).",
+      "pages": {
+        "printed": [
+          250,
+          251
+        ],
+        "pdf": [
+          286,
+          287
+        ]
+      },
+      "resolution": "Content says petroleum mainly fuels transportation and is used for heating, plastics and some electricity. No question claims that oil supplies most electricity.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            251
+          ],
+          "pdfPages": [
+            287
+          ],
+          "locator": "Section 3, Distribution",
+          "supports": "Petroleum provides energy for transportation, heating and generating electricity, and is used to make products such as gasoline and plastics."
+        },
+        {
+          "type": "external",
+          "title": "Electricity explained: Electricity in the United States",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/electricity/electricity-in-the-us.php",
+          "accessed": "2026-10-14",
+          "supports": "EIA reports that petroleum supplied about 0.7 percent of U.S. utility-scale electricity generation in 2025, far behind natural gas, renewables, nuclear and coal."
+        },
+        {
+          "type": "external",
+          "title": "Oil and petroleum products explained: Use of oil",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/use-of-oil.php",
+          "accessed": "2026-10-14",
+          "supports": "EIA reports that in 2022 transportation used 66.6 percent of U.S. petroleum, while the electric power sector used 0.6 percent."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF8",
+      "issue": "Several figures are dated, unverified or inconsistent snapshots: water to make one phone (910 L); oil's share of world energy in 2017; Ghawar's daily output; The Geysers' share of North Coast electricity (60 percent in the text, 'more than half of the northern part of the state' in the caption); Ethiopia's growth rate; the claim that 90 percent of U.S. original forests were cut between 1600 and 1920; and Canada planting three trees for every one cut, or 218 million a year (British Columbia alone reports up to 250 million seedlings a year).",
+      "pages": {
+        "printed": [
+          245,
+          251,
+          252,
+          254,
+          258,
+          259
+        ],
+        "pdf": [
+          281,
+          287,
+          288,
+          290,
+          294,
+          295
+        ]
+      },
+      "resolution": "None of these numbers is tested, and the hook no longer gives a water figure for making a phone (verifier fix). Content treats them as examples from when the textbook was written (O3 watch-out) and describes Canada's practice only as replanting after harvest.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            252,
+            259
+          ],
+          "pdfPages": [
+            288,
+            295
+          ],
+          "locator": "Section 4 opener and caption; Section 7, Wood",
+          "supports": "The Geysers is described as the largest complex of geothermal plants, and Canada as a leader in replanting harvested forests."
+        },
+        {
+          "type": "external",
+          "title": "Reforestation",
+          "publisher": "Government of British Columbia",
+          "url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/silvicultural-systems/reforestation",
+          "accessed": "2026-10-14",
+          "supports": "The Government of British Columbia states that reforestation is required after harvesting and that B.C. nurseries supply up to 250 million seedlings a year for planting."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF9",
+      "issue": "Section 6 says the copper at Chuquicamata 'had formed more than 300 million years ago' and calls it 'the largest copper mine in the world', while the photo caption says 'one of the largest'. Dating of the Chuquicamata intrusions and copper mineralization gives roughly 35 to 31 million years ago.",
+      "pages": {
+        "printed": [
+          256
+        ],
+        "pdf": [
+          292
+        ]
+      },
+      "resolution": "The age correction is kept in this flag rather than in learner-facing content (it was removed from the O2 watch-out in review round 1): dating gives roughly 31 to 35 million years ago. Content mentions Chuquicamata only as an example in the Andes of western South America (L19-Q28 explanation; the mine lies inland, not on the coast) and never ranks it. No question uses the age or a ranking.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            256
+          ],
+          "pdfPages": [
+            292
+          ],
+          "locator": "Section 6, Copper Ore",
+          "supports": "Most copper ore forms from magma at convergent plate boundaries; hot fluids concentrate copper and deposit ore as they cool, over millions of years."
+        },
+        {
+          "type": "external",
+          "title": "Two ages of porphyry intrusion resolved for the super-giant Chuquicamata copper deposit of northern Chile by ELA-ICP-MS and SHRIMP (Ballard et al., Geology, 2001)",
+          "publisher": "Australian National University Research Portal",
+          "url": "https://researchportalplus.anu.edu.au/en/publications/two-ages-of-porphyry-intrusion-resolved-for-the-super-giant-chuqu/",
+          "accessed": "2026-10-14",
+          "supports": "Uranium-lead dating gives Chuquicamata porphyry intrusions of about 34.6 to 33.3 million years old, copper-bearing alteration at about 33.4 million years, and later alteration at about 31.1 million years."
+        },
+        {
+          "type": "external",
+          "title": "Porphyry Copper Deposit Model",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/publications/porphyry-copper-deposit-model",
+          "accessed": "2026-10-14",
+          "supports": "USGS describes porphyry copper deposits, the type that forms from magmatic fluids in this setting, as the world's largest source of copper (about 60 percent)."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF10",
+      "issue": "Section 7 says 12,000 to 15,000 square kilometers of forest are cut each year and calls that about 48 football fields per minute. Those two numbers disagree by roughly a factor of ten. FAO's 2010 assessment gave about 13 million hectares a year (130,000 square kilometers) for 2000 to 2010, which does match about 48 fields a minute, so the area figure appears to be missing a zero.",
+      "pages": {
+        "printed": [
+          259
+        ],
+        "pdf": [
+          295
+        ]
+      },
+      "resolution": "No question uses the deforestation rate. Content says only that forest land has shrunk as people harvest wood and that replanting and management can keep forests renewable.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            258,
+            259
+          ],
+          "pdfPages": [
+            294,
+            295
+          ],
+          "locator": "Section 7, Wood",
+          "supports": "Forest area has decreased as people harvest wood, and sustainable practices such as replanting can keep forests a renewable resource."
+        },
+        {
+          "type": "external",
+          "title": "World deforestation decreases, but remains alarming in many countries",
+          "publisher": "Food and Agriculture Organization of the United Nations (FAO) Newsroom",
+          "url": "https://www.fao.org/newsroom/detail/World-deforestation-decreases-but-remains-alarming-in-many-countries/en",
+          "accessed": "2026-10-14",
+          "supports": "FAO reported that about 13 million hectares of forest a year were converted to other uses or lost from 2000 to 2010, down from about 16 million hectares a year in the 1990s, with forests covering about 31 percent of land."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF11",
+      "issue": "Section 7 classifies wood by species: pine as renewable, and cedar and redwood as 'slow growing' and nonrenewable, 'some of them living up to 1,000 years'. Coast redwoods resprout from stumps and burls and can live about 2,000 years. What makes a forest nonrenewable on a human timescale is cutting old growth whose trees took centuries to grow; only about 4 percent of original old-growth redwood forest remains.",
+      "pages": {
+        "printed": [
+          259
+        ],
+        "pdf": [
+          295
+        ]
+      },
+      "resolution": "Content and L19-Q03 frame wood's renewability as regrowth time versus harvest rate (a replanted pine plantation versus a forest of centuries-old trees), not as a fixed property of a species. No question says redwood or cedar is nonrenewable.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            259
+          ],
+          "pdfPages": [
+            295
+          ],
+          "locator": "Section 7, Wood",
+          "supports": "Pine can be harvested about 15 years after planting, while some trees take hundreds of years to grow, so whether wood is renewable depends on the forest type and the harvest rate."
+        },
+        {
+          "type": "external",
+          "title": "Coast Redwood",
+          "publisher": "National Park Service",
+          "url": "https://nps.gov/articles/000/coast-redwood.htm",
+          "accessed": "2026-10-14",
+          "supports": "The National Park Service notes that some living coast redwoods were seedlings about 2,000 years ago, that burls and stumps can sprout new trees, and that only about 4 percent of the original old-growth redwood forest remains."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF12",
+      "issue": "OCR is empty or garbled on several pages: p. 244 is a full-page photo collage; the NGSS box on p. 245 is garbled; the map labels and legends on pp. 247, 251, 253, 255, 256 and 258 are fragmentary; the Figure 2 dam labels on p. 248 and the Figure 3A and Figure 5A step captions on pp. 250 and 254 are partly lost; and the Key Science Concept spread on p. 257 loses its renewable or nonrenewable tags and its petroleum and geothermal callouts.",
+      "pages": {
+        "printed": [
+          244,
+          245,
+          247,
+          248,
+          250,
+          251,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ],
+        "pdf": [
+          280,
+          281,
+          283,
+          284,
+          286,
+          287,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294
+        ]
+      },
+      "resolution": "All 16 lesson pages (printed 244 to 259) were rendered and viewed. Map patterns, the dam types, the formation steps and the spread's renewable or nonrenewable tags used in content were all read from the renders.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            257
+          ],
+          "pdfPages": [
+            293
+          ],
+          "locator": "Key Science Concept: The Distribution of Natural Resources",
+          "supports": "The rendered spread tags fresh water as both renewable (lakes and streams) and nonrenewable (most groundwater), petroleum, soil and copper ore as nonrenewable, and geothermal energy as renewable."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF13",
+      "issue": "The Figure 1B caption says the locations of groundwater reservoirs 'depend mainly on the amount of rain or snow' an area receives, and the Lesson Summary says fresh water is unevenly distributed because of differences in rain or snow. The textbook's own map marks major groundwater reservoirs under the Sahara (the North West Sahara and Nubian Sandstone aquifer systems) and arid central Australia (the Great Artesian Basin). Those aquifers hold water that soaked in during wetter climates long ago or that enters far away at the basin edges, and they are refilled very slowly or hardly at all today.",
+      "pages": {
+        "printed": [
+          247,
+          259
+        ],
+        "pdf": [
+          283,
+          295
+        ]
+      },
+      "resolution": "Content says groundwater collects in rock that can store water wherever rain and snow have soaked in, today or during wetter climates long ago, and names the aquifers under parts of the Sahara and dry central Australia (O2 card paragraph 3, its table and alt text; L19-Q07 explanation; key ideas). Rain, snow, rock type and depth still control recharge where it happens today (L19-Q06).",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            247,
+            259
+          ],
+          "pdfPages": [
+            283,
+            295
+          ],
+          "locator": "Section 1, Figure 1B map and caption; Lesson Summary",
+          "supports": "The map marks major groundwater reservoirs including the North West Sahara aquifer system, the Nubian Sandstone aquifer system and the Great Artesian Basin aquifer, while the caption and summary tie groundwater locations mainly to rain and snow."
+        },
+        {
+          "type": "external",
+          "title": "Four African nations agree to improve use of key water resource under UN-backed plan",
+          "publisher": "UN News (United Nations)",
+          "url": "https://news.un.org/en/story/2013/09/449252-four-african-nations-agree-improve-use-key-water-resource-under-un-backed-plan",
+          "accessed": "2026-10-17",
+          "supports": "UN News (September 2013) describes the Nubian Sandstone Aquifer System beneath Chad, Egypt, Libya and Sudan as the world's largest known 'fossil' water aquifer system, meaning its water is ancient and non-renewable."
+        },
+        {
+          "type": "external",
+          "title": "Chlorine 36 Dating of Very Old Groundwater 3. Further Studies in the Great Artesian Basin, Australia (Torgersen et al., abstract)",
+          "publisher": "Purdue University PRIME Lab (research paper abstract page)",
+          "url": "https://www.physics.purdue.edu/primelab/research/papers/to91b.html",
+          "accessed": "2026-10-14",
+          "supports": "Chlorine-36 dating of Great Artesian Basin groundwater indicates water that has been underground for more than one million years, with recharge areas at the basin margins."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF14",
+      "issue": "Section 2 says earth and rockfill dams are 'not as strong' as gravity and arch dams, so they 'cannot store as much water, produce as much electricity, or provide as much flood protection'. As a general rule this overstates: earth-fill dams hold some of the largest reservoirs in the United States. Lake Sakakawea, formed by the earth-fill Garrison Dam, holds up to 24.2 million acre-feet, close to Lake Mead's 28.9 million acre-feet behind Hoover Dam. The comparison was the team's judgment for this canyon site.",
+      "pages": {
+        "printed": [
+          248
+        ],
+        "pdf": [
+          284
+        ]
+      },
+      "resolution": "Content presents the weaker-dam judgment as the team's comparison for this canyon site and notes that very large earth-fill dams hold huge reservoirs elsewhere (O4 card paragraph 2, its table and alt text). L19-Q25's explanation, rationale f and limitations say the same. L19-Q26 asks only about a small reservoir, so its key does not depend on the general claim. L19-Q24 sorts the team's own criteria and constraints and is unaffected.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            248
+          ],
+          "pdfPages": [
+            284
+          ],
+          "locator": "Section 2, Evaluating the Design Options and Figure 2",
+          "supports": "The textbook says rockfill and earth dams are less expensive and easier to build but not as strong as gravity and arch dams, so they cannot store as much water or produce as much electricity."
+        },
+        {
+          "type": "external",
+          "title": "Water Resources Data, North Dakota, Water Year 2004: station 06338000, Lake Sakakawea near Riverdale, ND",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/wdr/2004/wdr-nd-04-1/htdocs/Output/06338000.2004.sw.html",
+          "accessed": "2026-10-17",
+          "supports": "USGS states that Lake Sakakawea is formed by an earth-fill dam (Garrison Dam) and has a maximum capacity of 24,200,000 acre-feet."
+        },
+        {
+          "type": "external",
+          "title": "Hoover Dam: Lake Mead frequently asked questions",
+          "publisher": "U.S. Bureau of Reclamation",
+          "url": "https://www.usbr.gov/lc/hooverdam/faqs/lakefaqs.html",
+          "accessed": "2026-10-17",
+          "supports": "Reclamation states that Lake Mead, behind Hoover Dam, would contain 28,945,000 acre-feet at elevation 1,221.4 feet."
+        }
+      ]
+    },
+    {
+      "id": "L19-RF15",
+      "issue": "Section 3 says 'As the pressure increases, the temperature also increases', which suggests the pressure causes the heating; the temperature rises with burial depth because rock gets hotter deeper inside Earth. The Key Science Concept petroleum callout says deposits occur 'wherever' marine remains piled up in shallow seas, which overstates: oil also needs deep enough burial, enough heat and time, and rock that holds it.",
+      "pages": {
+        "printed": [
+          250,
+          257
+        ],
+        "pdf": [
+          286,
+          293
+        ]
+      },
+      "resolution": "Content says deeper burial raises both the heat and the pressure (L19-Q09 item 'heat'), and it says petroleum 'formed where' warm, shallow seas lay, never 'wherever'. No question tests either textbook wording.",
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            250,
+            257
+          ],
+          "pdfPages": [
+            286,
+            293
+          ],
+          "locator": "Section 3, Formation; Key Science Concept petroleum callout",
+          "supports": "The textbook describes burial under layers of sediment raising pressure and temperature until the remains change into oil, and its petroleum callout says deposits occur wherever marine remains accumulated in shallow seas."
+        },
+        {
+          "type": "external",
+          "title": "Geothermal explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/geothermal/",
+          "accessed": "2026-10-17",
+          "supports": "EIA states that the deeper you go below Earth's surface, the hotter the rocks and water."
+        }
+      ]
+    }
+  ]
+}

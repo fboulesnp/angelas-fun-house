@@ -1,0 +1,4276 @@
+{
+  "lessonId": "L15",
+  "questions": [
+    {
+      "id": "L15-Q01",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O1"
+      ],
+      "conceptTags": [
+        "natural resource",
+        "synthetic material",
+        "classification"
+      ],
+      "familyId": "L15-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each material: is it a natural resource taken from nature, or a synthetic material made by chemical processes?",
+      "accessiblePrompt": "Sort each material into one of two groups: a natural resource taken from nature, or a synthetic material made by chemical processes. The materials are: gold dug from a mine; crude oil pumped from underground; polyester fabric; fish oil; nitrogen gas collected from the air; sucralose sweetener; P L A plastic pellets.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Gold dug from a mine",
+          "rationale": "Mining moves gold out of the ground but does not change it into a new substance, so it is a natural resource."
+        },
+        {
+          "id": "i2",
+          "text": "Fish oil",
+          "rationale": "Fish oil is harvested from living things, and extracting it does not make a new substance, so it is a natural resource."
+        },
+        {
+          "id": "i3",
+          "text": "Crude oil pumped from underground",
+          "rationale": "Petroleum formed naturally. Many synthetic products are made from it, but crude oil itself is a natural resource."
+        },
+        {
+          "id": "i4",
+          "text": "Nitrogen gas collected from the air",
+          "rationale": "Gases taken from the air are natural resources; collecting them does not change what they are."
+        },
+        {
+          "id": "i5",
+          "text": "Polyester fabric",
+          "rationale": "Polyester is made by chemical processes from substances taken out of petroleum, so it is synthetic."
+        },
+        {
+          "id": "i6",
+          "text": "PLA plastic pellets",
+          "rationale": "Corn is the natural resource; a series of chemical reactions turns it into the new substance PLA."
+        },
+        {
+          "id": "i8",
+          "text": "Sucralose sweetener",
+          "rationale": "Sucralose is a new substance made by chemical processes; it even has chlorine atoms that sugar lacks. Nobody harvests it from nature, so it is a synthetic material."
+        }
+      ],
+      "bins": [
+        {
+          "id": "natural",
+          "label": "Natural resource"
+        },
+        {
+          "id": "synthetic",
+          "label": "Synthetic material"
+        }
+      ],
+      "answer": {
+        "i1": "natural",
+        "i2": "natural",
+        "i3": "natural",
+        "i4": "natural",
+        "i5": "synthetic",
+        "i6": "synthetic",
+        "i8": "synthetic"
+      },
+      "explanation": "Natural resources come from nature; digging, pumping or harvesting them does not turn them into new substances. Synthetic materials are new materials made when chemical processes change those resources. Crude oil is natural; the polyester made from it is synthetic.",
+      "misconception": "Crude oil must be synthetic because so many synthetic products are made from it.",
+      "hint": "For each material, ask: did people only collect it, or did a chemical process turn it into a new substance?",
+      "followUpId": "L15-Q03",
+      "scope": {
+        "lessonId": "L15",
+        "section": "1. Synthetic Materials Come from Natural Ones",
+        "pages": {
+          "printed": [
+            183,
+            184,
+            185,
+            188,
+            189
+          ],
+          "pdf": [
+            219,
+            220,
+            221,
+            224,
+            225
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, natural resource and synthetic material paragraphs",
+          "supports": "Mined minerals such as gold, gases such as nitrogen, and materials from living things such as fish oil are natural resources; plastic is a synthetic material produced by chemical processes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Synthetic Materials Made from Petroleum",
+          "supports": "Polyester fabric is a synthetic material made from substances removed from petroleum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "PLA plastic is made from corn through a series of chemical reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188,
+            189
+          ],
+          "pdfPages": [
+            224,
+            225
+          ],
+          "locator": "Section 3, food additive and sucralose paragraphs",
+          "supports": "Sucralose is a synthetic food additive with three chlorine atoms that sucrose does not have; the lesson lists it among the synthetic materials people choose to use."
+        }
+      ],
+      "conditions": "Sort by how the material is obtained: collected from nature, or made by chemical processes.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 183-185. Gasoline deliberately left out of the sort (L15-RF12). Crude oil described as pumped, not mined. Reviser round 1 (2026-10-14): the bronze tool (i7) was replaced by sucralose (new item id i8), so every item has one defensible bin under the hint's 'new substance' test and Q01 no longer repeats Q03's bronze. The pedagogy reviewer proposed saccharin, but Q19's stem calls saccharin 'a synthetic sweetener', which would answer this item; sucralose's synthetic status is not stated in any other stem. The science reviewer's revised bronze rationale is therefore not needed. Explanation and i2 rationale no longer define a natural resource as 'used much as it is found'. Read-aloud list no longer grouped by bin. Reviser round 2 (2026-10-14): explanation no longer says 'even if they are refined later', because refining also cracks crude oil into new substances (L15-RF12); the natural-resource glossary entry was changed to match. Read-aloud order is now natural, natural, synthetic, natural, natural, synthetic, synthetic, so it no longer nearly alternates between bins. Verify-agent (2026-10-14): checked against the rendered pp. 183, 184, 185, 188, 189 and the guide's rules and guardrails; every item has one defensible bin under the stated sorting rule; crude oil and gasoline handling follows RF12. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and fish-oil rationale no longer define natural as unprocessed; synthetic = new materials; bronze item replaced"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bronze replaced by sucralose (not saccharin, which Q19's stem names as synthetic); read-aloud list no longer grouped by bin"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'even if they are refined later' deleted from the explanation (refining cracks molecules, RF12)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list reordered so it no longer nearly alternates between bins"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q02",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O1"
+      ],
+      "conceptTags": [
+        "synthetic material",
+        "definition",
+        "synthetic sapphire"
+      ],
+      "familyId": "L15-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A lab grows sapphire crystals with the same chemical makeup and properties as sapphires mined from the ground. Why is the lab-grown sapphire still called a synthetic material?",
+      "accessiblePrompt": "A laboratory grows sapphire crystals that have the same chemical makeup and properties as sapphires mined from the ground. Why is the lab-grown sapphire still called a synthetic material?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a fake stone that only looks like sapphire.",
+          "rationale": "A look-alike made of a different substance would be an imitation. This crystal really is sapphire, made in a lab."
+        },
+        {
+          "id": "b",
+          "text": "It was made by a lab process, not taken from nature.",
+          "rationale": "Correct: 'synthetic' describes how a material was produced. The lab sapphire matches a mined one, but people made it."
+        },
+        {
+          "id": "e",
+          "text": "It is used to build lasers rather than to make jewelry.",
+          "rationale": "How a material is used does not decide whether it is synthetic; a mined sapphire could go into a laser too. Synthetic is about how it was made."
+        },
+        {
+          "id": "f",
+          "text": "It was made from substances taken out of petroleum.",
+          "rationale": "Synthetic does not mean made from oil. Many synthetic materials, such as PLA from corn, come from other resources; this sapphire is synthetic because people made it."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A material is synthetic because of how it was made: by chemical processes in a lab or factory. Lab-grown sapphire shares essentially all the chemistry and properties of natural sapphire, so it can do the same jobs, such as parts for lasers. So a material can be synthetic even when nature makes the same substance.",
+      "misconception": "A synthetic material is a fake, or anything synthetic must come from petroleum.",
+      "hint": "The two stones match atom for atom. So what could the word synthetic be telling you about?",
+      "followUpId": "L15-Q07",
+      "scope": {
+        "lessonId": "L15",
+        "section": "1. Synthetic Materials Come from Natural Ones",
+        "pages": {
+          "printed": [
+            183,
+            184
+          ],
+          "pdf": [
+            219,
+            220
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, synthetic sapphire paragraph",
+          "supports": "Synthetic sapphires made in laboratories are indistinguishable from mined sapphires and are used in lasers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction, Vocabulary box",
+          "supports": "A synthetic material is defined as one produced by chemical processes."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "PLA plastic is made from corn through a series of chemical reactions, so not every synthetic material comes from petroleum."
+        },
+        {
+          "type": "external",
+          "title": "An Introduction to Synthetic Gem Materials",
+          "publisher": "Gemological Institute of America (GIA)",
+          "url": "https://www.gia.edu/gem-synthetic",
+          "accessed": "2026-10-14",
+          "supports": "A laboratory-made synthetic gem shares virtually all chemical, optical and physical characteristics of its natural counterpart; synthetic corundum includes sapphire."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 183-184. Targets the p. 193 summary definition slip (L15-RF4). Reviser round 1 (2026-10-14): distractor c contradicted the stem and was replaced by a laser-use choice (new id e, from the p. 184 laser detail); hint no longer names the key idea. Reviser round 2 (2026-10-14): distractor d ('Synthetic materials never match anything in nature') was ruled out by the stem's 'same chemical makeup and properties' and was replaced by a petroleum misconception (new id f; d is not reused). The stem and explanation still carry the L15-RF4 repair: a material can be synthetic even when nature makes the same substance. Explanation no longer implies that matching natural sapphire is why it works in lasers. Misconception updated; p. 183 (PLA from corn) added for choice f. Verify-agent (2026-10-14): checked against the rendered pp. 183, 184 and the guide's rules and guardrails; the RF4 repair is intact; the GIA page was re-opened and matches the evidence record. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-contradicting distractor c replaced (new id e, laser use); hint no longer points at the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-ruled-out distractor d replaced by a 'synthetic means from petroleum' choice (new id f); laser sentence reworded"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q03",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O1"
+      ],
+      "conceptTags": [
+        "natural resource",
+        "synthetic material",
+        "raw materials"
+      ],
+      "familyId": "L15-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each product to the natural resource it can be made from.",
+      "accessiblePrompt": "Match each product to the natural resource it can be made from. The products are: a polyester shirt; a P L A plastic cup; the cancer medicine paclitaxel; and a bronze tool. The resources are: copper mined from the earth; corn; crude oil, also called petroleum; and yew trees.",
+      "left": [
+        {
+          "id": "a",
+          "text": "Polyester shirt",
+          "rationale": "Polyester is made by chemical reactions from substances obtained from crude oil."
+        },
+        {
+          "id": "b",
+          "text": "PLA cup",
+          "rationale": "PLA is a plastic made from corn by a series of chemical reactions."
+        },
+        {
+          "id": "c",
+          "text": "Paclitaxel cancer medicine",
+          "rationale": "Paclitaxel was first found in Pacific yew bark; the later needle method starts from a substance in European yew needles that chemists convert into the drug."
+        },
+        {
+          "id": "d",
+          "text": "Bronze tool",
+          "rationale": "Bronze is a copper alloy made by melting copper with a little tin; its main ingredient is copper mined from the earth."
+        }
+      ],
+      "right": [
+        {
+          "id": "r1",
+          "text": "Crude oil (petroleum)"
+        },
+        {
+          "id": "r2",
+          "text": "Corn"
+        },
+        {
+          "id": "r5",
+          "text": "Yew trees"
+        },
+        {
+          "id": "r4",
+          "text": "Copper mined from the earth"
+        }
+      ],
+      "answer": {
+        "a": "r1",
+        "b": "r2",
+        "c": "r5",
+        "d": "r4"
+      },
+      "explanation": "Every synthetic material begins with a natural resource. Petroleum supplies polyester, corn supplies PLA, yew trees supply paclitaxel (first from bark, later from a substance in European yew needles), and mined copper is the base of bronze. Chemical reactions turn the oil, the corn and the yew substance into new materials; bronze is made by melting copper together with another metal, usually tin.",
+      "misconception": "Synthetic materials are made from nothing natural, or every synthetic material comes from petroleum.",
+      "hint": "Decide which product starts as a crop, which as part of a tree, which as an underground liquid, and which as a metal.",
+      "followUpId": "L15-Q01",
+      "scope": {
+        "lessonId": "L15",
+        "section": "1. Synthetic Materials Come from Natural Ones",
+        "pages": {
+          "printed": [
+            183,
+            184,
+            185,
+            190,
+            191
+          ],
+          "pdf": [
+            219,
+            220,
+            221,
+            226,
+            227
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Synthetic Materials Made from Petroleum",
+          "supports": "Polyester contains substances removed from petroleum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "Corn can be turned into PLA plastic through a series of chemical reactions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, copper alloys paragraph",
+          "supports": "Brass and bronze are copper alloys made from copper found in nature."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            190
+          ],
+          "pdfPages": [
+            226
+          ],
+          "locator": "Section 4, Creating Paclitaxel from Pacific Yew Bark",
+          "supports": "Paclitaxel was first discovered in the bark of the Pacific yew."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "Needles of the European yew are a resource for making paclitaxel."
+        },
+        {
+          "type": "external",
+          "title": "Presidential Green Chemistry Challenge: 2004 Greener Synthetic Pathways Award",
+          "publisher": "U.S. Environmental Protection Agency",
+          "url": "https://www.epa.gov/node/18097",
+          "accessed": "2026-10-14",
+          "supports": "Stripping yew bark killed the trees; a starting compound (10-DAB) from the leaves and twigs of the European yew was converted into paclitaxel by chemical steps, and Bristol-Myers Squibb later replaced the leaves and twigs with yew cells grown in plant cell culture."
+        },
+        {
+          "type": "external",
+          "title": "23.6: Alloys (MU: 1330H, Keller)",
+          "publisher": "Chemistry LibreTexts (University of Missouri course)",
+          "url": "https://chem.libretexts.org/Courses/University_of_Missouri/MU%3A__1330H_(Keller)/23%3A_Metals_and_Metallurgy/23.6%3A_Alloys",
+          "accessed": "2026-10-17",
+          "supports": "An alloy is a mixture of metals formed when a molten metal is mixed with another substance; bronze is tin in a metallic solution of copper, with some copper atoms replaced by tin atoms."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 183-185 and 191. Paclitaxel item says 'newer method' because the needle route makes the drug from a starting substance (L15-RF7). Reviser round 1 (2026-10-14): paclitaxel item is now 'needle method', not 'newer method', because yew cell culture later replaced the needles (L15-RF19, EPA). Paclitaxel is the only tree product, so naming the needles gives no extra cue. Read-aloud lists the resources alphabetically instead of in answer order. Difficulty lowered to 1. Reviser round 2 (2026-10-14): left item c is now 'Paclitaxel cancer medicine' and the resource is 'Yew trees' (new right id r5; r3 is not reused), so the pair can no longer be matched by repeating the word 'needle'. The explanation and the bronze rationale now say bronze is made by melting copper with another metal (usually tin), which is mixing, not a chemical change; only the oil, corn and yew routes are chemical (LibreTexts alloys record added). p. 190 added for 'first found in Pacific yew bark'. Verify-agent (2026-10-14): checked against the rendered pp. 183, 184, 185, 190, 191 and the guide's rules and guardrails; the four pairs match one-to-one; the LibreTexts alloy page and the EPA 2004 award page were re-opened and match. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: paclitaxel item now 'needle method' (EPA record added); polyester rationale says it is made by chemical reactions"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud lists resources alphabetically, not in answer order; difficulty set to 1"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: bronze described as copper melted with tin, not as a chemical change; LibreTexts record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: needle-to-needle word cue removed (new right id r5 'Yew trees'); read-aloud updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q04",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O1"
+      ],
+      "conceptTags": [
+        "petroleum",
+        "synthetic material",
+        "Key Science Concept"
+      ],
+      "familyId": "L15-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "According to the lesson, which of these products can be made from substances found in petroleum? Select all that apply.",
+      "accessiblePrompt": "According to the lesson, which of these products can be made from substances found in petroleum? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Synthetic PLA plastic cups",
+          "rationale": "PLA is a synthetic plastic, but it is made from corn, not petroleum. Not every synthetic material comes from oil."
+        },
+        {
+          "id": "b",
+          "text": "Table sugar (sucrose)",
+          "rationale": "Sucrose from sugarcane is a natural substance used as a food additive; it is not made from petroleum."
+        },
+        {
+          "id": "c",
+          "text": "Blue No. 1 food coloring",
+          "rationale": "Correct: the petroleum spread names brilliant blue, Blue No. 1, as made from substances in petroleum."
+        },
+        {
+          "id": "d",
+          "text": "Synthetic rubber medical gloves",
+          "rationale": "Correct: many kinds of rubber, including the rubber in some medical gloves, come from petroleum substances."
+        },
+        {
+          "id": "e",
+          "text": "Synthetic vanillin flavoring",
+          "rationale": "Correct: a synthetic form of vanillin, the main vanilla flavor substance, can be made from petroleum."
+        }
+      ],
+      "answer": [
+        "c",
+        "d",
+        "e"
+      ],
+      "explanation": "Petroleum is a mixture of many carbon-and-hydrogen substances. Separated and processed parts of it become dyes, flavorings, rubber, fabrics, plastics and medicines, not just fuel. But not every plastic comes from petroleum: PLA comes from corn.",
+      "misconception": "All plastics come from petroleum, or petroleum is only useful as fuel.",
+      "hint": "Don't let the word synthetic decide for you. Check each item against where the lesson said it comes from.",
+      "followUpId": "L15-Q01",
+      "scope": {
+        "lessonId": "L15",
+        "section": "1. Synthetic Materials Come from Natural Ones",
+        "pages": {
+          "printed": [
+            183,
+            185,
+            188
+          ],
+          "pdf": [
+            219,
+            221,
+            224
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Synthetic Materials Made from Petroleum",
+          "supports": "Blue No. 1 food coloring, synthetic vanillin and the synthetic rubber in some medical gloves are made from substances found in petroleum."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188
+          ],
+          "pdfPages": [
+            224
+          ],
+          "locator": "Section 3, food additive paragraph",
+          "supports": "Table sugar (sucrose) is a natural substance also used as a food additive."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "PLA plastic is made from corn."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from the rendered Key Science Concept spread p. 185 (image-heavy; OCR incomplete) and p. 188. Three of five correct. Reviser round 1 (2026-10-14): the word 'Synthetic' now appears on a distractor too (a), b no longer names its non-petroleum source, and the read-aloud prompt no longer lists the choices (narration reads the shuffled choices itself). Reviser round 2 (2026-10-14): p. 183 (PLA from corn) added to the scope, since distractor a depends on it. The old hint ('underground oil, or a plant grown in a field?') would have steered learners away from keys d and e, because vanilla and rubber come from plants; it was replaced. Verify-agent (2026-10-14): checked against the rendered pp. 183, 185, 188 and the guide's rules and guardrails; all three keys are named on the rendered p. 185 spread; the PLA and sucrose distractors are cited to pp. 183 and 188; 5 choices, 3 correct. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'Synthetic' cue evened out (a); b no longer self-eliminating; choices removed from the read-aloud prompt"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: p. 183 added to the scope for the PLA distractor"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: misleading oil-or-field hint replaced (vanilla and rubber come from plants)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q05",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O2"
+      ],
+      "conceptTags": [
+        "synthetic material",
+        "properties",
+        "constraints",
+        "brief seed"
+      ],
+      "familyId": "L15-F03",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Why might engineers choose a synthetic material instead of a natural one for a product?",
+      "accessiblePrompt": "Why might engineers choose a synthetic material instead of a natural one for a product?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its properties fit the product's needs, within cost and other limits.",
+          "rationale": "Correct: synthetic materials can be engineered to have the properties a product requires, and the choice must still fit the budget and other constraints."
+        },
+        {
+          "id": "b",
+          "text": "Synthetic materials always cost less to make than the natural ones they replace.",
+          "rationale": "Nothing makes synthetic materials automatically cheaper. Cost depends on the material, the process and the price of the starting resources, so it has to be checked for each design. Cost is a constraint to check, not a guarantee."
+        },
+        {
+          "id": "c",
+          "text": "Being made in a lab proves that a material is safe to use.",
+          "rationale": "Safety depends on each substance and the evidence about it, not on whether it was made in a lab."
+        },
+        {
+          "id": "d",
+          "text": "It can be made without using up Earth's natural resources.",
+          "rationale": "Every synthetic material is made from natural resources such as petroleum, corn or trees."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Engineers start with what a product must do and the limits they must work within. A synthetic material can be designed to have the needed properties, such as strength with flexibility or sweetness without calories. It still has to fit the budget and other constraints, and it still comes from natural resources.",
+      "misconception": "Engineers pick synthetic materials because 'synthetic' is automatically cheaper, safer or free of natural resources.",
+      "hint": "Picture engineers choosing PLA instead of wood for a drinking cup. What would they need to know about each material first?",
+      "followUpId": "L15-Q07",
+      "scope": {
+        "lessonId": "L15",
+        "section": "1. Synthetic Materials Come from Natural Ones",
+        "pages": {
+          "printed": [
+            183,
+            184
+          ],
+          "pdf": [
+            219,
+            220
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, synthetic material paragraph",
+          "supports": "Synthetic materials are engineered to have specific properties that make them useful, and they are made from natural resources."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction; NGSS box (MS-ETS1-1, ETS1.A)",
+          "supports": "The lesson asks why people would choose a man-made material like PLA, and frames design problems in terms of criteria and constraints."
+        },
+        {
+          "type": "external",
+          "title": "3-5-ETS1-1 Engineering Design",
+          "publisher": "NGSS Lead States (nextgenscience.org)",
+          "url": "https://www.nextgenscience.org/pe/3-5-ets1-1-engineering-design",
+          "accessed": "2026-10-14",
+          "supports": "Design problems include specified criteria for success and constraints on materials, time or cost."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L15 (section 7, entry 15), polished. Drafted from rendered pp. 183-184. Reviser round 1 (2026-10-14): absolutes removed from c and d (b keeps 'always' because that is the misconception), key no longer the longest choice, hint no longer echoes the key. Rationale b uses the costly bark-based paclitaxel (NCI) instead of corn-ethanol energy. Reviser round 2 (2026-10-14): rationale b no longer uses costly bark paclitaxel as its counterexample: bark paclitaxel was a natural compound (L15-RF7), so its cost supported rather than refuted 'synthetic is always cheaper'. The NCI record existed only for that example and was removed. Tagged O2 only, so family F03 (now Q05, Q09, Q31) no longer mixes objectives; follow-up changed from Q09 (now same family) to Q07. Hint replaced, because the old one helped rule out only choice d; the new one avoids calling glass a natural material. Verify-agent (2026-10-14): checked against the rendered pp. 183, 184 and the guide's rules and guardrails; the brief's seed question is present and polished; the key matches the seed answer (properties plus cost and other constraints). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional note applied; rationale b now cites costly bark-based paclitaxel (NCI) instead of corn-ethanol energy"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolutes trimmed from c and d; key shortened so it is not the longest; hint no longer echoes the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale b no longer uses natural bark paclitaxel as a counterexample; NCI record removed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: tagged O2 only; follow-up now Q07; hint replaced"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q06",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "properties",
+        "data table"
+      ],
+      "familyId": "L15-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A team needs a lunch-box material that won't shatter when dropped, has a mass under 200 g, and costs no more than 50¢ per box. Using the table, which material should they choose?",
+      "accessiblePrompt": "A team needs a lunch-box material that will not shatter when dropped, has a mass under 200 grams, and costs no more than 50 cents per box. A table gives four materials. Glass: shatters when dropped, 600 grams, 20 cents. Plastic A: does not shatter, 120 grams, 30 cents. Plastic B: does not shatter, 110 grams, 90 cents. Wood: does not shatter, 400 grams, 45 cents. Which material should they choose?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wood",
+          "rationale": "Wood does not shatter and fits the budget, but 400 g is over the 200 g limit."
+        },
+        {
+          "id": "b",
+          "text": "Glass",
+          "rationale": "Glass is the cheapest, but it shatters and weighs 600 g, so it fails two criteria."
+        },
+        {
+          "id": "c",
+          "text": "Plastic A",
+          "rationale": "Correct: Plastic A does not shatter, has a mass of 120 g, and costs 30¢, so it meets every criterion and the cost limit."
+        },
+        {
+          "id": "d",
+          "text": "Plastic B",
+          "rationale": "Plastic B performs well, but 90¢ breaks the 50¢ cost limit, so it cannot be chosen."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A design must meet every criterion and stay within every constraint. Glass is the cheapest and Plastic B is the lightest, but glass fails two criteria, Plastic B breaks the cost limit and wood is too heavy. Only Plastic A satisfies everything, so the choice comes from the data, not from whether a material is natural or synthetic.",
+      "misconception": "The cheapest or the best-performing material is always the right choice, even if it misses a requirement.",
+      "hint": "Check each material against all three requirements, one at a time.",
+      "followUpId": "L15-Q05",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            183,
+            192
+          ],
+          "pdf": [
+            219,
+            228
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, opening paragraphs",
+          "supports": "Plastic containers are lighter and less breakable than metal or glass ones and inexpensive to manufacture."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "NGSS box (MS-ETS1-1, ETS1.A)",
+          "supports": "A design problem is defined by its criteria and constraints, which limit possible solutions."
+        },
+        {
+          "type": "external",
+          "title": "3-5-ETS1-1 Engineering Design",
+          "publisher": "NGSS Lead States (nextgenscience.org)",
+          "url": "https://www.nextgenscience.org/pe/3-5-ets1-1-engineering-design",
+          "accessed": "2026-10-14",
+          "supports": "Design problems include criteria for success and constraints on materials, time or cost."
+        }
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Test results for four lunch-box materials",
+        "alt": "Four materials with three measurements each. Glass: shatters when dropped, mass 600 g, cost 20 cents per box. Plastic A: does not shatter, mass 120 g, cost 30 cents. Plastic B: does not shatter, mass 110 g, cost 90 cents. Wood: does not shatter, mass 400 g, cost 45 cents.",
+        "columns": [
+          "Material",
+          "Shatters when dropped?",
+          "Mass per box (g)",
+          "Cost per box (¢)"
+        ],
+        "rows": [
+          [
+            "Glass",
+            "Yes",
+            600,
+            20
+          ],
+          [
+            "Plastic A",
+            "No",
+            120,
+            30
+          ],
+          [
+            "Plastic B",
+            "No",
+            110,
+            90
+          ],
+          [
+            "Wood",
+            "No",
+            400,
+            45
+          ]
+        ]
+      },
+      "units": "grams (g) and cents (¢)",
+      "limitations": "Made-up test data for one lunch box; real choices would also consider other criteria, such as what happens to the box after use.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Hypothetical data written for practice; the property pattern (plastic lighter and less breakable than glass) follows p. 192. Reviser round 1 (2026-10-14): glass now costs 20¢, so 'pick the cheapest' leads to glass and 'pick the lightest' leads to Plastic B; only checking every requirement leads to Plastic A. Reviser round 2 (2026-10-14): O2 tag dropped: the item tests checking data against criteria and a cost constraint, not molecular structure. Moved from F03 to F11 (with Q23 and Q24) so no family mixes objectives; follow-up changed from Q23 (now same family) to Q05. Verify-agent (2026-10-14): checked against the rendered pp. 183, 192 and the guide's rules and guardrails; the made-up data were re-checked: only Plastic A meets both criteria and the 50-cent limit; the alt text and read-aloud carry the whole table. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: glass cost 40¢ to 20¢ in table, alt and read-aloud, so picking the cheapest no longer earns credit"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: O2 tag dropped (tests criteria and constraints, not structure)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: tagged O4 only and moved to F11; follow-up now Q05"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q07",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "natural vs synthetic",
+        "evidence",
+        "misconception repair"
+      ],
+      "familyId": "L15-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Your friend says, \"Natural things are always safe, and synthetic things are always harmful.\" Which reply is best supported by science?",
+      "accessiblePrompt": "Your friend says that natural things are always safe, and synthetic things are always harmful. Which reply is best supported by science?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You have it backward: synthetic things are always safe because people designed them.",
+          "rationale": "Flipping the rule doesn't fix it. Synthetic substances also have to be tested and judged one at a time."
+        },
+        {
+          "id": "b",
+          "text": "Safety can't be studied scientifically, so it is only a matter of opinion.",
+          "rationale": "Scientists can test substances and gather evidence about their effects; safety is not just opinion."
+        },
+        {
+          "id": "c",
+          "text": "Safety depends on each substance and the evidence about it, not on its source.",
+          "rationale": "Correct: each substance has to be judged by its own properties and test results, whatever its source."
+        },
+        {
+          "id": "d",
+          "text": "You're right, because synthetic materials are made of chemicals and natural ones aren't.",
+          "rationale": "Everything, natural or synthetic, is made of chemical substances, so 'made of chemicals' is not a warning sign by itself."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Whether a substance helps or harms depends on its own structure, how much is used and how it is used. Some natural plant substances can harm the liver, while a lab-grown sapphire is identical to a mined one. Labels like 'natural' and 'synthetic' don't settle the question; evidence does.",
+      "misconception": "Natural means safe and synthetic means harmful.",
+      "hint": "Think of a lab-made material that is identical to a natural one.",
+      "followUpId": "L15-Q02",
+      "scope": {
+        "lessonId": "L15",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            183,
+            184
+          ],
+          "pdf": [
+            219,
+            220
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "People debate natural versus man-made materials and need to research the issues before forming opinions."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, synthetic sapphire paragraph",
+          "supports": "A synthetic sapphire can be identical to one found in nature."
+        },
+        {
+          "type": "external",
+          "title": "6 Commonly Misunderstood Words About Complementary Health Approaches",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "url": "https://www.nccih.nih.gov/health/know-science/quiz/quiz-results",
+          "accessed": "2026-10-14",
+          "supports": "'Natural' does not always mean safe; herbs such as comfrey and kava may be considered natural but can seriously harm the liver."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Guardrail item from the brief (synthetic is not automatically harmful; natural is not automatically safe). See L15-RF11. Verify-agent (2026-10-14): checked against the rendered pp. 183, 184 and the guide's rules and guardrails; the NCCIH page was re-opened (comfrey and kava can harm the liver) and matches; the guardrail is stated correctly. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q08",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "evidence",
+        "assumption",
+        "evaluating information"
+      ],
+      "familyId": "L15-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "People argue online about natural and synthetic materials. Sort each statement: is it based on evidence, or is it an assumption?",
+      "accessiblePrompt": "People argue online about natural and synthetic materials. Sort each statement into one of two groups: based on evidence, or an assumption. Statement 1: Measurements show lab-grown sapphires have the same makeup as mined sapphires. Statement 2: Pacific yew trees died after their bark was stripped off. Statement 3: It's artificial, so it must be bad for you. Statement 4: Tests found that P L A broke down quickly only when it was kept hot for weeks at an industrial composting facility. Statement 5: Experts would surely agree that anything made from plants is good for the planet.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Tests found that PLA broke down quickly only when it was kept hot for weeks at an industrial composting facility.",
+          "rationale": "It reports what tests under stated conditions showed, so it is based on evidence."
+        },
+        {
+          "id": "i2",
+          "text": "It's artificial, so it must be bad for you.",
+          "rationale": "It judges a substance by a label instead of by tests of that substance, so it is an assumption."
+        },
+        {
+          "id": "i3",
+          "text": "Measurements show lab-grown sapphires have the same makeup as mined sapphires.",
+          "rationale": "It reports the results of measurements, so it is based on evidence."
+        },
+        {
+          "id": "i6",
+          "text": "Pacific yew trees died after their bark was stripped off.",
+          "rationale": "It reports an observed result, so it is based on evidence."
+        },
+        {
+          "id": "i7",
+          "text": "Experts would surely agree that anything made from plants is good for the planet.",
+          "rationale": "It assumes what experts think and cites no observation; plant-based products can still have drawbacks, such as using farmland."
+        }
+      ],
+      "bins": [
+        {
+          "id": "evidence",
+          "label": "Based on evidence"
+        },
+        {
+          "id": "assumption",
+          "label": "An assumption"
+        }
+      ],
+      "answer": {
+        "i1": "evidence",
+        "i2": "assumption",
+        "i3": "evidence",
+        "i6": "evidence",
+        "i7": "assumption"
+      },
+      "explanation": "Evidence comes from observations and measurements, such as tests and studies. An assumption is a belief accepted without checking, often based on a label like 'natural' or 'artificial'. Good decisions about materials start by asking which claims have evidence behind them.",
+      "misconception": "A confident claim that uses words like 'natural' or 'artificial' counts as evidence.",
+      "hint": "Ask whether each statement reports something someone actually observed or measured.",
+      "followUpId": "L15-Q28",
+      "scope": {
+        "lessonId": "L15",
+        "section": "Introduction",
+        "pages": {
+          "printed": [
+            183,
+            184,
+            191,
+            193
+          ],
+          "pdf": [
+            219,
+            220,
+            227,
+            229
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction; NGSS box (Obtaining, Evaluating, and Communicating Information)",
+          "supports": "Information about natural and man-made materials appears in the media and in debates; students evaluate sources and whether claims are supported by evidence."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "Scientific investigations found PLA needs a heated facility to break down in a timely way (the textbook says several days; see L15-RF17)."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "Stripping Pacific yew bark kills the trees faster than they can be replaced."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, synthetic sapphire paragraph",
+          "supports": "Synthetic sapphires are indistinguishable from mined sapphires."
+        },
+        {
+          "type": "external",
+          "title": "Bioplastics: a better option for the environment? (FOR349)",
+          "publisher": "UF/IFAS Extension, University of Florida",
+          "url": "https://ask.ifas.ufl.edu/publication/FR418",
+          "accessed": "2026-10-14",
+          "supports": "PLA only readily breaks down in a commercial composting facility with high heat, water and air; the industrial standard is 90% of the product's carbon converted to carbon dioxide within 180 days."
+        },
+        {
+          "type": "external",
+          "title": "A Story of Discovery: Natural Compound Helps Treat Breast and Ovarian Cancers",
+          "publisher": "National Cancer Institute (NIH)",
+          "url": "https://www.cancer.gov/research/progress/discovery/taxol",
+          "accessed": "2026-10-14",
+          "supports": "Harvesting Pacific yew bark kills the tree."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 183-184 and 192-193. Targets the guide's guardrail on telling evidence from assumption. Reviser round 1 (2026-10-14): statement 1 now says PLA needed weeks at an industrial composting facility (L15-RF17, UF/IFAS). Quotation marks removed from the assumptions. i4 and i5 replaced (new ids i7 and i6) so the evidence items no longer all open with 'tests/measurements/studies found' and no statement restates Q25's key. Hint rewritten. Reviser round 2 (2026-10-14): read-aloud statements reordered to evidence, evidence, assumption, evidence, assumption, so they no longer alternate between bins. Verify-agent (2026-10-14): checked against the rendered pp. 183, 184, 191, 193 and the guide's rules and guardrails; each statement has exactly one defensible bin; the read-aloud order gives nothing away. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: statement 1 composting time now 'weeks at an industrial composting facility'; UF/IFAS record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: quotation-mark and keyword cues removed; i4/i5 replaced (new ids i7, i6) so Q25's key is not restated; hint rewritten"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud statements reordered so they no longer alternate between bins"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q09",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O2"
+      ],
+      "conceptTags": [
+        "polymer",
+        "structure and function",
+        "plastics"
+      ],
+      "familyId": "L15-F03",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Plastics are polymers: each molecule is a very long chain, and the chains tangle together. How does this structure help a thin plastic water bottle?",
+      "accessiblePrompt": "Plastics are polymers: each molecule is a very long chain, and the chains tangle together. How does this structure help a thin plastic water bottle?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chains hold on to each other, so it can bend a little without breaking.",
+          "rationale": "Correct: long chains that hold on to one another give plastic strength, so a thin piece can bend a little and still hold together."
+        },
+        {
+          "id": "e",
+          "text": "The chains make the bottle break down within days after it is thrown away.",
+          "rationale": "Ordinary plastic bottles last for years after they are thrown away; that durability is why plastic waste became a problem."
+        },
+        {
+          "id": "c",
+          "text": "The chains don't matter; the bottle's starting resource decides its properties.",
+          "rationale": "The starting resource matters less than the structure of the molecules made from it."
+        },
+        {
+          "id": "g",
+          "text": "Each atom in the chains is soft and bendy, so the bottle is too.",
+          "rationale": "Bending is something a whole material does; single atoms aren't soft or bendy. Flexibility comes from how the long chains are arranged and hold on to each other."
+        }
+      ],
+      "answer": "a",
+      "explanation": "In a polymer, each molecule is a long chain of repeating units. In many plastics, long tangled chains give strength, and thin pieces can flex. Engineers choose structures that give the properties a product needs.",
+      "misconception": "A material's properties come from where it came from rather than from the structure of its particles, or a material's properties are copies of its atoms' properties.",
+      "hint": "Think about a bowl of cooked spaghetti. What do long, tangled strands do when you lift them?",
+      "followUpId": "L15-Q11",
+      "scope": {
+        "lessonId": "L15",
+        "section": "1. Synthetic Materials Come from Natural Ones",
+        "pages": {
+          "printed": [
+            184,
+            185
+          ],
+          "pdf": [
+            220,
+            221
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Plastic panel",
+          "supports": "Many plastics are polymers made of long chains, which makes them strong but flexible."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, PLA paragraph",
+          "supports": "The textbook says PLA's long flexible chains give it strength and flexibility, so PLA objects can be bent or squeezed without breaking; this overstates the flexibility of PLA itself (L15-RF15)."
+        },
+        {
+          "type": "external",
+          "title": "Recent advances in high performance poly(lactide): from \"green\" plasticization to super-tough materials via (reactive) compounding (Kfoury et al., 2013)",
+          "publisher": "Frontiers in Chemistry (Frontiers Media)",
+          "url": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2013.00032/full",
+          "accessed": "2026-10-14",
+          "supports": "PLA has an inherent brittleness: elongation at break is about 6% for PLA versus about 130% for PET, and its glass transition temperature is about 55-65 °C."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 184-185. Reviser round 1 (2026-10-14): recast from PLA to plastics in general, because neat PLA is stiff and fairly brittle (L15-RF15, Kfoury et al. 2013) and 'hard and brittle' was arguably correct for PLA. Prompt no longer says 'bendable', so the key does not echo it. Distractors b and d replaced with new ids e and f (break down within days; fall apart into grains). Key is not the longest choice. Hint changed because the old one described distractor f's 'separate grains'. Reviser round 2 (2026-10-14): distractor f (chains fall apart into grains) matched no real misconception and the stem ruled it out; it was replaced by the documented error of giving atoms the properties of the whole material (new id g; f is not reused). Key no longer repeats 'thin bottle' from the stem. Moved from F05 to F03 (with Q05 and Q31), so F05 is retired and no family mixes objectives. Follow-up stays Q11. Verify-agent (2026-10-14): checked against the rendered pp. 184, 185 and the guide's rules and guardrails; the PLA stiffness caveat (RF15) was confirmed in Kfoury et al. 2013, Table 1 (about 6% versus about 130% for PET). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: recast to plastics in general; PLA stiffness stated in limitations with the Kfoury record; brittle distractor removed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'bendable' stem cue removed; implausible dissolve distractor replaced (new ids e, f)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible distractor f replaced by an 'atoms carry the material's properties' choice (new id g); moved to F03; key no longer echoes the stem"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Not every polymer is flexible; stiffness also depends on how the chains are arranged and on temperature. PLA, for example, is fairly stiff and can crack."
+    },
+    {
+      "id": "L15-Q10",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "properties",
+        "plastics",
+        "engineering solution"
+      ],
+      "familyId": "L15-F12",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Compared with glass containers, which properties made plastic containers a good solution? Select all that apply.",
+      "accessiblePrompt": "Compared with glass containers, which properties made plastic containers a good solution? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less likely to break",
+          "rationale": "Correct: plastic containers are much less likely than glass to shatter when dropped."
+        },
+        {
+          "id": "b",
+          "text": "Cheap to manufacture",
+          "rationale": "Correct: plastic containers are generally cheaper to make than glass ones."
+        },
+        {
+          "id": "f",
+          "text": "Breaks down fast in soil",
+          "rationale": "The opposite is true: traditional plastics last for years in soil and landfills, which later became a problem."
+        },
+        {
+          "id": "g",
+          "text": "Made from crops",
+          "rationale": "Traditional plastics come from petroleum; plant-based plastics like PLA came later."
+        },
+        {
+          "id": "e",
+          "text": "Lighter in weight",
+          "rationale": "Correct: plastic containers weigh less than glass ones that hold the same amount."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "e"
+      ],
+      "explanation": "Plastics met the needs of their time: sturdy, light, hard to break and inexpensive. The same long-lasting structure that made them durable later caused a new problem, because buried plastic stays in landfills for many years.",
+      "misconception": "Plastics were chosen because they break down easily or come from crops.",
+      "hint": "Think about why stores first switched from glass to plastic, long before anyone worried about plastic waste.",
+      "followUpId": "L15-Q24",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            192
+          ],
+          "pdf": [
+            228
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, opening paragraphs and photo caption",
+          "supports": "Plastic containers are lighter and less breakable than metal or glass, sturdy, and inexpensive to manufacture; they last a long time in landfills."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 192. Three of five correct. Reviser round 1 (2026-10-14): comparison limited to glass, so 'less breakable' and 'lighter' are clearly true (metal cans dent rather than break). Retagged from O2 to O4 (the original criteria in the plastics story). 'Always' removed from d. Choices no longer listed in the read-aloud prompt. Reviser round 2 (2026-10-14): hint no longer lines up one-for-one with the three keys. Distractors c and d (both longer than every key) were replaced by shorter parallel choices with the same rationales (new ids f and g; c and d are not reused), so length no longer marks the keys. Moved from F05 to F12 (with Q25 and Q26, all O4); follow-up changed from Q25 (now same family) to Q24. Verify-agent (2026-10-14): checked against the rendered pp. 192 and the guide's rules and guardrails; the three keys are supported by p. 192 and its caption; the distractors target real mix-ups; 5 choices, 3 correct. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: comparison limited to glass; rationales a, b and e reworded"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: retagged to O4; 'Always' removed from d; choices no longer listed in the read-aloud prompt"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer maps to the keys; reverse length cue removed (new ids f, g); moved to F12; follow-up now Q24"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q11",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O2"
+      ],
+      "conceptTags": [
+        "sucralose",
+        "structure and function",
+        "taste"
+      ],
+      "familyId": "L15-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sucralose is a zero-calorie sweetener. Its molecule is built much like sucrose (table sugar), but three chlorine atoms replace parts of the sugar molecule. Why does sucralose still taste sweet?",
+      "accessiblePrompt": "Sucralose is a zero-calorie sweetener. Its molecule is built much like sucrose, table sugar, but three chlorine atoms replace parts of the sugar molecule. Why does sucralose still taste sweet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its chlorine atoms have a sweet taste of their own.",
+          "rationale": "The chlorine atoms bonded inside sucralose are not tasted one by one; sweetness comes from how the whole molecule fits the sweet-taste sensors. The chlorines change that fit (sucralose is about 600 times sweeter than sugar), but only as part of the sugar-like molecule."
+        },
+        {
+          "id": "b",
+          "text": "The body turns it back into sucrose inside the mouth.",
+          "rationale": "The body cannot break sucralose down, so it never turns into sugar."
+        },
+        {
+          "id": "c",
+          "text": "Its shape is close enough to sugar's to fit sweet sensors.",
+          "rationale": "Correct: the shared two-ring shape lets sucralose bind where sugar would, so it tastes sweet."
+        },
+        {
+          "id": "d",
+          "text": "Some real sucrose is mixed into it when the sweetener is made.",
+          "rationale": "Sucralose is a single substance with its own formula; its sweetness comes from its own shape."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A molecule tastes sweet when it can fit and bind to the sweet-taste sensors on the tongue. Sucralose keeps sucrose's overall two-ring shape, so it binds and tastes sweet even though it is not sugar. Shape, not source, explains the taste.",
+      "misconception": "Only real sugar can taste sweet, so a sweetener must contain hidden sugar.",
+      "hint": "Think about which parts of the molecule changed and which stayed the same.",
+      "followUpId": "L15-Q09",
+      "scope": {
+        "lessonId": "L15",
+        "section": "3. Food and Society: Sucralose",
+        "pages": {
+          "printed": [
+            188
+          ],
+          "pdf": [
+            224
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188
+          ],
+          "pdfPages": [
+            224
+          ],
+          "locator": "Section 3 and Figure 3, The Structures of Sucrose and Sucralose",
+          "supports": "Sucralose's structure is very similar to sucrose's (two rings linked by an oxygen atom), so it can bind to taste buds and taste sweet; it has three chlorine atoms that sucrose lacks."
+        },
+        {
+          "type": "external",
+          "title": "Aspartame and Other Sweeteners in Food",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+          "accessed": "2026-10-14",
+          "supports": "Sucralose is about 600 times sweeter than table sugar."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 188 (Figure 3 ball-and-stick models; OCR garbled the formulas, see L15-RF13). Reviser round 1 (2026-10-14): rationale a no longer implies the chlorines add nothing (FDA: about 600 times sweeter). Hint no longer names shape; key shortened so it is not the longest choice. Reviser round 2 (2026-10-14): rationale a no longer says single atoms have no taste of their own, which is false as stated (salty and sour tastes are detected from ions such as Na⁺ and H⁺). Verify-agent (2026-10-14): checked against the rendered pp. 188 and the guide's rules and guardrails; the shape-fits-sensor key matches p. 188; the FDA page was re-opened (about 600 times sweeter). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale a credits the chlorines' effect on sweetness (FDA 600x record added)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the key's idea; key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale a no longer claims single atoms cannot be tasted"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q12",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O2"
+      ],
+      "conceptTags": [
+        "sucralose",
+        "digestion",
+        "structure and function"
+      ],
+      "familyId": "L15-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sucrose gives the body energy, but sucralose gives almost none. Which difference explains this?",
+      "accessiblePrompt": "Sucrose, table sugar, gives the body energy, but sucralose gives almost none. Which difference explains this?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "It has fewer atoms than sucrose, so it stores less energy.",
+          "rationale": "Sucralose has 42 atoms and sucrose has 45, almost the same. The body gets essentially no energy because it cannot digest sucralose, not because the molecule is smaller."
+        },
+        {
+          "id": "b",
+          "text": "Its molecule has a completely different shape from sucrose's.",
+          "rationale": "Its shape is very similar, which is why it tastes sweet. A small change in atoms, not a whole new shape, blocks digestion."
+        },
+        {
+          "id": "c",
+          "text": "The body cannot digest any substance that was made in a lab.",
+          "rationale": "Being made in a lab is not the reason; what matters is each molecule's structure."
+        },
+        {
+          "id": "d",
+          "text": "Its chlorine atoms keep the body from digesting it.",
+          "rationale": "Correct: the small chlorine change leaves the sweet shape but stops digestion, so no energy is released."
+        }
+      ],
+      "answer": "d",
+      "explanation": "The body gets energy from sucrose by breaking it apart during digestion. In sucralose, three chlorine atoms take the place of three oxygen-hydrogen groups. That small change keeps the sweet-tasting shape but stops digestion, so the body gets essentially no energy from it.",
+      "misconception": "If something tastes sweet, the body must get energy from it.",
+      "hint": "Before the body can use a food molecule for energy, what does it have to do to it?",
+      "followUpId": "L15-Q20",
+      "scope": {
+        "lessonId": "L15",
+        "section": "3. Food and Society: Sucralose",
+        "pages": {
+          "printed": [
+            188
+          ],
+          "pdf": [
+            224
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188
+          ],
+          "pdfPages": [
+            224
+          ],
+          "locator": "Section 3 and Figure 3 caption",
+          "supports": "The slight difference in sucralose's composition and structure means the body cannot digest it and gets no energy from it, making it a zero-calorie sweetener."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: sucralose (CID 71485)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucralose/property/MolecularFormula,MolecularWeight,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucralose's formula is C12H19Cl3O8 (12 carbon, 19 hydrogen, 3 chlorine, 8 oxygen atoms)."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: sucrose",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucrose's formula is C12H22O11; three fewer H and three fewer O plus three Cl gives sucralose's formula."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 188. The 'three O-H groups' wording follows from the formula difference checked on PubChem. Reviser round 1 (2026-10-14): implausible 'no carbon, hydrogen or oxygen' distractor replaced (new id e); atom counts checked: C₁₂H₂₂O₁₁ = 45 atoms, C₁₂H₁₉Cl₃O₈ = 42 atoms. Hint no longer points at chlorine; key shortened. Verify-agent (2026-10-14): checked against the rendered pp. 188 and the guide's rules and guardrails; the atom counts were re-checked (45 and 42); the key matches the p. 188 text and the Figure 3 Cl-for-OH swaps on the render. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible distractor replaced (new id e, fewer atoms); hint no longer gives the answer; key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q13",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O2"
+      ],
+      "conceptTags": [
+        "sucralose",
+        "sucrose",
+        "chemical formula",
+        "comparing molecules"
+      ],
+      "familyId": "L15-F06",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Compare sucrose (C₁₂H₂₂O₁₁) and sucralose (C₁₂H₁₉Cl₃O₈). Sort each feature: true of both, of sucrose only, or of sucralose only.",
+      "accessiblePrompt": "Compare two molecules. Sucrose, table sugar, has the formula C 12 H 22 O 11: 12 carbon atoms, 22 hydrogen atoms and 11 oxygen atoms. Sucralose has the formula C 12 H 19 C l 3 O 8: 12 carbon atoms, 19 hydrogen atoms, 3 chlorine atoms and 8 oxygen atoms. Sort each feature into one of three groups: true of both, true of sucrose only, or true of sucralose only. The features are: has 12 carbon atoms; has 3 chlorine atoms; has 22 hydrogen atoms; contains oxygen atoms; has 8 oxygen atoms; has 11 oxygen atoms; has 19 hydrogen atoms.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Has 12 carbon atoms",
+          "rationale": "Both formulas begin with C₁₂."
+        },
+        {
+          "id": "i8",
+          "text": "Contains oxygen atoms",
+          "rationale": "Both formulas contain O: 11 oxygen atoms in sucrose and 8 in sucralose."
+        },
+        {
+          "id": "i3",
+          "text": "Has 3 chlorine atoms",
+          "rationale": "Only sucralose's formula contains Cl₃."
+        },
+        {
+          "id": "i4",
+          "text": "Has 22 hydrogen atoms",
+          "rationale": "Sucrose has H₂₂; sucralose has only 19 hydrogen atoms."
+        },
+        {
+          "id": "i5",
+          "text": "Has 8 oxygen atoms",
+          "rationale": "Sucralose has O₈; sucrose has 11 oxygen atoms."
+        },
+        {
+          "id": "i9",
+          "text": "Has 19 hydrogen atoms",
+          "rationale": "Sucralose has H₁₉; sucrose has 22 hydrogen atoms."
+        },
+        {
+          "id": "i10",
+          "text": "Has 11 oxygen atoms",
+          "rationale": "Sucrose has O₁₁; sucralose has only 8 oxygen atoms."
+        }
+      ],
+      "bins": [
+        {
+          "id": "both",
+          "label": "Both"
+        },
+        {
+          "id": "sucrose",
+          "label": "Sucrose only"
+        },
+        {
+          "id": "sucralose",
+          "label": "Sucralose only"
+        }
+      ],
+      "answer": {
+        "i1": "both",
+        "i8": "both",
+        "i3": "sucralose",
+        "i4": "sucrose",
+        "i5": "sucralose",
+        "i9": "sucralose",
+        "i10": "sucrose"
+      },
+      "explanation": "The two molecules share their carbon skeleton and two-ring shape, which is why both taste sweet. Sucralose has three chlorine atoms in place of three hydrogen-and-oxygen groups, so it has 3 fewer hydrogen and 3 fewer oxygen atoms. That small swap is enough to stop the body from digesting it.",
+      "misconception": "Two molecules that look alike and taste alike must have the same formula.",
+      "hint": "Read the subscripts in each formula, then compare them element by element.",
+      "followUpId": "L15-Q18",
+      "scope": {
+        "lessonId": "L15",
+        "section": "3. Food and Society: Sucralose",
+        "pages": {
+          "printed": [
+            188
+          ],
+          "pdf": [
+            224
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188
+          ],
+          "pdfPages": [
+            224
+          ],
+          "locator": "Section 3 and Figure 3, The Structures of Sucrose and Sucralose",
+          "supports": "Sucrose is C₁₂H₂₂O₁₁ and sucralose is C₁₂H₁₉Cl₃O₈; both have two rings linked by an oxygen atom and taste sweet, but only sucrose is digested for energy."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: sucralose (CID 71485)",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucralose/property/MolecularFormula,MolecularWeight,IUPACName/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucralose's molecular formula is C12H19Cl3O8."
+        },
+        {
+          "type": "external",
+          "title": "PubChem compound properties: sucrose",
+          "publisher": "National Center for Biotechnology Information, U.S. National Library of Medicine",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight/JSON",
+          "accessed": "2026-10-14",
+          "supports": "Sucrose's molecular formula is C12H22O11."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Formulas read from the rendered p. 188 (OCR garbled them, L15-RF13) and confirmed on PubChem. Reviser round 1 (2026-10-14): now a clean formula comparison: the ring-shape, sweet-taste and energy items (which retested Q11/Q12, and one of which Q12's stem answered) were replaced by three formula features (new ids i8, i9, i10). Bins: 2 both, 2 sucrose only, 3 sucralose only. Read-aloud list is not grouped by bin. Difficulty lowered to 1. Verify-agent (2026-10-14): checked against the rendered pp. 188 and the guide's rules and guardrails; the formulas were re-read from the p. 188 render (C₁₂H₂₂O₁₁ and C₁₂H₁₉Cl₃O₈); all seven bins are correct. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: items that retested Q11/Q12 replaced by formula features (new ids i8-i10); difficulty 1"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q14",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "biofuel",
+        "ethanol",
+        "tradeoffs"
+      ],
+      "familyId": "L15-F07",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "A town is deciding whether its buses should run on corn ethanol instead of gasoline. Sort each point as an advantage or a drawback of corn ethanol.",
+      "accessiblePrompt": "A town is deciding whether its buses should run on corn ethanol instead of gasoline. Sort each point as an advantage or a drawback of corn ethanol. Point 1: corn can be grown again every year. Point 2: growing the corn takes up a lot of farmland. Point 3: corn grown for fuel competes with corn grown for food and animal feed. Point 4: its raw material doesn't come from Earth's limited petroleum supply. Point 5: farming the corn and running the factory use a lot of energy.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Corn can be grown again every year.",
+          "rationale": "A new corn crop can be planted and harvested every year, so the raw material is renewable, which is an advantage over petroleum."
+        },
+        {
+          "id": "i2",
+          "text": "Growing the corn takes up a lot of farmland.",
+          "rationale": "Land used for fuel crops is land not used for other needs, so this is a drawback."
+        },
+        {
+          "id": "i3",
+          "text": "Corn grown for fuel competes with corn grown for food and animal feed.",
+          "rationale": "Harvests and land used for fuel are not available to feed people and animals, so this is a drawback, even though ethanol plants send some leftover grain (distillers grains) to livestock."
+        },
+        {
+          "id": "i4",
+          "text": "Its raw material doesn't come from Earth's limited petroleum supply.",
+          "rationale": "Gasoline depends on a limited resource; corn ethanol does not, which is an advantage."
+        },
+        {
+          "id": "i5",
+          "text": "Farming the corn and running the factory use a lot of energy.",
+          "rationale": "Energy spent making a fuel reduces its overall benefit, so this is a drawback."
+        }
+      ],
+      "bins": [
+        {
+          "id": "advantage",
+          "label": "Advantage"
+        },
+        {
+          "id": "drawback",
+          "label": "Drawback"
+        }
+      ],
+      "answer": {
+        "i1": "advantage",
+        "i2": "drawback",
+        "i3": "drawback",
+        "i4": "advantage",
+        "i5": "drawback"
+      },
+      "explanation": "Corn ethanol's main advantage is that a new crop of its raw material can be grown every season, while petroleum is limited. Its drawbacks include using farmland, competing with food and feed, and the energy needed to grow and process the corn. Real decisions weigh tradeoffs like these rather than looking at one side.",
+      "misconception": "A renewable fuel has no downsides.",
+      "hint": "Ask whether each point would make the town more or less eager to switch.",
+      "followUpId": "L15-Q21",
+      "scope": {
+        "lessonId": "L15",
+        "section": "2. Fuels and Society: Biofuels",
+        "pages": {
+          "printed": [
+            186,
+            187
+          ],
+          "pdf": [
+            222,
+            223
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            186
+          ],
+          "pdfPages": [
+            222
+          ],
+          "locator": "Section 2, gasoline and biofuel paragraphs",
+          "supports": "Petroleum supply is limited; the resources used to make ethanol can be replaced by growing more corn or algae."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, ethanol paragraphs",
+          "supports": "Corn can be grown every year, but ethanol production uses a lot of energy and farmland, and the textbook says corn made into ethanol is not available as food or feed (overstated; see L15-RF16)."
+        },
+        {
+          "type": "external",
+          "title": "ABC's of Biofuels (archived Bioenergy Technologies page)",
+          "publisher": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+          "url": "https://www1.eere.energy.gov/bioenergy/pdfs/Archive/abcs_biofuels.html",
+          "accessed": "2026-10-14",
+          "supports": "Modern high-yield corn production is relatively energy intensive, and the fossil energy used to grow and process biomass must be counted."
+        },
+        {
+          "type": "external",
+          "title": "Dried Distillers Grains (DDGs) Have Emerged as a Key Ethanol Coproduct (Amber Waves, October 2019)",
+          "publisher": "USDA Economic Research Service",
+          "url": "https://www.ers.usda.gov/amber-waves/2019/october/dried-distillers-grains-ddgs-have-emerged-as-a-key-ethanol-coproduct",
+          "accessed": "2026-10-14",
+          "supports": "DDGs are fed to cattle, dairy cows, swine and some poultry, and substitute roughly 1-to-1 for corn grain in feed rations."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 186-187. Item i5 avoids the textbook's disputed net-energy claim (L15-RF2). Reviser round 1 (2026-10-14): i3 no longer says fuel corn can't be fed to animals; it now says fuel corn competes with food and feed (L15-RF16, USDA ERS on distillers grains). Reviser round 2 (2026-10-14): i1 rationale and the explanation say a new corn crop is planted each year rather than that corn 'regrows', keeping the lesson's contrast between a replanted crop and needles that regrow on living trees (Q21). Verify-agent (2026-10-14): checked against the rendered pp. 186, 187 and the guide's rules and guardrails; every point has one defensible bin; the USDA ERS distillers-grains page was re-opened and supports the wording of i3. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: i3 reworded to 'competes with food and feed'; p. 187 evidence attributed to the textbook; USDA ERS record"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: corn described as replanted each year, not regrown"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q15",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "renewable resource",
+        "petroleum",
+        "fossil fuel"
+      ],
+      "familyId": "L15-F07",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Why is corn called a renewable resource while petroleum is not?",
+      "accessiblePrompt": "Why is corn called a renewable resource while petroleum is not?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Corn is a natural resource, but petroleum is a synthetic material.",
+          "rationale": "Both are natural resources. Petroleum is the starting point for many synthetic products, but it formed naturally."
+        },
+        {
+          "id": "b",
+          "text": "Corn can never run out, no matter how much people use.",
+          "rationale": "Renewable does not mean unlimited; corn supply depends on farmland, water and how much is used."
+        },
+        {
+          "id": "c",
+          "text": "Corn can be replanted yearly; petroleum takes millions of years.",
+          "rationale": "Correct: a new corn crop can be grown every year, while petroleum forms far too slowly to replace what people use."
+        },
+        {
+          "id": "e",
+          "text": "Corn comes from living things, but petroleum does not.",
+          "rationale": "Petroleum also formed from living things, long ago. What differs is how fast each can be replaced."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A resource is renewable when nature replaces it within a fairly short time, such as one growing season. A new corn crop can be planted and harvested every year. Petroleum formed from the buried remains of ancient, mostly marine, living things over millions of years, so what we burn now will not be replaced on any human timescale. Renewable still does not mean unlimited.",
+      "misconception": "Renewable means unlimited, or a resource is renewable simply because it is natural or comes from living things.",
+      "hint": "Imagine this year's corn harvest and a large oil field were both used up. What could people do about each one next year?",
+      "followUpId": "L15-Q21",
+      "scope": {
+        "lessonId": "L15",
+        "section": "2. Fuels and Society: Biofuels",
+        "pages": {
+          "printed": [
+            184,
+            187
+          ],
+          "pdf": [
+            220,
+            223
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, petroleum paragraph",
+          "supports": "Petroleum formed over millions of years from the remains of living things."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, renewable corn paragraph",
+          "supports": "Corn is renewable because it can be grown every year; the same page understates petroleum's formation time as hundreds of years (L15-RF1)."
+        },
+        {
+          "type": "external",
+          "title": "Oil and petroleum products explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/",
+          "accessed": "2026-10-14",
+          "supports": "Crude oil formed from marine plants and animals over millions of years and is grouped with nonrenewable sources."
+        },
+        {
+          "type": "external",
+          "title": "Renewable energy explained",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/renewable-sources/",
+          "accessed": "2026-10-14",
+          "supports": "Renewable sources are naturally replenishing but flow-limited: they are limited by how much is available at a time."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Corrects the p. 187 'hundreds of years' slip using p. 184 and EIA (L15-RF1). Reviser round 1 (2026-10-14): explanation now defines renewable by nature's replacement time, not by the rate of use (EIA). The 'hundreds of years' distractor was a recall trap built on the p. 187 slip and was replaced by a living-things distractor (new id e); L15-RF1 updated. Key shortened. Reviser round 2 (2026-10-14): key, its rationale and the explanation say corn is replanted each year, not that it 'regrows' (p. 187: corn can be grown every year). Hint replaced, because 'compare how long it takes to replace each resource' pointed straight at the only time-based choice. The pedagogy reviewer's wording ('all the corn and all the oil were used up') was adjusted to 'this year's corn harvest', because using up all corn would leave no seed to replant. Verify-agent (2026-10-14): checked against the rendered pp. 184, 187 and the guide's rules and guardrails; the key matches pp. 184 and 187; no player-facing text uses the p. 187 'hundreds of years' slip (RF1). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation defines renewable by natural replacement time; EIA record added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'hundreds of years' recall-trap distractor replaced (new id e); key shortened; a reworded"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key, rationale and explanation say corn is replanted each year, not regrown"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the only time-based choice"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q16",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "evidence",
+        "energy balance",
+        "biofuel",
+        "testing claims"
+      ],
+      "familyId": "L15-F07",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Some people claim that making corn ethanol uses more energy than the fuel gives back. Which measurement would best test this claim?",
+      "accessiblePrompt": "Some people claim that making corn ethanol uses more energy than the fuel gives back. Which measurement would best test this claim?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "How much energy one liter of ethanol releases when it burns",
+          "rationale": "This measures only the energy coming out; the claim compares it with the energy spent making the fuel."
+        },
+        {
+          "id": "f",
+          "text": "How much fuel the farm machines burn while growing the corn",
+          "rationale": "This is only part of the energy going in, and it says nothing about the energy the ethanol gives back."
+        },
+        {
+          "id": "c",
+          "text": "Whether the corn for the ethanol was grown on a farm or in a greenhouse",
+          "rationale": "Where the corn grew doesn't answer the question unless the energy used and released is actually measured."
+        },
+        {
+          "id": "d",
+          "text": "Energy used to make the ethanol, compared with the energy it releases",
+          "rationale": "Correct: the claim compares energy in with energy out, so both must be measured."
+        }
+      ],
+      "answer": "d",
+      "explanation": "To test an energy claim, you need numbers for both sides: energy spent on fertilizer, farm machines, transport and the factory, and the energy the fuel releases when it burns. Studies have reached different answers as farms and factories changed. A 1995 U.S. Department of Agriculture study estimated that corn ethanol returned somewhat more energy than it took to make, and a later study found the gain had grown much larger by 2008.",
+      "misconception": "Measuring only the energy a fuel gives out, or only part of the energy that goes into making it, is enough to test a claim about energy balance.",
+      "hint": "Reread the claim. What would you need to know to check whether it is true?",
+      "followUpId": "L15-Q08",
+      "scope": {
+        "lessonId": "L15",
+        "section": "2. Fuels and Society: Biofuels",
+        "pages": {
+          "printed": [
+            187
+          ],
+          "pdf": [
+            223
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, why ethanol is not yet widespread",
+          "supports": "The textbook claims more energy is required to produce ethanol than it releases as a fuel (flagged as disputed, L15-RF2)."
+        },
+        {
+          "type": "external",
+          "title": "Estimating the Net Energy Balance of Corn Ethanol (AER-721, 1995)",
+          "publisher": "USDA Economic Research Service",
+          "url": "https://www.ers.usda.gov/publications/40674",
+          "accessed": "2026-10-14",
+          "supports": "A USDA study estimated an energy output-to-input ratio of 1.24 for corn ethanol and said its net energy value had become positive."
+        },
+        {
+          "type": "external",
+          "title": "ABC's of Biofuels (archived Bioenergy Technologies page)",
+          "publisher": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+          "url": "https://www1.eere.energy.gov/bioenergy/pdfs/Archive/abcs_biofuels.html",
+          "accessed": "2026-10-14",
+          "supports": "The fossil energy used to grow and process the feedstock must be considered when judging a biofuel."
+        },
+        {
+          "type": "external",
+          "title": "2015 Energy Balance for the Corn-Ethanol Industry (Gallagher, Yee and Baumes, 2016)",
+          "publisher": "Iowa State University, Department of Economics (ISU General Staff Papers), indexed by RePEc IDEAS",
+          "url": "https://ideas.repec.org/p/isu/genstf/201602010800001042.html",
+          "accessed": "2026-10-14",
+          "supports": "Corn ethanol moved from an energy sink to a moderate net energy gain in the 1990s, and to a substantial net energy gain by 2008."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Asks how to test the textbook's claim instead of asserting it (L15-RF2). Reviser round 1 (2026-10-14): hint no longer says 'which choice measures both'; key shortened. Explanation and evidence add the later energy-balance study (Gallagher, Yee and Baumes, 2016), as the science reviewer suggested. Reviser round 2 (2026-10-14): distractors a (flame heat) and b (popularity) were easy to dismiss and were replaced by one-sided measurements (new ids e and f; a and b are not reused): energy out only, and part of the energy in only. The key no longer restates the claim word for word and is shorter than choice c. Misconception updated. Difficulty stays 3. Verify-agent (2026-10-14): checked against the rendered pp. 187 and the guide's rules and guardrails; USDA ERS AER-721 (ratio 1.24) and the Gallagher, Yee and Baumes 2016 abstract were re-opened and match the explanation. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional note applied; later energy-balance study added to the explanation and evidence"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the key; key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: easy distractors replaced by one-sided measurements (new ids e, f); key shortened"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q17",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O1"
+      ],
+      "conceptTags": [
+        "ethanol fermentation",
+        "biofuel",
+        "sequence"
+      ],
+      "familyId": "L15-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put these steps for turning corn into fuel for a car in order.",
+      "accessiblePrompt": "Put these steps for turning corn into fuel for a car in order, from first to last. The steps are: yeast ferments the glucose into ethanol and carbon dioxide; harvest corn kernels from the field; burn the ethanol in an engine to release energy; break the starch in the kernels down into glucose.",
+      "items": [
+        {
+          "id": "c",
+          "text": "Yeast ferments the glucose into ethanol and carbon dioxide",
+          "rationale": "Third: fermentation needs glucose, so it comes after the starch is broken down."
+        },
+        {
+          "id": "a",
+          "text": "Harvest corn kernels from the field",
+          "rationale": "First: the kernels are the natural resource that starts the process."
+        },
+        {
+          "id": "d",
+          "text": "Burn the ethanol in an engine to release energy",
+          "rationale": "Last: the fuel can only be burned after it has been made."
+        },
+        {
+          "id": "b",
+          "text": "Break the starch in the kernels down into glucose",
+          "rationale": "Second: corn stores most of its sugar as starch, which must be split into glucose before yeast can use it."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "ends": [
+        "First",
+        "Last"
+      ],
+      "explanation": "Corn kernels store energy mostly as starch, a long chain of glucose units. The starch is broken into glucose, yeast ferment the glucose through a series of reactions into ethanol, and the ethanol is later burned in an engine. Each step needs the product of the step before it.",
+      "misconception": "Corn is simply squeezed to get fuel, or the fuel is burned before it has been made.",
+      "hint": "Each step uses something the step before it produced.",
+      "followUpId": "L15-Q03",
+      "scope": {
+        "lessonId": "L15",
+        "section": "2. Fuels and Society: Biofuels",
+        "pages": {
+          "printed": [
+            187
+          ],
+          "pdf": [
+            223
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, ethanol fermentation paragraph",
+          "supports": "In ethanol fermentation, glucose from corn goes through a series of reactions to become ethanol, which is then used to power vehicles."
+        },
+        {
+          "type": "external",
+          "title": "ABC's of Biofuels (archived Bioenergy Technologies page)",
+          "publisher": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+          "url": "https://www1.eere.energy.gov/bioenergy/pdfs/Archive/abcs_biofuels.html",
+          "accessed": "2026-10-14",
+          "supports": "Fuel ethanol is made mainly from the starch in corn kernels; hydrolysis converts it to simple sugars, and yeast ferment the sugars into ethanol and carbon dioxide."
+        },
+        {
+          "type": "external",
+          "title": "Fermentation of glucose using yeast",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/fermentation-of-glucose-using-yeast-14-16-years/470.article",
+          "accessed": "2026-10-14",
+          "supports": "Yeast contains enzymes that catalyse the breakdown of glucose to ethanol and carbon dioxide."
+        }
+      ],
+      "conditions": "Main steps only; grinding, separating the ethanol from water, and transport are left out.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Starch step added from DOE (L15-RF3). Items listed out of order on purpose. Reviser round 1 (2026-10-14): follow-up changed from Q15 to Q03 (a resource becoming a product by chemical steps). Limitation added that the steps can overlap in one tank. The O1 explorer card now teaches the starch-to-glucose step. Verify-agent (2026-10-14): checked against the rendered pp. 187 and the guide's rules and guardrails; only one order is defensible; the starch step is supported by DOE (RF3). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: optional note applied; limitation added that starch breakdown and fermentation can overlap in one tank"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now Q03; starch step added to the O1 explorer card"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "In a real ethanol plant, starch breakdown and fermentation can happen in the same tank, but yeast can only ferment glucose that has already been freed from the starch, so this order still holds."
+    },
+    {
+      "id": "L15-Q18",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O1"
+      ],
+      "conceptTags": [
+        "ethanol fermentation",
+        "conservation of atoms",
+        "chemical equation"
+      ],
+      "familyId": "L15-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "Yeast ferments glucose in this reaction: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. How many of glucose's 6 carbon atoms end up in the two ethanol (C₂H₅OH) molecules?",
+      "accessiblePrompt": "Yeast ferments glucose. The equation is: C 6 H 12 O 6, one glucose molecule, yields 2 C 2 H 5 O H, two ethanol molecules, plus 2 C O 2, two carbon dioxide molecules. Each ethanol molecule is written C 2 H 5 O H: two carbon atoms, five hydrogen atoms, then an oxygen atom bonded to one more hydrogen atom. How many of glucose's 6 carbon atoms end up in the two ethanol molecules?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "carbon atoms",
+      "workedSolution": "Each ethanol molecule, C₂H₅OH, holds 2 carbon atoms, and there are 2 ethanol molecules: 2 × 2 = 4 carbon atoms. The other 2 carbon atoms leave in the 2 CO₂ molecules (1 each). Check: 4 + 2 = 6, the same 6 carbon atoms that glucose started with.",
+      "explanation": "Fermentation rearranges glucose's atoms; it does not create or destroy any. Four of the six carbon atoms end up in ethanol fuel and two leave as carbon dioxide gas, so not all of the sugar's carbon ends up in the fuel.",
+      "misconception": "All of the atoms in glucose end up in the ethanol fuel.",
+      "hint": "Look at every number in the ethanol part of the equation, including the one written in front of the formula.",
+      "followUpId": "L15-Q13",
+      "scope": {
+        "lessonId": "L15",
+        "section": "2. Fuels and Society: Biofuels",
+        "pages": {
+          "printed": [
+            187
+          ],
+          "pdf": [
+            223
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            187
+          ],
+          "pdfPages": [
+            223
+          ],
+          "locator": "Section 2, ethanol fermentation paragraph",
+          "supports": "Glucose, C₆H₁₂O₆, undergoes a series of chemical reactions that turn it into ethanol."
+        },
+        {
+          "type": "external",
+          "title": "Fermentation of glucose using yeast",
+          "publisher": "Royal Society of Chemistry (RSC Education)",
+          "url": "https://edu.rsc.org/experiments/fermentation-of-glucose-using-yeast-14-16-years/470.article",
+          "accessed": "2026-10-14",
+          "supports": "Yeast enzymes break glucose down into ethanol and carbon dioxide."
+        }
+      ],
+      "diagram": {
+        "kind": "equation",
+        "caption": "Ethanol fermentation by yeast",
+        "alt": "One glucose molecule, C6H12O6, with 6 carbon, 12 hydrogen and 6 oxygen atoms, reacts with help from yeast to form 2 ethanol molecules, C2H5OH, each with 2 carbon atoms, and 2 carbon dioxide molecules, CO2, each with 1 carbon atom.",
+        "reactants": [
+          {
+            "formula": "C6H12O6",
+            "label": "glucose"
+          }
+        ],
+        "products": [
+          {
+            "formula": "C2H5OH",
+            "coefficient": 2,
+            "label": "ethanol"
+          },
+          {
+            "formula": "CO2",
+            "coefficient": 2,
+            "label": "carbon dioxide"
+          }
+        ],
+        "arrowNote": "yeast"
+      },
+      "units": "carbon atoms",
+      "review": {
+        "status": "reviewed",
+        "notes": "Equation balanced and checked by atom counting: left 6 C, 12 H, 6 O; right 2 × C₂H₆O (4 C, 12 H, 2 O) + 2 × CO₂ (2 C, 4 O) = 6 C, 12 H, 6 O. The textbook gives only the glucose formula (L15-RF3). Reviser round 1 (2026-10-14): retagged to O1 only: it tests atom conservation in the chemical process a product comes from. Reviser round 2 (2026-10-14): hint no longer gives the whole method (count, then double); it now points at the coefficient without doing the arithmetic. Verify-agent (2026-10-14): checked against the rendered pp. 187 and the guide's rules and guardrails; the equation balances (6 C, 12 H and 6 O on each side) and the answer, 4 carbon atoms, was re-computed. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: retagged from O1+O2 to O1"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer gives the whole solution method"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q19",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "synthetic sweetener",
+        "society",
+        "changing needs"
+      ],
+      "familyId": "L15-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "During World War I (1914–1918), sugar was scarce and many people used saccharin, a synthetic sweetener, instead. After the war, most went back to sugar. What does this show?",
+      "accessiblePrompt": "During World War One, from 1914 to 1918, sugar was scarce and many people used saccharin, a synthetic sweetener, instead. After the war, most people went back to sugar. What does this show?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Synthetic materials are used only during wars and other emergencies.",
+          "rationale": "Synthetic materials, from plastics to medicines, are used every day, not just in emergencies."
+        },
+        {
+          "id": "e",
+          "text": "People went back to sugar because saccharin was proven harmful.",
+          "rationale": "Nothing in this story shows saccharin was harmful; the switch followed the sugar supply. Adding a reason the evidence does not give is an assumption."
+        },
+        {
+          "id": "c",
+          "text": "Society's choice of material can change when supplies and needs change.",
+          "rationale": "Correct: saccharin filled a need during a shortage, and sugar returned when it was available again."
+        },
+        {
+          "id": "g",
+          "text": "Natural materials are always better, so people switch back when they can.",
+          "rationale": "One switch back doesn't prove sugar is better in every way; the story shows the choice followed the supply. Deciding natural is always better is a label-based assumption."
+        }
+      ],
+      "answer": "c",
+      "explanation": "People choose materials based on what they need and what is available. When the war cut sugar supplies, saccharin met the need for sweetness; once sugar was plentiful again, many people returned to it. A society's choices about materials respond to changing conditions.",
+      "misconception": "Once a society picks a material the choice is permanent, a switch back must mean the material was proven harmful, or natural materials are always better.",
+      "hint": "What changed between the war years and the years after?",
+      "followUpId": "L15-Q05",
+      "scope": {
+        "lessonId": "L15",
+        "section": "3. Food and Society: Sucralose",
+        "pages": {
+          "printed": [
+            189
+          ],
+          "pdf": [
+            225
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            189
+          ],
+          "pdfPages": [
+            225
+          ],
+          "locator": "Section 3, society and sweeteners paragraph",
+          "supports": "Sugar was in short supply during WWI (1914-1918), so saccharin became popular; after the war people used sucrose again."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 189. Reviser round 1 (2026-10-14): implausible distractors b and d replaced by misconception-based choices (new ids e and f). Reviser round 2 (2026-10-14): distractor f ('Saccharin and sugar are the same substance') was contradicted by the stem and was replaced by a 'natural is always better' choice (new id g; f is not reused). Misconception updated. Verify-agent (2026-10-14): checked against the rendered pp. 189 and the guide's rules and guardrails; the WWI saccharin passage on p. 189 supports the key; no distractor is ruled out by the stem. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible distractors b and d replaced (new ids e, f)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-contradicted distractor f replaced by a 'natural is always better' choice (new id g)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q20",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "sucralose",
+        "food additive",
+        "reasons for choosing"
+      ],
+      "familyId": "L15-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "A sports-drink company is thinking about sweetening a drink with sucralose instead of sugar. Which are good reasons for this choice? Select all that apply.",
+      "accessiblePrompt": "A sports-drink company is thinking about sweetening a drink with sucralose instead of sugar. Which are good reasons for this choice? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Athletes who count calories can control them more easily.",
+          "rationale": "Correct: zero-calorie sweeteners help people who want to limit calories or sugar."
+        },
+        {
+          "id": "b",
+          "text": "Sucralose gives athletes more energy than sugar does.",
+          "rationale": "Sucralose supplies essentially no energy; sugar is the one that the body uses for energy."
+        },
+        {
+          "id": "c",
+          "text": "Anything synthetic is automatically healthier than sugar.",
+          "rationale": "Being synthetic does not make a substance healthier or less healthy; each is judged on evidence."
+        },
+        {
+          "id": "d",
+          "text": "Sucralose turns into sugar slowly, so its energy lasts longer.",
+          "rationale": "The body cannot digest sucralose, so it never turns into sugar."
+        },
+        {
+          "id": "e",
+          "text": "It tastes sweet, but the sweetener adds no calories.",
+          "rationale": "Correct: sucralose tastes sweet but supplies essentially no calories."
+        }
+      ],
+      "answer": [
+        "a",
+        "e"
+      ],
+      "explanation": "Zero-calorie sweeteners let people enjoy sweet tastes while limiting sugar and calories, which is a real advantage for a sports drink. That advantage comes from sucralose's particular properties, not from its being synthetic. The tradeoff is that the sweetener provides no energy.",
+      "misconception": "A sweetener that tastes like sugar must also give the same energy as sugar.",
+      "hint": "Remember what the body can and can't do with sucralose.",
+      "followUpId": "L15-Q12",
+      "scope": {
+        "lessonId": "L15",
+        "section": "3. Food and Society: Sucralose",
+        "pages": {
+          "printed": [
+            188,
+            189
+          ],
+          "pdf": [
+            224,
+            225
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188
+          ],
+          "pdfPages": [
+            224
+          ],
+          "locator": "Section 3, food additive paragraphs",
+          "supports": "Many sports drinks use zero-calorie sweeteners so athletes can control calorie intake; sucralose is a zero-calorie sweetener."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            189
+          ],
+          "pdfPages": [
+            225
+          ],
+          "locator": "Section 3, why people choose zero-calorie sweeteners",
+          "supports": "Artificial sweeteners taste sweet without sugar or calories, letting people limit sugar."
+        },
+        {
+          "type": "external",
+          "title": "Aspartame and Other Sweeteners in Food",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+          "accessed": "2026-10-14",
+          "supports": "High-intensity sweeteners contribute only a few or no calories to the diet."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Kept to a sports-drink scenario; no medical claims (L15-RF6). Two of five correct. Reviser round 1 (2026-10-14): choices removed from the read-aloud prompt, because narration reads the shuffled choices itself. Verify-agent (2026-10-14): checked against the rendered pp. 188, 189 and the guide's rules and guardrails; 2 of 5 keys; the FDA calorie statement was re-opened; no medical or diet advice (RF6). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices removed from the read-aloud prompt"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q21",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "paclitaxel",
+        "renewable resource",
+        "sustainability"
+      ],
+      "familyId": "L15-F10",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Making the cancer drug paclitaxel from Pacific yew bark killed slow-growing trees. Why was switching to needles from the European yew a better solution?",
+      "accessiblePrompt": "Making the cancer drug paclitaxel from Pacific yew bark killed slow-growing trees. Why was switching to needles from the European yew a better solution?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Clipping needles leaves the tree alive, and the needles regrow.",
+          "rationale": "Correct: the trees survive and the needles regrow, so the supply can keep up with use."
+        },
+        {
+          "id": "b",
+          "text": "European yew needles are synthetic, so they can never run out.",
+          "rationale": "Needles are a natural resource. They are renewable because they regrow, not because they are synthetic or unlimited."
+        },
+        {
+          "id": "c",
+          "text": "The needles hold so much finished drug that no chemistry is needed.",
+          "rationale": "A substance from the needles is a starting material; chemists still use reactions to turn it into paclitaxel."
+        },
+        {
+          "id": "e",
+          "text": "Needles can be gathered from dead trees, so no living trees are used.",
+          "rationale": "The needles are clipped from living trees, which keep growing; that is why the supply can renew."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A renewable resource can still run out if people use it faster than it is replaced. Stripping bark kills Pacific yews that take about a century to mature, so on a human timescale the bark acted like a nonrenewable resource. Clipping needles leaves the trees alive, and a substance from the needles is converted into the drug by chemical steps.",
+      "misconception": "A resource from a living thing can be used at any rate without running out, no matter how it is harvested.",
+      "hint": "Think about what happens to each tree after its bark or its needles are taken.",
+      "followUpId": "L15-Q15",
+      "scope": {
+        "lessonId": "L15",
+        "section": "4. Medicines and Society: Paclitaxel",
+        "pages": {
+          "printed": [
+            190,
+            191
+          ],
+          "pdf": [
+            226,
+            227
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "Harvesting bark kills trees faster than they are replaced; European yew needles can be harvested without killing the trees and are replaced much more quickly."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            190
+          ],
+          "pdfPages": [
+            226
+          ],
+          "locator": "Section 4, Creating Paclitaxel from Pacific Yew Bark",
+          "supports": "Paclitaxel was first found in, and made from, Pacific yew bark."
+        },
+        {
+          "type": "external",
+          "title": "A Story of Discovery: Natural Compound Helps Treat Breast and Ovarian Cancers",
+          "publisher": "National Cancer Institute (NIH)",
+          "url": "https://www.cancer.gov/research/progress/discovery/taxol",
+          "accessed": "2026-10-14",
+          "supports": "Harvesting the bark kills the tree, and the ecological cost of the bark supply was too high."
+        },
+        {
+          "type": "external",
+          "title": "Taxol",
+          "publisher": "Florida State University, Office of Research",
+          "url": "https://research.magnet.fsu.edu/research-offices/oc/taxol/",
+          "accessed": "2026-10-14",
+          "supports": "A semisynthetic process makes Taxol from 10-deacetylbaccatin III, which is more readily available from renewable sources."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "The finished-drug distractor repairs the textbook's simplification of the needle route (L15-RF7). Reviser round 1 (2026-10-14): explanation and misconception no longer define renewable by use rate. Stem-contradicting distractor d replaced (new id e); key shortened. Verify-agent (2026-10-14): checked against the rendered pp. 190, 191 and the guide's rules and guardrails; p. 191 and the NCI page (re-opened: harvesting the bark kills the tree) support the bark-versus-needle contrast. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation and misconception separate renewability from rate of use"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-contradicting distractor replaced (new id e); key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q22",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "paclitaxel",
+        "resource use",
+        "calculation"
+      ],
+      "familyId": "L15-F10",
+      "category": "application",
+      "difficulty": 1,
+      "type": "numeric",
+      "prompt": "The textbook estimates that making paclitaxel from bark took the bark of as many as six mature Pacific yews to treat one patient. Using that estimate, what is the largest number of trees that could be needed to treat 40 patients?",
+      "accessiblePrompt": "The textbook estimates that making paclitaxel from bark took the bark of as many as six mature Pacific yews to treat one patient. Using that estimate, what is the largest number of trees that could be needed to treat 40 patients?",
+      "answer": 240,
+      "tolerance": 0,
+      "unit": "trees",
+      "workedSolution": "Up to 6 trees per patient × 40 patients = 240 trees at most.",
+      "explanation": "Even a small group of patients could use up hundreds of trees that each took about a century to grow. Numbers like these showed that the bark method could not keep up with demand without wiping out the trees, which pushed scientists toward a renewable source.",
+      "misconception": "Taking a few trees per patient is a small cost that nature quickly replaces.",
+      "hint": "Think about how the number of trees grows each time one more patient is added.",
+      "followUpId": "L15-Q15",
+      "scope": {
+        "lessonId": "L15",
+        "section": "4. Medicines and Society: Paclitaxel",
+        "pages": {
+          "printed": [
+            191
+          ],
+          "pdf": [
+            227
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "Bark from as many as six mature trees was needed to treat one person, and the trees take about 100 years to mature."
+        }
+      ],
+      "conditions": "Uses the textbook's estimate for the original bark method: as many as six trees per patient.",
+      "limitations": "A rough historical estimate; actual amounts of bark per patient varied, and the bark method is no longer the main source.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses the textbook's figure, labeled as an estimate (L15-RF8). Reviser round 1 (2026-10-14): follow-up changed from Q14 to Q15 (replacement time), which matches this item's misconception. Reviser round 2 (2026-10-14): hint no longer states the complete method (multiply trees per patient by patients). Verify-agent (2026-10-14): checked against the rendered pp. 191 and the guide's rules and guardrails; 6 × 40 = 240 was re-computed; the figure is labeled as the textbook's estimate (RF8). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now Q15"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer states the full solution method"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q23",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "constraints",
+        "engineering design"
+      ],
+      "familyId": "L15-F11",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Engineers are designing a new throw-away drinking cup. Sort each requirement: is it a criterion (something the cup must do) or a constraint (a limit on the project)?",
+      "accessiblePrompt": "Engineers are designing a new throw-away drinking cup. Sort each requirement into one of two groups: a criterion, meaning something the cup must do, or a constraint, meaning a limit on the project. The requirements are: must hold a hot drink without leaking; costs no more than 5 cents to make; must be ready to sell within one year; can be squeezed slightly without cracking; breaks down within months at a composting facility; must be made with machines the factory already owns.",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Must hold a hot drink without leaking",
+          "rationale": "This describes a job the cup must do to succeed, so it is a criterion."
+        },
+        {
+          "id": "i2",
+          "text": "Can be squeezed slightly without cracking",
+          "rationale": "This is a performance goal for the cup itself, so it is a criterion."
+        },
+        {
+          "id": "i3",
+          "text": "Breaks down within months at a composting facility",
+          "rationale": "This is something the cup must do after use, so it is a criterion."
+        },
+        {
+          "id": "i4",
+          "text": "Costs no more than 5 cents to make",
+          "rationale": "A budget is a limit on the project, so it is a constraint."
+        },
+        {
+          "id": "i5",
+          "text": "Must be made with machines the factory already owns",
+          "rationale": "Available equipment limits which designs are possible, so it is a constraint."
+        },
+        {
+          "id": "i6",
+          "text": "Must be ready to sell within one year",
+          "rationale": "A deadline limits the project's time, so it is a constraint."
+        }
+      ],
+      "bins": [
+        {
+          "id": "criterion",
+          "label": "Criterion"
+        },
+        {
+          "id": "constraint",
+          "label": "Constraint"
+        }
+      ],
+      "answer": {
+        "i1": "criterion",
+        "i2": "criterion",
+        "i3": "criterion",
+        "i4": "constraint",
+        "i5": "constraint",
+        "i6": "constraint"
+      },
+      "explanation": "Criteria describe what a successful design has to accomplish. Constraints are the limits engineers must work within, such as budget, available equipment and time. Stating both clearly makes it easier to compare designs and choose one that will succeed.",
+      "misconception": "Criteria and constraints mean the same thing, or a budget is something the product itself does.",
+      "hint": "Ask whether each requirement describes the cup's performance or a limit on how it can be made.",
+      "followUpId": "L15-Q05",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            183,
+            192
+          ],
+          "pdf": [
+            219,
+            228
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "NGSS box (MS-ETS1-1, ETS1.A)",
+          "supports": "Design problems are defined by criteria and constraints; precise criteria and constraints make success more likely."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, Revising Criteria",
+          "supports": "New criteria for container materials included being sturdy, inexpensive and breaking down quickly."
+        },
+        {
+          "type": "external",
+          "title": "3-5-ETS1-1 Engineering Design",
+          "publisher": "NGSS Lead States (nextgenscience.org)",
+          "url": "https://www.nextgenscience.org/pe/3-5-ets1-1-engineering-design",
+          "accessed": "2026-10-14",
+          "supports": "Design problems include specified criteria for success and constraints on materials, time or cost."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Criteria/constraints split follows NGSS wording (constraints on materials, time, cost); the textbook itself lists 'inexpensive' among the criteria on p. 192, so cost is stated here as a fixed budget limit to keep one defensible bin. Reviser round 1 (2026-10-14): 'Must' now opens a criterion too (i1), and the read-aloud list alternates bins instead of grouping them. Reviser round 2 (2026-10-14): read-aloud list reordered to criterion, constraint, constraint, criterion, criterion, constraint; the previous order alternated strictly, so a listener who placed item 1 could place all six. Follow-up changed from Q06 (now in F11) to Q05. Verify-agent (2026-10-14): checked against the rendered pp. 183, 192 and the guide's rules and guardrails; each requirement has one bin under the prompt's own definitions; cost appears only as a budget limit (RF14). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'Must' grammar cue evened out; read-aloud list no longer grouped by bin"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud list no longer alternates between bins; follow-up now Q05 (Q06 joined F11)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q24",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "criteria",
+        "design problem",
+        "possible solutions"
+      ],
+      "familyId": "L15-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Engineers added a new criterion for container materials: break down quickly after use. How does adding this criterion affect the design problem?",
+      "accessiblePrompt": "Engineers added a new criterion for container materials: break down quickly after use. How does adding this criterion affect the design problem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More materials qualify, because the problem now has more ways to succeed.",
+          "rationale": "Each added criterion is one more test every material must pass, so the list of possible solutions shrinks."
+        },
+        {
+          "id": "b",
+          "text": "The old criteria stop mattering once a new criterion is added.",
+          "rationale": "Containers still need to be sturdy and stay within budget; the new criterion is added to the old requirements, not swapped for them."
+        },
+        {
+          "id": "c",
+          "text": "Fewer materials qualify, so any material that passes them all is sure to succeed.",
+          "rationale": "Fewer do qualify, but clear criteria make success more likely, not certain; designs still need testing."
+        },
+        {
+          "id": "d",
+          "text": "Fewer materials qualify, but one meeting all criteria fits the need better.",
+          "rationale": "Correct: each criterion is another test to pass, so the options shrink, but a material that passes all of them would fit society's need better."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Every criterion works like a filter. Adding 'break down quickly' rules out traditional plastics, which last for years. The problem gets harder, but a material that passes every filter fits society's real need better. Precise criteria make success more likely, though testing is still needed.",
+      "misconception": "Adding requirements makes a design problem easier, or guarantees success.",
+      "hint": "Think of each criterion as a gate that every possible material must pass through.",
+      "followUpId": "L15-Q25",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            183,
+            192
+          ],
+          "pdf": [
+            219,
+            228
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, Revising Criteria",
+          "supports": "New criteria limit the number of possible solutions but may lead to a more successful one."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "NGSS box (ETS1.A)",
+          "supports": "The more precisely criteria and constraints are defined, the more likely a design will succeed."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 183 and 192. Reviser round 1 (2026-10-14): c now also says 'fewer materials qualify', so the gate hint narrows the choice to c and d and the learner must reason about testing. Reviser round 2 (2026-10-14): rationale b no longer lists low cost among the old criteria; cost is a constraint in this game (glossary, L15-RF14, Q23). Verify-agent (2026-10-14): checked against the rendered pp. 183, 192 and the guide's rules and guardrails; the key matches p. 192 (new criteria limit solutions) and ETS1.A on p. 183 (more likely, not certain). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c rewritten so the hint no longer leaves only the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rationale b no longer counts low cost as a criterion (cost is a constraint, RF14)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q25",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "revising criteria",
+        "evidence",
+        "plastics"
+      ],
+      "familyId": "L15-F12",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Plastics were first designed to be sturdy, flexible and long-lasting while staying cheap to make. What new evidence led engineers to revise the criteria?",
+      "accessiblePrompt": "Plastics were first designed to be sturdy, flexible and long-lasting while staying cheap to make. What new evidence led engineers to revise the criteria?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Studies found many items were used once, then buried in landfills.",
+          "rationale": "Correct: evidence about how plastics were used and thrown away revealed a problem the first criteria didn't cover."
+        },
+        {
+          "id": "b",
+          "text": "Tests showed plastic containers broke more easily than glass ones did.",
+          "rationale": "Plastic containers are less likely than glass to shatter, so breaking was never the problem. The trouble came after use, because plastic lasts so long."
+        },
+        {
+          "id": "c",
+          "text": "Plastics were found to break down far too quickly once buried in landfills.",
+          "rationale": "The problem was the reverse: plastics last so long that they stay buried for years."
+        },
+        {
+          "id": "d",
+          "text": "Plastic became more expensive to produce than metal or glass.",
+          "rationale": "Low cost was one of plastic's strengths; the revision came from waste and wildlife problems."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Plastics did their original job well. New evidence about how people used them (once, then thrown away), about crowded landfills and about wildlife eating plastic pieces revealed a problem the first criteria had not considered. Engineers revise criteria when evidence shows that a solution has created new problems.",
+      "misconception": "Engineers only redesign a product when it fails at its original job.",
+      "hint": "The problem was not how well plastic worked, but what happened after people used it.",
+      "followUpId": "L15-Q24",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            192
+          ],
+          "pdf": [
+            228
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, Revising Criteria",
+          "supports": "Studies found people used plastic objects once and threw them away, many could not be reused or recycled, plastics filled landfills, and wildlife ate plastic pieces."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 192. Reviser round 1 (2026-10-14): key shortened so it is not the longest choice; Q08 no longer restates it. Reviser round 2 (2026-10-14): stem no longer lists 'cheap' among the criteria (cost is a constraint, L15-RF14). Rationale b no longer says 'durability was never the problem', which contradicted Q09, Q10 and p. 192; it now says breaking was never the problem and the trouble came because plastic lasts so long. Follow-up changed from Q10 (now in F12) to Q24. Verify-agent (2026-10-14): checked against the rendered pp. 192 and the guide's rules and guardrails; the p. 192 'Revising Criteria' passage supports the key; rationale b no longer contradicts Q09 or Q10. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key shortened; Q08 statement that restated it was replaced"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer makes cheapness a criterion; rationale b no longer says durability was never the problem"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now Q24 (Q10 joined F12)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q26",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "engineering design cycle",
+        "revising criteria",
+        "plastics",
+        "sequence"
+      ],
+      "familyId": "L15-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Put the plastics story in order, from the first solution to today's ongoing work.",
+      "accessiblePrompt": "Put the plastics story in order, from the first solution to today's ongoing work. The events are: engineers add 'breaks down quickly' to the criteria; plastics become the go-to material for containers; tests show P L A needs a hot facility to break down, so the work continues; studies show plastic waste filling landfills and harming wildlife; plant-based P L A is tested against the new criteria.",
+      "items": [
+        {
+          "id": "c",
+          "text": "Engineers add \"breaks down quickly\" to the criteria.",
+          "rationale": "Third: the new criterion responds to the evidence about waste."
+        },
+        {
+          "id": "a",
+          "text": "Plastics become the go-to material for containers.",
+          "rationale": "First: plastic was the original solution to the need for sturdy, cheap containers."
+        },
+        {
+          "id": "e",
+          "text": "Tests show PLA needs a hot facility to break down, so the work continues.",
+          "rationale": "Last: test results show PLA misses one criterion, sending engineers back to work."
+        },
+        {
+          "id": "b",
+          "text": "Studies show plastic waste filling landfills and harming wildlife.",
+          "rationale": "Second: evidence about how plastic was used and discarded revealed a new problem."
+        },
+        {
+          "id": "d",
+          "text": "Plant-based PLA is tested against the new criteria.",
+          "rationale": "Fourth: a candidate material can only be tested against criteria that already exist."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ends": [
+        "First",
+        "Most recent"
+      ],
+      "explanation": "Engineering works as a cycle. A solution meets a need, evidence reveals new problems, the criteria are revised, new designs are tested, and the test results send engineers back for more improvement. The plastics story is still in progress.",
+      "misconception": "Engineering design ends as soon as the first solution works.",
+      "hint": "Each event is a response to the one before it.",
+      "followUpId": "L15-Q24",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            192,
+            193
+          ],
+          "pdf": [
+            228,
+            229
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, opening paragraphs and Revising Criteria",
+          "supports": "Plastics solved a container problem, then studies of single use, landfills and wildlife led engineers to new criteria."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "PLA was investigated as a biodegradable plastic, but tests found it needs a heated facility, so work continues."
+        }
+      ],
+      "conditions": "Follows the order of events in the lesson's plastics example.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Order follows the lesson's narrative. Items listed out of order on purpose. Reviser round 1 (2026-10-14): item a no longer lists Q10's three keyed properties; difficulty lowered to 2. Verify-agent (2026-10-14): checked against the rendered pp. 192, 193 and the guide's rules and guardrails; only one order is defensible under the stated condition; each step responds to the one before it. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: item a no longer reveals Q10's keys; difficulty 2"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q27",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "biodegradable",
+        "definition",
+        "bacteria and fungi"
+      ],
+      "familyId": "L15-F13",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "What does it mean for a material to be biodegradable?",
+      "accessiblePrompt": "What does it mean for a material to be biodegradable?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is made from plants instead of from petroleum.",
+          "rationale": "Where a material comes from doesn't decide whether it biodegrades; the term is about how it breaks down afterward."
+        },
+        {
+          "id": "b",
+          "text": "Its atoms are destroyed as it rots, so nothing at all is left.",
+          "rationale": "Breaking down rearranges atoms into smaller molecules; the atoms are not destroyed."
+        },
+        {
+          "id": "c",
+          "text": "Bacteria and fungi break it down into smaller molecules.",
+          "rationale": "Correct: biodegradable materials are broken down by biological agents."
+        },
+        {
+          "id": "d",
+          "text": "It melts away and disappears when left in hot sunlight.",
+          "rationale": "Melting is a change of state caused by heat, not a breakdown by living things."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Biodegradable materials are broken down by living things, mostly bacteria and fungi, into smaller molecules. The atoms are not destroyed; they end up in new substances. Paper buried in moist soil, for example, gradually breaks down over a few years.",
+      "misconception": "Plant-based means biodegradable, or biodegrading makes matter vanish.",
+      "hint": "Think about what turns a fallen leaf on damp ground into soil over time.",
+      "followUpId": "L15-Q26",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            183,
+            193
+          ],
+          "pdf": [
+            219,
+            229
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction, Vocabulary box",
+          "supports": "Biodegradable means able to be broken down into smaller molecules by biological agents such as bacteria."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "Bacteria and fungi break down biodegradable materials; buried paper in moist soil breaks down over a few years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered pp. 183 and 193. Reviser round 1 (2026-10-14): key shortened and b lengthened so the key is not the longest choice. Choice a targets the bio-based versus biodegradable mix-up recorded in L15-RF18. Reviser round 2 (2026-10-14): 'bio means life' hint replaced, because it pointed at the only choice naming living things. The pedagogy reviewer's 'over a few months' was changed to 'over time', because leaf breakdown time varies and no source was opened for it. Verify-agent (2026-10-14): checked against the rendered pp. 183, 193 and the guide's rules and guardrails; the key matches the p. 183 vocabulary box and p. 193; the hint nudges without naming the key. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: answer-length cue removed (c shortened, b lengthened)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'bio means life' hint replaced"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q28",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O4"
+      ],
+      "conceptTags": [
+        "biodegradable",
+        "PLA",
+        "test evidence",
+        "criteria"
+      ],
+      "familyId": "L15-F13",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Tests show that PLA breaks down quickly only when kept hot for weeks at an industrial composting facility; most landfills and backyard compost piles don't get that hot. Which conclusion do these results best support?",
+      "accessiblePrompt": "Tests show that P L A breaks down quickly only when kept hot for weeks at an industrial composting facility. Most landfills and backyard compost piles don't get that hot. Which conclusion do these results best support?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "PLA can't be broken down by bacteria or any other living things.",
+          "rationale": "Bacteria can break down PLA's molecules; the problem is that it happens slowly unless conditions are hot."
+        },
+        {
+          "id": "b",
+          "text": "PLA meets every criterion, so the engineering work is now finished.",
+          "rationale": "The tests reveal a criterion PLA misses, so the work continues."
+        },
+        {
+          "id": "e",
+          "text": "PLA is no better than ordinary plastic, so engineers should give up on it.",
+          "rationale": "The tests show one criterion PLA misses, not that it fails at everything; engineers improve promising designs rather than drop them."
+        },
+        {
+          "id": "d",
+          "text": "PLA meets some criteria, but not fast breakdown in a landfill.",
+          "rationale": "Correct: PLA is plant-based and can be broken down by bacteria, but only quickly under hot, managed conditions."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Test results tell engineers which criteria a design meets. PLA is plant-based, sturdy and breakable by microbes, but only quickly under hot, managed conditions. That gap is why engineers are still searching for a plastic that breaks down quickly in an ordinary landfill. Breakdown in a landfill has its own cost, though: buried waste soon runs short of oxygen, and the bacteria that break it down there give off methane, a greenhouse gas.",
+      "misconception": "Test results show a design is either a total success or a total failure, so engineers either stop or give up.",
+      "hint": "Pay attention to the conditions under which the breakdown happened.",
+      "followUpId": "L15-Q24",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            193
+          ],
+          "pdf": [
+            229
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "PLA can be broken down by bacteria, but investigations found it needs a heated facility to break down in a timely way (the textbook says several days; see L15-RF17); most landfills and compost piles are not hot enough."
+        },
+        {
+          "type": "external",
+          "title": "Bioplastics: a better option for the environment? (FOR349)",
+          "publisher": "UF/IFAS Extension, University of Florida",
+          "url": "https://ask.ifas.ufl.edu/publication/FR418",
+          "accessed": "2026-10-14",
+          "supports": "PLA will only readily break down in a commercial composting facility with high heat, water and air; it will not biodegrade in the environment or in a backyard compost pile. The industrial standard is 90% of the carbon converted to carbon dioxide within 180 days."
+        },
+        {
+          "type": "external",
+          "title": "Basic Information about Landfill Gas",
+          "publisher": "U.S. Environmental Protection Agency, Landfill Methane Outreach Program",
+          "url": "https://www.epa.gov/lmop/basic-information-about-landfill-gas",
+          "accessed": "2026-10-17",
+          "supports": "Landfill gas is a natural byproduct of the decomposition of organic material; typically within less than a year oxygen-free (anaerobic) conditions develop and methane-producing bacteria decompose the waste; the gas is roughly 50 percent methane, a potent greenhouse gas."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 193; condition dependence confirmed by UF/IFAS (L15-RF10). Reviser round 1 (2026-10-14): stem now says weeks at an industrial composting facility (L15-RF17); the p. 193 'several days' is attributed to the textbook. Stem-contradicting compost distractor c replaced (new id e); key shortened. The science reviewer's optional mechanism sentence for rationale a (heat must first split the chains) was not added because no opened source states it. Reviser round 2 (2026-10-14): added a limitation and a closing explanation sentence: fast breakdown in an oxygen-poor landfill releases methane, a greenhouse gas (EPA LMOP, page opened 2026-10-17; L15-RF21). The caveat is also in the explanation because QuestionPanel.tsx does not display the limitations field. The key and choices are unchanged. Verify-agent (2026-10-14): checked against the rendered pp. 193 and the guide's rules and guardrails; the UF/IFAS FR418 and EPA LMOP pages were re-opened and match; the methane caveat is in the explanation. Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: composting time now 'weeks at an industrial composting facility'; textbook timing attributed; 180-day benchmark added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-contradicting distractor replaced (new id e); key shortened"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: landfill-methane limitation added (EPA LMOP, RF21)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Breaking down quickly is the lesson's design criterion. In a landfill, buried waste soon runs short of oxygen, and the bacteria that break it down there give off methane, a greenhouse gas, so engineers also weigh what breakdown in a landfill would release."
+    },
+    {
+      "id": "L15-Q29",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "food additive",
+        "definition",
+        "natural vs synthetic"
+      ],
+      "familyId": "L15-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Table salt, table sugar and the sweetener sucralose can all be food additives. What makes a substance a food additive?",
+      "accessiblePrompt": "Table salt, table sugar and the sweetener sucralose can all be food additives. What makes a substance a food additive?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is added on purpose to improve a food, such as its flavor.",
+          "rationale": "Correct: a food additive is defined by its job. It is put into food on purpose to improve its flavor, color, freshness, nutrition or safety."
+        },
+        {
+          "id": "b",
+          "text": "It is made in a factory from substances that come from petroleum.",
+          "rationale": "Salt and sugar are food additives that come from nature. Some additives are made from petroleum, but where a substance comes from does not decide whether it is an additive."
+        },
+        {
+          "id": "c",
+          "text": "It has no calories, so it can stand in for sugar in a food.",
+          "rationale": "Sugar is itself a food additive, and it has plenty of calories. Zero-calorie sweeteners are only one kind of additive."
+        },
+        {
+          "id": "d",
+          "text": "It is a chemical, while foods straight from nature have none.",
+          "rationale": "Every food is made of chemical substances. Being a chemical does not make something an additive; being added to food for a purpose does."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A food additive is defined by its job: it is added to food on purpose to improve its flavor, color, freshness, nutrition or safety. Additives can be natural, like salt and sugar, or synthetic, like sucralose. Whether an additive is a good choice depends on evidence about that substance, not on whether it is natural or synthetic.",
+      "misconception": "Food additives are always artificial chemicals, or they are always calorie-free.",
+      "hint": "Look back at the three examples. Which choices would rule out at least one of them?",
+      "followUpId": "L15-Q07",
+      "scope": {
+        "lessonId": "L15",
+        "section": "3. Food and Society: Sucralose",
+        "pages": {
+          "printed": [
+            183,
+            188
+          ],
+          "pdf": [
+            219,
+            224
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction, Vocabulary box",
+          "supports": "A food additive is any substance added to food to improve its flavor, color, freshness, nutritional value or safety."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            188
+          ],
+          "pdfPages": [
+            224
+          ],
+          "locator": "Section 3, food additive paragraph",
+          "supports": "Table salt and table sugar are natural substances that are also used as food additives; many other additives, such as the zero-calorie sweetener sucralose, are synthetic."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Food Coloring and Food Flavoring panels",
+          "supports": "Some food colorings and flavorings are made from substances found in petroleum."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (2026-10-14) to close a coverage gap the pedagogy reviewer found: 'food additive' is one of the lesson's four vocabulary words (pp. 183, 188) and no question tested it. Drafted from rendered pp. 183, 185 and 188. Key is not the longest choice. Needs science and pedagogy review before verification. Reviser round 2 (2026-10-14): science and pedagogy passes recorded; no change. Verify-agent (2026-10-14): checked against the rendered pp. 183, 188 and the guide's rules and guardrails; the key matches the p. 183 definition and the p. 188 natural examples (salt, sugar). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q30",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O3"
+      ],
+      "conceptTags": [
+        "medicines",
+        "natural resource",
+        "drug discovery",
+        "paclitaxel"
+      ],
+      "familyId": "L15-F10",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "In the 1960s and 1970s, scientists searched through U.S. plants for substances that might fight cancer, and they found paclitaxel in Pacific yew bark. Why do researchers often look to nature first for new medicines?",
+      "accessiblePrompt": "In the 1960s and 1970s, scientists searched through United States plants for substances that might fight cancer, and they found paclitaxel in Pacific yew bark. Why do researchers often look to nature first for new medicines?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many medicines were first found in substances made by living things.",
+          "rationale": "Correct: living things make a huge variety of substances. Penicillin comes from a mold and paclitaxel was found in yew bark, so nature is a good place to start looking."
+        },
+        {
+          "id": "b",
+          "text": "Substances from nature are safe, so they can skip safety testing.",
+          "rationale": "Natural does not mean safe. Every possible medicine, natural or not, has to be tested for safety and for whether it works."
+        },
+        {
+          "id": "c",
+          "text": "Medicines cannot be made in a lab by chemical reactions.",
+          "rationale": "Many drugs are made by chemical reactions, some starting from substances in petroleum. Looking to nature is a good first step, not the only way."
+        },
+        {
+          "id": "d",
+          "text": "Taking a substance from nature costs less than making one in a laboratory.",
+          "rationale": "Not necessarily. Paclitaxel made from yew bark was very expensive, and stripping the bark killed slow-growing trees."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Living things make a huge variety of substances, and many medicines were first discovered in them: penicillin comes from a mold, and paclitaxel was found during a survey of plants. That track record is why researchers often search nature first. Every substance found this way still has to be tested, and chemists often find better ways to make it.",
+      "misconception": "Medicines from nature are automatically safe, or medicines can only be made in a lab.",
+      "hint": "Check each choice against the lesson's medicine examples, such as penicillin and paclitaxel.",
+      "followUpId": "L15-Q03",
+      "scope": {
+        "lessonId": "L15",
+        "section": "4. Medicines and Society: Paclitaxel",
+        "pages": {
+          "printed": [
+            190,
+            191
+          ],
+          "pdf": [
+            226,
+            227
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            190
+          ],
+          "pdfPages": [
+            226
+          ],
+          "locator": "Section 4, opening paragraphs and Creating Paclitaxel from Pacific Yew Bark",
+          "supports": "Many medicines were first discovered in nature, so researchers often look to nature first; penicillin is produced by a mold, and a 1960s-1970s survey of U.S. plants found paclitaxel in Pacific yew bark."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            191
+          ],
+          "pdfPages": [
+            227
+          ],
+          "locator": "Section 4, Creating Paclitaxel from European Yew Needles",
+          "supports": "Stripping Pacific yew bark for the drug would kill slow-growing trees faster than they could be replaced."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Medicine panel",
+          "supports": "Many drugs are synthetic materials made by chemical reactions involving toluene, a substance in petroleum."
+        },
+        {
+          "type": "external",
+          "title": "A Story of Discovery: Natural Compound Helps Treat Breast and Ovarian Cancers",
+          "publisher": "National Cancer Institute (NIH)",
+          "url": "https://www.cancer.gov/research/progress/discovery/taxol",
+          "accessed": "2026-10-14",
+          "supports": "In 1960 NCI and USDA began searching natural plant and animal products for possible cancer cures; Pacific yew bark was collected in 1962, harvesting the bark kills the tree, and the drug was very expensive to manufacture."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (2026-10-14) to close a coverage gap the pedagogy reviewer found: section 4's opening idea (researchers look to nature first for medicines) and its Lesson Summary line were untested. Aspirin is left out (L15-RF9). Drafted from rendered pp. 185, 190 and 191; NCI page re-opened 2026-10-14. Key is not the longest choice. Needs science and pedagogy review before verification. Reviser round 2 (2026-10-14): tagged O3 only, matching Q21 and Q22, so family F10 no longer mixes objectives and the Q21/Q22 answers no longer count as O1 evidence. No content change. Verify-agent (2026-10-14): checked against the rendered pp. 190, 191 and the guide's rules and guardrails; the NCI page was re-opened (1960 plant search, bark collected in 1962, very expensive to make) and matches; aspirin is left out (RF9). Key is unique, the citations match the pages, the key is not cued by length, and the read-aloud is fair. No changes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: tagged O3 only so family F10 no longer mixes objectives"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L15-Q31",
+      "lessonId": "L15",
+      "objectiveIds": [
+        "L15-O2"
+      ],
+      "conceptTags": [
+        "polymer",
+        "structure and function",
+        "biodegradable",
+        "PLA"
+      ],
+      "familyId": "L15-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "PLA and a plastic made from ethylene, a substance in petroleum, are both made of long chain molecules. In a hot composting facility, PLA breaks down within months, but the ethylene plastic lasts for years. What best explains the difference?",
+      "accessiblePrompt": "P L A and a plastic made from ethylene, a substance in petroleum, are both made of long chain molecules. In a hot composting facility, P L A breaks down within months, but the ethylene plastic lasts for years. What best explains the difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "PLA came from corn, and anything made from plants breaks down quickly.",
+          "rationale": "Where a plastic comes from doesn't decide this: some plant-based plastics don't biodegrade, and certain petroleum-based ones can. What matters is how the molecules are built."
+        },
+        {
+          "id": "b",
+          "text": "PLA's atoms are softer, so bacteria can chew right through them.",
+          "rationale": "Single atoms aren't soft or hard; those are properties of a whole material. Breakdown depends on which bonds join the units in the chains."
+        },
+        {
+          "id": "c",
+          "text": "Their chains are built from different units, and PLA's are easier to break down.",
+          "rationale": "Correct: PLA's chains are made from units joined by bonds that heat, water and microbes in compost can split. The ethylene plastic's chains resist this, so it lasts for years."
+        },
+        {
+          "id": "d",
+          "text": "The ethylene plastic is synthetic, and living things can't break down synthetic materials.",
+          "rationale": "PLA is synthetic too: it is made from corn by chemical reactions. Being synthetic doesn't decide whether a material breaks down; the structure of its molecules does."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A material's properties come from how its molecules are built, not from where the material came from. PLA and plastics made from ethylene both have long chains, but the chains are built from different units joined in different ways. In hot, moist compost, PLA's chains can be split and then digested by microbes, while the ethylene plastic's chains hold up for years.",
+      "misconception": "Whether a material breaks down depends on where it came from or on a 'synthetic' label, not on how its molecules are built.",
+      "hint": "Some plastics made from plants don't break down in compost, and a few made from petroleum do. So what must matter instead?",
+      "followUpId": "L15-Q12",
+      "scope": {
+        "lessonId": "L15",
+        "section": "5. Engineering and Improving Plastics",
+        "pages": {
+          "printed": [
+            183,
+            184,
+            185,
+            192,
+            193
+          ],
+          "pdf": [
+            219,
+            220,
+            221,
+            228,
+            229
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            184
+          ],
+          "pdfPages": [
+            220
+          ],
+          "locator": "Section 1, synthetic material and PLA paragraphs",
+          "supports": "The structure and composition of a synthetic material's molecules give it its useful properties; PLA, made from corn, is a polymer of long chains."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            185
+          ],
+          "pdfPages": [
+            221
+          ],
+          "locator": "Key Science Concept: Plastic panel",
+          "supports": "Many plastics are made from ethylene, a substance separated from petroleum, and are polymers made of long chains."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            192
+          ],
+          "pdfPages": [
+            228
+          ],
+          "locator": "Section 5, Revising Criteria",
+          "supports": "Traditional plastic lasts so long that once it is buried in a landfill it remains there for years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            193
+          ],
+          "pdfPages": [
+            229
+          ],
+          "locator": "Section 5, Developing New Engineering Solutions",
+          "supports": "PLA contains molecules that bacteria can break down, but it needs a heated facility to break down in a timely way."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            183
+          ],
+          "pdfPages": [
+            219
+          ],
+          "locator": "Introduction",
+          "supports": "PLA is made from corn through a series of chemical reactions."
+        },
+        {
+          "type": "external",
+          "title": "Bioplastics: a better option for the environment? (FOR349)",
+          "publisher": "UF/IFAS Extension, University of Florida",
+          "url": "https://ask.ifas.ufl.edu/publication/FR418",
+          "accessed": "2026-10-17",
+          "supports": "Bio-based plastics are not necessarily biodegradable, and certain petroleum-based plastics can biodegrade; PLA readily breaks down only in a commercial composting facility with high heat, water and air, not in the environment or a backyard compost pile."
+        },
+        {
+          "type": "external",
+          "title": "Recent advances in high performance poly(lactide): from \"green\" plasticization to super-tough materials via (reactive) compounding (Kfoury et al., 2013)",
+          "publisher": "Frontiers in Chemistry (Frontiers Media)",
+          "url": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2013.00032/full",
+          "accessed": "2026-10-17",
+          "supports": "PLA is a poly(lactic acid) polyester derived from renewable resources, with lactide as its main monomer; aliphatic polyesters are hydrolytically degradable because their backbones contain water-sensitive ester bonds."
+        }
+      ],
+      "conditions": "Both plastics are kept in the same hot, moist industrial composting facility.",
+      "limitations": "Simplified: in compost, heat and water first split PLA's chains into shorter pieces, and microbes then digest the pieces. Not every plastic made from plants breaks down in compost.",
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 2 (2026-10-14). Once families stopped mixing objectives, O2 had only 5 questions in 2 families and only Q09 tested chain structure, so the pedagogy reviewer asked for one more structure-to-property item in F03. This one ties chain makeup to breakdown and repairs the plant-based-means-biodegradable mix-up (L15-RF18) from the structure side. Drafted from rendered pp. 183-185 and 192-193; UF/IFAS FR418 and Kfoury et al. (2013) opened 2026-10-17. Key is not the longest choice. Needs science and pedagogy review before verification. Verify-agent (2026-10-14): this item had no separate science or pedagogy round, so the verifier did both checks. Science: UF/IFAS FR418 and Kfoury et al. (2013) were re-opened by the verifier. They state that bio-based plastics are not necessarily biodegradable, that certain petroleum-based plastics can biodegrade, that PLA readily breaks down only in commercial composting, and that aliphatic polyesters are hydrolytically degradable because of sensitive bonds in their backbones. pp. 183-185 and 192-193 support the textbook evidence. Pedagogy: one best answer; the distractors target RF18 (plant origin), the atom-property error and the 'synthetic can't break down' label; the key is not the longest choice; the hint rules out two choices without naming the key; the read-aloud gives nothing away; follow-up Q12 is in another family. No changes. Teacher review of this item is especially worthwhile because it had only the author and verifier passes.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

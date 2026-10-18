@@ -1,0 +1,3699 @@
+{
+  "lessonId": "L11",
+  "questions": [
+    {
+      "id": "L11-Q01",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "weathering",
+        "erosion",
+        "deposition",
+        "glacial-deposition"
+      ],
+      "familyId": "L11-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each change on Earth's surface into the process it shows.",
+      "accessiblePrompt": "Sort six changes into three processes: weathering, erosion, or deposition. The changes are: rainwater reacts with minerals in a boulder and its surface slowly crumbles; a tree root widens a crack in a boulder; wind lifts loose sand off a dune and carries it away; gravity pulls loose rock and soil down a steep slope; a river slows as it enters a lake and drops its sand; and a melting glacier leaves behind a ridge of the rock it carried.",
+      "items": [
+        {
+          "id": "chem",
+          "text": "Rainwater reacts with minerals in a boulder, and its surface slowly crumbles",
+          "rationale": "Weathering: a chemical reaction is breaking the rock down right where it sits."
+        },
+        {
+          "id": "root",
+          "text": "A tree root widens a crack in a boulder",
+          "rationale": "Weathering: living things can break rock down too, and the pieces stay in place."
+        },
+        {
+          "id": "wind",
+          "text": "Wind lifts loose sand off a dune and carries it away",
+          "rationale": "Erosion: the sand is being picked up and removed from where it was."
+        },
+        {
+          "id": "slope",
+          "text": "Gravity pulls loose rock and soil down a steep slope",
+          "rationale": "Erosion: gravity is moving rock material away from its original spot."
+        },
+        {
+          "id": "lake",
+          "text": "A river slows as it enters a lake and drops its sand",
+          "rationale": "Deposition: slower water can't carry as much, so the sand settles and builds up in a new place."
+        },
+        {
+          "id": "moraine",
+          "text": "A melting glacier leaves behind a ridge of the rock it carried",
+          "rationale": "Deposition: where the glacier's ice melts, the rock it was carrying is dropped and piles up into a ridge (a moraine) in a new place."
+        }
+      ],
+      "bins": [
+        {
+          "id": "weath",
+          "label": "Weathering"
+        },
+        {
+          "id": "eros",
+          "label": "Erosion"
+        },
+        {
+          "id": "depo",
+          "label": "Deposition"
+        }
+      ],
+      "answer": {
+        "chem": "weath",
+        "root": "weath",
+        "wind": "eros",
+        "slope": "eros",
+        "lake": "depo",
+        "moraine": "depo"
+      },
+      "explanation": "Ask what is happening to the rock material. If it is breaking down where it sits, whether it cracks apart or a chemical reaction makes it crumble, that is weathering. If it is being picked up and carried off by wind, water, ice or gravity, that is erosion. If carried material is settling and piling up in a new place, that is deposition.",
+      "misconception": "Weathering, erosion and deposition are three names for the same thing: rock wearing away.",
+      "hint": "For each change, ask one question: is the rock breaking, moving, or settling?",
+      "followUpId": "L11-Q27",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            142
+          ],
+          "pdf": [
+            178
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            141
+          ],
+          "pdfPages": [
+            177
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "Weathering is the physical or chemical breakdown of rock at the surface; erosion removes rock material by wind, water, ice or gravity; deposition is the build-up of eroded material carried from elsewhere; uplift raises large areas of crust by forces deep underground; uniformitarianism says observable natural processes worked the same way in the past and will in the future."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Section 1. Small and Large Changes on Earth's Surface, Changes on a Small Scale",
+          "supports": "Weathering breaks rock down at the surface, and organisms, water, ice, wind and gravity can all do it; erosion removes the pieces; deposition lays carried material down somewhere new; weathering is what made sand in the first place."
+        },
+        {
+          "type": "external",
+          "title": "Glacial Geology",
+          "publisher": "U.S. National Park Service, Glacier National Park",
+          "url": "https://www.nps.gov/glac/learn/nature/glacial-geology.htm",
+          "accessed": "2026-10-17",
+          "supports": "A glacier carries rock debris downhill and drops it at its far edge, where the ice is melting; the material piles up into a sharp-edged ridge of loose rock, sand and silt called a moraine."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original items. Drafted from printed pp. 141-142 (rendered). Each item has one defensible bin: two breaking-in-place items (one physical, one chemical), two carrying items, two settling items. Reviser round 1 (2026-10-14): the frost item became a chemical-weathering item (new id chem), so frost wedging is tested only in Q02. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): the desert-dust deposition item was replaced by a glacier-moraine deposition item (new id moraine), the pedagogy reviewer's optional lesson-level suggestion, to cut repeated desert-dust examples (Q04, Q08) and strengthen the glacier theme; NPS Glacier National Park (opened 2026-10-17) supports glaciers dropping carried rock into moraine ridges at their melting edge. The new item has not had a science check. followUpId L11-Q06 -> L11-Q27, because Q06 is now a cementation item. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the p. 141 vocabulary box and the rendered p. 142 text; each of the six items has one defensible bin (two breaking in place, two carrying, two settling). Fresh science check of the moraine item: NPS Glacier National Park, Glacial Geology, re-opened, confirms a glacier drops carried debris at its melting edge as a moraine ridge. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: frost item replaced by a chemical-weathering item (new id chem); explanation covers both kinds of weathering"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: dust item replaced by a glacier-moraine deposition item (new id moraine, lesson-level option); followUpId L11-Q06 -> L11-Q27"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q02",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "weathering",
+        "erosion",
+        "misconception-repair"
+      ],
+      "familyId": "L11-F01",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "After a cold winter, a boulder on a mountainside has split into several chunks, all still sitting where the boulder was. A friend says, \"The boulder has eroded.\" What is the best correction?",
+      "accessiblePrompt": "After a cold winter, a boulder on a mountainside has split into several chunks, all still sitting where the boulder was. A friend says, \"The boulder has eroded.\" What is the best correction?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "It weathered: it broke apart, but nothing has carried the pieces off yet",
+          "rationale": "Correct. Breaking rock where it sits is weathering. Erosion starts only when water, wind, ice or gravity carries the pieces away."
+        },
+        {
+          "id": "f",
+          "text": "Your friend is right: any rock that breaks apart has eroded",
+          "rationale": "Breaking is weathering, not erosion. Erosion means the pieces are carried away, and these chunks have not moved."
+        },
+        {
+          "id": "g",
+          "text": "It was deposited: the chunks settled into a new place",
+          "rationale": "Deposition is carried material settling somewhere new. These chunks were never carried anywhere."
+        },
+        {
+          "id": "h",
+          "text": "It weathered and eroded at once, since breaking and moving are one process",
+          "rationale": "They are separate steps. Weathering can happen without erosion, as it did here."
+        }
+      ],
+      "answer": "e",
+      "explanation": "Weathering breaks rock down; erosion carries the pieces away. The two often happen one after the other, but they are separate steps. Here the boulder has broken, yet every chunk is still in place, so only weathering has happened. If spring meltwater later washes the chunks downhill, that will be erosion.",
+      "misconception": "Any wearing down of rock counts as erosion, even when nothing has moved.",
+      "hint": "Reread where the chunks are now. What would erosion have done to them?",
+      "followUpId": "L11-Q26",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            142
+          ],
+          "pdf": [
+            178
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            141
+          ],
+          "pdfPages": [
+            177
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "Weathering is the physical or chemical breakdown of rock at the surface; erosion removes rock material by wind, water, ice or gravity; deposition is the build-up of eroded material carried from elsewhere; uplift raises large areas of crust by forces deep underground; uniformitarianism says observable natural processes worked the same way in the past and will in the future."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Section 1. Small and Large Changes on Earth's Surface, Changes on a Small Scale",
+          "supports": "Weathering breaks rock down at the surface, and organisms, water, ice, wind and gravity can all do it; erosion removes the pieces; deposition lays carried material down somewhere new; weathering is what made sand in the first place."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 141-142 (rendered). Original scenario; the 'nothing moved' condition makes weathering the single best answer. Reviser round 1 (2026-10-14): follow-up now L11-Q06, where weathering must come before carrying. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): rewritten from the pedagogy reviewer's proposal as F01's misconception-repair item (a friend calls the split boulder 'eroded'), because the earlier version made the same identify-the-process decision as Q01 and its hint repeated the stem. New choice ids e-h; the uplift distractor is gone. Explanation, misconception, scope and evidence kept. Difficulty 1 -> 2; followUpId L11-Q06 -> L11-Q26. The science reviewer passed the earlier version, so this version needs a fresh science check. Verifier (record dated 2026-10-14; system clock 2026-10-17): fresh science check of the rewritten item against the rendered p. 142 definitions: the chunks have not moved, so weathering is the single best correction; each distractor targets a real weathering/erosion/deposition confusion and the key is not the longest choice. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: followUpId L11-Q04 -> L11-Q06 (weathering-then-erosion repair)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as F01's misconception-repair item (new ids e-h); hint; difficulty 2; followUpId L11-Q26"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q03",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "weathering",
+        "origin-of-sand"
+      ],
+      "familyId": "L11-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "The sand grains in the Namib Desert's dunes were once part of solid rock. Which process turned that solid rock into loose sand grains in the first place?",
+      "accessiblePrompt": "The sand grains in the Namib Desert's dunes were once part of solid rock. Which process turned that solid rock into loose sand grains in the first place: weathering, erosion, deposition, or uplift?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deposition",
+          "rationale": "Deposition heaps up sand that already exists. It gathers grains but doesn't make them."
+        },
+        {
+          "id": "b",
+          "text": "Weathering",
+          "rationale": "Correct. Over long spans of time, weathering broke solid rock into smaller and smaller pieces until they were sand-sized."
+        },
+        {
+          "id": "c",
+          "text": "Uplift",
+          "rationale": "Uplift raises large areas of crust. It doesn't make loose grains, and sand isn't pushed up from below."
+        },
+        {
+          "id": "d",
+          "text": "Erosion",
+          "rationale": "Erosion moves grains from place to place, but the grains had to be broken off rock before they could travel."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Most sand, including the Namib's, starts as solid rock. Water, ice, wind, gravity and living things break the rock into smaller and smaller pieces until they are sand-sized; that breaking is weathering. Only then can erosion carry the grains off and deposition heap them into dunes.",
+      "misconception": "Wind or deposition creates sand grains, rather than just moving grains that weathering already made.",
+      "hint": "Wind and water can carry sand, but where did each grain come from in the first place?",
+      "followUpId": "L11-Q04",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            142,
+            143
+          ],
+          "pdf": [
+            178,
+            179
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Section 1. Small and Large Changes on Earth's Surface, Changes on a Small Scale",
+          "supports": "Weathering breaks rock down at the surface, and organisms, water, ice, wind and gravity can all do it; erosion removes the pieces; deposition lays carried material down somewhere new; weathering is what made sand in the first place."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            143
+          ],
+          "pdfPages": [
+            179
+          ],
+          "locator": "Section 1, Many Small Changes Add Up to Large Changes, and Figure 1B",
+          "supports": "Giant Namib dunes and the whole desert formed by erosion and deposition at a larger scale; the sand was once solid rock; many small changes add up to large ones; these changes come from interactions among Earth's four systems."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 142-143 (rendered). The textbook states that weathering made the sand and that Namib sand was once solid rock. Reviser round 1 (2026-10-14): hint no longer restates the key. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): science fix: the stem no longer claims every grain in every desert dune was once solid rock (gypsum and shell-sand dunes exist); it now makes the claim only for the Namib, as the p. 143 Figure 1B caption does, and the explanation says 'most sand'. Pedagogy fix: choices are now the bare process names (same ids and claims), so the key no longer paraphrases the stem; the accessible prompt lists the four processes. This works because Q02 no longer offers the same four one-word choices. followUpId L11-Q06 -> L11-Q04 (agents that break and carry rock), because Q06 is now a cementation item and no longer starts from weathering. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against p. 142 (weathering made the sand in the first place) and the rendered p. 143 Figure 1B caption (the Namib's sand was once solid rock). Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer defines the keyed process"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: claim limited to the Namib's sand; explanation says most sand starts as solid rock"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choices are bare process names (ids kept); accessible prompt lists the four"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q04",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "agents-of-change",
+        "earth-systems"
+      ],
+      "familyId": "L11-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "match",
+      "prompt": "Match each change on Earth's surface to the main agent causing it.",
+      "accessiblePrompt": "Match each of five changes to the main agent causing it. Changes: a fast stream rolls pebbles along its bed; dust from a desert travels far out over the ocean; a boulder tumbles off the top of a thin rock pillar; sand grains grind together under a beetle's feet; a glacier scrapes rock off a valley floor and carries it down the valley. Agents: moving water; wind; gravity; a living thing; ice.",
+      "left": [
+        {
+          "id": "stream",
+          "text": "A fast stream rolls pebbles along its bed",
+          "rationale": "Moving water: the current pushes and rolls loose rock downstream."
+        },
+        {
+          "id": "dust",
+          "text": "Dust from a desert travels far out over the ocean",
+          "rationale": "Wind: moving air lifts fine dust and carries it long distances."
+        },
+        {
+          "id": "topple",
+          "text": "A boulder tumbles off the top of a thin rock pillar",
+          "rationale": "Gravity: once the pillar can't hold it, gravity pulls the boulder down."
+        },
+        {
+          "id": "beetle",
+          "text": "Sand grains grind together under a beetle's feet",
+          "rationale": "A living thing: organisms can break rock material down too, even one tiny step at a time."
+        },
+        {
+          "id": "glacier",
+          "text": "A glacier scrapes rock off a valley floor and carries it down the valley",
+          "rationale": "Ice: a moving glacier grinds rock loose and drags the pieces along with it."
+        }
+      ],
+      "right": [
+        {
+          "id": "water",
+          "text": "Moving water"
+        },
+        {
+          "id": "wind",
+          "text": "Wind"
+        },
+        {
+          "id": "grav",
+          "text": "Gravity"
+        },
+        {
+          "id": "life",
+          "text": "A living thing"
+        },
+        {
+          "id": "ice",
+          "text": "Ice"
+        }
+      ],
+      "answer": {
+        "stream": "water",
+        "dust": "wind",
+        "topple": "grav",
+        "beetle": "life",
+        "glacier": "ice"
+      },
+      "explanation": "Many different agents change Earth's surface. Moving water rolls and carries rock, wind carries dust and sand, gravity pulls loose rock down, glaciers scrape up rock and carry it away, and even living things grind rock. Wind, water, ice and living things belong to Earth's other systems (the atmosphere, hydrosphere and biosphere) acting on rock, and gravity pulls on all of them.",
+      "misconception": "Only rivers and storms change Earth's surface; ice, gravity and small agents like insects don't count.",
+      "hint": "In each change, look for what is actually touching, pushing or pulling on the rock.",
+      "followUpId": "L11-Q01",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            141,
+            142,
+            143,
+            148
+          ],
+          "pdf": [
+            177,
+            178,
+            179,
+            184
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            140,
+            141
+          ],
+          "pdfPages": [
+            176,
+            177
+          ],
+          "locator": "Lesson opener photo and Introduction; Vocabulary box (rendered)",
+          "supports": "The opener shows a glacier in a mountain valley; the introduction asks how ice, moving water and wind change such a landscape; erosion is defined as wind, water, ice or gravity carrying rock material away."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Figure 1A (Small-Scale Changes)",
+          "supports": "Small-scale changes can be caused by living things, wind, water, ice, gravity and chemical reactions; the figure labels sand grains as less than 2 mm across and the dunes shown as tens of meters across."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            143
+          ],
+          "pdfPages": [
+            179
+          ],
+          "locator": "Section 1, Many Small Changes Add Up to Large Changes, and Figure 1B",
+          "supports": "Giant Namib dunes and the whole desert formed by erosion and deposition at a larger scale; the sand was once solid rock; many small changes add up to large ones; these changes come from interactions among Earth's four systems."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            148
+          ],
+          "pdfPages": [
+            184
+          ],
+          "locator": "Section 3. Patterns of Change (hoodoo caps)",
+          "supports": "A hoodoo's boulder topples to the ground when the pillar becomes too thin to hold it."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original pairs. Drafted from printed pp. 142-144 and 148 (rendered). One-to-one; each change has one main agent. Reviser round 1 (2026-10-14): the frost pair became a glacier pair (new id glacier), so the bank now tests ice as an agent of erosion, as the glacier opener (p. 140) and introduction (p. 141) invite; frost wedging stays only in Q02. The explanation follows both reviewers: wind, water, ice and life belong to Earth's other systems, while gravity is a force acting on all of them. Scope adds printed 141 and 148. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fixes: the cave pair, which stated Q05's key, became a moving-water pair (new ids stream/water), so the most common agent is now in the set; the glacier item says 'down the valley' instead of 'downhill' so it no longer cues gravity; the dust item says 'travels' instead of 'streams' so it can't be read as moving water (same claim, id kept); the hint no longer lists one verb per agent; difficulty 2 -> 1. Chemical agents stay covered by Q01 'chem' and Q05. Printed p. 144 left the scope and evidence. Scope note (science reviewer): the scope section is Section 1, where the agents are taught, but the topple pair draws on Section 3 (p. 148), which is why that page is cited. Verifier (record dated 2026-10-14; system clock 2026-10-17): fresh science check of the stream pair and the reworded glacier and dust items against the rendered pp. 140-143 and 148; one-to-one, one main agent per change, and 'down the valley' no longer cues gravity. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: explanation no longer counts gravity as an Earth system; scope adds printed 148 / PDF 184"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: frost pair replaced by a glacier pair (new id glacier); explanation, hint and misconception updated; scope adds printed 141"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: cave pair replaced by a moving-water pair (new ids stream/water); glacier item no longer cues gravity; hint; difficulty 1"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q05",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "chemical-weathering",
+        "caves"
+      ],
+      "familyId": "L11-F02",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Most caves form in limestone. What mainly opens up the empty space of a limestone cave over hundreds of thousands of years?",
+      "accessiblePrompt": "Most caves form in a rock called limestone. What mainly opens up the empty space of a limestone cave over hundreds of thousands of years?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rushing water smashes the rock apart by force",
+          "rationale": "Moving water can wear rock, but limestone caves open up mainly by dissolving, a chemical change, not by smashing."
+        },
+        {
+          "id": "b",
+          "text": "Underground heat melts the limestone away",
+          "rationale": "Rock near the surface is nowhere near hot enough to melt. The limestone dissolves instead."
+        },
+        {
+          "id": "c",
+          "text": "Weakly acidic water dissolves the limestone",
+          "rationale": "Correct. Water carrying a little dissolved carbon dioxide reacts with limestone and carries it away in solution. That is chemical weathering."
+        },
+        {
+          "id": "e",
+          "text": "Earthquakes crack the limestone open into big spaces",
+          "rationale": "Cracks guide where water seeps in, but the big open spaces come from the limestone dissolving, not from the ground splitting apart."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Rainwater picks up a little carbon dioxide and becomes a weak acid. As it seeps through cracks, it reacts with the limestone and carries the rock away dissolved. This chemical weathering is very slow: even fast-growing stream passages widen by about 1 millimeter a year at most, so big caves take hundreds of thousands of years.",
+      "misconception": "Caves are blasted out by the force of moving water or melted out by heat, not dissolved by a chemical reaction.",
+      "hint": "A cave is a huge space where rock used to be, yet there is usually no giant pile of rubble left behind. Where could all that rock have gone?",
+      "followUpId": "L11-Q01",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            144
+          ],
+          "pdf": [
+            180
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        },
+        {
+          "type": "external",
+          "title": "Solution Caves",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/subjects/caves/solution-caves.htm",
+          "accessed": "2026-10-14",
+          "supports": "Solution caves form when weakly acidic water, usually carbonic acid from dissolved carbon dioxide, dissolves limestone along cracks and layers; stream passages grow at most about 1 mm per year, and many caves are hundreds of thousands to millions of years old."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 144 (rendered). Key adds 'weakly acidic' from the NPS (see L11-RF5); the textbook supports chemical weathering dissolving limestone. Reviser round 1 (2026-10-14): both reviewers flagged the sugar-in-tea hint (science: dissolving sugar is a physical change, which clashes with the chemical-weathering key; pedagogy: it pointed straight at choice c). I used the pedagogy hint, hedged with 'usually' because some caves do hold collapse rubble, rather than the science hint, which named a chemical change that only choice c offers. Follow-up moved from L11-Q27 (its cave clue was replaced) to L11-Q18. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fixes: choice d (burrowing animals), which no learner holds, was replaced by an earthquake-cracks distractor (new id e); the NPS Solution Caves record already cited says the water dissolves limestone along cracks. followUpId L11-Q18 -> L11-Q01, because Q18's cave item no longer states the mechanism and Q01's 'chem' item rechecks chemical weathering in another family. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered p. 144 cave text; NPS Solution Caves re-opened: weakly acidic (carbonic) water dissolves limestone along cracks, and stream passages grow at most about 1 mm per year. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer compares cave-forming to dissolving sugar (a physical change)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points straight at the key; followUpId L11-Q27 -> L11-Q18"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d replaced by an earthquake-cracks distractor (new id e); followUpId L11-Q18 -> L11-Q01"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q06",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "compaction-cementation",
+        "sandstone-formation"
+      ],
+      "familyId": "L11-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A drill brings up sand from deep beneath newer layers. Their weight has packed the grains tightly, yet the sample still crumbles in your hand. What still has to happen for this sand to become sandstone?",
+      "accessiblePrompt": "A drill brings up sand from deep underground, beneath newer layers of sediment. The weight of those layers has packed the grains tightly, yet the sample still crumbles in your hand. What still has to happen for this sand to become sandstone?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "Minerals left by groundwater must glue the grains together",
+          "rationale": "Correct. Weight packs the grains (compaction), but minerals left between them by groundwater are what bind them into rock (cementation)."
+        },
+        {
+          "id": "f",
+          "text": "Far more weight must squeeze the grains until they melt together",
+          "rationale": "Sandstone forms without melting; melted rock cools into igneous rock instead. More weight packs the grains tighter, but it is mineral cement that binds them."
+        },
+        {
+          "id": "g",
+          "text": "The layer must be lifted back up to Earth's surface",
+          "rationale": "Uplift can expose sandstone later, but it does not turn loose sand into rock."
+        },
+        {
+          "id": "h",
+          "text": "Wind or water must carry the grains to a new place first",
+          "rationale": "This sand was already carried and laid down. Moving it again would undo the packing, not finish the rock."
+        }
+      ],
+      "answer": "e",
+      "explanation": "Turning sand into sandstone takes two overlapping steps. The weight of newer layers squeezes the grains closer together (compaction). Groundwater seeping through the gaps leaves minerals such as calcium carbonate that glue the grains together (cementation). Without that natural cement, even tightly packed sand stays crumbly.",
+      "misconception": "The weight of overlying layers alone turns sand into solid rock.",
+      "hint": "Compare this crumbly sand with a solid block of sandstone. Is the difference how tightly the grains are packed, or something else?",
+      "followUpId": "L11-Q03",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            144
+          ],
+          "pdf": [
+            180
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        },
+        {
+          "type": "external",
+          "title": "Sand Dunes to Sandstone",
+          "publisher": "U.S. National Park Service, Zion National Park",
+          "url": "https://www.nps.gov/zion/learn/nature/sand-dunes-sandstone.htm",
+          "accessed": "2026-10-14",
+          "supports": "Buried dune sand was packed tighter by the weight of overlying sediment (compaction), and groundwater carrying dissolved calcium carbonate left mineral cement that glued the grains into the Navajo Sandstone."
+        }
+      ],
+      "limitations": "Compaction and cementation overlap in time, and not every sand layer becomes sandstone.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Earlier version (an order item drafted from printed p. 144, rendered, with five steps from weathering to cementation): reviser round 1 (2026-10-14) changed 'cliff' to 'a layer of sandstone' and noted in the limitations that compaction and cementation overlap. The first three pass records below refer to that earlier item. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): REPLACED IN PLACE. The pedagogy reviewer found the five-step order item to be a cross-lesson twin of L17-Q11 (granite cliff to sandstone: weather, carry, drop, compact/cement), its first step stated Q03's key, and its hint fixed four of the five positions. It proposed this single-choice item instead, which tests the distinction only L11 adds (flag L11-RF4: compaction is not cementation). L17 files are outside this reviser's scope, so L17-Q11 is unchanged and the coordinator should record this choice in docs/content-review/L17.md. L17-Q04 (buried, cemented sand: which rock type forms?) was checked and asks a different question. Type order -> single; new choice ids e-h; evidence keeps the p. 144 textbook record and NPS Zion. I changed the reviewer's hint ('What else could change in the spaces between the grains?'), which pointed straight at the gaps the key fills; the new hint only asks whether packing explains the difference. Choice f's rationale drops 'pressure alone only packs the grains' to avoid an absolute. The science reviewer passed the earlier order item, so this item needs a fresh science check. Verifier (record dated 2026-10-14; system clock 2026-10-17): fresh science check of the replacement item: the rendered p. 144 text blends compaction and cementation (RF4); NPS Zion, Sand Dunes to Sandstone, re-opened, confirms pressure from overlying layers plus cement from groundwater carrying calcium carbonate. The hint asks whether packing explains the difference without naming the key. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'sandstone cliff' -> 'layer of sandstone'; limitations note compaction/cementation overlap and later uplift"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: order item (twin of L17-Q11) replaced by a single-choice compaction-vs-cementation item (new ids e-h)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q07",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "uplift",
+        "mountain-building"
+      ],
+      "familyId": "L11-F03",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Rock layers that formed on an ancient seafloor, full of fossil seashells, are now found high in a mountain range. Which process best explains how the layers got so high?",
+      "accessiblePrompt": "Rock layers that formed on an ancient seafloor, full of fossil seashells, are now found high in a mountain range. Which process best explains how those layers ended up so high?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uplift raised a large area of crust over millions of years",
+          "rationale": "Correct. Forces deep underground can slowly lift whole regions of crust, including old seafloor, into mountain ranges."
+        },
+        {
+          "id": "b",
+          "text": "Deposition kept stacking seafloor mud until it reached that height",
+          "rationale": "Deposition piles layers onto the seafloor, but it can't lift the seafloor itself thousands of meters above the sea."
+        },
+        {
+          "id": "c",
+          "text": "Erosion carried the shells uphill from the coast",
+          "rationale": "Erosion moves loose bits, not intact rock layers. It couldn't haul whole layers, shells and all, up a mountain."
+        },
+        {
+          "id": "e",
+          "text": "A volcano blasted the seafloor layers up onto the mountain",
+          "rationale": "Eruptions bring up molten rock that cools into new volcanic rock. They do not lift whole, fossil-filled seafloor layers thousands of meters, still in one piece."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Uplift slowly raises broad regions of the crust, pushed by forces far underground. Over millions of years it can lift rock that formed under the sea into mountains. Once the rock is raised, weathering and erosion start wearing those mountains down.",
+      "misconception": "Mountains are built by piling up deposits, not by forces raising the crust.",
+      "hint": "Where did these layers form, and how far above that place are they now?",
+      "followUpId": "L11-Q18",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            144
+          ],
+          "pdf": [
+            180
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            141
+          ],
+          "pdfPages": [
+            177
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "Weathering is the physical or chemical breakdown of rock at the surface; erosion removes rock material by wind, water, ice or gravity; deposition is the build-up of eroded material carried from elsewhere; uplift raises large areas of crust by forces deep underground; uniformitarianism says observable natural processes worked the same way in the past and will in the future."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original scenario applying the textbook's definition of uplift (printed pp. 141, 144, rendered). The textbook does not mention marine fossils; the tested claim is only that uplift raises large areas of crust into mountain ranges. Reviser round 1 (2026-10-14): hint no longer restates the definition of uplift. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fixes: the hint no longer says the ground underneath had to move (that names uplift); choice d (weathering pieces drifting upward), which no learner holds, was replaced by a volcano distractor (new id e). Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the p. 141 vocabulary box and the rendered p. 144 uplift text; only uplift raises crust, and the marine-fossil scenario is an original application of that definition. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the definition of the keyed process"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the moving ground; choice d replaced by a volcano distractor (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q08",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "spatial-scale",
+        "sand-features"
+      ],
+      "familyId": "L11-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Arrange these features of a sandy desert from smallest to largest.",
+      "accessiblePrompt": "Arrange five features of a sandy desert from smallest to largest. The features are: a single ripple on a dune's surface; the whole sand desert along the coast; a single sand grain; a dune as tall as a skyscraper; and a speck of dust chipped off a sand grain.",
+      "items": [
+        {
+          "id": "ripple",
+          "text": "A single ripple on a dune's surface",
+          "rationale": "Third: a ripple is only centimeters high, with crests a few to tens of centimeters apart, bigger than a grain but tiny next to a dune."
+        },
+        {
+          "id": "desert",
+          "text": "The whole sand desert along the coast",
+          "rationale": "Last: the desert stretches for hundreds of kilometers."
+        },
+        {
+          "id": "grain",
+          "text": "A single sand grain",
+          "rationale": "Second: a sand grain is less than 2 millimeters across."
+        },
+        {
+          "id": "dune",
+          "text": "A dune as tall as a skyscraper",
+          "rationale": "Fourth: a dune can be hundreds of meters tall, but it is only one part of the desert."
+        },
+        {
+          "id": "dust",
+          "text": "A speck of dust chipped off a sand grain",
+          "rationale": "First: dust is what grains become when they break down even further, so it is smaller than a grain."
+        }
+      ],
+      "answer": [
+        "dust",
+        "grain",
+        "ripple",
+        "dune",
+        "desert"
+      ],
+      "ends": [
+        "Smallest",
+        "Largest"
+      ],
+      "explanation": "Surface changes happen at every size: dust specks too small to see, grains under 2 millimeters, ripples only centimeters high, dunes hundreds of meters tall and a sand sea stretching hundreds of kilometers. The same processes, weathering, erosion and deposition, are at work across all of these scales.",
+      "misconception": "Changes on Earth's surface happen at only one size, the size we can easily see.",
+      "hint": "Start with the thing you would need a microscope or magnifying glass to see.",
+      "followUpId": "L11-Q17",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            142,
+            143
+          ],
+          "pdf": [
+            178,
+            179
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Figure 1A (Small-Scale Changes)",
+          "supports": "Small-scale changes can be caused by living things, wind, water, ice, gravity and chemical reactions; the figure labels sand grains as less than 2 mm across and the dunes shown as tens of meters across."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            143
+          ],
+          "pdfPages": [
+            179
+          ],
+          "locator": "Section 1, Many Small Changes Add Up to Large Changes, and Figure 1B",
+          "supports": "Giant Namib dunes and the whole desert formed by erosion and deposition at a larger scale; the sand was once solid rock; many small changes add up to large ones; these changes come from interactions among Earth's four systems."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 142-143 and Figures 1A and 1B (rendered): grains under 2 mm, dunes tens of meters to kilometers, desert hundreds of kilometers; grains broken further into dust. Reviser round 1 (2026-10-14): 'a ripple pattern' became 'a single ripple' so its size can't be read as a whole dune face; same item, id kept. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered Figure 1A labels (grains under 2 mm, dunes tens of meters) and Figure 1B (desert about 700 km along the coast); the five sizes are far apart, so one order is defensible. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'ripple pattern' -> 'single ripple'; ripple spacing now a few to tens of centimeters"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q09",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "spatial-scale",
+        "unit-conversion"
+      ],
+      "familyId": "L11-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "Suppose a sand grain is 2 mm across, the largest size still called sand, and a dune is 300 m tall, close to the height of the tallest Namib dunes. How many grain-widths tall is the dune?",
+      "accessiblePrompt": "Suppose a sand grain is 2 millimeters across, the largest size still called sand, and a dune is 300 meters tall, close to the height of the tallest dunes in the Namib Desert. How many grain widths tall is the dune? Give a number.",
+      "answer": 150000,
+      "tolerance": 0,
+      "unit": "grain widths",
+      "workedSolution": "Put both sizes in the same unit first. 1 m = 1,000 mm, so 300 m = 300 × 1,000 mm = 300,000 mm. Then divide by the width of one grain: 300,000 mm ÷ 2 mm = 150,000 grain widths.",
+      "explanation": "The dune is about 150,000 grains tall, which shows how huge the range of spatial scales is, even inside one desert. Every one of those grains was broken from rock, carried and dropped, one small change at a time. (Your textbook gives 240 m for some of the largest dunes; NASA puts the tallest at about 325 m.)",
+      "misconception": "You can compare sizes in meters and millimeters directly, without first changing them into the same unit.",
+      "hint": "How many millimeters are there in one meter?",
+      "followUpId": "L11-Q16",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            142,
+            143
+          ],
+          "pdf": [
+            178,
+            179
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Figure 1A (Small-Scale Changes)",
+          "supports": "Small-scale changes can be caused by living things, wind, water, ice, gravity and chemical reactions; the figure labels sand grains as less than 2 mm across and the dunes shown as tens of meters across."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            143
+          ],
+          "pdfPages": [
+            179
+          ],
+          "locator": "Section 1, Many Small Changes Add Up to Large Changes, and Figure 1B",
+          "supports": "Giant Namib dunes and the whole desert formed by erosion and deposition at a larger scale; the sand was once solid rock; many small changes add up to large ones; these changes come from interactions among Earth's four systems."
+        },
+        {
+          "type": "external",
+          "title": "Namib Sand Sea (Image of the Day, November 26, 2021)",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/namib-sand-sea-149130/",
+          "accessed": "2026-10-14",
+          "supports": "The Namib Sand Sea spans about 34,000 km² of coastal Namibia; its tallest dune, nicknamed Big Daddy, is about 325 m tall; Dune 45 is built of sands about 5 million years old; most of the sand comes from erosion to the south near the Orange River and is carried north along the coast."
+        }
+      ],
+      "units": "millimeters and meters",
+      "conditions": "Every grain is treated as exactly 2 mm wide and stacked in a single straight column; real grains vary in size and pack loosely.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Round, stated values; the textbook's own dune height is 240 m and NASA gives about 325 m for the tallest (see L11-RF9). Exact answer, tolerance 0. Reviser round 1 (2026-10-14): the prompt no longer asserts a tallest-dune fact that conflicts with the textbook's 240 m; the explanation gives both figures. Verifier (record dated 2026-10-14; system clock 2026-10-17): arithmetic verified (300 m = 300,000 mm; 300,000 / 2 = 150,000); NASA Earth Observatory, Namib Sand Sea, re-opened (tallest dune about 325 m), and the textbook's 240 m is on the rendered p. 143. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: 'a little shorter than the tallest Namib dune' -> 'close to the height of the tallest Namib dunes'; explanation names 240 m and 325 m"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q10",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "time-scale",
+        "process-durations"
+      ],
+      "familyId": "L11-F05",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Using typical times from the lesson, order these events from the one that takes the least time to the one that takes the most.",
+      "accessiblePrompt": "Using typical times from the lesson, order five events from the one that takes the least time to the one that takes the most. The events are: uplift raises the Rocky Mountains; a flash flood surges through a canyon; continents reach their present shapes; a fast landslide rushes down a hillside; and a glacial period keeps much of a continent under thick ice.",
+      "items": [
+        {
+          "id": "rockies",
+          "text": "Uplift raises the Rocky Mountains",
+          "rationale": "Fourth: mountain-building uplift takes tens of millions of years."
+        },
+        {
+          "id": "flood",
+          "text": "A flash flood surges through a canyon",
+          "rationale": "Second: flash floods typically last a few hours."
+        },
+        {
+          "id": "continents",
+          "text": "Continents reach their present shapes",
+          "rationale": "Last: the continents have taken billions of years to reach their current shapes and positions."
+        },
+        {
+          "id": "slide",
+          "text": "A fast landslide rushes down a hillside",
+          "rationale": "First: a fast landslide can be over in a few minutes."
+        },
+        {
+          "id": "ice",
+          "text": "A glacial period keeps much of a continent under thick ice",
+          "rationale": "Third: glacial periods last more than 10,000 years, far longer than a flood but far shorter than mountain building."
+        }
+      ],
+      "answer": [
+        "slide",
+        "flood",
+        "ice",
+        "rockies",
+        "continents"
+      ],
+      "ends": [
+        "Least time",
+        "Most time"
+      ],
+      "explanation": "Earth processes span an enormous range of times. A landslide is over in minutes and a flash flood in hours. A glacial period lasts more than 10,000 years, uplift of a mountain range takes tens of millions of years, and shaping the continents has taken billions of years.",
+      "misconception": "Earth processes all take about the same very long time, or the most dramatic events are always the slowest.",
+      "hint": "Label each one: minutes, hours, thousands of years, millions of years or billions of years.",
+      "followUpId": "L11-Q18",
+      "scope": {
+        "lessonId": "L11",
+        "section": "Key Science Concept: Earth Processes at Different Scales of Time and Space",
+        "pages": {
+          "printed": [
+            144,
+            145,
+            147
+          ],
+          "pdf": [
+            180,
+            181,
+            183
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            147
+          ],
+          "pdfPages": [
+            183
+          ],
+          "locator": "Key Science Concept spread, 'Global Cooling' and 'Mountain Formation' cards (rendered)",
+          "supports": "Glacial periods keep huge areas under thick ice for more than 10,000 years; uplift formed the Rocky Mountains over about 30 million years."
+        }
+      ],
+      "limitations": "Real durations vary from case to case; the order uses the typical values given in the lesson, which differ by large factors.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 144-145 and 147 (rendered). The five typical durations are far apart, so one order is defensible even though the textbook's uplift figures disagree (see L11-RF10). Reviser round 1 (2026-10-14): 'a continent' became 'much of a continent'; same item, id kept. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): no change. Scope note (science reviewer): the scope section is the Key Science Concept, but the minutes, hours and billions-of-years durations come from Section 2 (pp. 144-145), so those pages are cited. The billions-of-years item is now also stated in Science Explorer (O3 card, paragraph 1), as the pedagogy reviewer asked. Verifier (record dated 2026-10-14; system clock 2026-10-17): durations verified on the rendered pages: continents billions of years (p. 144 text and photo label), flash flood several hours and landslide several minutes (p. 145), glacial period more than 10,000 years and Rockies about 30 million years (p. 147). One defensible order. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: ice item says 'much of a continent'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q11",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "time-scale",
+        "scale-models"
+      ],
+      "familyId": "L11-F05",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "The lesson's time-and-space chart marks its time axis in big jumps: microseconds, seconds, minutes, hours, days, years, centuries, thousands, millions and billions of years. Why does the chart use these jumps instead of spacing the years evenly?",
+      "accessiblePrompt": "The lesson's time-and-space chart marks its time axis in big jumps: microseconds, seconds, minutes, hours, days, years, centuries, thousands of years, millions of years, and billions of years. Why does the chart use these jumps instead of spacing the years evenly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Geologists can only date rocks to the nearest billion years, so finer steps are useless",
+          "rationale": "Geologists date many events far more precisely than that. The jumps exist to fit a huge range of times onto one page."
+        },
+        {
+          "id": "e",
+          "text": "Big jumps show the true proportions of time better than even spacing would",
+          "rationale": "It's the reverse: the jumps stretch short spans and squeeze long ones, so distances on the chart don't show true proportions of time. Even spacing would show them, but short events would vanish."
+        },
+        {
+          "id": "c",
+          "text": "Minutes-long events would vanish beside billions of years on an even scale",
+          "rationale": "Correct. With even spacing, anything lasting minutes or days would be squeezed into an invisible sliver next to billions of years."
+        },
+        {
+          "id": "d",
+          "text": "Short events matter too little to be worth showing on a chart about Earth's history",
+          "rationale": "Short events like landslides and flash floods can reshape land, so the chart is designed to keep them visible."
+        }
+      ],
+      "answer": "c",
+      "explanation": "The processes in this lesson last anywhere from fractions of a second to billions of years. A billion years holds more than 500 trillion minutes, so on an evenly spaced axis a landslide would be thinner than any line you could draw. Jumping to bigger and bigger units keeps fast and slow processes visible on one chart, but it means the chart doesn't show true proportions.",
+      "misconception": "Each step on a scale chart covers the same amount of time, so the chart shows true proportions.",
+      "hint": "Picture one minute drawn next to a billion years on the same ruler.",
+      "followUpId": "L11-Q15",
+      "scope": {
+        "lessonId": "L11",
+        "section": "Key Science Concept: Earth Processes at Different Scales of Time and Space",
+        "pages": {
+          "printed": [
+            146,
+            147
+          ],
+          "pdf": [
+            182,
+            183
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept: Earth Processes at Different Scales of Time and Space (rendered)",
+          "supports": "The chart places processes on a space axis (atomic, microscopic, human, regional, continental, global, solar system, astronomical) and a time axis (microseconds to billions of years); the human scale runs from seconds to years and from millimeters to kilometers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            141
+          ],
+          "pdfPages": [
+            177
+          ],
+          "locator": "NGSS box, Crosscutting Concepts: Scale, Proportion and Quantity (rendered)",
+          "supports": "Time, space and energy phenomena can be observed at various scales, using models to study systems that are too large or too small."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 141 and 146-147 (rendered; the spread's axis labels are missing from the OCR). Arithmetic: 10^9 years x about 525,960 minutes per year is about 5.3 x 10^14 minutes. Reviser round 1 (2026-10-14): the axis list now starts at microseconds, as on the rendered p. 146; the stem asks why the chart uses the jumps; choice b (a non-answer) was replaced by a true-proportions distractor (new id e), the misconception this item targets. I used the science reviewer's statement-form wording so it parallels the other choices, with a rationale combining both reviewers'. Verifier (record dated 2026-10-14; system clock 2026-10-17): axis labels verified on the rendered pp. 146-147 (microseconds through billions of years, matching the stem); about 5.3 x 10^14 minutes in a billion years checked. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: axis list starts at microseconds; choice b replaced by a true-proportions distractor (new id e)"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: axis starts at microseconds; stem reworded; choice b replaced (new id e) to target the stated misconception"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q12",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "human-scale",
+        "time-and-space-scales"
+      ],
+      "familyId": "L11-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Your senses work on the human scale: sizes from about a millimeter to a few kilometers, and times from seconds to years. Which change lies outside the human scale in both size and time?",
+      "accessiblePrompt": "Your senses work on the human scale: sizes from about a millimeter to a few kilometers, and times from seconds to years. Which of these four changes lies outside the human scale in both size and time? A flash flood reshapes a few kilometers of stream bed in an afternoon. A hoodoo tens of meters tall takes thousands of years to form. Dust from a large asteroid impact cools the entire planet within a few days. A river carves a canyon hundreds of kilometers long over millions of years.",
+      "choices": [
+        {
+          "id": "e",
+          "text": "A flash flood reshapes a few kilometers of stream bed in an afternoon",
+          "rationale": "A few kilometers and a few hours both fit inside the human scale, so this change sits inside the window on both counts."
+        },
+        {
+          "id": "f",
+          "text": "A hoodoo tens of meters tall takes thousands of years to form",
+          "rationale": "Only its time is beyond the human scale. Tens of meters is a size you can see and walk around."
+        },
+        {
+          "id": "g",
+          "text": "Dust from a large asteroid impact cools the entire planet within a few days",
+          "rationale": "Only its size is beyond the human scale. The whole planet is far too big to sense directly, but a few days fits inside the window."
+        },
+        {
+          "id": "h",
+          "text": "A river carves a canyon hundreds of kilometers long over millions of years",
+          "rationale": "Correct. Hundreds of kilometers and millions of years are both far beyond what a person can sense directly."
+        }
+      ],
+      "answer": "h",
+      "explanation": "The human scale is a window in both size and time. A hoodoo sticks out of that window in time only, and asteroid cooling in size only, while carving a long canyon over millions of years lies beyond it on both counts. No one can watch a change like that directly, which is why scientists use rock records, maps and models.",
+      "misconception": "A change that is too slow to watch must also be too big to see, or the reverse.",
+      "hint": "Check each change twice: once for its size and once for how long it takes.",
+      "followUpId": "L11-Q14",
+      "scope": {
+        "lessonId": "L11",
+        "section": "Key Science Concept: Earth Processes at Different Scales of Time and Space",
+        "pages": {
+          "printed": [
+            145,
+            146,
+            147,
+            148
+          ],
+          "pdf": [
+            181,
+            182,
+            183,
+            184
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146
+          ],
+          "pdfPages": [
+            182
+          ],
+          "locator": "Key Science Concept introduction (rendered)",
+          "supports": "People sense the human scale directly: times from seconds to years and sizes from millimeters to kilometers; anything shorter, longer, smaller or larger needs other scales."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept spread, asteroid 'Global Cooling' and Grand Canyon 'Erosion' cards (rendered)",
+          "supports": "Asteroid dust can cool the whole globe within days; the Grand Canyon, placed at the regional scale, was carved by flowing water over about 5 million years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            148
+          ],
+          "pdfPages": [
+            184
+          ],
+          "locator": "Section 3. Patterns of Change (hoodoos)",
+          "supports": "Hoodoos are rock pillars about 1.5 to 45 m tall, usually with a cap of more resistant rock that protects the rock under it; they form by weathering and erosion over thousands to millions of years, look unchanged from year to year, and can suddenly lose their caps when the pillar gets too thin."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Rewritten in reviser round 1 (2026-10-14) from the pedagogy reviewer's proposal. The earlier 'watch it in one day' version was a subset of Q18's sort and its hint gave the answer away. The new item tests the human-scale window on both scales, with new choice ids e-h. Drafted from printed pp. 145-148 (rendered): human scale p. 146, asteroid cooling and Grand Canyon cards pp. 146-147, flash floods p. 145, hoodoo size and age p. 148. Category changed from foundational to application, because the learner applies the human-scale definition to two dimensions; Q20 moved to foundational, so the mix stays 9/9/10. The science reviewer passed the earlier version, so this version needs a fresh science check. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fix: family L11-F05 (time scale) -> L11-F06 (both scales), because the item tests the human-scale window in size and time; followUpId L11-Q14 stays valid because Q14 moved to F04. Scope note (science reviewer): the section label is the Key Science Concept, but the flash-flood and hoodoo choices draw on Section 2 (p. 145) and Section 3 (p. 148). Verifier (record dated 2026-10-14; system clock 2026-10-17): fresh science check of the rewritten item: human scale defined on the rendered p. 146; asteroid card (global row, days column) and Grand Canyon card (regional row, millions column, about 5 million years) verified on the 110 and 200 dpi renders; hoodoo size and age on p. 148. Exactly one choice lies outside the window on both counts. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten to test the human-scale window in both size and time (new ids e-h); category application; followUpId L11-Q14"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: familyId L11-F05 -> L11-F06"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "The human-scale limits are approximate; the lesson gives them as millimeters to kilometers and seconds to years."
+    },
+    {
+      "id": "L11-Q13",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "time-and-space-scales",
+        "seed-question"
+      ],
+      "familyId": "L11-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why do scientists describe each Earth process with both a time scale and a spatial scale?",
+      "accessiblePrompt": "Why do scientists describe each Earth process using both a time scale and a spatial scale?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Processes differ both in how long they take and in how much of Earth they affect",
+          "rationale": "Correct. Some processes are quick but planet-wide, others are tiny but slow, so both scales are needed to describe and compare them."
+        },
+        {
+          "id": "b",
+          "text": "Bigger processes always take longer, so knowing the size tells you the duration too",
+          "rationale": "Size doesn't predict duration: an asteroid's dust can cool the whole planet in days, while a small cave formation takes thousands of years."
+        },
+        {
+          "id": "e",
+          "text": "One scale tells where a process happens, and the other tells when it happened",
+          "rationale": "Scales describe how big and how long, not where or when. A landslide that covers hundreds of meters has that spatial scale whether it happens today or long ago, here or on another continent."
+        },
+        {
+          "id": "f",
+          "text": "Two scales make the chart easier to read, even though one would describe each process fully",
+          "rationale": "One scale can't describe a process fully: two processes can last equally long yet affect very different amounts of Earth, so both are needed."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Size and duration are separate questions. Dust from an asteroid impact can cool the whole planet within days, while a cave formation tens of centimeters across can take thousands of years to grow. Giving both scales lets scientists compare processes fairly and pick the right tools and models to study them.",
+      "misconception": "A process's size and its speed always go together, so one scale is enough.",
+      "hint": "Can something small take a very long time? Can something huge happen fast?",
+      "followUpId": "L11-Q10",
+      "scope": {
+        "lessonId": "L11",
+        "section": "Key Science Concept: Earth Processes at Different Scales of Time and Space",
+        "pages": {
+          "printed": [
+            141,
+            146,
+            147
+          ],
+          "pdf": [
+            177,
+            182,
+            183
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            141
+          ],
+          "pdfPages": [
+            177
+          ],
+          "locator": "Introduction",
+          "supports": "Changes to Earth's surface occur at different scales of space and time: some are microscopic and others global; some take a fraction of a second and others billions of years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept: Earth Processes at Different Scales of Time and Space (rendered)",
+          "supports": "The chart places processes on a space axis (atomic, microscopic, human, regional, continental, global, solar system, astronomical) and a time axis (microseconds to billions of years); the human scale runs from seconds to years and from millimeters to kilometers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept spread, 'Global Cooling' (asteroid) and cave 'Rock Formation' cards (rendered)",
+          "supports": "Asteroid impacts can cause global cooling within days, while water dripping in caves for thousands of years forms mineral structures tens of centimeters across."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question (master brief section 7, entry 11), polished: processes differ in how long they take and how much of Earth they affect. Drafted from printed pp. 141 and 146-147 (rendered). Reviser round 1 (2026-10-14): choice c (same units) was replaced by a where/when mix-up (new id e). Under the pedagogy reviewer's bank-wide rule of at most one absolute-worded distractor, d ('Only processes that are tiny and quick...') was also replaced, by a 'two scales are just for show' distractor (new id f). Choice b keeps 'always' because that absolute is the misconception tested. Seed key a is unchanged. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fix: the accessible prompt no longer adds definitions of the two scales that the key restates, so read-aloud users get the same item as sighted users. Science fix: choice e's rationale no longer claims every landslide covers hundreds of meters. Seed key a unchanged. Verifier (record dated 2026-10-14; system clock 2026-10-17): brief seed question (section 7, entry 11); the key matches the brief's answer; pp. 141 and 146-147 checked, and the asteroid and cave-drip contrasts in the rationales match the spread cards. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c replaced by a where/when distractor (new id e); d replaced so only b carries an absolute (new id f)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice e rationale no longer says every landslide covers hundreds of meters"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: accessible prompt no longer adds definitions that cue the key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q14",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "spatial-scale",
+        "time-space-chart"
+      ],
+      "familyId": "L11-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each process by its spatial scale: how much area it affects.",
+      "accessiblePrompt": "Sort six processes by their spatial scale, meaning how much area each one affects. The three groups are: human scale, from millimeters to a few kilometers; regional to continental, from hundreds to thousands of kilometers; and global, the whole planet. The processes are: a landslide carries rock and soil hundreds of meters downhill; dripping water builds a mineral formation tens of centimeters across in a cave; a river carves a canyon hundreds of kilometers long; ice sheets thousands of kilometers wide cover land during a glacial period; uplift raises a mountain range thousands of kilometers long; and dust from a large asteroid impact cools Earth everywhere.",
+      "items": [
+        {
+          "id": "slide",
+          "text": "A landslide carries rock and soil hundreds of meters downhill",
+          "rationale": "Human scale: hundreds of meters is well under a few kilometers."
+        },
+        {
+          "id": "drip",
+          "text": "Dripping water builds a mineral formation tens of centimeters across in a cave",
+          "rationale": "Human scale: tens of centimeters, even though it takes thousands of years."
+        },
+        {
+          "id": "canyon",
+          "text": "A river carves a canyon hundreds of kilometers long",
+          "rationale": "Regional to continental: the canyon stretches hundreds of kilometers."
+        },
+        {
+          "id": "ice",
+          "text": "Ice sheets thousands of kilometers wide cover land during a glacial period",
+          "rationale": "Regional to continental: an ice sheet thousands of kilometers wide covers much of a continent, but not the whole planet."
+        },
+        {
+          "id": "range",
+          "text": "Uplift raises a mountain range thousands of kilometers long",
+          "rationale": "Regional to continental: a range thousands of kilometers long spans much of a continent."
+        },
+        {
+          "id": "impact",
+          "text": "Dust from a large asteroid impact cools Earth everywhere",
+          "rationale": "Global: the dust spreads through the atmosphere and cools the entire planet."
+        }
+      ],
+      "bins": [
+        {
+          "id": "human",
+          "label": "Human scale (millimeters to a few kilometers)"
+        },
+        {
+          "id": "regcont",
+          "label": "Regional to continental (hundreds to thousands of kilometers)"
+        },
+        {
+          "id": "global",
+          "label": "Global (the whole planet)"
+        }
+      ],
+      "answer": {
+        "slide": "human",
+        "drip": "human",
+        "canyon": "regcont",
+        "ice": "regcont",
+        "range": "regcont",
+        "impact": "global"
+      },
+      "explanation": "Spatial scale is about area, not time. A landslide and a cave formation stay within the human scale even though one takes minutes and the other thousands of years. A canyon, an ice sheet and a mountain range cover hundreds to thousands of kilometers. An asteroid's dust cloud can affect the whole planet.",
+      "misconception": "Processes that last a long time must also cover a large area.",
+      "hint": "Look at the size clue in each item and compare it with a few kilometers and with the whole planet.",
+      "followUpId": "L11-Q15",
+      "scope": {
+        "lessonId": "L11",
+        "section": "Key Science Concept: Earth Processes at Different Scales of Time and Space",
+        "pages": {
+          "printed": [
+            146,
+            147
+          ],
+          "pdf": [
+            182,
+            183
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept: Earth Processes at Different Scales of Time and Space (rendered)",
+          "supports": "The chart places processes on a space axis (atomic, microscopic, human, regional, continental, global, solar system, astronomical) and a time axis (microseconds to billions of years); the human scale runs from seconds to years and from millimeters to kilometers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept spread, card placements on the space axis (rendered at 200 dpi)",
+          "supports": "The landslide and cave-drip cards sit in the human-scale row, the Grand Canyon card in the regional row, the glacial-period and Rocky Mountain cards in the continental row, and the asteroid global-cooling card in the global row."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 146-147, re-rendered at 200 dpi to read each leader line's row. Bins include explicit size ranges so every item has one defensible bin. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fixes: family L11-F06 -> L11-F04, because it sorts by space only; followUpId L11-Q08 (now the same family) -> L11-Q15 (small in space but long in time). The ice item now gives a width in kilometers, so it can be compared with the bins' lengths; the card's 'millions of km²' corresponds to an ice sheet on the order of a thousand or more kilometers across, so its bin is unchanged. Verifier (record dated 2026-10-14; system clock 2026-10-17): placements verified on the 110 and 200 dpi renders: landslide and cave-drip leader lines end in the human row, Grand Canyon in the regional row, glacial period and Rocky Mountains in the continental row, asteroid cooling in the global row. The bins' stated ranges give each item one defensible bin. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: familyId L11-F06 -> L11-F04; followUpId L11-Q08 -> L11-Q15; ice item gives a width in km"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q15",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O2"
+      ],
+      "conceptTags": [
+        "time-and-space-scales",
+        "data-table"
+      ],
+      "familyId": "L11-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Use the table. Which process shows most clearly that something small in space can still take a very long time?",
+      "accessiblePrompt": "A table lists four processes with the space each affects and the time each takes. Asteroid dust cooling the planet: global; days to years. A landslide on a hillside: hundreds of meters; minutes. A cave drip formation growing: tens of centimeters; thousands of years. A glacial period: millions of square kilometers; more than 10,000 years. Which process shows most clearly that something small in space can still take a very long time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Asteroid dust cools the planet",
+          "rationale": "This shows the opposite pattern: a huge, planet-wide effect that happens fast."
+        },
+        {
+          "id": "b",
+          "text": "Landslide on a hillside",
+          "rationale": "A landslide is small and also quick, so it doesn't show a small process taking a long time."
+        },
+        {
+          "id": "c",
+          "text": "Cave drip formation grows",
+          "rationale": "Correct. It covers only tens of centimeters yet takes thousands of years."
+        },
+        {
+          "id": "d",
+          "text": "Glacial period",
+          "rationale": "A glacial period is slow, but it is also enormous, so it doesn't show something small taking a long time."
+        }
+      ],
+      "answer": "c",
+      "explanation": "A cave formation only tens of centimeters across takes thousands of years to grow, so small does not mean fast. The asteroid row shows the reverse: a planet-wide effect within days. Only by reading both columns together can you spot these differences.",
+      "misconception": "Small things always change quickly and big things always change slowly.",
+      "hint": "Find the row where the space column is small but the time column is long.",
+      "followUpId": "L11-Q11",
+      "scope": {
+        "lessonId": "L11",
+        "section": "Key Science Concept: Earth Processes at Different Scales of Time and Space",
+        "pages": {
+          "printed": [
+            146,
+            147
+          ],
+          "pdf": [
+            182,
+            183
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept: Earth Processes at Different Scales of Time and Space (rendered)",
+          "supports": "The chart places processes on a space axis (atomic, microscopic, human, regional, continental, global, solar system, astronomical) and a time axis (microseconds to billions of years); the human scale runs from seconds to years and from millimeters to kilometers."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            146,
+            147
+          ],
+          "pdfPages": [
+            182,
+            183
+          ],
+          "locator": "Key Science Concept spread, 'Global Cooling', 'Erosion' (landslide) and cave 'Rock Formation' cards (rendered)",
+          "supports": "Asteroid dust causes global cooling within days; landslides move rock and soil hundreds of meters in minutes; cave drips form structures tens of centimeters across over thousands of years; glacial periods cover millions of square kilometers for more than 10,000 years."
+        }
+      ],
+      "diagram": {
+        "kind": "table",
+        "caption": "Four processes from the lesson's time-and-space chart",
+        "alt": "A table with three columns: process, space it affects, and time it takes. Row 1: asteroid dust cools the planet; global; days to years. Row 2: landslide on a hillside; hundreds of meters; minutes. Row 3: cave drip formation grows; tens of centimeters; thousands of years. Row 4: glacial period; millions of square kilometers; more than 10,000 years.",
+        "columns": [
+          "Process",
+          "Space it affects",
+          "Time it takes"
+        ],
+        "rows": [
+          [
+            "Asteroid dust cools the planet",
+            "Global",
+            "Days to years"
+          ],
+          [
+            "Landslide on a hillside",
+            "Hundreds of meters",
+            "Minutes"
+          ],
+          [
+            "Cave drip formation grows",
+            "Tens of centimeters",
+            "Thousands of years"
+          ],
+          [
+            "Glacial period",
+            "Millions of km²",
+            "More than 10,000 years"
+          ]
+        ]
+      },
+      "review": {
+        "status": "reviewed",
+        "notes": "Values taken from the rendered Key Science Concept spread (printed pp. 146-147). Exactly one row is small in space and long in time. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fix: difficulty 3 -> 2, since only one row is small in space and long in time. Verifier (record dated 2026-10-14; system clock 2026-10-17): table values verified against the rendered spread cards (pp. 146-147) and p. 145 (cooling lasting days to years); only the cave-drip row is small in space and long in time. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: difficulty 3 -> 2"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q16",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3"
+      ],
+      "conceptTags": [
+        "small-changes-add-up",
+        "continental-motion"
+      ],
+      "familyId": "L11-F07",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "Suppose a continent drifts at a steady 2.5 cm per year, about the average rate the Atlantic Ocean floor spreads. How many kilometers would it move in 1 million years?",
+      "accessiblePrompt": "Suppose a continent drifts at a steady 2.5 centimeters per year, about the average rate at which the Atlantic Ocean floor spreads apart. How many kilometers would it move in 1 million years? Give a number of kilometers.",
+      "answer": 25,
+      "tolerance": 0,
+      "unit": "km",
+      "workedSolution": "Distance = rate × time = 2.5 cm/year × 1,000,000 years = 2,500,000 cm. There are 100 cm in 1 m, so 2,500,000 cm = 25,000 m. There are 1,000 m in 1 km, so 25,000 m = 25 km.",
+      "explanation": "A few centimeters a year is far too slow to feel, but it never stops. In 1 million years it adds up to about 25 km, and over hundreds of millions of years motions like this carry continents thousands of kilometers. Tiny steady changes add up to huge ones.",
+      "misconception": "Changes too small to notice in a year can't add up to anything important.",
+      "hint": "Multiply first, then convert centimeters to meters and meters to kilometers.",
+      "followUpId": "L11-Q09",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            144
+          ],
+          "pdf": [
+            180
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        },
+        {
+          "type": "external",
+          "title": "Understanding plate motions (This Dynamic Earth)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "accessed": "2026-10-14",
+          "supports": "Seafloor-spreading rates (how fast two plates move apart at a ridge) differ from place to place: the Arctic Ridge spreads at less than 2.5 cm/yr, the East Pacific Rise at more than 15 cm/yr, and the Mid-Atlantic Ridge averages about 2.5 cm/yr."
+        }
+      ],
+      "units": "centimeters per year; answer in kilometers",
+      "conditions": "Assumes a perfectly steady rate. Real rates differ: the USGS reports seafloor-spreading rates (how fast two plates move apart) from under 2.5 cm to more than 15 cm per year, and rates can change over time.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 144 (rendered). Uses a stated steady rate of 2.5 cm/yr (USGS Mid-Atlantic average) instead of the textbook's 1-3 cm/yr (see L11-RF3). Exact answer, tolerance 0. Reviser round 1 (2026-10-14): conditions now say the USGS range is for seafloor spreading (two plates separating), not the speed of one plate. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): difficulty 2 -> 3 (a multiplication and two unit conversions), the pedagogy reviewer's optional difficulty-spread suggestion. The science reviewer confirmed the USGS '25 km in a million years' figure; flag L11-RF3 was reworded and needs no change here. Verifier (record dated 2026-10-14; system clock 2026-10-17): arithmetic verified (2.5 cm/yr x 1,000,000 yr = 2,500,000 cm = 25 km); USGS This Dynamic Earth re-opened: the Mid-Atlantic Ridge averages about 2.5 cm/yr, or 25 km in a million years. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: conditions say the USGS range is seafloor-spreading rate, not plate speed"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: difficulty 2 -> 3 (optional difficulty-spread note)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q17",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3"
+      ],
+      "conceptTags": [
+        "small-changes-add-up",
+        "dunes"
+      ],
+      "familyId": "L11-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A single gust of wind moves only a thin skin of sand, a tiny amount next to everything in a big dune. How can changes that small build dunes hundreds of meters tall?",
+      "accessiblePrompt": "A single gust of wind moves only a thin skin of sand, a tiny amount next to everything in a big sand dune. How can changes that small build sand dunes hundreds of meters tall?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One giant storm piled up all of the sand in a single night",
+          "rationale": "Storms can move a lot of sand, but dunes this size grow from erosion and deposition repeated over very long spans."
+        },
+        {
+          "id": "e",
+          "text": "Countless tiny moves add up over thousands of years or more",
+          "rationale": "Correct. Small changes repeated again and again over thousands of years or longer can build very large landforms."
+        },
+        {
+          "id": "c",
+          "text": "The dunes grow upward out of the solid rock beneath the desert",
+          "rationale": "Dunes are loose sand heaped up by wind. They don't grow out of the bedrock."
+        },
+        {
+          "id": "d",
+          "text": "Small changes tend to cancel each other out, so dunes need some other cause",
+          "rationale": "Small changes don't cancel out when the wind keeps pushing sand in similar directions; they pile up."
+        }
+      ],
+      "answer": "e",
+      "explanation": "Each gust moves very little sand, but sand-moving winds blow again and again, year after year. The sand in a big Namib dune has been piling up and shifting for thousands of years, and the desert has collected sand for far longer. Erosion and deposition repeated countless times build ripples at small scales and dunes at large ones, and many dunes together make a sand sea. Big landforms don't need one big event.",
+      "misconception": "Large landforms can only be made by single large events.",
+      "hint": "Think about how many windy days fit into the life of a desert.",
+      "followUpId": "L11-Q08",
+      "scope": {
+        "lessonId": "L11",
+        "section": "1. Small and Large Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            142,
+            143
+          ],
+          "pdf": [
+            178,
+            179
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            142
+          ],
+          "pdfPages": [
+            178
+          ],
+          "locator": "Section 1. Small and Large Changes on Earth's Surface, Changes on a Small Scale",
+          "supports": "Weathering breaks rock down at the surface, and organisms, water, ice, wind and gravity can all do it; erosion removes the pieces; deposition lays carried material down somewhere new; weathering is what made sand in the first place."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            143
+          ],
+          "pdfPages": [
+            179
+          ],
+          "locator": "Section 1, Many Small Changes Add Up to Large Changes, and Figure 1B",
+          "supports": "Giant Namib dunes and the whole desert formed by erosion and deposition at a larger scale; the sand was once solid rock; many small changes add up to large ones; these changes come from interactions among Earth's four systems."
+        },
+        {
+          "type": "external",
+          "title": "Age and dynamics of linear dunes in the Namib Desert (Bristow, Duller & Lancaster, Geology 2007)",
+          "publisher": "Aberystwyth University research portal",
+          "url": "https://research.aber.ac.uk/en/publications/age-and-dynamics-of-linear-dunes-in-the-namib-desert/",
+          "accessed": "2026-10-14",
+          "supports": "Luminescence dating of a large Namib linear dune found its oldest sand about 5,700 years old, and the dune moved about 300 m sideways in 2,500 years, so big dunes are built and rebuilt over thousands of years."
+        },
+        {
+          "type": "external",
+          "title": "Namib Sand Sea (Image of the Day, November 26, 2021)",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/namib-sand-sea-149130/",
+          "accessed": "2026-10-14",
+          "supports": "The Namib Sand Sea spans about 34,000 km² of coastal Namibia; its tallest dune, nicknamed Big Daddy, is about 325 m tall; Dune 45 is built of sands about 5 million years old; most of the sand comes from erosion to the south near the Orange River and is carried north along the coast."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 142-143 (rendered). Avoids the textbook's unverified 55-million-year figure (see L11-RF9). Reviser round 1 (2026-10-14): both reviewers flagged the 'millions of years' key. Dated Namib dunes are thousands of years old (Bristow et al. 2007: oldest sand about 5,700 years), while the grains and the sand sea are far older (NASA: Dune 45 sands about 5 million years old). The key (new id e) now says 'thousands of years or more'. I used the science wording rather than the pedagogy's 'a very long time' because it is specific and sourced. The hint follows the pedagogy reviewer, since the science hint repeated the key. The explanation no longer implies that ripples grow into dunes. Choice d drops 'always' (same claim, id kept). Second review cycle (records dated 2026-10-14; system clock 2026-10-17): science fixes: a gust above the threshold speed moves a great many grains, so the stem now says 'a thin skin of sand' rather than 'a few sand grains'; the beetle was dropped, because its footsteps grind grains (weathering) rather than build dunes; the explanation no longer says the wind blows almost every day. Key e, distractors, hint and evidence unchanged. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered pp. 142-143; Bristow, Duller & Lancaster (2007) abstract re-opened (oldest sand about 5,700 years; about 300 m of sideways movement in 2,500 years); NASA Dune 45 sands about 5 million years. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key now 'thousands of years or more' (new id e), not millions; explanation separates ripples from dunes; Bristow 2007 and NASA records added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer paraphrases the key; d no longer uses 'always'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: a gust moves a thin skin of sand, not a few grains; beetle dropped from the stem; no 'wind blows almost every day'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q18",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3"
+      ],
+      "conceptTags": [
+        "gradual-vs-sudden",
+        "catastrophic-events"
+      ],
+      "familyId": "L11-F08",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each change by how fast it happens: gradual (over thousands to billions of years) or sudden (within minutes to weeks).",
+      "accessiblePrompt": "Sort eight changes into two groups: gradual, meaning over thousands to billions of years, or sudden, meaning within minutes to weeks. The changes are: continents creep a few centimeters a year; a mountain range is pushed upward; a cave opens up inside a limestone hill; buried sand hardens into sandstone; a hillside collapses in a landslide; a flash flood follows a burst of heavy rain; an asteroid slams into Earth; and lava from an eruption buries a valley within weeks.",
+      "items": [
+        {
+          "id": "drift",
+          "text": "Continents creep a few centimeters a year",
+          "rationale": "Gradual: at that rate, reshaping continents takes millions to billions of years."
+        },
+        {
+          "id": "uplift",
+          "text": "A mountain range is pushed upward",
+          "rationale": "Gradual: uplift builds mountains over millions of years."
+        },
+        {
+          "id": "cave",
+          "text": "A cave opens up inside a limestone hill",
+          "rationale": "Gradual: chemical weathering takes hundreds of thousands of years to open a cave."
+        },
+        {
+          "id": "sandstone",
+          "text": "Buried sand hardens into sandstone",
+          "rationale": "Gradual: compaction and cementation take millions of years."
+        },
+        {
+          "id": "slide",
+          "text": "A hillside collapses in a landslide",
+          "rationale": "Sudden: a landslide can be over in minutes."
+        },
+        {
+          "id": "flood",
+          "text": "A flash flood follows a burst of heavy rain",
+          "rationale": "Sudden: flash floods rise fast and usually last hours."
+        },
+        {
+          "id": "impact",
+          "text": "An asteroid slams into Earth",
+          "rationale": "Sudden: the impact itself takes moments, though its effects can last much longer."
+        },
+        {
+          "id": "eruption",
+          "text": "Lava from an eruption buries a valley within weeks",
+          "rationale": "Sudden: the change described happens in weeks."
+        }
+      ],
+      "bins": [
+        {
+          "id": "gradual",
+          "label": "Gradual"
+        },
+        {
+          "id": "sudden",
+          "label": "Sudden"
+        }
+      ],
+      "answer": {
+        "drift": "gradual",
+        "uplift": "gradual",
+        "cave": "gradual",
+        "sandstone": "gradual",
+        "slide": "sudden",
+        "flood": "sudden",
+        "impact": "sudden",
+        "eruption": "sudden"
+      },
+      "explanation": "Gradual processes such as continental motion, uplift, chemical weathering and rock formation work over thousands to billions of years. Sudden events such as landslides, flash floods, impacts and eruptions do their work in minutes to weeks. Both kinds shape Earth's surface, and they often work together.",
+      "misconception": "Every important change to Earth's surface must take a very long time.",
+      "hint": "Could it happen within a few weeks, or would it outlast all of human history?",
+      "followUpId": "L11-Q21",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            144,
+            145
+          ],
+          "pdf": [
+            180,
+            181
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 144-145 (rendered). The eruption item states 'within weeks' so it has one defensible bin despite the wide real range of eruption lengths (see L11-RF6). Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fixes: the flood item no longer contains the bin word 'sudden', and the cave item no longer states Q05's key (dissolving); ids and rationales kept, and the cave rationale still explains the chemical weathering after the answer. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered p. 144 and p. 145 text and photo labels; the bins state their time ranges and the eruption item states 'within weeks', so each item has one defensible bin. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: flood item no longer contains the bin word; cave item no longer states Q05's key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q19",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3"
+      ],
+      "conceptTags": [
+        "catastrophic-events",
+        "size-of-change"
+      ],
+      "familyId": "L11-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A landslide may last only a few minutes. Which statement about short-lived events like landslides and flash floods is accurate?",
+      "accessiblePrompt": "A landslide may last only a few minutes. Which statement about short-lived events such as landslides and flash floods is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They can reshape the land dramatically in a short time",
+          "rationale": "Correct. Even though they are brief, these events can make big, lasting changes to Earth's surface."
+        },
+        {
+          "id": "b",
+          "text": "They are too brief to leave much lasting change on the land",
+          "rationale": "Short events can still move huge amounts of rock, soil and water, leaving lasting changes."
+        },
+        {
+          "id": "e",
+          "text": "They make small changes, but they happen so often that the changes add up",
+          "rationale": "That describes slow, repeated change such as wind shifting grains. A landslide or flash flood is a single event that can move huge amounts of rock, soil and water at once."
+        },
+        {
+          "id": "d",
+          "text": "They only happened long ago, before people were around",
+          "rationale": "These events still happen today; the same processes act now as in the past."
+        }
+      ],
+      "answer": "a",
+      "explanation": "How long an event lasts doesn't decide how much it changes the land. A landslide can move huge amounts of rock and soil in minutes, and a flash flood can reshape a stream bed in hours. Unlike slow, repeated changes such as wind shifting grains, each is a single event that does its work at once, and such events still happen today.",
+      "misconception": "Brief events can only make small changes.",
+      "hint": "Picture a hillside the day before and the day after a big landslide.",
+      "followUpId": "L11-Q21",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            145
+          ],
+          "pdf": [
+            181
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 145 (rendered). No safety or emergency advice included. Reviser round 1 (2026-10-14): choice c (a regular schedule) was replaced by a sudden-versus-accumulated distractor (new id e), without the reviewer's 'only'. Choice b drops 'any' (same claim, id kept), so d is the one distractor with an absolute. The hint no longer points at the key. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered p. 145 (short-lived events often have a big impact on the surface). Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c replaced by a sudden-vs-accumulated distractor (new id e); hint no longer cues the key; b no longer says 'any'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q20",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3"
+      ],
+      "conceptTags": [
+        "flash-floods",
+        "triggers-of-sudden-events"
+      ],
+      "familyId": "L11-F08",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which of these can set off a flash flood? Select all that apply.",
+      "accessiblePrompt": "Which of these can set off a flash flood? There are four options; choose every one that can. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very heavy rain falling in a short time",
+          "rationale": "Correct. This is the most common cause: more water arrives than can soak in or drain away."
+        },
+        {
+          "id": "b",
+          "text": "A dam or an ice jam suddenly giving way",
+          "rationale": "Correct. Water held back and then released all at once can rush downstream as a flash flood."
+        },
+        {
+          "id": "c",
+          "text": "Light drizzle spread out over several weeks",
+          "rationale": "Light, spread-out rain has time to soak in or drain away. Flash floods need a lot of water arriving at once."
+        },
+        {
+          "id": "e",
+          "text": "Sea level slowly rising over hundreds of years",
+          "rationale": "A slow rise in sea level floods coasts gradually over centuries; it doesn't send a sudden rush of water down a channel."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "A flash flood happens when a large amount of water arrives in a short time, faster than the ground and channels can handle it. Heavy rain over a short period is the most common trigger, but the sudden release of water when a dam or levee fails or an ice jam breaks can do it too. Slow, spread-out changes don't.",
+      "misconception": "Any rain at all, however light or spread out, causes flash floods, or flash floods can only come from rain.",
+      "hint": "What do all flash floods need: how much water, arriving how fast?",
+      "followUpId": "L11-Q21",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            145
+          ],
+          "pdf": [
+            181
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        },
+        {
+          "type": "external",
+          "title": "Flood Safety Awareness Week - Flood Hazards",
+          "publisher": "NOAA National Weather Service, Central Illinois Forecast Office",
+          "url": "https://www.weather.gov/ilx/flood_safety_awareness_week_3",
+          "accessed": "2026-10-14",
+          "supports": "Flash floods usually follow heavy rain within about 6 hours, and can also happen within hours or even minutes when a dam or levee fails or water held back by an ice or debris jam is suddenly released."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Textbook (printed p. 145, rendered) names heavy rain over a short time; the dam and ice-jam trigger comes from the National Weather Service (see L11-RF8). Reviser round 1 (2026-10-14): choice d replaced by a slow-flooding distractor (new id e); the hint no longer settles every option; follow-up now L11-Q21; recategorized as foundational (recall of triggers). Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fix: the hint no longer points straight at key b, the one key from outside the textbook; it now leads to both keys by reasoning. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against p. 145 and the NWS Central Illinois flood-hazards page, re-opened: flash floods follow heavy rain and can follow a dam or levee failure or the sudden release of water held by an ice or debris jam. Two keys, two distractors, prompt ends with 'Select all that apply.' Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d replaced (new id e); hint reworded; followUpId L11-Q12 -> L11-Q21; category foundational"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the non-textbook key"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q21",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3"
+      ],
+      "conceptTags": [
+        "catastrophic-events",
+        "slow-buildup"
+      ],
+      "familyId": "L11-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A volcanic eruption may last only a few weeks. Why is it still described as the result of a long period of change?",
+      "accessiblePrompt": "A volcanic eruption may last only a few weeks. Why is the eruption still described as the result of a long period of change?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Magma built up beneath the surface over a long time first",
+          "rationale": "Correct. Slow changes underground set up the eruption long before lava reaches the surface."
+        },
+        {
+          "id": "b",
+          "text": "The weather in the weeks before the eruption caused the magma to form",
+          "rationale": "Weather happens in the atmosphere. Magma forms deep underground, unaffected by a few weeks of weather."
+        },
+        {
+          "id": "c",
+          "text": "Eruptions have no cause, so they could happen anywhere at any time",
+          "rationale": "Eruptions have causes: they happen where magma has gathered and found a way up."
+        },
+        {
+          "id": "e",
+          "text": "Its lava and ash keep changing the land long after it ends",
+          "rationale": "Lasting effects are real, but they come after the eruption. The long period of change that produced it came before, as magma slowly gathered underground."
+        }
+      ],
+      "answer": "a",
+      "explanation": "An eruption is the sudden chapter of a long story. Beneath the surface, magma collects and pushes upward over long spans of time, and the eruption releases it. Many sudden events work this way: the event is quick, but the conditions behind it develop slowly.",
+      "misconception": "Sudden events come out of nowhere, with nothing building up beforehand.",
+      "hint": "Is the eruption the whole story, or only the part you can see?",
+      "followUpId": "L11-Q19",
+      "scope": {
+        "lessonId": "L11",
+        "section": "2. Slow and Fast Changes on Earth's Surface",
+        "pages": {
+          "printed": [
+            145
+          ],
+          "pdf": [
+            181
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        },
+        {
+          "type": "external",
+          "title": "How long do eruptions last?",
+          "publisher": "Volcano World, Oregon State University",
+          "url": "https://volcano.oregonstate.edu/faq/how-long-do-eruptions-last",
+          "accessed": "2026-10-14",
+          "supports": "The median length of historic eruptions is about 7 weeks, but eruptions have lasted anywhere from less than a day to thousands of years."
+        }
+      ],
+      "limitations": "Eruption lengths vary widely, from less than a day to many years; a few weeks is a common length.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 145 (rendered). Limitations note that eruption lengths vary (see L11-RF6). Reviser round 1 (2026-10-14): hint no longer points to the only underground choice. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fix: choice d (lava flowing for millions of years), which was easy to eliminate, was replaced by an effects-versus-causes distractor (new id e); p. 145 says eruptions result from many slow changes beneath the surface. The science reviewer notes the limitations' 'many years' understates the longest eruptions but is not wrong; content elsewhere now says 'some last years or far longer'. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered p. 145 (eruptions result from many slow changes beneath the surface); Volcano World re-opened (median about 7 weeks; less than a day to thousands of years). The limitations' 'many years' understates the longest eruptions but is not wrong, so it was left unchanged. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points at the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d replaced by an effects-versus-causes distractor (new id e)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q22",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O3",
+        "L11-O4"
+      ],
+      "conceptTags": [
+        "slow-to-sudden",
+        "hoodoos",
+        "too-slow-to-notice"
+      ],
+      "familyId": "L11-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "A rock pillar with a boulder cap looked exactly the same on two visits a year apart. Which statements about it are accurate? Select all that apply.",
+      "accessiblePrompt": "A rock pillar topped by a boulder cap looked exactly the same on two visits one year apart. Which statements about it are accurate? There are four statements; choose every accurate one. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is still weathering, just too slowly to notice in a year",
+          "rationale": "Correct. Weathering and erosion are still at work; a single year's change is simply too small to see."
+        },
+        {
+          "id": "b",
+          "text": "The narrowing pillar may someday give way and drop its cap suddenly",
+          "rationale": "Correct. Slow narrowing can end in a fast collapse once the pillar can't support the cap."
+        },
+        {
+          "id": "c",
+          "text": "Since nothing looked different, the pillar is not wearing away right now",
+          "rationale": "Looking the same for a year doesn't mean no change. Changes this slow need much longer to show."
+        },
+        {
+          "id": "e",
+          "text": "Its hard cap shields the pillar's sides as well as its top",
+          "rationale": "The cap shields only the rock directly beneath it. Rain, frost and wind keep wearing the sides until the pillar gets too thin to hold the cap."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Weathering and erosion keep working on the pillar, but one year's change is too small to see. The cap protects the rock under it only partly, so the pillar slowly narrows. Eventually it can no longer hold the cap, and many small, slow changes end in one sudden collapse.",
+      "misconception": "If you can't see a change, nothing is changing.",
+      "hint": "Can a change be real but too small to see in one year?",
+      "followUpId": "L11-Q26",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            148
+          ],
+          "pdf": [
+            184
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            148
+          ],
+          "pdfPages": [
+            184
+          ],
+          "locator": "Section 3. Patterns of Change (hoodoos)",
+          "supports": "Hoodoos are rock pillars about 1.5 to 45 m tall, usually with a cap of more resistant rock that protects the rock under it; they form by weathering and erosion over thousands to millions of years, look unchanged from year to year, and can suddenly lose their caps when the pillar gets too thin."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 148 and its caption (rendered). Reviser round 1 (2026-10-14): distractors no longer carry absolutes (c keeps its claim and id; d replaced by a cap-shields-the-sides distractor, new id e). Key b was shortened (same claim, id kept) so no key is the longest choice. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered p. 148 text and caption (looks the same a year later; the cap protects the rock directly below it; the thinning pillar eventually drops its boulder). Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute-word cueing removed from c and d (d -> new id e); key b no longer the longest choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q23",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O4"
+      ],
+      "conceptTags": [
+        "uniformitarianism"
+      ],
+      "familyId": "L11-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Which statement best describes the principle of uniformitarianism?",
+      "accessiblePrompt": "Which statement best describes the principle of uniformitarianism, a key idea geologists use to study Earth's history?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Earth's surface stays uniform and never really changes",
+          "rationale": "The name is misleading. The principle is about processes staying the same, while the surface itself changes constantly."
+        },
+        {
+          "id": "b",
+          "text": "Processes at work today also worked in the past",
+          "rationale": "Correct. The processes we can observe now operated in the past too, so the present helps explain Earth's history."
+        },
+        {
+          "id": "c",
+          "text": "Earth's features were mostly made by a few huge disasters",
+          "rationale": "That describes an older rival idea. Uniformitarianism explains features mostly with ordinary processes still at work today."
+        },
+        {
+          "id": "d",
+          "text": "Faraway places on Earth tend to have the same kinds of landforms",
+          "rationale": "Landforms differ a lot from place to place. The principle says the processes follow the same rules, not that landscapes match."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Uniformitarianism says the natural processes we can observe now, such as gravity pulling rock downhill or rivers dropping sand, also worked in the past and will keep working. That is why geologists say the present is the key to the past. It does not mean Earth never changes; it means the causes of change stay the same.",
+      "misconception": "Uniformitarianism means Earth's surface is uniform or unchanging.",
+      "hint": "Don't let the word 'uniform' fool you. The principle is not about Earth looking the same.",
+      "followUpId": "L11-Q25",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            149
+          ],
+          "pdf": [
+            185
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            141
+          ],
+          "pdfPages": [
+            177
+          ],
+          "locator": "Introduction and Vocabulary box",
+          "supports": "Weathering is the physical or chemical breakdown of rock at the surface; erosion removes rock material by wind, water, ice or gravity; deposition is the build-up of eroded material carried from elsewhere; uplift raises large areas of crust by forces deep underground; uniformitarianism says observable natural processes worked the same way in the past and will in the future."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            149
+          ],
+          "pdfPages": [
+            185
+          ],
+          "locator": "Section 3. Patterns of Change (uniformitarianism) and arch photo caption",
+          "supports": "Similar hoodoos made of different rocks in different places show the same processes acting alike everywhere; the same processes act the same way across time; this principle is uniformitarianism, summed up as observing the present being the key to the past; the pictured arch is still eroding and will someday collapse."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Principles—Uniformitarianism",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/articles/geologic-principles-uniformitarianism.htm",
+          "accessed": "2026-10-14",
+          "supports": "Hutton argued that Earth's past must be explained by processes that can be seen happening now, and that slow processes acting over long spans can produce effects as great as sudden catastrophes; the idea is summed up as the present being the key to the past."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 141 and 149 (rendered). Distractor (a) repairs the 'uniform = unchanging' reading; see L11-RF2. Reviser round 1 (2026-10-14): hint no longer restates the key. Under the pedagogy reviewer's bank-wide absolutes rule, c ('all made by') and d ('Every place') were hedged with their claims and ids kept; a keeps 'never' because 'uniform means unchanging' is the misconception tested. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the p. 141 vocabulary box and the rendered p. 149; NPS Geologic Principles, Uniformitarianism, re-opened. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer restates the key; distractors c and d no longer cue by absolutes"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q24",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O4"
+      ],
+      "conceptTags": [
+        "uniformitarianism",
+        "rates-vary"
+      ],
+      "familyId": "L11-F10",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "Which claims fit the way geologists use uniformitarianism today? Select all that apply.",
+      "accessiblePrompt": "Which claims fit the way geologists use the principle of uniformitarianism today? There are four claims; choose every one that fits. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gravity pulled loose rock downhill long ago, just as it does now",
+          "rationale": "Correct. Gravity's role in moving rock is the same today as in the distant past."
+        },
+        {
+          "id": "b",
+          "text": "Seeing how rivers sort sand today helps explain old sandstone layers",
+          "rationale": "Correct. Watching present-day processes is how geologists interpret rocks formed long ago."
+        },
+        {
+          "id": "c",
+          "text": "Each process ran at the same speed in the past as it does today",
+          "rationale": "The kinds of processes stay the same, but their rates can change with climate, rock type and other conditions."
+        },
+        {
+          "id": "e",
+          "text": "Old landforms should be explained with slow processes, leaving sudden events out",
+          "rationale": "The lesson describes impacts, eruptions and floods as real causes of change. Modern geologists include sudden events alongside slow ones."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Uniformitarianism says the same natural laws and kinds of processes act through time, so observations made today help explain past features. It doesn't require every process to keep the same pace; rates and intensity can change with conditions. Sudden events like impacts and eruptions are part of Earth's history too, and they still happen today.",
+      "misconception": "Uniformitarianism means every process has always worked at the same rate and nothing sudden ever happened.",
+      "hint": "Is the principle about the kind of process, or about its exact speed?",
+      "followUpId": "L11-Q28",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            149
+          ],
+          "pdf": [
+            185
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            149
+          ],
+          "pdfPages": [
+            185
+          ],
+          "locator": "Section 3. Patterns of Change (uniformitarianism) and arch photo caption",
+          "supports": "Similar hoodoos made of different rocks in different places show the same processes acting alike everywhere; the same processes act the same way across time; this principle is uniformitarianism, summed up as observing the present being the key to the past; the pictured arch is still eroding and will someday collapse."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast",
+          "supports": "Eruptions, asteroid impacts, flash floods and landslides change the surface quickly; they last weeks, hours or minutes but can have big effects, and the conditions behind them can take a long time to develop."
+        },
+        {
+          "type": "external",
+          "title": "Uniformitarianism",
+          "publisher": "Encyclopedia.com (entries from Gale reference works)",
+          "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/uniformitarianism",
+          "accessed": "2026-10-14",
+          "supports": "Modern geology keeps the idea that the same kinds of processes act through time but no longer requires uniform rates (gradualism); the speed and intensity of processes may vary, and there is good evidence for sudden, violent events as well as gradual change."
+        },
+        {
+          "type": "external",
+          "title": "Geologic Principles—Uniformitarianism",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/articles/geologic-principles-uniformitarianism.htm",
+          "accessed": "2026-10-14",
+          "supports": "Hutton argued that Earth's past must be explained by processes that can be seen happening now, and that slow processes acting over long spans can produce effects as great as sudden catastrophes; the idea is summed up as the present being the key to the past."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 145 and 149 (rendered). Keys follow the modern reading of the principle from the external sources (see L11-RF2); the textbook itself also describes sudden events such as asteroid impacts on p. 145. Reviser round 1 (2026-10-14): distractors no longer carry 'every/always/exactly/never' (c keeps its claim and id; d replaced by a 'leave sudden events out' distractor, new id e). Keys a and b unchanged. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered pp. 145 and 149; Encyclopedia.com re-opened: its entries say the speed and intensity of processes may vary and that there is good evidence for sudden, violent events (RF2). Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: absolute-word cueing removed (c reworded; d -> new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q25",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O4"
+      ],
+      "conceptTags": [
+        "hoodoos",
+        "evidence-same-processes"
+      ],
+      "familyId": "L11-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Hoodoos in Utah, Italy and Serbia are made of different kinds of rock, yet they share the same capped-pillar shape. What does this best show?",
+      "accessiblePrompt": "Hoodoos, which are rock pillars with caps, are found in Utah, Italy and Serbia. They are made of different kinds of rock, yet they share the same capped-pillar shape. What does this best show?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The same processes shape rock alike in many places",
+          "rationale": "Correct. Weathering and erosion can carve the same capped-pillar shape wherever a tougher top shields weaker rock beneath it."
+        },
+        {
+          "id": "e",
+          "text": "All three places must have the same climate",
+          "rationale": "The shared shape points to shared processes, not a shared climate. Hoodoos stand in places as different as Alberta, Utah and New Zealand; what they share is weaker rock wearing away faster than the tougher rock that caps it."
+        },
+        {
+          "id": "c",
+          "text": "People in each country carved the pillars to match",
+          "rationale": "Hoodoos are natural formations shaped by weathering and erosion, not carvings."
+        },
+        {
+          "id": "d",
+          "text": "They all formed at the same moment in a worldwide event",
+          "rationale": "Hoodoos need thousands to millions of years to take shape, and each one starts and finishes at its own time."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Matching landforms in faraway places, made from different rocks, point to a shared cause. In each place, weathering and erosion wear away weaker rock faster than a tougher top layer. Getting similar results from the same processes in many places is evidence that those processes follow the same rules across Earth.",
+      "misconception": "Look-alike formations must be made of the same rock or must have formed at the same time.",
+      "hint": "The rock types differ. What else could the hoodoos have in common?",
+      "followUpId": "L11-Q23",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            148,
+            149
+          ],
+          "pdf": [
+            184,
+            185
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            148
+          ],
+          "pdfPages": [
+            184
+          ],
+          "locator": "Section 3. Patterns of Change (hoodoos)",
+          "supports": "Hoodoos are rock pillars about 1.5 to 45 m tall, usually with a cap of more resistant rock that protects the rock under it; they form by weathering and erosion over thousands to millions of years, look unchanged from year to year, and can suddenly lose their caps when the pillar gets too thin."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            149
+          ],
+          "pdfPages": [
+            185
+          ],
+          "locator": "Section 3. Patterns of Change (uniformitarianism) and arch photo caption",
+          "supports": "Similar hoodoos made of different rocks in different places show the same processes acting alike everywhere; the same processes act the same way across time; this principle is uniformitarianism, summed up as observing the present being the key to the past; the pictured arch is still eroding and will someday collapse."
+        },
+        {
+          "type": "external",
+          "title": "Hoodoos",
+          "publisher": "U.S. National Park Service, Bryce Canyon National Park",
+          "url": "https://www.nps.gov/brca/learn/nature/hoodoos.htm",
+          "accessed": "2026-10-14",
+          "supports": "Bryce Canyon's hoodoos are carved by frost wedging, as freezing water expands and pries rock apart, and by slightly acidic rain dissolving the calcium carbonate that binds the rock; layers with more of this cement resist weathering better than others."
+        }
+      ],
+      "limitations": "The same general processes can differ in detail from place to place; frost wedging, for example, matters most where water freezes and thaws often.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 148-149 (rendered). Key worded generally because details differ by place (see L11-RF13). Reviser round 1 (2026-10-14): choice b, which the stem itself ruled out, was replaced by a same-climate distractor (new id e). Its rationale cites the textbook's spread of hoodoo sites (p. 148) rather than claiming specific climate data. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): science fix: the key's rationale says weathering and erosion 'can carve' the shape, not that they produce it wherever a tougher top sits on weaker rock, which matched the limitations and L11-RF13. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered pp. 148-149 (sites in Italy, Utah and Serbia; different rock types, same shape, same processes); NPS Bryce Canyon, Hoodoos, re-opened. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b replaced by a same-climate distractor (new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: key rationale says weathering and erosion can carve the shape, not that they always do"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q26",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O4",
+        "L11-O1"
+      ],
+      "conceptTags": [
+        "hoodoos",
+        "resistant-cap-rock",
+        "differential-erosion"
+      ],
+      "familyId": "L11-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Why does a hoodoo end up as a tall pillar with a rock cap, instead of wearing down evenly into a low mound?",
+      "accessiblePrompt": "Why does a hoodoo end up as a tall pillar with a rock cap on top, instead of wearing down evenly into a low mound?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The heavy cap squeezes the pillar beneath it into harder rock",
+          "rationale": "The cap's weight doesn't toughen the pillar. What matters is that the cap itself resists weathering."
+        },
+        {
+          "id": "b",
+          "text": "The tougher cap shields the rock right under it",
+          "rationale": "Correct. The cap resists weathering, so the rock it covers erodes more slowly than the rock around it."
+        },
+        {
+          "id": "e",
+          "text": "One huge flood swept away the rock around the pillar in a single day",
+          "rationale": "Hoodoos take thousands to millions of years of weathering and erosion to form, and one flood wouldn't leave a tough cap balanced on top."
+        },
+        {
+          "id": "d",
+          "text": "The pillar grows taller each year as minerals pile onto it",
+          "rationale": "Hoodoos don't grow upward. They are what is left behind as rock around them is removed."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A hoodoo's cap is tougher rock that weathers more slowly than the softer rock under it. Whatever the cap shelters wears away more slowly than the exposed rock around it, so a pillar is left standing. Over time even the pillar narrows, until it can't hold the cap.",
+      "misconception": "A hoodoo's cap holds the pillar together by pressing down with its weight.",
+      "hint": "Compare the rock in the cap with the rock beneath it.",
+      "followUpId": "L11-Q02",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            148
+          ],
+          "pdf": [
+            184
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            148
+          ],
+          "pdfPages": [
+            184
+          ],
+          "locator": "Section 3. Patterns of Change (hoodoos)",
+          "supports": "Hoodoos are rock pillars about 1.5 to 45 m tall, usually with a cap of more resistant rock that protects the rock under it; they form by weathering and erosion over thousands to millions of years, look unchanged from year to year, and can suddenly lose their caps when the pillar gets too thin."
+        },
+        {
+          "type": "external",
+          "title": "Hoodoos",
+          "publisher": "U.S. National Park Service, Bryce Canyon National Park",
+          "url": "https://www.nps.gov/brca/learn/nature/hoodoos.htm",
+          "accessed": "2026-10-14",
+          "supports": "Bryce Canyon's hoodoos are carved by frost wedging, as freezing water expands and pries rock apart, and by slightly acidic rain dissolving the calcium carbonate that binds the rock; layers with more of this cement resist weathering better than others."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 148 (rendered); the textbook states the cap is more resistant and protects the rock directly under it. Reviser round 1 (2026-10-14): hint no longer restates the key; choice c replaced by a one-flood distractor (new id e) that links back to slow versus sudden change. Verifier (record dated 2026-10-14; system clock 2026-10-17): checked against the rendered p. 148 (the more resistant cap protects the part of the formation directly below it). Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint reworded; choice c replaced (new id e)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q27",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O4"
+      ],
+      "conceptTags": [
+        "uniformitarianism",
+        "reading-landscape-clues"
+      ],
+      "familyId": "L11-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Using the idea that today's processes explain the past, match each clue in a landscape to the best explanation of how it got there.",
+      "accessiblePrompt": "Using the idea that processes at work today explain the past, match each of four clues in a landscape to the best explanation of how it got there. Clues: a jumble of sharp, broken rock piled at the foot of a steep slope; sandstone with tall, sweeping, slanted layers like those inside modern sand dunes; a layer of rounded pebbles, sorted by size, far from any stream today; a sheet of dark volcanic rock covering an old valley floor. Explanations: pieces fell or slid down from higher ground; wind once heaped loose grains into tall hills here; flowing water once tumbled this material and dropped it here; molten rock once poured out here and cooled.",
+      "left": [
+        {
+          "id": "talus",
+          "text": "A jumble of sharp, broken rock piled at the foot of a steep slope",
+          "rationale": "Pieces fell or slid down from higher ground: today, loose rock on steep slopes falls or slides downhill and piles up at the bottom, so a heap like this marks rock that gravity brought down."
+        },
+        {
+          "id": "crossbed",
+          "text": "Sandstone with tall, sweeping, slanted layers like those inside modern sand dunes",
+          "rationale": "Wind once heaped loose grains into tall hills here: dunes built by wind today have slanted inner layers (cross-bedding), so sandstone with the same pattern records ancient dunes."
+        },
+        {
+          "id": "gravel",
+          "text": "A layer of rounded pebbles, sorted by size, far from any stream today",
+          "rationale": "Flowing water once tumbled this material and dropped it here: flowing water rounds pebbles as it tumbles them and drops them where it slows, so a layer like this marks where water once flowed."
+        },
+        {
+          "id": "lava",
+          "text": "A sheet of dark volcanic rock covering an old valley floor",
+          "rationale": "Molten rock once poured out here and cooled: eruptions today send lava across the land, where it cools into rock, so a sheet like this records an eruption long ago."
+        }
+      ],
+      "right": [
+        {
+          "id": "grav",
+          "text": "Pieces fell or slid down from higher ground"
+        },
+        {
+          "id": "dunes",
+          "text": "Wind once heaped loose grains into tall hills here"
+        },
+        {
+          "id": "river",
+          "text": "Flowing water once tumbled this material and dropped it here"
+        },
+        {
+          "id": "lavaflow",
+          "text": "Molten rock once poured out here and cooled"
+        }
+      ],
+      "answer": {
+        "talus": "grav",
+        "crossbed": "dunes",
+        "gravel": "river",
+        "lava": "lavaflow"
+      },
+      "explanation": "Each clue is explained by a process we can watch today: gravity piling broken rock below slopes, wind heaping sand into dunes, streams dropping pebbles where they slow, and lava hardening into rock. Because the same kinds of processes worked in the past, today's observations let geologists read a landscape's history.",
+      "misconception": "We can't know anything about how a landscape formed unless someone watched it happen.",
+      "hint": "For each clue, ask which process you could watch today that leaves that kind of trace.",
+      "followUpId": "L11-Q23",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            143,
+            144,
+            145,
+            147,
+            149
+          ],
+          "pdf": [
+            179,
+            180,
+            181,
+            183,
+            185
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            149
+          ],
+          "pdfPages": [
+            185
+          ],
+          "locator": "Section 3. Patterns of Change (uniformitarianism) and arch photo caption",
+          "supports": "Similar hoodoos made of different rocks in different places show the same processes acting alike everywhere; the same processes act the same way across time; this principle is uniformitarianism, summed up as observing the present being the key to the past; the pictured arch is still eroding and will someday collapse."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            145
+          ],
+          "pdfPages": [
+            181
+          ],
+          "locator": "Section 2, Changes That Happen Fast (eruptions and landslides)",
+          "supports": "During an eruption, lava spreads over the land around a volcano and can change the landscape for many kilometers; landslides send unstable ground rushing downhill."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            144
+          ],
+          "pdfPages": [
+            180
+          ],
+          "locator": "Section 2. Slow and Fast Changes on Earth's Surface, Changes That Happen Slowly",
+          "supports": "Continental motion, uplift, weathering, erosion and deposition are gradual; continents are still moving a few centimeters per year; uplift builds mountain ranges over very long spans; sandstone forms over millions of years; limestone caves form by chemical weathering over hundreds of thousands of years."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            143
+          ],
+          "pdfPages": [
+            179
+          ],
+          "locator": "Section 1, Many Small Changes Add Up to Large Changes, and Figure 1B",
+          "supports": "Giant Namib dunes and the whole desert formed by erosion and deposition at a larger scale; the sand was once solid rock; many small changes add up to large ones; these changes come from interactions among Earth's four systems."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            147
+          ],
+          "pdfPages": [
+            183
+          ],
+          "locator": "Key Science Concept spread, buried-dune 'Rock Formation' card (rendered)",
+          "supports": "Buried sand dunes can slowly turn into rock (the card gives the timing as tens of millions of years; Q27 does not depend on it)."
+        },
+        {
+          "type": "external",
+          "title": "Sand Dunes to Sandstone",
+          "publisher": "U.S. National Park Service, Zion National Park",
+          "url": "https://www.nps.gov/zion/learn/nature/sand-dunes-sandstone.htm",
+          "accessed": "2026-10-14",
+          "supports": "Wind-blown sand produces a cross-bedding pattern of slanted layers, and the ancient dunes preserved in the Navajo Sandstone were similar to dunes in modern deserts."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original clues applying the textbook's processes (printed pp. 143-145, 147, 149, rendered). One-to-one; each clue has one best explanation. Reviser round 1 (2026-10-14) merged both reviews. Pedagogy: the boulder-under-a-pillar clue (same fact as Q22 and Q04) and the limestone-cave clue (same fact as Q05) were replaced by a talus clue (gravity) and a lava-sheet clue (eruption), new ids talus/grav and lava/lavaflow. Science: the dune clue no longer says 'dune sand'; it describes cross-bedded sandstone and compares it with modern dunes, and the answer is now a process ('Wind once piled sand into dunes here', new ids crossbed/dunes) rather than 'a sandy desert', since coastal dunes exist too. NPS Zion supports the cross-bedding inference. The clue still names modern dunes on purpose, because that comparison is the present-to-past step the item tests. The pebble clue still relies on a general inference (water rounds and sorts pebbles); neither reviewer objected. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): the pedagogy reviewer's summary found every pair matchable by a shared noun (slope, dunes, pebbles, valley) and the lesson-level notes set it to difficulty 2. The four explanations were reworded with the same claims and ids so no explanation repeats its clue's noun, and difficulty went 3 -> 2. Scope note (science reviewer): the section label is Section 3, but the clues draw on pp. 143-147, which is why those pages are cited. Verifier (record dated 2026-10-14; system clock 2026-10-17): fresh science check of the reworded explanations: each clue has one best explanation, no explanation repeats its clue's noun, and the cross-bedding pair needs the present-to-past step; NPS Zion re-opened (cross-bedding from wind-blown sand). Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: dune clue no longer says 'dune sand'; answer is a process (wind piled dunes), with NPS Zion cross-bedding record"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: boulder and cave clues replaced by talus (gravity) and lava clues; explanation, accessible prompt and evidence updated"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: shared-noun cues removed from the explanations (ids kept); difficulty 3 -> 2 (from the review summary)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L11-Q28",
+      "lessonId": "L11",
+      "objectiveIds": [
+        "L11-O4"
+      ],
+      "conceptTags": [
+        "predicting-change",
+        "uniformitarianism",
+        "arches"
+      ],
+      "familyId": "L11-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Old photos show a natural stone arch getting a little thinner every decade. A ranger predicts that it will someday collapse. Which reason best supports her prediction?",
+      "accessiblePrompt": "Old photographs show a natural stone arch getting a little thinner every decade. A park ranger predicts that the arch will someday collapse. Which reason best supports her prediction?",
+      "choices": [
+        {
+          "id": "e",
+          "text": "The processes that thinned it are still at work and will keep working",
+          "rationale": "Correct. Processes seen working now can be expected to keep working, so the thinning continues until the arch can't hold itself up."
+        },
+        {
+          "id": "f",
+          "text": "It has stood so long that it is due to fall within days",
+          "rationale": "Age alone doesn't set a date. The arch falls when wearing has thinned it too much, which could be years or centuries away."
+        },
+        {
+          "id": "g",
+          "text": "The old photos let her calculate the exact year it will fall",
+          "rationale": "Photos show the direction of change, not a date. Hidden cracks and storms make the timing uncertain."
+        },
+        {
+          "id": "h",
+          "text": "The arch was carved by one huge flood long ago, and floods like that come back",
+          "rationale": "The photos show the arch wearing slowly, a little each decade, not changing all at once in a single disaster."
+        }
+      ],
+      "answer": "e",
+      "explanation": "A good prediction rests on processes we can watch working now. Wind, water and gravity thinned the arch, and they will keep thinning it until it can no longer hold itself up. Those processes tell us the direction of change, but not the day it will fall.",
+      "misconception": "A landform's future can be predicted from its age alone, or timed to an exact date.",
+      "hint": "Which reason uses something the ranger can actually see happening?",
+      "followUpId": "L11-Q22",
+      "scope": {
+        "lessonId": "L11",
+        "section": "3. Patterns of Change",
+        "pages": {
+          "printed": [
+            149
+          ],
+          "pdf": [
+            185
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            149
+          ],
+          "pdfPages": [
+            185
+          ],
+          "locator": "Section 3. Patterns of Change (uniformitarianism) and arch photo caption",
+          "supports": "Similar hoodoos made of different rocks in different places show the same processes acting alike everywhere; the same processes act the same way across time; this principle is uniformitarianism, summed up as observing the present being the key to the past; the pictured arch is still eroding and will someday collapse."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Rewritten in reviser round 1 (2026-10-14) from the pedagogy reviewer's proposal. The earlier key ('it will keep wearing away and someday collapse') repeated Q22 b. The item now tests the uniformitarian reasoning behind the prediction, with new choice ids e-h, and is tagged L11-O4 only. Drafted from printed p. 149 and the arch caption (rendered). The science reviewer passed the earlier version, so this version needs a fresh science check. Second review cycle (records dated 2026-10-14; system clock 2026-10-17): pedagogy fix: the stem no longer names the mechanism ('as wind, water and gravity wear it away'), which ruled out choice h before any reasoning; it now says the arch gets a little thinner every decade. Choice h's rationale now points to that slow thinning rather than to agents the photos cannot show (same claim, id kept). Verifier (record dated 2026-10-14; system clock 2026-10-17): fresh science check of the rewritten item against the rendered p. 149 arch caption (still eroding; will collapse in the distant future); the key rests on observed processes continuing, and the distractors reject age-only and exact-date predictions. Pass, no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: refocused on the reasoning behind the prediction (new ids e-h); objective L11-O4 only"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer names the mechanism that ruled out choice h"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

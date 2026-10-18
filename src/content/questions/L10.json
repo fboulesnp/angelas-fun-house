@@ -1,0 +1,3743 @@
+{
+  "lessonId": "L10",
+  "questions": [
+    {
+      "id": "L10-Q01",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "four-earth-systems",
+        "classify-earth-parts"
+      ],
+      "familyId": "L10-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each part of Earth into the one system it mainly belongs to.",
+      "accessiblePrompt": "Sort eight parts of Earth into the one system each mainly belongs to: the geosphere, the hydrosphere, the atmosphere, or the biosphere. The parts are magma deep under Iceland, iron and nickel at Earth's center, groundwater filling cracks in rock, ice in an Arctic glacier, nitrogen gas in the air, thin air high over the clouds, a polar bear, and mushrooms breaking down a fallen log.",
+      "answer": {
+        "magma": "geo",
+        "core": "geo",
+        "groundwater": "hydro",
+        "glacier": "hydro",
+        "nitrogen": "atmo",
+        "highair": "atmo",
+        "bear": "bio",
+        "mushrooms": "bio"
+      },
+      "items": [
+        {
+          "id": "magma",
+          "text": "Magma deep under Iceland",
+          "rationale": "Geosphere: magma is melted rock inside Earth, still part of the planet's rock material."
+        },
+        {
+          "id": "core",
+          "text": "Iron and nickel at Earth's center",
+          "rationale": "Geosphere: the core is the innermost layer of the geosphere, even though it is mostly metal."
+        },
+        {
+          "id": "groundwater",
+          "text": "Groundwater filling cracks in rock",
+          "rationale": "Hydrosphere: it sits underground, but it is water, and the hydrosphere includes water wherever it is found."
+        },
+        {
+          "id": "glacier",
+          "text": "Ice in an Arctic glacier",
+          "rationale": "Hydrosphere: frozen water is still water, and the hydrosphere includes ice wherever it is found."
+        },
+        {
+          "id": "nitrogen",
+          "text": "Nitrogen gas in the air",
+          "rationale": "Atmosphere: nitrogen is the most common gas in the air."
+        },
+        {
+          "id": "highair",
+          "text": "Thin air high over the clouds",
+          "rationale": "Atmosphere: the air thins out with height, but it is still part of the gas envelope around Earth."
+        },
+        {
+          "id": "bear",
+          "text": "A polar bear",
+          "rationale": "Biosphere: it is a living thing, even though it spends its days on sea ice."
+        },
+        {
+          "id": "mushrooms",
+          "text": "Mushrooms breaking down a fallen log",
+          "rationale": "Biosphere: decomposers such as mushrooms are living things too."
+        }
+      ],
+      "bins": [
+        {
+          "id": "geo",
+          "label": "Geosphere"
+        },
+        {
+          "id": "hydro",
+          "label": "Hydrosphere"
+        },
+        {
+          "id": "atmo",
+          "label": "Atmosphere"
+        },
+        {
+          "id": "bio",
+          "label": "Biosphere"
+        }
+      ],
+      "explanation": "Sort by what each thing is. Rock and metal, like magma and the core, are geosphere. Water in any form or place, like groundwater and glacier ice, is hydrosphere. Gases are atmosphere, and living things are biosphere. Being underground does not decide the system.",
+      "misconception": "Anything underground belongs to the geosphere, and frozen water is not part of the hydrosphere.",
+      "hint": "Ask what each thing is (rock or metal, water, a gas, or something alive), not where it happens to be.",
+      "followUpId": "L10-Q06",
+      "scope": {
+        "lessonId": "L10",
+        "section": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems",
+        "pages": {
+          "printed": [
+            130,
+            132,
+            134,
+            136,
+            137
+          ],
+          "pdf": [
+            166,
+            168,
+            170,
+            172,
+            173
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            130,
+            132,
+            134,
+            136
+          ],
+          "pdfPages": [
+            166,
+            168,
+            170,
+            172
+          ],
+          "locator": "Sections 1-4: The Geosphere, The Hydrosphere, The Atmosphere, The Biosphere",
+          "supports": "The geosphere is all of Earth's rock material from surface to center; the hydrosphere is all water, including groundwater, glaciers and vapor; the atmosphere is the layer of gases; the biosphere is all living things, including decomposers, and the places they live."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original items. Drafted from printed pp. 130, 132, 134, 136 (all rendered). Avoids water vapor and clouds, which belong to two systems (tested separately in Q02), so every item has one defensible bin. Reviser round 1 (2026-10-14): prompt now asks for the system each item mainly belongs to, because the lesson's biosphere includes habitats; hint and explanation sort by what each thing is (not what it is made of), and a limitations note names the overlap. The glacier rationale no longer states Q06's keyed answer. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt says 'mainly belongs to'; hint and explanation sort by what each thing is; overlap limitation added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: glacier rationale no longer gives away follow-up Q06's answer"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Systems overlap: the biosphere also includes the places where living things live, but each item here belongs mainly to one system."
+    },
+    {
+      "id": "L10-Q02",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "systems-overlap",
+        "water-vapor"
+      ],
+      "familyId": "L10-F01",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Invisible water vapor drifts in the air over a warm lake. Which of Earth's systems does that water vapor belong to?",
+      "accessiblePrompt": "Invisible water vapor, which is water in its gas form, drifts in the air over a warm lake. Which of Earth's four systems does that water vapor belong to?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both the hydrosphere and the atmosphere",
+          "rationale": "Correct. Vapor is water, so it counts in the hydrosphere, and it is a gas mixed into the air, so it is part of the atmosphere too. Systems can overlap."
+        },
+        {
+          "id": "b",
+          "text": "Only the atmosphere, because it is a gas",
+          "rationale": "Being a gas does put it in the atmosphere, but it is still water, and the hydrosphere includes water in every state, vapor included."
+        },
+        {
+          "id": "c",
+          "text": "Only the hydrosphere, because it is water",
+          "rationale": "It is water, but it is also one of the gases that make up the air, so the atmosphere counts it as well."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because vapor is energy, not matter",
+          "rationale": "Water vapor is matter: water molecules spread far apart as a gas. You can't see it, but it has mass and takes up space."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Earth's systems are parts of a model, not walled-off boxes. Water vapor counts in the hydrosphere because it is water and in the atmosphere because it is one of the gases in the air. Plenty of things sit in two systems at once, like a fish swimming in the sea.",
+      "misconception": "Every part of Earth fits into exactly one system.",
+      "hint": "Check two things: what the vapor is made of, and what state it is in.",
+      "followUpId": "L10-Q20",
+      "scope": {
+        "lessonId": "L10",
+        "section": "3. The Atmosphere",
+        "pages": {
+          "printed": [
+            134
+          ],
+          "pdf": [
+            170
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            132
+          ],
+          "pdfPages": [
+            168
+          ],
+          "locator": "Section 2. The Hydrosphere, The Parts of the Hydrosphere",
+          "supports": "The hydrosphere includes all of Earth's water, including water vapor."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            134
+          ],
+          "pdfPages": [
+            170
+          ],
+          "locator": "Section 3. The Atmosphere, The Parts of the Atmosphere",
+          "supports": "Water vapor is part of the hydrosphere, but because it is a gas it is also part of the atmosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 132 and 134 (rendered). Key matches the textbook's explicit statement on p. 134. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q03",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "geosphere-layers",
+        "density-order"
+      ],
+      "familyId": "L10-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "In Earth's big layers, less dense materials generally rest on top of denser ones. Put these in order from least dense to most dense.",
+      "accessiblePrompt": "In Earth's big layers, less dense materials generally rest on top of denser ones. Put these four in order from least dense to most dense: crust rock under a continent, iron and nickel in the core, air at ground level, and mantle rock.",
+      "answer": [
+        "air",
+        "crust",
+        "mantle",
+        "core"
+      ],
+      "items": [
+        {
+          "id": "crust",
+          "text": "Crust rock under a continent",
+          "rationale": "Second: the crust is the least dense of the geosphere's three layers, made mostly of lighter elements, but any rock is far denser than air."
+        },
+        {
+          "id": "core",
+          "text": "Iron and nickel in the core",
+          "rationale": "Last: the core is the densest layer, made mostly of the heavy metals iron and nickel."
+        },
+        {
+          "id": "air",
+          "text": "Air at ground level",
+          "rationale": "First: air is a mixture of gases, far less dense than any rock, so it sits on top."
+        },
+        {
+          "id": "mantle",
+          "text": "Mantle rock",
+          "rationale": "Third: mantle rock is denser than the crust above it but less dense than the core."
+        }
+      ],
+      "ends": [
+        "Least dense",
+        "Most dense"
+      ],
+      "explanation": "Density rises as you go toward Earth's center. Air is a thin gas, the crust is light rock, the mantle is denser rock, and the iron-nickel core is the densest of all. Less dense materials end up resting on denser ones.",
+      "misconception": "The stiff, solid crust must be the densest layer because it is hard and rigid.",
+      "hint": "Which of these is a gas? Which is made mostly of heavy metals?",
+      "followUpId": "L10-Q08",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            130
+          ],
+          "pdf": [
+            166
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            130
+          ],
+          "pdfPages": [
+            166
+          ],
+          "locator": "Section 1. The Geosphere, The Layers of the Geosphere",
+          "supports": "The crust, made mainly of lighter elements, is Earth's least dense layer; mantle rock is dense; the core, mostly iron and nickel, is the densest layer."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131,
+            134
+          ],
+          "pdfPages": [
+            167,
+            170
+          ],
+          "locator": "Section 1 (density) and Section 3. The Atmosphere",
+          "supports": "Less dense materials float on denser ones; the atmosphere is a layer of gases that grows less dense with height."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 130, 131, 134 (rendered). One defensible order. Core described as iron and nickel, not 'rock' (see L10-RF1). Review cycle 2 (2026-10-14): both reviewers passed it. The pedagogy reviewer's optional stem hedge was applied (\"In Earth's big layers ... generally rest on top of\"), because magma beneath the crust breaks the unhedged rule. Order and key unchanged. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q04",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "mantle",
+        "solid-that-flows"
+      ],
+      "familyId": "L10-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A friend says the mantle is a giant ocean of liquid magma sloshing beneath the crust. Which description of the mantle is most accurate?",
+      "accessiblePrompt": "A friend says Earth's mantle is a giant ocean of liquid magma sloshing beneath the crust. Which description of the mantle is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Solid rock hot enough to creep very slowly",
+          "rationale": "Correct. Mantle rock is solid, yet so hot that it can deform and flow over very long spans of time."
+        },
+        {
+          "id": "b",
+          "text": "A layer of liquid magma that sloshes and flows freely",
+          "rationale": "This is the friend's idea. Melted rock forms only in certain places; most of the mantle stays solid."
+        },
+        {
+          "id": "c",
+          "text": "Cool, rigid rock just like the crust",
+          "rationale": "The mantle is hot, not cool, and unlike the stiff crust it can flow slowly."
+        },
+        {
+          "id": "d",
+          "text": "Hot gas trapped under the crust",
+          "rationale": "None of the geosphere's main layers is a gas. The mantle is thick, dense rock."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Mantle rock is solid, but it is so hot that over millions of years it slowly deforms and flows, a bit like glacier ice creeping downhill. That slow creep is what lets convection cells turn in the mantle. Magma forms only in pockets where rock actually melts.",
+      "misconception": "The mantle is a layer of liquid magma.",
+      "hint": "Volcanoes prove that melted rock exists somewhere underground. Does that mean the whole mantle is melted?",
+      "followUpId": "L10-Q25",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            130
+          ],
+          "pdf": [
+            166
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            130
+          ],
+          "pdfPages": [
+            166
+          ],
+          "locator": "Section 1. The Geosphere, The Layers of the Geosphere",
+          "supports": "Mantle rock is a dense, solid material, but it is so hot that it can flow very slowly."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-14",
+          "supports": "The mantle is mostly solid rock that can move plastically over the course of millions of years; it is heated from below and cooled from above, and heat moves through it by convection."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 130 (rendered). Repairs the 'liquid mantle' misconception the cake-batter analogy can feed (L10-RF9). Reviser round 1 (2026-10-14): stem asks for the most accurate description (no unshown 'evidence', no two-way 'better'); new hint no longer restates choice a. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem says 'most accurate'; hint no longer restates the keyed choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q05",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "geosphere-layers",
+        "layer-thickness"
+      ],
+      "familyId": "L10-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "In the textbook's model, continental crust is about 35 km thick and the mantle under it is about 2,865 km thick. About how deep below a continent's surface is the bottom of the mantle?",
+      "accessiblePrompt": "In the textbook's model, continental crust is about 35 kilometers thick, and the mantle under it is about 2,865 kilometers thick. About how many kilometers deep, measured from a continent's surface, is the bottom of the mantle?",
+      "answer": 2900,
+      "tolerance": 10,
+      "unit": "km",
+      "workedSolution": "To reach the bottom of the mantle you pass through the whole crust and then the whole mantle, so add the thicknesses: 35 km + 2,865 km = 2,900 km.",
+      "explanation": "Depths stack up: the bottom of the mantle lies about 2,900 km down. The core starts there and reaches roughly another 3,470 km to the center, for a total of about 6,370 km from surface to center.",
+      "misconception": "The mantle's thickness alone tells how deep its bottom is.",
+      "hint": "What do you have to travel through before you reach the bottom of the mantle?",
+      "followUpId": "L10-Q01",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            130
+          ],
+          "pdf": [
+            166
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            130
+          ],
+          "pdfPages": [
+            166
+          ],
+          "locator": "Section 1. The Geosphere, Figure 1A (Three Main Layers of the Geosphere)",
+          "supports": "The crust is about 35 km thick on continents, the mantle about 2,865 km thick, the core about 3,470 km, and the geosphere about 6,370 km from surface to center."
+        }
+      ],
+      "units": "km",
+      "conditions": "Uses the textbook's model values for continental crust; real crust thickness varies from place to place.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Thickness values read from the Figure 1A render (p. 130) and the text. Tolerance 10 km. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q06",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "hydrosphere",
+        "fresh-water"
+      ],
+      "familyId": "L10-F03",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Only a small share of Earth's water is fresh instead of salty. Where is most of that fresh water found?",
+      "accessiblePrompt": "Only a small share of Earth's water is fresh instead of salty. Where is most of that fresh water found?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Frozen in glaciers and ice caps",
+          "rationale": "Correct. Roughly two-thirds of Earth's fresh water is locked up as ice, mostly near the poles."
+        },
+        {
+          "id": "b",
+          "text": "In lakes and rivers",
+          "rationale": "Lakes and rivers are the fresh water we notice most, but they hold only a tiny share of it, about 1 percent or even less."
+        },
+        {
+          "id": "c",
+          "text": "Underground as groundwater",
+          "rationale": "Groundwater is a big store, about 30 percent of fresh water, but glaciers and ice caps hold more than twice as much."
+        },
+        {
+          "id": "d",
+          "text": "Floating in clouds as tiny water droplets",
+          "rationale": "Clouds and vapor hold only a tiny fraction of Earth's water at any moment."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Nearly all of Earth's water is salty ocean water. Of the small fresh share, about two-thirds is frozen in glaciers and ice caps, most of the rest is groundwater, and only a tiny share, about 1 percent or less, sits in lakes and rivers.",
+      "misconception": "Most fresh water is in lakes and rivers, because that is where people see it.",
+      "hint": "The biggest store of fresh water is one that people can't easily pump or drink from.",
+      "followUpId": "L10-Q01",
+      "scope": {
+        "lessonId": "L10",
+        "section": "2. The Hydrosphere",
+        "pages": {
+          "printed": [
+            132
+          ],
+          "pdf": [
+            168
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            132
+          ],
+          "pdfPages": [
+            168
+          ],
+          "locator": "Section 2. The Hydrosphere, The Parts of the Hydrosphere and photo panel",
+          "supports": "Most of Earth's water is salt water; the fresh water is about 69% glaciers, 30% groundwater and 1% lakes and rivers."
+        },
+        {
+          "type": "external",
+          "title": "Where is Earth's Water?",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water",
+          "accessed": "2026-10-17",
+          "supports": "Of Earth's fresh water, about 68.7% is in ice caps and glaciers, 30.1% is groundwater and about 1.2% is surface water and other fresh water. Lakes hold about 20.9% and rivers about 0.49% of that surface share, so lakes and rivers together are only about a quarter of 1 percent of all fresh water."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 132 (rendered photo panel). Asks only for the ranking, which the textbook and USGS agree on (L10-RF8). Reviser round 1 (2026-10-14): new hint rules out lakes, rivers and groundwater without pointing straight at the ice. Review cycle 2 (2026-10-14): science reviewer: the textbook's \"1% lakes and rivers\" was stated as fact. USGS (reopened 2026-10-17) puts the 1.2% \"surface and other\" share as lakes 20.9% and rivers 0.49% of it (its table gives fresh lakes 0.26% and rivers 0.006% of all fresh water), so lakes and rivers are only about a quarter of 1 percent. Choice b's rationale and the explanation now say \"about 1 percent or less\"; the USGS record carries the split (L10-RF8). Key, ranking and choices a, c, d unchanged. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer points straight at the keyed choice"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: lakes-and-rivers share now \"about 1 percent or less\" (USGS: about a quarter of 1 percent); USGS record extended"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q07",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O1"
+      ],
+      "conceptTags": [
+        "atmosphere",
+        "air-density-with-height"
+      ],
+      "familyId": "L10-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which statements about Earth's atmosphere are accurate? Select all that apply.",
+      "accessiblePrompt": "Which statements about Earth's atmosphere are accurate? There are four statements; choose every one that is true. Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is made mostly of nitrogen and oxygen gases.",
+          "rationale": "Correct. Dry air is about 78 percent nitrogen and 21 percent oxygen."
+        },
+        {
+          "id": "b",
+          "text": "Nearly all weather happens in its lowest, densest part.",
+          "rationale": "Correct. Rain, snow, storms and almost all clouds form in the lowest layer, where the gases are packed most densely."
+        },
+        {
+          "id": "c",
+          "text": "It ends at a sharp boundary, the place where space begins.",
+          "rationale": "There is no sharp edge. The air keeps thinning with height until it is almost impossible to detect."
+        },
+        {
+          "id": "d",
+          "text": "Its air gets denser the higher you climb.",
+          "rationale": "It is the reverse: air is densest near the ground and thins with height, which is why breathing is harder on tall mountains."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Gravity holds the air close to Earth, so it is densest at the bottom and thins out gradually upward with no sharp top. Nitrogen and oxygen make up almost all of it, and nearly all weather forms in the low, dense part.",
+      "misconception": "The atmosphere is a shell with a definite edge that gets thicker higher up.",
+      "hint": "Think about climbing a very tall mountain: is the air thicker or thinner at the top?",
+      "followUpId": "L10-Q21",
+      "scope": {
+        "lessonId": "L10",
+        "section": "3. The Atmosphere",
+        "pages": {
+          "printed": [
+            134
+          ],
+          "pdf": [
+            170
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            134
+          ],
+          "pdfPages": [
+            170
+          ],
+          "locator": "Section 3. The Atmosphere, The Parts of the Atmosphere",
+          "supports": "The atmosphere is mainly nitrogen and oxygen; it has no sharp line with space; the air grows less dense with height; the textbook says all kinds of weather happen in the lowest, densest levels, which this item softens to 'nearly all' (L10-RF13)."
+        },
+        {
+          "type": "external",
+          "title": "JetStream: The Atmosphere",
+          "publisher": "NOAA National Weather Service",
+          "url": "https://www.noaa.gov/jetstream/atmosphere",
+          "accessed": "2026-10-14",
+          "supports": "Dry air is about 78% nitrogen and 21% oxygen; the atmosphere thins with distance from Earth but is held by gravity, extending thousands of miles up."
+        },
+        {
+          "type": "external",
+          "title": "JetStream: Layers of the Atmosphere",
+          "publisher": "NOAA National Weather Service",
+          "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+          "accessed": "2026-10-14",
+          "supports": "Almost all weather occurs in the troposphere, the lowest layer of the atmosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 134 (rendered). Avoids the trace-gas percentages and the 'elements' wording flagged in L10-RF5. Reviser round 1 (2026-10-14): keyed choice b now says 'Nearly all weather' (NOAA: almost all weather occurs in the troposphere), and its rationale and the explanation drop the absolute; recorded as L10-RF13. Wording differs slightly from both reviewers' suggestion ('Nearly all of our weather...'): 'of our' was dropped so the keyed choice is not the strictly longest option. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: keyed 'All of our weather' absolute softened to 'Nearly all weather', NOAA layers source added, flag L10-RF13"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: keyed choice b no longer an absolute that a careful learner could fairly reject"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q08",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "density",
+        "heating-lowers-density"
+      ],
+      "familyId": "L10-F04",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A chunk of mantle rock is heated and expands slightly. Its mass stays the same. What happens to its density?",
+      "accessiblePrompt": "A chunk of mantle rock is heated and expands slightly, taking up a little more space. Its mass stays the same. What happens to its density?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It decreases, because the same mass fills more space",
+          "rationale": "Correct. Density is mass divided by volume. Same mass, bigger volume, so lower density."
+        },
+        {
+          "id": "b",
+          "text": "It increases, because hot rock packs its particles tighter",
+          "rationale": "Heating makes particles jiggle more and spread apart, not pack more tightly."
+        },
+        {
+          "id": "c",
+          "text": "It increases, because the rock now holds more energy",
+          "rationale": "Adding energy makes the particles move faster and spread apart. It does not pack more mass into each cubic centimeter, so the density drops."
+        },
+        {
+          "id": "d",
+          "text": "It stays the same, because it is still the same kind of rock",
+          "rationale": "Density depends on temperature as well as on the material. The same rock is a little less dense when hot, which is why heated rock can rise."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Density compares mass with volume. Heating made the rock take up more volume while its mass stayed put, so each cubic centimeter holds a little less mass. Warmer, less dense rock is the kind that rises in a convection cell.",
+      "misconception": "Adding energy makes a material denser, as if energy added mass, or a material's density is fixed no matter its temperature.",
+      "hint": "Density compares mass with volume. Which of those two changed?",
+      "followUpId": "L10-Q10",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            131
+          ],
+          "pdf": [
+            167
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131
+          ],
+          "pdfPages": [
+            167
+          ],
+          "locator": "Section 1. The Geosphere, Energy and the Cycling of Matter in the Geosphere",
+          "supports": "Density is the amount of mass in a certain volume; when rock is heated it becomes less dense, and when it cools it becomes denser."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 131 (rendered). Review cycle 2 (2026-10-14): pedagogy reviewer: old choice c (\"heating removes some of its mass\") was ruled out by the stem's \"Its mass stays the same\", and old choice d carried the absolute \"never\". New c (more energy means denser) and d (same kind of rock, same density) are real misconceptions. Misconception reworded slightly from the reviewer's \"by changing mass\" to \"as if energy added mass\", because no remaining choice claims the mass changes. Lengths: a 52, b 58, c 52, d 60, so the key is not the longest. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem-eliminated choice c and absolute choice d replaced with real misconceptions; misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q09",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "density-calculation",
+        "cooling-raises-density",
+        "mantle-convection"
+      ],
+      "familyId": "L10-F04",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "A parcel of rock near the top of the mantle has a mass of 3,300 g and a volume of 1,000 cm³, the same density as the rock around it. It loses energy and contracts to 990 cm³, while its mass stays 3,300 g. What is its new density, to two decimal places?",
+      "accessiblePrompt": "A parcel of rock near the top of the mantle has a mass of 3,300 grams and a volume of 1,000 cubic centimeters, the same density as the rock around it. It loses energy and contracts to 990 cubic centimeters, while its mass stays 3,300 grams. What is its new density in grams per cubic centimeter, rounded to two decimal places?",
+      "answer": 3.33,
+      "tolerance": 0.01,
+      "unit": "g/cm³",
+      "workedSolution": "Density = mass ÷ volume. Before: 3,300 g ÷ 1,000 cm³ = 3.30 g/cm³. After cooling: 3,300 g ÷ 990 cm³ = 3.333… g/cm³, which rounds to 3.33 g/cm³.",
+      "explanation": "The cooled parcel is now slightly denser (3.33 g/cm³) than the rock around it (3.30 g/cm³), so gravity pulls it down. That is the sinking half of a mantle convection cell; warming does the opposite.",
+      "misconception": "A tiny change in volume can't change density enough to matter.",
+      "hint": "Divide the mass by the new volume, not the old one.",
+      "followUpId": "L10-Q12",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            131
+          ],
+          "pdf": [
+            167
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131
+          ],
+          "pdfPages": [
+            167
+          ],
+          "locator": "Section 1. The Geosphere, Energy and the Cycling of Matter in the Geosphere",
+          "supports": "Density is mass per volume; when rock cools it becomes denser, and gravity makes cooler, denser rock sink in a convection cell while heated, less dense rock rises."
+        }
+      ],
+      "units": "g/cm³",
+      "conditions": "Imaginary parcel with round numbers; it is cooled, and its mass does not change.",
+      "limitations": "Real mantle density varies with depth and composition. The numbers are chosen only to show the idea.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Original calculation built on the density definition and the heating and cooling rule on printed p. 131. Tolerance 0.01 g/cm³ accepts 3.32-3.34. Reviser round 1 (2026-10-14): flipped from heating to cooling so it no longer repeats Q08's heated-rock scenario with numbers added; it now tests the sinking half of the convection rule (3,300 g ÷ 990 cm³ = 3.33 g/cm³). Hint and misconception kept; conditions now say the parcel is cooled. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: flipped to a cooling parcel (answer 3.33 g/cm³) so it no longer duplicates Q08 and covers the sinking half of convection"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q10",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "convection",
+        "warm-water-rises",
+        "seed-question"
+      ],
+      "familyId": "L10-F05",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A clear pot of room-temperature water is heated gently from below. The warmer water near the bottom starts to rise. Why can the warmer water rise?",
+      "accessiblePrompt": "A clear pot of room-temperature water is heated gently at the bottom. The warmer water near the bottom of the pot starts to rise. Why can the warmer water rise?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It becomes less dense than the cooler water around it",
+          "rationale": "Correct. Warming spreads the water out a little, so it is less dense. Gravity pulls the cooler, denser water down beside it, and that sinking water pushes the warm water up: convection."
+        },
+        {
+          "id": "b",
+          "text": "Heat is lighter than cold, so it floats up and drags the water",
+          "rationale": "Heat isn't a substance with weight. Energy spreads from warmer to cooler places in any direction; the water rises because of its lower density."
+        },
+        {
+          "id": "c",
+          "text": "Each water molecule loses mass as it warms up",
+          "rationale": "Warming doesn't change a molecule's mass. The molecules spread farther apart, which lowers the density of the water as a whole."
+        },
+        {
+          "id": "d",
+          "text": "Rising air bubbles carry the warm water upward",
+          "rationale": "Gentle heating makes few bubbles, and they can't haul the water along. Warm water rises even when there are no bubbles at all."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Warm water rises because it is less dense than the cooler water around it. Gravity pulls the denser, cooler water down, which pushes the warmer water up; near the top the water cools, becomes denser and sinks again. That density-driven circulation is convection.",
+      "misconception": "Heat itself rises, or warm water molecules become lighter.",
+      "hint": "Compare how tightly packed the warm water is with the cooler water beside it.",
+      "followUpId": "L10-Q08",
+      "scope": {
+        "lessonId": "L10",
+        "section": "2. The Hydrosphere",
+        "pages": {
+          "printed": [
+            129,
+            131,
+            133
+          ],
+          "pdf": [
+            165,
+            167,
+            169
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            129,
+            131
+          ],
+          "pdfPages": [
+            165,
+            167
+          ],
+          "locator": "Introduction vocabulary and Section 1. Energy and the Cycling of Matter in the Geosphere",
+          "supports": "Convection is energy transfer caused by matter circulating because of density differences; heated material becomes less dense and rises while cooler, denser material sinks."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            133
+          ],
+          "pdfPages": [
+            169
+          ],
+          "locator": "Section 2. The Hydrosphere, Energy and the Cycling of Matter in the Hydrosphere",
+          "supports": "Warm water is less dense than cold water, so warm water stays near the surface."
+        },
+        {
+          "type": "external",
+          "title": "Water Density",
+          "publisher": "U.S. Geological Survey, Water Science School",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-density",
+          "accessed": "2026-10-14",
+          "supports": "Liquid water is densest at about 4 °C and becomes steadily less dense as it warms above that temperature."
+        }
+      ],
+      "conditions": "Liquid water that starts well above freezing (above about 4 °C) and is heated from below.",
+      "limitations": "Fresh water between 0 °C and 4 °C behaves the opposite way, becoming less dense as it cools.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Brief seed question for L10 (why warmer water rises in a suitably heated container), polished; key matches the brief's seed answer. Drafted from printed pp. 129, 131, 133 (rendered). The 4 °C condition comes from USGS (L10-RF10). Review cycle 2 (2026-10-14): science reviewer: choice a's rationale said gravity \"pushes the warm water up\"; it now says the sinking denser water does the pushing, matching Q12. Pedagogy reviewer: choice d drops the absolute \"all of\". Key, conditions and the 4 °C limitation unchanged. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale says sinking denser water, not gravity, pushes the warm water up"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d no longer uses the absolute \"all of\""
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q11",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "convection-cell",
+        "mantle-convection"
+      ],
+      "familyId": "L10-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Follow one chunk of rock around a convection cell in the mantle. Start just beneath the crust, where the chunk is losing energy to the cooler rock above, and put the steps in order.",
+      "accessiblePrompt": "Follow one chunk of rock around a convection cell in Earth's mantle. Start just beneath the crust, where the chunk is losing energy to the cooler rock above it, and put five steps in order: it slowly rises toward the crust; it gains energy from the hot core beneath it; gravity pulls it back down toward the core; it expands and becomes less dense; near the crust it loses energy and becomes denser.",
+      "answer": [
+        "cool",
+        "sink",
+        "warm",
+        "lessdense",
+        "rise"
+      ],
+      "items": [
+        {
+          "id": "rise",
+          "text": "It slowly rises toward the crust",
+          "rationale": "Last: once it is less dense than the rock around it, it is pushed slowly upward, back toward the crust where the trip began."
+        },
+        {
+          "id": "warm",
+          "text": "It gains energy from the hot core beneath it",
+          "rationale": "Third: at the bottom of the mantle, energy flows from the hotter core into the cooler rock touching it, by conduction."
+        },
+        {
+          "id": "sink",
+          "text": "Gravity pulls it back down toward the core",
+          "rationale": "Second: now denser than the rock around it, it is pulled down more strongly and sinks toward the core."
+        },
+        {
+          "id": "lessdense",
+          "text": "It expands and becomes less dense",
+          "rationale": "Fourth: the warmed rock spreads out, so the same mass fills more space."
+        },
+        {
+          "id": "cool",
+          "text": "Near the crust it loses energy and becomes denser",
+          "rationale": "First: just beneath the cooler crust it gives up energy, contracts slightly and becomes denser."
+        }
+      ],
+      "ends": [
+        "First (just beneath the crust)",
+        "Last (rising back toward the crust)"
+      ],
+      "explanation": "In a mantle convection cell, rock cools and becomes denser near the top, and gravity pulls it down; at the bottom it is warmed, becomes less dense and rises again. Both matter (the rock) and energy travel around the loop, though one trip takes many millions of years.",
+      "misconception": "Rock in a convection cell moves before its density has changed, or hot rock sinks.",
+      "hint": "Nothing sinks until it is denser than the rock around it, and nothing rises until it is less dense.",
+      "followUpId": "L10-Q09",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            131
+          ],
+          "pdf": [
+            167
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131
+          ],
+          "pdfPages": [
+            167
+          ],
+          "locator": "Section 1. The Geosphere, Figure 1B (Conduction and Convection in the Geosphere)",
+          "supports": "Energy flows outward from the core by conduction; warmer material becomes less dense and rises; cooler material becomes denser and gravity pulls it toward Earth's center, forming a convection cell."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-17",
+          "supports": "The mantle is mostly solid rock that is heated from below and cooled from above; its rock moves plastically over the course of millions of years."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 131; Figure 1B labels read from the render (OCR garbled, L10-RF11). Start point is fixed in the prompt, so one defensible order. Review cycle 2 (2026-10-14): pedagogy reviewer: the old start point and five steps copied the L10-O2 Explorer cycle diagram step for step, and there was no limitations field. The cycle now starts just beneath the crust (answer: cool, sink, warm, less dense, rise), with new ends labels, position words in every rationale, a matching accessiblePrompt and hint, and a limitations note. Item texts and IDs are unchanged. Both reviewers asked for limitations: the pedagogy reviewer's wording is used, with \"many millions\"; the science reviewer's \"warmed from within\" was not used because no source opened this cycle says it (National Geographic's Mantle page, reopened 2026-10-17, says heated from below and cooled from above, moving over millions of years). With the start point fixed, one order is still the only defensible one. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: cycle now starts beneath the crust so it no longer copies the Explorer diagram; limitations added"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Simplified textbook model: one trip around a mantle cell takes many millions of years, and real mantle flow is messier than one neat loop."
+    },
+    {
+      "id": "L10-Q12",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "gravity-drives-convection",
+        "density-and-gravity"
+      ],
+      "familyId": "L10-F05",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Convection in the mantle, the ocean and the air needs two ingredients: differences in density (usually from uneven heating) and gravity. What job does gravity do in a convection cell?",
+      "accessiblePrompt": "Convection in Earth's mantle, in the ocean, and in the air needs two ingredients: differences in density, which usually come from uneven heating, and gravity. What job does gravity do in a convection cell?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It pulls denser material down, pushing less dense material up",
+          "rationale": "Correct. Gravity pulls on all matter, but harder on each cubic meter of denser material, so cooler, denser material sinks and pushes warmer, less dense material up."
+        },
+        {
+          "id": "b",
+          "text": "It pulls the warmest material upward, away from Earth's center",
+          "rationale": "Gravity always pulls toward Earth's center. Warm material rises only because denser material sinks around it."
+        },
+        {
+          "id": "c",
+          "text": "It supplies the energy that warms the material at the bottom",
+          "rationale": "In these convection cells the warming comes from the sun or from Earth's hot interior. Gravity's job is to pull harder on denser material, not to warm it."
+        },
+        {
+          "id": "d",
+          "text": "Nothing; temperature differences alone keep the material moving",
+          "rationale": "Without gravity nothing would make denser material sink, so the loop would stall. Temperature differences only create the density differences that gravity acts on."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Differences in density, usually from uneven heating, set the stage; gravity does the moving. It pulls harder on each cubic meter of denser material, and that squeezes less dense material up. The same pull is why magma, less dense than the rock around it, works its way toward volcanoes.",
+      "misconception": "Warm material rises on its own, and gravity plays no part in convection.",
+      "hint": "Think of a cork held underwater and then released.",
+      "followUpId": "L10-Q03",
+      "scope": {
+        "lessonId": "L10",
+        "section": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems",
+        "pages": {
+          "printed": [
+            131,
+            135,
+            137
+          ],
+          "pdf": [
+            167,
+            171,
+            173
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131
+          ],
+          "pdfPages": [
+            167
+          ],
+          "locator": "Section 1. The Geosphere, Figure 1B (Conduction and Convection in the Geosphere)",
+          "supports": "Convection is energy transfer caused by matter circulating because of differences in density; cooler material becomes denser and gravity pulls denser materials more strongly toward Earth's center, while warmer, less dense material rises."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            135,
+            137
+          ],
+          "pdfPages": [
+            171,
+            173
+          ],
+          "locator": "Section 3. The Atmosphere (Figure 3) and Key Science Concept spread",
+          "supports": "Energy from the sun and Earth's gravity cause convection in the atmosphere; convection in the atmosphere and hydrosphere is driven by solar energy and gravity, and in the geosphere by internal energy and gravity."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Rewritten in reviser round 1 (2026-10-14) from a 'why does magma rise' item that paraphrased the seed question Q10 (same key, mirrored distractors). It now keys gravity's role as the second driver of every convection cell, which the lesson stresses on printed pp. 131, 135 and 137 (all rendered) and no other item keys. Family F05, category, difficulty and objective unchanged; the cork hint is kept. Magma rising now appears only in the explanation. Review cycle 2 (2026-10-14): science reviewer: the stem's \"needs two things: uneven heating and gravity\" was an unsupported absolute (the lesson also teaches salt-driven sinking, Q18), so it now says density differences (usually from uneven heating) plus gravity; the accessiblePrompt matches. Both reviewers flagged choice c's \"Gravity is a pull, not a heat source\" as too absolute; the science reviewer's wording is used (the pedagogy reviewer's makes the same point). Choice d's rationale and the explanation were adjusted to match the new stem. Key a unchanged. Verify-agent round 1 (2026-10-14): checked against the rendered pp. 131, 135 and 137 and the guide; passed with no change. Non-blocking polish note: since cycle 2 the stem names gravity as one of the two ingredients, so choice d (\"Nothing; ...\") contradicts the stem and is easy to rule out. The item still has one defensible key and two working distractors (b and c); a later author could swap d for another real misconception.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a gravity's-role item so it no longer paraphrases the seed Q10; closes the gravity coverage gap"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem says density differences (usually from uneven heating) plus gravity; choice c rationale no longer absolute"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice c rationale no longer says gravity is never a heat source"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q13",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "conduction",
+        "convection",
+        "radiation"
+      ],
+      "familyId": "L10-F06",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each example by how energy is being transferred: conduction, convection, or radiation.",
+      "accessiblePrompt": "Sort seven examples into three groups by how energy is being transferred: conduction, convection, or radiation. The examples are sunlight crossing empty space to reach Earth; sunlight passing through clear air and warming a dark rock; frigid polar air chilling the sea surface it touches; heat passing from the hot core into the mantle rock resting on it; warm air rising at the equator while cooler air sinks elsewhere; a cold, deep current creeping from the poles toward the equator; and sun-warmed sand heating your bare feet.",
+      "answer": {
+        "space": "rad",
+        "rock": "rad",
+        "polar": "cond",
+        "core": "cond",
+        "sand": "cond",
+        "air": "conv",
+        "deep": "conv"
+      },
+      "items": [
+        {
+          "id": "space",
+          "text": "Sunlight crossing empty space to reach Earth",
+          "rationale": "Radiation: space has too little matter for conduction or convection, so the energy travels as light."
+        },
+        {
+          "id": "rock",
+          "text": "Sunlight passing through clear air and warming a dark rock",
+          "rationale": "Radiation: light carries the energy through the transparent air to the rock."
+        },
+        {
+          "id": "polar",
+          "text": "Frigid polar air chilling the sea surface it touches",
+          "rationale": "Conduction: the air and water are in contact, and energy passes from the warmer water to the colder air."
+        },
+        {
+          "id": "core",
+          "text": "Heat passing from the hot core into the mantle rock resting on it",
+          "rationale": "Conduction: the core and the bottom of the mantle touch, so energy flows from the hotter material to the cooler one."
+        },
+        {
+          "id": "air",
+          "text": "Warm air rising at the equator while cooler air sinks elsewhere",
+          "rationale": "Convection: the air itself circulates, carrying energy as warm air rises and cool air sinks."
+        },
+        {
+          "id": "deep",
+          "text": "A cold, deep current creeping from the poles toward the equator",
+          "rationale": "Convection: the water itself travels as part of the ocean's density-driven loop, carrying its energy with it."
+        },
+        {
+          "id": "sand",
+          "text": "Sun-warmed sand heating your bare feet",
+          "rationale": "Conduction: the sun warmed the sand earlier, but the transfer here is from the hot sand into the cooler feet touching it."
+        }
+      ],
+      "bins": [
+        {
+          "id": "cond",
+          "label": "Conduction"
+        },
+        {
+          "id": "conv",
+          "label": "Convection"
+        },
+        {
+          "id": "rad",
+          "label": "Radiation"
+        }
+      ],
+      "explanation": "Ask what carries the energy. If it passes between materials that touch, that's conduction. If the material itself circulates, warm parts rising and cool parts sinking, that's convection. If light carries it, even through empty space or clear air, that's radiation.",
+      "misconception": "Any heating counts as convection, anything involving the sun is radiation, or energy cannot cross empty space.",
+      "hint": "For each example, ask: are two things touching, is material flowing in a loop, or is light doing the carrying?",
+      "followUpId": "L10-Q10",
+      "scope": {
+        "lessonId": "L10",
+        "section": "2. The Hydrosphere",
+        "pages": {
+          "printed": [
+            129,
+            131,
+            133,
+            135
+          ],
+          "pdf": [
+            165,
+            167,
+            169,
+            171
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            129
+          ],
+          "pdfPages": [
+            165
+          ],
+          "locator": "Introduction, Vocabulary",
+          "supports": "Conduction is energy transfer between touching objects; convection is energy transfer by circulating matter; radiation is energy transfer as light through space or transparent objects."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131,
+            133,
+            135
+          ],
+          "pdfPages": [
+            167,
+            169,
+            171
+          ],
+          "locator": "Sections 1-3, Figures 1B, 2 and 3",
+          "supports": "Energy flows from the core by conduction; solar energy reaches Earth by radiation; polar air cools ocean water by conduction; ocean water and air move by convection, and cold, deep ocean currents travel from the poles back toward the equator."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original examples, each matched to a textbook statement on pp. 129, 131, 133, 135 (rendered). Reviser round 1 (2026-10-14): science reviewer noted (pass, optional) that the scope label '2. The Hydrosphere' is narrow because the three transfer modes are taught across the Introduction and Sections 1-3; the cited pages 129-135 already cover that, so the label is kept. Review cycle 2 (2026-10-14): pedagogy reviewer: every bin could be sorted by keyword (\"sunlight\", \"rising ... sinks\", \"touches\"), the 2-2-2 split let the last item be inferred, and the mantle item repeated Q11 and Q25. The mantle item is replaced with a deep polar current (convection; textbook p. 133 and Figure 2), and a seventh item, sun-warmed sand heating bare feet (conduction), puts the word \"sun\" on a non-radiation item. Split is now 3-2-2. Science reviewer (pass, optional): limitations note added naming evaporation and infrared at a real sea surface. Every item still has one defensible bin under the stated main-transfer rule. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: mantle item replaced with a deep ocean current; sun-warmed sand (conduction) added so keywords no longer sort the items"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Uses the lesson's model and sorts each example by its main transfer; at a real sea surface, evaporation and infrared radiation also carry energy away."
+    },
+    {
+      "id": "L10-Q14",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "conduction-vs-convection",
+        "misconception-repair"
+      ],
+      "familyId": "L10-F06",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Lava flows over cold ground, and the rock right under it heats up. A student says, \"That's convection, because energy moved.\" Which response is most accurate?",
+      "accessiblePrompt": "Lava flows over cold ground, and the rock directly under the lava heats up. A student says, that's convection, because energy moved. Which response is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rock warmed by touching the lava, which is conduction",
+          "rationale": "Correct. Energy passed straight from the hot lava into the cooler rock it was touching. Convection would need the material itself to circulate."
+        },
+        {
+          "id": "b",
+          "text": "The student is right: energy moved, so that counts as convection",
+          "rationale": "This is the mix-up being corrected. Convection is the specific case where warm and cool material circulate; energy passing between touching objects is conduction."
+        },
+        {
+          "id": "c",
+          "text": "It's mainly radiation, because the lava is glowing",
+          "rationale": "Glowing lava does give off light, but the rock underneath is in direct contact with it, so most of its warming is by conduction."
+        },
+        {
+          "id": "d",
+          "text": "It can't be conduction, because rock is a poor conductor",
+          "rationale": "Rock conducts energy slowly compared with metal, but slow conduction is still conduction. Rock touching hot lava warms this way."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Convection means energy carried by circulating material, like rising warm air or sinking cold water. The ground under the lava doesn't circulate; it warms because it is touching something hotter, which is conduction. Not every energy transfer is convection.",
+      "misconception": "Every transfer of thermal energy is convection.",
+      "hint": "What would have to be moving for this to count as convection?",
+      "followUpId": "L10-Q11",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            129,
+            131
+          ],
+          "pdf": [
+            165,
+            167
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            129,
+            131
+          ],
+          "pdfPages": [
+            165,
+            167
+          ],
+          "locator": "Introduction vocabulary and Section 1. Energy and the Cycling of Matter in the Geosphere",
+          "supports": "Conduction moves energy between touching objects from warmer to cooler; convection is energy transfer caused by matter circulating because of density differences."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original scenario. Targets the brief's warning that convection is bulk material movement, not all heat transfer. Drafted from printed pp. 129, 131. Reviser round 1 (2026-10-14): stem now asks which response is most accurate (choice b agrees with the student, so 'correction' did not fit); choice d replaced with the 'only metals conduct' misconception because the old d contradicted the stem's 'cold ground'. Review cycle 2 (2026-10-14): pedagogy reviewer: all three distractors carried absolutes (\"Any\", \"always\", \"only\") and the key had none, and the old hint was a two-way choice that gave the item away. Choices b-d reworded without absolutes (b keeps its rationale) and the hint now asks what would have to move. Lengths: key 57; b 64, c 50, d 56. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem asks for the most accurate response; self-eliminating choice d replaced with 'only metals conduct'"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors b-d lose their absolutes; hint no longer hands over the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q15",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "energy-sources",
+        "sun-vs-interior"
+      ],
+      "familyId": "L10-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each process by its main energy source: the sun or Earth's hot interior.",
+      "accessiblePrompt": "Sort seven processes by their main energy source, either the sun or Earth's hot interior. The processes are global winds made by huge air convection cells; water evaporating from a lake; grass making its own food; the great current that loops between the equator and the poles; slow convection cells in mantle rock; magma rising to erupt in Iceland; and water boiling underground before a geyser erupts.",
+      "answer": {
+        "wind": "sun",
+        "evap": "sun",
+        "grass": "sun",
+        "ocean": "sun",
+        "mantle": "interior",
+        "magma": "interior",
+        "geyser": "interior"
+      },
+      "items": [
+        {
+          "id": "wind",
+          "text": "Global winds made by huge air convection cells",
+          "rationale": "Sun: uneven solar heating warms air near the equator, setting the air cells turning."
+        },
+        {
+          "id": "evap",
+          "text": "Water evaporating from a lake",
+          "rationale": "Sun: solar energy warms the water so some of it escapes into the air."
+        },
+        {
+          "id": "grass",
+          "text": "Grass making its own food",
+          "rationale": "Sun: producers capture sunlight and store its energy in food."
+        },
+        {
+          "id": "ocean",
+          "text": "The great current that loops between the equator and the poles",
+          "rationale": "Sun: solar warming near the equator, cooling near the poles and sun-driven winds, with gravity, keep this loop moving. Tides raised by the Moon also help stir the deep water."
+        },
+        {
+          "id": "mantle",
+          "text": "Slow convection cells in mantle rock",
+          "rationale": "Interior: heat from Earth's hot interior, with gravity, drives mantle convection."
+        },
+        {
+          "id": "magma",
+          "text": "Magma rising to erupt in Iceland",
+          "rationale": "Interior: the heat that melts and moves rock comes from inside Earth."
+        },
+        {
+          "id": "geyser",
+          "text": "Water boiling underground before a geyser erupts",
+          "rationale": "Interior: rainwater soaks down to rock heated by magma, far deeper than sunlight can reach."
+        }
+      ],
+      "bins": [
+        {
+          "id": "sun",
+          "label": "The sun"
+        },
+        {
+          "id": "interior",
+          "label": "Earth's hot interior"
+        }
+      ],
+      "explanation": "The sun powers the surface systems: it warms air and water unevenly, driving winds, ocean loops and evaporation, and producers capture its light. Earth's interior powers the geosphere: its heat drives mantle convection, magma and the hot rock that boils water for geysers.",
+      "misconception": "The sun's energy drives everything on Earth, including volcanoes and geysers.",
+      "hint": "Ask where the energy that sets each process going enters: at Earth's sunlit surface, or deep inside the planet?",
+      "followUpId": "L10-Q17",
+      "scope": {
+        "lessonId": "L10",
+        "section": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems",
+        "pages": {
+          "printed": [
+            131,
+            133,
+            135,
+            136,
+            137
+          ],
+          "pdf": [
+            167,
+            169,
+            171,
+            172,
+            173
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            137
+          ],
+          "pdfPages": [
+            173
+          ],
+          "locator": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems",
+          "supports": "The spread says all the energy in Earth's systems comes from the sun or Earth's hot interior (tides are a small third source; see L10-RF12); convection in the atmosphere and hydrosphere is driven by solar energy and gravity, and in the geosphere by internal energy and gravity."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131,
+            133,
+            135,
+            136
+          ],
+          "pdfPages": [
+            167,
+            169,
+            171,
+            172
+          ],
+          "locator": "Sections 1-4",
+          "supports": "Magma rises because of interior heat; the sun is the main energy source for the hydrosphere and drives air convection cells and evaporation; producers capture solar energy."
+        },
+        {
+          "type": "external",
+          "title": "Geysers, Fumaroles, and Hot Springs (Volcanoes general-interest publication)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/volc/geysers.html",
+          "accessed": "2026-10-14",
+          "supports": "Surface water percolates down to hot regions around a magma reservoir, where it is heated, becomes less dense and rises back to the surface along cracks."
+        },
+        {
+          "type": "external",
+          "title": "Dissipation of Tidal Energy",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/dissipation-of-tidal-energy-654/",
+          "accessed": "2026-10-14",
+          "supports": "The Moon's gravity gives energy to ocean tides. About 1 terawatt of tidal energy is dissipated in the deep ocean; about 2 terawatts are thought to be needed to maintain the ocean's large-scale circulation, winds supply about 1 terawatt, and tidal mixing may supply about half."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 131-137 (rendered, including the Key Science Concept spread whose OCR is missing). The textbook poses the geyser question on p. 129 without answering it; the geyser item uses USGS. Reviser round 1 (2026-10-14): ocean item renamed 'the great current that loops between the equator and the poles' (no 'deep', which pulled toward the interior bin) and its rationale names sun-driven winds and tidal stirring; limitations note and NASA Earth Observatory tidal record added (L10-RF12). The hint asks where the energy 'enters' rather than the reviewer's 'where the warming happens', so it also fits 'grass making its own food', which runs on light, not warming. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: limitations and ocean rationale name winds and tidal (Moon) stirring; NASA tidal source and flag L10-RF12 added"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: ocean item no longer says 'deep'; hint no longer points the wrong way on that item"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "limitations": "Uses the lesson's two-source model. Sun-driven winds and tidal stirring from the Moon's gravity also help power the deep ocean loop; compared with Earth's interior, the sun is still its main source."
+    },
+    {
+      "id": "L10-Q16",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "energy-sources",
+        "ocean-circulation"
+      ],
+      "familyId": "L10-F07",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Heat from Earth's hot interior does seep into the ocean through the seafloor, most strongly at hot vents. So why do scientists call the sun the main energy source that moves ocean water around the globe?",
+      "accessiblePrompt": "Heat from Earth's hot interior does seep into the ocean through the seafloor, most strongly at hot vents. So why do scientists call the sun the main energy source that moves ocean water around the globe?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sun supplies far more energy to the oceans",
+          "rationale": "Correct. Interior heat adds a little, but the sunlight pouring onto the ocean's surface delivers much more energy."
+        },
+        {
+          "id": "b",
+          "text": "Sun-warmed water is hotter than vent-warmed water",
+          "rationale": "Not so: fluid pouring from seafloor hot vents can top 300 °C, far hotter than any sunlit sea. What counts is the total amount of energy delivered, not how hot one spot gets."
+        },
+        {
+          "id": "c",
+          "text": "Sunlight heats the deep seafloor directly",
+          "rationale": "Sunlight is absorbed in the upper ocean, and the deep seafloor is dark. The sun works by warming the surface water."
+        },
+        {
+          "id": "d",
+          "text": "The Moon's pull, more than the sun, moves ocean water",
+          "rationale": "The Moon's pull raises tides, and tidal stirring helps mix the deep ocean, but the great currents looping between the equator and the poles are powered mainly by solar heating and cooling, sun-driven winds and gravity."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Both energy sources reach the hydrosphere, but not equally. A hot vent can be far hotter than sunlit water, yet the sun transfers much more energy to the ocean in total, so solar warming near the equator and cooling near the poles power the global loop of currents.",
+      "misconception": "Earth's interior heat is what mainly drives ocean currents.",
+      "hint": "Picture how much of the ocean's surface sunlight touches every day, then picture the few places where seafloor heat is strongest.",
+      "followUpId": "L10-Q17",
+      "scope": {
+        "lessonId": "L10",
+        "section": "2. The Hydrosphere",
+        "pages": {
+          "printed": [
+            133
+          ],
+          "pdf": [
+            169
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            133
+          ],
+          "pdfPages": [
+            169
+          ],
+          "locator": "Section 2. The Hydrosphere, Energy and the Cycling of Matter in the Hydrosphere",
+          "supports": "The sun is the main energy source cycling water in the hydrosphere because it transfers much more energy to the hydrosphere than Earth's interior does."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            131
+          ],
+          "pdfPages": [
+            167
+          ],
+          "locator": "Section 1. The Geosphere, Energy and the Cycling of Matter in the Geosphere",
+          "supports": "Energy flows outward from Earth's hot core toward the cool surface."
+        },
+        {
+          "type": "external",
+          "title": "Black Smoker",
+          "publisher": "NOAA Ocean Exploration",
+          "url": "https://oceanexplorer.noaa.gov/multimedia/black-smoker/",
+          "accessed": "2026-10-14",
+          "supports": "Fluid pouring from a seafloor black-smoker vent was measured at 339 °C, where it meets deep seawater of about 2 °C."
+        },
+        {
+          "type": "external",
+          "title": "Dissipation of Tidal Energy",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/dissipation-of-tidal-energy-654/",
+          "accessed": "2026-10-14",
+          "supports": "The Moon's gravity gives energy to ocean tides. About 1 terawatt of tidal energy is dissipated in the deep ocean; about 2 terawatts are thought to be needed to maintain the ocean's large-scale circulation, winds supply about 1 terawatt, and tidal mixing may supply about half."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 133 (rendered). Reviser round 1 (2026-10-14): premise corrected: interior heat seeps through the whole seafloor, strongest at vents (not 'in a few places'). Choice d's rationale now names tidal stirring. The pedagogy reviewer's replacement for choice b ('Interior heat gets used up before it reaches the sea') is not used: under the corrected stem, which says interior heat does reach the ocean, it would eliminate itself just as the old b did. Choice b is instead the temperature-versus-total-energy mix-up (brief guardrail: temperature, heat and thermal energy differ), sourced to NOAA Ocean Exploration (vent fluid 339 °C). Hint rewritten to fit the new stem; follow-up moved to Q17 (F08), which revisits why the sun drives ocean and air loops. Review cycle 2 (2026-10-14): pedagogy reviewer: choice d's \"only\" made it easy to drop on wording; it now reads \"The Moon's pull, more than the sun, moves ocean water\" (53 characters; key 46). Its rationale already explains tidal stirring versus solar-driven currents. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: premise says interior heat seeps through the seafloor, strongest at vents; choice d rationale names tidal stirring"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: self-eliminating choice b replaced (temperature vs total energy, not the suggested text; see notes); follow-up now Q17"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice d no longer uses \"only\""
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q17",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "uneven-solar-heating",
+        "equator-vs-poles"
+      ],
+      "familyId": "L10-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Averaged over a year, sunshine delivers much more energy to each square meter of ground near the equator than near the poles. What causes this difference?",
+      "accessiblePrompt": "Averaged over a year, sunshine delivers much more energy to each square meter of ground near the equator than near the North and South Poles. What causes this difference?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Earth's curve spreads polar sunlight over more ground",
+          "rationale": "Correct. Sunlight hits the tropics nearly head-on but strikes the poles at a low slant, so the same light is spread across more ground."
+        },
+        {
+          "id": "b",
+          "text": "The equator sits much closer to the sun than the poles",
+          "rationale": "The difference in distance is tiny compared with the roughly 150 million km to the sun. The angle of the light matters, not distance."
+        },
+        {
+          "id": "c",
+          "text": "The poles stay tilted away from the sun all year",
+          "rationale": "Each pole tilts toward the sun for half the year, its summer, with months of daylight. Averaged over a year, the low, slanting angle of the light is what matters."
+        },
+        {
+          "id": "d",
+          "text": "The equator gets far more hours of daylight each year",
+          "rationale": "Over a year, both get daylight about half the time: close to 12 hours every day at the equator, and about six months of nonstop light at each pole. The difference is the angle of the light."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Because Earth is a sphere, sunlight hits the tropics nearly straight on, packing its energy into a small area. Near the poles the same light arrives at a slant and spreads across much more ground, so on average each square meter gets less. That uneven heating drives the air and ocean convection loops.",
+      "misconception": "The equator is warmer because it is closer to the sun.",
+      "hint": "Shine a flashlight straight at a wall, then tilt it. What happens to the spot of light?",
+      "followUpId": "L10-Q15",
+      "scope": {
+        "lessonId": "L10",
+        "section": "3. The Atmosphere",
+        "pages": {
+          "printed": [
+            133,
+            135
+          ],
+          "pdf": [
+            169,
+            171
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            135
+          ],
+          "pdfPages": [
+            171
+          ],
+          "locator": "Section 3. The Atmosphere, Energy and the Cycling of Matter in the Atmosphere",
+          "supports": "Because of Earth's spherical shape, energy from the sun is more concentrated at the equator than at the poles."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            133
+          ],
+          "pdfPages": [
+            169
+          ],
+          "locator": "Section 2. The Hydrosphere, Energy and the Cycling of Matter in the Hydrosphere",
+          "supports": "More solar energy strikes Earth's surface at the equator than at the poles, so equatorial ocean water is warmest."
+        },
+        {
+          "type": "external",
+          "title": "What Causes the Seasons?",
+          "publisher": "NOAA National Weather Service (Sioux Falls, SD forecast office)",
+          "url": "https://www.weather.gov/fsd/season",
+          "accessed": "2026-10-14",
+          "supports": "Near the equator, daylight stays within a few minutes of 12 hours all year; at the North Pole the sun stays up for about six months and then stays down for about six months."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed pp. 133, 135 (rendered). Reviser round 1 (2026-10-14): prompt now states the yearly-average condition (near a solstice the summer pole's 24-hour sunlight can match the equator's on a single day). Filler choice d replaced with the real 'more hours of daylight' misconception, sourced to NWS (equator about 12 hours every day; each pole about six months of light and six of dark). Review cycle 2 (2026-10-14): pedagogy reviewer: choice c (\"Polar ice completely stops sunlight...\") was a weak distractor given away by \"completely\"; it is replaced with the tilt misconception (the NWS seasons source already cited supports each pole's half year of daylight). With the long old c gone, the keyed choice a would have been strictly the longest (57 characters), so its text was trimmed from \"Earth's round shape spreads polar sunlight over more area\" to \"Earth's curve spreads polar sunlight over more ground\" (same meaning; rationale unchanged). Lengths: a 53, b 54, c 48, d 53. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt and explanation say 'averaged over a year' / 'on average'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: filler choice d replaced with the 'more hours of daylight' misconception, with an NWS source"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: weak \"completely\" distractor c replaced with the tilt misconception; key text trimmed so it is not the longest"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Averaged over a whole year."
+    },
+    {
+      "id": "L10-Q18",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3",
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "ocean-convection",
+        "thermohaline",
+        "polar-sinking"
+      ],
+      "familyId": "L10-F08",
+      "category": "application",
+      "difficulty": 3,
+      "type": "multi",
+      "prompt": "In icy polar seas, some surface seawater becomes dense enough to sink and feed a deep ocean current. Which changes make that seawater denser? Select all that apply.",
+      "accessiblePrompt": "In icy polar seas, some seawater at the surface becomes dense enough to sink and feed a deep ocean current. Which of four changes make that seawater denser? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is chilled by the frigid air over it",
+          "rationale": "Correct. Contact with very cold air draws energy out of the water by conduction, and colder seawater is denser."
+        },
+        {
+          "id": "b",
+          "text": "It becomes saltier as sea ice forms nearby",
+          "rationale": "Correct. When seawater freezes, most of the salt is left behind in the water, and saltier water is denser."
+        },
+        {
+          "id": "c",
+          "text": "It soaks up sunshine during the long polar summer",
+          "rationale": "Warming would make the water less dense, not denser. And polar sunlight arrives at a low slant, so it delivers little energy to each square meter."
+        },
+        {
+          "id": "d",
+          "text": "It gets fresher as melting glaciers pour into it",
+          "rationale": "Melting ice adds fresh water, which makes seawater less salty and so less dense. That would make sinking harder, not easier."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Seawater gets denser when it gets colder or saltier, and near the poles both happen: frigid air chills the surface, and freezing sea ice leaves salt behind. The textbook's model focuses on cooling; ocean scientists add salt, which is why this loop is called thermohaline (heat plus salt) circulation.",
+      "misconception": "Only temperature controls whether ocean water sinks.",
+      "hint": "Density is mass packed into a volume. Which changes would pack more mass into the same volume of seawater?",
+      "followUpId": "L10-Q10",
+      "scope": {
+        "lessonId": "L10",
+        "section": "2. The Hydrosphere",
+        "pages": {
+          "printed": [
+            133
+          ],
+          "pdf": [
+            169
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            133
+          ],
+          "pdfPages": [
+            169
+          ],
+          "locator": "Section 2. The Hydrosphere, Energy and the Cycling of Matter in the Hydrosphere, Figure 2",
+          "supports": "In polar regions, conduction between the cold air and the ocean cools surface water, which sinks to form deep currents flowing back toward the equator."
+        },
+        {
+          "type": "external",
+          "title": "Currents Tutorial: The Global Conveyor Belt",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html",
+          "accessed": "2026-10-14",
+          "supports": "Polar surface water is chilled and also becomes saltier because salt is left behind when sea ice forms; the colder, saltier water is denser and sinks."
+        },
+        {
+          "type": "external",
+          "title": "What is the global ocean conveyor belt?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/conveyor.html",
+          "accessed": "2026-10-14",
+          "supports": "The conveyor is driven by thermohaline currents (temperature and salinity) in the deep ocean plus wind-driven surface currents; cold, salty water is dense and sinks."
+        }
+      ],
+      "limitations": "Simplified: winds and mixing also move ocean water, and deep water returns to the surface in many places.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 133 (rendered). Choice b corrects the textbook's temperature-only model with NOAA sources (L10-RF2). Reviser round 1 (2026-10-14): the lesson now teaches salinity (key idea 6 and the L10-O3 Explorer card say saltier water is denser and that sea ice leaves its salt behind), so the keyed choice b is taught in game. Hint no longer says \"heavier\" or names both keyed factors; the weak core-heating distractor is replaced with meltwater freshening. Review cycle 2 (2026-10-14): pedagogy reviewer: choice c (\"strong polar sunshine\") contradicted what the lesson teaches about weak polar sunlight, so the word \"strong\" gave it away. Replaced with the long-polar-summer idea (49 characters; keys 39 and 42). Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: salinity now taught in lesson content; hint uses density and names neither key; choice d replaced with meltwater freshening"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: self-contradicting \"strong polar sunshine\" distractor replaced"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q19",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "system-boundaries",
+        "matter-and-energy-transfer"
+      ],
+      "familyId": "L10-F09",
+      "category": "application",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each event to the system boundary it crosses, from where the matter or energy starts to where it ends up. Two boundaries are not used.",
+      "accessiblePrompt": "Match each of four events to the system boundary it crosses, from where the matter or energy starts to where it ends up. Six boundaries are offered and two are not used. Events: ash from an eruption billows into the sky; grass takes in carbon dioxide from the air; hot rock deep underground heats groundwater; a deer drinks from a river. Boundaries: geosphere to atmosphere; atmosphere to geosphere; atmosphere to biosphere; geosphere to hydrosphere; hydrosphere to biosphere; biosphere to hydrosphere.",
+      "answer": {
+        "ash": "geo-atmo",
+        "grass": "atmo-bio",
+        "rock": "geo-hydro",
+        "deer": "hydro-bio"
+      },
+      "left": [
+        {
+          "id": "ash",
+          "text": "Ash from an eruption billows into the sky",
+          "rationale": "Geosphere to atmosphere: ash is shattered rock from inside Earth, now carried in the air."
+        },
+        {
+          "id": "grass",
+          "text": "Grass takes in carbon dioxide from the air",
+          "rationale": "Atmosphere to biosphere: a gas from the air becomes part of a living plant."
+        },
+        {
+          "id": "rock",
+          "text": "Hot rock deep underground heats groundwater",
+          "rationale": "Geosphere to hydrosphere: energy passes from rock to water, the way geysers get their heat."
+        },
+        {
+          "id": "deer",
+          "text": "A deer drinks from a river",
+          "rationale": "Hydrosphere to biosphere: river water becomes part of a living animal."
+        }
+      ],
+      "right": [
+        {
+          "id": "geo-atmo",
+          "text": "Geosphere to atmosphere"
+        },
+        {
+          "id": "atmo-geo",
+          "text": "Atmosphere to geosphere"
+        },
+        {
+          "id": "atmo-bio",
+          "text": "Atmosphere to biosphere"
+        },
+        {
+          "id": "geo-hydro",
+          "text": "Geosphere to hydrosphere"
+        },
+        {
+          "id": "hydro-bio",
+          "text": "Hydrosphere to biosphere"
+        },
+        {
+          "id": "bio-hydro",
+          "text": "Biosphere to hydrosphere"
+        }
+      ],
+      "explanation": "Earth's systems trade matter and energy all the time. Eruptions move rock into the air, plants pull carbon dioxide from the air, hot rock passes energy to underground water, and animals take in water. Name what is moving, where it was, and where it ends up, and the boundary becomes clear. Direction matters: eruption ash moves from rock into the air, not the other way around.",
+      "misconception": "Each system keeps its own matter and energy to itself.",
+      "hint": "For each event, name what is moving, where it was before, and where it is after.",
+      "followUpId": "L10-Q01",
+      "scope": {
+        "lessonId": "L10",
+        "section": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems",
+        "pages": {
+          "printed": [
+            130,
+            136,
+            137
+          ],
+          "pdf": [
+            166,
+            172,
+            173
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            137
+          ],
+          "pdfPages": [
+            173
+          ],
+          "locator": "Key Science Concept: The Flow of Energy and Matter Through Earth's Systems",
+          "supports": "Energy and matter move both within and between Earth's systems."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            130,
+            136
+          ],
+          "pdfPages": [
+            166,
+            172
+          ],
+          "locator": "Section 1 photo caption and Section 4. The Biosphere",
+          "supports": "Rock material can move outward from Earth's interior during eruptions; the geosphere, hydrosphere and atmosphere provide the water, air and nutrients organisms need."
+        },
+        {
+          "type": "external",
+          "title": "Geysers, Fumaroles, and Hot Springs (Volcanoes general-interest publication)",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/volc/geysers.html",
+          "accessed": "2026-10-14",
+          "supports": "Surface water percolates down to hot regions around a magma reservoir, where it is heated, becomes less dense and rises back to the surface along cracks."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original events. Drafted from printed pp. 130, 136, 137 (rendered). Each event has one defensible start and end system; the rock-heats-groundwater pair uses USGS. Reviser round 1 (2026-10-14): two reversed decoy boundaries (atmosphere to geosphere, biosphere to hydrosphere) added so direction is actually tested and the last pair is not forced; prompt says two boundaries are unused. QuestionPanel renders each left item as a dropdown of all right options, so extra options display correctly. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: two reversed decoy boundaries added so direction is tested"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q20",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "condensation",
+        "clouds-are-droplets"
+      ],
+      "familyId": "L10-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "On a muggy afternoon, puffy white clouds build high over a lake. What are those clouds made of?",
+      "accessiblePrompt": "On a humid afternoon, puffy white clouds build high in the sky over a lake. What are those clouds made of?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tiny droplets of liquid water",
+          "rationale": "Correct. Rising air cools, and the invisible vapor in it condenses into droplets small enough to float. Very high, cold clouds can also hold ice crystals."
+        },
+        {
+          "id": "b",
+          "text": "Water vapor, the gas form of water",
+          "rationale": "Water vapor is invisible. You can see a cloud only because the vapor has already condensed into liquid droplets."
+        },
+        {
+          "id": "c",
+          "text": "Steam boiling off the surface of the lake",
+          "rationale": "The lake is nowhere near boiling. Water evaporates slowly from its surface at ordinary temperatures."
+        },
+        {
+          "id": "d",
+          "text": "Dust and smoke lifted by the wind",
+          "rationale": "Specks of dust help droplets form, but the white puffs you see are mostly water droplets."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sunlight warms the lake and some water evaporates as invisible vapor. Warm, moist air rises and cools higher up, and the vapor condenses into tiny droplets that make up the cloud. When droplets grow heavy enough, gravity pulls them down as rain.",
+      "misconception": "Clouds are made of water vapor or steam.",
+      "hint": "Can you see water vapor? Then what must you be seeing when you look at a cloud?",
+      "followUpId": "L10-Q02",
+      "scope": {
+        "lessonId": "L10",
+        "section": "3. The Atmosphere",
+        "pages": {
+          "printed": [
+            135
+          ],
+          "pdf": [
+            171
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            135
+          ],
+          "pdfPages": [
+            171
+          ],
+          "locator": "Section 3. The Atmosphere, Energy and the Cycling of Matter in the Atmosphere",
+          "supports": "Warmed water evaporates into the air; rising air cools and its water vapor condenses into the tiny droplets that make up clouds; gravity makes rain and snow fall."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 135 (rendered). Brief guardrail: vapor is invisible, clouds are droplets. Review cycle 2 (2026-10-14): both reviewers passed it. Moved from family F09 (boundary crossings) to F03, now \"what the water and air systems contain\" (Q06, Q07, Q20), as the pedagogy reviewer suggested, because it asks what clouds are made of and involves no crossing. Follow-ups still point to other families (Q20 to Q02 in F01; Q02 to Q20). Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q21",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "water-cycle-route",
+        "atmosphere-hydrosphere-interaction"
+      ],
+      "familyId": "L10-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "Follow one water molecule on a single trip from the ocean to a rain shower over land. Put the steps in order.",
+      "accessiblePrompt": "Follow one water molecule on a single trip from the ocean to a rain shower over land. Put five steps in order: it condenses with others into a tiny cloud droplet; sunlight warms the water at the ocean's surface; the droplet grows until gravity pulls it down as rain; it evaporates and joins the air as invisible vapor; the warm, moist air rises and cools.",
+      "answer": [
+        "warm",
+        "evap",
+        "rise",
+        "cond",
+        "rain"
+      ],
+      "items": [
+        {
+          "id": "cond",
+          "text": "It condenses with others into a tiny cloud droplet",
+          "rationale": "Fourth: in the cooler air, the vapor condenses into a liquid droplet."
+        },
+        {
+          "id": "warm",
+          "text": "Sunlight warms the water at the ocean's surface",
+          "rationale": "First: solar energy arriving by radiation warms the surface water."
+        },
+        {
+          "id": "rain",
+          "text": "The droplet grows until gravity pulls it down as rain",
+          "rationale": "Last: gravity brings the heavier droplet back down to the surface."
+        },
+        {
+          "id": "evap",
+          "text": "It evaporates and joins the air as invisible vapor",
+          "rationale": "Second: with that energy, the molecule escapes into the air as a gas."
+        },
+        {
+          "id": "rise",
+          "text": "The warm, moist air rises and cools",
+          "rationale": "Third: warmer, less dense air rises and cools as it gets higher."
+        }
+      ],
+      "ends": [
+        "First (in the ocean)",
+        "Last (falling as rain)"
+      ],
+      "explanation": "Energy from the sun lifts water into the air, and gravity brings it back down. This is one route only: a water molecule could instead freeze into a glacier, soak into the ground, or be taken up by a plant, so the water cycle branches in many directions.",
+      "misconception": "Water vapor turns into rain without first cooling and condensing.",
+      "hint": "The molecule has to get into the air before it can be part of a cloud.",
+      "followUpId": "L10-Q07",
+      "scope": {
+        "lessonId": "L10",
+        "section": "3. The Atmosphere",
+        "pages": {
+          "printed": [
+            135
+          ],
+          "pdf": [
+            171
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            135
+          ],
+          "pdfPages": [
+            171
+          ],
+          "locator": "Section 3. The Atmosphere, Energy and the Cycling of Matter in the Atmosphere",
+          "supports": "Solar energy warms water, which evaporates; warmer air rises and cools; water vapor condenses into cloud droplets; gravity causes rain and snow to fall."
+        }
+      ],
+      "limitations": "This is one possible route through the water cycle, not the only one.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 135 (rendered). Prompt fixes one route, so one defensible order; the explanation names other branches (brief guardrail on branching cycles). Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q22",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "producers",
+        "energy-enters-biosphere"
+      ],
+      "familyId": "L10-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "In most food chains, how does energy first enter the biosphere?",
+      "accessiblePrompt": "In most food chains, how does energy first enter the biosphere, the system of living things?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Producers such as plants capture sunlight's energy",
+          "rationale": "Correct. Producers capture sunlight and store its energy in the food they make, which the rest of the food chain depends on."
+        },
+        {
+          "id": "b",
+          "text": "Decomposers create new energy from dead matter",
+          "rationale": "Decomposers get energy from remains they break down, but they don't create it. That energy was first captured by producers."
+        },
+        {
+          "id": "c",
+          "text": "Plant roots soak up energy stored in the soil",
+          "rationale": "Roots take in water and nutrients, not energy. A plant's energy comes from sunlight."
+        },
+        {
+          "id": "d",
+          "text": "Animals take in energy from the oxygen they breathe",
+          "rationale": "Oxygen helps cells release energy already stored in food, but oxygen itself isn't the energy source; that energy was first captured from sunlight by producers."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Producers such as plants are the doorway for energy: they capture sunlight and store it in food. Herbivores get that energy by eating plants, carnivores by eating animals, and decomposers by breaking down remains and wastes.",
+      "misconception": "Plants get their energy from the soil, decomposers create energy, or the oxygen animals breathe is their energy source.",
+      "hint": "Every animal gets its energy by eating something. Follow the food back as far as it goes: what is at the very start?",
+      "followUpId": "L10-Q15",
+      "scope": {
+        "lessonId": "L10",
+        "section": "4. The Biosphere",
+        "pages": {
+          "printed": [
+            136
+          ],
+          "pdf": [
+            172
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            136
+          ],
+          "pdfPages": [
+            172
+          ],
+          "locator": "Section 4. The Biosphere",
+          "supports": "Energy is first introduced into the biosphere from the sun; producers such as plants capture solar energy and make their own food."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.2 Energy Flow through Ecosystems",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+          "accessed": "2026-10-14",
+          "supports": "Energy flows directionally through ecosystems and is lost as metabolic heat; chemoautotrophs in sunless places such as hydrothermal vents use chemical energy instead of sunlight."
+        }
+      ],
+      "conditions": "Most ecosystems on Earth.",
+      "limitations": "A few deep-sea communities run on chemical energy from vents instead of sunlight.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 136 (rendered). 'Most food chains' wording handles the vent exception (L10-RF4). Reviser round 1 (2026-10-14): choice d replaced with the breathing-supplies-energy misconception (brief guardrail: breathing is not cellular respiration); hint no longer names the producers' defining trait. Choice texts were trimmed slightly from the reviewer's wording (a: 'capture sunlight's energy'; d: 'take in energy from the oxygen they breathe') so the keyed choice is not the strictly longest. Review cycle 2 (2026-10-14): science reviewer: choice a's rationale said \"every other organism depends on\" producers' food, which contradicts the item's own vent limitation and L10-RF4; it now says \"the rest of the food chain\". Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: implausible choice d replaced with the oxygen-as-energy misconception; hint no longer gives the answer away"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale no longer says every other organism depends on producers"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q23",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "matter-cycles-energy-flows",
+        "decomposers",
+        "misconception-repair"
+      ],
+      "familyId": "L10-F10",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A classmate draws a loop of arrows: producers → herbivores → carnivores → decomposers → producers, and labels every arrow \"energy and matter.\" Which single change fixes the drawing's mistake?",
+      "accessiblePrompt": "A classmate draws a loop of arrows from producers to herbivores, from herbivores to carnivores, from carnivores to decomposers, and from decomposers back to producers, and labels every arrow energy and matter. Which single change fixes the drawing's mistake?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Relabel the decomposers-to-producers arrow \"matter only\"",
+          "rationale": "Correct. Decomposers return nutrients (matter) to the soil for plants to reuse, but energy isn't recycled; it leaves as heat, so producers need new sunlight."
+        },
+        {
+          "id": "b",
+          "text": "Reverse every arrow so it points from eater to food",
+          "rationale": "The arrows already point the right way, from the food to the organism that gets matter and energy from it."
+        },
+        {
+          "id": "c",
+          "text": "Relabel every arrow \"energy only\" since matter is used up",
+          "rationale": "Matter isn't used up: atoms are passed along and recycled. It's energy that can't make the loop."
+        },
+        {
+          "id": "d",
+          "text": "Leave it as is, since energy loops back through decomposers",
+          "rationale": "This is the mistake. Energy flows one way through living things and leaves as heat; only matter comes back around."
+        }
+      ],
+      "answer": "a",
+      "explanation": "In the biosphere, matter cycles but energy flows through. Each feeding arrow carries both, but by the time remains reach decomposers, energy has been leaving as heat at every step, and decomposers send only matter back to producers. That is why living things need a steady supply of sunlight. Some diagrams, even one in your textbook lesson, label the return arrow \"energy and matter\"; it is a common shortcut, but only matter makes that trip.",
+      "misconception": "Energy cycles through the biosphere the same way matter does.",
+      "hint": "Follow the energy around the loop. At each step, where does some of it go, and can it ever come back?",
+      "followUpId": "L10-Q26",
+      "scope": {
+        "lessonId": "L10",
+        "section": "4. The Biosphere",
+        "pages": {
+          "printed": [
+            136
+          ],
+          "pdf": [
+            172
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            136
+          ],
+          "pdfPages": [
+            172
+          ],
+          "locator": "Section 4. The Biosphere, Figure 4 (Energy and Matter in the Biosphere)",
+          "supports": "Producers capture solar energy; herbivores, carnivores and decomposers obtain energy from their food; decomposers break down and recycle dead organisms and wastes. (The figure labels the decomposer-to-producer arrow 'energy and matter', which this item corrects.)"
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.2 Energy Flow through Ecosystems",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+          "accessed": "2026-10-14",
+          "supports": "Energy flows directionally through ecosystems and is lost as metabolic heat; chemoautotrophs in sunless places such as hydrothermal vents use chemical energy instead of sunlight."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.3 Biogeochemical Cycles",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+          "accessed": "2026-10-14",
+          "supports": "Energy enters ecosystems as sunlight and leaves as heat, while the matter that makes up living organisms is conserved and recycled."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the textbook's own Figure 4 label and 'energy is cycled' wording (L10-RF3). Drafted from printed p. 136, figure arrows read from the render; correction sourced to OpenStax 46.2 and 46.3. Reviser round 1 (2026-10-14): reframed from a poster to a classmate's drawing (avoids repeating L06-Q12's poster template in cumulative review) and the stem now asks for the single change that fixes the mistake, since the relabelled loop still omits the sunlight input and the heat loss. Hint no longer all but states the key. Choices and key unchanged; the loop still mirrors the textbook's Figure 4 (rendered p. 136). Review cycle 2 (2026-10-14): pedagogy reviewer: follow-up moved from Q27 (cause of the oxygen drop) to Q26 (closed system: matter stays in, energy crosses), which revisits the matter-versus-energy idea; and the explanation now acknowledges that the textbook's own Figure 4 (rendered p. 136) uses the \"energy and matter\" label, so a learner who repeats the book is not left puzzled. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem asks which single change fixes the mistake instead of which makes it 'accurate'"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: reframed as a classmate's drawing; hint no longer states the key"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now Q26; explanation acknowledges the textbook figure uses the wrong label"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q24",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O4"
+      ],
+      "conceptTags": [
+        "physical-model",
+        "conceptual-model"
+      ],
+      "familyId": "L10-F11",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each model into the right group: a physical model (something built and tested) or a conceptual model (a drawing, diagram, or equation).",
+      "accessiblePrompt": "Sort five models into two groups: physical models, which are built and tested, or conceptual models, which are drawings, diagrams, or equations. The models are Biosphere 2, a sealed glass building with a mini rainforest and ocean; a flowchart of water moving between ocean, air and land; the equation density equals mass divided by volume; a sealed jar of soil, moss and water on a sunny windowsill; and a world map with arrows tracing the great current that loops between the equator and the poles.",
+      "answer": {
+        "b2": "phys",
+        "flow": "conc",
+        "eq": "conc",
+        "jar": "phys",
+        "map": "conc"
+      },
+      "items": [
+        {
+          "id": "b2",
+          "text": "Biosphere 2, a sealed glass building with a mini rainforest and ocean",
+          "rationale": "Physical: it was actually built, and scientists ran it and measured it for years."
+        },
+        {
+          "id": "flow",
+          "text": "A flowchart of water moving between ocean, air and land",
+          "rationale": "Conceptual: boxes and arrows represent the water cycle; nothing is built or run."
+        },
+        {
+          "id": "eq",
+          "text": "The equation density = mass ÷ volume",
+          "rationale": "Conceptual: an equation describes a relationship rather than copying the system."
+        },
+        {
+          "id": "jar",
+          "text": "A sealed jar of soil, moss and water on a sunny windowsill",
+          "rationale": "Physical: it is a real, working setup in which you can watch water and air cycle."
+        },
+        {
+          "id": "map",
+          "text": "A world map with arrows tracing the great current that loops between the equator and the poles",
+          "rationale": "Conceptual: arrows on a map represent the current; they don't recreate it."
+        }
+      ],
+      "bins": [
+        {
+          "id": "phys",
+          "label": "Physical model"
+        },
+        {
+          "id": "conc",
+          "label": "Conceptual model"
+        }
+      ],
+      "explanation": "A physical model is built and can be run and measured, like Biosphere 2 or a sealed jar where you can watch water cycle. A conceptual model represents a system on paper or a screen, like a flowchart, a map with arrows, or an equation. Each kind shows only some features of the real system.",
+      "misconception": "Only built objects count as models; diagrams and equations aren't models.",
+      "hint": "Could you walk around it or pour water into it? Or is it drawn or written?",
+      "followUpId": "L10-Q26",
+      "scope": {
+        "lessonId": "L10",
+        "section": "5. Modeling Earth's Biosphere",
+        "pages": {
+          "printed": [
+            138
+          ],
+          "pdf": [
+            174
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            138
+          ],
+          "pdfPages": [
+            174
+          ],
+          "locator": "Section 5. Modeling Earth's Biosphere",
+          "supports": "Biosphere 2 was a working physical model of Earth's biosphere; a conceptual model, by contrast, is a diagram or an equation representing a system, such as a diagram of the geosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original examples. Drafted from printed p. 138 (rendered). Reviser round 1 (2026-10-14): the cutaway and heated-tank items, which were copied from the L10-O4 Explorer table, are replaced with a sealed moss jar (physical) and a water-cycle flowchart (conceptual), so the item tests the definition rather than recall of that table. Review cycle 2 (2026-10-14): pedagogy reviewer: the map item used \"conveyor\", a term taught nowhere in learner-facing L10 content; it now uses Q15's wording, \"the great current that loops between the equator and the poles\", in the item and the accessiblePrompt. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: two items copied from the Explorer table replaced with new examples (sealed jar, flowchart)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: untaught word \"conveyor\" replaced in the map item and accessiblePrompt"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q25",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O4",
+        "L10-O2"
+      ],
+      "conceptTags": [
+        "model-limitations",
+        "mantle-convection",
+        "scale-and-time"
+      ],
+      "familyId": "L10-F11",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "A video shows dye looping through a pot of water heated from below, and the narrator says, \"This is how the mantle moves.\" Which statement names a real limitation of this model?",
+      "accessiblePrompt": "A video shows colored dye looping through a pot of water that is heated at the bottom, and the narrator says, this is how the mantle moves. Which statement names a real limitation of this model?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mantle loops are far bigger and take millions of years",
+          "rationale": "Correct. The pot gets the idea right, but a mantle convection cell spans thousands of kilometers, and solid mantle rock creeps so slowly that one loop takes many millions of years."
+        },
+        {
+          "id": "b",
+          "text": "Heated mantle rock rises because it is less dense",
+          "rationale": "True of the mantle, but the pot shows this too. A limitation is a way the model differs from the real thing, so this is something the model gets right."
+        },
+        {
+          "id": "c",
+          "text": "In the mantle, warm rock sinks and cool rock rises",
+          "rationale": "That reverses what happens. Heated mantle rock becomes less dense and rises, just like the water."
+        },
+        {
+          "id": "d",
+          "text": "The mantle is liquid magma that churns even faster than water",
+          "rationale": "Most of the mantle is solid rock, and it moves far more slowly than the water, not faster."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A model copies some features and leaves others out. The pot matches the key relationship: heating from below, less dense material rising, denser material sinking. It misses the scale and the pace: mantle loops span thousands of kilometers and take many millions of years.",
+      "misconception": "A model that shows the right idea must match the real system in every way, or any true fact about the real system counts as a limitation of the model.",
+      "hint": "A real limitation must be true about the mantle and also different from the pot. Test each choice against both.",
+      "followUpId": "L10-Q04",
+      "scope": {
+        "lessonId": "L10",
+        "section": "1. The Geosphere",
+        "pages": {
+          "printed": [
+            130,
+            131
+          ],
+          "pdf": [
+            166,
+            167
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            130,
+            131
+          ],
+          "pdfPages": [
+            166,
+            167
+          ],
+          "locator": "Section 1. The Geosphere, The Layers of the Geosphere and Figure 1B",
+          "supports": "The mantle is about 2,865 km thick; mantle rock is solid but can flow very slowly; heated, less dense rock rises and cooler, denser rock sinks in a convection cell."
+        },
+        {
+          "type": "external",
+          "title": "Mantle",
+          "publisher": "National Geographic Society (Education)",
+          "url": "https://education.nationalgeographic.org/resource/mantle/",
+          "accessed": "2026-10-14",
+          "supports": "The mantle is mostly solid rock that can move plastically over the course of millions of years; it is heated from below and cooled from above, and heat moves through it by convection."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original scenario (a video, no home procedure). Drafted from printed pp. 130-131; 'millions of years' sourced to National Geographic (L10-RF9). Reviser round 1 (2026-10-14): re-keyed to the scale-and-time limitation, so its key no longer repeats Q04's ('solid rock that creeps'); the false 'differences' are now real misconceptions (density plays no part, reversed rising and sinking, liquid fast mantle) instead of straw men. Follow-up Q04 kept. Review cycle 2 (2026-10-14): pedagogy reviewer: all three distractors were false statements about the mantle, so the hint's second test (\"different from the pot\") was never needed. Choice b is now a statement that is true of the mantle and of the pot (heated rock rises because it is less dense), so the model-limit reasoning is really tested. With the old 58-character b gone the key would have been strictly the longest, so choice d gained \"than water\" (same idea, 61 characters; key 54). Science reviewer (pass, optional): rationale and explanation now say \"many millions of years\"; the key keeps \"millions of years\", a true lower bound (National Geographic). Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: re-keyed to scale and time so it no longer shares Q04's key; distractors are real misconceptions"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b now true of both mantle and pot, so it tests what a limitation is; misconception updated"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q26",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O4"
+      ],
+      "conceptTags": [
+        "closed-system",
+        "biosphere-2",
+        "matter-vs-energy"
+      ],
+      "familyId": "L10-F12",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "For its first test, Biosphere 2 was sealed off from the outside world. As designed, which of these could still cross its glass walls? Select all that apply.",
+      "accessiblePrompt": "For its first test, Biosphere 2 was sealed off from the outside world. As designed, which of four things could still cross its glass walls? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sunlight shining in",
+          "rationale": "Correct. Sunlight is energy, not matter, and it passed through the glass to power the plants."
+        },
+        {
+          "id": "b",
+          "text": "Heat escaping to the cooler outdoors",
+          "rationale": "Correct. Heat is energy moving from warmer to cooler places, and it could pass through the walls."
+        },
+        {
+          "id": "c",
+          "text": "Fresh air blowing in from the desert outside",
+          "rationale": "Air is matter, and the building was designed to keep air from flowing in or out, so desert air could not drift in to refresh the falling oxygen. (Managers eventually pumped oxygen in on purpose.)"
+        },
+        {
+          "id": "d",
+          "text": "Rainwater from desert storms",
+          "rationale": "Rainwater is matter, so the design kept it outside. The water inside had to be recycled again and again."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Biosphere 2 was designed to be closed to matter but open to energy. Sunlight entered through the glass and heat left, while air, water and nutrients had to cycle inside. The textbook says all processes were contained in the model; that holds for matter, not for energy.",
+      "misconception": "A closed system blocks energy as well as matter.",
+      "hint": "First decide whether each choice is matter or energy. Which of the two was the building designed to keep from crossing its walls?",
+      "followUpId": "L10-Q13",
+      "scope": {
+        "lessonId": "L10",
+        "section": "5. Modeling Earth's Biosphere",
+        "pages": {
+          "printed": [
+            138
+          ],
+          "pdf": [
+            174
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            138
+          ],
+          "pdfPages": [
+            174
+          ],
+          "locator": "Section 5. Modeling Earth's Biosphere",
+          "supports": "Biosphere 2 was a closed system designed to test how the model transferred energy and cycled matter within and between its systems."
+        },
+        {
+          "type": "external",
+          "title": "Benchmarks: September 26, 1991: Crew sealed inside Biosphere 2",
+          "publisher": "EARTH Magazine (American Geosciences Institute)",
+          "url": "https://www.earthmagazine.org/article/benchmarks-september-26-1991-crew-sealed-inside-biosphere-2/",
+          "accessed": "2026-10-14",
+          "supports": "Biosphere 2 was materially closed and energetically open, so only light and heat passed through its walls; it still leaked less than 10 percent of its atmosphere per year; oxygen fell from about 21% to about 14%; soil rich in compost and peat drove high soil respiration; the gas reacted with exposed concrete; beginning about 16 months in, managers pumped oxygen in."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 138 (rendered). Keys the materially-closed, energetically-open meaning from EARTH Magazine, correcting the textbook's 'all processes contained' (L10-RF6). Reviser round 1 (2026-10-14): stem no longer lists air, water and soil (which eliminated choices c and d by itself) and says 'as designed', since the building leaked under 10 percent of its air a year and managers later pumped oxygen in (EARTH Magazine); choice c's rationale no longer says the oxygen could not be refreshed. Hint no longer hands over the matter/energy sort. Follow-up moved to Q13 (radiation crosses transparent materials). Review cycle 2 (2026-10-14): pedagogy reviewer: the old hint named both keyed answers (the sunlight plants need and the heat a warm building gives off); the new hint asks the learner to sort matter from energy without naming either key. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem states design intent ('as designed'); choice c rationale notes managers later pumped in oxygen; EARTH record updated"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer eliminates c and d; hint no longer gives the answer; follow-up now Q13"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names both keyed answers"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "As designed. The real building still leaked a small share of its air each year, and managers later pumped in oxygen on purpose."
+    },
+    {
+      "id": "L10-Q27",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O4"
+      ],
+      "conceptTags": [
+        "biosphere-2",
+        "evidence-from-data",
+        "decomposers-use-oxygen"
+      ],
+      "familyId": "L10-F13",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "About 16 months into Biosphere 2's first test, the crew felt tired and weak, and the data showed oxygen in its air had dropped a lot. What did scientists find was the main cause?",
+      "accessiblePrompt": "About 16 months into Biosphere 2's first test, the crew felt tired and weak, and the data showed the oxygen in its air had dropped a lot. What did scientists find was the main cause?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soil bacteria used it up breaking down organic matter",
+          "rationale": "Correct. The soil was full of organic matter, and bacteria feeding on it used oxygen faster than the plants could replace it."
+        },
+        {
+          "id": "b",
+          "text": "Oxygen slowly leaked out through gaps in the glass walls",
+          "rationale": "The building was sealed and nearly airtight. A leak big enough to matter would also have let outside air back in."
+        },
+        {
+          "id": "c",
+          "text": "The plants stopped photosynthesizing",
+          "rationale": "The plants kept making oxygen. Something was simply using oxygen faster than they could replace it."
+        },
+        {
+          "id": "d",
+          "text": "The crew's breathing used most of it up",
+          "rationale": "People do use oxygen, but investigators traced the big, unexpected loss to bacteria feeding on the rich soil."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Bacteria in the rich soil used oxygen to break down organic matter, faster than the plants could replace it. Monitoring the data revealed the problem, and tracing its cause gave the designers something specific to fix.",
+      "misconception": "A missing gas must have leaked out, or the people breathing it must be the main cause.",
+      "hint": "Plants add oxygen to the air. Which living things inside could take it out faster than anyone planned?",
+      "followUpId": "L10-Q23",
+      "scope": {
+        "lessonId": "L10",
+        "section": "5. Modeling Earth's Biosphere",
+        "pages": {
+          "printed": [
+            139
+          ],
+          "pdf": [
+            175
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            139
+          ],
+          "pdfPages": [
+            175
+          ],
+          "locator": "Section 5. Modeling Earth's Biosphere",
+          "supports": "After about sixteen months the oxygen level had declined and researchers were tired and weak; the cause was bacteria, which use oxygen from the atmosphere to decompose organic matter."
+        },
+        {
+          "type": "external",
+          "title": "Benchmarks: September 26, 1991: Crew sealed inside Biosphere 2",
+          "publisher": "EARTH Magazine (American Geosciences Institute)",
+          "url": "https://www.earthmagazine.org/article/benchmarks-september-26-1991-crew-sealed-inside-biosphere-2/",
+          "accessed": "2026-10-14",
+          "supports": "Biosphere 2 was materially closed and energetically open, so only light and heat passed through its walls; it still leaked less than 10 percent of its atmosphere per year; oxygen fell from about 21% to about 14%; soil rich in compost and peat drove high soil respiration; the gas reacted with exposed concrete; beginning about 16 months in, managers pumped oxygen in."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from printed p. 139 (rendered). Key matches the textbook; EARTH Magazine adds the rich compost and peat soil detail. Reviser round 1 (2026-10-14): hint no longer names decomposers; category changed to foundational (it recalls the cause the textbook reports); moved from F12 to new family F13 with the iterative-design item Q29. Choice b's rationale says 'nearly airtight' to match the documented small leak. Review cycle 2 (2026-10-14): pedagogy reviewer: the old hint ruled out choices b and c, choice c carried \"completely\", and choice d (breathing destroys atoms) was a strawman that repeated Q28. New hint, c without the absolute (rationale kept), and d is now the plausible \"the crew's breathing used most of it up\" (textbook p. 139 names bacteria as the cause). Lengths: a 53, b 56, c 36, d 39. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer names the culprit; category foundational; moved to family F13"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hint no longer eliminates choices; c loses \"completely\"; strawman d replaced with the crew-breathing misconception"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q28",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O4"
+      ],
+      "conceptTags": [
+        "biosphere-2",
+        "hypothesis",
+        "conservation-of-matter"
+      ],
+      "familyId": "L10-F12",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "In sealed Biosphere 2, something was using up oxygen and giving off carbon dioxide (CO₂), so oxygen fell. Yet CO₂ in the air rose much less than expected. Which hypothesis was most worth testing?",
+      "accessiblePrompt": "In sealed Biosphere 2, something was using up oxygen gas and giving off carbon dioxide, so the oxygen level fell. Carbon dioxide, written C O 2, is made of one carbon atom and two oxygen atoms. Yet the carbon dioxide in the air rose much less than expected. Which hypothesis was most worth testing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "CO₂ escaped through the glass to the outside air",
+          "rationale": "The building was nearly airtight, and a leak doesn't pick out one gas: it would also have let outside air in, raising the oxygen instead of letting it fall."
+        },
+        {
+          "id": "b",
+          "text": "Something inside, like bare concrete, was absorbing CO₂",
+          "rationale": "Correct. In a sealed system the missing CO₂ had to still be inside in some form. Investigators found it reacting with the building's exposed concrete."
+        },
+        {
+          "id": "c",
+          "text": "Living things were turning the CO₂ into pure energy",
+          "rationale": "Ordinary chemical changes don't turn matter into energy. The carbon and oxygen atoms still had to be somewhere."
+        },
+        {
+          "id": "d",
+          "text": "The CO₂ kept turning back into oxygen without any plants",
+          "rationale": "That would have made oxygen rise, but oxygen kept falling. Turning CO₂ back into oxygen takes photosynthesis."
+        }
+      ],
+      "answer": "b",
+      "explanation": "In a system closed to matter, atoms can't vanish or leave, so the missing CO₂ had to be hiding inside. Investigators found it reacting with the building's exposed concrete. Data from a model can point scientists toward causes nobody predicted.",
+      "misconception": "Matter can disappear or turn into energy inside a sealed system.",
+      "hint": "Test each hypothesis against two facts in the question: the building was sealed, and the oxygen kept falling.",
+      "followUpId": "L10-Q23",
+      "scope": {
+        "lessonId": "L10",
+        "section": "5. Modeling Earth's Biosphere",
+        "pages": {
+          "printed": [
+            138,
+            139
+          ],
+          "pdf": [
+            174,
+            175
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            138,
+            139
+          ],
+          "pdfPages": [
+            174,
+            175
+          ],
+          "locator": "Section 5. Modeling Earth's Biosphere",
+          "supports": "Biosphere 2 was a closed system; its oxygen declined because bacteria used oxygen to decompose organic matter."
+        },
+        {
+          "type": "external",
+          "title": "Benchmarks: September 26, 1991: Crew sealed inside Biosphere 2",
+          "publisher": "EARTH Magazine (American Geosciences Institute)",
+          "url": "https://www.earthmagazine.org/article/benchmarks-september-26-1991-crew-sealed-inside-biosphere-2/",
+          "accessed": "2026-10-14",
+          "supports": "Biosphere 2 was materially closed and energetically open, so only light and heat passed through its walls; it still leaked less than 10 percent of its atmosphere per year; oxygen fell from about 21% to about 14%; soil rich in compost and peat drove high soil respiration; the gas reacted with exposed concrete; beginning about 16 months in, managers pumped oxygen in."
+        },
+        {
+          "type": "external",
+          "title": "Biosphere 2: The Once Infamous Live-In Terrarium Is Transforming Climate Research",
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/biosphere-2-the-once-infamous-live-in-terrarium-is-transforming-climate-research/",
+          "accessed": "2026-10-14",
+          "supports": "The soil was too rich in organic matter and its bacteria used up too much oxygen; the missing carbon dioxide had chemically bonded with concrete in the building."
+        }
+      ],
+      "limitations": "The textbook names bacteria as the cause; the concrete finding comes from later reporting on the experiment.",
+      "review": {
+        "status": "reviewed",
+        "notes": "Evidence-reasoning item that goes beyond the textbook's account; the keyed hypothesis is the documented finding (EARTH Magazine, Scientific American). See L10-RF6. Reviser round 1 (2026-10-14): stem no longer names bacteria, so it does not hand over Q27's answer; choice c no longer says 'The bacteria'. The stem says something was 'using up oxygen and giving off CO₂' rather than the suggested 'oxygen was being turned into CO₂', because in respiration the oxygen atoms from O₂ end up mostly in water, not in the CO₂. Follow-up moved to Q23, whose choice c rationale revisits that matter is never used up. Review cycle 2 (2026-10-14): science reviewer: choice a's rationale opened \"The building was sealed\", which clashed with its own EARTH Magazine evidence (under 10% leak a year) and Q27's \"nearly airtight\"; it now says nearly airtight and explains that a leak exchanges all gases. Pedagogy reviewer: the accessiblePrompt no longer splices the formula mid-sentence (read aloud it sounded as if the oxygen atoms fell), and the hint no longer points straight at the only \"inside\" choice. The pedagogy reviewer's lesson-level finding is applied too: the L10-O4 Explorer card now poses the missing-CO₂ puzzle without giving the concrete answer, which stays only in this item's feedback and L10-RF6. Verify-agent round 1 (2026-10-14): checked against the rendered textbook pages it cites and the guide; no change.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stem no longer reveals Q27's answer; choice c reworded; follow-up now Q23"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice a rationale says nearly airtight and that a leak would exchange all gases"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: read-aloud prompt reordered; hint no longer points at the key; Explorer card no longer gives the answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q29",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O4"
+      ],
+      "conceptTags": [
+        "iterative-design",
+        "biosphere-2",
+        "test-and-modify"
+      ],
+      "familyId": "L10-F13",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Biosphere 2's data showed its oxygen falling, which the designers had not expected, and the team tracked down the cause. What is the most useful next step for improving their model?",
+      "accessiblePrompt": "Biosphere 2's data showed its oxygen falling, which the designers had not expected, and the team tracked down the cause. What is the most useful next step for improving their model?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Change the design, then run it and collect new data",
+          "rationale": "Correct. Engineers use test results to change a design, then test again to see whether the change worked. Repeating that loop moves the design closer to its goal."
+        },
+        {
+          "id": "b",
+          "text": "Throw out the oxygen data, since it didn't match the plan",
+          "rationale": "Data that misses the plan is the most useful kind: it shows exactly where the design falls short. Throwing it out hides the problem."
+        },
+        {
+          "id": "c",
+          "text": "Stop testing, because a model that fails once is useless",
+          "rationale": "A failed test is not the end. It points to what needs changing, and the next version can be tested to see if the fix works."
+        },
+        {
+          "id": "d",
+          "text": "Make the fix and call the design finished, with no new test",
+          "rationale": "Making a fix is not the same as proving it works. Only a new round of testing shows whether the change really worked."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Testing a model is a loop: run it, collect data, find what went wrong, change the design, and test again. Each round of testing and changing brings the design closer to what its builders want. Biosphere 2 was monitored for two years so its data could guide changes like this.",
+      "misconception": "Once you know what went wrong, the fix doesn't need testing; or a failed model is useless.",
+      "hint": "Test results that surprise you are information. How could the team put that information to work?",
+      "followUpId": "L10-Q28",
+      "scope": {
+        "lessonId": "L10",
+        "section": "5. Modeling Earth's Biosphere",
+        "pages": {
+          "printed": [
+            139
+          ],
+          "pdf": [
+            175
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            139
+          ],
+          "pdfPages": [
+            175
+          ],
+          "locator": "Section 5. Modeling Earth's Biosphere",
+          "supports": "Researchers monitored Biosphere 2 and collected data for two years; repeated testing of the model provided information that scientists used to modify the system, and they made improvements to it again and again."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            129
+          ],
+          "pdfPages": [
+            165
+          ],
+          "locator": "Introduction, Next Generation Science Standards box (MS-ETS1-4, ETS1.B, ETS1.C)",
+          "supports": "A solution needs to be tested and then modified on the basis of the test results; repeating the cycle of testing and modifying leads to greater refinement of a design."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "New in reviser round 1 (2026-10-14), added for the pedagogy reviewer's coverage finding: Section 5 (p. 139) and the NGSS box (p. 129, MS-ETS1-4) stress testing, modifying and retesting a model, and no item asked what to do with test data. Drafted from printed pp. 129 and 139 (both rendered; the NGSS box OCR is garbled, so it was read from the render). The stem deliberately does not name the cause (soil bacteria), because Q27, its family partner in F13, keys that cause. Keyed choice is not the longest. Review cycle 2 (2026-10-14): this cycle gave Q29 its first science and pedagogy passes. Pedagogy reviewer: the distractors were strawmen and nothing tested the key's second half (\"then run it and collect new data\"); choice d (\"wait for it to fix itself\") is replaced with \"make the fix and call the design finished, with no new test\" (59 characters; key 51), and the misconception now names skipping the retest. Verify-agent round 1 (2026-10-14): cosmetic fix only. Choice d's rationale opened \"Finding the cause is not the same as fixing it\", which did not match a choice that already makes the fix; it now opens \"Making a fix is not the same as proving it works\". Key, choices and meaning unchanged.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted (reviser round 1: new iterative-design item for objective L10-O4, family F13)"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: strawman choice d replaced with skipping the retest, so the key's second half is tested"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L10-Q30",
+      "lessonId": "L10",
+      "objectiveIds": [
+        "L10-O2",
+        "L10-O3"
+      ],
+      "conceptTags": [
+        "atmospheric-convection-cell",
+        "warm-air-rises-and-returns"
+      ],
+      "familyId": "L10-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Strong sunshine near the equator heats the ground, and the ground warms the air just above it. In the lesson's model of an air convection cell, which path does that warmed air follow?",
+      "accessiblePrompt": "Strong sunshine near the equator heats the ground, and the ground warms the air just above it. In the lesson's model of an air convection cell, which path does that warmed air follow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It rises, moves away from the equator, cools and sinks",
+          "rationale": "Correct. The warm air is less dense than the cooler air around it, so it rises. High up and farther from the equator it cools, becomes denser and sinks back toward the surface."
+        },
+        {
+          "id": "b",
+          "text": "It sinks, because warm air is heavier than cool air",
+          "rationale": "Warming spreads air out, so each cubic meter holds less mass. Warm air is less dense than the cooler air around it, so it rises instead of sinking."
+        },
+        {
+          "id": "c",
+          "text": "It stays near the ground, held down by gravity",
+          "rationale": "Gravity pulls on all the air, but harder on each cubic meter of the cooler, denser air around it. That denser air sinks and pushes the warm air up."
+        },
+        {
+          "id": "d",
+          "text": "It rises and keeps climbing until it escapes into space",
+          "rationale": "As the air rises it cools and becomes denser, and gravity brings it back down. That return trip is what closes the loop of a convection cell."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Warm air near the equator is less dense than the cooler air around it, so it rises. High up and farther from the equator it cools, becomes denser and sinks back toward the ground, ready to be heated once more. These loops of rising and sinking air are the atmosphere's convection cells, and they keep air and energy circulating around the globe.",
+      "misconception": "Warm air is heavier and sinks, or warm air that rises just keeps going and never comes back.",
+      "hint": "Think about the pot of water heated from below: what happens to warm water after it reaches the top and cools?",
+      "followUpId": "L10-Q10",
+      "scope": {
+        "lessonId": "L10",
+        "section": "3. The Atmosphere",
+        "pages": {
+          "printed": [
+            135
+          ],
+          "pdf": [
+            171
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            135
+          ],
+          "pdfPages": [
+            171
+          ],
+          "locator": "Section 3. The Atmosphere, Energy and the Cycling of Matter in the Atmosphere, and Figure 3 (Convection in the Atmosphere)",
+          "supports": "Concentrated solar energy at the equator warms the air there and makes it less dense; the warmer air rises and moves away from the equator, cools at high altitude, becomes denser and sinks to the surface, where it can be warmed again. Figure 3 labels warmer, less dense air rising and cooler, denser air sinking in convection cells around the globe."
+        },
+        {
+          "type": "external",
+          "title": "Climate and Earth's Energy Budget",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget",
+          "accessed": "2026-10-17",
+          "supports": "The atmosphere absorbs about 23 percent of incoming sunlight and the surface about 48 percent; the surface then passes energy to the atmosphere by evaporation, convection and thermal infrared radiation, so much of the atmosphere's energy comes from the surface below."
+        }
+      ],
+      "conditions": "Uses the lesson's simplified model of one air convection cell next to the equator.",
+      "limitations": "Simplified model: Figure 3 shows several convection cells side by side between the equator and the poles, and real winds are messier than one neat loop.",
+      "review": {
+        "status": "reviewed",
+        "notes": "New in review cycle 2 (2026-10-14), added for the pedagogy reviewer's coverage finding: no item asked the learner to trace air through a convection cell (printed p. 135, Section 3 and Figure 3), a main teaching point of the section, while mantle and ocean convection are each tested several ways. Drafted from printed p. 135 (rendered at 110 dpi this cycle; Figure 3 labels read from the render, L10-RF11). Family F08 (uneven solar heating drives circulation; now Q17, Q18, Q30), tagged L10-O2 and L10-O3. The stem says the sunshine heats the ground, which warms the air, so it does not suggest that sunlight mainly heats the air directly (L10-RF15, NASA Earth Observatory). Distinct from the seed Q10 (why warm water rises) and Q11 (mantle sequence): it asks for the whole path, including the cooling and the return, and its distractors are the \"warm air is heavier\", \"gravity holds it down\" and \"escapes into space\" ideas. Lengths: key 54; b 51, c 46, d 55, so the key is not the longest. Verify-agent round 1 (2026-10-14): this item went from its author pass straight to the final verifier, with no separate science or pedagogy pass. The verifier checked it on both counts against the rendered p. 135 (text and Figure 3) and the NASA Earth Observatory energy-budget page (reopened): the key matches the page, the three distractors are real misconceptions, the key is not the longest choice, the hint does not give the answer away, and the item does not repeat Q10 or Q11.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted (review cycle 2: new air convection-cell path item for L10-O2/L10-O3, family F08)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3185 @@
+{
+  "lessonId": "L20",
+  "questions": [
+    {
+      "id": "L20-Q01",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O1"
+      ],
+      "conceptTags": [
+        "resource",
+        "needs"
+      ],
+      "familyId": "L20-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A dandelion soaks up sunlight and soil water. A newborn foal drinks its mother's milk. Scientists call sunlight, soil water, and milk resources. What do these three have in common?",
+      "accessiblePrompt": "A dandelion soaks up sunlight and water from the soil. A newborn foal drinks its mother's milk. Scientists call sunlight, soil water, and milk resources. What do these three things have in common?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each is something an organism needs to live, grow, and reproduce.",
+          "rationale": "Correct. What makes something a resource is what it does for the organism: the dandelion needs light and water, and the foal needs milk, to stay alive and grow."
+        },
+        {
+          "id": "b",
+          "text": "Each comes from the nonliving part of the organism's environment.",
+          "rationale": "Milk comes from a living animal, so resources are not only nonliving. Food from living things counts too."
+        },
+        {
+          "id": "c",
+          "text": "Each is made inside the organism's own body, not taken in.",
+          "rationale": "The dandelion takes in sunlight and water from outside itself, and the foal gets milk from its mother. Resources come from the surroundings."
+        },
+        {
+          "id": "d",
+          "text": "Each is needed only by young organisms that are still growing.",
+          "rationale": "Adult dandelions and adult horses need resources too. Resources keep organisms alive and let them reproduce, not only grow."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A resource is any material or energy a living thing needs to survive, grow, and reproduce. Resources can be nonliving, like sunlight and water, or come from living things, like milk or grass. Organisms take them in from their surroundings.",
+      "misconception": "Resources are only nonliving things, or only things an organism makes for itself.",
+      "hint": "Think about why the dandelion and the foal each need these things.",
+      "followUpId": "L20-Q04",
+      "scope": {
+        "lessonId": "L20",
+        "section": "1. Living Things Need Resources",
+        "pages": {
+          "printed": [
+            263,
+            264
+          ],
+          "pdf": [
+            299,
+            300
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            263
+          ],
+          "pdfPages": [
+            299
+          ],
+          "locator": "Vocabulary box",
+          "supports": "A resource is any material or energy living things need to survive, grow, and reproduce."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            264
+          ],
+          "pdfPages": [
+            300
+          ],
+          "locator": "Section 1. Living Things Need Resources",
+          "supports": "Living things get resources from their surroundings; resources include living things eaten as food and nonliving things such as sunlight, water, and oxygen; a horse grazes, breathes air, and drinks from creeks, while grass needs water, carbon dioxide, sunlight, and soil nutrients."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original dandelion and foal examples. Drafted from rendered pp. 263-264. Reviser (2026-10-14): visible prompt now names sunlight, soil water, and milk, matching the read-aloud version (optional pedagogy note). Verifier (verify-agent, round 1): checked against the rendered pp. 263, 264 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Distractor d's 'only' states the targeted misconception and does not cue the key.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q02",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O1"
+      ],
+      "conceptTags": [
+        "resource",
+        "living-nonliving"
+      ],
+      "familyId": "L20-F01",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Living things get resources from their surroundings. Sort each resource: is it a living thing eaten as food, or part of the nonliving environment?",
+      "accessiblePrompt": "Living things get resources from their surroundings. Sort each resource into one of two groups: a living thing that is eaten as food, or a part of the nonliving environment.",
+      "items": [
+        {
+          "id": "grass",
+          "text": "Grass a wild horse grazes",
+          "rationale": "Grass is a living plant, eaten as food."
+        },
+        {
+          "id": "pond",
+          "text": "Water in a pond",
+          "rationale": "Water is part of the nonliving environment."
+        },
+        {
+          "id": "insects",
+          "text": "Insects a songbird catches",
+          "rationale": "Insects are living animals, eaten as food."
+        },
+        {
+          "id": "oxygen",
+          "text": "Oxygen in the air",
+          "rationale": "Oxygen is a gas in the nonliving environment."
+        },
+        {
+          "id": "minerals",
+          "text": "Minerals in the soil",
+          "rationale": "Soil minerals are nonliving materials that plants take up."
+        },
+        {
+          "id": "sun",
+          "text": "Sunlight reaching a leaf",
+          "rationale": "Sunlight is energy from the nonliving environment, not a living thing."
+        }
+      ],
+      "bins": [
+        {
+          "id": "living",
+          "label": "Living thing eaten as food"
+        },
+        {
+          "id": "nonliving",
+          "label": "Part of the nonliving environment"
+        }
+      ],
+      "answer": {
+        "grass": "living",
+        "pond": "nonliving",
+        "insects": "living",
+        "oxygen": "nonliving",
+        "minerals": "nonliving",
+        "sun": "nonliving"
+      },
+      "explanation": "Some resources are other organisms, eaten as food. Others, like water, oxygen, sunlight, and minerals, come from the nonliving environment. Most organisms need some of each kind.",
+      "misconception": "Only food counts as a resource, or every resource must be alive.",
+      "hint": "Ask whether the thing on the card is itself an organism.",
+      "followUpId": "L20-Q05",
+      "scope": {
+        "lessonId": "L20",
+        "section": "1. Living Things Need Resources",
+        "pages": {
+          "printed": [
+            264
+          ],
+          "pdf": [
+            300
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            264
+          ],
+          "pdfPages": [
+            300
+          ],
+          "locator": "Section 1. Living Things Need Resources",
+          "supports": "Living things get resources from their surroundings; resources include living things eaten as food and nonliving things such as sunlight, water, and oxygen; a horse grazes, breathes air, and drinks from creeks, while grass needs water, carbon dioxide, sunlight, and soil nutrients."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Six items, two bins; temperature deliberately left out (see L20-RF1). Drafted from rendered p. 264. Verifier (verify-agent, round 1): checked against the rendered p. 264 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q03",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O1"
+      ],
+      "conceptTags": [
+        "resource",
+        "needs",
+        "horse"
+      ],
+      "familyId": "L20-F02",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "multi",
+      "prompt": "Which of these does a wild horse take from its surroundings to survive and grow? Select all that apply.",
+      "accessiblePrompt": "Which of these things does a wild horse take from its surroundings to survive and grow? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grass and other plants to eat",
+          "rationale": "Correct. Plants are a horse's food, a living resource."
+        },
+        {
+          "id": "b",
+          "text": "Water from creeks and ponds",
+          "rationale": "Correct. Horses drink water from the streams and ponds around them."
+        },
+        {
+          "id": "c",
+          "text": "Oxygen from the air",
+          "rationale": "Correct. A horse breathes in oxygen from the surrounding air."
+        },
+        {
+          "id": "d",
+          "text": "Sunlight it uses to make its own food",
+          "rationale": "Horses cannot make food from sunlight; plants do that. A horse gets its food energy by eating plants."
+        },
+        {
+          "id": "e",
+          "text": "Minerals soaked up through roots",
+          "rationale": "Horses have no roots. Grass takes minerals from the soil through its roots; a horse gets minerals mostly from what it eats."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "A horse eats grass and other plants, drinks from creeks and ponds, and breathes in oxygen. Making food from sunlight and soaking up minerals through roots are how grass gets its resources, not how a horse does.",
+      "misconception": "Every organism gets its resources the same way, so a horse uses sunlight to make food like a plant.",
+      "hint": "Check each choice: is it something a horse's body can actually do?",
+      "followUpId": "L20-Q01",
+      "scope": {
+        "lessonId": "L20",
+        "section": "1. Living Things Need Resources",
+        "pages": {
+          "printed": [
+            264
+          ],
+          "pdf": [
+            300
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            264
+          ],
+          "pdfPages": [
+            300
+          ],
+          "locator": "Section 1. Living Things Need Resources",
+          "supports": "Living things get resources from their surroundings; resources include living things eaten as food and nonliving things such as sunlight, water, and oxygen; a horse grazes, breathes air, and drinks from creeks, while grass needs water, carbon dioxide, sunlight, and soil nutrients."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct, two plant-only distractors (one-recipe misconception). Drafted from rendered p. 264. Reviser (2026-10-14): difficulty set to 1 and hint replaced (pedagogy). Moved from F01 to F02 (science reviewer's lesson-level suggestion): its misconception is the one-recipe idea that F02 tests, and F01 now holds Q01 and Q02. Follow-up repointed from Q04 (now the same family) to Q01, which teaches that resources come from the surroundings; Q01 suits a learner who credits a horse with plant-only mechanisms better than the example Q22 the reviewer named. The Q03/Q04 overlap is removed by re-keying Q04 to carbon dioxide. Verifier (verify-agent, round 1): checked against the rendered p. 264 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: difficulty 1; hint no longer lists the three keyed needs"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q04",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O1"
+      ],
+      "conceptTags": [
+        "needs",
+        "plants-vs-animals",
+        "carbon-dioxide"
+      ],
+      "familyId": "L20-F02",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Wild horses and meadow grass share the same meadow. Which resource does the grass use that a horse does not?",
+      "accessiblePrompt": "Wild horses and meadow grass live in the same meadow. Which resource does the grass use that a horse does not use?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carbon dioxide, to build its own food",
+          "rationale": "Correct. Grass takes carbon dioxide from the air and, using light energy, builds food from it. A horse breathes carbon dioxide out as waste and gets its food by eating plants."
+        },
+        {
+          "id": "b",
+          "text": "Water, to keep its cells working",
+          "rationale": "Both need water: the horse drinks it, and the grass takes it up from the soil."
+        },
+        {
+          "id": "c",
+          "text": "Oxygen, for cellular respiration",
+          "rationale": "Both use oxygen: the horse breathes it in, and grass cells also use it for cellular respiration, so oxygen is not the difference."
+        },
+        {
+          "id": "d",
+          "text": "Other living things, to eat as its food",
+          "rationale": "That is backward: the horse eats other living things, but grass makes its own food."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Grass uses carbon dioxide, water, and light energy to make its own food, and it takes nutrients from the soil. A horse cannot make food, so it eats plants. Both organisms need water. Both also use oxygen, because plant cells and animal cells both carry out cellular respiration.",
+      "misconception": "Plants and animals use exactly the same gases, or plants use carbon dioxide instead of oxygen.",
+      "hint": "First rule out anything both the horse and the grass need. Then ask which item only a food-maker needs.",
+      "followUpId": "L20-Q02",
+      "scope": {
+        "lessonId": "L20",
+        "section": "1. Living Things Need Resources",
+        "pages": {
+          "printed": [
+            264
+          ],
+          "pdf": [
+            300
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            264
+          ],
+          "pdfPages": [
+            300
+          ],
+          "locator": "Section 1. Living Things Need Resources",
+          "supports": "Living things get resources from their surroundings; resources include living things eaten as food and nonliving things such as sunlight, water, and oxygen; a horse grazes, breathes air, and drinks from creeks, while grass needs water, carbon dioxide, sunlight, and soil nutrients."
+        },
+        {
+          "type": "external",
+          "title": "Plant resistance to stress: role of respiration? (P. Dizengremel)",
+          "publisher": "Encyclopedia of the Environment (Association des Encyclopedies de l'Environnement et de l'Energie)",
+          "url": "https://encyclopedie-environnement.org/?p=19453",
+          "accessed": "2026-10-17",
+          "supports": "Plant respiration takes place day and night, unlike photosynthesis; during respiration plants consume oxygen and release carbon dioxide."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Oxygen distractor rationale notes plant respiration (external source). Drafted from rendered p. 264. Reviser (2026-10-14): re-keyed to carbon dioxide (p. 264 lists it as a grass need), sunlight removed from the choices, explanation and misconception rewritten (pedagogy). Hint is the reviser's own wording: the suggested hint repeated choice a's phrase 'to make its own food' and used 'never'. The Ohio State respiration record was replaced by an Encyclopedia of the Environment article (opened 2026-10-17) that says plant respiration runs day and night, which answers the science reviewer's 'only at night' concern. Follow-up repointed to Q02 because Q03 is now in F02. Choice d now reads \"to eat as its food\" so the new key is not the longest choice. Verifier (verify-agent, round 1): checked against the rendered p. 264 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Wording fix: the explanation said both organisms 'use water and oxygen, because' of cellular respiration, which implied water use comes from respiration; it now reads 'Both organisms need water. Both also use oxygen, because...'. Encyclopedia of the Environment record re-opened (system date 2026-10-18) and confirmed: respiration runs day and night, consuming O2.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: re-keyed from sunlight to carbon dioxide so it no longer repeats Q03; sunlight removed"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q05",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O1"
+      ],
+      "conceptTags": [
+        "needs",
+        "species"
+      ],
+      "familyId": "L20-F02",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A cattail plant, a pond snail, and a heron (a wading bird) all live at the same pond. Which statement about their resources is most accurate?",
+      "accessiblePrompt": "A cattail plant, a pond snail, and a heron, which is a wading bird, all live at the same pond. Which statement about their resources is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They share some resources, like water, but each needs its own mix.",
+          "rationale": "Correct. All three need water, but the cattail makes food from sunlight while the snail and heron must eat other living things."
+        },
+        {
+          "id": "b",
+          "text": "They need the same resources, since they share one pond.",
+          "rationale": "Living in one place does not mean having the same needs. The cattail makes its own food, while the heron must catch animals to eat."
+        },
+        {
+          "id": "c",
+          "text": "The cattail runs on sunlight, while the snail and heron need food and water.",
+          "rationale": "Plants need more than light: the cattail also takes in water, carbon dioxide, and soil nutrients."
+        },
+        {
+          "id": "d",
+          "text": "Each one gets its food by eating other living things in the pond.",
+          "rationale": "The snail and heron eat other living things, but the cattail makes its own food using sunlight."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Organisms that share a habitat often overlap in some needs, such as water and oxygen, but differ in others. A plant builds its own food using sunlight, while animals such as snails and herons must eat other organisms. No single resource recipe fits every living thing.",
+      "misconception": "Organisms in the same place all need the same resources (one recipe fits all).",
+      "hint": "Compare how each of the three gets its food.",
+      "followUpId": "L20-Q20",
+      "scope": {
+        "lessonId": "L20",
+        "section": "1. Living Things Need Resources",
+        "pages": {
+          "printed": [
+            264
+          ],
+          "pdf": [
+            300
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            264
+          ],
+          "pdfPages": [
+            300
+          ],
+          "locator": "Section 1. Living Things Need Resources",
+          "supports": "Living things get resources from their surroundings; resources include living things eaten as food and nonliving things such as sunlight, water, and oxygen; a horse grazes, breathes air, and drinks from creeks, while grass needs water, carbon dioxide, sunlight, and soil nutrients."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original pond example applying 'other species need different resources'. Drafted from rendered p. 264. Reviser (2026-10-14): heron gloss added to the visible prompt; choices b, c, d reworded without 'very same'/'only' (pedagogy). Verifier (verify-agent, round 1): checked against the rendered p. 264 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt explains 'heron'; distractors no longer carry absolute words"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q06",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O2",
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "competition",
+        "cause-effect",
+        "population"
+      ],
+      "familyId": "L20-F03",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "order",
+      "prompt": "A savanna gets far less rain than usual one year. Put these events in cause-and-effect order, from the first cause to the final effect on the zebras.",
+      "accessiblePrompt": "A savanna gets far less rain than usual one year. Put five events in cause-and-effect order, starting with the first cause and ending with the final effect on the zebra population.",
+      "items": [
+        {
+          "id": "pop",
+          "text": "The zebra population shrinks",
+          "rationale": "Last: with fewer survivors and fewer young, the population gets smaller."
+        },
+        {
+          "id": "grass",
+          "text": "Less grass grows",
+          "rationale": "Second: grass needs water, so a dry year grows less grass."
+        },
+        {
+          "id": "rain",
+          "text": "Much less rain falls than usual",
+          "rationale": "First: a change in a nonliving resource, water, starts the chain."
+        },
+        {
+          "id": "fewer",
+          "text": "Zebras that lose out in this competition go hungry, and fewer survive and have young",
+          "rationale": "Fourth: this is the result of the competition in the step before. Zebras that lose out go hungry, and some die or do not reproduce."
+        },
+        {
+          "id": "compete",
+          "text": "Zebras compete harder for the grass that is left",
+          "rationale": "Third: with less food to go around, each zebra's share depends on competing for it."
+        }
+      ],
+      "answer": [
+        "rain",
+        "grass",
+        "compete",
+        "fewer",
+        "pop"
+      ],
+      "ends": [
+        "First cause",
+        "Final effect"
+      ],
+      "explanation": "A drop in rainfall is the starting cause. Less water means less grass, so zebras compete harder for food. Those that lose out are less likely to survive and reproduce, and the population shrinks. Each link causes the next one.",
+      "misconception": "A population drops directly because of the weather, or the population shrinks first and the grass declines afterward.",
+      "hint": "Start with the nonliving change, then follow what each step causes.",
+      "followUpId": "L20-Q17",
+      "scope": {
+        "lessonId": "L20",
+        "section": "2. Competition for Resources Affects Populations",
+        "pages": {
+          "printed": [
+            265,
+            267
+          ],
+          "pdf": [
+            301,
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            265
+          ],
+          "pdfPages": [
+            301
+          ],
+          "locator": "Section 2. Competition for Resources Affects Populations",
+          "supports": "Members of a species compete for a limited resource; those that get more survive and reproduce, abundant resources let a population grow, and sparse resources make it shrink."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "One defensible chain: rain, grass, competition, survival and reproduction, population size. Drafted from rendered pp. 265 and 267. Reviser (2026-10-14): conditions/limitations added (science); 'fewer' step reworded so only one order is defensible (pedagogy). Answer order unchanged. Verifier (verify-agent, round 1): checked against the rendered pp. 265, 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: added no-migration conditions and limitations"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: survival step now follows explicitly from the competition step"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "conditions": "Model: the zebras stay in this savanna and grass is their main food; nothing else changes.",
+      "limitations": "Real zebra herds often move to follow rain, which this model leaves out."
+    },
+    {
+      "id": "L20-Q07",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O2"
+      ],
+      "conceptTags": [
+        "competition",
+        "same-species",
+        "different-species"
+      ],
+      "familyId": "L20-F03",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "classify",
+      "prompt": "Sort each example of competition: are the competitors members of the same species, or of different species?",
+      "accessiblePrompt": "Sort each example of competition into one of two groups: the competitors belong to the same species, or the competitors belong to different species.",
+      "items": [
+        {
+          "id": "horses",
+          "text": "Two wild horses at the last green patch in a dry meadow",
+          "rationale": "Both are wild horses, so this competition is within one species."
+        },
+        {
+          "id": "yakhorse",
+          "text": "Yaks and wild horses eating grass in one mountain meadow",
+          "rationale": "Yaks and horses are different species that need the same grass."
+        },
+        {
+          "id": "dandelions",
+          "text": "Crowded dandelions all drawing on the same soil water",
+          "rationale": "All the plants are dandelions, so they are one species competing for water."
+        },
+        {
+          "id": "zebrawild",
+          "text": "Zebras and wildebeest grazing the same savanna grass",
+          "rationale": "Zebras and wildebeest are different species sharing one food."
+        },
+        {
+          "id": "zebraherd",
+          "text": "A growing zebra herd on a shrinking patch of grass",
+          "rationale": "Every member of the herd is a zebra, so the competition is within one species."
+        },
+        {
+          "id": "lawn",
+          "text": "Grass and dandelions in one lawn sharing the same soil water",
+          "rationale": "Grass and dandelions are different species that need the same water."
+        }
+      ],
+      "bins": [
+        {
+          "id": "same",
+          "label": "Same species"
+        },
+        {
+          "id": "different",
+          "label": "Different species"
+        }
+      ],
+      "answer": {
+        "horses": "same",
+        "yakhorse": "different",
+        "dandelions": "same",
+        "zebrawild": "different",
+        "zebraherd": "same",
+        "lawn": "different"
+      },
+      "explanation": "Competition can happen inside one species, like horses sharing scarce grass, or between species that need the same resource, like yaks and horses. Either way the shared resource is limited, so what one organism takes is not available to the others.",
+      "misconception": "Competition only happens between different kinds of organisms, never among members of one species.",
+      "hint": "Ask whether the competitors are all the same kind of organism.",
+      "followUpId": "L20-Q08",
+      "scope": {
+        "lessonId": "L20",
+        "section": "2. Competition for Resources Affects Populations; 3. Competition for Resources Affects Ecosystems",
+        "pages": {
+          "printed": [
+            265,
+            266
+          ],
+          "pdf": [
+            301,
+            302
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            265
+          ],
+          "pdfPages": [
+            301
+          ],
+          "locator": "Section 2. Competition for Resources Affects Populations",
+          "supports": "Members of a species compete for a limited resource; those that get more survive and reproduce, abundant resources let a population grow, and sparse resources make it shrink."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Yaks and wild horses compete for grass; in dry years both populations are predicted to fall, and grazers that use grass in slightly different ways compete less."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three same-species and three different-species examples. Drafted from rendered pp. 265-266. Reviser (2026-10-14): scope.section now names Sections 2 and 3 (optional science note). Verifier (verify-agent, round 1): checked against the rendered pp. 265, 266 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q08",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O2"
+      ],
+      "conceptTags": [
+        "competition",
+        "different-species",
+        "drought"
+      ],
+      "familyId": "L20-F04",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Yaks and wild horses graze the same mountain grassland. A dry year leaves much less grass than usual. What do scientists predict will happen?",
+      "accessiblePrompt": "Yaks and wild horses graze the same mountain grassland. A dry year leaves much less grass than usual. What do scientists predict will happen to the two populations?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both populations will likely shrink as competition for grass grows.",
+          "rationale": "Correct. Both species depend on the grass, so a shortage raises competition and limits both populations."
+        },
+        {
+          "id": "b",
+          "text": "Only the horses will decline; the yaks will not be affected.",
+          "rationale": "Yaks depend on grass too. A shortage limits both grazers, not just one."
+        },
+        {
+          "id": "c",
+          "text": "Both populations will grow, since there is less grass to fight over.",
+          "rationale": "Less grass means more competition, not less. Scarcity limits population growth."
+        },
+        {
+          "id": "d",
+          "text": "Neither will change, since grass is alive and not a resource.",
+          "rationale": "Living things can be resources. Grass is the food both grazers depend on."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When two species need the same limited resource, a shortage squeezes both. In a dry year, yaks and horses compete more strongly for grass, so fewer of each survive and reproduce. When grass is plentiful again, competition eases and both populations can grow.",
+      "misconception": "A resource shortage affects only one of the species that use it, or less food means less competition.",
+      "hint": "Who eats the grass, and what happens to each eater when there is less of it?",
+      "followUpId": "L20-Q06",
+      "scope": {
+        "lessonId": "L20",
+        "section": "3. Competition for Resources Affects Ecosystems",
+        "pages": {
+          "printed": [
+            266
+          ],
+          "pdf": [
+            302
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Yaks and wild horses compete for grass; in dry years both populations are predicted to fall, and grazers that use grass in slightly different ways compete less."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Direct application of Section 3's dry-year prediction. Drafted from rendered p. 266. Verifier (verify-agent, round 1): checked against the rendered p. 266 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Distractor b's 'Only' states the targeted misconception and does not cue the key.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q09",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O2"
+      ],
+      "conceptTags": [
+        "competition",
+        "resource-use",
+        "coexistence"
+      ],
+      "familyId": "L20-F04",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Yaks often wrap long grass with their tongues, while horses bite grass with front teeth in both jaws and can crop it very short. Suppose each style works best on grass of a different height. How do these feeding styles affect competition between them?",
+      "accessiblePrompt": "Yaks often wrap long grass with their tongues. Horses bite grass with front teeth in both their upper and lower jaws and can crop it very short. Suppose each style works best on grass of a different height. How do these different feeding styles affect competition between yaks and horses?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They reduce competition, which helps both species share a meadow.",
+          "rationale": "Correct. Using the grass in different ways means they are not always after exactly the same grass, so competition eases and they can coexist."
+        },
+        {
+          "id": "b",
+          "text": "They end competition, so the two species no longer affect each other.",
+          "rationale": "They still eat grass from the same meadow, so a drought still squeezes both. Feeding differently eases competition but does not end it."
+        },
+        {
+          "id": "c",
+          "text": "They increase competition, because each species eats differently.",
+          "rationale": "Eating differently spreads the two species across different parts of the resource, which lowers competition rather than raising it."
+        },
+        {
+          "id": "d",
+          "text": "They change nothing, because different species never compete.",
+          "rationale": "Different species compete whenever they need the same limited resource, as yaks and horses do."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When competing species use a shared resource in slightly different ways, each does best under somewhat different conditions, such as taller or shorter grass. That lowers the overlap between them, which reduces competition and lets them live side by side. It eases competition; it does not erase it.",
+      "misconception": "Feeding differently removes competition completely, or different species never compete.",
+      "hint": "Picture the meadow: which grass would each grazer go for first, and how often would they want the same patch?",
+      "followUpId": "L20-Q07",
+      "scope": {
+        "lessonId": "L20",
+        "section": "3. Competition for Resources Affects Ecosystems",
+        "pages": {
+          "printed": [
+            266
+          ],
+          "pdf": [
+            302
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Yaks and wild horses compete for grass; in dry years both populations are predicted to fall, and grazers that use grass in slightly different ways compete less."
+        },
+        {
+          "type": "external",
+          "title": "Regrowth: Animal habits, chewing",
+          "publisher": "Oregon State University, Forage Information System",
+          "url": "https://forages.oregonstate.edu/regrowth/animal-habits/chewing",
+          "accessed": "2026-10-17",
+          "supports": "Cattle wrap plants with the tongue and pull them against a pad on the upper jaw, and cannot easily graze closer than about 2 inches from the soil; horses have upper and lower incisors and can graze a pasture down to soil level."
+        },
+        {
+          "type": "external",
+          "title": "\"The Yak\" - A remarkable animal living in a harsh environment: an overview of its feeding, growth, production performance, and contribution to food security",
+          "publisher": "Frontiers in Veterinary Science (2023)",
+          "url": "https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1086985/full",
+          "accessed": "2026-10-14",
+          "supports": "Yaks take in tall grass with their long tongues and use lips and incisors on short grass."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Feeding details replaced with externally supported descriptions; the textbook's uprooting claim is not used (L20-RF4). Drafted from rendered p. 266. Reviser (2026-10-14): premise sentence added to both prompts and the Oregon State record now describes cattle and a pad on the upper jaw (science); choice b reworded (pedagogy). Hint reworded so it no longer just repeats the new premise. The reviser re-opened the Oregon State page on 2026-10-17 to confirm the new wording, so that record now carries that access date. Verifier (verify-agent, round 1): checked against the rendered p. 266 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Oregon State chewing page and the Frontiers yak review re-opened (system date 2026-10-18): horses have upper and lower incisors and can graze to soil level; yaks use long tongues on long grass and lips and incisors on short grass, with no uprooting. The stated different-height premise makes key a the single defensible answer.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: stated the different-height premise; corrected the Oregon State paraphrase"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor b no longer stacks a second 'without limit' error"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q10",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O2",
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "competition",
+        "carrying-capacity-model",
+        "calculation"
+      ],
+      "familyId": "L20-F04",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "A mountain meadow grows enough grass in one season to feed 40 wild horses. A herd of yaks moves in and eats one-fourth of that grass. If each horse still needs the same amount, how many horses can the rest of the grass feed?",
+      "accessiblePrompt": "A mountain meadow grows enough grass in one season to feed 40 wild horses. A herd of yaks moves in and eats one fourth of that grass. If each horse still needs the same amount of grass, how many horses can the remaining grass feed?",
+      "conditions": "Grass is the only limited resource in this model, the meadow grows the same amount as before, and every horse eats the same amount.",
+      "limitations": "A simplified model: real herds also depend on water, weather, predators, and how each species feeds.",
+      "answer": 30,
+      "tolerance": 0,
+      "unit": "horses",
+      "workedSolution": "The yaks eat 1/4 of the grass, so 3/4 is left. 3/4 × 40 horses = 30 horses. Competition from the yaks lowers the number of horses the meadow can feed from 40 to 30.",
+      "explanation": "Every mouthful a yak eats is grass a horse cannot have. When another species takes a share of a limited resource, less remains for the first population, so the area can support fewer of its members.",
+      "misconception": "Another species eating the same food does not change how many horses an area can support.",
+      "hint": "If one-fourth of the grass is gone, what fraction is left for the horses?",
+      "followUpId": "L20-Q13",
+      "scope": {
+        "lessonId": "L20",
+        "section": "3. Competition for Resources Affects Ecosystems",
+        "pages": {
+          "printed": [
+            266
+          ],
+          "pdf": [
+            302
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Yaks and wild horses compete for grass; in dry years both populations are predicted to fall, and grazers that use grass in slightly different ways compete less."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original simplified model; conditions and limitations stated. Drafted from rendered p. 266. Verifier (verify-agent, round 1): checked against the rendered p. 266 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q11",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "population",
+        "limited-resource",
+        "food-supply"
+      ],
+      "familyId": "L20-F05",
+      "category": "relationship",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "A population of animals depends on one main food. What may happen to that population if its food supply decreases?",
+      "accessiblePrompt": "A population of animals depends on one main food. What may happen to that population if its food supply gets smaller?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its growth may be limited, or it may decline, depending on conditions.",
+          "rationale": "Correct. Less food means fewer animals get enough to survive and reproduce, but the exact result also depends on things like water, weather, and other foods."
+        },
+        {
+          "id": "b",
+          "text": "It keeps growing at the same rate, because each animal simply eats a bit less.",
+          "rationale": "Animals that get too little food may not survive or reproduce, so growth does not simply carry on unchanged."
+        },
+        {
+          "id": "c",
+          "text": "It dies out completely within a year.",
+          "rationale": "A smaller food supply limits a population, but how far it falls depends on conditions such as other foods and water. A total die-off is not the expected result."
+        },
+        {
+          "id": "d",
+          "text": "It grows faster, because hungry animals tend to have more young.",
+          "rationale": "Underfed animals are less likely to survive and reproduce, so a food shortage usually holds a population down, not up."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A population can only grow as large as its resources allow. When a needed food becomes scarcer, competition rises, fewer individuals get enough to survive and reproduce, and the population's growth may be limited or the population may decline. How much depends on other conditions, such as other foods, water, and weather.",
+      "misconception": "Population size does not depend on food supply, or a food shortage always wipes a population out.",
+      "hint": "Think about what happens to the share of food each animal gets.",
+      "followUpId": "L20-Q06",
+      "scope": {
+        "lessonId": "L20",
+        "section": "2. Competition for Resources Affects Populations",
+        "pages": {
+          "printed": [
+            265,
+            267
+          ],
+          "pdf": [
+            301,
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            265
+          ],
+          "pdfPages": [
+            301
+          ],
+          "locator": "Section 2. Competition for Resources Affects Populations",
+          "supports": "Members of a species compete for a limited resource; those that get more survive and reproduce, abundant resources let a population grow, and sparse resources make it shrink."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Seed question from the brief (section 7, entry 20), polished. Drafted from rendered pp. 265 and 267. Reviser (2026-10-14): choice c reworded (pedagogy); key unchanged. Verifier (verify-agent, round 1): checked against the rendered pp. 265, 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c no longer stacks absolute words"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q12",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3",
+        "L20-O2"
+      ],
+      "conceptTags": [
+        "competition",
+        "limited-resource",
+        "prediction"
+      ],
+      "familyId": "L20-F03",
+      "category": "application",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Zebras on a savanna all eat the same grass. Which changes would most likely make the zebras compete harder for food? Select all that apply.",
+      "accessiblePrompt": "Zebras on a savanna all eat the same grass. Which changes would most likely make the zebras compete harder for food? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A drought year leaves far less grass than usual",
+          "rationale": "Correct. Less grass for the same number of zebras means harder competition."
+        },
+        {
+          "id": "b",
+          "text": "A large herd of wildebeest arrives and eats the same grass",
+          "rationale": "Correct. Another species taking a share leaves less grass for each zebra."
+        },
+        {
+          "id": "c",
+          "text": "The zebra herd doubles while the grass stays the same",
+          "rationale": "Correct. Twice as many zebras sharing the same grass means each gets less."
+        },
+        {
+          "id": "d",
+          "text": "Heavy rains make the grass grow thick and tall all season",
+          "rationale": "More grass means each zebra can find enough more easily, so competition eases."
+        },
+        {
+          "id": "e",
+          "text": "Half of the zebras move away to settle in another valley",
+          "rationale": "Fewer zebras sharing the same grass means less competition among those that stay."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Competition gets stronger whenever there is less of a limited resource for each individual. That happens when the resource shrinks (a drought), when another species takes a share (wildebeest), or when more individuals need it (a bigger herd).",
+      "misconception": "Competition depends only on how many zebras there are, not on how much grass there is or who else eats it.",
+      "hint": "For each change, ask: does each zebra end up with more grass or less?",
+      "followUpId": "L20-Q11",
+      "scope": {
+        "lessonId": "L20",
+        "section": "2. Competition for Resources Affects Populations; 3. Competition for Resources Affects Ecosystems",
+        "pages": {
+          "printed": [
+            265,
+            266
+          ],
+          "pdf": [
+            301,
+            302
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            265
+          ],
+          "pdfPages": [
+            301
+          ],
+          "locator": "Section 2. Competition for Resources Affects Populations",
+          "supports": "Members of a species compete for a limited resource; those that get more survive and reproduce, abundant resources let a population grow, and sparse resources make it shrink."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Yaks and wild horses compete for grass; in dry years both populations are predicted to fall, and grazers that use grass in slightly different ways compete less."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three ways to tighten competition, two ways to ease it. Drafted from rendered pp. 265-266. Reviser (2026-10-14): moved to family F03 with Q06 and Q07 (pedagogy lesson-level note: what competition is and when it gets stronger); follow-up repointed to Q11 in F05; scope.section names Sections 2 and 3 (optional science note). Choice b keeps 'eats the same grass'. Verifier (verify-agent, round 1): checked against the rendered pp. 265, 266 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Keyed choice b is one character longer than distractor d in a three-of-five multi; not a usable length cue.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q13",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "population-growth",
+        "limits",
+        "prediction"
+      ],
+      "familyId": "L20-F05",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "After several very rainy years, a valley grows three times as much grass as before, and its wild horse population starts to grow. Which prediction about the next several years is most reasonable?",
+      "accessiblePrompt": "After several very rainy years, a valley grows three times as much grass as before, and its wild horse population starts to grow. Which prediction about the next several years is most reasonable?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It grows until grass, water, or space limits it again.",
+          "rationale": "Correct. A bigger herd eventually runs short of something, and competition holds the population in check."
+        },
+        {
+          "id": "b",
+          "text": "It keeps growing forever, as long as the rain keeps falling.",
+          "rationale": "Every population eventually runs short of some resource, so growth cannot continue without limit."
+        },
+        {
+          "id": "c",
+          "text": "It triples within one year to match the extra grass.",
+          "rationale": "Populations grow through births and survival over time; extra food does not instantly multiply the herd by the same amount."
+        },
+        {
+          "id": "d",
+          "text": "It stays the same, because the horses just eat more instead of raising more foals.",
+          "rationale": "Well-fed horses are more likely to survive and raise foals, so plentiful grass usually lets the herd grow."
+        }
+      ],
+      "answer": "a",
+      "explanation": "More of a limited resource lets a population grow, but growth does not go on without end. As the herd gets bigger, competition for grass rises again, and another resource such as water or space may become the limit. The weather can also swing back to dry years.",
+      "misconception": "A bigger resource supply means a population can grow without limit.",
+      "hint": "If the herd keeps growing, what happens to each horse's share of grass and water?",
+      "followUpId": "L20-Q19",
+      "scope": {
+        "lessonId": "L20",
+        "section": "2. Competition for Resources Affects Populations",
+        "pages": {
+          "printed": [
+            265,
+            267
+          ],
+          "pdf": [
+            301,
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            265
+          ],
+          "pdfPages": [
+            301
+          ],
+          "locator": "Section 2. Competition for Resources Affects Populations",
+          "supports": "Members of a species compete for a limited resource; those that get more survive and reproduce, abundant resources let a population grow, and sparse resources make it shrink."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Targets the brief's 'avoid unlimited population growth' guardrail. Drafted from rendered pp. 265 and 267. Reviser (2026-10-14): choice d replaced and the visible prompt now asks about the next several years, like the read-aloud version (pedagogy; also the science reviewer's optional note). Verifier (verify-agent, round 1): checked against the rendered pp. 265, 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d now a real misconception; prompt matches read-aloud"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q14",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "graph-reading",
+        "rainfall",
+        "grass"
+      ],
+      "familyId": "L20-F06",
+      "category": "application",
+      "difficulty": 2,
+      "type": "numeric",
+      "prompt": "The graph shows model data for Grassland B. A normal year brings 450 mm of rain; a dry year brings 250 mm. About how many fewer kilograms of grass grow per hectare in the dry year?",
+      "accessiblePrompt": "Model data for Grassland B: 150 millimeters of rain grows 1,200 kilograms of grass per hectare, 250 millimeters grows 2,100, 350 grows 3,000, 450 grows 3,900, and 550 grows 4,800. A normal year brings 450 millimeters of rain and a dry year brings 250. About how many fewer kilograms of grass grow per hectare in the dry year?",
+      "diagram": {
+        "kind": "curve",
+        "caption": "Model data (Grassland B): rainfall and grass grown",
+        "alt": "A line graph of model data for Grassland B. Annual rainfall in millimeters runs along the bottom and grass grown in kilograms per hectare runs up the side. The points rise in a straight line: 150 millimeters of rain gives 1,200 kilograms per hectare, 250 gives 2,100, 350 gives 3,000, 450 gives 3,900, and 550 gives 4,800.",
+        "xLabel": "Annual rainfall (mm)",
+        "yLabel": "Grass grown (kg per hectare)",
+        "series": [
+          {
+            "label": "Measured years (model)",
+            "points": [
+              [
+                150,
+                1200
+              ],
+              [
+                250,
+                2100
+              ],
+              [
+                350,
+                3000
+              ],
+              [
+                450,
+                3900
+              ],
+              [
+                550,
+                4800
+              ]
+            ]
+          }
+        ]
+      },
+      "units": "kg per hectare",
+      "conditions": "Model data for Grassland B; read values at the plotted points.",
+      "answer": 1800,
+      "tolerance": 50,
+      "unit": "kg per hectare",
+      "workedSolution": "From the graph, 450 mm of rain gives 3,900 kg of grass per hectare and 250 mm gives 2,100 kg per hectare. 3,900 − 2,100 = 1,800 kg per hectare less grass in the dry year.",
+      "explanation": "Reading two points and subtracting shows the size of the effect: 200 mm less rain goes with about 1,800 kg less grass on every hectare. For grazers that depend on that grass, that is a lot less food.",
+      "misconception": "A drop in rainfall makes only a tiny difference to how much grass grows.",
+      "hint": "Find the grass amount at 450 mm and at 250 mm, then subtract.",
+      "followUpId": "L20-Q17",
+      "scope": {
+        "lessonId": "L20",
+        "section": "Limited Resources Affect Populations (graph page)",
+        "pages": {
+          "printed": [
+            267
+          ],
+          "pdf": [
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original model data (not the textbook's points) with the clearer y-axis label (L20-RF2, L20-RF3). Drafted from rendered p. 267. Reviser (2026-10-14): model dataset relabeled Grassland B so it is not confused with the O3 card's Grassland A (science lesson-level note). Numbers and answer unchanged. Verifier (verify-agent, round 1): checked against the rendered p. 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Model points checked against the p. 267 render: none reuse the textbook's grass points; 3,900 - 2,100 = 1,800 kg per hectare.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q15",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "units",
+        "biomass",
+        "graph-reading"
+      ],
+      "familyId": "L20-F06",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A scientist reports that a grassland grew 3,000 kilograms of grass per hectare this year. A hectare is a square of land 100 meters on each side. What does that number measure?",
+      "accessiblePrompt": "A scientist reports that a grassland grew 3,000 kilograms of grass per hectare this year. A hectare is a square of land 100 meters on each side. What does that number measure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mass of grass grown on each hectare of land",
+          "rationale": "Correct. Kilograms measure mass, and 'per hectare' means for each hectare of land."
+        },
+        {
+          "id": "b",
+          "text": "The number of separate grass plants in the grassland",
+          "rationale": "Kilograms measure mass, not a count. A count of plants would be a number of plants, not kilograms."
+        },
+        {
+          "id": "c",
+          "text": "How tall the grass grew during the year",
+          "rationale": "Height would be measured in centimeters or meters, not kilograms per hectare."
+        },
+        {
+          "id": "d",
+          "text": "How much rain fell on each hectare of land",
+          "rationale": "Rainfall is reported in millimeters. Kilograms per hectare here describes the grass."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Kilograms per hectare tells how much grass, by mass, grew on each hectare, a square of land 100 meters on each side. Mass of living material per area is called biomass. Measuring mass per area is practical for grass, because counting every grass plant would be nearly impossible.",
+      "misconception": "The size of a plant population is always a count of individual plants.",
+      "hint": "Look at the units: what do kilograms measure?",
+      "followUpId": "L20-Q18",
+      "scope": {
+        "lessonId": "L20",
+        "section": "Limited Resources Affect Populations (graph page)",
+        "pages": {
+          "printed": [
+            267
+          ],
+          "pdf": [
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 46.2 Energy Flow through Ecosystems",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+          "accessed": "2026-10-14",
+          "supports": "Biomass is the total mass of living or previously living organisms in a unit area, reported per area; counting individuals is a different measure."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the textbook graph's 'population size (kg/hectare)' label (L20-RF2). Drafted from rendered p. 267. Reviser (2026-10-14): hectare definition added to the visible prompt (pedagogy); biomass sentence reworded (optional science note). Verifier (verify-agent, round 1): checked against the rendered p. 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: hectare defined in the visible prompt too"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q16",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "data-table",
+        "prediction",
+        "rainfall",
+        "zebras"
+      ],
+      "familyId": "L20-F06",
+      "category": "application",
+      "difficulty": 3,
+      "type": "numeric",
+      "prompt": "The table gives model data on rainfall and a zebra population. Using its steady pattern, about how many thousand zebras would you predict in a year with 1,200 mm of rain?",
+      "accessiblePrompt": "Model data on rainfall and a zebra population: 900 millimeters of rain goes with 24 thousand zebras, 1,100 millimeters with 27 thousand, 1,300 millimeters with 30 thousand, and 1,500 millimeters with 33 thousand. Using this steady pattern, about how many thousand zebras would you predict in a year with 1,200 millimeters of rain?",
+      "diagram": {
+        "kind": "table",
+        "caption": "Model data: rainfall and zebras",
+        "alt": "A table of model data. 900 millimeters of rain: 24 thousand zebras. 1,100 millimeters: 27 thousand zebras. 1,300 millimeters: 30 thousand zebras. 1,500 millimeters: 33 thousand zebras. Each extra 200 millimeters of rain goes with 3 thousand more zebras.",
+        "columns": [
+          "Annual rainfall (mm)",
+          "Zebras (thousands)"
+        ],
+        "rows": [
+          [
+            900,
+            24
+          ],
+          [
+            1100,
+            27
+          ],
+          [
+            1300,
+            30
+          ],
+          [
+            1500,
+            33
+          ]
+        ]
+      },
+      "units": "thousand zebras",
+      "conditions": "Assume the steady pattern holds between the measured rainfall amounts and nothing else changes.",
+      "limitations": "Real zebra numbers also depend on predators, disease, other grazers, and space.",
+      "answer": 28.5,
+      "tolerance": 0.5,
+      "unit": "thousand zebras",
+      "workedSolution": "Each 200 mm more rain goes with 3 thousand more zebras, so 100 mm goes with 1.5 thousand. 1,200 mm is 100 mm above 1,100 mm, so 27 + 1.5 = 28.5 thousand zebras (about 28,500).",
+      "explanation": "Because 1,200 mm falls between two measured years, you can use the pattern to estimate in between. The data show more rain going with more zebras, which makes sense because more rain grows more grass for them to eat.",
+      "misconception": "A data pattern can't support a prediction, or you should just copy the nearest row.",
+      "hint": "Find the two rows that 1,200 mm falls between.",
+      "followUpId": "L20-Q19",
+      "scope": {
+        "lessonId": "L20",
+        "section": "Limited Resources Affect Populations (graph page)",
+        "pages": {
+          "printed": [
+            267
+          ],
+          "pdf": [
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original model table; prediction stays inside the measured range (contrast with Q19). Drafted from rendered p. 267. Reviser (2026-10-14): hint no longer does the halfway step (optional pedagogy note). Verifier (verify-agent, round 1): checked against the rendered p. 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Model table checked against the p. 267 render (textbook zebra points span about 840-1,540 mm and are not reused); interpolation gives 28.5 thousand; the tolerance excludes the neighbouring rows 27 and 30.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q17",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "correlation",
+        "pattern",
+        "data-table"
+      ],
+      "familyId": "L20-F07",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Over five years, scientists measured rainfall and grass on Grassland C (table). Which statement best describes the pattern without claiming more than the data show?",
+      "accessiblePrompt": "Over five years, scientists measured rainfall and grass on a grassland called Grassland C. The five years were: 200 millimeters of rain and 1,500 kilograms of grass per hectare; 300 millimeters and 2,500 kilograms; 350 millimeters and 2,300 kilograms; 450 millimeters and 3,600 kilograms; and 500 millimeters and 4,100 kilograms. Which statement best describes the pattern without claiming more than the data show?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Years with more rain tended to grow more grass.",
+          "rationale": "Correct. Wetter years mostly grew more grass, and 'tended to' allows for the one year that broke the pattern. It describes the data without adding a cause."
+        },
+        {
+          "id": "b",
+          "text": "Growing more grass caused more rain to fall.",
+          "rationale": "This flips the direction and claims a cause. The data show only that rain and grass rose together; what we know about plants says rain helps grass grow."
+        },
+        {
+          "id": "c",
+          "text": "These data show that rain is what makes grass grow.",
+          "rationale": "Grass does need water, but that comes from what we know about plants. The measurements alone show only that rain and grass rose together."
+        },
+        {
+          "id": "d",
+          "text": "Grass rose by the same amount with each extra 100 mm of rain.",
+          "rationale": "The increases vary, and the 350 mm year grew less grass than the 300 mm year."
+        }
+      ],
+      "answer": "a",
+      "explanation": "A data pattern describes what was measured: here, wetter years tended to grow more grass, though the 350 mm year grew less than the 300 mm year. Explaining why takes extra knowledge, such as the fact that grass needs water to grow. Keeping the pattern apart from the explanation keeps you from claiming more than the data show.",
+      "misconception": "A pattern in data automatically shows which thing causes which, in whatever direction you guess.",
+      "hint": "Check each statement against every row of the table, and ask whether the numbers alone prove it.",
+      "followUpId": "L20-Q14",
+      "scope": {
+        "lessonId": "L20",
+        "section": "Limited Resources Affect Populations (graph page)",
+        "pages": {
+          "printed": [
+            267
+          ],
+          "pdf": [
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        },
+        {
+          "type": "external",
+          "title": "Psychology 2e, 2.2 Approaches to Research",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+          "accessed": "2026-10-14",
+          "supports": "Correlational data alone cannot establish cause and effect."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Correlation-versus-cause guardrail (L20-RF3). Drafted from rendered p. 267. Reviser (2026-10-14): rebuilt from the pedagogy reviewer's spec (model table, new choices c and d, new hint, difficulty 3) with the science reviewer's softer rationale for b. The table is labeled Grassland C so it is not read as the same dataset as the O3 card (A) or Q14 (B). The reworked item has not yet had a science pass of its own. Verifier (verify-agent, round 1): checked against the rendered p. 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Rebuilt item given its own science check: the Grassland C table is original (not the p. 267 points), the 350 mm year breaks the pattern so d is false, b and c each claim a cause the data alone cannot show, and a is the single best answer. Correlation-versus-cause guardrail met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: choice b rationale no longer says grass cannot affect rain"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rebuilt around a five-year model table; stem no longer states the pattern; difficulty 3"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      },
+      "diagram": {
+        "kind": "table",
+        "caption": "Model data (Grassland C): five years of rainfall and grass",
+        "alt": "A table of model data for Grassland C, one row per year. 200 millimeters of rain: 1,500 kilograms of grass per hectare. 300 millimeters: 2,500. 350 millimeters: 2,300. 450 millimeters: 3,600. 500 millimeters: 4,100.",
+        "columns": [
+          "Annual rainfall (mm)",
+          "Grass grown (kg per hectare)"
+        ],
+        "rows": [
+          [
+            200,
+            1500
+          ],
+          [
+            300,
+            2500
+          ],
+          [
+            350,
+            2300
+          ],
+          [
+            450,
+            3600
+          ],
+          [
+            500,
+            4100
+          ]
+        ]
+      },
+      "units": "rainfall in mm; grass in kg per hectare",
+      "conditions": "Model data: five measured years on one grassland."
+    },
+    {
+      "id": "L20-Q18",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "data",
+        "explanation",
+        "prediction",
+        "assumption"
+      ],
+      "familyId": "L20-F07",
+      "category": "relationship",
+      "difficulty": 3,
+      "type": "match",
+      "prompt": "A class studies rainfall, grass, and zebras. Match each statement to the role it plays in their scientific thinking.",
+      "accessiblePrompt": "A class studies rainfall, grass, and zebras. Match each of five statements to the role it plays in their scientific thinking: data, pattern, explanation, prediction, or assumption.",
+      "left": [
+        {
+          "id": "dots",
+          "text": "Each dot on our graph is one year's measured rainfall and zebra count.",
+          "rationale": "It records what was measured, so it is data, the evidence."
+        },
+        {
+          "id": "trend",
+          "text": "Across the years, wetter years tended to have more zebras.",
+          "rationale": "It describes how the measurements change together: a pattern, or correlation."
+        },
+        {
+          "id": "why",
+          "text": "More rain grows more grass, and zebras eat grass.",
+          "rationale": "It tells why the pattern happens, using how grass and zebras depend on each other."
+        },
+        {
+          "id": "next",
+          "text": "Next year is forecast to be wet, so zebras will probably increase.",
+          "rationale": "It looks ahead to a future result, so it is a prediction."
+        },
+        {
+          "id": "same",
+          "text": "Our forecast takes for granted that predators and disease stay about the same.",
+          "rationale": "The forecast relies on this, but it is taken for granted rather than measured in this study, so it is an assumption."
+        }
+      ],
+      "right": [
+        {
+          "id": "data",
+          "text": "Data (evidence)"
+        },
+        {
+          "id": "pattern",
+          "text": "Pattern (correlation)"
+        },
+        {
+          "id": "explanation",
+          "text": "Explanation"
+        },
+        {
+          "id": "prediction",
+          "text": "Prediction"
+        },
+        {
+          "id": "assumption",
+          "text": "Assumption"
+        }
+      ],
+      "answer": {
+        "dots": "data",
+        "trend": "pattern",
+        "why": "explanation",
+        "next": "prediction",
+        "same": "assumption"
+      },
+      "explanation": "Scientific reasoning has different parts. Data are the measurements, a pattern describes how they change together, an explanation tells why, a prediction applies all this to the future, and an assumption is something taken for granted. A prediction is only as strong as its assumptions.",
+      "misconception": "A pattern in data and an explanation of it are the same thing, or assumptions don't matter.",
+      "hint": "Start with the statement about the future, then find the one that says why.",
+      "followUpId": "L20-Q11",
+      "scope": {
+        "lessonId": "L20",
+        "section": "Limited Resources Affect Populations (graph page)",
+        "pages": {
+          "printed": [
+            266,
+            267
+          ],
+          "pdf": [
+            302,
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            266
+          ],
+          "pdfPages": [
+            302
+          ],
+          "locator": "Section 3. Competition for Resources Affects Ecosystems",
+          "supports": "Yaks and wild horses compete for grass; in dry years both populations are predicted to fall, and grazers that use grass in slightly different ways compete less."
+        },
+        {
+          "type": "external",
+          "title": "Psychology 2e, 2.2 Approaches to Research",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+          "accessed": "2026-10-14",
+          "supports": "Correlational data alone cannot establish cause and effect."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Separates data, pattern, explanation, prediction, and assumption (guide guardrail; L20-RF3). Drafted from rendered pp. 266-267. Reviser (2026-10-14): the two reviewers proposed different wordings for the 'same' statement; the reviser merged them ('Our forecast takes for granted that...') so it is both tied to the forecast and plainly not measured. Hint from the pedagogy reviewer. Answer map unchanged. Verifier (verify-agent, round 1): checked against the rendered pp. 266, 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: assumption statement now reads as taken for granted, not as data"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: assumption statement reworded; hint no longer lists the five roles in order"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q19",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O3"
+      ],
+      "conceptTags": [
+        "extrapolation",
+        "prediction",
+        "limits"
+      ],
+      "familyId": "L20-F07",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Rainfall and zebra data were collected only in years with 900 to 1,500 mm of rain. A student uses the trend to predict zebra numbers for a year with 3,000 mm. Why is that prediction risky?",
+      "accessiblePrompt": "Rainfall and zebra data were collected only in years with 900 to 1,500 millimeters of rain. A student uses the trend to predict zebra numbers for a year with 3,000 millimeters. Why is that prediction risky?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nobody measured years that wet, so the trend may not hold.",
+          "rationale": "Correct. 3,000 mm is far beyond the measured range, and other limits, like space or flooding, might change the pattern there."
+        },
+        {
+          "id": "b",
+          "text": "It is not risky, because the trend line can simply be extended.",
+          "rationale": "A trend line sums up only the years that were measured. Extending it far past 1,500 mm assumes the pattern holds where no one has checked."
+        },
+        {
+          "id": "c",
+          "text": "Rain has no effect on zebras, so no prediction can work.",
+          "rationale": "Within the measured range, more rain went with more zebras, so rain does matter."
+        },
+        {
+          "id": "d",
+          "text": "Zebras would drop to zero in such an extremely wet year.",
+          "rationale": "There is no evidence for that either; the honest answer is that the data cannot tell us."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Data support predictions best inside the range that was measured. Far outside it, other limits may take over: another resource could run short, or extreme rain could cause new problems. Scientists would need new measurements before trusting a prediction there.",
+      "misconception": "A trend in data can be extended as far as you like.",
+      "hint": "Where did the measurements stop?",
+      "followUpId": "L20-Q13",
+      "scope": {
+        "lessonId": "L20",
+        "section": "Limited Resources Affect Populations (graph page)",
+        "pages": {
+          "printed": [
+            267
+          ],
+          "pdf": [
+            303
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            267
+          ],
+          "pdfPages": [
+            303
+          ],
+          "locator": "Limited Resources Affect Populations (graph page)",
+          "supports": "Line graphs of annual rainfall against grass (kg per hectare) and against zebra numbers (thousands) rise together; a population may grow or shrink as a resource rises or falls."
+        },
+        {
+          "type": "external",
+          "title": "Introductory Statistics 2e, 12.5 Prediction",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-5-prediction",
+          "accessed": "2026-10-17",
+          "supports": "Predicting inside the range of observed x values is called interpolation and predicting outside it is called extrapolation; the page's worked example shows that a prediction outside the observed range is not reliable."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Extrapolation limit; pairs with in-range Q16. Drafted from rendered p. 267. Reviser (2026-10-14): Psychology 2e record (correlation, not extrapolation) replaced by OpenStax Introductory Statistics 2e 12.5, opened 2026-10-17 (science); choices b and d reworded (pedagogy). Verifier (verify-agent, round 1): checked against the rendered p. 267 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. OpenStax Introductory Statistics 2e 12.5 re-opened (system date 2026-10-18): it calls prediction outside the observed x range extrapolation and says it is not reliable.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: extrapolation now cited to OpenStax Introductory Statistics 2e 12.5"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors b and d no longer carry 'always forever' and 'surely'"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q20",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O4"
+      ],
+      "conceptTags": [
+        "biome",
+        "grassland",
+        "rainfall"
+      ],
+      "familyId": "L20-F08",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Steppes, prairies, and other grasslands are covered with grasses instead of forests. Which condition best explains this?",
+      "accessiblePrompt": "Steppes, prairies, and other grasslands are covered with grasses instead of forests. Which condition best explains why?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They get enough rain for grass but usually too little for forests.",
+          "rationale": "Correct. A medium amount of rain supports grasses but usually not a forest."
+        },
+        {
+          "id": "b",
+          "text": "They get so much rain that tree roots rot before the trees can grow.",
+          "rationale": "Wetter places tend to grow forests. Too little rain for trees is the usual limit."
+        },
+        {
+          "id": "c",
+          "text": "Their soil is too poor for tree roots to grow in.",
+          "rationale": "Grasses need rich soil, and grassland soils are often fertile. Too little rain, not poor soil, usually keeps forests out."
+        },
+        {
+          "id": "d",
+          "text": "They are too cold for any plants except grasses to survive.",
+          "rationale": "Many grasslands have warm summers, and cold boreal regions grow forests, so cold alone does not explain grassland."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Rainfall is a key limit for land plants. Grasslands sit where there is a medium amount of rain: enough for grasses, but usually too little for a forest, which is why grass eaters such as wild horses live there. Fire also helps keep trees from taking over in many grasslands.",
+      "misconception": "Grasslands lack trees because their soil is poor or because they are too cold.",
+      "hint": "Think about what trees need more of than grasses do.",
+      "followUpId": "L20-Q22",
+      "scope": {
+        "lessonId": "L20",
+        "section": "4. Biomes are Shaped by Limited Resources",
+        "pages": {
+          "printed": [
+            268
+          ],
+          "pdf": [
+            304
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            268
+          ],
+          "pdfPages": [
+            304
+          ],
+          "locator": "Section 4 and Figure 4, Grassland Biomes from Around the World",
+          "supports": "Grasslands get enough rain for grasses but not enough for forests; savannas, pampas, prairies, and steppes are grassland biomes, shown on a world biome map."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.3 Terrestrial Biomes",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+          "accessed": "2026-10-17",
+          "supports": "Biomes are distinguished by temperature and precipitation; temperate grassland soils are fertile; fire is a natural disturbance in temperate grasslands, and when fire is suppressed they eventually convert to scrub and sometimes dense forest."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Frames grassland limits as rainfall (L20-RF1). Drafted from rendered p. 268. Reviser (2026-10-14): choice c replaced (pedagogy). Its rationale says grassland soils are 'often fertile' rather than 'deep and rich', because OpenStax 44.3 (re-opened 2026-10-17) supports fertile but not deep. Fire sentence added to the explanation (optional science note); grazing was left out because the opened source does not say grazing keeps trees out. OpenStax supports line updated. Verifier (verify-agent, round 1): checked against the rendered p. 268 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. OpenStax Biology 2e 44.3 re-opened (system date 2026-10-18): temperate grassland soils are fertile and fire is a natural disturbance there. Key a rests on p. 268 (enough rain for grass, not for forest).",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor c now targets the real 'poor grassland soil' misconception"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q21",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O4"
+      ],
+      "conceptTags": [
+        "biome",
+        "savanna",
+        "prediction"
+      ],
+      "familyId": "L20-F08",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A region near the equator is warm all year. It gets a medium amount of rain, with a long dry season each year. Which biome would you most expect there?",
+      "accessiblePrompt": "A region near the equator is warm all year. It gets a medium amount of rain, with a long dry season every year. Which biome would you most expect to find there?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Savanna",
+          "rationale": "Correct. Warm weather with medium rain and a long dry season supports grasses with scattered trees."
+        },
+        {
+          "id": "b",
+          "text": "Tropical rainforest",
+          "rationale": "Rainforests need heavy rain through most of the year, not a long dry season."
+        },
+        {
+          "id": "c",
+          "text": "Desert",
+          "rationale": "Deserts get very little rain; a medium amount is enough for grasses."
+        },
+        {
+          "id": "d",
+          "text": "Boreal forest",
+          "rationale": "Boreal forests have long, cold, snowy winters; this region is warm all year."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Rainfall and temperature together shape which biome forms. Medium rain with a long dry season in a warm place grows a savanna. Savannas also show that grasslands are not only found at middle latitudes.",
+      "misconception": "Grasslands occur only at middle latitudes, or land near the equator must be rainforest or desert.",
+      "hint": "Compare how much rain and warmth each biome needs.",
+      "followUpId": "L20-Q22",
+      "scope": {
+        "lessonId": "L20",
+        "section": "4. Biomes are Shaped by Limited Resources",
+        "pages": {
+          "printed": [
+            268,
+            269
+          ],
+          "pdf": [
+            304,
+            305
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            268
+          ],
+          "pdfPages": [
+            304
+          ],
+          "locator": "Section 4 and Figure 4, Grassland Biomes from Around the World (savanna photo and map legend)",
+          "supports": "Grasslands, including savannas, get enough rain for grasses but not enough for forests (grasses need a medium amount of rainfall); the map shows grassland across tropical Africa and South America."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            269
+          ],
+          "pdfPages": [
+            305
+          ],
+          "locator": "Section 4, Terrestrial Biomes",
+          "supports": "Each terrestrial biome has a particular range of temperatures and rainfall; boreal forest trees must survive cold winters with heavy snowfall."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.3 Terrestrial Biomes",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+          "accessed": "2026-10-17",
+          "supports": "Savannas are warm grasslands with scattered trees in Africa, South America, and northern Australia, with an extensive dry season; tropical wet forests get heavy rain with only some monthly variation; subtropical deserts get low annual precipitation; boreal forests have cold winters and short, cool summers."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Repairs the Figure 4 caption's middle-latitude generalization (L20-RF5). Drafted from rendered p. 268. Reviser (2026-10-14): rewritten from the pedagogy reviewer's spec. The science reviewer passed the earlier version; this rewrite has not had a science pass. Re-checked against the p. 268-269 renders and OpenStax 44.3 (opened 2026-10-17). OpenStax's numeric savanna rainfall range is not used; 'a medium amount of rain' rests on p. 268. Verifier (verify-agent, round 1): checked against the rendered pp. 268, 269 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Rebuilt item given its own science check against the pp. 268-269 renders (savanna photo of East African wildebeest and zebras; the map shows grassland across tropical Africa and South America) and OpenStax 44.3 re-opened (system date 2026-10-18): savannas are tropical, with an extensive dry season. Rainforest, desert and boreal forest each conflict with a stated condition, so savanna is the single answer.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: rewritten as a predict-the-biome-from-conditions item; old stem gave its own answer"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q22",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O4"
+      ],
+      "conceptTags": [
+        "biome",
+        "terrestrial",
+        "aquatic"
+      ],
+      "familyId": "L20-F09",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "classify",
+      "prompt": "Sort each biome: is it a terrestrial biome on land, or an aquatic biome in water?",
+      "accessiblePrompt": "Sort each of six biomes into one of two groups: a terrestrial biome, found on land, or an aquatic biome, found in fresh or salt water.",
+      "items": [
+        {
+          "id": "boreal",
+          "text": "Boreal forest",
+          "rationale": "A forest of mostly evergreen conifers on land: terrestrial."
+        },
+        {
+          "id": "reef",
+          "text": "Coral reef",
+          "rationale": "Coral reefs form in salt water: aquatic."
+        },
+        {
+          "id": "steppe",
+          "text": "Steppe",
+          "rationale": "A grassland on land: terrestrial."
+        },
+        {
+          "id": "lake",
+          "text": "Lake",
+          "rationale": "A body of fresh water: aquatic."
+        },
+        {
+          "id": "savanna",
+          "text": "Savanna",
+          "rationale": "A tropical grassland on land: terrestrial."
+        },
+        {
+          "id": "river",
+          "text": "River",
+          "rationale": "Flowing fresh water: aquatic."
+        }
+      ],
+      "bins": [
+        {
+          "id": "land",
+          "label": "Terrestrial (land)"
+        },
+        {
+          "id": "water",
+          "label": "Aquatic (water)"
+        }
+      ],
+      "answer": {
+        "boreal": "land",
+        "reef": "water",
+        "steppe": "land",
+        "lake": "water",
+        "savanna": "land",
+        "river": "water"
+      },
+      "explanation": "Terrestrial biomes, such as forests and grasslands, are on land and are shaped mostly by temperature and rainfall. Aquatic biomes, such as lakes, rivers, and coral reefs, are in fresh or salt water, where light and nutrients are often the main limits.",
+      "misconception": "Biomes are only land regions; watery areas aren't biomes.",
+      "hint": "Could you walk across it, or would you need to swim?",
+      "followUpId": "L20-Q20",
+      "scope": {
+        "lessonId": "L20",
+        "section": "4. Biomes are Shaped by Limited Resources",
+        "pages": {
+          "printed": [
+            268,
+            269
+          ],
+          "pdf": [
+            304,
+            305
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            268
+          ],
+          "pdfPages": [
+            304
+          ],
+          "locator": "Section 4 and Figure 4, Grassland Biomes from Around the World",
+          "supports": "Grasslands get enough rain for grasses but not enough for forests; savannas, pampas, prairies, and steppes are grassland biomes, shown on a world biome map."
+        },
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            269
+          ],
+          "pdfPages": [
+            305
+          ],
+          "locator": "Section 4, Terrestrial Biomes and Aquatic Biomes",
+          "supports": "Terrestrial biomes are on land; aquatic biomes are fresh or salt water where light and nutrients are the usual limits, and light decreases with depth so lake and river plants often float leaves at the surface."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Items from the Figure 4 legend and Section 4 text. Drafted from rendered pp. 268-269. Reviser (2026-10-14): boreal rationale now says 'mostly evergreen conifers' to match the lesson-level boreal fix (L20-RF8); bins and answer unchanged. Verifier (verify-agent, round 1): checked against the rendered pp. 268, 269 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q23",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O4"
+      ],
+      "conceptTags": [
+        "aquatic-biome",
+        "light",
+        "depth"
+      ],
+      "familyId": "L20-F09",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Many plants in lakes and rivers, such as water lilies, spread their leaves flat on the water's surface. Which reason fits best?",
+      "accessiblePrompt": "Many plants in lakes and rivers, such as water lilies, spread their leaves flat on the surface of the water. Which reason fits best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Light fades as water deepens, so surface leaves catch more of it.",
+          "rationale": "Correct. Water absorbs light, so leaves at the surface get the most light for making food."
+        },
+        {
+          "id": "b",
+          "text": "Leaves at the surface are out of reach of fish that would eat them.",
+          "rationale": "Fish and snails can still reach floating leaves. The leaves sit at the surface to catch light."
+        },
+        {
+          "id": "c",
+          "text": "Surface water is colder, and these plants need cold water.",
+          "rationale": "Surface water is usually the warmest layer in summer. The reason for floating leaves is light, which fades with depth."
+        },
+        {
+          "id": "d",
+          "text": "Their roots cannot reach the bottom of the lake or river.",
+          "rationale": "Water lilies are rooted in the bottom mud; their leaves rise to the surface to reach the light."
+        }
+      ],
+      "answer": "a",
+      "explanation": "In aquatic biomes, light and nutrients are usually the main limits. Water absorbs sunlight, so less light reaches deeper down. Plants that hold their leaves at the surface get the most light for making food.",
+      "misconception": "Sunlight reaches every depth of water equally.",
+      "hint": "What does a plant need from above to make its food, and what happens to it in deep water?",
+      "followUpId": "L20-Q04",
+      "scope": {
+        "lessonId": "L20",
+        "section": "4. Biomes are Shaped by Limited Resources",
+        "pages": {
+          "printed": [
+            269
+          ],
+          "pdf": [
+            305
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            269
+          ],
+          "pdfPages": [
+            305
+          ],
+          "locator": "Section 4, Terrestrial Biomes and Aquatic Biomes",
+          "supports": "Terrestrial biomes are on land; aquatic biomes are fresh or salt water where light and nutrients are the usual limits, and light decreases with depth so lake and river plants often float leaves at the surface."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.2 Biogeography",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-2-biogeography",
+          "accessed": "2026-10-14",
+          "supports": "Water absorbs sunlight, so light available to aquatic producers decreases with depth; light and nutrients limit aquatic life."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Drafted from rendered p. 269 (Aquatic Biomes text and lake photo caption). Reviser (2026-10-14): choices b and c replaced (pedagogy). Verifier (verify-agent, round 1): checked against the rendered p. 269 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractors b and c replaced with believable wrong reasons"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q24",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O4"
+      ],
+      "conceptTags": [
+        "aquatic-biome",
+        "light",
+        "prediction"
+      ],
+      "familyId": "L20-F09",
+      "category": "application",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Two lakes are alike except that one is clear and the other is cloudy with mud. In which lake would you expect rooted underwater plants to grow at greater depths?",
+      "accessiblePrompt": "Two lakes are alike in every way except that one has clear water and the other is cloudy with mud. In which lake would you expect rooted underwater plants to grow at greater depths?",
+      "conditions": "The two lakes have the same depth, temperature, and nutrients; only the water's clearness differs.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The clear lake, because light reaches deeper there.",
+          "rationale": "Correct. More light gets through clear water, so plants can make food at greater depths."
+        },
+        {
+          "id": "b",
+          "text": "The muddy lake, because plants grow better in darker water.",
+          "rationale": "Plants need light to make food; darker water means less food-making, not more."
+        },
+        {
+          "id": "c",
+          "text": "Both lakes equally, because depth does not affect light.",
+          "rationale": "Water absorbs light, so light fades with depth, and mud makes it fade faster."
+        },
+        {
+          "id": "d",
+          "text": "Neither lake, because underwater plants do not need light.",
+          "rationale": "Underwater plants make food from sunlight just as land plants do, so light limits where they grow."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Light and nutrients are the usual limits on water plants, and here only the light differs. Water absorbs sunlight with depth, and mud blocks even more, so in a muddy lake the light runs out closer to the surface. Rooted plants can grow deeper in the clear lake, where enough light still reaches the bottom.",
+      "misconception": "Plants underwater don't depend on light, or light reaches all depths equally.",
+      "hint": "Plants can only grow where enough light reaches them.",
+      "followUpId": "L20-Q11",
+      "scope": {
+        "lessonId": "L20",
+        "section": "4. Biomes are Shaped by Limited Resources",
+        "pages": {
+          "printed": [
+            269
+          ],
+          "pdf": [
+            305
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            269
+          ],
+          "pdfPages": [
+            305
+          ],
+          "locator": "Section 4, Terrestrial Biomes and Aquatic Biomes",
+          "supports": "Terrestrial biomes are on land; aquatic biomes are fresh or salt water where light and nutrients are the usual limits, and light decreases with depth so lake and river plants often float leaves at the surface."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 44.2 Biogeography",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/44-2-biogeography",
+          "accessed": "2026-10-14",
+          "supports": "Water absorbs sunlight, so light available to aquatic producers decreases with depth; light and nutrients limit aquatic life."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original two-lake comparison applying 'light decreases with depth'. Drafted from rendered p. 269. Reviser (2026-10-14): ', which blocks more light,' removed from both prompts and a nutrients clause added to the explanation (pedagogy). Verifier (verify-agent, round 1): checked against the rendered p. 269 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: prompt no longer hands over the light mechanism"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q25",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O5"
+      ],
+      "conceptTags": [
+        "levels-of-organization",
+        "biosphere"
+      ],
+      "familyId": "L20-F10",
+      "category": "foundational",
+      "difficulty": 1,
+      "type": "order",
+      "prompt": "Put these levels of organization in order, from the smallest to the largest.",
+      "accessiblePrompt": "Put four levels of organization, biosphere, population, organism, and ecosystem, in order from the smallest level to the largest level.",
+      "limitations": "Uses the four levels taught in this lesson; many biology books also add a community level between population and ecosystem.",
+      "items": [
+        {
+          "id": "bio",
+          "text": "Biosphere",
+          "rationale": "Largest: all of Earth's ecosystems together."
+        },
+        {
+          "id": "pop",
+          "text": "Population",
+          "rationale": "Second: many organisms of one species living in one area."
+        },
+        {
+          "id": "org",
+          "text": "Organism",
+          "rationale": "Smallest level here: one individual living thing."
+        },
+        {
+          "id": "eco",
+          "text": "Ecosystem",
+          "rationale": "Third: populations plus the nonliving parts of their environment."
+        }
+      ],
+      "answer": [
+        "org",
+        "pop",
+        "eco",
+        "bio"
+      ],
+      "ends": [
+        "Smallest",
+        "Largest"
+      ],
+      "explanation": "Each level contains the one before it. Organisms of one species living in an area form a population; populations plus the nonliving parts around them form an ecosystem; and all of Earth's ecosystems together form the biosphere.",
+      "misconception": "An ecosystem is smaller than a population, or the biosphere is just the air around Earth.",
+      "hint": "Start with one living thing and keep zooming out.",
+      "followUpId": "L20-Q07",
+      "scope": {
+        "lessonId": "L20",
+        "section": "5. Organization of Earth's Biosphere",
+        "pages": {
+          "printed": [
+            270
+          ],
+          "pdf": [
+            306
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            270
+          ],
+          "pdfPages": [
+            306
+          ],
+          "locator": "Section 5 and Figure 5, Levels of Organization in Earth's Biosphere",
+          "supports": "Organisms of one species in an area form a population; populations and nonliving parts form an ecosystem; all ecosystems together form the biosphere."
+        },
+        {
+          "type": "external",
+          "title": "Biology 2e, 1.2 Themes and Concepts of Biology",
+          "publisher": "OpenStax, Rice University",
+          "url": "https://openstax.org/books/biology-2e/pages/1-2-themes-and-concepts-of-biology",
+          "accessed": "2026-10-14",
+          "supports": "Many references place a community level (all populations in an area) between population and ecosystem; the biosphere is all ecosystems together."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Uses only the textbook's four levels so one order is defensible (L20-RF7). Drafted from rendered p. 270. Verifier (verify-agent, round 1): checked against the rendered p. 270 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q26",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O5"
+      ],
+      "conceptTags": [
+        "levels-of-organization",
+        "ecosystem",
+        "population"
+      ],
+      "familyId": "L20-F10",
+      "category": "foundational",
+      "difficulty": 2,
+      "type": "match",
+      "prompt": "Match each description to its level of organization. One level will not be used.",
+      "accessiblePrompt": "Match each of four descriptions to its level of organization. There are five level names, and one will not be used.",
+      "left": [
+        {
+          "id": "foal",
+          "text": "One young foal standing beside its mother",
+          "rationale": "A single living thing is an organism."
+        },
+        {
+          "id": "herd",
+          "text": "All the wild horses living and breeding in one valley",
+          "rationale": "Many members of one species in one area form a population."
+        },
+        {
+          "id": "valley",
+          "text": "The valley's horses, yaks, and grasses, plus its soil, water, and air",
+          "rationale": "Several populations plus nonliving parts make an ecosystem."
+        },
+        {
+          "id": "earth",
+          "text": "Every ecosystem on Earth, from deep ocean water to the air above high peaks",
+          "rationale": "All ecosystems together make up the biosphere."
+        }
+      ],
+      "right": [
+        {
+          "id": "organism",
+          "text": "Organism"
+        },
+        {
+          "id": "population",
+          "text": "Population"
+        },
+        {
+          "id": "ecosystem",
+          "text": "Ecosystem"
+        },
+        {
+          "id": "biosphere",
+          "text": "Biosphere"
+        },
+        {
+          "id": "biome",
+          "text": "Biome"
+        }
+      ],
+      "answer": {
+        "foal": "organism",
+        "herd": "population",
+        "valley": "ecosystem",
+        "earth": "biosphere"
+      },
+      "explanation": "Look at what each description includes. One living thing is an organism. Many of one species in an area make a population. Add other species and the nonliving parts and you have an ecosystem. All ecosystems together are the biosphere. A biome is a large region with similar conditions, which none of these describes.",
+      "misconception": "A population includes the nonliving parts of an area, or an ecosystem is only its living things.",
+      "hint": "Does the description include nonliving things? Does it include more than one species?",
+      "followUpId": "L20-Q07",
+      "scope": {
+        "lessonId": "L20",
+        "section": "5. Organization of Earth's Biosphere",
+        "pages": {
+          "printed": [
+            270
+          ],
+          "pdf": [
+            306
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            270
+          ],
+          "pdfPages": [
+            306
+          ],
+          "locator": "Section 5 and Figure 5, Levels of Organization in Earth's Biosphere",
+          "supports": "Organisms of one species in an area form a population; populations and nonliving parts form an ecosystem; all ecosystems together form the biosphere."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Extra choice is 'Biome', not 'Community' (L20-RF7). Drafted from rendered p. 270. Reviser (2026-10-14): follow-up changed from Q05 to Q07 (pedagogy). Verifier (verify-agent, round 1): checked against the rendered p. 270 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: follow-up now Q07 (one species versus many)"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q27",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O5",
+        "L20-O2"
+      ],
+      "conceptTags": [
+        "human-impact",
+        "competition",
+        "grassland"
+      ],
+      "familyId": "L20-F11",
+      "category": "relationship",
+      "difficulty": 2,
+      "type": "multi",
+      "prompt": "Which human actions would leave less grass for wild horses on a grassland? Select all that apply.",
+      "accessiblePrompt": "Which human actions would leave less grass for wild horses living on a grassland? Select all that apply.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grazing large herds of sheep and goats on the same land",
+          "rationale": "Correct. Livestock eat the same grass, adding competition for the wild horses."
+        },
+        {
+          "id": "b",
+          "text": "Plowing the grassland to plant crops",
+          "rationale": "Correct. Turning grassland into farmland removes the horses' food and shrinks the ecosystem."
+        },
+        {
+          "id": "c",
+          "text": "Building neighborhoods across the grassland",
+          "rationale": "Correct. Houses and roads replace grass, so the grassland ecosystem shrinks."
+        },
+        {
+          "id": "d",
+          "text": "Fencing livestock out of a protected grassland reserve",
+          "rationale": "Keeping livestock out lowers competition, leaving more grass for wild horses."
+        },
+        {
+          "id": "e",
+          "text": "Capturing some wild horses to tame them",
+          "rationale": "This lowers the number of wild horses, but it removes no grass, so the horses that stay wild are not left with less to eat."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Humans are part of ecosystems and use their resources. Grazing livestock adds competition for grass, and turning grassland into farms or neighborhoods shrinks the ecosystem itself. Either way, less grass is left for wild species.",
+      "misconception": "Humans stand outside ecosystems, so their land use doesn't affect wild populations.",
+      "hint": "For each action, ask whether it uses up grass or replaces grassland.",
+      "followUpId": "L20-Q08",
+      "scope": {
+        "lessonId": "L20",
+        "section": "5. Organization of Earth's Biosphere",
+        "pages": {
+          "printed": [
+            271
+          ],
+          "pdf": [
+            307
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            271
+          ],
+          "pdfPages": [
+            307
+          ],
+          "locator": "Section 5. Organization of Earth's Biosphere (human impacts)",
+          "supports": "Humans grazed livestock on grasslands, adding competition for grass, and turned grasslands into farms and neighborhoods; using food and water leaves less for other species, whose decline changes the ecosystem."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Three correct, two that do not reduce grass. Drafted from rendered p. 271. Reviser (2026-10-14): choice e replaced (pedagogy). Rationale reworded from 'each horse left has more to eat': tamed horses may still graze the same land, so the safe claim is only that capture leaves no less grass. Verifier (verify-agent, round 1): checked against the rendered p. 271 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met. Keyed choice a is one character longer than distractor d in a three-of-five multi; not a usable length cue. Choices d and e correctly leave grass unchanged or increased.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor e now tests the textbook's horse-capture point"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L20-Q28",
+      "lessonId": "L20",
+      "objectiveIds": [
+        "L20-O5"
+      ],
+      "conceptTags": [
+        "human-impact",
+        "water",
+        "ecosystem-change"
+      ],
+      "familyId": "L20-F11",
+      "category": "application",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "A growing city starts pumping much more water out of a river for its homes and farms. Which prediction best fits what you know about resources and ecosystems?",
+      "accessiblePrompt": "A growing city starts pumping much more water out of a river for its homes and farms. Which prediction best fits what you know about resources and ecosystems?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Some river populations may shrink, changing the ecosystem.",
+          "rationale": "Correct. Taking water reduces what other species can use; populations that need it may shrink, changing the ecosystem."
+        },
+        {
+          "id": "b",
+          "text": "Nothing changes, because people are not part of ecosystems.",
+          "rationale": "People use resources from ecosystems, even in cities, so their use affects other species."
+        },
+        {
+          "id": "c",
+          "text": "Every population in the river will die out right away.",
+          "rationale": "Effects depend on how much water is taken and how each species copes; a sudden total loss is not a sure thing."
+        },
+        {
+          "id": "d",
+          "text": "The city's people will feel the effects, but the river's wildlife will not.",
+          "rationale": "Fish, plants, and other river species need that water too. When the city takes more, less is left for them."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When people use a resource, less of it remains for other species. As populations that need that water decline, the whole ecosystem changes. How large the effect is depends on how much water is taken and on other conditions.",
+      "misconception": "Human resource use has no effect on wild populations, or it always wipes them out completely.",
+      "hint": "Who else in the ecosystem needs that river water?",
+      "followUpId": "L20-Q26",
+      "scope": {
+        "lessonId": "L20",
+        "section": "5. Organization of Earth's Biosphere",
+        "pages": {
+          "printed": [
+            271
+          ],
+          "pdf": [
+            307
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "type": "textbook",
+          "documentId": "BSA7-SE",
+          "printedPages": [
+            271
+          ],
+          "pdfPages": [
+            307
+          ],
+          "locator": "Section 5. Organization of Earth's Biosphere (human impacts)",
+          "supports": "Humans grazed livestock on grasslands, adding competition for grass, and turned grasslands into farms and neighborhoods; using food and water leaves less for other species, whose decline changes the ecosystem."
+        }
+      ],
+      "review": {
+        "status": "reviewed",
+        "notes": "Original river example applying p. 271's human-use idea; avoids absolute claims. Drafted from rendered p. 271. Reviser (2026-10-14): choice d replaced (pedagogy). Verifier (verify-agent, round 1): checked against the rendered p. 271 and the guide's rules; correct, single best answer, distinct from the rest of the bank, citations accurate, original wording, read-aloud version complete, guardrails met.",
+        "passes": [
+          {
+            "by": "author-agent",
+            "date": "2026-10-14",
+            "result": "drafted"
+          },
+          {
+            "by": "science-review-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          },
+          {
+            "by": "pedagogy-review-agent",
+            "date": "2026-10-14",
+            "result": "fixed: distractor d now carries reasoning a learner might follow"
+          },
+          {
+            "by": "verify-agent",
+            "date": "2026-10-14",
+            "result": "pass"
+          }
+        ]
+      }
+    }
+  ]
+}
