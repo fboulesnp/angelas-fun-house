@@ -42,7 +42,45 @@ RESULTS_SUMMARY
 
 ## Known limitations and open items
 
-RESULTS_LIMITATIONS
+These are the honest gaps as of this build. None of them blocks play; all of them are worth a
+human's eyes before the game is used with a child.
+
+**Not yet done by a person**
+- No human has played any table. The hands-on sessions above are scripted keyboard play in
+  Chrome; they prove each table launches, flips, scores, parks for questions and saves, not
+  that it is fun or fair to a 12-year-old. A real first-minute playtest of a few tables is the
+  single most valuable next step.
+- No teacher has reviewed the 844 questions. Every question was written and reviewed by AI
+  agents against the textbook pages and cited sources, with a verifier that could only mark a
+  question `reviewed` after re-checking it. The per-lesson records in `docs/content-review/`
+  list the places where the textbook (or its OCR) looked wrong or dated and how the content
+  handles each; a teacher should spot-check those first.
+- No physical phone or tablet, no Safari or Firefox, no screen reader, no gamepad. The portrait
+  layout and touch controls were exercised only in Chrome's mobile emulation.
+
+**Known rough edges in the engine (all tables play around them)**
+- The aiming bot that validates tables only aims the lower flippers and learns inlane timings
+  from a slow feed, so soak drain counts are pessimistic; a person will drain less. A
+  multi-target drop bank always shows as "not reachable" in a shot map because each trial is
+  one shot.
+- The 3D view draws floor labels for rollovers, targets and saucers but not for ramps,
+  portals or spinners, and saucer labels sit at a fixed offset; tables paint those names into
+  the playfield art instead.
+- Set pieces behind the head of the cabinet (Z < −6.4) are visible only during the opening
+  fly-in at desktop framing; every table keeps its spectacle in the side regions.
+- L09's left kickback returns 11 of 15 probe balls (all others return 15 of 15).
+- The 2D fallback renderer is complete but has had far less attention than the 3D view.
+
+**Content**
+- Each lesson bank has 28–32 questions; 24+ per lesson are `reviewed` and in play, a few are
+  `needs-review` or `rejected` and never shown. They are kept in the files for the record.
+- Explanations and glossary definitions are original wording; the only textbook phrases
+  reproduced are section titles and short quoted claims inside review flags.
+
+**Process**
+- Work was interrupted three times by account usage limits and resumed from `BUILD_STATUS.md`
+  and the workflow journals; the per-table polish pass therefore ran in two batches on
+  different days. Nothing was lost, but the dates in the review records reflect that.
 
 ## How to reproduce every number above
 
