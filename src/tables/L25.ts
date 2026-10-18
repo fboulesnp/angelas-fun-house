@@ -90,9 +90,11 @@ function build(b: TableBuilder) {
   b.saucer('vent', VENT[0], VENT[1], { role: 'scoop', ejectDeg: 80, ejectSpeed: 720, captureMaxSpeed: 2600, label: 'VENT', icon: 'flame' });
 
   // --- Plate-boundary survey markers on the mountain's east face ---
-  b.target('convergent', [227, 412], [227, 462], { group: 'plates', label: 'CONVERGENT' });
-  b.target('divergent', [227, 472], [227, 522], { group: 'plates', label: 'DIVERGENT' });
-  b.target('transform', [227, 532], [225.8, 580], { group: 'plates', label: 'TRANSFORM' });
+  // The markers carry the plate motion (short, so the three labels the 2D view prints beside
+  // them never run together); the boundary names and arrows are printed on the mountain.
+  b.target('convergent', [227, 412], [227, 462], { group: 'plates', label: 'COLLIDE' });
+  b.target('divergent', [227, 472], [227, 522], { group: 'plates', label: 'SPREAD' });
+  b.target('transform', [227, 532], [225.8, 580], { group: 'plates', label: 'SLIDE' });
 
   // --- Two bridge models on the test ground along the mountain's foot ---
   b.target('model_a', footPoint(10, 7), footPoint(44, 7), { group: 'models', label: 'MODEL A' });
@@ -1562,7 +1564,7 @@ export const L25: TableDef = {
       id: 'm2',
       kind: 'relate',
       title: 'Read the Restless Mountain',
-      brief: "Read the volcano's three sensors, then compare rising magma in the Magma Vent with a locked fault on the Seismograph.",
+      brief: "Read the volcano's three sensors, then compare rising magma at the Magma Vent with a locked fault that slips and sends waves across the Seismograph.",
       objectiveIds: ['L25-O2', 'L25-O3'],
       stages: [
         { kind: 'collect', text: 'Read the sensors: pop QUAKES, GAS and SWELL', match: { type: 'bumper', group: 'signs' }, count: 3, distinct: true, lamps: ['sensor_quakes', 'sensor_gas', 'sensor_swell'], preview: ['signs'] },
@@ -1584,7 +1586,7 @@ export const L25: TableDef = {
         { kind: 'shots', text: 'Same test for Model B: hit it, then the Bridge Tester', shots: ['modelB', 'bridge'], order: 'sequence' },
         { kind: 'discover', text: 'Shoot the Observatory to choose a design', pocket: 'observatory', questions: 1, types: ['classify', 'match'] },
       ],
-      discovery: 'A fair test gives every design the same shaking. Engineers pick the one that meets the criteria within the constraints, and important bridges must keep working after strong, rare quakes.',
+      discovery: 'A fair test gives every design the same shaking. Engineers pick the one that meets the criteria within the constraints; a major bridge is designed to stay usable even in a strong, rare quake.',
       reward: 'jackpot',
       sceneryLevel: 3,
     },
