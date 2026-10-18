@@ -20,8 +20,8 @@ after the reset.
 |---|---|---|
 | 1 | Audit + foundation (manifest verified, schema, validator, architecture) | Done |
 | 2 | Vertical slice: L01 Neon Atom Midway (physics, missions, questions, audio, saving, 3D) | Done — passes table-check (4 seeds × 20 min) |
-| 3 | Architecture stress check (cycle table + ecosystem table) | In progress via table workflow (L07, L06) |
-| 4 | Full game: 29 tables, 696+ questions, mansion map, journal, explorer, celebrations | Content done (844 reviewed, validator clean); tables in final polish pass |
+| 3 | Architecture stress check (cycle table + ecosystem table) | Done — L07 Planet Carousel and L06 Food-Web Forest built, reviewed, passing |
+| 4 | Full game: 29 tables, 696+ questions, mansion map, journal, explorer, celebrations | 29/29 tables pass table-check (20-min soaks); 844 reviewed questions; L24/L25 polish pass finishing |
 | 5 | Quality pass (every chapter, desktop/mobile, a11y, perf, audio) | Pending |
 | 6 | Handoff (README, reports, screenshots) | Pending |
 
@@ -39,34 +39,34 @@ Columns: content (reviewed questions / validator), table (table-check), manual r
 | Lesson | Attraction | Content | Table | Notes |
 |---|---|---|---|---|
 | L01 | Neon Atom Midway | 27 reviewed, 0 errors | PASS | vertical slice, hand-tuned |
-| L02 | Molecule Masquerade | 29 reviewed, 0 errors | in workflow | |
-| L03 | Mystery Material Manor | 28 reviewed, 0 errors | in workflow | |
-| L04 | Sunbeam Conservatory | 28 reviewed, 0 errors | in workflow | |
-| L05 | Mitochondria Midnight Express | 28 reviewed, 0 errors | in workflow | |
-| L06 | Food-Web Forest | 28 reviewed, 0 errors | in workflow | |
-| L07 | Planet Carousel | 29 reviewed, 0 errors | in workflow | |
-| L08 | Canyon of Clues | 28 reviewed, 0 errors | in workflow | |
-| L09 | Deep-Time Dream Machine | 31 reviewed, 0 errors | in workflow | |
-| L10 | Four-Sphere Skyworks | 30 reviewed, 0 errors | in workflow | |
-| L11 | Glacier Clocktower | 28 reviewed, 0 errors | in workflow | |
-| L12 | Reaction Revelry | 29 reviewed, 0 errors | in workflow | |
-| L13 | Conservation Clockworks | 30 reviewed, 0 errors | in workflow | |
-| L14 | Firelight & Frost Pavilion | 28 reviewed, 0 errors | in workflow | |
-| L15 | Inventor's Wonderworks | 31 reviewed, 0 errors | in workflow | |
-| L16 | Pangaea Puzzle Palace | 32 reviewed, 0 errors | in workflow | |
-| L17 | Rock-Cycle Rollercoaster | 31 reviewed, 0 errors | in workflow | |
-| L18 | Raindrop Royal Regatta | 28 reviewed, 0 errors | in workflow | |
-| L19 | Resource Treasure Railway | 29 reviewed, 0 errors | in workflow | |
-| L20 | Habitat Hide-and-Seek | 28 reviewed, 0 errors | in workflow | |
-| L21 | Wild Alliance Ballroom | 28 reviewed, 0 errors | in workflow | |
-| L22 | Comeback Garden | 30 reviewed, 0 errors | in workflow | |
-| L23 | Particle Dance Party | 28 reviewed, 0 errors | in workflow | |
-| L24 | Heatwave Ice Palace | 28 reviewed, 0 errors | in workflow | |
-| L25 | Rumble Mountain Rescue | 28 reviewed, 0 errors | in workflow | |
-| L26 | Stormwater Harbor | 29 reviewed, 0 errors | in workflow | |
-| L27 | Biodiversity Lantern Festival | 30 reviewed, 0 errors | in workflow | |
-| L28 | Living World Market | 31 reviewed, 0 errors | in workflow | |
-| L29 | Future Garden Grand Finale | 32 reviewed, 0 errors | in workflow | |
+| L02 | Molecule Masquerade | 29 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L03 | Mystery Material Manor | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L04 | Sunbeam Conservatory | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L05 | Mitochondria Midnight Express | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L06 | Food-Web Forest | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L07 | Planet Carousel | 29 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L08 | Canyon of Clues | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L09 | Deep-Time Dream Machine | 31 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L10 | Four-Sphere Skyworks | 30 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L11 | Glacier Clocktower | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L12 | Reaction Revelry | 29 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L13 | Conservation Clockworks | 30 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L14 | Firelight & Frost Pavilion | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L15 | Inventor's Wonderworks | 31 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L16 | Pangaea Puzzle Palace | 32 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L17 | Rock-Cycle Rollercoaster | 31 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L18 | Raindrop Royal Regatta | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L19 | Resource Treasure Railway | 29 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L20 | Habitat Hide-and-Seek | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L21 | Wild Alliance Ballroom | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L22 | Comeback Garden | 30 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L23 | Particle Dance Party | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L24 | Heatwave Ice Palace | 28 reviewed, 0 errors | PASS (polish pass running) | built, independent review in progress |
+| L25 | Rumble Mountain Rescue | 28 reviewed, 0 errors | PASS (polish pass running) | built, independent review in progress |
+| L26 | Stormwater Harbor | 29 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L27 | Biodiversity Lantern Festival | 30 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L28 | Living World Market | 31 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L29 | Future Garden Grand Finale | 32 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
 
 ## Done since the 3D switch (verified)
 
