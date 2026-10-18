@@ -34,7 +34,21 @@ has taken place yet._
 
 ## Performance (measured)
 
-RESULTS_PERF
+Measured with `scripts/perf.ts`: 400 frames of auto-flip play per run, headless Chrome with
+Metal, 1600×1000, on this Apple-silicon iMac. Draw calls and triangles are whole-frame counts
+(all post-processing passes included). The game defaults to **auto**, which starts on High and
+steps down if frames run long; Ultra (reflections, ambient occlusion, glass ball) is an opt-in
+tier that this machine does not hold at 60 fps.
+
+| Table | Ultra | High | Medium | Low |
+|---|---|---|---|---|
+| L01 Neon Atom Midway | 24.8 ms avg (40 fps), p95 33 ms, 1599 calls | 7.8 ms (128 fps), p95 15 ms, 644 calls | 4.3 ms (234 fps), p95 7 ms | 2.6 ms (392 fps), p95 5 ms |
+| L13 Conservation Clockworks | 24.4 ms (41 fps), p95 40 ms, 2701 calls | 8.3 ms (120 fps), p95 17 ms, 553 calls | 4.5 ms (220 fps), p95 9 ms | 2.7 ms (371 fps), p95 5 ms |
+| L17 Rock-Cycle Rollercoaster | 25.4 ms (39 fps), p95 41 ms, 1503 calls | 8.7 ms (115 fps), p95 23 ms, 601 calls | 4.7 ms (212 fps), p95 9 ms | 2.8 ms (360 fps), p95 5 ms |
+| L29 Future Garden Grand Finale | 24.3 ms (41 fps), p95 47 ms, 1516 calls | 11.2 ms (89 fps), p95 29 ms, 930 calls | 7.9 ms (127 fps), p95 14 ms | 5.1 ms (195 fps), p95 9 ms |
+
+No phone or tablet was measured; the Medium and Low tiers exist for that class of device but
+their real-device frame rates are unknown.
 
 ## Results summary
 
@@ -47,7 +61,7 @@ RESULTS_PERF
 | Unit / behaviour tests | 72 pass (physics, session, missions, learning, persistence, content), each mutation-checked when added. |
 | Keyboard e2e | 28/28 in Chrome: menus, launch, flip, pause/resume, blur, resize, tab hide, camera change, exit, Explorer question, in-play Wonder Pocket question, save survives reload. A separate check confirmed classify questions are one tab stop per row with arrow-key selection. |
 | Accessibility scan | axe-core: 0 violations on 8 screens. |
-| Hands-on first-minute sessions | 29 tables × 75 s of scripted keyboard play in Chrome (plus L01 on the 2D renderer): 115 launches, 45 balls lost, 3 missions completed, 10 discovery questions answered, scores 37,090–692,090 (median 77,680), **0 page errors**. Per-table notes in `docs/manual-review.json`. |
+| Hands-on first-minute sessions | 29 tables × 75 s of scripted keyboard play in Chrome (plus L01 on the 2D renderer): 118 launches, 46 balls lost, 3 missions completed, 3 discovery questions answered, scores 37,090–692,090 (median 80,290), **0 page errors**. Per-table notes in `docs/manual-review.json`. |
 | Production build | `npm run build` passes (TypeScript check + Vite); main bundle ≈ 87 KB gzipped, three.js ≈ 206 KB gzipped, each table lazy-loaded (12–31 KB gzipped). `dist/` served with `vite preview` and a table loaded and played in Chrome. |
 | Content and asset safety | No network calls, no outside images, models or audio; everything procedural or synthesized. No trademarked names in the app. The textbook PDF and extracted text are outside the repository and ignored by git. |
 
