@@ -21,8 +21,8 @@ after the reset.
 | 1 | Audit + foundation (manifest verified, schema, validator, architecture) | Done |
 | 2 | Vertical slice: L01 Neon Atom Midway (physics, missions, questions, audio, saving, 3D) | Done — passes table-check (4 seeds × 20 min) |
 | 3 | Architecture stress check (cycle table + ecosystem table) | Done — L07 Planet Carousel and L06 Food-Web Forest built, reviewed, passing |
-| 4 | Full game: 29 tables, 696+ questions, mansion map, journal, explorer, celebrations | 29/29 tables pass table-check (20-min soaks); 844 reviewed questions; L24/L25 polish pass finishing |
-| 5 | Quality pass (every chapter, desktop/mobile, a11y, perf, audio) | Pending |
+| 4 | Full game: 29 tables, 696+ questions, mansion map, journal, explorer, celebrations | Done — 29/29 tables pass table-check (3 × 20-min soaks, 0 warnings), every table reviewed; 844 reviewed questions |
+| 5 | Quality pass (every chapter, desktop/mobile, a11y, perf, audio) | In progress — e2e 28/28, axe 0 violations, kickback sweep, hands-on first-minute sessions running |
 | 6 | Handoff (README, reports, screenshots) | Pending |
 
 ## How work is produced
@@ -61,8 +61,8 @@ Columns: content (reviewed questions / validator), table (table-check), manual r
 | L21 | Wild Alliance Ballroom | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
 | L22 | Comeback Garden | 30 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
 | L23 | Particle Dance Party | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
-| L24 | Heatwave Ice Palace | 28 reviewed, 0 errors | PASS (polish pass running) | built, independent review in progress |
-| L25 | Rumble Mountain Rescue | 28 reviewed, 0 errors | PASS (polish pass running) | built, independent review in progress |
+| L24 | Heatwave Ice Palace | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
+| L25 | Rumble Mountain Rescue | 28 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
 | L26 | Stormwater Harbor | 29 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
 | L27 | Biodiversity Lantern Festival | 30 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
 | L28 | Living World Market | 31 reviewed, 0 errors | PASS | built + independent review-and-fix pass |
@@ -89,7 +89,11 @@ Columns: content (reviewed questions / validator), table (table-check), manual r
   motif and chime layer inside its wing theme.
 - e2e now also covers resize mid-game, tab hide, camera change from Pause, and a Wonder Pocket
   question answered by keyboard with the save surviving a reload (28/28 PASS).
-- Tests: 34 unit/behaviour tests (added ramp layer return, portal transit/exit/save, lamp reset).
+- Tests: 72 unit/behaviour/content tests (added ramp layer return, portal transit/exit/save, lamp reset,
+  celebration progress range, Free Play with questions off, plunger carrying every ball on the rod).
+- 2026-10-18: plunger multiball race fixed (second ball on the rod was left trapped under the tip);
+  fireworks/diverter per-frame allocations removed; warm fill lights no longer print ball-like dots;
+  map first-frame dt clamped; celebration progress clamped to 0..1.
 
 ## Next actions
 
